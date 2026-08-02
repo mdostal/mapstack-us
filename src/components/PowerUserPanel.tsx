@@ -7,6 +7,7 @@ import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
 import { CitySearch } from "@/components/CitySearch";
+import { FilterPanel } from "@/components/FilterPanel";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -40,6 +41,7 @@ export function PowerUserPanel() {
   const [selected, setSelected] = useState<ActiveLayer[]>(decoded?.selections.length ? decoded.selections : DEFAULT_SELECTION);
   const [sortBy, setSortBy] = useState<ActiveLayer | null>(decoded?.sortBy ?? null);
   const [direction, setDirection] = useState<SortDirection>(decoded?.direction ?? "asc");
+  const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function toggle(layer: ActiveLayer) {
@@ -93,6 +95,7 @@ export function PowerUserPanel() {
         <div className="flex flex-col gap-4 md:w-72 md:flex-shrink-0">
           <CitySearch onSelectCity={setSelectedCityId} />
           <LayerPicker selected={selected} onToggle={toggle} />
+          <FilterPanel selected={selected} year={year} onFilterChange={setFilteredCityIds} />
           <SavedViewsPanel
             currentSelections={selected}
             currentSortBy={sortBy}
@@ -111,6 +114,7 @@ export function PowerUserPanel() {
             setSortBy(nextSortBy);
             setDirection(nextDirection);
           }}
+          visibleCityIds={filteredCityIds}
         />
       </div>
     </main>

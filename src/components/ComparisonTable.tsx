@@ -16,6 +16,9 @@ interface Props {
   sortBy: ActiveLayer | null;
   direction: SortDirection;
   onSortChange: (sortBy: ActiveLayer | null, direction: SortDirection) => void;
+  /** null = no filter applied (show all cities); a Set restricts rendered
+   * rows to those ids -- see FilterPanel / src/lib/db/filter.ts. */
+  visibleCityIds?: Set<string> | null;
 }
 
 /**
@@ -35,6 +38,7 @@ export function ComparisonTable({
   sortBy,
   direction,
   onSortChange,
+  visibleCityIds = null,
 }: Props) {
   const context: DatasetTimeContext | undefined = year !== null ? { year } : undefined;
   const selectedRowRef = useRef<HTMLTableRowElement>(null);
@@ -64,14 +68,24 @@ export function ComparisonTable({
     }
   }
 
+  const visibleCities = visibleCityIds ? cities.filter((c) => visibleCityIds.has(c.id)) : cities;
+
   const sortColumn = sortBy ? columns.find((c) => isSameLayer(c.item, sortBy)) : undefined;
   const sortedCities = sortColumn
     ? sortByValue(
-        cities,
+        visibleCities,
         (city) => sortColumn.resolved!.dataset.getValue(city.id, sortColumn.resolved!.layer.id, context)?.value ?? null,
         direction,
       )
-    : cities;
+    : visibleCities;
+
+  if (visibleCityIds && visibleCityIds.size === 0) {
+    return (
+      <div className="flex flex-1 items-center justify-center rounded-lg border border-dashed border-zinc-300 p-8 text-sm text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
+        No cities match your filter.
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 overflow-auto rounded-lg border border-zinc-200 dark:border-zinc-800">
