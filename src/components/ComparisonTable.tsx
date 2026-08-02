@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import cities from "@data/cities.json";
 import { resolveActiveLayer, activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { sortByValue, type SortDirection } from "@/lib/power-user/sort";
@@ -11,6 +10,11 @@ interface Props {
   year?: number | null;
   selectedCityId?: string | null;
   onSelectCity?: (cityId: string) => void;
+  /** Sort state is controlled by the parent (not local) so pu-4 can save and
+   * restore it as part of a named view. */
+  sortBy: ActiveLayer | null;
+  direction: SortDirection;
+  onSortChange: (sortBy: ActiveLayer | null, direction: SortDirection) => void;
 }
 
 /**
@@ -22,9 +26,15 @@ interface Props {
  * by that single column only (pu-2) -- no cross-column combination. Row
  * click selects a city, syncing the shared `city` URL param (pu-3).
  */
-export function ComparisonTable({ selected, year = null, selectedCityId = null, onSelectCity }: Props) {
-  const [sortBy, setSortBy] = useState<ActiveLayer | null>(null);
-  const [direction, setDirection] = useState<SortDirection>("asc");
+export function ComparisonTable({
+  selected,
+  year = null,
+  selectedCityId = null,
+  onSelectCity,
+  sortBy,
+  direction,
+  onSortChange,
+}: Props) {
   const context: DatasetTimeContext | undefined = year !== null ? { year } : undefined;
 
   if (selected.length < 2) {
@@ -39,10 +49,9 @@ export function ComparisonTable({ selected, year = null, selectedCityId = null, 
 
   function handleHeaderClick(item: ActiveLayer) {
     if (sortBy && isSameLayer(sortBy, item)) {
-      setDirection((d) => (d === "asc" ? "desc" : "asc"));
+      onSortChange(item, direction === "asc" ? "desc" : "asc");
     } else {
-      setSortBy(item);
-      setDirection("asc");
+      onSortChange(item, "asc");
     }
   }
 

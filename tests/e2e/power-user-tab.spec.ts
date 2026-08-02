@@ -78,3 +78,36 @@ test("clicking a column header sorts the city rows by that column, single criter
   await grassHeader.getByRole("button").click();
   await expect(grassHeader).toHaveAttribute("aria-sort", "descending");
 });
+
+test("saving, restoring, renaming, and deleting a view, and it survives a reload", async ({ page }) => {
+  await page.goto("/advanced");
+
+  // Save the current (default) view.
+  await page.getByRole("button", { name: "Save current view" }).click();
+  await page.getByLabel("View name").fill("My Comparison");
+  await page.getByRole("button", { name: "Save" }).click();
+  await expect(page.getByText("My Comparison")).toBeVisible();
+
+  // Survives a full reload (localStorage-backed).
+  await page.reload();
+  await expect(page.getByText("My Comparison")).toBeVisible();
+
+  // Change the selection, then restore the saved view to prove restore
+  // actually re-applies the saved selections/sort, not just re-displays them.
+  await page.getByLabel("Grass", { exact: true }).uncheck();
+  await expect(page.getByText("Select 2+ layers on the left to compare cities.")).toBeVisible();
+  await page.getByRole("button", { name: "Restore saved view: My Comparison" }).click();
+  await expect(page.getByRole("columnheader", { name: /Allergy severity: Grass/ })).toBeVisible();
+
+  // Rename.
+  await page.getByRole("button", { name: "Rename saved view: My Comparison" }).click();
+  await page.locator('input[id^="rename-"]').fill("Renamed View");
+  await page.getByRole("button", { name: "Save", exact: true }).click();
+  await expect(page.getByText("Renamed View")).toBeVisible();
+  await expect(page.getByText("My Comparison")).not.toBeVisible();
+
+  // Delete.
+  page.once("dialog", (dialog) => dialog.accept());
+  await page.getByRole("button", { name: "Delete saved view: Renamed View" }).click();
+  await expect(page.getByText("No saved views yet.")).toBeVisible();
+});
