@@ -1,0 +1,96 @@
+id: pu-3-shared-view-state
+epic: power-user-tab
+title: Share selectedCityId and year between the simple view and the advanced route
+status: completed
+complexity: low
+methodology: classic
+depends_on: [pu-1-comparison-table]
+
+parallel_allowed: true
+parallel_rationale: bounded-slice
+files_to_modify:
+  - file: src/lib/shared-view-params.ts
+    change: "New shared helper both routes use to read/write the city/year URL params — the single source of truth for the param names/format."
+  - file: src/app/page.tsx
+    change: "Read/write city + year via the shared helper (currently local useState only)."
+  - file: src/app/advanced/page.tsx
+    change: "Read/write city + year via the shared helper on mount and on change."
+
+description: |
+  Resolves design-discussion.md open questions 2 and 6: selecting a city (or
+  changing the year) on / and navigating to /mapstack/advanced (or vice versa)
+  should preserve that selection via URL params (?city=&year=), read on mount
+  and written via router.replace (no full navigation) on change. This is
+  vertical-plan.md Slice 3 — independent of pu-2 (disjoint files: this story
+  touches page.tsx x2 + a new shared param helper; pu-2 touches sort.ts +
+  ComparisonTable.tsx).
+
+  A single shared helper (not two independent per-route implementations) is
+  required specifically to avoid design-discussion §4's flagged risk: if the
+  two routes disagree on param name/format, the shared selection silently
+  drops instead of erroring loudly.
+
+acceptance_criteria:
+  - "Given a user selects a city on /, when they navigate to /mapstack/advanced via a link, then the same city is pre-selected there."
+  - "Given a user selects a city on /mapstack/advanced, when they navigate back to /, then the same city is pre-selected there."
+  - "Given a user changes the year on either route, when they navigate to the other route, then the same year carries over."
+  - "Given both routes import the same shared-view-params helper, when either route's param-reading logic changes, then there is exactly one place (the helper) that defines the param names/format — no duplicated parsing logic in either page.tsx."
+
+steps:
+  - id: research
+    description: Read the current src/app/page.tsx state management (useState for selectedCityId/year) to determine the minimal-diff way to swap in URL-param-backed state.
+    agent: researcher
+  - id: implement
+    description: Implement src/lib/shared-view-params.ts and wire both routes to it per vertical-plan.md Slice 3.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "Playwright e2e — select a city on /, follow a link to /mapstack/advanced, assert same city selected; reverse direction; same for year. Verify with: pnpm test:e2e"
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review implementation and tests for correctness and convention compliance — confirm no duplicated param-parsing logic exists outside the shared helper.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [next.js, react]
+  key_files:
+    - path: src/components/MapstackApp.tsx
+      purpose: "Current single source of selectedCityId/year state (local useState) — this story doesn't rewrite this component's rendering, only how it sources its initial city/year."
+    - path: src/app/page.tsx
+      purpose: "Server component wrapper — the useSearchParams()/router.replace() wiring for the simple view lands at this boundary."
+
+files_to_modify:
+  - file: src/lib/shared-view-params.ts
+    change: "New: readViewParams()/writeViewParams() or equivalent, single source of param names/format."
+  - file: src/app/page.tsx
+    change: "Source initial city/year from the shared helper instead of local-only state."
+  - file: src/app/advanced/page.tsx
+    change: "Source initial city/year from the shared helper on mount; write on change."
+
+code_examples: []
+
+design_decisions:
+  - decision: "One shared helper module, not per-route duplicated logic."
+    rationale: "Design-discussion §4 low-severity risk explicitly calls out that a naming/format mismatch between routes would silently drop the shared selection rather than error — a single source of truth eliminates that failure mode by construction."
+
+risks:
+  - severity: medium
+    description: "If the shared helper's param contract changes later without updating both call sites, the failure mode is silent (dropped selection, not an error)."
+    mitigation: "Acceptance criteria #4 requires exactly one place defines the param names/format; reviewer step explicitly checks for duplicated parsing logic."
+
+references:
+  - path: .pHive/epics/power-user-tab/docs/design-discussion.md
+    relevant_excerpt: |
+      Low — shared selectedCityId via URL param adds a small cross-view
+      contract. Both / and /mapstack/advanced need to agree on the param
+      name and format; a mismatch would silently drop the shared selection
+      rather than error loudly.

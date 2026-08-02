@@ -1,0 +1,35 @@
+Wireframe — /mapstack/advanced (Power-User Comparison Table + Layer Picker)
+Rendition 1 — ASCII fallback (Frame0 CLI not installed on this machine)
+No brand-system.yaml found; generic layout conventions applied, matching the
+existing app's sidebar+content shell (see src/components/MapstackApp.tsx).
+
++--------------------------------------------------------------------------------+
+| Mapstack                                    [Simple view]  [Advanced]  [Theme] |
++---------------------+------------------------------------------------------------+
+| LAYER PICKER         | COMPARISON TABLE                                          |
+| (left sidebar,        |                                                            |
+|  matches existing      | City            | Allergy: Grass ^v | Crime: Violent ^v   |
+|  AddLayerPanel width)  |                  | "Climate-modeled   | "FBI-reported,      |
+|                         |                  |  severity, 0-100.  |  year-scoped        |
+| [ ] Allergy            |                  |  See methodology." |  percentile. See     |
+|    [ ] Grass           |                  |                    |  methodology."        |
+|    [ ] Tree            | Seattle, WA      |        72          |         41            |
+|    [ ] Ragweed         | Austin, TX       |        58          |         67            |
+|                         | Chicago, IL      |        no data     |         30            |
+| [x] Crime               | ...              |        ...         |         ...            |
+|    [x] Violent           |                                                            |
+|    [ ] Property          | (^v = clickable column header, toggles asc/desc sort;   |
+|                          |  currently sorted by "Crime: Violent" ascending)         |
+| [x] Allergy              |                                                            |
+|    [x] Grass             | Empty state (< 2 layers selected):                       |
+|                          |  "Select 2+ layers on the left to compare cities."       |
++---------------------+------------------------------------------------------------+
+
+Selected-city sync note (pu-3, not yet built when this wireframe was drawn):
+  Row click -> highlights row + syncs `city` URL param shared with the simple
+  view (matches CityDetailPanel's existing click-to-select interaction).
+
+Saved-views note (pu-4, not yet built): a "Saved views" section will render
+below the layer picker in this same left column once pu-4 lands — this
+wireframe reserves that space but does not design it (separate topic:
+power-user-saved-views).

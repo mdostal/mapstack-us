@@ -1,0 +1,46 @@
+name: power-user-tab
+title: Advanced Power-User Tab
+description: >
+  A new /mapstack/advanced route for power users: a transparent per-city
+  comparison table across 2+ datasets (methodology visible in each column
+  header, no computed cross-dataset score), single-criterion sort, shared
+  city/year state with the simple view, and localStorage-backed saved views.
+  Explicitly excludes CSV import, chat-with-your-data, feedback/comments, data
+  export, and any weighted/combined ranking — all deferred to future epics.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [ui, data]
+  roster: [researcher, technical-writer, tpm, ui-designer, architect]
+  per_tag_reasoning:
+    ui: "New UI surface requested (advanced tab, comparison table, layer picker) — has_ui: true in project-profile.yaml, so ui-designer included."
+    data: "Cross-dataset combination/import questions required data-model analysis (Dataset interface fit, scoring-basis commensurability) — architect included (no project gate on this tag)."
+  confidence: matched
+  gate_decisions:
+    ui: included
+    data: included
+
+stories:
+  - id: pu-1-comparison-table
+    title: Power-user comparison table — new route, checkbox layer picker, per-city table
+    complexity: medium
+    depends_on: []
+  - id: pu-2-sort
+    title: Single-criterion sort for the comparison table
+    complexity: low
+    depends_on: [pu-1-comparison-table]
+  - id: pu-3-shared-view-state
+    title: Share selectedCityId and year between the simple view and the advanced route
+    complexity: low
+    depends_on: [pu-1-comparison-table]
+  - id: pu-4-saved-views
+    title: Saved views — persist selections + sort choice, restore via localStorage and URL
+    complexity: medium
+    depends_on: [pu-2-sort, pu-3-shared-view-state]

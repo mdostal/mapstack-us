@@ -1,0 +1,143 @@
+id: pu-1-comparison-table
+epic: power-user-tab
+title: Power-user comparison table — new route, checkbox layer picker, per-city table
+status: completed
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Add a new route at /mapstack/advanced (src/app/advanced/page.tsx) that lets a
+  user pick 2+ (dataset, layer) pairs via checkboxes and see a comparison table:
+  one column per selection, each column header carrying that dataset's
+  methodology note (not a footnote), one row per city. This is the first
+  vertical slice of the power-user-tab epic — no sort, no shared city/year
+  state with the simple view, no saved views yet (those are pu-2, pu-3, pu-4).
+
+  Deliberately does NOT compute any cross-dataset combined/weighted score —
+  see .pHive/epics/power-user-tab/docs/design-discussion.md §3 for why (the
+  underlying scores aren't on a common statistical basis; combining them,
+  even with a visible formula, was removed from scope after an adversarial
+  grill pass flagged it as a black-box-heuristic risk).
+
+  This story introduces new user-facing vocabulary ("comparison table") that
+  is a distinct concept from the existing "multi-layer stacking" (simultaneous
+  map rendering) already documented in .pHive/CONTEXT.md — see cross_cutting
+  below for the required glossary follow-up.
+
+acceptance_criteria:
+  - "Given the user navigates to /mapstack/advanced, when the page loads, then a checkbox list of all (dataset, layer) pairs from the registry is shown."
+  - "Given the user checks 2+ (dataset, layer) pairs, when the selection changes, then a comparison table renders with one column per selection."
+  - "Given a comparison table column for a given dataset, when rendered, then its header includes that dataset's methodology note (not hidden in a footnote)."
+  - "Given a city has no data for a selected (dataset, layer, year), when getValue returns null, then the table cell shows an explicit 'no data' state, never a fabricated value."
+  - "Given fewer than 2 layers are selected, when the page renders, then the table area shows a clear empty/prompt state instead of an empty table."
+
+steps:
+  - id: research
+    description: Explore src/lib/datasets/registry.ts, active-layers.ts, CityDetailPanel.tsx's city-lookup pattern, and allergy-locator's ProfileCompare.tsx checkbox-list interaction shape.
+    agent: researcher
+  - id: ui-design
+    description: Delegate to /design for wireframes (atomic external call; see skills/design/SKILL.md). Already run during planning — see wireframes section below.
+    agent: ui-designer
+    delegates_to: design
+    depends_on: [research]
+  - id: implement
+    description: Implement the /mapstack/advanced route, PowerUserPanel, LayerPicker, and ComparisonTable components per the design discussion §3 points 1-2 and the approved wireframe brief.
+    agent: developer
+    depends_on: [ui-design]
+    inputs:
+      - source: step_output
+        step: ui-design
+        key: wireframe_brief
+  - id: test
+    description: "Write Playwright e2e coverage (navigate, select 2 layers, assert table columns + methodology text + null-data state) per design-discussion §7. Verify with: pnpm test:e2e"
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review implementation and tests for correctness and convention compliance (no cross-dataset score computed anywhere in this story's code).
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [next.js, react, tailwindcss]
+  key_files:
+    - path: src/lib/datasets/registry.ts
+      purpose: "DATASETS array + getDataset(id) — the enumeration point for the layer picker."
+    - path: src/lib/active-layers.ts
+      purpose: "ActiveLayer shape + resolveActiveLayer/isSameLayer/activeLayerKey helpers — reuse for selection state."
+    - path: src/lib/datasets/types.ts
+      purpose: "Dataset.getValue(cityId, layerId, context) — the read path for each table cell; methodologyUrl is the source for column-header notes."
+    - path: src/components/CityDetailPanel.tsx
+      purpose: "Existing CITY_BY_ID lookup pattern built from data/cities.json — reuse for the table's city rows."
+    - path: next.config.ts
+      purpose: "Confirms basePath: /mapstack applies automatically to any new route — no extra routing config needed."
+
+files_to_modify:
+  - file: src/app/advanced/page.tsx
+    change: "New route hosting the power-user tab."
+  - file: src/components/PowerUserPanel.tsx
+    change: "New top-level panel composing LayerPicker + ComparisonTable."
+  - file: src/components/LayerPicker.tsx
+    change: "New checkbox multi-select for (dataset, layer) pairs."
+  - file: src/components/ComparisonTable.tsx
+    change: "New per-city table, one column per selection, methodology note in header."
+
+code_examples:
+  - title: ActiveLayer shape and helpers to reuse for selection state
+    file: src/lib/active-layers.ts
+    snippet: |
+      export interface ActiveLayer {
+        datasetId: string;
+        layerId: string;
+      }
+      export function resolveActiveLayer(active: ActiveLayer): ResolvedActiveLayer | null {
+        const dataset = getDataset(active.datasetId);
+        if (!dataset) return null;
+        const layer = dataset.layers.find((l) => l.id === active.layerId);
+        if (!layer) return null;
+        return { ...active, dataset, layer };
+      }
+
+design_decisions:
+  - decision: "No cross-dataset combined score in this story (or this epic's v1)."
+    rationale: "Grill-record finding U1 — the underlying scores (percentile-rank vs. climate-modeled) aren't on a common statistical basis; combining them, even transparently, risks the project's own no-black-box-heuristics and gradients-not-buckets principles. See design-discussion.md §3.3."
+  - decision: "Real route (/mapstack/advanced), not a client-side tab toggle."
+    rationale: "Grill-record finding H1 — next.config.ts's basePath applies to any route automatically, so a route costs nothing extra and gets bookmarkability/back-forward for free."
+
+cross_cutting:
+  - concern: documentation
+    action: "This story introduces the 'comparison table' concept, distinct from CONTEXT.md's existing 'multi-layer stacking' entry. Add a new CONTEXT.md Terminology entry for 'comparison table' during the integrate step, cross-referencing the existing 'multi-layer stacking' entry so the distinction is documented, not just implied."
+
+risks:
+  - severity: medium
+    description: "A comparison table naturally invites an eyeballed cross-dataset comparison even without a computed score, since values sit side by side."
+    mitigation: "Column-header methodology notes are mandatory (acceptance criteria #3), not optional polish — this is the primary mitigation and is not deferrable to a later story."
+  - severity: low
+    description: "Cities with no data for a selected (dataset, layer, year) could render as blank/confusing rather than explicit."
+    mitigation: "Acceptance criteria #4 requires an explicit 'no data' state, never a blank cell or fabricated 0."
+
+references:
+  - path: .pHive/epics/power-user-tab/docs/design-discussion.md
+    relevant_excerpt: |
+      Renders a per-city comparison table: each selected (dataset, layer) as its
+      own column, with the dataset's methodology note **in the column header**
+      (not a footnote), so nothing reads as a single unexplained composite number.
+  - path: .pHive/epics/power-user-tab/docs/vertical-plan.md
+    relevant_excerpt: |
+      Slice 1 — Comparison table, no sort, no persistence. Goal: real, demoable
+      artifact proving the route/UI/data integration end to end.
+
+wireframes:
+  approved: .pHive/design/power-user-comparison-table/wireframe.txt
+  brief: .pHive/design/power-user-comparison-table/brief.md
+  renditions:
+    - .pHive/design/power-user-comparison-table/wireframe.txt
+  selected: 1
+  handoff_index: .pHive/design/index.yaml

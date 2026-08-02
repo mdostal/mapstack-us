@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { AddLayerPanel } from "@/components/AddLayerPanel";
 import { ActiveLayersList } from "@/components/ActiveLayersList";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
@@ -10,13 +11,13 @@ import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { DATASETS } from "@/lib/datasets/registry";
+import { useSharedViewParams } from "@/lib/shared-view-params";
 
 const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 export function MapstackApp() {
   const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
-  const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
-  const [year, setYear] = useState<number | null>(null);
+  const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function addLayer(layer: ActiveLayer) {
     setActive((prev) => (prev.some((a) => isSameLayer(a, layer)) ? prev : [...prev, layer]));
@@ -38,7 +39,12 @@ export function MapstackApp() {
             click a city.
           </p>
         </div>
-        <ThemeToggle />
+        <div className="flex items-center gap-3">
+          <Link href={`/advanced${queryString}`} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+            Advanced
+          </Link>
+          <ThemeToggle />
+        </div>
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-6 md:flex-row">

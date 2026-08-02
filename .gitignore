@@ -29,3 +29,9 @@ __pycache__/
 # methodology transparency) ARE committed.
 data/raw/crime-cache/
 data/raw/crime-offense-cache/
+
+# sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
+# and generated design PNGs are regenerated on demand, not committed.
+.pHive/epics/power-user-tab/docs/*.html
+.pHive/epics/power-user-tab/index.html
+.pHive/epics/**/docs/*.png
