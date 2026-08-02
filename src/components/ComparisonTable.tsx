@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import cities from "@data/cities.json";
 import { resolveActiveLayer, activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { sortByValue, type SortDirection } from "@/lib/power-user/sort";
@@ -36,6 +37,14 @@ export function ComparisonTable({
   onSortChange,
 }: Props) {
   const context: DatasetTimeContext | undefined = year !== null ? { year } : undefined;
+  const selectedRowRef = useRef<HTMLTableRowElement>(null);
+
+  useEffect(() => {
+    // Selecting a city via CitySearch (src/lib/db/client.ts-backed search)
+    // can select a row far outside the current scroll position -- scroll it
+    // into view rather than leaving the user to hunt for a highlighted row.
+    selectedRowRef.current?.scrollIntoView({ block: "nearest" });
+  }, [selectedCityId]);
 
   if (selected.length < 2) {
     return (
@@ -113,6 +122,7 @@ export function ComparisonTable({
             return (
               <tr
                 key={city.id}
+                ref={isSelected ? selectedRowRef : undefined}
                 onClick={() => onSelectCity?.(city.id)}
                 aria-selected={isSelected}
                 className={`${

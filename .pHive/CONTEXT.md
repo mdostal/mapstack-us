@@ -32,6 +32,13 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
 - **Methodology doc** — Every dataset's plain-language sourcing/scoring writeup
   (e.g. `data/crime-methodology.md`, `data/allergy-scoring.md`). Required per the
   transparent-scoring principle — no black-box heuristics.
+- **Data store** — The compiled, queryable SQLite projection of `DATASETS`
+  (`public/data.sqlite`, built by `src/lib/db/build-database.ts` /
+  `scripts/build-sqlite.ts`), queried entirely client-side via sql.js/WASM
+  (`src/lib/db/client.ts`). Read-only Phase 1 of a two-phase plan — see
+  `.pHive/epics/data-store/docs/design-note.md`. Never a second
+  implementation of scoring logic: it renders through the real `Dataset`
+  interface's `getValue()`, the same one every UI component calls.
 
 ## Key paths
 
@@ -49,6 +56,11 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
   for the crime dataset (raw fetch caches are gitignored; derived JSON is committed).
 - `scripts/secret-scan.mjs` — the required CI gate (`pnpm test:secrets`) that blocks
   any secret from landing in the repo or client bundle.
+- `src/lib/db/build-database.ts`, `scripts/build-sqlite.ts` — compiles
+  `public/data.sqlite` at build time (chained into `pnpm build`/`pnpm dev`,
+  not an npm-style pre/post hook — see design-note.md for why).
+- `src/lib/db/client.ts` — lazy client-side sql.js loader + `query()` helper;
+  the only place that fetches `data.sqlite`/the wasm binary.
 
 ## Conventions
 

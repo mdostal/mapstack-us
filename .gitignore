@@ -35,3 +35,9 @@ data/raw/crime-offense-cache/
 .pHive/epics/power-user-tab/docs/*.html
 .pHive/epics/power-user-tab/index.html
 .pHive/epics/**/docs/*.png
+
+# Compiled at build time by scripts/build-sqlite.ts (see "prebuild"/"predev"
+# in package.json) -- deterministic from data/*.json + the DATASETS
+# registry, not source, not needed for reproducibility.
+public/data.sqlite
+public/sql-wasm-browser.wasm

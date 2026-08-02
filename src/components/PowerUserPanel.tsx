@@ -6,6 +6,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
+import { CitySearch } from "@/components/CitySearch";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -90,6 +91,7 @@ export function PowerUserPanel() {
 
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
         <div className="flex flex-col gap-4 md:w-72 md:flex-shrink-0">
+          <CitySearch onSelectCity={setSelectedCityId} />
           <LayerPicker selected={selected} onToggle={toggle} />
           <SavedViewsPanel
             currentSelections={selected}
