@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import cities from "@data/cities.json";
 import { resolveActiveLayer, activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { sortByValue, type SortDirection } from "@/lib/power-user/sort";
+import { buildCsv, downloadCsv } from "@/lib/power-user/csv-export";
 import type { DatasetTimeContext } from "@/lib/datasets/types";
 
 interface Props {
@@ -87,8 +88,27 @@ export function ComparisonTable({
     );
   }
 
+  function exportCsv() {
+    const csv = buildCsv(
+      sortedCities.map((city) => ({ id: city.id, label: `${city.city}, ${city.state}` })),
+      columns.map(({ resolved }) => ({
+        header: `${resolved!.dataset.label}: ${resolved!.layer.label}`,
+        getValue: (cityId: string) => resolved!.dataset.getValue(cityId, resolved!.layer.id, context)?.detail ?? "No data",
+      })),
+    );
+    downloadCsv(`mapstack-comparison-${new Date().toISOString().slice(0, 10)}.csv`, csv);
+  }
+
   return (
-    <div className="flex-1 overflow-auto rounded-lg border border-zinc-200 dark:border-zinc-800">
+    <div className="flex flex-1 flex-col gap-2">
+      <button
+        type="button"
+        onClick={exportCsv}
+        className="self-end rounded border border-zinc-200 px-2 py-1 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
+      >
+        Export CSV
+      </button>
+      <div className="flex-1 overflow-auto rounded-lg border border-zinc-200 dark:border-zinc-800">
       <table className="w-full border-collapse text-left text-xs">
         <thead className="sticky top-0 bg-zinc-50 dark:bg-zinc-900">
           <tr>
@@ -161,6 +181,7 @@ export function ComparisonTable({
           })}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
