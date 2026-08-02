@@ -8,6 +8,7 @@ import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { FilterPanel } from "@/components/FilterPanel";
+import { InsightsPanel } from "@/components/InsightsPanel";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -102,6 +103,7 @@ export function PowerUserPanel() {
             currentDirection={direction}
             onRestore={restoreSavedView}
           />
+          <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
         </div>
         <ComparisonTable
           selected={selected}
