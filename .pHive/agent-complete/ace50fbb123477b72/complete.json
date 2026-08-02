@@ -1,0 +1,16 @@
+{
+  "agent_id": "ace50fbb123477b72",
+  "session_id": "d7e94b29-e5ba-4718-b5ee-5bf2e4b22279",
+  "agent_type": "",
+  "cwd": "/Users/mdostal/Code/mapstack-us",
+  "agent_transcript_path": "/Users/mdostal/.claude/projects/-Users-mdostal-Code-mapstack-us/d7e94b29-e5ba-4718-b5ee-5bf2e4b22279/subagents/agent-ace50fbb123477b72.jsonl",
+  "last_assistant_message": "Building an advanced-analysis tab for the mapstack-us map app: the sidebar/toolbar layout is done and live, and now I'm about to add a real map view plus a tunable formula panel for the allergy score's weighted components.",
+  "prompt_id": "bd19d72e-78d3-44d7-b848-3ce415d2102f",
+  "permission_mode": "bypassPermissions",
+  "effort": {
+    "level": "high"
+  },
+  "verdict": "failure",
+  "verdict_source": "missing_marker",
+  "written_at": "2026-08-02T22:49:26Z"
+}

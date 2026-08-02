@@ -13,6 +13,7 @@ import { test, expect } from "@playwright/test";
 
 test("filtering by a minimum threshold narrows the table to matching cities only", async ({ page }) => {
   await page.goto("/advanced");
+  await expect(page.locator("tbody tr").first()).toBeVisible();
   const rowCountBefore = await page.locator("tbody tr").count();
 
   await page.getByRole("button", { name: /^Filter/ }).click();
@@ -34,6 +35,7 @@ test("a filter with no matches shows an explicit empty state, not a blank table"
 
 test("clearing the filter restores the full city list", async ({ page }) => {
   await page.goto("/advanced");
+  await expect(page.locator("tbody tr").first()).toBeVisible();
   const rowCountBefore = await page.locator("tbody tr").count();
 
   await page.getByRole("button", { name: /^Filter/ }).click();
@@ -47,6 +49,7 @@ test("clearing the filter restores the full city list", async ({ page }) => {
 
 test("combining a min and max threshold across two columns applies both as an AND filter", async ({ page }) => {
   await page.goto("/advanced");
+  await expect(page.locator("tbody tr").first()).toBeVisible();
   const rowCountBefore = await page.locator("tbody tr").count();
 
   await page.getByRole("button", { name: /^Filter/ }).click();

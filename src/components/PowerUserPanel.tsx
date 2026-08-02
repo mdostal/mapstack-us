@@ -7,10 +7,12 @@ import { AccordionSection } from "@/components/AccordionSection";
 import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
+import { FormulaPanel } from "@/components/FormulaPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { FilterPopover } from "@/components/FilterPopover";
 import { InsightsPanel } from "@/components/InsightsPanel";
 import { InsightsDock } from "@/components/InsightsDock";
+import { MultiLayerMap } from "@/components/MultiLayerMap";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -53,6 +55,7 @@ export function PowerUserPanel() {
   const [sortBy, setSortBy] = useState<ActiveLayer | null>(decoded?.sortBy ?? null);
   const [direction, setDirection] = useState<SortDirection>(decoded?.direction ?? "asc");
   const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
+  const [viewMode, setViewMode] = useState<"table" | "map">("table");
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function toggle(layer: ActiveLayer) {
@@ -120,10 +123,41 @@ export function PowerUserPanel() {
               onRestore={restoreSavedView}
             />
           </AccordionSection>
+          <AccordionSection title="Formula">
+            <FormulaPanel selected={selected} selectedCityId={selectedCityId} />
+          </AccordionSection>
         </div>
 
         <div className="flex flex-1 flex-col gap-3">
           <div className="flex items-center gap-2">
+            <div role="tablist" aria-label="View" className="flex gap-1 rounded-md border border-zinc-200 p-0.5 dark:border-zinc-800">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={viewMode === "map"}
+                onClick={() => setViewMode("map")}
+                className={`rounded px-2 py-1 text-xs font-medium ${
+                  viewMode === "map"
+                    ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
+                    : "text-zinc-600 dark:text-zinc-400"
+                }`}
+              >
+                Map
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={viewMode === "table"}
+                onClick={() => setViewMode("table")}
+                className={`rounded px-2 py-1 text-xs font-medium ${
+                  viewMode === "table"
+                    ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
+                    : "text-zinc-600 dark:text-zinc-400"
+                }`}
+              >
+                Table
+              </button>
+            </div>
             <CitySearch onSelectCity={setSelectedCityId} />
             <FilterPopover
               selected={selected}
@@ -132,32 +166,53 @@ export function PowerUserPanel() {
               onFilterChange={setFilteredCityIds}
             />
             <span className="flex-1" />
-            <button
-              type="button"
-              onClick={exportCsv}
-              className="rounded border border-zinc-200 px-2 py-1 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
-            >
-              Export CSV
-            </button>
+            {viewMode === "table" && (
+              <button
+                type="button"
+                onClick={exportCsv}
+                className="rounded border border-zinc-200 px-2 py-1 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
+              >
+                Export CSV
+              </button>
+            )}
           </div>
 
-          <ComparisonTable
-            selected={selected}
-            year={year}
-            selectedCityId={selectedCityId}
-            onSelectCity={setSelectedCityId}
-            sortBy={sortBy}
-            direction={direction}
-            onSortChange={(nextSortBy, nextDirection) => {
-              setSortBy(nextSortBy);
-              setDirection(nextDirection);
-            }}
-            visibleCityIds={filteredCityIds}
-          />
+          {viewMode === "map" ? (
+            <div className="flex flex-1 flex-col gap-2">
+              <MultiLayerMap
+                active={selected}
+                year={year}
+                onSelectCity={setSelectedCityId}
+                selectedCityId={selectedCityId}
+              />
+              <p className="text-xs text-zinc-400 dark:text-zinc-600">
+                Layers render independently, each its own gradient. With 2+ active, every layer
+                renders at 65% opacity so they&apos;re visible together — that&apos;s a visual
+                overlay, not a computed blend: no layer&apos;s value is ever combined into
+                another&apos;s.
+              </p>
+            </div>
+          ) : (
+            <>
+              <ComparisonTable
+                selected={selected}
+                year={year}
+                selectedCityId={selectedCityId}
+                onSelectCity={setSelectedCityId}
+                sortBy={sortBy}
+                direction={direction}
+                onSortChange={(nextSortBy, nextDirection) => {
+                  setSortBy(nextSortBy);
+                  setDirection(nextDirection);
+                }}
+                visibleCityIds={filteredCityIds}
+              />
 
-          <InsightsDock>
-            <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
-          </InsightsDock>
+              <InsightsDock>
+                <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
+              </InsightsDock>
+            </>
+          )}
         </div>
       </div>
     </main>

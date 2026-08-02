@@ -20,7 +20,10 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
   for (`availableYears`) — never a fabricated/interpolated year.
 - **Multi-layer stacking** — Rendering 2+ dataset layers simultaneously with
   per-layer color identity (see `MultiLayerMap.tsx`), generalized on top of the
-  single-layer-at-a-time picker UX.
+  single-layer-at-a-time picker UX. Purely visual: 2+ active layers alpha-composite
+  at a fixed 65% opacity, no data-level blending or computed coefficients exist —
+  stated explicitly in the transparency note shown under the map in
+  `/mapstack/advanced`'s Map view (`PowerUserPanel.tsx`).
 - **Comparison table** — The power-user tab's (`/mapstack/advanced`,
   `ComparisonTable.tsx`) tabular, side-by-side view of 2+ (dataset, layer)
   values per city, each column headed by its own methodology note. Distinct
@@ -39,6 +42,15 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
   `.pHive/epics/data-store/docs/design-note.md`. Never a second
   implementation of scoring logic: it renders through the real `Dataset`
   interface's `getValue()`, the same one every UI component calls.
+- **Formula panel** — The power-user tab's tunable-weights sandbox
+  (`FormulaPanel.tsx`, `src/lib/formula/allergy-grass-formula.ts`) for
+  layers with a real, documented, decomposable formula (currently only
+  allergy's grass layer — see `data/allergy-scoring.md`). A **preview
+  only**: recomputed scores here never change the map, table, CSV export,
+  or saved views, which always show the shipped model. Layers without a
+  decomposed formula (crime, the other 27 allergens) get an explanatory
+  note instead of a fake slider. See
+  `.pHive/design/power-user-formula-panel/design-note.md`.
 
 ## Key paths
 

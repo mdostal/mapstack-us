@@ -1,0 +1,16 @@
+{
+  "agent_id": "a644bcd02ba79f9ba",
+  "session_id": "d7e94b29-e5ba-4718-b5ee-5bf2e4b22279",
+  "agent_type": "",
+  "cwd": "/Users/mdostal/Code/mapstack-us",
+  "agent_transcript_path": "/Users/mdostal/.claude/projects/-Users-mdostal-Code-mapstack-us/d7e94b29-e5ba-4718-b5ee-5bf2e4b22279/subagents/agent-a644bcd02ba79f9ba.jsonl",
+  "last_assistant_message": "check on the test run",
+  "prompt_id": "1bd98cac-0cd2-4bbf-94c8-91aa8dd07a7a",
+  "permission_mode": "bypassPermissions",
+  "effort": {
+    "level": "high"
+  },
+  "verdict": "failure",
+  "verdict_source": "missing_marker",
+  "written_at": "2026-08-02T23:21:53Z"
+}
