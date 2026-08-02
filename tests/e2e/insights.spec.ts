@@ -3,14 +3,29 @@ import { test, expect } from "@playwright/test";
 // Real end-to-end proof of SQL-aggregate insights (MIN/MAX/AVG, top/bottom
 // ORDER BY ... LIMIT) against the served data.sqlite build -- see
 // src/lib/db/insights.ts and .pHive/epics/data-store/docs/design-note.md.
+// Insights now docks under the table (open by default, collapsible) rather
+// than living in the sidebar -- see
+// .pHive/design/power-user-advanced-layout/brief.md.
 
-test("insights panel shows min/avg/max and city count for each selected layer", async ({ page }) => {
+test("insights dock shows min/avg/max and city count for each selected layer, open by default", async ({ page }) => {
   await page.goto("/advanced");
-  const insights = page.getByRole("heading", { name: "Insights" }).locator("..");
-  await expect(insights.getByText(/min \d+ · avg \d+ · max \d+ · \d+ cities/).first()).toBeVisible();
+  await expect(page.getByRole("button", { name: "Insights ▾ collapse" })).toBeVisible();
+  await expect(page.getByText(/min \d+ · avg \d+ · max \d+ · \d+ cities/).first()).toBeVisible();
 });
 
-test("insights panel lists top and bottom cities, and clicking one selects it", async ({ page }) => {
+test("collapsing and re-expanding the insights dock hides and restores its content", async ({ page }) => {
+  await page.goto("/advanced");
+  await expect(page.getByText("Highest:").first()).toBeVisible();
+
+  await page.getByRole("button", { name: "Insights ▾ collapse" }).click();
+  await expect(page.getByText("Highest:").first()).not.toBeVisible();
+  await expect(page.getByRole("button", { name: "Insights ▸ expand" })).toBeVisible();
+
+  await page.getByRole("button", { name: "Insights ▸ expand" }).click();
+  await expect(page.getByText("Highest:").first()).toBeVisible();
+});
+
+test("insights dock lists top and bottom cities, and clicking one selects it", async ({ page }) => {
   await page.goto("/advanced");
   await expect(page.getByText("Highest:").first()).toBeVisible();
   await expect(page.getByText("Lowest:").first()).toBeVisible();

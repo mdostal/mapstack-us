@@ -27,6 +27,7 @@ test("exporting the comparison table downloads a CSV with a header row and one r
 
 test("exported CSV reflects the currently applied filter, not the full unfiltered list", async ({ page }) => {
   await page.goto("/advanced");
+  await page.getByRole("button", { name: /^Filter/ }).click();
   await page.getByLabel("Minimum Allergy severity: Grass").fill("90");
   await page.getByRole("button", { name: "Apply filter" }).click();
   await expect.poll(() => page.locator("tbody tr").count()).toBeLessThan(168);

@@ -16,10 +16,7 @@ interface Props {
  */
 export function LayerPicker({ selected, onToggle }: Props) {
   return (
-    <div className="flex flex-col gap-3 rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
-      <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-        Compare layers
-      </h2>
+    <div className="flex flex-col gap-3">
       {DATASETS.map((dataset) => (
         <fieldset key={dataset.id} className="flex flex-col gap-1">
           <legend className="text-xs font-medium text-zinc-700 dark:text-zinc-300">{dataset.label}</legend>

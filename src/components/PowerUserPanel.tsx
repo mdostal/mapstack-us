@@ -3,17 +3,21 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { AccordionSection } from "@/components/AccordionSection";
 import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
 import { CitySearch } from "@/components/CitySearch";
-import { FilterPanel } from "@/components/FilterPanel";
+import { FilterPopover } from "@/components/FilterPopover";
 import { InsightsPanel } from "@/components/InsightsPanel";
+import { InsightsDock } from "@/components/InsightsDock";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { useSharedViewParams } from "@/lib/shared-view-params";
 import type { SortDirection } from "@/lib/power-user/sort";
+import { buildComparisonCsv } from "@/lib/power-user/build-comparison-csv";
+import { downloadCsv } from "@/lib/power-user/csv-export";
 import { decodeView, encodeView, VIEW_PARAM } from "@/lib/url-state";
 import type { SavedView } from "@/lib/saved-views";
 
@@ -28,6 +32,12 @@ const DEFAULT_SELECTION: ActiveLayer[] = [
  * .pHive/epics/power-user-tab/docs/design-discussion.md for the full
  * rationale, including why a combined ranking was deliberately dropped
  * after the grill pass (findings U1/P1).
+ *
+ * Layout: a synthesis of three reviewed wireframe options, split by what
+ * each panel *is* -- things you set (search, filter) live in a top
+ * toolbar; things you manage/review (layers, saved views) live in a left
+ * accordion sidebar; a result you read (insights) docks under the table.
+ * See .pHive/design/power-user-advanced-layout/brief.md.
  */
 export function PowerUserPanel() {
   const router = useRouter();
@@ -62,6 +72,11 @@ export function PowerUserPanel() {
     router.replace(`${pathname}?${params.toString()}`, { scroll: false });
   }
 
+  function exportCsv() {
+    const csv = buildComparisonCsv(selected, year, sortBy, direction, filteredCityIds);
+    downloadCsv(`mapstack-comparison-${new Date().toISOString().slice(0, 10)}.csv`, csv);
+  }
+
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
       <div className="mx-auto flex w-full max-w-6xl items-start justify-between px-6 pt-8">
@@ -93,31 +108,57 @@ export function PowerUserPanel() {
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
-        <div className="flex flex-col gap-4 md:w-72 md:flex-shrink-0">
-          <CitySearch onSelectCity={setSelectedCityId} />
-          <LayerPicker selected={selected} onToggle={toggle} />
-          <FilterPanel selected={selected} year={year} onFilterChange={setFilteredCityIds} />
-          <SavedViewsPanel
-            currentSelections={selected}
-            currentSortBy={sortBy}
-            currentDirection={direction}
-            onRestore={restoreSavedView}
-          />
-          <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
+        <div className="flex flex-col gap-3 md:w-64 md:flex-shrink-0">
+          <AccordionSection title="Layers" defaultOpen>
+            <LayerPicker selected={selected} onToggle={toggle} />
+          </AccordionSection>
+          <AccordionSection title="Saved views">
+            <SavedViewsPanel
+              currentSelections={selected}
+              currentSortBy={sortBy}
+              currentDirection={direction}
+              onRestore={restoreSavedView}
+            />
+          </AccordionSection>
         </div>
-        <ComparisonTable
-          selected={selected}
-          year={year}
-          selectedCityId={selectedCityId}
-          onSelectCity={setSelectedCityId}
-          sortBy={sortBy}
-          direction={direction}
-          onSortChange={(nextSortBy, nextDirection) => {
-            setSortBy(nextSortBy);
-            setDirection(nextDirection);
-          }}
-          visibleCityIds={filteredCityIds}
-        />
+
+        <div className="flex flex-1 flex-col gap-3">
+          <div className="flex items-center gap-2">
+            <CitySearch onSelectCity={setSelectedCityId} />
+            <FilterPopover
+              selected={selected}
+              year={year}
+              isActive={filteredCityIds !== null}
+              onFilterChange={setFilteredCityIds}
+            />
+            <span className="flex-1" />
+            <button
+              type="button"
+              onClick={exportCsv}
+              className="rounded border border-zinc-200 px-2 py-1 text-xs font-medium text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
+            >
+              Export CSV
+            </button>
+          </div>
+
+          <ComparisonTable
+            selected={selected}
+            year={year}
+            selectedCityId={selectedCityId}
+            onSelectCity={setSelectedCityId}
+            sortBy={sortBy}
+            direction={direction}
+            onSortChange={(nextSortBy, nextDirection) => {
+              setSortBy(nextSortBy);
+              setDirection(nextDirection);
+            }}
+            visibleCityIds={filteredCityIds}
+          />
+
+          <InsightsDock>
+            <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
+          </InsightsDock>
+        </div>
       </div>
     </main>
   );

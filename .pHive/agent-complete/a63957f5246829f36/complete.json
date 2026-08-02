@@ -1,0 +1,16 @@
+{
+  "agent_id": "a63957f5246829f36",
+  "session_id": "d7e94b29-e5ba-4718-b5ee-5bf2e4b22279",
+  "agent_type": "",
+  "cwd": "/Users/mdostal/Code/mapstack-us",
+  "agent_transcript_path": "/Users/mdostal/.claude/projects/-Users-mdostal-Code-mapstack-us/d7e94b29-e5ba-4718-b5ee-5bf2e4b22279/subagents/agent-a63957f5246829f36.jsonl",
+  "last_assistant_message": "We're building out mapstack-us's power-user tab and data layer. You approved a hybrid sidebar layout (toolbar for search/filter, accordion for layers/saved views, dock for insights); next step is implementing it for real in the codebase.",
+  "prompt_id": "f83d57f7-6dc5-47d6-b15a-4e181155b998",
+  "permission_mode": "bypassPermissions",
+  "effort": {
+    "level": "high"
+  },
+  "verdict": "failure",
+  "verdict_source": "missing_marker",
+  "written_at": "2026-08-02T22:23:35Z"
+}

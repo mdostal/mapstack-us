@@ -37,8 +37,7 @@ export function InsightsPanel({ selected, year, onSelectCity }: Props) {
   if (selected.length === 0) return null;
 
   return (
-    <div className="flex flex-col gap-3 rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
-      <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">Insights</h2>
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {selected.map((layer) => {
         const resolved = resolveActiveLayer(layer);
         if (!resolved) return null;

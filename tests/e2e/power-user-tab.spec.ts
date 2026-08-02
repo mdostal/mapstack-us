@@ -82,14 +82,20 @@ test("clicking a column header sorts the city rows by that column, single criter
 test("saving, restoring, renaming, and deleting a view, and it survives a reload", async ({ page }) => {
   await page.goto("/advanced");
 
+  // Saved views lives in a collapsed-by-default accordion section -- see
+  // .pHive/design/power-user-advanced-layout/brief.md.
+  await page.getByRole("button", { name: "Saved views" }).click();
+
   // Save the current (default) view.
   await page.getByRole("button", { name: "Save current view" }).click();
   await page.getByLabel("View name").fill("My Comparison");
-  await page.getByRole("button", { name: "Save" }).click();
+  await page.getByRole("button", { name: "Save", exact: true }).click();
   await expect(page.getByText("My Comparison")).toBeVisible();
 
-  // Survives a full reload (localStorage-backed).
+  // Survives a full reload (localStorage-backed). Accordion state does not
+  // persist across reload, so re-expand it.
   await page.reload();
+  await page.getByRole("button", { name: "Saved views" }).click();
   await expect(page.getByText("My Comparison")).toBeVisible();
 
   // Change the selection, then restore the saved view to prove restore

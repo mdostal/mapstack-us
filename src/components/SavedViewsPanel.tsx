@@ -49,9 +49,7 @@ export function SavedViewsPanel({ currentSelections, currentSortBy, currentDirec
   }
 
   return (
-    <div className="flex flex-col gap-2 rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
-      <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">Saved views</h2>
-
+    <div className="flex flex-col gap-2">
       {naming ? (
         <div className="flex items-center gap-1">
           <label htmlFor="saved-view-name" className="sr-only">
