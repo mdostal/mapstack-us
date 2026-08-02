@@ -1,7 +1,7 @@
 id: pu-4-saved-views
 epic: power-user-tab
 title: Saved views — persist selections + sort choice, restore via localStorage and URL
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: [pu-2-sort, pu-3-shared-view-state]

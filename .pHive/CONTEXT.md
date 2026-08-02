@@ -21,6 +21,14 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
 - **Multi-layer stacking** — Rendering 2+ dataset layers simultaneously with
   per-layer color identity (see `MultiLayerMap.tsx`), generalized on top of the
   single-layer-at-a-time picker UX.
+- **Comparison table** — The power-user tab's (`/mapstack/advanced`,
+  `ComparisonTable.tsx`) tabular, side-by-side view of 2+ (dataset, layer)
+  values per city, each column headed by its own methodology note. Distinct
+  from "multi-layer stacking": stacking renders layers together on the map,
+  the comparison table renders them as columns for direct comparison/sort —
+  and deliberately computes no cross-dataset combined score (the underlying
+  scores aren't on a common statistical basis; see
+  `.pHive/epics/power-user-tab/docs/design-discussion.md` §3.3).
 - **Methodology doc** — Every dataset's plain-language sourcing/scoring writeup
   (e.g. `data/crime-methodology.md`, `data/allergy-scoring.md`). Required per the
   transparent-scoring principle — no black-box heuristics.

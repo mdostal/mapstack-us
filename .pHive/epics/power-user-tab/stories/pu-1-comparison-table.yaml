@@ -1,7 +1,7 @@
 id: pu-1-comparison-table
 epic: power-user-tab
 title: Power-user comparison table — new route, checkbox layer picker, per-city table
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []

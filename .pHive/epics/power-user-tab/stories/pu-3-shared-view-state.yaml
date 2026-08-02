@@ -1,7 +1,7 @@
 id: pu-3-shared-view-state
 epic: power-user-tab
 title: Share selectedCityId and year between the simple view and the advanced route
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: [pu-1-comparison-table]

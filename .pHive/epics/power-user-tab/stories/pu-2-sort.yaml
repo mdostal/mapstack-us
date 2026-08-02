@@ -1,7 +1,7 @@
 id: pu-2-sort
 epic: power-user-tab
 title: Single-criterion sort for the comparison table
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: [pu-1-comparison-table]
