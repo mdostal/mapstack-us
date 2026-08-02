@@ -32,3 +32,19 @@ test("simple view and advanced route link to each other", async ({ page }) => {
   await page.getByRole("link", { name: "Simple view" }).click();
   await expect(page).toHaveURL(/\/$/);
 });
+
+test("clicking a column header sorts the city rows by that column, single criterion only", async ({ page }) => {
+  await page.goto("/advanced");
+  const grassHeader = page.getByRole("columnheader", { name: /Allergy severity: Grass/ });
+  const firstRowBefore = page.locator("tbody tr").first();
+  const nameBefore = await firstRowBefore.locator("th").innerText();
+
+  await grassHeader.getByRole("button").click();
+  await expect(grassHeader).toHaveAttribute("aria-sort", "ascending");
+  const firstRowAfterAsc = await page.locator("tbody tr").first().locator("th").innerText();
+  expect(firstRowAfterAsc).not.toBe(nameBefore);
+
+  // Click again -- same column toggles to descending, not a different sort.
+  await grassHeader.getByRole("button").click();
+  await expect(grassHeader).toHaveAttribute("aria-sort", "descending");
+});
