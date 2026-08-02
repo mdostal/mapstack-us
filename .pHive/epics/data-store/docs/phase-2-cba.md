@@ -41,7 +41,7 @@ floor regardless of database/auth choice.
 |---|---|---|---|
 | **Neon** | 0.5 GB storage, 100 CU-hrs/mo compute, 5 GB egress, 10 branches/project | Acquired by Databricks (May 2025); post-acquisition prices *dropped* (storage -80%, compute effectively +100%), but no explicit long-term free-tier commitment | Safe **for now**; open-source storage engine gives a real (if effortful) exit path via `pg_dump` |
 | **Supabase** | 500 MB DB, 1 GB storage, 5 GB egress, 50k MAU | More genuinely OSS-committed, real self-host path | Best fallback if Neon's free tier is ever cut |
-| **Turso (libSQL)** | ~500 DBs / 9 GB storage / 1B row reads/mo | SQLite-dialect at the edge | **Worth prototyping first** — reuses the SQLite skills/schema this project already has from Phase 1; verify libSQL/SQLite feature parity before committing |
+| **Turso (libSQL)** | ~500 DBs / 9 GB storage / 1B row reads/mo | SQLite-dialect | Prototyped locally 2026-08-02, no account needed — see below |
 | **PlanetScale** | **None** — killed April 2024 | Proof this class of free tier isn't durable | Skip |
 | **Railway / Fly.io** | **None** — trial credits only, both cut 2023-24 | Same pattern | Skip |
 
@@ -49,6 +49,37 @@ Storage (0.5 GB), not compute, is the realistic first ceiling on Neon's
 free tier for a small OSS project — plan the schema with that in mind.
 Neon's paid Launch tier has no monthly minimum: $0.106/CU-hr + $0.35/GB-mo,
 which is a genuinely low-stakes overflow if/when Free is exceeded.
+
+### Turso prototype findings (local-only, no account created)
+
+Actually ran `@libsql/client` against `file:local-test.db` — schema create,
+batched inserts, a `LIKE` query — entirely offline, zero signup, using only
+`npm install @libsql/client` in a scratch directory (never touched this
+repo's `package.json`). It works exactly like a local SQLite file. Two
+things this corrects from the initial (desk-research-only) read:
+
+- **`@libsql/client` is a Node-native client** (a compiled `libsql` binary
+  under the hood), not a browser/WASM client. It is **not** a candidate to
+  replace `sql.js` in Phase 1 (the browser-side query engine) — it would
+  only ever be a Phase 2 **server-side** database accessed from Next.js API
+  routes, the same role Neon would play.
+- `@tursodatabase/serverless` (the zero-native-dependency, `fetch()`-only
+  variant, better suited to Vercel's serverless functions) does **not**
+  have a local/offline mode — it requires a live Turso Cloud
+  `TURSO_DATABASE_URL` + `authToken`. The local-file prototype above used
+  `@libsql/client`, not this package.
+- "Embedded Replicas" (a local file kept in sync with a remote Turso DB,
+  giving local-file read latency without giving up a shared/multi-reader
+  database) is the actually-relevant Turso feature for a low-latency Phase
+  2 setup — worth a second prototype (this one needs a real account) before
+  a final Neon-vs-Turso call, but that's future work, not done here.
+
+Net effect on the recommendation: Turso remains a real, viable Neon
+alternative for Phase 2's server-side database, and the "one SQL dialect
+across the stack" argument still holds (same SQL syntax/mental model as
+Phase 1's `data.sqlite` queries) — but it was never going to let Phase 1's
+client-side query layer be swapped out, and it doesn't remove the need for
+a real account eventually if this path is chosen.
 
 ## Auth: Clerk vs. alternatives
 
