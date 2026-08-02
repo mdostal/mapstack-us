@@ -1,0 +1,96 @@
+id: pu-2-sort
+epic: power-user-tab
+title: Single-criterion sort for the comparison table
+status: pending
+complexity: low
+methodology: classic
+depends_on: [pu-1-comparison-table]
+
+parallel_allowed: true
+parallel_rationale: bounded-slice
+files_to_modify:
+  - file: src/lib/power-user/sort.ts
+    change: "New pure sort function(s) over the city list for one selected (dataset, layer) column."
+  - file: src/components/ComparisonTable.tsx
+    change: "Wire a clickable column-header sort control + asc/desc toggle into the existing table from pu-1."
+
+description: |
+  Add single-criterion sort to the comparison table built in pu-1: clicking a
+  column header sorts the city rows by that column's value (ascending, click
+  again for descending). Deliberately no cross-dataset combination — this is
+  exactly the vertical-plan.md Slice 2 scope, kept independent of pu-3's
+  shared-state work since they touch disjoint files (this story: sort.ts +
+  ComparisonTable.tsx; pu-3: shared-view-params.ts + both page.tsx files).
+
+acceptance_criteria:
+  - "Given a comparison table with 2+ selected columns, when the user clicks a column header, then the city rows sort ascending by that column's value."
+  - "Given a column is already sorted ascending, when the user clicks its header again, then the rows sort descending."
+  - "Given a city has a null value for the sorted column (no data), when sorting, then that city sorts to the end of the list rather than erroring or sorting arbitrarily."
+  - "Given sort.ts's core function, when tested directly (not through the UI), then it is covered by unit tests for correctness and stability with null-value handling."
+
+steps:
+  - id: research
+    description: Read the pu-1 implementation of ComparisonTable.tsx (once merged) to confirm the exact prop/state shape to extend.
+    agent: researcher
+  - id: implement
+    description: Implement src/lib/power-user/sort.ts and wire it into ComparisonTable.tsx per vertical-plan.md Slice 2.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "Vitest unit tests for sort.ts (correctness, stability, null-handling) plus a Playwright e2e extension of pu-1's spec (click header, assert row order changes). Verify with: pnpm test && pnpm test:e2e"
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review implementation and tests for correctness and convention compliance.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [next.js, react]
+  key_files:
+    - path: src/components/ComparisonTable.tsx
+      purpose: "Built in pu-1 — this story adds sort state/handlers to it, does not rebuild it."
+    - path: src/lib/datasets/types.ts
+      purpose: "DatasetLayerValue.value is 0-100 or the getValue() call returns null — sort.ts must handle both."
+
+files_to_modify:
+  - file: src/lib/power-user/sort.ts
+    change: "New: sortCitiesByColumn(cities, values, direction) or equivalent pure function."
+  - file: src/components/ComparisonTable.tsx
+    change: "Add column-header click handler + sort direction indicator."
+
+code_examples: []
+
+design_decisions:
+  - decision: "sort.ts contains only single-criterion sort — no multi-column or weighted sort."
+    rationale: "Matches the epic-wide decision (design-discussion §3.3) to exclude cross-dataset combination from v1; a multi-criterion sort would reintroduce the same statistical-incommensurability question the epic explicitly deferred."
+
+risks:
+  - severity: low
+    description: "Null-value city rows could sort inconsistently (undefined behavior) if not explicitly handled."
+    mitigation: "Acceptance criteria #3 requires nulls sort to the end explicitly, covered by a dedicated unit test."
+
+references:
+  - path: .pHive/epics/power-user-tab/docs/vertical-plan.md
+    relevant_excerpt: |
+      Slice 2 — Single-criterion sort. Layers touched: Data/logic (sort.ts,
+      new), UI (wire sort state + click handler into ComparisonTable).
+      Dependencies: Slice 1 (comparison table must exist to sort).
+
+wireframes:
+  approved: .pHive/design/power-user-comparison-table/wireframe.txt
+  brief: .pHive/design/power-user-comparison-table/brief.md
+  note: >
+    No separate ui-design delegation for this story — the sort affordance
+    (clickable column header, ^v indicator) is already part of pu-1's
+    approved wireframe/brief; this story implements against that same
+    approved surface rather than re-running the wireframe ceremony.
+  selected: 1
+  handoff_index: .pHive/design/index.yaml

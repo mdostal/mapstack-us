@@ -1,0 +1,125 @@
+id: pu-4-saved-views
+epic: power-user-tab
+title: Saved views — persist selections + sort choice, restore via localStorage and URL
+status: pending
+complexity: medium
+methodology: classic
+depends_on: [pu-2-sort, pu-3-shared-view-state]
+
+description: |
+  Epic-complete slice: let the user save the current power-user selection set
+  (active layers + sort choice) as a named view, list saved views, restore one
+  (updating panel state + URL), and delete/rename. Adapted from allergy-locator's
+  proven src/lib/profiles.ts (SSR-safe, fail-open-on-corrupt-JSON localStorage
+  CRUD) and its companion url-state.ts — not shared code, a template to port
+  and adapt to mapstack's shape ({id, name, selections: ActiveLayer[], sortBy,
+  savedAt} instead of {id, name, sensitivities, savedAt}).
+
+  This is the last vertical slice (vertical-plan.md Slice 4) — depends on both
+  pu-2 (sort choice is part of the saved shape) and pu-3 (URL-restore builds on
+  the shared param helper's conventions).
+
+acceptance_criteria:
+  - "Given a user has selected layers and a sort column, when they save a named view, then it appears in a saved-views list."
+  - "Given a saved view exists, when the user clicks 'restore', then the panel's selections, sort choice, and URL all update to match the saved view."
+  - "Given a full page reload after saving a view, when the saved-views list renders, then the previously saved view is still present (localStorage persisted)."
+  - "Given corrupted/foreign JSON exists at the storage key, when getSavedViews() is called, then it returns an empty array rather than throwing — matching allergy-locator's profiles.ts fail-open behavior exactly."
+  - "Given a saved view, when the user renames or deletes it, then the list updates accordingly and the change survives a reload."
+
+steps:
+  - id: research
+    description: Read /Users/mdostal/Code/allergy-locator/src/lib/profiles.ts and url-state.ts in full to confirm the exact CRUD/fail-open/SSR-guard pattern to port.
+    agent: researcher
+  - id: ui-design
+    description: Delegate to /design for wireframes (atomic external call; see skills/design/SKILL.md). Already run during planning — see wireframes section below.
+    agent: ui-designer
+    delegates_to: design
+    depends_on: [research]
+  - id: implement
+    description: Implement src/lib/saved-views.ts and src/lib/url-state.ts (adapted for mapstack's shape) and wire saved-views UI into PowerUserPanel per vertical-plan.md Slice 4 and the approved wireframe brief.
+    agent: developer
+    depends_on: [ui-design]
+    inputs:
+      - source: step_output
+        step: ui-design
+        key: wireframe_brief
+  - id: test
+    description: "Vitest unit tests for saved-views.ts (CRUD round-trip, corrupt-JSON fail-open — this is the specific behavior design-discussion §4 flagged as easy to drop during a rushed port) plus a Playwright e2e (save, reload, assert restored). Verify with: pnpm test && pnpm test:e2e"
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review implementation and tests, specifically confirming the fail-open-on-corrupt-JSON behavior matches the source pattern exactly (this is the story's highest-named risk).
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [next.js, react]
+  key_files:
+    - path: /Users/mdostal/Code/allergy-locator/src/lib/profiles.ts
+      purpose: "Reference implementation to adapt — SSR-safe, fail-open-on-corrupt-JSON localStorage CRUD, ~46 lines."
+    - path: src/lib/active-layers.ts
+      purpose: "ActiveLayer shape used inside the saved-view's selections field."
+    - path: src/lib/shared-view-params.ts
+      purpose: "Built in pu-3 — url-state.ts's restore-via-URL behavior should follow the same param conventions this module established."
+
+files_to_modify:
+  - file: src/lib/saved-views.ts
+    change: "New: SavedView CRUD over localStorage, adapted from allergy-locator's profiles.ts."
+  - file: src/lib/url-state.ts
+    change: "New: encode/decode a saved view into shareable URL params, adapted from allergy-locator's url-state.ts."
+  - file: src/components/PowerUserPanel.tsx
+    change: "Add saved-views list + save/restore/rename/delete controls."
+
+code_examples:
+  - title: Fail-open-on-corrupt-JSON localStorage read pattern to port exactly
+    file: /Users/mdostal/Code/allergy-locator/src/lib/profiles.ts
+    snippet: |
+      export function getSavedProfiles(): SavedProfile[] {
+        if (typeof window === "undefined") return [];
+        const raw = window.localStorage.getItem(STORAGE_KEY);
+        if (!raw) return [];
+        try {
+          const parsed = JSON.parse(raw);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch {
+          return []; // corrupted/foreign data -- fail open to an empty list, never throw
+        }
+      }
+
+design_decisions:
+  - decision: "Distinct localStorage key namespace from allergy-locator (e.g. mapstack:saved-views, not allergy-locator:saved-profiles)."
+    rationale: "These are separate apps/origins in the browser already (different domains), so key collision isn't a real technical risk, but a distinct, self-describing key name keeps the pattern's origin clear for future maintainers."
+  - decision: "Saved shape stores selections + sortBy, not any computed/derived values."
+    rationale: "Consistent with the epic-wide decision to never persist or compute a cross-dataset combined score (design-discussion §3.3) — a saved view is a set of user choices, not a result."
+
+risks:
+  - severity: medium
+    description: "A rushed port could silently drop the fail-open-on-corrupt-JSON behavior (e.g. let JSON.parse throw uncaught), regressing relative to the working reference implementation."
+    mitigation: "Acceptance criteria #4 requires a dedicated test for this exact behavior; review step explicitly names it as the story's highest risk to check."
+
+references:
+  - path: /Users/mdostal/Code/allergy-locator/src/lib/profiles.ts
+    relevant_excerpt: |
+      SavedProfile CRUD: getSavedProfiles/saveProfile/deleteProfile/renameProfile,
+      one flat array under one localStorage key, fail-open on corrupt JSON,
+      SSR-safe via `typeof window === "undefined"` guard.
+  - path: .pHive/epics/power-user-tab/docs/vertical-plan.md
+    relevant_excerpt: |
+      Slice 4 — Saved views (persistence). What the commit represents:
+      epic-complete — the full v1 power-user tab as scoped in the design
+      discussion.
+
+wireframes:
+  approved: .pHive/design/power-user-saved-views/wireframe.txt
+  brief: .pHive/design/power-user-saved-views/brief.md
+  renditions:
+    - .pHive/design/power-user-saved-views/wireframe.txt
+  selected: 1
+  handoff_index: .pHive/design/index.yaml
