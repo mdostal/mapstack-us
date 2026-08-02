@@ -1,0 +1,992 @@
+{
+  "new-york-ny": {
+    "ori": "NY0303000",
+    "agency_name": "New York City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-01-01"
+  },
+  "los-angeles-ca": {
+    "ori": "CA0194200",
+    "agency_name": "Los Angeles Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2024-05-01"
+  },
+  "chicago-il": {
+    "ori": "ILCPD0000",
+    "agency_name": "Chicago Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-07-01"
+  },
+  "houston-tx": {
+    "ori": "TXHPD0000",
+    "agency_name": "Houston Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-06-01"
+  },
+  "phoenix-az": {
+    "ori": "AZ0072300",
+    "agency_name": "Phoenix Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2025-09-01"
+  },
+  "philadelphia-pa": {
+    "ori": "PAPEP0000",
+    "agency_name": "Philadelphia Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-04-01"
+  },
+  "san-antonio-tx": {
+    "ori": "TXSPD0000",
+    "agency_name": "San Antonio Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-11-01"
+  },
+  "san-diego-ca": {
+    "ori": "CA0371100",
+    "agency_name": "San Diego Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "dallas-tx": {
+    "ori": "TXDPD0000",
+    "agency_name": "Dallas Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-03-01"
+  },
+  "san-jose-ca": {
+    "ori": "CA0431300",
+    "agency_name": "San Jose Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-04-01"
+  },
+  "austin-tx": {
+    "ori": "TX2270100",
+    "agency_name": "Austin Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "jacksonville-fl": {
+    "ori": "FL0160300",
+    "agency_name": "Jacksonville Beach Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2025-01-01"
+  },
+  "fort-worth-tx": {
+    "ori": "TX2201200",
+    "agency_name": "Fort Worth Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2005-10-01"
+  },
+  "columbus-oh": {
+    "ori": "OHCOP0000",
+    "agency_name": "Columbus Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2003-01-01"
+  },
+  "charlotte-nc": {
+    "ori": "NC0600100",
+    "agency_name": "Charlotte-Mecklenburg Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "san-francisco-ca": {
+    "ori": "CA0380100",
+    "agency_name": "San Francisco Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "indianapolis-in": {
+    "ori": "INIPD0000",
+    "agency_name": "Indianapolis Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-07-01"
+  },
+  "seattle-wa": {
+    "ori": "WASPD0000",
+    "agency_name": "Seattle Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2012-01-01"
+  },
+  "denver-co": {
+    "ori": "CODPD0000",
+    "agency_name": "Denver Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2005-01-01"
+  },
+  "washington-dc": {
+    "ori": "DCMPD0000",
+    "agency_name": "Washington Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-08-01"
+  },
+  "boston-ma": {
+    "ori": "MA0130100",
+    "agency_name": "Boston Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-10-01"
+  },
+  "el-paso-tx": {
+    "ori": "TX0710200",
+    "agency_name": "El Paso Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-07-01"
+  },
+  "nashville-tn": {
+    "ori": "TN0190100",
+    "agency_name": "Metropolitan Nashville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-10-01"
+  },
+  "oklahoma-city-ok": {
+    "ori": "OK0550600",
+    "agency_name": "Oklahoma City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-05-01"
+  },
+  "las-vegas-nv": {
+    "ori": "NV0020100",
+    "agency_name": "Las Vegas Metropolitan Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-09-01"
+  },
+  "detroit-mi": {
+    "ori": "MI8234900",
+    "agency_name": "Detroit Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2005-01-01"
+  },
+  "portland-or": {
+    "ori": "OR0260200",
+    "agency_name": "Portland Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2015-05-01"
+  },
+  "memphis-tn": {
+    "ori": "TNMPD0000",
+    "agency_name": "Memphis Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-08-01"
+  },
+  "louisville-ky": {
+    "ori": "KY0568000",
+    "agency_name": "Louisville Metro Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2013-01-01"
+  },
+  "milwaukee-wi": {
+    "ori": "WIMPD0000",
+    "agency_name": "Milwaukee Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2004-01-01"
+  },
+  "baltimore-md": {
+    "ori": "MDBPD0000",
+    "agency_name": "Baltimore Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-07-01"
+  },
+  "albuquerque-nm": {
+    "ori": "NM0010100",
+    "agency_name": "Albuquerque Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-01-01"
+  },
+  "tucson-az": {
+    "ori": "AZ0100300",
+    "agency_name": "Tucson Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2024-01-01"
+  },
+  "fresno-ca": {
+    "ori": "CA0100500",
+    "agency_name": "Fresno Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "sacramento-ca": {
+    "ori": "CA0340400",
+    "agency_name": "Sacramento Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-11-01"
+  },
+  "mesa-az": {
+    "ori": "AZ0071700",
+    "agency_name": "Mesa Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-01-01"
+  },
+  "kansas-city-mo": {
+    "ori": "MOKPD0000",
+    "agency_name": "Kansas City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2010-01-01"
+  },
+  "atlanta-ga": {
+    "ori": "GAAPD0000",
+    "agency_name": "Atlanta Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-10-01"
+  },
+  "omaha-ne": {
+    "ori": "NB0280200",
+    "agency_name": "Omaha Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-08-01"
+  },
+  "colorado-springs-co": {
+    "ori": "CO0210100",
+    "agency_name": "Colorado Springs Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1997-01-01"
+  },
+  "raleigh-nc": {
+    "ori": "NC0920100",
+    "agency_name": "Raleigh Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "long-beach-ca": {
+    "ori": "CA0194100",
+    "agency_name": "Long Beach Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-09-01"
+  },
+  "virginia-beach-va": {
+    "ori": "VA1280000",
+    "agency_name": "Virginia Beach Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-02-01"
+  },
+  "miami-fl": {
+    "ori": "FL0130600",
+    "agency_name": "Miami Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-07-01"
+  },
+  "oakland-ca": {
+    "ori": "CA0010900",
+    "agency_name": "Oakland Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "minneapolis-mn": {
+    "ori": "MN0271100",
+    "agency_name": "Minneapolis Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "tulsa-ok": {
+    "ori": "OK0720500",
+    "agency_name": "Tulsa Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "bakersfield-ca": {
+    "ori": "CA0150200",
+    "agency_name": "Bakersfield Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-09-01"
+  },
+  "wichita-ks": {
+    "ori": "KS0870300",
+    "agency_name": "Wichita Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-11-01"
+  },
+  "arlington-tx": {
+    "ori": "TX2200100",
+    "agency_name": "Arlington Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2016-02-01"
+  },
+  "aurora-co": {
+    "ori": "CO0010100",
+    "agency_name": "Aurora Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1985-01-01"
+  },
+  "tampa-fl": {
+    "ori": "FL0290200",
+    "agency_name": "Tampa Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "new-orleans-la": {
+    "ori": "LANPD0000",
+    "agency_name": "New Orleans Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "cleveland-oh": {
+    "ori": "OHCLP0000",
+    "agency_name": "Cleveland Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2003-01-01"
+  },
+  "honolulu-hi": {
+    "ori": "HI0020000",
+    "agency_name": "Honolulu Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-01-01"
+  },
+  "anaheim-ca": {
+    "ori": "CA0300100",
+    "agency_name": "Anaheim Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-10-01"
+  },
+  "lexington-ky": {
+    "ori": "KY0340200",
+    "agency_name": "Lexington Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2010-10-01"
+  },
+  "stockton-ca": {
+    "ori": "CA0390500",
+    "agency_name": "Stockton Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-03-01"
+  },
+  "corpus-christi-tx": {
+    "ori": "TX1780200",
+    "agency_name": "Corpus Christi Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-05-01"
+  },
+  "henderson-nv": {
+    "ori": "NV0020300",
+    "agency_name": "Henderson Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-08-01"
+  },
+  "riverside-ca": {
+    "ori": "CA0331300",
+    "agency_name": "Riverside Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-01-01"
+  },
+  "newark-nj": {
+    "ori": "NJNPD0000",
+    "agency_name": "Newark Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "saint-paul-mn": {
+    "ori": "MN0190600",
+    "agency_name": "South St. Paul Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-07-01"
+  },
+  "santa-ana-ca": {
+    "ori": "CA0301900",
+    "agency_name": "Santa Ana Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-08-01"
+  },
+  "cincinnati-oh": {
+    "ori": "OHCIP0000",
+    "agency_name": "Cincinnati Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1998-01-01"
+  },
+  "irvine-ca": {
+    "ori": "CA0302600",
+    "agency_name": "Irvine Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "orlando-fl": {
+    "ori": "FL0480400",
+    "agency_name": "Orlando Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2026-01-01"
+  },
+  "pittsburgh-pa": {
+    "ori": "PAPPD0000",
+    "agency_name": "Pittsburgh Bureau of Police",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-11-01"
+  },
+  "st-louis-mo": {
+    "ori": "MOSPD0000",
+    "agency_name": "St. Louis Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "greensboro-nc": {
+    "ori": "NC0410200",
+    "agency_name": "Greensboro Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "jersey-city-nj": {
+    "ori": "NJ0090600",
+    "agency_name": "Jersey City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "anchorage-ak": {
+    "ori": "AK0010100",
+    "agency_name": "Anchorage Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "lincoln-ne": {
+    "ori": "NB0550100",
+    "agency_name": "Lincoln Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "plano-tx": {
+    "ori": "TX0430600",
+    "agency_name": "Plano Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2005-07-01"
+  },
+  "durham-nc": {
+    "ori": "NC0320100",
+    "agency_name": "Durham Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "buffalo-ny": {
+    "ori": "NY0140100",
+    "agency_name": "Buffalo Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-10-01"
+  },
+  "chandler-az": {
+    "ori": "AZ0070500",
+    "agency_name": "Chandler Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "chula-vista-ca": {
+    "ori": "CA0370200",
+    "agency_name": "Chula Vista Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "toledo-oh": {
+    "ori": "OH0480700",
+    "agency_name": "Toledo Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2017-01-01"
+  },
+  "madison-wi": {
+    "ori": "WI0130100",
+    "agency_name": "Madison Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2010-01-01"
+  },
+  "gilbert-az": {
+    "ori": "AZ0071100",
+    "agency_name": "Gilbert Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2008-11-01"
+  },
+  "reno-nv": {
+    "ori": "NV0160100",
+    "agency_name": "Reno Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-11-01"
+  },
+  "fort-wayne-in": {
+    "ori": "IN0020100",
+    "agency_name": "Fort Wayne Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-09-01"
+  },
+  "north-las-vegas-nv": {
+    "ori": "NV0020200",
+    "agency_name": "North Las Vegas Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-11-01"
+  },
+  "st-petersburg-fl": {
+    "ori": "FL0521400",
+    "agency_name": "St. Petersburg Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "lubbock-tx": {
+    "ori": "TX1520200",
+    "agency_name": "Lubbock Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2017-10-01"
+  },
+  "irving-tx": {
+    "ori": "TX0571500",
+    "agency_name": "Irving Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-01-01"
+  },
+  "laredo-tx": {
+    "ori": "TX2400100",
+    "agency_name": "Laredo Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "winston-salem-nc": {
+    "ori": "NC0340200",
+    "agency_name": "Winston-Salem Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "chesapeake-va": {
+    "ori": "VA1030000",
+    "agency_name": "Chesapeake Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-01-01"
+  },
+  "glendale-az": {
+    "ori": "AZ0071300",
+    "agency_name": "Glendale Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-07-01"
+  },
+  "scottsdale-az": {
+    "ori": "AZ0072500",
+    "agency_name": "Scottsdale Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "norfolk-va": {
+    "ori": "VA1170000",
+    "agency_name": "Norfolk Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-08-01"
+  },
+  "fremont-ca": {
+    "ori": "CA0010500",
+    "agency_name": "Fremont Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-05-01"
+  },
+  "garland-tx": {
+    "ori": "TX0571100",
+    "agency_name": "Garland Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-01-01"
+  },
+  "hialeah-fl": {
+    "ori": "FL0130400",
+    "agency_name": "Hialeah Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "richmond-va": {
+    "ori": "VA1220000",
+    "agency_name": "Richmond Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-01-01"
+  },
+  "spokane-wa": {
+    "ori": "WA0320400",
+    "agency_name": "Spokane Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2016-10-01"
+  },
+  "baton-rouge-la": {
+    "ori": "LA0170200",
+    "agency_name": "Baton Rouge Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "tacoma-wa": {
+    "ori": "WA0270300",
+    "agency_name": "Tacoma Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2007-01-01"
+  },
+  "san-bernardino-ca": {
+    "ori": "CA0361000",
+    "agency_name": "San Bernardino Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2025-06-01"
+  },
+  "modesto-ca": {
+    "ori": "CA0500200",
+    "agency_name": "Modesto Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "fontana-ca": {
+    "ori": "CA0360400",
+    "agency_name": "Fontana Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-09-01"
+  },
+  "des-moines-ia": {
+    "ori": "IA0770300",
+    "agency_name": "Des Moines Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1991-01-01"
+  },
+  "moreno-valley-ca": {
+    "ori": "CA033320X",
+    "agency_name": "Moreno Valley Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2026-01-01"
+  },
+  "santa-clarita-ca": {
+    "ori": "CA0191R0X",
+    "agency_name": "Santa Clarita Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "fayetteville-nc": {
+    "ori": "NC0260100",
+    "agency_name": "Fayetteville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "birmingham-al": {
+    "ori": "AL0010200",
+    "agency_name": "Birmingham Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-02-01"
+  },
+  "oxnard-ca": {
+    "ori": "CA0560400",
+    "agency_name": "Oxnard Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-12-01"
+  },
+  "rochester-ny": {
+    "ori": "NY0270100",
+    "agency_name": "Rochester Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-02-01"
+  },
+  "port-st-lucie-fl": {
+    "ori": "FL0560200",
+    "agency_name": "Port St. Lucie Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2024-06-01"
+  },
+  "grand-rapids-mi": {
+    "ori": "MI4143600",
+    "agency_name": "Grand Rapids Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2002-01-01"
+  },
+  "huntsville-al": {
+    "ori": "AL0470100",
+    "agency_name": "Huntsville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "salt-lake-city-ut": {
+    "ori": "UT0180300",
+    "agency_name": "Salt Lake City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-03-01"
+  },
+  "frisco-tx": {
+    "ori": "TX0430400",
+    "agency_name": "Frisco Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-02-01"
+  },
+  "yonkers-ny": {
+    "ori": "NY0590700",
+    "agency_name": "Yonkers Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-12-01"
+  },
+  "amarillo-tx": {
+    "ori": "TX1880100",
+    "agency_name": "Amarillo Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1999-10-01"
+  },
+  "glendale-ca": {
+    "ori": "CA0192500",
+    "agency_name": "Glendale Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-10-01"
+  },
+  "huntington-beach-ca": {
+    "ori": "CA0301000",
+    "agency_name": "Huntington Beach Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "mckinney-tx": {
+    "ori": "TX0430500",
+    "agency_name": "McKinney Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1997-04-01"
+  },
+  "montgomery-al": {
+    "ori": "AL0030100",
+    "agency_name": "Montgomery Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "augusta-ga": {
+    "ori": "GA1210000",
+    "agency_name": "Augusta-Richmond County Sheriff's Office",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-01-01"
+  },
+  "aurora-il": {
+    "ori": "IL0450100",
+    "agency_name": "Aurora Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-12-01"
+  },
+  "akron-oh": {
+    "ori": "OH0770100",
+    "agency_name": "Akron Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1998-06-01"
+  },
+  "little-rock-ar": {
+    "ori": "AR0600200",
+    "agency_name": "Little Rock Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2002-08-01"
+  },
+  "tempe-az": {
+    "ori": "AZ0072900",
+    "agency_name": "Tempe Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "columbus-ga": {
+    "ori": "GA1060100",
+    "agency_name": "Columbus Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-11-01"
+  },
+  "overland-park-ks": {
+    "ori": "KS0460600",
+    "agency_name": "Overland Park Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-07-01"
+  },
+  "grand-prairie-tx": {
+    "ori": "TX0571200",
+    "agency_name": "Grand Prairie Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-01-01"
+  },
+  "tallahassee-fl": {
+    "ori": "FL0370300",
+    "agency_name": "Tallahassee Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "cape-coral-fl": {
+    "ori": "FL0360200",
+    "agency_name": "Cape Coral Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "mobile-al": {
+    "ori": "AL0020100",
+    "agency_name": "Mobile Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "knoxville-tn": {
+    "ori": "TN0470100",
+    "agency_name": "Knoxville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-03-01"
+  },
+  "shreveport-la": {
+    "ori": "LA0090100",
+    "agency_name": "Shreveport Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-01-01"
+  },
+  "worcester-ma": {
+    "ori": "MA0146000",
+    "agency_name": "Worcester Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1995-01-01"
+  },
+  "ontario-ca": {
+    "ori": "CA0360700",
+    "agency_name": "Ontario Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "vancouver-wa": {
+    "ori": "WA0060300",
+    "agency_name": "Vancouver Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2012-01-01"
+  },
+  "sioux-falls-sd": {
+    "ori": "SD0490200",
+    "agency_name": "Sioux Falls Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2004-10-01"
+  },
+  "chattanooga-tn": {
+    "ori": "TN0330100",
+    "agency_name": "Chattanooga Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2000-03-01"
+  },
+  "brownsville-tx": {
+    "ori": "TX0310100",
+    "agency_name": "Brownsville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2018-03-01"
+  },
+  "fort-lauderdale-fl": {
+    "ori": "FL0060300",
+    "agency_name": "Fort Lauderdale Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2023-01-01"
+  },
+  "providence-ri": {
+    "ori": "RI0040900",
+    "agency_name": "Providence Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2006-01-01"
+  },
+  "newport-news-va": {
+    "ori": "VA1160000",
+    "agency_name": "Newport News Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1998-07-01"
+  },
+  "rancho-cucamonga-ca": {
+    "ori": "CA0361600",
+    "agency_name": "Rancho Cucamonga Police Department",
+    "is_nibrs": false,
+    "nibrs_start_date": null
+  },
+  "santa-rosa-ca": {
+    "ori": "CA0490500",
+    "agency_name": "Santa Rosa Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-04-01"
+  },
+  "peoria-az": {
+    "ori": "AZ0072100",
+    "agency_name": "Peoria Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "oceanside-ca": {
+    "ori": "CA0371000",
+    "agency_name": "Oceanside Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "elk-grove-ca": {
+    "ori": "CA0340H00",
+    "agency_name": "Elk Grove Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-11-01"
+  },
+  "salem-or": {
+    "ori": "OR0240200",
+    "agency_name": "Salem Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2003-10-01"
+  },
+  "grand-junction-co": {
+    "ori": "CO0390100",
+    "agency_name": "Grand Junction Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1997-01-01"
+  },
+  "rapid-city-sd": {
+    "ori": "SD0510100",
+    "agency_name": "Rapid City Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2006-01-01"
+  },
+  "blanding-ut": {
+    "ori": "UT0190100",
+    "agency_name": "Blanding Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2022-01-01"
+  },
+  "durango-co": {
+    "ori": "CO0340100",
+    "agency_name": "Durango Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2012-01-01"
+  },
+  "flagstaff-az": {
+    "ori": "AZ0030100",
+    "agency_name": "Flagstaff Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-11-01"
+  },
+  "taos-nm": {
+    "ori": "NM0290100",
+    "agency_name": "Taos Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "santa-fe-nm": {
+    "ori": "NM0260100",
+    "agency_name": "Santa Fe Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-01-01"
+  },
+  "los-alamos-nm": {
+    "ori": "NM0150100",
+    "agency_name": "Los Alamos Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2021-04-01"
+  },
+  "billings-mt": {
+    "ori": "MT0560100",
+    "agency_name": "Billings Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2004-07-01"
+  },
+  "kalispell-mt": {
+    "ori": "MT0150300",
+    "agency_name": "Kalispell Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2004-11-01"
+  },
+  "whitewright-tx": {
+    "ori": "TX0910700",
+    "agency_name": "Whitewright Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-02-01"
+  },
+  "sandpoint-id": {
+    "ori": "ID0090200",
+    "agency_name": "Sandpoint Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1993-01-01"
+  },
+  "asheville-nc": {
+    "ori": "NC0110100",
+    "agency_name": "Asheville Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2019-01-01"
+  },
+  "boise-id": {
+    "ori": "ID0010100",
+    "agency_name": "Boise Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "1992-05-01"
+  },
+  "yuma-az": {
+    "ori": "AZ0140500",
+    "agency_name": "Yuma Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2012-01-01"
+  },
+  "carlsbad-nm": {
+    "ori": "NM0080200",
+    "agency_name": "Carlsbad Police Department",
+    "is_nibrs": true,
+    "nibrs_start_date": "2020-01-01"
+  }
+}

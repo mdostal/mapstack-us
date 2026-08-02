@@ -28,7 +28,11 @@ export function MapstackApp() {
         <DatasetPicker datasets={DATASETS} activeId={activeId} onSelect={setActiveId} />
       </div>
 
-      {dataset && <DatasetView dataset={dataset} />}
+      {/* key={dataset.id} forces a remount on dataset switch -- otherwise
+          DatasetView keeps its previous dataset's layerId state (e.g.
+          "grass"), which doesn't exist on the newly selected dataset's
+          layers, leaving no layer selected and no data to render. */}
+      {dataset && <DatasetView key={dataset.id} dataset={dataset} />}
     </main>
   );
 }
