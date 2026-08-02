@@ -1,59 +1,88 @@
 import { test, expect } from "@playwright/test";
 
-test("dataset picker loads with allergy severity active by default, switches layers, and shows city detail", async ({
-  page,
-}) => {
+test("home page loads with grass active by default and renders a continuous gradient", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Mapstack" })).toBeVisible();
-
-  await expect(page.getByRole("tab", { name: "Allergy severity" })).toHaveAttribute("aria-selected", "true");
-  await expect(page.getByRole("radio", { name: "Grass", exact: true })).toHaveAttribute("aria-checked", "true");
-
-  // Switch to a different layer within the same dataset.
-  await page.getByRole("radio", { name: "Tall fescue" }).click();
-  await expect(page.getByRole("radio", { name: "Tall fescue" })).toHaveAttribute("aria-checked", "true");
-
-  // Click a city, see its detail.
-  await page.getByRole("button", { name: /^New York, NY/ }).click();
-  const detailHeading = page.getByText("New York, NY", { exact: true });
-  await expect(detailHeading).toBeVisible();
-  await expect(detailHeading.locator("..").getByText(/\/100/)).toBeVisible();
-});
-
-test("the map renders a continuous gradient, not isolated dots", async ({ page }) => {
-  await page.goto("/");
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
   await expect(page.getByTestId("heatmap-canvas")).toBeVisible();
 });
 
-test("switching to the crime dataset resets the layer selection and renders real data (regression: stale layerId across dataset switch)", async ({
+test("add layer flow: pick a dataset, add a layer, see it appear in the active list", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
+  // The layer's own add-button relabels itself and disables once already
+  // active, rather than staying clickable/re-addable.
+  await expect(page.getByRole("button", { name: "Violent crime (already added)" })).toBeDisabled();
+});
+
+test("stacking 2+ layers shows a legend and detail for each at a clicked city", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+
+  // Two legends now visible, one per active layer -- "concern" suffix
+  // makes legend text unique from the active-layers-list entries.
+  await expect(page.getByText("Allergy severity: Grass concern")).toBeVisible();
+  await expect(page.getByText("Crime: Violent crime concern")).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const allergyDetail = page.getByTestId("city-detail-row").filter({ hasText: "Allergy severity: Grass" });
+  await expect(allergyDetail).toBeVisible();
+  const crimeDetail = page.getByTestId("city-detail-row").filter({ hasText: "Crime: Violent crime" });
+  await expect(crimeDetail).toBeVisible();
+  await expect(crimeDetail).toContainText("percentile");
+});
+
+test("removing a layer takes it off the map and the active list", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
+
+  await page.getByRole("button", { name: "Remove Allergy severity: Grass" }).click();
+  await expect(page.getByTestId("active-layers-row")).toHaveCount(0);
+  await expect(page.getByText("No layers on the map yet")).toBeVisible();
+});
+
+test("a year control appears once a time-varying layer (crime) is active, and switching years changes the detail", async ({
   page,
 }) => {
   await page.goto("/");
+  await expect(page.getByLabel("Year")).not.toBeVisible();
 
+  await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
-  await expect(page.getByRole("tab", { name: "Crime" })).toHaveAttribute("aria-selected", "true");
-  // Regression: switching datasets must reset the previously-selected
-  // layer (e.g. allergy's "grass"), not carry it over to a dataset that
-  // doesn't have that layer id at all.
-  await expect(page.getByRole("radio", { name: "Violent crime" })).toHaveAttribute("aria-checked", "true");
+  await page.getByRole("button", { name: "Violent crime" }).click();
+
+  const yearSelect = page.getByLabel("Year");
+  await expect(yearSelect).toBeVisible();
+  await expect(yearSelect).toHaveValue("2024");
 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
-  const detailHeading = page.getByText("New York, NY", { exact: true });
-  await expect(detailHeading).toBeVisible();
-  await expect(detailHeading.locator("..").getByText(/percentile/)).toBeVisible();
+  const crimeDetail = page.getByTestId("city-detail-row").filter({ hasText: "Crime: Violent crime" });
+  await expect(crimeDetail).toContainText("2024");
 
-  await page.getByRole("radio", { name: "Property crime" }).click();
-  await expect(page.getByRole("radio", { name: "Property crime" })).toHaveAttribute("aria-checked", "true");
+  const options = await yearSelect.locator("option").allTextContents();
+  const earlierYear = options.find((y) => y !== "2024");
+  if (earlierYear) {
+    await yearSelect.selectOption(earlierYear);
+    await expect(crimeDetail).toContainText(earlierYear);
+  }
 });
 
 test("a city with no crime data shows an honest no-data state, not a fabricated value", async ({ page }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
-  // Sundance, WY is a real, documented gap (no matching FBI agency at all).
-  await page.getByRole("button", { name: /^Sundance, WY/ }).click();
-  // Scoped to <p> text specifically, not the SVG <title> tooltip that also
-  // matches "Sundance, WY" verbatim.
-  const detailHeading = page.locator("p", { hasText: "Sundance, WY" });
-  await expect(detailHeading).toBeVisible();
-  await expect(detailHeading.locator("..").getByText("No data for this layer.")).toBeVisible();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+
+  // San Francisco is a real, documented NIBRS-non-participation gap.
+  await page.getByRole("button", { name: /^San Francisco, CA/ }).click();
+  const crimeDetail = page.getByTestId("city-detail-row").filter({ hasText: "Crime: Violent crime" });
+  await expect(crimeDetail).toContainText("No data for this layer.");
 });

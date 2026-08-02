@@ -33,10 +33,26 @@ built from two real, working examples instead of upfront design.
 
 ## What's here so far
 
-Early scaffold, ported from allergy-locator's proven Next.js/Tailwind/Vitest/Playwright
-stack. The generalized dataset-layer interface itself is being designed now, informed by
-allergy-locator's two real, shipped datasets (allergy severity, healthcare access) —
-see that repo's `.pHive/planning/roadmap.md` (v5) for the design reasoning.
+- **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
+  three genuinely different real implementations: allergy (climate/season-modeled
+  score), crime (a real government-sourced rate, with real year-over-year history), and
+  a deliberately unrelated mock dataset in the test suite.
+- **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
+  more — each renders as its own gradient with its own color identity, all on one map,
+  via "+ Add layer." Not a one-dataset-at-a-time picker.
+- **A shared year control** wherever real historical data exists — crime currently
+  spans 2020–2024 real years (`data/crime-methodology.md`), with coverage that honestly
+  grows year over year as more police agencies joined federal reporting, never
+  backfilled or estimated for years without real data.
+- Every dataset ships its own methodology doc naming its real sourcing and limitations —
+  see `data/*-methodology.md`.
+
+## What's next
+
+Porting allergy-locator's fuller daily/seasonal resolution and its healthcare-access
+dataset into this same generalized interface, plus cross-dataset layer combination and
+natural-language search. See `.pHive/planning/roadmap.md` (v5) in the allergy-locator
+repo for the fuller reasoning this project grew out of.
 
 ## Stack
 

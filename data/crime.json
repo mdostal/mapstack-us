@@ -1,1762 +1,7041 @@
 {
   "_meta": {
-    "description": "US crime rates per city, 2 layers (violent, property), from the FBI Crime Data Explorer API.",
-    "year": 2024,
-    "method": "Annual rate per 100k = sum of 12 real monthly offense counts / agency population * 100000. Concern score (0-100) is a PERCENTILE RANK among this dataset's own covered cities -- a relative comparison, not an absolute severity claim.",
+    "description": "US crime rates per city, 2 layers (violent, property), by year, from the FBI Crime Data Explorer API.",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "method": "Annual rate per 100k = sum of 12 real monthly offense counts / agency population * 100000. Concern score (0-100) is a PERCENTILE RANK among that YEAR's own covered cities -- a relative comparison, not an absolute severity claim, and not comparable across years.",
     "source": "FBI Crime Data Explorer (cde.ucr.cjis.gov), U.S. government public domain data.",
-    "coverage": "146/165 matched cities have full-year 2024 violent-crime data; 146/165 have property-crime data.",
-    "caveat": "Real, documented coverage gaps exist -- some agencies (including several large cities) don't participate in NIBRS at all, or only began reporting partway through 2024. Those cities have NO score for the affected layer(s), never a fabricated or estimated one. See crime-methodology.md."
+    "coverage_by_year": {
+      "2020": {
+        "violent_crime": 81,
+        "property_crime": 81
+      },
+      "2021": {
+        "violent_crime": 111,
+        "property_crime": 111
+      },
+      "2022": {
+        "violent_crime": 129,
+        "property_crime": 129
+      },
+      "2023": {
+        "violent_crime": 144,
+        "property_crime": 144
+      },
+      "2024": {
+        "violent_crime": 146,
+        "property_crime": 146
+      }
+    },
+    "caveat": "Real coverage GROWS over time as more agencies join NIBRS -- earlier years genuinely cover fewer cities than 2024, an honest property of real reporting history, not a bug. Some agencies (including several large cities) don't participate in NIBRS at all, or only began reporting partway through a given year. Those city/year/layer combinations have NO score, never a fabricated or estimated one. See crime-methodology.md."
   },
   "akron-oh": {
     "agency_name": "Akron Police Department",
     "ori": "OH0770100",
-    "violent_crime": {
-      "rate_per_100k": 841.6,
-      "concern": 78.6
-    },
-    "property_crime": {
-      "rate_per_100k": 3065.0,
-      "concern": 60.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 926.9,
+          "concern": 75.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3626.5,
+          "concern": 57.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 852.8,
+          "concern": 68.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3379.1,
+          "concern": 61.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 837.0,
+          "concern": 69.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3524.6,
+          "concern": 66.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 801.3,
+          "concern": 70.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3081.4,
+          "concern": 53.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 841.6,
+          "concern": 78.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3065.0,
+          "concern": 60.0
+        }
+      }
     }
   },
   "albuquerque-nm": {
     "agency_name": "Albuquerque Police Department",
     "ori": "NM0010100",
-    "violent_crime": {
-      "rate_per_100k": 1193.9,
-      "concern": 92.4
-    },
-    "property_crime": {
-      "rate_per_100k": 4766.4,
-      "concern": 91.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1347.4,
+          "concern": 92.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5044.6,
+          "concern": 91.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1434.4,
+          "concern": 93.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4456.1,
+          "concern": 83.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1386.7,
+          "concern": 92.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4834.1,
+          "concern": 85.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1323.9,
+          "concern": 93.7
+        },
+        "property_crime": {
+          "rate_per_100k": 4758.9,
+          "concern": 84.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1193.9,
+          "concern": 92.4
+        },
+        "property_crime": {
+          "rate_per_100k": 4766.4,
+          "concern": 91.0
+        }
+      }
     }
   },
   "amarillo-tx": {
     "agency_name": "Amarillo Police Department",
     "ori": "TX1880100",
-    "violent_crime": {
-      "rate_per_100k": 692.0,
-      "concern": 64.8
-    },
-    "property_crime": {
-      "rate_per_100k": 2691.6,
-      "concern": 46.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 839.3,
+          "concern": 60.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3708.5,
+          "concern": 61.3
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 771.5,
+          "concern": 62.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3400.7,
+          "concern": 65.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 773.4,
+          "concern": 64.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3507.9,
+          "concern": 65.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 726.9,
+          "concern": 64.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3119.7,
+          "concern": 55.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 692.0,
+          "concern": 64.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2691.6,
+          "concern": 46.9
+        }
+      }
     }
   },
   "anaheim-ca": {
     "agency_name": "Anaheim Police Department",
     "ori": "CA0300100",
-    "violent_crime": {
-      "rate_per_100k": 597.7,
-      "concern": 51.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2233.2,
-      "concern": 32.4
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 556.9,
+          "concern": 46.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2784.8,
+          "concern": 45.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 592.7,
+          "concern": 49.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2457.8,
+          "concern": 37.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 597.7,
+          "concern": 51.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2233.2,
+          "concern": 32.4
+        }
+      }
     }
   },
   "arlington-tx": {
     "agency_name": "Arlington Police Department",
     "ori": "TX2200100",
-    "violent_crime": {
-      "rate_per_100k": 493.7,
-      "concern": 40.7
-    },
-    "property_crime": {
-      "rate_per_100k": 2434.0,
-      "concern": 40.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 553.0,
+          "concern": 37.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2578.3,
+          "concern": 30.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 579.4,
+          "concern": 47.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2578.8,
+          "concern": 40.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 589.6,
+          "concern": 49.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2544.7,
+          "concern": 39.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 498.0,
+          "concern": 39.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2605.9,
+          "concern": 41.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 493.7,
+          "concern": 40.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2434.0,
+          "concern": 40.0
+        }
+      }
     }
   },
   "asheville-nc": {
     "agency_name": "Asheville Police Department",
     "ori": "NC0110100",
-    "violent_crime": {
-      "rate_per_100k": 801.3,
-      "concern": 75.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3960.3,
-      "concern": 81.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 853.4,
+          "concern": 63.7
+        },
+        "property_crime": {
+          "rate_per_100k": 5809.7,
+          "concern": 97.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 788.5,
+          "concern": 64.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5370.0,
+          "concern": 92.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 954.9,
+          "concern": 78.1
+        },
+        "property_crime": {
+          "rate_per_100k": 5168.1,
+          "concern": 89.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 866.6,
+          "concern": 75.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4572.5,
+          "concern": 82.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 801.3,
+          "concern": 75.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3960.3,
+          "concern": 81.4
+        }
+      }
     }
   },
   "atlanta-ga": {
     "agency_name": "Atlanta Police Department",
     "ori": "GAAPD0000",
-    "violent_crime": {
-      "rate_per_100k": 603.5,
-      "concern": 52.4
-    },
-    "property_crime": {
-      "rate_per_100k": 3548.3,
-      "concern": 74.5
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 888.4,
+          "concern": 71.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3683.1,
+          "concern": 70.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 851.5,
+          "concern": 72.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3770.2,
+          "concern": 71.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 709.3,
+          "concern": 59.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3917.3,
+          "concern": 76.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 603.5,
+          "concern": 52.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3548.3,
+          "concern": 74.5
+        }
+      }
     }
   },
   "augusta-ga": {
     "agency_name": "Augusta-Richmond County Sheriff's Office",
     "ori": "GA1210000",
-    "violent_crime": {
-      "rate_per_100k": 546.7,
-      "concern": 46.2
-    },
-    "property_crime": {
-      "rate_per_100k": 3652.0,
-      "concern": 76.6
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 572.2,
+          "concern": 47.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3313.3,
+          "concern": 62.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 546.7,
+          "concern": 46.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3652.0,
+          "concern": 76.6
+        }
+      }
     }
   },
   "aurora-co": {
     "agency_name": "Aurora Police Department",
     "ori": "CO0010100",
-    "violent_crime": {
-      "rate_per_100k": 952.6,
-      "concern": 86.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3367.1,
-      "concern": 67.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 913.1,
+          "concern": 73.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3405.1,
+          "concern": 51.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1024.1,
+          "concern": 80.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3926.4,
+          "concern": 77.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1156.2,
+          "concern": 87.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4323.3,
+          "concern": 78.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 959.5,
+          "concern": 82.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3822.4,
+          "concern": 73.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 952.6,
+          "concern": 86.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3367.1,
+          "concern": 67.6
+        }
+      }
     }
   },
   "aurora-il": {
     "agency_name": "Aurora Police Department",
     "ori": "IL0450100",
-    "violent_crime": {
-      "rate_per_100k": 269.4,
-      "concern": 13.8
-    },
-    "property_crime": {
-      "rate_per_100k": 1247.4,
-      "concern": 7.6
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 318.6,
+          "concern": 21.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1117.1,
+          "concern": 3.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 269.4,
+          "concern": 13.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1247.4,
+          "concern": 7.6
+        }
+      }
     }
   },
   "austin-tx": {
     "agency_name": "Austin Police Department",
     "ori": "TX2270100",
-    "violent_crime": {
-      "rate_per_100k": 476.3,
-      "concern": 35.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3290.5,
-      "concern": 65.5
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 491.8,
+          "concern": 32.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3662.1,
+          "concern": 58.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 505.8,
+          "concern": 43.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3385.2,
+          "concern": 62.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 552.5,
+          "concern": 45.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3629.7,
+          "concern": 68.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 516.0,
+          "concern": 42.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3360.9,
+          "concern": 64.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 476.3,
+          "concern": 35.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3290.5,
+          "concern": 65.5
+        }
+      }
     }
   },
   "bakersfield-ca": {
     "agency_name": "Bakersfield Police Department",
     "ori": "CA0150200",
-    "violent_crime": {
-      "rate_per_100k": 556.8,
-      "concern": 47.6
-    },
-    "property_crime": {
-      "rate_per_100k": 2488.7,
-      "concern": 42.8
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 650.7,
+          "concern": 53.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3379.5,
+          "concern": 65.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 556.8,
+          "concern": 47.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2488.7,
+          "concern": 42.8
+        }
+      }
     }
   },
   "baltimore-md": {
     "agency_name": "Baltimore Police Department",
     "ori": "MDBPD0000",
-    "violent_crime": {
-      "rate_per_100k": 1616.4,
-      "concern": 97.9
-    },
-    "property_crime": {
-      "rate_per_100k": 4202.4,
-      "concern": 84.8
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1709.4,
+          "concern": 97.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3400.8,
+          "concern": 60.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1694.5,
+          "concern": 97.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5159.8,
+          "concern": 90.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1616.4,
+          "concern": 97.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4202.4,
+          "concern": 84.8
+        }
+      }
+    }
+  },
+  "baton-rouge-la": {
+    "agency_name": "Baton Rouge Police Department",
+    "ori": "LA0170200",
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1282.2,
+          "concern": 91.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4473.1,
+          "concern": 84.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1075.4,
+          "concern": 83.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5872.8,
+          "concern": 94.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1008.7,
+          "concern": 83.9
+        },
+        "property_crime": {
+          "rate_per_100k": 5543.0,
+          "concern": 95.8
+        }
+      }
     }
   },
   "billings-mt": {
     "agency_name": "Billings Police Department",
     "ori": "MT0560100",
-    "violent_crime": {
-      "rate_per_100k": 750.2,
-      "concern": 72.4
-    },
-    "property_crime": {
-      "rate_per_100k": 3124.4,
-      "concern": 61.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 879.7,
+          "concern": 68.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4826.7,
+          "concern": 85.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1091.8,
+          "concern": 83.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4853.4,
+          "concern": 87.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 945.1,
+          "concern": 76.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4359.2,
+          "concern": 80.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 902.2,
+          "concern": 81.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3646.9,
+          "concern": 69.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 750.2,
+          "concern": 72.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3124.4,
+          "concern": 61.4
+        }
+      }
     }
   },
   "birmingham-al": {
     "agency_name": "Birmingham Police Department",
     "ori": "AL0010200",
-    "violent_crime": {
-      "rate_per_100k": 1274.7,
-      "concern": 94.5
-    },
-    "property_crime": {
-      "rate_per_100k": 4233.0,
-      "concern": 85.5
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1695.0,
+          "concern": 96.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4320.4,
+          "concern": 78.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1553.1,
+          "concern": 96.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4676.7,
+          "concern": 83.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1274.7,
+          "concern": 94.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4233.0,
+          "concern": 85.5
+        }
+      }
+    }
+  },
+  "blanding-ut": {
+    "agency_name": "Blanding Police Department",
+    "ori": "UT0190100",
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 60.7,
+          "concern": 1.6
+        },
+        "property_crime": {
+          "rate_per_100k": 971.2,
+          "concern": 3.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 253.7,
+          "concern": 14.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1205.2,
+          "concern": 4.2
+        }
+      }
     }
   },
   "boise-id": {
     "agency_name": "Boise Police Department",
     "ori": "ID0010100",
-    "violent_crime": {
-      "rate_per_100k": 300.1,
-      "concern": 19.3
-    },
-    "property_crime": {
-      "rate_per_100k": 1135.1,
-      "concern": 4.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 318.3,
+          "concern": 13.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1690.6,
+          "concern": 10.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 317.8,
+          "concern": 22.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1370.4,
+          "concern": 11.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 263.5,
+          "concern": 15.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1225.6,
+          "concern": 7.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 281.1,
+          "concern": 16.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1268.6,
+          "concern": 5.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 300.1,
+          "concern": 19.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1135.1,
+          "concern": 4.8
+        }
+      }
     }
   },
   "boston-ma": {
     "agency_name": "Boston Police Department",
     "ori": "MA0130100",
-    "violent_crime": {
-      "rate_per_100k": 630.2,
-      "concern": 56.6
-    },
-    "property_crime": {
-      "rate_per_100k": 2030.7,
-      "concern": 29.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 637.0,
+          "concern": 52.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1899.8,
+          "concern": 15.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 564.3,
+          "concern": 45.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1670.8,
+          "concern": 17.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 635.8,
+          "concern": 53.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1831.8,
+          "concern": 18.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 633.8,
+          "concern": 51.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1965.5,
+          "concern": 24.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 630.2,
+          "concern": 56.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2030.7,
+          "concern": 29.7
+        }
+      }
     }
   },
   "brownsville-tx": {
     "agency_name": "Brownsville Police Department",
     "ori": "TX0310100",
-    "violent_crime": {
-      "rate_per_100k": 458.1,
-      "concern": 32.4
-    },
-    "property_crime": {
-      "rate_per_100k": 1958.5,
-      "concern": 26.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 403.5,
+          "concern": 25.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1863.6,
+          "concern": 13.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 398.8,
+          "concern": 29.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1834.1,
+          "concern": 22.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 439.4,
+          "concern": 32.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1868.1,
+          "concern": 21.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 401.4,
+          "concern": 27.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2067.8,
+          "concern": 26.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 458.1,
+          "concern": 32.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1958.5,
+          "concern": 26.9
+        }
+      }
     }
   },
   "buffalo-ny": {
     "agency_name": "Buffalo Police Department",
     "ori": "NY0140100",
-    "violent_crime": {
-      "rate_per_100k": 770.5,
-      "concern": 74.5
-    },
-    "property_crime": {
-      "rate_per_100k": 4003.2,
-      "concern": 82.8
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 961.7,
+          "concern": 76.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3155.9,
+          "concern": 52.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 780.9,
+          "concern": 65.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3316.9,
+          "concern": 57.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 760.7,
+          "concern": 68.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4286.7,
+          "concern": 79.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 770.5,
+          "concern": 74.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4003.2,
+          "concern": 82.8
+        }
+      }
+    }
+  },
+  "cape-coral-fl": {
+    "agency_name": "Cape Coral Police Department",
+    "ori": "FL0360200",
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 189.1,
+          "concern": 9.4
+        },
+        "property_crime": {
+          "rate_per_100k": 926.4,
+          "concern": 2.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 121.1,
+          "concern": 3.5
+        },
+        "property_crime": {
+          "rate_per_100k": 913.1,
+          "concern": 1.4
+        }
+      }
     }
   },
   "carlsbad-nm": {
     "agency_name": "Carlsbad Police Department",
     "ori": "NM0080200",
-    "violent_crime": {
-      "rate_per_100k": 528.1,
-      "concern": 43.4
-    },
-    "property_crime": {
-      "rate_per_100k": 2842.2,
-      "concern": 53.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 595.4,
+          "concern": 42.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3148.9,
+          "concern": 43.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 456.2,
+          "concern": 36.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2537.5,
+          "concern": 37.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 561.3,
+          "concern": 47.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2870.1,
+          "concern": 46.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 562.5,
+          "concern": 46.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2630.5,
+          "concern": 42.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 528.1,
+          "concern": 43.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2842.2,
+          "concern": 53.1
+        }
+      }
     }
   },
   "chandler-az": {
     "agency_name": "Chandler Police Department",
     "ori": "AZ0070500",
-    "violent_crime": {
-      "rate_per_100k": 139.4,
-      "concern": 4.8
-    },
-    "property_crime": {
-      "rate_per_100k": 1521.4,
-      "concern": 15.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 194.9,
+          "concern": 9.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1723.6,
+          "concern": 18.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 189.1,
+          "concern": 8.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1832.8,
+          "concern": 19.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 178.5,
+          "concern": 7.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1463.8,
+          "concern": 11.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 139.4,
+          "concern": 4.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1521.4,
+          "concern": 15.2
+        }
+      }
     }
   },
   "charlotte-nc": {
     "agency_name": "Charlotte-Mecklenburg Police Department",
     "ori": "NC0600100",
-    "violent_crime": {
-      "rate_per_100k": 733.1,
-      "concern": 69.0
-    },
-    "property_crime": {
-      "rate_per_100k": 3718.9,
-      "concern": 77.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 837.1,
+          "concern": 58.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3270.3,
+          "concern": 47.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 784.6,
+          "concern": 63.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3163.4,
+          "concern": 53.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 745.5,
+          "concern": 60.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3389.6,
+          "concern": 59.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 725.8,
+          "concern": 63.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3853.7,
+          "concern": 74.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 733.1,
+          "concern": 69.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3718.9,
+          "concern": 77.9
+        }
+      }
     }
   },
   "chattanooga-tn": {
     "agency_name": "Chattanooga Police Department",
     "ori": "TN0330100",
-    "violent_crime": {
-      "rate_per_100k": 825.3,
-      "concern": 77.2
-    },
-    "property_crime": {
-      "rate_per_100k": 3968.9,
-      "concern": 82.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1314.8,
+          "concern": 90.0
+        },
+        "property_crime": {
+          "rate_per_100k": 6350.3,
+          "concern": 98.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1275.9,
+          "concern": 90.9
+        },
+        "property_crime": {
+          "rate_per_100k": 5819.9,
+          "concern": 96.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1088.2,
+          "concern": 85.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5180.1,
+          "concern": 89.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1055.2,
+          "concern": 86.7
+        },
+        "property_crime": {
+          "rate_per_100k": 4812.0,
+          "concern": 85.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 825.3,
+          "concern": 77.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3968.9,
+          "concern": 82.1
+        }
+      }
     }
   },
   "chesapeake-va": {
     "agency_name": "Chesapeake Police Department",
     "ori": "VA1030000",
-    "violent_crime": {
-      "rate_per_100k": 345.6,
-      "concern": 22.1
-    },
-    "property_crime": {
-      "rate_per_100k": 1759.8,
-      "concern": 22.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 421.7,
+          "concern": 28.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1818.2,
+          "concern": 11.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 469.5,
+          "concern": 40.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1738.8,
+          "concern": 19.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 422.1,
+          "concern": 28.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2028.8,
+          "concern": 27.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 423.5,
+          "concern": 29.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1855.1,
+          "concern": 22.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 345.6,
+          "concern": 22.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1759.8,
+          "concern": 22.8
+        }
+      }
     }
   },
   "chicago-il": {
     "agency_name": "Chicago Police Department",
     "ori": "ILCPD0000",
-    "violent_crime": {
-      "rate_per_100k": 539.8,
-      "concern": 44.8
-    },
-    "property_crime": {
-      "rate_per_100k": 3489.9,
-      "concern": 71.7
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 540.0,
+          "concern": 43.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3138.7,
+          "concern": 53.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 606.9,
+          "concern": 50.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3440.5,
+          "concern": 67.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 539.8,
+          "concern": 44.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3489.9,
+          "concern": 71.7
+        }
+      }
     }
   },
   "chula-vista-ca": {
     "agency_name": "Chula Vista Police Department",
     "ori": "CA0370200",
-    "violent_crime": {
-      "rate_per_100k": 379.0,
-      "concern": 27.6
-    },
-    "property_crime": {
-      "rate_per_100k": 1154.7,
-      "concern": 5.5
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 342.1,
+          "concern": 24.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1263.9,
+          "concern": 8.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 353.3,
+          "concern": 25.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1294.7,
+          "concern": 7.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 350.5,
+          "concern": 24.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1295.1,
+          "concern": 7.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 379.0,
+          "concern": 27.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1154.7,
+          "concern": 5.5
+        }
+      }
     }
   },
   "cincinnati-oh": {
     "agency_name": "Cincinnati Police Department",
     "ori": "OHCIP0000",
-    "violent_crime": {
-      "rate_per_100k": 855.3,
-      "concern": 80.0
-    },
-    "property_crime": {
-      "rate_per_100k": 3877.4,
-      "concern": 80.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 908.4,
+          "concern": 72.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3714.2,
+          "concern": 62.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 833.9,
+          "concern": 66.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3319.6,
+          "concern": 59.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 843.5,
+          "concern": 70.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3766.2,
+          "concern": 71.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 743.5,
+          "concern": 67.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4303.0,
+          "concern": 79.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 855.3,
+          "concern": 80.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3877.4,
+          "concern": 80.7
+        }
+      }
     }
   },
   "cleveland-oh": {
     "agency_name": "Cleveland Police Department",
     "ori": "OHCLP0000",
-    "violent_crime": {
-      "rate_per_100k": 1580.7,
-      "concern": 97.2
-    },
-    "property_crime": {
-      "rate_per_100k": 4530.8,
-      "concern": 87.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1684.2,
+          "concern": 96.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4231.1,
+          "concern": 77.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1704.7,
+          "concern": 97.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3914.4,
+          "concern": 76.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1630.7,
+          "concern": 96.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4400.9,
+          "concern": 82.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1726.4,
+          "concern": 97.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4982.0,
+          "concern": 87.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1580.7,
+          "concern": 97.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4530.8,
+          "concern": 87.6
+        }
+      }
     }
   },
   "colorado-springs-co": {
     "agency_name": "Colorado Springs Police Department",
     "ori": "CO0210100",
-    "violent_crime": {
-      "rate_per_100k": 722.1,
-      "concern": 67.6
-    },
-    "property_crime": {
-      "rate_per_100k": 3488.9,
-      "concern": 71.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 613.3,
+          "concern": 45.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3411.8,
+          "concern": 52.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 604.0,
+          "concern": 50.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3387.8,
+          "concern": 63.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 646.7,
+          "concern": 53.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3446.4,
+          "concern": 61.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 696.6,
+          "concern": 58.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3735.3,
+          "concern": 70.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 722.1,
+          "concern": 67.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3488.9,
+          "concern": 71.0
+        }
+      }
     }
   },
   "columbus-ga": {
     "agency_name": "Columbus Police Department",
     "ori": "GA1060100",
-    "violent_crime": {
-      "rate_per_100k": 612.3,
-      "concern": 55.2
-    },
-    "property_crime": {
-      "rate_per_100k": 2273.4,
-      "concern": 35.9
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 194.3,
+          "concern": 8.2
+        },
+        "property_crime": {
+          "rate_per_100k": 677.4,
+          "concern": 1.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 634.7,
+          "concern": 52.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2373.3,
+          "concern": 32.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 722.9,
+          "concern": 62.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2827.0,
+          "concern": 47.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 612.3,
+          "concern": 55.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2273.4,
+          "concern": 35.9
+        }
+      }
     }
   },
   "columbus-oh": {
     "agency_name": "Columbus Police Department",
     "ori": "OHCOP0000",
-    "violent_crime": {
-      "rate_per_100k": 485.2,
-      "concern": 38.6
-    },
-    "property_crime": {
-      "rate_per_100k": 3093.9,
-      "concern": 60.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 617.4,
+          "concern": 47.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3255.6,
+          "concern": 46.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 685.8,
+          "concern": 57.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3388.2,
+          "concern": 64.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 537.1,
+          "concern": 43.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3583.5,
+          "concern": 67.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 538.2,
+          "concern": 44.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3344.3,
+          "concern": 63.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 485.2,
+          "concern": 38.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3093.9,
+          "concern": 60.7
+        }
+      }
     }
   },
   "corpus-christi-tx": {
     "agency_name": "Corpus Christi Police Department",
     "ori": "TX1780200",
-    "violent_crime": {
-      "rate_per_100k": 873.4,
-      "concern": 80.7
-    },
-    "property_crime": {
-      "rate_per_100k": 3048.0,
-      "concern": 59.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 857.3,
+          "concern": 65.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3315.6,
+          "concern": 48.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 863.3,
+          "concern": 69.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3193.0,
+          "concern": 55.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 804.5,
+          "concern": 68.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3163.7,
+          "concern": 54.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 875.2,
+          "concern": 76.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3216.2,
+          "concern": 60.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 873.4,
+          "concern": 80.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3048.0,
+          "concern": 59.3
+        }
+      }
     }
   },
   "dallas-tx": {
     "agency_name": "Dallas Police Department",
     "ori": "TXDPD0000",
-    "violent_crime": {
-      "rate_per_100k": 661.9,
-      "concern": 58.6
-    },
-    "property_crime": {
-      "rate_per_100k": 3412.6,
-      "concern": 68.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 899.4,
+          "concern": 70.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3447.3,
+          "concern": 53.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 828.5,
+          "concern": 65.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3482.7,
+          "concern": 68.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 797.1,
+          "concern": 66.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3826.7,
+          "concern": 73.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 691.7,
+          "concern": 57.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4033.3,
+          "concern": 77.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 661.9,
+          "concern": 58.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3412.6,
+          "concern": 68.3
+        }
+      }
     }
   },
   "denver-co": {
     "agency_name": "Denver Police Department",
     "ori": "CODPD0000",
-    "violent_crime": {
-      "rate_per_100k": 999.0,
-      "concern": 87.6
-    },
-    "property_crime": {
-      "rate_per_100k": 4782.5,
-      "concern": 91.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 867.8,
+          "concern": 67.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4683.0,
+          "concern": 81.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 936.9,
+          "concern": 74.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5817.1,
+          "concern": 95.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1075.5,
+          "concern": 84.4
+        },
+        "property_crime": {
+          "rate_per_100k": 6462.7,
+          "concern": 96.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1027.5,
+          "concern": 84.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5779.2,
+          "concern": 97.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 999.0,
+          "concern": 87.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4782.5,
+          "concern": 91.7
+        }
+      }
     }
   },
   "des-moines-ia": {
     "agency_name": "Des Moines Police Department",
     "ori": "IA0770300",
-    "violent_crime": {
-      "rate_per_100k": 705.9,
-      "concern": 66.2
-    },
-    "property_crime": {
-      "rate_per_100k": 3156.6,
-      "concern": 63.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 709.3,
+          "concern": 55.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3947.7,
+          "concern": 68.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 631.7,
+          "concern": 51.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3192.1,
+          "concern": 54.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 482.5,
+          "concern": 34.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2209.4,
+          "concern": 28.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 714.0,
+          "concern": 60.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3398.4,
+          "concern": 65.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 705.9,
+          "concern": 66.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3156.6,
+          "concern": 63.4
+        }
+      }
     }
   },
   "detroit-mi": {
     "agency_name": "Detroit Police Department",
     "ori": "MI8234900",
-    "violent_crime": {
-      "rate_per_100k": 1783.2,
-      "concern": 99.3
-    },
-    "property_crime": {
-      "rate_per_100k": 4391.2,
-      "concern": 86.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 2197.2,
+          "concern": 98.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3367.6,
+          "concern": 50.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 2151.7,
+          "concern": 99.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3441.8,
+          "concern": 67.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 2025.0,
+          "concern": 99.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4557.6,
+          "concern": 83.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 2051.0,
+          "concern": 99.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4845.0,
+          "concern": 86.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1783.2,
+          "concern": 99.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4391.2,
+          "concern": 86.9
+        }
+      }
     }
   },
   "durango-co": {
     "agency_name": "Durango Police Department",
     "ori": "CO0340100",
-    "violent_crime": {
-      "rate_per_100k": 340.4,
-      "concern": 21.4
-    },
-    "property_crime": {
-      "rate_per_100k": 3511.2,
-      "concern": 72.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 353.8,
+          "concern": 22.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5000.0,
+          "concern": 88.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 240.1,
+          "concern": 13.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3085.8,
+          "concern": 51.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 283.5,
+          "concern": 18.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3169.8,
+          "concern": 55.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 369.7,
+          "concern": 25.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2825.7,
+          "concern": 46.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 340.4,
+          "concern": 21.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3511.2,
+          "concern": 72.4
+        }
+      }
     }
   },
   "durham-nc": {
     "agency_name": "Durham Police Department",
     "ori": "NC0320100",
-    "violent_crime": {
-      "rate_per_100k": 621.2,
-      "concern": 55.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3813.0,
-      "concern": 80.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 861.3,
+          "concern": 66.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3763.1,
+          "concern": 63.7
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 747.0,
+          "concern": 59.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3334.0,
+          "concern": 60.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 690.7,
+          "concern": 57.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3341.7,
+          "concern": 58.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 638.6,
+          "concern": 53.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3789.2,
+          "concern": 72.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 621.2,
+          "concern": 55.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3813.0,
+          "concern": 80.0
+        }
+      }
     }
   },
   "el-paso-tx": {
     "agency_name": "El Paso Police Department",
     "ori": "TX0710200",
-    "violent_crime": {
-      "rate_per_100k": 319.7,
-      "concern": 20.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1509.3,
-      "concern": 14.5
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 322.6,
+          "concern": 15.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1298.3,
+          "concern": 3.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 262.0,
+          "concern": 16.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1297.1,
+          "concern": 10.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 311.0,
+          "concern": 21.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1391.9,
+          "concern": 12.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 315.4,
+          "concern": 21.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1634.8,
+          "concern": 16.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 319.7,
+          "concern": 20.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1509.3,
+          "concern": 14.5
+        }
+      }
     }
   },
   "elk-grove-ca": {
     "agency_name": "Elk Grove Police Department",
     "ori": "CA0340H00",
-    "violent_crime": {
-      "rate_per_100k": 190.4,
-      "concern": 8.3
-    },
-    "property_crime": {
-      "rate_per_100k": 1262.0,
-      "concern": 8.3
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 204.0,
+          "concern": 10.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1342.8,
+          "concern": 10.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 189.4,
+          "concern": 8.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1223.8,
+          "concern": 4.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 190.4,
+          "concern": 8.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1262.0,
+          "concern": 8.3
+        }
+      }
     }
   },
   "fayetteville-nc": {
     "agency_name": "Fayetteville Police Department",
     "ori": "NC0260100",
-    "violent_crime": {
-      "rate_per_100k": 685.9,
-      "concern": 62.1
-    },
-    "property_crime": {
-      "rate_per_100k": 3146.1,
-      "concern": 62.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 991.4,
+          "concern": 80.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3455.1,
+          "concern": 55.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 955.9,
+          "concern": 75.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2913.0,
+          "concern": 48.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 982.9,
+          "concern": 79.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3505.6,
+          "concern": 64.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 888.4,
+          "concern": 79.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3234.2,
+          "concern": 61.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 685.9,
+          "concern": 62.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3146.1,
+          "concern": 62.1
+        }
+      }
     }
   },
   "flagstaff-az": {
     "agency_name": "Flagstaff Police Department",
     "ori": "AZ0030100",
-    "violent_crime": {
-      "rate_per_100k": 468.4,
-      "concern": 34.5
-    },
-    "property_crime": {
-      "rate_per_100k": 2260.8,
-      "concern": 35.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 426.6,
+          "concern": 32.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2282.8,
+          "concern": 31.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 492.1,
+          "concern": 35.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2502.0,
+          "concern": 37.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 400.8,
+          "concern": 26.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2231.1,
+          "concern": 28.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 468.4,
+          "concern": 34.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2260.8,
+          "concern": 35.2
+        }
+      }
     }
   },
   "fontana-ca": {
     "agency_name": "Fontana Police Department",
     "ori": "CA0360400",
-    "violent_crime": {
-      "rate_per_100k": 272.5,
-      "concern": 15.2
-    },
-    "property_crime": {
-      "rate_per_100k": 1226.1,
-      "concern": 6.2
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 288.6,
+          "concern": 18.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1298.4,
+          "concern": 8.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 282.1,
+          "concern": 17.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1376.7,
+          "concern": 9.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 272.5,
+          "concern": 15.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1226.1,
+          "concern": 6.2
+        }
+      }
     }
   },
   "fort-lauderdale-fl": {
     "agency_name": "Fort Lauderdale Police Department",
     "ori": "FL0060300",
-    "violent_crime": {
-      "rate_per_100k": 686.5,
-      "concern": 62.8
-    },
-    "property_crime": {
-      "rate_per_100k": 4061.4,
-      "concern": 84.1
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 719.1,
+          "concern": 61.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4725.5,
+          "concern": 83.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 686.5,
+          "concern": 62.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4061.4,
+          "concern": 84.1
+        }
+      }
     }
   },
   "fort-wayne-in": {
     "agency_name": "Fort Wayne Police Department",
     "ori": "IN0020100",
-    "violent_crime": {
-      "rate_per_100k": 308.9,
-      "concern": 20.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2245.4,
-      "concern": 33.1
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 257.4,
+          "concern": 15.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2277.8,
+          "concern": 30.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 261.8,
+          "concern": 14.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2412.7,
+          "concern": 34.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 271.4,
+          "concern": 16.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2375.0,
+          "concern": 33.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 308.9,
+          "concern": 20.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2245.4,
+          "concern": 33.1
+        }
+      }
     }
   },
   "fort-worth-tx": {
     "agency_name": "Fort Worth Police Department",
     "ori": "TX2201200",
-    "violent_crime": {
-      "rate_per_100k": 465.1,
-      "concern": 33.8
-    },
-    "property_crime": {
-      "rate_per_100k": 2735.5,
-      "concern": 50.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 567.7,
+          "concern": 38.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2818.2,
+          "concern": 36.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 572.7,
+          "concern": 46.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2656.8,
+          "concern": 41.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 513.9,
+          "concern": 40.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2769.8,
+          "concern": 44.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 498.0,
+          "concern": 39.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2680.0,
+          "concern": 44.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 465.1,
+          "concern": 33.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2735.5,
+          "concern": 50.3
+        }
+      }
     }
   },
   "fremont-ca": {
     "agency_name": "Fremont Police Department",
     "ori": "CA0010500",
-    "violent_crime": {
-      "rate_per_100k": 198.4,
-      "concern": 9.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2420.6,
-      "concern": 39.3
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 220.1,
+          "concern": 11.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2909.7,
+          "concern": 48.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 198.4,
+          "concern": 9.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2420.6,
+          "concern": 39.3
+        }
+      }
     }
   },
   "fresno-ca": {
     "agency_name": "Fresno Police Department",
     "ori": "CA0100500",
-    "violent_crime": {
-      "rate_per_100k": 742.2,
-      "concern": 69.7
-    },
-    "property_crime": {
-      "rate_per_100k": 3335.0,
-      "concern": 66.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 931.0,
+          "concern": 73.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3210.6,
+          "concern": 56.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 871.3,
+          "concern": 73.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3488.6,
+          "concern": 63.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 749.4,
+          "concern": 67.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3128.7,
+          "concern": 56.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 742.2,
+          "concern": 69.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3335.0,
+          "concern": 66.2
+        }
+      }
     }
   },
   "frisco-tx": {
     "agency_name": "Frisco Police Department",
     "ori": "TX0430400",
-    "violent_crime": {
-      "rate_per_100k": 114.2,
-      "concern": 2.8
-    },
-    "property_crime": {
-      "rate_per_100k": 1014.8,
-      "concern": 2.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 89.8,
+          "concern": 1.2
+        },
+        "property_crime": {
+          "rate_per_100k": 978.2,
+          "concern": 1.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 99.8,
+          "concern": 2.7
+        },
+        "property_crime": {
+          "rate_per_100k": 909.1,
+          "concern": 4.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 106.4,
+          "concern": 4.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1346.8,
+          "concern": 10.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 91.0,
+          "concern": 2.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1367.5,
+          "concern": 8.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 114.2,
+          "concern": 2.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1014.8,
+          "concern": 2.8
+        }
+      }
     }
   },
   "garland-tx": {
     "agency_name": "Garland Police Department",
     "ori": "TX0571100",
-    "violent_crime": {
-      "rate_per_100k": 241.2,
-      "concern": 11.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2007.3,
-      "concern": 29.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 295.6,
+          "concern": 11.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2528.9,
+          "concern": 27.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 263.6,
+          "concern": 17.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2413.8,
+          "concern": 33.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 257.2,
+          "concern": 14.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2599.8,
+          "concern": 40.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 230.8,
+          "concern": 14.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2411.6,
+          "concern": 35.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 241.2,
+          "concern": 11.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2007.3,
+          "concern": 29.0
+        }
+      }
     }
   },
   "gilbert-az": {
     "agency_name": "Gilbert Police Department",
     "ori": "AZ0071100",
-    "violent_crime": {
-      "rate_per_100k": 138.0,
-      "concern": 4.1
-    },
-    "property_crime": {
-      "rate_per_100k": 984.4,
-      "concern": 2.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 112.9,
+          "concern": 3.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1088.9,
+          "concern": 2.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 123.1,
+          "concern": 4.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1080.8,
+          "concern": 5.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 124.1,
+          "concern": 6.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1024.8,
+          "concern": 4.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 123.2,
+          "concern": 4.9
+        },
+        "property_crime": {
+          "rate_per_100k": 946.2,
+          "concern": 2.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 138.0,
+          "concern": 4.1
+        },
+        "property_crime": {
+          "rate_per_100k": 984.4,
+          "concern": 2.1
+        }
+      }
     }
   },
   "glendale-az": {
     "agency_name": "Glendale Police Department",
     "ori": "AZ0071300",
-    "violent_crime": {
-      "rate_per_100k": 493.9,
-      "concern": 41.4
-    },
-    "property_crime": {
-      "rate_per_100k": 2702.0,
-      "concern": 49.0
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 581.6,
+          "concern": 48.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2923.9,
+          "concern": 49.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 493.9,
+          "concern": 41.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2702.0,
+          "concern": 49.0
+        }
+      }
     }
   },
   "glendale-ca": {
     "agency_name": "Glendale Police Department",
     "ori": "CA0192500",
-    "violent_crime": {
-      "rate_per_100k": 286.7,
-      "concern": 17.9
-    },
-    "property_crime": {
-      "rate_per_100k": 2048.0,
-      "concern": 31.0
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 229.1,
+          "concern": 13.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2255.2,
+          "concern": 30.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 286.7,
+          "concern": 17.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2048.0,
+          "concern": 31.0
+        }
+      }
     }
   },
   "grand-junction-co": {
     "agency_name": "Grand Junction Police Department",
     "ori": "CO0390100",
-    "violent_crime": {
-      "rate_per_100k": 548.9,
-      "concern": 46.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3231.2,
-      "concern": 64.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 547.2,
+          "concern": 36.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4704.7,
+          "concern": 82.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 597.5,
+          "concern": 50.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4562.9,
+          "concern": 86.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 507.9,
+          "concern": 38.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3161.8,
+          "concern": 53.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 505.5,
+          "concern": 41.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3230.8,
+          "concern": 60.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 548.9,
+          "concern": 46.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3231.2,
+          "concern": 64.1
+        }
+      }
     }
   },
   "grand-prairie-tx": {
     "agency_name": "Grand Prairie Police Department",
     "ori": "TX0571200",
-    "violent_crime": {
-      "rate_per_100k": 219.8,
-      "concern": 10.3
-    },
-    "property_crime": {
-      "rate_per_100k": 1618.0,
-      "concern": 16.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 245.7,
+          "concern": 8.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1940.2,
+          "concern": 17.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 233.3,
+          "concern": 11.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1768.9,
+          "concern": 20.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 204.8,
+          "concern": 11.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1896.7,
+          "concern": 24.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 194.7,
+          "concern": 9.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1625.9,
+          "concern": 14.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 219.8,
+          "concern": 10.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1618.0,
+          "concern": 16.6
+        }
+      }
     }
   },
   "grand-rapids-mi": {
     "agency_name": "Grand Rapids Police Department",
     "ori": "MI4143600",
-    "violent_crime": {
-      "rate_per_100k": 910.1,
-      "concern": 82.1
-    },
-    "property_crime": {
-      "rate_per_100k": 2506.2,
-      "concern": 44.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 963.4,
+          "concern": 78.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2922.3,
+          "concern": 40.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 988.7,
+          "concern": 79.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2589.9,
+          "concern": 40.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 978.8,
+          "concern": 78.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3035.7,
+          "concern": 50.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 882.6,
+          "concern": 77.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3078.8,
+          "concern": 53.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 910.1,
+          "concern": 82.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2506.2,
+          "concern": 44.1
+        }
+      }
     }
   },
   "greensboro-nc": {
     "agency_name": "Greensboro Police Department",
     "ori": "NC0410200",
-    "violent_crime": {
-      "rate_per_100k": 925.7,
-      "concern": 83.4
-    },
-    "property_crime": {
-      "rate_per_100k": 3419.3,
-      "concern": 69.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 907.7,
+          "concern": 71.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3669.0,
+          "concern": 60.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 877.8,
+          "concern": 70.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3582.0,
+          "concern": 69.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 821.5,
+          "concern": 68.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3823.7,
+          "concern": 72.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 828.1,
+          "concern": 72.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3774.3,
+          "concern": 72.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 925.7,
+          "concern": 83.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3419.3,
+          "concern": 69.0
+        }
+      }
     }
   },
   "henderson-nv": {
     "agency_name": "Henderson Police Department",
     "ori": "NV0020300",
-    "violent_crime": {
-      "rate_per_100k": 271.5,
-      "concern": 14.5
-    },
-    "property_crime": {
-      "rate_per_100k": 1725.7,
-      "concern": 22.1
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 229.4,
+          "concern": 10.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1666.4,
+          "concern": 16.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 298.8,
+          "concern": 19.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1933.1,
+          "concern": 25.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 294.0,
+          "concern": 18.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2064.6,
+          "concern": 25.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 271.5,
+          "concern": 14.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1725.7,
+          "concern": 22.1
+        }
+      }
     }
   },
   "hialeah-fl": {
     "agency_name": "Hialeah Police Department",
     "ori": "FL0130400",
-    "violent_crime": {
-      "rate_per_100k": 187.4,
-      "concern": 6.9
-    },
-    "property_crime": {
-      "rate_per_100k": 1643.9,
-      "concern": 17.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 180.1,
+          "concern": 7.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1764.5,
+          "concern": 20.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 216.6,
+          "concern": 12.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1978.2,
+          "concern": 26.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 196.6,
+          "concern": 9.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1832.1,
+          "concern": 21.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 187.4,
+          "concern": 6.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1643.9,
+          "concern": 17.2
+        }
+      }
     }
   },
   "honolulu-hi": {
     "agency_name": "Honolulu Police Department",
     "ori": "HI0020000",
-    "violent_crime": {
-      "rate_per_100k": 214.1,
-      "concern": 9.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1919.8,
-      "concern": 25.5
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 259.5,
+          "concern": 10.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2696.0,
+          "concern": 32.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 270.2,
+          "concern": 18.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2975.2,
+          "concern": 50.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 276.7,
+          "concern": 16.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2668.8,
+          "concern": 43.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 221.9,
+          "concern": 12.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2122.3,
+          "concern": 27.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 214.1,
+          "concern": 9.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1919.8,
+          "concern": 25.5
+        }
+      }
     }
   },
   "houston-tx": {
     "agency_name": "Houston Police Department",
     "ori": "TXHPD0000",
-    "violent_crime": {
-      "rate_per_100k": 1155.5,
-      "concern": 90.3
-    },
-    "property_crime": {
-      "rate_per_100k": 4326.4,
-      "concern": 86.2
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1275.2,
+          "concern": 88.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4230.5,
+          "concern": 76.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1233.6,
+          "concern": 90.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4149.7,
+          "concern": 80.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1159.7,
+          "concern": 88.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4637.0,
+          "concern": 84.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1107.7,
+          "concern": 88.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4550.6,
+          "concern": 81.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1155.5,
+          "concern": 90.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4326.4,
+          "concern": 86.2
+        }
+      }
     }
   },
   "huntsville-al": {
     "agency_name": "Huntsville Police Department",
     "ori": "AL0470100",
-    "violent_crime": {
-      "rate_per_100k": 483.2,
-      "concern": 37.2
-    },
-    "property_crime": {
-      "rate_per_100k": 2395.7,
-      "concern": 37.9
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 13.6,
+          "concern": 0.9
+        },
+        "property_crime": {
+          "rate_per_100k": 59.4,
+          "concern": 0.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 441.3,
+          "concern": 32.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1958.9,
+          "concern": 25.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 450.2,
+          "concern": 33.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2405.1,
+          "concern": 34.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 483.2,
+          "concern": 37.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2395.7,
+          "concern": 37.9
+        }
+      }
     }
   },
   "indianapolis-in": {
     "agency_name": "Indianapolis Police Department",
     "ori": "INIPD0000",
-    "violent_crime": {
-      "rate_per_100k": 936.6,
-      "concern": 84.8
-    },
-    "property_crime": {
-      "rate_per_100k": 3351.7,
-      "concern": 66.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1096.9,
+          "concern": 83.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3529.8,
+          "concern": 56.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1047.0,
+          "concern": 81.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3426.4,
+          "concern": 66.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1073.2,
+          "concern": 82.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3429.5,
+          "concern": 60.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1088.2,
+          "concern": 87.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3594.3,
+          "concern": 67.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 936.6,
+          "concern": 84.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3351.7,
+          "concern": 66.9
+        }
+      }
     }
   },
   "irvine-ca": {
     "agency_name": "Irvine Police Department",
     "ori": "CA0302600",
-    "violent_crime": {
-      "rate_per_100k": 85.6,
-      "concern": 0.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1402.3,
-      "concern": 11.0
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 92.1,
+          "concern": 3.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1619.2,
+          "concern": 13.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 88.9,
+          "concern": 1.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1552.8,
+          "concern": 13.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 85.6,
+          "concern": 0.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1402.3,
+          "concern": 11.0
+        }
+      }
     }
   },
   "irving-tx": {
     "agency_name": "Irving Police Department",
     "ori": "TX0571500",
-    "violent_crime": {
-      "rate_per_100k": 276.2,
-      "concern": 15.9
-    },
-    "property_crime": {
-      "rate_per_100k": 2212.4,
-      "concern": 31.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 310.3,
+          "concern": 12.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2538.9,
+          "concern": 28.7
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 337.2,
+          "concern": 23.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2482.1,
+          "concern": 35.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 331.3,
+          "concern": 23.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2536.8,
+          "concern": 38.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 297.0,
+          "concern": 18.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2442.8,
+          "concern": 36.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 276.2,
+          "concern": 15.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2212.4,
+          "concern": 31.7
+        }
+      }
     }
   },
   "jersey-city-nj": {
     "agency_name": "Jersey City Police Department",
     "ori": "NJ0090600",
-    "violent_crime": {
-      "rate_per_100k": 562.9,
-      "concern": 48.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2036.4,
-      "concern": 30.3
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 372.8,
+          "concern": 26.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1276.8,
+          "concern": 9.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 452.8,
+          "concern": 33.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1869.0,
+          "concern": 22.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 498.0,
+          "concern": 40.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1940.3,
+          "concern": 23.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 562.9,
+          "concern": 48.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2036.4,
+          "concern": 30.3
+        }
+      }
     }
   },
   "kalispell-mt": {
     "agency_name": "Kalispell Police Department",
     "ori": "MT0150300",
-    "violent_crime": {
-      "rate_per_100k": 292.9,
-      "concern": 18.6
-    },
-    "property_crime": {
-      "rate_per_100k": 2258.0,
-      "concern": 34.5
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 334.3,
+          "concern": 20.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2415.9,
+          "concern": 25.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 439.7,
+          "concern": 35.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2445.4,
+          "concern": 34.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 508.8,
+          "concern": 39.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2641.6,
+          "concern": 41.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 423.0,
+          "concern": 28.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2469.3,
+          "concern": 38.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 292.9,
+          "concern": 18.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2258.0,
+          "concern": 34.5
+        }
+      }
     }
   },
   "kansas-city-mo": {
     "agency_name": "Kansas City Police Department",
     "ori": "MOKPD0000",
-    "violent_crime": {
-      "rate_per_100k": 1557.1,
-      "concern": 96.6
-    },
-    "property_crime": {
-      "rate_per_100k": 4721.3,
-      "concern": 90.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1604.1,
+          "concern": 93.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4210.0,
+          "concern": 75.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1483.9,
+          "concern": 94.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4357.4,
+          "concern": 82.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1490.4,
+          "concern": 93.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4764.8,
+          "concern": 85.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1490.4,
+          "concern": 95.1
+        },
+        "property_crime": {
+          "rate_per_100k": 5013.4,
+          "concern": 88.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1557.1,
+          "concern": 96.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4721.3,
+          "concern": 90.3
+        }
+      }
     }
   },
   "knoxville-tn": {
     "agency_name": "Knoxville Police Department",
     "ori": "TN0470100",
-    "violent_crime": {
-      "rate_per_100k": 742.8,
-      "concern": 70.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2733.8,
-      "concern": 49.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 815.7,
+          "concern": 57.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4255.0,
+          "concern": 78.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 835.7,
+          "concern": 67.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4035.2,
+          "concern": 78.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 844.8,
+          "concern": 71.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3916.8,
+          "concern": 74.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 818.6,
+          "concern": 72.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3138.3,
+          "concern": 57.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 742.8,
+          "concern": 70.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2733.8,
+          "concern": 49.7
+        }
+      }
     }
   },
   "laredo-tx": {
     "agency_name": "Laredo Police Department",
     "ori": "TX2400100",
-    "violent_crime": {
-      "rate_per_100k": 372.0,
-      "concern": 25.5
-    },
-    "property_crime": {
-      "rate_per_100k": 1500.9,
-      "concern": 13.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 329.9,
+          "concern": 18.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1476.4,
+          "concern": 5.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 305.8,
+          "concern": 20.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1221.4,
+          "concern": 7.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 323.0,
+          "concern": 21.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1318.8,
+          "concern": 9.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 433.8,
+          "concern": 30.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1404.8,
+          "concern": 9.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 372.0,
+          "concern": 25.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1500.9,
+          "concern": 13.8
+        }
+      }
     }
   },
   "las-vegas-nv": {
     "agency_name": "Las Vegas Metropolitan Police Department",
     "ori": "NV0020100",
-    "violent_crime": {
-      "rate_per_100k": 433.2,
-      "concern": 30.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2642.0,
-      "concern": 46.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 478.3,
+          "concern": 41.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2566.3,
+          "concern": 39.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 519.0,
+          "concern": 41.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2935.8,
+          "concern": 48.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 473.0,
+          "concern": 37.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3101.1,
+          "concern": 55.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 433.2,
+          "concern": 30.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2642.0,
+          "concern": 46.2
+        }
+      }
     }
   },
   "lexington-ky": {
     "agency_name": "Lexington Police Department",
     "ori": "KY0340200",
-    "violent_crime": {
-      "rate_per_100k": 269.1,
-      "concern": 13.1
-    },
-    "property_crime": {
-      "rate_per_100k": 2304.4,
-      "concern": 36.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 327.1,
+          "concern": 17.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2910.8,
+          "concern": 38.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 300.6,
+          "concern": 20.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2751.7,
+          "concern": 43.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 278.5,
+          "concern": 17.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2760.3,
+          "concern": 43.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 259.1,
+          "concern": 15.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2778.2,
+          "concern": 45.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 269.1,
+          "concern": 13.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2304.4,
+          "concern": 36.6
+        }
+      }
     }
   },
   "lincoln-ne": {
     "agency_name": "Lincoln Police Department",
     "ori": "NB0550100",
-    "violent_crime": {
-      "rate_per_100k": 362.4,
-      "concern": 24.8
-    },
-    "property_crime": {
-      "rate_per_100k": 2484.4,
-      "concern": 41.4
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 431.2,
+          "concern": 33.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2762.7,
+          "concern": 45.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 396.3,
+          "concern": 27.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2882.6,
+          "concern": 47.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 379.7,
+          "concern": 25.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2716.3,
+          "concern": 44.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 362.4,
+          "concern": 24.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2484.4,
+          "concern": 41.4
+        }
+      }
     }
   },
   "little-rock-ar": {
     "agency_name": "Little Rock Police Department",
     "ori": "AR0600200",
-    "violent_crime": {
-      "rate_per_100k": 1673.0,
-      "concern": 98.6
-    },
-    "property_crime": {
-      "rate_per_100k": 5252.0,
-      "concern": 95.2
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1851.9,
+          "concern": 97.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4895.6,
+          "concern": 86.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 2063.5,
+          "concern": 98.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5416.1,
+          "concern": 93.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1833.1,
+          "concern": 98.4
+        },
+        "property_crime": {
+          "rate_per_100k": 5382.3,
+          "concern": 91.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1801.6,
+          "concern": 98.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5464.9,
+          "concern": 93.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1673.0,
+          "concern": 98.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5252.0,
+          "concern": 95.2
+        }
+      }
     }
   },
   "long-beach-ca": {
     "agency_name": "Long Beach Police Department",
     "ori": "CA0194100",
-    "violent_crime": {
-      "rate_per_100k": 690.0,
-      "concern": 63.4
-    },
-    "property_crime": {
-      "rate_per_100k": 3584.4,
-      "concern": 75.2
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 636.6,
+          "concern": 52.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3183.3,
+          "concern": 58.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 690.0,
+          "concern": 63.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3584.4,
+          "concern": 75.2
+        }
+      }
     }
   },
   "los-alamos-nm": {
     "agency_name": "Los Alamos Police Department",
     "ori": "NM0150100",
-    "violent_crime": {
-      "rate_per_100k": 56.1,
-      "concern": 0.0
-    },
-    "property_crime": {
-      "rate_per_100k": 397.8,
-      "concern": 0.7
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 46.8,
+          "concern": 0.8
+        },
+        "property_crime": {
+          "rate_per_100k": 327.7,
+          "concern": 1.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 56.1,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 397.8,
+          "concern": 0.7
+        }
+      }
     }
   },
   "louisville-ky": {
     "agency_name": "Louisville Metro Police Department",
     "ori": "KY0568000",
-    "violent_crime": {
-      "rate_per_100k": 762.8,
-      "concern": 73.8
-    },
-    "property_crime": {
-      "rate_per_100k": 3536.1,
-      "concern": 73.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 944.6,
+          "concern": 77.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3787.3,
+          "concern": 65.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 985.8,
+          "concern": 78.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3363.1,
+          "concern": 60.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 696.2,
+          "concern": 58.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2949.4,
+          "concern": 49.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 782.3,
+          "concern": 69.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3659.5,
+          "concern": 69.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 762.8,
+          "concern": 73.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3536.1,
+          "concern": 73.8
+        }
+      }
     }
   },
   "lubbock-tx": {
     "agency_name": "Lubbock Police Department",
     "ori": "TX1520200",
-    "violent_crime": {
-      "rate_per_100k": 830.3,
-      "concern": 77.9
-    },
-    "property_crime": {
-      "rate_per_100k": 2694.0,
-      "concern": 47.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1094.8,
+          "concern": 82.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4150.4,
+          "concern": 73.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1064.7,
+          "concern": 82.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3709.9,
+          "concern": 73.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1071.0,
+          "concern": 82.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4169.7,
+          "concern": 76.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 857.4,
+          "concern": 74.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3164.5,
+          "concern": 58.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 830.3,
+          "concern": 77.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2694.0,
+          "concern": 47.6
+        }
+      }
     }
   },
   "madison-wi": {
     "agency_name": "Madison Police Department",
     "ori": "WI0130100",
-    "violent_crime": {
-      "rate_per_100k": 259.5,
-      "concern": 11.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1884.5,
-      "concern": 24.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 325.8,
+          "concern": 16.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2792.5,
+          "concern": 35.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 311.0,
+          "concern": 21.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2530.4,
+          "concern": 36.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 307.2,
+          "concern": 20.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2417.8,
+          "concern": 35.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 303.8,
+          "concern": 19.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2354.6,
+          "concern": 32.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 259.5,
+          "concern": 11.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1884.5,
+          "concern": 24.8
+        }
+      }
     }
   },
   "mckinney-tx": {
     "agency_name": "McKinney Police Department",
     "ori": "TX0430500",
-    "violent_crime": {
-      "rate_per_100k": 121.8,
-      "concern": 3.4
-    },
-    "property_crime": {
-      "rate_per_100k": 826.9,
-      "concern": 1.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 138.7,
+          "concern": 5.0
+        },
+        "property_crime": {
+          "rate_per_100k": 946.6,
+          "concern": 0.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 129.0,
+          "concern": 5.5
+        },
+        "property_crime": {
+          "rate_per_100k": 898.8,
+          "concern": 3.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 115.6,
+          "concern": 5.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1046.5,
+          "concern": 5.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 108.6,
+          "concern": 2.8
+        },
+        "property_crime": {
+          "rate_per_100k": 916.2,
+          "concern": 2.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 121.8,
+          "concern": 3.4
+        },
+        "property_crime": {
+          "rate_per_100k": 826.9,
+          "concern": 1.4
+        }
+      }
     }
   },
   "memphis-tn": {
     "agency_name": "Memphis Police Department",
     "ori": "TNMPD0000",
-    "violent_crime": {
-      "rate_per_100k": 2507.5,
-      "concern": 100.0
-    },
-    "property_crime": {
-      "rate_per_100k": 6966.2,
-      "concern": 100.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 2368.1,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5655.2,
+          "concern": 96.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 2437.3,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5338.6,
+          "concern": 91.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 2413.8,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 7248.5,
+          "concern": 98.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 2616.0,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 8676.9,
+          "concern": 100.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 2507.5,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 6966.2,
+          "concern": 100.0
+        }
+      }
     }
   },
   "mesa-az": {
     "agency_name": "Mesa Police Department",
     "ori": "AZ0071700",
-    "violent_crime": {
-      "rate_per_100k": 486.0,
-      "concern": 39.3
-    },
-    "property_crime": {
-      "rate_per_100k": 1487.8,
-      "concern": 13.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 381.3,
+          "concern": 23.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1858.3,
+          "concern": 12.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 415.6,
+          "concern": 31.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1978.1,
+          "concern": 26.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 436.0,
+          "concern": 31.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1788.9,
+          "concern": 17.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 444.5,
+          "concern": 32.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1651.5,
+          "concern": 16.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 486.0,
+          "concern": 39.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1487.8,
+          "concern": 13.1
+        }
+      }
     }
   },
   "miami-fl": {
     "agency_name": "Miami Police Department",
     "ori": "FL0130600",
-    "violent_crime": {
-      "rate_per_100k": 483.3,
-      "concern": 37.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3025.2,
-      "concern": 58.6
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 495.7,
+          "concern": 38.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2947.7,
+          "concern": 49.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 483.3,
+          "concern": 37.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3025.2,
+          "concern": 58.6
+        }
+      }
     }
   },
   "milwaukee-wi": {
     "agency_name": "Milwaukee Police Department",
     "ori": "WIMPD0000",
-    "violent_crime": {
-      "rate_per_100k": 1452.3,
-      "concern": 95.9
-    },
-    "property_crime": {
-      "rate_per_100k": 2772.2,
-      "concern": 51.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1628.9,
+          "concern": 95.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2833.5,
+          "concern": 37.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1619.8,
+          "concern": 95.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4269.4,
+          "concern": 81.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1544.8,
+          "concern": 94.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3335.5,
+          "concern": 57.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1502.2,
+          "concern": 95.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2819.8,
+          "concern": 46.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1452.3,
+          "concern": 95.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2772.2,
+          "concern": 51.0
+        }
+      }
     }
   },
   "minneapolis-mn": {
     "agency_name": "Minneapolis Police Department",
     "ori": "MN0271100",
-    "violent_crime": {
-      "rate_per_100k": 1167.8,
-      "concern": 91.0
-    },
-    "property_crime": {
-      "rate_per_100k": 5183.1,
-      "concern": 93.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1169.8,
+          "concern": 85.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4613.3,
+          "concern": 80.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1292.0,
+          "concern": 92.7
+        },
+        "property_crime": {
+          "rate_per_100k": 4237.1,
+          "concern": 80.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1237.2,
+          "concern": 90.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5304.8,
+          "concern": 90.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1137.5,
+          "concern": 88.8
+        },
+        "property_crime": {
+          "rate_per_100k": 5309.9,
+          "concern": 92.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1167.8,
+          "concern": 91.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5183.1,
+          "concern": 93.8
+        }
+      }
     }
   },
   "mobile-al": {
     "agency_name": "Mobile Police Department",
     "ori": "AL0020100",
-    "violent_crime": {
-      "rate_per_100k": 745.7,
-      "concern": 71.0
-    },
-    "property_crime": {
-      "rate_per_100k": 1679.1,
-      "concern": 19.3
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1025.6,
+          "concern": 80.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2907.0,
+          "concern": 46.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 949.8,
+          "concern": 77.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3028.5,
+          "concern": 50.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 891.5,
+          "concern": 80.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2495.1,
+          "concern": 39.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 745.7,
+          "concern": 71.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1679.1,
+          "concern": 19.3
+        }
+      }
     }
   },
   "modesto-ca": {
     "agency_name": "Modesto Police Department",
     "ori": "CA0500200",
-    "violent_crime": {
-      "rate_per_100k": 665.8,
-      "concern": 59.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2489.6,
-      "concern": 43.4
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 758.6,
+          "concern": 62.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2462.1,
+          "concern": 36.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 651.6,
+          "concern": 54.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2261.0,
+          "concern": 31.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 665.8,
+          "concern": 59.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2489.6,
+          "concern": 43.4
+        }
+      }
     }
   },
   "montgomery-al": {
     "agency_name": "Montgomery Police Department",
     "ori": "AL0030100",
-    "violent_crime": {
-      "rate_per_100k": 605.0,
-      "concern": 53.1
-    },
-    "property_crime": {
-      "rate_per_100k": 2256.8,
-      "concern": 33.8
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 4.6,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 9.7,
+          "concern": 0.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 11.1,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 27.4,
+          "concern": 0.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 133.5,
+          "concern": 5.6
+        },
+        "property_crime": {
+          "rate_per_100k": 547.4,
+          "concern": 0.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 605.0,
+          "concern": 53.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2256.8,
+          "concern": 33.8
+        }
+      }
     }
   },
   "nashville-tn": {
     "agency_name": "Metropolitan Nashville Police Department",
     "ori": "TN0190100",
-    "violent_crime": {
-      "rate_per_100k": 1178.8,
-      "concern": 91.7
-    },
-    "property_crime": {
-      "rate_per_100k": 4558.2,
-      "concern": 88.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1182.8,
+          "concern": 86.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4132.3,
+          "concern": 72.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1205.0,
+          "concern": 89.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3688.2,
+          "concern": 71.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1240.5,
+          "concern": 91.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3945.9,
+          "concern": 75.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1256.2,
+          "concern": 93.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4518.5,
+          "concern": 80.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1178.8,
+          "concern": 91.7
+        },
+        "property_crime": {
+          "rate_per_100k": 4558.2,
+          "concern": 88.3
+        }
+      }
     }
   },
   "new-york-ny": {
     "agency_name": "New York City Police Department",
     "ori": "NY0303000",
-    "violent_crime": {
-      "rate_per_100k": 693.9,
-      "concern": 65.5
-    },
-    "property_crime": {
-      "rate_per_100k": 2414.9,
-      "concern": 38.6
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 682.3,
+          "concern": 56.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2444.5,
+          "concern": 37.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 693.9,
+          "concern": 65.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2414.9,
+          "concern": 38.6
+        }
+      }
     }
   },
   "newark-nj": {
     "agency_name": "Newark Police Department",
     "ori": "NJNPD0000",
-    "violent_crime": {
-      "rate_per_100k": 582.5,
-      "concern": 49.0
-    },
-    "property_crime": {
-      "rate_per_100k": 1961.8,
-      "concern": 27.6
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 489.1,
+          "concern": 42.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1422.2,
+          "concern": 12.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 520.5,
+          "concern": 42.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1830.0,
+          "concern": 18.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 490.1,
+          "concern": 37.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2233.5,
+          "concern": 29.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 582.5,
+          "concern": 49.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1961.8,
+          "concern": 27.6
+        }
+      }
     }
   },
   "newport-news-va": {
     "agency_name": "Newport News Police Department",
     "ori": "VA1160000",
-    "violent_crime": {
-      "rate_per_100k": 746.9,
-      "concern": 71.7
-    },
-    "property_crime": {
-      "rate_per_100k": 2452.6,
-      "concern": 40.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 632.8,
+          "concern": 48.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2074.9,
+          "concern": 22.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 667.2,
+          "concern": 54.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2020.0,
+          "concern": 28.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 624.8,
+          "concern": 51.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2311.5,
+          "concern": 31.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 882.4,
+          "concern": 76.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2545.2,
+          "concern": 39.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 746.9,
+          "concern": 71.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2452.6,
+          "concern": 40.7
+        }
+      }
     }
   },
   "norfolk-va": {
     "agency_name": "Norfolk Police Department",
     "ori": "VA1170000",
-    "violent_crime": {
-      "rate_per_100k": 479.5,
-      "concern": 36.6
-    },
-    "property_crime": {
-      "rate_per_100k": 3800.7,
-      "concern": 79.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 647.4,
+          "concern": 53.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2753.6,
+          "concern": 33.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 748.1,
+          "concern": 60.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3241.0,
+          "concern": 58.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 713.3,
+          "concern": 59.4
+        },
+        "property_crime": {
+          "rate_per_100k": 4909.2,
+          "concern": 86.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 542.8,
+          "concern": 44.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3851.4,
+          "concern": 74.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 479.5,
+          "concern": 36.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3800.7,
+          "concern": 79.3
+        }
+      }
     }
   },
   "north-las-vegas-nv": {
     "agency_name": "North Las Vegas Police Department",
     "ori": "NV0020200",
-    "violent_crime": {
-      "rate_per_100k": 397.8,
-      "concern": 28.3
-    },
-    "property_crime": {
-      "rate_per_100k": 1989.4,
-      "concern": 28.3
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 524.9,
+          "concern": 35.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1647.8,
+          "concern": 8.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 415.3,
+          "concern": 30.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1812.5,
+          "concern": 21.8
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 429.6,
+          "concern": 29.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1837.1,
+          "concern": 20.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 456.1,
+          "concern": 34.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2368.3,
+          "concern": 32.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 397.8,
+          "concern": 28.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1989.4,
+          "concern": 28.3
+        }
+      }
     }
   },
   "oceanside-ca": {
     "agency_name": "Oceanside Police Department",
     "ori": "CA0371000",
-    "violent_crime": {
-      "rate_per_100k": 463.5,
-      "concern": 33.1
-    },
-    "property_crime": {
-      "rate_per_100k": 1705.1,
-      "concern": 20.7
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 469.4,
+          "concern": 39.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2003.0,
+          "concern": 27.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 487.1,
+          "concern": 35.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2044.9,
+          "concern": 28.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 440.6,
+          "concern": 32.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1812.7,
+          "concern": 20.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 463.5,
+          "concern": 33.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1705.1,
+          "concern": 20.7
+        }
+      }
     }
   },
   "oklahoma-city-ok": {
     "agency_name": "Oklahoma City Police Department",
     "ori": "OK0550600",
-    "violent_crime": {
-      "rate_per_100k": 685.9,
-      "concern": 61.4
-    },
-    "property_crime": {
-      "rate_per_100k": 2929.1,
-      "concern": 57.2
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 734.1,
+          "concern": 56.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3968.7,
+          "concern": 70.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 650.9,
+          "concern": 53.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3867.8,
+          "concern": 75.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 654.5,
+          "concern": 54.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3110.8,
+          "concern": 52.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 654.9,
+          "concern": 55.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3001.9,
+          "concern": 51.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 685.9,
+          "concern": 61.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2929.1,
+          "concern": 57.2
+        }
+      }
     }
   },
   "omaha-ne": {
     "agency_name": "Omaha Police Department",
     "ori": "NB0280200",
-    "violent_crime": {
-      "rate_per_100k": 358.6,
-      "concern": 24.1
-    },
-    "property_crime": {
-      "rate_per_100k": 3153.2,
-      "concern": 62.8
+    "years": {
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 358.6,
+          "concern": 24.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3153.2,
+          "concern": 62.8
+        }
+      }
     }
   },
   "overland-park-ks": {
     "agency_name": "Overland Park Police Department",
     "ori": "KS0460600",
-    "violent_crime": {
-      "rate_per_100k": 188.4,
-      "concern": 7.6
-    },
-    "property_crime": {
-      "rate_per_100k": 1790.5,
-      "concern": 23.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 209.6,
+          "concern": 7.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1993.1,
+          "concern": 18.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 239.6,
+          "concern": 12.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2204.8,
+          "concern": 30.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 228.9,
+          "concern": 13.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2417.8,
+          "concern": 35.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 202.8,
+          "concern": 10.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2217.7,
+          "concern": 28.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 188.4,
+          "concern": 7.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1790.5,
+          "concern": 23.4
+        }
+      }
     }
   },
   "oxnard-ca": {
     "agency_name": "Oxnard Police Department",
     "ori": "CA0560400",
-    "violent_crime": {
-      "rate_per_100k": 601.9,
-      "concern": 51.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1923.9,
-      "concern": 26.2
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 617.0,
+          "concern": 51.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1784.4,
+          "concern": 19.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 601.9,
+          "concern": 51.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1923.9,
+          "concern": 26.2
+        }
+      }
     }
   },
   "peoria-az": {
     "agency_name": "Peoria Police Department",
     "ori": "AZ0072100",
-    "violent_crime": {
-      "rate_per_100k": 263.6,
-      "concern": 12.4
-    },
-    "property_crime": {
-      "rate_per_100k": 1244.9,
-      "concern": 6.9
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 251.3,
+          "concern": 14.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1485.4,
+          "concern": 13.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 198.6,
+          "concern": 10.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1391.7,
+          "concern": 11.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 217.5,
+          "concern": 11.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1337.1,
+          "concern": 7.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 263.6,
+          "concern": 12.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1244.9,
+          "concern": 6.9
+        }
+      }
     }
   },
   "philadelphia-pa": {
     "agency_name": "Philadelphia Police Department",
     "ori": "PAPEP0000",
-    "violent_crime": {
-      "rate_per_100k": 916.9,
-      "concern": 82.8
-    },
-    "property_crime": {
-      "rate_per_100k": 4615.2,
-      "concern": 89.0
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1053.7,
+          "concern": 81.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4383.9,
+          "concern": 82.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 992.0,
+          "concern": 83.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5121.4,
+          "concern": 90.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 916.9,
+          "concern": 82.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4615.2,
+          "concern": 89.0
+        }
+      }
     }
   },
   "pittsburgh-pa": {
     "agency_name": "Pittsburgh Bureau of Police",
     "ori": "PAPPD0000",
-    "violent_crime": {
-      "rate_per_100k": 436.0,
-      "concern": 31.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2315.7,
-      "concern": 37.2
+    "years": {
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 436.0,
+          "concern": 31.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2315.7,
+          "concern": 37.2
+        }
+      }
     }
   },
   "plano-tx": {
     "agency_name": "Plano Police Department",
     "ori": "TX0430600",
-    "violent_crime": {
-      "rate_per_100k": 154.4,
-      "concern": 6.2
-    },
-    "property_crime": {
-      "rate_per_100k": 1471.9,
-      "concern": 11.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 154.4,
+          "concern": 6.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1636.6,
+          "concern": 7.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 156.9,
+          "concern": 6.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1626.8,
+          "concern": 15.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 159.0,
+          "concern": 7.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1882.0,
+          "concern": 23.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 162.8,
+          "concern": 6.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1669.6,
+          "concern": 17.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 154.4,
+          "concern": 6.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1471.9,
+          "concern": 11.7
+        }
+      }
     }
   },
   "portland-or": {
     "agency_name": "Portland Police Department",
     "ori": "OR0260200",
-    "violent_crime": {
-      "rate_per_100k": 732.2,
-      "concern": 68.3
-    },
-    "property_crime": {
-      "rate_per_100k": 5606.6,
-      "concern": 97.2
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 578.2,
+          "concern": 40.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5039.7,
+          "concern": 90.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 762.2,
+          "concern": 61.8
+        },
+        "property_crime": {
+          "rate_per_100k": 5772.6,
+          "concern": 94.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 780.6,
+          "concern": 64.8
+        },
+        "property_crime": {
+          "rate_per_100k": 6478.2,
+          "concern": 97.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 732.7,
+          "concern": 65.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5945.7,
+          "concern": 97.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 732.2,
+          "concern": 68.3
+        },
+        "property_crime": {
+          "rate_per_100k": 5606.6,
+          "concern": 97.2
+        }
+      }
     }
   },
   "providence-ri": {
     "agency_name": "Providence Police Department",
     "ori": "RI0040900",
-    "violent_crime": {
-      "rate_per_100k": 282.4,
-      "concern": 17.2
-    },
-    "property_crime": {
-      "rate_per_100k": 1665.6,
-      "concern": 18.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 484.4,
+          "concern": 30.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2431.5,
+          "concern": 26.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 398.1,
+          "concern": 28.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2537.8,
+          "concern": 38.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 343.8,
+          "concern": 25.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2541.5,
+          "concern": 39.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 312.8,
+          "concern": 20.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1915.2,
+          "concern": 23.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 282.4,
+          "concern": 17.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1665.6,
+          "concern": 18.6
+        }
+      }
     }
   },
   "raleigh-nc": {
     "agency_name": "Raleigh Police Department",
     "ori": "NC0920100",
-    "violent_crime": {
-      "rate_per_100k": 491.5,
-      "concern": 40.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2838.4,
-      "concern": 52.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 417.2,
+          "concern": 27.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2110.3,
+          "concern": 23.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 469.5,
+          "concern": 40.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2155.1,
+          "concern": 29.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 507.4,
+          "concern": 37.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2375.6,
+          "concern": 33.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 532.9,
+          "concern": 43.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2622.8,
+          "concern": 42.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 491.5,
+          "concern": 40.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2838.4,
+          "concern": 52.4
+        }
+      }
     }
   },
   "rapid-city-sd": {
     "agency_name": "Rapid City Police Department",
     "ori": "SD0510100",
-    "violent_crime": {
-      "rate_per_100k": 718.9,
-      "concern": 66.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3795.8,
-      "concern": 78.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 851.0,
+          "concern": 61.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4011.9,
+          "concern": 71.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 669.5,
+          "concern": 56.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3222.4,
+          "concern": 57.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 682.8,
+          "concern": 56.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3589.4,
+          "concern": 68.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 742.1,
+          "concern": 66.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3904.8,
+          "concern": 75.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 718.9,
+          "concern": 66.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3795.8,
+          "concern": 78.6
+        }
+      }
     }
   },
   "reno-nv": {
     "agency_name": "Reno Police Department",
     "ori": "NV0160100",
-    "violent_crime": {
-      "rate_per_100k": 528.9,
-      "concern": 44.1
-    },
-    "property_crime": {
-      "rate_per_100k": 2488.2,
-      "concern": 42.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 595.0,
+          "concern": 41.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2630.0,
+          "concern": 31.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 585.0,
+          "concern": 48.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2968.6,
+          "concern": 50.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 609.5,
+          "concern": 50.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2649.5,
+          "concern": 42.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 594.3,
+          "concern": 49.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2650.5,
+          "concern": 43.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 528.9,
+          "concern": 44.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2488.2,
+          "concern": 42.1
+        }
+      }
     }
   },
   "richmond-va": {
     "agency_name": "Richmond Police Department",
     "ori": "VA1220000",
-    "violent_crime": {
-      "rate_per_100k": 349.0,
-      "concern": 22.8
-    },
-    "property_crime": {
-      "rate_per_100k": 3240.2,
-      "concern": 64.8
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 353.1,
+          "concern": 21.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2956.5,
+          "concern": 41.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 374.2,
+          "concern": 27.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2761.3,
+          "concern": 44.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 362.0,
+          "concern": 26.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3455.4,
+          "concern": 62.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 401.7,
+          "concern": 28.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3768.8,
+          "concern": 71.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 349.0,
+          "concern": 22.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3240.2,
+          "concern": 64.8
+        }
+      }
     }
   },
   "riverside-ca": {
     "agency_name": "Riverside Police Department",
     "ori": "CA0331300",
-    "violent_crime": {
-      "rate_per_100k": 591.0,
-      "concern": 50.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2887.7,
-      "concern": 55.2
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 551.2,
+          "concern": 45.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3409.9,
+          "concern": 66.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 591.0,
+          "concern": 50.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2887.7,
+          "concern": 55.2
+        }
+      }
     }
   },
   "rochester-ny": {
     "agency_name": "Rochester Police Department",
     "ori": "NY0270100",
-    "violent_crime": {
-      "rate_per_100k": 690.0,
-      "concern": 64.1
-    },
-    "property_crime": {
-      "rate_per_100k": 3532.9,
-      "concern": 73.1
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 762.4,
+          "concern": 63.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3680.0,
+          "concern": 69.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 733.5,
+          "concern": 65.7
+        },
+        "property_crime": {
+          "rate_per_100k": 5161.9,
+          "concern": 91.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 690.0,
+          "concern": 64.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3532.9,
+          "concern": 73.1
+        }
+      }
     }
   },
   "sacramento-ca": {
     "agency_name": "Sacramento Police Department",
     "ori": "CA0340400",
-    "violent_crime": {
-      "rate_per_100k": 756.8,
-      "concern": 73.1
-    },
-    "property_crime": {
-      "rate_per_100k": 2615.3,
-      "concern": 44.8
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 805.2,
+          "concern": 71.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2979.9,
+          "concern": 50.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 756.8,
+          "concern": 73.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2615.3,
+          "concern": 44.8
+        }
+      }
     }
   },
   "saint-paul-mn": {
     "agency_name": "South St. Paul Police Department",
     "ori": "MN0190600",
-    "violent_crime": {
-      "rate_per_100k": 372.9,
-      "concern": 26.2
-    },
-    "property_crime": {
-      "rate_per_100k": 1346.4,
-      "concern": 9.7
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 361.9,
+          "concern": 25.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2744.4,
+          "concern": 42.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 408.1,
+          "concern": 28.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2320.9,
+          "concern": 32.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 323.5,
+          "concern": 22.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1602.7,
+          "concern": 14.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 372.9,
+          "concern": 26.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1346.4,
+          "concern": 9.7
+        }
+      }
     }
   },
   "salem-or": {
     "agency_name": "Salem Police Department",
     "ori": "OR0240200",
-    "violent_crime": {
-      "rate_per_100k": 540.6,
-      "concern": 45.5
-    },
-    "property_crime": {
-      "rate_per_100k": 2878.6,
-      "concern": 54.5
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 406.5,
+          "concern": 26.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3880.4,
+          "concern": 67.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 468.8,
+          "concern": 38.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3705.7,
+          "concern": 72.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 493.2,
+          "concern": 36.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3720.9,
+          "concern": 70.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 461.6,
+          "concern": 35.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3287.6,
+          "concern": 62.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 540.6,
+          "concern": 45.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2878.6,
+          "concern": 54.5
+        }
+      }
     }
   },
   "salt-lake-city-ut": {
     "agency_name": "Salt Lake City Police Department",
     "ori": "UT0180300",
-    "violent_crime": {
-      "rate_per_100k": 878.8,
-      "concern": 81.4
-    },
-    "property_crime": {
-      "rate_per_100k": 5257.3,
-      "concern": 95.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 939.7,
+          "concern": 76.2
+        },
+        "property_crime": {
+          "rate_per_100k": 7407.0,
+          "concern": 100.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 975.6,
+          "concern": 77.3
+        },
+        "property_crime": {
+          "rate_per_100k": 6880.5,
+          "concern": 99.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 995.7,
+          "concern": 80.5
+        },
+        "property_crime": {
+          "rate_per_100k": 6473.6,
+          "concern": 96.9
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 883.0,
+          "concern": 78.3
+        },
+        "property_crime": {
+          "rate_per_100k": 5702.2,
+          "concern": 96.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 878.8,
+          "concern": 81.4
+        },
+        "property_crime": {
+          "rate_per_100k": 5257.3,
+          "concern": 95.9
+        }
+      }
     }
   },
   "san-antonio-tx": {
     "agency_name": "San Antonio Police Department",
     "ori": "TXSPD0000",
-    "violent_crime": {
-      "rate_per_100k": 605.2,
-      "concern": 53.8
-    },
-    "property_crime": {
-      "rate_per_100k": 4665.4,
-      "concern": 89.7
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 704.3,
+          "concern": 58.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3865.2,
+          "concern": 74.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 894.0,
+          "concern": 74.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5102.7,
+          "concern": 88.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 700.4,
+          "concern": 58.7
+        },
+        "property_crime": {
+          "rate_per_100k": 5422.0,
+          "concern": 93.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 605.2,
+          "concern": 53.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4665.4,
+          "concern": 89.7
+        }
+      }
     }
   },
   "san-diego-ca": {
     "agency_name": "San Diego Police Department",
     "ori": "CA0371100",
-    "violent_crime": {
-      "rate_per_100k": 414.2,
-      "concern": 29.0
-    },
-    "property_crime": {
-      "rate_per_100k": 1693.6,
-      "concern": 20.0
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 403.8,
+          "concern": 30.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1944.0,
+          "concern": 24.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 434.0,
+          "concern": 30.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1840.7,
+          "concern": 21.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 424.9,
+          "concern": 30.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1831.0,
+          "concern": 21.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 414.2,
+          "concern": 29.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1693.6,
+          "concern": 20.0
+        }
+      }
     }
   },
   "san-jose-ca": {
     "agency_name": "San Jose Police Department",
     "ori": "CA0431300",
-    "violent_crime": {
-      "rate_per_100k": 611.0,
-      "concern": 54.5
-    },
-    "property_crime": {
-      "rate_per_100k": 2640.4,
-      "concern": 45.5
+    "years": {
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 611.0,
+          "concern": 54.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2640.4,
+          "concern": 45.5
+        }
+      }
     }
   },
   "sandpoint-id": {
     "agency_name": "Sandpoint Police Department",
     "ori": "ID0090200",
-    "violent_crime": {
-      "rate_per_100k": 85.7,
-      "concern": 1.4
-    },
-    "property_crime": {
-      "rate_per_100k": 1019.2,
-      "concern": 3.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 54.9,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1931.7,
+          "concern": 16.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 84.4,
+          "concern": 1.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1287.5,
+          "concern": 10.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 74.2,
+          "concern": 2.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1081.8,
+          "concern": 6.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 58.0,
+          "concern": 0.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1430.6,
+          "concern": 10.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 85.7,
+          "concern": 1.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1019.2,
+          "concern": 3.4
+        }
+      }
     }
   },
   "santa-ana-ca": {
     "agency_name": "Santa Ana Police Department",
     "ori": "CA0301900",
-    "violent_crime": {
-      "rate_per_100k": 498.2,
-      "concern": 42.1
-    },
-    "property_crime": {
-      "rate_per_100k": 1722.2,
-      "concern": 21.4
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 567.8,
+          "concern": 46.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2058.7,
+          "concern": 25.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 498.2,
+          "concern": 42.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1722.2,
+          "concern": 21.4
+        }
+      }
     }
   },
   "santa-fe-nm": {
     "agency_name": "Santa Fe Police Department",
     "ori": "NM0260100",
-    "violent_crime": {
-      "rate_per_100k": 843.3,
-      "concern": 79.3
-    },
-    "property_crime": {
-      "rate_per_100k": 5189.0,
-      "concern": 94.5
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 920.3,
+          "concern": 72.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3629.8,
+          "concern": 70.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 923.3,
+          "concern": 75.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4934.3,
+          "concern": 87.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 863.3,
+          "concern": 74.8
+        },
+        "property_crime": {
+          "rate_per_100k": 5020.2,
+          "concern": 88.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 843.3,
+          "concern": 79.3
+        },
+        "property_crime": {
+          "rate_per_100k": 5189.0,
+          "concern": 94.5
+        }
+      }
     }
   },
   "santa-rosa-ca": {
     "agency_name": "Santa Rosa Police Department",
     "ori": "CA0490500",
-    "violent_crime": {
-      "rate_per_100k": 352.3,
-      "concern": 23.4
-    },
-    "property_crime": {
-      "rate_per_100k": 1354.3,
-      "concern": 10.3
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 335.9,
+          "concern": 23.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1495.0,
+          "concern": 11.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 352.3,
+          "concern": 23.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1354.3,
+          "concern": 10.3
+        }
+      }
     }
   },
   "scottsdale-az": {
     "agency_name": "Scottsdale Police Department",
     "ori": "AZ0072500",
-    "violent_crime": {
-      "rate_per_100k": 154.1,
-      "concern": 5.5
-    },
-    "property_crime": {
-      "rate_per_100k": 1876.6,
-      "concern": 24.1
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 218.4,
+          "concern": 10.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2375.9,
+          "concern": 32.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 188.0,
+          "concern": 7.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2286.8,
+          "concern": 30.5
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 176.5,
+          "concern": 7.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2249.2,
+          "concern": 30.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 154.1,
+          "concern": 5.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1876.6,
+          "concern": 24.1
+        }
+      }
     }
   },
   "seattle-wa": {
     "agency_name": "Seattle Police Department",
     "ori": "WASPD0000",
-    "violent_crime": {
-      "rate_per_100k": 788.6,
-      "concern": 75.2
-    },
-    "property_crime": {
-      "rate_per_100k": 5108.4,
-      "concern": 93.1
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 635.2,
+          "concern": 51.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4926.9,
+          "concern": 87.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 757.3,
+          "concern": 60.9
+        },
+        "property_crime": {
+          "rate_per_100k": 5173.7,
+          "concern": 90.9
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 849.7,
+          "concern": 71.9
+        },
+        "property_crime": {
+          "rate_per_100k": 5776.3,
+          "concern": 93.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 792.9,
+          "concern": 69.9
+        },
+        "property_crime": {
+          "rate_per_100k": 5073.1,
+          "concern": 89.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 788.6,
+          "concern": 75.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5108.4,
+          "concern": 93.1
+        }
+      }
     }
   },
   "shreveport-la": {
     "agency_name": "Shreveport Police Department",
     "ori": "LA0090100",
-    "violent_crime": {
-      "rate_per_100k": 1234.8,
-      "concern": 93.1
-    },
-    "property_crime": {
-      "rate_per_100k": 4048.2,
-      "concern": 83.4
+    "years": {
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1152.6,
+          "concern": 90.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3185.3,
+          "concern": 59.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1234.8,
+          "concern": 93.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4048.2,
+          "concern": 83.4
+        }
+      }
     }
   },
   "sioux-falls-sd": {
     "agency_name": "Sioux Falls Police Department",
     "ori": "SD0490200",
-    "violent_crime": {
-      "rate_per_100k": 526.7,
-      "concern": 42.8
-    },
-    "property_crime": {
-      "rate_per_100k": 2927.1,
-      "concern": 56.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 597.2,
+          "concern": 43.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3153.1,
+          "concern": 45.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 538.4,
+          "concern": 44.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2910.1,
+          "concern": 47.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 546.3,
+          "concern": 44.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3100.4,
+          "concern": 51.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 435.2,
+          "concern": 31.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2436.6,
+          "concern": 35.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 526.7,
+          "concern": 42.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2927.1,
+          "concern": 56.6
+        }
+      }
     }
   },
   "spokane-wa": {
     "agency_name": "Spokane Police Department",
     "ori": "WA0320400",
-    "violent_crime": {
-      "rate_per_100k": 683.1,
-      "concern": 60.7
-    },
-    "property_crime": {
-      "rate_per_100k": 4931.0,
-      "concern": 92.4
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 616.9,
+          "concern": 46.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5234.8,
+          "concern": 93.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 668.9,
+          "concern": 55.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4893.3,
+          "concern": 88.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 684.3,
+          "concern": 57.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5815.3,
+          "concern": 93.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 722.3,
+          "concern": 62.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5504.1,
+          "concern": 95.1
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 683.1,
+          "concern": 60.7
+        },
+        "property_crime": {
+          "rate_per_100k": 4931.0,
+          "concern": 92.4
+        }
+      }
     }
   },
   "st-louis-mo": {
     "agency_name": "St. Louis Police Department",
     "ori": "MOSPD0000",
-    "violent_crime": {
-      "rate_per_100k": 1372.6,
-      "concern": 95.2
-    },
-    "property_crime": {
-      "rate_per_100k": 5794.9,
-      "concern": 98.6
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1640.4,
+          "concern": 96.4
+        },
+        "property_crime": {
+          "rate_per_100k": 6109.9,
+          "concern": 98.2
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1502.9,
+          "concern": 93.8
+        },
+        "property_crime": {
+          "rate_per_100k": 7372.1,
+          "concern": 99.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1456.6,
+          "concern": 94.4
+        },
+        "property_crime": {
+          "rate_per_100k": 6477.1,
+          "concern": 98.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1372.6,
+          "concern": 95.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5794.9,
+          "concern": 98.6
+        }
+      }
     }
   },
   "stockton-ca": {
     "agency_name": "Stockton Police Department",
     "ori": "CA0390500",
-    "violent_crime": {
-      "rate_per_100k": 1150.2,
-      "concern": 89.7
-    },
-    "property_crime": {
-      "rate_per_100k": 2700.4,
-      "concern": 48.3
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1141.3,
+          "concern": 86.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2794.1,
+          "concern": 46.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1150.5,
+          "concern": 89.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3094.2,
+          "concern": 54.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1150.2,
+          "concern": 89.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2700.4,
+          "concern": 48.3
+        }
+      }
     }
   },
   "tacoma-wa": {
     "agency_name": "Tacoma Police Department",
     "ori": "WA0270300",
-    "violent_crime": {
-      "rate_per_100k": 1064.4,
-      "concern": 89.0
-    },
-    "property_crime": {
-      "rate_per_100k": 5695.2,
-      "concern": 97.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 851.3,
+          "concern": 62.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5639.1,
+          "concern": 95.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1187.9,
+          "concern": 88.2
+        },
+        "property_crime": {
+          "rate_per_100k": 6896.8,
+          "concern": 100.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1613.0,
+          "concern": 95.3
+        },
+        "property_crime": {
+          "rate_per_100k": 8681.1,
+          "concern": 100.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1242.7,
+          "concern": 92.3
+        },
+        "property_crime": {
+          "rate_per_100k": 7453.3,
+          "concern": 99.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1064.4,
+          "concern": 89.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5695.2,
+          "concern": 97.9
+        }
+      }
     }
   },
   "tallahassee-fl": {
     "agency_name": "Tallahassee Police Department",
     "ori": "FL0370300",
-    "violent_crime": {
-      "rate_per_100k": 678.5,
-      "concern": 60.0
-    },
-    "property_crime": {
-      "rate_per_100k": 2849.7,
-      "concern": 53.8
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 802.1,
+          "concern": 67.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2238.9,
+          "concern": 29.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 850.4,
+          "concern": 73.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2559.2,
+          "concern": 40.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 678.5,
+          "concern": 60.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2849.7,
+          "concern": 53.8
+        }
+      }
     }
   },
   "tampa-fl": {
     "agency_name": "Tampa Police Department",
     "ori": "FL0290200",
-    "violent_crime": {
-      "rate_per_100k": 443.2,
-      "concern": 31.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1473.2,
-      "concern": 12.4
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 433.3,
+          "concern": 34.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1177.9,
+          "concern": 6.4
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 513.7,
+          "concern": 39.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1752.4,
+          "concern": 15.6
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 469.5,
+          "concern": 35.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1686.1,
+          "concern": 18.2
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 443.2,
+          "concern": 31.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1473.2,
+          "concern": 12.4
+        }
+      }
     }
   },
   "taos-nm": {
     "agency_name": "Taos Police Department",
     "ori": "NM0290100",
-    "violent_crime": {
-      "rate_per_100k": 936.6,
-      "concern": 85.5
-    },
-    "property_crime": {
-      "rate_per_100k": 6025.6,
-      "concern": 99.3
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 870.9,
+          "concern": 70.0
+        },
+        "property_crime": {
+          "rate_per_100k": 6045.1,
+          "concern": 97.3
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 741.0,
+          "concern": 60.2
+        },
+        "property_crime": {
+          "rate_per_100k": 6441.9,
+          "concern": 95.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1027.7,
+          "concern": 85.3
+        },
+        "property_crime": {
+          "rate_per_100k": 5481.2,
+          "concern": 94.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 936.6,
+          "concern": 85.5
+        },
+        "property_crime": {
+          "rate_per_100k": 6025.6,
+          "concern": 99.3
+        }
+      }
     }
   },
   "tempe-az": {
     "agency_name": "Tempe Police Department",
     "ori": "AZ0072900",
-    "violent_crime": {
-      "rate_per_100k": 471.3,
-      "concern": 35.2
-    },
-    "property_crime": {
-      "rate_per_100k": 2915.7,
-      "concern": 55.9
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 588.4,
+          "concern": 48.4
+        },
+        "property_crime": {
+          "rate_per_100k": 4376.6,
+          "concern": 81.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 507.1,
+          "concern": 42.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3608.9,
+          "concern": 68.5
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 471.3,
+          "concern": 35.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2915.7,
+          "concern": 55.9
+        }
+      }
     }
   },
   "toledo-oh": {
     "agency_name": "Toledo Police Department",
     "ori": "OH0480700",
-    "violent_crime": {
-      "rate_per_100k": 1055.9,
-      "concern": 88.3
-    },
-    "property_crime": {
-      "rate_per_100k": 2831.6,
-      "concern": 51.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1049.3,
+          "concern": 81.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2959.4,
+          "concern": 42.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1106.5,
+          "concern": 84.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2914.0,
+          "concern": 49.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1176.1,
+          "concern": 89.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3171.7,
+          "concern": 56.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1162.5,
+          "concern": 91.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3076.7,
+          "concern": 52.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1055.9,
+          "concern": 88.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2831.6,
+          "concern": 51.7
+        }
+      }
     }
   },
   "tucson-az": {
     "agency_name": "Tucson Police Department",
     "ori": "AZ0100300",
-    "violent_crime": {
-      "rate_per_100k": 645.8,
-      "concern": 57.9
-    },
-    "property_crime": {
-      "rate_per_100k": 3460.0,
-      "concern": 70.3
+    "years": {
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 645.8,
+          "concern": 57.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3460.0,
+          "concern": 70.3
+        }
+      }
     }
   },
   "tulsa-ok": {
     "agency_name": "Tulsa Police Department",
     "ori": "OK0720500",
-    "violent_crime": {
-      "rate_per_100k": 948.9,
-      "concern": 86.2
-    },
-    "property_crime": {
-      "rate_per_100k": 3664.6,
-      "concern": 77.2
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1117.6,
+          "concern": 85.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5027.8,
+          "concern": 90.0
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 945.1,
+          "concern": 75.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4332.0,
+          "concern": 79.7
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 924.8,
+          "concern": 81.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3973.9,
+          "concern": 76.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 948.9,
+          "concern": 86.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3664.6,
+          "concern": 77.2
+        }
+      }
     }
   },
   "vancouver-wa": {
     "agency_name": "Vancouver Police Department",
     "ori": "WA0060300",
-    "violent_crime": {
-      "rate_per_100k": 586.8,
-      "concern": 49.7
-    },
-    "property_crime": {
-      "rate_per_100k": 3446.1,
-      "concern": 69.7
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 491.3,
+          "concern": 31.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3852.7,
+          "concern": 66.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 596.8,
+          "concern": 49.1
+        },
+        "property_crime": {
+          "rate_per_100k": 5006.9,
+          "concern": 89.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 659.7,
+          "concern": 55.5
+        },
+        "property_crime": {
+          "rate_per_100k": 5760.8,
+          "concern": 92.2
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 666.3,
+          "concern": 55.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4552.9,
+          "concern": 81.8
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 586.8,
+          "concern": 49.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3446.1,
+          "concern": 69.7
+        }
+      }
     }
   },
   "virginia-beach-va": {
     "agency_name": "Virginia Beach Police Department",
     "ori": "VA1280000",
-    "violent_crime": {
-      "rate_per_100k": 96.9,
-      "concern": 2.1
-    },
-    "property_crime": {
-      "rate_per_100k": 1664.9,
-      "concern": 17.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 101.8,
+          "concern": 2.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1536.4,
+          "concern": 6.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 114.0,
+          "concern": 3.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1581.9,
+          "concern": 14.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 96.4,
+          "concern": 3.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1754.1,
+          "concern": 16.4
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 122.0,
+          "concern": 4.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1738.6,
+          "concern": 18.9
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 96.9,
+          "concern": 2.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1664.9,
+          "concern": 17.9
+        }
+      }
     }
   },
   "washington-dc": {
     "agency_name": "Washington Police Department",
     "ori": "DCMPD0000",
-    "violent_crime": {
-      "rate_per_100k": 936.3,
-      "concern": 84.1
-    },
-    "property_crime": {
-      "rate_per_100k": 3627.5,
-      "concern": 75.9
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 751.3,
+          "concern": 61.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3501.8,
+          "concern": 64.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1052.9,
+          "concern": 86.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4166.7,
+          "concern": 78.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 936.3,
+          "concern": 84.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3627.5,
+          "concern": 75.9
+        }
+      }
     }
   },
   "whitewright-tx": {
     "agency_name": "Whitewright Police Department",
     "ori": "TX0910700",
-    "violent_crime": {
-      "rate_per_100k": 278.9,
-      "concern": 16.6
-    },
-    "property_crime": {
-      "rate_per_100k": 223.1,
-      "concern": 0.0
+    "years": {
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 338.2,
+          "concern": 24.2
+        },
+        "property_crime": {
+          "rate_per_100k": 225.5,
+          "concern": 0.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 53.9,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 700.4,
+          "concern": 0.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 278.9,
+          "concern": 16.6
+        },
+        "property_crime": {
+          "rate_per_100k": 223.1,
+          "concern": 0.0
+        }
+      }
     }
   },
   "wichita-ks": {
     "agency_name": "Wichita Police Department",
     "ori": "KS0870300",
-    "violent_crime": {
-      "rate_per_100k": 1238.7,
-      "concern": 93.8
-    },
-    "property_crime": {
-      "rate_per_100k": 5284.9,
-      "concern": 96.6
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1337.2,
+          "concern": 91.2
+        },
+        "property_crime": {
+          "rate_per_100k": 5116.1,
+          "concern": 92.5
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1160.9,
+          "concern": 87.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4494.4,
+          "concern": 85.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1107.6,
+          "concern": 85.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4276.1,
+          "concern": 77.3
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 1155.9,
+          "concern": 90.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4832.9,
+          "concern": 86.0
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 1238.7,
+          "concern": 93.8
+        },
+        "property_crime": {
+          "rate_per_100k": 5284.9,
+          "concern": 96.6
+        }
+      }
     }
   },
   "winston-salem-nc": {
     "agency_name": "Winston-Salem Police Department",
     "ori": "NC0340200",
-    "violent_crime": {
-      "rate_per_100k": 812.1,
-      "concern": 76.6
-    },
-    "property_crime": {
-      "rate_per_100k": 2961.3,
-      "concern": 57.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 1253.9,
+          "concern": 87.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4770.8,
+          "concern": 83.8
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 1157.2,
+          "concern": 86.4
+        },
+        "property_crime": {
+          "rate_per_100k": 4080.8,
+          "concern": 79.1
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 1179.5,
+          "concern": 89.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3922.5,
+          "concern": 75.0
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 890.4,
+          "concern": 79.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3048.4,
+          "concern": 51.7
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 812.1,
+          "concern": 76.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2961.3,
+          "concern": 57.9
+        }
+      }
     }
   },
   "worcester-ma": {
     "agency_name": "Worcester Police Department",
     "ori": "MA0146000",
-    "violent_crime": {
-      "rate_per_100k": 640.2,
-      "concern": 57.2
-    },
-    "property_crime": {
-      "rate_per_100k": 1580.3,
-      "concern": 15.9
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 633.5,
+          "concern": 50.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2009.7,
+          "concern": 21.2
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 648.2,
+          "concern": 52.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1906.5,
+          "concern": 23.6
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 603.7,
+          "concern": 50.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1671.1,
+          "concern": 14.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 717.9,
+          "concern": 60.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1628.0,
+          "concern": 15.4
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 640.2,
+          "concern": 57.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1580.3,
+          "concern": 15.9
+        }
+      }
     }
   },
   "yonkers-ny": {
     "agency_name": "Yonkers Police Department",
     "ori": "NY0590700",
-    "violent_crime": {
-      "rate_per_100k": 376.7,
-      "concern": 26.9
-    },
-    "property_crime": {
-      "rate_per_100k": 1048.6,
-      "concern": 4.1
+    "years": {
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 276.0,
+          "concern": 19.1
+        },
+        "property_crime": {
+          "rate_per_100k": 864.3,
+          "concern": 2.7
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 328.7,
+          "concern": 22.7
+        },
+        "property_crime": {
+          "rate_per_100k": 931.8,
+          "concern": 3.1
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 348.8,
+          "concern": 23.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1269.0,
+          "concern": 6.3
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 376.7,
+          "concern": 26.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1048.6,
+          "concern": 4.1
+        }
+      }
     }
   },
   "yuma-az": {
     "agency_name": "Yuma Police Department",
     "ori": "AZ0140500",
-    "violent_crime": {
-      "rate_per_100k": 418.7,
-      "concern": 29.7
-    },
-    "property_crime": {
-      "rate_per_100k": 1275.6,
-      "concern": 9.0
+    "years": {
+      "2020": {
+        "violent_crime": {
+          "rate_per_100k": 504.6,
+          "concern": 33.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2006.1,
+          "concern": 20.0
+        }
+      },
+      "2021": {
+        "violent_crime": {
+          "rate_per_100k": 465.7,
+          "concern": 37.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1954.1,
+          "concern": 25.5
+        }
+      },
+      "2022": {
+        "violent_crime": {
+          "rate_per_100k": 561.3,
+          "concern": 46.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1715.5,
+          "concern": 14.8
+        }
+      },
+      "2023": {
+        "violent_crime": {
+          "rate_per_100k": 469.8,
+          "concern": 36.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1509.9,
+          "concern": 12.6
+        }
+      },
+      "2024": {
+        "violent_crime": {
+          "rate_per_100k": 418.7,
+          "concern": 29.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1275.6,
+          "concern": 9.0
+        }
+      }
     }
   }
 }

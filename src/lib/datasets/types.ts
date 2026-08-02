@@ -50,6 +50,10 @@ export interface DatasetLayerValue {
 }
 
 export interface DatasetTimeContext {
+  /** A real calendar year the dataset has actual data for -- see
+   * `Dataset.availableYears`. Never a year the dataset would have to
+   * fabricate or interpolate. */
+  year?: number;
   /** 1-12. Only meaningful for datasets whose values vary by month
    * (`supportsTime: true`) -- datasets without time variation ignore this. */
   month?: number;
@@ -77,7 +81,13 @@ export interface Dataset {
    * dataset's values at all. A dataset with supportsTime: false is free to
    * ignore the context argument entirely. */
   supportsTime: boolean;
-  /** Returns null for a real "no data for this city/layer" gap -- never a
-   * fabricated placeholder value. */
+  /** The REAL years this dataset has actual data for, sorted ascending --
+   * e.g. crime's [2020, 2021, 2022, 2023, 2024]. Omitted or empty for a
+   * dataset with no year-level variation (it ignores context.year
+   * entirely). The UI's year control only ever offers years a dataset
+   * actually lists here -- never a year invented to look more complete. */
+  availableYears?: number[];
+  /** Returns null for a real "no data for this city/layer/year" gap --
+   * never a fabricated placeholder value. */
   getValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null;
 }

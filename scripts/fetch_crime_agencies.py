@@ -5,10 +5,11 @@ each state in the 168-city spine from the real FBI Crime Data Explorer API
 (https://api.usa.gov/crime/fbi/cde/agency/byStateAbbr/<ST>), and fuzzy-match
 each spine city to its real municipal police department ORI code.
 
-Requires FBI_CRIME_API_KEY in the environment -- a free key from
-https://api.data.gov/signup/. This script is run ONCE, locally, at data-
-generation time; the key is never referenced by any shipped app code and
-never committed anywhere.
+Requires FBI_CRIME_API_KEY, read from the environment or from a local,
+gitignored .env file at the repo root (KEY=VALUE, one per line) -- a free
+key from https://api.data.gov/signup/. This script is run ONCE, locally,
+at data-generation time; the key is never referenced by any shipped app
+code and never committed anywhere.
 
 Caches each state's raw agency list to data/raw/crime-cache/ so re-runs
 (e.g. after fixing a match) don't re-hit the API.
@@ -23,10 +24,27 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data/raw/crime-cache"
+
+
+def load_dotenv(path):
+    """Tiny, dependency-free .env loader -- sets os.environ for any
+    KEY=VALUE line not already set in the real environment. Avoids adding
+    a pip dependency for a single local, one-off script's convenience."""
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip())
+
+
+load_dotenv(ROOT / ".env")
 API_KEY = os.environ.get("FBI_CRIME_API_KEY")
 
 if not API_KEY:
-    print("FBI_CRIME_API_KEY not set in environment.", file=sys.stderr)
+    print("FBI_CRIME_API_KEY not set (checked environment and .env).", file=sys.stderr)
     sys.exit(1)
 
 

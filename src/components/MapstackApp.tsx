@@ -1,14 +1,30 @@
 "use client";
 
 import { useState } from "react";
-import { DatasetPicker } from "@/components/DatasetPicker";
-import { DatasetView } from "@/components/DatasetView";
-import { DATASETS, getDataset } from "@/lib/datasets/registry";
+import { AddLayerPanel } from "@/components/AddLayerPanel";
+import { ActiveLayersList } from "@/components/ActiveLayersList";
+import { MultiLayerMap } from "@/components/MultiLayerMap";
+import { LayerLegends } from "@/components/LayerLegends";
+import { CityDetailPanel } from "@/components/CityDetailPanel";
+import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
+import { DATASETS } from "@/lib/datasets/registry";
+
+const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 export function MapstackApp() {
-  const [activeId, setActiveId] = useState(DATASETS[0]?.id ?? "");
-  const dataset = getDataset(activeId);
+  const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
+  const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
+  const [year, setYear] = useState<number | null>(null);
+
+  function addLayer(layer: ActiveLayer) {
+    setActive((prev) => (prev.some((a) => isSameLayer(a, layer)) ? prev : [...prev, layer]));
+  }
+
+  function removeLayer(layer: ActiveLayer) {
+    setActive((prev) => prev.filter((a) => !isSameLayer(a, layer)));
+  }
 
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
@@ -18,21 +34,42 @@ export function MapstackApp() {
             Mapstack
           </h1>
           <p className="mt-1 max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
-            Open-source US map layers. Pick a dataset, pick a layer, click a city.
+            Open-source US map layers. Add any dataset as a layer, stack as many as you want,
+            click a city.
           </p>
         </div>
         <ThemeToggle />
       </div>
 
-      <div className="mx-auto w-full max-w-6xl px-6 pt-6">
-        <DatasetPicker datasets={DATASETS} activeId={activeId} onSelect={setActiveId} />
-      </div>
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-6 md:flex-row">
+        <div className="flex flex-col gap-4 md:w-72 md:flex-shrink-0">
+          <div className="flex flex-col gap-2">
+            <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+              Active layers
+            </h2>
+            <ActiveLayersList active={active} onRemove={removeLayer} />
+          </div>
 
-      {/* key={dataset.id} forces a remount on dataset switch -- otherwise
-          DatasetView keeps its previous dataset's layerId state (e.g.
-          "grass"), which doesn't exist on the newly selected dataset's
-          layers, leaving no layer selected and no data to render. */}
-      {dataset && <DatasetView key={dataset.id} dataset={dataset} />}
+          <AddLayerPanel active={active} onAdd={addLayer} />
+
+          <CityDetailPanel cityId={selectedCityId} active={active} year={year} />
+        </div>
+
+        <div className="flex flex-1 flex-col gap-3">
+          <div className="flex items-start justify-between gap-3">
+            <div className="w-56">
+              <LayerLegends active={active} />
+            </div>
+            <YearControl active={active} year={year} onChange={setYear} />
+          </div>
+          <MultiLayerMap
+            active={active}
+            year={year}
+            onSelectCity={setSelectedCityId}
+            selectedCityId={selectedCityId}
+          />
+        </div>
+      </div>
     </main>
   );
 }

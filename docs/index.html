@@ -126,15 +126,15 @@ footer a{color:var(--txt-2)}
   <div class="wrap">
     <span class="eyebrow">Open source · MIT · $0 to run</span>
     <h1>One US map engine. Any dataset, as a layer.</h1>
-    <p class="sub">Pick a dataset, pick a layer, click a city — the same rendering pipeline drives every one of them, because every dataset speaks one small, shared interface. No dataset-specific map code, ever.</p>
+    <p class="sub">Add any dataset as a layer, stack as many as you want, click a city — the same rendering pipeline drives every one of them, because every dataset speaks one small, shared interface. No dataset-specific map code, ever.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://tools.mdostal.com/mapstack" target="_blank" rel="noreferrer">Open the map →</a>
       <a class="btn btn-secondary" href="https://github.com/mdostal/mapstack-us" target="_blank" rel="noreferrer">View source on GitHub</a>
     </div>
     <div class="stack">
       <div class="layer">allergy severity — validated + modeled</div>
+      <div class="layer">crime — real 2020–2024 history, FBI Crime Data Explorer</div>
       <div class="layer">healthcare access — coming next</div>
-      <div class="layer">crime — coming next</div>
     </div>
   </div>
 </section>
@@ -163,34 +163,43 @@ footer a{color:var(--txt-2)}
   <div class="wrap">
     <span class="eyebrow">The interface</span>
     <h2>Add a dataset by implementing one small contract</h2>
-    <p>Every dataset — no matter how different its underlying data looks — implements the exact same shape: a fixed list of layers, and a lookup that returns a 0–100 value on a shared "higher = more concerning" scale, plus a one-line human-readable detail.</p>
+    <p>Every dataset — no matter how different its underlying data looks — implements the exact same shape: a fixed list of layers, an optional list of real years it has history for, and a lookup that returns a 0–100 value on a shared "higher = more concerning" scale, plus a one-line human-readable detail.</p>
     <pre><span class="com">// lib/datasets/types.ts</span>
 <span class="kw">interface</span> Dataset {
   id: <span class="kw">string</span>;
   label: <span class="kw">string</span>;
   layers: DatasetLayer[];
   supportsTime: <span class="kw">boolean</span>;
+  availableYears?: <span class="kw">number</span>[];  <span class="com">// real years only, e.g. crime's [2020..2024]</span>
   getValue(cityId, layerId, context?): {
     value: <span class="kw">number</span>;   <span class="com">// 0-100, higher = more concerning</span>
     detail: <span class="kw">string</span>;  <span class="com">// "72/100, high" or "Bellevue Hospital, 4 min"</span>
   } | <span class="kw">null</span>;         <span class="com">// null = a real gap, never a fabricated value</span>
 }</pre>
-    <p>That's it. Implement <code class="mono">getValue</code>, register the dataset once, and the exact same <code class="mono">DatasetMap</code>/<code class="mono">DatasetView</code> components render it — continuous gradient, click-to-select detail panel, legend, all of it — with zero new rendering code.</p>
+    <p>That's it. Implement <code class="mono">getValue</code>, register the dataset once, and the exact same <code class="mono">MultiLayerMap</code>/<code class="mono">AddLayerPanel</code> components render it — continuous gradient, click-to-select detail panel, legend, a year control if it has real history, all of it — with zero new rendering code. Any number of layers from any number of datasets can be active on the map at once, each stacked as its own gradient (allergy-locator's proven stacked-opacity pattern, generalized across datasets instead of just allergens).</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <span class="eyebrow">What's real today</span>
-    <h2>Proven with two independent implementations</h2>
+    <h2>Proven with three genuinely different real implementations</h2>
     <div class="grid grid-2">
       <div class="card">
         <h3>Allergy severity <span class="pill pill-live">live</span></h3>
         <p>Ported from Allergy Locator's own validated grass ground-truth (MAE 2.3) plus ~28 modeled allergens — deliberately annual-only here, not a full clone of the flagship's daily-curve/county-grid depth. Proving the engine generalizes, not re-shipping the whole product.</p>
       </div>
       <div class="card">
+        <h3>Crime <span class="pill pill-live">live</span></h3>
+        <p>Real violent- and property-crime rates per 100k residents from the FBI Crime Data Explorer API, with genuine year-by-year history (2020–2024) — coverage honestly grows over time as more agencies joined federal reporting, never backfilled. A structurally different shape (a government rate, not a modeled score) proving the interface generalizes beyond allergy.</p>
+      </div>
+      <div class="card">
+        <h3>Stack any number of layers <span class="pill pill-live">live</span></h3>
+        <p>Add an allergy layer, then a crime layer, then more — each renders as its own gradient with its own color identity on one shared map, and a click-to-detail panel lists every active layer's value for that city, not just one.</p>
+      </div>
+      <div class="card">
         <h3>A deliberately different mock dataset <span class="pill pill-live">tested</span></h3>
-        <p>The interface contract is proven against a second, intentionally unrelated fake dataset in the test suite — the real test of whether an abstraction generalizes is whether something genuinely different can satisfy it cleanly, not just the one real case it was designed around.</p>
+        <p>The interface contract is proven against a second, intentionally unrelated fake dataset in the test suite — the real test of whether an abstraction generalizes is whether something genuinely different can satisfy it cleanly, not just the real cases it was designed around.</p>
       </div>
     </div>
   </div>
@@ -201,11 +210,12 @@ footer a{color:var(--txt-2)}
     <span class="eyebrow">What's next</span>
     <h2>Roadmap</h2>
     <div class="roadmap">
-      <div class="item"><span class="n">01</span><span class="t">Crime & safety</span><span>— a genuinely different shape (area rates, not nearest-point distance) to stress-test the interface</span></div>
-      <div class="item"><span class="n">02</span><span class="t">Healthcare access</span><span>— porting Allergy Locator's own second dataset over natively</span></div>
-      <div class="item"><span class="n">03</span><span class="t">Per-facet year/date vintage picker</span><span>— "crime rates in 2019" vs. now, generalizing Allergy Locator's own day-by-day forecasting</span></div>
-      <div class="item"><span class="n">04</span><span class="t">Layer combination across datasets</span><span>— stack allergy + crime + cost into one weighted view</span></div>
-      <div class="item"><span class="n">05</span><span class="t">AI chat search</span><span>— describe what you want in plain language, get a ranked shortlist</span></div>
+      <div class="item"><span class="n">✓</span><span class="t">Crime & safety</span><span>— live, with real 2020–2024 history</span></div>
+      <div class="item"><span class="n">✓</span><span class="t">Stack any number of layers</span><span>— live, across any datasets at once</span></div>
+      <div class="item"><span class="n">✓</span><span class="t">Per-dataset year control</span><span>— live wherever a dataset reports real availableYears</span></div>
+      <div class="item"><span class="n">01</span><span class="t">Healthcare access</span><span>— porting Allergy Locator's own second dataset over natively</span></div>
+      <div class="item"><span class="n">02</span><span class="t">Allergy's fuller daily/seasonal depth</span><span>— porting the flagship's real day-by-day curves and county-grid densification, not just the annual-only reduction shipped here today</span></div>
+      <div class="item"><span class="n">03</span><span class="t">AI chat search</span><span>— describe what you want in plain language, get a ranked shortlist</span></div>
     </div>
   </div>
 </section>
