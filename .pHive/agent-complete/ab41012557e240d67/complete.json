@@ -1,0 +1,16 @@
+{
+  "agent_id": "ab41012557e240d67",
+  "session_id": "d7e94b29-e5ba-4718-b5ee-5bf2e4b22279",
+  "agent_type": "",
+  "cwd": "/Users/mdostal/Code/mapstack-us",
+  "agent_transcript_path": "/Users/mdostal/.claude/projects/-Users-mdostal-Code-mapstack-us/d7e94b29-e5ba-4718-b5ee-5bf2e4b22279/subagents/agent-ab41012557e240d67.jsonl",
+  "last_assistant_message": "/plugin-hive:plan the advanced power-user tab",
+  "prompt_id": "450cf481-7469-4b34-8ace-fd44a9b8f4b4",
+  "permission_mode": "bypassPermissions",
+  "effort": {
+    "level": "high"
+  },
+  "verdict": "failure",
+  "verdict_source": "missing_marker",
+  "written_at": "2026-08-02T15:59:23Z"
+}

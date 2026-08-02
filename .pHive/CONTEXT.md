@@ -1,0 +1,64 @@
+# Project CONTEXT
+
+Mapstack is an open-source, static-first Next.js app: pick datasets, overlay them
+as heatmaps on a US map, and find what matters to you. One map engine, any number
+of pluggable data layers — generalized from allergy-locator's two real datasets.
+
+## Terminology
+
+- **Dataset (layer)** — A pluggable data source implementing the `Dataset` interface
+  (`src/lib/datasets/types.ts`): a fixed set of `layers`, a per-city/per-layer
+  `getValue()` returning a 0-100 "higher = more concerning" value, and a methodology
+  doc. Current datasets: allergy severity, healthcare access, crime (violent + property).
+- **Concern value** — The shared 0-100 scale every dataset's `getValue()` returns.
+  Always "higher = more concerning" so one color ramp (`concernColor`) works
+  unmodified across every dataset — no per-dataset inverted palette.
+- **Layer** — A sub-choice within a dataset (e.g. a specific allergen, or a crime
+  category). A dataset declares its `layers: DatasetLayer[]`.
+- **Time context** — Optional `year`/`month`/`day` a dataset's `getValue()` can use
+  when `supportsTime: true`. Datasets only ever expose years they have real data
+  for (`availableYears`) — never a fabricated/interpolated year.
+- **Multi-layer stacking** — Rendering 2+ dataset layers simultaneously with
+  per-layer color identity (see `MultiLayerMap.tsx`), generalized on top of the
+  single-layer-at-a-time picker UX.
+- **Methodology doc** — Every dataset's plain-language sourcing/scoring writeup
+  (e.g. `data/crime-methodology.md`, `data/allergy-scoring.md`). Required per the
+  transparent-scoring principle — no black-box heuristics.
+
+## Key paths
+
+- `src/lib/datasets/types.ts` — the generalized Dataset interface; the reason this
+  repo exists separately from allergy-locator.
+- `src/lib/datasets/{allergy,crime}.ts`, `registry.ts` — per-dataset implementations
+  and the registry that lists them for the picker.
+- `src/lib/palette/` — the shared concern-value color ramp.
+- `src/lib/heatmap/` — IDW interpolation grid for continuous (not bucketed) rendering.
+- `src/lib/geo/` — state path data + city-marker dodge logic for overlapping cities.
+- `src/components/MapstackApp.tsx` — top-level app shell.
+- `src/components/MultiLayerMap.tsx`, `HeatmapLayer.tsx` — map + heatmap rendering.
+- `data/` — committed, build-time-baked datasets + their methodology docs.
+- `scripts/gen_crime_data.py`, `fetch_crime_agencies.py` — data-generation pipeline
+  for the crime dataset (raw fetch caches are gitignored; derived JSON is committed).
+- `scripts/secret-scan.mjs` — the required CI gate (`pnpm test:secrets`) that blocks
+  any secret from landing in the repo or client bundle.
+
+## Conventions
+
+- Fully open source (MIT) — assume every file is public, no secrets, ever.
+- Cost ≈ $0 — static site generation, no required backend or API key.
+- Transparent scoring — every layer decomposes into components with a
+  plain-language methodology doc; no claimed precision beyond what the source
+  data supports.
+- Gradients, not buckets — continuous heatmaps with visible confidence, never
+  state fills or a single scary headline number.
+- A dataset is a wrapper, not a rewrite — new layers implement the `Dataset`
+  interface rather than a bespoke rendering path.
+
+## Canonical references
+
+- `README.md` — project pitch, principles, origin story.
+- `src/lib/datasets/types.ts` — canonical Dataset interface + design rationale
+  (comments cite allergy-locator's `.pHive/planning/roadmap.md` v5).
+- `data/*-methodology.md`, `data/*-scoring.md` — per-dataset methodology.
+- `~/Code/allergy-locator` — sibling/predecessor project; already Hive-enabled,
+  shares `developer` preferences and the secret-scan gate convention.

@@ -1,0 +1,62 @@
+name: mapstack-team
+description: Single-team roster for mapstack-us — static-first Next.js map app, no backend split
+lead: team-lead
+methodology: classic  # from hive.config.yaml -> execution.default_methodology
+
+members:
+  - agent: frontend-developer
+    role: Map UI, components, dataset-layer implementations
+    domain:
+      - path: src/components/**
+        read: true
+        write: true
+        delete: false
+      - path: src/lib/**
+        read: true
+        write: true
+        delete: false
+      - path: src/app/**
+        read: true
+        write: true
+        delete: false
+
+  - agent: researcher
+    role: Codebase discovery, dataset sourcing research
+    # no domain override — read-only everywhere by default
+
+  - agent: tester
+    role: Unit (Vitest) + E2E (Playwright) test authoring and execution
+    domain:
+      - path: tests/**
+        read: true
+        write: true
+        delete: false
+      - path: "**/*.test.*"
+        read: true
+        write: true
+        delete: false
+
+  - agent: reviewer
+    role: Code review
+    # no domain override — reviewer default is read-only everywhere
+
+  - agent: technical-writer
+    role: Methodology docs, planning documents
+    domain:
+      - path: data/*.md
+        read: true
+        write: true
+        delete: false
+      - path: .pHive/**
+        read: true
+        write: true
+        delete: false
+
+context:
+  tech_stack:
+    frontend: next.js/react/typescript
+    backend: none — static-first, zero runtime data-fetch
+    database: none — data baked into data/*.json at build time
+  lint_commands:
+    - "pnpm lint"
+  commit_granularity: medium

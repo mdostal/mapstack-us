@@ -1,0 +1,161 @@
+project_name: "mapstack-us"
+type: brownfield
+discovered: "2026-08-02"
+source: "README.md + codebase scan"
+
+project_type: consumer-app
+has_ui: true
+
+ship_target:
+  kind: vercel
+  notes: "mdostal Vercel project (.vercel/ link already present). Static-first; core map does zero runtime data-fetch."
+
+# From README (verbatim/summarized)
+claude_md_summary: |
+  No CLAUDE.md present yet. Conventions inferred from README.md + codebase:
+  - Fully open source (MIT). Assume every file is public — no secrets, ever.
+  - Cost ~= $0. Static site generation; no required backend, no required API key.
+  - Transparent scoring: every layer decomposes into components with a plain-
+    language methodology doc (see data/*-methodology.md, data/*-scoring.md).
+  - Gradients, not buckets: continuous heatmaps with visible confidence — never
+    state fills or a single scary headline number.
+  - A dataset is a wrapper, not a rewrite: adding a new layer implements
+    src/lib/datasets/types.ts's Dataset interface, not a bespoke rendering path.
+  - Generalizes allergy-locator (github.com/mdostal/allergy-locator), which is
+    already Hive-enabled — see that project's .pHive/planning/roadmap.md (v5)
+    for the reasoning that produced the shared dataset-layer interface.
+  - Commands: pnpm dev / pnpm build / pnpm lint / pnpm test / pnpm test:e2e /
+    pnpm test:secrets (required secret-scan gate, see CI).
+
+tech_stack:
+  languages: [typescript]
+  frameworks: [next.js, react, d3-geo, tailwindcss]
+  build_tools: [next]
+  package_managers: [pnpm]
+  versions:
+    next: "16.2.12"
+    react: "19.2.4"
+    typescript: "^5"
+
+structure:
+  modules:
+    - name: app
+      purpose: Next.js app router entry (layout, page, global styles)
+      source: src/app/
+    - name: components
+      purpose: Map UI — SVG base map, heatmap layer, multi-layer stacking, year/legend controls, city detail panel
+      source: src/components/
+    - name: lib/datasets
+      purpose: Generalized dataset-layer interface + per-dataset implementations (allergy, healthcare access, crime)
+      source: src/lib/datasets/
+    - name: lib/geo
+      purpose: Geo helpers (state paths, city coordinate dodge logic)
+      source: src/lib/geo/
+    - name: lib/heatmap
+      purpose: IDW interpolation grid for continuous heatmap rendering
+      source: src/lib/heatmap/
+    - name: lib/palette
+      purpose: Shared "higher = more concerning" color ramp used by every dataset
+      source: src/lib/palette/
+    - name: data
+      purpose: Committed static datasets + methodology docs consumed at build time
+      source: data/
+    - name: scripts
+      purpose: Data-generation scripts (crime data fetch/build) + secret-scan gate
+      source: scripts/
+  entry_points:
+    - src/app/page.tsx
+    - src/app/layout.tsx
+
+architecture:
+  pattern: Static-first Next.js app; no backend/API routes, no runtime data-fetch for the core map
+  di_framework: none (plain function/module composition)
+  state_management: React component state/hooks; next-themes for theme toggle
+  navigation: single-page app (no router beyond the one page)
+  data_layer: "Dataset interface (src/lib/datasets/types.ts) — each dataset implements getValue(cityId, layerId, context) returning a 0-100 concern value; data baked into data/*.json at build time, no client fetch"
+
+conventions:
+  naming: "Not yet documented in a CLAUDE.md — camelCase functions/vars, PascalCase components, kebab-case data files"
+  file_organization: "By layer (app / components / lib/{datasets,geo,heatmap,palette}), not by feature"
+  branching: "main only so far (7 commits, no feature branches observed)"
+  commit_messages: "Single-commit, feature-scoped, imperative summaries (e.g. 'Add crime as the third real dataset (violent + property crime rates)')"
+
+test_infrastructure:
+  unit:
+    framework: vitest
+    location: tests/
+    count: "8 files (dataset-interface, crime-data, active-layers, crime-dataset, heatmap, palette, allergy-dataset, geo-dodge, skeleton)"
+    coverage_tool: none
+  integration:
+    framework: none separate from unit
+    location: n/a
+  e2e:
+    framework: Playwright
+    location: tests/e2e/
+    count: "2 specs (mapstack, skeleton)"
+  mocking: none observed
+  test_commands:
+    - "pnpm test"
+    - "pnpm test:e2e"
+    - "pnpm test:secrets"
+
+ci_cd:
+  platform: GitHub Actions
+  workflows: [.github/workflows/ci.yml]
+  gating: "On push to main + all PRs: install -> unit tests -> build -> secret-scan -> playwright install -> e2e tests. No merge queue/branch protection observed from local checkout."
+
+documentation_found:
+  - path: README.md
+    content_summary: "Project pitch, principles (open source, $0 cost, transparent scoring, gradients not buckets), origin story from allergy-locator"
+  - path: data/allergy-scoring.md
+    content_summary: "Methodology for the allergy severity layer"
+  - path: data/crime-methodology.md
+    content_summary: "Methodology for the crime rate layer (violent + property)"
+  - path: docs/index.html
+    content_summary: "GitHub Pages documentation site"
+
+existing_knowledge:
+  mcp_servers: []
+  existing_skills: []
+  existing_hooks: []
+
+code_quality:
+  linters:
+    - name: eslint
+      config_path: eslint.config.mjs
+      lint_command: "pnpm lint"
+      ecosystem: javascript
+  formatters: []
+  pre_commit:
+    framework: null
+    hooks: []
+  code_snippets:
+    - path: src/lib/datasets/types.ts
+      pattern: generalized-dataset-interface
+      annotation: "The Dataset interface every dataset (allergy, healthcare, crime) implements — getValue() returns a 0-100 'higher = more concerning' value plus a human-readable detail string; time dimension is optional, not required."
+      lines: "50-95"
+    - path: src/components/MapstackApp.tsx
+      pattern: react-component
+      annotation: "Top-level app shell composing the map, layer picker, and controls."
+      lines: "1-40"
+  test_first_signals:
+    co_located_tests: false
+    test_before_source: inconclusive
+    test_runner_in_precommit: false
+    bdd_keywords: false
+    test_absence: false
+
+project_maturity: early
+
+integrations:
+  cli_tools: {}
+  mcp_servers: {}
+  vaults: {}
+
+north_star:
+  goal: "Generalized US map-layer engine: pick datasets, overlay them, find what matters to you. One map engine, any number of pluggable data layers — built from real, working examples (allergy severity, healthcare access, crime), not guessed upfront."
+  audience: "Mixed: the general public researching a US location for personal decisions (relocating, visiting, spotting correlations), plus an intended advanced/power-user tab for deeper cross-dataset analysis. Fully open source for anyone to use."
+  expected_scale: "Small / personal-scale — side-project traffic, static-first, cost ~= $0."
+  pain_points: "None currently — greenfield in spirit even though brownfield in code. The problem it solves: no existing tool provides these layered US map overlays/data in one place. Also building it as a content-creation tool (screencaps, short recordings) to showcase findings."
+  success: "Able to correctly correlate data across datasets, chat with an agent to set up/use the tool, import your own data to compare, build short-lists/ratings of cities or areas across unrelated segments to research where to live/visit or observe change over time, and export data + analysis via chat."
+  avoid: "Overclaiming precision or presenting data with false authority (per README's 'directional, not authoritative' principle); scope-creeping the dataset abstraction ahead of real use cases; any black-box heuristic — every formula/data source must be transparent, interactable, sourced, cited, community-rateable, with saved settings and a feedback/comments path."

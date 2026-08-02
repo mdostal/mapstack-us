@@ -1,0 +1,26 @@
+# Hive workflow config for mapstack-us. NOT a duplicate of README.md.
+metrics:
+  enabled: true
+
+execution:
+  default_methodology: classic
+
+developer:
+  pr_style: single-commit
+  commit_granularity: medium
+  review_depth: standard
+  notes: >
+    Inherited from sibling project allergy-locator. Ship-focused — no boilerplate.
+    Open-source hygiene is non-negotiable: no secrets in repo or client bundle, ever.
+    Static-first; the core map does zero runtime data-fetch. Verify anything before
+    asserting it works ("render it or it doesn't exist"). Cite files by full absolute path.
+
+planning:
+  collaborative_review: false
+
+meta_team:
+  github_forwarding: false
+
+quality_gates:
+  # The one gate that matters for an open-source project:
+  secret_scan: required   # no key/token may land in the repo or client bundle
