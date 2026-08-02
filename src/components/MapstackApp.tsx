@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { AddLayerPanel } from "@/components/AddLayerPanel";
 import { ActiveLayersList } from "@/components/ActiveLayersList";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
@@ -38,7 +39,12 @@ export function MapstackApp() {
             click a city.
           </p>
         </div>
-        <ThemeToggle />
+        <div className="flex items-center gap-3">
+          <Link href="/advanced" className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+            Advanced
+          </Link>
+          <ThemeToggle />
+        </div>
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-6 md:flex-row">
