@@ -40,7 +40,7 @@ export function MapstackApp() {
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <Link href={`/advanced${queryString}`} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+          <Link href={`/advanced${queryString}`} prefetch={false} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
             Advanced
           </Link>
           <ThemeToggle />

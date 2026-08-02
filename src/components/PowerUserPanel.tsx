@@ -103,7 +103,7 @@ export function PowerUserPanel() {
         </div>
         <div className="flex items-center gap-3">
           <YearControl active={selected} year={year} onChange={setYear} />
-          <Link href={`/${queryString}`} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+          <Link href={`/${queryString}`} prefetch={false} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
             Simple view
           </Link>
           <ThemeToggle />
