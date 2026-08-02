@@ -5,7 +5,9 @@ import Link from "next/link";
 import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
+import { useSharedViewParams } from "@/lib/shared-view-params";
 
 const DEFAULT_SELECTION: ActiveLayer[] = [
   { datasetId: "allergy", layerId: "grass" },
@@ -21,6 +23,7 @@ const DEFAULT_SELECTION: ActiveLayer[] = [
  */
 export function PowerUserPanel() {
   const [selected, setSelected] = useState<ActiveLayer[]>(DEFAULT_SELECTION);
+  const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function toggle(layer: ActiveLayer) {
     setSelected((prev) =>
@@ -50,7 +53,8 @@ export function PowerUserPanel() {
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <Link href="/" className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+          <YearControl active={selected} year={year} onChange={setYear} />
+          <Link href={`/${queryString}`} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
             Simple view
           </Link>
           <ThemeToggle />
@@ -61,7 +65,12 @@ export function PowerUserPanel() {
         <div className="md:w-72 md:flex-shrink-0">
           <LayerPicker selected={selected} onToggle={toggle} />
         </div>
-        <ComparisonTable selected={selected} />
+        <ComparisonTable
+          selected={selected}
+          year={year}
+          selectedCityId={selectedCityId}
+          onSelectCity={setSelectedCityId}
+        />
       </div>
     </main>
   );

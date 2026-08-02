@@ -33,6 +33,36 @@ test("simple view and advanced route link to each other", async ({ page }) => {
   await expect(page).toHaveURL(/\/$/);
 });
 
+test("selecting a city on the advanced route and navigating to the simple view preserves the selection", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("row", { name: /^New York, NY/ }).click();
+  await expect(page).toHaveURL(/city=new-york-ny/);
+
+  await page.getByRole("link", { name: "Simple view" }).click();
+  await expect(page).toHaveURL(/city=new-york-ny/);
+  await expect(page.getByTestId("city-detail")).toContainText("New York, NY");
+});
+
+test("changing the year on the advanced route and navigating to the simple view carries the year forward", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  const yearSelect = page.getByLabel("Year");
+  await expect(yearSelect).toBeVisible();
+  const options = await yearSelect.locator("option").allTextContents();
+  const currentYear = await yearSelect.inputValue();
+  const earlierYear = options.find((y) => y !== currentYear);
+  if (earlierYear) {
+    await yearSelect.selectOption(earlierYear);
+    await expect(page).toHaveURL(new RegExp(`year=${earlierYear}`));
+
+    await page.getByRole("link", { name: "Simple view" }).click();
+    await expect(page).toHaveURL(new RegExp(`year=${earlierYear}`));
+  }
+});
+
 test("clicking a column header sorts the city rows by that column, single criterion only", async ({ page }) => {
   await page.goto("/advanced");
   const grassHeader = page.getByRole("columnheader", { name: /Allergy severity: Grass/ });

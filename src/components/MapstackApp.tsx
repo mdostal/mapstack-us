@@ -11,13 +11,13 @@ import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { DATASETS } from "@/lib/datasets/registry";
+import { useSharedViewParams } from "@/lib/shared-view-params";
 
 const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 export function MapstackApp() {
   const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
-  const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
-  const [year, setYear] = useState<number | null>(null);
+  const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function addLayer(layer: ActiveLayer) {
     setActive((prev) => (prev.some((a) => isSameLayer(a, layer)) ? prev : [...prev, layer]));
@@ -40,7 +40,7 @@ export function MapstackApp() {
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <Link href="/advanced" className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+          <Link href={`/advanced${queryString}`} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
             Advanced
           </Link>
           <ThemeToggle />
