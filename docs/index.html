@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mapstack — one US map engine, any dataset as a layer</title>
+<meta name="description" content="An open-source, dataset-agnostic US map engine. Pick a dataset, pick a layer, click a city -- and add your own data with one small interface."/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='15' y='55' width='70' height='14' rx='4' fill='%232DD4BF' opacity='0.5'/%3E%3Crect x='15' y='38' width='70' height='14' rx='4' fill='%2338BDF8' opacity='0.7'/%3E%3Crect x='15' y='21' width='70' height='14' rx='4' fill='%236366F1'/%3E%3C/svg%3E"/>
+<meta property="og:title" content="Mapstack — one US map engine, any dataset as a layer"/>
+<meta property="og:description" content="Pick a dataset, pick a layer, click a city. Add your own data with one small interface."/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#070B14;
+  --deck:#0E1526;
+  --layer1:#6366F1;
+  --layer2:#38BDF8;
+  --layer3:#2DD4BF;
+  --glass:rgba(255,255,255,0.05);
+  --glass-border:rgba(255,255,255,0.10);
+  --txt:#EEF2F8;
+  --txt-2:#9AA7BD;
+  --txt-faint:#576078;
+  --maxw:1080px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(ellipse 900px 500px at 85% -10%, rgba(99,102,241,0.18), transparent),
+    radial-gradient(ellipse 700px 500px at 0% 30%, rgba(45,212,191,0.10), transparent),
+    var(--bg);
+  color:var(--txt-2);
+  font-family:'Inter',system-ui,sans-serif;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,.display{font-family:'Space Grotesk',sans-serif;color:var(--txt);letter-spacing:-.01em;line-height:1.15}
+a{color:var(--layer2);text-decoration:none}
+a:hover{text-decoration:underline}
+.mono{font-family:'JetBrains Mono',monospace}
+.eyebrow{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--layer3);
+  display:block;margin-bottom:14px;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+section{position:relative;padding:88px 0}
+section:first-of-type{padding-top:96px}
+.gradient-rule{height:2px;background:linear-gradient(90deg, var(--layer1), var(--layer2), var(--layer3));border-radius:2px;opacity:.6}
+
+/* ============ hero ============ */
+.hero{padding-top:120px;text-align:center}
+.hero h1{font-size:clamp(2.2rem,5.5vw,3.6rem);max-width:820px;margin:0 auto 20px}
+.hero .sub{font-size:1.15rem;max-width:640px;margin:0 auto 32px;color:var(--txt-2)}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:64px}
+.btn{
+  font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:.95rem;
+  padding:13px 26px;border-radius:10px;transition:transform .15s var(--ease);
+  display:inline-flex;align-items:center;gap:8px;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-primary{background:linear-gradient(135deg, var(--layer2), var(--layer1));color:#050810;box-shadow:0 8px 24px -8px rgba(56,189,248,.5)}
+.btn-secondary{background:var(--glass);border:1px solid var(--glass-border);color:var(--txt)}
+
+/* stacked-layers hero visual */
+.stack{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+.stack .layer{
+  height:20px;border-radius:8px;display:flex;align-items:center;padding:0 14px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(255,255,255,.85);
+}
+.stack .layer:nth-child(1){background:linear-gradient(90deg, var(--layer1), rgba(99,102,241,.3));width:100%}
+.stack .layer:nth-child(2){background:linear-gradient(90deg, var(--layer2), rgba(56,189,248,.3));width:88%}
+.stack .layer:nth-child(3){background:linear-gradient(90deg, var(--layer3), rgba(45,212,191,.3));width:76%}
+
+/* ============ cards ============ */
+.grid{display:grid;gap:20px}
+.grid-2{grid-template-columns:repeat(2,1fr)}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:760px){.grid-2,.grid-3{grid-template-columns:1fr}}
+.card{background:var(--glass);border:1px solid var(--glass-border);border-radius:14px;padding:26px}
+.card h3{font-size:1.05rem;margin-bottom:10px}
+.card p{font-size:.92rem;color:var(--txt-2)}
+
+/* ============ code block ============ */
+pre{
+  background:#050810;border:1px solid var(--glass-border);border-radius:12px;padding:20px 22px;
+  overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:.82rem;line-height:1.6;color:#C7D2E8;
+  margin:24px 0;
+}
+pre .kw{color:var(--layer2)}
+pre .str{color:var(--layer3)}
+pre .com{color:var(--txt-faint)}
+
+.pill{
+  display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:500;
+  padding:3px 9px;border-radius:99px;letter-spacing:.04em;margin-left:8px;
+}
+.pill-live{background:rgba(45,212,191,.15);color:var(--layer3);border:1px solid rgba(45,212,191,.3)}
+.pill-next{background:rgba(99,102,241,.15);color:var(--layer1);border:1px solid rgba(99,102,241,.3)}
+
+/* ============ lineage ============ */
+.lineage{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;margin:32px 0}
+.lineage .node{background:var(--glass);border:1px solid var(--glass-border);border-radius:12px;padding:18px 22px;text-align:center;min-width:180px}
+.lineage .node .tag{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--txt-faint);text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:6px}
+.lineage .node .name{font-family:'Space Grotesk',sans-serif;color:var(--txt);font-weight:600}
+.lineage .arrow{color:var(--txt-faint);font-size:1.4rem}
+
+/* ============ roadmap ============ */
+.roadmap{display:flex;flex-direction:column;gap:14px}
+.roadmap .item{display:flex;align-items:baseline;gap:14px;padding:14px 18px;background:var(--glass);border:1px solid var(--glass-border);border-radius:10px}
+.roadmap .item .n{font-family:'JetBrains Mono',monospace;color:var(--txt-faint);font-size:.85rem;min-width:20px}
+.roadmap .item .t{color:var(--txt);font-weight:600;font-family:'Space Grotesk',sans-serif}
+
+footer{padding:56px 0 80px;text-align:center;color:var(--txt-faint);font-size:.85rem}
+footer a{color:var(--txt-2)}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Open source · MIT · $0 to run</span>
+    <h1>One US map engine. Any dataset, as a layer.</h1>
+    <p class="sub">Pick a dataset, pick a layer, click a city — the same rendering pipeline drives every one of them, because every dataset speaks one small, shared interface. No dataset-specific map code, ever.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://tools.mdostal.com/mapstack" target="_blank" rel="noreferrer">Open the map →</a>
+      <a class="btn btn-secondary" href="https://github.com/mdostal/mapstack-us" target="_blank" rel="noreferrer">View source on GitHub</a>
+    </div>
+    <div class="stack">
+      <div class="layer">allergy severity — validated + modeled</div>
+      <div class="layer">healthcare access — coming next</div>
+      <div class="layer">crime — coming next</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Origin</span>
+    <h2>Born from a real product, not designed on a whiteboard</h2>
+    <p><a href="https://mdostal.github.io/allergy-locator/" target="_blank" rel="noreferrer">Allergy Locator</a> shipped first: a full, validated US allergy-severity map with real ground-truth data, county-level gradients, and day-by-day forecasting. Once a <em>second</em> real dataset (healthcare access — nearest hospital by drive time) got built the same way inside that project, the shared shape between the two became clear enough to actually generalize — rather than guessing at an abstraction from a single case.</p>
+    <div class="lineage">
+      <div class="node">
+        <span class="tag">Predecessor</span>
+        <span class="name">Allergy Locator</span>
+      </div>
+      <span class="arrow">→</span>
+      <div class="node">
+        <span class="tag">This repo</span>
+        <span class="name">Mapstack</span>
+      </div>
+    </div>
+    <p style="text-align:center">The full reasoning behind the split lives in <a href="https://mdostal.github.io/allergy-locator/" target="_blank" rel="noreferrer">Allergy Locator's own writeup</a>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">The interface</span>
+    <h2>Add a dataset by implementing one small contract</h2>
+    <p>Every dataset — no matter how different its underlying data looks — implements the exact same shape: a fixed list of layers, and a lookup that returns a 0–100 value on a shared "higher = more concerning" scale, plus a one-line human-readable detail.</p>
+    <pre><span class="com">// lib/datasets/types.ts</span>
+<span class="kw">interface</span> Dataset {
+  id: <span class="kw">string</span>;
+  label: <span class="kw">string</span>;
+  layers: DatasetLayer[];
+  supportsTime: <span class="kw">boolean</span>;
+  getValue(cityId, layerId, context?): {
+    value: <span class="kw">number</span>;   <span class="com">// 0-100, higher = more concerning</span>
+    detail: <span class="kw">string</span>;  <span class="com">// "72/100, high" or "Bellevue Hospital, 4 min"</span>
+  } | <span class="kw">null</span>;         <span class="com">// null = a real gap, never a fabricated value</span>
+}</pre>
+    <p>That's it. Implement <code class="mono">getValue</code>, register the dataset once, and the exact same <code class="mono">DatasetMap</code>/<code class="mono">DatasetView</code> components render it — continuous gradient, click-to-select detail panel, legend, all of it — with zero new rendering code.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">What's real today</span>
+    <h2>Proven with two independent implementations</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Allergy severity <span class="pill pill-live">live</span></h3>
+        <p>Ported from Allergy Locator's own validated grass ground-truth (MAE 2.3) plus ~28 modeled allergens — deliberately annual-only here, not a full clone of the flagship's daily-curve/county-grid depth. Proving the engine generalizes, not re-shipping the whole product.</p>
+      </div>
+      <div class="card">
+        <h3>A deliberately different mock dataset <span class="pill pill-live">tested</span></h3>
+        <p>The interface contract is proven against a second, intentionally unrelated fake dataset in the test suite — the real test of whether an abstraction generalizes is whether something genuinely different can satisfy it cleanly, not just the one real case it was designed around.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">What's next</span>
+    <h2>Roadmap</h2>
+    <div class="roadmap">
+      <div class="item"><span class="n">01</span><span class="t">Crime & safety</span><span>— a genuinely different shape (area rates, not nearest-point distance) to stress-test the interface</span></div>
+      <div class="item"><span class="n">02</span><span class="t">Healthcare access</span><span>— porting Allergy Locator's own second dataset over natively</span></div>
+      <div class="item"><span class="n">03</span><span class="t">Per-facet year/date vintage picker</span><span>— "crime rates in 2019" vs. now, generalizing Allergy Locator's own day-by-day forecasting</span></div>
+      <div class="item"><span class="n">04</span><span class="t">Layer combination across datasets</span><span>— stack allergy + crime + cost into one weighted view</span></div>
+      <div class="item"><span class="n">05</span><span class="t">AI chat search</span><span>— describe what you want in plain language, get a ranked shortlist</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="gradient-rule" style="max-width:200px;margin:0 auto 24px"></div>
+    <p>MIT licensed · <a href="https://github.com/mdostal/mapstack-us" target="_blank" rel="noreferrer">Source on GitHub</a> · <a href="https://tools.mdostal.com/mapstack" target="_blank" rel="noreferrer">Open the live map</a> · <a href="https://mdostal.github.io/allergy-locator/" target="_blank" rel="noreferrer">Allergy Locator (predecessor)</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
