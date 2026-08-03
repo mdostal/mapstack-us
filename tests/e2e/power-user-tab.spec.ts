@@ -45,6 +45,30 @@ test("selecting a city on the advanced route and navigating to the simple view p
   await expect(page.getByTestId("city-detail")).toContainText("New York, NY");
 });
 
+test("selecting a city does not reset the active layers -- regression for the shared-view-params URL-write mechanism", async ({
+  page,
+}) => {
+  // Real bug found live in production only (never reproduced against a
+  // local pnpm start server): the OLD implementation wrote city/year via
+  // next/navigation's router.replace(), which triggers an RSC data fetch
+  // that 404s through this app's multi-zone rewrite -- Next's fallback to
+  // a full browser reload on that failure silently reset every bit of
+  // non-URL-backed state (active layers, filters, ...) on every city
+  // click. See src/lib/shared-view-params.ts's doc comment. This test
+  // can't reproduce the production-only 404 itself, but it does pin the
+  // invariant the fix restores: selecting a city must never touch the
+  // active layer selection.
+  await page.goto("/advanced");
+  await page.getByRole("button", { name: "Care access", exact: true }).click();
+  await page.getByLabel("General / acute care", { exact: true }).click();
+  await expect(page.locator("thead th").filter({ hasText: "Care access" })).toBeVisible();
+
+  await page.getByRole("row", { name: /^New York, NY/ }).click();
+  await expect(page).toHaveURL(/city=new-york-ny/);
+  await expect(page.locator("thead th").filter({ hasText: "Care access" })).toBeVisible();
+  await expect(page.getByLabel("Grass", { exact: true })).toBeChecked();
+});
+
 test("changing the year on the advanced route and navigating to the simple view carries the year forward", async ({
   page,
 }) => {

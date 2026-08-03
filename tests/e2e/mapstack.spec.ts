@@ -98,6 +98,28 @@ test("stacking 2+ layers shows a legend and detail for each at a clicked city", 
   await expect(crimeDetail).toContainText("percentile");
 });
 
+test("selecting a city does not reset previously added layers -- regression for the shared-view-params URL-write mechanism", async ({
+  page,
+}) => {
+  // Real bug found live in production only: writing city/year via
+  // next/navigation's router.replace() triggered an RSC data fetch that
+  // 404s through this app's multi-zone rewrite, and Next's fallback to a
+  // full browser reload silently reset every non-URL-backed bit of state
+  // (active layers here) on every single city click. See
+  // src/lib/shared-view-params.ts's doc comment. Never reproduced against
+  // a local pnpm start server, so this pins the invariant rather than the
+  // production-only failure mode itself.
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await expect(page).toHaveURL(/city=new-york-ny/);
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
+});
+
 test("removing a layer takes it off the map and the active list", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();

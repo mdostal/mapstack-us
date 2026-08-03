@@ -2,7 +2,7 @@
 
 import { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { AccordionSection } from "@/components/AccordionSection";
 import { LayerPicker } from "@/components/LayerPicker";
 import { ComparisonTable } from "@/components/ComparisonTable";
@@ -18,7 +18,7 @@ import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
-import { useSharedViewParams } from "@/lib/shared-view-params";
+import { notifySharedViewParamsChanged, useSharedViewParams } from "@/lib/shared-view-params";
 import type { SortSpec } from "@/lib/power-user/resolve-sort-keys";
 import { buildComparisonCsv } from "@/lib/power-user/build-comparison-csv";
 import { downloadCsv } from "@/lib/power-user/csv-export";
@@ -48,7 +48,6 @@ const DEFAULT_SELECTION: ActiveLayer[] = [
  * See .pHive/design/power-user-advanced-layout/brief.md.
  */
 export function PowerUserPanel() {
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -106,9 +105,18 @@ export function PowerUserPanel() {
     setSortKeys(view.sortKeys);
     // Also reflect the restored view in the URL so it's shareable, not just
     // applied in-memory -- see .pHive/design/power-user-saved-views/brief.md.
-    const params = new URLSearchParams(searchParams.toString());
+    // Written via window.history.replaceState directly, NOT next/navigation's
+    // router.replace() -- see shared-view-params.ts's doc comment for the
+    // real production bug (an RSC-fetch 404 through this app's multi-zone
+    // rewrite) this avoids. Reads window.location.search rather than this
+    // component's own `searchParams` for the same reason: shared-view-params.ts's
+    // city/year writes no longer go through Next's router, so `searchParams`
+    // (only ever updated by a REAL Next navigation) would otherwise go stale
+    // the moment a user selects a city, silently dropping it from this URL.
+    const params = new URLSearchParams(window.location.search);
     params.set(VIEW_PARAM, encodeView({ selections: view.selections, sortKeys: view.sortKeys }));
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+    window.history.replaceState(window.history.state, "", `${pathname}?${params.toString()}`);
+    notifySharedViewParamsChanged();
   }
 
   function exportCsv() {
