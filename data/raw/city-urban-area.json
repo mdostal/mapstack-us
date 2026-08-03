@@ -1,0 +1,2030 @@
+{
+  "new-york-ny": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "los-angeles-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "chicago-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "houston-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "phoenix-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "philadelphia-pa": {
+    "uace": "69076",
+    "name": "Philadelphia, PA--NJ--DE--MD Urban Area"
+  },
+  "san-antonio-tx": {
+    "uace": "78580",
+    "name": "San Antonio, TX Urban Area"
+  },
+  "san-diego-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "dallas-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "fort-worth-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "jacksonville-fl": {
+    "uace": "42346",
+    "name": "Jacksonville, FL Urban Area"
+  },
+  "austin-tx": {
+    "uace": "04384",
+    "name": "Austin, TX Urban Area"
+  },
+  "san-jose-ca": {
+    "uace": "79039",
+    "name": "San Jose, CA Urban Area"
+  },
+  "charlotte-nc": {
+    "uace": "15670",
+    "name": "Charlotte, NC--SC Urban Area"
+  },
+  "columbus-oh": {
+    "uace": "19234",
+    "name": "Columbus, OH Urban Area"
+  },
+  "indianapolis-in": {
+    "uace": "41212",
+    "name": "Indianapolis, IN Urban Area"
+  },
+  "san-francisco-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "seattle-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "denver-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "nashville-tn": {
+    "uace": "61273",
+    "name": "Nashville-Davidson, TN Urban Area"
+  },
+  "oklahoma-city-ok": {
+    "uace": "65080",
+    "name": "Oklahoma City, OK Urban Area"
+  },
+  "washington-dc": {
+    "uace": "92242",
+    "name": "Washington--Arlington, DC--VA--MD Urban Area"
+  },
+  "el-paso-tx": {
+    "uace": "27253",
+    "name": "El Paso, TX--NM Urban Area"
+  },
+  "las-vegas-nv": {
+    "uace": "47995",
+    "name": "Las Vegas--Henderson--Paradise, NV Urban Area"
+  },
+  "boston-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "detroit-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "louisville-ky": {
+    "uace": "51755",
+    "name": "Louisville/Jefferson County, KY--IN Urban Area"
+  },
+  "portland-or": {
+    "uace": "71317",
+    "name": "Portland, OR--WA Urban Area"
+  },
+  "memphis-tn": {
+    "uace": "56116",
+    "name": "Memphis, TN--MS--AR Urban Area"
+  },
+  "baltimore-md": {
+    "uace": "04843",
+    "name": "Baltimore, MD Urban Area"
+  },
+  "milwaukee-wi": {
+    "uace": "57466",
+    "name": "Milwaukee, WI Urban Area"
+  },
+  "albuquerque-nm": {
+    "uace": "01171",
+    "name": "Albuquerque, NM Urban Area"
+  },
+  "fresno-ca": {
+    "uace": "31843",
+    "name": "Fresno, CA Urban Area"
+  },
+  "tucson-az": {
+    "uace": "88732",
+    "name": "Tucson, AZ Urban Area"
+  },
+  "sacramento-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "atlanta-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "kansas-city-mo": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "mesa-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "raleigh-nc": {
+    "uace": "73261",
+    "name": "Raleigh, NC Urban Area"
+  },
+  "colorado-springs-co": {
+    "uace": "18856",
+    "name": "Colorado Springs, CO Urban Area"
+  },
+  "miami-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "omaha-ne": {
+    "uace": "65269",
+    "name": "Omaha, NE--IA Urban Area"
+  },
+  "virginia-beach-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "long-beach-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "oakland-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "minneapolis-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "bakersfield-ca": {
+    "uace": "04681",
+    "name": "Bakersfield, CA Urban Area"
+  },
+  "tulsa-ok": {
+    "uace": "88948",
+    "name": "Tulsa, OK Urban Area"
+  },
+  "tampa-fl": {
+    "uace": "86599",
+    "name": "Tampa--St. Petersburg, FL Urban Area"
+  },
+  "aurora-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "arlington-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "wichita-ks": {
+    "uace": "95077",
+    "name": "Wichita, KS Urban Area"
+  },
+  "cleveland-oh": {
+    "uace": "17668",
+    "name": "Cleveland, OH Urban Area"
+  },
+  "new-orleans-la": {
+    "uace": "62677",
+    "name": "New Orleans, LA Urban Area"
+  },
+  "henderson-nv": {
+    "uace": "47995",
+    "name": "Las Vegas--Henderson--Paradise, NV Urban Area"
+  },
+  "honolulu-hi": {
+    "uace": "39889",
+    "name": "Honolulu, HI Urban Area"
+  },
+  "anaheim-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "orlando-fl": {
+    "uace": "65863",
+    "name": "Orlando, FL Urban Area"
+  },
+  "lexington-ky": {
+    "uace": "49582",
+    "name": "Lexington-Fayette, KY Urban Area"
+  },
+  "stockton-ca": {
+    "uace": "85087",
+    "name": "Stockton, CA Urban Area"
+  },
+  "newark-nj": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "riverside-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "irvine-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "corpus-christi-tx": {
+    "uace": "20287",
+    "name": "Corpus Christi, TX Urban Area"
+  },
+  "santa-ana-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "cincinnati-oh": {
+    "uace": "16885",
+    "name": "Cincinnati, OH--KY Urban Area"
+  },
+  "greensboro-nc": {
+    "uace": "35164",
+    "name": "Greensboro, NC Urban Area"
+  },
+  "pittsburgh-pa": {
+    "uace": "69697",
+    "name": "Pittsburgh, PA Urban Area"
+  },
+  "saint-paul-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "durham-nc": {
+    "uace": "25228",
+    "name": "Durham, NC Urban Area"
+  },
+  "jersey-city-nj": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "lincoln-ne": {
+    "uace": "49933",
+    "name": "Lincoln, NE Urban Area"
+  },
+  "north-las-vegas-nv": {
+    "uace": "47995",
+    "name": "Las Vegas--Henderson--Paradise, NV Urban Area"
+  },
+  "plano-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "gilbert-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "anchorage-ak": {
+    "uace": "02305",
+    "name": "Anchorage, AK Urban Area"
+  },
+  "madison-wi": {
+    "uace": "53200",
+    "name": "Madison, WI Urban Area"
+  },
+  "reno-nv": {
+    "uace": "74179",
+    "name": "Reno, NV--CA Urban Area"
+  },
+  "chandler-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "st-louis-mo": {
+    "uace": "77770",
+    "name": "St. Louis, MO--IL Urban Area"
+  },
+  "chula-vista-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "fort-wayne-in": {
+    "uace": "31087",
+    "name": "Fort Wayne, IN Urban Area"
+  },
+  "buffalo-ny": {
+    "uace": "11350",
+    "name": "Buffalo, NY Urban Area"
+  },
+  "lubbock-tx": {
+    "uace": "51877",
+    "name": "Lubbock, TX Urban Area"
+  },
+  "laredo-tx": {
+    "uace": "47854",
+    "name": "Laredo, TX Urban Area"
+  },
+  "port-st-lucie-fl": {
+    "uace": "71479",
+    "name": "Port St. Lucie, FL Urban Area"
+  },
+  "st-petersburg-fl": {
+    "uace": "86599",
+    "name": "Tampa--St. Petersburg, FL Urban Area"
+  },
+  "toledo-oh": {
+    "uace": "87868",
+    "name": "Toledo, OH--MI Urban Area"
+  },
+  "glendale-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "winston-salem-nc": {
+    "uace": "96670",
+    "name": "Winston-Salem, NC Urban Area"
+  },
+  "irving-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "chesapeake-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "garland-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "arlington-va": {
+    "uace": "92242",
+    "name": "Washington--Arlington, DC--VA--MD Urban Area"
+  },
+  "scottsdale-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "boise-id": {
+    "uace": "08785",
+    "name": "Boise City, ID Urban Area"
+  },
+  "richmond-va": {
+    "uace": "74746",
+    "name": "Richmond, VA Urban Area"
+  },
+  "frisco-tx": {
+    "uace": "52695",
+    "name": "McKinney--Frisco, TX Urban Area"
+  },
+  "cape-coral-fl": {
+    "uace": "13510",
+    "name": "Cape Coral, FL Urban Area"
+  },
+  "mckinney-tx": {
+    "uace": "52695",
+    "name": "McKinney--Frisco, TX Urban Area"
+  },
+  "huntsville-al": {
+    "uace": "40780",
+    "name": "Huntsville, AL Urban Area"
+  },
+  "norfolk-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "hialeah-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "spokane-wa": {
+    "uace": "83764",
+    "name": "Spokane, WA Urban Area"
+  },
+  "tacoma-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "santa-clarita-ca": {
+    "uace": "79309",
+    "name": "Santa Clarita, CA Urban Area"
+  },
+  "fremont-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "baton-rouge-la": {
+    "uace": "05680",
+    "name": "Baton Rouge, LA Urban Area"
+  },
+  "san-bernardino-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "fontana-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "modesto-ca": {
+    "uace": "58006",
+    "name": "Modesto, CA Urban Area"
+  },
+  "salt-lake-city-ut": {
+    "uace": "78499",
+    "name": "Salt Lake City, UT Urban Area"
+  },
+  "moreno-valley-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "worcester-ma": {
+    "uace": "97291",
+    "name": "Worcester, MA--CT Urban Area"
+  },
+  "sioux-falls-sd": {
+    "uace": "82252",
+    "name": "Sioux Falls, SD Urban Area"
+  },
+  "yonkers-ny": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "des-moines-ia": {
+    "uace": "23743",
+    "name": "Des Moines, IA Urban Area"
+  },
+  "grand-prairie-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "fayetteville-nc": {
+    "uace": "29440",
+    "name": "Fayetteville, NC Urban Area"
+  },
+  "little-rock-ar": {
+    "uace": "50392",
+    "name": "Little Rock, AR Urban Area"
+  },
+  "rochester-ny": {
+    "uace": "75664",
+    "name": "Rochester, NY Urban Area"
+  },
+  "amarillo-tx": {
+    "uace": "01927",
+    "name": "Amarillo, TX Urban Area"
+  },
+  "tallahassee-fl": {
+    "uace": "86464",
+    "name": "Tallahassee, FL Urban Area"
+  },
+  "overland-park-ks": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "columbus-ga": {
+    "uace": "19099",
+    "name": "Columbus, GA--AL Urban Area"
+  },
+  "knoxville-tn": {
+    "uace": "45640",
+    "name": "Knoxville, TN Urban Area"
+  },
+  "augusta-ga": {
+    "uace": "04222",
+    "name": "Augusta-Richmond County, GA--SC Urban Area"
+  },
+  "grand-rapids-mi": {
+    "uace": "34300",
+    "name": "Grand Rapids, MI Urban Area"
+  },
+  "peoria-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "mobile-al": {
+    "uace": "57925",
+    "name": "Mobile, AL Urban Area"
+  },
+  "vancouver-wa": {
+    "uace": "71317",
+    "name": "Portland, OR--WA Urban Area"
+  },
+  "oxnard-ca": {
+    "uace": "66673",
+    "name": "Oxnard--San Buenaventura (Ventura), CA Urban Area"
+  },
+  "birmingham-al": {
+    "uace": "07786",
+    "name": "Birmingham, AL Urban Area"
+  },
+  "providence-ri": {
+    "uace": "72505",
+    "name": "Providence, RI--MA Urban Area"
+  },
+  "montgomery-al": {
+    "uace": "58600",
+    "name": "Montgomery, AL Urban Area"
+  },
+  "chattanooga-tn": {
+    "uace": "15832",
+    "name": "Chattanooga, TN--GA Urban Area"
+  },
+  "brownsville-tx": {
+    "uace": "10972",
+    "name": "Brownsville, TX Urban Area"
+  },
+  "huntington-beach-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "tempe-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "akron-oh": {
+    "uace": "00766",
+    "name": "Akron, OH Urban Area"
+  },
+  "clarksville-tn": {
+    "uace": "17317",
+    "name": "Clarksville, TN--KY Urban Area"
+  },
+  "fort-lauderdale-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "glendale-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "ontario-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "elk-grove-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "cary-nc": {
+    "uace": "73261",
+    "name": "Raleigh, NC Urban Area"
+  },
+  "newport-news-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "salem-or": {
+    "uace": "78229",
+    "name": "Salem, OR Urban Area"
+  },
+  "aurora-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "santa-rosa-ca": {
+    "uace": "79498",
+    "name": "Santa Rosa, CA Urban Area"
+  },
+  "eugene-or": {
+    "uace": "28117",
+    "name": "Eugene, OR Urban Area"
+  },
+  "rancho-cucamonga-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "pembroke-pines-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "shreveport-la": {
+    "uace": "81739",
+    "name": "Shreveport, LA Urban Area"
+  },
+  "surprise-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "fort-collins-co": {
+    "uace": "30628",
+    "name": "Fort Collins, CO Urban Area"
+  },
+  "murfreesboro-tn": {
+    "uace": "60733",
+    "name": "Murfreesboro, TN Urban Area"
+  },
+  "oceanside-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "garden-grove-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "lancaster-ca": {
+    "uace": "67140",
+    "name": "Palmdale--Lancaster, CA Urban Area"
+  },
+  "springfield-mo": {
+    "uace": "83953",
+    "name": "Springfield, MO Urban Area"
+  },
+  "denton-tx": {
+    "uace": "23500",
+    "name": "Denton--Lewisville, TX Urban Area"
+  },
+  "roseville-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "killeen-tx": {
+    "uace": "44992",
+    "name": "Killeen, TX Urban Area"
+  },
+  "palmdale-ca": {
+    "uace": "67140",
+    "name": "Palmdale--Lancaster, CA Urban Area"
+  },
+  "paterson-nj": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "corona-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "alexandria-va": {
+    "uace": "92242",
+    "name": "Washington--Arlington, DC--VA--MD Urban Area"
+  },
+  "charleston-sc": {
+    "uace": "15508",
+    "name": "Charleston, SC Urban Area"
+  },
+  "salinas-ca": {
+    "uace": "78310",
+    "name": "Salinas, CA Urban Area"
+  },
+  "kansas-city-ks": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "macon-ga": {
+    "uace": "52822",
+    "name": "Macon-Bibb County, GA Urban Area"
+  },
+  "hayward-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "hollywood-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "lakewood-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "sunnyvale-ca": {
+    "uace": "79039",
+    "name": "San Jose, CA Urban Area"
+  },
+  "springfield-ma": {
+    "uace": "83926",
+    "name": "Springfield, MA--CT Urban Area"
+  },
+  "bellevue-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "naperville-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "bridgeport-ct": {
+    "uace": "10162",
+    "name": "Bridgeport--Stamford, CT--NY Urban Area"
+  },
+  "joliet-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "mesquite-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "mcallen-tx": {
+    "uace": "52390",
+    "name": "McAllen, TX Urban Area"
+  },
+  "olathe-ks": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "savannah-ga": {
+    "uace": "79768",
+    "name": "Savannah, GA Urban Area"
+  },
+  "gainesville-fl": {
+    "uace": "32167",
+    "name": "Gainesville, FL Urban Area"
+  },
+  "pasadena-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "palm-bay-fl": {
+    "uace": "67105",
+    "name": "Palm Bay--Melbourne, FL Urban Area"
+  },
+  "pomona-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "waco-tx": {
+    "uace": "91027",
+    "name": "Waco, TX Urban Area"
+  },
+  "thornton-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "midland-tx": {
+    "uace": "57007",
+    "name": "Midland, TX Urban Area"
+  },
+  "rockford-il": {
+    "uace": "75718",
+    "name": "Rockford, IL Urban Area"
+  },
+  "columbia-sc": {
+    "uace": "18964",
+    "name": "Columbia, SC Urban Area"
+  },
+  "visalia-ca": {
+    "uace": "90946",
+    "name": "Visalia, CA Urban Area"
+  },
+  "escondido-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "syracuse-ny": {
+    "uace": "86302",
+    "name": "Syracuse, NY Urban Area"
+  },
+  "meridian-id": {
+    "uace": "08785",
+    "name": "Boise City, ID Urban Area"
+  },
+  "miramar-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "elizabeth-nj": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "victorville-ca": {
+    "uace": "90541",
+    "name": "Victorville--Hesperia--Apple Valley, CA Urban Area"
+  },
+  "round-rock-tx": {
+    "uace": "04384",
+    "name": "Austin, TX Urban Area"
+  },
+  "jackson-ms": {
+    "uace": "42211",
+    "name": "Jackson, MS Urban Area"
+  },
+  "stamford-ct": {
+    "uace": "10162",
+    "name": "Bridgeport--Stamford, CT--NY Urban Area"
+  },
+  "lewisville-tx": {
+    "uace": "23500",
+    "name": "Denton--Lewisville, TX Urban Area"
+  },
+  "coral-springs-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "new-haven-ct": {
+    "uace": "62407",
+    "name": "New Haven, CT Urban Area"
+  },
+  "fullerton-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "torrance-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "orange-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "cedar-rapids-ia": {
+    "uace": "14752",
+    "name": "Cedar Rapids, IA Urban Area"
+  },
+  "west-valley-city-ut": {
+    "uace": "78499",
+    "name": "Salt Lake City, UT Urban Area"
+  },
+  "hampton-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "warren-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "dayton-oh": {
+    "uace": "22528",
+    "name": "Dayton, OH Urban Area"
+  },
+  "fargo-nd": {
+    "uace": "29089",
+    "name": "Fargo, ND--MN Urban Area"
+  },
+  "pasadena-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "kent-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "carrollton-tx": {
+    "uace": "23500",
+    "name": "Denton--Lewisville, TX Urban Area"
+  },
+  "sterling-heights-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "santa-clara-ca": {
+    "uace": "79039",
+    "name": "San Jose, CA Urban Area"
+  },
+  "abilene-tx": {
+    "uace": "00280",
+    "name": "Abilene, TX Urban Area"
+  },
+  "columbia-mo": {
+    "uace": "18937",
+    "name": "Columbia, MO Urban Area"
+  },
+  "pearland-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "clovis-ca": {
+    "uace": "31843",
+    "name": "Fresno, CA Urban Area"
+  },
+  "north-charleston-sc": {
+    "uace": "15508",
+    "name": "Charleston, SC Urban Area"
+  },
+  "athens-ga": {
+    "uace": "03763",
+    "name": "Athens-Clarke County, GA Urban Area"
+  },
+  "college-station-tx": {
+    "uace": "18748",
+    "name": "College Station--Bryan, TX Urban Area"
+  },
+  "west-palm-beach-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "wilmington-nc": {
+    "uace": "95833",
+    "name": "Wilmington, NC Urban Area"
+  },
+  "allentown-pa": {
+    "uace": "01495",
+    "name": "Allentown--Bethlehem, PA--NJ Urban Area"
+  },
+  "topeka-ks": {
+    "uace": "88084",
+    "name": "Topeka, KS Urban Area"
+  },
+  "lakeland-fl": {
+    "uace": "46828",
+    "name": "Lakeland, FL Urban Area"
+  },
+  "buckeye-az": {
+    "uace": "69192",
+    "name": "Phoenix West--Goodyear--Avondale, AZ Urban Area"
+  },
+  "broken-arrow-ok": {
+    "uace": "88948",
+    "name": "Tulsa, OK Urban Area"
+  },
+  "simi-valley-ca": {
+    "uace": "82144",
+    "name": "Simi Valley, CA Urban Area"
+  },
+  "rochester-mn": {
+    "uace": "75637",
+    "name": "Rochester, MN Urban Area"
+  },
+  "lafayette-la": {
+    "uace": "46045",
+    "name": "Lafayette, LA Urban Area"
+  },
+  "vallejo-ca": {
+    "uace": "90028",
+    "name": "Vallejo, CA Urban Area"
+  },
+  "concord-ca": {
+    "uace": "19504",
+    "name": "Concord--Walnut Creek, CA Urban Area"
+  },
+  "arvada-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "odessa-tx": {
+    "uace": "64864",
+    "name": "Odessa, TX Urban Area"
+  },
+  "cambridge-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "new-braunfels-tx": {
+    "uace": "61948",
+    "name": "New Braunfels, TX Urban Area"
+  },
+  "fairfield-ca": {
+    "uace": "28657",
+    "name": "Fairfield, CA Urban Area"
+  },
+  "ann-arbor-mi": {
+    "uace": "02602",
+    "name": "Ann Arbor, MI Urban Area"
+  },
+  "thousand-oaks-ca": {
+    "uace": "87490",
+    "name": "Thousand Oaks, CA Urban Area"
+  },
+  "hartford-ct": {
+    "uace": "37243",
+    "name": "Hartford, CT Urban Area"
+  },
+  "berkeley-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "independence-mo": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "billings-mt": {
+    "uace": "07705",
+    "name": "Billings, MT Urban Area"
+  },
+  "high-point-nc": {
+    "uace": "38809",
+    "name": "High Point, NC Urban Area"
+  },
+  "nampa-id": {
+    "uace": "60976",
+    "name": "Nampa, ID Urban Area"
+  },
+  "lowell-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "league-city-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "conroe-tx": {
+    "uace": "87300",
+    "name": "The Woodlands--Conroe, TX Urban Area"
+  },
+  "antioch-ca": {
+    "uace": "02683",
+    "name": "Antioch, CA Urban Area"
+  },
+  "menifee-ca": {
+    "uace": "87004",
+    "name": "Temecula--Murrieta--Menifee, CA Urban Area"
+  },
+  "richardson-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "pompano-beach-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "las-cruces-nm": {
+    "uace": "47935",
+    "name": "Las Cruces, NM Urban Area"
+  },
+  "manchester-nh": {
+    "uace": "53740",
+    "name": "Manchester, NH Urban Area"
+  },
+  "west-jordan-ut": {
+    "uace": "78499",
+    "name": "Salt Lake City, UT Urban Area"
+  },
+  "westminster-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "evansville-in": {
+    "uace": "28333",
+    "name": "Evansville, IN Urban Area"
+  },
+  "waterbury-ct": {
+    "uace": "92485",
+    "name": "Waterbury, CT Urban Area"
+  },
+  "elgin-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "greeley-co": {
+    "uace": "34786",
+    "name": "Greeley, CO Urban Area"
+  },
+  "temecula-ca": {
+    "uace": "87004",
+    "name": "Temecula--Murrieta--Menifee, CA Urban Area"
+  },
+  "richmond-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "concord-nc": {
+    "uace": "19558",
+    "name": "Concord, NC Urban Area"
+  },
+  "provo-ut": {
+    "uace": "72559",
+    "name": "Provo--Orem, UT Urban Area"
+  },
+  "rio-rancho-nm": {
+    "uace": "01171",
+    "name": "Albuquerque, NM Urban Area"
+  },
+  "clearwater-fl": {
+    "uace": "86599",
+    "name": "Tampa--St. Petersburg, FL Urban Area"
+  },
+  "tuscaloosa-al": {
+    "uace": "89110",
+    "name": "Tuscaloosa, AL Urban Area"
+  },
+  "murrieta-ca": {
+    "uace": "87004",
+    "name": "Temecula--Murrieta--Menifee, CA Urban Area"
+  },
+  "lansing-mi": {
+    "uace": "47719",
+    "name": "Lansing, MI Urban Area"
+  },
+  "tyler-tx": {
+    "uace": "89326",
+    "name": "Tyler, TX Urban Area"
+  },
+  "miami-gardens-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "everett-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "allen-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "springfield-il": {
+    "uace": "83899",
+    "name": "Springfield, IL Urban Area"
+  },
+  "beaumont-tx": {
+    "uace": "06058",
+    "name": "Beaumont, TX Urban Area"
+  },
+  "south-fulton-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "carlsbad-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "sparks-nv": {
+    "uace": "74179",
+    "name": "Reno, NV--CA Urban Area"
+  },
+  "gresham-or": {
+    "uace": "71317",
+    "name": "Portland, OR--WA Urban Area"
+  },
+  "santa-maria-ca": {
+    "uace": "79417",
+    "name": "Santa Maria, CA Urban Area"
+  },
+  "hillsboro-or": {
+    "uace": "71317",
+    "name": "Portland, OR--WA Urban Area"
+  },
+  "peoria-il": {
+    "uace": "68509",
+    "name": "Peoria, IL Urban Area"
+  },
+  "davie-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "edinburg-tx": {
+    "uace": "52390",
+    "name": "McAllen, TX Urban Area"
+  },
+  "pueblo-co": {
+    "uace": "72613",
+    "name": "Pueblo, CO Urban Area"
+  },
+  "ventura-ca": {
+    "uace": "66673",
+    "name": "Oxnard--San Buenaventura (Ventura), CA Urban Area"
+  },
+  "palm-coast-fl": {
+    "uace": "22612",
+    "name": "Daytona Beach--Palm Coast--Port Orange, FL Urban Area"
+  },
+  "costa-mesa-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "st-george-ut": {
+    "uace": "77446",
+    "name": "St. George, UT Urban Area"
+  },
+  "centennial-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "downey-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "spokane-valley-wa": {
+    "uace": "83764",
+    "name": "Spokane, WA Urban Area"
+  },
+  "sugar-land-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "lees-summit-mo": {
+    "uace": "43912",
+    "name": "Kansas City, MO--KS Urban Area"
+  },
+  "bend-or": {
+    "uace": "06868",
+    "name": "Bend, OR Urban Area"
+  },
+  "jurupa-valley-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "georgetown-tx": {
+    "uace": "04384",
+    "name": "Austin, TX Urban Area"
+  },
+  "green-bay-wi": {
+    "uace": "34813",
+    "name": "Green Bay, WI Urban Area"
+  },
+  "fayetteville-ar": {
+    "uace": "29494",
+    "name": "Fayetteville--Springdale--Rogers, AR--MO Urban Area"
+  },
+  "rialto-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "brockton-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "boulder-co": {
+    "uace": "09298",
+    "name": "Boulder, CO Urban Area"
+  },
+  "carmel-in": {
+    "uace": "41212",
+    "name": "Indianapolis, IN Urban Area"
+  },
+  "dearborn-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "west-covina-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "yuma-az": {
+    "uace": "98020",
+    "name": "Yuma, AZ--CA Urban Area"
+  },
+  "chico-ca": {
+    "uace": "16318",
+    "name": "Chico, CA Urban Area"
+  },
+  "el-monte-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "sandy-springs-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "renton-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "fishers-in": {
+    "uace": "41212",
+    "name": "Indianapolis, IN Urban Area"
+  },
+  "suffolk-va": {
+    "uace": "85384",
+    "name": "Suffolk, VA Urban Area"
+  },
+  "lynn-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "vacaville-ca": {
+    "uace": "89866",
+    "name": "Vacaville, CA Urban Area"
+  },
+  "san-mateo-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "south-bend-in": {
+    "uace": "83116",
+    "name": "South Bend, IN--MI Urban Area"
+  },
+  "quincy-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "burbank-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "hesperia-ca": {
+    "uace": "90541",
+    "name": "Victorville--Hesperia--Apple Valley, CA Urban Area"
+  },
+  "wichita-falls-tx": {
+    "uace": "95104",
+    "name": "Wichita Falls, TX Urban Area"
+  },
+  "tracy-ca": {
+    "uace": "88280",
+    "name": "Tracy--Mountain House, CA Urban Area"
+  },
+  "new-bedford-ma": {
+    "uace": "61786",
+    "name": "New Bedford, MA Urban Area"
+  },
+  "el-cajon-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "albany-ny": {
+    "uace": "00970",
+    "name": "Albany--Schenectady, NY Urban Area"
+  },
+  "inglewood-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "boca-raton-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "fort-myers-fl": {
+    "uace": "13510",
+    "name": "Cape Coral, FL Urban Area"
+  },
+  "daly-city-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "san-angelo-tx": {
+    "uace": "78553",
+    "name": "San Angelo, TX Urban Area"
+  },
+  "edmond-ok": {
+    "uace": "65080",
+    "name": "Oklahoma City, OK Urban Area"
+  },
+  "davenport-ia": {
+    "uace": "22366",
+    "name": "Davenport, IA--IL Urban Area"
+  },
+  "deltona-fl": {
+    "uace": "23311",
+    "name": "Deltona, FL Urban Area"
+  },
+  "longmont-co": {
+    "uace": "51175",
+    "name": "Longmont, CO Urban Area"
+  },
+  "federal-way-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "merced-ca": {
+    "uace": "56251",
+    "name": "Merced, CA Urban Area"
+  },
+  "kenosha-wi": {
+    "uace": "44506",
+    "name": "Kenosha, WI Urban Area"
+  },
+  "plantation-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "roanoke-va": {
+    "uace": "75421",
+    "name": "Roanoke, VA Urban Area"
+  },
+  "sunrise-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "temple-tx": {
+    "uace": "87058",
+    "name": "Temple, TX Urban Area"
+  },
+  "vista-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "beaverton-or": {
+    "uace": "71317",
+    "name": "Portland, OR--WA Urban Area"
+  },
+  "yakima-wa": {
+    "uace": "97507",
+    "name": "Yakima, WA Urban Area"
+  },
+  "kirkland-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "norwalk-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "chino-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "portsmouth-va": {
+    "uace": "90892",
+    "name": "Virginia Beach--Norfolk, VA Urban Area"
+  },
+  "manteca-ca": {
+    "uace": "54145",
+    "name": "Manteca, CA Urban Area"
+  },
+  "north-port-fl": {
+    "uace": "71060",
+    "name": "Port Charlotte--North Port, FL Urban Area"
+  },
+  "greenville-nc": {
+    "uace": "35380",
+    "name": "Greenville, NC Urban Area"
+  },
+  "bellingham-wa": {
+    "uace": "06652",
+    "name": "Bellingham, WA Urban Area"
+  },
+  "lawrence-ks": {
+    "uace": "48232",
+    "name": "Lawrence, KS Urban Area"
+  },
+  "ofallon-mo": {
+    "uace": "77770",
+    "name": "St. Louis, MO--IL Urban Area"
+  },
+  "reading-pa": {
+    "uace": "73693",
+    "name": "Reading, PA Urban Area"
+  },
+  "mount-pleasant-sc": {
+    "uace": "15508",
+    "name": "Charleston, SC Urban Area"
+  },
+  "lehi-ut": {
+    "uace": "72559",
+    "name": "Provo--Orem, UT Urban Area"
+  },
+  "fall-river-ma": {
+    "uace": "72505",
+    "name": "Providence, RI--MA Urban Area"
+  },
+  "orem-ut": {
+    "uace": "72559",
+    "name": "Provo--Orem, UT Urban Area"
+  },
+  "san-marcos-ca": {
+    "uace": "78661",
+    "name": "San Diego, CA Urban Area"
+  },
+  "norwalk-ct": {
+    "uace": "10162",
+    "name": "Bridgeport--Stamford, CT--NY Urban Area"
+  },
+  "indio-ca": {
+    "uace": "41347",
+    "name": "Indio--Palm Desert--Palm Springs, CA Urban Area"
+  },
+  "redding-ca": {
+    "uace": "73774",
+    "name": "Redding, CA Urban Area"
+  },
+  "hemet-ca": {
+    "uace": "38215",
+    "name": "Hemet, CA Urban Area"
+  },
+  "hoover-al": {
+    "uace": "07786",
+    "name": "Birmingham, AL Urban Area"
+  },
+  "asheville-nc": {
+    "uace": "03358",
+    "name": "Asheville, NC Urban Area"
+  },
+  "livonia-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "nashua-nh": {
+    "uace": "61165",
+    "name": "Nashua, NH--MA Urban Area"
+  },
+  "sandy-ut": {
+    "uace": "78499",
+    "name": "Salt Lake City, UT Urban Area"
+  },
+  "frederick-md": {
+    "uace": "31519",
+    "name": "Frederick, MD Urban Area"
+  },
+  "bryan-tx": {
+    "uace": "18748",
+    "name": "College Station--Bryan, TX Urban Area"
+  },
+  "folsom-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "erie-pa": {
+    "uace": "27766",
+    "name": "Erie, PA Urban Area"
+  },
+  "trenton-nj": {
+    "uace": "69076",
+    "name": "Philadelphia, PA--NJ--DE--MD Urban Area"
+  },
+  "roswell-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "champaign-il": {
+    "uace": "15211",
+    "name": "Champaign, IL Urban Area"
+  },
+  "leander-tx": {
+    "uace": "04384",
+    "name": "Austin, TX Urban Area"
+  },
+  "clifton-nj": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "fort-smith-ar": {
+    "uace": "30925",
+    "name": "Fort Smith, AR--OK Urban Area"
+  },
+  "carson-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "newton-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "springdale-ar": {
+    "uace": "29494",
+    "name": "Fayetteville--Springdale--Rogers, AR--MO Urban Area"
+  },
+  "lawton-ok": {
+    "uace": "48394",
+    "name": "Lawton, OK Urban Area"
+  },
+  "compton-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "mission-viejo-ca": {
+    "uace": "57709",
+    "name": "Mission Viejo--Lake Forest--Laguna Niguel, CA Urban Area"
+  },
+  "franklin-tn": {
+    "uace": "61273",
+    "name": "Nashville-Davidson, TN Urban Area"
+  },
+  "santa-monica-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "south-gate-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "santa-fe-nm": {
+    "uace": "79363",
+    "name": "Santa Fe, NM Urban Area"
+  },
+  "queen-creek-az": {
+    "uace": "69184",
+    "name": "Phoenix--Mesa--Scottsdale, AZ Urban Area"
+  },
+  "ogden-ut": {
+    "uace": "64945",
+    "name": "Ogden--Layton, UT Urban Area"
+  },
+  "deerfield-beach-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "lawrence-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "bloomington-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "danbury-ct": {
+    "uace": "22096",
+    "name": "Danbury, CT--NY Urban Area"
+  },
+  "mission-tx": {
+    "uace": "52390",
+    "name": "McAllen, TX Urban Area"
+  },
+  "westminster-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "troy-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "daytona-beach-fl": {
+    "uace": "22612",
+    "name": "Daytona Beach--Palm Coast--Port Orange, FL Urban Area"
+  },
+  "kennewick-wa": {
+    "uace": "44479",
+    "name": "Kennewick--Richland--Pasco, WA Urban Area"
+  },
+  "duluth-mn": {
+    "uace": "24850",
+    "name": "Duluth, MN--WI Urban Area"
+  },
+  "waukegan-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "warner-robins-ga": {
+    "uace": "91783",
+    "name": "Warner Robins, GA Urban Area"
+  },
+  "south-jordan-ut": {
+    "uace": "78499",
+    "name": "Salt Lake City, UT Urban Area"
+  },
+  "rancho-cordova-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "melbourne-fl": {
+    "uace": "67105",
+    "name": "Palm Bay--Melbourne, FL Urban Area"
+  },
+  "gastonia-nc": {
+    "uace": "32653",
+    "name": "Gastonia, NC Urban Area"
+  },
+  "baytown-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "medford-or": {
+    "uace": "55981",
+    "name": "Medford, OR Urban Area"
+  },
+  "santa-barbara-ca": {
+    "uace": "79282",
+    "name": "Santa Barbara, CA Urban Area"
+  },
+  "sioux-city-ia": {
+    "uace": "82225",
+    "name": "Sioux City, IA--NE--SD Urban Area"
+  },
+  "citrus-heights-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "lake-forest-ca": {
+    "uace": "57709",
+    "name": "Mission Viejo--Lake Forest--Laguna Niguel, CA Urban Area"
+  },
+  "auburn-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "homestead-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "san-ramon-ca": {
+    "uace": "19504",
+    "name": "Concord--Walnut Creek, CA Urban Area"
+  },
+  "new-rochelle-ny": {
+    "uace": "63217",
+    "name": "New York--Jersey City--Newark, NY--NJ Urban Area"
+  },
+  "whittier-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "kissimmee-fl": {
+    "uace": "45451",
+    "name": "Kissimmee--St. Cloud, FL Urban Area"
+  },
+  "mountain-view-ca": {
+    "uace": "79039",
+    "name": "San Jose, CA Urban Area"
+  },
+  "san-leandro-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "layton-ut": {
+    "uace": "64945",
+    "name": "Ogden--Layton, UT Urban Area"
+  },
+  "auburn-al": {
+    "uace": "04033",
+    "name": "Auburn, AL Urban Area"
+  },
+  "cranston-ri": {
+    "uace": "72505",
+    "name": "Providence, RI--MA Urban Area"
+  },
+  "mansfield-tx": {
+    "uace": "22042",
+    "name": "Dallas--Fort Worth--Arlington, TX Urban Area"
+  },
+  "somerville-ma": {
+    "uace": "09271",
+    "name": "Boston, MA--NH Urban Area"
+  },
+  "warwick-ri": {
+    "uace": "72505",
+    "name": "Providence, RI--MA Urban Area"
+  },
+  "castle-rock-co": {
+    "uace": "14563",
+    "name": "Castle Rock, CO Urban Area"
+  },
+  "brooklyn-park-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "livermore-ca": {
+    "uace": "50533",
+    "name": "Livermore--Pleasanton--Dublin, CA Urban Area"
+  },
+  "bloomington-in": {
+    "uace": "08380",
+    "name": "Bloomington, IN Urban Area"
+  },
+  "jonesboro-ar": {
+    "uace": "43345",
+    "name": "Jonesboro, AR Urban Area"
+  },
+  "farmington-hills-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "perris-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "longview-tx": {
+    "uace": "51256",
+    "name": "Longview, TX Urban Area"
+  },
+  "pasco-wa": {
+    "uace": "44479",
+    "name": "Kennewick--Richland--Pasco, WA Urban Area"
+  },
+  "hawthorne-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "lake-charles-la": {
+    "uace": "46531",
+    "name": "Lake Charles, LA Urban Area"
+  },
+  "redmond-wa": {
+    "uace": "80389",
+    "name": "Seattle--Tacoma, WA Urban Area"
+  },
+  "boynton-beach-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "westland-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "redwood-city-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "newport-beach-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "cicero-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "buena-park-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "doral-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "miami-beach-fl": {
+    "uace": "56602",
+    "name": "Miami--Fort Lauderdale, FL Urban Area"
+  },
+  "woodbury-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "loveland-co": {
+    "uace": "30628",
+    "name": "Fort Collins, CO Urban Area"
+  },
+  "lynchburg-va": {
+    "uace": "52201",
+    "name": "Lynchburg, VA Urban Area"
+  },
+  "pharr-tx": {
+    "uace": "52390",
+    "name": "McAllen, TX Urban Area"
+  },
+  "largo-fl": {
+    "uace": "86599",
+    "name": "Tampa--St. Petersburg, FL Urban Area"
+  },
+  "rapid-city-sd": {
+    "uace": "73396",
+    "name": "Rapid City, SD Urban Area"
+  },
+  "apex-nc": {
+    "uace": "73261",
+    "name": "Raleigh, NC Urban Area"
+  },
+  "johns-creek-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "alhambra-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "bethlehem-pa": {
+    "uace": "01495",
+    "name": "Allentown--Bethlehem, PA--NJ Urban Area"
+  },
+  "flower-mound-tx": {
+    "uace": "23500",
+    "name": "Denton--Lewisville, TX Urban Area"
+  },
+  "upland-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "flint-mi": {
+    "uace": "29872",
+    "name": "Flint, MI Urban Area"
+  },
+  "lakeville-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "broomfield-co": {
+    "uace": "23527",
+    "name": "Denver--Aurora, CO Urban Area"
+  },
+  "cedar-park-tx": {
+    "uace": "04384",
+    "name": "Austin, TX Urban Area"
+  },
+  "plymouth-mn": {
+    "uace": "57628",
+    "name": "Minneapolis--St. Paul, MN Urban Area"
+  },
+  "missoula-mt": {
+    "uace": "57736",
+    "name": "Missoula, MT Urban Area"
+  },
+  "mableton-ga": {
+    "uace": "03817",
+    "name": "Atlanta, GA Urban Area"
+  },
+  "bloomington-il": {
+    "uace": "08407",
+    "name": "Bloomington--Normal, IL Urban Area"
+  },
+  "milpitas-ca": {
+    "uace": "79039",
+    "name": "San Jose, CA Urban Area"
+  },
+  "wyoming-mi": {
+    "uace": "34300",
+    "name": "Grand Rapids, MI Urban Area"
+  },
+  "parma-oh": {
+    "uace": "17668",
+    "name": "Cleveland, OH Urban Area"
+  },
+  "bowling-green-ky": {
+    "uace": "09379",
+    "name": "Bowling Green, KY Urban Area"
+  },
+  "maricopa-az": {
+    "uace": "54477",
+    "name": "Maricopa, AZ Urban Area"
+  },
+  "lakewood-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "bismarck-nd": {
+    "uace": "07921",
+    "name": "Bismarck, ND Urban Area"
+  },
+  "racine-wi": {
+    "uace": "73153",
+    "name": "Racine, WI Urban Area"
+  },
+  "tustin-ca": {
+    "uace": "51445",
+    "name": "Los Angeles--Long Beach--Anaheim, CA Urban Area"
+  },
+  "ankeny-ia": {
+    "uace": "23743",
+    "name": "Des Moines, IA Urban Area"
+  },
+  "san-marcos-tx": {
+    "uace": "79201",
+    "name": "San Marcos, TX Urban Area"
+  },
+  "marysville-wa": {
+    "uace": "55333",
+    "name": "Marysville, WA Urban Area"
+  },
+  "pittsburg-ca": {
+    "uace": "02683",
+    "name": "Antioch, CA Urban Area"
+  },
+  "rochester-hills-mi": {
+    "uace": "23824",
+    "name": "Detroit, MI Urban Area"
+  },
+  "chino-hills-ca": {
+    "uace": "75340",
+    "name": "Riverside--San Bernardino, CA Urban Area"
+  },
+  "missouri-city-tx": {
+    "uace": "40429",
+    "name": "Houston, TX Urban Area"
+  },
+  "flagstaff-az": {
+    "uace": "29818",
+    "name": "Flagstaff, AZ Urban Area"
+  },
+  "schaumburg-il": {
+    "uace": "16264",
+    "name": "Chicago, IL--IN Urban Area"
+  },
+  "pawtucket-ri": {
+    "uace": "72505",
+    "name": "Providence, RI--MA Urban Area"
+  },
+  "rogers-ar": {
+    "uace": "29494",
+    "name": "Fayetteville--Springdale--Rogers, AR--MO Urban Area"
+  },
+  "alameda-ca": {
+    "uace": "78904",
+    "name": "San Francisco--Oakland, CA Urban Area"
+  },
+  "rocklin-ca": {
+    "uace": "77068",
+    "name": "Sacramento, CA Urban Area"
+  },
+  "caldwell-id": {
+    "uace": "60976",
+    "name": "Nampa, ID Urban Area"
+  },
+  "carlsbad-nm": {
+    "uace": "13807",
+    "name": "Carlsbad, NM Urban Area"
+  },
+  "kalispell-mt": {
+    "uace": "43777",
+    "name": "Kalispell, MT Urban Area"
+  },
+  "durango-co": {
+    "uace": "25147",
+    "name": "Durango, CO Urban Area"
+  },
+  "los-alamos-nm": {
+    "uace": "51418",
+    "name": "Los Alamos, NM Urban Area"
+  },
+  "sandpoint-id": {
+    "uace": "78715",
+    "name": "Sandpoint, ID Urban Area"
+  },
+  "taos-nm": {
+    "uace": "86653",
+    "name": "Taos, NM Urban Area"
+  },
+  "grand-junction-co": {
+    "uace": "34273",
+    "name": "Grand Junction, CO Urban Area"
+  },
+  "norman-ok": {
+    "uace": "63433",
+    "name": "Norman, OK Urban Area"
+  },
+  "goodyear-az": {
+    "uace": "33960",
+    "name": "Goodyear South, AZ Urban Area"
+  },
+  "avondale-az": {
+    "uace": "69192",
+    "name": "Phoenix West--Goodyear--Avondale, AZ Urban Area"
+  }
+}

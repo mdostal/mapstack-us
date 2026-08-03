@@ -150,6 +150,21 @@ test("the eleventh dataset (traffic safety) is selectable and reports a real cou
   await expect(detail).toContainText("County Health Rankings");
 });
 
+test("the twelfth dataset (transit access) is selectable and reports a real ID-joined value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Transit access" }).click();
+  await page.getByRole("button", { name: "Transit service level", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Transit access: Transit service level" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Transit access: Transit service level" });
+  await expect(detail).toContainText("vehicle-revenue-miles");
+  await expect(detail).toContainText("National Transit Database");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

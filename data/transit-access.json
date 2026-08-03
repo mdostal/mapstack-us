@@ -1,0 +1,2887 @@
+{
+  "_meta": {
+    "source": "FTA National Transit Database, 2024 Annual Data -- Metrics (by Agency), via data.transportation.gov",
+    "source_url": "https://www.transit.dot.gov/ntd",
+    "resolution": "Census Urban Area"
+  },
+  "new-york-ny": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 1.7
+  },
+  "los-angeles-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 25.7
+  },
+  "chicago-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 11.5
+  },
+  "houston-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 52.2
+  },
+  "phoenix-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 49.7
+  },
+  "philadelphia-pa": {
+    "urban_area": "Philadelphia, PA--NJ--DE--MD",
+    "vrm_per_capita": 18.46,
+    "uza_population": 5696125,
+    "concern": 27.6
+  },
+  "san-antonio-tx": {
+    "urban_area": "San Antonio, TX",
+    "vrm_per_capita": 16.091,
+    "uza_population": 1992689,
+    "concern": 37.0
+  },
+  "san-diego-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 31.9
+  },
+  "dallas-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 47.6
+  },
+  "fort-worth-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 47.4
+  },
+  "jacksonville-fl": {
+    "urban_area": "Jacksonville, FL",
+    "vrm_per_capita": 9.017,
+    "uza_population": 1247374,
+    "concern": 71.8
+  },
+  "austin-tx": {
+    "urban_area": "Austin, TX",
+    "vrm_per_capita": 14.122,
+    "uza_population": 1809888,
+    "concern": 42.0
+  },
+  "san-jose-ca": {
+    "urban_area": "San Jose, CA",
+    "vrm_per_capita": 12.039,
+    "uza_population": 1837446,
+    "concern": 53.2
+  },
+  "charlotte-nc": {
+    "urban_area": "Charlotte, NC--SC",
+    "vrm_per_capita": 14.813,
+    "uza_population": 1379873,
+    "concern": 39.2
+  },
+  "columbus-oh": {
+    "urban_area": "Columbus, OH",
+    "vrm_per_capita": 10.877,
+    "uza_population": 1567254,
+    "concern": 58.2
+  },
+  "indianapolis-in": {
+    "urban_area": "Indianapolis, IN",
+    "vrm_per_capita": 6.933,
+    "uza_population": 1699881,
+    "concern": 80.8
+  },
+  "san-francisco-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 4.0
+  },
+  "seattle-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 9.4
+  },
+  "denver-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 30.1
+  },
+  "nashville-tn": {
+    "urban_area": "Nashville-Davidson, TN",
+    "vrm_per_capita": 10.087,
+    "uza_population": 1158642,
+    "concern": 62.0
+  },
+  "oklahoma-city-ok": {
+    "urban_area": "Oklahoma City, OK",
+    "vrm_per_capita": 4.539,
+    "uza_population": 982276,
+    "concern": 92.1
+  },
+  "washington-dc": {
+    "urban_area": "Washington--Arlington, DC--VA--MD",
+    "vrm_per_capita": 39.952,
+    "uza_population": 5174759,
+    "concern": 4.6
+  },
+  "el-paso-tx": {
+    "urban_area": "El Paso, TX--NM",
+    "vrm_per_capita": 16.446,
+    "uza_population": 854584,
+    "concern": 32.6
+  },
+  "las-vegas-nv": {
+    "urban_area": "Las Vegas--Henderson--Paradise, NV",
+    "vrm_per_capita": 13.162,
+    "uza_population": 2196623,
+    "concern": 43.6
+  },
+  "boston-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 15.9
+  },
+  "detroit-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 78.3
+  },
+  "louisville-ky": {
+    "urban_area": "Louisville/Jefferson County, KY--IN",
+    "vrm_per_capita": 11.797,
+    "uza_population": 974397,
+    "concern": 54.1
+  },
+  "portland-or": {
+    "urban_area": "Portland, OR--WA",
+    "vrm_per_capita": 20.305,
+    "uza_population": 2104238,
+    "concern": 18.4
+  },
+  "memphis-tn": {
+    "urban_area": "Memphis, TN--MS--AR",
+    "vrm_per_capita": 4.837,
+    "uza_population": 1056190,
+    "concern": 90.2
+  },
+  "baltimore-md": {
+    "urban_area": "Baltimore, MD",
+    "vrm_per_capita": 29.664,
+    "uza_population": 2212038,
+    "concern": 6.7
+  },
+  "milwaukee-wi": {
+    "urban_area": "Milwaukee, WI",
+    "vrm_per_capita": 16.653,
+    "uza_population": 1306795,
+    "concern": 32.2
+  },
+  "albuquerque-nm": {
+    "urban_area": "Albuquerque, NM",
+    "vrm_per_capita": 9.995,
+    "uza_population": 769837,
+    "concern": 63.9
+  },
+  "fresno-ca": {
+    "urban_area": "Fresno, CA",
+    "vrm_per_capita": 9.899,
+    "uza_population": 717589,
+    "concern": 66.0
+  },
+  "tucson-az": {
+    "urban_area": "Tucson, AZ",
+    "vrm_per_capita": 17.719,
+    "uza_population": 875441,
+    "concern": 30.3
+  },
+  "sacramento-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 57.8
+  },
+  "atlanta-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 45.3
+  },
+  "kansas-city-mo": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 63.3
+  },
+  "mesa-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 49.5
+  },
+  "raleigh-nc": {
+    "urban_area": "Raleigh, NC",
+    "vrm_per_capita": 11.521,
+    "uza_population": 1106646,
+    "concern": 55.1
+  },
+  "colorado-springs-co": {
+    "urban_area": "Colorado Springs, CO",
+    "vrm_per_capita": 7.772,
+    "uza_population": 632494,
+    "concern": 75.2
+  },
+  "miami-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 36.7
+  },
+  "omaha-ne": {
+    "urban_area": "Omaha, NE--IA",
+    "vrm_per_capita": 6.063,
+    "uza_population": 819508,
+    "concern": 85.4
+  },
+  "virginia-beach-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 65.3
+  },
+  "long-beach-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 25.5
+  },
+  "oakland-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 3.8
+  },
+  "minneapolis-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 17.3
+  },
+  "bakersfield-ca": {
+    "urban_area": "Bakersfield, CA",
+    "vrm_per_capita": 10.269,
+    "uza_population": 570235,
+    "concern": 61.0
+  },
+  "tulsa-ok": {
+    "urban_area": "Tulsa, OK",
+    "vrm_per_capita": 5.325,
+    "uza_population": 722810,
+    "concern": 88.3
+  },
+  "tampa-fl": {
+    "urban_area": "Tampa--St. Petersburg, FL",
+    "vrm_per_capita": 9.079,
+    "uza_population": 2783045,
+    "concern": 69.5
+  },
+  "aurora-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 29.9
+  },
+  "arlington-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 47.2
+  },
+  "wichita-ks": {
+    "urban_area": "Wichita, KS",
+    "vrm_per_capita": 5.173,
+    "uza_population": 500231,
+    "concern": 88.7
+  },
+  "cleveland-oh": {
+    "urban_area": "Cleveland, OH",
+    "vrm_per_capita": 15.159,
+    "uza_population": 1712178,
+    "concern": 38.4
+  },
+  "new-orleans-la": {
+    "urban_area": "New Orleans, LA",
+    "vrm_per_capita": 10.168,
+    "uza_population": 963212,
+    "concern": 61.6
+  },
+  "henderson-nv": {
+    "urban_area": "Las Vegas--Henderson--Paradise, NV",
+    "vrm_per_capita": 13.162,
+    "uza_population": 2196623,
+    "concern": 43.4
+  },
+  "honolulu-hi": {
+    "urban_area": "Honolulu, HI",
+    "vrm_per_capita": 33.389,
+    "uza_population": 853252,
+    "concern": 6.1
+  },
+  "anaheim-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 25.3
+  },
+  "orlando-fl": {
+    "urban_area": "Orlando, FL",
+    "vrm_per_capita": 14.58,
+    "uza_population": 1853896,
+    "concern": 39.7
+  },
+  "lexington-ky": {
+    "urban_area": "Lexington-Fayette, KY",
+    "vrm_per_capita": 9.32,
+    "uza_population": 315631,
+    "concern": 67.8
+  },
+  "stockton-ca": {
+    "urban_area": "Stockton, CA",
+    "vrm_per_capita": 33.47,
+    "uza_population": 414847,
+    "concern": 5.8
+  },
+  "newark-nj": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 1.5
+  },
+  "riverside-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 71.6
+  },
+  "irvine-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 25.1
+  },
+  "corpus-christi-tx": {
+    "urban_area": "Corpus Christi, TX",
+    "vrm_per_capita": 16.577,
+    "uza_population": 339066,
+    "concern": 32.4
+  },
+  "santa-ana-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 24.8
+  },
+  "cincinnati-oh": {
+    "urban_area": "Cincinnati, OH--KY",
+    "vrm_per_capita": 11.501,
+    "uza_population": 1686744,
+    "concern": 55.3
+  },
+  "greensboro-nc": {
+    "urban_area": "Greensboro, NC",
+    "vrm_per_capita": 20.904,
+    "uza_population": 338928,
+    "concern": 14.0
+  },
+  "pittsburgh-pa": {
+    "urban_area": "Pittsburgh, PA",
+    "vrm_per_capita": 19.172,
+    "uza_population": 1745039,
+    "concern": 26.3
+  },
+  "saint-paul-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 17.1
+  },
+  "durham-nc": {
+    "urban_area": "Durham, NC",
+    "vrm_per_capita": 23.829,
+    "uza_population": 396118,
+    "concern": 12.7
+  },
+  "jersey-city-nj": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 1.3
+  },
+  "lincoln-ne": {
+    "urban_area": "Lincoln, NE",
+    "vrm_per_capita": 8.225,
+    "uza_population": 291217,
+    "concern": 73.9
+  },
+  "north-las-vegas-nv": {
+    "urban_area": "Las Vegas--Henderson--Paradise, NV",
+    "vrm_per_capita": 13.162,
+    "uza_population": 2196623,
+    "concern": 43.2
+  },
+  "plano-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 47.0
+  },
+  "gilbert-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 49.3
+  },
+  "anchorage-ak": {
+    "urban_area": "Anchorage, AK",
+    "vrm_per_capita": 26.596,
+    "uza_population": 249252,
+    "concern": 9.8
+  },
+  "madison-wi": {
+    "urban_area": "Madison, WI",
+    "vrm_per_capita": 13.593,
+    "uza_population": 450305,
+    "concern": 43.0
+  },
+  "reno-nv": {
+    "urban_area": "Reno, NV--CA",
+    "vrm_per_capita": 21.62,
+    "uza_population": 446529,
+    "concern": 13.8
+  },
+  "chandler-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 49.1
+  },
+  "st-louis-mo": {
+    "urban_area": "St. Louis, MO--IL",
+    "vrm_per_capita": 15.787,
+    "uza_population": 2156323,
+    "concern": 37.4
+  },
+  "chula-vista-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 31.7
+  },
+  "fort-wayne-in": {
+    "urban_area": "Fort Wayne, IN",
+    "vrm_per_capita": 5.349,
+    "uza_population": 335934,
+    "concern": 87.9
+  },
+  "buffalo-ny": {
+    "urban_area": "Buffalo, NY",
+    "vrm_per_capita": 10.043,
+    "uza_population": 948864,
+    "concern": 63.5
+  },
+  "lubbock-tx": {
+    "urban_area": "Lubbock, TX",
+    "vrm_per_capita": 8.561,
+    "uza_population": 272280,
+    "concern": 72.9
+  },
+  "laredo-tx": {
+    "urban_area": "Laredo, TX",
+    "vrm_per_capita": 7.697,
+    "uza_population": 251462,
+    "concern": 75.4
+  },
+  "port-st-lucie-fl": {
+    "urban_area": "Port St. Lucie, FL",
+    "vrm_per_capita": 6.115,
+    "uza_population": 437745,
+    "concern": 84.8
+  },
+  "st-petersburg-fl": {
+    "urban_area": "Tampa--St. Petersburg, FL",
+    "vrm_per_capita": 9.079,
+    "uza_population": 2783045,
+    "concern": 69.3
+  },
+  "toledo-oh": {
+    "urban_area": "Toledo, OH--MI",
+    "vrm_per_capita": 8.656,
+    "uza_population": 497952,
+    "concern": 72.7
+  },
+  "glendale-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 48.9
+  },
+  "winston-salem-nc": {
+    "urban_area": "Winston-Salem, NC",
+    "vrm_per_capita": 6.797,
+    "uza_population": 420924,
+    "concern": 81.2
+  },
+  "irving-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 46.8
+  },
+  "chesapeake-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 65.1
+  },
+  "garland-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 46.6
+  },
+  "arlington-va": {
+    "urban_area": "Washington--Arlington, DC--VA--MD",
+    "vrm_per_capita": 39.952,
+    "uza_population": 5174759,
+    "concern": 4.4
+  },
+  "scottsdale-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 48.6
+  },
+  "boise-id": {
+    "urban_area": "Boise City, ID",
+    "vrm_per_capita": 3.39,
+    "uza_population": 433180,
+    "concern": 96.0
+  },
+  "richmond-va": {
+    "urban_area": "Richmond, VA",
+    "vrm_per_capita": 9.568,
+    "uza_population": 1059150,
+    "concern": 67.2
+  },
+  "frisco-tx": {
+    "urban_area": "McKinney--Frisco, TX",
+    "vrm_per_capita": 1.286,
+    "uza_population": 504803,
+    "concern": 98.7
+  },
+  "cape-coral-fl": {
+    "urban_area": "Cape Coral, FL",
+    "vrm_per_capita": 8.882,
+    "uza_population": 599242,
+    "concern": 72.2
+  },
+  "mckinney-tx": {
+    "urban_area": "McKinney--Frisco, TX",
+    "vrm_per_capita": 1.286,
+    "uza_population": 504803,
+    "concern": 98.5
+  },
+  "huntsville-al": {
+    "urban_area": "Huntsville, AL",
+    "vrm_per_capita": 3.908,
+    "uza_population": 329066,
+    "concern": 93.3
+  },
+  "norfolk-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 64.9
+  },
+  "hialeah-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 36.5
+  },
+  "spokane-wa": {
+    "urban_area": "Spokane, WA",
+    "vrm_per_capita": 23.984,
+    "uza_population": 447279,
+    "concern": 12.5
+  },
+  "tacoma-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 9.2
+  },
+  "santa-clarita-ca": {
+    "urban_area": "Santa Clarita, CA",
+    "vrm_per_capita": 9.805,
+    "uza_population": 278031,
+    "concern": 66.4
+  },
+  "fremont-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 3.5
+  },
+  "baton-rouge-la": {
+    "urban_area": "Baton Rouge, LA",
+    "vrm_per_capita": 5.109,
+    "uza_population": 631326,
+    "concern": 88.9
+  },
+  "san-bernardino-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 71.4
+  },
+  "fontana-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 71.2
+  },
+  "modesto-ca": {
+    "urban_area": "Modesto, CA",
+    "vrm_per_capita": 22.113,
+    "uza_population": 357301,
+    "concern": 13.4
+  },
+  "salt-lake-city-ut": {
+    "urban_area": "Salt Lake City, UT",
+    "vrm_per_capita": 35.187,
+    "uza_population": 1178533,
+    "concern": 5.6
+  },
+  "moreno-valley-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 71.0
+  },
+  "worcester-ma": {
+    "urban_area": "Worcester, MA--CT",
+    "vrm_per_capita": 7.082,
+    "uza_population": 482085,
+    "concern": 79.7
+  },
+  "sioux-falls-sd": {
+    "urban_area": "Sioux Falls, SD",
+    "vrm_per_capita": 5.742,
+    "uza_population": 194283,
+    "concern": 85.8
+  },
+  "yonkers-ny": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 1.0
+  },
+  "des-moines-ia": {
+    "urban_area": "Des Moines, IA",
+    "vrm_per_capita": 8.12,
+    "uza_population": 542486,
+    "concern": 74.5
+  },
+  "grand-prairie-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 46.3
+  },
+  "fayetteville-nc": {
+    "urban_area": "Fayetteville, NC",
+    "vrm_per_capita": 7.224,
+    "uza_population": 325008,
+    "concern": 79.1
+  },
+  "little-rock-ar": {
+    "urban_area": "Little Rock, AR",
+    "vrm_per_capita": 18.092,
+    "uza_population": 461864,
+    "concern": 28.4
+  },
+  "rochester-ny": {
+    "urban_area": "Rochester, NY",
+    "vrm_per_capita": 10.599,
+    "uza_population": 704327,
+    "concern": 60.1
+  },
+  "amarillo-tx": {
+    "urban_area": "Amarillo, TX",
+    "vrm_per_capita": 9.728,
+    "uza_population": 205860,
+    "concern": 66.6
+  },
+  "tallahassee-fl": {
+    "urban_area": "Tallahassee, FL",
+    "vrm_per_capita": 8.405,
+    "uza_population": 252934,
+    "concern": 73.3
+  },
+  "overland-park-ks": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 63.0
+  },
+  "columbus-ga": {
+    "urban_area": "Columbus, GA--AL",
+    "vrm_per_capita": 4.534,
+    "uza_population": 267746,
+    "concern": 92.3
+  },
+  "knoxville-tn": {
+    "urban_area": "Knoxville, TN",
+    "vrm_per_capita": 6.728,
+    "uza_population": 597257,
+    "concern": 81.8
+  },
+  "augusta-ga": {
+    "urban_area": "Augusta-Richmond County, GA--SC",
+    "vrm_per_capita": 2.685,
+    "uza_population": 431480,
+    "concern": 97.5
+  },
+  "grand-rapids-mi": {
+    "urban_area": "Grand Rapids, MI",
+    "vrm_per_capita": 10.853,
+    "uza_population": 605666,
+    "concern": 58.7
+  },
+  "peoria-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 48.4
+  },
+  "mobile-al": {
+    "urban_area": "Mobile, AL",
+    "vrm_per_capita": 5.053,
+    "uza_population": 321907,
+    "concern": 89.4
+  },
+  "vancouver-wa": {
+    "urban_area": "Portland, OR--WA",
+    "vrm_per_capita": 20.305,
+    "uza_population": 2104238,
+    "concern": 18.2
+  },
+  "oxnard-ca": {
+    "urban_area": "Oxnard--San Buenaventura (Ventura), CA",
+    "vrm_per_capita": 11.99,
+    "uza_population": 376117,
+    "concern": 53.7
+  },
+  "birmingham-al": {
+    "urban_area": "Birmingham, AL",
+    "vrm_per_capita": 4.898,
+    "uza_population": 774956,
+    "concern": 90.0
+  },
+  "providence-ri": {
+    "urban_area": "Providence, RI--MA",
+    "vrm_per_capita": 12.333,
+    "uza_population": 1285806,
+    "concern": 50.7
+  },
+  "montgomery-al": {
+    "urban_area": "Montgomery, AL",
+    "vrm_per_capita": 6.476,
+    "uza_population": 254348,
+    "concern": 82.5
+  },
+  "chattanooga-tn": {
+    "urban_area": "Chattanooga, TN--GA",
+    "vrm_per_capita": 6.934,
+    "uza_population": 398569,
+    "concern": 80.2
+  },
+  "brownsville-tx": {
+    "urban_area": "Brownsville, TX",
+    "vrm_per_capita": 4.836,
+    "uza_population": 216444,
+    "concern": 90.4
+  },
+  "huntington-beach-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 24.6
+  },
+  "tempe-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 48.2
+  },
+  "akron-oh": {
+    "urban_area": "Akron, OH",
+    "vrm_per_capita": 13.073,
+    "uza_population": 541879,
+    "concern": 43.8
+  },
+  "clarksville-tn": {
+    "urban_area": "Clarksville, TN--KY",
+    "vrm_per_capita": 7.22,
+    "uza_population": 200947,
+    "concern": 79.3
+  },
+  "fort-lauderdale-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 36.3
+  },
+  "glendale-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 24.4
+  },
+  "ontario-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 24.2
+  },
+  "elk-grove-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 57.6
+  },
+  "cary-nc": {
+    "urban_area": "Raleigh, NC",
+    "vrm_per_capita": 11.521,
+    "uza_population": 1106646,
+    "concern": 54.9
+  },
+  "newport-news-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 64.7
+  },
+  "salem-or": {
+    "urban_area": "Salem, OR",
+    "vrm_per_capita": 15.412,
+    "uza_population": 268331,
+    "concern": 37.8
+  },
+  "aurora-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 11.3
+  },
+  "santa-rosa-ca": {
+    "urban_area": "Santa Rosa, CA",
+    "vrm_per_capita": 13.036,
+    "uza_population": 297329,
+    "concern": 44.1
+  },
+  "eugene-or": {
+    "urban_area": "Eugene, OR",
+    "vrm_per_capita": 23.114,
+    "uza_population": 270179,
+    "concern": 12.9
+  },
+  "rancho-cucamonga-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 24.0
+  },
+  "pembroke-pines-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 36.1
+  },
+  "shreveport-la": {
+    "urban_area": "Shreveport, LA",
+    "vrm_per_capita": 10.179,
+    "uza_population": 288052,
+    "concern": 61.4
+  },
+  "surprise-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 48.0
+  },
+  "fort-collins-co": {
+    "urban_area": "Fort Collins, CO",
+    "vrm_per_capita": 7.674,
+    "uza_population": 326332,
+    "concern": 76.0
+  },
+  "murfreesboro-tn": {
+    "urban_area": "Murfreesboro, TN",
+    "vrm_per_capita": 11.235,
+    "uza_population": 177313,
+    "concern": 56.4
+  },
+  "oceanside-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 31.5
+  },
+  "garden-grove-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 23.8
+  },
+  "lancaster-ca": {
+    "urban_area": "Palmdale--Lancaster, CA",
+    "vrm_per_capita": 11.251,
+    "uza_population": 359559,
+    "concern": 56.2
+  },
+  "springfield-mo": {
+    "urban_area": "Springfield, MO",
+    "vrm_per_capita": 4.37,
+    "uza_population": 282651,
+    "concern": 92.7
+  },
+  "denton-tx": {
+    "urban_area": "Denton--Lewisville, TX",
+    "vrm_per_capita": 18.784,
+    "uza_population": 429461,
+    "concern": 27.1
+  },
+  "roseville-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 57.4
+  },
+  "killeen-tx": {
+    "urban_area": "Killeen, TX",
+    "vrm_per_capita": 5.042,
+    "uza_population": 257222,
+    "concern": 89.6
+  },
+  "palmdale-ca": {
+    "urban_area": "Palmdale--Lancaster, CA",
+    "vrm_per_capita": 11.251,
+    "uza_population": 359559,
+    "concern": 55.9
+  },
+  "paterson-nj": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 0.8
+  },
+  "corona-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 70.8
+  },
+  "alexandria-va": {
+    "urban_area": "Washington--Arlington, DC--VA--MD",
+    "vrm_per_capita": 39.952,
+    "uza_population": 5174759,
+    "concern": 4.2
+  },
+  "charleston-sc": {
+    "urban_area": "Charleston, SC",
+    "vrm_per_capita": 5.653,
+    "uza_population": 684773,
+    "concern": 86.8
+  },
+  "kansas-city-ks": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 62.8
+  },
+  "macon-ga": {
+    "urban_area": "Macon-Bibb County, GA",
+    "vrm_per_capita": 9.468,
+    "uza_population": 140111,
+    "concern": 67.6
+  },
+  "hayward-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 3.3
+  },
+  "hollywood-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 35.9
+  },
+  "lakewood-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 29.6
+  },
+  "sunnyvale-ca": {
+    "urban_area": "San Jose, CA",
+    "vrm_per_capita": 12.039,
+    "uza_population": 1837446,
+    "concern": 53.0
+  },
+  "springfield-ma": {
+    "urban_area": "Springfield, MA--CT",
+    "vrm_per_capita": 14.868,
+    "uza_population": 442145,
+    "concern": 39.0
+  },
+  "bellevue-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 9.0
+  },
+  "naperville-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 11.1
+  },
+  "bridgeport-ct": {
+    "urban_area": "Bridgeport--Stamford, CT--NY",
+    "vrm_per_capita": 6.338,
+    "uza_population": 916408,
+    "concern": 83.5
+  },
+  "joliet-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 10.9
+  },
+  "mesquite-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 46.1
+  },
+  "mcallen-tx": {
+    "urban_area": "McAllen, TX",
+    "vrm_per_capita": 4.691,
+    "uza_population": 779553,
+    "concern": 91.4
+  },
+  "olathe-ks": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 62.6
+  },
+  "savannah-ga": {
+    "urban_area": "Savannah, GA",
+    "vrm_per_capita": 7.613,
+    "uza_population": 309466,
+    "concern": 76.2
+  },
+  "gainesville-fl": {
+    "urban_area": "Gainesville, FL",
+    "vrm_per_capita": 16.386,
+    "uza_population": 213748,
+    "concern": 32.8
+  },
+  "pasadena-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 52.0
+  },
+  "palm-bay-fl": {
+    "urban_area": "Palm Bay--Melbourne, FL",
+    "vrm_per_capita": 6.732,
+    "uza_population": 510675,
+    "concern": 81.6
+  },
+  "pomona-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 23.6
+  },
+  "waco-tx": {
+    "urban_area": "Waco, TX",
+    "vrm_per_capita": 6.389,
+    "uza_population": 192844,
+    "concern": 82.7
+  },
+  "thornton-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 29.4
+  },
+  "rockford-il": {
+    "urban_area": "Rockford, IL",
+    "vrm_per_capita": 8.56,
+    "uza_population": 276443,
+    "concern": 73.1
+  },
+  "columbia-sc": {
+    "urban_area": "Columbia, SC",
+    "vrm_per_capita": 5.853,
+    "uza_population": 590407,
+    "concern": 85.6
+  },
+  "visalia-ca": {
+    "urban_area": "Visalia, CA",
+    "vrm_per_capita": 82.658,
+    "uza_population": 160578,
+    "concern": 0.0
+  },
+  "escondido-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 31.3
+  },
+  "syracuse-ny": {
+    "urban_area": "Syracuse, NY",
+    "vrm_per_capita": 14.124,
+    "uza_population": 413660,
+    "concern": 40.9
+  },
+  "meridian-id": {
+    "urban_area": "Boise City, ID",
+    "vrm_per_capita": 3.39,
+    "uza_population": 433180,
+    "concern": 95.8
+  },
+  "miramar-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 35.7
+  },
+  "elizabeth-nj": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 0.6
+  },
+  "victorville-ca": {
+    "urban_area": "Victorville--Hesperia--Apple Valley, CA",
+    "vrm_per_capita": 28.1,
+    "uza_population": 355816,
+    "concern": 7.3
+  },
+  "round-rock-tx": {
+    "urban_area": "Austin, TX",
+    "vrm_per_capita": 14.122,
+    "uza_population": 1809888,
+    "concern": 41.8
+  },
+  "jackson-ms": {
+    "urban_area": "Jackson, MS",
+    "vrm_per_capita": 2.592,
+    "uza_population": 347693,
+    "concern": 97.7
+  },
+  "stamford-ct": {
+    "urban_area": "Bridgeport--Stamford, CT--NY",
+    "vrm_per_capita": 6.338,
+    "uza_population": 916408,
+    "concern": 83.3
+  },
+  "lewisville-tx": {
+    "urban_area": "Denton--Lewisville, TX",
+    "vrm_per_capita": 18.784,
+    "uza_population": 429461,
+    "concern": 26.9
+  },
+  "coral-springs-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 35.5
+  },
+  "new-haven-ct": {
+    "urban_area": "New Haven, CT",
+    "vrm_per_capita": 10.933,
+    "uza_population": 561456,
+    "concern": 58.0
+  },
+  "fullerton-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 23.4
+  },
+  "torrance-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 23.2
+  },
+  "orange-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 23.0
+  },
+  "cedar-rapids-ia": {
+    "urban_area": "Cedar Rapids, IA",
+    "vrm_per_capita": 7.101,
+    "uza_population": 192844,
+    "concern": 79.5
+  },
+  "west-valley-city-ut": {
+    "urban_area": "Salt Lake City, UT",
+    "vrm_per_capita": 35.187,
+    "uza_population": 1178533,
+    "concern": 5.4
+  },
+  "hampton-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 64.5
+  },
+  "warren-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 78.1
+  },
+  "dayton-oh": {
+    "urban_area": "Dayton, OH",
+    "vrm_per_capita": 11.937,
+    "uza_population": 674046,
+    "concern": 53.9
+  },
+  "fargo-nd": {
+    "urban_area": "Fargo, ND--MN",
+    "vrm_per_capita": 9.499,
+    "uza_population": 216214,
+    "concern": 67.4
+  },
+  "pasadena-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 22.8
+  },
+  "kent-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 8.8
+  },
+  "carrollton-tx": {
+    "urban_area": "Denton--Lewisville, TX",
+    "vrm_per_capita": 18.784,
+    "uza_population": 429461,
+    "concern": 26.7
+  },
+  "sterling-heights-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 77.9
+  },
+  "santa-clara-ca": {
+    "urban_area": "San Jose, CA",
+    "vrm_per_capita": 12.039,
+    "uza_population": 1837446,
+    "concern": 52.8
+  },
+  "abilene-tx": {
+    "urban_area": "Abilene, TX",
+    "vrm_per_capita": 6.294,
+    "uza_population": 118138,
+    "concern": 83.7
+  },
+  "norman-ok": {
+    "urban_area": "Norman, OK",
+    "vrm_per_capita": 4.442,
+    "uza_population": 120191,
+    "concern": 92.5
+  },
+  "columbia-mo": {
+    "urban_area": "Columbia, MO",
+    "vrm_per_capita": 3.677,
+    "uza_population": 141831,
+    "concern": 94.6
+  },
+  "pearland-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 51.8
+  },
+  "clovis-ca": {
+    "urban_area": "Fresno, CA",
+    "vrm_per_capita": 9.899,
+    "uza_population": 717589,
+    "concern": 65.8
+  },
+  "north-charleston-sc": {
+    "urban_area": "Charleston, SC",
+    "vrm_per_capita": 5.653,
+    "uza_population": 684773,
+    "concern": 86.6
+  },
+  "athens-ga": {
+    "urban_area": "Athens-Clarke County, GA",
+    "vrm_per_capita": 9.589,
+    "uza_population": 143213,
+    "concern": 66.8
+  },
+  "college-station-tx": {
+    "urban_area": "College Station--Bryan, TX",
+    "vrm_per_capita": 10.793,
+    "uza_population": 206137,
+    "concern": 59.5
+  },
+  "west-palm-beach-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 35.3
+  },
+  "wilmington-nc": {
+    "urban_area": "Wilmington, NC",
+    "vrm_per_capita": 5.637,
+    "uza_population": 255329,
+    "concern": 87.1
+  },
+  "allentown-pa": {
+    "urban_area": "Allentown--Bethlehem, PA--NJ",
+    "vrm_per_capita": 9.177,
+    "uza_population": 621703,
+    "concern": 68.5
+  },
+  "topeka-ks": {
+    "urban_area": "Topeka, KS",
+    "vrm_per_capita": 6.855,
+    "uza_population": 148956,
+    "concern": 81.0
+  },
+  "lakeland-fl": {
+    "urban_area": "Lakeland, FL",
+    "vrm_per_capita": 9.875,
+    "uza_population": 277915,
+    "concern": 66.2
+  },
+  "buckeye-az": {
+    "urban_area": "Phoenix West--Goodyear--Avondale, AZ",
+    "vrm_per_capita": 0.932,
+    "uza_population": 419946,
+    "concern": 99.4
+  },
+  "broken-arrow-ok": {
+    "urban_area": "Tulsa, OK",
+    "vrm_per_capita": 5.325,
+    "uza_population": 722810,
+    "concern": 88.1
+  },
+  "simi-valley-ca": {
+    "urban_area": "Simi Valley, CA",
+    "vrm_per_capita": 4.227,
+    "uza_population": 127364,
+    "concern": 92.9
+  },
+  "rochester-mn": {
+    "urban_area": "Rochester, MN",
+    "vrm_per_capita": 15.74,
+    "uza_population": 121587,
+    "concern": 37.6
+  },
+  "lafayette-la": {
+    "urban_area": "Lafayette, LA",
+    "vrm_per_capita": 4.825,
+    "uza_population": 227316,
+    "concern": 90.6
+  },
+  "vallejo-ca": {
+    "urban_area": "Vallejo, CA",
+    "vrm_per_capita": 10.802,
+    "uza_population": 175132,
+    "concern": 59.1
+  },
+  "concord-ca": {
+    "urban_area": "Concord--Walnut Creek, CA",
+    "vrm_per_capita": 6.188,
+    "uza_population": 538583,
+    "concern": 84.6
+  },
+  "arvada-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 29.2
+  },
+  "odessa-tx": {
+    "urban_area": "Odessa, TX",
+    "vrm_per_capita": 6.367,
+    "uza_population": 154818,
+    "concern": 82.9
+  },
+  "cambridge-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 15.7
+  },
+  "new-braunfels-tx": {
+    "urban_area": "New Braunfels, TX",
+    "vrm_per_capita": 11.579,
+    "uza_population": 100736,
+    "concern": 54.5
+  },
+  "fairfield-ca": {
+    "urban_area": "Fairfield, CA",
+    "vrm_per_capita": 3.466,
+    "uza_population": 150122,
+    "concern": 95.6
+  },
+  "ann-arbor-mi": {
+    "urban_area": "Ann Arbor, MI",
+    "vrm_per_capita": 25.802,
+    "uza_population": 317689,
+    "concern": 11.7
+  },
+  "thousand-oaks-ca": {
+    "urban_area": "Thousand Oaks, CA",
+    "vrm_per_capita": 3.557,
+    "uza_population": 213986,
+    "concern": 95.4
+  },
+  "hartford-ct": {
+    "urban_area": "Hartford, CT",
+    "vrm_per_capita": 19.493,
+    "uza_population": 977158,
+    "concern": 26.1
+  },
+  "berkeley-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 3.1
+  },
+  "independence-mo": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 62.4
+  },
+  "billings-mt": {
+    "urban_area": "Billings, MT",
+    "vrm_per_capita": 7.568,
+    "uza_population": 128787,
+    "concern": 78.5
+  },
+  "high-point-nc": {
+    "urban_area": "High Point, NC",
+    "vrm_per_capita": 6.076,
+    "uza_population": 167830,
+    "concern": 85.2
+  },
+  "nampa-id": {
+    "urban_area": "Nampa, ID",
+    "vrm_per_capita": 3.143,
+    "uza_population": 177561,
+    "concern": 96.7
+  },
+  "lowell-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 15.4
+  },
+  "league-city-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 51.6
+  },
+  "conroe-tx": {
+    "urban_area": "The Woodlands--Conroe, TX",
+    "vrm_per_capita": 2.313,
+    "uza_population": 402454,
+    "concern": 97.9
+  },
+  "antioch-ca": {
+    "urban_area": "Antioch, CA",
+    "vrm_per_capita": 10.337,
+    "uza_population": 326205,
+    "concern": 60.8
+  },
+  "richardson-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 45.9
+  },
+  "pompano-beach-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 35.1
+  },
+  "las-cruces-nm": {
+    "urban_area": "Las Cruces, NM",
+    "vrm_per_capita": 28.143,
+    "uza_population": 139338,
+    "concern": 6.9
+  },
+  "manchester-nh": {
+    "urban_area": "Manchester, NH",
+    "vrm_per_capita": 5.632,
+    "uza_population": 163289,
+    "concern": 87.3
+  },
+  "west-jordan-ut": {
+    "urban_area": "Salt Lake City, UT",
+    "vrm_per_capita": 35.187,
+    "uza_population": 1178533,
+    "concern": 5.2
+  },
+  "westminster-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 29.0
+  },
+  "evansville-in": {
+    "urban_area": "Evansville, IN",
+    "vrm_per_capita": 5.678,
+    "uza_population": 206855,
+    "concern": 86.0
+  },
+  "waterbury-ct": {
+    "urban_area": "Waterbury, CT",
+    "vrm_per_capita": 9.125,
+    "uza_population": 199317,
+    "concern": 68.7
+  },
+  "elgin-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 10.6
+  },
+  "greeley-co": {
+    "urban_area": "Greeley, CO",
+    "vrm_per_capita": 5.366,
+    "uza_population": 137222,
+    "concern": 87.7
+  },
+  "richmond-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 2.9
+  },
+  "concord-nc": {
+    "urban_area": "Concord, NC",
+    "vrm_per_capita": 7.313,
+    "uza_population": 278612,
+    "concern": 78.7
+  },
+  "rio-rancho-nm": {
+    "urban_area": "Albuquerque, NM",
+    "vrm_per_capita": 9.995,
+    "uza_population": 769837,
+    "concern": 63.7
+  },
+  "clearwater-fl": {
+    "urban_area": "Tampa--St. Petersburg, FL",
+    "vrm_per_capita": 9.079,
+    "uza_population": 2783045,
+    "concern": 69.1
+  },
+  "tuscaloosa-al": {
+    "urban_area": "Tuscaloosa, AL",
+    "vrm_per_capita": 2.723,
+    "uza_population": 156450,
+    "concern": 97.3
+  },
+  "lansing-mi": {
+    "urban_area": "Lansing, MI",
+    "vrm_per_capita": 19.525,
+    "uza_population": 318300,
+    "concern": 25.9
+  },
+  "tyler-tx": {
+    "urban_area": "Tyler, TX",
+    "vrm_per_capita": 4.68,
+    "uza_population": 131028,
+    "concern": 91.6
+  },
+  "miami-gardens-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 34.9
+  },
+  "everett-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 8.6
+  },
+  "allen-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 45.7
+  },
+  "springfield-il": {
+    "urban_area": "Springfield, IL",
+    "vrm_per_capita": 14.532,
+    "uza_population": 159265,
+    "concern": 40.1
+  },
+  "beaumont-tx": {
+    "urban_area": "Beaumont, TX",
+    "vrm_per_capita": 5.485,
+    "uza_population": 146649,
+    "concern": 87.5
+  },
+  "south-fulton-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 45.1
+  },
+  "carlsbad-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 31.1
+  },
+  "sparks-nv": {
+    "urban_area": "Reno, NV--CA",
+    "vrm_per_capita": 21.62,
+    "uza_population": 446529,
+    "concern": 13.6
+  },
+  "gresham-or": {
+    "urban_area": "Portland, OR--WA",
+    "vrm_per_capita": 20.305,
+    "uza_population": 2104238,
+    "concern": 18.0
+  },
+  "santa-maria-ca": {
+    "urban_area": "Santa Maria, CA",
+    "vrm_per_capita": 6.594,
+    "uza_population": 143609,
+    "concern": 82.3
+  },
+  "hillsboro-or": {
+    "urban_area": "Portland, OR--WA",
+    "vrm_per_capita": 20.305,
+    "uza_population": 2104238,
+    "concern": 17.7
+  },
+  "peoria-il": {
+    "urban_area": "Peoria, IL",
+    "vrm_per_capita": 11.275,
+    "uza_population": 259781,
+    "concern": 55.7
+  },
+  "davie-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 34.7
+  },
+  "edinburg-tx": {
+    "urban_area": "McAllen, TX",
+    "vrm_per_capita": 4.691,
+    "uza_population": 779553,
+    "concern": 91.2
+  },
+  "pueblo-co": {
+    "urban_area": "Pueblo, CO",
+    "vrm_per_capita": 10.505,
+    "uza_population": 120642,
+    "concern": 60.3
+  },
+  "ventura-ca": {
+    "urban_area": "Oxnard--San Buenaventura (Ventura), CA",
+    "vrm_per_capita": 11.99,
+    "uza_population": 376117,
+    "concern": 53.4
+  },
+  "palm-coast-fl": {
+    "urban_area": "Daytona Beach--Palm Coast--Port Orange, FL",
+    "vrm_per_capita": 14.073,
+    "uza_population": 402126,
+    "concern": 42.4
+  },
+  "costa-mesa-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 22.5
+  },
+  "st-george-ut": {
+    "urban_area": "St. George, UT",
+    "vrm_per_capita": 3.286,
+    "uza_population": 134109,
+    "concern": 96.2
+  },
+  "centennial-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 28.8
+  },
+  "downey-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 22.3
+  },
+  "spokane-valley-wa": {
+    "urban_area": "Spokane, WA",
+    "vrm_per_capita": 23.984,
+    "uza_population": 447279,
+    "concern": 12.3
+  },
+  "sugar-land-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 51.4
+  },
+  "lees-summit-mo": {
+    "urban_area": "Kansas City, MO--KS",
+    "vrm_per_capita": 10.058,
+    "uza_population": 1674218,
+    "concern": 62.2
+  },
+  "bend-or": {
+    "urban_area": "Bend, OR",
+    "vrm_per_capita": 14.936,
+    "uza_population": 106988,
+    "concern": 38.8
+  },
+  "jurupa-valley-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 70.6
+  },
+  "georgetown-tx": {
+    "urban_area": "Austin, TX",
+    "vrm_per_capita": 14.122,
+    "uza_population": 1809888,
+    "concern": 41.5
+  },
+  "green-bay-wi": {
+    "urban_area": "Green Bay, WI",
+    "vrm_per_capita": 5.087,
+    "uza_population": 224156,
+    "concern": 89.1
+  },
+  "fayetteville-ar": {
+    "urban_area": "Fayetteville--Springdale--Rogers, AR--MO",
+    "vrm_per_capita": 3.863,
+    "uza_population": 373687,
+    "concern": 93.9
+  },
+  "rialto-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 70.4
+  },
+  "brockton-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 15.2
+  },
+  "boulder-co": {
+    "urban_area": "Boulder, CO",
+    "vrm_per_capita": 6.635,
+    "uza_population": 120828,
+    "concern": 82.0
+  },
+  "carmel-in": {
+    "urban_area": "Indianapolis, IN",
+    "vrm_per_capita": 6.933,
+    "uza_population": 1699881,
+    "concern": 80.6
+  },
+  "dearborn-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 77.7
+  },
+  "west-covina-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 22.1
+  },
+  "yuma-az": {
+    "urban_area": "Yuma, AZ--CA",
+    "vrm_per_capita": 9.586,
+    "uza_population": 135717,
+    "concern": 67.0
+  },
+  "chico-ca": {
+    "urban_area": "Chico, CA",
+    "vrm_per_capita": 10.809,
+    "uza_population": 111411,
+    "concern": 58.9
+  },
+  "el-monte-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 21.9
+  },
+  "sandy-springs-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 44.9
+  },
+  "renton-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 8.4
+  },
+  "fishers-in": {
+    "urban_area": "Indianapolis, IN",
+    "vrm_per_capita": 6.933,
+    "uza_population": 1699881,
+    "concern": 80.4
+  },
+  "lynn-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 15.0
+  },
+  "vacaville-ca": {
+    "urban_area": "Vacaville, CA",
+    "vrm_per_capita": 3.559,
+    "uza_population": 101027,
+    "concern": 95.2
+  },
+  "san-mateo-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 2.7
+  },
+  "south-bend-in": {
+    "urban_area": "South Bend, IN--MI",
+    "vrm_per_capita": 6.263,
+    "uza_population": 278921,
+    "concern": 83.9
+  },
+  "quincy-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 14.8
+  },
+  "burbank-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 21.7
+  },
+  "hesperia-ca": {
+    "urban_area": "Victorville--Hesperia--Apple Valley, CA",
+    "vrm_per_capita": 28.1,
+    "uza_population": 355816,
+    "concern": 7.1
+  },
+  "wichita-falls-tx": {
+    "urban_area": "Wichita Falls, TX",
+    "vrm_per_capita": 7.961,
+    "uza_population": 97039,
+    "concern": 74.9
+  },
+  "tracy-ca": {
+    "urban_area": "Tracy--Mountain House, CA",
+    "vrm_per_capita": 3.673,
+    "uza_population": 120912,
+    "concern": 94.8
+  },
+  "new-bedford-ma": {
+    "urban_area": "New Bedford, MA",
+    "vrm_per_capita": 15.314,
+    "uza_population": 155491,
+    "concern": 38.0
+  },
+  "el-cajon-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 30.9
+  },
+  "albany-ny": {
+    "urban_area": "Albany--Schenectady, NY",
+    "vrm_per_capita": 23.021,
+    "uza_population": 593142,
+    "concern": 13.2
+  },
+  "inglewood-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 21.5
+  },
+  "boca-raton-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 34.4
+  },
+  "fort-myers-fl": {
+    "urban_area": "Cape Coral, FL",
+    "vrm_per_capita": 8.882,
+    "uza_population": 599242,
+    "concern": 72.0
+  },
+  "daly-city-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 2.5
+  },
+  "avondale-az": {
+    "urban_area": "Phoenix West--Goodyear--Avondale, AZ",
+    "vrm_per_capita": 0.932,
+    "uza_population": 419946,
+    "concern": 99.2
+  },
+  "san-angelo-tx": {
+    "urban_area": "San Angelo, TX",
+    "vrm_per_capita": 11.351,
+    "uza_population": 99982,
+    "concern": 55.5
+  },
+  "edmond-ok": {
+    "urban_area": "Oklahoma City, OK",
+    "vrm_per_capita": 4.539,
+    "uza_population": 982276,
+    "concern": 91.9
+  },
+  "davenport-ia": {
+    "urban_area": "Davenport, IA--IL",
+    "vrm_per_capita": 14.652,
+    "uza_population": 285211,
+    "concern": 39.5
+  },
+  "federal-way-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 8.1
+  },
+  "merced-ca": {
+    "urban_area": "Merced, CA",
+    "vrm_per_capita": 14.241,
+    "uza_population": 150052,
+    "concern": 40.5
+  },
+  "kenosha-wi": {
+    "urban_area": "Kenosha, WI",
+    "vrm_per_capita": 8.326,
+    "uza_population": 125865,
+    "concern": 73.5
+  },
+  "plantation-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 34.2
+  },
+  "roanoke-va": {
+    "urban_area": "Roanoke, VA",
+    "vrm_per_capita": 10.612,
+    "uza_population": 217312,
+    "concern": 59.9
+  },
+  "sunrise-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 34.0
+  },
+  "vista-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 30.7
+  },
+  "beaverton-or": {
+    "urban_area": "Portland, OR--WA",
+    "vrm_per_capita": 20.305,
+    "uza_population": 2104238,
+    "concern": 17.5
+  },
+  "yakima-wa": {
+    "urban_area": "Yakima, WA",
+    "vrm_per_capita": 11.621,
+    "uza_population": 133145,
+    "concern": 54.3
+  },
+  "kirkland-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 7.9
+  },
+  "norwalk-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 21.3
+  },
+  "chino-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 70.1
+  },
+  "portsmouth-va": {
+    "urban_area": "Virginia Beach--Norfolk, VA",
+    "vrm_per_capita": 9.947,
+    "uza_population": 1451578,
+    "concern": 64.3
+  },
+  "manteca-ca": {
+    "urban_area": "Manteca, CA",
+    "vrm_per_capita": 2.74,
+    "uza_population": 86674,
+    "concern": 97.1
+  },
+  "north-port-fl": {
+    "urban_area": "Port Charlotte--North Port, FL",
+    "vrm_per_capita": 2.747,
+    "uza_population": 199998,
+    "concern": 96.9
+  },
+  "greenville-nc": {
+    "urban_area": "Greenville, NC",
+    "vrm_per_capita": 7.68,
+    "uza_population": 120150,
+    "concern": 75.6
+  },
+  "bellingham-wa": {
+    "urban_area": "Bellingham, WA",
+    "vrm_per_capita": 25.304,
+    "uza_population": 128979,
+    "concern": 12.1
+  },
+  "lawrence-ks": {
+    "urban_area": "Lawrence, KS",
+    "vrm_per_capita": 18.403,
+    "uza_population": 94998,
+    "concern": 27.8
+  },
+  "ofallon-mo": {
+    "urban_area": "St. Louis, MO--IL",
+    "vrm_per_capita": 15.787,
+    "uza_population": 2156323,
+    "concern": 37.2
+  },
+  "mount-pleasant-sc": {
+    "urban_area": "Charleston, SC",
+    "vrm_per_capita": 5.653,
+    "uza_population": 684773,
+    "concern": 86.4
+  },
+  "fall-river-ma": {
+    "urban_area": "Providence, RI--MA",
+    "vrm_per_capita": 12.333,
+    "uza_population": 1285806,
+    "concern": 50.5
+  },
+  "san-marcos-ca": {
+    "urban_area": "San Diego, CA",
+    "vrm_per_capita": 17.333,
+    "uza_population": 3070300,
+    "concern": 30.5
+  },
+  "norwalk-ct": {
+    "urban_area": "Bridgeport--Stamford, CT--NY",
+    "vrm_per_capita": 6.338,
+    "uza_population": 916408,
+    "concern": 83.1
+  },
+  "indio-ca": {
+    "urban_area": "Indio--Palm Desert--Palm Springs, CA",
+    "vrm_per_capita": 10.727,
+    "uza_population": 361075,
+    "concern": 59.7
+  },
+  "redding-ca": {
+    "urban_area": "Redding, CA",
+    "vrm_per_capita": 7.604,
+    "uza_population": 120602,
+    "concern": 76.4
+  },
+  "hoover-al": {
+    "urban_area": "Birmingham, AL",
+    "vrm_per_capita": 4.898,
+    "uza_population": 774956,
+    "concern": 89.8
+  },
+  "asheville-nc": {
+    "urban_area": "Asheville, NC",
+    "vrm_per_capita": 8.291,
+    "uza_population": 285776,
+    "concern": 73.7
+  },
+  "livonia-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 77.5
+  },
+  "nashua-nh": {
+    "urban_area": "Nashua, NH--MA",
+    "vrm_per_capita": 2.241,
+    "uza_population": 242984,
+    "concern": 98.1
+  },
+  "sandy-ut": {
+    "urban_area": "Salt Lake City, UT",
+    "vrm_per_capita": 35.187,
+    "uza_population": 1178533,
+    "concern": 5.0
+  },
+  "frederick-md": {
+    "urban_area": "Frederick, MD",
+    "vrm_per_capita": 9.944,
+    "uza_population": 176456,
+    "concern": 65.6
+  },
+  "bryan-tx": {
+    "urban_area": "College Station--Bryan, TX",
+    "vrm_per_capita": 10.793,
+    "uza_population": 206137,
+    "concern": 59.3
+  },
+  "folsom-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 57.2
+  },
+  "erie-pa": {
+    "urban_area": "Erie, PA",
+    "vrm_per_capita": 13.693,
+    "uza_population": 187820,
+    "concern": 42.8
+  },
+  "trenton-nj": {
+    "urban_area": "Philadelphia, PA--NJ--DE--MD",
+    "vrm_per_capita": 18.46,
+    "uza_population": 5696125,
+    "concern": 27.3
+  },
+  "roswell-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 44.7
+  },
+  "champaign-il": {
+    "urban_area": "Champaign, IL",
+    "vrm_per_capita": 26.764,
+    "uza_population": 147452,
+    "concern": 9.6
+  },
+  "leander-tx": {
+    "urban_area": "Austin, TX",
+    "vrm_per_capita": 14.122,
+    "uza_population": 1809888,
+    "concern": 41.3
+  },
+  "clifton-nj": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 0.4
+  },
+  "fort-smith-ar": {
+    "urban_area": "Fort Smith, AR--OK",
+    "vrm_per_capita": 3.716,
+    "uza_population": 125811,
+    "concern": 94.2
+  },
+  "carson-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 21.1
+  },
+  "newton-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 14.6
+  },
+  "springdale-ar": {
+    "urban_area": "Fayetteville--Springdale--Rogers, AR--MO",
+    "vrm_per_capita": 3.863,
+    "uza_population": 373687,
+    "concern": 93.7
+  },
+  "lawton-ok": {
+    "urban_area": "Lawton, OK",
+    "vrm_per_capita": 6.086,
+    "uza_population": 87464,
+    "concern": 85.0
+  },
+  "compton-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 20.9
+  },
+  "mission-viejo-ca": {
+    "urban_area": "Mission Viejo--Lake Forest--Laguna Niguel, CA",
+    "vrm_per_capita": 0.728,
+    "uza_population": 646843,
+    "concern": 100.0
+  },
+  "franklin-tn": {
+    "urban_area": "Nashville-Davidson, TN",
+    "vrm_per_capita": 10.087,
+    "uza_population": 1158642,
+    "concern": 61.8
+  },
+  "santa-monica-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 20.7
+  },
+  "south-gate-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 20.5
+  },
+  "santa-fe-nm": {
+    "urban_area": "Santa Fe, NM",
+    "vrm_per_capita": 18.333,
+    "uza_population": 94241,
+    "concern": 28.0
+  },
+  "queen-creek-az": {
+    "urban_area": "Phoenix--Mesa--Scottsdale, AZ",
+    "vrm_per_capita": 12.466,
+    "uza_population": 3976313,
+    "concern": 47.8
+  },
+  "deerfield-beach-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 33.8
+  },
+  "lawrence-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 14.4
+  },
+  "bloomington-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 16.9
+  },
+  "danbury-ct": {
+    "urban_area": "Danbury, CT--NY",
+    "vrm_per_capita": 8.022,
+    "uza_population": 171680,
+    "concern": 74.7
+  },
+  "mission-tx": {
+    "urban_area": "McAllen, TX",
+    "vrm_per_capita": 4.691,
+    "uza_population": 779553,
+    "concern": 91.0
+  },
+  "westminster-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 20.3
+  },
+  "troy-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 77.2
+  },
+  "daytona-beach-fl": {
+    "urban_area": "Daytona Beach--Palm Coast--Port Orange, FL",
+    "vrm_per_capita": 14.073,
+    "uza_population": 402126,
+    "concern": 42.2
+  },
+  "kennewick-wa": {
+    "urban_area": "Kennewick--Richland--Pasco, WA",
+    "vrm_per_capita": 32.86,
+    "uza_population": 255401,
+    "concern": 6.5
+  },
+  "duluth-mn": {
+    "urban_area": "Duluth, MN--WI",
+    "vrm_per_capita": 18.117,
+    "uza_population": 119411,
+    "concern": 28.2
+  },
+  "waukegan-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 10.4
+  },
+  "south-jordan-ut": {
+    "urban_area": "Salt Lake City, UT",
+    "vrm_per_capita": 35.187,
+    "uza_population": 1178533,
+    "concern": 4.8
+  },
+  "rancho-cordova-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 57.0
+  },
+  "melbourne-fl": {
+    "urban_area": "Palm Bay--Melbourne, FL",
+    "vrm_per_capita": 6.732,
+    "uza_population": 510675,
+    "concern": 81.4
+  },
+  "gastonia-nc": {
+    "urban_area": "Gastonia, NC",
+    "vrm_per_capita": 3.681,
+    "uza_population": 176897,
+    "concern": 94.4
+  },
+  "baytown-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 51.1
+  },
+  "medford-or": {
+    "urban_area": "Medford, OR",
+    "vrm_per_capita": 9.96,
+    "uza_population": 171640,
+    "concern": 64.1
+  },
+  "santa-barbara-ca": {
+    "urban_area": "Santa Barbara, CA",
+    "vrm_per_capita": 14.207,
+    "uza_population": 202197,
+    "concern": 40.7
+  },
+  "sioux-city-ia": {
+    "urban_area": "Sioux City, IA--NE--SD",
+    "vrm_per_capita": 7.23,
+    "uza_population": 113066,
+    "concern": 78.9
+  },
+  "citrus-heights-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 56.8
+  },
+  "lake-forest-ca": {
+    "urban_area": "Mission Viejo--Lake Forest--Laguna Niguel, CA",
+    "vrm_per_capita": 0.728,
+    "uza_population": 646843,
+    "concern": 99.8
+  },
+  "auburn-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 7.7
+  },
+  "homestead-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 33.6
+  },
+  "san-ramon-ca": {
+    "urban_area": "Concord--Walnut Creek, CA",
+    "vrm_per_capita": 6.188,
+    "uza_population": 538583,
+    "concern": 84.3
+  },
+  "new-rochelle-ny": {
+    "urban_area": "New York--Jersey City--Newark, NY--NJ",
+    "vrm_per_capita": 45.052,
+    "uza_population": 19426449,
+    "concern": 0.2
+  },
+  "whittier-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 20.0
+  },
+  "mountain-view-ca": {
+    "urban_area": "San Jose, CA",
+    "vrm_per_capita": 12.039,
+    "uza_population": 1837446,
+    "concern": 52.6
+  },
+  "san-leandro-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 2.3
+  },
+  "auburn-al": {
+    "urban_area": "Auburn, AL",
+    "vrm_per_capita": 5.192,
+    "uza_population": 100842,
+    "concern": 88.5
+  },
+  "cranston-ri": {
+    "urban_area": "Providence, RI--MA",
+    "vrm_per_capita": 12.333,
+    "uza_population": 1285806,
+    "concern": 50.3
+  },
+  "mansfield-tx": {
+    "urban_area": "Dallas--Fort Worth--Arlington, TX",
+    "vrm_per_capita": 12.612,
+    "uza_population": 5732354,
+    "concern": 45.5
+  },
+  "somerville-ma": {
+    "urban_area": "Boston, MA--NH",
+    "vrm_per_capita": 20.57,
+    "uza_population": 4382009,
+    "concern": 14.2
+  },
+  "warwick-ri": {
+    "urban_area": "Providence, RI--MA",
+    "vrm_per_capita": 12.333,
+    "uza_population": 1285806,
+    "concern": 50.1
+  },
+  "brooklyn-park-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 16.7
+  },
+  "livermore-ca": {
+    "urban_area": "Livermore--Pleasanton--Dublin, CA",
+    "vrm_per_capita": 6.21,
+    "uza_population": 240381,
+    "concern": 84.1
+  },
+  "bloomington-in": {
+    "urban_area": "Bloomington, IN",
+    "vrm_per_capita": 10.254,
+    "uza_population": 110103,
+    "concern": 61.2
+  },
+  "jonesboro-ar": {
+    "urban_area": "Jonesboro, AR",
+    "vrm_per_capita": 4.063,
+    "uza_population": 73781,
+    "concern": 93.1
+  },
+  "farmington-hills-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 77.0
+  },
+  "perris-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 69.9
+  },
+  "longview-tx": {
+    "urban_area": "Longview, TX",
+    "vrm_per_capita": 3.561,
+    "uza_population": 107099,
+    "concern": 95.0
+  },
+  "pasco-wa": {
+    "urban_area": "Kennewick--Richland--Pasco, WA",
+    "vrm_per_capita": 32.86,
+    "uza_population": 255401,
+    "concern": 6.3
+  },
+  "hawthorne-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 19.8
+  },
+  "lake-charles-la": {
+    "urban_area": "Lake Charles, LA",
+    "vrm_per_capita": 0.987,
+    "uza_population": 162501,
+    "concern": 99.0
+  },
+  "redmond-wa": {
+    "urban_area": "Seattle--Tacoma, WA",
+    "vrm_per_capita": 27.767,
+    "uza_population": 3544011,
+    "concern": 7.5
+  },
+  "boynton-beach-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 33.4
+  },
+  "westland-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 76.8
+  },
+  "redwood-city-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 2.1
+  },
+  "newport-beach-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 19.6
+  },
+  "cicero-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 10.2
+  },
+  "buena-park-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 19.4
+  },
+  "doral-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 33.2
+  },
+  "miami-beach-fl": {
+    "urban_area": "Miami--Fort Lauderdale, FL",
+    "vrm_per_capita": 16.224,
+    "uza_population": 6077522,
+    "concern": 33.0
+  },
+  "woodbury-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 16.5
+  },
+  "loveland-co": {
+    "urban_area": "Fort Collins, CO",
+    "vrm_per_capita": 7.674,
+    "uza_population": 326332,
+    "concern": 75.8
+  },
+  "lynchburg-va": {
+    "urban_area": "Lynchburg, VA",
+    "vrm_per_capita": 9.223,
+    "uza_population": 125596,
+    "concern": 68.1
+  },
+  "pharr-tx": {
+    "urban_area": "McAllen, TX",
+    "vrm_per_capita": 4.691,
+    "uza_population": 779553,
+    "concern": 90.8
+  },
+  "largo-fl": {
+    "urban_area": "Tampa--St. Petersburg, FL",
+    "vrm_per_capita": 9.079,
+    "uza_population": 2783045,
+    "concern": 68.9
+  },
+  "rapid-city-sd": {
+    "urban_area": "Rapid City, SD",
+    "vrm_per_capita": 5.655,
+    "uza_population": 85679,
+    "concern": 86.2
+  },
+  "apex-nc": {
+    "urban_area": "Raleigh, NC",
+    "vrm_per_capita": 11.521,
+    "uza_population": 1106646,
+    "concern": 54.7
+  },
+  "johns-creek-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 44.5
+  },
+  "alhambra-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 19.2
+  },
+  "bethlehem-pa": {
+    "urban_area": "Allentown--Bethlehem, PA--NJ",
+    "vrm_per_capita": 9.177,
+    "uza_population": 621703,
+    "concern": 68.3
+  },
+  "flower-mound-tx": {
+    "urban_area": "Denton--Lewisville, TX",
+    "vrm_per_capita": 18.784,
+    "uza_population": 429461,
+    "concern": 26.5
+  },
+  "upland-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 19.0
+  },
+  "flint-mi": {
+    "urban_area": "Flint, MI",
+    "vrm_per_capita": 25.715,
+    "uza_population": 298964,
+    "concern": 11.9
+  },
+  "lakeville-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 16.3
+  },
+  "broomfield-co": {
+    "urban_area": "Denver--Aurora, CO",
+    "vrm_per_capita": 17.796,
+    "uza_population": 2686147,
+    "concern": 28.6
+  },
+  "cedar-park-tx": {
+    "urban_area": "Austin, TX",
+    "vrm_per_capita": 14.122,
+    "uza_population": 1809888,
+    "concern": 41.1
+  },
+  "plymouth-mn": {
+    "urban_area": "Minneapolis--St. Paul, MN",
+    "vrm_per_capita": 20.376,
+    "uza_population": 2914866,
+    "concern": 16.1
+  },
+  "missoula-mt": {
+    "urban_area": "Missoula, MT",
+    "vrm_per_capita": 15.062,
+    "uza_population": 88109,
+    "concern": 38.6
+  },
+  "mableton-ga": {
+    "urban_area": "Atlanta, GA",
+    "vrm_per_capita": 12.757,
+    "uza_population": 5100112,
+    "concern": 44.3
+  },
+  "bloomington-il": {
+    "urban_area": "Bloomington--Normal, IL",
+    "vrm_per_capita": 14.476,
+    "uza_population": 134100,
+    "concern": 40.3
+  },
+  "milpitas-ca": {
+    "urban_area": "San Jose, CA",
+    "vrm_per_capita": 12.039,
+    "uza_population": 1837446,
+    "concern": 52.4
+  },
+  "wyoming-mi": {
+    "urban_area": "Grand Rapids, MI",
+    "vrm_per_capita": 10.853,
+    "uza_population": 605666,
+    "concern": 58.5
+  },
+  "parma-oh": {
+    "urban_area": "Cleveland, OH",
+    "vrm_per_capita": 15.159,
+    "uza_population": 1712178,
+    "concern": 38.2
+  },
+  "bowling-green-ky": {
+    "urban_area": "Bowling Green, KY",
+    "vrm_per_capita": 2.082,
+    "uza_population": 97814,
+    "concern": 98.3
+  },
+  "maricopa-az": {
+    "urban_area": "Maricopa, AZ",
+    "vrm_per_capita": 0.91,
+    "uza_population": 57771,
+    "concern": 99.6
+  },
+  "lakewood-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 18.8
+  },
+  "bismarck-nd": {
+    "urban_area": "Bismarck, ND",
+    "vrm_per_capita": 8.202,
+    "uza_population": 98198,
+    "concern": 74.1
+  },
+  "racine-wi": {
+    "urban_area": "Racine, WI",
+    "vrm_per_capita": 8.824,
+    "uza_population": 134877,
+    "concern": 72.4
+  },
+  "tustin-ca": {
+    "urban_area": "Los Angeles--Long Beach--Anaheim, CA",
+    "vrm_per_capita": 20.028,
+    "uza_population": 12237376,
+    "concern": 18.6
+  },
+  "ankeny-ia": {
+    "urban_area": "Des Moines, IA",
+    "vrm_per_capita": 8.12,
+    "uza_population": 542486,
+    "concern": 74.3
+  },
+  "san-marcos-tx": {
+    "urban_area": "San Marcos, TX",
+    "vrm_per_capita": 14.567,
+    "uza_population": 70801,
+    "concern": 39.9
+  },
+  "pittsburg-ca": {
+    "urban_area": "Antioch, CA",
+    "vrm_per_capita": 10.337,
+    "uza_population": 326205,
+    "concern": 60.5
+  },
+  "rochester-hills-mi": {
+    "urban_area": "Detroit, MI",
+    "vrm_per_capita": 7.572,
+    "uza_population": 3776890,
+    "concern": 76.6
+  },
+  "chino-hills-ca": {
+    "urban_area": "Riverside--San Bernardino, CA",
+    "vrm_per_capita": 9.076,
+    "uza_population": 2276703,
+    "concern": 69.7
+  },
+  "missouri-city-tx": {
+    "urban_area": "Houston, TX",
+    "vrm_per_capita": 12.187,
+    "uza_population": 5853575,
+    "concern": 50.9
+  },
+  "flagstaff-az": {
+    "urban_area": "Flagstaff, AZ",
+    "vrm_per_capita": 13.903,
+    "uza_population": 79842,
+    "concern": 42.6
+  },
+  "schaumburg-il": {
+    "urban_area": "Chicago, IL--IN",
+    "vrm_per_capita": 26.155,
+    "uza_population": 8671746,
+    "concern": 10.0
+  },
+  "pawtucket-ri": {
+    "urban_area": "Providence, RI--MA",
+    "vrm_per_capita": 12.333,
+    "uza_population": 1285806,
+    "concern": 49.9
+  },
+  "rogers-ar": {
+    "urban_area": "Fayetteville--Springdale--Rogers, AR--MO",
+    "vrm_per_capita": 3.863,
+    "uza_population": 373687,
+    "concern": 93.5
+  },
+  "alameda-ca": {
+    "urban_area": "San Francisco--Oakland, CA",
+    "vrm_per_capita": 45.042,
+    "uza_population": 3515933,
+    "concern": 1.9
+  },
+  "rocklin-ca": {
+    "urban_area": "Sacramento, CA",
+    "vrm_per_capita": 11.059,
+    "uza_population": 1946618,
+    "concern": 56.6
+  },
+  "caldwell-id": {
+    "urban_area": "Nampa, ID",
+    "vrm_per_capita": 3.143,
+    "uza_population": 177561,
+    "concern": 96.5
+  },
+  "grand-junction-co": {
+    "urban_area": "Grand Junction, CO",
+    "vrm_per_capita": 7.031,
+    "uza_population": 135973,
+    "concern": 80.0
+  }
+}

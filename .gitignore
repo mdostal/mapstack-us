@@ -70,6 +70,13 @@ data/raw/days-on-market-cache/
 # above. data/traffic-fatalities.json IS committed.
 data/raw/traffic-cache/
 
+# Pure fetch-scratch for the transit-access dataset build
+# (geocode_city_urban_areas.py + gen_transit_access_data.py) -- same
+# posture as the caches above. data/raw/city-urban-area.json AND
+# data/transit-access.json ARE committed (small derived crosswalk/data).
+data/raw/urban-area-geocode-cache/
+data/raw/transit-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
