@@ -1,0 +1,2050 @@
+{
+  "new-york-ny": {
+    "tract_fips": "36061001300",
+    "tract_name": "Census Tract 13"
+  },
+  "los-angeles-ca": {
+    "tract_fips": "06037206202",
+    "tract_name": "Census Tract 2062.02"
+  },
+  "chicago-il": {
+    "tract_fips": "17031839100",
+    "tract_name": "Census Tract 8391"
+  },
+  "houston-tx": {
+    "tract_fips": "48201980700",
+    "tract_name": "Census Tract 9807"
+  },
+  "phoenix-az": {
+    "tract_fips": "04013114100",
+    "tract_name": "Census Tract 1141"
+  },
+  "philadelphia-pa": {
+    "tract_fips": "42101000805",
+    "tract_name": "Census Tract 8.05"
+  },
+  "san-antonio-tx": {
+    "tract_fips": "48029110100",
+    "tract_name": "Census Tract 1101"
+  },
+  "san-diego-ca": {
+    "tract_fips": "06073005601",
+    "tract_name": "Census Tract 56.01"
+  },
+  "dallas-tx": {
+    "tract_fips": "48113003102",
+    "tract_name": "Census Tract 31.02"
+  },
+  "fort-worth-tx": {
+    "tract_fips": "48439123200",
+    "tract_name": "Census Tract 1232"
+  },
+  "jacksonville-fl": {
+    "tract_fips": "12031017200",
+    "tract_name": "Census Tract 172"
+  },
+  "austin-tx": {
+    "tract_fips": "48453001101",
+    "tract_name": "Census Tract 11.01"
+  },
+  "san-jose-ca": {
+    "tract_fips": "06085501000",
+    "tract_name": "Census Tract 5010"
+  },
+  "charlotte-nc": {
+    "tract_fips": "37119000104",
+    "tract_name": "Census Tract 1.04"
+  },
+  "columbus-oh": {
+    "tract_fips": "39049004001",
+    "tract_name": "Census Tract 40.01"
+  },
+  "indianapolis-in": {
+    "tract_fips": "18097391002",
+    "tract_name": "Census Tract 3910.02"
+  },
+  "san-francisco-ca": {
+    "tract_fips": "06075020101",
+    "tract_name": "Census Tract 201.01"
+  },
+  "seattle-wa": {
+    "tract_fips": "53033008200",
+    "tract_name": "Census Tract 82"
+  },
+  "denver-co": {
+    "tract_fips": "08031002000",
+    "tract_name": "Census Tract 20"
+  },
+  "nashville-tn": {
+    "tract_fips": "47037019503",
+    "tract_name": "Census Tract 195.03"
+  },
+  "oklahoma-city-ok": {
+    "tract_fips": "40109109900",
+    "tract_name": "Census Tract 1099"
+  },
+  "washington-dc": {
+    "tract_fips": "11001005303",
+    "tract_name": "Census Tract 53.03"
+  },
+  "el-paso-tx": {
+    "tract_fips": "48141001700",
+    "tract_name": "Census Tract 17"
+  },
+  "las-vegas-nv": {
+    "tract_fips": "32003000700",
+    "tract_name": "Census Tract 7"
+  },
+  "boston-ma": {
+    "tract_fips": "25025030302",
+    "tract_name": "Census Tract 303.02"
+  },
+  "detroit-mi": {
+    "tract_fips": "26163520800",
+    "tract_name": "Census Tract 5208"
+  },
+  "louisville-ky": {
+    "tract_fips": "21111004900",
+    "tract_name": "Census Tract 49"
+  },
+  "portland-or": {
+    "tract_fips": "41051010602",
+    "tract_name": "Census Tract 106.02"
+  },
+  "memphis-tn": {
+    "tract_fips": "47157011300",
+    "tract_name": "Census Tract 113"
+  },
+  "baltimore-md": {
+    "tract_fips": "24510040100",
+    "tract_name": "Census Tract 401"
+  },
+  "milwaukee-wi": {
+    "tract_fips": "55079014400",
+    "tract_name": "Census Tract 144"
+  },
+  "albuquerque-nm": {
+    "tract_fips": "35001001400",
+    "tract_name": "Census Tract 14"
+  },
+  "fresno-ca": {
+    "tract_fips": "06019002601",
+    "tract_name": "Census Tract 26.01"
+  },
+  "tucson-az": {
+    "tract_fips": "04019000100",
+    "tract_name": "Census Tract 1"
+  },
+  "sacramento-ca": {
+    "tract_fips": "06067001103",
+    "tract_name": "Census Tract 11.03"
+  },
+  "atlanta-ga": {
+    "tract_fips": "13121003500",
+    "tract_name": "Census Tract 35"
+  },
+  "kansas-city-mo": {
+    "tract_fips": "29095015702",
+    "tract_name": "Census Tract 157.02"
+  },
+  "mesa-az": {
+    "tract_fips": "04013421400",
+    "tract_name": "Census Tract 4214"
+  },
+  "raleigh-nc": {
+    "tract_fips": "37183050100",
+    "tract_name": "Census Tract 501"
+  },
+  "colorado-springs-co": {
+    "tract_fips": "08041002300",
+    "tract_name": "Census Tract 23"
+  },
+  "miami-fl": {
+    "tract_fips": "12086006713",
+    "tract_name": "Census Tract 67.13"
+  },
+  "omaha-ne": {
+    "tract_fips": "31055001600",
+    "tract_name": "Census Tract 16"
+  },
+  "virginia-beach-va": {
+    "tract_fips": "51810044004",
+    "tract_name": "Census Tract 440.04"
+  },
+  "long-beach-ca": {
+    "tract_fips": "06037576200",
+    "tract_name": "Census Tract 5762"
+  },
+  "oakland-ca": {
+    "tract_fips": "06001403000",
+    "tract_name": "Census Tract 4030"
+  },
+  "minneapolis-mn": {
+    "tract_fips": "27053126102",
+    "tract_name": "Census Tract 1261.02"
+  },
+  "bakersfield-ca": {
+    "tract_fips": "06029001600",
+    "tract_name": "Census Tract 16"
+  },
+  "tulsa-ok": {
+    "tract_fips": "40143002500",
+    "tract_name": "Census Tract 25"
+  },
+  "tampa-fl": {
+    "tract_fips": "12057005101",
+    "tract_name": "Census Tract 51.01"
+  },
+  "aurora-co": {
+    "tract_fips": "08005007600",
+    "tract_name": "Census Tract 76"
+  },
+  "arlington-tx": {
+    "tract_fips": "48439122200",
+    "tract_name": "Census Tract 1222"
+  },
+  "wichita-ks": {
+    "tract_fips": "20173004301",
+    "tract_name": "Census Tract 43.01"
+  },
+  "cleveland-oh": {
+    "tract_fips": "39035107701",
+    "tract_name": "Census Tract 1077.01"
+  },
+  "new-orleans-la": {
+    "tract_fips": "22071013400",
+    "tract_name": "Census Tract 134"
+  },
+  "henderson-nv": {
+    "tract_fips": "32003005422",
+    "tract_name": "Census Tract 54.22"
+  },
+  "honolulu-hi": {
+    "tract_fips": "15003004000",
+    "tract_name": "Census Tract 40"
+  },
+  "anaheim-ca": {
+    "tract_fips": "06059087301",
+    "tract_name": "Census Tract 873.01"
+  },
+  "orlando-fl": {
+    "tract_fips": "12095018902",
+    "tract_name": "Census Tract 189.02"
+  },
+  "lexington-ky": {
+    "tract_fips": "21067000802",
+    "tract_name": "Census Tract 8.02"
+  },
+  "stockton-ca": {
+    "tract_fips": "06077000402",
+    "tract_name": "Census Tract 4.02"
+  },
+  "newark-nj": {
+    "tract_fips": "34013022900",
+    "tract_name": "Census Tract 229"
+  },
+  "riverside-ca": {
+    "tract_fips": "06065031100",
+    "tract_name": "Census Tract 311"
+  },
+  "irvine-ca": {
+    "tract_fips": "06059052522",
+    "tract_name": "Census Tract 525.22"
+  },
+  "corpus-christi-tx": {
+    "tract_fips": "48355006400",
+    "tract_name": "Census Tract 64"
+  },
+  "santa-ana-ca": {
+    "tract_fips": "06059075002",
+    "tract_name": "Census Tract 750.02"
+  },
+  "cincinnati-oh": {
+    "tract_fips": "39061026500",
+    "tract_name": "Census Tract 265"
+  },
+  "greensboro-nc": {
+    "tract_fips": "37081010800",
+    "tract_name": "Census Tract 108"
+  },
+  "pittsburgh-pa": {
+    "tract_fips": "42003020100",
+    "tract_name": "Census Tract 201"
+  },
+  "saint-paul-mn": {
+    "tract_fips": "27123034203",
+    "tract_name": "Census Tract 342.03"
+  },
+  "durham-nc": {
+    "tract_fips": "37063002300",
+    "tract_name": "Census Tract 23"
+  },
+  "jersey-city-nj": {
+    "tract_fips": "34017002700",
+    "tract_name": "Census Tract 27"
+  },
+  "lincoln-ne": {
+    "tract_fips": "31109001900",
+    "tract_name": "Census Tract 19"
+  },
+  "north-las-vegas-nv": {
+    "tract_fips": "32003003800",
+    "tract_name": "Census Tract 38"
+  },
+  "plano-tx": {
+    "tract_fips": "48085031902",
+    "tract_name": "Census Tract 319.02"
+  },
+  "gilbert-az": {
+    "tract_fips": "04013422403",
+    "tract_name": "Census Tract 4224.03"
+  },
+  "anchorage-ak": {
+    "tract_fips": "02020001100",
+    "tract_name": "Census Tract 11"
+  },
+  "madison-wi": {
+    "tract_fips": "55025001606",
+    "tract_name": "Census Tract 16.06"
+  },
+  "reno-nv": {
+    "tract_fips": "32031000106",
+    "tract_name": "Census Tract 1.06"
+  },
+  "chandler-az": {
+    "tract_fips": "04013522903",
+    "tract_name": "Census Tract 5229.03"
+  },
+  "st-louis-mo": {
+    "tract_fips": "29510125500",
+    "tract_name": "Census Tract 1255"
+  },
+  "chula-vista-ca": {
+    "tract_fips": "06073012302",
+    "tract_name": "Census Tract 123.02"
+  },
+  "fort-wayne-in": {
+    "tract_fips": "18003001200",
+    "tract_name": "Census Tract 12"
+  },
+  "buffalo-ny": {
+    "tract_fips": "36029007102",
+    "tract_name": "Census Tract 71.02"
+  },
+  "lubbock-tx": {
+    "tract_fips": "48303000607",
+    "tract_name": "Census Tract 6.07"
+  },
+  "laredo-tx": {
+    "tract_fips": "48479000700",
+    "tract_name": "Census Tract 7"
+  },
+  "port-st-lucie-fl": {
+    "tract_fips": "12111382115",
+    "tract_name": "Census Tract 3821.15"
+  },
+  "st-petersburg-fl": {
+    "tract_fips": "12103028601",
+    "tract_name": "Census Tract 286.01"
+  },
+  "toledo-oh": {
+    "tract_fips": "39095002100",
+    "tract_name": "Census Tract 21"
+  },
+  "glendale-az": {
+    "tract_fips": "04013092600",
+    "tract_name": "Census Tract 926"
+  },
+  "winston-salem-nc": {
+    "tract_fips": "37067000100",
+    "tract_name": "Census Tract 1"
+  },
+  "irving-tx": {
+    "tract_fips": "48113014903",
+    "tract_name": "Census Tract 149.03"
+  },
+  "chesapeake-va": {
+    "tract_fips": "51550020903",
+    "tract_name": "Census Tract 209.03"
+  },
+  "garland-tx": {
+    "tract_fips": "48113018802",
+    "tract_name": "Census Tract 188.02"
+  },
+  "arlington-va": {
+    "tract_fips": "51013101900",
+    "tract_name": "Census Tract 1019"
+  },
+  "scottsdale-az": {
+    "tract_fips": "04013217201",
+    "tract_name": "Census Tract 2172.01"
+  },
+  "boise-id": {
+    "tract_fips": "16001000102",
+    "tract_name": "Census Tract 1.02"
+  },
+  "richmond-va": {
+    "tract_fips": "51760030502",
+    "tract_name": "Census Tract 305.02"
+  },
+  "frisco-tx": {
+    "tract_fips": "48085030403",
+    "tract_name": "Census Tract 304.03"
+  },
+  "cape-coral-fl": {
+    "tract_fips": "12071010802",
+    "tract_name": "Census Tract 108.02"
+  },
+  "mckinney-tx": {
+    "tract_fips": "48085030609",
+    "tract_name": "Census Tract 306.09"
+  },
+  "huntsville-al": {
+    "tract_fips": "01089003100",
+    "tract_name": "Census Tract 31"
+  },
+  "norfolk-va": {
+    "tract_fips": "51710004900",
+    "tract_name": "Census Tract 49"
+  },
+  "hialeah-fl": {
+    "tract_fips": "12086000607",
+    "tract_name": "Census Tract 6.07"
+  },
+  "spokane-wa": {
+    "tract_fips": "53063003500",
+    "tract_name": "Census Tract 35"
+  },
+  "tacoma-wa": {
+    "tract_fips": "53053061601",
+    "tract_name": "Census Tract 616.01"
+  },
+  "santa-clarita-ca": {
+    "tract_fips": "06037920340",
+    "tract_name": "Census Tract 9203.40"
+  },
+  "fremont-ca": {
+    "tract_fips": "06001441923",
+    "tract_name": "Census Tract 4419.23"
+  },
+  "baton-rouge-la": {
+    "tract_fips": "22033005100",
+    "tract_name": "Census Tract 51"
+  },
+  "san-bernardino-ca": {
+    "tract_fips": "06071005701",
+    "tract_name": "Census Tract 57.01"
+  },
+  "fontana-ca": {
+    "tract_fips": "06071003102",
+    "tract_name": "Census Tract 31.02"
+  },
+  "modesto-ca": {
+    "tract_fips": "06099001800",
+    "tract_name": "Census Tract 18"
+  },
+  "salt-lake-city-ut": {
+    "tract_fips": "49035114000",
+    "tract_name": "Census Tract 1140"
+  },
+  "moreno-valley-ca": {
+    "tract_fips": "06065042519",
+    "tract_name": "Census Tract 425.19"
+  },
+  "worcester-ma": {
+    "tract_fips": "25027731700",
+    "tract_name": "Census Tract 7317"
+  },
+  "sioux-falls-sd": {
+    "tract_fips": "46099000401",
+    "tract_name": "Census Tract 4.01"
+  },
+  "yonkers-ny": {
+    "tract_fips": "36119000300",
+    "tract_name": "Census Tract 3"
+  },
+  "des-moines-ia": {
+    "tract_fips": "19153005101",
+    "tract_name": "Census Tract 51.01"
+  },
+  "grand-prairie-tx": {
+    "tract_fips": "48113015500",
+    "tract_name": "Census Tract 155"
+  },
+  "fayetteville-nc": {
+    "tract_fips": "37051003800",
+    "tract_name": "Census Tract 38"
+  },
+  "little-rock-ar": {
+    "tract_fips": "05119004400",
+    "tract_name": "Census Tract 44"
+  },
+  "rochester-ny": {
+    "tract_fips": "36055009401",
+    "tract_name": "Census Tract 94.01"
+  },
+  "amarillo-tx": {
+    "tract_fips": "48375012200",
+    "tract_name": "Census Tract 122"
+  },
+  "tallahassee-fl": {
+    "tract_fips": "12073000200",
+    "tract_name": "Census Tract 2"
+  },
+  "overland-park-ks": {
+    "tract_fips": "20091051200",
+    "tract_name": "Census Tract 512"
+  },
+  "columbus-ga": {
+    "tract_fips": "13215011100",
+    "tract_name": "Census Tract 111"
+  },
+  "knoxville-tn": {
+    "tract_fips": "47093000100",
+    "tract_name": "Census Tract 1"
+  },
+  "augusta-ga": {
+    "tract_fips": "13245000700",
+    "tract_name": "Census Tract 7"
+  },
+  "grand-rapids-mi": {
+    "tract_fips": "26081002000",
+    "tract_name": "Census Tract 20"
+  },
+  "peoria-az": {
+    "tract_fips": "04013071906",
+    "tract_name": "Census Tract 719.06"
+  },
+  "mobile-al": {
+    "tract_fips": "01097000200",
+    "tract_name": "Census Tract 2"
+  },
+  "vancouver-wa": {
+    "tract_fips": "53011042602",
+    "tract_name": "Census Tract 426.02"
+  },
+  "oxnard-ca": {
+    "tract_fips": "06111008700",
+    "tract_name": "Census Tract 87"
+  },
+  "birmingham-al": {
+    "tract_fips": "01073002702",
+    "tract_name": "Census Tract 27.02"
+  },
+  "providence-ri": {
+    "tract_fips": "44007000800",
+    "tract_name": "Census Tract 8"
+  },
+  "montgomery-al": {
+    "tract_fips": "01101000600",
+    "tract_name": "Census Tract 6"
+  },
+  "chattanooga-tn": {
+    "tract_fips": "47065003100",
+    "tract_name": "Census Tract 31"
+  },
+  "brownsville-tx": {
+    "tract_fips": "48061014001",
+    "tract_name": "Census Tract 140.01"
+  },
+  "huntington-beach-ca": {
+    "tract_fips": "06059099311",
+    "tract_name": "Census Tract 993.11"
+  },
+  "tempe-az": {
+    "tract_fips": "04013318700",
+    "tract_name": "Census Tract 3187"
+  },
+  "akron-oh": {
+    "tract_fips": "39153508301",
+    "tract_name": "Census Tract 5083.01"
+  },
+  "clarksville-tn": {
+    "tract_fips": "47125101002",
+    "tract_name": "Census Tract 1010.02"
+  },
+  "fort-lauderdale-fl": {
+    "tract_fips": "12011042502",
+    "tract_name": "Census Tract 425.02"
+  },
+  "glendale-ca": {
+    "tract_fips": "06037302302",
+    "tract_name": "Census Tract 3023.02"
+  },
+  "ontario-ca": {
+    "tract_fips": "06071001400",
+    "tract_name": "Census Tract 14"
+  },
+  "elk-grove-ca": {
+    "tract_fips": "06067009307",
+    "tract_name": "Census Tract 93.07"
+  },
+  "cary-nc": {
+    "tract_fips": "37183053525",
+    "tract_name": "Census Tract 535.25"
+  },
+  "newport-news-va": {
+    "tract_fips": "51700031902",
+    "tract_name": "Census Tract 319.02"
+  },
+  "salem-or": {
+    "tract_fips": "41047000200",
+    "tract_name": "Census Tract 2"
+  },
+  "aurora-il": {
+    "tract_fips": "17089853900",
+    "tract_name": "Census Tract 8539"
+  },
+  "santa-rosa-ca": {
+    "tract_fips": "06097152000",
+    "tract_name": "Census Tract 1520"
+  },
+  "eugene-or": {
+    "tract_fips": "41039004200",
+    "tract_name": "Census Tract 42"
+  },
+  "rancho-cucamonga-ca": {
+    "tract_fips": "06071002027",
+    "tract_name": "Census Tract 20.27"
+  },
+  "pembroke-pines-fl": {
+    "tract_fips": "12011110327",
+    "tract_name": "Census Tract 1103.27"
+  },
+  "shreveport-la": {
+    "tract_fips": "22017020500",
+    "tract_name": "Census Tract 205"
+  },
+  "surprise-az": {
+    "tract_fips": "04013040540",
+    "tract_name": "Census Tract 405.40"
+  },
+  "fort-collins-co": {
+    "tract_fips": "08069001003",
+    "tract_name": "Census Tract 10.03"
+  },
+  "murfreesboro-tn": {
+    "tract_fips": "47149040901",
+    "tract_name": "Census Tract 409.01"
+  },
+  "oceanside-ca": {
+    "tract_fips": "06073018400",
+    "tract_name": "Census Tract 184"
+  },
+  "garden-grove-ca": {
+    "tract_fips": "06059088701",
+    "tract_name": "Census Tract 887.01"
+  },
+  "lancaster-ca": {
+    "tract_fips": "06037901008",
+    "tract_name": "Census Tract 9010.08"
+  },
+  "springfield-mo": {
+    "tract_fips": "29077000300",
+    "tract_name": "Census Tract 3"
+  },
+  "denton-tx": {
+    "tract_fips": "48121020403",
+    "tract_name": "Census Tract 204.03"
+  },
+  "roseville-ca": {
+    "tract_fips": "06061021043",
+    "tract_name": "Census Tract 210.43"
+  },
+  "killeen-tx": {
+    "tract_fips": "48027022503",
+    "tract_name": "Census Tract 225.03"
+  },
+  "palmdale-ca": {
+    "tract_fips": "06037911100",
+    "tract_name": "Census Tract 9111"
+  },
+  "paterson-nj": {
+    "tract_fips": "34031182800",
+    "tract_name": "Census Tract 1828"
+  },
+  "corona-ca": {
+    "tract_fips": "06065041807",
+    "tract_name": "Census Tract 418.07"
+  },
+  "alexandria-va": {
+    "tract_fips": "51510200801",
+    "tract_name": "Census Tract 2008.01"
+  },
+  "charleston-sc": {
+    "tract_fips": "45019002606",
+    "tract_name": "Census Tract 26.06"
+  },
+  "salinas-ca": {
+    "tract_fips": "06053000502",
+    "tract_name": "Census Tract 5.02"
+  },
+  "kansas-city-ks": {
+    "tract_fips": "20209044104",
+    "tract_name": "Census Tract 441.04"
+  },
+  "macon-ga": {
+    "tract_fips": "13021013202",
+    "tract_name": "Census Tract 132.02"
+  },
+  "hayward-ca": {
+    "tract_fips": "06001437102",
+    "tract_name": "Census Tract 4371.02"
+  },
+  "hollywood-fl": {
+    "tract_fips": "12011090401",
+    "tract_name": "Census Tract 904.01"
+  },
+  "lakewood-co": {
+    "tract_fips": "08059011708",
+    "tract_name": "Census Tract 117.08"
+  },
+  "sunnyvale-ca": {
+    "tract_fips": "06085509001",
+    "tract_name": "Census Tract 5090.01"
+  },
+  "springfield-ma": {
+    "tract_fips": "25013801501",
+    "tract_name": "Census Tract 8015.01"
+  },
+  "bellevue-wa": {
+    "tract_fips": "53033023601",
+    "tract_name": "Census Tract 236.01"
+  },
+  "naperville-il": {
+    "tract_fips": "17043846523",
+    "tract_name": "Census Tract 8465.23"
+  },
+  "bridgeport-ct": {
+    "tract_fips": "09120071900",
+    "tract_name": "Census Tract 719"
+  },
+  "joliet-il": {
+    "tract_fips": "17197883210",
+    "tract_name": "Census Tract 8832.10"
+  },
+  "mesquite-tx": {
+    "tract_fips": "48113017311",
+    "tract_name": "Census Tract 173.11"
+  },
+  "mcallen-tx": {
+    "tract_fips": "48215020731",
+    "tract_name": "Census Tract 207.31"
+  },
+  "olathe-ks": {
+    "tract_fips": "20091053555",
+    "tract_name": "Census Tract 535.55"
+  },
+  "savannah-ga": {
+    "tract_fips": "13051010815",
+    "tract_name": "Census Tract 108.15"
+  },
+  "gainesville-fl": {
+    "tract_fips": "12001001203",
+    "tract_name": "Census Tract 12.03"
+  },
+  "pasadena-tx": {
+    "tract_fips": "48201342100",
+    "tract_name": "Census Tract 3421"
+  },
+  "palm-bay-fl": {
+    "tract_fips": "12009071346",
+    "tract_name": "Census Tract 713.46"
+  },
+  "pomona-ca": {
+    "tract_fips": "06037402304",
+    "tract_name": "Census Tract 4023.04"
+  },
+  "waco-tx": {
+    "tract_fips": "48309002800",
+    "tract_name": "Census Tract 28"
+  },
+  "thornton-co": {
+    "tract_fips": "08001008547",
+    "tract_name": "Census Tract 85.47"
+  },
+  "midland-tx": {
+    "tract_fips": "48329000303",
+    "tract_name": "Census Tract 3.03"
+  },
+  "rockford-il": {
+    "tract_fips": "17201001400",
+    "tract_name": "Census Tract 14"
+  },
+  "columbia-sc": {
+    "tract_fips": "45079980100",
+    "tract_name": "Census Tract 9801"
+  },
+  "visalia-ca": {
+    "tract_fips": "06107001006",
+    "tract_name": "Census Tract 10.06"
+  },
+  "escondido-ca": {
+    "tract_fips": "06073020202",
+    "tract_name": "Census Tract 202.02"
+  },
+  "syracuse-ny": {
+    "tract_fips": "36067004301",
+    "tract_name": "Census Tract 43.01"
+  },
+  "meridian-id": {
+    "tract_fips": "16001010347",
+    "tract_name": "Census Tract 103.47"
+  },
+  "miramar-fl": {
+    "tract_fips": "12011110321",
+    "tract_name": "Census Tract 1103.21"
+  },
+  "elizabeth-nj": {
+    "tract_fips": "34039980000",
+    "tract_name": "Census Tract 9800"
+  },
+  "victorville-ca": {
+    "tract_fips": "06071009126",
+    "tract_name": "Census Tract 91.26"
+  },
+  "round-rock-tx": {
+    "tract_fips": "48491021517",
+    "tract_name": "Census Tract 215.17"
+  },
+  "jackson-ms": {
+    "tract_fips": "28049011600",
+    "tract_name": "Census Tract 116"
+  },
+  "stamford-ct": {
+    "tract_fips": "09190020600",
+    "tract_name": "Census Tract 206"
+  },
+  "lewisville-tx": {
+    "tract_fips": "48121021502",
+    "tract_name": "Census Tract 215.02"
+  },
+  "coral-springs-fl": {
+    "tract_fips": "12011020314",
+    "tract_name": "Census Tract 203.14"
+  },
+  "new-haven-ct": {
+    "tract_fips": "09170142000",
+    "tract_name": "Census Tract 1420"
+  },
+  "fullerton-ca": {
+    "tract_fips": "06059001706",
+    "tract_name": "Census Tract 17.06"
+  },
+  "torrance-ca": {
+    "tract_fips": "06037650701",
+    "tract_name": "Census Tract 6507.01"
+  },
+  "orange-ca": {
+    "tract_fips": "06059075901",
+    "tract_name": "Census Tract 759.01"
+  },
+  "cedar-rapids-ia": {
+    "tract_fips": "19113002500",
+    "tract_name": "Census Tract 25"
+  },
+  "west-valley-city-ut": {
+    "tract_fips": "49035113413",
+    "tract_name": "Census Tract 1134.13"
+  },
+  "hampton-va": {
+    "tract_fips": "51650010104",
+    "tract_name": "Census Tract 101.04"
+  },
+  "warren-mi": {
+    "tract_fips": "26099268100",
+    "tract_name": "Census Tract 2681"
+  },
+  "dayton-oh": {
+    "tract_fips": "39113001600",
+    "tract_name": "Census Tract 16"
+  },
+  "fargo-nd": {
+    "tract_fips": "38017000903",
+    "tract_name": "Census Tract 9.03"
+  },
+  "pasadena-ca": {
+    "tract_fips": "06037462100",
+    "tract_name": "Census Tract 4621"
+  },
+  "kent-wa": {
+    "tract_fips": "53033029207",
+    "tract_name": "Census Tract 292.07"
+  },
+  "carrollton-tx": {
+    "tract_fips": "48121021611",
+    "tract_name": "Census Tract 216.11"
+  },
+  "sterling-heights-mi": {
+    "tract_fips": "26099231200",
+    "tract_name": "Census Tract 2312"
+  },
+  "santa-clara-ca": {
+    "tract_fips": "06085505302",
+    "tract_name": "Census Tract 5053.02"
+  },
+  "abilene-tx": {
+    "tract_fips": "48441011000",
+    "tract_name": "Census Tract 110"
+  },
+  "norman-ok": {
+    "tract_fips": "40027202403",
+    "tract_name": "Census Tract 2024.03"
+  },
+  "columbia-mo": {
+    "tract_fips": "29019000500",
+    "tract_name": "Census Tract 5"
+  },
+  "pearland-tx": {
+    "tract_fips": "48039660502",
+    "tract_name": "Census Tract 6605.02"
+  },
+  "clovis-ca": {
+    "tract_fips": "06019005702",
+    "tract_name": "Census Tract 57.02"
+  },
+  "north-charleston-sc": {
+    "tract_fips": "45019003108",
+    "tract_name": "Census Tract 31.08"
+  },
+  "athens-ga": {
+    "tract_fips": "13059000402",
+    "tract_name": "Census Tract 4.02"
+  },
+  "college-station-tx": {
+    "tract_fips": "48041001801",
+    "tract_name": "Census Tract 18.01"
+  },
+  "west-palm-beach-fl": {
+    "tract_fips": "12099001907",
+    "tract_name": "Census Tract 19.07"
+  },
+  "wilmington-nc": {
+    "tract_fips": "37129010600",
+    "tract_name": "Census Tract 106"
+  },
+  "allentown-pa": {
+    "tract_fips": "42077001401",
+    "tract_name": "Census Tract 14.01"
+  },
+  "topeka-ks": {
+    "tract_fips": "20177001800",
+    "tract_name": "Census Tract 18"
+  },
+  "lakeland-fl": {
+    "tract_fips": "12105011300",
+    "tract_name": "Census Tract 113"
+  },
+  "buckeye-az": {
+    "tract_fips": "04013050617",
+    "tract_name": "Census Tract 506.17"
+  },
+  "goodyear-az": {
+    "tract_fips": "04013723304",
+    "tract_name": "Census Tract 7233.04"
+  },
+  "broken-arrow-ok": {
+    "tract_fips": "40143007503",
+    "tract_name": "Census Tract 75.03"
+  },
+  "simi-valley-ca": {
+    "tract_fips": "06111008001",
+    "tract_name": "Census Tract 80.01"
+  },
+  "rochester-mn": {
+    "tract_fips": "27109000400",
+    "tract_name": "Census Tract 4"
+  },
+  "lafayette-la": {
+    "tract_fips": "22055002200",
+    "tract_name": "Census Tract 22"
+  },
+  "vallejo-ca": {
+    "tract_fips": "06095251600",
+    "tract_name": "Census Tract 2516"
+  },
+  "concord-ca": {
+    "tract_fips": "06013331000",
+    "tract_name": "Census Tract 3310"
+  },
+  "arvada-co": {
+    "tract_fips": "08059009836",
+    "tract_name": "Census Tract 98.36"
+  },
+  "odessa-tx": {
+    "tract_fips": "48135000400",
+    "tract_name": "Census Tract 4"
+  },
+  "cambridge-ma": {
+    "tract_fips": "25017354000",
+    "tract_name": "Census Tract 3540"
+  },
+  "new-braunfels-tx": {
+    "tract_fips": "48091310100",
+    "tract_name": "Census Tract 3101"
+  },
+  "fairfield-ca": {
+    "tract_fips": "06095252606",
+    "tract_name": "Census Tract 2526.06"
+  },
+  "ann-arbor-mi": {
+    "tract_fips": "26161980102",
+    "tract_name": "Census Tract 9801.02"
+  },
+  "thousand-oaks-ca": {
+    "tract_fips": "06111006800",
+    "tract_name": "Census Tract 68"
+  },
+  "hartford-ct": {
+    "tract_fips": "09110502100",
+    "tract_name": "Census Tract 5021"
+  },
+  "berkeley-ca": {
+    "tract_fips": "06001422000",
+    "tract_name": "Census Tract 4220"
+  },
+  "independence-mo": {
+    "tract_fips": "29095011407",
+    "tract_name": "Census Tract 114.07"
+  },
+  "billings-mt": {
+    "tract_fips": "30111000200",
+    "tract_name": "Census Tract 2"
+  },
+  "high-point-nc": {
+    "tract_fips": "37081014411",
+    "tract_name": "Census Tract 144.11"
+  },
+  "nampa-id": {
+    "tract_fips": "16027020404",
+    "tract_name": "Census Tract 204.04"
+  },
+  "lowell-ma": {
+    "tract_fips": "25017311100",
+    "tract_name": "Census Tract 3111"
+  },
+  "league-city-tx": {
+    "tract_fips": "48167720510",
+    "tract_name": "Census Tract 7205.10"
+  },
+  "conroe-tx": {
+    "tract_fips": "48339693600",
+    "tract_name": "Census Tract 6936"
+  },
+  "antioch-ca": {
+    "tract_fips": "06013355109",
+    "tract_name": "Census Tract 3551.09"
+  },
+  "menifee-ca": {
+    "tract_fips": "06065042708",
+    "tract_name": "Census Tract 427.08"
+  },
+  "richardson-tx": {
+    "tract_fips": "48113019053",
+    "tract_name": "Census Tract 190.53"
+  },
+  "pompano-beach-fl": {
+    "tract_fips": "12011030402",
+    "tract_name": "Census Tract 304.02"
+  },
+  "las-cruces-nm": {
+    "tract_fips": "35013000103",
+    "tract_name": "Census Tract 1.03"
+  },
+  "manchester-nh": {
+    "tract_fips": "33011001800",
+    "tract_name": "Census Tract 18"
+  },
+  "west-jordan-ut": {
+    "tract_fips": "49035113101",
+    "tract_name": "Census Tract 1131.01"
+  },
+  "westminster-co": {
+    "tract_fips": "08059060400",
+    "tract_name": "Census Tract 604"
+  },
+  "evansville-in": {
+    "tract_fips": "18163000205",
+    "tract_name": "Census Tract 2.05"
+  },
+  "waterbury-ct": {
+    "tract_fips": "09140350101",
+    "tract_name": "Census Tract 3501.01"
+  },
+  "elgin-il": {
+    "tract_fips": "17089851904",
+    "tract_name": "Census Tract 8519.04"
+  },
+  "greeley-co": {
+    "tract_fips": "08123001411",
+    "tract_name": "Census Tract 14.11"
+  },
+  "temecula-ca": {
+    "tract_fips": "06065043222",
+    "tract_name": "Census Tract 432.22"
+  },
+  "richmond-ca": {
+    "tract_fips": "06013373000",
+    "tract_name": "Census Tract 3730"
+  },
+  "concord-nc": {
+    "tract_fips": "37025042504",
+    "tract_name": "Census Tract 425.04"
+  },
+  "provo-ut": {
+    "tract_fips": "49049001602",
+    "tract_name": "Census Tract 16.02"
+  },
+  "rio-rancho-nm": {
+    "tract_fips": "35043010721",
+    "tract_name": "Census Tract 107.21"
+  },
+  "clearwater-fl": {
+    "tract_fips": "12103026502",
+    "tract_name": "Census Tract 265.02"
+  },
+  "tuscaloosa-al": {
+    "tract_fips": "01125010406",
+    "tract_name": "Census Tract 104.06"
+  },
+  "murrieta-ca": {
+    "tract_fips": "06065043206",
+    "tract_name": "Census Tract 432.06"
+  },
+  "lansing-mi": {
+    "tract_fips": "26065007000",
+    "tract_name": "Census Tract 70"
+  },
+  "tyler-tx": {
+    "tract_fips": "48423001000",
+    "tract_name": "Census Tract 10"
+  },
+  "miami-gardens-fl": {
+    "tract_fips": "12086009903",
+    "tract_name": "Census Tract 99.03"
+  },
+  "everett-wa": {
+    "tract_fips": "53061040700",
+    "tract_name": "Census Tract 407"
+  },
+  "allen-tx": {
+    "tract_fips": "48085031508",
+    "tract_name": "Census Tract 315.08"
+  },
+  "springfield-il": {
+    "tract_fips": "17167004200",
+    "tract_name": "Census Tract 42"
+  },
+  "beaumont-tx": {
+    "tract_fips": "48245001301",
+    "tract_name": "Census Tract 13.01"
+  },
+  "south-fulton-ga": {
+    "tract_fips": "13121010308",
+    "tract_name": "Census Tract 103.08"
+  },
+  "carlsbad-ca": {
+    "tract_fips": "06073022101",
+    "tract_name": "Census Tract 221.01"
+  },
+  "sparks-nv": {
+    "tract_fips": "32031003508",
+    "tract_name": "Census Tract 35.08"
+  },
+  "gresham-or": {
+    "tract_fips": "41051010001",
+    "tract_name": "Census Tract 100.01"
+  },
+  "santa-maria-ca": {
+    "tract_fips": "06083002410",
+    "tract_name": "Census Tract 24.10"
+  },
+  "hillsboro-or": {
+    "tract_fips": "41067032608",
+    "tract_name": "Census Tract 326.08"
+  },
+  "peoria-il": {
+    "tract_fips": "17143003000",
+    "tract_name": "Census Tract 30"
+  },
+  "davie-fl": {
+    "tract_fips": "12011070209",
+    "tract_name": "Census Tract 702.09"
+  },
+  "edinburg-tx": {
+    "tract_fips": "48215023602",
+    "tract_name": "Census Tract 236.02"
+  },
+  "pueblo-co": {
+    "tract_fips": "08101003500",
+    "tract_name": "Census Tract 35"
+  },
+  "ventura-ca": {
+    "tract_fips": "06111002700",
+    "tract_name": "Census Tract 27"
+  },
+  "palm-coast-fl": {
+    "tract_fips": "12035060211",
+    "tract_name": "Census Tract 602.11"
+  },
+  "costa-mesa-ca": {
+    "tract_fips": "06059063902",
+    "tract_name": "Census Tract 639.02"
+  },
+  "st-george-ut": {
+    "tract_fips": "49053271800",
+    "tract_name": "Census Tract 2718"
+  },
+  "centennial-co": {
+    "tract_fips": "08005006864",
+    "tract_name": "Census Tract 68.64"
+  },
+  "downey-ca": {
+    "tract_fips": "06037550901",
+    "tract_name": "Census Tract 5509.01"
+  },
+  "spokane-valley-wa": {
+    "tract_fips": "53063011800",
+    "tract_name": "Census Tract 118"
+  },
+  "sugar-land-tx": {
+    "tract_fips": "48157674002",
+    "tract_name": "Census Tract 6740.02"
+  },
+  "lees-summit-mo": {
+    "tract_fips": "29095013706",
+    "tract_name": "Census Tract 137.06"
+  },
+  "bend-or": {
+    "tract_fips": "41017001602",
+    "tract_name": "Census Tract 16.02"
+  },
+  "jurupa-valley-ca": {
+    "tract_fips": "06065040405",
+    "tract_name": "Census Tract 404.05"
+  },
+  "georgetown-tx": {
+    "tract_fips": "48491020111",
+    "tract_name": "Census Tract 201.11"
+  },
+  "green-bay-wi": {
+    "tract_fips": "55009000900",
+    "tract_name": "Census Tract 9"
+  },
+  "fayetteville-ar": {
+    "tract_fips": "05143011301",
+    "tract_name": "Census Tract 113.01"
+  },
+  "rialto-ca": {
+    "tract_fips": "06071003503",
+    "tract_name": "Census Tract 35.03"
+  },
+  "brockton-ma": {
+    "tract_fips": "25023510900",
+    "tract_name": "Census Tract 5109"
+  },
+  "boulder-co": {
+    "tract_fips": "08013012208",
+    "tract_name": "Census Tract 122.08"
+  },
+  "carmel-in": {
+    "tract_fips": "18057111012",
+    "tract_name": "Census Tract 1110.12"
+  },
+  "dearborn-mi": {
+    "tract_fips": "26163574203",
+    "tract_name": "Census Tract 5742.03"
+  },
+  "west-covina-ca": {
+    "tract_fips": "06037406601",
+    "tract_name": "Census Tract 4066.01"
+  },
+  "yuma-az": {
+    "tract_fips": "04027000800",
+    "tract_name": "Census Tract 8"
+  },
+  "chico-ca": {
+    "tract_fips": "06007000102",
+    "tract_name": "Census Tract 1.02"
+  },
+  "el-monte-ca": {
+    "tract_fips": "06037433200",
+    "tract_name": "Census Tract 4332"
+  },
+  "sandy-springs-ga": {
+    "tract_fips": "13121010121",
+    "tract_name": "Census Tract 101.21"
+  },
+  "renton-wa": {
+    "tract_fips": "53033025601",
+    "tract_name": "Census Tract 256.01"
+  },
+  "fishers-in": {
+    "tract_fips": "18057110816",
+    "tract_name": "Census Tract 1108.16"
+  },
+  "suffolk-va": {
+    "tract_fips": "51800075703",
+    "tract_name": "Census Tract 757.03"
+  },
+  "lynn-ma": {
+    "tract_fips": "25009205500",
+    "tract_name": "Census Tract 2055"
+  },
+  "vacaville-ca": {
+    "tract_fips": "06095253105",
+    "tract_name": "Census Tract 2531.05"
+  },
+  "san-mateo-ca": {
+    "tract_fips": "06081607600",
+    "tract_name": "Census Tract 6076"
+  },
+  "south-bend-in": {
+    "tract_fips": "18141001900",
+    "tract_name": "Census Tract 19"
+  },
+  "quincy-ma": {
+    "tract_fips": "25021417602",
+    "tract_name": "Census Tract 4176.02"
+  },
+  "burbank-ca": {
+    "tract_fips": "06037310501",
+    "tract_name": "Census Tract 3105.01"
+  },
+  "hesperia-ca": {
+    "tract_fips": "06071010019",
+    "tract_name": "Census Tract 100.19"
+  },
+  "wichita-falls-tx": {
+    "tract_fips": "48485011000",
+    "tract_name": "Census Tract 110"
+  },
+  "tracy-ca": {
+    "tract_fips": "06077005403",
+    "tract_name": "Census Tract 54.03"
+  },
+  "new-bedford-ma": {
+    "tract_fips": "25005650900",
+    "tract_name": "Census Tract 6509"
+  },
+  "el-cajon-ca": {
+    "tract_fips": "06073016301",
+    "tract_name": "Census Tract 163.01"
+  },
+  "albany-ny": {
+    "tract_fips": "36001000403",
+    "tract_name": "Census Tract 4.03"
+  },
+  "inglewood-ca": {
+    "tract_fips": "06037600703",
+    "tract_name": "Census Tract 6007.03"
+  },
+  "boca-raton-fl": {
+    "tract_fips": "12099007100",
+    "tract_name": "Census Tract 71"
+  },
+  "fort-myers-fl": {
+    "tract_fips": "12071001204",
+    "tract_name": "Census Tract 12.04"
+  },
+  "daly-city-ca": {
+    "tract_fips": "06081600600",
+    "tract_name": "Census Tract 6006"
+  },
+  "avondale-az": {
+    "tract_fips": "04013723304",
+    "tract_name": "Census Tract 7233.04"
+  },
+  "san-angelo-tx": {
+    "tract_fips": "48451001301",
+    "tract_name": "Census Tract 13.01"
+  },
+  "edmond-ok": {
+    "tract_fips": "40109109204",
+    "tract_name": "Census Tract 1092.04"
+  },
+  "davenport-ia": {
+    "tract_fips": "19163011900",
+    "tract_name": "Census Tract 119"
+  },
+  "deltona-fl": {
+    "tract_fips": "12127091037",
+    "tract_name": "Census Tract 910.37"
+  },
+  "longmont-co": {
+    "tract_fips": "08013013401",
+    "tract_name": "Census Tract 134.01"
+  },
+  "federal-way-wa": {
+    "tract_fips": "53033030309",
+    "tract_name": "Census Tract 303.09"
+  },
+  "merced-ca": {
+    "tract_fips": "06047001302",
+    "tract_name": "Census Tract 13.02"
+  },
+  "kenosha-wi": {
+    "tract_fips": "55059000700",
+    "tract_name": "Census Tract 7"
+  },
+  "plantation-fl": {
+    "tract_fips": "12011060605",
+    "tract_name": "Census Tract 606.05"
+  },
+  "roanoke-va": {
+    "tract_fips": "51770002501",
+    "tract_name": "Census Tract 25.01"
+  },
+  "sunrise-fl": {
+    "tract_fips": "12011060117",
+    "tract_name": "Census Tract 601.17"
+  },
+  "temple-tx": {
+    "tract_fips": "48027021202",
+    "tract_name": "Census Tract 212.02"
+  },
+  "vista-ca": {
+    "tract_fips": "06073019702",
+    "tract_name": "Census Tract 197.02"
+  },
+  "beaverton-or": {
+    "tract_fips": "41067031202",
+    "tract_name": "Census Tract 312.02"
+  },
+  "yakima-wa": {
+    "tract_fips": "53077001000",
+    "tract_name": "Census Tract 10"
+  },
+  "kirkland-wa": {
+    "tract_fips": "53033022401",
+    "tract_name": "Census Tract 224.01"
+  },
+  "norwalk-ca": {
+    "tract_fips": "06037552200",
+    "tract_name": "Census Tract 5522"
+  },
+  "chino-ca": {
+    "tract_fips": "06071012202",
+    "tract_name": "Census Tract 122.02"
+  },
+  "portsmouth-va": {
+    "tract_fips": "51740213001",
+    "tract_name": "Census Tract 2130.01"
+  },
+  "manteca-ca": {
+    "tract_fips": "06077005132",
+    "tract_name": "Census Tract 51.32"
+  },
+  "north-port-fl": {
+    "tract_fips": "12115002736",
+    "tract_name": "Census Tract 27.36"
+  },
+  "greenville-nc": {
+    "tract_fips": "37147000102",
+    "tract_name": "Census Tract 1.02"
+  },
+  "bellingham-wa": {
+    "tract_fips": "53073000501",
+    "tract_name": "Census Tract 5.01"
+  },
+  "lawrence-ks": {
+    "tract_fips": "20045000704",
+    "tract_name": "Census Tract 7.04"
+  },
+  "ofallon-mo": {
+    "tract_fips": "29183311738",
+    "tract_name": "Census Tract 3117.38"
+  },
+  "reading-pa": {
+    "tract_fips": "42011001300",
+    "tract_name": "Census Tract 13"
+  },
+  "mount-pleasant-sc": {
+    "tract_fips": "45019004607",
+    "tract_name": "Census Tract 46.07"
+  },
+  "lehi-ut": {
+    "tract_fips": "49049010221",
+    "tract_name": "Census Tract 102.21"
+  },
+  "fall-river-ma": {
+    "tract_fips": "25005642500",
+    "tract_name": "Census Tract 6425"
+  },
+  "orem-ut": {
+    "tract_fips": "49049000804",
+    "tract_name": "Census Tract 8.04"
+  },
+  "san-marcos-ca": {
+    "tract_fips": "06073020026",
+    "tract_name": "Census Tract 200.26"
+  },
+  "norwalk-ct": {
+    "tract_fips": "09190044500",
+    "tract_name": "Census Tract 445"
+  },
+  "indio-ca": {
+    "tract_fips": "06065045217",
+    "tract_name": "Census Tract 452.17"
+  },
+  "redding-ca": {
+    "tract_fips": "06089010900",
+    "tract_name": "Census Tract 109"
+  },
+  "hemet-ca": {
+    "tract_fips": "06065043306",
+    "tract_name": "Census Tract 433.06"
+  },
+  "hoover-al": {
+    "tract_fips": "01073014408",
+    "tract_name": "Census Tract 144.08"
+  },
+  "asheville-nc": {
+    "tract_fips": "37021000600",
+    "tract_name": "Census Tract 6"
+  },
+  "livonia-mi": {
+    "tract_fips": "26163557300",
+    "tract_name": "Census Tract 5573"
+  },
+  "nashua-nh": {
+    "tract_fips": "33011010802",
+    "tract_name": "Census Tract 108.02"
+  },
+  "sandy-ut": {
+    "tract_fips": "49035112613",
+    "tract_name": "Census Tract 1126.13"
+  },
+  "frederick-md": {
+    "tract_fips": "24021750801",
+    "tract_name": "Census Tract 7508.01"
+  },
+  "bryan-tx": {
+    "tract_fips": "48041000603",
+    "tract_name": "Census Tract 6.03"
+  },
+  "folsom-ca": {
+    "tract_fips": "06067008506",
+    "tract_name": "Census Tract 85.06"
+  },
+  "erie-pa": {
+    "tract_fips": "42049001300",
+    "tract_name": "Census Tract 13"
+  },
+  "trenton-nj": {
+    "tract_fips": "34021000900",
+    "tract_name": "Census Tract 9"
+  },
+  "roswell-ga": {
+    "tract_fips": "13121011417",
+    "tract_name": "Census Tract 114.17"
+  },
+  "champaign-il": {
+    "tract_fips": "17019001100",
+    "tract_name": "Census Tract 11"
+  },
+  "leander-tx": {
+    "tract_fips": "48491020332",
+    "tract_name": "Census Tract 203.32"
+  },
+  "clifton-nj": {
+    "tract_fips": "34031124321",
+    "tract_name": "Census Tract 1243.21"
+  },
+  "fort-smith-ar": {
+    "tract_fips": "05131001102",
+    "tract_name": "Census Tract 11.02"
+  },
+  "carson-ca": {
+    "tract_fips": "06037980025",
+    "tract_name": "Census Tract 9800.25"
+  },
+  "newton-ma": {
+    "tract_fips": "25017374200",
+    "tract_name": "Census Tract 3742"
+  },
+  "springdale-ar": {
+    "tract_fips": "05143010401",
+    "tract_name": "Census Tract 104.01"
+  },
+  "lawton-ok": {
+    "tract_fips": "40031000900",
+    "tract_name": "Census Tract 9"
+  },
+  "compton-ca": {
+    "tract_fips": "06037542502",
+    "tract_name": "Census Tract 5425.02"
+  },
+  "mission-viejo-ca": {
+    "tract_fips": "06059032002",
+    "tract_name": "Census Tract 320.02"
+  },
+  "franklin-tn": {
+    "tract_fips": "47187050906",
+    "tract_name": "Census Tract 509.06"
+  },
+  "santa-monica-ca": {
+    "tract_fips": "06037701902",
+    "tract_name": "Census Tract 7019.02"
+  },
+  "south-gate-ca": {
+    "tract_fips": "06037535902",
+    "tract_name": "Census Tract 5359.02"
+  },
+  "santa-fe-nm": {
+    "tract_fips": "35049000400",
+    "tract_name": "Census Tract 4"
+  },
+  "queen-creek-az": {
+    "tract_fips": "04013817103",
+    "tract_name": "Census Tract 8171.03"
+  },
+  "ogden-ut": {
+    "tract_fips": "49057201100",
+    "tract_name": "Census Tract 2011"
+  },
+  "deerfield-beach-fl": {
+    "tract_fips": "12011010403",
+    "tract_name": "Census Tract 104.03"
+  },
+  "lawrence-ma": {
+    "tract_fips": "25009251600",
+    "tract_name": "Census Tract 2516"
+  },
+  "bloomington-mn": {
+    "tract_fips": "27053025702",
+    "tract_name": "Census Tract 257.02"
+  },
+  "danbury-ct": {
+    "tract_fips": "09190210800",
+    "tract_name": "Census Tract 2108"
+  },
+  "mission-tx": {
+    "tract_fips": "48215020108",
+    "tract_name": "Census Tract 201.08"
+  },
+  "westminster-ca": {
+    "tract_fips": "06059099701",
+    "tract_name": "Census Tract 997.01"
+  },
+  "troy-mi": {
+    "tract_fips": "26125196900",
+    "tract_name": "Census Tract 1969"
+  },
+  "daytona-beach-fl": {
+    "tract_fips": "12127083205",
+    "tract_name": "Census Tract 832.05"
+  },
+  "kennewick-wa": {
+    "tract_fips": "53005011002",
+    "tract_name": "Census Tract 110.02"
+  },
+  "duluth-mn": {
+    "tract_fips": "27137015600",
+    "tract_name": "Census Tract 156"
+  },
+  "waukegan-il": {
+    "tract_fips": "17097862603",
+    "tract_name": "Census Tract 8626.03"
+  },
+  "warner-robins-ga": {
+    "tract_fips": "13153021002",
+    "tract_name": "Census Tract 210.02"
+  },
+  "south-jordan-ut": {
+    "tract_fips": "49035113022",
+    "tract_name": "Census Tract 1130.22"
+  },
+  "rancho-cordova-ca": {
+    "tract_fips": "06067008706",
+    "tract_name": "Census Tract 87.06"
+  },
+  "melbourne-fl": {
+    "tract_fips": "12009064702",
+    "tract_name": "Census Tract 647.02"
+  },
+  "gastonia-nc": {
+    "tract_fips": "37071032900",
+    "tract_name": "Census Tract 329"
+  },
+  "baytown-tx": {
+    "tract_fips": "48201253700",
+    "tract_name": "Census Tract 2537"
+  },
+  "medford-or": {
+    "tract_fips": "41029000502",
+    "tract_name": "Census Tract 5.02"
+  },
+  "santa-barbara-ca": {
+    "tract_fips": "06083001208",
+    "tract_name": "Census Tract 12.08"
+  },
+  "sioux-city-ia": {
+    "tract_fips": "19193000100",
+    "tract_name": "Census Tract 1"
+  },
+  "citrus-heights-ca": {
+    "tract_fips": "06067008141",
+    "tract_name": "Census Tract 81.41"
+  },
+  "lake-forest-ca": {
+    "tract_fips": "06059052425",
+    "tract_name": "Census Tract 524.25"
+  },
+  "auburn-wa": {
+    "tract_fips": "53033031101",
+    "tract_name": "Census Tract 311.01"
+  },
+  "homestead-fl": {
+    "tract_fips": "12086011014",
+    "tract_name": "Census Tract 110.14"
+  },
+  "san-ramon-ca": {
+    "tract_fips": "06013345112",
+    "tract_name": "Census Tract 3451.12"
+  },
+  "new-rochelle-ny": {
+    "tract_fips": "36119006500",
+    "tract_name": "Census Tract 65"
+  },
+  "whittier-ca": {
+    "tract_fips": "06037501600",
+    "tract_name": "Census Tract 5016"
+  },
+  "kissimmee-fl": {
+    "tract_fips": "12097041800",
+    "tract_name": "Census Tract 418"
+  },
+  "mountain-view-ca": {
+    "tract_fips": "06085509201",
+    "tract_name": "Census Tract 5092.01"
+  },
+  "san-leandro-ca": {
+    "tract_fips": "06001433300",
+    "tract_name": "Census Tract 4333"
+  },
+  "layton-ut": {
+    "tract_fips": "49011125805",
+    "tract_name": "Census Tract 1258.05"
+  },
+  "auburn-al": {
+    "tract_fips": "01081040903",
+    "tract_name": "Census Tract 409.03"
+  },
+  "cranston-ri": {
+    "tract_fips": "44007014502",
+    "tract_name": "Census Tract 145.02"
+  },
+  "mansfield-tx": {
+    "tract_fips": "48439111308",
+    "tract_name": "Census Tract 1113.08"
+  },
+  "somerville-ma": {
+    "tract_fips": "25017350202",
+    "tract_name": "Census Tract 3502.02"
+  },
+  "warwick-ri": {
+    "tract_fips": "44003021903",
+    "tract_name": "Census Tract 219.03"
+  },
+  "castle-rock-co": {
+    "tract_fips": "08035014503",
+    "tract_name": "Census Tract 145.03"
+  },
+  "brooklyn-park-mn": {
+    "tract_fips": "27053026823",
+    "tract_name": "Census Tract 268.23"
+  },
+  "livermore-ca": {
+    "tract_fips": "06001451401",
+    "tract_name": "Census Tract 4514.01"
+  },
+  "bloomington-in": {
+    "tract_fips": "18105000302",
+    "tract_name": "Census Tract 3.02"
+  },
+  "jonesboro-ar": {
+    "tract_fips": "05031000403",
+    "tract_name": "Census Tract 4.03"
+  },
+  "farmington-hills-mi": {
+    "tract_fips": "26125167000",
+    "tract_name": "Census Tract 1670"
+  },
+  "perris-ca": {
+    "tract_fips": "06065042801",
+    "tract_name": "Census Tract 428.01"
+  },
+  "longview-tx": {
+    "tract_fips": "48183000501",
+    "tract_name": "Census Tract 5.01"
+  },
+  "pasco-wa": {
+    "tract_fips": "53021980100",
+    "tract_name": "Census Tract 9801"
+  },
+  "hawthorne-ca": {
+    "tract_fips": "06037602403",
+    "tract_name": "Census Tract 6024.03"
+  },
+  "lake-charles-la": {
+    "tract_fips": "22019000800",
+    "tract_name": "Census Tract 8"
+  },
+  "redmond-wa": {
+    "tract_fips": "53033032324",
+    "tract_name": "Census Tract 323.24"
+  },
+  "boynton-beach-fl": {
+    "tract_fips": "12099006012",
+    "tract_name": "Census Tract 60.12"
+  },
+  "westland-mi": {
+    "tract_fips": "26163567900",
+    "tract_name": "Census Tract 5679"
+  },
+  "redwood-city-ca": {
+    "tract_fips": "06081610302",
+    "tract_name": "Census Tract 6103.02"
+  },
+  "newport-beach-ca": {
+    "tract_fips": "06059062800",
+    "tract_name": "Census Tract 628"
+  },
+  "cicero-il": {
+    "tract_fips": "17031814100",
+    "tract_name": "Census Tract 8141"
+  },
+  "buena-park-ca": {
+    "tract_fips": "06059110500",
+    "tract_name": "Census Tract 1105"
+  },
+  "doral-fl": {
+    "tract_fips": "12086009056",
+    "tract_name": "Census Tract 90.56"
+  },
+  "miami-beach-fl": {
+    "tract_fips": "12086004000",
+    "tract_name": "Census Tract 40"
+  },
+  "woodbury-mn": {
+    "tract_fips": "27163071024",
+    "tract_name": "Census Tract 710.24"
+  },
+  "loveland-co": {
+    "tract_fips": "08069001706",
+    "tract_name": "Census Tract 17.06"
+  },
+  "lynchburg-va": {
+    "tract_fips": "51680000802",
+    "tract_name": "Census Tract 8.02"
+  },
+  "pharr-tx": {
+    "tract_fips": "48215021408",
+    "tract_name": "Census Tract 214.08"
+  },
+  "largo-fl": {
+    "tract_fips": "12103025303",
+    "tract_name": "Census Tract 253.03"
+  },
+  "rapid-city-sd": {
+    "tract_fips": "46103010202",
+    "tract_name": "Census Tract 102.02"
+  },
+  "apex-nc": {
+    "tract_fips": "37183053433",
+    "tract_name": "Census Tract 534.33"
+  },
+  "johns-creek-ga": {
+    "tract_fips": "13121011629",
+    "tract_name": "Census Tract 116.29"
+  },
+  "alhambra-ca": {
+    "tract_fips": "06037480902",
+    "tract_name": "Census Tract 4809.02"
+  },
+  "bethlehem-pa": {
+    "tract_fips": "42095010602",
+    "tract_name": "Census Tract 106.02"
+  },
+  "flower-mound-tx": {
+    "tract_fips": "48121021750",
+    "tract_name": "Census Tract 217.50"
+  },
+  "upland-ca": {
+    "tract_fips": "06071000818",
+    "tract_name": "Census Tract 8.18"
+  },
+  "flint-mi": {
+    "tract_fips": "26049002800",
+    "tract_name": "Census Tract 28"
+  },
+  "lakeville-mn": {
+    "tract_fips": "27037060816",
+    "tract_name": "Census Tract 608.16"
+  },
+  "broomfield-co": {
+    "tract_fips": "08014030500",
+    "tract_name": "Census Tract 305"
+  },
+  "cedar-park-tx": {
+    "tract_fips": "48491020349",
+    "tract_name": "Census Tract 203.49"
+  },
+  "plymouth-mn": {
+    "tract_fips": "27053026514",
+    "tract_name": "Census Tract 265.14"
+  },
+  "missoula-mt": {
+    "tract_fips": "30063000801",
+    "tract_name": "Census Tract 8.01"
+  },
+  "mableton-ga": {
+    "tract_fips": "13067031308",
+    "tract_name": "Census Tract 313.08"
+  },
+  "bloomington-il": {
+    "tract_fips": "17113001800",
+    "tract_name": "Census Tract 18"
+  },
+  "milpitas-ca": {
+    "tract_fips": "06085504509",
+    "tract_name": "Census Tract 5045.09"
+  },
+  "wyoming-mi": {
+    "tract_fips": "26081013900",
+    "tract_name": "Census Tract 139"
+  },
+  "parma-oh": {
+    "tract_fips": "39035177608",
+    "tract_name": "Census Tract 1776.08"
+  },
+  "bowling-green-ky": {
+    "tract_fips": "21227010600",
+    "tract_name": "Census Tract 106"
+  },
+  "maricopa-az": {
+    "tract_fips": "04021001714",
+    "tract_name": "Census Tract 17.14"
+  },
+  "lakewood-ca": {
+    "tract_fips": "06037570902",
+    "tract_name": "Census Tract 5709.02"
+  },
+  "bismarck-nd": {
+    "tract_fips": "38015010200",
+    "tract_name": "Census Tract 102"
+  },
+  "racine-wi": {
+    "tract_fips": "55101000600",
+    "tract_name": "Census Tract 6"
+  },
+  "tustin-ca": {
+    "tract_fips": "06059075507",
+    "tract_name": "Census Tract 755.07"
+  },
+  "ankeny-ia": {
+    "tract_fips": "19153010205",
+    "tract_name": "Census Tract 102.05"
+  },
+  "san-marcos-tx": {
+    "tract_fips": "48209010500",
+    "tract_name": "Census Tract 105"
+  },
+  "marysville-wa": {
+    "tract_fips": "53061052810",
+    "tract_name": "Census Tract 528.10"
+  },
+  "pittsburg-ca": {
+    "tract_fips": "06013311000",
+    "tract_name": "Census Tract 3110"
+  },
+  "rochester-hills-mi": {
+    "tract_fips": "26125194200",
+    "tract_name": "Census Tract 1942"
+  },
+  "chino-hills-ca": {
+    "tract_fips": "06071000122",
+    "tract_name": "Census Tract 1.22"
+  },
+  "missouri-city-tx": {
+    "tract_fips": "48157670904",
+    "tract_name": "Census Tract 6709.04"
+  },
+  "flagstaff-az": {
+    "tract_fips": "04005001201",
+    "tract_name": "Census Tract 12.01"
+  },
+  "schaumburg-il": {
+    "tract_fips": "17031804709",
+    "tract_name": "Census Tract 8047.09"
+  },
+  "pawtucket-ri": {
+    "tract_fips": "44007017100",
+    "tract_name": "Census Tract 171"
+  },
+  "rogers-ar": {
+    "tract_fips": "05007020401",
+    "tract_name": "Census Tract 204.01"
+  },
+  "alameda-ca": {
+    "tract_fips": "06001428302",
+    "tract_name": "Census Tract 4283.02"
+  },
+  "rocklin-ca": {
+    "tract_fips": "06061021123",
+    "tract_name": "Census Tract 211.23"
+  },
+  "caldwell-id": {
+    "tract_fips": "16027021300",
+    "tract_name": "Census Tract 213"
+  },
+  "carlsbad-nm": {
+    "tract_fips": "35015000100",
+    "tract_name": "Census Tract 1"
+  },
+  "kalispell-mt": {
+    "tract_fips": "30029001000",
+    "tract_name": "Census Tract 10"
+  },
+  "durango-co": {
+    "tract_fips": "08067971000",
+    "tract_name": "Census Tract 9710"
+  },
+  "los-alamos-nm": {
+    "tract_fips": "35028000400",
+    "tract_name": "Census Tract 4"
+  },
+  "sandpoint-id": {
+    "tract_fips": "16017950300",
+    "tract_name": "Census Tract 9503"
+  },
+  "taos-nm": {
+    "tract_fips": "35055940101",
+    "tract_name": "Census Tract 9401.01"
+  },
+  "blanding-ut": {
+    "tract_fips": "49037978200",
+    "tract_name": "Census Tract 9782"
+  },
+  "monticello-ut": {
+    "tract_fips": "49037978100",
+    "tract_name": "Census Tract 9781"
+  },
+  "whitewright-tx": {
+    "tract_fips": "48181000102",
+    "tract_name": "Census Tract 1.02"
+  },
+  "sundance-wy": {
+    "tract_fips": "56011950300",
+    "tract_name": "Census Tract 9503"
+  },
+  "geraldine-mt": {
+    "tract_fips": "30015010300",
+    "tract_name": "Census Tract 103"
+  },
+  "grand-junction-co": {
+    "tract_fips": "08077000801",
+    "tract_name": "Census Tract 8.01"
+  }
+}

@@ -36,6 +36,21 @@ test("the fifth dataset (natural hazard risk) is selectable and honestly reports
   await expect(detail).toContainText("No data for this layer.");
 });
 
+test("the sixth dataset (social vulnerability) is selectable and reports a real percentile value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Social vulnerability" }).click();
+  await page.getByRole("button", { name: "Overall social vulnerability" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Social vulnerability: Overall social vulnerability" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Social vulnerability: Overall social vulnerability" });
+  await expect(detail).toContainText("percentile");
+  await expect(detail).toContainText("CDC/ATSDR SVI");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

@@ -38,6 +38,11 @@ data/raw/crime-offense-cache/
 data/raw/geocode-cache/
 data/raw/nri-counties.json
 
+# Pure fetch-scratch for the social-vulnerability dataset build
+# (scripts/gen_svi_data.py) -- same posture as the caches above.
+# data/svi.json and data/raw/city-tract-fips.json ARE committed.
+data/raw/svi-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
