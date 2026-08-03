@@ -34,10 +34,26 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  three genuinely different real implementations: allergy (climate/season-modeled
-  score), crime (a real government-sourced rate, with real year-over-year history), and
-  care access (nearest-hospital drive time, ported from allergy-locator's original
-  "second real dataset" that the interface itself was designed against).
+  nine genuinely different real implementations across the full 512-city spine, all
+  free and keyless:
+  - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
+    allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
+  - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
+    2020–2024 year-over-year history (`data/crime-methodology.md`).
+  - **Care access** — nearest-hospital drive time, general/pediatric-specialty/
+    pediatric-cardiac (`data/care-access-methodology.md`).
+  - **Natural hazard risk** — FEMA National Risk Index, overall plus inland flood/
+    coastal flood/wildfire (`data/hazard-methodology.md`).
+  - **Social vulnerability** — CDC/ATSDR SVI composite plus 4 sub-themes
+    (`data/svi-methodology.md`).
+  - **Health outcomes** — CDC PLACES chronic-disease prevalence: asthma, obesity,
+    diabetes, depression, high blood pressure (`data/health-methodology.md`).
+  - **Food access** — USDA Food Access Research Atlas, share of a population far from
+    a supermarket (`data/food-access-methodology.md`).
+  - **Housing supply** — Zillow For-Sale Inventory, listings per capita
+    (`data/housing-inventory-methodology.md`).
+  - **Housing market speed** — Zillow Mean Days to Pending
+    (`data/days-on-market-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
@@ -45,15 +61,25 @@ built from two real, working examples instead of upfront design.
   spans 2020–2024 real years (`data/crime-methodology.md`), with coverage that honestly
   grows year over year as more police agencies joined federal reporting, never
   backfilled or estimated for years without real data.
-- Every dataset ships its own methodology doc naming its real sourcing and limitations —
-  see `data/*-methodology.md`.
+- A power-user `/advanced` view: a sortable/filterable comparison table across every
+  active layer, CSV export, saved views, and a live formula editor for grass severity's
+  own component weights — all reading from a real SQLite database (`sql.js`/WASM) built
+  at deploy time, not a hand-rolled query layer.
+- Every dataset ships its own methodology doc naming its real sourcing and limitations,
+  including the honest gaps (a non-participating agency, a suppressed tract, a city
+  below a source's reporting threshold) — see `data/*-methodology.md`.
 
 ## What's next
 
-Porting allergy-locator's fuller daily/seasonal resolution into this same generalized
-interface, plus cross-dataset layer combination and natural-language search. See
-`.pHive/planning/roadmap.md` (v5) in the allergy-locator repo for the fuller reasoning
-this project grew out of.
+The Census-cluster datasets (population, income, broadband, property tax, at full
+~19,500-place resolution) are designed but blocked on a free, self-serve
+`CENSUS_API_KEY` (see `.pHive/epics/data-store/docs/full-resolution-spine-research.md`
+for the lazy-load design once that's available). Beyond that: more free, keyless real
+datasets as good candidates turn up (`.pHive/epics/data-store/docs/dataset-backlog.md`
+tracks research on ~25 candidates, ranked by real-world feasibility and effort), and
+continuing to port allergy-locator's fuller daily/seasonal resolution into this same
+generalized interface. See `.pHive/planning/roadmap.md` (v5) in the allergy-locator
+repo for the fuller reasoning this project grew out of.
 
 ## Stack
 
