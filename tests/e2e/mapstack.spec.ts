@@ -135,6 +135,21 @@ test("the tenth dataset (housing market speed) is selectable and honestly report
   await expect(detail).toContainText("Zillow Research");
 });
 
+test("the eleventh dataset (traffic safety) is selectable and reports a real county-sourced rate", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Traffic safety" }).click();
+  await page.getByRole("button", { name: "Traffic fatality rate", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Traffic safety: Traffic fatality rate" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Traffic safety: Traffic fatality rate" });
+  await expect(detail).toContainText("per 100k");
+  await expect(detail).toContainText("County Health Rankings");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

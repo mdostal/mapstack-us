@@ -65,6 +65,11 @@ data/raw/housing-inventory-cache/
 # above. data/days-on-market.json IS committed.
 data/raw/days-on-market-cache/
 
+# Pure fetch-scratch for the traffic-safety dataset build
+# (scripts/gen_traffic_fatalities_data.py) -- same posture as the caches
+# above. data/traffic-fatalities.json IS committed.
+data/raw/traffic-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
