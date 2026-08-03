@@ -36,7 +36,8 @@ built from two real, working examples instead of upfront design.
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
   three genuinely different real implementations: allergy (climate/season-modeled
   score), crime (a real government-sourced rate, with real year-over-year history), and
-  a deliberately unrelated mock dataset in the test suite.
+  care access (nearest-hospital drive time, ported from allergy-locator's original
+  "second real dataset" that the interface itself was designed against).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
@@ -49,10 +50,10 @@ built from two real, working examples instead of upfront design.
 
 ## What's next
 
-Porting allergy-locator's fuller daily/seasonal resolution and its healthcare-access
-dataset into this same generalized interface, plus cross-dataset layer combination and
-natural-language search. See `.pHive/planning/roadmap.md` (v5) in the allergy-locator
-repo for the fuller reasoning this project grew out of.
+Porting allergy-locator's fuller daily/seasonal resolution into this same generalized
+interface, plus cross-dataset layer combination and natural-language search. See
+`.pHive/planning/roadmap.md` (v5) in the allergy-locator repo for the fuller reasoning
+this project grew out of.
 
 ## Stack
 

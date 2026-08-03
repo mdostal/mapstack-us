@@ -9,7 +9,8 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
 - **Dataset (layer)** — A pluggable data source implementing the `Dataset` interface
   (`src/lib/datasets/types.ts`): a fixed set of `layers`, a per-city/per-layer
   `getValue()` returning a 0-100 "higher = more concerning" value, and a methodology
-  doc. Current datasets: allergy severity, healthcare access, crime (violent + property).
+  doc. Current datasets: allergy severity, crime (violent + property), care access
+  (drive time to nearest hospital — general/pediatric specialty/pediatric cardiac).
 - **Concern value** — The shared 0-100 scale every dataset's `getValue()` returns.
   Always "higher = more concerning" so one color ramp (`concernColor`) works
   unmodified across every dataset — no per-dataset inverted palette.
@@ -56,8 +57,11 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
 
 - `src/lib/datasets/types.ts` — the generalized Dataset interface; the reason this
   repo exists separately from allergy-locator.
-- `src/lib/datasets/{allergy,crime}.ts`, `registry.ts` — per-dataset implementations
-  and the registry that lists them for the picker.
+- `src/lib/datasets/{allergy,crime,care-access}.ts`, `registry.ts` — per-dataset
+  implementations and the registry that lists them for the picker.
+- `src/lib/formula/care-access-concern.ts` — piecewise-linear drive-time-to-concern
+  conversion for care access, anchored on the source data's own tier boundaries
+  (see `data/care-access-methodology.md`).
 - `src/lib/palette/` — the shared concern-value color ramp.
 - `src/lib/heatmap/` — IDW interpolation grid for continuous (not bucketed) rendering.
 - `src/lib/geo/` — state path data + city-marker dodge logic for overlapping cities.
