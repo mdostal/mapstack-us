@@ -695,6 +695,295 @@ principles (`README.md`) warn against.
 
 ---
 
+### 22. Property tax burden
+**Measures:** how much of a home's value gets consumed by property taxes each year — the
+single most commonly cited "tax burden" metric for homeowners, and a real gap: the original
+research pass that produced this backlog never looked at taxes at all. Naturally the next
+entry in the Census cluster (#1–#3) once that pipeline exists.
+
+**Real source:** [Census ACS](https://www.census.gov/programs-surveys/acs/data/data-via-api.html)
+table `B25103` (`B25103_001E`, "Median real estate taxes paid" across ALL owner-occupied
+units, not just those with a mortgage) paired with table `B25077` (`B25077_001E`, median
+home value) — same free Census API key as #1–#3. A second, more rigorous real source also
+exists: the [Lincoln Institute of Land Policy / Minnesota Center for Fiscal Excellence
+50-State Property Tax Comparison Study](https://www.lincolninst.edu/publications/other/50-state-property-tax-comparison-study/),
+a free annual report computing true effective tax rates (tax bill ÷ market value) for the
+largest city in each state plus the 50 largest US cities and one rural town per state
+(~124 locations total) — a better metric, but covering well under half the 168-city spine
+and shipped as a PDF report rather than a clean downloadable table, so it's noted here as a
+secondary cross-check source rather than the primary pick.
+
+**Raw direction / normalization:** higher ratio (`B25103_001E ÷ B25077_001E`) is more
+concerning — direct map onto 0–100, percentile rank among covered cities, matching crime's
+convention. A combined "total tax burden" composite blending this with #23/#24 below was
+considered per the operator's "overlay of taxes" ask and deliberately rejected — no free
+source computes one, and inventing a cross-tax-type weighting (how much does 1% of sales
+tax "cost" a resident vs. 1% of property tax?) is exactly the judgment call crime.ts already
+declined to make for violent-vs-property crime, and FEMA NRI's entry (#7) already declined
+to make across hazard types. Three separate, honestly-labeled layers instead.
+
+**City-level feasibility:** the real advantage of the ACS route over Lincoln Institute's —
+place-level 5-year ACS coverage extends to effectively the whole spine, same as #2/#3, with
+the same MOE caveat for small towns (here compounded, since it's a ratio of two
+independently-estimated medians, not a matched per-home calculation).
+
+**Effort vs. crime:** Small if sequenced after #1–#3 (reuses the existing Census pipeline,
+adds two new tables and one division) — Small–Medium in isolation. The cheapest of the
+three tax candidates researched here.
+
+**Known caveats:** this is a survey-based approximation of effective rate, not the
+assessed-value calculation Lincoln Institute's study performs — the two will diverge,
+sometimes sharply, in states with large assessment-vs-market-value gaps (California's
+Prop 13, Michigan's assessment caps, and similar). `B25103` also measures only
+owner-occupied households — renters (who pay property tax indirectly via rent) aren't
+represented, a real conflation worth naming the same way broadband (#3) names
+subscription-vs-availability.
+
+---
+
+### 23. Combined sales tax rate
+**Measures:** the combined state + local sales tax rate a resident actually pays at
+checkout — genuinely available at real municipal granularity, unlike income tax (#24)
+below.
+
+**Real source:** [Tax Foundation, "Sales Tax Rates by City"](https://taxfoundation.org/data/all/state/sales-tax-rates-by-city-2024/) —
+free downloadable Excel, no key, no login, covering combined state+local rates for
+incorporated places with population over 200,000 (~122 cities as of the 2024 edition, the
+most recent found). For spine cities below that threshold, Tax Foundation's companion
+[state-level report](https://taxfoundation.org/data/all/state/sales-tax-rates/) (confirmed
+updated twice yearly) supplies a population-weighted average local rate as a documented,
+coarser fallback — the same two-tier honesty pattern LAUS's county fallback (#11) already
+established.
+
+**Raw direction / normalization:** higher combined rate is more concerning — direct map
+onto 0–100.
+
+**City-level feasibility:** genuinely real city-level data for roughly the largest
+third-or-so of the spine (every spine city over ~200k population), state-level fallback for
+the rest — a real, two-tier coverage story that must be shown explicitly per city, not
+silently blended, the same transparency this project already gives LAUS/wildfire/NTD
+fallbacks.
+
+**Effort vs. crime:** Medium. Single free source, but a real design decision (which cities
+get the city-specific number vs. the state fallback, and how to flag that difference in the
+detail string) — comparable in shape to unemployment's (#11) fallback logic.
+
+**Known caveats:** the city-level product's own refresh cadence is less clear than the
+state-level report's confirmed twice-a-year cycle — treat the 2024 city vintage as a dated
+snapshot until a newer edition is confirmed, the same posture as wildfire risk's (#5) single
+dated vintage. Sales tax also doesn't apply evenly to all spending (many states exempt
+groceries/medicine), so the headline combined rate is a real but imperfect proxy for actual
+household sales-tax burden.
+
+---
+
+### 24. State income tax rate (state-level only — real, but geography-limited)
+**Measures:** what the operator's "overlay of taxes" ask implies as income tax burden — the
+real answer this research found is that it's a *state* policy variable almost everywhere,
+not a city one.
+
+**Real source:** [Tax Foundation, State Individual Income Tax Rates and Brackets](https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/) —
+free, no key, published annually, exact statutory rates rather than a survey estimate (no
+MOE problem at all, an actual advantage over several Census-based candidates above). Nine
+states levy no income tax; the rest range from flat rates (14 states, plus Ohio moving to
+flat in 2026) to graduated brackets running up to 13.3% (California's top rate).
+
+**Raw direction / normalization:** higher applicable rate is more concerning — direct map
+onto 0–100, using the rate that applies at each spine city's local median household income
+(#2) rather than the top marginal bracket, to avoid overstating burden for a typical
+resident.
+
+**City-level feasibility:** the real, honest limit of this candidate — in the 41 states with
+a broad-based income tax, every spine city in that state gets the identical number, exactly
+the "this reflects your state, not your city" gap political lean (#19) and the struck-out
+voter turnout entry below already surfaced. A genuine city-level exception exists for a real
+but short list of cities with their own local income/wage tax layered on top of the state
+rate (New York City ~3.876%, Philadelphia's wage tax ~3.75%, a number of Ohio and
+Pennsylvania municipalities, Louisville/Kansas City/St. Louis, and similar) — no unified
+free national dataset of these local add-on rates was found; capturing them would mean a
+real but small hand-maintained follow-on list, not a blocking one.
+
+**Effort vs. crime:** Small — simplest of the three tax candidates to fetch (one static
+table, no crosswalk, no matching) — but ranked last of the three anyway, for the same reason
+political lean (#19) is ranked below its engineering effort would otherwise suggest:
+shipping a layer that reads as "your city's taxes" but is actually identical across every
+city in a state is a real product-honesty question, not just a data task, and needs the same
+explicit "reflects your state" framing political lean already established before this is
+worth building.
+
+**Known caveats:** as above — state-level only for the overwhelming majority of the spine;
+the minority of cities with a real local add-on tax would need a separate, manually-sourced,
+harder-to-maintain layer if that precision is ever wanted. Marginal-vs-effective rate is a
+real modeling choice worth documenting explicitly (a resident at the local median income
+rarely pays their state's top marginal rate).
+
+---
+
+### 25. Housing inventory / home availability
+**Measures:** how many homes are actively for sale in a city right now, normalized by
+population — a "how hard is it to find something on the market here" supply signal, a real
+gap distinct from #4's price-to-income affordability question (a place can be affordable on
+paper and still have almost nothing listed).
+
+**Real source:** [Zillow Research's Housing Data portal](https://www.zillow.com/research/data/),
+same free-CSV, no-login posture as ZHVI (#4). The specific file — For-Sale Inventory, verified
+live at `https://files.zillowstatic.com/research/public_csvs/invt_fs/City_invt_fs_uc_sfrcondo_sm_month.csv`
+— reports the count of unique for-sale single-family/condo listings active in a given month,
+updated monthly (latest column as of this research: June 2026), at true **city** level (also
+ZIP/county/metro/neighborhood/state/national). Directly checked against all 168 spine cities
+by downloading and joining the live file (not assumed): 167/168 present.
+
+**Raw direction / normalization:** the raw column is a listing count, meaningless without a
+population denominator — 50 active listings means something very different in Sundance WY
+than in Houston TX. Pair with Census PEP population (#1, pipeline already built) to compute
+listings-per-1,000-residents; lower listings-per-capita is more concerning (tighter supply,
+harder to find a home), inverted onto 0–100, percentile rank matching crime's convention. A
+real tension worth naming explicitly: very low supply is sometimes a symptom of a place being
+genuinely desirable, not distressed — the same both-directions caveat #1 (population growth)
+already carries for its own metric; this score measures market tightness, not desirability.
+
+**City-level feasibility:** the best of any real-estate candidate researched — 167/168 spine
+cities present via direct city/state-name join. The one real crosswalk friction: Zillow spells
+out "Saint" rather than abbreviating "St." (Saint Louis, Saint Petersburg, Port Saint Lucie),
+a small but necessary name-normalization step before joining, not a data gap. Only Geraldine,
+MT has no Zillow-reported listing series at all — Zillow needs a minimum transaction/listing
+volume to report a market, and this is that real, honest null, joining the same small-town
+gap list #1's caveats and crime's agency-matching already established.
+
+**Effort vs. crime:** Small–Medium if sequenced after #1 (Census population pipeline) and #4
+(Zillow's static-CSV-no-key fetch pattern already exists for ZHVI) — reuses both directly.
+Medium in isolation. The one real design decision: population-normalization method
+(per-1,000-residents, the simplest defensible choice, vs. a derived months-of-supply proxy
+that Zillow doesn't publish at this geography and this project has no sales-volume source to
+build one from).
+
+**Known caveats:** For-Sale Inventory is a raw active-listing count, not "months of supply"
+(which needs a home-sales-rate denominator not available at city grain from any free source
+found) — a real, named simplification, not the housing economist's preferred metric. Small
+spine towns' listing counts can sit in the single digits, so month-to-month swings for the
+tiniest towns will be noisy from small-denominator statistics alone, the same caveat #1
+(population) and #8 (traffic fatalities) already name for their own small-town volatility.
+
+---
+
+### 26. Days on market
+**Measures:** how many days a typical active listing sits before going under contract — the
+"how fast is this market moving" complement to #25's raw supply-count question.
+
+**Real source:** the same [Zillow Research data portal](https://www.zillow.com/research/data/)
+as #4/#25 — the specific file, Mean Days to Pending, verified live at
+`https://files.zillowstatic.com/research/public_csvs/mean_doz_pending/City_mean_doz_pending_uc_sfrcondo_sm_month.csv`,
+free, no login, updated monthly, reported at true city level.
+
+**Raw direction / normalization — the real open question:** unlike #25, there's no single
+obvious "more concerning" pole here, a tension closer to political lean's (#19) than any
+other economy-category candidate. A very LOW days-on-market number (homes selling in days)
+reads as "hard to compete for a home here" from a prospective mover's perspective — the
+framing adopted here for consistency with #25: fast turnover inverted onto the concern scale
+(low days = high concern), pairing conceptually with #25 as a shared "market tightness" pair.
+But this is a real, named editorial choice, not an objective fact the data supplies on its
+own — a fast market is also a legitimate positive signal (a place everyone wants to live),
+the same both-directions tension #1 (population growth) already flags for its own metric.
+Worth stating as a deliberate framing decision in any methodology doc, not an oversight.
+
+**City-level feasibility:** real, but thinner than #25 — of the 168 spine cities, 161/168
+(95.8%) have a reported city-level days-to-pending series (after the same "Saint" vs "St."
+name-normalization step as #25, directly verified by downloading and joining the live file).
+The 7 gaps (Sundance WY, Blanding UT, Monticello UT, Taos NM, Geraldine MT, Kalispell MT,
+Whitewright TX) are exactly the kind of low-transaction-volume small towns already flagged as
+ZHVI's (#4) sparse-history risk — Zillow needs a real flow of pending sales, a thinner bar
+than the one needed to report a listing count (#25).
+
+**Effort vs. crime:** Medium. Same free-CSV mechanics as #25 (Small on the fetch alone,
+reusing #4's Zillow pipeline), but the real cost is the direction/framing decision above — a
+genuine product call, not just an engineering one, in the same shape as political lean's
+(#19) "blocked on a product decision" reasoning, though narrower in scope since a defensible
+default (fast-market-as-concerning) does exist here, unlike #19.
+
+**Known caveats:** as above, direction is a deliberate framing choice, not a neutral fact —
+should be named explicitly in any methodology doc. 7/168 spine cities have no reported value
+and need a real, shown null (same honesty posture as every small-town gap elsewhere in this
+backlog). Zillow's own methodology reports a *mean*, not median, days-to-pending — more
+sensitive to a handful of stale outlier listings than a median would be, worth naming the
+same way ZHVI's (#4) own "modeled, not transaction-price" caveat is named.
+
+---
+
+### 27. Average household wealth / net worth (weak — modeled estimate, no city-level source, lowest confidence)
+**Measures:** what the operator asked for as "average wealth" — household net worth (assets
+minus liabilities: home equity, retirement and investment accounts, business equity, minus
+debt), a genuinely distinct concept from #2's median household income (a flow, not a stock).
+This research confirmed there is no direct city-level, or even reliable metro-level,
+government source for this — see the real alternatives checked and rejected below.
+
+**Real source:** the authoritative source, the Federal Reserve's
+[Survey of Consumer Finances (SCF)](https://www.federalreserve.gov/econres/scfindex.htm) —
+triennial, 2022 is the latest published wave, a 2025 wave is expected to publish in late
+2026 — is confirmed **national-level only**; no state, metro, or city breakdown exists in any
+published SCF table or public microdata, a harder geographic ceiling than even #15's
+(cost-of-living) metro-only floor. Two ACS-based proxies were checked and rejected as
+freestanding candidates: (a) ACS median home value (table `B25077`, already used by #4/#22)
+measures gross home value, not net-of-debt equity — ACS collects no mortgage-balance/debt
+data at all, making it a poor wealth proxy on its own and redundant with #4/#22's existing
+framing if reused here; (b) [IRS SOI ZIP-code data](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi)
+on investment income (dividends, interest, capital gains) is real and free, but ZIP codes
+with under 100 returns are suppressed entirely (a real problem for the spine's smallest
+towns), ZIP boundaries don't respect city limits (a worse crosswalk problem than any
+tract/county source already in this backlog), and it mostly re-measures income derived from
+capital rather than net worth, overlapping with #2 instead of adding a distinct signal. The
+one real sub-national estimate found:
+[GEOWEALTH-US](https://www.openicpsr.org/openicpsr/project/192306/version/V4/view) (Suss,
+Kemeny & Connor, *Nature Scientific Data*, 2024) — free, CC BY 4.0 licensed, downloadable via
+ICPSR (DOI 10.3886/E192306) with only a free account required, the same free-account posture
+as this backlog's other gated sources. It's a machine-learning model trained on real SCF
+household records, used to impute household wealth onto ACS/Census microdata, reporting
+mean/median wealth and inequality measures at commuting-zone (741 zones), metro-area (573
+areas), and PUMA (11,805 areas, ~100k population each) geography, 1960–2020 (2020 is the
+latest vintage).
+
+**Raw direction / normalization:** lower estimated median household wealth is more
+concerning — direct map onto 0–100, percentile rank among covered geographies matching
+crime's convention. This is the one candidate in this entire backlog whose headline number is
+itself a statistical model's prediction rather than a directly reported or directly computed
+figure — a materially different kind of "known limitation" than any real source above, called
+out here explicitly rather than folded into the usual caveat language.
+
+**City-level feasibility:** the real, material weak point — **no output at municipal/place
+geography exists at all**, even PUMA (the finest level GEOWEALTH-US offers) is a Census
+statistical geography of roughly 100,000 residents that frequently spans multiple small
+spine towns or covers only a fraction of one large city, not a city-boundary match. Every
+spine city would need a real, documented city-to-PUMA (or coarser, city-to-CZ/metro)
+crosswalk decision, and the same "this reflects your region, not your specific city" caveat
+#15/#19/#24 already established would need to be even more prominent here than for any of
+those, since PUMA/CZ boundaries are far less recognizable to a user than a metro name or a
+state.
+
+**Effort vs. crime:** Large. Combines a real, non-trivial geography crosswalk (city-to-PUMA
+point-in-polygon, needing PUMA boundary shapefiles — GIS work in the same weight class as
+#16/#17/#20) with a genuine, unresolved product question (is presenting a machine-learning-
+imputed estimate, on a geography most users have never heard of, as "your city's wealth"
+consistent with this project's own no-invented-precision principle?) that has to be resolved
+before implementation starts — the same blocking-product-decision shape as political lean
+(#19), stacked on top of real GIS effort #19 doesn't require. The single largest-effort,
+lowest-confidence candidate in this backlog.
+
+**Known caveats:** modeled/imputed, not measured — the authors' own validation shows
+materially weaker accuracy for negative-net-worth households (RMSE 1.48, correlation 0.38)
+than for positive net worth (RMSE 0.99, correlation 0.94), the group arguably most relevant
+to a "concerning" framing. No sub-state geographic validation exists at all, because no other
+public wealth dataset carries geographic identifiers below the state level — so GEOWEALTH-US's
+own sub-state accuracy is essentially unverifiable by its own authors' admission, a real and
+unusual epistemic gap worth stating plainly rather than smoothing over, more fundamental than
+any coverage gap or MOE caveat elsewhere in this backlog. Latest vintage is 2020 — six years
+stale as of this research, a single dated snapshot with no confirmed refresh cadence. On
+balance: closer to #21's "weak — proxy only" posture than a fully struck-out candidate, kept
+in the backlog because a real, free, citable, peer-reviewed source does exist (unlike voter
+turnout's struck-out entry below, which had no sub-state source at all) — but ranked last of
+every candidate in this backlog, and any future implementation should treat it as the most
+heavily-caveated layer in the project, not a routine build.
+
+---
+
 ## Struck out: no usable free source found
 
 ### Voter turnout (city or county level)
@@ -722,6 +1011,20 @@ Not excluded outright either — NCES CCD (#21) is a real free fallback — but 
 actual *rating* products a user would recognize as "school quality" are commercial:
 GreatSchools' API is metered/paid beyond a limited free trial, and Niche.com has no
 official free API at all. Neither is a viable $0, no-paid-key source.
+
+### Total tax burden composite (WalletHub-style)
+Considered per the operator's "overlay of taxes" ask and rejected as a standalone layer —
+no free source computes a genuine combined property+income+sales composite (WalletHub's own
+well-known version is a proprietary in-house calculation, not a public dataset). Building
+one in-house would require inventing a cross-tax-type weighting this project has no basis
+to make — see #22's normalization note. Three separate, honestly-labeled layers (#22–#24
+above) instead of one invented number.
+
+### Sales tax via commercial API (Avalara AvaTax)
+Not excluded outright — Tax Foundation's city-level table (#23) is a real, free substitute —
+but noting explicitly that Avalara's frequently-cited "free" sales-tax API is confirmed to
+be a time-limited (90-day) trial account, not a permanent $0 source, the same paid/metered
+rejection this backlog already applied to GreatSchools (#21) and C2ER (#15).
 
 ---
 
