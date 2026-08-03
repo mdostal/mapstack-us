@@ -58,6 +58,16 @@ export function PowerUserPanel() {
 
   const [selected, setSelected] = useState<ActiveLayer[]>(decoded?.selections.length ? decoded.selections : DEFAULT_SELECTION);
   const [sortKeys, setSortKeys] = useState<SortSpec[]>(decoded?.sortKeys ?? []);
+  // LayerPicker computes which dataset groups start expanded ONCE at mount
+  // (deliberately non-reactive -- see its own doc comment: collapsing a
+  // group you're not using shouldn't silently reopen just because
+  // selection changes elsewhere). Restoring a saved view is a real
+  // exception to that: it's a discrete bulk-apply action, and a group that
+  // just gained a selection from it should visibly open, not stay
+  // collapsed showing no sign anything changed. Bumping this key forces
+  // LayerPicker to remount (and its groups to recompute) only on restore,
+  // never on ordinary checkbox interaction.
+  const [restoreVersion, setRestoreVersion] = useState(0);
   const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
   const [viewMode, setViewMode] = useState<"table" | "map">("table");
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
@@ -103,6 +113,7 @@ export function PowerUserPanel() {
   function restoreSavedView(view: SavedView) {
     setSelected(view.selections);
     setSortKeys(view.sortKeys);
+    setRestoreVersion((v) => v + 1);
     // Also reflect the restored view in the URL so it's shareable, not just
     // applied in-memory -- see .pHive/design/power-user-saved-views/brief.md.
     // Written via window.history.replaceState directly, NOT next/navigation's
@@ -157,7 +168,7 @@ export function PowerUserPanel() {
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
         <div className="flex flex-col gap-3 overflow-y-auto md:top-6 md:h-[calc(100vh-4.5rem)] md:w-64 md:flex-shrink-0 md:sticky">
           <AccordionSection title="Layers" defaultOpen>
-            <LayerPicker selected={selected} onToggle={toggle} onClearAll={clearAllLayers} />
+            <LayerPicker key={restoreVersion} selected={selected} onToggle={toggle} onClearAll={clearAllLayers} />
           </AccordionSection>
           <AccordionSection title="Saved views">
             <SavedViewsPanel currentSelections={selected} currentSortKeys={sortKeys} onRestore={restoreSavedView} />

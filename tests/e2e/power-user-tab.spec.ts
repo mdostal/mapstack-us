@@ -163,3 +163,37 @@ test("saving, restoring, renaming, and deleting a view, and it survives a reload
   await page.getByRole("button", { name: "Delete saved view: Renamed View" }).click();
   await expect(page.getByText("No saved views yet.")).toBeVisible();
 });
+
+test("restoring a saved view expands every dataset group it activated, not just the ones already open -- regression for a collapsed-group bug", async ({
+  page,
+}) => {
+  // Real bug found live: LayerPicker's accordion groups compute their
+  // open/closed state ONCE at mount (by design, so a group the user
+  // deliberately collapses doesn't silently reopen on unrelated selection
+  // changes -- see LayerPicker.tsx's doc comment). Restoring a saved view
+  // is a legitimate exception: a group that just gained a selection from
+  // it should visibly open, not stay collapsed with no sign anything
+  // changed underneath. Fixed by remounting LayerPicker (via a `key` that
+  // bumps only on restore) so it recomputes.
+  await page.goto("/advanced");
+  await page.getByRole("button", { name: "Care access", exact: true }).click();
+  await page.getByLabel("General / acute care", { exact: true }).click();
+
+  await page.getByRole("button", { name: "Saved views" }).click();
+  await page.getByRole("button", { name: "Save current view" }).click();
+  await page.getByLabel("View name").fill("Care access check");
+  await page.getByRole("button", { name: "Save", exact: true }).click();
+
+  // Switch to a selection that doesn't include Care access, then collapse
+  // its group (while it's still open, before the checkbox disappears).
+  await page.getByLabel("General / acute care", { exact: true }).uncheck();
+  await page.getByRole("button", { name: "Care access", exact: true }).click();
+  await expect(page.getByRole("button", { name: "Care access", exact: true })).toHaveAttribute("aria-expanded", "false");
+
+  await page.getByRole("button", { name: "Restore saved view: Care access check" }).click();
+  await expect(page.getByRole("button", { name: "Care access", exact: true })).toHaveAttribute("aria-expanded", "true");
+  await expect(page.getByLabel("General / acute care", { exact: true })).toBeChecked();
+
+  page.once("dialog", (dialog) => dialog.accept());
+  await page.getByRole("button", { name: "Delete saved view: Care access check" }).click();
+});
