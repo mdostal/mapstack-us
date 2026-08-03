@@ -143,6 +143,12 @@ test("the map stays a normal, bounded size no matter how many layers are stacked
   // its un-clipped content's natural width -- see BaseSvgMap.tsx/
   // MapstackApp.tsx's min-w-0 fix). Assert a hard bound well under any
   // plausible correct size, not just "grew a little."
+  //
+  // Real CI flake found live: 28 sequential real clicks sit right at the
+  // default 30s test timeout locally and reliably tip over it on CI's
+  // slower/shared runners -- not a product bug, just an inherently slow
+  // test. Double the timeout rather than speeding up the interaction.
+  test.setTimeout(60_000);
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
 

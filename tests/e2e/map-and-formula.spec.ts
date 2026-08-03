@@ -20,6 +20,13 @@ test("advanced route defaults to table view, and Map toggles to the real map", a
 test("the map stays a normal, bounded size with many layers stacked, and the layer-control strip scrolls horizontally instead of forcing width -- regression for a flex min-width bug", async ({
   page,
 }) => {
+  // Real CI flake found live: 29 sequential real clicks sit right at the
+  // default 30s test timeout locally (~23-24s observed) and reliably tip
+  // over it on CI's slower/shared runners. Not a product bug -- the
+  // feature itself works; this test is just inherently slow. Double the
+  // timeout rather than speeding up the interaction, so this stays a
+  // faithful simulation of a user actually clicking each checkbox.
+  test.setTimeout(60_000);
   await page.goto("/advanced");
   await page.getByRole("tab", { name: "Map" }).click();
 
