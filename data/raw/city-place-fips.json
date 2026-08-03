@@ -1,0 +1,2038 @@
+{
+  "new-york-ny": {
+    "place_fips": "3651000",
+    "place_name": "New York"
+  },
+  "los-angeles-ca": {
+    "place_fips": "0644000",
+    "place_name": "Los Angeles"
+  },
+  "chicago-il": {
+    "place_fips": "1714000",
+    "place_name": "Chicago"
+  },
+  "houston-tx": {
+    "place_fips": "4835000",
+    "place_name": "Houston"
+  },
+  "phoenix-az": {
+    "place_fips": "0455000",
+    "place_name": "Phoenix"
+  },
+  "philadelphia-pa": {
+    "place_fips": "4260000",
+    "place_name": "Philadelphia"
+  },
+  "san-antonio-tx": {
+    "place_fips": "4865000",
+    "place_name": "San Antonio"
+  },
+  "san-diego-ca": {
+    "place_fips": "0666000",
+    "place_name": "San Diego"
+  },
+  "dallas-tx": {
+    "place_fips": "4819000",
+    "place_name": "Dallas"
+  },
+  "fort-worth-tx": {
+    "place_fips": "4827000",
+    "place_name": "Fort Worth"
+  },
+  "jacksonville-fl": {
+    "place_fips": "1235000",
+    "place_name": "Jacksonville"
+  },
+  "austin-tx": {
+    "place_fips": "4805000",
+    "place_name": "Austin"
+  },
+  "san-jose-ca": {
+    "place_fips": "0668000",
+    "place_name": "San Jose"
+  },
+  "charlotte-nc": {
+    "place_fips": "3712000",
+    "place_name": "Charlotte"
+  },
+  "columbus-oh": {
+    "place_fips": "3918000",
+    "place_name": "Columbus"
+  },
+  "indianapolis-in": {
+    "place_fips": "1836003",
+    "place_name": "Indianapolis city (balance)"
+  },
+  "san-francisco-ca": {
+    "place_fips": "0667000",
+    "place_name": "San Francisco"
+  },
+  "seattle-wa": {
+    "place_fips": "5363000",
+    "place_name": "Seattle"
+  },
+  "denver-co": {
+    "place_fips": "0820000",
+    "place_name": "Denver"
+  },
+  "nashville-tn": {
+    "place_fips": "4752006",
+    "place_name": "Nashville-Davidson metropolitan government (balance)"
+  },
+  "oklahoma-city-ok": {
+    "place_fips": "4055000",
+    "place_name": "Oklahoma City"
+  },
+  "washington-dc": {
+    "place_fips": "1150000",
+    "place_name": "Washington"
+  },
+  "el-paso-tx": {
+    "place_fips": "4824000",
+    "place_name": "El Paso"
+  },
+  "las-vegas-nv": {
+    "place_fips": "3240000",
+    "place_name": "Las Vegas"
+  },
+  "boston-ma": {
+    "place_fips": "2507000",
+    "place_name": "Boston"
+  },
+  "detroit-mi": {
+    "place_fips": "2622000",
+    "place_name": "Detroit"
+  },
+  "louisville-ky": {
+    "place_fips": "2148000",
+    "place_name": "Louisville"
+  },
+  "portland-or": {
+    "place_fips": "4159000",
+    "place_name": "Portland"
+  },
+  "memphis-tn": {
+    "place_fips": "4748000",
+    "place_name": "Memphis"
+  },
+  "baltimore-md": {
+    "place_fips": "2404000",
+    "place_name": "Baltimore"
+  },
+  "milwaukee-wi": {
+    "place_fips": "5553000",
+    "place_name": "Milwaukee"
+  },
+  "albuquerque-nm": {
+    "place_fips": "3502000",
+    "place_name": "Albuquerque"
+  },
+  "fresno-ca": {
+    "place_fips": "0627000",
+    "place_name": "Fresno"
+  },
+  "tucson-az": {
+    "place_fips": "0477000",
+    "place_name": "Tucson"
+  },
+  "sacramento-ca": {
+    "place_fips": "0664000",
+    "place_name": "Sacramento"
+  },
+  "atlanta-ga": {
+    "place_fips": "1304000",
+    "place_name": "Atlanta"
+  },
+  "kansas-city-mo": {
+    "place_fips": "2938000",
+    "place_name": "Kansas City"
+  },
+  "mesa-az": {
+    "place_fips": "0446000",
+    "place_name": "Mesa"
+  },
+  "raleigh-nc": {
+    "place_fips": "3755000",
+    "place_name": "Raleigh"
+  },
+  "colorado-springs-co": {
+    "place_fips": "0816000",
+    "place_name": "Colorado Springs"
+  },
+  "miami-fl": {
+    "place_fips": "1245000",
+    "place_name": "Miami"
+  },
+  "omaha-ne": {
+    "place_fips": "3137000",
+    "place_name": "Omaha"
+  },
+  "virginia-beach-va": {
+    "place_fips": "5182000",
+    "place_name": "Virginia Beach"
+  },
+  "long-beach-ca": {
+    "place_fips": "0643000",
+    "place_name": "Long Beach"
+  },
+  "oakland-ca": {
+    "place_fips": "0653000",
+    "place_name": "Oakland"
+  },
+  "minneapolis-mn": {
+    "place_fips": "2743000",
+    "place_name": "Minneapolis"
+  },
+  "bakersfield-ca": {
+    "place_fips": "0603526",
+    "place_name": "Bakersfield"
+  },
+  "tulsa-ok": {
+    "place_fips": "4075000",
+    "place_name": "Tulsa"
+  },
+  "tampa-fl": {
+    "place_fips": "1271000",
+    "place_name": "Tampa"
+  },
+  "aurora-co": {
+    "place_fips": "0804000",
+    "place_name": "Aurora"
+  },
+  "arlington-tx": {
+    "place_fips": "4804000",
+    "place_name": "Arlington"
+  },
+  "wichita-ks": {
+    "place_fips": "2079000",
+    "place_name": "Wichita"
+  },
+  "cleveland-oh": {
+    "place_fips": "3916000",
+    "place_name": "Cleveland"
+  },
+  "new-orleans-la": {
+    "place_fips": "2255000",
+    "place_name": "New Orleans"
+  },
+  "henderson-nv": {
+    "place_fips": "3231900",
+    "place_name": "Henderson"
+  },
+  "honolulu-hi": {
+    "place_fips": "1571550",
+    "place_name": "Urban Honolulu"
+  },
+  "anaheim-ca": {
+    "place_fips": "0602000",
+    "place_name": "Anaheim"
+  },
+  "orlando-fl": {
+    "place_fips": "1253000",
+    "place_name": "Orlando"
+  },
+  "lexington-ky": {
+    "place_fips": "2146027",
+    "place_name": "Lexington-Fayette"
+  },
+  "stockton-ca": {
+    "place_fips": "0675000",
+    "place_name": "Stockton"
+  },
+  "newark-nj": {
+    "place_fips": "3451000",
+    "place_name": "Newark"
+  },
+  "riverside-ca": {
+    "place_fips": "0662000",
+    "place_name": "Riverside"
+  },
+  "irvine-ca": {
+    "place_fips": "0636770",
+    "place_name": "Irvine"
+  },
+  "corpus-christi-tx": {
+    "place_fips": "4817000",
+    "place_name": "Corpus Christi"
+  },
+  "santa-ana-ca": {
+    "place_fips": "0669000",
+    "place_name": "Santa Ana"
+  },
+  "cincinnati-oh": {
+    "place_fips": "3915000",
+    "place_name": "Cincinnati"
+  },
+  "greensboro-nc": {
+    "place_fips": "3728000",
+    "place_name": "Greensboro"
+  },
+  "pittsburgh-pa": {
+    "place_fips": "4261000",
+    "place_name": "Pittsburgh"
+  },
+  "saint-paul-mn": {
+    "place_fips": "2758000",
+    "place_name": "St. Paul"
+  },
+  "durham-nc": {
+    "place_fips": "3719000",
+    "place_name": "Durham"
+  },
+  "jersey-city-nj": {
+    "place_fips": "3436000",
+    "place_name": "Jersey City"
+  },
+  "lincoln-ne": {
+    "place_fips": "3128000",
+    "place_name": "Lincoln"
+  },
+  "north-las-vegas-nv": {
+    "place_fips": "3251800",
+    "place_name": "North Las Vegas"
+  },
+  "plano-tx": {
+    "place_fips": "4858016",
+    "place_name": "Plano"
+  },
+  "gilbert-az": {
+    "place_fips": "0427400",
+    "place_name": "Gilbert"
+  },
+  "anchorage-ak": {
+    "place_fips": "0203000",
+    "place_name": "Anchorage"
+  },
+  "madison-wi": {
+    "place_fips": "5548000",
+    "place_name": "Madison"
+  },
+  "reno-nv": {
+    "place_fips": "3260600",
+    "place_name": "Reno"
+  },
+  "chandler-az": {
+    "place_fips": "0412000",
+    "place_name": "Chandler"
+  },
+  "st-louis-mo": {
+    "place_fips": "2965000",
+    "place_name": "St. Louis"
+  },
+  "chula-vista-ca": {
+    "place_fips": "0613392",
+    "place_name": "Chula Vista"
+  },
+  "fort-wayne-in": {
+    "place_fips": "1825000",
+    "place_name": "Fort Wayne"
+  },
+  "buffalo-ny": {
+    "place_fips": "3611000",
+    "place_name": "Buffalo"
+  },
+  "lubbock-tx": {
+    "place_fips": "4845000",
+    "place_name": "Lubbock"
+  },
+  "laredo-tx": {
+    "place_fips": "4841464",
+    "place_name": "Laredo"
+  },
+  "port-st-lucie-fl": {
+    "place_fips": "1258715",
+    "place_name": "Port St. Lucie"
+  },
+  "st-petersburg-fl": {
+    "place_fips": "1263000",
+    "place_name": "St. Petersburg"
+  },
+  "toledo-oh": {
+    "place_fips": "3977000",
+    "place_name": "Toledo"
+  },
+  "glendale-az": {
+    "place_fips": "0427820",
+    "place_name": "Glendale"
+  },
+  "winston-salem-nc": {
+    "place_fips": "3775000",
+    "place_name": "Winston-Salem"
+  },
+  "irving-tx": {
+    "place_fips": "4837000",
+    "place_name": "Irving"
+  },
+  "chesapeake-va": {
+    "place_fips": "5116000",
+    "place_name": "Chesapeake"
+  },
+  "garland-tx": {
+    "place_fips": "4829000",
+    "place_name": "Garland"
+  },
+  "arlington-va": {
+    "place_fips": "5103000",
+    "place_name": "Arlington"
+  },
+  "scottsdale-az": {
+    "place_fips": "0465000",
+    "place_name": "Scottsdale"
+  },
+  "boise-id": {
+    "place_fips": "1608830",
+    "place_name": "Boise City"
+  },
+  "richmond-va": {
+    "place_fips": "5167000",
+    "place_name": "Richmond"
+  },
+  "frisco-tx": {
+    "place_fips": "4827684",
+    "place_name": "Frisco"
+  },
+  "cape-coral-fl": {
+    "place_fips": "1210275",
+    "place_name": "Cape Coral"
+  },
+  "mckinney-tx": {
+    "place_fips": "4845744",
+    "place_name": "McKinney"
+  },
+  "huntsville-al": {
+    "place_fips": "0137000",
+    "place_name": "Huntsville"
+  },
+  "norfolk-va": {
+    "place_fips": "5157000",
+    "place_name": "Norfolk"
+  },
+  "hialeah-fl": {
+    "place_fips": "1230000",
+    "place_name": "Hialeah"
+  },
+  "spokane-wa": {
+    "place_fips": "5367000",
+    "place_name": "Spokane"
+  },
+  "tacoma-wa": {
+    "place_fips": "5370000",
+    "place_name": "Tacoma"
+  },
+  "santa-clarita-ca": {
+    "place_fips": "0669088",
+    "place_name": "Santa Clarita"
+  },
+  "fremont-ca": {
+    "place_fips": "0626000",
+    "place_name": "Fremont"
+  },
+  "baton-rouge-la": {
+    "place_fips": "2205000",
+    "place_name": "Baton Rouge"
+  },
+  "san-bernardino-ca": {
+    "place_fips": "0665000",
+    "place_name": "San Bernardino"
+  },
+  "fontana-ca": {
+    "place_fips": "0624680",
+    "place_name": "Fontana"
+  },
+  "modesto-ca": {
+    "place_fips": "0648354",
+    "place_name": "Modesto"
+  },
+  "salt-lake-city-ut": {
+    "place_fips": "4967000",
+    "place_name": "Salt Lake City"
+  },
+  "moreno-valley-ca": {
+    "place_fips": "0649270",
+    "place_name": "Moreno Valley"
+  },
+  "worcester-ma": {
+    "place_fips": "2582000",
+    "place_name": "Worcester"
+  },
+  "sioux-falls-sd": {
+    "place_fips": "4659020",
+    "place_name": "Sioux Falls"
+  },
+  "yonkers-ny": {
+    "place_fips": "3684000",
+    "place_name": "Yonkers"
+  },
+  "des-moines-ia": {
+    "place_fips": "1921000",
+    "place_name": "Des Moines"
+  },
+  "grand-prairie-tx": {
+    "place_fips": "4830464",
+    "place_name": "Grand Prairie"
+  },
+  "fayetteville-nc": {
+    "place_fips": "3722920",
+    "place_name": "Fayetteville"
+  },
+  "little-rock-ar": {
+    "place_fips": "0541000",
+    "place_name": "Little Rock"
+  },
+  "rochester-ny": {
+    "place_fips": "3663000",
+    "place_name": "Rochester"
+  },
+  "amarillo-tx": {
+    "place_fips": "4803000",
+    "place_name": "Amarillo"
+  },
+  "tallahassee-fl": {
+    "place_fips": "1270600",
+    "place_name": "Tallahassee"
+  },
+  "overland-park-ks": {
+    "place_fips": "2053775",
+    "place_name": "Overland Park"
+  },
+  "columbus-ga": {
+    "place_fips": "1319000",
+    "place_name": "Columbus"
+  },
+  "knoxville-tn": {
+    "place_fips": "4740000",
+    "place_name": "Knoxville"
+  },
+  "augusta-ga": {
+    "place_fips": "1304204",
+    "place_name": "Augusta-Richmond County consolidated government (balance)"
+  },
+  "grand-rapids-mi": {
+    "place_fips": "2634000",
+    "place_name": "Grand Rapids"
+  },
+  "peoria-az": {
+    "place_fips": "0454050",
+    "place_name": "Peoria"
+  },
+  "mobile-al": {
+    "place_fips": "0150000",
+    "place_name": "Mobile"
+  },
+  "vancouver-wa": {
+    "place_fips": "5374060",
+    "place_name": "Vancouver"
+  },
+  "oxnard-ca": {
+    "place_fips": "0654652",
+    "place_name": "Oxnard"
+  },
+  "birmingham-al": {
+    "place_fips": "0107000",
+    "place_name": "Birmingham"
+  },
+  "providence-ri": {
+    "place_fips": "4459000",
+    "place_name": "Providence"
+  },
+  "montgomery-al": {
+    "place_fips": "0151000",
+    "place_name": "Montgomery"
+  },
+  "chattanooga-tn": {
+    "place_fips": "4714000",
+    "place_name": "Chattanooga"
+  },
+  "brownsville-tx": {
+    "place_fips": "4810768",
+    "place_name": "Brownsville"
+  },
+  "huntington-beach-ca": {
+    "place_fips": "0636000",
+    "place_name": "Huntington Beach"
+  },
+  "tempe-az": {
+    "place_fips": "0473000",
+    "place_name": "Tempe"
+  },
+  "akron-oh": {
+    "place_fips": "3901000",
+    "place_name": "Akron"
+  },
+  "clarksville-tn": {
+    "place_fips": "4715160",
+    "place_name": "Clarksville"
+  },
+  "fort-lauderdale-fl": {
+    "place_fips": "1224000",
+    "place_name": "Fort Lauderdale"
+  },
+  "glendale-ca": {
+    "place_fips": "0630000",
+    "place_name": "Glendale"
+  },
+  "ontario-ca": {
+    "place_fips": "0653896",
+    "place_name": "Ontario"
+  },
+  "elk-grove-ca": {
+    "place_fips": "0622020",
+    "place_name": "Elk Grove"
+  },
+  "cary-nc": {
+    "place_fips": "3710740",
+    "place_name": "Cary"
+  },
+  "newport-news-va": {
+    "place_fips": "5156000",
+    "place_name": "Newport News"
+  },
+  "salem-or": {
+    "place_fips": "4164900",
+    "place_name": "Salem"
+  },
+  "aurora-il": {
+    "place_fips": "1703012",
+    "place_name": "Aurora"
+  },
+  "santa-rosa-ca": {
+    "place_fips": "0670098",
+    "place_name": "Santa Rosa"
+  },
+  "eugene-or": {
+    "place_fips": "4123850",
+    "place_name": "Eugene"
+  },
+  "rancho-cucamonga-ca": {
+    "place_fips": "0659451",
+    "place_name": "Rancho Cucamonga"
+  },
+  "pembroke-pines-fl": {
+    "place_fips": "1255775",
+    "place_name": "Pembroke Pines"
+  },
+  "shreveport-la": {
+    "place_fips": "2270000",
+    "place_name": "Shreveport"
+  },
+  "surprise-az": {
+    "place_fips": "0471510",
+    "place_name": "Surprise"
+  },
+  "fort-collins-co": {
+    "place_fips": "0827425",
+    "place_name": "Fort Collins"
+  },
+  "murfreesboro-tn": {
+    "place_fips": "4751560",
+    "place_name": "Murfreesboro"
+  },
+  "oceanside-ca": {
+    "place_fips": "0653322",
+    "place_name": "Oceanside"
+  },
+  "garden-grove-ca": {
+    "place_fips": "0629000",
+    "place_name": "Garden Grove"
+  },
+  "lancaster-ca": {
+    "place_fips": "0640130",
+    "place_name": "Lancaster"
+  },
+  "springfield-mo": {
+    "place_fips": "2970000",
+    "place_name": "Springfield"
+  },
+  "denton-tx": {
+    "place_fips": "4819972",
+    "place_name": "Denton"
+  },
+  "roseville-ca": {
+    "place_fips": "0662938",
+    "place_name": "Roseville"
+  },
+  "killeen-tx": {
+    "place_fips": "4839148",
+    "place_name": "Killeen"
+  },
+  "palmdale-ca": {
+    "place_fips": "0655156",
+    "place_name": "Palmdale"
+  },
+  "paterson-nj": {
+    "place_fips": "3457000",
+    "place_name": "Paterson"
+  },
+  "corona-ca": {
+    "place_fips": "0616350",
+    "place_name": "Corona"
+  },
+  "alexandria-va": {
+    "place_fips": "5101000",
+    "place_name": "Alexandria"
+  },
+  "charleston-sc": {
+    "place_fips": "4513330",
+    "place_name": "Charleston"
+  },
+  "salinas-ca": {
+    "place_fips": "0664224",
+    "place_name": "Salinas"
+  },
+  "kansas-city-ks": {
+    "place_fips": "2036000",
+    "place_name": "Kansas City"
+  },
+  "macon-ga": {
+    "place_fips": "1349008",
+    "place_name": "Macon-Bibb County"
+  },
+  "hayward-ca": {
+    "place_fips": "0633000",
+    "place_name": "Hayward"
+  },
+  "hollywood-fl": {
+    "place_fips": "1232000",
+    "place_name": "Hollywood"
+  },
+  "lakewood-co": {
+    "place_fips": "0843000",
+    "place_name": "Lakewood"
+  },
+  "sunnyvale-ca": {
+    "place_fips": "0677000",
+    "place_name": "Sunnyvale"
+  },
+  "springfield-ma": {
+    "place_fips": "2567000",
+    "place_name": "Springfield"
+  },
+  "bellevue-wa": {
+    "place_fips": "5305210",
+    "place_name": "Bellevue"
+  },
+  "naperville-il": {
+    "place_fips": "1751622",
+    "place_name": "Naperville"
+  },
+  "bridgeport-ct": {
+    "place_fips": "0908000",
+    "place_name": "Bridgeport"
+  },
+  "joliet-il": {
+    "place_fips": "1738570",
+    "place_name": "Joliet"
+  },
+  "mesquite-tx": {
+    "place_fips": "4847892",
+    "place_name": "Mesquite"
+  },
+  "mcallen-tx": {
+    "place_fips": "4845384",
+    "place_name": "McAllen"
+  },
+  "olathe-ks": {
+    "place_fips": "2052575",
+    "place_name": "Olathe"
+  },
+  "gainesville-fl": {
+    "place_fips": "1225175",
+    "place_name": "Gainesville"
+  },
+  "pasadena-tx": {
+    "place_fips": "4856000",
+    "place_name": "Pasadena"
+  },
+  "palm-bay-fl": {
+    "place_fips": "1254000",
+    "place_name": "Palm Bay"
+  },
+  "pomona-ca": {
+    "place_fips": "0658072",
+    "place_name": "Pomona"
+  },
+  "waco-tx": {
+    "place_fips": "4876000",
+    "place_name": "Waco"
+  },
+  "thornton-co": {
+    "place_fips": "0877290",
+    "place_name": "Thornton"
+  },
+  "midland-tx": {
+    "place_fips": "4848072",
+    "place_name": "Midland"
+  },
+  "rockford-il": {
+    "place_fips": "1765000",
+    "place_name": "Rockford"
+  },
+  "columbia-sc": {
+    "place_fips": "4516000",
+    "place_name": "Columbia"
+  },
+  "visalia-ca": {
+    "place_fips": "0682954",
+    "place_name": "Visalia"
+  },
+  "escondido-ca": {
+    "place_fips": "0622804",
+    "place_name": "Escondido"
+  },
+  "syracuse-ny": {
+    "place_fips": "3673000",
+    "place_name": "Syracuse"
+  },
+  "meridian-id": {
+    "place_fips": "1652120",
+    "place_name": "Meridian"
+  },
+  "miramar-fl": {
+    "place_fips": "1245975",
+    "place_name": "Miramar"
+  },
+  "elizabeth-nj": {
+    "place_fips": "3421000",
+    "place_name": "Elizabeth"
+  },
+  "victorville-ca": {
+    "place_fips": "0682590",
+    "place_name": "Victorville"
+  },
+  "round-rock-tx": {
+    "place_fips": "4863500",
+    "place_name": "Round Rock"
+  },
+  "jackson-ms": {
+    "place_fips": "2836000",
+    "place_name": "Jackson"
+  },
+  "stamford-ct": {
+    "place_fips": "0973000",
+    "place_name": "Stamford"
+  },
+  "lewisville-tx": {
+    "place_fips": "4842508",
+    "place_name": "Lewisville"
+  },
+  "coral-springs-fl": {
+    "place_fips": "1214400",
+    "place_name": "Coral Springs"
+  },
+  "new-haven-ct": {
+    "place_fips": "0952000",
+    "place_name": "New Haven"
+  },
+  "fullerton-ca": {
+    "place_fips": "0628000",
+    "place_name": "Fullerton"
+  },
+  "torrance-ca": {
+    "place_fips": "0680000",
+    "place_name": "Torrance"
+  },
+  "orange-ca": {
+    "place_fips": "0653980",
+    "place_name": "Orange"
+  },
+  "cedar-rapids-ia": {
+    "place_fips": "1912000",
+    "place_name": "Cedar Rapids"
+  },
+  "west-valley-city-ut": {
+    "place_fips": "4983470",
+    "place_name": "West Valley City"
+  },
+  "hampton-va": {
+    "place_fips": "5135000",
+    "place_name": "Hampton"
+  },
+  "warren-mi": {
+    "place_fips": "2614320",
+    "place_name": "Center Line"
+  },
+  "dayton-oh": {
+    "place_fips": "3921000",
+    "place_name": "Dayton"
+  },
+  "fargo-nd": {
+    "place_fips": "3825700",
+    "place_name": "Fargo"
+  },
+  "pasadena-ca": {
+    "place_fips": "0656000",
+    "place_name": "Pasadena"
+  },
+  "kent-wa": {
+    "place_fips": "5335415",
+    "place_name": "Kent"
+  },
+  "carrollton-tx": {
+    "place_fips": "4813024",
+    "place_name": "Carrollton"
+  },
+  "sterling-heights-mi": {
+    "place_fips": "2676460",
+    "place_name": "Sterling Heights"
+  },
+  "santa-clara-ca": {
+    "place_fips": "0669084",
+    "place_name": "Santa Clara"
+  },
+  "abilene-tx": {
+    "place_fips": "4801000",
+    "place_name": "Abilene"
+  },
+  "norman-ok": {
+    "place_fips": "4052500",
+    "place_name": "Norman"
+  },
+  "columbia-mo": {
+    "place_fips": "2915670",
+    "place_name": "Columbia"
+  },
+  "pearland-tx": {
+    "place_fips": "4856348",
+    "place_name": "Pearland"
+  },
+  "clovis-ca": {
+    "place_fips": "0614218",
+    "place_name": "Clovis"
+  },
+  "north-charleston-sc": {
+    "place_fips": "4550875",
+    "place_name": "North Charleston"
+  },
+  "athens-ga": {
+    "place_fips": "1303440",
+    "place_name": "Athens-Clarke County unified government (balance)"
+  },
+  "college-station-tx": {
+    "place_fips": "4815976",
+    "place_name": "College Station"
+  },
+  "west-palm-beach-fl": {
+    "place_fips": "1276600",
+    "place_name": "West Palm Beach"
+  },
+  "wilmington-nc": {
+    "place_fips": "3774440",
+    "place_name": "Wilmington"
+  },
+  "allentown-pa": {
+    "place_fips": "4202000",
+    "place_name": "Allentown"
+  },
+  "topeka-ks": {
+    "place_fips": "2071000",
+    "place_name": "Topeka"
+  },
+  "lakeland-fl": {
+    "place_fips": "1238250",
+    "place_name": "Lakeland"
+  },
+  "buckeye-az": {
+    "place_fips": "0407940",
+    "place_name": "Buckeye"
+  },
+  "goodyear-az": {
+    "place_fips": "0428380",
+    "place_name": "Goodyear"
+  },
+  "broken-arrow-ok": {
+    "place_fips": "4009050",
+    "place_name": "Broken Arrow"
+  },
+  "simi-valley-ca": {
+    "place_fips": "0672016",
+    "place_name": "Simi Valley"
+  },
+  "rochester-mn": {
+    "place_fips": "2754880",
+    "place_name": "Rochester"
+  },
+  "lafayette-la": {
+    "place_fips": "2240735",
+    "place_name": "Lafayette"
+  },
+  "vallejo-ca": {
+    "place_fips": "0681666",
+    "place_name": "Vallejo"
+  },
+  "concord-ca": {
+    "place_fips": "0616000",
+    "place_name": "Concord"
+  },
+  "arvada-co": {
+    "place_fips": "0803455",
+    "place_name": "Arvada"
+  },
+  "odessa-tx": {
+    "place_fips": "4853388",
+    "place_name": "Odessa"
+  },
+  "cambridge-ma": {
+    "place_fips": "2511000",
+    "place_name": "Cambridge"
+  },
+  "new-braunfels-tx": {
+    "place_fips": "4850820",
+    "place_name": "New Braunfels"
+  },
+  "fairfield-ca": {
+    "place_fips": "0623182",
+    "place_name": "Fairfield"
+  },
+  "ann-arbor-mi": {
+    "place_fips": "2603000",
+    "place_name": "Ann Arbor"
+  },
+  "thousand-oaks-ca": {
+    "place_fips": "0678582",
+    "place_name": "Thousand Oaks"
+  },
+  "hartford-ct": {
+    "place_fips": "0937000",
+    "place_name": "Hartford"
+  },
+  "berkeley-ca": {
+    "place_fips": "0606000",
+    "place_name": "Berkeley"
+  },
+  "independence-mo": {
+    "place_fips": "2935000",
+    "place_name": "Independence"
+  },
+  "billings-mt": {
+    "place_fips": "3006550",
+    "place_name": "Billings"
+  },
+  "high-point-nc": {
+    "place_fips": "3731400",
+    "place_name": "High Point"
+  },
+  "nampa-id": {
+    "place_fips": "1656260",
+    "place_name": "Nampa"
+  },
+  "lowell-ma": {
+    "place_fips": "2537000",
+    "place_name": "Lowell"
+  },
+  "league-city-tx": {
+    "place_fips": "4841980",
+    "place_name": "League City"
+  },
+  "conroe-tx": {
+    "place_fips": "4816432",
+    "place_name": "Conroe"
+  },
+  "antioch-ca": {
+    "place_fips": "0602252",
+    "place_name": "Antioch"
+  },
+  "menifee-ca": {
+    "place_fips": "0646842",
+    "place_name": "Menifee"
+  },
+  "richardson-tx": {
+    "place_fips": "4861796",
+    "place_name": "Richardson"
+  },
+  "pompano-beach-fl": {
+    "place_fips": "1258050",
+    "place_name": "Pompano Beach"
+  },
+  "las-cruces-nm": {
+    "place_fips": "3539380",
+    "place_name": "Las Cruces"
+  },
+  "manchester-nh": {
+    "place_fips": "3345140",
+    "place_name": "Manchester"
+  },
+  "west-jordan-ut": {
+    "place_fips": "4982950",
+    "place_name": "West Jordan"
+  },
+  "westminster-co": {
+    "place_fips": "0883835",
+    "place_name": "Westminster"
+  },
+  "evansville-in": {
+    "place_fips": "1822000",
+    "place_name": "Evansville"
+  },
+  "waterbury-ct": {
+    "place_fips": "0980000",
+    "place_name": "Waterbury"
+  },
+  "elgin-il": {
+    "place_fips": "1723074",
+    "place_name": "Elgin"
+  },
+  "greeley-co": {
+    "place_fips": "0832155",
+    "place_name": "Greeley"
+  },
+  "temecula-ca": {
+    "place_fips": "0678120",
+    "place_name": "Temecula"
+  },
+  "richmond-ca": {
+    "place_fips": "0660620",
+    "place_name": "Richmond"
+  },
+  "concord-nc": {
+    "place_fips": "3714100",
+    "place_name": "Concord"
+  },
+  "provo-ut": {
+    "place_fips": "4962470",
+    "place_name": "Provo"
+  },
+  "rio-rancho-nm": {
+    "place_fips": "3563460",
+    "place_name": "Rio Rancho"
+  },
+  "clearwater-fl": {
+    "place_fips": "1212875",
+    "place_name": "Clearwater"
+  },
+  "tuscaloosa-al": {
+    "place_fips": "0177256",
+    "place_name": "Tuscaloosa"
+  },
+  "murrieta-ca": {
+    "place_fips": "0650076",
+    "place_name": "Murrieta"
+  },
+  "lansing-mi": {
+    "place_fips": "2646000",
+    "place_name": "Lansing"
+  },
+  "tyler-tx": {
+    "place_fips": "4874144",
+    "place_name": "Tyler"
+  },
+  "miami-gardens-fl": {
+    "place_fips": "1245060",
+    "place_name": "Miami Gardens"
+  },
+  "everett-wa": {
+    "place_fips": "5322640",
+    "place_name": "Everett"
+  },
+  "allen-tx": {
+    "place_fips": "4801924",
+    "place_name": "Allen"
+  },
+  "springfield-il": {
+    "place_fips": "1772000",
+    "place_name": "Springfield"
+  },
+  "beaumont-tx": {
+    "place_fips": "4807000",
+    "place_name": "Beaumont"
+  },
+  "south-fulton-ga": {
+    "place_fips": "1372122",
+    "place_name": "South Fulton"
+  },
+  "carlsbad-ca": {
+    "place_fips": "0611194",
+    "place_name": "Carlsbad"
+  },
+  "sparks-nv": {
+    "place_fips": "3268400",
+    "place_name": "Sparks"
+  },
+  "gresham-or": {
+    "place_fips": "4131250",
+    "place_name": "Gresham"
+  },
+  "santa-maria-ca": {
+    "place_fips": "0669196",
+    "place_name": "Santa Maria"
+  },
+  "hillsboro-or": {
+    "place_fips": "4134100",
+    "place_name": "Hillsboro"
+  },
+  "peoria-il": {
+    "place_fips": "1759000",
+    "place_name": "Peoria"
+  },
+  "davie-fl": {
+    "place_fips": "1216475",
+    "place_name": "Davie"
+  },
+  "edinburg-tx": {
+    "place_fips": "4822660",
+    "place_name": "Edinburg"
+  },
+  "pueblo-co": {
+    "place_fips": "0862000",
+    "place_name": "Pueblo"
+  },
+  "ventura-ca": {
+    "place_fips": "0665042",
+    "place_name": "San Buenaventura (Ventura)"
+  },
+  "palm-coast-fl": {
+    "place_fips": "1254200",
+    "place_name": "Palm Coast"
+  },
+  "costa-mesa-ca": {
+    "place_fips": "0616532",
+    "place_name": "Costa Mesa"
+  },
+  "st-george-ut": {
+    "place_fips": "4965330",
+    "place_name": "St. George"
+  },
+  "centennial-co": {
+    "place_fips": "0812815",
+    "place_name": "Centennial"
+  },
+  "downey-ca": {
+    "place_fips": "0619766",
+    "place_name": "Downey"
+  },
+  "spokane-valley-wa": {
+    "place_fips": "5367167",
+    "place_name": "Spokane Valley"
+  },
+  "sugar-land-tx": {
+    "place_fips": "4870808",
+    "place_name": "Sugar Land"
+  },
+  "lees-summit-mo": {
+    "place_fips": "2941348",
+    "place_name": "Lee's Summit"
+  },
+  "bend-or": {
+    "place_fips": "4105800",
+    "place_name": "Bend"
+  },
+  "jurupa-valley-ca": {
+    "place_fips": "0637692",
+    "place_name": "Jurupa Valley"
+  },
+  "georgetown-tx": {
+    "place_fips": "4829336",
+    "place_name": "Georgetown"
+  },
+  "green-bay-wi": {
+    "place_fips": "5531000",
+    "place_name": "Green Bay"
+  },
+  "fayetteville-ar": {
+    "place_fips": "0523290",
+    "place_name": "Fayetteville"
+  },
+  "rialto-ca": {
+    "place_fips": "0660466",
+    "place_name": "Rialto"
+  },
+  "brockton-ma": {
+    "place_fips": "2509000",
+    "place_name": "Brockton"
+  },
+  "boulder-co": {
+    "place_fips": "0807850",
+    "place_name": "Boulder"
+  },
+  "carmel-in": {
+    "place_fips": "1810342",
+    "place_name": "Carmel"
+  },
+  "dearborn-mi": {
+    "place_fips": "2621000",
+    "place_name": "Dearborn"
+  },
+  "west-covina-ca": {
+    "place_fips": "0684200",
+    "place_name": "West Covina"
+  },
+  "yuma-az": {
+    "place_fips": "0485540",
+    "place_name": "Yuma"
+  },
+  "chico-ca": {
+    "place_fips": "0613014",
+    "place_name": "Chico"
+  },
+  "el-monte-ca": {
+    "place_fips": "0622230",
+    "place_name": "El Monte"
+  },
+  "sandy-springs-ga": {
+    "place_fips": "1368516",
+    "place_name": "Sandy Springs"
+  },
+  "renton-wa": {
+    "place_fips": "5357745",
+    "place_name": "Renton"
+  },
+  "fishers-in": {
+    "place_fips": "1823278",
+    "place_name": "Fishers"
+  },
+  "suffolk-va": {
+    "place_fips": "5176432",
+    "place_name": "Suffolk"
+  },
+  "lynn-ma": {
+    "place_fips": "2537490",
+    "place_name": "Lynn"
+  },
+  "vacaville-ca": {
+    "place_fips": "0681554",
+    "place_name": "Vacaville"
+  },
+  "san-mateo-ca": {
+    "place_fips": "0668252",
+    "place_name": "San Mateo"
+  },
+  "south-bend-in": {
+    "place_fips": "1871000",
+    "place_name": "South Bend"
+  },
+  "quincy-ma": {
+    "place_fips": "2555745",
+    "place_name": "Quincy"
+  },
+  "burbank-ca": {
+    "place_fips": "0608954",
+    "place_name": "Burbank"
+  },
+  "hesperia-ca": {
+    "place_fips": "0633434",
+    "place_name": "Hesperia"
+  },
+  "wichita-falls-tx": {
+    "place_fips": "4879000",
+    "place_name": "Wichita Falls"
+  },
+  "tracy-ca": {
+    "place_fips": "0680238",
+    "place_name": "Tracy"
+  },
+  "new-bedford-ma": {
+    "place_fips": "2545000",
+    "place_name": "New Bedford"
+  },
+  "el-cajon-ca": {
+    "place_fips": "0621712",
+    "place_name": "El Cajon"
+  },
+  "albany-ny": {
+    "place_fips": "3601000",
+    "place_name": "Albany"
+  },
+  "inglewood-ca": {
+    "place_fips": "0636546",
+    "place_name": "Inglewood"
+  },
+  "boca-raton-fl": {
+    "place_fips": "1207300",
+    "place_name": "Boca Raton"
+  },
+  "fort-myers-fl": {
+    "place_fips": "1224125",
+    "place_name": "Fort Myers"
+  },
+  "daly-city-ca": {
+    "place_fips": "0617918",
+    "place_name": "Daly City"
+  },
+  "avondale-az": {
+    "place_fips": "0404720",
+    "place_name": "Avondale"
+  },
+  "san-angelo-tx": {
+    "place_fips": "4864472",
+    "place_name": "San Angelo"
+  },
+  "edmond-ok": {
+    "place_fips": "4023200",
+    "place_name": "Edmond"
+  },
+  "davenport-ia": {
+    "place_fips": "1919000",
+    "place_name": "Davenport"
+  },
+  "deltona-fl": {
+    "place_fips": "1217200",
+    "place_name": "Deltona"
+  },
+  "longmont-co": {
+    "place_fips": "0845970",
+    "place_name": "Longmont"
+  },
+  "federal-way-wa": {
+    "place_fips": "5323515",
+    "place_name": "Federal Way"
+  },
+  "merced-ca": {
+    "place_fips": "0646898",
+    "place_name": "Merced"
+  },
+  "plantation-fl": {
+    "place_fips": "1257425",
+    "place_name": "Plantation"
+  },
+  "roanoke-va": {
+    "place_fips": "5168000",
+    "place_name": "Roanoke"
+  },
+  "sunrise-fl": {
+    "place_fips": "1269700",
+    "place_name": "Sunrise"
+  },
+  "temple-tx": {
+    "place_fips": "4872176",
+    "place_name": "Temple"
+  },
+  "vista-ca": {
+    "place_fips": "0682996",
+    "place_name": "Vista"
+  },
+  "beaverton-or": {
+    "place_fips": "4105350",
+    "place_name": "Beaverton"
+  },
+  "yakima-wa": {
+    "place_fips": "5380010",
+    "place_name": "Yakima"
+  },
+  "kirkland-wa": {
+    "place_fips": "5335940",
+    "place_name": "Kirkland"
+  },
+  "norwalk-ca": {
+    "place_fips": "0652526",
+    "place_name": "Norwalk"
+  },
+  "chino-ca": {
+    "place_fips": "0613210",
+    "place_name": "Chino"
+  },
+  "portsmouth-va": {
+    "place_fips": "5164000",
+    "place_name": "Portsmouth"
+  },
+  "manteca-ca": {
+    "place_fips": "0645484",
+    "place_name": "Manteca"
+  },
+  "north-port-fl": {
+    "place_fips": "1249675",
+    "place_name": "North Port"
+  },
+  "greenville-nc": {
+    "place_fips": "3728080",
+    "place_name": "Greenville"
+  },
+  "bellingham-wa": {
+    "place_fips": "5305280",
+    "place_name": "Bellingham"
+  },
+  "lawrence-ks": {
+    "place_fips": "2038900",
+    "place_name": "Lawrence"
+  },
+  "ofallon-mo": {
+    "place_fips": "2954074",
+    "place_name": "O'Fallon"
+  },
+  "reading-pa": {
+    "place_fips": "4263624",
+    "place_name": "Reading"
+  },
+  "mount-pleasant-sc": {
+    "place_fips": "4548535",
+    "place_name": "Mount Pleasant"
+  },
+  "lehi-ut": {
+    "place_fips": "4944320",
+    "place_name": "Lehi"
+  },
+  "fall-river-ma": {
+    "place_fips": "2523000",
+    "place_name": "Fall River"
+  },
+  "orem-ut": {
+    "place_fips": "4957300",
+    "place_name": "Orem"
+  },
+  "san-marcos-ca": {
+    "place_fips": "0668196",
+    "place_name": "San Marcos"
+  },
+  "norwalk-ct": {
+    "place_fips": "0955990",
+    "place_name": "Norwalk"
+  },
+  "indio-ca": {
+    "place_fips": "0636448",
+    "place_name": "Indio"
+  },
+  "redding-ca": {
+    "place_fips": "0659920",
+    "place_name": "Redding"
+  },
+  "hemet-ca": {
+    "place_fips": "0633182",
+    "place_name": "Hemet"
+  },
+  "hoover-al": {
+    "place_fips": "0135896",
+    "place_name": "Hoover"
+  },
+  "asheville-nc": {
+    "place_fips": "3702140",
+    "place_name": "Asheville"
+  },
+  "livonia-mi": {
+    "place_fips": "2649000",
+    "place_name": "Livonia"
+  },
+  "nashua-nh": {
+    "place_fips": "3350260",
+    "place_name": "Nashua"
+  },
+  "sandy-ut": {
+    "place_fips": "4967440",
+    "place_name": "Sandy"
+  },
+  "frederick-md": {
+    "place_fips": "2430325",
+    "place_name": "Frederick"
+  },
+  "bryan-tx": {
+    "place_fips": "4810912",
+    "place_name": "Bryan"
+  },
+  "folsom-ca": {
+    "place_fips": "0624638",
+    "place_name": "Folsom"
+  },
+  "erie-pa": {
+    "place_fips": "4224000",
+    "place_name": "Erie"
+  },
+  "trenton-nj": {
+    "place_fips": "3474000",
+    "place_name": "Trenton"
+  },
+  "roswell-ga": {
+    "place_fips": "1367284",
+    "place_name": "Roswell"
+  },
+  "champaign-il": {
+    "place_fips": "1712385",
+    "place_name": "Champaign"
+  },
+  "leander-tx": {
+    "place_fips": "4842016",
+    "place_name": "Leander"
+  },
+  "clifton-nj": {
+    "place_fips": "3413690",
+    "place_name": "Clifton"
+  },
+  "fort-smith-ar": {
+    "place_fips": "0524550",
+    "place_name": "Fort Smith"
+  },
+  "carson-ca": {
+    "place_fips": "0611530",
+    "place_name": "Carson"
+  },
+  "newton-ma": {
+    "place_fips": "2545560",
+    "place_name": "Newton"
+  },
+  "springdale-ar": {
+    "place_fips": "0566080",
+    "place_name": "Springdale"
+  },
+  "lawton-ok": {
+    "place_fips": "4041850",
+    "place_name": "Lawton"
+  },
+  "compton-ca": {
+    "place_fips": "0615044",
+    "place_name": "Compton"
+  },
+  "mission-viejo-ca": {
+    "place_fips": "0648256",
+    "place_name": "Mission Viejo"
+  },
+  "franklin-tn": {
+    "place_fips": "4727740",
+    "place_name": "Franklin"
+  },
+  "santa-monica-ca": {
+    "place_fips": "0670000",
+    "place_name": "Santa Monica"
+  },
+  "south-gate-ca": {
+    "place_fips": "0673080",
+    "place_name": "South Gate"
+  },
+  "santa-fe-nm": {
+    "place_fips": "3570500",
+    "place_name": "Santa Fe"
+  },
+  "queen-creek-az": {
+    "place_fips": "0458150",
+    "place_name": "Queen Creek"
+  },
+  "ogden-ut": {
+    "place_fips": "4955980",
+    "place_name": "Ogden"
+  },
+  "deerfield-beach-fl": {
+    "place_fips": "1216725",
+    "place_name": "Deerfield Beach"
+  },
+  "lawrence-ma": {
+    "place_fips": "2534550",
+    "place_name": "Lawrence"
+  },
+  "bloomington-mn": {
+    "place_fips": "2706616",
+    "place_name": "Bloomington"
+  },
+  "danbury-ct": {
+    "place_fips": "0918430",
+    "place_name": "Danbury"
+  },
+  "mission-tx": {
+    "place_fips": "4848768",
+    "place_name": "Mission"
+  },
+  "westminster-ca": {
+    "place_fips": "0684550",
+    "place_name": "Westminster"
+  },
+  "troy-mi": {
+    "place_fips": "2680700",
+    "place_name": "Troy"
+  },
+  "daytona-beach-fl": {
+    "place_fips": "1216525",
+    "place_name": "Daytona Beach"
+  },
+  "kennewick-wa": {
+    "place_fips": "5335275",
+    "place_name": "Kennewick"
+  },
+  "duluth-mn": {
+    "place_fips": "2717000",
+    "place_name": "Duluth"
+  },
+  "waukegan-il": {
+    "place_fips": "1779293",
+    "place_name": "Waukegan"
+  },
+  "warner-robins-ga": {
+    "place_fips": "1380508",
+    "place_name": "Warner Robins"
+  },
+  "south-jordan-ut": {
+    "place_fips": "4970850",
+    "place_name": "South Jordan"
+  },
+  "rancho-cordova-ca": {
+    "place_fips": "0659444",
+    "place_name": "Rancho Cordova"
+  },
+  "melbourne-fl": {
+    "place_fips": "1243975",
+    "place_name": "Melbourne"
+  },
+  "gastonia-nc": {
+    "place_fips": "3725580",
+    "place_name": "Gastonia"
+  },
+  "baytown-tx": {
+    "place_fips": "4806128",
+    "place_name": "Baytown"
+  },
+  "medford-or": {
+    "place_fips": "4147000",
+    "place_name": "Medford"
+  },
+  "santa-barbara-ca": {
+    "place_fips": "0669070",
+    "place_name": "Santa Barbara"
+  },
+  "sioux-city-ia": {
+    "place_fips": "1973335",
+    "place_name": "Sioux City"
+  },
+  "citrus-heights-ca": {
+    "place_fips": "0613588",
+    "place_name": "Citrus Heights"
+  },
+  "lake-forest-ca": {
+    "place_fips": "0639496",
+    "place_name": "Lake Forest"
+  },
+  "auburn-wa": {
+    "place_fips": "5303180",
+    "place_name": "Auburn"
+  },
+  "homestead-fl": {
+    "place_fips": "1232275",
+    "place_name": "Homestead"
+  },
+  "san-ramon-ca": {
+    "place_fips": "0668378",
+    "place_name": "San Ramon"
+  },
+  "new-rochelle-ny": {
+    "place_fips": "3650617",
+    "place_name": "New Rochelle"
+  },
+  "whittier-ca": {
+    "place_fips": "0685292",
+    "place_name": "Whittier"
+  },
+  "kissimmee-fl": {
+    "place_fips": "1236950",
+    "place_name": "Kissimmee"
+  },
+  "mountain-view-ca": {
+    "place_fips": "0649670",
+    "place_name": "Mountain View"
+  },
+  "san-leandro-ca": {
+    "place_fips": "0668084",
+    "place_name": "San Leandro"
+  },
+  "layton-ut": {
+    "place_fips": "4943660",
+    "place_name": "Layton"
+  },
+  "auburn-al": {
+    "place_fips": "0103076",
+    "place_name": "Auburn"
+  },
+  "cranston-ri": {
+    "place_fips": "4419180",
+    "place_name": "Cranston"
+  },
+  "mansfield-tx": {
+    "place_fips": "4846452",
+    "place_name": "Mansfield"
+  },
+  "somerville-ma": {
+    "place_fips": "2562535",
+    "place_name": "Somerville"
+  },
+  "warwick-ri": {
+    "place_fips": "4474300",
+    "place_name": "Warwick"
+  },
+  "castle-rock-co": {
+    "place_fips": "0812415",
+    "place_name": "Castle Rock"
+  },
+  "brooklyn-park-mn": {
+    "place_fips": "2707966",
+    "place_name": "Brooklyn Park"
+  },
+  "livermore-ca": {
+    "place_fips": "0641992",
+    "place_name": "Livermore"
+  },
+  "bloomington-in": {
+    "place_fips": "1805860",
+    "place_name": "Bloomington"
+  },
+  "jonesboro-ar": {
+    "place_fips": "0535710",
+    "place_name": "Jonesboro"
+  },
+  "farmington-hills-mi": {
+    "place_fips": "2627440",
+    "place_name": "Farmington Hills"
+  },
+  "perris-ca": {
+    "place_fips": "0656700",
+    "place_name": "Perris"
+  },
+  "longview-tx": {
+    "place_fips": "4843888",
+    "place_name": "Longview"
+  },
+  "pasco-wa": {
+    "place_fips": "5353545",
+    "place_name": "Pasco"
+  },
+  "hawthorne-ca": {
+    "place_fips": "0632548",
+    "place_name": "Hawthorne"
+  },
+  "lake-charles-la": {
+    "place_fips": "2241155",
+    "place_name": "Lake Charles"
+  },
+  "redmond-wa": {
+    "place_fips": "5357535",
+    "place_name": "Redmond"
+  },
+  "boynton-beach-fl": {
+    "place_fips": "1207875",
+    "place_name": "Boynton Beach"
+  },
+  "westland-mi": {
+    "place_fips": "2686000",
+    "place_name": "Westland"
+  },
+  "redwood-city-ca": {
+    "place_fips": "0660102",
+    "place_name": "Redwood City"
+  },
+  "newport-beach-ca": {
+    "place_fips": "0651182",
+    "place_name": "Newport Beach"
+  },
+  "cicero-il": {
+    "place_fips": "1714351",
+    "place_name": "Cicero"
+  },
+  "buena-park-ca": {
+    "place_fips": "0608786",
+    "place_name": "Buena Park"
+  },
+  "doral-fl": {
+    "place_fips": "1217935",
+    "place_name": "Doral"
+  },
+  "miami-beach-fl": {
+    "place_fips": "1245025",
+    "place_name": "Miami Beach"
+  },
+  "woodbury-mn": {
+    "place_fips": "2771428",
+    "place_name": "Woodbury"
+  },
+  "loveland-co": {
+    "place_fips": "0846465",
+    "place_name": "Loveland"
+  },
+  "lynchburg-va": {
+    "place_fips": "5147672",
+    "place_name": "Lynchburg"
+  },
+  "pharr-tx": {
+    "place_fips": "4857200",
+    "place_name": "Pharr"
+  },
+  "largo-fl": {
+    "place_fips": "1239425",
+    "place_name": "Largo"
+  },
+  "rapid-city-sd": {
+    "place_fips": "4652980",
+    "place_name": "Rapid City"
+  },
+  "apex-nc": {
+    "place_fips": "3701520",
+    "place_name": "Apex"
+  },
+  "johns-creek-ga": {
+    "place_fips": "1342425",
+    "place_name": "Johns Creek"
+  },
+  "alhambra-ca": {
+    "place_fips": "0600884",
+    "place_name": "Alhambra"
+  },
+  "bethlehem-pa": {
+    "place_fips": "4206088",
+    "place_name": "Bethlehem"
+  },
+  "flower-mound-tx": {
+    "place_fips": "4826232",
+    "place_name": "Flower Mound"
+  },
+  "upland-ca": {
+    "place_fips": "0681344",
+    "place_name": "Upland"
+  },
+  "flint-mi": {
+    "place_fips": "2629000",
+    "place_name": "Flint"
+  },
+  "lakeville-mn": {
+    "place_fips": "2735180",
+    "place_name": "Lakeville"
+  },
+  "broomfield-co": {
+    "place_fips": "0809280",
+    "place_name": "Broomfield"
+  },
+  "cedar-park-tx": {
+    "place_fips": "4813552",
+    "place_name": "Cedar Park"
+  },
+  "plymouth-mn": {
+    "place_fips": "2751730",
+    "place_name": "Plymouth"
+  },
+  "missoula-mt": {
+    "place_fips": "3050200",
+    "place_name": "Missoula"
+  },
+  "mableton-ga": {
+    "place_fips": "1348288",
+    "place_name": "Mableton"
+  },
+  "bloomington-il": {
+    "place_fips": "1706613",
+    "place_name": "Bloomington"
+  },
+  "milpitas-ca": {
+    "place_fips": "0647766",
+    "place_name": "Milpitas"
+  },
+  "wyoming-mi": {
+    "place_fips": "2688940",
+    "place_name": "Wyoming"
+  },
+  "parma-oh": {
+    "place_fips": "3961000",
+    "place_name": "Parma"
+  },
+  "bowling-green-ky": {
+    "place_fips": "2108902",
+    "place_name": "Bowling Green"
+  },
+  "maricopa-az": {
+    "place_fips": "0444410",
+    "place_name": "Maricopa"
+  },
+  "lakewood-ca": {
+    "place_fips": "0639892",
+    "place_name": "Lakewood"
+  },
+  "bismarck-nd": {
+    "place_fips": "3807200",
+    "place_name": "Bismarck"
+  },
+  "racine-wi": {
+    "place_fips": "5566000",
+    "place_name": "Racine"
+  },
+  "tustin-ca": {
+    "place_fips": "0680854",
+    "place_name": "Tustin"
+  },
+  "ankeny-ia": {
+    "place_fips": "1902305",
+    "place_name": "Ankeny"
+  },
+  "san-marcos-tx": {
+    "place_fips": "4865600",
+    "place_name": "San Marcos"
+  },
+  "marysville-wa": {
+    "place_fips": "5343955",
+    "place_name": "Marysville"
+  },
+  "pittsburg-ca": {
+    "place_fips": "0657456",
+    "place_name": "Pittsburg"
+  },
+  "rochester-hills-mi": {
+    "place_fips": "2669035",
+    "place_name": "Rochester Hills"
+  },
+  "chino-hills-ca": {
+    "place_fips": "0613214",
+    "place_name": "Chino Hills"
+  },
+  "missouri-city-tx": {
+    "place_fips": "4848804",
+    "place_name": "Missouri City"
+  },
+  "flagstaff-az": {
+    "place_fips": "0423620",
+    "place_name": "Flagstaff"
+  },
+  "schaumburg-il": {
+    "place_fips": "1768003",
+    "place_name": "Schaumburg"
+  },
+  "pawtucket-ri": {
+    "place_fips": "4454640",
+    "place_name": "Pawtucket"
+  },
+  "rogers-ar": {
+    "place_fips": "0560410",
+    "place_name": "Rogers"
+  },
+  "alameda-ca": {
+    "place_fips": "0600562",
+    "place_name": "Alameda"
+  },
+  "rocklin-ca": {
+    "place_fips": "0662364",
+    "place_name": "Rocklin"
+  },
+  "caldwell-id": {
+    "place_fips": "1612250",
+    "place_name": "Caldwell"
+  },
+  "carlsbad-nm": {
+    "place_fips": "3512150",
+    "place_name": "Carlsbad"
+  },
+  "kalispell-mt": {
+    "place_fips": "3040075",
+    "place_name": "Kalispell"
+  },
+  "durango-co": {
+    "place_fips": "0822035",
+    "place_name": "Durango"
+  },
+  "los-alamos-nm": {
+    "place_fips": "3542320",
+    "place_name": "Los Alamos"
+  },
+  "sandpoint-id": {
+    "place_fips": "1672100",
+    "place_name": "Sandpoint"
+  },
+  "taos-nm": {
+    "place_fips": "3576200",
+    "place_name": "Taos"
+  },
+  "blanding-ut": {
+    "place_fips": "4906370",
+    "place_name": "Blanding"
+  },
+  "monticello-ut": {
+    "place_fips": "4951580",
+    "place_name": "Monticello"
+  },
+  "whitewright-tx": {
+    "place_fips": "4878628",
+    "place_name": "Whitewright"
+  },
+  "geraldine-mt": {
+    "place_fips": "3030400",
+    "place_name": "Geraldine"
+  },
+  "grand-junction-co": {
+    "place_fips": "0831660",
+    "place_name": "Grand Junction"
+  }
+}

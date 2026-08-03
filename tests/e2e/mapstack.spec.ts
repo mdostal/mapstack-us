@@ -51,6 +51,23 @@ test("the sixth dataset (social vulnerability) is selectable and reports a real 
   await expect(detail).toContainText("CDC/ATSDR SVI");
 });
 
+test("the seventh dataset (health outcomes) is selectable and honestly reports no data for a confirmed real gap", async ({
+  page,
+}) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Health outcomes" }).click();
+  await page.getByRole("button", { name: "Obesity" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Health outcomes: Obesity" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Health outcomes: Obesity" });
+  await expect(detail).toContainText("age-adjusted prevalence");
+  await expect(detail).toContainText("CDC PLACES");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

@@ -43,6 +43,11 @@ data/raw/nri-counties.json
 # data/svi.json and data/raw/city-tract-fips.json ARE committed.
 data/raw/svi-cache/
 
+# Pure fetch-scratch for the health-outcomes dataset build
+# (scripts/gen_health_data.py) -- same posture as the caches above.
+# data/health.json and data/raw/city-place-fips.json ARE committed.
+data/raw/health-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
