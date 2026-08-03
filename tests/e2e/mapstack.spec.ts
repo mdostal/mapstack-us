@@ -20,6 +20,33 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await expect(page.getByRole("button", { name: "Violent crime (already added)" })).toBeDisabled();
 });
 
+test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
+  page,
+}) => {
+  // Real bug found live: with ~30 layers active, the map's container grew to
+  // several THOUSAND pixels wide/tall (a flex child refusing to shrink below
+  // its un-clipped content's natural width -- see BaseSvgMap.tsx/
+  // MapstackApp.tsx's min-w-0 fix). Assert a hard bound well under any
+  // plausible correct size, not just "grew a little."
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+
+  const allergyLabels = [
+    "Tall fescue", "Orchard grass", "Sweet vernal grass", "Redtop", "Sagebrush",
+    "Kochia / Russian thistle", "Mugwort", "Dock / sorrel", "Nettle", "Red oak",
+    "White ash", "Red maple", "Loblolly pine", "Black walnut", "American sycamore",
+    "Red alder", "Shagbark hickory", "Cladosporium (mold)", "Alternaria (mold)",
+    "Common ragweed", "Redroot pigweed", "Lambsquarters", "English plantain",
+    "Live oak", "American elm", "Eastern redcedar / juniper", "River birch", "Boxelder",
+  ];
+  for (const label of allergyLabels) {
+    await page.getByRole("button", { name: label, exact: true }).click();
+  }
+
+  const mapWidth = await page.getByTestId("heatmap-canvas").first().evaluate((el) => el.getBoundingClientRect().width);
+  expect(mapWidth).toBeLessThan(1500);
+});
+
 test("stacking 2+ layers shows a legend and detail for each at a clicked city", async ({ page }) => {
   await page.goto("/");
 

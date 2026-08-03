@@ -83,7 +83,7 @@ export function HeatmapLayer({ points, colorForValue, opacity = 1, power }: Prop
       ref={canvasRef}
       aria-hidden
       data-testid="heatmap-canvas"
-      style={{ opacity }}
+      style={{ opacity, aspectRatio: "auto" }}
       className="pointer-events-none absolute inset-0 h-full w-full rounded-lg [filter:blur(3px)]"
     />
   );

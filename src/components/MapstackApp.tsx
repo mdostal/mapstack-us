@@ -61,9 +61,9 @@ export function MapstackApp() {
           <CityDetailPanel cityId={selectedCityId} active={active} year={year} />
         </div>
 
-        <div className="flex flex-1 flex-col gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-3">
           <div className="flex items-start justify-between gap-3">
-            <div className="max-h-40 w-56 overflow-y-auto">
+            <div className="max-h-40 w-56 flex-shrink-0 overflow-y-auto">
               <LayerLegends active={active} />
             </div>
             <YearControl active={active} year={year} onChange={setYear} />

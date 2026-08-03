@@ -57,9 +57,9 @@ interface Props {
  */
 export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCityId, heatmap }: Props) {
   return (
-    <div className="relative overflow-hidden rounded-lg bg-white dark:bg-zinc-900">
+    <div className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900">
       {heatmap}
-      <svg viewBox={viewBox} role="img" aria-label={ariaLabel} className="relative h-auto w-full">
+      <svg viewBox={viewBox} role="img" aria-label={ariaLabel} className="relative h-full w-full">
         <g
           fill="none"
           stroke="currentColor"

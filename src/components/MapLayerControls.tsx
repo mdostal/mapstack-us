@@ -32,7 +32,7 @@ export function MapLayerControls({ active, customOverlayLabel, getControl, onCha
   if (layers.length === 0) return null;
 
   return (
-    <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Map layer controls">
+    <div className="flex min-w-0 gap-2 overflow-x-auto pb-1" aria-label="Map layer controls">
       {layers.map((layer) => {
         const control = getControl(layer.key);
         return (

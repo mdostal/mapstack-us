@@ -17,6 +17,33 @@ test("advanced route defaults to table view, and Map toggles to the real map", a
   await expect(page.locator("table")).toBeVisible();
 });
 
+test("the map stays a normal, bounded size with many layers stacked, and the layer-control strip scrolls horizontally instead of forcing width -- regression for a flex min-width bug", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("tab", { name: "Map" }).click();
+
+  const allergyLabels = [
+    "Tall fescue", "Orchard grass", "Sweet vernal grass", "Redtop", "Sagebrush",
+    "Kochia / Russian thistle", "Mugwort", "Dock / sorrel", "Nettle", "Red oak",
+    "White ash", "Red maple", "Loblolly pine", "Black walnut", "American sycamore",
+    "Red alder", "Shagbark hickory", "Cladosporium (mold)", "Alternaria (mold)",
+    "Common ragweed", "Redroot pigweed", "Lambsquarters", "English plantain",
+    "Live oak", "American elm", "Eastern redcedar / juniper", "River birch", "Boxelder",
+  ];
+  for (const label of allergyLabels) {
+    await page.getByLabel(label, { exact: true }).click();
+  }
+
+  const mapWidth = await page.locator("svg[role='img']").evaluate((el) => el.getBoundingClientRect().width);
+  expect(mapWidth).toBeLessThan(1500);
+
+  const controlsStrip = page.getByLabel("Map layer controls");
+  const stripScrollWidth = await controlsStrip.evaluate((el) => el.scrollWidth);
+  const stripClientWidth = await controlsStrip.evaluate((el) => el.clientWidth);
+  expect(stripScrollWidth).toBeGreaterThan(stripClientWidth); // genuinely overflowing, scrolling internally
+});
+
 test("Export CSV is hidden in map view (nothing tabular to export)", async ({ page }) => {
   await page.goto("/advanced");
   await expect(page.getByRole("button", { name: "Export CSV" })).toBeVisible();

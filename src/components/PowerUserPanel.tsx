@@ -166,7 +166,7 @@ export function PowerUserPanel() {
           </AccordionSection>
         </div>
 
-        <div className="flex flex-1 flex-col gap-3">
+        <div className="flex min-w-0 flex-1 flex-col gap-3">
           <div className="flex items-center gap-2">
             <div role="tablist" aria-label="View" className="flex gap-1 rounded-md border border-zinc-200 p-0.5 dark:border-zinc-800">
               <button
