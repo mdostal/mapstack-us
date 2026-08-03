@@ -93,22 +93,24 @@ test("saving and applying a formula weight preset persists across reload", async
   await expect(turfSlider).toHaveValue("0.5");
 });
 
-test("Show on map adds the custom-weighted grass overlay as an extra, asterisked map layer", async ({ page }) => {
+test("Show your weights on the map adds the custom-weighted grass overlay as an extra, asterisked map layer -- without needing a city selected first", async ({
+  page,
+}) => {
   await page.goto("/advanced");
-  await page.getByRole("row", { name: /^Austin, TX/ }).click();
   await page.getByRole("tab", { name: "Map" }).click();
   await page.getByRole("button", { name: "Formula" }).click();
 
   await expect(page.getByRole("group", { name: /Grass \(your weights\)/ })).not.toBeVisible();
 
-  await page.getByRole("button", { name: "Show on map" }).click();
-  await expect(page.getByRole("button", { name: "Showing on map — remove" })).toBeVisible();
+  // No city selected -- the map-wide toggle still works.
+  await page.getByRole("button", { name: "Show your weights on the map" }).click();
+  await expect(page.getByRole("button", { name: /Showing your weights on the map/ })).toBeVisible();
   const overlayChip = page.getByRole("group", { name: /Grass \(your weights\)/ });
   await expect(overlayChip).toBeVisible();
   await expect(overlayChip.getByText("*")).toBeVisible();
 
-  await page.getByRole("button", { name: "Showing on map — remove" }).click();
-  await expect(page.getByRole("button", { name: "Show on map" })).toBeVisible();
+  await page.getByRole("button", { name: /Showing your weights on the map/ }).click();
+  await expect(page.getByRole("button", { name: "Show your weights on the map" })).toBeVisible();
   await expect(overlayChip).not.toBeVisible();
 });
 

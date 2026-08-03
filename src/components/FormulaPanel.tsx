@@ -99,23 +99,6 @@ function GrassFormulaEditor({
   const [presets, setPresets] = useState<FormulaPreset[]>(() => getFormulaPresets(GRASS_LAYER_KEY));
   const [naming, setNaming] = useState(false);
   const [name, setName] = useState("");
-
-  if (!selectedCityId) {
-    return (
-      <p className="text-zinc-500 dark:text-zinc-400">
-        Click a city (in the table or search) to see and adjust its grass-severity formula
-        breakdown here.
-      </p>
-    );
-  }
-
-  const components = getGrassComponents(selectedCityId);
-  if (!components) {
-    return <p className="text-zinc-500 dark:text-zinc-400">No formula data for this city.</p>;
-  }
-
-  const shippedScore = recomputeGrassScore(components, DEFAULT_WEIGHTS);
-  const adjustedScore = recomputeGrassScore(components, weights);
   const isDefault = FORMULA_COMPONENT_KEYS.every((key) => weights[key] === 1);
 
   function setWeight(key: (typeof FORMULA_COMPONENT_KEYS)[number], value: number) {
@@ -144,6 +127,10 @@ function GrassFormulaEditor({
     onWeightsChange(DEFAULT_WEIGHTS);
   }
 
+  const components = selectedCityId ? getGrassComponents(selectedCityId) : null;
+  const shippedScore = components ? recomputeGrassScore(components, DEFAULT_WEIGHTS) : null;
+  const adjustedScore = components ? recomputeGrassScore(components, weights) : null;
+
   return (
     <div className="flex flex-col gap-2 rounded border border-zinc-100 p-2 dark:border-zinc-800">
       <p className="rounded bg-amber-50 p-1.5 text-zinc-600 dark:bg-amber-950/30 dark:text-zinc-400">
@@ -160,42 +147,22 @@ function GrassFormulaEditor({
         </a>
         ). These components are a climate/geography model, not station counts.
       </p>
-      {FORMULA_COMPONENT_KEYS.map((key) => (
-        <div key={key} className="flex flex-col gap-0.5">
-          <label htmlFor={`formula-weight-${key}`} className="flex justify-between text-zinc-600 dark:text-zinc-400">
-            <span>{FORMULA_COMPONENT_LABELS[key]}</span>
-            <span>
-              {components[key]} × {weights[key].toFixed(1)}
-            </span>
-          </label>
-          <input
-            id={`formula-weight-${key}`}
-            type="range"
-            min={0}
-            max={2}
-            step={0.1}
-            value={weights[key]}
-            onChange={(e) => setWeight(key, Number(e.target.value))}
-            className="w-full"
-          />
-        </div>
-      ))}
 
-      <div className="mt-1 flex items-baseline justify-between">
-        <span className="text-zinc-600 dark:text-zinc-400">
-          Shipped score: <b className="text-zinc-800 dark:text-zinc-100">{shippedScore}</b>
-        </span>
-        <span className="text-zinc-600 dark:text-zinc-400">
-          Your weights: <b className="text-zinc-800 dark:text-zinc-100">{adjustedScore}</b>
-        </span>
-      </div>
-      <p className="text-zinc-400 dark:text-zinc-600">
-        The table, CSV export, sort, and filter always use the shipped model. On the map, you can
-        add your weights as an extra, clearly asterisked layer alongside the real Grass layer —
-        it never replaces the shipped/validated score.
-      </p>
+      <p className="font-medium text-zinc-700 dark:text-zinc-300">Two ways to see Grass on the map:</p>
+      <ul className="list-inside list-disc text-zinc-600 dark:text-zinc-400">
+        <li>
+          <b className="text-zinc-800 dark:text-zinc-100">Shipped</b> — the real, validated score
+          (weights fixed at 1.0×). Already showing whenever Grass is checked in Layers, no setup
+          needed.
+        </li>
+        <li>
+          <b className="text-zinc-800 dark:text-zinc-100">Your weights</b> — this sandbox, toggled
+          on below. An extra, clearly asterisked layer alongside Shipped, never replacing it — the
+          table, CSV export, sort, and filter always use Shipped regardless of this toggle.
+        </li>
+      </ul>
 
-      <div className="mt-1">
+      <div>
         <button
           type="button"
           onClick={onToggleOverlay}
@@ -206,9 +173,53 @@ function GrassFormulaEditor({
               : "border-zinc-200 text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
           }`}
         >
-          {overlayOn ? "Showing on map — remove" : "Show on map"}
+          {overlayOn ? "Showing your weights on the map — remove" : "Show your weights on the map"}
         </button>
       </div>
+
+      {!selectedCityId ? (
+        <p className="text-zinc-500 dark:text-zinc-400">
+          Click a city (in the table or search) to see and adjust its component breakdown below —
+          the toggle above already works map-wide without one.
+        </p>
+      ) : !components ? (
+        <p className="text-zinc-500 dark:text-zinc-400">No formula data for this city.</p>
+      ) : (
+        <>
+          {FORMULA_COMPONENT_KEYS.map((key) => (
+            <div key={key} className="flex flex-col gap-0.5">
+              <label
+                htmlFor={`formula-weight-${key}`}
+                className="flex justify-between text-zinc-600 dark:text-zinc-400"
+              >
+                <span>{FORMULA_COMPONENT_LABELS[key]}</span>
+                <span>
+                  {components[key]} × {weights[key].toFixed(1)}
+                </span>
+              </label>
+              <input
+                id={`formula-weight-${key}`}
+                type="range"
+                min={0}
+                max={2}
+                step={0.1}
+                value={weights[key]}
+                onChange={(e) => setWeight(key, Number(e.target.value))}
+                className="w-full"
+              />
+            </div>
+          ))}
+
+          <div className="mt-1 flex items-baseline justify-between">
+            <span className="text-zinc-600 dark:text-zinc-400">
+              Shipped score: <b className="text-zinc-800 dark:text-zinc-100">{shippedScore}</b>
+            </span>
+            <span className="text-zinc-600 dark:text-zinc-400">
+              Your weights: <b className="text-zinc-800 dark:text-zinc-100">{adjustedScore}</b>
+            </span>
+          </div>
+        </>
+      )}
 
       <div className="mt-1 flex gap-2">
         {!isDefault && (
