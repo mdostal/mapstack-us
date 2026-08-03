@@ -1,5 +1,6 @@
 import type { ActiveLayer } from "@/lib/active-layers";
 import { query, type SqlParam } from "@/lib/db/client";
+import { effectiveYearFor } from "@/lib/db/effective-year";
 
 /**
  * Multi-criteria filter over the SQLite store: "show me cities where grass
@@ -39,7 +40,7 @@ export async function filterCityIds(criteria: FilterCriterion[], year: number | 
     joins.push(
       `JOIN layer_values ${alias} ON ${alias}.city_id = c.id AND ${alias}.dataset_id = ? AND ${alias}.layer_id = ? AND ${alias}.year IS ?`,
     );
-    joinParams.push(c.layer.datasetId, c.layer.layerId, year);
+    joinParams.push(c.layer.datasetId, c.layer.layerId, effectiveYearFor(c.layer.datasetId, year));
     if (c.min !== null) {
       where.push(`${alias}.value >= ?`);
       whereParams.push(c.min);

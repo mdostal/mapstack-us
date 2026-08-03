@@ -42,39 +42,46 @@ export function FormulaPanel({
 }: Props) {
   if (selected.length === 0) return null;
 
+  const hasGrass = selected.some((l) => l.datasetId === "allergy" && l.layerId === "grass");
+  const untunable = selected
+    .map((layer) => ({ layer, resolved: resolveActiveLayer(layer) }))
+    .filter(({ layer, resolved }) => resolved && !(layer.datasetId === "allergy" && layer.layerId === "grass"));
+
   return (
     <div className="flex flex-col gap-4">
-      {selected.map((layer) => {
-        const resolved = resolveActiveLayer(layer);
-        if (!resolved) return null;
-        const isGrass = layer.datasetId === "allergy" && layer.layerId === "grass";
-
-        return (
-          <div key={activeLayerKey(layer)} className="flex flex-col gap-2 text-xs">
-            <span className="font-medium text-zinc-800 dark:text-zinc-100">
-              {resolved.dataset.label}: {resolved.layer.label}
-            </span>
-            {isGrass ? (
-              <GrassFormulaEditor
-                selectedCityId={selectedCityId}
-                weights={grassWeights}
-                onWeightsChange={onGrassWeightsChange}
-                overlayOn={grassOverlayOn}
-                onToggleOverlay={onToggleGrassOverlay}
-              />
-            ) : (
-              <p className="text-zinc-500 dark:text-zinc-400">
-                No tunable formula for this layer — modeled directly (climate-zone lookup or
-                real government rate), not a weighted formula.{" "}
-                <a href={resolved.dataset.methodologyUrl} target="_blank" rel="noreferrer" className="underline">
-                  See methodology
+      {hasGrass && (
+        <div className="flex flex-col gap-2 text-xs">
+          <span className="font-medium text-zinc-800 dark:text-zinc-100">Allergy severity: Grass</span>
+          <GrassFormulaEditor
+            selectedCityId={selectedCityId}
+            weights={grassWeights}
+            onWeightsChange={onGrassWeightsChange}
+            overlayOn={grassOverlayOn}
+            onToggleOverlay={onToggleGrassOverlay}
+          />
+        </div>
+      )}
+      {untunable.length > 0 && (
+        <div className="flex flex-col gap-2 text-xs">
+          <span className="font-medium text-zinc-800 dark:text-zinc-100">
+            {untunable.length === 1 ? "1 other layer" : `${untunable.length} other layers`} with no tunable
+            formula
+          </span>
+          <p className="text-zinc-500 dark:text-zinc-400">
+            Modeled directly (climate-zone lookup or real government rate), not a weighted formula, for:{" "}
+            {untunable.map(({ layer, resolved }, i) => (
+              <span key={activeLayerKey(layer)}>
+                {i > 0 && ", "}
+                {resolved!.dataset.label}: {resolved!.layer.label}{" "}
+                <a href={resolved!.dataset.methodologyUrl} target="_blank" rel="noreferrer" className="underline">
+                  (methodology)
                 </a>
-                .
-              </p>
-            )}
-          </div>
-        );
-      })}
+              </span>
+            ))}
+            .
+          </p>
+        </div>
+      )}
     </div>
   );
 }

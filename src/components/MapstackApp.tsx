@@ -29,7 +29,7 @@ export function MapstackApp() {
 
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
-      <div className="mx-auto flex w-full max-w-6xl items-start justify-between px-6 pt-8">
+      <div className="mx-auto flex w-full max-w-6xl flex-wrap items-start justify-between gap-3 px-6 pt-8">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
             Mapstack

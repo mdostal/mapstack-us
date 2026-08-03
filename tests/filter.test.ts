@@ -60,7 +60,25 @@ describe("filter", () => {
     expect(sql).toContain("JOIN layer_values lv1");
     expect(sql).not.toContain("lv2");
     expect(sql).toContain("lv0.value >= ? AND lv1.value <= ?");
-    expect(params).toEqual(["allergy", "grass", null, "crime", "violent_crime", null, 60, 40]);
+    // allergy (non-time-varying) always binds NULL; crime (time-varying)
+    // resolves the shared null year to its own latest real year (2024) --
+    // NOT the same null passed in, since crime rows are never stored with
+    // year IS NULL. See src/lib/db/effective-year.ts.
+    expect(params).toEqual(["allergy", "grass", null, "crime", "violent_crime", 2024, 60, 40]);
+  });
+
+  it("resolves each criterion's year independently of the app's single shared year value -- a non-time-varying dataset always binds NULL even when a time-varying layer's year is explicitly set", async () => {
+    queryMock.mockResolvedValueOnce([]);
+    await filterCityIds(
+      [
+        { layer: { datasetId: "allergy", layerId: "grass" }, min: 60, max: null },
+        { layer: { datasetId: "crime", layerId: "violent_crime" }, min: null, max: 40 },
+      ],
+      2022,
+    );
+
+    const [, params] = queryMock.mock.calls[0];
+    expect(params).toEqual(["allergy", "grass", null, "crime", "violent_crime", 2022, 60, 40]);
   });
 
   it("returns an empty set (not null) when criteria are set but nothing matches", async () => {

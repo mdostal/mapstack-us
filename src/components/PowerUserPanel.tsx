@@ -118,7 +118,7 @@ export function PowerUserPanel() {
 
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
-      <div className="mx-auto flex w-full max-w-6xl items-start justify-between px-6 pt-8">
+      <div className="mx-auto flex w-full max-w-6xl flex-wrap items-start justify-between gap-3 px-6 pt-8">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
             Mapstack — Advanced
@@ -167,7 +167,7 @@ export function PowerUserPanel() {
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col gap-3">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <div role="tablist" aria-label="View" className="flex gap-1 rounded-md border border-zinc-200 p-0.5 dark:border-zinc-800">
               <button
                 type="button"

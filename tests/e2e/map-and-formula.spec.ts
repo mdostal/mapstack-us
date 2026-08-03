@@ -54,7 +54,28 @@ test("Export CSV is hidden in map view (nothing tabular to export)", async ({ pa
 test("Formula panel shows a transparency note for layers with no tunable formula", async ({ page }) => {
   await page.goto("/advanced");
   await page.getByRole("button", { name: "Formula" }).click();
-  await expect(page.getByText(/No tunable formula for this layer/)).toBeVisible();
+  await expect(page.getByText(/Modeled directly .* not a weighted formula/)).toBeVisible();
+});
+
+test("Formula panel dedupes the no-tunable-formula note into one block, not one per layer, when many non-grass layers are active", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("button", { name: "Formula" }).click();
+
+  const allergyLabels = [
+    "Tall fescue", "Orchard grass", "Sweet vernal grass", "Redtop", "Sagebrush",
+    "Kochia / Russian thistle", "Mugwort", "Dock / sorrel", "Nettle", "Red oak",
+  ];
+  for (const label of allergyLabels) {
+    await page.getByLabel(label, { exact: true }).click();
+  }
+
+  // Regression: 11 non-grass layers active (violent crime + 10 allergens)
+  // used to render 11 identical "No tunable formula..." paragraphs, one
+  // per layer, ballooning the sidebar. Now a single combined block.
+  await expect(page.getByText(/11 other layers with no tunable formula/)).toBeVisible();
+  await expect(page.getByText(/Modeled directly .* not a weighted formula/)).toHaveCount(1);
 });
 
 test("Formula panel prompts for a city selection before showing grass sliders", async ({ page }) => {

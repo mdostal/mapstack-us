@@ -1,5 +1,6 @@
 import type { ActiveLayer } from "@/lib/active-layers";
 import { query, type SqlParam } from "@/lib/db/client";
+import { effectiveYearFor } from "@/lib/db/effective-year";
 
 /**
  * SQL-aggregate insights for a single (dataset, layer): min/max/avg across
@@ -30,7 +31,8 @@ export async function getLayerInsights(
   year: number | null,
   limit = 3,
 ): Promise<LayerInsights | null> {
-  const params: SqlParam[] = [layer.datasetId, layer.layerId, year];
+  const resolvedYear = effectiveYearFor(layer.datasetId, year);
+  const params: SqlParam[] = [layer.datasetId, layer.layerId, resolvedYear];
 
   const [stats] = await query<{ min: number; max: number; avg: number; count: number }>(
     "SELECT MIN(value) as min, MAX(value) as max, AVG(value) as avg, COUNT(*) as count FROM layer_values WHERE dataset_id = ? AND layer_id = ? AND year IS ?",

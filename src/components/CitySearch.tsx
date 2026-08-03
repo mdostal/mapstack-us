@@ -69,7 +69,7 @@ export function CitySearch({ onSelectCity }: Props) {
         value={term}
         onChange={(e) => setTerm(e.target.value)}
         placeholder="🔍 Search cities…"
-        className="w-48 rounded border border-zinc-200 bg-transparent px-2 py-1 text-xs dark:border-zinc-700"
+        className="w-32 rounded border border-zinc-200 bg-transparent px-2 py-1 text-xs dark:border-zinc-700 sm:w-48"
       />
       {isSearching && (
         <div className="absolute left-0 top-full z-10 mt-1 w-56 rounded-lg border border-zinc-200 bg-zinc-50 p-2 shadow-lg dark:border-zinc-700 dark:bg-black">

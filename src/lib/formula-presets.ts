@@ -1,4 +1,4 @@
-import type { ComponentWeights } from "@/lib/formula/allergy-grass-formula";
+import { FORMULA_COMPONENT_KEYS, type ComponentWeights } from "@/lib/formula/allergy-grass-formula";
 
 /**
  * Named, saved formula weight-sets, saved PER LAYER (not globally) --
@@ -16,13 +16,34 @@ export interface FormulaPreset {
 
 const STORAGE_KEY = "mapstack:formula-presets";
 
+function normalizePreset(raw: unknown): FormulaPreset | null {
+  if (!raw || typeof raw !== "object") return null;
+  const p = raw as Record<string, unknown>;
+  if (
+    typeof p.id !== "string" ||
+    typeof p.layerKey !== "string" ||
+    typeof p.name !== "string" ||
+    typeof p.savedAt !== "string" ||
+    !p.weights ||
+    typeof p.weights !== "object"
+  ) {
+    return null;
+  }
+  const weights = p.weights as Record<string, unknown>;
+  if (!FORMULA_COMPONENT_KEYS.every((key) => typeof weights[key] === "number" && Number.isFinite(weights[key]))) {
+    return null;
+  }
+  return p as unknown as FormulaPreset;
+}
+
 function getAllFormulaPresets(): FormulaPreset[] {
   if (typeof window === "undefined") return [];
   const raw = window.localStorage.getItem(STORAGE_KEY);
   if (!raw) return [];
   try {
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map(normalizePreset).filter((p): p is FormulaPreset => p !== null);
   } catch {
     return []; // corrupted/foreign data -- fail open to an empty list, never throw
   }

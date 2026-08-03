@@ -43,6 +43,22 @@ describe("formula-presets", () => {
     expect(getFormulaPresets("allergy::grass")).toEqual([]);
   });
 
+  it("drops a malformed preset (missing a required weight key) instead of returning it to crash the caller", () => {
+    // Regression: a preset shape mismatch (e.g. hand-edited/foreign
+    // localStorage data missing a FORMULA_COMPONENT_KEYS entry) used to be
+    // returned as-is and crashed FormulaPanel's `weights[key].toFixed(1)`
+    // on apply. Same fail-open posture as saved-views.ts's normalizeView.
+    const { turf_boost: _drop, ...incompleteWeights } = DEFAULT_WEIGHTS;
+    window.localStorage.setItem(
+      "mapstack:formula-presets",
+      JSON.stringify([
+        { id: "x", layerKey: "allergy::grass", name: "Broken", weights: incompleteWeights, savedAt: "2024-01-01" },
+      ]),
+    );
+    expect(() => getFormulaPresets("allergy::grass")).not.toThrow();
+    expect(getFormulaPresets("allergy::grass")).toEqual([]);
+  });
+
   it("returns an empty array during SSR (no window.localStorage) without throwing", () => {
     const originalWindow = globalThis.window;
     // @ts-expect-error -- simulating an SSR environment where window is undefined

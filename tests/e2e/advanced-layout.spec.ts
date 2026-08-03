@@ -61,6 +61,23 @@ test("each dataset within Layers is its own collapsible group -- open by default
   await expect(page.getByLabel("General / acute care")).not.toBeVisible();
 });
 
+test("the toolbar wraps instead of forcing horizontal page scroll on a narrow (mobile) viewport -- regression for Export CSV being pushed off-screen", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 375, height: 700 });
+  await page.goto("/advanced");
+
+  await expect(page.getByLabel("Search cities")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Export CSV" })).toBeVisible();
+
+  // Vertical scroll to reach it is fine (normal page flow) -- the bug was
+  // horizontal: Export CSV was pushed off the right edge, reachable only
+  // by scrolling the whole page sideways.
+  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  const clientWidth = await page.evaluate(() => document.documentElement.clientWidth);
+  expect(scrollWidth).toBeLessThanOrEqual(clientWidth);
+});
+
 test("Clear all removes every selected layer, and the button hides itself once nothing is selected", async ({ page }) => {
   await page.goto("/advanced");
   await expect(page.getByLabel("Grass", { exact: true })).toBeChecked();

@@ -64,6 +64,25 @@ describe("insights", () => {
     expect(insights).toBeNull();
   });
 
+  it("a time-varying layer (crime) still returns real insights when the app's shared year is null (defaults to its own latest year, not NULL)", async () => {
+    // Regression: crime rows are never stored with year IS NULL, so binding
+    // the app's default null year straight into "year IS ?" always missed --
+    // getLayerInsights must resolve crime's own latest year instead.
+    const insights = await getLayerInsights({ datasetId: "crime", layerId: "violent_crime" }, null);
+    expect(insights).not.toBeNull();
+    expect(insights!.count).toBeGreaterThan(0);
+  });
+
+  it("a non-time-varying layer (allergy) still returns real insights when the shared year is set to a real crime year", async () => {
+    // Regression: allergy/care-access rows are always stored with year IS
+    // NULL, so once a user picks a real year (because a crime layer is also
+    // active), a naive shared-year bind broke every non-time-varying
+    // layer's insights instead.
+    const insights = await getLayerInsights({ datasetId: "allergy", layerId: "grass" }, 2024);
+    expect(insights).not.toBeNull();
+    expect(insights!.count).toBeGreaterThan(0);
+  });
+
   it("each returned city carries a real, resolvable city id/label", async () => {
     const insights = await getLayerInsights({ datasetId: "allergy", layerId: "grass" }, null, 1);
     expect(insights!.top[0].id).toBeTruthy();
