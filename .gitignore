@@ -30,6 +30,14 @@ __pycache__/
 data/raw/crime-cache/
 data/raw/crime-offense-cache/
 
+# Pure fetch-scratch for the natural-hazard dataset build
+# (scripts/geocode_city_counties.py, scripts/gen_hazard_data.py) -- same
+# posture as the crime caches above. data/hazard.json and the smaller
+# data/raw/city-county-fips.json (which county each city resolved to, for
+# methodology transparency) ARE committed.
+data/raw/geocode-cache/
+data/raw/nri-counties.json
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

@@ -20,6 +20,22 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await expect(page.getByRole("button", { name: "Violent crime (already added)" })).toBeDisabled();
 });
 
+test("the fifth dataset (natural hazard risk) is selectable and honestly reports no coastal-flood data for a landlocked city", async ({
+  page,
+}) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Natural hazard risk" }).click();
+  await page.getByRole("button", { name: "Coastal flooding" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Natural hazard risk: Coastal flooding" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^Denver, CO/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Natural hazard risk: Coastal flooding" });
+  await expect(detail).toContainText("No data for this layer.");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

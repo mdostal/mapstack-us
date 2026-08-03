@@ -1,0 +1,2562 @@
+{
+  "new-york-ny": {
+    "stcofips": "36061",
+    "county_name": "New York",
+    "county_state_fips": "36"
+  },
+  "los-angeles-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "chicago-il": {
+    "stcofips": "17031",
+    "county_name": "Cook",
+    "county_state_fips": "17"
+  },
+  "houston-tx": {
+    "stcofips": "48201",
+    "county_name": "Harris",
+    "county_state_fips": "48"
+  },
+  "phoenix-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "philadelphia-pa": {
+    "stcofips": "42101",
+    "county_name": "Philadelphia",
+    "county_state_fips": "42"
+  },
+  "san-antonio-tx": {
+    "stcofips": "48029",
+    "county_name": "Bexar",
+    "county_state_fips": "48"
+  },
+  "san-diego-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "dallas-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "fort-worth-tx": {
+    "stcofips": "48439",
+    "county_name": "Tarrant",
+    "county_state_fips": "48"
+  },
+  "jacksonville-fl": {
+    "stcofips": "12031",
+    "county_name": "Duval",
+    "county_state_fips": "12"
+  },
+  "austin-tx": {
+    "stcofips": "48453",
+    "county_name": "Travis",
+    "county_state_fips": "48"
+  },
+  "san-jose-ca": {
+    "stcofips": "06085",
+    "county_name": "Santa Clara",
+    "county_state_fips": "06"
+  },
+  "charlotte-nc": {
+    "stcofips": "37119",
+    "county_name": "Mecklenburg",
+    "county_state_fips": "37"
+  },
+  "columbus-oh": {
+    "stcofips": "39049",
+    "county_name": "Franklin",
+    "county_state_fips": "39"
+  },
+  "indianapolis-in": {
+    "stcofips": "18097",
+    "county_name": "Marion",
+    "county_state_fips": "18"
+  },
+  "san-francisco-ca": {
+    "stcofips": "06075",
+    "county_name": "San Francisco",
+    "county_state_fips": "06"
+  },
+  "seattle-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "denver-co": {
+    "stcofips": "08031",
+    "county_name": "Denver",
+    "county_state_fips": "08"
+  },
+  "nashville-tn": {
+    "stcofips": "47037",
+    "county_name": "Davidson",
+    "county_state_fips": "47"
+  },
+  "oklahoma-city-ok": {
+    "stcofips": "40109",
+    "county_name": "Oklahoma",
+    "county_state_fips": "40"
+  },
+  "washington-dc": {
+    "stcofips": "11001",
+    "county_name": "District of Columbia",
+    "county_state_fips": "11"
+  },
+  "el-paso-tx": {
+    "stcofips": "48141",
+    "county_name": "El Paso",
+    "county_state_fips": "48"
+  },
+  "las-vegas-nv": {
+    "stcofips": "32003",
+    "county_name": "Clark",
+    "county_state_fips": "32"
+  },
+  "boston-ma": {
+    "stcofips": "25025",
+    "county_name": "Suffolk",
+    "county_state_fips": "25"
+  },
+  "detroit-mi": {
+    "stcofips": "26163",
+    "county_name": "Wayne",
+    "county_state_fips": "26"
+  },
+  "louisville-ky": {
+    "stcofips": "21111",
+    "county_name": "Jefferson",
+    "county_state_fips": "21"
+  },
+  "portland-or": {
+    "stcofips": "41051",
+    "county_name": "Multnomah",
+    "county_state_fips": "41"
+  },
+  "memphis-tn": {
+    "stcofips": "47157",
+    "county_name": "Shelby",
+    "county_state_fips": "47"
+  },
+  "baltimore-md": {
+    "stcofips": "24510",
+    "county_name": "Baltimore",
+    "county_state_fips": "24"
+  },
+  "milwaukee-wi": {
+    "stcofips": "55079",
+    "county_name": "Milwaukee",
+    "county_state_fips": "55"
+  },
+  "albuquerque-nm": {
+    "stcofips": "35001",
+    "county_name": "Bernalillo",
+    "county_state_fips": "35"
+  },
+  "fresno-ca": {
+    "stcofips": "06019",
+    "county_name": "Fresno",
+    "county_state_fips": "06"
+  },
+  "tucson-az": {
+    "stcofips": "04019",
+    "county_name": "Pima",
+    "county_state_fips": "04"
+  },
+  "sacramento-ca": {
+    "stcofips": "06067",
+    "county_name": "Sacramento",
+    "county_state_fips": "06"
+  },
+  "atlanta-ga": {
+    "stcofips": "13121",
+    "county_name": "Fulton",
+    "county_state_fips": "13"
+  },
+  "kansas-city-mo": {
+    "stcofips": "29095",
+    "county_name": "Jackson",
+    "county_state_fips": "29"
+  },
+  "mesa-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "raleigh-nc": {
+    "stcofips": "37183",
+    "county_name": "Wake",
+    "county_state_fips": "37"
+  },
+  "colorado-springs-co": {
+    "stcofips": "08041",
+    "county_name": "El Paso",
+    "county_state_fips": "08"
+  },
+  "miami-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "omaha-ne": {
+    "stcofips": "31055",
+    "county_name": "Douglas",
+    "county_state_fips": "31"
+  },
+  "virginia-beach-va": {
+    "stcofips": "51810",
+    "county_name": "Virginia Beach",
+    "county_state_fips": "51"
+  },
+  "long-beach-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "oakland-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "minneapolis-mn": {
+    "stcofips": "27053",
+    "county_name": "Hennepin",
+    "county_state_fips": "27"
+  },
+  "bakersfield-ca": {
+    "stcofips": "06029",
+    "county_name": "Kern",
+    "county_state_fips": "06"
+  },
+  "tulsa-ok": {
+    "stcofips": "40143",
+    "county_name": "Tulsa",
+    "county_state_fips": "40"
+  },
+  "tampa-fl": {
+    "stcofips": "12057",
+    "county_name": "Hillsborough",
+    "county_state_fips": "12"
+  },
+  "aurora-co": {
+    "stcofips": "08005",
+    "county_name": "Arapahoe",
+    "county_state_fips": "08"
+  },
+  "arlington-tx": {
+    "stcofips": "48439",
+    "county_name": "Tarrant",
+    "county_state_fips": "48"
+  },
+  "wichita-ks": {
+    "stcofips": "20173",
+    "county_name": "Sedgwick",
+    "county_state_fips": "20"
+  },
+  "cleveland-oh": {
+    "stcofips": "39035",
+    "county_name": "Cuyahoga",
+    "county_state_fips": "39"
+  },
+  "new-orleans-la": {
+    "stcofips": "22071",
+    "county_name": "Orleans",
+    "county_state_fips": "22"
+  },
+  "henderson-nv": {
+    "stcofips": "32003",
+    "county_name": "Clark",
+    "county_state_fips": "32"
+  },
+  "honolulu-hi": {
+    "stcofips": "15003",
+    "county_name": "Honolulu",
+    "county_state_fips": "15"
+  },
+  "anaheim-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "orlando-fl": {
+    "stcofips": "12095",
+    "county_name": "Orange",
+    "county_state_fips": "12"
+  },
+  "lexington-ky": {
+    "stcofips": "21067",
+    "county_name": "Fayette",
+    "county_state_fips": "21"
+  },
+  "stockton-ca": {
+    "stcofips": "06077",
+    "county_name": "San Joaquin",
+    "county_state_fips": "06"
+  },
+  "newark-nj": {
+    "stcofips": "34013",
+    "county_name": "Essex",
+    "county_state_fips": "34"
+  },
+  "riverside-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "irvine-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "corpus-christi-tx": {
+    "stcofips": "48355",
+    "county_name": "Nueces",
+    "county_state_fips": "48"
+  },
+  "santa-ana-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "cincinnati-oh": {
+    "stcofips": "39061",
+    "county_name": "Hamilton",
+    "county_state_fips": "39"
+  },
+  "greensboro-nc": {
+    "stcofips": "37081",
+    "county_name": "Guilford",
+    "county_state_fips": "37"
+  },
+  "pittsburgh-pa": {
+    "stcofips": "42003",
+    "county_name": "Allegheny",
+    "county_state_fips": "42"
+  },
+  "saint-paul-mn": {
+    "stcofips": "27123",
+    "county_name": "Ramsey",
+    "county_state_fips": "27"
+  },
+  "durham-nc": {
+    "stcofips": "37063",
+    "county_name": "Durham",
+    "county_state_fips": "37"
+  },
+  "jersey-city-nj": {
+    "stcofips": "34017",
+    "county_name": "Hudson",
+    "county_state_fips": "34"
+  },
+  "lincoln-ne": {
+    "stcofips": "31109",
+    "county_name": "Lancaster",
+    "county_state_fips": "31"
+  },
+  "north-las-vegas-nv": {
+    "stcofips": "32003",
+    "county_name": "Clark",
+    "county_state_fips": "32"
+  },
+  "plano-tx": {
+    "stcofips": "48085",
+    "county_name": "Collin",
+    "county_state_fips": "48"
+  },
+  "gilbert-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "anchorage-ak": {
+    "stcofips": "02020",
+    "county_name": "Anchorage",
+    "county_state_fips": "02"
+  },
+  "madison-wi": {
+    "stcofips": "55025",
+    "county_name": "Dane",
+    "county_state_fips": "55"
+  },
+  "reno-nv": {
+    "stcofips": "32031",
+    "county_name": "Washoe",
+    "county_state_fips": "32"
+  },
+  "chandler-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "st-louis-mo": {
+    "stcofips": "29510",
+    "county_name": "St. Louis",
+    "county_state_fips": "29"
+  },
+  "chula-vista-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "fort-wayne-in": {
+    "stcofips": "18003",
+    "county_name": "Allen",
+    "county_state_fips": "18"
+  },
+  "buffalo-ny": {
+    "stcofips": "36029",
+    "county_name": "Erie",
+    "county_state_fips": "36"
+  },
+  "lubbock-tx": {
+    "stcofips": "48303",
+    "county_name": "Lubbock",
+    "county_state_fips": "48"
+  },
+  "laredo-tx": {
+    "stcofips": "48479",
+    "county_name": "Webb",
+    "county_state_fips": "48"
+  },
+  "port-st-lucie-fl": {
+    "stcofips": "12111",
+    "county_name": "St. Lucie",
+    "county_state_fips": "12"
+  },
+  "st-petersburg-fl": {
+    "stcofips": "12103",
+    "county_name": "Pinellas",
+    "county_state_fips": "12"
+  },
+  "toledo-oh": {
+    "stcofips": "39095",
+    "county_name": "Lucas",
+    "county_state_fips": "39"
+  },
+  "glendale-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "winston-salem-nc": {
+    "stcofips": "37067",
+    "county_name": "Forsyth",
+    "county_state_fips": "37"
+  },
+  "irving-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "chesapeake-va": {
+    "stcofips": "51550",
+    "county_name": "Chesapeake",
+    "county_state_fips": "51"
+  },
+  "garland-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "arlington-va": {
+    "stcofips": "51013",
+    "county_name": "Arlington",
+    "county_state_fips": "51"
+  },
+  "scottsdale-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "boise-id": {
+    "stcofips": "16001",
+    "county_name": "Ada",
+    "county_state_fips": "16"
+  },
+  "richmond-va": {
+    "stcofips": "51760",
+    "county_name": "Richmond",
+    "county_state_fips": "51"
+  },
+  "frisco-tx": {
+    "stcofips": "48085",
+    "county_name": "Collin",
+    "county_state_fips": "48"
+  },
+  "cape-coral-fl": {
+    "stcofips": "12071",
+    "county_name": "Lee",
+    "county_state_fips": "12"
+  },
+  "mckinney-tx": {
+    "stcofips": "48085",
+    "county_name": "Collin",
+    "county_state_fips": "48"
+  },
+  "huntsville-al": {
+    "stcofips": "01089",
+    "county_name": "Madison",
+    "county_state_fips": "01"
+  },
+  "norfolk-va": {
+    "stcofips": "51710",
+    "county_name": "Norfolk",
+    "county_state_fips": "51"
+  },
+  "hialeah-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "spokane-wa": {
+    "stcofips": "53063",
+    "county_name": "Spokane",
+    "county_state_fips": "53"
+  },
+  "tacoma-wa": {
+    "stcofips": "53053",
+    "county_name": "Pierce",
+    "county_state_fips": "53"
+  },
+  "santa-clarita-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "fremont-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "baton-rouge-la": {
+    "stcofips": "22033",
+    "county_name": "East Baton Rouge",
+    "county_state_fips": "22"
+  },
+  "san-bernardino-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "fontana-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "modesto-ca": {
+    "stcofips": "06099",
+    "county_name": "Stanislaus",
+    "county_state_fips": "06"
+  },
+  "salt-lake-city-ut": {
+    "stcofips": "49035",
+    "county_name": "Salt Lake",
+    "county_state_fips": "49"
+  },
+  "moreno-valley-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "worcester-ma": {
+    "stcofips": "25027",
+    "county_name": "Worcester",
+    "county_state_fips": "25"
+  },
+  "sioux-falls-sd": {
+    "stcofips": "46099",
+    "county_name": "Minnehaha",
+    "county_state_fips": "46"
+  },
+  "yonkers-ny": {
+    "stcofips": "36119",
+    "county_name": "Westchester",
+    "county_state_fips": "36"
+  },
+  "des-moines-ia": {
+    "stcofips": "19153",
+    "county_name": "Polk",
+    "county_state_fips": "19"
+  },
+  "grand-prairie-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "fayetteville-nc": {
+    "stcofips": "37051",
+    "county_name": "Cumberland",
+    "county_state_fips": "37"
+  },
+  "little-rock-ar": {
+    "stcofips": "05119",
+    "county_name": "Pulaski",
+    "county_state_fips": "05"
+  },
+  "rochester-ny": {
+    "stcofips": "36055",
+    "county_name": "Monroe",
+    "county_state_fips": "36"
+  },
+  "amarillo-tx": {
+    "stcofips": "48375",
+    "county_name": "Potter",
+    "county_state_fips": "48"
+  },
+  "tallahassee-fl": {
+    "stcofips": "12073",
+    "county_name": "Leon",
+    "county_state_fips": "12"
+  },
+  "overland-park-ks": {
+    "stcofips": "20091",
+    "county_name": "Johnson",
+    "county_state_fips": "20"
+  },
+  "columbus-ga": {
+    "stcofips": "13215",
+    "county_name": "Muscogee",
+    "county_state_fips": "13"
+  },
+  "knoxville-tn": {
+    "stcofips": "47093",
+    "county_name": "Knox",
+    "county_state_fips": "47"
+  },
+  "augusta-ga": {
+    "stcofips": "13245",
+    "county_name": "Richmond",
+    "county_state_fips": "13"
+  },
+  "grand-rapids-mi": {
+    "stcofips": "26081",
+    "county_name": "Kent",
+    "county_state_fips": "26"
+  },
+  "peoria-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "mobile-al": {
+    "stcofips": "01097",
+    "county_name": "Mobile",
+    "county_state_fips": "01"
+  },
+  "vancouver-wa": {
+    "stcofips": "53011",
+    "county_name": "Clark",
+    "county_state_fips": "53"
+  },
+  "oxnard-ca": {
+    "stcofips": "06111",
+    "county_name": "Ventura",
+    "county_state_fips": "06"
+  },
+  "birmingham-al": {
+    "stcofips": "01073",
+    "county_name": "Jefferson",
+    "county_state_fips": "01"
+  },
+  "providence-ri": {
+    "stcofips": "44007",
+    "county_name": "Providence",
+    "county_state_fips": "44"
+  },
+  "montgomery-al": {
+    "stcofips": "01101",
+    "county_name": "Montgomery",
+    "county_state_fips": "01"
+  },
+  "chattanooga-tn": {
+    "stcofips": "47065",
+    "county_name": "Hamilton",
+    "county_state_fips": "47"
+  },
+  "brownsville-tx": {
+    "stcofips": "48061",
+    "county_name": "Cameron",
+    "county_state_fips": "48"
+  },
+  "huntington-beach-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "tempe-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "akron-oh": {
+    "stcofips": "39153",
+    "county_name": "Summit",
+    "county_state_fips": "39"
+  },
+  "clarksville-tn": {
+    "stcofips": "47125",
+    "county_name": "Montgomery",
+    "county_state_fips": "47"
+  },
+  "fort-lauderdale-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "glendale-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "ontario-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "elk-grove-ca": {
+    "stcofips": "06067",
+    "county_name": "Sacramento",
+    "county_state_fips": "06"
+  },
+  "cary-nc": {
+    "stcofips": "37183",
+    "county_name": "Wake",
+    "county_state_fips": "37"
+  },
+  "newport-news-va": {
+    "stcofips": "51700",
+    "county_name": "Newport News",
+    "county_state_fips": "51"
+  },
+  "salem-or": {
+    "stcofips": "41047",
+    "county_name": "Marion",
+    "county_state_fips": "41"
+  },
+  "aurora-il": {
+    "stcofips": "17089",
+    "county_name": "Kane",
+    "county_state_fips": "17"
+  },
+  "santa-rosa-ca": {
+    "stcofips": "06097",
+    "county_name": "Sonoma",
+    "county_state_fips": "06"
+  },
+  "eugene-or": {
+    "stcofips": "41039",
+    "county_name": "Lane",
+    "county_state_fips": "41"
+  },
+  "rancho-cucamonga-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "pembroke-pines-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "shreveport-la": {
+    "stcofips": "22017",
+    "county_name": "Caddo",
+    "county_state_fips": "22"
+  },
+  "surprise-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "fort-collins-co": {
+    "stcofips": "08069",
+    "county_name": "Larimer",
+    "county_state_fips": "08"
+  },
+  "murfreesboro-tn": {
+    "stcofips": "47149",
+    "county_name": "Rutherford",
+    "county_state_fips": "47"
+  },
+  "oceanside-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "garden-grove-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "lancaster-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "springfield-mo": {
+    "stcofips": "29077",
+    "county_name": "Greene",
+    "county_state_fips": "29"
+  },
+  "denton-tx": {
+    "stcofips": "48121",
+    "county_name": "Denton",
+    "county_state_fips": "48"
+  },
+  "roseville-ca": {
+    "stcofips": "06061",
+    "county_name": "Placer",
+    "county_state_fips": "06"
+  },
+  "killeen-tx": {
+    "stcofips": "48027",
+    "county_name": "Bell",
+    "county_state_fips": "48"
+  },
+  "palmdale-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "paterson-nj": {
+    "stcofips": "34031",
+    "county_name": "Passaic",
+    "county_state_fips": "34"
+  },
+  "corona-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "alexandria-va": {
+    "stcofips": "51510",
+    "county_name": "Alexandria",
+    "county_state_fips": "51"
+  },
+  "charleston-sc": {
+    "stcofips": "45019",
+    "county_name": "Charleston",
+    "county_state_fips": "45"
+  },
+  "salinas-ca": {
+    "stcofips": "06053",
+    "county_name": "Monterey",
+    "county_state_fips": "06"
+  },
+  "kansas-city-ks": {
+    "stcofips": "20209",
+    "county_name": "Wyandotte",
+    "county_state_fips": "20"
+  },
+  "macon-ga": {
+    "stcofips": "13021",
+    "county_name": "Bibb",
+    "county_state_fips": "13"
+  },
+  "hayward-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "hollywood-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "lakewood-co": {
+    "stcofips": "08059",
+    "county_name": "Jefferson",
+    "county_state_fips": "08"
+  },
+  "sunnyvale-ca": {
+    "stcofips": "06085",
+    "county_name": "Santa Clara",
+    "county_state_fips": "06"
+  },
+  "springfield-ma": {
+    "stcofips": "25013",
+    "county_name": "Hampden",
+    "county_state_fips": "25"
+  },
+  "bellevue-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "naperville-il": {
+    "stcofips": "17043",
+    "county_name": "DuPage",
+    "county_state_fips": "17"
+  },
+  "bridgeport-ct": {
+    "stcofips": "09120",
+    "county_name": "Greater Bridgeport",
+    "county_state_fips": "09"
+  },
+  "joliet-il": {
+    "stcofips": "17197",
+    "county_name": "Will",
+    "county_state_fips": "17"
+  },
+  "mesquite-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "mcallen-tx": {
+    "stcofips": "48215",
+    "county_name": "Hidalgo",
+    "county_state_fips": "48"
+  },
+  "olathe-ks": {
+    "stcofips": "20091",
+    "county_name": "Johnson",
+    "county_state_fips": "20"
+  },
+  "savannah-ga": {
+    "stcofips": "13051",
+    "county_name": "Chatham",
+    "county_state_fips": "13"
+  },
+  "gainesville-fl": {
+    "stcofips": "12001",
+    "county_name": "Alachua",
+    "county_state_fips": "12"
+  },
+  "pasadena-tx": {
+    "stcofips": "48201",
+    "county_name": "Harris",
+    "county_state_fips": "48"
+  },
+  "palm-bay-fl": {
+    "stcofips": "12009",
+    "county_name": "Brevard",
+    "county_state_fips": "12"
+  },
+  "pomona-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "waco-tx": {
+    "stcofips": "48309",
+    "county_name": "McLennan",
+    "county_state_fips": "48"
+  },
+  "thornton-co": {
+    "stcofips": "08001",
+    "county_name": "Adams",
+    "county_state_fips": "08"
+  },
+  "midland-tx": {
+    "stcofips": "48329",
+    "county_name": "Midland",
+    "county_state_fips": "48"
+  },
+  "rockford-il": {
+    "stcofips": "17201",
+    "county_name": "Winnebago",
+    "county_state_fips": "17"
+  },
+  "columbia-sc": {
+    "stcofips": "45079",
+    "county_name": "Richland",
+    "county_state_fips": "45"
+  },
+  "visalia-ca": {
+    "stcofips": "06107",
+    "county_name": "Tulare",
+    "county_state_fips": "06"
+  },
+  "escondido-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "syracuse-ny": {
+    "stcofips": "36067",
+    "county_name": "Onondaga",
+    "county_state_fips": "36"
+  },
+  "meridian-id": {
+    "stcofips": "16001",
+    "county_name": "Ada",
+    "county_state_fips": "16"
+  },
+  "miramar-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "elizabeth-nj": {
+    "stcofips": "34039",
+    "county_name": "Union",
+    "county_state_fips": "34"
+  },
+  "victorville-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "round-rock-tx": {
+    "stcofips": "48491",
+    "county_name": "Williamson",
+    "county_state_fips": "48"
+  },
+  "jackson-ms": {
+    "stcofips": "28049",
+    "county_name": "Hinds",
+    "county_state_fips": "28"
+  },
+  "stamford-ct": {
+    "stcofips": "09190",
+    "county_name": "Western Connecticut",
+    "county_state_fips": "09"
+  },
+  "lewisville-tx": {
+    "stcofips": "48121",
+    "county_name": "Denton",
+    "county_state_fips": "48"
+  },
+  "coral-springs-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "new-haven-ct": {
+    "stcofips": "09170",
+    "county_name": "South Central Connecticut",
+    "county_state_fips": "09"
+  },
+  "fullerton-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "torrance-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "orange-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "cedar-rapids-ia": {
+    "stcofips": "19113",
+    "county_name": "Linn",
+    "county_state_fips": "19"
+  },
+  "west-valley-city-ut": {
+    "stcofips": "49035",
+    "county_name": "Salt Lake",
+    "county_state_fips": "49"
+  },
+  "hampton-va": {
+    "stcofips": "51650",
+    "county_name": "Hampton",
+    "county_state_fips": "51"
+  },
+  "warren-mi": {
+    "stcofips": "26099",
+    "county_name": "Macomb",
+    "county_state_fips": "26"
+  },
+  "dayton-oh": {
+    "stcofips": "39113",
+    "county_name": "Montgomery",
+    "county_state_fips": "39"
+  },
+  "fargo-nd": {
+    "stcofips": "38017",
+    "county_name": "Cass",
+    "county_state_fips": "38"
+  },
+  "pasadena-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "kent-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "carrollton-tx": {
+    "stcofips": "48121",
+    "county_name": "Denton",
+    "county_state_fips": "48"
+  },
+  "sterling-heights-mi": {
+    "stcofips": "26099",
+    "county_name": "Macomb",
+    "county_state_fips": "26"
+  },
+  "santa-clara-ca": {
+    "stcofips": "06085",
+    "county_name": "Santa Clara",
+    "county_state_fips": "06"
+  },
+  "abilene-tx": {
+    "stcofips": "48441",
+    "county_name": "Taylor",
+    "county_state_fips": "48"
+  },
+  "norman-ok": {
+    "stcofips": "40027",
+    "county_name": "Cleveland",
+    "county_state_fips": "40"
+  },
+  "columbia-mo": {
+    "stcofips": "29019",
+    "county_name": "Boone",
+    "county_state_fips": "29"
+  },
+  "pearland-tx": {
+    "stcofips": "48039",
+    "county_name": "Brazoria",
+    "county_state_fips": "48"
+  },
+  "clovis-ca": {
+    "stcofips": "06019",
+    "county_name": "Fresno",
+    "county_state_fips": "06"
+  },
+  "north-charleston-sc": {
+    "stcofips": "45019",
+    "county_name": "Charleston",
+    "county_state_fips": "45"
+  },
+  "athens-ga": {
+    "stcofips": "13059",
+    "county_name": "Clarke",
+    "county_state_fips": "13"
+  },
+  "college-station-tx": {
+    "stcofips": "48041",
+    "county_name": "Brazos",
+    "county_state_fips": "48"
+  },
+  "west-palm-beach-fl": {
+    "stcofips": "12099",
+    "county_name": "Palm Beach",
+    "county_state_fips": "12"
+  },
+  "wilmington-nc": {
+    "stcofips": "37129",
+    "county_name": "New Hanover",
+    "county_state_fips": "37"
+  },
+  "allentown-pa": {
+    "stcofips": "42077",
+    "county_name": "Lehigh",
+    "county_state_fips": "42"
+  },
+  "topeka-ks": {
+    "stcofips": "20177",
+    "county_name": "Shawnee",
+    "county_state_fips": "20"
+  },
+  "lakeland-fl": {
+    "stcofips": "12105",
+    "county_name": "Polk",
+    "county_state_fips": "12"
+  },
+  "buckeye-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "goodyear-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "broken-arrow-ok": {
+    "stcofips": "40143",
+    "county_name": "Tulsa",
+    "county_state_fips": "40"
+  },
+  "simi-valley-ca": {
+    "stcofips": "06111",
+    "county_name": "Ventura",
+    "county_state_fips": "06"
+  },
+  "rochester-mn": {
+    "stcofips": "27109",
+    "county_name": "Olmsted",
+    "county_state_fips": "27"
+  },
+  "lafayette-la": {
+    "stcofips": "22055",
+    "county_name": "Lafayette",
+    "county_state_fips": "22"
+  },
+  "vallejo-ca": {
+    "stcofips": "06095",
+    "county_name": "Solano",
+    "county_state_fips": "06"
+  },
+  "concord-ca": {
+    "stcofips": "06013",
+    "county_name": "Contra Costa",
+    "county_state_fips": "06"
+  },
+  "arvada-co": {
+    "stcofips": "08059",
+    "county_name": "Jefferson",
+    "county_state_fips": "08"
+  },
+  "odessa-tx": {
+    "stcofips": "48135",
+    "county_name": "Ector",
+    "county_state_fips": "48"
+  },
+  "cambridge-ma": {
+    "stcofips": "25017",
+    "county_name": "Middlesex",
+    "county_state_fips": "25"
+  },
+  "new-braunfels-tx": {
+    "stcofips": "48091",
+    "county_name": "Comal",
+    "county_state_fips": "48"
+  },
+  "fairfield-ca": {
+    "stcofips": "06095",
+    "county_name": "Solano",
+    "county_state_fips": "06"
+  },
+  "ann-arbor-mi": {
+    "stcofips": "26161",
+    "county_name": "Washtenaw",
+    "county_state_fips": "26"
+  },
+  "thousand-oaks-ca": {
+    "stcofips": "06111",
+    "county_name": "Ventura",
+    "county_state_fips": "06"
+  },
+  "hartford-ct": {
+    "stcofips": "09110",
+    "county_name": "Capitol",
+    "county_state_fips": "09"
+  },
+  "berkeley-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "independence-mo": {
+    "stcofips": "29095",
+    "county_name": "Jackson",
+    "county_state_fips": "29"
+  },
+  "billings-mt": {
+    "stcofips": "30111",
+    "county_name": "Yellowstone",
+    "county_state_fips": "30"
+  },
+  "high-point-nc": {
+    "stcofips": "37081",
+    "county_name": "Guilford",
+    "county_state_fips": "37"
+  },
+  "nampa-id": {
+    "stcofips": "16027",
+    "county_name": "Canyon",
+    "county_state_fips": "16"
+  },
+  "lowell-ma": {
+    "stcofips": "25017",
+    "county_name": "Middlesex",
+    "county_state_fips": "25"
+  },
+  "league-city-tx": {
+    "stcofips": "48167",
+    "county_name": "Galveston",
+    "county_state_fips": "48"
+  },
+  "conroe-tx": {
+    "stcofips": "48339",
+    "county_name": "Montgomery",
+    "county_state_fips": "48"
+  },
+  "antioch-ca": {
+    "stcofips": "06013",
+    "county_name": "Contra Costa",
+    "county_state_fips": "06"
+  },
+  "menifee-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "richardson-tx": {
+    "stcofips": "48113",
+    "county_name": "Dallas",
+    "county_state_fips": "48"
+  },
+  "pompano-beach-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "las-cruces-nm": {
+    "stcofips": "35013",
+    "county_name": "Do\u00f1a Ana",
+    "county_state_fips": "35"
+  },
+  "manchester-nh": {
+    "stcofips": "33011",
+    "county_name": "Hillsborough",
+    "county_state_fips": "33"
+  },
+  "west-jordan-ut": {
+    "stcofips": "49035",
+    "county_name": "Salt Lake",
+    "county_state_fips": "49"
+  },
+  "westminster-co": {
+    "stcofips": "08059",
+    "county_name": "Jefferson",
+    "county_state_fips": "08"
+  },
+  "evansville-in": {
+    "stcofips": "18163",
+    "county_name": "Vanderburgh",
+    "county_state_fips": "18"
+  },
+  "waterbury-ct": {
+    "stcofips": "09140",
+    "county_name": "Naugatuck Valley",
+    "county_state_fips": "09"
+  },
+  "elgin-il": {
+    "stcofips": "17089",
+    "county_name": "Kane",
+    "county_state_fips": "17"
+  },
+  "greeley-co": {
+    "stcofips": "08123",
+    "county_name": "Weld",
+    "county_state_fips": "08"
+  },
+  "temecula-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "richmond-ca": {
+    "stcofips": "06013",
+    "county_name": "Contra Costa",
+    "county_state_fips": "06"
+  },
+  "concord-nc": {
+    "stcofips": "37025",
+    "county_name": "Cabarrus",
+    "county_state_fips": "37"
+  },
+  "provo-ut": {
+    "stcofips": "49049",
+    "county_name": "Utah",
+    "county_state_fips": "49"
+  },
+  "rio-rancho-nm": {
+    "stcofips": "35043",
+    "county_name": "Sandoval",
+    "county_state_fips": "35"
+  },
+  "clearwater-fl": {
+    "stcofips": "12103",
+    "county_name": "Pinellas",
+    "county_state_fips": "12"
+  },
+  "tuscaloosa-al": {
+    "stcofips": "01125",
+    "county_name": "Tuscaloosa",
+    "county_state_fips": "01"
+  },
+  "murrieta-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "lansing-mi": {
+    "stcofips": "26065",
+    "county_name": "Ingham",
+    "county_state_fips": "26"
+  },
+  "tyler-tx": {
+    "stcofips": "48423",
+    "county_name": "Smith",
+    "county_state_fips": "48"
+  },
+  "miami-gardens-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "everett-wa": {
+    "stcofips": "53061",
+    "county_name": "Snohomish",
+    "county_state_fips": "53"
+  },
+  "allen-tx": {
+    "stcofips": "48085",
+    "county_name": "Collin",
+    "county_state_fips": "48"
+  },
+  "springfield-il": {
+    "stcofips": "17167",
+    "county_name": "Sangamon",
+    "county_state_fips": "17"
+  },
+  "beaumont-tx": {
+    "stcofips": "48245",
+    "county_name": "Jefferson",
+    "county_state_fips": "48"
+  },
+  "south-fulton-ga": {
+    "stcofips": "13121",
+    "county_name": "Fulton",
+    "county_state_fips": "13"
+  },
+  "carlsbad-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "sparks-nv": {
+    "stcofips": "32031",
+    "county_name": "Washoe",
+    "county_state_fips": "32"
+  },
+  "gresham-or": {
+    "stcofips": "41051",
+    "county_name": "Multnomah",
+    "county_state_fips": "41"
+  },
+  "santa-maria-ca": {
+    "stcofips": "06083",
+    "county_name": "Santa Barbara",
+    "county_state_fips": "06"
+  },
+  "hillsboro-or": {
+    "stcofips": "41067",
+    "county_name": "Washington",
+    "county_state_fips": "41"
+  },
+  "peoria-il": {
+    "stcofips": "17143",
+    "county_name": "Peoria",
+    "county_state_fips": "17"
+  },
+  "davie-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "edinburg-tx": {
+    "stcofips": "48215",
+    "county_name": "Hidalgo",
+    "county_state_fips": "48"
+  },
+  "pueblo-co": {
+    "stcofips": "08101",
+    "county_name": "Pueblo",
+    "county_state_fips": "08"
+  },
+  "ventura-ca": {
+    "stcofips": "06111",
+    "county_name": "Ventura",
+    "county_state_fips": "06"
+  },
+  "palm-coast-fl": {
+    "stcofips": "12035",
+    "county_name": "Flagler",
+    "county_state_fips": "12"
+  },
+  "costa-mesa-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "st-george-ut": {
+    "stcofips": "49053",
+    "county_name": "Washington",
+    "county_state_fips": "49"
+  },
+  "centennial-co": {
+    "stcofips": "08005",
+    "county_name": "Arapahoe",
+    "county_state_fips": "08"
+  },
+  "downey-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "spokane-valley-wa": {
+    "stcofips": "53063",
+    "county_name": "Spokane",
+    "county_state_fips": "53"
+  },
+  "sugar-land-tx": {
+    "stcofips": "48157",
+    "county_name": "Fort Bend",
+    "county_state_fips": "48"
+  },
+  "lees-summit-mo": {
+    "stcofips": "29095",
+    "county_name": "Jackson",
+    "county_state_fips": "29"
+  },
+  "bend-or": {
+    "stcofips": "41017",
+    "county_name": "Deschutes",
+    "county_state_fips": "41"
+  },
+  "jurupa-valley-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "georgetown-tx": {
+    "stcofips": "48491",
+    "county_name": "Williamson",
+    "county_state_fips": "48"
+  },
+  "green-bay-wi": {
+    "stcofips": "55009",
+    "county_name": "Brown",
+    "county_state_fips": "55"
+  },
+  "fayetteville-ar": {
+    "stcofips": "05143",
+    "county_name": "Washington",
+    "county_state_fips": "05"
+  },
+  "rialto-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "brockton-ma": {
+    "stcofips": "25023",
+    "county_name": "Plymouth",
+    "county_state_fips": "25"
+  },
+  "boulder-co": {
+    "stcofips": "08013",
+    "county_name": "Boulder",
+    "county_state_fips": "08"
+  },
+  "carmel-in": {
+    "stcofips": "18057",
+    "county_name": "Hamilton",
+    "county_state_fips": "18"
+  },
+  "dearborn-mi": {
+    "stcofips": "26163",
+    "county_name": "Wayne",
+    "county_state_fips": "26"
+  },
+  "west-covina-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "yuma-az": {
+    "stcofips": "04027",
+    "county_name": "Yuma",
+    "county_state_fips": "04"
+  },
+  "chico-ca": {
+    "stcofips": "06007",
+    "county_name": "Butte",
+    "county_state_fips": "06"
+  },
+  "el-monte-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "sandy-springs-ga": {
+    "stcofips": "13121",
+    "county_name": "Fulton",
+    "county_state_fips": "13"
+  },
+  "renton-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "fishers-in": {
+    "stcofips": "18057",
+    "county_name": "Hamilton",
+    "county_state_fips": "18"
+  },
+  "suffolk-va": {
+    "stcofips": "51800",
+    "county_name": "Suffolk",
+    "county_state_fips": "51"
+  },
+  "lynn-ma": {
+    "stcofips": "25009",
+    "county_name": "Essex",
+    "county_state_fips": "25"
+  },
+  "vacaville-ca": {
+    "stcofips": "06095",
+    "county_name": "Solano",
+    "county_state_fips": "06"
+  },
+  "san-mateo-ca": {
+    "stcofips": "06081",
+    "county_name": "San Mateo",
+    "county_state_fips": "06"
+  },
+  "south-bend-in": {
+    "stcofips": "18141",
+    "county_name": "St. Joseph",
+    "county_state_fips": "18"
+  },
+  "quincy-ma": {
+    "stcofips": "25021",
+    "county_name": "Norfolk",
+    "county_state_fips": "25"
+  },
+  "burbank-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "hesperia-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "wichita-falls-tx": {
+    "stcofips": "48485",
+    "county_name": "Wichita",
+    "county_state_fips": "48"
+  },
+  "tracy-ca": {
+    "stcofips": "06077",
+    "county_name": "San Joaquin",
+    "county_state_fips": "06"
+  },
+  "new-bedford-ma": {
+    "stcofips": "25005",
+    "county_name": "Bristol",
+    "county_state_fips": "25"
+  },
+  "el-cajon-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "albany-ny": {
+    "stcofips": "36001",
+    "county_name": "Albany",
+    "county_state_fips": "36"
+  },
+  "inglewood-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "boca-raton-fl": {
+    "stcofips": "12099",
+    "county_name": "Palm Beach",
+    "county_state_fips": "12"
+  },
+  "fort-myers-fl": {
+    "stcofips": "12071",
+    "county_name": "Lee",
+    "county_state_fips": "12"
+  },
+  "daly-city-ca": {
+    "stcofips": "06081",
+    "county_name": "San Mateo",
+    "county_state_fips": "06"
+  },
+  "avondale-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "san-angelo-tx": {
+    "stcofips": "48451",
+    "county_name": "Tom Green",
+    "county_state_fips": "48"
+  },
+  "edmond-ok": {
+    "stcofips": "40109",
+    "county_name": "Oklahoma",
+    "county_state_fips": "40"
+  },
+  "davenport-ia": {
+    "stcofips": "19163",
+    "county_name": "Scott",
+    "county_state_fips": "19"
+  },
+  "deltona-fl": {
+    "stcofips": "12127",
+    "county_name": "Volusia",
+    "county_state_fips": "12"
+  },
+  "longmont-co": {
+    "stcofips": "08013",
+    "county_name": "Boulder",
+    "county_state_fips": "08"
+  },
+  "federal-way-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "merced-ca": {
+    "stcofips": "06047",
+    "county_name": "Merced",
+    "county_state_fips": "06"
+  },
+  "kenosha-wi": {
+    "stcofips": "55059",
+    "county_name": "Kenosha",
+    "county_state_fips": "55"
+  },
+  "plantation-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "roanoke-va": {
+    "stcofips": "51770",
+    "county_name": "Roanoke",
+    "county_state_fips": "51"
+  },
+  "sunrise-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "temple-tx": {
+    "stcofips": "48027",
+    "county_name": "Bell",
+    "county_state_fips": "48"
+  },
+  "vista-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "beaverton-or": {
+    "stcofips": "41067",
+    "county_name": "Washington",
+    "county_state_fips": "41"
+  },
+  "yakima-wa": {
+    "stcofips": "53077",
+    "county_name": "Yakima",
+    "county_state_fips": "53"
+  },
+  "kirkland-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "norwalk-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "chino-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "portsmouth-va": {
+    "stcofips": "51740",
+    "county_name": "Portsmouth",
+    "county_state_fips": "51"
+  },
+  "manteca-ca": {
+    "stcofips": "06077",
+    "county_name": "San Joaquin",
+    "county_state_fips": "06"
+  },
+  "north-port-fl": {
+    "stcofips": "12115",
+    "county_name": "Sarasota",
+    "county_state_fips": "12"
+  },
+  "greenville-nc": {
+    "stcofips": "37147",
+    "county_name": "Pitt",
+    "county_state_fips": "37"
+  },
+  "bellingham-wa": {
+    "stcofips": "53073",
+    "county_name": "Whatcom",
+    "county_state_fips": "53"
+  },
+  "lawrence-ks": {
+    "stcofips": "20045",
+    "county_name": "Douglas",
+    "county_state_fips": "20"
+  },
+  "ofallon-mo": {
+    "stcofips": "29183",
+    "county_name": "St. Charles",
+    "county_state_fips": "29"
+  },
+  "reading-pa": {
+    "stcofips": "42011",
+    "county_name": "Berks",
+    "county_state_fips": "42"
+  },
+  "mount-pleasant-sc": {
+    "stcofips": "45019",
+    "county_name": "Charleston",
+    "county_state_fips": "45"
+  },
+  "lehi-ut": {
+    "stcofips": "49049",
+    "county_name": "Utah",
+    "county_state_fips": "49"
+  },
+  "fall-river-ma": {
+    "stcofips": "25005",
+    "county_name": "Bristol",
+    "county_state_fips": "25"
+  },
+  "orem-ut": {
+    "stcofips": "49049",
+    "county_name": "Utah",
+    "county_state_fips": "49"
+  },
+  "san-marcos-ca": {
+    "stcofips": "06073",
+    "county_name": "San Diego",
+    "county_state_fips": "06"
+  },
+  "norwalk-ct": {
+    "stcofips": "09190",
+    "county_name": "Western Connecticut",
+    "county_state_fips": "09"
+  },
+  "indio-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "redding-ca": {
+    "stcofips": "06089",
+    "county_name": "Shasta",
+    "county_state_fips": "06"
+  },
+  "hemet-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "hoover-al": {
+    "stcofips": "01073",
+    "county_name": "Jefferson",
+    "county_state_fips": "01"
+  },
+  "asheville-nc": {
+    "stcofips": "37021",
+    "county_name": "Buncombe",
+    "county_state_fips": "37"
+  },
+  "livonia-mi": {
+    "stcofips": "26163",
+    "county_name": "Wayne",
+    "county_state_fips": "26"
+  },
+  "nashua-nh": {
+    "stcofips": "33011",
+    "county_name": "Hillsborough",
+    "county_state_fips": "33"
+  },
+  "sandy-ut": {
+    "stcofips": "49035",
+    "county_name": "Salt Lake",
+    "county_state_fips": "49"
+  },
+  "frederick-md": {
+    "stcofips": "24021",
+    "county_name": "Frederick",
+    "county_state_fips": "24"
+  },
+  "bryan-tx": {
+    "stcofips": "48041",
+    "county_name": "Brazos",
+    "county_state_fips": "48"
+  },
+  "folsom-ca": {
+    "stcofips": "06067",
+    "county_name": "Sacramento",
+    "county_state_fips": "06"
+  },
+  "erie-pa": {
+    "stcofips": "42049",
+    "county_name": "Erie",
+    "county_state_fips": "42"
+  },
+  "trenton-nj": {
+    "stcofips": "34021",
+    "county_name": "Mercer",
+    "county_state_fips": "34"
+  },
+  "roswell-ga": {
+    "stcofips": "13121",
+    "county_name": "Fulton",
+    "county_state_fips": "13"
+  },
+  "champaign-il": {
+    "stcofips": "17019",
+    "county_name": "Champaign",
+    "county_state_fips": "17"
+  },
+  "leander-tx": {
+    "stcofips": "48491",
+    "county_name": "Williamson",
+    "county_state_fips": "48"
+  },
+  "clifton-nj": {
+    "stcofips": "34031",
+    "county_name": "Passaic",
+    "county_state_fips": "34"
+  },
+  "fort-smith-ar": {
+    "stcofips": "05131",
+    "county_name": "Sebastian",
+    "county_state_fips": "05"
+  },
+  "carson-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "newton-ma": {
+    "stcofips": "25017",
+    "county_name": "Middlesex",
+    "county_state_fips": "25"
+  },
+  "springdale-ar": {
+    "stcofips": "05143",
+    "county_name": "Washington",
+    "county_state_fips": "05"
+  },
+  "lawton-ok": {
+    "stcofips": "40031",
+    "county_name": "Comanche",
+    "county_state_fips": "40"
+  },
+  "compton-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "mission-viejo-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "franklin-tn": {
+    "stcofips": "47187",
+    "county_name": "Williamson",
+    "county_state_fips": "47"
+  },
+  "santa-monica-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "south-gate-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "santa-fe-nm": {
+    "stcofips": "35049",
+    "county_name": "Santa Fe",
+    "county_state_fips": "35"
+  },
+  "queen-creek-az": {
+    "stcofips": "04013",
+    "county_name": "Maricopa",
+    "county_state_fips": "04"
+  },
+  "ogden-ut": {
+    "stcofips": "49057",
+    "county_name": "Weber",
+    "county_state_fips": "49"
+  },
+  "deerfield-beach-fl": {
+    "stcofips": "12011",
+    "county_name": "Broward",
+    "county_state_fips": "12"
+  },
+  "lawrence-ma": {
+    "stcofips": "25009",
+    "county_name": "Essex",
+    "county_state_fips": "25"
+  },
+  "bloomington-mn": {
+    "stcofips": "27053",
+    "county_name": "Hennepin",
+    "county_state_fips": "27"
+  },
+  "danbury-ct": {
+    "stcofips": "09190",
+    "county_name": "Western Connecticut",
+    "county_state_fips": "09"
+  },
+  "mission-tx": {
+    "stcofips": "48215",
+    "county_name": "Hidalgo",
+    "county_state_fips": "48"
+  },
+  "westminster-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "troy-mi": {
+    "stcofips": "26125",
+    "county_name": "Oakland",
+    "county_state_fips": "26"
+  },
+  "daytona-beach-fl": {
+    "stcofips": "12127",
+    "county_name": "Volusia",
+    "county_state_fips": "12"
+  },
+  "kennewick-wa": {
+    "stcofips": "53005",
+    "county_name": "Benton",
+    "county_state_fips": "53"
+  },
+  "duluth-mn": {
+    "stcofips": "27137",
+    "county_name": "St. Louis",
+    "county_state_fips": "27"
+  },
+  "waukegan-il": {
+    "stcofips": "17097",
+    "county_name": "Lake",
+    "county_state_fips": "17"
+  },
+  "warner-robins-ga": {
+    "stcofips": "13153",
+    "county_name": "Houston",
+    "county_state_fips": "13"
+  },
+  "south-jordan-ut": {
+    "stcofips": "49035",
+    "county_name": "Salt Lake",
+    "county_state_fips": "49"
+  },
+  "rancho-cordova-ca": {
+    "stcofips": "06067",
+    "county_name": "Sacramento",
+    "county_state_fips": "06"
+  },
+  "melbourne-fl": {
+    "stcofips": "12009",
+    "county_name": "Brevard",
+    "county_state_fips": "12"
+  },
+  "gastonia-nc": {
+    "stcofips": "37071",
+    "county_name": "Gaston",
+    "county_state_fips": "37"
+  },
+  "baytown-tx": {
+    "stcofips": "48201",
+    "county_name": "Harris",
+    "county_state_fips": "48"
+  },
+  "medford-or": {
+    "stcofips": "41029",
+    "county_name": "Jackson",
+    "county_state_fips": "41"
+  },
+  "santa-barbara-ca": {
+    "stcofips": "06083",
+    "county_name": "Santa Barbara",
+    "county_state_fips": "06"
+  },
+  "sioux-city-ia": {
+    "stcofips": "19193",
+    "county_name": "Woodbury",
+    "county_state_fips": "19"
+  },
+  "citrus-heights-ca": {
+    "stcofips": "06067",
+    "county_name": "Sacramento",
+    "county_state_fips": "06"
+  },
+  "lake-forest-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "auburn-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "homestead-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "san-ramon-ca": {
+    "stcofips": "06013",
+    "county_name": "Contra Costa",
+    "county_state_fips": "06"
+  },
+  "new-rochelle-ny": {
+    "stcofips": "36119",
+    "county_name": "Westchester",
+    "county_state_fips": "36"
+  },
+  "whittier-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "kissimmee-fl": {
+    "stcofips": "12097",
+    "county_name": "Osceola",
+    "county_state_fips": "12"
+  },
+  "mountain-view-ca": {
+    "stcofips": "06085",
+    "county_name": "Santa Clara",
+    "county_state_fips": "06"
+  },
+  "san-leandro-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "layton-ut": {
+    "stcofips": "49011",
+    "county_name": "Davis",
+    "county_state_fips": "49"
+  },
+  "auburn-al": {
+    "stcofips": "01081",
+    "county_name": "Lee",
+    "county_state_fips": "01"
+  },
+  "cranston-ri": {
+    "stcofips": "44007",
+    "county_name": "Providence",
+    "county_state_fips": "44"
+  },
+  "mansfield-tx": {
+    "stcofips": "48439",
+    "county_name": "Tarrant",
+    "county_state_fips": "48"
+  },
+  "somerville-ma": {
+    "stcofips": "25017",
+    "county_name": "Middlesex",
+    "county_state_fips": "25"
+  },
+  "warwick-ri": {
+    "stcofips": "44003",
+    "county_name": "Kent",
+    "county_state_fips": "44"
+  },
+  "castle-rock-co": {
+    "stcofips": "08035",
+    "county_name": "Douglas",
+    "county_state_fips": "08"
+  },
+  "brooklyn-park-mn": {
+    "stcofips": "27053",
+    "county_name": "Hennepin",
+    "county_state_fips": "27"
+  },
+  "livermore-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "bloomington-in": {
+    "stcofips": "18105",
+    "county_name": "Monroe",
+    "county_state_fips": "18"
+  },
+  "jonesboro-ar": {
+    "stcofips": "05031",
+    "county_name": "Craighead",
+    "county_state_fips": "05"
+  },
+  "farmington-hills-mi": {
+    "stcofips": "26125",
+    "county_name": "Oakland",
+    "county_state_fips": "26"
+  },
+  "perris-ca": {
+    "stcofips": "06065",
+    "county_name": "Riverside",
+    "county_state_fips": "06"
+  },
+  "longview-tx": {
+    "stcofips": "48183",
+    "county_name": "Gregg",
+    "county_state_fips": "48"
+  },
+  "pasco-wa": {
+    "stcofips": "53021",
+    "county_name": "Franklin",
+    "county_state_fips": "53"
+  },
+  "hawthorne-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "lake-charles-la": {
+    "stcofips": "22019",
+    "county_name": "Calcasieu",
+    "county_state_fips": "22"
+  },
+  "redmond-wa": {
+    "stcofips": "53033",
+    "county_name": "King",
+    "county_state_fips": "53"
+  },
+  "boynton-beach-fl": {
+    "stcofips": "12099",
+    "county_name": "Palm Beach",
+    "county_state_fips": "12"
+  },
+  "westland-mi": {
+    "stcofips": "26163",
+    "county_name": "Wayne",
+    "county_state_fips": "26"
+  },
+  "redwood-city-ca": {
+    "stcofips": "06081",
+    "county_name": "San Mateo",
+    "county_state_fips": "06"
+  },
+  "newport-beach-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "cicero-il": {
+    "stcofips": "17031",
+    "county_name": "Cook",
+    "county_state_fips": "17"
+  },
+  "buena-park-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "doral-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "miami-beach-fl": {
+    "stcofips": "12086",
+    "county_name": "Miami-Dade",
+    "county_state_fips": "12"
+  },
+  "woodbury-mn": {
+    "stcofips": "27163",
+    "county_name": "Washington",
+    "county_state_fips": "27"
+  },
+  "loveland-co": {
+    "stcofips": "08069",
+    "county_name": "Larimer",
+    "county_state_fips": "08"
+  },
+  "lynchburg-va": {
+    "stcofips": "51680",
+    "county_name": "Lynchburg",
+    "county_state_fips": "51"
+  },
+  "pharr-tx": {
+    "stcofips": "48215",
+    "county_name": "Hidalgo",
+    "county_state_fips": "48"
+  },
+  "largo-fl": {
+    "stcofips": "12103",
+    "county_name": "Pinellas",
+    "county_state_fips": "12"
+  },
+  "rapid-city-sd": {
+    "stcofips": "46103",
+    "county_name": "Pennington",
+    "county_state_fips": "46"
+  },
+  "apex-nc": {
+    "stcofips": "37183",
+    "county_name": "Wake",
+    "county_state_fips": "37"
+  },
+  "johns-creek-ga": {
+    "stcofips": "13121",
+    "county_name": "Fulton",
+    "county_state_fips": "13"
+  },
+  "alhambra-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "bethlehem-pa": {
+    "stcofips": "42095",
+    "county_name": "Northampton",
+    "county_state_fips": "42"
+  },
+  "flower-mound-tx": {
+    "stcofips": "48121",
+    "county_name": "Denton",
+    "county_state_fips": "48"
+  },
+  "upland-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "flint-mi": {
+    "stcofips": "26049",
+    "county_name": "Genesee",
+    "county_state_fips": "26"
+  },
+  "lakeville-mn": {
+    "stcofips": "27037",
+    "county_name": "Dakota",
+    "county_state_fips": "27"
+  },
+  "broomfield-co": {
+    "stcofips": "08014",
+    "county_name": "Broomfield",
+    "county_state_fips": "08"
+  },
+  "cedar-park-tx": {
+    "stcofips": "48491",
+    "county_name": "Williamson",
+    "county_state_fips": "48"
+  },
+  "plymouth-mn": {
+    "stcofips": "27053",
+    "county_name": "Hennepin",
+    "county_state_fips": "27"
+  },
+  "missoula-mt": {
+    "stcofips": "30063",
+    "county_name": "Missoula",
+    "county_state_fips": "30"
+  },
+  "mableton-ga": {
+    "stcofips": "13067",
+    "county_name": "Cobb",
+    "county_state_fips": "13"
+  },
+  "bloomington-il": {
+    "stcofips": "17113",
+    "county_name": "McLean",
+    "county_state_fips": "17"
+  },
+  "milpitas-ca": {
+    "stcofips": "06085",
+    "county_name": "Santa Clara",
+    "county_state_fips": "06"
+  },
+  "wyoming-mi": {
+    "stcofips": "26081",
+    "county_name": "Kent",
+    "county_state_fips": "26"
+  },
+  "parma-oh": {
+    "stcofips": "39035",
+    "county_name": "Cuyahoga",
+    "county_state_fips": "39"
+  },
+  "bowling-green-ky": {
+    "stcofips": "21227",
+    "county_name": "Warren",
+    "county_state_fips": "21"
+  },
+  "maricopa-az": {
+    "stcofips": "04021",
+    "county_name": "Pinal",
+    "county_state_fips": "04"
+  },
+  "lakewood-ca": {
+    "stcofips": "06037",
+    "county_name": "Los Angeles",
+    "county_state_fips": "06"
+  },
+  "bismarck-nd": {
+    "stcofips": "38015",
+    "county_name": "Burleigh",
+    "county_state_fips": "38"
+  },
+  "racine-wi": {
+    "stcofips": "55101",
+    "county_name": "Racine",
+    "county_state_fips": "55"
+  },
+  "tustin-ca": {
+    "stcofips": "06059",
+    "county_name": "Orange",
+    "county_state_fips": "06"
+  },
+  "ankeny-ia": {
+    "stcofips": "19153",
+    "county_name": "Polk",
+    "county_state_fips": "19"
+  },
+  "san-marcos-tx": {
+    "stcofips": "48209",
+    "county_name": "Hays",
+    "county_state_fips": "48"
+  },
+  "marysville-wa": {
+    "stcofips": "53061",
+    "county_name": "Snohomish",
+    "county_state_fips": "53"
+  },
+  "pittsburg-ca": {
+    "stcofips": "06013",
+    "county_name": "Contra Costa",
+    "county_state_fips": "06"
+  },
+  "rochester-hills-mi": {
+    "stcofips": "26125",
+    "county_name": "Oakland",
+    "county_state_fips": "26"
+  },
+  "chino-hills-ca": {
+    "stcofips": "06071",
+    "county_name": "San Bernardino",
+    "county_state_fips": "06"
+  },
+  "missouri-city-tx": {
+    "stcofips": "48157",
+    "county_name": "Fort Bend",
+    "county_state_fips": "48"
+  },
+  "flagstaff-az": {
+    "stcofips": "04005",
+    "county_name": "Coconino",
+    "county_state_fips": "04"
+  },
+  "schaumburg-il": {
+    "stcofips": "17031",
+    "county_name": "Cook",
+    "county_state_fips": "17"
+  },
+  "pawtucket-ri": {
+    "stcofips": "44007",
+    "county_name": "Providence",
+    "county_state_fips": "44"
+  },
+  "rogers-ar": {
+    "stcofips": "05007",
+    "county_name": "Benton",
+    "county_state_fips": "05"
+  },
+  "alameda-ca": {
+    "stcofips": "06001",
+    "county_name": "Alameda",
+    "county_state_fips": "06"
+  },
+  "rocklin-ca": {
+    "stcofips": "06061",
+    "county_name": "Placer",
+    "county_state_fips": "06"
+  },
+  "caldwell-id": {
+    "stcofips": "16027",
+    "county_name": "Canyon",
+    "county_state_fips": "16"
+  },
+  "carlsbad-nm": {
+    "stcofips": "35015",
+    "county_name": "Eddy",
+    "county_state_fips": "35"
+  },
+  "kalispell-mt": {
+    "stcofips": "30029",
+    "county_name": "Flathead",
+    "county_state_fips": "30"
+  },
+  "durango-co": {
+    "stcofips": "08067",
+    "county_name": "La Plata",
+    "county_state_fips": "08"
+  },
+  "los-alamos-nm": {
+    "stcofips": "35028",
+    "county_name": "Los Alamos",
+    "county_state_fips": "35"
+  },
+  "sandpoint-id": {
+    "stcofips": "16017",
+    "county_name": "Bonner",
+    "county_state_fips": "16"
+  },
+  "taos-nm": {
+    "stcofips": "35055",
+    "county_name": "Taos",
+    "county_state_fips": "35"
+  },
+  "blanding-ut": {
+    "stcofips": "49037",
+    "county_name": "San Juan",
+    "county_state_fips": "49"
+  },
+  "monticello-ut": {
+    "stcofips": "49037",
+    "county_name": "San Juan",
+    "county_state_fips": "49"
+  },
+  "whitewright-tx": {
+    "stcofips": "48181",
+    "county_name": "Grayson",
+    "county_state_fips": "48"
+  },
+  "sundance-wy": {
+    "stcofips": "56011",
+    "county_name": "Crook",
+    "county_state_fips": "56"
+  },
+  "geraldine-mt": {
+    "stcofips": "30015",
+    "county_name": "Chouteau",
+    "county_state_fips": "30"
+  },
+  "grand-junction-co": {
+    "stcofips": "08077",
+    "county_name": "Mesa",
+    "county_state_fips": "08"
+  }
+}
