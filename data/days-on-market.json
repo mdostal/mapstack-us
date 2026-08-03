@@ -1,0 +1,2448 @@
+{
+  "_meta": {
+    "source": "Zillow Research Data, Mean Days to Pending (City, SFR+Condo, smoothed, monthly)",
+    "source_url": "https://www.zillow.com/research/data/",
+    "resolution": "city",
+    "latest_month": "2026-06-30"
+  },
+  "new-york-ny": {
+    "days_to_pending": 95.0,
+    "month": "2026-06-30",
+    "concern": 3.9
+  },
+  "los-angeles-ca": {
+    "days_to_pending": 55.0,
+    "month": "2026-06-30",
+    "concern": 26.3
+  },
+  "chicago-il": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 72.3
+  },
+  "houston-tx": {
+    "days_to_pending": 69.0,
+    "month": "2026-06-30",
+    "concern": 14.0
+  },
+  "phoenix-az": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 30.6
+  },
+  "philadelphia-pa": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 32.2
+  },
+  "san-antonio-tx": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 12.1
+  },
+  "san-diego-ca": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 50.1
+  },
+  "dallas-tx": {
+    "days_to_pending": 62.0,
+    "month": "2026-06-30",
+    "concern": 20.9
+  },
+  "fort-worth-tx": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 29.2
+  },
+  "jacksonville-fl": {
+    "days_to_pending": 69.0,
+    "month": "2026-06-30",
+    "concern": 13.8
+  },
+  "austin-tx": {
+    "days_to_pending": 71.0,
+    "month": "2026-06-30",
+    "concern": 13.1
+  },
+  "san-jose-ca": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 73.9
+  },
+  "charlotte-nc": {
+    "days_to_pending": 41.0,
+    "month": "2026-06-30",
+    "concern": 47.6
+  },
+  "columbus-oh": {
+    "days_to_pending": 24.0,
+    "month": "2026-06-30",
+    "concern": 88.7
+  },
+  "indianapolis-in": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 55.4
+  },
+  "san-francisco-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 76.8
+  },
+  "seattle-wa": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 73.7
+  },
+  "denver-co": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 37.0
+  },
+  "nashville-tn": {
+    "days_to_pending": 55.0,
+    "month": "2026-06-30",
+    "concern": 26.1
+  },
+  "oklahoma-city-ok": {
+    "days_to_pending": 54.0,
+    "month": "2026-06-30",
+    "concern": 26.7
+  },
+  "washington-dc": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 27.9
+  },
+  "el-paso-tx": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 11.9
+  },
+  "las-vegas-nv": {
+    "days_to_pending": 64.0,
+    "month": "2026-06-30",
+    "concern": 18.9
+  },
+  "boston-ma": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 62.4
+  },
+  "detroit-mi": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 11.7
+  },
+  "louisville-ky": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 72.1
+  },
+  "portland-or": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 52.8
+  },
+  "memphis-tn": {
+    "days_to_pending": 64.0,
+    "month": "2026-06-30",
+    "concern": 18.7
+  },
+  "baltimore-md": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 41.9
+  },
+  "milwaukee-wi": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 46.6
+  },
+  "albuquerque-nm": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 70.0
+  },
+  "fresno-ca": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 46.4
+  },
+  "tucson-az": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 24.0
+  },
+  "sacramento-ca": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 79.7
+  },
+  "atlanta-ga": {
+    "days_to_pending": 83.0,
+    "month": "2026-06-30",
+    "concern": 7.0
+  },
+  "kansas-city-mo": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 76.6
+  },
+  "mesa-az": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 30.4
+  },
+  "raleigh-nc": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 38.4
+  },
+  "colorado-springs-co": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 40.2
+  },
+  "miami-fl": {
+    "days_to_pending": 106.0,
+    "month": "2026-06-30",
+    "concern": 2.1
+  },
+  "omaha-ne": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 87.9
+  },
+  "virginia-beach-va": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 65.5
+  },
+  "long-beach-ca": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 43.9
+  },
+  "oakland-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 68.2
+  },
+  "minneapolis-mn": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 52.6
+  },
+  "bakersfield-ca": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 46.2
+  },
+  "tulsa-ok": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 36.8
+  },
+  "tampa-fl": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 23.8
+  },
+  "aurora-co": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 41.7
+  },
+  "arlington-tx": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 38.2
+  },
+  "wichita-ks": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 65.3
+  },
+  "cleveland-oh": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 69.8
+  },
+  "new-orleans-la": {
+    "days_to_pending": 107.0,
+    "month": "2026-06-30",
+    "concern": 1.8
+  },
+  "henderson-nv": {
+    "days_to_pending": 62.0,
+    "month": "2026-06-30",
+    "concern": 20.7
+  },
+  "honolulu-hi": {
+    "days_to_pending": 82.0,
+    "month": "2026-06-30",
+    "concern": 7.6
+  },
+  "anaheim-ca": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 73.5
+  },
+  "orlando-fl": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 20.1
+  },
+  "lexington-ky": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 83.4
+  },
+  "stockton-ca": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 46.0
+  },
+  "newark-nj": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 15.8
+  },
+  "riverside-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 58.3
+  },
+  "irvine-ca": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 30.2
+  },
+  "corpus-christi-tx": {
+    "days_to_pending": 78.0,
+    "month": "2026-06-30",
+    "concern": 8.4
+  },
+  "santa-ana-ca": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 65.1
+  },
+  "cincinnati-oh": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 76.4
+  },
+  "greensboro-nc": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 45.8
+  },
+  "pittsburgh-pa": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 55.2
+  },
+  "saint-paul-mn": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 55.0
+  },
+  "durham-nc": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 52.4
+  },
+  "jersey-city-nj": {
+    "days_to_pending": 61.0,
+    "month": "2026-06-30",
+    "concern": 21.6
+  },
+  "lincoln-ne": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 86.0
+  },
+  "north-las-vegas-nv": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 29.0
+  },
+  "plano-tx": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 49.9
+  },
+  "gilbert-az": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 43.7
+  },
+  "anchorage-ak": {
+    "days_to_pending": 15.0,
+    "month": "2026-06-30",
+    "concern": 98.4
+  },
+  "madison-wi": {
+    "days_to_pending": 24.0,
+    "month": "2026-06-30",
+    "concern": 88.5
+  },
+  "reno-nv": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 68.0
+  },
+  "chandler-az": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 27.7
+  },
+  "st-louis-mo": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 67.8
+  },
+  "chula-vista-ca": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 69.6
+  },
+  "fort-wayne-in": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 76.2
+  },
+  "buffalo-ny": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 93.4
+  },
+  "lubbock-tx": {
+    "days_to_pending": 60.0,
+    "month": "2026-06-30",
+    "concern": 22.4
+  },
+  "laredo-tx": {
+    "days_to_pending": 105.0,
+    "month": "2026-06-30",
+    "concern": 2.5
+  },
+  "port-st-lucie-fl": {
+    "days_to_pending": 86.0,
+    "month": "2026-06-30",
+    "concern": 5.7
+  },
+  "st-petersburg-fl": {
+    "days_to_pending": 69.0,
+    "month": "2026-06-30",
+    "concern": 13.6
+  },
+  "toledo-oh": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 90.6
+  },
+  "glendale-az": {
+    "days_to_pending": 48.0,
+    "month": "2026-06-30",
+    "concern": 35.5
+  },
+  "winston-salem-nc": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 49.7
+  },
+  "irving-tx": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 40.0
+  },
+  "chesapeake-va": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 64.9
+  },
+  "garland-tx": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 36.6
+  },
+  "arlington-va": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 73.3
+  },
+  "scottsdale-az": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 11.5
+  },
+  "boise-id": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 92.0
+  },
+  "richmond-va": {
+    "days_to_pending": 17.0,
+    "month": "2026-06-30",
+    "concern": 97.3
+  },
+  "frisco-tx": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 27.5
+  },
+  "cape-coral-fl": {
+    "days_to_pending": 104.0,
+    "month": "2026-06-30",
+    "concern": 2.7
+  },
+  "mckinney-tx": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 28.7
+  },
+  "huntsville-al": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 30.0
+  },
+  "norfolk-va": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 38.0
+  },
+  "hialeah-fl": {
+    "days_to_pending": 64.0,
+    "month": "2026-06-30",
+    "concern": 18.5
+  },
+  "spokane-wa": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 52.2
+  },
+  "tacoma-wa": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 90.3
+  },
+  "santa-clarita-ca": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 43.5
+  },
+  "fremont-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 71.9
+  },
+  "baton-rouge-la": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 19.9
+  },
+  "san-bernardino-ca": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 60.4
+  },
+  "fontana-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 58.1
+  },
+  "modesto-ca": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 64.7
+  },
+  "salt-lake-city-ut": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 69.4
+  },
+  "moreno-valley-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 57.9
+  },
+  "worcester-ma": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 91.8
+  },
+  "sioux-falls-sd": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 49.5
+  },
+  "yonkers-ny": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 23.6
+  },
+  "des-moines-ia": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 41.5
+  },
+  "grand-prairie-tx": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 54.8
+  },
+  "fayetteville-nc": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 32.0
+  },
+  "little-rock-ar": {
+    "days_to_pending": 68.0,
+    "month": "2026-06-30",
+    "concern": 14.6
+  },
+  "rochester-ny": {
+    "days_to_pending": 13.0,
+    "month": "2026-06-30",
+    "concern": 99.8
+  },
+  "amarillo-tx": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 29.8
+  },
+  "tallahassee-fl": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 29.6
+  },
+  "overland-park-ks": {
+    "days_to_pending": 11.0,
+    "month": "2026-06-30",
+    "concern": 100.0
+  },
+  "columbus-ga": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 39.8
+  },
+  "knoxville-tn": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 45.6
+  },
+  "augusta-ga": {
+    "days_to_pending": 58.0,
+    "month": "2026-06-30",
+    "concern": 24.8
+  },
+  "grand-rapids-mi": {
+    "days_to_pending": 16.0,
+    "month": "2026-06-30",
+    "concern": 97.7
+  },
+  "peoria-az": {
+    "days_to_pending": 58.0,
+    "month": "2026-06-30",
+    "concern": 24.6
+  },
+  "mobile-al": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 23.4
+  },
+  "vancouver-wa": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 60.2
+  },
+  "oxnard-ca": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 45.4
+  },
+  "birmingham-al": {
+    "days_to_pending": 57.0,
+    "month": "2026-06-30",
+    "concern": 25.5
+  },
+  "providence-ri": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 67.6
+  },
+  "montgomery-al": {
+    "days_to_pending": 64.0,
+    "month": "2026-06-30",
+    "concern": 18.3
+  },
+  "chattanooga-tn": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 19.7
+  },
+  "brownsville-tx": {
+    "days_to_pending": 101.0,
+    "month": "2026-06-30",
+    "concern": 3.5
+  },
+  "huntington-beach-ca": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 60.0
+  },
+  "tempe-az": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 41.3
+  },
+  "akron-oh": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 79.5
+  },
+  "clarksville-tn": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 34.5
+  },
+  "fort-lauderdale-fl": {
+    "days_to_pending": 115.0,
+    "month": "2026-06-30",
+    "concern": 1.2
+  },
+  "glendale-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 71.7
+  },
+  "ontario-ca": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 43.3
+  },
+  "elk-grove-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 71.5
+  },
+  "cary-nc": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 69.2
+  },
+  "newport-news-va": {
+    "days_to_pending": 41.0,
+    "month": "2026-06-30",
+    "concern": 47.4
+  },
+  "salem-or": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 34.3
+  },
+  "aurora-il": {
+    "days_to_pending": 18.0,
+    "month": "2026-06-30",
+    "concern": 96.5
+  },
+  "santa-rosa-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 57.7
+  },
+  "eugene-or": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 83.2
+  },
+  "rancho-cucamonga-ca": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 49.3
+  },
+  "pembroke-pines-fl": {
+    "days_to_pending": 87.0,
+    "month": "2026-06-30",
+    "concern": 5.3
+  },
+  "shreveport-la": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 19.5
+  },
+  "surprise-az": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 17.9
+  },
+  "fort-collins-co": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 59.8
+  },
+  "murfreesboro-tn": {
+    "days_to_pending": 41.0,
+    "month": "2026-06-30",
+    "concern": 47.2
+  },
+  "oceanside-ca": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 62.2
+  },
+  "garden-grove-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 76.0
+  },
+  "lancaster-ca": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 23.2
+  },
+  "springfield-mo": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 64.5
+  },
+  "denton-tx": {
+    "days_to_pending": 60.0,
+    "month": "2026-06-30",
+    "concern": 22.2
+  },
+  "roseville-ca": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 79.3
+  },
+  "killeen-tx": {
+    "days_to_pending": 77.0,
+    "month": "2026-06-30",
+    "concern": 8.8
+  },
+  "palmdale-ca": {
+    "days_to_pending": 51.0,
+    "month": "2026-06-30",
+    "concern": 29.4
+  },
+  "paterson-nj": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 27.3
+  },
+  "corona-ca": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 34.1
+  },
+  "alexandria-va": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 87.7
+  },
+  "charleston-sc": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 15.6
+  },
+  "salinas-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 57.5
+  },
+  "kansas-city-ks": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 93.2
+  },
+  "macon-ga": {
+    "days_to_pending": 57.0,
+    "month": "2026-06-30",
+    "concern": 25.3
+  },
+  "hayward-ca": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 64.3
+  },
+  "hollywood-fl": {
+    "days_to_pending": 125.0,
+    "month": "2026-06-30",
+    "concern": 0.6
+  },
+  "lakewood-co": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 59.5
+  },
+  "sunnyvale-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 85.8
+  },
+  "springfield-ma": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 83.0
+  },
+  "bellevue-wa": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 62.0
+  },
+  "naperville-il": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 94.9
+  },
+  "bridgeport-ct": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 73.1
+  },
+  "joliet-il": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 90.1
+  },
+  "mesquite-tx": {
+    "days_to_pending": 60.0,
+    "month": "2026-06-30",
+    "concern": 22.0
+  },
+  "mcallen-tx": {
+    "days_to_pending": 117.0,
+    "month": "2026-06-30",
+    "concern": 1.0
+  },
+  "olathe-ks": {
+    "days_to_pending": 14.0,
+    "month": "2026-06-30",
+    "concern": 99.0
+  },
+  "savannah-ga": {
+    "days_to_pending": 68.0,
+    "month": "2026-06-30",
+    "concern": 14.4
+  },
+  "gainesville-fl": {
+    "days_to_pending": 57.0,
+    "month": "2026-06-30",
+    "concern": 25.1
+  },
+  "pasadena-tx": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 23.0
+  },
+  "palm-bay-fl": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 15.4
+  },
+  "pomona-ca": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 28.5
+  },
+  "waco-tx": {
+    "days_to_pending": 75.0,
+    "month": "2026-06-30",
+    "concern": 9.2
+  },
+  "thornton-co": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 72.9
+  },
+  "midland-tx": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 36.3
+  },
+  "rockford-il": {
+    "days_to_pending": 19.0,
+    "month": "2026-06-30",
+    "concern": 95.7
+  },
+  "columbia-sc": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 39.6
+  },
+  "visalia-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 57.3
+  },
+  "escondido-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 57.1
+  },
+  "syracuse-ny": {
+    "days_to_pending": 18.0,
+    "month": "2026-06-30",
+    "concern": 96.3
+  },
+  "meridian-id": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 75.8
+  },
+  "miramar-fl": {
+    "days_to_pending": 74.0,
+    "month": "2026-06-30",
+    "concern": 9.7
+  },
+  "victorville-ca": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 28.3
+  },
+  "round-rock-tx": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 15.2
+  },
+  "jackson-ms": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 17.7
+  },
+  "stamford-ct": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 91.6
+  },
+  "lewisville-tx": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 56.9
+  },
+  "coral-springs-fl": {
+    "days_to_pending": 58.0,
+    "month": "2026-06-30",
+    "concern": 24.4
+  },
+  "new-haven-ct": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 54.6
+  },
+  "fullerton-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 75.6
+  },
+  "torrance-ca": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 87.5
+  },
+  "orange-ca": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 82.8
+  },
+  "cedar-rapids-ia": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 85.6
+  },
+  "west-valley-city-ut": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 79.1
+  },
+  "hampton-va": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 36.1
+  },
+  "warren-mi": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 64.1
+  },
+  "dayton-oh": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 75.4
+  },
+  "fargo-nd": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 63.9
+  },
+  "pasadena-ca": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 52.0
+  },
+  "kent-wa": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 71.3
+  },
+  "carrollton-tx": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 61.8
+  },
+  "sterling-heights-mi": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 93.0
+  },
+  "santa-clara-ca": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 82.5
+  },
+  "abilene-tx": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 82.3
+  },
+  "norman-ok": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 33.9
+  },
+  "columbia-mo": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 51.7
+  },
+  "pearland-tx": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 31.8
+  },
+  "clovis-ca": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 45.2
+  },
+  "athens-ga": {
+    "days_to_pending": 60.0,
+    "month": "2026-06-30",
+    "concern": 21.8
+  },
+  "college-station-tx": {
+    "days_to_pending": 64.0,
+    "month": "2026-06-30",
+    "concern": 18.1
+  },
+  "west-palm-beach-fl": {
+    "days_to_pending": 91.0,
+    "month": "2026-06-30",
+    "concern": 4.3
+  },
+  "wilmington-nc": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 41.1
+  },
+  "allentown-pa": {
+    "days_to_pending": 17.0,
+    "month": "2026-06-30",
+    "concern": 97.1
+  },
+  "topeka-ks": {
+    "days_to_pending": 19.0,
+    "month": "2026-06-30",
+    "concern": 95.5
+  },
+  "lakeland-fl": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 17.5
+  },
+  "buckeye-az": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 17.2
+  },
+  "goodyear-az": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 17.0
+  },
+  "broken-arrow-ok": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 35.9
+  },
+  "simi-valley-ca": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 59.3
+  },
+  "rochester-mn": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 69.0
+  },
+  "lafayette-la": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 19.3
+  },
+  "vallejo-ca": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 37.8
+  },
+  "concord-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 71.0
+  },
+  "arvada-co": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 68.8
+  },
+  "odessa-tx": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 31.6
+  },
+  "cambridge-ma": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 87.3
+  },
+  "new-braunfels-tx": {
+    "days_to_pending": 89.0,
+    "month": "2026-06-30",
+    "concern": 4.7
+  },
+  "fairfield-ca": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 61.6
+  },
+  "ann-arbor-mi": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 78.9
+  },
+  "thousand-oaks-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 67.4
+  },
+  "berkeley-ca": {
+    "days_to_pending": 24.0,
+    "month": "2026-06-30",
+    "concern": 88.3
+  },
+  "independence-mo": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 87.1
+  },
+  "billings-mt": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 61.4
+  },
+  "high-point-nc": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 51.5
+  },
+  "nampa-id": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 82.1
+  },
+  "lowell-ma": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 81.9
+  },
+  "league-city-tx": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 51.3
+  },
+  "conroe-tx": {
+    "days_to_pending": 81.0,
+    "month": "2026-06-30",
+    "concern": 7.8
+  },
+  "antioch-ca": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 78.6
+  },
+  "menifee-ca": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 54.4
+  },
+  "richardson-tx": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 43.1
+  },
+  "pompano-beach-fl": {
+    "days_to_pending": 101.0,
+    "month": "2026-06-30",
+    "concern": 3.3
+  },
+  "las-cruces-nm": {
+    "days_to_pending": 74.0,
+    "month": "2026-06-30",
+    "concern": 9.4
+  },
+  "manchester-nh": {
+    "days_to_pending": 14.0,
+    "month": "2026-06-30",
+    "concern": 98.8
+  },
+  "west-jordan-ut": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 56.7
+  },
+  "westminster-co": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 56.5
+  },
+  "evansville-in": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 45.0
+  },
+  "waterbury-ct": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 85.4
+  },
+  "elgin-il": {
+    "days_to_pending": 16.0,
+    "month": "2026-06-30",
+    "concern": 97.5
+  },
+  "greeley-co": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 54.2
+  },
+  "temecula-ca": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 40.9
+  },
+  "richmond-ca": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 72.7
+  },
+  "concord-nc": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 49.1
+  },
+  "provo-ut": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 48.9
+  },
+  "rio-rancho-nm": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 48.7
+  },
+  "clearwater-fl": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 10.9
+  },
+  "tuscaloosa-al": {
+    "days_to_pending": 58.0,
+    "month": "2026-06-30",
+    "concern": 24.2
+  },
+  "murrieta-ca": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 48.5
+  },
+  "lansing-mi": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 85.2
+  },
+  "tyler-tx": {
+    "days_to_pending": 86.0,
+    "month": "2026-06-30",
+    "concern": 5.5
+  },
+  "miami-gardens-fl": {
+    "days_to_pending": 71.0,
+    "month": "2026-06-30",
+    "concern": 12.9
+  },
+  "everett-wa": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 89.9
+  },
+  "allen-tx": {
+    "days_to_pending": 48.0,
+    "month": "2026-06-30",
+    "concern": 35.3
+  },
+  "springfield-il": {
+    "days_to_pending": 15.0,
+    "month": "2026-06-30",
+    "concern": 98.2
+  },
+  "beaumont-tx": {
+    "days_to_pending": 77.0,
+    "month": "2026-06-30",
+    "concern": 8.6
+  },
+  "carlsbad-ca": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 54.0
+  },
+  "sparks-nv": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 78.4
+  },
+  "gresham-or": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 53.8
+  },
+  "santa-maria-ca": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 81.7
+  },
+  "hillsboro-or": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 42.9
+  },
+  "peoria-il": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 91.4
+  },
+  "davie-fl": {
+    "days_to_pending": 71.0,
+    "month": "2026-06-30",
+    "concern": 12.7
+  },
+  "edinburg-tx": {
+    "days_to_pending": 128.0,
+    "month": "2026-06-30",
+    "concern": 0.4
+  },
+  "pueblo-co": {
+    "days_to_pending": 76.0,
+    "month": "2026-06-30",
+    "concern": 9.0
+  },
+  "ventura-ca": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 53.6
+  },
+  "palm-coast-fl": {
+    "days_to_pending": 90.0,
+    "month": "2026-06-30",
+    "concern": 4.5
+  },
+  "costa-mesa-ca": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 59.1
+  },
+  "st-george-ut": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 16.8
+  },
+  "centennial-co": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 81.5
+  },
+  "downey-ca": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 78.2
+  },
+  "spokane-valley-wa": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 70.8
+  },
+  "sugar-land-tx": {
+    "days_to_pending": 63.0,
+    "month": "2026-06-30",
+    "concern": 19.1
+  },
+  "lees-summit-mo": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 86.9
+  },
+  "bend-or": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 44.8
+  },
+  "jurupa-valley-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 70.6
+  },
+  "georgetown-tx": {
+    "days_to_pending": 83.0,
+    "month": "2026-06-30",
+    "concern": 6.8
+  },
+  "green-bay-wi": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 15.0
+  },
+  "rialto-ca": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 48.3
+  },
+  "brockton-ma": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 91.2
+  },
+  "boulder-co": {
+    "days_to_pending": 62.0,
+    "month": "2026-06-30",
+    "concern": 20.5
+  },
+  "carmel-in": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 94.7
+  },
+  "dearborn-mi": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 78.0
+  },
+  "west-covina-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 70.4
+  },
+  "yuma-az": {
+    "days_to_pending": 66.0,
+    "month": "2026-06-30",
+    "concern": 16.4
+  },
+  "chico-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 67.1
+  },
+  "sandy-springs-ga": {
+    "days_to_pending": 55.0,
+    "month": "2026-06-30",
+    "concern": 25.9
+  },
+  "renton-wa": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 85.0
+  },
+  "fishers-in": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 86.7
+  },
+  "suffolk-va": {
+    "days_to_pending": 55.0,
+    "month": "2026-06-30",
+    "concern": 25.7
+  },
+  "lynn-ma": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 81.3
+  },
+  "vacaville-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 75.2
+  },
+  "san-mateo-ca": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 86.4
+  },
+  "south-bend-in": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 66.9
+  },
+  "quincy-ma": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 92.8
+  },
+  "burbank-ca": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 53.4
+  },
+  "hesperia-ca": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 33.7
+  },
+  "wichita-falls-tx": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 10.7
+  },
+  "tracy-ca": {
+    "days_to_pending": 41.0,
+    "month": "2026-06-30",
+    "concern": 47.0
+  },
+  "new-bedford-ma": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 74.9
+  },
+  "el-cajon-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 74.7
+  },
+  "albany-ny": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 94.5
+  },
+  "inglewood-ca": {
+    "days_to_pending": 66.0,
+    "month": "2026-06-30",
+    "concern": 16.2
+  },
+  "boca-raton-fl": {
+    "days_to_pending": 85.0,
+    "month": "2026-06-30",
+    "concern": 6.2
+  },
+  "fort-myers-fl": {
+    "days_to_pending": 121.0,
+    "month": "2026-06-30",
+    "concern": 0.8
+  },
+  "avondale-az": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 33.5
+  },
+  "san-angelo-tx": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 11.3
+  },
+  "edmond-ok": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 27.1
+  },
+  "davenport-ia": {
+    "days_to_pending": 24.0,
+    "month": "2026-06-30",
+    "concern": 88.1
+  },
+  "deltona-fl": {
+    "days_to_pending": 61.0,
+    "month": "2026-06-30",
+    "concern": 21.4
+  },
+  "longmont-co": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 61.2
+  },
+  "federal-way-wa": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 81.1
+  },
+  "merced-ca": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 31.4
+  },
+  "kenosha-wi": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 89.7
+  },
+  "plantation-fl": {
+    "days_to_pending": 69.0,
+    "month": "2026-06-30",
+    "concern": 13.3
+  },
+  "roanoke-va": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 51.1
+  },
+  "sunrise-fl": {
+    "days_to_pending": 87.0,
+    "month": "2026-06-30",
+    "concern": 5.1
+  },
+  "temple-tx": {
+    "days_to_pending": 85.0,
+    "month": "2026-06-30",
+    "concern": 6.0
+  },
+  "vista-ca": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 63.7
+  },
+  "beaverton-or": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 61.0
+  },
+  "yakima-wa": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 37.6
+  },
+  "kirkland-wa": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 56.3
+  },
+  "norwalk-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 84.8
+  },
+  "chino-ca": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 39.4
+  },
+  "portsmouth-va": {
+    "days_to_pending": 48.0,
+    "month": "2026-06-30",
+    "concern": 35.1
+  },
+  "manteca-ca": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 53.2
+  },
+  "north-port-fl": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 10.5
+  },
+  "greenville-nc": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 66.7
+  },
+  "bellingham-wa": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 63.4
+  },
+  "lawrence-ks": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 94.3
+  },
+  "ofallon-mo": {
+    "days_to_pending": 15.0,
+    "month": "2026-06-30",
+    "concern": 97.9
+  },
+  "reading-pa": {
+    "days_to_pending": 18.0,
+    "month": "2026-06-30",
+    "concern": 96.1
+  },
+  "lehi-ut": {
+    "days_to_pending": 38.0,
+    "month": "2026-06-30",
+    "concern": 53.0
+  },
+  "fall-river-ma": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 44.6
+  },
+  "orem-ut": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 44.4
+  },
+  "san-marcos-ca": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 50.9
+  },
+  "norwalk-ct": {
+    "days_to_pending": 19.0,
+    "month": "2026-06-30",
+    "concern": 95.3
+  },
+  "indio-ca": {
+    "days_to_pending": 84.0,
+    "month": "2026-06-30",
+    "concern": 6.4
+  },
+  "redding-ca": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 60.8
+  },
+  "hemet-ca": {
+    "days_to_pending": 47.0,
+    "month": "2026-06-30",
+    "concern": 35.7
+  },
+  "hoover-al": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 77.8
+  },
+  "asheville-nc": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 10.3
+  },
+  "livonia-mi": {
+    "days_to_pending": 13.0,
+    "month": "2026-06-30",
+    "concern": 99.6
+  },
+  "nashua-nh": {
+    "days_to_pending": 13.0,
+    "month": "2026-06-30",
+    "concern": 99.4
+  },
+  "sandy-ut": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 80.9
+  },
+  "frederick-md": {
+    "days_to_pending": 25.0,
+    "month": "2026-06-30",
+    "concern": 86.2
+  },
+  "bryan-tx": {
+    "days_to_pending": 79.0,
+    "month": "2026-06-30",
+    "concern": 8.0
+  },
+  "folsom-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 74.5
+  },
+  "erie-pa": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 94.0
+  },
+  "trenton-nj": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 50.7
+  },
+  "roswell-ga": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 31.2
+  },
+  "champaign-il": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 84.6
+  },
+  "leander-tx": {
+    "days_to_pending": 82.0,
+    "month": "2026-06-30",
+    "concern": 7.4
+  },
+  "clifton-nj": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 48.0
+  },
+  "fort-smith-ar": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 10.1
+  },
+  "carson-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 66.5
+  },
+  "newton-ma": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 80.7
+  },
+  "lawton-ok": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 37.4
+  },
+  "compton-ca": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 50.5
+  },
+  "mission-viejo-ca": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 68.6
+  },
+  "franklin-tn": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 42.7
+  },
+  "santa-monica-ca": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 22.8
+  },
+  "santa-fe-nm": {
+    "days_to_pending": 59.0,
+    "month": "2026-06-30",
+    "concern": 22.6
+  },
+  "queen-creek-az": {
+    "days_to_pending": 61.0,
+    "month": "2026-06-30",
+    "concern": 21.1
+  },
+  "ogden-ut": {
+    "days_to_pending": 46.0,
+    "month": "2026-06-30",
+    "concern": 37.2
+  },
+  "deerfield-beach-fl": {
+    "days_to_pending": 110.0,
+    "month": "2026-06-30",
+    "concern": 1.6
+  },
+  "bloomington-mn": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 80.5
+  },
+  "danbury-ct": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 89.5
+  },
+  "mission-tx": {
+    "days_to_pending": 145.0,
+    "month": "2026-06-30",
+    "concern": 0.2
+  },
+  "westminster-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 84.4
+  },
+  "troy-mi": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 93.8
+  },
+  "daytona-beach-fl": {
+    "days_to_pending": 113.0,
+    "month": "2026-06-30",
+    "concern": 1.4
+  },
+  "kennewick-wa": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 58.9
+  },
+  "duluth-mn": {
+    "days_to_pending": 17.0,
+    "month": "2026-06-30",
+    "concern": 96.9
+  },
+  "waukegan-il": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 92.6
+  },
+  "warner-robins-ga": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 39.2
+  },
+  "south-jordan-ut": {
+    "days_to_pending": 53.0,
+    "month": "2026-06-30",
+    "concern": 26.9
+  },
+  "rancho-cordova-ca": {
+    "days_to_pending": 39.0,
+    "month": "2026-06-30",
+    "concern": 50.3
+  },
+  "melbourne-fl": {
+    "days_to_pending": 67.0,
+    "month": "2026-06-30",
+    "concern": 14.8
+  },
+  "gastonia-nc": {
+    "days_to_pending": 73.0,
+    "month": "2026-06-30",
+    "concern": 9.9
+  },
+  "baytown-tx": {
+    "days_to_pending": 83.0,
+    "month": "2026-06-30",
+    "concern": 6.6
+  },
+  "medford-or": {
+    "days_to_pending": 48.0,
+    "month": "2026-06-30",
+    "concern": 34.9
+  },
+  "santa-barbara-ca": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 33.3
+  },
+  "sioux-city-ia": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 63.2
+  },
+  "citrus-heights-ca": {
+    "days_to_pending": 32.0,
+    "month": "2026-06-30",
+    "concern": 68.4
+  },
+  "lake-forest-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 66.3
+  },
+  "auburn-wa": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 77.6
+  },
+  "homestead-fl": {
+    "days_to_pending": 92.0,
+    "month": "2026-06-30",
+    "concern": 4.1
+  },
+  "san-ramon-ca": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 63.0
+  },
+  "new-rochelle-ny": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 42.5
+  },
+  "whittier-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 74.3
+  },
+  "kissimmee-fl": {
+    "days_to_pending": 101.0,
+    "month": "2026-06-30",
+    "concern": 3.1
+  },
+  "mountain-view-ca": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 89.3
+  },
+  "san-leandro-ca": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 80.3
+  },
+  "layton-ut": {
+    "days_to_pending": 41.0,
+    "month": "2026-06-30",
+    "concern": 46.8
+  },
+  "auburn-al": {
+    "days_to_pending": 54.0,
+    "month": "2026-06-30",
+    "concern": 26.5
+  },
+  "cranston-ri": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 91.0
+  },
+  "mansfield-tx": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 33.1
+  },
+  "somerville-ma": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 80.1
+  },
+  "warwick-ri": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 92.4
+  },
+  "castle-rock-co": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 32.9
+  },
+  "brooklyn-park-mn": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 84.2
+  },
+  "livermore-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 66.1
+  },
+  "bloomington-in": {
+    "days_to_pending": 62.0,
+    "month": "2026-06-30",
+    "concern": 20.3
+  },
+  "jonesboro-ar": {
+    "days_to_pending": 66.0,
+    "month": "2026-06-30",
+    "concern": 16.0
+  },
+  "farmington-hills-mi": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 77.4
+  },
+  "perris-ca": {
+    "days_to_pending": 31.0,
+    "month": "2026-06-30",
+    "concern": 70.2
+  },
+  "longview-tx": {
+    "days_to_pending": 87.0,
+    "month": "2026-06-30",
+    "concern": 4.9
+  },
+  "pasco-wa": {
+    "days_to_pending": 40.0,
+    "month": "2026-06-30",
+    "concern": 47.8
+  },
+  "lake-charles-la": {
+    "days_to_pending": 105.0,
+    "month": "2026-06-30",
+    "concern": 2.3
+  },
+  "redmond-wa": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 62.8
+  },
+  "boynton-beach-fl": {
+    "days_to_pending": 82.0,
+    "month": "2026-06-30",
+    "concern": 7.2
+  },
+  "westland-mi": {
+    "days_to_pending": 21.0,
+    "month": "2026-06-30",
+    "concern": 92.2
+  },
+  "redwood-city-ca": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 89.1
+  },
+  "newport-beach-ca": {
+    "days_to_pending": 68.0,
+    "month": "2026-06-30",
+    "concern": 14.2
+  },
+  "buena-park-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 84.0
+  },
+  "doral-fl": {
+    "days_to_pending": 102.0,
+    "month": "2026-06-30",
+    "concern": 2.9
+  },
+  "miami-beach-fl": {
+    "days_to_pending": 158.0,
+    "month": "2026-06-30",
+    "concern": 0.0
+  },
+  "woodbury-mn": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 58.7
+  },
+  "loveland-co": {
+    "days_to_pending": 42.0,
+    "month": "2026-06-30",
+    "concern": 44.1
+  },
+  "lynchburg-va": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 42.3
+  },
+  "largo-fl": {
+    "days_to_pending": 71.0,
+    "month": "2026-06-30",
+    "concern": 12.5
+  },
+  "rapid-city-sd": {
+    "days_to_pending": 48.0,
+    "month": "2026-06-30",
+    "concern": 34.7
+  },
+  "apex-nc": {
+    "days_to_pending": 34.0,
+    "month": "2026-06-30",
+    "concern": 62.6
+  },
+  "johns-creek-ga": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 40.7
+  },
+  "alhambra-ca": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 39.0
+  },
+  "bethlehem-pa": {
+    "days_to_pending": 18.0,
+    "month": "2026-06-30",
+    "concern": 95.9
+  },
+  "flower-mound-tx": {
+    "days_to_pending": 30.0,
+    "month": "2026-06-30",
+    "concern": 72.5
+  },
+  "upland-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 56.1
+  },
+  "flint-mi": {
+    "days_to_pending": 43.0,
+    "month": "2026-06-30",
+    "concern": 42.1
+  },
+  "lakeville-mn": {
+    "days_to_pending": 35.0,
+    "month": "2026-06-30",
+    "concern": 60.6
+  },
+  "broomfield-co": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 65.9
+  },
+  "cedar-park-tx": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 32.6
+  },
+  "plymouth-mn": {
+    "days_to_pending": 27.0,
+    "month": "2026-06-30",
+    "concern": 79.9
+  },
+  "mableton-ga": {
+    "days_to_pending": 52.0,
+    "month": "2026-06-30",
+    "concern": 28.1
+  },
+  "bloomington-il": {
+    "days_to_pending": 20.0,
+    "month": "2026-06-30",
+    "concern": 93.6
+  },
+  "milpitas-ca": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 77.2
+  },
+  "wyoming-mi": {
+    "days_to_pending": 13.0,
+    "month": "2026-06-30",
+    "concern": 99.2
+  },
+  "parma-oh": {
+    "days_to_pending": 14.0,
+    "month": "2026-06-30",
+    "concern": 98.6
+  },
+  "bowling-green-ky": {
+    "days_to_pending": 78.0,
+    "month": "2026-06-30",
+    "concern": 8.2
+  },
+  "maricopa-az": {
+    "days_to_pending": 72.0,
+    "month": "2026-06-30",
+    "concern": 11.1
+  },
+  "lakewood-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 83.8
+  },
+  "bismarck-nd": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 55.9
+  },
+  "tustin-ca": {
+    "days_to_pending": 37.0,
+    "month": "2026-06-30",
+    "concern": 55.6
+  },
+  "ankeny-ia": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 38.8
+  },
+  "san-marcos-tx": {
+    "days_to_pending": 95.0,
+    "month": "2026-06-30",
+    "concern": 3.7
+  },
+  "marysville-wa": {
+    "days_to_pending": 23.0,
+    "month": "2026-06-30",
+    "concern": 88.9
+  },
+  "pittsburg-ca": {
+    "days_to_pending": 29.0,
+    "month": "2026-06-30",
+    "concern": 74.1
+  },
+  "rochester-hills-mi": {
+    "days_to_pending": 17.0,
+    "month": "2026-06-30",
+    "concern": 96.7
+  },
+  "chino-hills-ca": {
+    "days_to_pending": 36.0,
+    "month": "2026-06-30",
+    "concern": 58.5
+  },
+  "missouri-city-tx": {
+    "days_to_pending": 65.0,
+    "month": "2026-06-30",
+    "concern": 16.6
+  },
+  "flagstaff-az": {
+    "days_to_pending": 44.0,
+    "month": "2026-06-30",
+    "concern": 40.5
+  },
+  "schaumburg-il": {
+    "days_to_pending": 19.0,
+    "month": "2026-06-30",
+    "concern": 95.1
+  },
+  "pawtucket-ri": {
+    "days_to_pending": 22.0,
+    "month": "2026-06-30",
+    "concern": 90.8
+  },
+  "alameda-ca": {
+    "days_to_pending": 33.0,
+    "month": "2026-06-30",
+    "concern": 65.7
+  },
+  "rocklin-ca": {
+    "days_to_pending": 26.0,
+    "month": "2026-06-30",
+    "concern": 83.6
+  },
+  "caldwell-id": {
+    "days_to_pending": 28.0,
+    "month": "2026-06-30",
+    "concern": 77.0
+  },
+  "carlsbad-nm": {
+    "days_to_pending": 45.0,
+    "month": "2026-06-30",
+    "concern": 38.6
+  },
+  "durango-co": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 31.0
+  },
+  "los-alamos-nm": {
+    "days_to_pending": 49.0,
+    "month": "2026-06-30",
+    "concern": 32.4
+  },
+  "sandpoint-id": {
+    "days_to_pending": 71.0,
+    "month": "2026-06-30",
+    "concern": 12.3
+  },
+  "grand-junction-co": {
+    "days_to_pending": 50.0,
+    "month": "2026-06-30",
+    "concern": 30.8
+  }
+}

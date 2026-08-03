@@ -98,6 +98,23 @@ test("the ninth dataset (housing supply) is selectable and reports a real value"
   await expect(detail).toContainText("Zillow Research");
 });
 
+test("the tenth dataset (housing market speed) is selectable and honestly reports no data for a real small-town gap", async ({
+  page,
+}) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Housing market speed" }).click();
+  await page.getByRole("button", { name: "Market speed", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing market speed: Market speed" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^Boise, ID/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Housing market speed: Market speed" });
+  await expect(detail).toContainText("days to pending");
+  await expect(detail).toContainText("Zillow Research");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
