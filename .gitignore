@@ -48,6 +48,13 @@ data/raw/svi-cache/
 # data/health.json and data/raw/city-place-fips.json ARE committed.
 data/raw/health-cache/
 
+# Pure fetch-scratch for the food-access dataset build
+# (scripts/geocode_city_tracts_2010.py, scripts/gen_food_access_data.py) --
+# same posture as the caches above. data/food-access.json and
+# data/raw/city-tract-fips-2010.json ARE committed.
+data/raw/geocode-2010-cache/
+data/raw/food-access-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

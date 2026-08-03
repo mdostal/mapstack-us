@@ -68,6 +68,21 @@ test("the seventh dataset (health outcomes) is selectable and honestly reports n
   await expect(detail).toContainText("CDC PLACES");
 });
 
+test("the eighth dataset (food access) is selectable and reports a real percentage value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Food access" }).click();
+  await page.getByRole("button", { name: "Low food access", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Food access: Low food access" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^Houston, TX/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Food access: Low food access" });
+  await expect(detail).toContainText("supermarket");
+  await expect(detail).toContainText("USDA ERS Food Access Research Atlas");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

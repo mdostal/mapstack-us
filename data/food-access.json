@@ -1,0 +1,2557 @@
+{
+  "_meta": {
+    "source": "USDA ERS Food Access Research Atlas, 2019 data",
+    "source_url": "https://www.ers.usda.gov/data-products/food-access-research-atlas",
+    "resolution": "census tract"
+  },
+  "new-york-ny": {
+    "tract": "Census Tract 13",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "los-angeles-ca": {
+    "tract": "Census Tract 2062",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "chicago-il": {
+    "tract": "Census Tract 8391",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "houston-tx": {
+    "tract": "Census Tract 1000",
+    "low_access": 14.7,
+    "low_income_low_access": 3.2
+  },
+  "phoenix-az": {
+    "tract": "Census Tract 1141",
+    "low_access": 100.0,
+    "low_income_low_access": 39.8
+  },
+  "philadelphia-pa": {
+    "tract": "Census Tract 8.04",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "san-antonio-tx": {
+    "tract": "Census Tract 1101",
+    "low_access": 42.7,
+    "low_income_low_access": 15.6
+  },
+  "san-diego-ca": {
+    "tract": "Census Tract 56",
+    "low_access": 1.2,
+    "low_income_low_access": 0.2
+  },
+  "dallas-tx": {
+    "tract": "Census Tract 31.01",
+    "low_access": 92.8,
+    "low_income_low_access": 15.6
+  },
+  "fort-worth-tx": {
+    "tract": "Census Tract 1232",
+    "low_access": 100.0,
+    "low_income_low_access": 42.2
+  },
+  "jacksonville-fl": {
+    "tract": "Census Tract 172",
+    "low_access": 52.1,
+    "low_income_low_access": 31.4
+  },
+  "austin-tx": {
+    "tract": "Census Tract 11",
+    "low_access": 51.0,
+    "low_income_low_access": 8.7
+  },
+  "san-jose-ca": {
+    "tract": "Census Tract 5010",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "charlotte-nc": {
+    "tract": "Census Tract 1",
+    "low_access": 0.1,
+    "low_income_low_access": 0.0
+  },
+  "columbus-oh": {
+    "tract": "Census Tract 40",
+    "low_access": 36.2,
+    "low_income_low_access": 14.6
+  },
+  "indianapolis-in": {
+    "tract": "Census Tract 3910",
+    "low_access": 34.7,
+    "low_income_low_access": 16.6
+  },
+  "san-francisco-ca": {
+    "tract": "Census Tract 201",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "seattle-wa": {
+    "tract": "Census Tract 82",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "denver-co": {
+    "tract": "Census Tract 20",
+    "low_access": 4.1,
+    "low_income_low_access": 0.9
+  },
+  "nashville-tn": {
+    "tract": "Census Tract 195",
+    "low_access": 26.4,
+    "low_income_low_access": 8.7
+  },
+  "oklahoma-city-ok": {
+    "tract": "Census Tract 1036.01",
+    "low_access": 65.0,
+    "low_income_low_access": 13.1
+  },
+  "washington-dc": {
+    "tract": "Census Tract 53.01",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "el-paso-tx": {
+    "tract": "Census Tract 17",
+    "low_access": 58.1,
+    "low_income_low_access": 47.4
+  },
+  "las-vegas-nv": {
+    "tract": "Census Tract 7",
+    "low_access": 100.0,
+    "low_income_low_access": 17.5
+  },
+  "boston-ma": {
+    "tract": "Census Tract 303",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "detroit-mi": {
+    "tract": "Census Tract 5208",
+    "low_access": 81.3,
+    "low_income_low_access": 11.5
+  },
+  "louisville-ky": {
+    "tract": "Census Tract 49",
+    "low_access": 100.0,
+    "low_income_low_access": 55.9
+  },
+  "portland-or": {
+    "tract": "Census Tract 106",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "memphis-tn": {
+    "tract": "Census Tract 113",
+    "low_access": 89.5,
+    "low_income_low_access": 70.7
+  },
+  "baltimore-md": {
+    "tract": "Census Tract 401",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "milwaukee-wi": {
+    "tract": "Census Tract 144",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "albuquerque-nm": {
+    "tract": "Census Tract 14",
+    "low_access": 33.5,
+    "low_income_low_access": 23.7
+  },
+  "fresno-ca": {
+    "tract": "Census Tract 26.01",
+    "low_access": 72.6,
+    "low_income_low_access": 49.7
+  },
+  "tucson-az": {
+    "tract": "Census Tract 1",
+    "low_access": 62.1,
+    "low_income_low_access": 26.9
+  },
+  "sacramento-ca": {
+    "tract": "Census Tract 11.01",
+    "low_access": 20.0,
+    "low_income_low_access": 10.5
+  },
+  "atlanta-ga": {
+    "tract": "Census Tract 35",
+    "low_access": 100.0,
+    "low_income_low_access": 63.7
+  },
+  "kansas-city-mo": {
+    "tract": "Census Tract 157",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "mesa-az": {
+    "tract": "Census Tract 4214",
+    "low_access": 100.0,
+    "low_income_low_access": 71.0
+  },
+  "raleigh-nc": {
+    "tract": "Census Tract 501",
+    "low_access": 82.6,
+    "low_income_low_access": 24.2
+  },
+  "colorado-springs-co": {
+    "tract": "Census Tract 23",
+    "low_access": 96.3,
+    "low_income_low_access": 55.9
+  },
+  "miami-fl": {
+    "tract": "Census Tract 67.13",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "omaha-ne": {
+    "tract": "Census Tract 16",
+    "low_access": 99.4,
+    "low_income_low_access": 79.0
+  },
+  "virginia-beach-va": {
+    "tract": "Census Tract 440.04",
+    "low_access": 52.2,
+    "low_income_low_access": 25.8
+  },
+  "long-beach-ca": {
+    "tract": "Census Tract 5762",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "oakland-ca": {
+    "tract": "Census Tract 4030",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "minneapolis-mn": {
+    "tract": "Census Tract 1261",
+    "low_access": 0.0,
+    "low_income_low_access": 0.0
+  },
+  "bakersfield-ca": {
+    "tract": "Census Tract 16",
+    "low_access": 86.1,
+    "low_income_low_access": 58.7
+  },
+  "tulsa-ok": {
+    "tract": "Census Tract 25",
+    "low_access": 100.0,
+    "low_income_low_access": 52.1
+  },
+  "tampa-fl": {
+    "tract": "Census Tract 51.01",
+    "low_access": 7.6,
+    "low_income_low_access": 2.6
+  },
+  "aurora-co": {
+    "tract": "Census Tract 76",
+    "low_access": 76.1,
+    "low_income_low_access": 45.8
+  },
+  "arlington-tx": {
+    "tract": "Census Tract 1222",
+    "low_access": 67.0,
+    "low_income_low_access": 42.3
+  },
+  "wichita-ks": {
+    "tract": "Census Tract 43",
+    "low_access": 100.0,
+    "low_income_low_access": 68.3
+  },
+  "cleveland-oh": {
+    "tract": "Census Tract 1077.01",
+    "low_access": 5.5,
+    "low_income_low_access": 3.5
+  },
+  "new-orleans-la": {
+    "tract": "Census Tract 134",
+    "low_access": 8.4,
+    "low_income_low_access": 1.4
+  },
+  "henderson-nv": {
+    "tract": "Census Tract 54.22",
+    "low_access": 56.0,
+    "low_income_low_access": 16.4
+  },
+  "honolulu-hi": {
+    "tract": "Census Tract 40",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "anaheim-ca": {
+    "tract": "Census Tract 873",
+    "low_access": 9.9,
+    "low_income_low_access": 5.1
+  },
+  "orlando-fl": {
+    "tract": "Census Tract 189",
+    "low_access": 13.3,
+    "low_income_low_access": 3.2
+  },
+  "lexington-ky": {
+    "tract": "Census Tract 8.02",
+    "low_access": 69.8,
+    "low_income_low_access": 54.8
+  },
+  "stockton-ca": {
+    "tract": "Census Tract 4.02",
+    "low_access": 99.6,
+    "low_income_low_access": 66.9
+  },
+  "newark-nj": {
+    "tract": "Census Tract 229",
+    "low_access": 40.2,
+    "low_income_low_access": 20.5
+  },
+  "riverside-ca": {
+    "tract": "Census Tract 311",
+    "low_access": 13.9,
+    "low_income_low_access": 7.0
+  },
+  "irvine-ca": {
+    "tract": "Census Tract 525.22",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "corpus-christi-tx": {
+    "tract": "Census Tract 64",
+    "low_access": 100.0,
+    "low_income_low_access": 49.7
+  },
+  "santa-ana-ca": {
+    "tract": "Census Tract 750.02",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "cincinnati-oh": {
+    "tract": "Census Tract 265",
+    "low_access": 100.0,
+    "low_income_low_access": 39.1
+  },
+  "greensboro-nc": {
+    "tract": "Census Tract 108",
+    "low_access": 67.9,
+    "low_income_low_access": 26.0
+  },
+  "pittsburgh-pa": {
+    "tract": "Census Tract 201",
+    "low_access": 65.1,
+    "low_income_low_access": 13.7
+  },
+  "saint-paul-mn": {
+    "tract": "Census Tract 342.02",
+    "low_access": 10.1,
+    "low_income_low_access": 3.9
+  },
+  "durham-nc": {
+    "tract": "Census Tract 23",
+    "low_access": 0.0,
+    "low_income_low_access": 0.0
+  },
+  "jersey-city-nj": {
+    "tract": "Census Tract 27",
+    "low_access": 1.6,
+    "low_income_low_access": 0.8
+  },
+  "lincoln-ne": {
+    "tract": "Census Tract 19",
+    "low_access": 68.2,
+    "low_income_low_access": 45.9
+  },
+  "north-las-vegas-nv": {
+    "tract": "Census Tract 38",
+    "low_access": 65.0,
+    "low_income_low_access": 46.7
+  },
+  "plano-tx": {
+    "tract": "Census Tract 319",
+    "low_access": 63.6,
+    "low_income_low_access": 30.7
+  },
+  "gilbert-az": {
+    "tract": "Census Tract 4224.03",
+    "low_access": 88.7,
+    "low_income_low_access": 15.7
+  },
+  "anchorage-ak": {
+    "tract": "Census Tract 11",
+    "low_access": 61.3,
+    "low_income_low_access": 23.3
+  },
+  "madison-wi": {
+    "tract": "Census Tract 16.06",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "reno-nv": {
+    "tract": "Census Tract 1.02",
+    "low_access": 89.3,
+    "low_income_low_access": 63.3
+  },
+  "chandler-az": {
+    "tract": "Census Tract 5229.03",
+    "low_access": 45.5,
+    "low_income_low_access": 28.4
+  },
+  "st-louis-mo": {
+    "tract": "Census Tract 1255",
+    "low_access": 0.0,
+    "low_income_low_access": 0.0
+  },
+  "chula-vista-ca": {
+    "tract": "Census Tract 123.02",
+    "low_access": 6.0,
+    "low_income_low_access": 3.5
+  },
+  "fort-wayne-in": {
+    "tract": "Census Tract 12",
+    "low_access": 99.1,
+    "low_income_low_access": 63.1
+  },
+  "buffalo-ny": {
+    "tract": "Census Tract 71.02",
+    "low_access": 28.7,
+    "low_income_low_access": 21.1
+  },
+  "lubbock-tx": {
+    "tract": "Census Tract 6.07",
+    "low_access": 93.6,
+    "low_income_low_access": 74.3
+  },
+  "laredo-tx": {
+    "tract": "Census Tract 7",
+    "low_access": 77.7,
+    "low_income_low_access": 68.8
+  },
+  "port-st-lucie-fl": {
+    "tract": "Census Tract 3821.13",
+    "low_access": 79.5,
+    "low_income_low_access": 24.9
+  },
+  "st-petersburg-fl": {
+    "tract": "Census Tract 286",
+    "low_access": 23.4,
+    "low_income_low_access": 13.8
+  },
+  "toledo-oh": {
+    "tract": "Census Tract 21",
+    "low_access": 88.1,
+    "low_income_low_access": 44.0
+  },
+  "glendale-az": {
+    "tract": "Census Tract 926",
+    "low_access": 99.6,
+    "low_income_low_access": 81.4
+  },
+  "winston-salem-nc": {
+    "tract": "Census Tract 1",
+    "low_access": 100.0,
+    "low_income_low_access": 29.3
+  },
+  "irving-tx": {
+    "tract": "Census Tract 149.01",
+    "low_access": 0.4,
+    "low_income_low_access": 0.2
+  },
+  "chesapeake-va": {
+    "tract": "Census Tract 209.03",
+    "low_access": 35.5,
+    "low_income_low_access": 7.6
+  },
+  "garland-tx": {
+    "tract": "Census Tract 188.02",
+    "low_access": 53.6,
+    "low_income_low_access": 28.4
+  },
+  "arlington-va": {
+    "tract": "Census Tract 1019",
+    "low_access": 13.2,
+    "low_income_low_access": 0.4
+  },
+  "scottsdale-az": {
+    "tract": "Census Tract 2172.01",
+    "low_access": 22.6,
+    "low_income_low_access": 5.5
+  },
+  "boise-id": {
+    "tract": "Census Tract 1",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "richmond-va": {
+    "tract": "Census Tract 305",
+    "low_access": 98.6,
+    "low_income_low_access": 59.2
+  },
+  "frisco-tx": {
+    "tract": "Census Tract 304.03",
+    "low_access": 74.4,
+    "low_income_low_access": 7.5
+  },
+  "cape-coral-fl": {
+    "tract": "Census Tract 108.02",
+    "low_access": 25.1,
+    "low_income_low_access": 7.8
+  },
+  "mckinney-tx": {
+    "tract": "Census Tract 306.03",
+    "low_access": 61.5,
+    "low_income_low_access": 12.1
+  },
+  "huntsville-al": {
+    "tract": "Census Tract 31",
+    "low_access": 51.9,
+    "low_income_low_access": 38.0
+  },
+  "norfolk-va": {
+    "tract": "Census Tract 49",
+    "low_access": 81.6,
+    "low_income_low_access": 10.1
+  },
+  "hialeah-fl": {
+    "tract": "Census Tract 6.07",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "spokane-wa": {
+    "tract": "Census Tract 35",
+    "low_access": 1.5,
+    "low_income_low_access": 1.2
+  },
+  "tacoma-wa": {
+    "tract": "Census Tract 616.01",
+    "low_access": 96.2,
+    "low_income_low_access": 45.9
+  },
+  "santa-clarita-ca": {
+    "tract": "Census Tract 9203.36",
+    "low_access": 78.2,
+    "low_income_low_access": 47.5
+  },
+  "fremont-ca": {
+    "tract": "Census Tract 4419.23",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "baton-rouge-la": {
+    "tract": "Census Tract 51",
+    "low_access": 64.2,
+    "low_income_low_access": 45.1
+  },
+  "san-bernardino-ca": {
+    "tract": "Census Tract 57.01",
+    "low_access": 73.2,
+    "low_income_low_access": 54.5
+  },
+  "fontana-ca": {
+    "tract": "Census Tract 31.02",
+    "low_access": 81.5,
+    "low_income_low_access": 53.5
+  },
+  "modesto-ca": {
+    "tract": "Census Tract 18",
+    "low_access": 5.9,
+    "low_income_low_access": 4.4
+  },
+  "salt-lake-city-ut": {
+    "tract": "Census Tract 1140",
+    "low_access": 38.2,
+    "low_income_low_access": 10.8
+  },
+  "moreno-valley-ca": {
+    "tract": "Census Tract 425.19",
+    "low_access": 4.8,
+    "low_income_low_access": 3.0
+  },
+  "worcester-ma": {
+    "tract": "Census Tract 7317",
+    "low_access": 12.5,
+    "low_income_low_access": 6.4
+  },
+  "sioux-falls-sd": {
+    "tract": "Census Tract 4.01",
+    "low_access": 59.0,
+    "low_income_low_access": 22.9
+  },
+  "yonkers-ny": {
+    "tract": "Census Tract 3",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "des-moines-ia": {
+    "tract": "Census Tract 51",
+    "low_access": 41.2,
+    "low_income_low_access": 14.6
+  },
+  "grand-prairie-tx": {
+    "tract": "Census Tract 155",
+    "low_access": 4.8,
+    "low_income_low_access": 2.6
+  },
+  "fayetteville-nc": {
+    "tract": "Census Tract 38",
+    "low_access": 99.0,
+    "low_income_low_access": 64.6
+  },
+  "little-rock-ar": {
+    "tract": "Census Tract 44",
+    "low_access": 89.7,
+    "low_income_low_access": 31.9
+  },
+  "rochester-ny": {
+    "tract": "Census Tract 94",
+    "low_access": 38.4,
+    "low_income_low_access": 18.0
+  },
+  "amarillo-tx": {
+    "tract": "Census Tract 122",
+    "low_access": 27.4,
+    "low_income_low_access": 17.4
+  },
+  "tallahassee-fl": {
+    "tract": "Census Tract 2",
+    "low_access": 69.6,
+    "low_income_low_access": 19.9
+  },
+  "overland-park-ks": {
+    "tract": "Census Tract 512",
+    "low_access": 76.5,
+    "low_income_low_access": 19.4
+  },
+  "columbus-ga": {
+    "tract": "Census Tract 111",
+    "low_access": 50.1,
+    "low_income_low_access": 36.8
+  },
+  "knoxville-tn": {
+    "tract": "Census Tract 1",
+    "low_access": 100.0,
+    "low_income_low_access": 46.2
+  },
+  "augusta-ga": {
+    "tract": "Census Tract 7",
+    "low_access": 100.0,
+    "low_income_low_access": 51.6
+  },
+  "grand-rapids-mi": {
+    "tract": "Census Tract 20",
+    "low_access": 64.8,
+    "low_income_low_access": 39.2
+  },
+  "peoria-az": {
+    "tract": "Census Tract 719.06",
+    "low_access": 76.3,
+    "low_income_low_access": 31.0
+  },
+  "mobile-al": {
+    "tract": "Census Tract 2",
+    "low_access": 28.9,
+    "low_income_low_access": 13.7
+  },
+  "vancouver-wa": {
+    "tract": "Census Tract 426",
+    "low_access": 58.5,
+    "low_income_low_access": 15.3
+  },
+  "oxnard-ca": {
+    "tract": "Census Tract 87",
+    "low_access": 41.7,
+    "low_income_low_access": 20.8
+  },
+  "birmingham-al": {
+    "tract": "Census Tract 27",
+    "low_access": 36.9,
+    "low_income_low_access": 20.6
+  },
+  "providence-ri": {
+    "tract": "Census Tract 8",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "montgomery-al": {
+    "tract": "Census Tract 6",
+    "low_access": 99.4,
+    "low_income_low_access": 74.3
+  },
+  "chattanooga-tn": {
+    "tract": "Census Tract 31",
+    "low_access": 94.5,
+    "low_income_low_access": 37.9
+  },
+  "brownsville-tx": {
+    "tract": "Census Tract 140.01",
+    "low_access": 17.6,
+    "low_income_low_access": 12.4
+  },
+  "huntington-beach-ca": {
+    "tract": "Census Tract 993.11",
+    "low_access": 8.1,
+    "low_income_low_access": 1.5
+  },
+  "tempe-az": {
+    "tract": "Census Tract 3187",
+    "low_access": 100.0,
+    "low_income_low_access": 31.8
+  },
+  "akron-oh": {
+    "tract": "Census Tract 5083.01",
+    "low_access": 100.0,
+    "low_income_low_access": 74.0
+  },
+  "clarksville-tn": {
+    "tract": "Census Tract 1010.02",
+    "low_access": 100.0,
+    "low_income_low_access": 36.7
+  },
+  "fort-lauderdale-fl": {
+    "tract": "Census Tract 425",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "glendale-ca": {
+    "tract": "Census Tract 3023.02",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "ontario-ca": {
+    "tract": "Census Tract 14",
+    "low_access": 4.6,
+    "low_income_low_access": 3.1
+  },
+  "elk-grove-ca": {
+    "tract": "Census Tract 93.07",
+    "low_access": 65.1,
+    "low_income_low_access": 12.0
+  },
+  "cary-nc": {
+    "tract": "Census Tract 535.25",
+    "low_access": 40.1,
+    "low_income_low_access": 3.4
+  },
+  "newport-news-va": {
+    "tract": "Census Tract 319.02",
+    "low_access": 53.9,
+    "low_income_low_access": 8.6
+  },
+  "salem-or": {
+    "tract": "Census Tract 2",
+    "low_access": 21.4,
+    "low_income_low_access": 7.8
+  },
+  "aurora-il": {
+    "tract": "Census Tract 8539",
+    "low_access": 30.8,
+    "low_income_low_access": 7.4
+  },
+  "santa-rosa-ca": {
+    "tract": "Census Tract 1520",
+    "low_access": 46.0,
+    "low_income_low_access": 26.7
+  },
+  "eugene-or": {
+    "tract": "Census Tract 42",
+    "low_access": 37.9,
+    "low_income_low_access": 28.6
+  },
+  "rancho-cucamonga-ca": {
+    "tract": "Census Tract 20.27",
+    "low_access": 54.9,
+    "low_income_low_access": 14.2
+  },
+  "pembroke-pines-fl": {
+    "tract": "Census Tract 1103.27",
+    "low_access": 95.8,
+    "low_income_low_access": 15.8
+  },
+  "shreveport-la": {
+    "tract": "Census Tract 205",
+    "low_access": 99.8,
+    "low_income_low_access": 57.3
+  },
+  "surprise-az": {
+    "tract": "Census Tract 405.17",
+    "low_access": 100.0,
+    "low_income_low_access": 31.4
+  },
+  "fort-collins-co": {
+    "tract": "Census Tract 10.03",
+    "low_access": 50.1,
+    "low_income_low_access": 13.1
+  },
+  "murfreesboro-tn": {
+    "tract": "Census Tract 409.01",
+    "low_access": 97.5,
+    "low_income_low_access": 22.1
+  },
+  "oceanside-ca": {
+    "tract": "Census Tract 184",
+    "low_access": 0.2,
+    "low_income_low_access": 0.1
+  },
+  "garden-grove-ca": {
+    "tract": "Census Tract 887.01",
+    "low_access": 64.9,
+    "low_income_low_access": 32.9
+  },
+  "lancaster-ca": {
+    "tract": "Census Tract 9010.08",
+    "low_access": 23.5,
+    "low_income_low_access": 6.7
+  },
+  "springfield-mo": {
+    "tract": "Census Tract 3",
+    "low_access": 64.8,
+    "low_income_low_access": 31.4
+  },
+  "denton-tx": {
+    "tract": "Census Tract 204.03",
+    "low_access": 47.6,
+    "low_income_low_access": 23.6
+  },
+  "roseville-ca": {
+    "tract": "Census Tract 210.43",
+    "low_access": 83.4,
+    "low_income_low_access": 8.8
+  },
+  "killeen-tx": {
+    "tract": "Census Tract 225.02",
+    "low_access": 69.9,
+    "low_income_low_access": 18.3
+  },
+  "palmdale-ca": {
+    "tract": "Census Tract 9101.01",
+    "low_access": 95.6,
+    "low_income_low_access": 54.6
+  },
+  "paterson-nj": {
+    "tract": "Census Tract 1828",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "corona-ca": {
+    "tract": "Census Tract 418.07",
+    "low_access": 44.6,
+    "low_income_low_access": 6.4
+  },
+  "alexandria-va": {
+    "tract": "Census Tract 2008.01",
+    "low_access": 53.9,
+    "low_income_low_access": 8.0
+  },
+  "charleston-sc": {
+    "tract": "Census Tract 26.06",
+    "low_access": 65.2,
+    "low_income_low_access": 7.9
+  },
+  "salinas-ca": {
+    "tract": "Census Tract 5.02",
+    "low_access": 9.2,
+    "low_income_low_access": 4.0
+  },
+  "kansas-city-ks": {
+    "tract": "Census Tract 441.04",
+    "low_access": 30.3,
+    "low_income_low_access": 15.2
+  },
+  "macon-ga": {
+    "tract": "Census Tract 132.02",
+    "low_access": 93.0,
+    "low_income_low_access": 72.0
+  },
+  "hayward-ca": {
+    "tract": "Census Tract 4371.02",
+    "low_access": 17.9,
+    "low_income_low_access": 2.8
+  },
+  "hollywood-fl": {
+    "tract": "Census Tract 904.01",
+    "low_access": 38.8,
+    "low_income_low_access": 14.2
+  },
+  "lakewood-co": {
+    "tract": "Census Tract 117.08",
+    "low_access": 61.6,
+    "low_income_low_access": 10.6
+  },
+  "sunnyvale-ca": {
+    "tract": "Census Tract 5090",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "springfield-ma": {
+    "tract": "Census Tract 8015.01",
+    "low_access": 52.4,
+    "low_income_low_access": 18.1
+  },
+  "bellevue-wa": {
+    "tract": "Census Tract 236.01",
+    "low_access": 58.4,
+    "low_income_low_access": 7.7
+  },
+  "naperville-il": {
+    "tract": "Census Tract 8465.23",
+    "low_access": 28.4,
+    "low_income_low_access": 1.5
+  },
+  "bridgeport-ct": {
+    "tract": "Census Tract 719",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "joliet-il": {
+    "tract": "Census Tract 8832.10",
+    "low_access": 67.3,
+    "low_income_low_access": 11.1
+  },
+  "mesquite-tx": {
+    "tract": "Census Tract 173.03",
+    "low_access": 75.2,
+    "low_income_low_access": 24.6
+  },
+  "mcallen-tx": {
+    "tract": "Census Tract 207.26",
+    "low_access": 88.1,
+    "low_income_low_access": 51.4
+  },
+  "olathe-ks": {
+    "tract": "Census Tract 535.55",
+    "low_access": 84.8,
+    "low_income_low_access": 39.1
+  },
+  "savannah-ga": {
+    "tract": "Census Tract 108.08",
+    "low_access": 87.9,
+    "low_income_low_access": 25.6
+  },
+  "gainesville-fl": {
+    "tract": "Census Tract 12.03",
+    "low_access": 55.2,
+    "low_income_low_access": 21.5
+  },
+  "pasadena-tx": {
+    "tract": "Census Tract 3421",
+    "low_access": 27.3,
+    "low_income_low_access": 8.3
+  },
+  "palm-bay-fl": {
+    "tract": "Census Tract 713.40",
+    "low_access": 92.5,
+    "low_income_low_access": 30.8
+  },
+  "pomona-ca": {
+    "tract": "Census Tract 4023.04",
+    "low_access": 23.0,
+    "low_income_low_access": 16.0
+  },
+  "waco-tx": {
+    "tract": "Census Tract 28",
+    "low_access": 100.0,
+    "low_income_low_access": 32.8
+  },
+  "thornton-co": {
+    "tract": "Census Tract 85.47",
+    "low_access": 79.6,
+    "low_income_low_access": 18.4
+  },
+  "midland-tx": {
+    "tract": "Census Tract 3.03",
+    "low_access": 54.5,
+    "low_income_low_access": 5.5
+  },
+  "rockford-il": {
+    "tract": "Census Tract 14",
+    "low_access": 54.7,
+    "low_income_low_access": 22.0
+  },
+  "columbia-sc": {
+    "tract": "Census Tract 9801",
+    "low_access": 100.0,
+    "low_income_low_access": 0.0
+  },
+  "visalia-ca": {
+    "tract": "Census Tract 10.06",
+    "low_access": 27.0,
+    "low_income_low_access": 4.5
+  },
+  "escondido-ca": {
+    "tract": "Census Tract 202.02",
+    "low_access": 25.1,
+    "low_income_low_access": 14.2
+  },
+  "syracuse-ny": {
+    "tract": "Census Tract 43.01",
+    "low_access": 0.0,
+    "low_income_low_access": 0.0
+  },
+  "meridian-id": {
+    "tract": "Census Tract 103.22",
+    "low_access": 75.5,
+    "low_income_low_access": 29.2
+  },
+  "miramar-fl": {
+    "tract": "Census Tract 1103.21",
+    "low_access": 72.4,
+    "low_income_low_access": 12.2
+  },
+  "elizabeth-nj": {
+    "tract": "Census Tract 398",
+    "low_access": 5.6,
+    "low_income_low_access": 0.3
+  },
+  "victorville-ca": {
+    "tract": "Census Tract 91.10",
+    "low_access": 100.0,
+    "low_income_low_access": 42.0
+  },
+  "round-rock-tx": {
+    "tract": "Census Tract 215.05",
+    "low_access": 83.3,
+    "low_income_low_access": 15.9
+  },
+  "jackson-ms": {
+    "tract": "Census Tract 20",
+    "low_access": 100.0,
+    "low_income_low_access": 70.8
+  },
+  "stamford-ct": {
+    "tract": "Census Tract 206",
+    "low_access": 76.3,
+    "low_income_low_access": 3.0
+  },
+  "lewisville-tx": {
+    "tract": "Census Tract 215.02",
+    "low_access": 100.0,
+    "low_income_low_access": 49.5
+  },
+  "coral-springs-fl": {
+    "tract": "Census Tract 203.14",
+    "low_access": 31.8,
+    "low_income_low_access": 12.8
+  },
+  "new-haven-ct": {
+    "tract": "Census Tract 1420",
+    "low_access": 38.3,
+    "low_income_low_access": 17.6
+  },
+  "fullerton-ca": {
+    "tract": "Census Tract 17.06",
+    "low_access": 94.0,
+    "low_income_low_access": 11.9
+  },
+  "torrance-ca": {
+    "tract": "Census Tract 6507.01",
+    "low_access": 7.4,
+    "low_income_low_access": 0.8
+  },
+  "orange-ca": {
+    "tract": "Census Tract 759.01",
+    "low_access": 72.3,
+    "low_income_low_access": 26.3
+  },
+  "cedar-rapids-ia": {
+    "tract": "Census Tract 25",
+    "low_access": 22.4,
+    "low_income_low_access": 9.4
+  },
+  "west-valley-city-ut": {
+    "tract": "Census Tract 1134.13",
+    "low_access": 69.8,
+    "low_income_low_access": 24.1
+  },
+  "hampton-va": {
+    "tract": "Census Tract 101.04",
+    "low_access": 16.8,
+    "low_income_low_access": 8.8
+  },
+  "warren-mi": {
+    "tract": "Census Tract 2681",
+    "low_access": 95.6,
+    "low_income_low_access": 51.5
+  },
+  "dayton-oh": {
+    "tract": "Census Tract 16",
+    "low_access": 97.5,
+    "low_income_low_access": 32.4
+  },
+  "fargo-nd": {
+    "tract": "Census Tract 9.03",
+    "low_access": 20.8,
+    "low_income_low_access": 10.5
+  },
+  "pasadena-ca": {
+    "tract": "Census Tract 4621",
+    "low_access": 1.5,
+    "low_income_low_access": 0.7
+  },
+  "kent-wa": {
+    "tract": "Census Tract 292.04",
+    "low_access": 68.2,
+    "low_income_low_access": 25.1
+  },
+  "carrollton-tx": {
+    "tract": "Census Tract 216.11",
+    "low_access": 12.2,
+    "low_income_low_access": 4.5
+  },
+  "sterling-heights-mi": {
+    "tract": "Census Tract 2312",
+    "low_access": 93.7,
+    "low_income_low_access": 19.4
+  },
+  "santa-clara-ca": {
+    "tract": "Census Tract 5053.02",
+    "low_access": 86.8,
+    "low_income_low_access": 15.4
+  },
+  "abilene-tx": {
+    "tract": "Census Tract 110",
+    "low_access": 87.2,
+    "low_income_low_access": 49.5
+  },
+  "norman-ok": {
+    "tract": "Census Tract 2024.03",
+    "low_access": 100.0,
+    "low_income_low_access": 16.9
+  },
+  "columbia-mo": {
+    "tract": "Census Tract 5",
+    "low_access": 51.2,
+    "low_income_low_access": 45.4
+  },
+  "pearland-tx": {
+    "tract": "Census Tract 6605",
+    "low_access": 87.5,
+    "low_income_low_access": 18.1
+  },
+  "clovis-ca": {
+    "tract": "Census Tract 57.02",
+    "low_access": 81.1,
+    "low_income_low_access": 15.7
+  },
+  "north-charleston-sc": {
+    "tract": "Census Tract 31.08",
+    "low_access": 55.8,
+    "low_income_low_access": 27.4
+  },
+  "athens-ga": {
+    "tract": "Census Tract 4.02",
+    "low_access": 97.6,
+    "low_income_low_access": 94.4
+  },
+  "college-station-tx": {
+    "tract": "Census Tract 18.01",
+    "low_access": 55.4,
+    "low_income_low_access": 22.0
+  },
+  "west-palm-beach-fl": {
+    "tract": "Census Tract 19.07",
+    "low_access": 65.7,
+    "low_income_low_access": 22.0
+  },
+  "wilmington-nc": {
+    "tract": "Census Tract 106",
+    "low_access": 41.2,
+    "low_income_low_access": 8.0
+  },
+  "allentown-pa": {
+    "tract": "Census Tract 14.01",
+    "low_access": 96.8,
+    "low_income_low_access": 46.7
+  },
+  "topeka-ks": {
+    "tract": "Census Tract 18",
+    "low_access": 100.0,
+    "low_income_low_access": 41.7
+  },
+  "lakeland-fl": {
+    "tract": "Census Tract 113",
+    "low_access": 57.5,
+    "low_income_low_access": 30.7
+  },
+  "buckeye-az": {
+    "tract": "Census Tract 506.07",
+    "low_access": 100.0,
+    "low_income_low_access": 40.4
+  },
+  "goodyear-az": {
+    "tract": "Census Tract 7233.04",
+    "low_access": 100.0,
+    "low_income_low_access": 30.8
+  },
+  "broken-arrow-ok": {
+    "tract": "Census Tract 75.03",
+    "low_access": 58.7,
+    "low_income_low_access": 20.3
+  },
+  "simi-valley-ca": {
+    "tract": "Census Tract 80.01",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "rochester-mn": {
+    "tract": "Census Tract 4",
+    "low_access": 10.7,
+    "low_income_low_access": 0.9
+  },
+  "lafayette-la": {
+    "tract": "Census Tract 22",
+    "low_access": 70.5,
+    "low_income_low_access": 42.4
+  },
+  "vallejo-ca": {
+    "tract": "Census Tract 2516",
+    "low_access": 82.4,
+    "low_income_low_access": 42.6
+  },
+  "concord-ca": {
+    "tract": "Census Tract 3310",
+    "low_access": 76.3,
+    "low_income_low_access": 25.1
+  },
+  "arvada-co": {
+    "tract": "Census Tract 98.36",
+    "low_access": 100.0,
+    "low_income_low_access": 9.3
+  },
+  "odessa-tx": {
+    "tract": "Census Tract 4",
+    "low_access": 69.1,
+    "low_income_low_access": 15.7
+  },
+  "cambridge-ma": {
+    "tract": "Census Tract 3540",
+    "low_access": 74.1,
+    "low_income_low_access": 17.4
+  },
+  "new-braunfels-tx": {
+    "tract": "Census Tract 3101",
+    "low_access": 32.1,
+    "low_income_low_access": 8.7
+  },
+  "fairfield-ca": {
+    "tract": "Census Tract 2526.06",
+    "low_access": 6.8,
+    "low_income_low_access": 2.9
+  },
+  "ann-arbor-mi": {
+    "tract": "Census Tract 4003",
+    "low_access": 100.0,
+    "low_income_low_access": 73.5
+  },
+  "thousand-oaks-ca": {
+    "tract": "Census Tract 68",
+    "low_access": 20.9,
+    "low_income_low_access": 1.4
+  },
+  "hartford-ct": {
+    "tract": "Census Tract 5021",
+    "low_access": 4.5,
+    "low_income_low_access": 0.8
+  },
+  "berkeley-ca": {
+    "tract": "Census Tract 4220",
+    "low_access": 7.9,
+    "low_income_low_access": 2.4
+  },
+  "independence-mo": {
+    "tract": "Census Tract 114.01",
+    "low_access": 87.7,
+    "low_income_low_access": 28.7
+  },
+  "billings-mt": {
+    "tract": "Census Tract 2",
+    "low_access": 52.0,
+    "low_income_low_access": 28.1
+  },
+  "high-point-nc": {
+    "tract": "Census Tract 144.11",
+    "low_access": 48.6,
+    "low_income_low_access": 22.6
+  },
+  "nampa-id": {
+    "tract": "Census Tract 204.01",
+    "low_access": 79.5,
+    "low_income_low_access": 38.3
+  },
+  "lowell-ma": {
+    "tract": "Census Tract 3111",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "league-city-tx": {
+    "tract": "Census Tract 7205.02",
+    "low_access": 49.0,
+    "low_income_low_access": 8.5
+  },
+  "conroe-tx": {
+    "tract": "Census Tract 6936",
+    "low_access": 49.8,
+    "low_income_low_access": 17.0
+  },
+  "antioch-ca": {
+    "tract": "Census Tract 3551.09",
+    "low_access": 79.6,
+    "low_income_low_access": 13.9
+  },
+  "menifee-ca": {
+    "tract": "Census Tract 427.08",
+    "low_access": 52.6,
+    "low_income_low_access": 14.4
+  },
+  "richardson-tx": {
+    "tract": "Census Tract 190.38",
+    "low_access": 100.0,
+    "low_income_low_access": 13.1
+  },
+  "pompano-beach-fl": {
+    "tract": "Census Tract 304.02",
+    "low_access": 52.5,
+    "low_income_low_access": 37.0
+  },
+  "las-cruces-nm": {
+    "tract": "Census Tract 1.03",
+    "low_access": 69.3,
+    "low_income_low_access": 42.6
+  },
+  "manchester-nh": {
+    "tract": "Census Tract 18",
+    "low_access": 43.5,
+    "low_income_low_access": 8.8
+  },
+  "west-jordan-ut": {
+    "tract": "Census Tract 1131.01",
+    "low_access": 73.3,
+    "low_income_low_access": 18.1
+  },
+  "westminster-co": {
+    "tract": "Census Tract 604",
+    "low_access": 98.8,
+    "low_income_low_access": 12.1
+  },
+  "evansville-in": {
+    "tract": "Census Tract 2.02",
+    "low_access": 49.6,
+    "low_income_low_access": 18.7
+  },
+  "waterbury-ct": {
+    "tract": "Census Tract 3501",
+    "low_access": 18.5,
+    "low_income_low_access": 16.4
+  },
+  "elgin-il": {
+    "tract": "Census Tract 8519.04",
+    "low_access": 43.7,
+    "low_income_low_access": 10.1
+  },
+  "greeley-co": {
+    "tract": "Census Tract 14.11",
+    "low_access": 76.4,
+    "low_income_low_access": 15.0
+  },
+  "temecula-ca": {
+    "tract": "Census Tract 432.22",
+    "low_access": 86.6,
+    "low_income_low_access": 24.7
+  },
+  "richmond-ca": {
+    "tract": "Census Tract 3730",
+    "low_access": 94.9,
+    "low_income_low_access": 43.2
+  },
+  "concord-nc": {
+    "tract": "Census Tract 425.04",
+    "low_access": 69.7,
+    "low_income_low_access": 3.0
+  },
+  "provo-ut": {
+    "tract": "Census Tract 16.02",
+    "low_access": 100.0,
+    "low_income_low_access": 11.3
+  },
+  "rio-rancho-nm": {
+    "tract": "Census Tract 107.21",
+    "low_access": 100.0,
+    "low_income_low_access": 35.2
+  },
+  "clearwater-fl": {
+    "tract": "Census Tract 265",
+    "low_access": 50.4,
+    "low_income_low_access": 20.3
+  },
+  "tuscaloosa-al": {
+    "tract": "Census Tract 104.06",
+    "low_access": 83.0,
+    "low_income_low_access": 9.0
+  },
+  "murrieta-ca": {
+    "tract": "Census Tract 432.06",
+    "low_access": 33.2,
+    "low_income_low_access": 9.4
+  },
+  "lansing-mi": {
+    "tract": "Census Tract 70",
+    "low_access": 26.3,
+    "low_income_low_access": 13.5
+  },
+  "tyler-tx": {
+    "tract": "Census Tract 10",
+    "low_access": 62.1,
+    "low_income_low_access": 19.4
+  },
+  "miami-gardens-fl": {
+    "tract": "Census Tract 99.03",
+    "low_access": 48.4,
+    "low_income_low_access": 20.2
+  },
+  "everett-wa": {
+    "tract": "Census Tract 407",
+    "low_access": 30.1,
+    "low_income_low_access": 12.5
+  },
+  "allen-tx": {
+    "tract": "Census Tract 315.08",
+    "low_access": 49.7,
+    "low_income_low_access": 15.2
+  },
+  "springfield-il": {
+    "tract": "Census Tract 17",
+    "low_access": 46.2,
+    "low_income_low_access": 39.1
+  },
+  "beaumont-tx": {
+    "tract": "Census Tract 13.01",
+    "low_access": 55.2,
+    "low_income_low_access": 22.5
+  },
+  "south-fulton-ga": {
+    "tract": "Census Tract 103.04",
+    "low_access": 100.0,
+    "low_income_low_access": 18.5
+  },
+  "carlsbad-ca": {
+    "tract": "Census Tract 221",
+    "low_access": 94.5,
+    "low_income_low_access": 17.1
+  },
+  "sparks-nv": {
+    "tract": "Census Tract 35.08",
+    "low_access": 30.1,
+    "low_income_low_access": 4.2
+  },
+  "gresham-or": {
+    "tract": "Census Tract 100.01",
+    "low_access": 9.9,
+    "low_income_low_access": 4.2
+  },
+  "santa-maria-ca": {
+    "tract": "Census Tract 24.02",
+    "low_access": 39.2,
+    "low_income_low_access": 18.8
+  },
+  "hillsboro-or": {
+    "tract": "Census Tract 326.08",
+    "low_access": 63.1,
+    "low_income_low_access": 7.0
+  },
+  "peoria-il": {
+    "tract": "Census Tract 30",
+    "low_access": 57.0,
+    "low_income_low_access": 13.4
+  },
+  "davie-fl": {
+    "tract": "Census Tract 702.09",
+    "low_access": 96.5,
+    "low_income_low_access": 9.1
+  },
+  "edinburg-tx": {
+    "tract": "Census Tract 236",
+    "low_access": 51.8,
+    "low_income_low_access": 28.7
+  },
+  "pueblo-co": {
+    "tract": "Census Tract 35",
+    "low_access": 82.8,
+    "low_income_low_access": 54.9
+  },
+  "ventura-ca": {
+    "tract": "Census Tract 27",
+    "low_access": 33.5,
+    "low_income_low_access": 10.0
+  },
+  "palm-coast-fl": {
+    "tract": "Census Tract 602.11",
+    "low_access": 87.6,
+    "low_income_low_access": 25.3
+  },
+  "costa-mesa-ca": {
+    "tract": "Census Tract 639.02",
+    "low_access": 0.8,
+    "low_income_low_access": 0.5
+  },
+  "st-george-ut": {
+    "tract": "Census Tract 2718",
+    "low_access": 52.2,
+    "low_income_low_access": 14.0
+  },
+  "centennial-co": {
+    "tract": "Census Tract 68.56",
+    "low_access": 99.8,
+    "low_income_low_access": 28.8
+  },
+  "downey-ca": {
+    "tract": "Census Tract 5509.01",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "spokane-valley-wa": {
+    "tract": "Census Tract 118",
+    "low_access": 49.0,
+    "low_income_low_access": 25.9
+  },
+  "sugar-land-tx": {
+    "tract": "Census Tract 6740",
+    "low_access": 54.4,
+    "low_income_low_access": 10.5
+  },
+  "lees-summit-mo": {
+    "tract": "Census Tract 137.03",
+    "low_access": 60.6,
+    "low_income_low_access": 23.8
+  },
+  "bend-or": {
+    "tract": "Census Tract 16",
+    "low_access": 40.6,
+    "low_income_low_access": 15.8
+  },
+  "jurupa-valley-ca": {
+    "tract": "Census Tract 404.05",
+    "low_access": 63.3,
+    "low_income_low_access": 14.3
+  },
+  "georgetown-tx": {
+    "tract": "Census Tract 201.11",
+    "low_access": 61.9,
+    "low_income_low_access": 11.7
+  },
+  "green-bay-wi": {
+    "tract": "Census Tract 9",
+    "low_access": 78.0,
+    "low_income_low_access": 42.9
+  },
+  "fayetteville-ar": {
+    "tract": "Census Tract 113",
+    "low_access": 26.4,
+    "low_income_low_access": 17.6
+  },
+  "rialto-ca": {
+    "tract": "Census Tract 35.03",
+    "low_access": 99.9,
+    "low_income_low_access": 41.0
+  },
+  "brockton-ma": {
+    "tract": "Census Tract 5109",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "boulder-co": {
+    "tract": "Census Tract 122.03",
+    "low_access": 42.0,
+    "low_income_low_access": 17.8
+  },
+  "carmel-in": {
+    "tract": "Census Tract 1110.08",
+    "low_access": 43.0,
+    "low_income_low_access": 9.2
+  },
+  "dearborn-mi": {
+    "tract": "Census Tract 5742.02",
+    "low_access": 94.9,
+    "low_income_low_access": 22.7
+  },
+  "west-covina-ca": {
+    "tract": "Census Tract 4066.01",
+    "low_access": 73.4,
+    "low_income_low_access": 21.0
+  },
+  "yuma-az": {
+    "tract": "Census Tract 8",
+    "low_access": 21.2,
+    "low_income_low_access": 6.4
+  },
+  "chico-ca": {
+    "tract": "Census Tract 1.02",
+    "low_access": 32.6,
+    "low_income_low_access": 13.4
+  },
+  "el-monte-ca": {
+    "tract": "Census Tract 4332",
+    "low_access": 18.6,
+    "low_income_low_access": 9.7
+  },
+  "sandy-springs-ga": {
+    "tract": "Census Tract 101.21",
+    "low_access": 61.0,
+    "low_income_low_access": 6.1
+  },
+  "renton-wa": {
+    "tract": "Census Tract 256.01",
+    "low_access": 49.8,
+    "low_income_low_access": 9.2
+  },
+  "fishers-in": {
+    "tract": "Census Tract 1108.08",
+    "low_access": 84.5,
+    "low_income_low_access": 6.4
+  },
+  "suffolk-va": {
+    "tract": "Census Tract 757.03",
+    "low_access": 99.7,
+    "low_income_low_access": 15.1
+  },
+  "lynn-ma": {
+    "tract": "Census Tract 2055",
+    "low_access": 7.1,
+    "low_income_low_access": 2.8
+  },
+  "vacaville-ca": {
+    "tract": "Census Tract 2531.05",
+    "low_access": 21.6,
+    "low_income_low_access": 8.5
+  },
+  "san-mateo-ca": {
+    "tract": "Census Tract 6076",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "south-bend-in": {
+    "tract": "Census Tract 19",
+    "low_access": 62.9,
+    "low_income_low_access": 40.9
+  },
+  "quincy-ma": {
+    "tract": "Census Tract 4176.02",
+    "low_access": 94.1,
+    "low_income_low_access": 24.6
+  },
+  "burbank-ca": {
+    "tract": "Census Tract 3105.01",
+    "low_access": 57.8,
+    "low_income_low_access": 23.8
+  },
+  "hesperia-ca": {
+    "tract": "Census Tract 100.19",
+    "low_access": 78.6,
+    "low_income_low_access": 40.8
+  },
+  "wichita-falls-tx": {
+    "tract": "Census Tract 110",
+    "low_access": 42.0,
+    "low_income_low_access": 26.4
+  },
+  "tracy-ca": {
+    "tract": "Census Tract 54.03",
+    "low_access": 39.7,
+    "low_income_low_access": 5.5
+  },
+  "new-bedford-ma": {
+    "tract": "Census Tract 6509",
+    "low_access": 18.6,
+    "low_income_low_access": 8.5
+  },
+  "el-cajon-ca": {
+    "tract": "Census Tract 163.01",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "albany-ny": {
+    "tract": "Census Tract 4.03",
+    "low_access": 32.4,
+    "low_income_low_access": 5.9
+  },
+  "inglewood-ca": {
+    "tract": "Census Tract 6007.03",
+    "low_access": 71.8,
+    "low_income_low_access": 14.0
+  },
+  "boca-raton-fl": {
+    "tract": "Census Tract 71",
+    "low_access": 22.3,
+    "low_income_low_access": 0.0
+  },
+  "fort-myers-fl": {
+    "tract": "Census Tract 12.01",
+    "low_access": 82.4,
+    "low_income_low_access": 43.4
+  },
+  "daly-city-ca": {
+    "tract": "Census Tract 6006",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "avondale-az": {
+    "tract": "Census Tract 7233.04",
+    "low_access": 100.0,
+    "low_income_low_access": 30.8
+  },
+  "san-angelo-tx": {
+    "tract": "Census Tract 13.01",
+    "low_access": 78.9,
+    "low_income_low_access": 19.9
+  },
+  "edmond-ok": {
+    "tract": "Census Tract 1092.01",
+    "low_access": 98.7,
+    "low_income_low_access": 10.6
+  },
+  "davenport-ia": {
+    "tract": "Census Tract 119",
+    "low_access": 91.9,
+    "low_income_low_access": 30.2
+  },
+  "deltona-fl": {
+    "tract": "Census Tract 910.27",
+    "low_access": 73.5,
+    "low_income_low_access": 24.2
+  },
+  "longmont-co": {
+    "tract": "Census Tract 134.01",
+    "low_access": 74.0,
+    "low_income_low_access": 34.0
+  },
+  "federal-way-wa": {
+    "tract": "Census Tract 303.09",
+    "low_access": 91.9,
+    "low_income_low_access": 19.0
+  },
+  "merced-ca": {
+    "tract": "Census Tract 13.02",
+    "low_access": 9.6,
+    "low_income_low_access": 3.1
+  },
+  "kenosha-wi": {
+    "tract": "Census Tract 7",
+    "low_access": 39.4,
+    "low_income_low_access": 16.1
+  },
+  "plantation-fl": {
+    "tract": "Census Tract 606.05",
+    "low_access": 28.1,
+    "low_income_low_access": 8.3
+  },
+  "roanoke-va": {
+    "tract": "Census Tract 25",
+    "low_access": 88.4,
+    "low_income_low_access": 60.6
+  },
+  "sunrise-fl": {
+    "tract": "Census Tract 601.17",
+    "low_access": 61.7,
+    "low_income_low_access": 30.9
+  },
+  "temple-tx": {
+    "tract": "Census Tract 212.02",
+    "low_access": 85.4,
+    "low_income_low_access": 34.8
+  },
+  "vista-ca": {
+    "tract": "Census Tract 197.02",
+    "low_access": 51.2,
+    "low_income_low_access": 6.8
+  },
+  "beaverton-or": {
+    "tract": "Census Tract 312",
+    "low_access": 30.4,
+    "low_income_low_access": 10.9
+  },
+  "yakima-wa": {
+    "tract": "Census Tract 10",
+    "low_access": 62.8,
+    "low_income_low_access": 23.2
+  },
+  "kirkland-wa": {
+    "tract": "Census Tract 224",
+    "low_access": 71.7,
+    "low_income_low_access": 6.4
+  },
+  "norwalk-ca": {
+    "tract": "Census Tract 5522",
+    "low_access": 9.4,
+    "low_income_low_access": 3.8
+  },
+  "chino-ca": {
+    "tract": "Census Tract 122",
+    "low_access": 100.0,
+    "low_income_low_access": 23.8
+  },
+  "portsmouth-va": {
+    "tract": "Census Tract 2130.01",
+    "low_access": 100.0,
+    "low_income_low_access": 16.1
+  },
+  "manteca-ca": {
+    "tract": "Census Tract 51.32",
+    "low_access": 83.7,
+    "low_income_low_access": 47.9
+  },
+  "north-port-fl": {
+    "tract": "Census Tract 27.11",
+    "low_access": 69.3,
+    "low_income_low_access": 18.2
+  },
+  "greenville-nc": {
+    "tract": "Census Tract 1",
+    "low_access": 59.0,
+    "low_income_low_access": 47.7
+  },
+  "bellingham-wa": {
+    "tract": "Census Tract 5.01",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "lawrence-ks": {
+    "tract": "Census Tract 7.02",
+    "low_access": 35.4,
+    "low_income_low_access": 15.6
+  },
+  "ofallon-mo": {
+    "tract": "Census Tract 3117.22",
+    "low_access": 72.3,
+    "low_income_low_access": 11.8
+  },
+  "reading-pa": {
+    "tract": "Census Tract 13",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "mount-pleasant-sc": {
+    "tract": "Census Tract 46.07",
+    "low_access": 23.2,
+    "low_income_low_access": 2.2
+  },
+  "lehi-ut": {
+    "tract": "Census Tract 102.14",
+    "low_access": 90.8,
+    "low_income_low_access": 21.5
+  },
+  "fall-river-ma": {
+    "tract": "Census Tract 6425",
+    "low_access": 91.1,
+    "low_income_low_access": 15.3
+  },
+  "orem-ut": {
+    "tract": "Census Tract 8.02",
+    "low_access": 67.5,
+    "low_income_low_access": 27.9
+  },
+  "san-marcos-ca": {
+    "tract": "Census Tract 200.26",
+    "low_access": 54.9,
+    "low_income_low_access": 8.0
+  },
+  "norwalk-ct": {
+    "tract": "Census Tract 444",
+    "low_access": 87.0,
+    "low_income_low_access": 42.2
+  },
+  "indio-ca": {
+    "tract": "Census Tract 452.17",
+    "low_access": 60.2,
+    "low_income_low_access": 33.3
+  },
+  "redding-ca": {
+    "tract": "Census Tract 109",
+    "low_access": 57.8,
+    "low_income_low_access": 24.7
+  },
+  "hemet-ca": {
+    "tract": "Census Tract 433.06",
+    "low_access": 74.6,
+    "low_income_low_access": 29.8
+  },
+  "hoover-al": {
+    "tract": "Census Tract 144.08",
+    "low_access": 23.6,
+    "low_income_low_access": 7.9
+  },
+  "asheville-nc": {
+    "tract": "Census Tract 6",
+    "low_access": 11.7,
+    "low_income_low_access": 4.9
+  },
+  "livonia-mi": {
+    "tract": "Census Tract 5573",
+    "low_access": 57.2,
+    "low_income_low_access": 7.4
+  },
+  "nashua-nh": {
+    "tract": "Census Tract 108",
+    "low_access": 19.7,
+    "low_income_low_access": 8.3
+  },
+  "sandy-ut": {
+    "tract": "Census Tract 1126.13",
+    "low_access": 49.2,
+    "low_income_low_access": 5.2
+  },
+  "frederick-md": {
+    "tract": "Census Tract 7508.01",
+    "low_access": 57.0,
+    "low_income_low_access": 12.1
+  },
+  "bryan-tx": {
+    "tract": "Census Tract 6.03",
+    "low_access": 66.5,
+    "low_income_low_access": 43.2
+  },
+  "folsom-ca": {
+    "tract": "Census Tract 85.06",
+    "low_access": 81.5,
+    "low_income_low_access": 16.5
+  },
+  "erie-pa": {
+    "tract": "Census Tract 13",
+    "low_access": 100.0,
+    "low_income_low_access": 83.6
+  },
+  "trenton-nj": {
+    "tract": "Census Tract 9",
+    "low_access": 0.7,
+    "low_income_low_access": 0.5
+  },
+  "roswell-ga": {
+    "tract": "Census Tract 114.17",
+    "low_access": 54.2,
+    "low_income_low_access": 6.3
+  },
+  "champaign-il": {
+    "tract": "Census Tract 11",
+    "low_access": 79.4,
+    "low_income_low_access": 13.1
+  },
+  "leander-tx": {
+    "tract": "Census Tract 203.12",
+    "low_access": 84.6,
+    "low_income_low_access": 19.5
+  },
+  "clifton-nj": {
+    "tract": "Census Tract 1243.21",
+    "low_access": 88.2,
+    "low_income_low_access": 15.1
+  },
+  "fort-smith-ar": {
+    "tract": "Census Tract 11.02",
+    "low_access": 80.9,
+    "low_income_low_access": 36.8
+  },
+  "newton-ma": {
+    "tract": "Census Tract 3742",
+    "low_access": 34.9,
+    "low_income_low_access": 2.0
+  },
+  "springdale-ar": {
+    "tract": "Census Tract 104.01",
+    "low_access": 16.1,
+    "low_income_low_access": 4.7
+  },
+  "lawton-ok": {
+    "tract": "Census Tract 9",
+    "low_access": 50.7,
+    "low_income_low_access": 17.4
+  },
+  "compton-ca": {
+    "tract": "Census Tract 5425.02",
+    "low_access": 7.0,
+    "low_income_low_access": 3.9
+  },
+  "mission-viejo-ca": {
+    "tract": "Census Tract 320.02",
+    "low_access": 85.0,
+    "low_income_low_access": 7.2
+  },
+  "franklin-tn": {
+    "tract": "Census Tract 509.06",
+    "low_access": 99.3,
+    "low_income_low_access": 9.6
+  },
+  "santa-monica-ca": {
+    "tract": "Census Tract 7019.02",
+    "low_access": 10.1,
+    "low_income_low_access": 5.8
+  },
+  "south-gate-ca": {
+    "tract": "Census Tract 5359.02",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "santa-fe-nm": {
+    "tract": "Census Tract 4",
+    "low_access": 6.2,
+    "low_income_low_access": 1.1
+  },
+  "queen-creek-az": {
+    "tract": "Census Tract 8171",
+    "low_access": 88.1,
+    "low_income_low_access": 20.9
+  },
+  "ogden-ut": {
+    "tract": "Census Tract 2011",
+    "low_access": 71.2,
+    "low_income_low_access": 42.8
+  },
+  "deerfield-beach-fl": {
+    "tract": "Census Tract 104.03",
+    "low_access": 12.3,
+    "low_income_low_access": 5.0
+  },
+  "lawrence-ma": {
+    "tract": "Census Tract 2516",
+    "low_access": 58.4,
+    "low_income_low_access": 29.1
+  },
+  "bloomington-mn": {
+    "tract": "Census Tract 257.02",
+    "low_access": 90.7,
+    "low_income_low_access": 22.1
+  },
+  "danbury-ct": {
+    "tract": "Census Tract 2108",
+    "low_access": 84.1,
+    "low_income_low_access": 15.3
+  },
+  "mission-tx": {
+    "tract": "Census Tract 201.02",
+    "low_access": 99.1,
+    "low_income_low_access": 41.6
+  },
+  "westminster-ca": {
+    "tract": "Census Tract 997.01",
+    "low_access": 63.3,
+    "low_income_low_access": 30.4
+  },
+  "troy-mi": {
+    "tract": "Census Tract 1969",
+    "low_access": 85.3,
+    "low_income_low_access": 8.4
+  },
+  "daytona-beach-fl": {
+    "tract": "Census Tract 832.05",
+    "low_access": 96.9,
+    "low_income_low_access": 22.1
+  },
+  "kennewick-wa": {
+    "tract": "Census Tract 110.02",
+    "low_access": 18.5,
+    "low_income_low_access": 7.3
+  },
+  "duluth-mn": {
+    "tract": "Census Tract 156",
+    "low_access": 100.0,
+    "low_income_low_access": 71.2
+  },
+  "waukegan-il": {
+    "tract": "Census Tract 8626.03",
+    "low_access": 18.6,
+    "low_income_low_access": 11.0
+  },
+  "warner-robins-ga": {
+    "tract": "Census Tract 210",
+    "low_access": 82.6,
+    "low_income_low_access": 39.7
+  },
+  "south-jordan-ut": {
+    "tract": "Census Tract 1130.20",
+    "low_access": 84.8,
+    "low_income_low_access": 6.3
+  },
+  "rancho-cordova-ca": {
+    "tract": "Census Tract 87.05",
+    "low_access": 89.1,
+    "low_income_low_access": 11.1
+  },
+  "melbourne-fl": {
+    "tract": "Census Tract 647",
+    "low_access": 53.7,
+    "low_income_low_access": 24.7
+  },
+  "gastonia-nc": {
+    "tract": "Census Tract 329",
+    "low_access": 57.4,
+    "low_income_low_access": 34.3
+  },
+  "baytown-tx": {
+    "tract": "Census Tract 2537",
+    "low_access": 17.9,
+    "low_income_low_access": 4.0
+  },
+  "medford-or": {
+    "tract": "Census Tract 5.02",
+    "low_access": 22.5,
+    "low_income_low_access": 9.4
+  },
+  "santa-barbara-ca": {
+    "tract": "Census Tract 12.08",
+    "low_access": 44.9,
+    "low_income_low_access": 9.0
+  },
+  "sioux-city-ia": {
+    "tract": "Census Tract 1",
+    "low_access": 85.0,
+    "low_income_low_access": 33.6
+  },
+  "citrus-heights-ca": {
+    "tract": "Census Tract 81.41",
+    "low_access": 45.1,
+    "low_income_low_access": 25.1
+  },
+  "lake-forest-ca": {
+    "tract": "Census Tract 524.25",
+    "low_access": 77.7,
+    "low_income_low_access": 11.1
+  },
+  "auburn-wa": {
+    "tract": "Census Tract 311",
+    "low_access": 85.4,
+    "low_income_low_access": 21.7
+  },
+  "homestead-fl": {
+    "tract": "Census Tract 110.07",
+    "low_access": 89.0,
+    "low_income_low_access": 28.9
+  },
+  "san-ramon-ca": {
+    "tract": "Census Tract 3451.12",
+    "low_access": 69.9,
+    "low_income_low_access": 4.4
+  },
+  "new-rochelle-ny": {
+    "tract": "Census Tract 65",
+    "low_access": 27.0,
+    "low_income_low_access": 7.9
+  },
+  "whittier-ca": {
+    "tract": "Census Tract 5016",
+    "low_access": 100.0,
+    "low_income_low_access": 25.4
+  },
+  "kissimmee-fl": {
+    "tract": "Census Tract 418",
+    "low_access": 83.2,
+    "low_income_low_access": 61.1
+  },
+  "mountain-view-ca": {
+    "tract": "Census Tract 5092.01",
+    "low_access": 47.6,
+    "low_income_low_access": 7.5
+  },
+  "san-leandro-ca": {
+    "tract": "Census Tract 4333",
+    "low_access": 49.1,
+    "low_income_low_access": 11.5
+  },
+  "layton-ut": {
+    "tract": "Census Tract 1258.05",
+    "low_access": 89.4,
+    "low_income_low_access": 15.4
+  },
+  "auburn-al": {
+    "tract": "Census Tract 409.02",
+    "low_access": 81.3,
+    "low_income_low_access": 49.9
+  },
+  "cranston-ri": {
+    "tract": "Census Tract 145.02",
+    "low_access": 69.1,
+    "low_income_low_access": 15.9
+  },
+  "mansfield-tx": {
+    "tract": "Census Tract 1113.08",
+    "low_access": 80.0,
+    "low_income_low_access": 20.9
+  },
+  "somerville-ma": {
+    "tract": "Census Tract 3502",
+    "low_access": 5.5,
+    "low_income_low_access": 0.5
+  },
+  "warwick-ri": {
+    "tract": "Census Tract 219.03",
+    "low_access": 91.0,
+    "low_income_low_access": 13.3
+  },
+  "castle-rock-co": {
+    "tract": "Census Tract 145.03",
+    "low_access": 84.2,
+    "low_income_low_access": 13.0
+  },
+  "brooklyn-park-mn": {
+    "tract": "Census Tract 268.23",
+    "low_access": 79.8,
+    "low_income_low_access": 10.6
+  },
+  "livermore-ca": {
+    "tract": "Census Tract 4514.01",
+    "low_access": 26.3,
+    "low_income_low_access": 3.1
+  },
+  "bloomington-in": {
+    "tract": "Census Tract 3.02",
+    "low_access": 100.0,
+    "low_income_low_access": 37.3
+  },
+  "jonesboro-ar": {
+    "tract": "Census Tract 4.02",
+    "low_access": 51.8,
+    "low_income_low_access": 25.8
+  },
+  "farmington-hills-mi": {
+    "tract": "Census Tract 1670",
+    "low_access": 76.7,
+    "low_income_low_access": 6.7
+  },
+  "perris-ca": {
+    "tract": "Census Tract 428",
+    "low_access": 21.5,
+    "low_income_low_access": 13.2
+  },
+  "longview-tx": {
+    "tract": "Census Tract 5.01",
+    "low_access": 74.0,
+    "low_income_low_access": 11.1
+  },
+  "hawthorne-ca": {
+    "tract": "Census Tract 6024.03",
+    "low_access": null,
+    "low_income_low_access": null
+  },
+  "lake-charles-la": {
+    "tract": "Census Tract 8",
+    "low_access": 52.0,
+    "low_income_low_access": 35.8
+  },
+  "redmond-wa": {
+    "tract": "Census Tract 323.24",
+    "low_access": 44.2,
+    "low_income_low_access": 3.2
+  },
+  "boynton-beach-fl": {
+    "tract": "Census Tract 60.12",
+    "low_access": 40.0,
+    "low_income_low_access": 9.0
+  },
+  "westland-mi": {
+    "tract": "Census Tract 5679",
+    "low_access": 52.2,
+    "low_income_low_access": 9.1
+  },
+  "redwood-city-ca": {
+    "tract": "Census Tract 6103.02",
+    "low_access": 51.8,
+    "low_income_low_access": 19.1
+  },
+  "newport-beach-ca": {
+    "tract": "Census Tract 628",
+    "low_access": 94.7,
+    "low_income_low_access": 18.6
+  },
+  "cicero-il": {
+    "tract": "Census Tract 8141",
+    "low_access": 3.2,
+    "low_income_low_access": 0.7
+  },
+  "buena-park-ca": {
+    "tract": "Census Tract 1105",
+    "low_access": 74.6,
+    "low_income_low_access": 48.2
+  },
+  "doral-fl": {
+    "tract": "Census Tract 90.34",
+    "low_access": 22.0,
+    "low_income_low_access": 4.9
+  },
+  "miami-beach-fl": {
+    "tract": "Census Tract 40",
+    "low_access": 43.7,
+    "low_income_low_access": 12.6
+  },
+  "woodbury-mn": {
+    "tract": "Census Tract 710.15",
+    "low_access": 85.2,
+    "low_income_low_access": 6.4
+  },
+  "loveland-co": {
+    "tract": "Census Tract 17.06",
+    "low_access": 79.9,
+    "low_income_low_access": 15.4
+  },
+  "lynchburg-va": {
+    "tract": "Census Tract 8.02",
+    "low_access": 90.2,
+    "low_income_low_access": 42.1
+  },
+  "pharr-tx": {
+    "tract": "Census Tract 214.04",
+    "low_access": 86.4,
+    "low_income_low_access": 44.5
+  },
+  "largo-fl": {
+    "tract": "Census Tract 253.03",
+    "low_access": 66.0,
+    "low_income_low_access": 25.1
+  },
+  "rapid-city-sd": {
+    "tract": "Census Tract 102",
+    "low_access": 97.0,
+    "low_income_low_access": 59.5
+  },
+  "apex-nc": {
+    "tract": "Census Tract 534.14",
+    "low_access": 70.9,
+    "low_income_low_access": 14.3
+  },
+  "johns-creek-ga": {
+    "tract": "Census Tract 116.25",
+    "low_access": 77.1,
+    "low_income_low_access": 5.3
+  },
+  "alhambra-ca": {
+    "tract": "Census Tract 4809.02",
+    "low_access": 4.6,
+    "low_income_low_access": 2.7
+  },
+  "bethlehem-pa": {
+    "tract": "Census Tract 106",
+    "low_access": 74.9,
+    "low_income_low_access": 22.3
+  },
+  "flower-mound-tx": {
+    "tract": "Census Tract 217.50",
+    "low_access": 71.4,
+    "low_income_low_access": 4.8
+  },
+  "upland-ca": {
+    "tract": "Census Tract 8.18",
+    "low_access": 32.8,
+    "low_income_low_access": 6.6
+  },
+  "flint-mi": {
+    "tract": "Census Tract 28",
+    "low_access": 31.5,
+    "low_income_low_access": 26.3
+  },
+  "lakeville-mn": {
+    "tract": "Census Tract 608.16",
+    "low_access": 100.0,
+    "low_income_low_access": 5.0
+  },
+  "broomfield-co": {
+    "tract": "Census Tract 305",
+    "low_access": 88.3,
+    "low_income_low_access": 7.4
+  },
+  "cedar-park-tx": {
+    "tract": "Census Tract 203.13",
+    "low_access": 81.5,
+    "low_income_low_access": 12.6
+  },
+  "plymouth-mn": {
+    "tract": "Census Tract 265.14",
+    "low_access": 41.6,
+    "low_income_low_access": 7.8
+  },
+  "missoula-mt": {
+    "tract": "Census Tract 8",
+    "low_access": 23.1,
+    "low_income_low_access": 14.6
+  },
+  "mableton-ga": {
+    "tract": "Census Tract 313.08",
+    "low_access": 51.4,
+    "low_income_low_access": 18.7
+  },
+  "bloomington-il": {
+    "tract": "Census Tract 18",
+    "low_access": 34.2,
+    "low_income_low_access": 6.4
+  },
+  "milpitas-ca": {
+    "tract": "Census Tract 5045.04",
+    "low_access": 28.9,
+    "low_income_low_access": 4.2
+  },
+  "wyoming-mi": {
+    "tract": "Census Tract 139",
+    "low_access": 90.9,
+    "low_income_low_access": 19.4
+  },
+  "parma-oh": {
+    "tract": "Census Tract 1776.08",
+    "low_access": 52.8,
+    "low_income_low_access": 12.9
+  },
+  "bowling-green-ky": {
+    "tract": "Census Tract 106",
+    "low_access": 71.1,
+    "low_income_low_access": 22.8
+  },
+  "maricopa-az": {
+    "tract": "Census Tract 17.11",
+    "low_access": 96.2,
+    "low_income_low_access": 23.0
+  },
+  "lakewood-ca": {
+    "tract": "Census Tract 5709.02",
+    "low_access": 9.1,
+    "low_income_low_access": 0.7
+  },
+  "bismarck-nd": {
+    "tract": "Census Tract 102",
+    "low_access": 97.9,
+    "low_income_low_access": 27.9
+  },
+  "racine-wi": {
+    "tract": "Census Tract 6",
+    "low_access": 68.7,
+    "low_income_low_access": 32.8
+  },
+  "tustin-ca": {
+    "tract": "Census Tract 755.07",
+    "low_access": 16.1,
+    "low_income_low_access": 4.5
+  },
+  "ankeny-ia": {
+    "tract": "Census Tract 102.05",
+    "low_access": 57.9,
+    "low_income_low_access": 14.2
+  },
+  "san-marcos-tx": {
+    "tract": "Census Tract 105",
+    "low_access": 55.8,
+    "low_income_low_access": 29.5
+  },
+  "marysville-wa": {
+    "tract": "Census Tract 528.06",
+    "low_access": 94.3,
+    "low_income_low_access": 18.3
+  },
+  "pittsburg-ca": {
+    "tract": "Census Tract 3110",
+    "low_access": 50.4,
+    "low_income_low_access": 18.2
+  },
+  "rochester-hills-mi": {
+    "tract": "Census Tract 1942",
+    "low_access": 100.0,
+    "low_income_low_access": 9.1
+  },
+  "chino-hills-ca": {
+    "tract": "Census Tract 1.16",
+    "low_access": 87.8,
+    "low_income_low_access": 13.1
+  },
+  "missouri-city-tx": {
+    "tract": "Census Tract 6709.01",
+    "low_access": 83.0,
+    "low_income_low_access": 2.7
+  },
+  "flagstaff-az": {
+    "tract": "Census Tract 12",
+    "low_access": 11.2,
+    "low_income_low_access": 3.5
+  },
+  "schaumburg-il": {
+    "tract": "Census Tract 8047.09",
+    "low_access": 38.2,
+    "low_income_low_access": 5.5
+  },
+  "pawtucket-ri": {
+    "tract": "Census Tract 171",
+    "low_access": 89.5,
+    "low_income_low_access": 40.3
+  },
+  "rogers-ar": {
+    "tract": "Census Tract 204.01",
+    "low_access": 83.5,
+    "low_income_low_access": 36.1
+  },
+  "alameda-ca": {
+    "tract": "Census Tract 4283.02",
+    "low_access": 82.3,
+    "low_income_low_access": 4.7
+  },
+  "rocklin-ca": {
+    "tract": "Census Tract 211.23",
+    "low_access": 66.8,
+    "low_income_low_access": 5.8
+  },
+  "caldwell-id": {
+    "tract": "Census Tract 213",
+    "low_access": 75.5,
+    "low_income_low_access": 43.2
+  },
+  "carlsbad-nm": {
+    "tract": "Census Tract 1",
+    "low_access": 10.6,
+    "low_income_low_access": 4.3
+  },
+  "kalispell-mt": {
+    "tract": "Census Tract 10",
+    "low_access": 3.1,
+    "low_income_low_access": 1.6
+  },
+  "durango-co": {
+    "tract": "Census Tract 9710",
+    "low_access": 75.9,
+    "low_income_low_access": 12.5
+  },
+  "los-alamos-nm": {
+    "tract": "Census Tract 4",
+    "low_access": 97.2,
+    "low_income_low_access": 15.8
+  },
+  "sandpoint-id": {
+    "tract": "Census Tract 9503",
+    "low_access": 3.3,
+    "low_income_low_access": 1.6
+  },
+  "taos-nm": {
+    "tract": "Census Tract 9401",
+    "low_access": 78.8,
+    "low_income_low_access": 34.3
+  },
+  "blanding-ut": {
+    "tract": "Census Tract 9782",
+    "low_access": 84.0,
+    "low_income_low_access": 34.1
+  },
+  "monticello-ut": {
+    "tract": "Census Tract 9781",
+    "low_access": 69.0,
+    "low_income_low_access": 16.6
+  },
+  "whitewright-tx": {
+    "tract": "Census Tract 1.02",
+    "low_access": 90.7,
+    "low_income_low_access": 31.7
+  },
+  "sundance-wy": {
+    "tract": "Census Tract 9503",
+    "low_access": 72.1,
+    "low_income_low_access": 16.9
+  },
+  "geraldine-mt": {
+    "tract": "Census Tract 103",
+    "low_access": 85.4,
+    "low_income_low_access": 45.9
+  },
+  "grand-junction-co": {
+    "tract": "Census Tract 8",
+    "low_access": 97.1,
+    "low_income_low_access": 31.4
+  }
+}

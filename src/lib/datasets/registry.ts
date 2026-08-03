@@ -4,6 +4,7 @@ import { careAccessDataset } from "@/lib/datasets/care-access";
 import { hazardDataset } from "@/lib/datasets/hazard";
 import { sviDataset } from "@/lib/datasets/svi";
 import { healthDataset } from "@/lib/datasets/health";
+import { foodAccessDataset } from "@/lib/datasets/food-access";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -19,6 +20,7 @@ export const DATASETS: Dataset[] = [
   hazardDataset,
   sviDataset,
   healthDataset,
+  foodAccessDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {
