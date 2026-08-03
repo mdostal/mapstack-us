@@ -74,14 +74,30 @@ counts, not smoothed over.
 - **Coverage varies by year, and shrinks going backward** — an expected, honest property
   of real reporting history. See `_meta.coverage_by_year` in `data/crime.json` for the
   exact city count per year/layer this build produced.
-- **Some agencies never participate in NIBRS at all** (as of this data's generation):
-  San Francisco, Oakland, New Orleans, Anchorage, St. Petersburg FL, Santa Clarita,
-  Huntington Beach, Ontario CA, and Rancho Cucamonga. These show **no data for any year**
-  on the affected layer(s) — never a fabricated or interpolated value.
-- **Some large agencies only recently joined NIBRS**, so their earliest covered year is
-  later than 2020: Los Angeles (2024 only, mid-year start), Phoenix, Jacksonville,
-  Orlando, San Bernardino, Moreno Valley, and Port St. Lucie all have limited or no
-  historical depth in this range for the same real reason.
+- **27 agencies never participate in NIBRS at all** (as of this data's generation) —
+  their real, matched agency simply doesn't report: San Francisco, Oakland, New Orleans,
+  Anchorage, St. Petersburg FL, Santa Clarita, Huntington Beach, Ontario CA, Rancho
+  Cucamonga, Lancaster CA, Palmdale CA, Hollywood FL, Victorville CA, Pompano Beach FL,
+  Rialto CA, Hesperia CA, Deltona FL, Sunrise FL, Norwalk CA, Trenton NJ, Carson CA,
+  Compton CA, South Gate CA, Deerfield Beach FL, Daytona Beach FL, Lakewood CA, and
+  Chino Hills CA. These show **no data for any year** on the affected layer(s) — never a
+  fabricated or interpolated value.
+- **23 agencies only recently joined NIBRS**, so they have no full year of data yet even
+  though a real agency match exists — Miami Beach FL (Jan 2024), Indio CA (Mar 2024), Los
+  Angeles (May 2024), Allentown PA (May 2024), Santa Monica CA (May 2024), Port St. Lucie
+  FL (Jun 2024), Pembroke Pines FL (Oct 2024), Melbourne FL (Dec 2024), Jacksonville FL
+  (Jan 2025, via Jacksonville Beach PD), Jackson MS (Jan 2025), Downey CA (Jan 2025),
+  Homestead FL (Jan 2025), North Port FL (Mar 2025), San Leandro CA (Apr 2025), San
+  Bernardino CA (Jun 2025), Phoenix (Sep 2025), Plantation FL (Sep 2025), Orlando (Jan
+  2026), Moreno Valley CA (Jan 2026), Temecula CA (Jan 2026), Jurupa Valley CA (Jan 2026),
+  Perris CA (Jan 2026), and Syracuse NY (Apr 2026). Every real match's own start date
+  (`data/raw/crime-agency-matches.json`'s `nibrs_start_date`) determines this, not a
+  guess — an agency reappears here the moment it has a real full calendar year of NIBRS
+  data.
+- **Both lists above are the complete current picture, not illustrative examples** — the
+  count and membership of each shift over time as more agencies join NIBRS or a fresh year
+  completes; re-running `scripts/gen_crime_data.py` reproduces the current split exactly
+  from `data/raw/crime-agency-matches.json`.
 - **Percentile rank is relative to that year's own covered-city set**, not to all US
   cities, and **not comparable across years** — see above. Documented as a real property
   of this method, not treated as a fixed absolute scale.
