@@ -32,7 +32,12 @@ of pluggable data layers — generalized from allergy-locator's two real dataset
   the comparison table renders them as columns for direct comparison/sort —
   and deliberately computes no cross-dataset combined score (the underlying
   scores aren't on a common statistical basis; see
-  `.pHive/epics/power-user-tab/docs/design-discussion.md` §3.3).
+  `.pHive/epics/power-user-tab/docs/design-discussion.md` §3.3). Sortable by
+  multiple columns as an ordered tie-break sequence (click = sort by this
+  column alone; shift-click = add as the next tie-break key) —
+  `src/lib/power-user/sort.ts`'s `sortByKeys`. Still not a combined score:
+  each key is compared independently in priority order, like SQL
+  `ORDER BY col1, col2`, never averaged or weighted together.
 - **Methodology doc** — Every dataset's plain-language sourcing/scoring writeup
   (e.g. `data/crime-methodology.md`, `data/allergy-scoring.md`). Required per the
   transparent-scoring principle — no black-box heuristics.

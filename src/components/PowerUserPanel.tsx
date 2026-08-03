@@ -17,7 +17,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 import { useSharedViewParams } from "@/lib/shared-view-params";
-import type { SortDirection } from "@/lib/power-user/sort";
+import type { SortSpec } from "@/lib/power-user/resolve-sort-keys";
 import { buildComparisonCsv } from "@/lib/power-user/build-comparison-csv";
 import { downloadCsv } from "@/lib/power-user/csv-export";
 import { decodeView, encodeView, VIEW_PARAM } from "@/lib/url-state";
@@ -52,8 +52,7 @@ export function PowerUserPanel() {
   const decoded = viewParam ? decodeView(viewParam) : null;
 
   const [selected, setSelected] = useState<ActiveLayer[]>(decoded?.selections.length ? decoded.selections : DEFAULT_SELECTION);
-  const [sortBy, setSortBy] = useState<ActiveLayer | null>(decoded?.sortBy ?? null);
-  const [direction, setDirection] = useState<SortDirection>(decoded?.direction ?? "asc");
+  const [sortKeys, setSortKeys] = useState<SortSpec[]>(decoded?.sortKeys ?? []);
   const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
   const [viewMode, setViewMode] = useState<"table" | "map">("table");
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
@@ -66,17 +65,16 @@ export function PowerUserPanel() {
 
   function restoreSavedView(view: SavedView) {
     setSelected(view.selections);
-    setSortBy(view.sortBy);
-    setDirection(view.direction);
+    setSortKeys(view.sortKeys);
     // Also reflect the restored view in the URL so it's shareable, not just
     // applied in-memory -- see .pHive/design/power-user-saved-views/brief.md.
     const params = new URLSearchParams(searchParams.toString());
-    params.set(VIEW_PARAM, encodeView({ selections: view.selections, sortBy: view.sortBy, direction: view.direction }));
+    params.set(VIEW_PARAM, encodeView({ selections: view.selections, sortKeys: view.sortKeys }));
     router.replace(`${pathname}?${params.toString()}`, { scroll: false });
   }
 
   function exportCsv() {
-    const csv = buildComparisonCsv(selected, year, sortBy, direction, filteredCityIds);
+    const csv = buildComparisonCsv(selected, year, sortKeys, filteredCityIds);
     downloadCsv(`mapstack-comparison-${new Date().toISOString().slice(0, 10)}.csv`, csv);
   }
 
@@ -116,12 +114,7 @@ export function PowerUserPanel() {
             <LayerPicker selected={selected} onToggle={toggle} />
           </AccordionSection>
           <AccordionSection title="Saved views">
-            <SavedViewsPanel
-              currentSelections={selected}
-              currentSortBy={sortBy}
-              currentDirection={direction}
-              onRestore={restoreSavedView}
-            />
+            <SavedViewsPanel currentSelections={selected} currentSortKeys={sortKeys} onRestore={restoreSavedView} />
           </AccordionSection>
           <AccordionSection title="Formula">
             <FormulaPanel selected={selected} selectedCityId={selectedCityId} />
@@ -199,12 +192,8 @@ export function PowerUserPanel() {
                 year={year}
                 selectedCityId={selectedCityId}
                 onSelectCity={setSelectedCityId}
-                sortBy={sortBy}
-                direction={direction}
-                onSortChange={(nextSortBy, nextDirection) => {
-                  setSortBy(nextSortBy);
-                  setDirection(nextDirection);
-                }}
+                sortKeys={sortKeys}
+                onSortKeysChange={setSortKeys}
                 visibleCityIds={filteredCityIds}
               />
 

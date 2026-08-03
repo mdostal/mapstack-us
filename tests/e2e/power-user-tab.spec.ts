@@ -63,7 +63,7 @@ test("changing the year on the advanced route and navigating to the simple view 
   }
 });
 
-test("clicking a column header sorts the city rows by that column, single criterion only", async ({ page }) => {
+test("clicking a column header (no shift key) sorts the city rows by that column alone", async ({ page }) => {
   await page.goto("/advanced");
   const grassHeader = page.getByRole("columnheader", { name: /Allergy severity: Grass/ });
   const firstRowBefore = page.locator("tbody tr").first();
@@ -77,6 +77,28 @@ test("clicking a column header sorts the city rows by that column, single criter
   // Click again -- same column toggles to descending, not a different sort.
   await grassHeader.getByRole("button").click();
   await expect(grassHeader).toHaveAttribute("aria-sort", "descending");
+});
+
+test("shift-clicking a second column header adds it as a tie-break key, without disturbing the primary sort", async ({ page }) => {
+  await page.goto("/advanced");
+  const grassHeader = page.getByRole("columnheader", { name: /Allergy severity: Grass/ });
+  const crimeHeader = page.getByRole("columnheader", { name: /Crime: Violent crime/ });
+
+  await grassHeader.getByRole("button").click();
+  await expect(grassHeader).toHaveAttribute("aria-sort", "ascending");
+
+  await crimeHeader.getByRole("button").click({ modifiers: ["Shift"] });
+  // Primary key untouched by the shift-click; the second column becomes an
+  // additional, independently-compared sort key -- never combined into one
+  // number with the first (see src/lib/power-user/sort.ts).
+  await expect(grassHeader).toHaveAttribute("aria-sort", "ascending");
+  await expect(crimeHeader).toHaveAttribute("aria-sort", "ascending");
+  await expect(crimeHeader.getByText("2", { exact: true })).toBeVisible();
+
+  // A plain click on the secondary column resets to sorting solely by it.
+  await crimeHeader.getByRole("button").click();
+  await expect(grassHeader).toHaveAttribute("aria-sort", "none");
+  await expect(crimeHeader).toHaveAttribute("aria-sort", "ascending");
 });
 
 test("saving, restoring, renaming, and deleting a view, and it survives a reload", async ({ page }) => {

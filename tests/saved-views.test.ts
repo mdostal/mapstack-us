@@ -10,22 +10,28 @@ describe("saved-views", () => {
     expect(getSavedViews()).toEqual([]);
   });
 
-  it("saves a view and round-trips it through getSavedViews", () => {
-    const view = saveView(
-      "Grass + Violent Crime",
-      [{ datasetId: "allergy", layerId: "grass" }],
-      { datasetId: "allergy", layerId: "grass" },
-      "asc",
-    );
+  it("saves a view (with a single sort key) and round-trips it through getSavedViews", () => {
+    const view = saveView("Grass + Violent Crime", [{ datasetId: "allergy", layerId: "grass" }], [
+      { layer: { datasetId: "allergy", layerId: "grass" }, direction: "asc" },
+    ]);
     const all = getSavedViews();
     expect(all).toHaveLength(1);
     expect(all[0]).toEqual(view);
     expect(all[0].name).toBe("Grass + Violent Crime");
   });
 
+  it("saves a view with multiple (tie-break) sort keys, in order", () => {
+    const sortKeys = [
+      { layer: { datasetId: "allergy", layerId: "grass" }, direction: "asc" as const },
+      { layer: { datasetId: "crime", layerId: "violent_crime" }, direction: "desc" as const },
+    ];
+    saveView("Multi-key", [], sortKeys);
+    expect(getSavedViews()[0].sortKeys).toEqual(sortKeys);
+  });
+
   it("deletes a saved view by id", () => {
-    const a = saveView("A", [], null, "asc");
-    const b = saveView("B", [], null, "asc");
+    const a = saveView("A", [], []);
+    const b = saveView("B", [], []);
     deleteView(a.id);
     const all = getSavedViews();
     expect(all).toHaveLength(1);
@@ -33,7 +39,7 @@ describe("saved-views", () => {
   });
 
   it("renames a saved view by id, leaving others untouched", () => {
-    const a = saveView("Old name", [], null, "asc");
+    const a = saveView("Old name", [], []);
     renameView(a.id, "New name");
     expect(getSavedViews()[0].name).toBe("New name");
   });
@@ -58,5 +64,54 @@ describe("saved-views", () => {
     } finally {
       globalThis.window = originalWindow;
     }
+  });
+
+  it("reads an older single sortBy/direction view (from before multi-key sort) into a single-entry sortKeys array", () => {
+    window.localStorage.setItem(
+      "mapstack:saved-views",
+      JSON.stringify([
+        {
+          id: "legacy-1",
+          name: "Legacy view",
+          selections: [{ datasetId: "allergy", layerId: "grass" }],
+          sortBy: { datasetId: "allergy", layerId: "grass" },
+          direction: "desc",
+          savedAt: "2026-01-01T00:00:00.000Z",
+        },
+      ]),
+    );
+    expect(getSavedViews()).toEqual([
+      {
+        id: "legacy-1",
+        name: "Legacy view",
+        selections: [{ datasetId: "allergy", layerId: "grass" }],
+        sortBy: { datasetId: "allergy", layerId: "grass" },
+        direction: "desc",
+        savedAt: "2026-01-01T00:00:00.000Z",
+        sortKeys: [{ layer: { datasetId: "allergy", layerId: "grass" }, direction: "desc" }],
+      },
+    ]);
+  });
+
+  it("reads an older view with no sortBy into an empty sortKeys array", () => {
+    window.localStorage.setItem(
+      "mapstack:saved-views",
+      JSON.stringify([
+        {
+          id: "legacy-2",
+          name: "No sort",
+          selections: [],
+          sortBy: null,
+          direction: "asc",
+          savedAt: "2026-01-01T00:00:00.000Z",
+        },
+      ]),
+    );
+    expect(getSavedViews()[0].sortKeys).toEqual([]);
+  });
+
+  it("drops an entry that doesn't even minimally look like a saved view, rather than crashing on it", () => {
+    window.localStorage.setItem("mapstack:saved-views", JSON.stringify([{ garbage: true }, null, "a string"]));
+    expect(getSavedViews()).toEqual([]);
   });
 });

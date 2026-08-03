@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 import type { ActiveLayer } from "@/lib/active-layers";
-import type { SortDirection } from "@/lib/power-user/sort";
+import type { SortSpec } from "@/lib/power-user/resolve-sort-keys";
 import { deleteView, getSavedViews, renameView, saveView, type SavedView } from "@/lib/saved-views";
 
 interface Props {
   currentSelections: ActiveLayer[];
-  currentSortBy: ActiveLayer | null;
-  currentDirection: SortDirection;
+  currentSortKeys: SortSpec[];
   onRestore: (view: SavedView) => void;
 }
 
@@ -18,7 +17,7 @@ interface Props {
  * developer preference and the absence of a modal pattern elsewhere in
  * mapstack-us (see .pHive/design/power-user-saved-views/brief.md).
  */
-export function SavedViewsPanel({ currentSelections, currentSortBy, currentDirection, onRestore }: Props) {
+export function SavedViewsPanel({ currentSelections, currentSortKeys, onRestore }: Props) {
   const [views, setViews] = useState<SavedView[]>(() => getSavedViews());
   const [naming, setNaming] = useState(false);
   const [name, setName] = useState("");
@@ -28,7 +27,7 @@ export function SavedViewsPanel({ currentSelections, currentSortBy, currentDirec
   function handleSave() {
     const trimmed = name.trim();
     if (!trimmed) return;
-    const view = saveView(trimmed, currentSelections, currentSortBy, currentDirection);
+    const view = saveView(trimmed, currentSelections, currentSortKeys);
     setViews((prev) => [...prev, view]);
     setName("");
     setNaming(false);

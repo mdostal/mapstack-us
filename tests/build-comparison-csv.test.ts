@@ -9,8 +9,7 @@ describe("build-comparison-csv", () => {
         { datasetId: "crime", layerId: "violent_crime" },
       ],
       null,
-      null,
-      "asc",
+      [],
       null,
     );
     const lines = csv.trim().split("\n");
@@ -25,27 +24,24 @@ describe("build-comparison-csv", () => {
         { datasetId: "crime", layerId: "violent_crime" },
       ],
       null,
-      null,
-      "asc",
+      [],
       new Set(["new-york-ny", "austin-tx"]),
     );
     const lines = csv.trim().split("\n");
     expect(lines).toHaveLength(3); // header + 2 cities
   });
 
-  it("sorts rows by the given column and direction", () => {
+  it("sorts rows by the given single sort key and direction", () => {
     const asc = buildComparisonCsv(
       [{ datasetId: "allergy", layerId: "grass" }],
       null,
-      { datasetId: "allergy", layerId: "grass" },
-      "asc",
+      [{ layer: { datasetId: "allergy", layerId: "grass" }, direction: "asc" }],
       null,
     );
     const desc = buildComparisonCsv(
       [{ datasetId: "allergy", layerId: "grass" }],
       null,
-      { datasetId: "allergy", layerId: "grass" },
-      "desc",
+      [{ layer: { datasetId: "allergy", layerId: "grass" }, direction: "desc" }],
       null,
     );
     const ascFirstRow = asc.trim().split("\n")[1];
@@ -53,8 +49,24 @@ describe("build-comparison-csv", () => {
     expect(ascFirstRow).not.toBe(descFirstRow);
   });
 
+  it("breaks ties with a second sort key rather than combining the columns", () => {
+    const csv = buildComparisonCsv(
+      [
+        { datasetId: "allergy", layerId: "grass" },
+        { datasetId: "crime", layerId: "violent_crime" },
+      ],
+      2024,
+      [
+        { layer: { datasetId: "allergy", layerId: "grass" }, direction: "asc" },
+        { layer: { datasetId: "crime", layerId: "violent_crime" }, direction: "desc" },
+      ],
+      null,
+    );
+    expect(csv.trim().split("\n")).toHaveLength(169);
+  });
+
   it("produces just the header row for an empty selection", () => {
-    const csv = buildComparisonCsv([], null, null, "asc", null);
+    const csv = buildComparisonCsv([], null, [], null);
     expect(csv.trim().split("\n")).toHaveLength(169); // header + all cities, zero columns
     expect(csv.trim().split("\n")[0]).toBe("City");
   });

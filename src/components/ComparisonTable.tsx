@@ -2,8 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import cities from "@data/cities.json";
-import { resolveActiveLayer, activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-layers";
-import { sortByValue, type SortDirection } from "@/lib/power-user/sort";
+import { activeLayerKey, isSameLayer, resolveActiveLayer, type ActiveLayer } from "@/lib/active-layers";
+import { sortByKeys } from "@/lib/power-user/sort";
+import { resolveSortKeys, type SortSpec } from "@/lib/power-user/resolve-sort-keys";
 import type { DatasetTimeContext } from "@/lib/datasets/types";
 
 interface Props {
@@ -12,10 +13,11 @@ interface Props {
   selectedCityId?: string | null;
   onSelectCity?: (cityId: string) => void;
   /** Sort state is controlled by the parent (not local) so pu-4 can save and
-   * restore it as part of a named view. */
-  sortBy: ActiveLayer | null;
-  direction: SortDirection;
-  onSortChange: (sortBy: ActiveLayer | null, direction: SortDirection) => void;
+   * restore it as part of a named view. Ordered, primary first -- see
+   * sort.ts's header comment for why a list of these is a tie-break
+   * sequence, never a combined score. */
+  sortKeys: SortSpec[];
+  onSortKeysChange: (sortKeys: SortSpec[]) => void;
   /** null = no filter applied (show all cities); a Set restricts rendered
    * rows to those ids -- see FilterPanel / src/lib/db/filter.ts. */
   visibleCityIds?: Set<string> | null;
@@ -27,17 +29,19 @@ interface Props {
  * a footnote) so nothing reads as a single unexplained composite number --
  * see design-discussion.md §3.2/§3.3 (no cross-dataset combined score in
  * this epic; grill-record findings U1/P1). Clicking a column header sorts
- * by that single column only (pu-2) -- no cross-column combination. Row
- * click selects a city, syncing the shared `city` URL param (pu-3).
+ * by that single column only, matching pu-2's original single-click
+ * behavior; shift-clicking a different column ADDS it as a tie-break key
+ * rather than replacing the sort -- still no cross-column combination, just
+ * a priority-ordered sequence of independent comparisons (see sort.ts).
+ * Row click selects a city, syncing the shared `city` URL param (pu-3).
  */
 export function ComparisonTable({
   selected,
   year = null,
   selectedCityId = null,
   onSelectCity,
-  sortBy,
-  direction,
-  onSortChange,
+  sortKeys,
+  onSortKeysChange,
   visibleCityIds = null,
 }: Props) {
   const context: DatasetTimeContext | undefined = year !== null ? { year } : undefined;
@@ -60,24 +64,34 @@ export function ComparisonTable({
 
   const columns = selected.map((item) => ({ item, resolved: resolveActiveLayer(item) })).filter((c) => c.resolved);
 
-  function handleHeaderClick(item: ActiveLayer) {
-    if (sortBy && isSameLayer(sortBy, item)) {
-      onSortChange(item, direction === "asc" ? "desc" : "asc");
-    } else {
-      onSortChange(item, "asc");
+  /** Plain click: sort solely by this column (toggling direction on repeat
+   * clicks of the current sole key) -- identical to pu-2's original
+   * behavior. Shift-click: add this column as the next tie-break key, or
+   * toggle its direction in place if it's already one of the active keys,
+   * without disturbing the others. */
+  function handleHeaderClick(item: ActiveLayer, shiftKey: boolean) {
+    if (shiftKey) {
+      const existingIndex = sortKeys.findIndex((k) => isSameLayer(k.layer, item));
+      if (existingIndex === -1) {
+        onSortKeysChange([...sortKeys, { layer: item, direction: "asc" }]);
+      } else {
+        const next = [...sortKeys];
+        next[existingIndex] = {
+          ...next[existingIndex],
+          direction: next[existingIndex].direction === "asc" ? "desc" : "asc",
+        };
+        onSortKeysChange(next);
+      }
+      return;
     }
+    const isSoleKey = sortKeys.length === 1 && isSameLayer(sortKeys[0].layer, item);
+    const direction = isSoleKey && sortKeys[0].direction === "asc" ? "desc" : "asc";
+    onSortKeysChange([{ layer: item, direction }]);
   }
 
   const visibleCities = visibleCityIds ? cities.filter((c) => visibleCityIds.has(c.id)) : cities;
 
-  const sortColumn = sortBy ? columns.find((c) => isSameLayer(c.item, sortBy)) : undefined;
-  const sortedCities = sortColumn
-    ? sortByValue(
-        visibleCities,
-        (city) => sortColumn.resolved!.dataset.getValue(city.id, sortColumn.resolved!.layer.id, context)?.value ?? null,
-        direction,
-      )
-    : visibleCities;
+  const sortedCities = sortByKeys(visibleCities, resolveSortKeys(sortKeys, context));
 
   if (visibleCityIds && visibleCityIds.size === 0) {
     return (
@@ -96,23 +110,36 @@ export function ComparisonTable({
               City
             </th>
             {columns.map(({ item, resolved }) => {
-              const isSorted = sortBy !== null && isSameLayer(sortBy, item);
+              const keyIndex = sortKeys.findIndex((k) => isSameLayer(k.layer, item));
+              const isSorted = keyIndex !== -1;
+              const keyDirection = isSorted ? sortKeys[keyIndex].direction : null;
+              const priority = sortKeys.length > 1 && isSorted ? keyIndex + 1 : null;
               return (
                 <th
                   key={activeLayerKey(item)}
                   scope="col"
-                  aria-sort={isSorted ? (direction === "asc" ? "ascending" : "descending") : "none"}
+                  aria-sort={isSorted ? (keyDirection === "asc" ? "ascending" : "descending") : "none"}
                   className="border-b border-zinc-200 px-3 py-2 font-semibold text-zinc-900 dark:border-zinc-800 dark:text-zinc-50"
                 >
                   <button
                     type="button"
-                    onClick={() => handleHeaderClick(item)}
+                    onClick={(e) => handleHeaderClick(item, e.shiftKey)}
+                    title="Click to sort by this column. Shift-click to add it as a tie-break for the current sort."
                     className="flex items-center gap-1 text-left hover:underline"
                   >
                     {resolved!.dataset.label}: {resolved!.layer.label}
                     <span aria-hidden className="text-zinc-400">
-                      {isSorted ? (direction === "asc" ? "↑" : "↓") : "↕"}
+                      {isSorted ? (keyDirection === "asc" ? "↑" : "↓") : "↕"}
                     </span>
+                    {priority !== null && (
+                      <span
+                        aria-hidden
+                        className="rounded-full bg-zinc-200 px-1 text-[10px] font-normal leading-tight text-zinc-600 dark:bg-zinc-700 dark:text-zinc-300"
+                      >
+                        {priority}
+                      </span>
+                    )}
+                    {priority !== null && <span className="sr-only">(sort priority {priority})</span>}
                   </button>
                   <div className="mt-0.5 font-normal text-zinc-500 dark:text-zinc-400">
                     {resolved!.dataset.description}{" "}
