@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { careAccessDataset } from "@/lib/datasets/care-access";
+import cities from "@data/cities.json";
 
 describe("careAccessDataset (Dataset interface, fourth real implementation, ported from allergy-locator)", () => {
   it("conforms to the Dataset interface's basic shape", () => {
@@ -47,10 +48,12 @@ describe("careAccessDataset (Dataset interface, fourth real implementation, port
     expect(careAccessDataset.getValue("new-york-ny", "not-a-real-layer")).toBeNull();
   });
 
-  it("a representative spine city has a value for every layer (no gaps in the ported data)", () => {
-    for (const layer of careAccessDataset.layers) {
-      const result = careAccessDataset.getValue("los-angeles-ca", layer.id);
-      expect(result).not.toBeNull();
+  it("every spine city has a value for every layer -- care-access is computed (haversine + a fixed facility list), not source-limited, so it covers the full spine unlike allergy/crime", () => {
+    for (const city of cities) {
+      for (const layer of careAccessDataset.layers) {
+        const result = careAccessDataset.getValue(city.id, layer.id);
+        expect(result, `${city.id} / ${layer.id}`).not.toBeNull();
+      }
     }
   });
 });

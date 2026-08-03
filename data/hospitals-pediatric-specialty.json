@@ -1,0 +1,738 @@
+[
+  {
+    "name": "Boston Children's Hospital",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.337,
+    "lon": -71.106,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital of Philadelphia (CHOP)",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.949,
+    "lon": -75.194,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Texas Children's Hospital",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.71,
+    "lon": -95.402,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital Colorado",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.744,
+    "lon": -104.838,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Nebraska",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.237,
+    "lon": -95.976,
+    "note": "Broad pediatric subspecialty care; regional referral"
+  },
+  {
+    "name": "C.S. Mott Children's Hospital",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.283,
+    "lon": -83.729,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Cincinnati Children's Hospital",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.14,
+    "lon": -84.501,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Healthcare of Atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.815,
+    "lon": -84.341,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Lucile Packard Children's Hospital Stanford",
+    "city": "Palo Alto",
+    "state": "CA",
+    "lat": 37.435,
+    "lon": -122.176,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.098,
+    "lon": -118.291,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Nationwide Children's Hospital",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.949,
+    "lon": -82.988,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Seattle Children's Hospital",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.663,
+    "lon": -122.282,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's National Hospital",
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.926,
+    "lon": -77.014,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Ann & Robert H. Lurie Children's Hospital",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.897,
+    "lon": -87.622,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Comer Children's Hospital (UChicago)",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.788,
+    "lon": -87.604,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Nicklaus Children's Hospital",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.735,
+    "lon": -80.311,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Joe DiMaggio Children's Hospital",
+    "city": "Hollywood",
+    "state": "FL",
+    "lat": 26.012,
+    "lon": -80.15,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "UPMC Children's Hospital of Pittsburgh",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.466,
+    "lon": -79.949,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Monroe Carell Jr. Children's Hospital at Vanderbilt",
+    "city": "Nashville",
+    "state": "TN",
+    "lat": 36.142,
+    "lon": -86.804,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Medical Center Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.812,
+    "lon": -96.838,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Cook Children's Medical Center",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.716,
+    "lon": -97.36,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Riley Hospital for Children",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.777,
+    "lon": -86.18,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Mercy Kansas City",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.084,
+    "lon": -94.583,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Primary Children's Hospital",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.771,
+    "lon": -111.837,
+    "note": "Intermountain West referral center"
+  },
+  {
+    "name": "Rady Children's Hospital",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.797,
+    "lon": -117.151,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "UCSF Benioff Children's Hospital",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.764,
+    "lon": -122.458,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital of Orange County (CHOC)",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.788,
+    "lon": -117.867,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "UC Davis Children's Hospital",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.554,
+    "lon": -121.455,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Valley Children's Hospital",
+    "city": "Madera",
+    "state": "CA",
+    "lat": 36.831,
+    "lon": -119.813,
+    "note": "Central Valley pediatric referral center"
+  },
+  {
+    "name": "Loma Linda University Children's Hospital",
+    "city": "Loma Linda",
+    "state": "CA",
+    "lat": 34.049,
+    "lon": -117.262,
+    "note": "Inland Empire pediatric referral center"
+  },
+  {
+    "name": "Children's Wisconsin",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 43.046,
+    "lon": -87.933,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "American Family Children's Hospital (UW)",
+    "city": "Madison",
+    "state": "WI",
+    "lat": 43.077,
+    "lon": -89.43,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Minnesota",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.955,
+    "lon": -93.263,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Sanford Children's Hospital",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.54,
+    "lon": -96.767,
+    "note": "Upper Plains pediatric referral center"
+  },
+  {
+    "name": "Blank Children's Hospital",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.596,
+    "lon": -93.612,
+    "note": "Iowa pediatric referral center"
+  },
+  {
+    "name": "University of Iowa Stead Family Children's Hospital",
+    "city": "Iowa City",
+    "state": "IA",
+    "lat": 41.66,
+    "lon": -91.552,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Norton Children's Hospital",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.247,
+    "lon": -85.759,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Kentucky Children's Hospital (UK)",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.031,
+    "lon": -84.508,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Le Bonheur Children's Hospital",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.152,
+    "lon": -90.032,
+    "note": "Mid-South pediatric referral center"
+  },
+  {
+    "name": "East Tennessee Children's Hospital",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.966,
+    "lon": -83.923,
+    "note": "Regional pediatric care"
+  },
+  {
+    "name": "Children's Hospital at Erlanger",
+    "city": "Chattanooga",
+    "state": "TN",
+    "lat": 35.045,
+    "lon": -85.303,
+    "note": "Regional pediatric care"
+  },
+  {
+    "name": "Children's of Alabama",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.508,
+    "lon": -86.803,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "USA Health Children's & Women's Hospital",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.694,
+    "lon": -88.043,
+    "note": "Gulf Coast pediatric referral center"
+  },
+  {
+    "name": "Arkansas Children's Hospital",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.739,
+    "lon": -92.29,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital New Orleans",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.938,
+    "lon": -90.117,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "OU Health Children's Hospital",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.48,
+    "lon": -97.489,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Phoenix Children's Hospital",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.481,
+    "lon": -112.066,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "El Paso Children's Hospital",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.76,
+    "lon": -106.505,
+    "note": "West Texas pediatric referral center"
+  },
+  {
+    "name": "Driscoll Children's Hospital",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "lat": 27.756,
+    "lon": -97.406,
+    "note": "South Texas pediatric referral center"
+  },
+  {
+    "name": "Dell Children's Medical Center",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.309,
+    "lon": -97.702,
+    "note": "Central Texas pediatric referral center"
+  },
+  {
+    "name": "Children's Hospital of San Antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.416,
+    "lon": -98.517,
+    "note": "Regional pediatric care"
+  },
+  {
+    "name": "Cleveland Clinic Children's",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.502,
+    "lon": -81.621,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Akron Children's Hospital",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.089,
+    "lon": -81.51,
+    "note": "Regional pediatric referral center"
+  },
+  {
+    "name": "Children's Hospital of Richmond at VCU",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.54,
+    "lon": -77.429,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital of The King's Daughters",
+    "city": "Norfolk",
+    "state": "VA",
+    "lat": 36.858,
+    "lon": -76.303,
+    "note": "Coastal Virginia pediatric referral center"
+  },
+  {
+    "name": "Inova L.J. Murphy Children's Hospital",
+    "city": "Fairfax",
+    "state": "VA",
+    "lat": 38.867,
+    "lon": -77.235,
+    "note": "Northern Virginia pediatric care"
+  },
+  {
+    "name": "Duke Children's Hospital",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 36.007,
+    "lon": -78.938,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Levine Children's Hospital",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.204,
+    "lon": -80.837,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Wolfson Children's Hospital",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.323,
+    "lon": -81.658,
+    "note": "North Florida pediatric referral center"
+  },
+  {
+    "name": "Nemours Children's Hospital, Florida",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.365,
+    "lon": -81.276,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Johns Hopkins All Children's Hospital",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.767,
+    "lon": -82.64,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Golisano Children's Hospital of Southwest Florida",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.531,
+    "lon": -81.876,
+    "note": "Southwest Florida pediatric referral center"
+  },
+  {
+    "name": "Sunrise Children's Hospital",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.13,
+    "lon": -115.108,
+    "note": "Nevada pediatric referral center"
+  },
+  {
+    "name": "OHSU Doernbecher Children's Hospital",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.499,
+    "lon": -122.685,
+    "note": "Pacific NW pediatric referral center"
+  },
+  {
+    "name": "Mary Bridge Children's Hospital",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.253,
+    "lon": -122.451,
+    "note": "South Puget Sound pediatric referral center"
+  },
+  {
+    "name": "Helen DeVos Children's Hospital",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.968,
+    "lon": -85.665,
+    "note": "West Michigan pediatric referral center"
+  },
+  {
+    "name": "Children's Hospital of Michigan",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.354,
+    "lon": -83.058,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Golisano Children's Hospital (URMC)",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.121,
+    "lon": -77.628,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Oishei Children's Hospital",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.899,
+    "lon": -78.874,
+    "note": "Western NY pediatric referral center"
+  },
+  {
+    "name": "Connecticut Children's Medical Center",
+    "city": "Hartford",
+    "state": "CT",
+    "lat": 41.762,
+    "lon": -72.694,
+    "note": "Regional pediatric referral center"
+  },
+  {
+    "name": "Hasbro Children's Hospital",
+    "city": "Providence",
+    "state": "RI",
+    "lat": 41.816,
+    "lon": -71.41,
+    "note": "Southern New England pediatric center"
+  },
+  {
+    "name": "Barbara Bush Children's Hospital (Maine Medical Center)",
+    "city": "Portland",
+    "state": "ME",
+    "lat": 43.658,
+    "lon": -70.27,
+    "note": "Northern New England pediatric center"
+  },
+  {
+    "name": "UMass Memorial Children's Medical Center",
+    "city": "Worcester",
+    "state": "MA",
+    "lat": 42.263,
+    "lon": -71.802,
+    "note": "Central Massachusetts pediatric care"
+  },
+  {
+    "name": "Nemours/Alfred I. duPont Hospital for Children",
+    "city": "Wilmington",
+    "state": "DE",
+    "lat": 39.767,
+    "lon": -75.548,
+    "note": "Delaware Valley pediatric center"
+  },
+  {
+    "name": "Children's Hospital of Georgia",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.472,
+    "lon": -82.013,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Batson Children's Hospital (UMMC)",
+    "city": "Jackson",
+    "state": "MS",
+    "lat": 32.331,
+    "lon": -90.174,
+    "note": "Mississippi pediatric referral center"
+  },
+  {
+    "name": "University of New Mexico Children's Hospital",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.083,
+    "lon": -106.622,
+    "note": "New Mexico pediatric referral center"
+  },
+  {
+    "name": "WVU Medicine Children's Hospital",
+    "city": "Morgantown",
+    "state": "WV",
+    "lat": 39.655,
+    "lon": -79.957,
+    "note": "West Virginia pediatric referral center"
+  },
+  {
+    "name": "St. Luke's Children's Hospital",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.617,
+    "lon": -116.202,
+    "note": "Idaho pediatric referral center"
+  },
+  {
+    "name": "Montana Children's (Community Medical Center)",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.873,
+    "lon": -114.005,
+    "note": "Montana pediatric services"
+  },
+  {
+    "name": "Providence Alaska Children's Hospital",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.19,
+    "lon": -149.815,
+    "note": "Alaska pediatric referral center"
+  },
+  {
+    "name": "Kapiolani Medical Center for Women & Children",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.301,
+    "lon": -157.828,
+    "note": "Hawaii pediatric referral center"
+  },
+  {
+    "name": "NewYork-Presbyterian Morgan Stanley Children's Hospital (Columbia)",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.841,
+    "lon": -73.942,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Cohen Children's Medical Center (Northwell)",
+    "city": "New Hyde Park",
+    "state": "NY",
+    "lat": 40.746,
+    "lon": -73.7,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Children's Hospital at Montefiore",
+    "city": "Bronx",
+    "state": "NY",
+    "lat": 40.881,
+    "lon": -73.878,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Johns Hopkins Children's Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.297,
+    "lon": -76.592,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "Yale New Haven Children's Hospital",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.304,
+    "lon": -72.936,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "MUSC Shawn Jenkins Children's Hospital",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.784,
+    "lon": -79.947,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "St. Louis Children's Hospital (Washington University)",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.635,
+    "lon": -90.264,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "SSM Health Cardinal Glennon Children's",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.618,
+    "lon": -90.24,
+    "note": "Broad pediatric subspecialty care"
+  },
+  {
+    "name": "Mayo Clinic Children's Center",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.02,
+    "lon": -92.466,
+    "note": "Academic pediatric subspecialty care"
+  },
+  {
+    "name": "UF Health Shands Children's Hospital",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.64,
+    "lon": -82.343,
+    "note": "Academic pediatric subspecialty care"
+  }
+]

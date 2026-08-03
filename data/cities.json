@@ -6780,6 +6780,10 @@
     "pop": 66000,
     "elevation_ft": 4583,
     "koppen": "BSk",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 7,
+      "aridsw": true
+    }
   }
 ]

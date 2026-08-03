@@ -1,0 +1,514 @@
+[
+  {
+    "name": "Boston Children's Hospital",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.337,
+    "lon": -71.106,
+    "note": "Top-ranked congenital heart surgery program"
+  },
+  {
+    "name": "Children's Hospital of Philadelphia (CHOP)",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.949,
+    "lon": -75.194,
+    "note": "Cardiac Center; complex congenital surgery"
+  },
+  {
+    "name": "Texas Children's Hospital",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.71,
+    "lon": -95.402,
+    "note": "Large congenital heart surgery program"
+  },
+  {
+    "name": "Children's Hospital Colorado",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.744,
+    "lon": -104.838,
+    "note": "Heart Institute; congenital heart surgery"
+  },
+  {
+    "name": "Children's Nebraska",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.237,
+    "lon": -95.976,
+    "note": "Congenital heart surgery for the region"
+  },
+  {
+    "name": "C.S. Mott Children's Hospital (Michigan Medicine)",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.283,
+    "lon": -83.729,
+    "note": "Congenital Heart Center"
+  },
+  {
+    "name": "Cincinnati Children's Hospital",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.14,
+    "lon": -84.501,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Children's Healthcare of Atlanta (Arthur M. Blank)",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.815,
+    "lon": -84.341,
+    "note": "Sibley Heart Center; congenital surgery"
+  },
+  {
+    "name": "Lucile Packard Children's Hospital Stanford",
+    "city": "Palo Alto",
+    "state": "CA",
+    "lat": 37.435,
+    "lon": -122.176,
+    "note": "Betty Irene Moore Heart Center"
+  },
+  {
+    "name": "Children's Hospital Los Angeles (CHLA)",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.098,
+    "lon": -118.291,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Nationwide Children's Hospital",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.949,
+    "lon": -82.988,
+    "note": "The Heart Center; congenital surgery"
+  },
+  {
+    "name": "Seattle Children's Hospital",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.663,
+    "lon": -122.282,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Children's National Hospital",
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.926,
+    "lon": -77.014,
+    "note": "Children's National Heart Institute"
+  },
+  {
+    "name": "Ann & Robert H. Lurie Children's Hospital",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.897,
+    "lon": -87.622,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Nicklaus Children's Hospital",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.735,
+    "lon": -80.311,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "UPMC Children's Hospital of Pittsburgh",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.466,
+    "lon": -79.949,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Monroe Carell Jr. Children's Hospital at Vanderbilt",
+    "city": "Nashville",
+    "state": "TN",
+    "lat": 36.142,
+    "lon": -86.804,
+    "note": "Pediatric Heart Institute; Dr. Carlos M. Mery is Chief of Pediatric Cardiac Surgery (joined Oct 2024)"
+  },
+  {
+    "name": "Children's Health / Children's Medical Center Dallas (UT Southwestern)",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.812,
+    "lon": -96.838,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Riley Hospital for Children (IU Health)",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.777,
+    "lon": -86.18,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Children's Mercy Kansas City",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.084,
+    "lon": -94.583,
+    "note": "Ward Family Heart Center"
+  },
+  {
+    "name": "Primary Children's Hospital (Intermountain)",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.771,
+    "lon": -111.837,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Rady Children's Hospital",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.797,
+    "lon": -117.151,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "UCSF Benioff Children's Hospital",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.764,
+    "lon": -122.458,
+    "note": "Pediatric Heart Center"
+  },
+  {
+    "name": "Yale New Haven Children's Hospital",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.304,
+    "lon": -72.936,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "NewYork-Presbyterian Morgan Stanley Children's Hospital (Columbia)",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.841,
+    "lon": -73.942,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Cohen Children's Medical Center (Northwell)",
+    "city": "New Hyde Park",
+    "state": "NY",
+    "lat": 40.746,
+    "lon": -73.7,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Children's Wisconsin (Herma Heart Institute)",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 43.046,
+    "lon": -87.933,
+    "note": "Herma Heart Institute"
+  },
+  {
+    "name": "Le Bonheur Children's Hospital",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.152,
+    "lon": -90.032,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Children's of Alabama",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.508,
+    "lon": -86.803,
+    "note": "Bruno Pediatric Heart Center"
+  },
+  {
+    "name": "Arkansas Children's Hospital",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.739,
+    "lon": -92.29,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Cook Children's Medical Center",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.716,
+    "lon": -97.36,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Phoenix Children's Hospital",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.481,
+    "lon": -112.066,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "Johns Hopkins Children's Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.297,
+    "lon": -76.592,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Duke Children's Hospital",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 36.007,
+    "lon": -78.938,
+    "note": "Pediatric & Congenital Heart Center"
+  },
+  {
+    "name": "Levine Children's Hospital (Atrium Health)",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.204,
+    "lon": -80.837,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "MUSC Shawn Jenkins Children's Hospital",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.784,
+    "lon": -79.947,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Norton Children's Hospital",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.247,
+    "lon": -85.759,
+    "note": "Heart Institute (w/ UofL)"
+  },
+  {
+    "name": "Children's Hospital of Michigan",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.354,
+    "lon": -83.058,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Helen DeVos Children's Hospital (Corewell)",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.968,
+    "lon": -85.665,
+    "note": "Congenital Heart Center"
+  },
+  {
+    "name": "St. Louis Children's Hospital (Washington University)",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.635,
+    "lon": -90.264,
+    "note": "Heart Center; congenital surgery"
+  },
+  {
+    "name": "SSM Health Cardinal Glennon Children's",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.618,
+    "lon": -90.24,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Children's Minnesota",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.955,
+    "lon": -93.263,
+    "note": "Children's Heart Clinic; congenital surgery"
+  },
+  {
+    "name": "M Health Fairview Masonic Children's Hospital",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.969,
+    "lon": -93.235,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "OHSU Doernbecher Children's Hospital",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.499,
+    "lon": -122.685,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Children's Hospital of Orange County (CHOC)",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.788,
+    "lon": -117.867,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "UCLA Mattel Children's Hospital",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.066,
+    "lon": -118.445,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Loma Linda University Children's Hospital",
+    "city": "Loma Linda",
+    "state": "CA",
+    "lat": 34.049,
+    "lon": -117.262,
+    "note": "Congenital heart surgery; heart transplant"
+  },
+  {
+    "name": "Johns Hopkins All Children's Hospital",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.767,
+    "lon": -82.64,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Golisano Children's Hospital (URMC)",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.121,
+    "lon": -77.628,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Oishei Children's Hospital",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.899,
+    "lon": -78.874,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Connecticut Children's Medical Center",
+    "city": "Hartford",
+    "state": "CT",
+    "lat": 41.762,
+    "lon": -72.694,
+    "note": "Pediatric heart program"
+  },
+  {
+    "name": "Children's Hospital at Montefiore",
+    "city": "Bronx",
+    "state": "NY",
+    "lat": 40.881,
+    "lon": -73.878,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Joe DiMaggio Children's Hospital",
+    "city": "Hollywood",
+    "state": "FL",
+    "lat": 26.012,
+    "lon": -80.15,
+    "note": "Heart Institute; congenital surgery"
+  },
+  {
+    "name": "Dell Children's Medical Center",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.309,
+    "lon": -97.702,
+    "note": "Texas Center for Pediatric & Congenital Heart Disease (Dr. Mery departed to Vanderbilt in Oct 2024)"
+  },
+  {
+    "name": "Children's Hospital New Orleans",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.938,
+    "lon": -90.117,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Valley Children's Hospital",
+    "city": "Madera",
+    "state": "CA",
+    "lat": 36.831,
+    "lon": -119.813,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Nemours Children's Hospital, Florida",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.365,
+    "lon": -81.276,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "Nemours/Alfred I. duPont Hospital for Children",
+    "city": "Wilmington",
+    "state": "DE",
+    "lat": 39.767,
+    "lon": -75.548,
+    "note": "Nemours Cardiac Center"
+  },
+  {
+    "name": "Cleveland Clinic Children's",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.502,
+    "lon": -81.621,
+    "note": "Pediatric congenital heart surgery"
+  },
+  {
+    "name": "UH Rainbow Babies & Children's Hospital",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.507,
+    "lon": -81.607,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Mayo Clinic Children's Center",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.02,
+    "lon": -92.466,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "Sanford Children's Hospital",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.54,
+    "lon": -96.767,
+    "note": "Regional pediatric cardiology / congenital surgery"
+  },
+  {
+    "name": "University of Iowa Stead Family Children's Hospital",
+    "city": "Iowa City",
+    "state": "IA",
+    "lat": 41.66,
+    "lon": -91.552,
+    "note": "Congenital heart surgery"
+  },
+  {
+    "name": "UF Health Shands Children's Hospital",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.64,
+    "lon": -82.343,
+    "note": "Congenital Heart Center"
+  }
+]

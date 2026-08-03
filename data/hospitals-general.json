@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "NewYork-Presbyterian / Weill Cornell",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.765,
+    "lon": -73.954,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Bellevue Hospital Center",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.739,
+    "lon": -73.975,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "University Hospital",
+    "city": "Newark",
+    "state": "NJ",
+    "lat": 40.742,
+    "lon": -74.199,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Hackensack University Medical Center",
+    "city": "Hackensack",
+    "state": "NJ",
+    "lat": 40.888,
+    "lon": -74.061,
+    "note": "Regional academic hub"
+  },
+  {
+    "name": "Westchester Medical Center",
+    "city": "Valhalla",
+    "state": "NY",
+    "lat": 41.079,
+    "lon": -73.795,
+    "note": "Regional Level I trauma"
+  },
+  {
+    "name": "Massachusetts General Hospital",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.363,
+    "lon": -71.069,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UMass Memorial Medical Center",
+    "city": "Worcester",
+    "state": "MA",
+    "lat": 42.263,
+    "lon": -71.802,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Baystate Medical Center",
+    "city": "Springfield",
+    "state": "MA",
+    "lat": 42.116,
+    "lon": -72.61,
+    "note": "Western Mass Level I trauma"
+  },
+  {
+    "name": "Rhode Island Hospital",
+    "city": "Providence",
+    "state": "RI",
+    "lat": 41.816,
+    "lon": -71.41,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Yale New Haven Hospital",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.304,
+    "lon": -72.936,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Hartford Hospital",
+    "city": "Hartford",
+    "state": "CT",
+    "lat": 41.752,
+    "lon": -72.687,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Maine Medical Center",
+    "city": "Portland",
+    "state": "ME",
+    "lat": 43.658,
+    "lon": -70.27,
+    "note": "Northern New England Level I trauma"
+  },
+  {
+    "name": "Dartmouth Hitchcock Medical Center",
+    "city": "Lebanon",
+    "state": "NH",
+    "lat": 43.675,
+    "lon": -72.276,
+    "note": "Rural academic Level I trauma"
+  },
+  {
+    "name": "University of Vermont Medical Center",
+    "city": "Burlington",
+    "state": "VT",
+    "lat": 44.479,
+    "lon": -73.196,
+    "note": "Regional academic Level I trauma"
+  },
+  {
+    "name": "Hospital of the University of Pennsylvania",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.949,
+    "lon": -75.193,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UPMC Presbyterian",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.443,
+    "lon": -79.96,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Penn State Milton S. Hershey Medical Center",
+    "city": "Hershey",
+    "state": "PA",
+    "lat": 40.263,
+    "lon": -76.674,
+    "note": "Central PA academic Level I trauma"
+  },
+  {
+    "name": "Christiana Hospital",
+    "city": "Newark",
+    "state": "DE",
+    "lat": 39.687,
+    "lon": -75.664,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Johns Hopkins Hospital",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.297,
+    "lon": -76.592,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "MedStar Washington Hospital Center",
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.928,
+    "lon": -77.014,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Inova Fairfax Hospital",
+    "city": "Falls Church",
+    "state": "VA",
+    "lat": 38.867,
+    "lon": -77.235,
+    "note": "Northern Virginia Level I trauma"
+  },
+  {
+    "name": "VCU Medical Center",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.54,
+    "lon": -77.429,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Sentara Norfolk General Hospital",
+    "city": "Norfolk",
+    "state": "VA",
+    "lat": 36.858,
+    "lon": -76.303,
+    "note": "Coastal VA Level I trauma"
+  },
+  {
+    "name": "Riverside Regional Medical Center",
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.093,
+    "lon": -76.489,
+    "note": "Peninsula regional hub"
+  },
+  {
+    "name": "Carilion Roanoke Memorial Hospital",
+    "city": "Roanoke",
+    "state": "VA",
+    "lat": 37.253,
+    "lon": -79.943,
+    "note": "Southwest VA Level I trauma"
+  },
+  {
+    "name": "WVU Medicine Ruby Memorial Hospital",
+    "city": "Morgantown",
+    "state": "WV",
+    "lat": 39.655,
+    "lon": -79.957,
+    "note": "WV academic Level I trauma"
+  },
+  {
+    "name": "Cleveland Clinic",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.502,
+    "lon": -81.621,
+    "note": "Academic quaternary hub"
+  },
+  {
+    "name": "University Hospitals Cleveland Medical Center",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.507,
+    "lon": -81.607,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Ohio State Wexner Medical Center",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.998,
+    "lon": -83.02,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "University of Cincinnati Medical Center",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.138,
+    "lon": -84.5,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "ProMedica Toledo Hospital",
+    "city": "Toledo",
+    "state": "OH",
+    "lat": 41.663,
+    "lon": -83.606,
+    "note": "Northwest Ohio Level I trauma"
+  },
+  {
+    "name": "Summa Health Akron City Hospital",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.089,
+    "lon": -81.51,
+    "note": "Regional Level I trauma"
+  },
+  {
+    "name": "University of Michigan Hospital",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.283,
+    "lon": -83.729,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Henry Ford Hospital",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.371,
+    "lon": -83.078,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Corewell Health Butterworth Hospital",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.966,
+    "lon": -85.67,
+    "note": "West Michigan Level I trauma"
+  },
+  {
+    "name": "Northwestern Memorial Hospital",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.895,
+    "lon": -87.621,
+    "note": "Academic Level I hub"
+  },
+  {
+    "name": "Rush University Medical Center",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.874,
+    "lon": -87.669,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "University of Chicago Medical Center",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.789,
+    "lon": -87.604,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Indiana University Health Methodist Hospital",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.792,
+    "lon": -86.166,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Parkview Regional Medical Center",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "lat": 41.118,
+    "lon": -85.14,
+    "note": "Northeast Indiana Level II trauma"
+  },
+  {
+    "name": "Barnes-Jewish Hospital",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.637,
+    "lon": -90.264,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "University of Kansas Hospital",
+    "city": "Kansas City",
+    "state": "KS",
+    "lat": 39.056,
+    "lon": -94.61,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "University Health Truman Medical Center",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.084,
+    "lon": -94.583,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Ascension Via Christi St. Francis",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.696,
+    "lon": -97.349,
+    "note": "South-central KS Level I trauma"
+  },
+  {
+    "name": "Nebraska Medicine (UNMC)",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.256,
+    "lon": -95.977,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Bryan Medical Center",
+    "city": "Lincoln",
+    "state": "NE",
+    "lat": 40.782,
+    "lon": -96.647,
+    "note": "Southeast NE regional hub"
+  },
+  {
+    "name": "University of Iowa Hospitals & Clinics",
+    "city": "Iowa City",
+    "state": "IA",
+    "lat": 41.66,
+    "lon": -91.552,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "MercyOne Des Moines Medical Center",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.596,
+    "lon": -93.612,
+    "note": "Central Iowa Level I trauma"
+  },
+  {
+    "name": "Mayo Clinic (Saint Marys)",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.02,
+    "lon": -92.466,
+    "note": "Quaternary academic hub"
+  },
+  {
+    "name": "University of Minnesota Medical Center",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.969,
+    "lon": -93.235,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Hennepin County Medical Center",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.972,
+    "lon": -93.261,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Regions Hospital",
+    "city": "Saint Paul",
+    "state": "MN",
+    "lat": 44.956,
+    "lon": -93.093,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Froedtert Hospital",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 43.045,
+    "lon": -88.028,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UW Health University Hospital",
+    "city": "Madison",
+    "state": "WI",
+    "lat": 43.077,
+    "lon": -89.43,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Sanford USD Medical Center",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.54,
+    "lon": -96.767,
+    "note": "Regional Level I/II trauma"
+  },
+  {
+    "name": "Avera McKennan Hospital",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.531,
+    "lon": -96.732,
+    "note": "Regional referral hub"
+  },
+  {
+    "name": "Monument Health Rapid City Hospital",
+    "city": "Rapid City",
+    "state": "SD",
+    "lat": 44.075,
+    "lon": -103.242,
+    "note": "Black Hills regional Level II trauma"
+  },
+  {
+    "name": "Sanford Health Bismarck",
+    "city": "Bismarck",
+    "state": "ND",
+    "lat": 46.825,
+    "lon": -100.766,
+    "note": "Central Dakotas hub"
+  },
+  {
+    "name": "Billings Clinic",
+    "city": "Billings",
+    "state": "MT",
+    "lat": 45.788,
+    "lon": -108.507,
+    "note": "Eastern MT Level I trauma"
+  },
+  {
+    "name": "Benefis Health System",
+    "city": "Great Falls",
+    "state": "MT",
+    "lat": 47.505,
+    "lon": -111.284,
+    "note": "North-central MT regional hub"
+  },
+  {
+    "name": "Logan Health Medical Center",
+    "city": "Kalispell",
+    "state": "MT",
+    "lat": 48.207,
+    "lon": -114.331,
+    "note": "Northwest MT regional hub"
+  },
+  {
+    "name": "Providence St. Patrick Hospital",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.873,
+    "lon": -114.005,
+    "note": "Western MT Level II trauma"
+  },
+  {
+    "name": "Bozeman Health Deaconess Hospital",
+    "city": "Bozeman",
+    "state": "MT",
+    "lat": 45.686,
+    "lon": -111.055,
+    "note": "Southwest MT regional hub"
+  },
+  {
+    "name": "Kootenai Health",
+    "city": "Coeur d'Alene",
+    "state": "ID",
+    "lat": 47.7,
+    "lon": -116.799,
+    "note": "North Idaho regional hub"
+  },
+  {
+    "name": "Bonner General Health",
+    "city": "Sandpoint",
+    "state": "ID",
+    "lat": 48.279,
+    "lon": -116.548,
+    "note": "Local acute-care hospital"
+  },
+  {
+    "name": "St. Luke's Boise Medical Center",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.617,
+    "lon": -116.202,
+    "note": "Idaho Level II trauma"
+  },
+  {
+    "name": "Saint Alphonsus Regional Medical Center",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.615,
+    "lon": -116.281,
+    "note": "Idaho Level II trauma"
+  },
+  {
+    "name": "University of Utah Hospital",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.771,
+    "lon": -111.837,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Intermountain Medical Center",
+    "city": "Murray",
+    "state": "UT",
+    "lat": 40.66,
+    "lon": -111.892,
+    "note": "Flagship regional hub"
+  },
+  {
+    "name": "Intermountain St. Mary's Regional Hospital",
+    "city": "Grand Junction",
+    "state": "CO",
+    "lat": 39.075,
+    "lon": -108.56,
+    "note": "Western CO Level II trauma"
+  },
+  {
+    "name": "Mercy Hospital (Durango)",
+    "city": "Durango",
+    "state": "CO",
+    "lat": 37.234,
+    "lon": -107.855,
+    "note": "Four Corners regional hub"
+  },
+  {
+    "name": "San Juan Regional Medical Center",
+    "city": "Farmington",
+    "state": "NM",
+    "lat": 36.756,
+    "lon": -108.18,
+    "note": "Four Corners regional hub"
+  },
+  {
+    "name": "UCHealth University of Colorado Hospital",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.744,
+    "lon": -104.838,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Denver Health Medical Center",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.727,
+    "lon": -104.991,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "UCHealth Memorial Hospital Central",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.848,
+    "lon": -104.759,
+    "note": "Southern CO Level I trauma"
+  },
+  {
+    "name": "Christus St. Vincent Regional Medical Center",
+    "city": "Santa Fe",
+    "state": "NM",
+    "lat": 35.667,
+    "lon": -105.964,
+    "note": "Northern NM regional hub"
+  },
+  {
+    "name": "Holy Cross Medical Center",
+    "city": "Taos",
+    "state": "NM",
+    "lat": 36.398,
+    "lon": -105.577,
+    "note": "Local acute-care hospital"
+  },
+  {
+    "name": "University of New Mexico Hospital",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.083,
+    "lon": -106.622,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Carlsbad Medical Center",
+    "city": "Carlsbad",
+    "state": "NM",
+    "lat": 32.402,
+    "lon": -104.246,
+    "note": "Southeast NM regional hospital"
+  },
+  {
+    "name": "Flagstaff Medical Center",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "lat": 35.208,
+    "lon": -111.639,
+    "note": "Northern AZ Level I trauma"
+  },
+  {
+    "name": "Banner University Medical Center Phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.475,
+    "lon": -112.073,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Banner University Medical Center Tucson",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.24,
+    "lon": -110.945,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Yuma Regional Medical Center",
+    "city": "Yuma",
+    "state": "AZ",
+    "lat": 32.686,
+    "lon": -114.635,
+    "note": "Southwest AZ regional hub"
+  },
+  {
+    "name": "University Medical Center of El Paso",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.782,
+    "lon": -106.503,
+    "note": "West Texas Level I trauma"
+  },
+  {
+    "name": "University Medical Center (Lubbock)",
+    "city": "Lubbock",
+    "state": "TX",
+    "lat": 33.593,
+    "lon": -101.897,
+    "note": "West Texas Level I trauma"
+  },
+  {
+    "name": "Northwest Texas Healthcare System",
+    "city": "Amarillo",
+    "state": "TX",
+    "lat": 35.196,
+    "lon": -101.899,
+    "note": "Texas Panhandle Level I trauma"
+  },
+  {
+    "name": "Parkland Memorial Hospital",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.812,
+    "lon": -96.839,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Baylor University Medical Center",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.789,
+    "lon": -96.782,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "JPS Health Network (John Peter Smith)",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.729,
+    "lon": -97.343,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Memorial Hermann-Texas Medical Center",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.711,
+    "lon": -95.398,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Ben Taub Hospital",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.708,
+    "lon": -95.402,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "University Health / University Hospital",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.509,
+    "lon": -98.577,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Dell Seton Medical Center at UT",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.276,
+    "lon": -97.735,
+    "note": "Central Texas Level I trauma"
+  },
+  {
+    "name": "CHRISTUS Spohn Hospital Corpus Christi",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "lat": 27.769,
+    "lon": -97.404,
+    "note": "South Texas Level II trauma"
+  },
+  {
+    "name": "Valley Baptist Medical Center",
+    "city": "Brownsville",
+    "state": "TX",
+    "lat": 25.928,
+    "lon": -97.498,
+    "note": "Rio Grande Valley hub"
+  },
+  {
+    "name": "Laredo Medical Center",
+    "city": "Laredo",
+    "state": "TX",
+    "lat": 27.531,
+    "lon": -99.489,
+    "note": "South Texas regional hub"
+  },
+  {
+    "name": "OU Health University of Oklahoma Medical Center",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.48,
+    "lon": -97.489,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Saint Francis Hospital",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.063,
+    "lon": -95.9,
+    "note": "Northeast OK regional hub"
+  },
+  {
+    "name": "UAMS Medical Center",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.746,
+    "lon": -92.29,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Regional One Health",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.135,
+    "lon": -90.031,
+    "note": "Mid-South Level I trauma"
+  },
+  {
+    "name": "Vanderbilt University Medical Center",
+    "city": "Nashville",
+    "state": "TN",
+    "lat": 36.142,
+    "lon": -86.804,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "University of Tennessee Medical Center",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.938,
+    "lon": -83.941,
+    "note": "East TN Level I trauma"
+  },
+  {
+    "name": "Erlanger Baroness Hospital",
+    "city": "Chattanooga",
+    "state": "TN",
+    "lat": 35.045,
+    "lon": -85.303,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "University of Louisville Hospital",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.247,
+    "lon": -85.76,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UK Albert B. Chandler Hospital",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.031,
+    "lon": -84.508,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UAB Hospital",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.507,
+    "lon": -86.803,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Huntsville Hospital",
+    "city": "Huntsville",
+    "state": "AL",
+    "lat": 34.727,
+    "lon": -86.589,
+    "note": "North Alabama regional hub"
+  },
+  {
+    "name": "USA Health University Hospital",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.694,
+    "lon": -88.176,
+    "note": "Gulf Coast Level I trauma"
+  },
+  {
+    "name": "Baptist Medical Center South",
+    "city": "Montgomery",
+    "state": "AL",
+    "lat": 32.348,
+    "lon": -86.257,
+    "note": "Central Alabama regional hub"
+  },
+  {
+    "name": "University of Mississippi Medical Center",
+    "city": "Jackson",
+    "state": "MS",
+    "lat": 32.331,
+    "lon": -90.174,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Ochsner Medical Center",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.96,
+    "lon": -90.163,
+    "note": "Academic quaternary hub"
+  },
+  {
+    "name": "University Medical Center New Orleans",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.949,
+    "lon": -90.083,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Our Lady of the Lake Regional Medical Center",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "lat": 30.401,
+    "lon": -91.126,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Ochsner LSU Health Shreveport",
+    "city": "Shreveport",
+    "state": "LA",
+    "lat": 32.494,
+    "lon": -93.639,
+    "note": "North Louisiana academic hub"
+  },
+  {
+    "name": "Emory University Hospital",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.792,
+    "lon": -84.323,
+    "note": "Academic hub"
+  },
+  {
+    "name": "Grady Memorial Hospital",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.752,
+    "lon": -84.386,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Augusta University Medical Center",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.472,
+    "lon": -82.013,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Piedmont Columbus Regional",
+    "city": "Columbus",
+    "state": "GA",
+    "lat": 32.489,
+    "lon": -84.986,
+    "note": "West-central GA regional hub"
+  },
+  {
+    "name": "Medical University of South Carolina",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.784,
+    "lon": -79.947,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Prisma Health Greenville Memorial",
+    "city": "Greenville",
+    "state": "SC",
+    "lat": 34.849,
+    "lon": -82.404,
+    "note": "Upstate SC Level I trauma"
+  },
+  {
+    "name": "Atrium Health Carolinas Medical Center",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.204,
+    "lon": -80.837,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Duke University Hospital",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 36.007,
+    "lon": -78.938,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UNC Medical Center",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "lat": 35.905,
+    "lon": -79.052,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "WakeMed Raleigh Campus",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.775,
+    "lon": -78.601,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Atrium Health Wake Forest Baptist",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "lat": 36.093,
+    "lon": -80.309,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Cone Health Moses Cone Hospital",
+    "city": "Greensboro",
+    "state": "NC",
+    "lat": 36.078,
+    "lon": -79.821,
+    "note": "Piedmont Triad Level II trauma"
+  },
+  {
+    "name": "Mission Hospital",
+    "city": "Asheville",
+    "state": "NC",
+    "lat": 35.573,
+    "lon": -82.549,
+    "note": "Western NC Level II trauma"
+  },
+  {
+    "name": "Cape Fear Valley Medical Center",
+    "city": "Fayetteville",
+    "state": "NC",
+    "lat": 35.048,
+    "lon": -78.881,
+    "note": "Southeast NC Level I trauma"
+  },
+  {
+    "name": "Jackson Memorial Hospital",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.789,
+    "lon": -80.211,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Memorial Regional Hospital",
+    "city": "Hollywood",
+    "state": "FL",
+    "lat": 26.012,
+    "lon": -80.15,
+    "note": "Broward Level I trauma"
+  },
+  {
+    "name": "Tampa General Hospital",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 27.939,
+    "lon": -82.459,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "AdventHealth Orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.573,
+    "lon": -81.372,
+    "note": "Large regional hub"
+  },
+  {
+    "name": "Orlando Health ORMC",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.526,
+    "lon": -81.379,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "UF Health Shands Hospital",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.639,
+    "lon": -82.343,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UF Health Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.353,
+    "lon": -81.66,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Lee Memorial Hospital",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.622,
+    "lon": -81.87,
+    "note": "Southwest FL Level II trauma"
+  },
+  {
+    "name": "Tallahassee Memorial HealthCare",
+    "city": "Tallahassee",
+    "state": "FL",
+    "lat": 30.451,
+    "lon": -84.263,
+    "note": "Big Bend Level II trauma"
+  },
+  {
+    "name": "Cleveland Clinic Tradition Hospital",
+    "city": "Port St. Lucie",
+    "state": "FL",
+    "lat": 27.279,
+    "lon": -80.406,
+    "note": "Treasure Coast regional hub"
+  },
+  {
+    "name": "Renown Regional Medical Center",
+    "city": "Reno",
+    "state": "NV",
+    "lat": 39.51,
+    "lon": -119.803,
+    "note": "Northern NV Level II trauma"
+  },
+  {
+    "name": "University Medical Center of Southern Nevada",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.157,
+    "lon": -115.166,
+    "note": "Nevada's only Level I trauma"
+  },
+  {
+    "name": "Harborview Medical Center",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.604,
+    "lon": -122.323,
+    "note": "Regional Level I trauma"
+  },
+  {
+    "name": "UW Medical Center",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.649,
+    "lon": -122.308,
+    "note": "Academic hub"
+  },
+  {
+    "name": "Providence Sacred Heart Medical Center",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.641,
+    "lon": -117.421,
+    "note": "Inland NW Level I trauma"
+  },
+  {
+    "name": "MultiCare Tacoma General Hospital",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.253,
+    "lon": -122.451,
+    "note": "Level II trauma"
+  },
+  {
+    "name": "PeaceHealth Southwest Medical Center",
+    "city": "Vancouver",
+    "state": "WA",
+    "lat": 45.639,
+    "lon": -122.599,
+    "note": "Southwest WA regional hub"
+  },
+  {
+    "name": "OHSU Hospital",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.499,
+    "lon": -122.685,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Salem Health Hospital",
+    "city": "Salem",
+    "state": "OR",
+    "lat": 44.939,
+    "lon": -123.039,
+    "note": "Mid-Willamette Valley hub"
+  },
+  {
+    "name": "Providence Alaska Medical Center",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.19,
+    "lon": -149.815,
+    "note": "Alaska's largest hospital"
+  },
+  {
+    "name": "The Queen's Medical Center",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.309,
+    "lon": -157.856,
+    "note": "Hawaii Level I trauma"
+  },
+  {
+    "name": "Ronald Reagan UCLA Medical Center",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.066,
+    "lon": -118.445,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "LAC+USC Medical Center",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.058,
+    "lon": -118.209,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Cedars-Sinai Medical Center",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.075,
+    "lon": -118.38,
+    "note": "Academic hub"
+  },
+  {
+    "name": "UC Irvine Medical Center",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.788,
+    "lon": -117.891,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UC San Diego Medical Center",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.755,
+    "lon": -117.169,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "UCSF Medical Center",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.764,
+    "lon": -122.458,
+    "note": "Academic hub"
+  },
+  {
+    "name": "Zuckerberg San Francisco General Hospital",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.756,
+    "lon": -122.405,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Stanford Health Care",
+    "city": "Palo Alto",
+    "state": "CA",
+    "lat": 37.435,
+    "lon": -122.176,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Santa Clara Valley Medical Center",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.312,
+    "lon": -121.977,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "UC Davis Medical Center",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.554,
+    "lon": -121.455,
+    "note": "Academic Level I trauma"
+  },
+  {
+    "name": "Community Regional Medical Center",
+    "city": "Fresno",
+    "state": "CA",
+    "lat": 36.749,
+    "lon": -119.789,
+    "note": "Central Valley Level I trauma"
+  },
+  {
+    "name": "Kern Medical Center",
+    "city": "Bakersfield",
+    "state": "CA",
+    "lat": 35.351,
+    "lon": -119.101,
+    "note": "Southern Central Valley Level II trauma"
+  },
+  {
+    "name": "San Joaquin General Hospital",
+    "city": "Stockton",
+    "state": "CA",
+    "lat": 37.981,
+    "lon": -121.312,
+    "note": "Level II trauma"
+  },
+  {
+    "name": "Santa Rosa Memorial Hospital",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "lat": 38.437,
+    "lon": -122.71,
+    "note": "North Bay Level II trauma"
+  },
+  {
+    "name": "Loma Linda University Medical Center",
+    "city": "Loma Linda",
+    "state": "CA",
+    "lat": 34.049,
+    "lon": -117.262,
+    "note": "Inland Empire Level I trauma"
+  },
+  {
+    "name": "Arrowhead Regional Medical Center",
+    "city": "Colton",
+    "state": "CA",
+    "lat": 34.07,
+    "lon": -117.339,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Riverside University Health System Medical Center",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "lat": 33.918,
+    "lon": -117.278,
+    "note": "Level I trauma"
+  },
+  {
+    "name": "Ventura County Medical Center",
+    "city": "Ventura",
+    "state": "CA",
+    "lat": 34.278,
+    "lon": -119.243,
+    "note": "Regional acute-care hub"
+  },
+  {
+    "name": "Overland Park Regional Medical Center",
+    "city": "Overland Park",
+    "state": "KS",
+    "lat": 38.928,
+    "lon": -94.669,
+    "note": "Johnson County regional hub"
+  }
+]

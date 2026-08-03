@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { allergyDataset } from "@/lib/datasets/allergy";
 import cities from "@data/cities.json";
 import grassScores from "@data/allergy-scores.json";
+import allergensData from "@data/allergens.json";
 
 describe("allergyDataset (ported from allergy-locator, annual-only)", () => {
   it("conforms to the Dataset interface's basic shape", () => {
@@ -10,23 +11,14 @@ describe("allergyDataset (ported from allergy-locator, annual-only)", () => {
     expect(allergyDataset.supportsTime).toBe(false);
   });
 
-  it("grass returns a real validated score for every city with a shipped score", () => {
-    for (const entry of grassScores) {
-      const result = allergyDataset.getValue(entry.id, "grass");
-      expect(result).not.toBeNull();
+  it("grass returns a real validated score for every spine city -- scripts/gen_allergy_scores.py covers the full spine, not just the original 168", () => {
+    expect(grassScores.length).toBe(cities.length);
+    for (const city of cities) {
+      const result = allergyDataset.getValue(city.id, "grass");
+      expect(result, city.id).not.toBeNull();
       expect(result!.value).toBeGreaterThanOrEqual(0);
       expect(result!.value).toBeLessThanOrEqual(100);
     }
-  });
-
-  it("returns null (not a fabricated value) for a spine city the allergy model hasn't been extended to yet", () => {
-    // The city spine (data/cities.json) has grown ahead of allergy-scores.json's
-    // own coverage -- see .pHive/epics/data-store/docs/full-resolution-spine-decision.md.
-    // A gap here must stay an honest null, never an interpolated/guessed score.
-    const scoredIds = new Set(grassScores.map((e) => e.id));
-    const uncoveredCity = cities.find((c) => !scoredIds.has(c.id));
-    expect(uncoveredCity, "expected at least one spine city ahead of allergy-scores.json's coverage").toBeDefined();
-    expect(allergyDataset.getValue(uncoveredCity!.id, "grass")).toBeNull();
   });
 
   it("returns null for an unknown city id, not a fabricated value", () => {
@@ -41,6 +33,25 @@ describe("allergyDataset (ported from allergy-locator, annual-only)", () => {
     const result = allergyDataset.getValue("new-york-ny", "tall-fescue");
     expect(result).not.toBeNull();
     expect(result!.detail).toContain("/100");
+  });
+
+  it("every comprehensive (non-grass) allergen covers the full spine -- scripts/gen_allergens.py, same as grass", () => {
+    expect(allergensData.scores.length).toBe(allergensData.allergens.length * cities.length);
+    const sampleAllergen = allergensData.allergens[0].id;
+    for (const city of cities) {
+      const result = allergyDataset.getValue(city.id, sampleAllergen);
+      expect(result, `${sampleAllergen} / ${city.id}`).not.toBeNull();
+    }
+  });
+
+  it("the state-gated original-panel allergens (e.g. ragweed) honestly score 0 where USDA PLANTS lists no presence", () => {
+    // Real content check, not just a coverage check: this allergen's score is
+    // gated by real per-state presence data, not purely climate zone -- verify
+    // the gate is actually doing something (both a positive and a zeroed case
+    // exist), not just always returning a nonzero modeled number.
+    const scores = allergensData.scores.filter((s) => s.allergen_id === "ragweed");
+    expect(scores.some((s) => s.score === 0)).toBe(true);
+    expect(scores.some((s) => s.score > 0)).toBe(true);
   });
 
   it("every layer id is unique", () => {

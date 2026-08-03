@@ -9,8 +9,8 @@ its own 0-100 concern-score conversion, documented here rather than assumed.
 
 ## What this measures
 
-For each of the 168 spine cities (`data/cities.json`), the nearest facility and estimated
-drive time across 3 layers:
+For every spine city (`data/cities.json`), the nearest facility and estimated drive time
+across 3 layers:
 - **`general`** — nearest adequate acute-care / major medical center, for everyone (168
   facilities — effectively one within reach of every spine city).
 - **`pediatric_specialty`** — broader pediatric subspecialty children's hospitals (92
@@ -20,10 +20,11 @@ drive time across 3 layers:
 
 Drive time (`est_drive_min`) is a **straight-line (haversine) distance estimate, not real
 routing** — `distance_mi * 1.25 road-factor / 55 mph`. Unchanged from allergy-locator's
-original method; see that repo's `data/care-access-methodology.md` and
-`scripts/gen_care_access.py` for the full generation pipeline (hospital facility lists,
-agency matching) — not re-run here, this dataset is a direct copy of that repo's committed
-output.
+original method. This is NOT source-limited the way allergy/crime are — the hospital
+facility lists (`data/hospitals-*.json`, copied unchanged from allergy-locator) and the
+scoring math work for any `(lat, lon)`, so this dataset covers the **entire spine**, not
+just the original 168 — `scripts/gen_care_access.py` (ported into this repo, not just
+referenced) is re-run against the current `data/cities.json` every time the spine grows.
 
 ## Concern score (new to this project)
 
@@ -80,7 +81,11 @@ implementation.
 
 ## Reproducing this dataset
 
-This file is a direct copy of allergy-locator's `data/care-access.json` as of the date it
-was ported. To regenerate the underlying drive-time data (e.g. after the hospital facility
-lists change), run allergy-locator's own `scripts/gen_care_access.py` and re-copy its
-output — the generation pipeline itself is not duplicated in this repo.
+```
+python3 scripts/gen_care_access.py
+```
+
+Regenerates `data/care-access.json` from `data/cities.json` + the 3
+`data/hospitals-*.json` facility lists. Re-run any time the spine grows or the facility
+lists change. The facility lists themselves are copied unchanged from allergy-locator (not
+re-sourced here) — update them there first if a facility list correction is needed.

@@ -1,0 +1,22 @@
+{
+  "_source": "USDA PLANTS (US Gov, public domain) — state presence per species; GBIF used only for taxonomy. Verified 2026-07-30.",
+  "_note": "PRESENCE, not severity. Grasses occur nearly everywhere — see docs/MODEL-NOTES.md. Color the map by season/intensity, NOT by this presence alone.",
+  "_flag": "Live oak 'UT' (a planted anomaly in USDA) was dropped.",
+  "species": {
+    "Bermuda grass": ["AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","MI","MO","MS","MT","NC","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","SC","TN","TX","UT","VA","WA","WV"],
+    "Bahiagrass": ["AL","AR","CA","FL","GA","HI","IL","LA","MS","NC","NJ","OK","SC","TN","TX","VA"],
+    "Johnsongrass": ["AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","MI","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Timothy": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Kentucky bluegrass": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Perennial ryegrass": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Common ragweed": ["AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Redroot pigweed": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Lambsquarters": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "English plantain": ["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"],
+    "Live oak": ["AL","FL","GA","LA","MS","NC","SC","TX","VA"],
+    "American elm": ["AL","AR","CO","CT","DC","DE","FL","GA","IA","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NY","OH","OK","PA","RI","SC","SD","TN","TX","VA","VT","WI","WV","WY"],
+    "Eastern redcedar/juniper": ["AL","AR","CO","CT","DC","DE","FL","GA","IA","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","NC","ND","NE","NH","NJ","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","VA","VT","WI","WV"],
+    "River birch": ["AL","AR","CT","DC","DE","FL","GA","IA","IL","IN","KS","KY","LA","MA","MD","MI","MN","MO","MS","NC","NH","NJ","NY","OH","OK","PA","SC","TN","TX","VA","VT","WI","WV"],
+    "Boxelder": ["AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]
+  }
+}
