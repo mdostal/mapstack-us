@@ -239,22 +239,24 @@ export function PowerUserPanel() {
               </p>
             </div>
           ) : (
-            <>
-              <ComparisonTable
-                selected={selected}
-                year={year}
-                selectedCityId={selectedCityId}
-                onSelectCity={setSelectedCityId}
-                sortKeys={sortKeys}
-                onSortKeysChange={setSortKeys}
-                visibleCityIds={filteredCityIds}
-              />
-
-              <InsightsDock>
-                <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
-              </InsightsDock>
-            </>
+            <ComparisonTable
+              selected={selected}
+              year={year}
+              selectedCityId={selectedCityId}
+              onSelectCity={setSelectedCityId}
+              sortKeys={sortKeys}
+              onSortKeysChange={setSortKeys}
+              visibleCityIds={filteredCityIds}
+            />
           )}
+
+          {/* Insights (and, by extension, methodology/legend context) are
+             cross-cutting -- Map and Table are just two ways of displaying
+             the same selected layers, so this shouldn't disappear when you
+             switch views. Explicit operator direction. */}
+          <InsightsDock>
+            <InsightsPanel selected={selected} year={year} onSelectCity={setSelectedCityId} />
+          </InsightsDock>
         </div>
       </div>
     </main>

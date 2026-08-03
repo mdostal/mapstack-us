@@ -49,3 +49,15 @@ test("insights update when the selected layers change", async ({ page }) => {
   await page.getByLabel("Violent crime", { exact: true }).uncheck();
   await expect(page.locator("text=Crime: Violent crime")).toHaveCount(0);
 });
+
+test("insights dock stays visible when switching to Map view, not just Table", async ({ page }) => {
+  await page.goto("/advanced");
+  await expect(page.getByText("Highest:").first()).toBeVisible();
+
+  await page.getByRole("tab", { name: "Map" }).click();
+  await expect(page.locator("table")).toHaveCount(0);
+  await expect(page.getByText("Highest:").first()).toBeVisible();
+
+  await page.getByRole("tab", { name: "Table" }).click();
+  await expect(page.getByText("Highest:").first()).toBeVisible();
+});
