@@ -17,8 +17,11 @@ import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
  * (Philadelphia, Louisville, Pittsburgh, ...) only have 2022 -- recorded
  * per-measure rather than silently normalized to one shared year. A
  * smaller number of places (12/512) have NO age-adjusted data at all for
- * these 5 measures in either year -- a real, confirmed CDC PLACES gap
- * (verified directly against the API, not a join bug), honestly null.
+ * these 5 measures in either year -- 3 with no place-level geography to
+ * query in the first place, 9 more whose real, matched PLACES row simply
+ * covers a different measure subset (verified directly against the API
+ * for those 9 specifically) -- see health-methodology.md. Both honestly
+ * null, not a join bug.
  */
 type HealthLayer = "asthma" | "obesity" | "diabetes" | "depression" | "high_blood_pressure";
 

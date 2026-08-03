@@ -58,13 +58,16 @@ fetched, via batched `WHERE locationid IN (...)` queries.
   for at least one of these 5 measures — recorded per-measure (`{measure}_year` in
   `data/health.json`), never silently normalized to a single shared year the way `year`
   works for crime's real annual history.
-- **12 cities have NO age-adjusted-prevalence data at all for any of these 5 measures**, in
-  either year — verified directly against the CDC API (not a join bug): Philadelphia,
-  Louisville, Lexington, Pittsburgh, Savannah, Allentown, Kenosha, Reading, Erie, Bethlehem,
-  Bowling Green, Sundance. These specific jurisdictions' PLACES rows cover a different
-  subset of the 40 available measures (dental/screening/sleep measures, not the
-  chronic-disease-outcome ones this dataset surfaces) — an honest, confirmed CDC PLACES gap,
-  not smoothed over.
+- **12 cities have no value for any of these 5 measures, for two distinct real reasons** —
+  the 3 with no place-level geography above (Savannah, Kenosha, Sundance — never had a
+  PLACES row to check in the first place), plus **9 more that DO have a matched place, but
+  whose PLACES rows cover a different subset of the 40 available measures** (dental/
+  screening/sleep measures, not the chronic-disease-outcome ones this dataset surfaces) —
+  Philadelphia, Louisville, Lexington, Pittsburgh, Allentown, Reading, Erie, Bethlehem, and
+  Bowling Green — verified directly against the CDC API for these 9 specifically (not a
+  join bug). Both are honest, confirmed gaps, not smoothed over, but naming them under one
+  undifferentiated "12" would have overstated how many were actually re-checked against
+  the live CDC API versus never having a place to query at all.
 - **Self-reported/survey-based (BRFSS), not a census** — the same underlying-methodology
   caveat CDC applies to all PLACES data; small-population places carry wider margins of
   error, same shape as several other candidates' small-town caveats.
