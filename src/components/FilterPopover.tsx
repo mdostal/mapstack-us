@@ -48,7 +48,7 @@ export function FilterPopover({ selected, year, isActive, onFilterChange }: Prop
         Filter {isActive ? "· active" : "▾"}
       </button>
       {open && (
-        <div className="absolute left-0 top-full z-10 mt-1 w-64 rounded-lg bg-zinc-50 shadow-lg dark:bg-black">
+        <div className="absolute left-0 top-full z-10 mt-1 max-h-[70vh] w-64 overflow-y-auto rounded-lg bg-zinc-50 shadow-lg dark:bg-black">
           <FilterPanel selected={selected} year={year} onFilterChange={onFilterChange} />
         </div>
       )}

@@ -11,6 +11,34 @@ import { test, expect } from "@playwright/test";
 // (closed by default) rather than always-visible in the sidebar -- see
 // .pHive/design/power-user-advanced-layout/brief.md.
 
+test("the filter popover stays capped and scrollable with many layers active, instead of growing past the viewport", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  // Care access starts collapsed (nothing in it selected yet) -- expand
+  // every dataset group first so all of its checkboxes actually exist in
+  // the DOM before checking them.
+  await page.getByRole("button", { name: "Care access", exact: true }).click();
+
+  const checkboxes = page.locator('input[type="checkbox"]');
+  await expect.poll(() => checkboxes.count()).toBeGreaterThan(30);
+  const count = await checkboxes.count();
+  for (let i = 0; i < count; i++) {
+    const cb = checkboxes.nth(i);
+    if (!(await cb.isChecked())) await cb.check();
+  }
+  await expect.poll(() => page.locator('input[type="checkbox"]:checked').count()).toBe(count);
+
+  await page.getByRole("button", { name: /^Filter/ }).click();
+  const popover = page.locator(".overflow-y-auto").filter({ hasText: "FILTER BY THRESHOLD" });
+  await expect.poll(async () => {
+    const scrollHeight = await popover.evaluate((el) => el.scrollHeight);
+    const clientHeight = await popover.evaluate((el) => el.clientHeight);
+    return scrollHeight > clientHeight;
+  }).toBe(true); // genuinely capped, not just tall
+  expect(await popover.evaluate((el) => el.clientHeight)).toBeLessThan(700); // bounded to a real viewport-relative cap
+});
+
 test("filtering by a minimum threshold narrows the table to matching cities only", async ({ page }) => {
   await page.goto("/advanced");
   await expect(page.locator("tbody tr").first()).toBeVisible();
