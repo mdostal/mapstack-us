@@ -76,6 +76,7 @@ section:first-of-type{padding-top:96px}
 .stack .layer:nth-child(1){background:linear-gradient(90deg, var(--layer1), rgba(99,102,241,.3));width:100%}
 .stack .layer:nth-child(2){background:linear-gradient(90deg, var(--layer2), rgba(56,189,248,.3));width:88%}
 .stack .layer:nth-child(3){background:linear-gradient(90deg, var(--layer3), rgba(45,212,191,.3));width:76%}
+.stack .layer:nth-child(4){background:linear-gradient(90deg, var(--layer1), rgba(99,102,241,.2));width:64%;color:var(--txt-2)}
 
 /* ============ cards ============ */
 .grid{display:grid;gap:20px}
@@ -134,7 +135,8 @@ footer a{color:var(--txt-2)}
     <div class="stack">
       <div class="layer">allergy severity — validated + modeled</div>
       <div class="layer">crime — real 2020–2024 history, FBI Crime Data Explorer</div>
-      <div class="layer">healthcare access — coming next</div>
+      <div class="layer">care access — nearest hospital by drive time</div>
+      <div class="layer">+ 6 more, all free &amp; keyless</div>
     </div>
   </div>
 </section>
@@ -183,23 +185,44 @@ footer a{color:var(--txt-2)}
 <section>
   <div class="wrap">
     <span class="eyebrow">What's real today</span>
-    <h2>Proven with three genuinely different real implementations</h2>
-    <div class="grid grid-2">
+    <h2>Proven with nine genuinely different real implementations</h2>
+    <p style="margin-bottom:24px">All free, all keyless, across the full 512-city spine — every one of them ships its own methodology doc naming its real sourcing and honest gaps.</p>
+    <div class="grid grid-3">
       <div class="card">
         <h3>Allergy severity <span class="pill pill-live">live</span></h3>
-        <p>Ported from Allergy Locator's own validated grass ground-truth (MAE 2.3) plus ~28 modeled allergens — deliberately annual-only here, not a full clone of the flagship's daily-curve/county-grid depth. Proving the engine generalizes, not re-shipping the whole product.</p>
+        <p>Ported from Allergy Locator's own validated grass ground-truth (MAE 2.3) plus 28 modeled allergens.</p>
       </div>
       <div class="card">
         <h3>Crime <span class="pill pill-live">live</span></h3>
-        <p>Real violent- and property-crime rates per 100k residents from the FBI Crime Data Explorer API, with genuine year-by-year history (2020–2024) — coverage honestly grows over time as more agencies joined federal reporting, never backfilled. A structurally different shape (a government rate, not a modeled score) proving the interface generalizes beyond allergy.</p>
+        <p>Real violent- and property-crime rates from the FBI Crime Data Explorer, with genuine 2020–2024 year-by-year history.</p>
+      </div>
+      <div class="card">
+        <h3>Care access <span class="pill pill-live">live</span></h3>
+        <p>Nearest hospital by drive time — general, pediatric specialty, and pediatric cardiac surgery.</p>
+      </div>
+      <div class="card">
+        <h3>Natural hazard risk <span class="pill pill-live">live</span></h3>
+        <p>FEMA National Risk Index — overall plus inland flood, coastal flood, and wildfire sub-scores.</p>
+      </div>
+      <div class="card">
+        <h3>Social vulnerability <span class="pill pill-live">live</span></h3>
+        <p>CDC/ATSDR SVI composite plus its 4 sub-themes, at census-tract resolution.</p>
+      </div>
+      <div class="card">
+        <h3>Health outcomes <span class="pill pill-live">live</span></h3>
+        <p>CDC PLACES chronic-disease prevalence — asthma, obesity, diabetes, depression, high blood pressure.</p>
+      </div>
+      <div class="card">
+        <h3>Food access <span class="pill pill-live">live</span></h3>
+        <p>USDA Food Access Research Atlas — share of a population living far from a supermarket.</p>
+      </div>
+      <div class="card">
+        <h3>Housing supply & speed <span class="pill pill-live">live</span></h3>
+        <p>Zillow's own For-Sale Inventory and Mean Days to Pending — how tight and how fast the local market is.</p>
       </div>
       <div class="card">
         <h3>Stack any number of layers <span class="pill pill-live">live</span></h3>
-        <p>Add an allergy layer, then a crime layer, then more — each renders as its own gradient with its own color identity on one shared map, and a click-to-detail panel lists every active layer's value for that city, not just one.</p>
-      </div>
-      <div class="card">
-        <h3>A deliberately different mock dataset <span class="pill pill-live">tested</span></h3>
-        <p>The interface contract is proven against a second, intentionally unrelated fake dataset in the test suite — the real test of whether an abstraction generalizes is whether something genuinely different can satisfy it cleanly, not just the real cases it was designed around.</p>
+        <p>Add a layer, then another, then more — each renders as its own gradient on one shared map, with a click-to-detail panel listing every active layer's value for that city.</p>
       </div>
     </div>
   </div>
@@ -210,11 +233,11 @@ footer a{color:var(--txt-2)}
     <span class="eyebrow">What's next</span>
     <h2>Roadmap</h2>
     <div class="roadmap">
-      <div class="item"><span class="n">✓</span><span class="t">Crime & safety</span><span>— live, with real 2020–2024 history</span></div>
-      <div class="item"><span class="n">✓</span><span class="t">Stack any number of layers</span><span>— live, across any datasets at once</span></div>
+      <div class="item"><span class="n">✓</span><span class="t">Nine real datasets</span><span>— live, free, keyless, full 512-city spine</span></div>
+      <div class="item"><span class="n">✓</span><span class="t">Power-user comparison view</span><span>— sortable/filterable table, CSV export, saved views, live formula editor</span></div>
       <div class="item"><span class="n">✓</span><span class="t">Per-dataset year control</span><span>— live wherever a dataset reports real availableYears</span></div>
-      <div class="item"><span class="n">01</span><span class="t">Healthcare access</span><span>— porting Allergy Locator's own second dataset over natively</span></div>
-      <div class="item"><span class="n">02</span><span class="t">Allergy's fuller daily/seasonal depth</span><span>— porting the flagship's real day-by-day curves and county-grid densification, not just the annual-only reduction shipped here today</span></div>
+      <div class="item"><span class="n">01</span><span class="t">Census-cluster datasets</span><span>— population, income, broadband, tax at ~19,500-place resolution; designed, blocked on a free Census API key</span></div>
+      <div class="item"><span class="n">02</span><span class="t">More free, keyless datasets</span><span>— a ranked backlog of ~25 further candidates by real-world feasibility</span></div>
       <div class="item"><span class="n">03</span><span class="t">AI chat search</span><span>— describe what you want in plain language, get a ranked shortlist</span></div>
     </div>
   </div>
