@@ -48,12 +48,24 @@ if not API_KEY:
     sys.exit(1)
 
 
-def fetch_json(url):
+def fetch_json(url, retries=4):
     # subprocess to curl, not urllib -- this machine's Python.org build
     # doesn't pick up the system CA bundle, causing a cert-verify failure
     # urllib can't work around without extra setup; curl already works.
-    result = subprocess.run(["curl", "-s", url], capture_output=True, text=True, check=True)
-    return json.loads(result.stdout)
+    # Retries with backoff -- a run across every state will occasionally hit
+    # a transient network/API timeout; don't let one blip kill the whole run.
+    last_err = None
+    for attempt in range(retries):
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "--max-time", "30", url], capture_output=True, text=True, check=True
+            )
+            return json.loads(result.stdout)
+        except (subprocess.CalledProcessError, json.JSONDecodeError) as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+    raise last_err
 
 
 def agencies_for_state(state_abbr):
@@ -90,6 +102,21 @@ CITY_NAME_OVERRIDES = {
     # consolidated city-county government policed by its sheriff's office,
     # the real primary law enforcement agency for the city.
     "augusta-ga": "augusta-richmond county sheriff's office",
+    # "West Valley City" doesn't match "West Valley Police Department"
+    # (the word "City" breaks the containment check) -- a real agency,
+    # just a naming variant.
+    "west-valley-city-ut": "west valley police department",
+    # Macon-Bibb County is a consolidated city-county government (merged
+    # 2014), policed by its sheriff's office -- same pattern as Augusta.
+    # NOT "Macon County Sheriff's Office" -- that's an unrelated, different
+    # Macon County elsewhere in Georgia.
+    "macon-ga": "bibb county sheriff's office",
+    # Palm Coast has no separate municipal PD -- policed by the county
+    # sheriff, same pattern as Augusta/Macon.
+    "palm-coast-fl": "flagler county sheriff's office",
+    # Mableton incorporated in 2024 and has no standalone police department
+    # yet -- still policed by Cobb County Police Department.
+    "mableton-ga": "cobb county police department",
 }
 
 # Genuinely no matching agency in the FBI's own agency list -- these are

@@ -76,4 +76,12 @@ describe("data/crime.json integrity (multi-year)", () => {
     expect(y2024.violent_crime!.rate_per_100k).toBeGreaterThan(0);
     expect(y2024.property_crime!.rate_per_100k).toBeGreaterThan(0);
   });
+
+  it("covers real cities added beyond the original 168-city spine, with the same consolidated-government agency-matching pattern as Augusta", () => {
+    const goodyear = records["goodyear-az"] as CrimeRecord | undefined;
+    expect(goodyear?.years["2024"]?.violent_crime?.rate_per_100k).toBeGreaterThanOrEqual(0);
+
+    const maconBibb = records["macon-ga"] as CrimeRecord | undefined;
+    expect(maconBibb?.agency_name).toBe("Bibb County Sheriff's Office");
+  });
 });

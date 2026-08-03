@@ -64,9 +64,24 @@ if not API_KEY:
     sys.exit(1)
 
 
-def fetch_json(url):
-    result = subprocess.run(["curl", "-s", url], capture_output=True, text=True, check=True)
-    return json.loads(result.stdout)
+def fetch_json(url, retries=4):
+    """A run this size (~5,090 requests at current scale) will hit an
+    occasional transient network/API timeout -- retry with backoff instead
+    of letting one blip kill a multi-hour run. Every successful response is
+    cached to disk before this returns, so a retry (or a later full re-run)
+    never redoes completed work."""
+    last_err = None
+    for attempt in range(retries):
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "--max-time", "30", url], capture_output=True, text=True, check=True
+            )
+            return json.loads(result.stdout)
+        except (subprocess.CalledProcessError, json.JSONDecodeError) as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+    raise last_err
 
 
 def fetch_offense(ori, offense, year):

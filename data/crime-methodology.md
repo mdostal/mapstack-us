@@ -33,13 +33,14 @@ U.S. government data — public domain, free to use and redistribute.
 
 ## Method
 
-1. **Agency matching** (`scripts/fetch_crime_agencies.py`): each of the 168 spine cities
-   is matched to its real municipal police department (or, where a city has no separate
-   police department — e.g. Augusta, GA — the consolidated city-county sheriff's office
-   that actually polices it) via the FBI's own agency directory, fetched fresh per state.
-   165/168 matched; the 3 unmatched (Sundance WY, Monticello UT, Geraldine MT) are small
-   reference towns with no agency in the FBI's own directory at all — a real, honest gap,
-   not a bug.
+1. **Agency matching** (`scripts/fetch_crime_agencies.py`): each spine city is matched to
+   its real municipal police department (or, where a city has no separate police
+   department — e.g. Augusta GA, Macon-Bibb GA, Palm Coast FL — the consolidated
+   city-county government or county sheriff's office that actually polices it, and for
+   Mableton GA, a 2024-incorporated city with no standalone department yet, Cobb County
+   Police) via the FBI's own agency directory, fetched fresh per state. 509/512 matched;
+   the 3 unmatched (Sundance WY, Monticello UT, Geraldine MT) are small reference towns
+   with no agency in the FBI's own directory at all — a real, honest gap, not a bug.
 2. **Rate computation** (`scripts/gen_crime_data.py`): for every matched agency that
    reported NIBRS data for **all 12 months of a given year**, the real monthly offense
    counts are summed and divided by the agency's population for that year:
