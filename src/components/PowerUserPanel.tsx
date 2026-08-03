@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { AccordionSection } from "@/components/AccordionSection";
@@ -13,6 +13,7 @@ import { FilterPopover } from "@/components/FilterPopover";
 import { InsightsPanel } from "@/components/InsightsPanel";
 import { InsightsDock } from "@/components/InsightsDock";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
+import { MapLayerControls } from "@/components/MapLayerControls";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -22,6 +23,10 @@ import { buildComparisonCsv } from "@/lib/power-user/build-comparison-csv";
 import { downloadCsv } from "@/lib/power-user/csv-export";
 import { decodeView, encodeView, VIEW_PARAM } from "@/lib/url-state";
 import type { SavedView } from "@/lib/saved-views";
+import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
+import { DEFAULT_WEIGHTS, getGrassComponents, recomputeGrassScore, type ComponentWeights } from "@/lib/formula/allergy-grass-formula";
+
+const GRASS_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 const DEFAULT_SELECTION: ActiveLayer[] = [
   { datasetId: "allergy", layerId: "grass" },
@@ -57,10 +62,42 @@ export function PowerUserPanel() {
   const [viewMode, setViewMode] = useState<"table" | "map">("table");
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
+  // Per-layer map render controls (visible/inverted/opacity) -- independent
+  // of `selected`: hiding or inverting a layer on the map never touches the
+  // table/CSV/filter/sort, which always use every selected layer. See
+  // MapLayerControls.tsx / lib/map-layers.ts.
+  const [layerControls, setLayerControls] = useState<Record<string, LayerRenderControl>>({});
+  const getLayerControl = useCallback((key: string) => layerControls[key] ?? DEFAULT_LAYER_CONTROL, [layerControls]);
+  function updateLayerControl(key: string, patch: Partial<LayerRenderControl>) {
+    setLayerControls((prev) => ({ ...prev, [key]: { ...(prev[key] ?? DEFAULT_LAYER_CONTROL), ...patch } }));
+  }
+
+  // The Formula panel's live grass overlay -- real (shipped) data stays the
+  // primary "Grass" layer; this is an ADDITIONAL, explicitly asterisked
+  // layer only rendered while grass is both selected and toggled on. See
+  // FormulaPanel.tsx / .pHive/design/power-user-formula-panel/design-note.md.
+  const [grassWeights, setGrassWeights] = useState<ComponentWeights>(DEFAULT_WEIGHTS);
+  const [grassOverlayOn, setGrassOverlayOn] = useState(false);
+  const grassSelected = selected.some((s) => isSameLayer(s, GRASS_LAYER));
+  const customOverlay = useMemo(() => {
+    if (!grassOverlayOn || !grassSelected) return null;
+    return {
+      label: "Allergy severity: Grass (your weights)",
+      getValue: (cityId: string) => {
+        const components = getGrassComponents(cityId);
+        return components ? recomputeGrassScore(components, grassWeights) : null;
+      },
+    };
+  }, [grassOverlayOn, grassSelected, grassWeights]);
+
   function toggle(layer: ActiveLayer) {
     setSelected((prev) =>
       prev.some((s) => isSameLayer(s, layer)) ? prev.filter((s) => !isSameLayer(s, layer)) : [...prev, layer],
     );
+  }
+
+  function clearAllLayers() {
+    setSelected([]);
   }
 
   function restoreSavedView(view: SavedView) {
@@ -111,13 +148,20 @@ export function PowerUserPanel() {
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
         <div className="flex flex-col gap-3 md:w-64 md:flex-shrink-0">
           <AccordionSection title="Layers" defaultOpen>
-            <LayerPicker selected={selected} onToggle={toggle} />
+            <LayerPicker selected={selected} onToggle={toggle} onClearAll={clearAllLayers} />
           </AccordionSection>
           <AccordionSection title="Saved views">
             <SavedViewsPanel currentSelections={selected} currentSortKeys={sortKeys} onRestore={restoreSavedView} />
           </AccordionSection>
           <AccordionSection title="Formula">
-            <FormulaPanel selected={selected} selectedCityId={selectedCityId} />
+            <FormulaPanel
+              selected={selected}
+              selectedCityId={selectedCityId}
+              grassWeights={grassWeights}
+              onGrassWeightsChange={setGrassWeights}
+              grassOverlayOn={grassOverlayOn}
+              onToggleGrassOverlay={() => setGrassOverlayOn((v) => !v)}
+            />
           </AccordionSection>
         </div>
 
@@ -172,17 +216,26 @@ export function PowerUserPanel() {
 
           {viewMode === "map" ? (
             <div className="flex flex-1 flex-col gap-2">
+              <MapLayerControls
+                active={selected}
+                customOverlayLabel={customOverlay?.label ?? null}
+                getControl={getLayerControl}
+                onChange={updateLayerControl}
+              />
               <MultiLayerMap
                 active={selected}
                 year={year}
                 onSelectCity={setSelectedCityId}
                 selectedCityId={selectedCityId}
+                customOverlay={customOverlay}
+                getLayerControl={getLayerControl}
               />
               <p className="text-xs text-zinc-400 dark:text-zinc-600">
-                Layers render independently, each its own gradient. With 2+ active, every layer
-                renders at 65% opacity so they&apos;re visible together — that&apos;s a visual
-                overlay, not a computed blend: no layer&apos;s value is ever combined into
-                another&apos;s.
+                Layers render independently, each its own gradient — a visual overlay, not a
+                computed blend: no layer&apos;s value is ever combined into another&apos;s.
+                Visibility, invert, and opacity above are display-only: they change what the map
+                shows, never the table, CSV export, sort, or filter.
+                {customOverlay && " * uses your custom formula weights, not the shipped/validated score."}
               </p>
             </div>
           ) : (

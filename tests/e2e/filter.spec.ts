@@ -43,7 +43,7 @@ test("clearing the filter restores the full city list", async ({ page }) => {
   await page.getByRole("button", { name: "Apply filter" }).click();
   await expect.poll(() => page.locator("tbody tr").count()).toBeLessThan(rowCountBefore);
 
-  await page.getByRole("button", { name: "Clear" }).click();
+  await page.getByRole("button", { name: "Clear", exact: true }).click();
   await expect.poll(() => page.locator("tbody tr").count()).toBe(rowCountBefore);
 });
 

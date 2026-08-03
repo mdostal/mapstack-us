@@ -11,7 +11,7 @@ test("advanced route defaults to table view, and Map toggles to the real map", a
 
   await page.getByRole("tab", { name: "Map" }).click();
   await expect(page.locator("table")).toHaveCount(0);
-  await expect(page.getByText(/renders at 65% opacity/)).toBeVisible();
+  await expect(page.getByText(/not a computed blend/)).toBeVisible();
 
   await page.getByRole("tab", { name: "Table" }).click();
   await expect(page.locator("table")).toBeVisible();
@@ -91,4 +91,58 @@ test("saving and applying a formula weight preset persists across reload", async
 
   await page.getByRole("button", { name: "Apply formula weights: Half turf weight" }).click();
   await expect(turfSlider).toHaveValue("0.5");
+});
+
+test("Show on map adds the custom-weighted grass overlay as an extra, asterisked map layer", async ({ page }) => {
+  await page.goto("/advanced");
+  await page.getByRole("row", { name: /^Austin, TX/ }).click();
+  await page.getByRole("tab", { name: "Map" }).click();
+  await page.getByRole("button", { name: "Formula" }).click();
+
+  await expect(page.getByRole("group", { name: /Grass \(your weights\)/ })).not.toBeVisible();
+
+  await page.getByRole("button", { name: "Show on map" }).click();
+  await expect(page.getByRole("button", { name: "Showing on map — remove" })).toBeVisible();
+  const overlayChip = page.getByRole("group", { name: /Grass \(your weights\)/ });
+  await expect(overlayChip).toBeVisible();
+  await expect(overlayChip.getByText("*")).toBeVisible();
+
+  await page.getByRole("button", { name: "Showing on map — remove" }).click();
+  await expect(page.getByRole("button", { name: "Show on map" })).toBeVisible();
+  await expect(overlayChip).not.toBeVisible();
+});
+
+test("map layer controls let you hide and invert a layer on the map without removing it from the analysis", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("tab", { name: "Map" }).click();
+
+  const grassChip = page.getByRole("group", { name: "Allergy severity: Grass" });
+  const visibilityButton = grassChip.getByRole("button", { name: /Hide Allergy severity: Grass/ });
+  await expect(visibilityButton).toBeVisible();
+  await expect(visibilityButton).toHaveText("Shown");
+
+  await visibilityButton.click();
+  const hiddenButton = grassChip.getByRole("button", { name: /Show Allergy severity: Grass/ });
+  await expect(hiddenButton).toBeVisible();
+  await expect(hiddenButton).toHaveText("Hidden");
+  // Hiding on the map is display-only -- the Layers picker's checkbox
+  // (the actual analysis selection, already open by default) stays checked.
+  await expect(page.getByLabel("Grass", { exact: true })).toBeChecked();
+
+  const invertButton = grassChip.getByRole("button", { name: "Invert" });
+  await expect(invertButton).toHaveAttribute("aria-pressed", "false");
+  await invertButton.click();
+  await expect(invertButton).toHaveAttribute("aria-pressed", "true");
+});
+
+test("map layer opacity is adjustable per layer", async ({ page }) => {
+  await page.goto("/advanced");
+  await page.getByRole("tab", { name: "Map" }).click();
+
+  const grassChip = page.getByRole("group", { name: "Allergy severity: Grass" });
+  const opacitySlider = grassChip.getByLabel(/opacity/i);
+  await opacitySlider.fill("30");
+  await expect(grassChip.getByText("30%")).toBeVisible();
 });

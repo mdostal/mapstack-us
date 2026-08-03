@@ -15,6 +15,10 @@ import { deleteFormulaPreset, getFormulaPresets, saveFormulaPreset, type Formula
 interface Props {
   selected: ActiveLayer[];
   selectedCityId: string | null;
+  grassWeights: ComponentWeights;
+  onGrassWeightsChange: (weights: ComponentWeights) => void;
+  grassOverlayOn: boolean;
+  onToggleGrassOverlay: () => void;
 }
 
 /**
@@ -22,12 +26,20 @@ interface Props {
  * explicit operator direction. Only allergy:grass has a real, decomposed,
  * documented formula (data/allergy-scoring.md) to tune; every other layer
  * (the 27 other allergens, both crime layers) gets an honest "nothing to
- * tune here" note instead of a fake control. This is a transparent
- * SANDBOX -- recomputed scores here do not change the map/table/insights,
- * which keep showing the shipped model. See
- * .pHive/design/power-user-formula-panel/design-note.md.
+ * tune here" note instead of a fake control. Recomputed scores here can
+ * optionally render as an ADDITIONAL map layer ("Show on map"), asterisked
+ * and never replacing the shipped/validated Grass layer -- see
+ * .pHive/design/power-user-formula-panel/design-note.md and
+ * MultiLayerMap.tsx's CustomOverlay.
  */
-export function FormulaPanel({ selected, selectedCityId }: Props) {
+export function FormulaPanel({
+  selected,
+  selectedCityId,
+  grassWeights,
+  onGrassWeightsChange,
+  grassOverlayOn,
+  onToggleGrassOverlay,
+}: Props) {
   if (selected.length === 0) return null;
 
   return (
@@ -43,7 +55,13 @@ export function FormulaPanel({ selected, selectedCityId }: Props) {
               {resolved.dataset.label}: {resolved.layer.label}
             </span>
             {isGrass ? (
-              <GrassFormulaEditor selectedCityId={selectedCityId} />
+              <GrassFormulaEditor
+                selectedCityId={selectedCityId}
+                weights={grassWeights}
+                onWeightsChange={onGrassWeightsChange}
+                overlayOn={grassOverlayOn}
+                onToggleOverlay={onToggleGrassOverlay}
+              />
             ) : (
               <p className="text-zinc-500 dark:text-zinc-400">
                 No tunable formula for this layer — modeled directly (climate-zone lookup or
@@ -63,8 +81,21 @@ export function FormulaPanel({ selected, selectedCityId }: Props) {
 
 const GRASS_LAYER_KEY = activeLayerKey({ datasetId: "allergy", layerId: "grass" });
 
-function GrassFormulaEditor({ selectedCityId }: { selectedCityId: string | null }) {
-  const [weights, setWeights] = useState<ComponentWeights>(DEFAULT_WEIGHTS);
+interface GrassFormulaEditorProps {
+  selectedCityId: string | null;
+  weights: ComponentWeights;
+  onWeightsChange: (weights: ComponentWeights) => void;
+  overlayOn: boolean;
+  onToggleOverlay: () => void;
+}
+
+function GrassFormulaEditor({
+  selectedCityId,
+  weights,
+  onWeightsChange,
+  overlayOn,
+  onToggleOverlay,
+}: GrassFormulaEditorProps) {
   const [presets, setPresets] = useState<FormulaPreset[]>(() => getFormulaPresets(GRASS_LAYER_KEY));
   const [naming, setNaming] = useState(false);
   const [name, setName] = useState("");
@@ -88,7 +119,7 @@ function GrassFormulaEditor({ selectedCityId }: { selectedCityId: string | null 
   const isDefault = FORMULA_COMPONENT_KEYS.every((key) => weights[key] === 1);
 
   function setWeight(key: (typeof FORMULA_COMPONENT_KEYS)[number], value: number) {
-    setWeights((prev) => ({ ...prev, [key]: value }));
+    onWeightsChange({ ...weights, [key]: value });
   }
 
   function handleSave() {
@@ -101,7 +132,7 @@ function GrassFormulaEditor({ selectedCityId }: { selectedCityId: string | null 
   }
 
   function handleApply(preset: FormulaPreset) {
-    setWeights(preset.weights);
+    onWeightsChange(preset.weights);
   }
 
   function handleDelete(id: string) {
@@ -110,7 +141,7 @@ function GrassFormulaEditor({ selectedCityId }: { selectedCityId: string | null 
   }
 
   function reset() {
-    setWeights(DEFAULT_WEIGHTS);
+    onWeightsChange(DEFAULT_WEIGHTS);
   }
 
   return (
@@ -145,9 +176,25 @@ function GrassFormulaEditor({ selectedCityId }: { selectedCityId: string | null 
         </span>
       </div>
       <p className="text-zinc-400 dark:text-zinc-600">
-        Preview only — doesn&apos;t change the map, table, or saved views, which always show the
-        shipped model.
+        The table, CSV export, sort, and filter always use the shipped model. On the map, you can
+        add your weights as an extra, clearly asterisked layer alongside the real Grass layer —
+        it never replaces the shipped/validated score.
       </p>
+
+      <div className="mt-1">
+        <button
+          type="button"
+          onClick={onToggleOverlay}
+          aria-pressed={overlayOn}
+          className={`rounded border px-1.5 py-0.5 font-medium ${
+            overlayOn
+              ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+              : "border-zinc-200 text-zinc-700 dark:border-zinc-700 dark:text-zinc-300"
+          }`}
+        >
+          {overlayOn ? "Showing on map — remove" : "Show on map"}
+        </button>
+      </div>
 
       <div className="mt-1 flex gap-2">
         {!isDefault && (
