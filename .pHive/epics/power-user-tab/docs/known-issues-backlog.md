@@ -6,6 +6,25 @@ either a real bug, a real UX gap, or a real research question — none are
 "fix immediately" without more digging first, per operator direction to
 compile rather than immediately code.
 
+## Status update, 2026-08-03 — items 1-4 resolved
+
+- **#1**: Researched (`data/real-pollen-data-research.md`). Verdict: no free,
+  bulk, city-level measured pollen source exists anywhere (NAB is real but
+  not free/bulk/broad; everything free is a forecast model, not measured
+  counts). Current modeled approach stays, now disclosed prominently
+  in-product (Formula panel) rather than only in the methodology doc.
+- **#2**: Fixed. `CityDetailPanel` (already built, already used in the
+  simple view) is now wired into `/advanced`'s Map view too — selecting a
+  city shows its name + every visible layer's value directly under the map.
+- **#3**: Root-caused as (b), not (a) — `DEFAULT_LAYER_CONTROL.inverted` is
+  genuinely `false`, confirmed by existing test coverage. Fixed the real
+  underlying issue regardless: an inverted layer now gets a persistent
+  amber badge + tinted chip border, not just a subtle button-pressed state.
+- **#4**: Fixed in both `/advanced` (`PowerUserPanel.tsx`'s sidebar) and the
+  simple view (`MapstackApp.tsx`'s sidebar + legend list) — both are now
+  `sticky` + height-capped + independently scrollable, so an expanded
+  Layers/Care-access section no longer grows the whole page/map.
+
 ## 1. Grass "formula" isn't raw measured pollen data — real gap, needs research
 
 Operator's ask: "tear out the grass to the REAL DATA not just our numbers."

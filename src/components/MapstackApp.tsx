@@ -48,7 +48,7 @@ export function MapstackApp() {
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-6 md:flex-row">
-        <div className="flex flex-col gap-4 md:w-72 md:flex-shrink-0">
+        <div className="flex flex-col gap-4 overflow-y-auto md:top-6 md:h-[calc(100vh-4.5rem)] md:w-72 md:flex-shrink-0 md:sticky">
           <div className="flex flex-col gap-2">
             <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
               Active layers
@@ -63,7 +63,7 @@ export function MapstackApp() {
 
         <div className="flex flex-1 flex-col gap-3">
           <div className="flex items-start justify-between gap-3">
-            <div className="w-56">
+            <div className="max-h-40 w-56 overflow-y-auto">
               <LayerLegends active={active} />
             </div>
             <YearControl active={active} year={year} onChange={setYear} />

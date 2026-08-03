@@ -146,6 +146,20 @@ function GrassFormulaEditor({
 
   return (
     <div className="flex flex-col gap-2 rounded border border-zinc-100 p-2 dark:border-zinc-800">
+      <p className="rounded bg-amber-50 p-1.5 text-zinc-600 dark:bg-amber-950/30 dark:text-zinc-400">
+        <b className="text-amber-700 dark:text-amber-400">Modeled, not measured.</b> No free
+        public real-time pollen-count data source exists at city scale (checked NAB, pollen.com/
+        IQVIA, government and academic networks —{" "}
+        <a
+          href="https://github.com/mdostal/mapstack-us/blob/main/data/real-pollen-data-research.md"
+          target="_blank"
+          rel="noreferrer"
+          className="underline"
+        >
+          see research
+        </a>
+        ). These components are a climate/geography model, not station counts.
+      </p>
       {FORMULA_COMPONENT_KEYS.map((key) => (
         <div key={key} className="flex flex-col gap-0.5">
           <label htmlFor={`formula-weight-${key}`} className="flex justify-between text-zinc-600 dark:text-zinc-400">

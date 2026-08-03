@@ -40,9 +40,11 @@ export function MapLayerControls({ active, customOverlayLabel, getControl, onCha
             key={layer.key}
             role="group"
             aria-label={layer.label}
-            className={`flex w-52 flex-shrink-0 flex-col gap-1.5 rounded-lg border border-zinc-200 p-2 text-xs dark:border-zinc-800 ${
-              control.visible ? "" : "opacity-50"
-            }`}
+            className={`flex w-52 flex-shrink-0 flex-col gap-1.5 rounded-lg border p-2 text-xs ${
+              control.inverted
+                ? "border-amber-400 bg-amber-50 dark:border-amber-600 dark:bg-amber-950/30"
+                : "border-zinc-200 dark:border-zinc-800"
+            } ${control.visible ? "" : "opacity-50"}`}
           >
             <div className="flex items-center gap-1.5">
               <span
@@ -62,6 +64,11 @@ export function MapLayerControls({ active, customOverlayLabel, getControl, onCha
                 </span>
               )}
             </div>
+            {control.inverted && (
+              <span className="flex-shrink-0 self-start rounded-full bg-amber-200 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-amber-900 dark:bg-amber-800 dark:text-amber-100">
+                ⇅ Inverted — dark = low/good
+              </span>
+            )}
             <div className="flex items-center gap-1.5">
               <button
                 type="button"
@@ -77,13 +84,13 @@ export function MapLayerControls({ active, customOverlayLabel, getControl, onCha
                 onClick={() => onChange(layer.key, { inverted: !control.inverted })}
                 aria-pressed={control.inverted}
                 title="Flip this layer's color direction: dark = low/good instead of dark = high/concerning"
-                className={`rounded border px-1.5 py-0.5 ${
+                className={`rounded border px-1.5 py-0.5 font-medium ${
                   control.inverted
-                    ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+                    ? "border-amber-600 bg-amber-500 text-white dark:border-amber-400 dark:bg-amber-600"
                     : "border-zinc-200 text-zinc-600 dark:border-zinc-700 dark:text-zinc-400"
                 }`}
               >
-                Invert
+                {control.inverted ? "Inverted ✓" : "Invert"}
               </button>
             </div>
             <label className="flex items-center gap-1.5 text-zinc-500 dark:text-zinc-400">

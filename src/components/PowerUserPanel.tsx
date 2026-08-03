@@ -14,6 +14,7 @@ import { InsightsPanel } from "@/components/InsightsPanel";
 import { InsightsDock } from "@/components/InsightsDock";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
 import { MapLayerControls } from "@/components/MapLayerControls";
+import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { YearControl } from "@/components/YearControl";
 import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
@@ -146,7 +147,7 @@ export function PowerUserPanel() {
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
-        <div className="flex flex-col gap-3 md:w-64 md:flex-shrink-0">
+        <div className="flex flex-col gap-3 overflow-y-auto md:top-6 md:h-[calc(100vh-4.5rem)] md:w-64 md:flex-shrink-0 md:sticky">
           <AccordionSection title="Layers" defaultOpen>
             <LayerPicker selected={selected} onToggle={toggle} onClearAll={clearAllLayers} />
           </AccordionSection>
@@ -230,6 +231,18 @@ export function PowerUserPanel() {
                 customOverlay={customOverlay}
                 getLayerControl={getLayerControl}
               />
+              {/* Confirms which city is selected on the map -- Table view has
+                 row highlighting for this, Map view previously had nothing.
+                 Explicit operator feedback: "how do I know what city I
+                 selected?" Reuses the simple view's own detail panel rather
+                 than building a second one. */}
+              {selectedCityId ? (
+                <CityDetailPanel cityId={selectedCityId} active={selected} year={year} />
+              ) : (
+                <p className="text-xs text-zinc-400 dark:text-zinc-600">
+                  Click a city on the map to see its values here.
+                </p>
+              )}
               <p className="text-xs text-zinc-400 dark:text-zinc-600">
                 Layers render independently, each its own gradient — a visual overlay, not a
                 computed blend: no layer&apos;s value is ever combined into another&apos;s.
