@@ -53,13 +53,13 @@ test("a year control appears once a time-varying layer (crime) is active, and sw
   page,
 }) => {
   await page.goto("/");
-  await expect(page.getByLabel("Year")).not.toBeVisible();
+  await expect(page.getByLabel("Year", { exact: true })).not.toBeVisible();
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
 
-  const yearSelect = page.getByLabel("Year");
+  const yearSelect = page.getByLabel("Year", { exact: true });
   await expect(yearSelect).toBeVisible();
   await expect(yearSelect).toHaveValue("2024");
 

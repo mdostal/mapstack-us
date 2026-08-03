@@ -49,7 +49,7 @@ test("changing the year on the advanced route and navigating to the simple view 
   page,
 }) => {
   await page.goto("/advanced");
-  const yearSelect = page.getByLabel("Year");
+  const yearSelect = page.getByLabel("Year", { exact: true });
   await expect(yearSelect).toBeVisible();
   const options = await yearSelect.locator("option").allTextContents();
   const currentYear = await yearSelect.inputValue();

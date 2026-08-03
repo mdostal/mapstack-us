@@ -68,7 +68,7 @@ describe("point dodging (dense-metro marker overlap, task #23)", () => {
     }
   });
 
-  it("computes the full 168-city spine fast enough for a one-time module-load cost", () => {
+  it("computes the full city spine fast enough for a one-time module-load cost", () => {
     const points = cities
       .map((c) => {
         const xy = projectLatLon(c.lat, c.lon);

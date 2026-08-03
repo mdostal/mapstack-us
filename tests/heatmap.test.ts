@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildInterpolationGrid } from "@/lib/heatmap/interpolate";
+import cities from "@data/cities.json";
 
 describe("IDW interpolation grid (continuous gradient rendering)", () => {
   it("returns an all-null grid for zero points, without throwing", () => {
@@ -61,8 +62,8 @@ describe("IDW interpolation grid (continuous gradient rendering)", () => {
     expect(cellNearFirstPoint.value!).toBeLessThan(50);
   });
 
-  it("computes a realistic 168-point grid (the actual city spine scale) fast enough for interactive re-renders", () => {
-    const points = Array.from({ length: 168 }, (_, i) => ({
+  it("computes a realistic point grid (the actual city spine scale) fast enough for interactive re-renders", () => {
+    const points = Array.from({ length: cities.length }, (_, i) => ({
       x: (i * 37) % 960,
       y: (i * 53) % 600,
       value: (i * 7) % 100,

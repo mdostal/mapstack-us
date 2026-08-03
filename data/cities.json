@@ -5,7 +5,7 @@
     "state": "NY",
     "lat": 40.71,
     "lon": -74.01,
-    "pop": 8300000,
+    "pop": 8584629,
     "elevation_ft": 33,
     "koppen": "Cfa",
     "coastal": true
@@ -16,10 +16,13 @@
     "state": "CA",
     "lat": 34.05,
     "lon": -118.24,
-    "pop": 3900000,
+    "pop": 3869089,
     "elevation_ft": 285,
     "koppen": "Csb",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "chicago-il",
@@ -27,7 +30,7 @@
     "state": "IL",
     "lat": 41.88,
     "lon": -87.63,
-    "pop": 2700000,
+    "pop": 2731585,
     "elevation_ft": 594,
     "koppen": "Dfa",
     "coastal": true
@@ -38,10 +41,13 @@
     "state": "TX",
     "lat": 29.76,
     "lon": -95.37,
-    "pop": 2300000,
+    "pop": 2397315,
     "elevation_ft": 80,
     "koppen": "Cfa",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 5
+    }
   },
   {
     "id": "phoenix-az",
@@ -49,10 +55,14 @@
     "state": "AZ",
     "lat": 33.45,
     "lon": -112.07,
-    "pop": 1600000,
+    "pop": 1665481,
     "elevation_ft": 1086,
     "koppen": "BWh",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
   },
   {
     "id": "philadelphia-pa",
@@ -60,7 +70,7 @@
     "state": "PA",
     "lat": 39.95,
     "lon": -75.17,
-    "pop": 1600000,
+    "pop": 1574281,
     "elevation_ft": 39,
     "koppen": "Cfa",
     "coastal": true
@@ -71,10 +81,13 @@
     "state": "TX",
     "lat": 29.42,
     "lon": -98.49,
-    "pop": 1500000,
+    "pop": 1548422,
     "elevation_ft": 650,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
   },
   {
     "id": "san-diego-ca",
@@ -82,10 +95,13 @@
     "state": "CA",
     "lat": 32.72,
     "lon": -117.16,
-    "pop": 1400000,
+    "pop": 1406106,
     "elevation_ft": 62,
     "koppen": "BSh",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "dallas-tx",
@@ -93,43 +109,13 @@
     "state": "TX",
     "lat": 32.78,
     "lon": -96.8,
-    "pop": 1300000,
+    "pop": 1329491,
     "elevation_ft": 430,
     "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "san-jose-ca",
-    "city": "San Jose",
-    "state": "CA",
-    "lat": 37.34,
-    "lon": -121.89,
-    "pop": 1000000,
-    "elevation_ft": 82,
-    "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "austin-tx",
-    "city": "Austin",
-    "state": "TX",
-    "lat": 30.27,
-    "lon": -97.74,
-    "pop": 970000,
-    "elevation_ft": 489,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "jacksonville-fl",
-    "city": "Jacksonville",
-    "state": "FL",
-    "lat": 30.33,
-    "lon": -81.66,
-    "pop": 950000,
-    "elevation_ft": 16,
-    "koppen": "Cfa",
-    "coastal": true
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "fort-worth-tx",
@@ -137,21 +123,55 @@
     "state": "TX",
     "lat": 32.76,
     "lon": -97.33,
-    "pop": 940000,
+    "pop": 1028117,
     "elevation_ft": 653,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
-    "id": "columbus-oh",
-    "city": "Columbus",
-    "state": "OH",
-    "lat": 39.96,
-    "lon": -82.99,
-    "pop": 910000,
-    "elevation_ft": 902,
-    "koppen": "Dfa",
-    "coastal": false
+    "id": "jacksonville-fl",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.33,
+    "lon": -81.66,
+    "pop": 1017689,
+    "elevation_ft": 16,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "austin-tx",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.27,
+    "lon": -97.74,
+    "pop": 1002632,
+    "elevation_ft": 489,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "san-jose-ca",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.34,
+    "lon": -121.89,
+    "pop": 989814,
+    "elevation_ft": 82,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "charlotte-nc",
@@ -159,9 +179,34 @@
     "state": "NC",
     "lat": 35.23,
     "lon": -80.84,
-    "pop": 880000,
+    "pop": 964784,
     "elevation_ft": 751,
     "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "columbus-oh",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.96,
+    "lon": -82.99,
+    "pop": 938396,
+    "elevation_ft": 902,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "indianapolis-in",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.77,
+    "lon": -86.16,
+    "pop": 901116,
+    "elevation_ft": 715,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
@@ -170,21 +215,10 @@
     "state": "CA",
     "lat": 37.77,
     "lon": -122.42,
-    "pop": 870000,
+    "pop": 826079,
     "elevation_ft": 52,
     "koppen": "Csb",
     "coastal": true
-  },
-  {
-    "id": "indianapolis-in",
-    "city": "Indianapolis",
-    "state": "IN",
-    "lat": 39.77,
-    "lon": -86.16,
-    "pop": 880000,
-    "elevation_ft": 715,
-    "koppen": "Dfa",
-    "coastal": false
   },
   {
     "id": "seattle-wa",
@@ -192,10 +226,13 @@
     "state": "WA",
     "lat": 47.61,
     "lon": -122.33,
-    "pop": 750000,
+    "pop": 784777,
     "elevation_ft": 175,
     "koppen": "Cfb",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "denver-co",
@@ -203,43 +240,13 @@
     "state": "CO",
     "lat": 39.74,
     "lon": -104.99,
-    "pop": 720000,
+    "pop": 740613,
     "elevation_ft": 5280,
     "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "washington-dc",
-    "city": "Washington",
-    "state": "DC",
-    "lat": 38.91,
-    "lon": -77.04,
-    "pop": 690000,
-    "elevation_ft": 72,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "boston-ma",
-    "city": "Boston",
-    "state": "MA",
-    "lat": 42.36,
-    "lon": -71.06,
-    "pop": 650000,
-    "elevation_ft": 141,
-    "koppen": "Dfb",
-    "coastal": true
-  },
-  {
-    "id": "el-paso-tx",
-    "city": "El Paso",
-    "state": "TX",
-    "lat": 31.76,
-    "lon": -106.49,
-    "pop": 680000,
-    "elevation_ft": 3740,
-    "koppen": "BWk",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 10
+    }
   },
   {
     "id": "nashville-tn",
@@ -247,10 +254,13 @@
     "state": "TN",
     "lat": 36.16,
     "lon": -86.78,
-    "pop": 690000,
+    "pop": 721074,
     "elevation_ft": 597,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "oklahoma-city-ok",
@@ -258,10 +268,38 @@
     "state": "OK",
     "lat": 35.47,
     "lon": -97.52,
-    "pop": 690000,
+    "pop": 719849,
     "elevation_ft": 1201,
     "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "washington-dc",
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.91,
+    "lon": -77.04,
+    "pop": 693645,
+    "elevation_ft": 72,
+    "koppen": "Cfa",
     "coastal": false
+  },
+  {
+    "id": "el-paso-tx",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.76,
+    "lon": -106.49,
+    "pop": 683012,
+    "elevation_ft": 3740,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "aridsw": true
+    }
   },
   {
     "id": "las-vegas-nv",
@@ -269,10 +307,25 @@
     "state": "NV",
     "lat": 36.17,
     "lon": -115.14,
-    "pop": 650000,
+    "pop": 679817,
     "elevation_ft": 2001,
     "koppen": "BWh",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 9,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "boston-ma",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.36,
+    "lon": -71.06,
+    "pop": 672973,
+    "elevation_ft": 141,
+    "koppen": "Dfb",
+    "coastal": true
   },
   {
     "id": "detroit-mi",
@@ -280,31 +333,9 @@
     "state": "MI",
     "lat": 42.33,
     "lon": -83.05,
-    "pop": 630000,
+    "pop": 649095,
     "elevation_ft": 600,
     "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "portland-or",
-    "city": "Portland",
-    "state": "OR",
-    "lat": 45.52,
-    "lon": -122.68,
-    "pop": 650000,
-    "elevation_ft": 50,
-    "koppen": "Csb",
-    "coastal": false
-  },
-  {
-    "id": "memphis-tn",
-    "city": "Memphis",
-    "state": "TN",
-    "lat": 35.15,
-    "lon": -90.05,
-    "pop": 630000,
-    "elevation_ft": 337,
-    "koppen": "Cfa",
     "coastal": false
   },
   {
@@ -313,21 +344,41 @@
     "state": "KY",
     "lat": 38.25,
     "lon": -85.76,
-    "pop": 620000,
+    "pop": 641962,
     "elevation_ft": 466,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "milwaukee-wi",
-    "city": "Milwaukee",
-    "state": "WI",
-    "lat": 43.04,
-    "lon": -87.91,
-    "pop": 570000,
-    "elevation_ft": 617,
-    "koppen": "Dfb",
-    "coastal": true
+    "id": "portland-or",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.52,
+    "lon": -122.68,
+    "pop": 635109,
+    "elevation_ft": 50,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 8
+    }
+  },
+  {
+    "id": "memphis-tn",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.15,
+    "lon": -90.05,
+    "pop": 609647,
+    "elevation_ft": 337,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
   },
   {
     "id": "baltimore-md",
@@ -335,9 +386,20 @@
     "state": "MD",
     "lat": 39.29,
     "lon": -76.61,
-    "pop": 580000,
+    "pop": 569997,
     "elevation_ft": 33,
     "koppen": "Cfa",
+    "coastal": true
+  },
+  {
+    "id": "milwaukee-wi",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 43.04,
+    "lon": -87.91,
+    "pop": 562407,
+    "elevation_ft": 617,
+    "koppen": "Dfb",
     "coastal": true
   },
   {
@@ -346,21 +408,14 @@
     "state": "NM",
     "lat": 35.08,
     "lon": -106.65,
-    "pop": 560000,
+    "pop": 556588,
     "elevation_ft": 5312,
     "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "tucson-az",
-    "city": "Tucson",
-    "state": "AZ",
-    "lat": 32.22,
-    "lon": -110.97,
-    "pop": 540000,
-    "elevation_ft": 2643,
-    "koppen": "BWh",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
   },
   {
     "id": "fresno-ca",
@@ -368,10 +423,28 @@
     "state": "CA",
     "lat": 36.75,
     "lon": -119.77,
-    "pop": 540000,
+    "pop": 555549,
     "elevation_ft": 328,
     "koppen": "BSh",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "tucson-az",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.22,
+    "lon": -110.97,
+    "pop": 548371,
+    "elevation_ft": 2643,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
   },
   {
     "id": "sacramento-ca",
@@ -379,32 +452,13 @@
     "state": "CA",
     "lat": 38.58,
     "lon": -121.49,
-    "pop": 520000,
+    "pop": 536449,
     "elevation_ft": 30,
     "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "mesa-az",
-    "city": "Mesa",
-    "state": "AZ",
-    "lat": 33.42,
-    "lon": -111.83,
-    "pop": 510000,
-    "elevation_ft": 1243,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "kansas-city-mo",
-    "city": "Kansas City",
-    "state": "MO",
-    "lat": 39.1,
-    "lon": -94.58,
-    "pop": 510000,
-    "elevation_ft": 910,
-    "koppen": "Dfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "atlanta-ga",
@@ -412,32 +466,42 @@
     "state": "GA",
     "lat": 33.75,
     "lon": -84.39,
-    "pop": 500000,
+    "pop": 529110,
     "elevation_ft": 1050,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
   },
   {
-    "id": "omaha-ne",
-    "city": "Omaha",
-    "state": "NE",
-    "lat": 41.26,
-    "lon": -95.94,
-    "pop": 490000,
-    "elevation_ft": 1090,
+    "id": "kansas-city-mo",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.1,
+    "lon": -94.58,
+    "pop": 521220,
+    "elevation_ft": 910,
     "koppen": "Dfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "colorado-springs-co",
-    "city": "Colorado Springs",
-    "state": "CO",
-    "lat": 38.83,
-    "lon": -104.82,
-    "pop": 480000,
-    "elevation_ft": 6035,
-    "koppen": "BSk",
-    "coastal": false
+    "id": "mesa-az",
+    "city": "Mesa",
+    "state": "AZ",
+    "lat": 33.42,
+    "lon": -111.83,
+    "pop": 513656,
+    "elevation_ft": 1243,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
   },
   {
     "id": "raleigh-nc",
@@ -445,32 +509,27 @@
     "state": "NC",
     "lat": 35.78,
     "lon": -78.64,
-    "pop": 470000,
+    "pop": 506306,
     "elevation_ft": 315,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "long-beach-ca",
-    "city": "Long Beach",
-    "state": "CA",
-    "lat": 33.77,
-    "lon": -118.19,
-    "pop": 460000,
-    "elevation_ft": 39,
-    "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "virginia-beach-va",
-    "city": "Virginia Beach",
-    "state": "VA",
-    "lat": 36.85,
-    "lon": -75.98,
-    "pop": 460000,
-    "elevation_ft": 12,
-    "koppen": "Cfa",
-    "coastal": true
+    "id": "colorado-springs-co",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.83,
+    "lon": -104.82,
+    "pop": 494743,
+    "elevation_ft": 6035,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "miami-fl",
@@ -478,10 +537,55 @@
     "state": "FL",
     "lat": 25.76,
     "lon": -80.19,
-    "pop": 440000,
+    "pop": 489812,
     "elevation_ft": 6,
     "koppen": "Aw",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "omaha-ne",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.26,
+    "lon": -95.94,
+    "pop": 488797,
+    "elevation_ft": 1090,
+    "koppen": "Dfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "virginia-beach-va",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "lat": 36.85,
+    "lon": -75.98,
+    "pop": 453737,
+    "elevation_ft": 12,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "long-beach-ca",
+    "city": "Long Beach",
+    "state": "CA",
+    "lat": 33.77,
+    "lon": -118.19,
+    "pop": 450469,
+    "elevation_ft": 39,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "oakland-ca",
@@ -489,7 +593,7 @@
     "state": "CA",
     "lat": 37.8,
     "lon": -122.27,
-    "pop": 440000,
+    "pop": 440838,
     "elevation_ft": 43,
     "koppen": "Csb",
     "coastal": true
@@ -500,20 +604,9 @@
     "state": "MN",
     "lat": 44.98,
     "lon": -93.27,
-    "pop": 430000,
+    "pop": 430324,
     "elevation_ft": 830,
     "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "tulsa-ok",
-    "city": "Tulsa",
-    "state": "OK",
-    "lat": 36.15,
-    "lon": -95.99,
-    "pop": 410000,
-    "elevation_ft": 700,
-    "koppen": "Cfa",
     "coastal": false
   },
   {
@@ -522,43 +615,27 @@
     "state": "CA",
     "lat": 35.37,
     "lon": -119.02,
-    "pop": 400000,
+    "pop": 422165,
     "elevation_ft": 404,
     "koppen": "BSh",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
-    "id": "wichita-ks",
-    "city": "Wichita",
-    "state": "KS",
-    "lat": 37.69,
-    "lon": -97.34,
-    "pop": 400000,
-    "elevation_ft": 1299,
+    "id": "tulsa-ok",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.15,
+    "lon": -95.99,
+    "pop": 416209,
+    "elevation_ft": 700,
     "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "arlington-tx",
-    "city": "Arlington",
-    "state": "TX",
-    "lat": 32.74,
-    "lon": -97.11,
-    "pop": 390000,
-    "elevation_ft": 600,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "aurora-co",
-    "city": "Aurora",
-    "state": "CO",
-    "lat": 39.73,
-    "lon": -104.83,
-    "pop": 390000,
-    "elevation_ft": 5471,
-    "koppen": "BSk",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
   },
   {
     "id": "tampa-fl",
@@ -566,9 +643,65 @@
     "state": "FL",
     "lat": 27.95,
     "lon": -82.46,
-    "pop": 400000,
+    "pop": 413554,
     "elevation_ft": 48,
     "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "aurora-co",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.73,
+    "lon": -104.83,
+    "pop": 410053,
+    "elevation_ft": 5471,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 10
+    }
+  },
+  {
+    "id": "arlington-tx",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.74,
+    "lon": -97.11,
+    "pop": 402134,
+    "elevation_ft": 600,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "wichita-ks",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.69,
+    "lon": -97.34,
+    "pop": 400987,
+    "elevation_ft": 1299,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "cleveland-oh",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.5,
+    "lon": -81.69,
+    "pop": 363608,
+    "elevation_ft": 653,
+    "koppen": "Dfa",
     "coastal": true
   },
   {
@@ -577,21 +710,28 @@
     "state": "LA",
     "lat": 29.95,
     "lon": -90.07,
-    "pop": 380000,
+    "pop": 362154,
     "elevation_ft": 7,
     "koppen": "Cfa",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "cleveland-oh",
-    "city": "Cleveland",
-    "state": "OH",
-    "lat": 41.5,
-    "lon": -81.69,
-    "pop": 370000,
-    "elevation_ft": 653,
-    "koppen": "Dfa",
-    "coastal": true
+    "id": "henderson-nv",
+    "city": "Henderson",
+    "state": "NV",
+    "lat": 36.04,
+    "lon": -114.98,
+    "pop": 353289,
+    "elevation_ft": 1867,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 9,
+      "aridsw": true
+    }
   },
   {
     "id": "honolulu-hi",
@@ -599,7 +739,7 @@
     "state": "HI",
     "lat": 21.31,
     "lon": -157.86,
-    "pop": 350000,
+    "pop": 341868,
     "elevation_ft": 19,
     "koppen": "Aw",
     "coastal": true
@@ -610,120 +750,13 @@
     "state": "CA",
     "lat": 33.84,
     "lon": -117.91,
-    "pop": 350000,
+    "pop": 341008,
     "elevation_ft": 157,
     "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "lexington-ky",
-    "city": "Lexington",
-    "state": "KY",
-    "lat": 38.04,
-    "lon": -84.5,
-    "pop": 320000,
-    "elevation_ft": 978,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "stockton-ca",
-    "city": "Stockton",
-    "state": "CA",
-    "lat": 37.96,
-    "lon": -121.29,
-    "pop": 320000,
-    "elevation_ft": 13,
-    "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "corpus-christi-tx",
-    "city": "Corpus Christi",
-    "state": "TX",
-    "lat": 27.8,
-    "lon": -97.4,
-    "pop": 320000,
-    "elevation_ft": 7,
-    "koppen": "BSh",
-    "coastal": true
-  },
-  {
-    "id": "henderson-nv",
-    "city": "Henderson",
-    "state": "NV",
-    "lat": 36.04,
-    "lon": -114.98,
-    "pop": 320000,
-    "elevation_ft": 1867,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "riverside-ca",
-    "city": "Riverside",
-    "state": "CA",
-    "lat": 33.95,
-    "lon": -117.4,
-    "pop": 320000,
-    "elevation_ft": 860,
-    "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "newark-nj",
-    "city": "Newark",
-    "state": "NJ",
-    "lat": 40.74,
-    "lon": -74.17,
-    "pop": 310000,
-    "elevation_ft": 20,
-    "koppen": "Cfa",
-    "coastal": true
-  },
-  {
-    "id": "saint-paul-mn",
-    "city": "Saint Paul",
-    "state": "MN",
-    "lat": 44.95,
-    "lon": -93.09,
-    "pop": 310000,
-    "elevation_ft": 764,
-    "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "santa-ana-ca",
-    "city": "Santa Ana",
-    "state": "CA",
-    "lat": 33.75,
-    "lon": -117.87,
-    "pop": 310000,
-    "elevation_ft": 110,
-    "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "cincinnati-oh",
-    "city": "Cincinnati",
-    "state": "OH",
-    "lat": 39.1,
-    "lon": -84.51,
-    "pop": 310000,
-    "elevation_ft": 482,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "irvine-ca",
-    "city": "Irvine",
-    "state": "CA",
-    "lat": 33.68,
-    "lon": -117.83,
-    "pop": 310000,
-    "elevation_ft": 56,
-    "koppen": "Csb",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "orlando-fl",
@@ -731,30 +764,117 @@
     "state": "FL",
     "lat": 28.54,
     "lon": -81.38,
-    "pop": 310000,
+    "pop": 333888,
     "elevation_ft": 82,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
   },
   {
-    "id": "pittsburgh-pa",
-    "city": "Pittsburgh",
-    "state": "PA",
-    "lat": 40.44,
-    "lon": -79.996,
-    "pop": 300000,
-    "elevation_ft": 1223,
-    "koppen": "Dfb",
-    "coastal": false
+    "id": "lexington-ky",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.04,
+    "lon": -84.5,
+    "pop": 329751,
+    "elevation_ft": 978,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
-    "id": "st-louis-mo",
-    "city": "St. Louis",
-    "state": "MO",
-    "lat": 38.63,
-    "lon": -90.2,
-    "pop": 300000,
-    "elevation_ft": 466,
+    "id": "stockton-ca",
+    "city": "Stockton",
+    "state": "CA",
+    "lat": 37.96,
+    "lon": -121.29,
+    "pop": 324597,
+    "elevation_ft": 13,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "newark-nj",
+    "city": "Newark",
+    "state": "NJ",
+    "lat": 40.74,
+    "lon": -74.17,
+    "pop": 323808,
+    "elevation_ft": 20,
+    "koppen": "Cfa",
+    "coastal": true
+  },
+  {
+    "id": "riverside-ca",
+    "city": "Riverside",
+    "state": "CA",
+    "lat": 33.95,
+    "lon": -117.4,
+    "pop": 323057,
+    "elevation_ft": 860,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "irvine-ca",
+    "city": "Irvine",
+    "state": "CA",
+    "lat": 33.68,
+    "lon": -117.83,
+    "pop": 318764,
+    "elevation_ft": 56,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "corpus-christi-tx",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "lat": 27.8,
+    "lon": -97.4,
+    "pop": 317247,
+    "elevation_ft": 7,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "santa-ana-ca",
+    "city": "Santa Ana",
+    "state": "CA",
+    "lat": 33.75,
+    "lon": -117.87,
+    "pop": 315586,
+    "elevation_ft": 110,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "cincinnati-oh",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.1,
+    "lon": -84.51,
+    "pop": 314367,
+    "elevation_ft": 482,
     "koppen": "Dfa",
     "coastal": false
   },
@@ -764,53 +884,34 @@
     "state": "NC",
     "lat": 36.07,
     "lon": -79.79,
-    "pop": 300000,
+    "pop": 308667,
     "elevation_ft": 896,
     "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "pittsburgh-pa",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.44,
+    "lon": -79.996,
+    "pop": 307632,
+    "elevation_ft": 1223,
+    "koppen": "Dfb",
     "coastal": false
   },
   {
-    "id": "jersey-city-nj",
-    "city": "Jersey City",
-    "state": "NJ",
-    "lat": 40.73,
-    "lon": -74.08,
-    "pop": 290000,
-    "elevation_ft": 20,
-    "koppen": "Cfa",
-    "coastal": true
-  },
-  {
-    "id": "anchorage-ak",
-    "city": "Anchorage",
-    "state": "AK",
-    "lat": 61.22,
-    "lon": -149.9,
-    "pop": 290000,
-    "elevation_ft": 102,
-    "koppen": "Dfc",
-    "coastal": true
-  },
-  {
-    "id": "lincoln-ne",
-    "city": "Lincoln",
-    "state": "NE",
-    "lat": 40.81,
-    "lon": -96.7,
-    "pop": 290000,
-    "elevation_ft": 1176,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "plano-tx",
-    "city": "Plano",
-    "state": "TX",
-    "lat": 33.02,
-    "lon": -96.7,
-    "pop": 290000,
-    "elevation_ft": 700,
-    "koppen": "Cfa",
+    "id": "saint-paul-mn",
+    "city": "Saint Paul",
+    "state": "MN",
+    "lat": 44.95,
+    "lon": -93.09,
+    "pop": 306684,
+    "elevation_ft": 764,
+    "koppen": "Dfb",
     "coastal": false
   },
   {
@@ -819,65 +920,67 @@
     "state": "NC",
     "lat": 35.99,
     "lon": -78.9,
-    "pop": 290000,
+    "pop": 305561,
     "elevation_ft": 404,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "buffalo-ny",
-    "city": "Buffalo",
-    "state": "NY",
-    "lat": 42.89,
-    "lon": -78.88,
-    "pop": 280000,
-    "elevation_ft": 600,
-    "koppen": "Dfb",
+    "id": "jersey-city-nj",
+    "city": "Jersey City",
+    "state": "NJ",
+    "lat": 40.73,
+    "lon": -74.08,
+    "pop": 302013,
+    "elevation_ft": 20,
+    "koppen": "Cfa",
     "coastal": true
   },
   {
-    "id": "chandler-az",
-    "city": "Chandler",
-    "state": "AZ",
-    "lat": 33.31,
-    "lon": -111.84,
-    "pop": 280000,
-    "elevation_ft": 1213,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "chula-vista-ca",
-    "city": "Chula Vista",
-    "state": "CA",
-    "lat": 32.64,
-    "lon": -117.08,
-    "pop": 280000,
-    "elevation_ft": 69,
-    "koppen": "BSh",
-    "coastal": true
-  },
-  {
-    "id": "toledo-oh",
-    "city": "Toledo",
-    "state": "OH",
-    "lat": 41.66,
-    "lon": -83.56,
-    "pop": 270000,
-    "elevation_ft": 614,
+    "id": "lincoln-ne",
+    "city": "Lincoln",
+    "state": "NE",
+    "lat": 40.81,
+    "lon": -96.7,
+    "pop": 301522,
+    "elevation_ft": 1176,
     "koppen": "Dfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "madison-wi",
-    "city": "Madison",
-    "state": "WI",
-    "lat": 43.07,
-    "lon": -89.4,
-    "pop": 270000,
-    "elevation_ft": 873,
-    "koppen": "Dfb",
-    "coastal": false
+    "id": "north-las-vegas-nv",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "lat": 36.2,
+    "lon": -115.12,
+    "pop": 296653,
+    "elevation_ft": 2024,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 9,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "plano-tx",
+    "city": "Plano",
+    "state": "TX",
+    "lat": 33.02,
+    "lon": -96.7,
+    "pop": 293028,
+    "elevation_ft": 700,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "gilbert-az",
@@ -885,9 +988,35 @@
     "state": "AZ",
     "lat": 33.35,
     "lon": -111.79,
-    "pop": 270000,
+    "pop": 287285,
     "elevation_ft": 1024,
     "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "anchorage-ak",
+    "city": "Anchorage",
+    "state": "AK",
+    "lat": 61.22,
+    "lon": -149.9,
+    "pop": 287155,
+    "elevation_ft": 102,
+    "koppen": "Dfc",
+    "coastal": true
+  },
+  {
+    "id": "madison-wi",
+    "city": "Madison",
+    "state": "WI",
+    "lat": 43.07,
+    "lon": -89.4,
+    "pop": 286233,
+    "elevation_ft": 873,
+    "koppen": "Dfb",
     "coastal": false
   },
   {
@@ -896,10 +1025,54 @@
     "state": "NV",
     "lat": 39.53,
     "lon": -119.81,
-    "pop": 270000,
+    "pop": 283621,
     "elevation_ft": 4505,
     "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 7,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "chandler-az",
+    "city": "Chandler",
+    "state": "AZ",
+    "lat": 33.31,
+    "lon": -111.84,
+    "pop": 278748,
+    "elevation_ft": 1213,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "st-louis-mo",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.63,
+    "lon": -90.2,
+    "pop": 278144,
+    "elevation_ft": 466,
+    "koppen": "Dfa",
     "coastal": false
+  },
+  {
+    "id": "chula-vista-ca",
+    "city": "Chula Vista",
+    "state": "CA",
+    "lat": 32.64,
+    "lon": -117.08,
+    "pop": 275533,
+    "elevation_ft": 69,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "fort-wayne-in",
@@ -907,31 +1080,20 @@
     "state": "IN",
     "lat": 41.08,
     "lon": -85.14,
-    "pop": 270000,
+    "pop": 275203,
     "elevation_ft": 810,
     "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "north-las-vegas-nv",
-    "city": "North Las Vegas",
-    "state": "NV",
-    "lat": 36.2,
-    "lon": -115.12,
-    "pop": 270000,
-    "elevation_ft": 2024,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "st-petersburg-fl",
-    "city": "St. Petersburg",
-    "state": "FL",
-    "lat": 27.77,
-    "lon": -82.64,
-    "pop": 260000,
-    "elevation_ft": 44,
-    "koppen": "Cfa",
+    "id": "buffalo-ny",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.89,
+    "lon": -78.88,
+    "pop": 274613,
+    "elevation_ft": 600,
+    "koppen": "Dfb",
     "coastal": true
   },
   {
@@ -940,21 +1102,14 @@
     "state": "TX",
     "lat": 33.58,
     "lon": -101.86,
-    "pop": 260000,
+    "pop": 273071,
     "elevation_ft": 3202,
     "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "irving-tx",
-    "city": "Irving",
-    "state": "TX",
-    "lat": 32.81,
-    "lon": -96.95,
-    "pop": 260000,
-    "elevation_ft": 463,
-    "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 5,
+      "aridsw": true
+    }
   },
   {
     "id": "laredo-tx",
@@ -962,252 +1117,14 @@
     "state": "TX",
     "lat": 27.51,
     "lon": -99.51,
-    "pop": 260000,
+    "pop": 269515,
     "elevation_ft": 438,
     "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "winston-salem-nc",
-    "city": "Winston-Salem",
-    "state": "NC",
-    "lat": 36.1,
-    "lon": -80.24,
-    "pop": 250000,
-    "elevation_ft": 912,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "chesapeake-va",
-    "city": "Chesapeake",
-    "state": "VA",
-    "lat": 36.77,
-    "lon": -76.29,
-    "pop": 250000,
-    "elevation_ft": 12,
-    "koppen": "Cfa",
-    "coastal": true
-  },
-  {
-    "id": "glendale-az",
-    "city": "Glendale",
-    "state": "AZ",
-    "lat": 33.54,
-    "lon": -112.19,
-    "pop": 250000,
-    "elevation_ft": 1155,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "scottsdale-az",
-    "city": "Scottsdale",
-    "state": "AZ",
-    "lat": 33.49,
-    "lon": -111.93,
-    "pop": 240000,
-    "elevation_ft": 1257,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "norfolk-va",
-    "city": "Norfolk",
-    "state": "VA",
-    "lat": 36.85,
-    "lon": -76.29,
-    "pop": 240000,
-    "elevation_ft": 7,
-    "koppen": "Cfa",
-    "coastal": true
-  },
-  {
-    "id": "fremont-ca",
-    "city": "Fremont",
-    "state": "CA",
-    "lat": 37.55,
-    "lon": -121.99,
-    "pop": 230000,
-    "elevation_ft": 56,
-    "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "garland-tx",
-    "city": "Garland",
-    "state": "TX",
-    "lat": 32.91,
-    "lon": -96.64,
-    "pop": 240000,
-    "elevation_ft": 563,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "hialeah-fl",
-    "city": "Hialeah",
-    "state": "FL",
-    "lat": 25.86,
-    "lon": -80.28,
-    "pop": 220000,
-    "elevation_ft": 10,
-    "koppen": "Aw",
-    "coastal": true
-  },
-  {
-    "id": "richmond-va",
-    "city": "Richmond",
-    "state": "VA",
-    "lat": 37.54,
-    "lon": -77.44,
-    "pop": 230000,
-    "elevation_ft": 167,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "spokane-wa",
-    "city": "Spokane",
-    "state": "WA",
-    "lat": 47.66,
-    "lon": -117.43,
-    "pop": 230000,
-    "elevation_ft": 1843,
-    "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "baton-rouge-la",
-    "city": "Baton Rouge",
-    "state": "LA",
-    "lat": 30.45,
-    "lon": -91.19,
-    "pop": 220000,
-    "elevation_ft": 56,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "tacoma-wa",
-    "city": "Tacoma",
-    "state": "WA",
-    "lat": 47.25,
-    "lon": -122.44,
-    "pop": 220000,
-    "elevation_ft": 243,
-    "koppen": "Cfb",
-    "coastal": true
-  },
-  {
-    "id": "san-bernardino-ca",
-    "city": "San Bernardino",
-    "state": "CA",
-    "lat": 34.11,
-    "lon": -117.29,
-    "pop": 220000,
-    "elevation_ft": 1053,
-    "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "modesto-ca",
-    "city": "Modesto",
-    "state": "CA",
-    "lat": 37.64,
-    "lon": -120.997,
-    "pop": 220000,
-    "elevation_ft": 88,
-    "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "fontana-ca",
-    "city": "Fontana",
-    "state": "CA",
-    "lat": 34.09,
-    "lon": -117.44,
-    "pop": 210000,
-    "elevation_ft": 1237,
-    "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "des-moines-ia",
-    "city": "Des Moines",
-    "state": "IA",
-    "lat": 41.59,
-    "lon": -93.62,
-    "pop": 210000,
-    "elevation_ft": 955,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "moreno-valley-ca",
-    "city": "Moreno Valley",
-    "state": "CA",
-    "lat": 33.94,
-    "lon": -117.23,
-    "pop": 210000,
-    "elevation_ft": 1631,
-    "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "santa-clarita-ca",
-    "city": "Santa Clarita",
-    "state": "CA",
-    "lat": 34.39,
-    "lon": -118.54,
-    "pop": 230000,
-    "elevation_ft": 1207,
-    "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "fayetteville-nc",
-    "city": "Fayetteville",
-    "state": "NC",
-    "lat": 35.05,
-    "lon": -78.88,
-    "pop": 210000,
-    "elevation_ft": 95,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "birmingham-al",
-    "city": "Birmingham",
-    "state": "AL",
-    "lat": 33.52,
-    "lon": -86.81,
-    "pop": 200000,
-    "elevation_ft": 644,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "oxnard-ca",
-    "city": "Oxnard",
-    "state": "CA",
-    "lat": 34.2,
-    "lon": -119.18,
-    "pop": 200000,
-    "elevation_ft": 52,
-    "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "rochester-ny",
-    "city": "Rochester",
-    "state": "NY",
-    "lat": 43.16,
-    "lon": -77.61,
-    "pop": 210000,
-    "elevation_ft": 505,
-    "koppen": "Dfb",
-    "coastal": true
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
   },
   {
     "id": "port-st-lucie-fl",
@@ -1215,43 +1132,167 @@
     "state": "FL",
     "lat": 27.27,
     "lon": -80.36,
-    "pop": 230000,
+    "pop": 268062,
     "elevation_ft": 23,
     "koppen": "Cfa",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "grand-rapids-mi",
-    "city": "Grand Rapids",
-    "state": "MI",
-    "lat": 42.96,
-    "lon": -85.67,
-    "pop": 200000,
-    "elevation_ft": 610,
-    "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "huntsville-al",
-    "city": "Huntsville",
-    "state": "AL",
-    "lat": 34.73,
-    "lon": -86.59,
-    "pop": 220000,
-    "elevation_ft": 600,
+    "id": "st-petersburg-fl",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.77,
+    "lon": -82.64,
+    "pop": 264033,
+    "elevation_ft": 44,
     "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "toledo-oh",
+    "city": "Toledo",
+    "state": "OH",
+    "lat": 41.66,
+    "lon": -83.56,
+    "pop": 263423,
+    "elevation_ft": 614,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "salt-lake-city-ut",
-    "city": "Salt Lake City",
-    "state": "UT",
-    "lat": 40.76,
-    "lon": -111.89,
-    "pop": 200000,
-    "elevation_ft": 4226,
+    "id": "glendale-az",
+    "city": "Glendale",
+    "state": "AZ",
+    "lat": 33.54,
+    "lon": -112.19,
+    "pop": 260572,
+    "elevation_ft": 1155,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "winston-salem-nc",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "lat": 36.1,
+    "lon": -80.24,
+    "pop": 257271,
+    "elevation_ft": 912,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "irving-tx",
+    "city": "Irving",
+    "state": "TX",
+    "lat": 32.81,
+    "lon": -96.95,
+    "pop": 257076,
+    "elevation_ft": 463,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "chesapeake-va",
+    "city": "Chesapeake",
+    "state": "VA",
+    "lat": 36.77,
+    "lon": -76.29,
+    "pop": 255332,
+    "elevation_ft": 12,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "garland-tx",
+    "city": "Garland",
+    "state": "TX",
+    "lat": 32.91,
+    "lon": -96.64,
+    "pop": 249625,
+    "elevation_ft": 563,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "arlington-va",
+    "city": "Arlington",
+    "state": "VA",
+    "lat": 38.88,
+    "lon": -77.1,
+    "pop": 243931,
+    "elevation_ft": 264,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "scottsdale-az",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "lat": 33.49,
+    "lon": -111.93,
+    "pop": 243006,
+    "elevation_ft": 1257,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "boise-id",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.62,
+    "lon": -116.2,
+    "pop": 238429,
+    "elevation_ft": 2704,
     "koppen": "BSk",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 22,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "richmond-va",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.54,
+    "lon": -77.44,
+    "pop": 237257,
+    "elevation_ft": 167,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "frisco-tx",
@@ -1259,175 +1300,13 @@
     "state": "TX",
     "lat": 33.15,
     "lon": -96.82,
-    "pop": 220000,
+    "pop": 236955,
     "elevation_ft": 700,
     "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "yonkers-ny",
-    "city": "Yonkers",
-    "state": "NY",
-    "lat": 40.93,
-    "lon": -73.9,
-    "pop": 210000,
-    "elevation_ft": 52,
-    "koppen": "Cfa",
-    "coastal": true
-  },
-  {
-    "id": "amarillo-tx",
-    "city": "Amarillo",
-    "state": "TX",
-    "lat": 35.22,
-    "lon": -101.83,
-    "pop": 200000,
-    "elevation_ft": 3606,
-    "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "glendale-ca",
-    "city": "Glendale",
-    "state": "CA",
-    "lat": 34.14,
-    "lon": -118.26,
-    "pop": 200000,
-    "elevation_ft": 522,
-    "koppen": "Csa",
-    "coastal": false
-  },
-  {
-    "id": "huntington-beach-ca",
-    "city": "Huntington Beach",
-    "state": "CA",
-    "lat": 33.66,
-    "lon": -117.999,
-    "pop": 200000,
-    "elevation_ft": 36,
-    "koppen": "Csb",
-    "coastal": true
-  },
-  {
-    "id": "mckinney-tx",
-    "city": "McKinney",
-    "state": "TX",
-    "lat": 33.2,
-    "lon": -96.64,
-    "pop": 200000,
-    "elevation_ft": 600,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "montgomery-al",
-    "city": "Montgomery",
-    "state": "AL",
-    "lat": 32.37,
-    "lon": -86.3,
-    "pop": 200000,
-    "elevation_ft": 220,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "augusta-ga",
-    "city": "Augusta",
-    "state": "GA",
-    "lat": 33.47,
-    "lon": -81.97,
-    "pop": 200000,
-    "elevation_ft": 143,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "aurora-il",
-    "city": "Aurora",
-    "state": "IL",
-    "lat": 41.76,
-    "lon": -88.32,
-    "pop": 180000,
-    "elevation_ft": 682,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "akron-oh",
-    "city": "Akron",
-    "state": "OH",
-    "lat": 41.08,
-    "lon": -81.52,
-    "pop": 190000,
-    "elevation_ft": 1004,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "little-rock-ar",
-    "city": "Little Rock",
-    "state": "AR",
-    "lat": 34.75,
-    "lon": -92.29,
-    "pop": 200000,
-    "elevation_ft": 335,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "tempe-az",
-    "city": "Tempe",
-    "state": "AZ",
-    "lat": 33.43,
-    "lon": -111.94,
-    "pop": 180000,
-    "elevation_ft": 1140,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "columbus-ga",
-    "city": "Columbus",
-    "state": "GA",
-    "lat": 32.46,
-    "lon": -84.99,
-    "pop": 200000,
-    "elevation_ft": 243,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "overland-park-ks",
-    "city": "Overland Park",
-    "state": "KS",
-    "lat": 38.98,
-    "lon": -94.67,
-    "pop": 200000,
-    "elevation_ft": 1030,
-    "koppen": "Dfa",
-    "coastal": false
-  },
-  {
-    "id": "grand-prairie-tx",
-    "city": "Grand Prairie",
-    "state": "TX",
-    "lat": 32.75,
-    "lon": -97.0,
-    "pop": 200000,
-    "elevation_ft": 560,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "tallahassee-fl",
-    "city": "Tallahassee",
-    "state": "FL",
-    "lat": 30.44,
-    "lon": -84.28,
-    "pop": 200000,
-    "elevation_ft": 203,
-    "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
     "id": "cape-coral-fl",
@@ -1435,43 +1314,210 @@
     "state": "FL",
     "lat": 26.56,
     "lon": -81.95,
-    "pop": 200000,
+    "pop": 236264,
     "elevation_ft": 10,
     "koppen": "Aw",
-    "coastal": true
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "mobile-al",
-    "city": "Mobile",
+    "id": "mckinney-tx",
+    "city": "McKinney",
+    "state": "TX",
+    "lat": 33.2,
+    "lon": -96.64,
+    "pop": 236001,
+    "elevation_ft": 600,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "huntsville-al",
+    "city": "Huntsville",
     "state": "AL",
-    "lat": 30.69,
-    "lon": -88.04,
-    "pop": 180000,
+    "lat": 34.73,
+    "lon": -86.59,
+    "pop": 233627,
+    "elevation_ft": 600,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "norfolk-va",
+    "city": "Norfolk",
+    "state": "VA",
+    "lat": 36.85,
+    "lon": -76.29,
+    "pop": 231013,
+    "elevation_ft": 7,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "hialeah-fl",
+    "city": "Hialeah",
+    "state": "FL",
+    "lat": 25.86,
+    "lon": -80.28,
+    "pop": 230968,
     "elevation_ft": 10,
-    "koppen": "Cfa",
-    "coastal": true
+    "koppen": "Aw",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "knoxville-tn",
-    "city": "Knoxville",
-    "state": "TN",
-    "lat": 35.96,
-    "lon": -83.92,
-    "pop": 190000,
-    "elevation_ft": 886,
-    "koppen": "Cfa",
-    "coastal": false
+    "id": "spokane-wa",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.66,
+    "lon": -117.43,
+    "pop": 230783,
+    "elevation_ft": 1843,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
-    "id": "shreveport-la",
-    "city": "Shreveport",
+    "id": "tacoma-wa",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.25,
+    "lon": -122.44,
+    "pop": 229816,
+    "elevation_ft": 243,
+    "koppen": "Cfb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "santa-clarita-ca",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "lat": 34.39,
+    "lon": -118.54,
+    "pop": 228430,
+    "elevation_ft": 1207,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "fremont-ca",
+    "city": "Fremont",
+    "state": "CA",
+    "lat": 37.55,
+    "lon": -121.99,
+    "pop": 226442,
+    "elevation_ft": 56,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "baton-rouge-la",
+    "city": "Baton Rouge",
     "state": "LA",
-    "lat": 32.53,
-    "lon": -93.75,
-    "pop": 180000,
-    "elevation_ft": 180,
+    "lat": 30.45,
+    "lon": -91.19,
+    "pop": 222795,
+    "elevation_ft": 56,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "san-bernardino-ca",
+    "city": "San Bernardino",
+    "state": "CA",
+    "lat": 34.11,
+    "lon": -117.29,
+    "pop": 222044,
+    "elevation_ft": 1053,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "fontana-ca",
+    "city": "Fontana",
+    "state": "CA",
+    "lat": 34.09,
+    "lon": -117.44,
+    "pop": 221223,
+    "elevation_ft": 1237,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "modesto-ca",
+    "city": "Modesto",
+    "state": "CA",
+    "lat": 37.64,
+    "lon": -120.997,
+    "pop": 219652,
+    "elevation_ft": 88,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "salt-lake-city-ut",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.76,
+    "lon": -111.89,
+    "pop": 218428,
+    "elevation_ft": 4226,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 7,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "moreno-valley-ca",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -117.23,
+    "pop": 214263,
+    "elevation_ft": 1631,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
   },
   {
     "id": "worcester-ma",
@@ -1479,31 +1525,9 @@
     "state": "MA",
     "lat": 42.26,
     "lon": -71.8,
-    "pop": 210000,
+    "pop": 213862,
     "elevation_ft": 480,
     "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "ontario-ca",
-    "city": "Ontario",
-    "state": "CA",
-    "lat": 34.07,
-    "lon": -117.65,
-    "pop": 180000,
-    "elevation_ft": 988,
-    "koppen": "BSh",
-    "coastal": false
-  },
-  {
-    "id": "vancouver-wa",
-    "city": "Vancouver",
-    "state": "WA",
-    "lat": 45.63,
-    "lon": -122.66,
-    "pop": 190000,
-    "elevation_ft": 164,
-    "koppen": "Csb",
     "coastal": false
   },
   {
@@ -1512,86 +1536,186 @@
     "state": "SD",
     "lat": 43.55,
     "lon": -96.7,
-    "pop": 200000,
+    "pop": 213748,
     "elevation_ft": 1442,
     "koppen": "Dfa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "chattanooga-tn",
-    "city": "Chattanooga",
-    "state": "TN",
-    "lat": 35.05,
-    "lon": -85.31,
-    "pop": 180000,
-    "elevation_ft": 680,
+    "id": "yonkers-ny",
+    "city": "Yonkers",
+    "state": "NY",
+    "lat": 40.93,
+    "lon": -73.9,
+    "pop": 212603,
+    "elevation_ft": 52,
     "koppen": "Cfa",
-    "coastal": false
+    "coastal": true
   },
   {
-    "id": "brownsville-tx",
-    "city": "Brownsville",
+    "id": "des-moines-ia",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.59,
+    "lon": -93.62,
+    "pop": 212086,
+    "elevation_ft": 955,
+    "koppen": "Dfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "grand-prairie-tx",
+    "city": "Grand Prairie",
     "state": "TX",
-    "lat": 25.9,
-    "lon": -97.5,
-    "pop": 190000,
-    "elevation_ft": 33,
-    "koppen": "BSh",
-    "coastal": true
+    "lat": 32.75,
+    "lon": -97.0,
+    "pop": 209434,
+    "elevation_ft": 560,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
   },
   {
-    "id": "fort-lauderdale-fl",
-    "city": "Fort Lauderdale",
-    "state": "FL",
-    "lat": 26.12,
-    "lon": -80.14,
-    "pop": 180000,
-    "elevation_ft": 9,
-    "koppen": "Aw",
-    "coastal": true
+    "id": "fayetteville-nc",
+    "city": "Fayetteville",
+    "state": "NC",
+    "lat": 35.05,
+    "lon": -78.88,
+    "pop": 209120,
+    "elevation_ft": 95,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "providence-ri",
-    "city": "Providence",
-    "state": "RI",
-    "lat": 41.82,
-    "lon": -71.41,
-    "pop": 190000,
-    "elevation_ft": 79,
+    "id": "little-rock-ar",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.75,
+    "lon": -92.29,
+    "pop": 206427,
+    "elevation_ft": 335,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "rochester-ny",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.16,
+    "lon": -77.61,
+    "pop": 206108,
+    "elevation_ft": 505,
     "koppen": "Dfb",
     "coastal": true
   },
   {
-    "id": "newport-news-va",
-    "city": "Newport News",
-    "state": "VA",
-    "lat": 37.09,
-    "lon": -76.52,
-    "pop": 180000,
-    "elevation_ft": 25,
+    "id": "amarillo-tx",
+    "city": "Amarillo",
+    "state": "TX",
+    "lat": 35.22,
+    "lon": -101.83,
+    "pop": 205130,
+    "elevation_ft": 3606,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 5,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "tallahassee-fl",
+    "city": "Tallahassee",
+    "state": "FL",
+    "lat": 30.44,
+    "lon": -84.28,
+    "pop": 204902,
+    "elevation_ft": 203,
     "koppen": "Cfa",
-    "coastal": true
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "rancho-cucamonga-ca",
-    "city": "Rancho Cucamonga",
-    "state": "CA",
-    "lat": 34.11,
-    "lon": -117.59,
-    "pop": 180000,
-    "elevation_ft": 1200,
-    "koppen": "BSh",
-    "coastal": false
+    "id": "overland-park-ks",
+    "city": "Overland Park",
+    "state": "KS",
+    "lat": 38.98,
+    "lon": -94.67,
+    "pop": 203677,
+    "elevation_ft": 1030,
+    "koppen": "Dfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
-    "id": "santa-rosa-ca",
-    "city": "Santa Rosa",
-    "state": "CA",
-    "lat": 38.44,
-    "lon": -122.71,
-    "pop": 180000,
-    "elevation_ft": 164,
-    "koppen": "Csb",
+    "id": "columbus-ga",
+    "city": "Columbus",
+    "state": "GA",
+    "lat": 32.46,
+    "lon": -84.99,
+    "pop": 202171,
+    "elevation_ft": 243,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "knoxville-tn",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.96,
+    "lon": -83.92,
+    "pop": 202021,
+    "elevation_ft": 886,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "augusta-ga",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.47,
+    "lon": -81.97,
+    "pop": 201999,
+    "elevation_ft": 143,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "grand-rapids-mi",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.96,
+    "lon": -85.67,
+    "pop": 201183,
+    "elevation_ft": 610,
+    "koppen": "Dfb",
     "coastal": false
   },
   {
@@ -1600,21 +1724,220 @@
     "state": "AZ",
     "lat": 33.58,
     "lon": -112.24,
-    "pop": 190000,
+    "pop": 200881,
     "elevation_ft": 1150,
     "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "mobile-al",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.69,
+    "lon": -88.04,
+    "pop": 200824,
+    "elevation_ft": 10,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "vancouver-wa",
+    "city": "Vancouver",
+    "state": "WA",
+    "lat": 45.63,
+    "lon": -122.66,
+    "pop": 199698,
+    "elevation_ft": 164,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 8
+    }
+  },
+  {
+    "id": "oxnard-ca",
+    "city": "Oxnard",
+    "state": "CA",
+    "lat": 34.2,
+    "lon": -119.18,
+    "pop": 199651,
+    "elevation_ft": 52,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "birmingham-al",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.52,
+    "lon": -86.81,
+    "pop": 195893,
+    "elevation_ft": 644,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "providence-ri",
+    "city": "Providence",
+    "state": "RI",
+    "lat": 41.82,
+    "lon": -71.41,
+    "pop": 195310,
+    "elevation_ft": 79,
+    "koppen": "Dfb",
+    "coastal": true
+  },
+  {
+    "id": "montgomery-al",
+    "city": "Montgomery",
+    "state": "AL",
+    "lat": 32.37,
+    "lon": -86.3,
+    "pop": 195300,
+    "elevation_ft": 220,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "chattanooga-tn",
+    "city": "Chattanooga",
+    "state": "TN",
+    "lat": 35.05,
+    "lon": -85.31,
+    "pop": 194144,
+    "elevation_ft": 680,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "brownsville-tx",
+    "city": "Brownsville",
+    "state": "TX",
+    "lat": 25.9,
+    "lon": -97.5,
+    "pop": 192957,
+    "elevation_ft": 33,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "huntington-beach-ca",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "lat": 33.66,
+    "lon": -117.999,
+    "pop": 191451,
+    "elevation_ft": 36,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "tempe-az",
+    "city": "Tempe",
+    "state": "AZ",
+    "lat": 33.43,
+    "lon": -111.94,
+    "pop": 190571,
+    "elevation_ft": 1140,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "akron-oh",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.08,
+    "lon": -81.52,
+    "pop": 189691,
+    "elevation_ft": 1004,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "oceanside-ca",
-    "city": "Oceanside",
+    "id": "clarksville-tn",
+    "city": "Clarksville",
+    "state": "TN",
+    "lat": 36.57,
+    "lon": -87.35,
+    "pop": 188829,
+    "elevation_ft": 477,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "fort-lauderdale-fl",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "lat": 26.12,
+    "lon": -80.14,
+    "pop": 188677,
+    "elevation_ft": 9,
+    "koppen": "Aw",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "glendale-ca",
+    "city": "Glendale",
     "state": "CA",
-    "lat": 33.2,
-    "lon": -117.38,
-    "pop": 170000,
-    "elevation_ft": 30,
-    "koppen": "Csb",
-    "coastal": true
+    "lat": 34.14,
+    "lon": -118.26,
+    "pop": 187160,
+    "elevation_ft": 522,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "ontario-ca",
+    "city": "Ontario",
+    "state": "CA",
+    "lat": 34.07,
+    "lon": -117.65,
+    "pop": 187013,
+    "elevation_ft": 988,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
   },
   {
     "id": "elk-grove-ca",
@@ -1622,10 +1945,41 @@
     "state": "CA",
     "lat": 38.41,
     "lon": -121.37,
-    "pop": 180000,
+    "pop": 185007,
     "elevation_ft": 46,
     "koppen": "Csa",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "cary-nc",
+    "city": "Cary",
+    "state": "NC",
+    "lat": 35.78,
+    "lon": -78.82,
+    "pop": 183582,
+    "elevation_ft": 380,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "newport-news-va",
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.09,
+    "lon": -76.52,
+    "pop": 183230,
+    "elevation_ft": 25,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "salem-or",
@@ -1633,32 +1987,4160 @@
     "state": "OR",
     "lat": 44.94,
     "lon": -123.04,
-    "pop": 180000,
+    "pop": 181779,
     "elevation_ft": 154,
     "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 9
+    }
+  },
+  {
+    "id": "aurora-il",
+    "city": "Aurora",
+    "state": "IL",
+    "lat": 41.76,
+    "lon": -88.32,
+    "pop": 181505,
+    "elevation_ft": 682,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "grand-junction-co",
-    "city": "Grand Junction",
+    "id": "santa-rosa-ca",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "lat": 38.44,
+    "lon": -122.71,
+    "pop": 179437,
+    "elevation_ft": 164,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "eugene-or",
+    "city": "Eugene",
+    "state": "OR",
+    "lat": 44.06,
+    "lon": -123.12,
+    "pop": 178618,
+    "elevation_ft": 414,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 9
+    }
+  },
+  {
+    "id": "rancho-cucamonga-ca",
+    "city": "Rancho Cucamonga",
+    "state": "CA",
+    "lat": 34.11,
+    "lon": -117.59,
+    "pop": 177856,
+    "elevation_ft": 1200,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "pembroke-pines-fl",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "lat": 26.01,
+    "lon": -80.34,
+    "pop": 176714,
+    "elevation_ft": 1,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "shreveport-la",
+    "city": "Shreveport",
+    "state": "LA",
+    "lat": 32.53,
+    "lon": -93.75,
+    "pop": 175902,
+    "elevation_ft": 180,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "surprise-az",
+    "city": "Surprise",
+    "state": "AZ",
+    "lat": 33.67,
+    "lon": -112.45,
+    "pop": 175304,
+    "elevation_ft": 1363,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "fort-collins-co",
+    "city": "Fort Collins",
     "state": "CO",
-    "lat": 39.06,
-    "lon": -108.55,
-    "pop": 66000,
-    "elevation_ft": 4583,
+    "lat": 40.55,
+    "lon": -105.06,
+    "pop": 171500,
+    "elevation_ft": 4993,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "murfreesboro-tn",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "lat": 35.85,
+    "lon": -86.42,
+    "pop": 171178,
+    "elevation_ft": 566,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "oceanside-ca",
+    "city": "Oceanside",
+    "state": "CA",
+    "lat": 33.2,
+    "lon": -117.38,
+    "pop": 170483,
+    "elevation_ft": 30,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "garden-grove-ca",
+    "city": "Garden Grove",
+    "state": "CA",
+    "lat": 33.78,
+    "lon": -117.96,
+    "pop": 170455,
+    "elevation_ft": 82,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lancaster-ca",
+    "city": "Lancaster",
+    "state": "CA",
+    "lat": 34.69,
+    "lon": -118.18,
+    "pop": 170084,
+    "elevation_ft": 2329,
     "koppen": "BSk",
     "coastal": false
   },
   {
-    "id": "sundance-wy",
-    "city": "Sundance",
-    "state": "WY",
-    "lat": 44.41,
-    "lon": -104.38,
-    "pop": 1200,
-    "elevation_ft": 4750,
-    "koppen": "Dfb",
+    "id": "springfield-mo",
+    "city": "Springfield",
+    "state": "MO",
+    "lat": 37.19,
+    "lon": -93.29,
+    "pop": 169847,
+    "elevation_ft": 1294,
+    "koppen": "Dfa",
     "coastal": false
+  },
+  {
+    "id": "denton-tx",
+    "city": "Denton",
+    "state": "TX",
+    "lat": 33.22,
+    "lon": -97.14,
+    "pop": 169431,
+    "elevation_ft": 663,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "roseville-ca",
+    "city": "Roseville",
+    "state": "CA",
+    "lat": 38.77,
+    "lon": -121.32,
+    "pop": 167302,
+    "elevation_ft": 146,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "killeen-tx",
+    "city": "Killeen",
+    "state": "TX",
+    "lat": 31.08,
+    "lon": -97.73,
+    "pop": 161883,
+    "elevation_ft": 882,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "palmdale-ca",
+    "city": "Palmdale",
+    "state": "CA",
+    "lat": 34.59,
+    "lon": -118.11,
+    "pop": 161845,
+    "elevation_ft": 2611,
+    "koppen": "BSk",
+    "coastal": false
+  },
+  {
+    "id": "paterson-nj",
+    "city": "Paterson",
+    "state": "NJ",
+    "lat": 40.91,
+    "lon": -74.16,
+    "pop": 161793,
+    "elevation_ft": 104,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "corona-ca",
+    "city": "Corona",
+    "state": "CA",
+    "lat": 33.86,
+    "lon": -117.57,
+    "pop": 161734,
+    "elevation_ft": 835,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "alexandria-va",
+    "city": "Alexandria",
+    "state": "VA",
+    "lat": 38.82,
+    "lon": -77.08,
+    "pop": 160662,
+    "elevation_ft": 165,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "charleston-sc",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.83,
+    "lon": -79.97,
+    "pop": 159423,
+    "elevation_ft": 5,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "salinas-ca",
+    "city": "Salinas",
+    "state": "CA",
+    "lat": 36.69,
+    "lon": -121.63,
+    "pop": 159134,
+    "elevation_ft": 62,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "kansas-city-ks",
+    "city": "Kansas City",
+    "state": "KS",
+    "lat": 39.12,
+    "lon": -94.74,
+    "pop": 157805,
+    "elevation_ft": 981,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "macon-ga",
+    "city": "Macon",
+    "state": "GA",
+    "lat": 32.81,
+    "lon": -83.69,
+    "pop": 157556,
+    "elevation_ft": 371,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "hayward-ca",
+    "city": "Hayward",
+    "state": "CA",
+    "lat": 37.63,
+    "lon": -122.1,
+    "pop": 157113,
+    "elevation_ft": 23,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "hollywood-fl",
+    "city": "Hollywood",
+    "state": "FL",
+    "lat": 26.03,
+    "lon": -80.16,
+    "pop": 157019,
+    "elevation_ft": 19,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "lakewood-co",
+    "city": "Lakewood",
+    "state": "CO",
+    "lat": 39.7,
+    "lon": -105.12,
+    "pop": 156927,
+    "elevation_ft": 5657,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "sunnyvale-ca",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "lat": 37.39,
+    "lon": -122.03,
+    "pop": 156577,
+    "elevation_ft": 57,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "springfield-ma",
+    "city": "Springfield",
+    "state": "MA",
+    "lat": 42.12,
+    "lon": -72.54,
+    "pop": 154702,
+    "elevation_ft": 171,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bellevue-wa",
+    "city": "Bellevue",
+    "state": "WA",
+    "lat": 47.6,
+    "lon": -122.16,
+    "pop": 154193,
+    "elevation_ft": 300,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "naperville-il",
+    "city": "Naperville",
+    "state": "IL",
+    "lat": 41.75,
+    "lon": -88.16,
+    "pop": 153114,
+    "elevation_ft": 700,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bridgeport-ct",
+    "city": "Bridgeport",
+    "state": "CT",
+    "lat": 41.19,
+    "lon": -73.2,
+    "pop": 152273,
+    "elevation_ft": 44,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "joliet-il",
+    "city": "Joliet",
+    "state": "IL",
+    "lat": 41.52,
+    "lon": -88.15,
+    "pop": 152241,
+    "elevation_ft": 614,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "mesquite-tx",
+    "city": "Mesquite",
+    "state": "TX",
+    "lat": 32.76,
+    "lon": -96.58,
+    "pop": 150693,
+    "elevation_ft": 499,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "mcallen-tx",
+    "city": "McAllen",
+    "state": "TX",
+    "lat": 26.23,
+    "lon": -98.25,
+    "pop": 150640,
+    "elevation_ft": 120,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "olathe-ks",
+    "city": "Olathe",
+    "state": "KS",
+    "lat": 38.88,
+    "lon": -94.82,
+    "pop": 150025,
+    "elevation_ft": 1038,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "savannah-ga",
+    "city": "Savannah",
+    "state": "GA",
+    "lat": 32.02,
+    "lon": -81.2,
+    "pop": 149440,
+    "elevation_ft": 5,
+    "koppen": "Cfa",
+    "coastal": true
+  },
+  {
+    "id": "gainesville-fl",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.68,
+    "lon": -82.35,
+    "pop": 148671,
+    "elevation_ft": 168,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "pasadena-tx",
+    "city": "Pasadena",
+    "state": "TX",
+    "lat": 29.66,
+    "lon": -95.15,
+    "pop": 148539,
+    "elevation_ft": 25,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "palm-bay-fl",
+    "city": "Palm Bay",
+    "state": "FL",
+    "lat": 27.95,
+    "lon": -80.67,
+    "pop": 148092,
+    "elevation_ft": 23,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "pomona-ca",
+    "city": "Pomona",
+    "state": "CA",
+    "lat": 34.06,
+    "lon": -117.76,
+    "pop": 147807,
+    "elevation_ft": 845,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "waco-tx",
+    "city": "Waco",
+    "state": "TX",
+    "lat": 31.56,
+    "lon": -97.19,
+    "pop": 147788,
+    "elevation_ft": 547,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "thornton-co",
+    "city": "Thornton",
+    "state": "CO",
+    "lat": 39.92,
+    "lon": -104.94,
+    "pop": 147766,
+    "elevation_ft": 5195,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "midland-tx",
+    "city": "Midland",
+    "state": "TX",
+    "lat": 32.02,
+    "lon": -102.11,
+    "pop": 147615,
+    "elevation_ft": 2804,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "rockford-il",
+    "city": "Rockford",
+    "state": "IL",
+    "lat": 42.26,
+    "lon": -89.06,
+    "pop": 147384,
+    "elevation_ft": 728,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "columbia-sc",
+    "city": "Columbia",
+    "state": "SC",
+    "lat": 34.04,
+    "lon": -80.91,
+    "pop": 147035,
+    "elevation_ft": 323,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "visalia-ca",
+    "city": "Visalia",
+    "state": "CA",
+    "lat": 36.33,
+    "lon": -119.33,
+    "pop": 146541,
+    "elevation_ft": 316,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "escondido-ca",
+    "city": "Escondido",
+    "state": "CA",
+    "lat": 33.13,
+    "lon": -117.07,
+    "pop": 146030,
+    "elevation_ft": 670,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "syracuse-ny",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.04,
+    "lon": -76.14,
+    "pop": 144896,
+    "elevation_ft": 403,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "meridian-id",
+    "city": "Meridian",
+    "state": "ID",
+    "lat": 43.61,
+    "lon": -116.4,
+    "pop": 142988,
+    "elevation_ft": 2593,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 10,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "miramar-fl",
+    "city": "Miramar",
+    "state": "FL",
+    "lat": 25.97,
+    "lon": -80.34,
+    "pop": 142570,
+    "elevation_ft": 0,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "elizabeth-nj",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "lat": 40.67,
+    "lon": -74.19,
+    "pop": 141675,
+    "elevation_ft": 11,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "victorville-ca",
+    "city": "Victorville",
+    "state": "CA",
+    "lat": 34.53,
+    "lon": -117.35,
+    "pop": 141395,
+    "elevation_ft": 2954,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "round-rock-tx",
+    "city": "Round Rock",
+    "state": "TX",
+    "lat": 30.53,
+    "lon": -97.66,
+    "pop": 141282,
+    "elevation_ft": 731,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "jackson-ms",
+    "city": "Jackson",
+    "state": "MS",
+    "lat": 32.32,
+    "lon": -90.21,
+    "pop": 141196,
+    "elevation_ft": 364,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "stamford-ct",
+    "city": "Stamford",
+    "state": "CT",
+    "lat": 41.08,
+    "lon": -73.55,
+    "pop": 139535,
+    "elevation_ft": 147,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "lewisville-tx",
+    "city": "Lewisville",
+    "state": "TX",
+    "lat": 33.05,
+    "lon": -96.97,
+    "pop": 139006,
+    "elevation_ft": 474,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "coral-springs-fl",
+    "city": "Coral Springs",
+    "state": "FL",
+    "lat": 26.27,
+    "lon": -80.26,
+    "pop": 138783,
+    "elevation_ft": 8,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "new-haven-ct",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.31,
+    "lon": -72.92,
+    "pop": 138774,
+    "elevation_ft": 29,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "fullerton-ca",
+    "city": "Fullerton",
+    "state": "CA",
+    "lat": 33.89,
+    "lon": -117.93,
+    "pop": 138675,
+    "elevation_ft": 274,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "torrance-ca",
+    "city": "Torrance",
+    "state": "CA",
+    "lat": 33.83,
+    "lon": -118.36,
+    "pop": 138391,
+    "elevation_ft": 84,
+    "koppen": "BSk",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "orange-ca",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.79,
+    "lon": -117.86,
+    "pop": 138365,
+    "elevation_ft": 171,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "cedar-rapids-ia",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "lat": 41.96,
+    "lon": -91.68,
+    "pop": 137935,
+    "elevation_ft": 732,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "west-valley-city-ut",
+    "city": "West Valley City",
+    "state": "UT",
+    "lat": 40.69,
+    "lon": -112.01,
+    "pop": 137491,
+    "elevation_ft": 4347,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "hampton-va",
+    "city": "Hampton",
+    "state": "VA",
+    "lat": 37.05,
+    "lon": -76.3,
+    "pop": 137315,
+    "elevation_ft": 2,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "warren-mi",
+    "city": "Warren",
+    "state": "MI",
+    "lat": 42.49,
+    "lon": -83.03,
+    "pop": 137138,
+    "elevation_ft": 623,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "dayton-oh",
+    "city": "Dayton",
+    "state": "OH",
+    "lat": 39.78,
+    "lon": -84.2,
+    "pop": 136688,
+    "elevation_ft": 752,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "fargo-nd",
+    "city": "Fargo",
+    "state": "ND",
+    "lat": 46.86,
+    "lon": -96.83,
+    "pop": 136275,
+    "elevation_ft": 901,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "pasadena-ca",
+    "city": "Pasadena",
+    "state": "CA",
+    "lat": 34.16,
+    "lon": -118.14,
+    "pop": 135804,
+    "elevation_ft": 921,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "kent-wa",
+    "city": "Kent",
+    "state": "WA",
+    "lat": 47.39,
+    "lon": -122.21,
+    "pop": 134871,
+    "elevation_ft": 393,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "carrollton-tx",
+    "city": "Carrollton",
+    "state": "TX",
+    "lat": 32.99,
+    "lon": -96.9,
+    "pop": 134562,
+    "elevation_ft": 482,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "sterling-heights-mi",
+    "city": "Sterling Heights",
+    "state": "MI",
+    "lat": 42.58,
+    "lon": -83.03,
+    "pop": 133931,
+    "elevation_ft": 615,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "santa-clara-ca",
+    "city": "Santa Clara",
+    "state": "CA",
+    "lat": 37.36,
+    "lon": -121.97,
+    "pop": 133446,
+    "elevation_ft": 52,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "abilene-tx",
+    "city": "Abilene",
+    "state": "TX",
+    "lat": 32.45,
+    "lon": -99.74,
+    "pop": 131588,
+    "elevation_ft": 1717,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "norman-ok",
+    "city": "Norman",
+    "state": "OK",
+    "lat": 35.24,
+    "lon": -97.35,
+    "pop": 130943,
+    "elevation_ft": 1136,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "columbia-mo",
+    "city": "Columbia",
+    "state": "MO",
+    "lat": 38.95,
+    "lon": -92.33,
+    "pop": 130851,
+    "elevation_ft": 766,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "pearland-tx",
+    "city": "Pearland",
+    "state": "TX",
+    "lat": 29.56,
+    "lon": -95.32,
+    "pop": 129930,
+    "elevation_ft": 50,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "clovis-ca",
+    "city": "Clovis",
+    "state": "CA",
+    "lat": 36.83,
+    "lon": -119.68,
+    "pop": 129347,
+    "elevation_ft": 370,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "north-charleston-sc",
+    "city": "North Charleston",
+    "state": "SC",
+    "lat": 32.92,
+    "lon": -80.06,
+    "pop": 129245,
+    "elevation_ft": 35,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "athens-ga",
+    "city": "Athens",
+    "state": "GA",
+    "lat": 33.95,
+    "lon": -83.37,
+    "pop": 128612,
+    "elevation_ft": 646,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "college-station-tx",
+    "city": "College Station",
+    "state": "TX",
+    "lat": 30.59,
+    "lon": -96.3,
+    "pop": 127472,
+    "elevation_ft": 289,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "west-palm-beach-fl",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "lat": 26.75,
+    "lon": -80.13,
+    "pop": 127189,
+    "elevation_ft": 15,
+    "koppen": "Af",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "wilmington-nc",
+    "city": "Wilmington",
+    "state": "NC",
+    "lat": 34.21,
+    "lon": -77.89,
+    "pop": 126809,
+    "elevation_ft": 43,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "allentown-pa",
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.59,
+    "lon": -75.48,
+    "pop": 126044,
+    "elevation_ft": 295,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "topeka-ks",
+    "city": "Topeka",
+    "state": "KS",
+    "lat": 39.03,
+    "lon": -95.7,
+    "pop": 125795,
+    "elevation_ft": 943,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "lakeland-fl",
+    "city": "Lakeland",
+    "state": "FL",
+    "lat": 28.06,
+    "lon": -81.95,
+    "pop": 125520,
+    "elevation_ft": 202,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "buckeye-az",
+    "city": "Buckeye",
+    "state": "AZ",
+    "lat": 33.43,
+    "lon": -112.64,
+    "pop": 125445,
+    "elevation_ft": 1079,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "goodyear-az",
+    "city": "Goodyear",
+    "state": "AZ",
+    "lat": 33.25,
+    "lon": -112.37,
+    "pop": 125359,
+    "elevation_ft": 1192,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "broken-arrow-ok",
+    "city": "Broken Arrow",
+    "state": "OK",
+    "lat": 36.04,
+    "lon": -95.78,
+    "pop": 124991,
+    "elevation_ft": 711,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "simi-valley-ca",
+    "city": "Simi Valley",
+    "state": "CA",
+    "lat": 34.27,
+    "lon": -118.75,
+    "pop": 124861,
+    "elevation_ft": 877,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "rochester-mn",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.01,
+    "lon": -92.48,
+    "pop": 124292,
+    "elevation_ft": 1100,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "lafayette-la",
+    "city": "Lafayette",
+    "state": "LA",
+    "lat": 30.21,
+    "lon": -92.03,
+    "pop": 123311,
+    "elevation_ft": 25,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "vallejo-ca",
+    "city": "Vallejo",
+    "state": "CA",
+    "lat": 38.11,
+    "lon": -122.26,
+    "pop": 123287,
+    "elevation_ft": 92,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "concord-ca",
+    "city": "Concord",
+    "state": "CA",
+    "lat": 37.97,
+    "lon": -122.0,
+    "pop": 123261,
+    "elevation_ft": 160,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "arvada-co",
+    "city": "Arvada",
+    "state": "CO",
+    "lat": 39.83,
+    "lon": -105.15,
+    "pop": 122901,
+    "elevation_ft": 5507,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "odessa-tx",
+    "city": "Odessa",
+    "state": "TX",
+    "lat": 31.88,
+    "lon": -102.35,
+    "pop": 122707,
+    "elevation_ft": 2941,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "cambridge-ma",
+    "city": "Cambridge",
+    "state": "MA",
+    "lat": 42.38,
+    "lon": -71.12,
+    "pop": 122588,
+    "elevation_ft": 23,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "new-braunfels-tx",
+    "city": "New Braunfels",
+    "state": "TX",
+    "lat": 29.7,
+    "lon": -98.12,
+    "pop": 122492,
+    "elevation_ft": 619,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "fairfield-ca",
+    "city": "Fairfield",
+    "state": "CA",
+    "lat": 38.26,
+    "lon": -122.03,
+    "pop": 122489,
+    "elevation_ft": 36,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "ann-arbor-mi",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.28,
+    "lon": -83.73,
+    "pop": 122233,
+    "elevation_ft": 888,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "thousand-oaks-ca",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "lat": 34.19,
+    "lon": -118.87,
+    "pop": 122230,
+    "elevation_ft": 782,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "hartford-ct",
+    "city": "Hartford",
+    "state": "CT",
+    "lat": 41.77,
+    "lon": -72.68,
+    "pop": 121981,
+    "elevation_ft": 34,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "berkeley-ca",
+    "city": "Berkeley",
+    "state": "CA",
+    "lat": 37.87,
+    "lon": -122.3,
+    "pop": 121911,
+    "elevation_ft": 28,
+    "koppen": "Csb",
+    "coastal": true
+  },
+  {
+    "id": "independence-mo",
+    "city": "Independence",
+    "state": "MO",
+    "lat": 39.09,
+    "lon": -94.35,
+    "pop": 121675,
+    "elevation_ft": 855,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "billings-mt",
+    "city": "Billings",
+    "state": "MT",
+    "lat": 45.79,
+    "lon": -108.5,
+    "pop": 121239,
+    "elevation_ft": 3123,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "high-point-nc",
+    "city": "High Point",
+    "state": "NC",
+    "lat": 35.99,
+    "lon": -79.99,
+    "pop": 120571,
+    "elevation_ft": 879,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "nampa-id",
+    "city": "Nampa",
+    "state": "ID",
+    "lat": 43.59,
+    "lon": -116.56,
+    "pop": 120384,
+    "elevation_ft": 2476,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 10,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "lowell-ma",
+    "city": "Lowell",
+    "state": "MA",
+    "lat": 42.64,
+    "lon": -71.32,
+    "pop": 119971,
+    "elevation_ft": 93,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "league-city-tx",
+    "city": "League City",
+    "state": "TX",
+    "lat": 29.49,
+    "lon": -95.11,
+    "pop": 119905,
+    "elevation_ft": 21,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "conroe-tx",
+    "city": "Conroe",
+    "state": "TX",
+    "lat": 30.33,
+    "lon": -95.48,
+    "pop": 119564,
+    "elevation_ft": 227,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "antioch-ca",
+    "city": "Antioch",
+    "state": "CA",
+    "lat": 37.98,
+    "lon": -121.8,
+    "pop": 118958,
+    "elevation_ft": 222,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "menifee-ca",
+    "city": "Menifee",
+    "state": "CA",
+    "lat": 33.69,
+    "lon": -117.18,
+    "pop": 118592,
+    "elevation_ft": 1421,
+    "koppen": "BSh",
+    "coastal": false
+  },
+  {
+    "id": "richardson-tx",
+    "city": "Richardson",
+    "state": "TX",
+    "lat": 32.97,
+    "lon": -96.71,
+    "pop": 118542,
+    "elevation_ft": 637,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "pompano-beach-fl",
+    "city": "Pompano Beach",
+    "state": "FL",
+    "lat": 26.24,
+    "lon": -80.13,
+    "pop": 117211,
+    "elevation_ft": 11,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "las-cruces-nm",
+    "city": "Las Cruces",
+    "state": "NM",
+    "lat": 32.33,
+    "lon": -106.79,
+    "pop": 116978,
+    "elevation_ft": 3900,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "manchester-nh",
+    "city": "Manchester",
+    "state": "NH",
+    "lat": 42.98,
+    "lon": -71.44,
+    "pop": 116818,
+    "elevation_ft": 256,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "west-jordan-ut",
+    "city": "West Jordan",
+    "state": "UT",
+    "lat": 40.6,
+    "lon": -112.0,
+    "pop": 116812,
+    "elevation_ft": 4668,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "westminster-co",
+    "city": "Westminster",
+    "state": "CO",
+    "lat": 39.88,
+    "lon": -105.06,
+    "pop": 116182,
+    "elevation_ft": 5342,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "evansville-in",
+    "city": "Evansville",
+    "state": "IN",
+    "lat": 37.99,
+    "lon": -87.53,
+    "pop": 116176,
+    "elevation_ft": 400,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "waterbury-ct",
+    "city": "Waterbury",
+    "state": "CT",
+    "lat": 41.56,
+    "lon": -73.04,
+    "pop": 115771,
+    "elevation_ft": 333,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "elgin-il",
+    "city": "Elgin",
+    "state": "IL",
+    "lat": 42.04,
+    "lon": -88.33,
+    "pop": 115476,
+    "elevation_ft": 812,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "greeley-co",
+    "city": "Greeley",
+    "state": "CO",
+    "lat": 40.42,
+    "lon": -104.77,
+    "pop": 115073,
+    "elevation_ft": 4875,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "temecula-ca",
+    "city": "Temecula",
+    "state": "CA",
+    "lat": 33.49,
+    "lon": -117.13,
+    "pop": 114865,
+    "elevation_ft": 1170,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "richmond-ca",
+    "city": "Richmond",
+    "state": "CA",
+    "lat": 37.95,
+    "lon": -122.36,
+    "pop": 114861,
+    "elevation_ft": 33,
+    "koppen": "Csb",
+    "coastal": true
+  },
+  {
+    "id": "concord-nc",
+    "city": "Concord",
+    "state": "NC",
+    "lat": 35.39,
+    "lon": -80.64,
+    "pop": 114598,
+    "elevation_ft": 637,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "provo-ut",
+    "city": "Provo",
+    "state": "UT",
+    "lat": 40.25,
+    "lon": -111.65,
+    "pop": 114527,
+    "elevation_ft": 4606,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "rio-rancho-nm",
+    "city": "Rio Rancho",
+    "state": "NM",
+    "lat": 35.29,
+    "lon": -106.7,
+    "pop": 114419,
+    "elevation_ft": 5504,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "clearwater-fl",
+    "city": "Clearwater",
+    "state": "FL",
+    "lat": 27.98,
+    "lon": -82.77,
+    "pop": 114364,
+    "elevation_ft": 66,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "tuscaloosa-al",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "lat": 33.23,
+    "lon": -87.53,
+    "pop": 114316,
+    "elevation_ft": 263,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "murrieta-ca",
+    "city": "Murrieta",
+    "state": "CA",
+    "lat": 33.57,
+    "lon": -117.19,
+    "pop": 114124,
+    "elevation_ft": 1237,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lansing-mi",
+    "city": "Lansing",
+    "state": "MI",
+    "lat": 42.71,
+    "lon": -84.56,
+    "pop": 113884,
+    "elevation_ft": 855,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "tyler-tx",
+    "city": "Tyler",
+    "state": "TX",
+    "lat": 32.32,
+    "lon": -95.31,
+    "pop": 113723,
+    "elevation_ft": 507,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "miami-gardens-fl",
+    "city": "Miami Gardens",
+    "state": "FL",
+    "lat": 25.95,
+    "lon": -80.24,
+    "pop": 113579,
+    "elevation_ft": 6,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "everett-wa",
+    "city": "Everett",
+    "state": "WA",
+    "lat": 47.97,
+    "lon": -122.19,
+    "pop": 113567,
+    "elevation_ft": 9,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "allen-tx",
+    "city": "Allen",
+    "state": "TX",
+    "lat": 33.11,
+    "lon": -96.67,
+    "pop": 113447,
+    "elevation_ft": 653,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "springfield-il",
+    "city": "Springfield",
+    "state": "IL",
+    "lat": 39.79,
+    "lon": -89.64,
+    "pop": 112989,
+    "elevation_ft": 600,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "beaumont-tx",
+    "city": "Beaumont",
+    "state": "TX",
+    "lat": 30.08,
+    "lon": -94.15,
+    "pop": 112967,
+    "elevation_ft": 19,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "south-fulton-ga",
+    "city": "South Fulton",
+    "state": "GA",
+    "lat": 33.64,
+    "lon": -84.58,
+    "pop": 112820,
+    "elevation_ft": 897,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "carlsbad-ca",
+    "city": "Carlsbad",
+    "state": "CA",
+    "lat": 33.13,
+    "lon": -117.28,
+    "pop": 112260,
+    "elevation_ft": 312,
+    "koppen": "BSk",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "sparks-nv",
+    "city": "Sparks",
+    "state": "NV",
+    "lat": 39.57,
+    "lon": -119.72,
+    "pop": 111902,
+    "elevation_ft": 4539,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 7,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "gresham-or",
+    "city": "Gresham",
+    "state": "OR",
+    "lat": 45.5,
+    "lon": -122.44,
+    "pop": 111513,
+    "elevation_ft": 386,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 9
+    }
+  },
+  {
+    "id": "santa-maria-ca",
+    "city": "Santa Maria",
+    "state": "CA",
+    "lat": 34.93,
+    "lon": -120.44,
+    "pop": 111390,
+    "elevation_ft": 207,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "hillsboro-or",
+    "city": "Hillsboro",
+    "state": "OR",
+    "lat": 45.53,
+    "lon": -122.94,
+    "pop": 111126,
+    "elevation_ft": 176,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 9
+    }
+  },
+  {
+    "id": "peoria-il",
+    "city": "Peoria",
+    "state": "IL",
+    "lat": 40.75,
+    "lon": -89.62,
+    "pop": 110920,
+    "elevation_ft": 715,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "davie-fl",
+    "city": "Davie",
+    "state": "FL",
+    "lat": 26.08,
+    "lon": -80.28,
+    "pop": 110851,
+    "elevation_ft": 6,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "edinburg-tx",
+    "city": "Edinburg",
+    "state": "TX",
+    "lat": 26.32,
+    "lon": -98.15,
+    "pop": 110700,
+    "elevation_ft": 95,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "pueblo-co",
+    "city": "Pueblo",
+    "state": "CO",
+    "lat": 38.27,
+    "lon": -104.61,
+    "pop": 110404,
+    "elevation_ft": 4664,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "ventura-ca",
+    "city": "Ventura",
+    "state": "CA",
+    "lat": 34.27,
+    "lon": -119.25,
+    "pop": 109914,
+    "elevation_ft": 101,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "palm-coast-fl",
+    "city": "Palm Coast",
+    "state": "FL",
+    "lat": 29.54,
+    "lon": -81.24,
+    "pop": 109886,
+    "elevation_ft": 29,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "costa-mesa-ca",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "lat": 33.67,
+    "lon": -117.91,
+    "pop": 108881,
+    "elevation_ft": 72,
+    "koppen": "BSk",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "st-george-ut",
+    "city": "St. George",
+    "state": "UT",
+    "lat": 37.08,
+    "lon": -113.58,
+    "pop": 108713,
+    "elevation_ft": 2530,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "centennial-co",
+    "city": "Centennial",
+    "state": "CO",
+    "lat": 39.59,
+    "lon": -104.86,
+    "pop": 108658,
+    "elevation_ft": 5740,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "downey-ca",
+    "city": "Downey",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -118.13,
+    "pop": 108468,
+    "elevation_ft": 119,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "spokane-valley-wa",
+    "city": "Spokane Valley",
+    "state": "WA",
+    "lat": 47.66,
+    "lon": -117.23,
+    "pop": 108405,
+    "elevation_ft": 2046,
+    "koppen": "Dsb",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "sugar-land-tx",
+    "city": "Sugar Land",
+    "state": "TX",
+    "lat": 29.59,
+    "lon": -95.63,
+    "pop": 107726,
+    "elevation_ft": 68,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lees-summit-mo",
+    "city": "Lee's Summit",
+    "state": "MO",
+    "lat": 38.92,
+    "lon": -94.38,
+    "pop": 107514,
+    "elevation_ft": 1019,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bend-or",
+    "city": "Bend",
+    "state": "OR",
+    "lat": 44.06,
+    "lon": -121.31,
+    "pop": 107342,
+    "elevation_ft": 3637,
+    "koppen": "BSk",
+    "coastal": false
+  },
+  {
+    "id": "jurupa-valley-ca",
+    "city": "Jurupa Valley",
+    "state": "CA",
+    "lat": 34.0,
+    "lon": -117.47,
+    "pop": 107311,
+    "elevation_ft": 762,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "georgetown-tx",
+    "city": "Georgetown",
+    "state": "TX",
+    "lat": 30.67,
+    "lon": -97.7,
+    "pop": 106907,
+    "elevation_ft": 803,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "green-bay-wi",
+    "city": "Green Bay",
+    "state": "WI",
+    "lat": 44.52,
+    "lon": -87.99,
+    "pop": 106675,
+    "elevation_ft": 582,
+    "koppen": "Dfb",
+    "coastal": true
+  },
+  {
+    "id": "fayetteville-ar",
+    "city": "Fayetteville",
+    "state": "AR",
+    "lat": 36.07,
+    "lon": -94.17,
+    "pop": 106623,
+    "elevation_ft": 1370,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "rialto-ca",
+    "city": "Rialto",
+    "state": "CA",
+    "lat": 34.12,
+    "lon": -117.39,
+    "pop": 106554,
+    "elevation_ft": 1345,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "brockton-ma",
+    "city": "Brockton",
+    "state": "MA",
+    "lat": 42.08,
+    "lon": -71.02,
+    "pop": 106134,
+    "elevation_ft": 114,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "boulder-co",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.02,
+    "lon": -105.25,
+    "pop": 105689,
+    "elevation_ft": 5269,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "carmel-in",
+    "city": "Carmel",
+    "state": "IN",
+    "lat": 39.97,
+    "lon": -86.15,
+    "pop": 105634,
+    "elevation_ft": 843,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "dearborn-mi",
+    "city": "Dearborn",
+    "state": "MI",
+    "lat": 42.31,
+    "lon": -83.21,
+    "pop": 105611,
+    "elevation_ft": 597,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "west-covina-ca",
+    "city": "West Covina",
+    "state": "CA",
+    "lat": 34.06,
+    "lon": -117.91,
+    "pop": 105301,
+    "elevation_ft": 456,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "yuma-az",
+    "city": "Yuma",
+    "state": "AZ",
+    "lat": 32.69,
+    "lon": -114.63,
+    "pop": 105227,
+    "elevation_ft": 138,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "chico-ca",
+    "city": "Chico",
+    "state": "CA",
+    "lat": 39.76,
+    "lon": -121.82,
+    "pop": 105081,
+    "elevation_ft": 240,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "el-monte-ca",
+    "city": "El Monte",
+    "state": "CA",
+    "lat": 34.07,
+    "lon": -118.03,
+    "pop": 105075,
+    "elevation_ft": 295,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "sandy-springs-ga",
+    "city": "Sandy Springs",
+    "state": "GA",
+    "lat": 33.93,
+    "lon": -84.37,
+    "pop": 105013,
+    "elevation_ft": 1053,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "renton-wa",
+    "city": "Renton",
+    "state": "WA",
+    "lat": 47.48,
+    "lon": -122.19,
+    "pop": 104975,
+    "elevation_ft": 73,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "fishers-in",
+    "city": "Fishers",
+    "state": "IN",
+    "lat": 39.96,
+    "lon": -85.97,
+    "pop": 104812,
+    "elevation_ft": 815,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "suffolk-va",
+    "city": "Suffolk",
+    "state": "VA",
+    "lat": 36.7,
+    "lon": -76.63,
+    "pop": 104699,
+    "elevation_ft": 68,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "lynn-ma",
+    "city": "Lynn",
+    "state": "MA",
+    "lat": 42.47,
+    "lon": -70.96,
+    "pop": 104236,
+    "elevation_ft": 140,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "vacaville-ca",
+    "city": "Vacaville",
+    "state": "CA",
+    "lat": 38.36,
+    "lon": -121.97,
+    "pop": 103850,
+    "elevation_ft": 168,
+    "koppen": "Csa",
+    "coastal": false
+  },
+  {
+    "id": "san-mateo-ca",
+    "city": "San Mateo",
+    "state": "CA",
+    "lat": 37.56,
+    "lon": -122.31,
+    "pop": 103337,
+    "elevation_ft": 10,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "south-bend-in",
+    "city": "South Bend",
+    "state": "IN",
+    "lat": 41.68,
+    "lon": -86.27,
+    "pop": 103201,
+    "elevation_ft": 719,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "quincy-ma",
+    "city": "Quincy",
+    "state": "MA",
+    "lat": 42.26,
+    "lon": -71.01,
+    "pop": 103173,
+    "elevation_ft": 4,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "burbank-ca",
+    "city": "Burbank",
+    "state": "CA",
+    "lat": 34.19,
+    "lon": -118.33,
+    "pop": 102988,
+    "elevation_ft": 615,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "hesperia-ca",
+    "city": "Hesperia",
+    "state": "CA",
+    "lat": 34.4,
+    "lon": -117.32,
+    "pop": 102605,
+    "elevation_ft": 3352,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "wichita-falls-tx",
+    "city": "Wichita Falls",
+    "state": "TX",
+    "lat": 33.91,
+    "lon": -98.53,
+    "pop": 101951,
+    "elevation_ft": 994,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "tracy-ca",
+    "city": "Tracy",
+    "state": "CA",
+    "lat": 37.73,
+    "lon": -121.45,
+    "pop": 101901,
+    "elevation_ft": 62,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "new-bedford-ma",
+    "city": "New Bedford",
+    "state": "MA",
+    "lat": 41.66,
+    "lon": -70.94,
+    "pop": 101834,
+    "elevation_ft": 64,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "el-cajon-ca",
+    "city": "El Cajon",
+    "state": "CA",
+    "lat": 32.8,
+    "lon": -116.96,
+    "pop": 101755,
+    "elevation_ft": 425,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "albany-ny",
+    "city": "Albany",
+    "state": "NY",
+    "lat": 42.67,
+    "lon": -73.8,
+    "pop": 101698,
+    "elevation_ft": 225,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "inglewood-ca",
+    "city": "Inglewood",
+    "state": "CA",
+    "lat": 33.96,
+    "lon": -118.34,
+    "pop": 101662,
+    "elevation_ft": 135,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "boca-raton-fl",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.37,
+    "lon": -80.1,
+    "pop": 101582,
+    "elevation_ft": 15,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "fort-myers-fl",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.62,
+    "lon": -81.83,
+    "pop": 101581,
+    "elevation_ft": 19,
+    "koppen": "Aw",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "daly-city-ca",
+    "city": "Daly City",
+    "state": "CA",
+    "lat": 37.7,
+    "lon": -122.47,
+    "pop": 101261,
+    "elevation_ft": 323,
+    "koppen": "Csb",
+    "coastal": true
+  },
+  {
+    "id": "avondale-az",
+    "city": "Avondale",
+    "state": "AZ",
+    "lat": 33.31,
+    "lon": -112.33,
+    "pop": 100983,
+    "elevation_ft": 2466,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "san-angelo-tx",
+    "city": "San Angelo",
+    "state": "TX",
+    "lat": 31.44,
+    "lon": -100.45,
+    "pop": 100640,
+    "elevation_ft": 1879,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "edmond-ok",
+    "city": "Edmond",
+    "state": "OK",
+    "lat": 35.67,
+    "lon": -97.41,
+    "pop": 100479,
+    "elevation_ft": 1080,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "davenport-ia",
+    "city": "Davenport",
+    "state": "IA",
+    "lat": 41.56,
+    "lon": -90.6,
+    "pop": 100358,
+    "elevation_ft": 654,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "deltona-fl",
+    "city": "Deltona",
+    "state": "FL",
+    "lat": 28.91,
+    "lon": -81.21,
+    "pop": 100267,
+    "elevation_ft": 16,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "longmont-co",
+    "city": "Longmont",
+    "state": "CO",
+    "lat": 40.17,
+    "lon": -105.1,
+    "pop": 100109,
+    "elevation_ft": 4981,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "federal-way-wa",
+    "city": "Federal Way",
+    "state": "WA",
+    "lat": 47.31,
+    "lon": -122.34,
+    "pop": 99729,
+    "elevation_ft": 395,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "merced-ca",
+    "city": "Merced",
+    "state": "CA",
+    "lat": 37.31,
+    "lon": -120.48,
+    "pop": 99724,
+    "elevation_ft": 171,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "kenosha-wi",
+    "city": "Kenosha",
+    "state": "WI",
+    "lat": 42.59,
+    "lon": -87.88,
+    "pop": 99239,
+    "elevation_ft": 725,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "plantation-fl",
+    "city": "Plantation",
+    "state": "FL",
+    "lat": 26.13,
+    "lon": -80.26,
+    "pop": 99183,
+    "elevation_ft": 8,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "roanoke-va",
+    "city": "Roanoke",
+    "state": "VA",
+    "lat": 37.28,
+    "lon": -79.96,
+    "pop": 99111,
+    "elevation_ft": 974,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "sunrise-fl",
+    "city": "Sunrise",
+    "state": "FL",
+    "lat": 26.17,
+    "lon": -80.26,
+    "pop": 98846,
+    "elevation_ft": 9,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "temple-tx",
+    "city": "Temple",
+    "state": "TX",
+    "lat": 31.1,
+    "lon": -97.39,
+    "pop": 98412,
+    "elevation_ft": 606,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "vista-ca",
+    "city": "Vista",
+    "state": "CA",
+    "lat": 33.19,
+    "lon": -117.24,
+    "pop": 98274,
+    "elevation_ft": 446,
+    "koppen": "BSk",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "beaverton-or",
+    "city": "Beaverton",
+    "state": "OR",
+    "lat": 45.48,
+    "lon": -122.82,
+    "pop": 97842,
+    "elevation_ft": 233,
+    "koppen": "Csb",
+    "coastal": false,
+    "flags": {
+      "turf": 9
+    }
+  },
+  {
+    "id": "yakima-wa",
+    "city": "Yakima",
+    "state": "WA",
+    "lat": 46.59,
+    "lon": -120.55,
+    "pop": 97458,
+    "elevation_ft": 1171,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "kirkland-wa",
+    "city": "Kirkland",
+    "state": "WA",
+    "lat": 47.7,
+    "lon": -122.2,
+    "pop": 97410,
+    "elevation_ft": 32,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "norwalk-ca",
+    "city": "Norwalk",
+    "state": "CA",
+    "lat": 33.91,
+    "lon": -118.08,
+    "pop": 97104,
+    "elevation_ft": 94,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "chino-ca",
+    "city": "Chino",
+    "state": "CA",
+    "lat": 33.98,
+    "lon": -117.66,
+    "pop": 96957,
+    "elevation_ft": 616,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "portsmouth-va",
+    "city": "Portsmouth",
+    "state": "VA",
+    "lat": 36.86,
+    "lon": -76.36,
+    "pop": 96777,
+    "elevation_ft": 12,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "manteca-ca",
+    "city": "Manteca",
+    "state": "CA",
+    "lat": 37.79,
+    "lon": -121.23,
+    "pop": 96693,
+    "elevation_ft": 31,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "north-port-fl",
+    "city": "North Port",
+    "state": "FL",
+    "lat": 27.06,
+    "lon": -82.2,
+    "pop": 96551,
+    "elevation_ft": 16,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "greenville-nc",
+    "city": "Greenville",
+    "state": "NC",
+    "lat": 35.6,
+    "lon": -77.38,
+    "pop": 96443,
+    "elevation_ft": 28,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "bellingham-wa",
+    "city": "Bellingham",
+    "state": "WA",
+    "lat": 48.75,
+    "lon": -122.47,
+    "pop": 96395,
+    "elevation_ft": 64,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lawrence-ks",
+    "city": "Lawrence",
+    "state": "KS",
+    "lat": 38.96,
+    "lon": -95.27,
+    "pop": 96367,
+    "elevation_ft": 980,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "ofallon-mo",
+    "city": "O'Fallon",
+    "state": "MO",
+    "lat": 38.78,
+    "lon": -90.72,
+    "pop": 96101,
+    "elevation_ft": 621,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "reading-pa",
+    "city": "Reading",
+    "state": "PA",
+    "lat": 40.34,
+    "lon": -75.93,
+    "pop": 95832,
+    "elevation_ft": 270,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "mount-pleasant-sc",
+    "city": "Mount Pleasant",
+    "state": "SC",
+    "lat": 32.81,
+    "lon": -79.86,
+    "pop": 95469,
+    "elevation_ft": 16,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "lehi-ut",
+    "city": "Lehi",
+    "state": "UT",
+    "lat": 40.42,
+    "lon": -111.87,
+    "pop": 95313,
+    "elevation_ft": 4580,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "fall-river-ma",
+    "city": "Fall River",
+    "state": "MA",
+    "lat": 41.73,
+    "lon": -71.09,
+    "pop": 95298,
+    "elevation_ft": 134,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "orem-ut",
+    "city": "Orem",
+    "state": "UT",
+    "lat": 40.3,
+    "lon": -111.7,
+    "pop": 95214,
+    "elevation_ft": 4766,
+    "koppen": "Dfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "san-marcos-ca",
+    "city": "San Marcos",
+    "state": "CA",
+    "lat": 33.13,
+    "lon": -117.17,
+    "pop": 94908,
+    "elevation_ft": 633,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "norwalk-ct",
+    "city": "Norwalk",
+    "state": "CT",
+    "lat": 41.09,
+    "lon": -73.42,
+    "pop": 94508,
+    "elevation_ft": 16,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "indio-ca",
+    "city": "Indio",
+    "state": "CA",
+    "lat": 33.73,
+    "lon": -116.24,
+    "pop": 94269,
+    "elevation_ft": 3,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "redding-ca",
+    "city": "Redding",
+    "state": "CA",
+    "lat": 40.57,
+    "lon": -122.37,
+    "pop": 94092,
+    "elevation_ft": 530,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "hemet-ca",
+    "city": "Hemet",
+    "state": "CA",
+    "lat": 33.73,
+    "lon": -117.0,
+    "pop": 93649,
+    "elevation_ft": 1536,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "hoover-al",
+    "city": "Hoover",
+    "state": "AL",
+    "lat": 33.38,
+    "lon": -86.81,
+    "pop": 93550,
+    "elevation_ft": 480,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "asheville-nc",
+    "city": "Asheville",
+    "state": "NC",
+    "lat": 35.6,
+    "lon": -82.55,
+    "pop": 93523,
+    "elevation_ft": 2134,
+    "koppen": "Cfb",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "livonia-mi",
+    "city": "Livonia",
+    "state": "MI",
+    "lat": 42.4,
+    "lon": -83.37,
+    "pop": 92603,
+    "elevation_ft": 668,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "nashua-nh",
+    "city": "Nashua",
+    "state": "NH",
+    "lat": 42.75,
+    "lon": -71.49,
+    "pop": 92435,
+    "elevation_ft": 190,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "sandy-ut",
+    "city": "Sandy",
+    "state": "UT",
+    "lat": 40.57,
+    "lon": -111.85,
+    "pop": 92386,
+    "elevation_ft": 4786,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "frederick-md",
+    "city": "Frederick",
+    "state": "MD",
+    "lat": 39.43,
+    "lon": -77.41,
+    "pop": 92059,
+    "elevation_ft": 340,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bryan-tx",
+    "city": "Bryan",
+    "state": "TX",
+    "lat": 30.67,
+    "lon": -96.38,
+    "pop": 91996,
+    "elevation_ft": 360,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "folsom-ca",
+    "city": "Folsom",
+    "state": "CA",
+    "lat": 38.67,
+    "lon": -121.14,
+    "pop": 91983,
+    "elevation_ft": 325,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "erie-pa",
+    "city": "Erie",
+    "state": "PA",
+    "lat": 42.12,
+    "lon": -80.07,
+    "pop": 91838,
+    "elevation_ft": 711,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "trenton-nj",
+    "city": "Trenton",
+    "state": "NJ",
+    "lat": 40.22,
+    "lon": -74.76,
+    "pop": 91506,
+    "elevation_ft": 52,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "roswell-ga",
+    "city": "Roswell",
+    "state": "GA",
+    "lat": 34.04,
+    "lon": -84.35,
+    "pop": 91505,
+    "elevation_ft": 1062,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "champaign-il",
+    "city": "Champaign",
+    "state": "IL",
+    "lat": 40.11,
+    "lon": -88.27,
+    "pop": 91195,
+    "elevation_ft": 773,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "leander-tx",
+    "city": "Leander",
+    "state": "TX",
+    "lat": 30.57,
+    "lon": -97.86,
+    "pop": 91132,
+    "elevation_ft": 1007,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "clifton-nj",
+    "city": "Clifton",
+    "state": "NJ",
+    "lat": 40.86,
+    "lon": -74.16,
+    "pop": 91127,
+    "elevation_ft": 156,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "fort-smith-ar",
+    "city": "Fort Smith",
+    "state": "AR",
+    "lat": 35.35,
+    "lon": -94.37,
+    "pop": 90855,
+    "elevation_ft": 463,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "carson-ca",
+    "city": "Carson",
+    "state": "CA",
+    "lat": 33.84,
+    "lon": -118.25,
+    "pop": 90808,
+    "elevation_ft": 23,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "newton-ma",
+    "city": "Newton",
+    "state": "MA",
+    "lat": 42.33,
+    "lon": -71.21,
+    "pop": 90741,
+    "elevation_ft": 112,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "springdale-ar",
+    "city": "Springdale",
+    "state": "AR",
+    "lat": 36.19,
+    "lon": -94.16,
+    "pop": 90685,
+    "elevation_ft": 1335,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "lawton-ok",
+    "city": "Lawton",
+    "state": "OK",
+    "lat": 34.62,
+    "lon": -98.42,
+    "pop": 90503,
+    "elevation_ft": 1141,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "compton-ca",
+    "city": "Compton",
+    "state": "CA",
+    "lat": 33.89,
+    "lon": -118.23,
+    "pop": 90500,
+    "elevation_ft": 70,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "mission-viejo-ca",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "lat": 33.61,
+    "lon": -117.66,
+    "pop": 90484,
+    "elevation_ft": 606,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "franklin-tn",
+    "city": "Franklin",
+    "state": "TN",
+    "lat": 35.91,
+    "lon": -86.85,
+    "pop": 90226,
+    "elevation_ft": 671,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "santa-monica-ca",
+    "city": "Santa Monica",
+    "state": "CA",
+    "lat": 34.01,
+    "lon": -118.5,
+    "pop": 90082,
+    "elevation_ft": 9,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "south-gate-ca",
+    "city": "South Gate",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -118.19,
+    "pop": 90071,
+    "elevation_ft": 110,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "santa-fe-nm",
+    "city": "Santa Fe",
+    "state": "NM",
+    "lat": 35.69,
+    "lon": -105.94,
+    "pop": 89837,
+    "elevation_ft": 7199,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 5,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "queen-creek-az",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "lat": 33.24,
+    "lon": -111.61,
+    "pop": 89770,
+    "elevation_ft": 1422,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "ogden-ut",
+    "city": "Ogden",
+    "state": "UT",
+    "lat": 41.23,
+    "lon": -111.97,
+    "pop": 89510,
+    "elevation_ft": 4343,
+    "koppen": "Dfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "deerfield-beach-fl",
+    "city": "Deerfield Beach",
+    "state": "FL",
+    "lat": 26.31,
+    "lon": -80.13,
+    "pop": 89339,
+    "elevation_ft": 13,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "lawrence-ma",
+    "city": "Lawrence",
+    "state": "MA",
+    "lat": 42.7,
+    "lon": -71.16,
+    "pop": 89320,
+    "elevation_ft": 47,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bloomington-mn",
+    "city": "Bloomington",
+    "state": "MN",
+    "lat": 44.83,
+    "lon": -93.32,
+    "pop": 89034,
+    "elevation_ft": 809,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "danbury-ct",
+    "city": "Danbury",
+    "state": "CT",
+    "lat": 41.4,
+    "lon": -73.48,
+    "pop": 89033,
+    "elevation_ft": 613,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "mission-tx",
+    "city": "Mission",
+    "state": "TX",
+    "lat": 26.2,
+    "lon": -98.33,
+    "pop": 88992,
+    "elevation_ft": 115,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "westminster-ca",
+    "city": "Westminster",
+    "state": "CA",
+    "lat": 33.75,
+    "lon": -117.99,
+    "pop": 88966,
+    "elevation_ft": 34,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "troy-mi",
+    "city": "Troy",
+    "state": "MI",
+    "lat": 42.58,
+    "lon": -83.15,
+    "pop": 88733,
+    "elevation_ft": 684,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "daytona-beach-fl",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "lat": 29.19,
+    "lon": -81.1,
+    "pop": 88471,
+    "elevation_ft": 14,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "kennewick-wa",
+    "city": "Kennewick",
+    "state": "WA",
+    "lat": 46.2,
+    "lon": -119.18,
+    "pop": 88366,
+    "elevation_ft": 556,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "duluth-mn",
+    "city": "Duluth",
+    "state": "MN",
+    "lat": 46.77,
+    "lon": -92.13,
+    "pop": 88330,
+    "elevation_ft": 973,
+    "koppen": "Dfb",
+    "coastal": true
+  },
+  {
+    "id": "waukegan-il",
+    "city": "Waukegan",
+    "state": "IL",
+    "lat": 42.37,
+    "lon": -87.87,
+    "pop": 87940,
+    "elevation_ft": 715,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "warner-robins-ga",
+    "city": "Warner Robins",
+    "state": "GA",
+    "lat": 32.6,
+    "lon": -83.65,
+    "pop": 87761,
+    "elevation_ft": 421,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "south-jordan-ut",
+    "city": "South Jordan",
+    "state": "UT",
+    "lat": 40.55,
+    "lon": -111.99,
+    "pop": 87614,
+    "elevation_ft": 4800,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "rancho-cordova-ca",
+    "city": "Rancho Cordova",
+    "state": "CA",
+    "lat": 38.58,
+    "lon": -121.24,
+    "pop": 87554,
+    "elevation_ft": 175,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "melbourne-fl",
+    "city": "Melbourne",
+    "state": "FL",
+    "lat": 28.11,
+    "lon": -80.66,
+    "pop": 87097,
+    "elevation_ft": 29,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "gastonia-nc",
+    "city": "Gastonia",
+    "state": "NC",
+    "lat": 35.25,
+    "lon": -81.19,
+    "pop": 87067,
+    "elevation_ft": 740,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "baytown-tx",
+    "city": "Baytown",
+    "state": "TX",
+    "lat": 29.76,
+    "lon": -94.97,
+    "pop": 86561,
+    "elevation_ft": 23,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "medford-or",
+    "city": "Medford",
+    "state": "OR",
+    "lat": 42.34,
+    "lon": -122.85,
+    "pop": 86494,
+    "elevation_ft": 1440,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "santa-barbara-ca",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "lat": 34.4,
+    "lon": -119.71,
+    "pop": 86422,
+    "elevation_ft": 317,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "sioux-city-ia",
+    "city": "Sioux City",
+    "state": "IA",
+    "lat": 42.5,
+    "lon": -96.39,
+    "pop": 86356,
+    "elevation_ft": 1087,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "citrus-heights-ca",
+    "city": "Citrus Heights",
+    "state": "CA",
+    "lat": 38.69,
+    "lon": -121.29,
+    "pop": 86348,
+    "elevation_ft": 159,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lake-forest-ca",
+    "city": "Lake Forest",
+    "state": "CA",
+    "lat": 33.65,
+    "lon": -117.68,
+    "pop": 86333,
+    "elevation_ft": 622,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "auburn-wa",
+    "city": "Auburn",
+    "state": "WA",
+    "lat": 47.3,
+    "lon": -122.21,
+    "pop": 86301,
+    "elevation_ft": 94,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "homestead-fl",
+    "city": "Homestead",
+    "state": "FL",
+    "lat": 25.47,
+    "lon": -80.44,
+    "pop": 86242,
+    "elevation_ft": 3,
+    "koppen": "Aw",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "san-ramon-ca",
+    "city": "San Ramon",
+    "state": "CA",
+    "lat": 37.77,
+    "lon": -121.93,
+    "pop": 86209,
+    "elevation_ft": 681,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "new-rochelle-ny",
+    "city": "New Rochelle",
+    "state": "NY",
+    "lat": 40.92,
+    "lon": -73.78,
+    "pop": 85864,
+    "elevation_ft": 39,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "whittier-ca",
+    "city": "Whittier",
+    "state": "CA",
+    "lat": 33.97,
+    "lon": -118.02,
+    "pop": 85815,
+    "elevation_ft": 342,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "kissimmee-fl",
+    "city": "Kissimmee",
+    "state": "FL",
+    "lat": 28.3,
+    "lon": -81.42,
+    "pop": 85591,
+    "elevation_ft": 70,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "mountain-view-ca",
+    "city": "Mountain View",
+    "state": "CA",
+    "lat": 37.4,
+    "lon": -122.08,
+    "pop": 85438,
+    "elevation_ft": 58,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "san-leandro-ca",
+    "city": "San Leandro",
+    "state": "CA",
+    "lat": 37.7,
+    "lon": -122.16,
+    "pop": 85353,
+    "elevation_ft": 18,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "layton-ut",
+    "city": "Layton",
+    "state": "UT",
+    "lat": 41.08,
+    "lon": -111.96,
+    "pop": 85308,
+    "elevation_ft": 4463,
+    "koppen": "Dsa",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "auburn-al",
+    "city": "Auburn",
+    "state": "AL",
+    "lat": 32.61,
+    "lon": -85.49,
+    "pop": 85113,
+    "elevation_ft": 670,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "cranston-ri",
+    "city": "Cranston",
+    "state": "RI",
+    "lat": 41.77,
+    "lon": -71.48,
+    "pop": 84647,
+    "elevation_ft": 198,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "mansfield-tx",
+    "city": "Mansfield",
+    "state": "TX",
+    "lat": 32.57,
+    "lon": -97.12,
+    "pop": 84444,
+    "elevation_ft": 593,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "somerville-ma",
+    "city": "Somerville",
+    "state": "MA",
+    "lat": 42.39,
+    "lon": -71.1,
+    "pop": 84211,
+    "elevation_ft": 61,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "warwick-ri",
+    "city": "Warwick",
+    "state": "RI",
+    "lat": 41.7,
+    "lon": -71.42,
+    "pop": 84187,
+    "elevation_ft": 33,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "castle-rock-co",
+    "city": "Castle Rock",
+    "state": "CO",
+    "lat": 39.38,
+    "lon": -104.85,
+    "pop": 83815,
+    "elevation_ft": 6281,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "brooklyn-park-mn",
+    "city": "Brooklyn Park",
+    "state": "MN",
+    "lat": 45.11,
+    "lon": -93.35,
+    "pop": 83543,
+    "elevation_ft": 868,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "livermore-ca",
+    "city": "Livermore",
+    "state": "CA",
+    "lat": 37.69,
+    "lon": -121.76,
+    "pop": 83457,
+    "elevation_ft": 507,
+    "koppen": "Csa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "bloomington-in",
+    "city": "Bloomington",
+    "state": "IN",
+    "lat": 39.16,
+    "lon": -86.52,
+    "pop": 83307,
+    "elevation_ft": 815,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "jonesboro-ar",
+    "city": "Jonesboro",
+    "state": "AR",
+    "lat": 35.82,
+    "lon": -90.68,
+    "pop": 83296,
+    "elevation_ft": 275,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "farmington-hills-mi",
+    "city": "Farmington Hills",
+    "state": "MI",
+    "lat": 42.49,
+    "lon": -83.38,
+    "pop": 83291,
+    "elevation_ft": 856,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "perris-ca",
+    "city": "Perris",
+    "state": "CA",
+    "lat": 33.79,
+    "lon": -117.22,
+    "pop": 83237,
+    "elevation_ft": 1432,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 7
+    }
+  },
+  {
+    "id": "longview-tx",
+    "city": "Longview",
+    "state": "TX",
+    "lat": 32.52,
+    "lon": -94.76,
+    "pop": 83236,
+    "elevation_ft": 285,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "pasco-wa",
+    "city": "Pasco",
+    "state": "WA",
+    "lat": 46.27,
+    "lon": -119.12,
+    "pop": 82848,
+    "elevation_ft": 400,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 6,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "hawthorne-ca",
+    "city": "Hawthorne",
+    "state": "CA",
+    "lat": 33.91,
+    "lon": -118.35,
+    "pop": 82741,
+    "elevation_ft": 69,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lake-charles-la",
+    "city": "Lake Charles",
+    "state": "LA",
+    "lat": 30.2,
+    "lon": -93.21,
+    "pop": 82676,
+    "elevation_ft": 13,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "redmond-wa",
+    "city": "Redmond",
+    "state": "WA",
+    "lat": 47.68,
+    "lon": -122.12,
+    "pop": 82506,
+    "elevation_ft": 159,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "boynton-beach-fl",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "lat": 26.53,
+    "lon": -80.08,
+    "pop": 82396,
+    "elevation_ft": 12,
+    "koppen": "Af",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "westland-mi",
+    "city": "Westland",
+    "state": "MI",
+    "lat": 42.32,
+    "lon": -83.38,
+    "pop": 82333,
+    "elevation_ft": 655,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "redwood-city-ca",
+    "city": "Redwood City",
+    "state": "CA",
+    "lat": 37.52,
+    "lon": -122.21,
+    "pop": 82178,
+    "elevation_ft": 8,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "newport-beach-ca",
+    "city": "Newport Beach",
+    "state": "CA",
+    "lat": 33.6,
+    "lon": -117.89,
+    "pop": 81977,
+    "elevation_ft": 15,
+    "koppen": "BSk",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "cicero-il",
+    "city": "Cicero",
+    "state": "IL",
+    "lat": 41.84,
+    "lon": -87.76,
+    "pop": 81858,
+    "elevation_ft": 605,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "buena-park-ca",
+    "city": "Buena Park",
+    "state": "CA",
+    "lat": 33.86,
+    "lon": -118.01,
+    "pop": 81741,
+    "elevation_ft": 72,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "doral-fl",
+    "city": "Doral",
+    "state": "FL",
+    "lat": 25.82,
+    "lon": -80.36,
+    "pop": 81634,
+    "elevation_ft": 7,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "miami-beach-fl",
+    "city": "Miami Beach",
+    "state": "FL",
+    "lat": 25.81,
+    "lon": -80.15,
+    "pop": 81594,
+    "elevation_ft": 0,
+    "koppen": "Am",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "woodbury-mn",
+    "city": "Woodbury",
+    "state": "MN",
+    "lat": 44.91,
+    "lon": -92.92,
+    "pop": 81558,
+    "elevation_ft": 983,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "loveland-co",
+    "city": "Loveland",
+    "state": "CO",
+    "lat": 40.42,
+    "lon": -105.06,
+    "pop": 81387,
+    "elevation_ft": 5000,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "lynchburg-va",
+    "city": "Lynchburg",
+    "state": "VA",
+    "lat": 37.4,
+    "lon": -79.2,
+    "pop": 81347,
+    "elevation_ft": 636,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "pharr-tx",
+    "city": "Pharr",
+    "state": "TX",
+    "lat": 26.16,
+    "lon": -98.19,
+    "pop": 80830,
+    "elevation_ft": 94,
+    "koppen": "BSh",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "largo-fl",
+    "city": "Largo",
+    "state": "FL",
+    "lat": 27.91,
+    "lon": -82.77,
+    "pop": 80690,
+    "elevation_ft": 9,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "rapid-city-sd",
@@ -1666,32 +6148,511 @@
     "state": "SD",
     "lat": 44.08,
     "lon": -103.23,
-    "pop": 78000,
+    "pop": 80589,
     "elevation_ft": 3202,
     "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "apex-nc",
+    "city": "Apex",
+    "state": "NC",
+    "lat": 35.73,
+    "lon": -78.88,
+    "pop": 80419,
+    "elevation_ft": 378,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "johns-creek-ga",
+    "city": "Johns Creek",
+    "state": "GA",
+    "lat": 34.03,
+    "lon": -84.2,
+    "pop": 80401,
+    "elevation_ft": 954,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "alhambra-ca",
+    "city": "Alhambra",
+    "state": "CA",
+    "lat": 34.08,
+    "lon": -118.14,
+    "pop": 79820,
+    "elevation_ft": 460,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "bethlehem-pa",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.63,
+    "lon": -75.37,
+    "pop": 79644,
+    "elevation_ft": 346,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "blanding-ut",
-    "city": "Blanding",
-    "state": "UT",
-    "lat": 37.62,
-    "lon": -109.48,
-    "pop": 3600,
-    "elevation_ft": 6060,
-    "koppen": "BSk",
+    "id": "flower-mound-tx",
+    "city": "Flower Mound",
+    "state": "TX",
+    "lat": 33.04,
+    "lon": -97.11,
+    "pop": 79540,
+    "elevation_ft": 626,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "upland-ca",
+    "city": "Upland",
+    "state": "CA",
+    "lat": 34.12,
+    "lon": -117.66,
+    "pop": 79446,
+    "elevation_ft": 1444,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "flint-mi",
+    "city": "Flint",
+    "state": "MI",
+    "lat": 43.02,
+    "lon": -83.69,
+    "pop": 79306,
+    "elevation_ft": 729,
+    "koppen": "Dfa",
     "coastal": false
   },
   {
-    "id": "monticello-ut",
-    "city": "Monticello",
-    "state": "UT",
-    "lat": 37.87,
-    "lon": -109.34,
-    "pop": 2000,
-    "elevation_ft": 7070,
-    "koppen": "BSk",
+    "id": "lakeville-mn",
+    "city": "Lakeville",
+    "state": "MN",
+    "lat": 44.68,
+    "lon": -93.25,
+    "pop": 79270,
+    "elevation_ft": 1091,
+    "koppen": "Dfa",
     "coastal": false
+  },
+  {
+    "id": "broomfield-co",
+    "city": "Broomfield",
+    "state": "CO",
+    "lat": 39.95,
+    "lon": -105.05,
+    "pop": 79174,
+    "elevation_ft": 5334,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "cedar-park-tx",
+    "city": "Cedar Park",
+    "state": "TX",
+    "lat": 30.51,
+    "lon": -97.82,
+    "pop": 79032,
+    "elevation_ft": 942,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "plymouth-mn",
+    "city": "Plymouth",
+    "state": "MN",
+    "lat": 45.02,
+    "lon": -93.46,
+    "pop": 78942,
+    "elevation_ft": 957,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "missoula-mt",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.87,
+    "lon": -114.03,
+    "pop": 78903,
+    "elevation_ft": 3168,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "mableton-ga",
+    "city": "Mableton",
+    "state": "GA",
+    "lat": 33.81,
+    "lon": -84.58,
+    "pop": 78820,
+    "elevation_ft": 1066,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "bloomington-il",
+    "city": "Bloomington",
+    "state": "IL",
+    "lat": 40.48,
+    "lon": -88.97,
+    "pop": 78804,
+    "elevation_ft": 841,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "milpitas-ca",
+    "city": "Milpitas",
+    "state": "CA",
+    "lat": 37.43,
+    "lon": -121.89,
+    "pop": 78596,
+    "elevation_ft": 33,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "wyoming-mi",
+    "city": "Wyoming",
+    "state": "MI",
+    "lat": 42.89,
+    "lon": -85.71,
+    "pop": 78588,
+    "elevation_ft": 662,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "parma-oh",
+    "city": "Parma",
+    "state": "OH",
+    "lat": 41.38,
+    "lon": -81.73,
+    "pop": 78581,
+    "elevation_ft": 943,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "bowling-green-ky",
+    "city": "Bowling Green",
+    "state": "KY",
+    "lat": 36.98,
+    "lon": -86.43,
+    "pop": 78505,
+    "elevation_ft": 523,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "maricopa-az",
+    "city": "Maricopa",
+    "state": "AZ",
+    "lat": 33.04,
+    "lon": -112.0,
+    "pop": 78362,
+    "elevation_ft": 1196,
+    "koppen": "BWh",
+    "coastal": false,
+    "flags": {
+      "turf": 8,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "lakewood-ca",
+    "city": "Lakewood",
+    "state": "CA",
+    "lat": 33.85,
+    "lon": -118.12,
+    "pop": 78010,
+    "elevation_ft": 52,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "bismarck-nd",
+    "city": "Bismarck",
+    "state": "ND",
+    "lat": 46.81,
+    "lon": -100.77,
+    "pop": 77963,
+    "elevation_ft": 1753,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "racine-wi",
+    "city": "Racine",
+    "state": "WI",
+    "lat": 42.73,
+    "lon": -87.81,
+    "pop": 77908,
+    "elevation_ft": 645,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "tustin-ca",
+    "city": "Tustin",
+    "state": "CA",
+    "lat": 33.73,
+    "lon": -117.81,
+    "pop": 77843,
+    "elevation_ft": 96,
+    "koppen": "BSh",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "ankeny-ia",
+    "city": "Ankeny",
+    "state": "IA",
+    "lat": 41.73,
+    "lon": -93.6,
+    "pop": 77833,
+    "elevation_ft": 978,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "san-marcos-tx",
+    "city": "San Marcos",
+    "state": "TX",
+    "lat": 29.87,
+    "lon": -97.94,
+    "pop": 77830,
+    "elevation_ft": 575,
+    "koppen": "Cfa",
+    "coastal": false
+  },
+  {
+    "id": "marysville-wa",
+    "city": "Marysville",
+    "state": "WA",
+    "lat": 48.08,
+    "lon": -122.15,
+    "pop": 77686,
+    "elevation_ft": 72,
+    "koppen": "Csb",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "pittsburg-ca",
+    "city": "Pittsburg",
+    "state": "CA",
+    "lat": 38.02,
+    "lon": -121.9,
+    "pop": 77542,
+    "elevation_ft": 67,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "rochester-hills-mi",
+    "city": "Rochester Hills",
+    "state": "MI",
+    "lat": 42.66,
+    "lon": -83.16,
+    "pop": 77539,
+    "elevation_ft": 805,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "chino-hills-ca",
+    "city": "Chino Hills",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -117.73,
+    "pop": 77519,
+    "elevation_ft": 1095,
+    "koppen": "Csa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "missouri-city-tx",
+    "city": "Missouri City",
+    "state": "TX",
+    "lat": 29.56,
+    "lon": -95.54,
+    "pop": 77327,
+    "elevation_ft": 63,
+    "koppen": "Cfa",
+    "coastal": true,
+    "flags": {
+      "turf": 6
+    }
+  },
+  {
+    "id": "flagstaff-az",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "lat": 35.2,
+    "lon": -111.65,
+    "pop": 77260,
+    "elevation_ft": 6909,
+    "koppen": "Dsb",
+    "coastal": false
+  },
+  {
+    "id": "schaumburg-il",
+    "city": "Schaumburg",
+    "state": "IL",
+    "lat": 42.03,
+    "lon": -88.08,
+    "pop": 77249,
+    "elevation_ft": 796,
+    "koppen": "Dfa",
+    "coastal": false
+  },
+  {
+    "id": "pawtucket-ri",
+    "city": "Pawtucket",
+    "state": "RI",
+    "lat": 41.87,
+    "lon": -71.37,
+    "pop": 77065,
+    "elevation_ft": 82,
+    "koppen": "Dfa",
+    "coastal": true
+  },
+  {
+    "id": "rogers-ar",
+    "city": "Rogers",
+    "state": "AR",
+    "lat": 36.32,
+    "lon": -94.15,
+    "pop": 76956,
+    "elevation_ft": 1350,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "alameda-ca",
+    "city": "Alameda",
+    "state": "CA",
+    "lat": 37.74,
+    "lon": -122.26,
+    "pop": 76876,
+    "elevation_ft": 14,
+    "koppen": "Csb",
+    "coastal": true
+  },
+  {
+    "id": "rocklin-ca",
+    "city": "Rocklin",
+    "state": "CA",
+    "lat": 38.81,
+    "lon": -121.25,
+    "pop": 76821,
+    "elevation_ft": 379,
+    "koppen": "Csa",
+    "coastal": false
+  },
+  {
+    "id": "caldwell-id",
+    "city": "Caldwell",
+    "state": "ID",
+    "lat": 43.65,
+    "lon": -116.66,
+    "pop": 76629,
+    "elevation_ft": 2398,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "turf": 10,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "carlsbad-nm",
+    "city": "Carlsbad",
+    "state": "NM",
+    "lat": 32.42,
+    "lon": -104.23,
+    "pop": 32000,
+    "elevation_ft": 3120,
+    "koppen": "BWk",
+    "coastal": false,
+    "flags": {
+      "turf": 4,
+      "aridsw": true
+    }
+  },
+  {
+    "id": "kalispell-mt",
+    "city": "Kalispell",
+    "state": "MT",
+    "lat": 48.2,
+    "lon": -114.31,
+    "pop": 28000,
+    "elevation_ft": 2956,
+    "koppen": "Dfb",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "durango-co",
@@ -1702,40 +6663,10 @@
     "pop": 19000,
     "elevation_ft": 6512,
     "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "flagstaff-az",
-    "city": "Flagstaff",
-    "state": "AZ",
-    "lat": 35.2,
-    "lon": -111.65,
-    "pop": 76000,
-    "elevation_ft": 6909,
-    "koppen": "Dsb",
-    "coastal": false
-  },
-  {
-    "id": "taos-nm",
-    "city": "Taos",
-    "state": "NM",
-    "lat": 36.41,
-    "lon": -105.57,
-    "pop": 6500,
-    "elevation_ft": 6969,
-    "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "santa-fe-nm",
-    "city": "Santa Fe",
-    "state": "NM",
-    "lat": 35.69,
-    "lon": -105.94,
-    "pop": 88000,
-    "elevation_ft": 7199,
-    "koppen": "BSk",
-    "coastal": false
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
   },
   {
     "id": "los-alamos-nm",
@@ -1746,6 +6677,87 @@
     "pop": 13000,
     "elevation_ft": 7320,
     "koppen": "Dsb",
+    "coastal": false
+  },
+  {
+    "id": "sandpoint-id",
+    "city": "Sandpoint",
+    "state": "ID",
+    "lat": 48.28,
+    "lon": -116.55,
+    "pop": 9000,
+    "elevation_ft": 2100,
+    "koppen": "Dfb",
+    "coastal": false,
+    "flags": {
+      "turf": 4
+    }
+  },
+  {
+    "id": "taos-nm",
+    "city": "Taos",
+    "state": "NM",
+    "lat": 36.41,
+    "lon": -105.57,
+    "pop": 6500,
+    "elevation_ft": 6969,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "aridsw": true
+    }
+  },
+  {
+    "id": "blanding-ut",
+    "city": "Blanding",
+    "state": "UT",
+    "lat": 37.62,
+    "lon": -109.48,
+    "pop": 3600,
+    "elevation_ft": 6060,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "aridsw": true
+    }
+  },
+  {
+    "id": "monticello-ut",
+    "city": "Monticello",
+    "state": "UT",
+    "lat": 37.87,
+    "lon": -109.34,
+    "pop": 2000,
+    "elevation_ft": 7070,
+    "koppen": "BSk",
+    "coastal": false,
+    "flags": {
+      "aridsw": true
+    }
+  },
+  {
+    "id": "whitewright-tx",
+    "city": "Whitewright",
+    "state": "TX",
+    "lat": 33.51,
+    "lon": -96.39,
+    "pop": 1800,
+    "elevation_ft": 679,
+    "koppen": "Cfa",
+    "coastal": false,
+    "flags": {
+      "turf": 5
+    }
+  },
+  {
+    "id": "sundance-wy",
+    "city": "Sundance",
+    "state": "WY",
+    "lat": 44.41,
+    "lon": -104.38,
+    "pop": 1200,
+    "elevation_ft": 4750,
+    "koppen": "Dfb",
     "coastal": false
   },
   {
@@ -1760,91 +6772,14 @@
     "coastal": false
   },
   {
-    "id": "billings-mt",
-    "city": "Billings",
-    "state": "MT",
-    "lat": 45.79,
-    "lon": -108.5,
-    "pop": 120000,
-    "elevation_ft": 3123,
+    "id": "grand-junction-co",
+    "city": "Grand Junction",
+    "state": "CO",
+    "lat": 39.06,
+    "lon": -108.55,
+    "pop": 66000,
+    "elevation_ft": 4583,
     "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "kalispell-mt",
-    "city": "Kalispell",
-    "state": "MT",
-    "lat": 48.2,
-    "lon": -114.31,
-    "pop": 28000,
-    "elevation_ft": 2956,
-    "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "whitewright-tx",
-    "city": "Whitewright",
-    "state": "TX",
-    "lat": 33.51,
-    "lon": -96.39,
-    "pop": 1800,
-    "elevation_ft": 679,
-    "koppen": "Cfa",
-    "coastal": false
-  },
-  {
-    "id": "sandpoint-id",
-    "city": "Sandpoint",
-    "state": "ID",
-    "lat": 48.28,
-    "lon": -116.55,
-    "pop": 9000,
-    "elevation_ft": 2100,
-    "koppen": "Dfb",
-    "coastal": false
-  },
-  {
-    "id": "asheville-nc",
-    "city": "Asheville",
-    "state": "NC",
-    "lat": 35.6,
-    "lon": -82.55,
-    "pop": 95000,
-    "elevation_ft": 2134,
-    "koppen": "Cfb",
-    "coastal": false
-  },
-  {
-    "id": "boise-id",
-    "city": "Boise",
-    "state": "ID",
-    "lat": 43.62,
-    "lon": -116.2,
-    "pop": 240000,
-    "elevation_ft": 2704,
-    "koppen": "BSk",
-    "coastal": false
-  },
-  {
-    "id": "yuma-az",
-    "city": "Yuma",
-    "state": "AZ",
-    "lat": 32.69,
-    "lon": -114.63,
-    "pop": 100000,
-    "elevation_ft": 138,
-    "koppen": "BWh",
-    "coastal": false
-  },
-  {
-    "id": "carlsbad-nm",
-    "city": "Carlsbad",
-    "state": "NM",
-    "lat": 32.42,
-    "lon": -104.23,
-    "pop": 32000,
-    "elevation_ft": 3120,
-    "koppen": "BWk",
     "coastal": false
   }
 ]

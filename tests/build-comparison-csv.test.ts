@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { buildComparisonCsv } from "@/lib/power-user/build-comparison-csv";
+import cities from "@data/cities.json";
+
+const ALL_ROWS = cities.length + 1; // header + every spine city
 
 describe("build-comparison-csv", () => {
   it("builds a CSV with one column per selected layer for all cities when unfiltered", () => {
@@ -14,7 +17,7 @@ describe("build-comparison-csv", () => {
     );
     const lines = csv.trim().split("\n");
     expect(lines[0]).toBe("City,Allergy severity: Grass,Crime: Violent crime");
-    expect(lines).toHaveLength(169); // header + 168 cities
+    expect(lines).toHaveLength(ALL_ROWS);
   });
 
   it("restricts rows to the given visibleCityIds set", () => {
@@ -62,12 +65,12 @@ describe("build-comparison-csv", () => {
       ],
       null,
     );
-    expect(csv.trim().split("\n")).toHaveLength(169);
+    expect(csv.trim().split("\n")).toHaveLength(ALL_ROWS);
   });
 
   it("produces just the header row for an empty selection", () => {
     const csv = buildComparisonCsv([], null, [], null);
-    expect(csv.trim().split("\n")).toHaveLength(169); // header + all cities, zero columns
+    expect(csv.trim().split("\n")).toHaveLength(ALL_ROWS); // header + all cities, zero columns
     expect(csv.trim().split("\n")[0]).toBe("City");
   });
 });

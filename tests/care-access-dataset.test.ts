@@ -47,7 +47,7 @@ describe("careAccessDataset (Dataset interface, fourth real implementation, port
     expect(careAccessDataset.getValue("new-york-ny", "not-a-real-layer")).toBeNull();
   });
 
-  it("every one of the 168 spine cities has a value for every layer (no gaps in the ported data)", () => {
+  it("a representative spine city has a value for every layer (no gaps in the ported data)", () => {
     for (const layer of careAccessDataset.layers) {
       const result = careAccessDataset.getValue("los-angeles-ca", layer.id);
       expect(result).not.toBeNull();

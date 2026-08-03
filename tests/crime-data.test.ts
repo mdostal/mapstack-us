@@ -47,7 +47,7 @@ describe("data/crime.json integrity (multi-year)", () => {
     }
   });
 
-  it("2024 covers a substantial majority of the 168-city spine, not a token few", () => {
+  it("2024 covers a substantial majority of the covered city spine, not a token few", () => {
     const covered2024 = Object.entries(records).filter(
       ([key, r]) => key !== "_meta" && (r as CrimeRecord).years["2024"],
     );

@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import cities from "../../data/cities.json";
 
 test("exporting the comparison table downloads a CSV with a header row and one row per visible city", async ({
   page,
@@ -18,8 +19,8 @@ test("exporting the comparison table downloads a CSV with a header row and one r
 
   const lines = csv.trim().split("\n");
   expect(lines[0]).toBe("City,Allergy severity: Grass,Crime: Violent crime");
-  // 168 cities + 1 header row.
-  expect(lines).toHaveLength(169);
+  // Every spine city + 1 header row.
+  expect(lines).toHaveLength(cities.length + 1);
   // The city label itself contains a comma ("New York, NY"), so a correct
   // CSV writer quotes it -- this also doubles as an escaping sanity check.
   expect(lines.some((l) => l.startsWith('"New York, NY",'))).toBe(true);
@@ -30,7 +31,7 @@ test("exported CSV reflects the currently applied filter, not the full unfiltere
   await page.getByRole("button", { name: /^Filter/ }).click();
   await page.getByLabel("Minimum Allergy severity: Grass").fill("90");
   await page.getByRole("button", { name: "Apply filter" }).click();
-  await expect.poll(() => page.locator("tbody tr").count()).toBeLessThan(168);
+  await expect.poll(() => page.locator("tbody tr").count()).toBeLessThan(cities.length);
   const filteredRowCount = await page.locator("tbody tr").count();
 
   const downloadPromise = page.waitForEvent("download");
