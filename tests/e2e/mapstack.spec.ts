@@ -83,6 +83,21 @@ test("the eighth dataset (food access) is selectable and reports a real percenta
   await expect(detail).toContainText("USDA ERS Food Access Research Atlas");
 });
 
+test("the ninth dataset (housing supply) is selectable and reports a real value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Housing supply" }).click();
+  await page.getByRole("button", { name: "Housing market tightness" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing supply: Housing market tightness" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Housing supply: Housing market tightness" });
+  await expect(detail).toContainText("homes for sale");
+  await expect(detail).toContainText("Zillow Research");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

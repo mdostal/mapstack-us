@@ -1,0 +1,3068 @@
+{
+  "_meta": {
+    "source": "Zillow Research Data, For-Sale Inventory (City, SFR+Condo, smoothed, monthly)",
+    "source_url": "https://www.zillow.com/research/data/",
+    "resolution": "city",
+    "latest_month": "2026-06-30"
+  },
+  "new-york-ny": {
+    "listings": 18416.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.145,
+    "concern": 78.8
+  },
+  "los-angeles-ca": {
+    "listings": 8201.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.12,
+    "concern": 79.4
+  },
+  "chicago-il": {
+    "listings": 5566.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.038,
+    "concern": 80.7
+  },
+  "houston-tx": {
+    "listings": 12823.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.349,
+    "concern": 24.2
+  },
+  "phoenix-az": {
+    "listings": 5683.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.412,
+    "concern": 51.5
+  },
+  "philadelphia-pa": {
+    "listings": 5753.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.654,
+    "concern": 46.8
+  },
+  "san-antonio-tx": {
+    "listings": 8258.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.333,
+    "concern": 24.6
+  },
+  "san-diego-ca": {
+    "listings": 3367.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.395,
+    "concern": 74.7
+  },
+  "dallas-tx": {
+    "listings": 5112.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.845,
+    "concern": 44.8
+  },
+  "fort-worth-tx": {
+    "listings": 3314.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.223,
+    "concern": 55.6
+  },
+  "jacksonville-fl": {
+    "listings": 5092.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.003,
+    "concern": 28.3
+  },
+  "austin-tx": {
+    "listings": 5534.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.519,
+    "concern": 22.6
+  },
+  "san-jose-ca": {
+    "listings": 1630.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.647,
+    "concern": 87.8
+  },
+  "charlotte-nc": {
+    "listings": 4594.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.762,
+    "concern": 31.0
+  },
+  "columbus-oh": {
+    "listings": 2287.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.437,
+    "concern": 73.7
+  },
+  "indianapolis-in": {
+    "listings": 3775.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.189,
+    "concern": 39.1
+  },
+  "san-francisco-ca": {
+    "listings": 1157.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.401,
+    "concern": 92.5
+  },
+  "seattle-wa": {
+    "listings": 2670.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.402,
+    "concern": 51.9
+  },
+  "denver-co": {
+    "listings": 4209.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.683,
+    "concern": 20.8
+  },
+  "nashville-tn": {
+    "listings": 4482.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.216,
+    "concern": 16.7
+  },
+  "oklahoma-city-ok": {
+    "listings": 2399.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.333,
+    "concern": 53.8
+  },
+  "washington-dc": {
+    "listings": 3201.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.615,
+    "concern": 33.4
+  },
+  "el-paso-tx": {
+    "listings": 2869.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.201,
+    "concern": 38.7
+  },
+  "las-vegas-nv": {
+    "listings": 8695.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 12.79,
+    "concern": 3.3
+  },
+  "boston-ma": {
+    "listings": 2407.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.577,
+    "concern": 47.9
+  },
+  "detroit-mi": {
+    "listings": 3376.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.201,
+    "concern": 26.5
+  },
+  "louisville-ky": {
+    "listings": 2863.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.46,
+    "concern": 35.6
+  },
+  "portland-or": {
+    "listings": 2822.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.443,
+    "concern": 36.0
+  },
+  "memphis-tn": {
+    "listings": 3140.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.151,
+    "concern": 27.3
+  },
+  "baltimore-md": {
+    "listings": 2919.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.121,
+    "concern": 27.7
+  },
+  "milwaukee-wi": {
+    "listings": 1477.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.626,
+    "concern": 68.2
+  },
+  "albuquerque-nm": {
+    "listings": 1626.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.921,
+    "concern": 61.1
+  },
+  "fresno-ca": {
+    "listings": 1319.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.374,
+    "concern": 75.0
+  },
+  "tucson-az": {
+    "listings": 3157.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.757,
+    "concern": 20.4
+  },
+  "sacramento-ca": {
+    "listings": 1564.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.915,
+    "concern": 61.3
+  },
+  "atlanta-ga": {
+    "listings": 4692.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.868,
+    "concern": 8.4
+  },
+  "kansas-city-mo": {
+    "listings": 1891.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.628,
+    "concern": 47.2
+  },
+  "mesa-az": {
+    "listings": 1996.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.886,
+    "concern": 44.2
+  },
+  "raleigh-nc": {
+    "listings": 2150.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.246,
+    "concern": 38.1
+  },
+  "colorado-springs-co": {
+    "listings": 3090.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.246,
+    "concern": 16.5
+  },
+  "miami-fl": {
+    "listings": 5988.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 12.225,
+    "concern": 3.9
+  },
+  "omaha-ne": {
+    "listings": 1597.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.267,
+    "concern": 54.6
+  },
+  "virginia-beach-va": {
+    "listings": 1605.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.537,
+    "concern": 48.7
+  },
+  "long-beach-ca": {
+    "listings": 804.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.785,
+    "concern": 85.5
+  },
+  "oakland-ca": {
+    "listings": 768.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.742,
+    "concern": 86.1
+  },
+  "minneapolis-mn": {
+    "listings": 1484.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.449,
+    "concern": 51.1
+  },
+  "bakersfield-ca": {
+    "listings": 1418.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.359,
+    "concern": 53.0
+  },
+  "tulsa-ok": {
+    "listings": 1659.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.986,
+    "concern": 41.7
+  },
+  "tampa-fl": {
+    "listings": 3104.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.506,
+    "concern": 11.8
+  },
+  "aurora-co": {
+    "listings": 1963.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.787,
+    "concern": 30.6
+  },
+  "arlington-tx": {
+    "listings": 1020.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.536,
+    "concern": 70.9
+  },
+  "wichita-ks": {
+    "listings": 1156.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.883,
+    "concern": 62.5
+  },
+  "cleveland-oh": {
+    "listings": 1221.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.358,
+    "concern": 53.4
+  },
+  "new-orleans-la": {
+    "listings": 2232.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.163,
+    "concern": 17.1
+  },
+  "henderson-nv": {
+    "listings": 2321.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.57,
+    "concern": 14.9
+  },
+  "honolulu-hi": {
+    "listings": 2321.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.789,
+    "concern": 14.1
+  },
+  "anaheim-ca": {
+    "listings": 376.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.103,
+    "concern": 96.3
+  },
+  "orlando-fl": {
+    "listings": 4143.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 12.408,
+    "concern": 3.5
+  },
+  "lexington-ky": {
+    "listings": 916.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.778,
+    "concern": 64.4
+  },
+  "stockton-ca": {
+    "listings": 644.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.984,
+    "concern": 81.9
+  },
+  "newark-nj": {
+    "listings": 238.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.735,
+    "concern": 99.0
+  },
+  "riverside-ca": {
+    "listings": 678.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.099,
+    "concern": 80.0
+  },
+  "irvine-ca": {
+    "listings": 870.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.729,
+    "concern": 65.6
+  },
+  "corpus-christi-tx": {
+    "listings": 2136.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.733,
+    "concern": 14.3
+  },
+  "santa-ana-ca": {
+    "listings": 285.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.903,
+    "concern": 97.4
+  },
+  "cincinnati-oh": {
+    "listings": 1475.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.692,
+    "concern": 32.4
+  },
+  "greensboro-nc": {
+    "listings": 1073.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.476,
+    "concern": 50.3
+  },
+  "pittsburgh-pa": {
+    "listings": 2374.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.717,
+    "concern": 11.2
+  },
+  "saint-paul-mn": {
+    "listings": 837.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.729,
+    "concern": 65.4
+  },
+  "durham-nc": {
+    "listings": 1213.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.97,
+    "concern": 42.0
+  },
+  "jersey-city-nj": {
+    "listings": 714.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.364,
+    "concern": 75.4
+  },
+  "lincoln-ne": {
+    "listings": 839.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.783,
+    "concern": 64.0
+  },
+  "north-las-vegas-nv": {
+    "listings": 1098.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.701,
+    "concern": 46.0
+  },
+  "plano-tx": {
+    "listings": 923.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.15,
+    "concern": 57.2
+  },
+  "gilbert-az": {
+    "listings": 1149.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.0,
+    "concern": 41.5
+  },
+  "anchorage-ak": {
+    "listings": 480.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.672,
+    "concern": 87.0
+  },
+  "madison-wi": {
+    "listings": 641.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.239,
+    "concern": 77.6
+  },
+  "reno-nv": {
+    "listings": 1069.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.769,
+    "concern": 45.2
+  },
+  "chandler-az": {
+    "listings": 1139.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.086,
+    "concern": 40.7
+  },
+  "st-louis-mo": {
+    "listings": 1048.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.768,
+    "concern": 45.4
+  },
+  "chula-vista-ca": {
+    "listings": 403.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.463,
+    "concern": 91.4
+  },
+  "fort-wayne-in": {
+    "listings": 968.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.517,
+    "concern": 49.3
+  },
+  "buffalo-ny": {
+    "listings": 923.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.361,
+    "concern": 52.8
+  },
+  "lubbock-tx": {
+    "listings": 1548.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.669,
+    "concern": 21.0
+  },
+  "laredo-tx": {
+    "listings": 716.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.657,
+    "concern": 67.2
+  },
+  "port-st-lucie-fl": {
+    "listings": 2312.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.625,
+    "concern": 9.0
+  },
+  "st-petersburg-fl": {
+    "listings": 2597.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.836,
+    "concern": 6.7
+  },
+  "toledo-oh": {
+    "listings": 762.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.893,
+    "concern": 61.9
+  },
+  "glendale-az": {
+    "listings": 783.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.005,
+    "concern": 59.5
+  },
+  "winston-salem-nc": {
+    "listings": 1016.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.949,
+    "concern": 42.8
+  },
+  "irving-tx": {
+    "listings": 564.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.194,
+    "concern": 78.4
+  },
+  "chesapeake-va": {
+    "listings": 899.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.521,
+    "concern": 49.1
+  },
+  "garland-tx": {
+    "listings": 790.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.165,
+    "concern": 56.4
+  },
+  "arlington-va": {
+    "listings": 631.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.587,
+    "concern": 69.7
+  },
+  "scottsdale-az": {
+    "listings": 2999.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 12.341,
+    "concern": 3.7
+  },
+  "boise-id": {
+    "listings": 811.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.401,
+    "concern": 52.1
+  },
+  "richmond-va": {
+    "listings": 729.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.073,
+    "concern": 58.2
+  },
+  "frisco-tx": {
+    "listings": 1230.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.191,
+    "concern": 26.9
+  },
+  "cape-coral-fl": {
+    "listings": 3071.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 12.998,
+    "concern": 3.1
+  },
+  "mckinney-tx": {
+    "listings": 1255.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.318,
+    "concern": 25.0
+  },
+  "huntsville-al": {
+    "listings": 1078.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.614,
+    "concern": 33.6
+  },
+  "norfolk-va": {
+    "listings": 914.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.956,
+    "concern": 42.2
+  },
+  "hialeah-fl": {
+    "listings": 808.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.498,
+    "concern": 49.9
+  },
+  "spokane-wa": {
+    "listings": 1337.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.793,
+    "concern": 20.0
+  },
+  "tacoma-wa": {
+    "listings": 648.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.82,
+    "concern": 63.5
+  },
+  "santa-clarita-ca": {
+    "listings": 803.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.515,
+    "concern": 49.5
+  },
+  "fremont-ca": {
+    "listings": 397.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.753,
+    "concern": 85.9
+  },
+  "baton-rouge-la": {
+    "listings": 1753.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.868,
+    "concern": 10.8
+  },
+  "san-bernardino-ca": {
+    "listings": 384.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.729,
+    "concern": 86.4
+  },
+  "fontana-ca": {
+    "listings": 355.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.605,
+    "concern": 89.2
+  },
+  "modesto-ca": {
+    "listings": 495.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.254,
+    "concern": 77.2
+  },
+  "salt-lake-city-ut": {
+    "listings": 688.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.15,
+    "concern": 57.0
+  },
+  "moreno-valley-ca": {
+    "listings": 317.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.479,
+    "concern": 90.8
+  },
+  "worcester-ma": {
+    "listings": 304.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.421,
+    "concern": 92.3
+  },
+  "sioux-falls-sd": {
+    "listings": 950.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.444,
+    "concern": 35.8
+  },
+  "yonkers-ny": {
+    "listings": 406.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.91,
+    "concern": 83.3
+  },
+  "des-moines-ia": {
+    "listings": 1003.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.729,
+    "concern": 31.6
+  },
+  "grand-prairie-tx": {
+    "listings": 397.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.896,
+    "concern": 83.7
+  },
+  "fayetteville-nc": {
+    "listings": 1123.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.37,
+    "concern": 23.8
+  },
+  "little-rock-ar": {
+    "listings": 1270.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.152,
+    "concern": 17.3
+  },
+  "rochester-ny": {
+    "listings": 700.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.396,
+    "concern": 52.3
+  },
+  "amarillo-tx": {
+    "listings": 840.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.095,
+    "concern": 40.5
+  },
+  "tallahassee-fl": {
+    "listings": 1155.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.637,
+    "concern": 21.4
+  },
+  "overland-park-ks": {
+    "listings": 419.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.057,
+    "concern": 80.2
+  },
+  "columbus-ga": {
+    "listings": 702.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.472,
+    "concern": 50.5
+  },
+  "knoxville-tn": {
+    "listings": 2066.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 10.227,
+    "concern": 6.3
+  },
+  "augusta-ga": {
+    "listings": 725.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.589,
+    "concern": 47.7
+  },
+  "grand-rapids-mi": {
+    "listings": 523.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.6,
+    "concern": 69.4
+  },
+  "peoria-az": {
+    "listings": 1071.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.332,
+    "concern": 24.8
+  },
+  "mobile-al": {
+    "listings": 1084.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.398,
+    "concern": 23.4
+  },
+  "vancouver-wa": {
+    "listings": 1226.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.139,
+    "concern": 17.7
+  },
+  "oxnard-ca": {
+    "listings": 244.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.222,
+    "concern": 94.9
+  },
+  "birmingham-al": {
+    "listings": 1310.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.687,
+    "concern": 14.7
+  },
+  "providence-ri": {
+    "listings": 229.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.172,
+    "concern": 95.5
+  },
+  "montgomery-al": {
+    "listings": 1035.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.3,
+    "concern": 25.3
+  },
+  "chattanooga-tn": {
+    "listings": 1091.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.62,
+    "concern": 21.6
+  },
+  "brownsville-tx": {
+    "listings": 455.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.358,
+    "concern": 75.6
+  },
+  "huntington-beach-ca": {
+    "listings": 425.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.22,
+    "concern": 78.0
+  },
+  "tempe-az": {
+    "listings": 536.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.813,
+    "concern": 63.7
+  },
+  "akron-oh": {
+    "listings": 779.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.107,
+    "concern": 40.1
+  },
+  "clarksville-tn": {
+    "listings": 1352.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.16,
+    "concern": 12.6
+  },
+  "fort-lauderdale-fl": {
+    "listings": 2928.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 15.519,
+    "concern": 2.4
+  },
+  "glendale-ca": {
+    "listings": 269.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.437,
+    "concern": 92.1
+  },
+  "ontario-ca": {
+    "listings": 346.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.85,
+    "concern": 84.1
+  },
+  "elk-grove-ca": {
+    "listings": 363.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.962,
+    "concern": 82.5
+  },
+  "cary-nc": {
+    "listings": 570.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.105,
+    "concern": 57.8
+  },
+  "newport-news-va": {
+    "listings": 585.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.193,
+    "concern": 55.8
+  },
+  "salem-or": {
+    "listings": 787.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.329,
+    "concern": 36.9
+  },
+  "aurora-il": {
+    "listings": 333.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.835,
+    "concern": 84.7
+  },
+  "santa-rosa-ca": {
+    "listings": 470.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.619,
+    "concern": 68.6
+  },
+  "eugene-or": {
+    "listings": 547.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.062,
+    "concern": 58.7
+  },
+  "rancho-cucamonga-ca": {
+    "listings": 351.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.974,
+    "concern": 82.3
+  },
+  "pembroke-pines-fl": {
+    "listings": 1086.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.146,
+    "concern": 17.5
+  },
+  "shreveport-la": {
+    "listings": 1023.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.816,
+    "concern": 19.4
+  },
+  "surprise-az": {
+    "listings": 1247.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.113,
+    "concern": 12.8
+  },
+  "fort-collins-co": {
+    "listings": 768.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.478,
+    "concern": 35.4
+  },
+  "murfreesboro-tn": {
+    "listings": 608.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.552,
+    "concern": 48.5
+  },
+  "oceanside-ca": {
+    "listings": 493.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.892,
+    "concern": 62.1
+  },
+  "garden-grove-ca": {
+    "listings": 146.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.857,
+    "concern": 97.6
+  },
+  "lancaster-ca": {
+    "listings": 735.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.321,
+    "concern": 37.3
+  },
+  "springfield-mo": {
+    "listings": 1049.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.176,
+    "concern": 16.9
+  },
+  "denton-tx": {
+    "listings": 643.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.795,
+    "concern": 45.0
+  },
+  "roseville-ca": {
+    "listings": 498.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.977,
+    "concern": 60.5
+  },
+  "killeen-tx": {
+    "listings": 799.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.936,
+    "concern": 29.3
+  },
+  "palmdale-ca": {
+    "listings": 578.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.571,
+    "concern": 48.3
+  },
+  "paterson-nj": {
+    "listings": 128.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.791,
+    "concern": 98.4
+  },
+  "corona-ca": {
+    "listings": 541.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.345,
+    "concern": 53.6
+  },
+  "alexandria-va": {
+    "listings": 754.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.693,
+    "concern": 32.2
+  },
+  "charleston-sc": {
+    "listings": 1800.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.291,
+    "concern": 5.1
+  },
+  "salinas-ca": {
+    "listings": 186.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.169,
+    "concern": 95.7
+  },
+  "kansas-city-ks": {
+    "listings": 415.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.63,
+    "concern": 68.0
+  },
+  "macon-ga": {
+    "listings": 889.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.642,
+    "concern": 21.2
+  },
+  "hayward-ca": {
+    "listings": 253.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.61,
+    "concern": 89.0
+  },
+  "hollywood-fl": {
+    "listings": 1788.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.387,
+    "concern": 4.5
+  },
+  "lakewood-co": {
+    "listings": 679.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.327,
+    "concern": 37.1
+  },
+  "sunnyvale-ca": {
+    "listings": 215.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.373,
+    "concern": 93.5
+  },
+  "springfield-ma": {
+    "listings": 258.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.668,
+    "concern": 87.2
+  },
+  "bellevue-wa": {
+    "listings": 617.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.001,
+    "concern": 41.3
+  },
+  "naperville-il": {
+    "listings": 423.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.763,
+    "concern": 64.8
+  },
+  "bridgeport-ct": {
+    "listings": 196.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.287,
+    "concern": 94.1
+  },
+  "joliet-il": {
+    "listings": 246.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.616,
+    "concern": 88.8
+  },
+  "mesquite-tx": {
+    "listings": 509.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.378,
+    "concern": 52.7
+  },
+  "mcallen-tx": {
+    "listings": 785.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.211,
+    "concern": 26.3
+  },
+  "olathe-ks": {
+    "listings": 337.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.246,
+    "concern": 77.4
+  },
+  "savannah-ga": {
+    "listings": 1352.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.047,
+    "concern": 8.1
+  },
+  "gainesville-fl": {
+    "listings": 1017.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.841,
+    "concern": 13.9
+  },
+  "pasadena-tx": {
+    "listings": 323.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.175,
+    "concern": 78.6
+  },
+  "palm-bay-fl": {
+    "listings": 905.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.111,
+    "concern": 18.1
+  },
+  "pomona-ca": {
+    "listings": 206.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.394,
+    "concern": 92.9
+  },
+  "waco-tx": {
+    "listings": 737.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.987,
+    "concern": 29.1
+  },
+  "thornton-co": {
+    "listings": 517.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.499,
+    "concern": 49.7
+  },
+  "midland-tx": {
+    "listings": 805.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.453,
+    "concern": 23.0
+  },
+  "rockford-il": {
+    "listings": 362.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.456,
+    "concern": 72.7
+  },
+  "columbia-sc": {
+    "listings": 1280.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.705,
+    "concern": 8.8
+  },
+  "visalia-ca": {
+    "listings": 388.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.648,
+    "concern": 67.4
+  },
+  "escondido-ca": {
+    "listings": 398.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.725,
+    "concern": 65.8
+  },
+  "syracuse-ny": {
+    "listings": 306.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.112,
+    "concern": 79.6
+  },
+  "meridian-id": {
+    "listings": 520.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.637,
+    "concern": 47.0
+  },
+  "miramar-fl": {
+    "listings": 558.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.914,
+    "concern": 43.2
+  },
+  "elizabeth-nj": {
+    "listings": 79.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.558,
+    "concern": 99.6
+  },
+  "victorville-ca": {
+    "listings": 519.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.671,
+    "concern": 46.4
+  },
+  "round-rock-tx": {
+    "listings": 787.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.57,
+    "concern": 22.0
+  },
+  "jackson-ms": {
+    "listings": 724.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.128,
+    "concern": 27.5
+  },
+  "stamford-ct": {
+    "listings": 277.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.985,
+    "concern": 81.7
+  },
+  "lewisville-tx": {
+    "listings": 364.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.619,
+    "concern": 68.4
+  },
+  "coral-springs-fl": {
+    "listings": 737.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.31,
+    "concern": 25.1
+  },
+  "new-haven-ct": {
+    "listings": 151.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.088,
+    "concern": 96.5
+  },
+  "fullerton-ca": {
+    "listings": 191.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.377,
+    "concern": 93.3
+  },
+  "torrance-ca": {
+    "listings": 230.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.662,
+    "concern": 87.4
+  },
+  "orange-ca": {
+    "listings": 199.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.438,
+    "concern": 91.9
+  },
+  "cedar-rapids-ia": {
+    "listings": 428.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.103,
+    "concern": 58.0
+  },
+  "west-valley-city-ut": {
+    "listings": 256.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.862,
+    "concern": 83.9
+  },
+  "hampton-va": {
+    "listings": 574.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.18,
+    "concern": 39.3
+  },
+  "warren-mi": {
+    "listings": 504.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.675,
+    "concern": 46.2
+  },
+  "dayton-oh": {
+    "listings": 660.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.829,
+    "concern": 30.1
+  },
+  "fargo-nd": {
+    "listings": 429.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.148,
+    "concern": 57.4
+  },
+  "pasadena-ca": {
+    "listings": 366.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.695,
+    "concern": 66.4
+  },
+  "kent-wa": {
+    "listings": 344.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.551,
+    "concern": 70.5
+  },
+  "carrollton-tx": {
+    "listings": 444.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.3,
+    "concern": 54.2
+  },
+  "sterling-heights-mi": {
+    "listings": 329.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.456,
+    "concern": 72.5
+  },
+  "santa-clara-ca": {
+    "listings": 202.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.514,
+    "concern": 90.4
+  },
+  "abilene-tx": {
+    "listings": 348.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.645,
+    "concern": 67.6
+  },
+  "norman-ok": {
+    "listings": 541.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.132,
+    "concern": 39.7
+  },
+  "columbia-mo": {
+    "listings": 579.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.425,
+    "concern": 36.1
+  },
+  "pearland-tx": {
+    "listings": 440.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.386,
+    "concern": 52.5
+  },
+  "clovis-ca": {
+    "listings": 341.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.636,
+    "concern": 67.8
+  },
+  "north-charleston-sc": {
+    "listings": 582.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.503,
+    "concern": 35.2
+  },
+  "athens-ga": {
+    "listings": 558.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.339,
+    "concern": 36.7
+  },
+  "college-station-tx": {
+    "listings": 782.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.135,
+    "concern": 17.9
+  },
+  "west-palm-beach-fl": {
+    "listings": 1769.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 13.908,
+    "concern": 2.6
+  },
+  "wilmington-nc": {
+    "listings": 1070.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.438,
+    "concern": 9.8
+  },
+  "allentown-pa": {
+    "listings": 308.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.444,
+    "concern": 73.5
+  },
+  "topeka-ks": {
+    "listings": 384.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.053,
+    "concern": 58.9
+  },
+  "lakeland-fl": {
+    "listings": 1079.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.596,
+    "concern": 9.2
+  },
+  "buckeye-az": {
+    "listings": 869.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.927,
+    "concern": 13.6
+  },
+  "goodyear-az": {
+    "listings": 727.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.799,
+    "concern": 19.8
+  },
+  "broken-arrow-ok": {
+    "listings": 653.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.224,
+    "concern": 26.1
+  },
+  "simi-valley-ca": {
+    "listings": 306.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.451,
+    "concern": 72.9
+  },
+  "rochester-mn": {
+    "listings": 530.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.264,
+    "concern": 37.7
+  },
+  "lafayette-la": {
+    "listings": 746.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.05,
+    "concern": 18.5
+  },
+  "vallejo-ca": {
+    "listings": 300.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.433,
+    "concern": 73.9
+  },
+  "concord-ca": {
+    "listings": 307.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.491,
+    "concern": 71.5
+  },
+  "arvada-co": {
+    "listings": 585.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.76,
+    "concern": 31.2
+  },
+  "odessa-tx": {
+    "listings": 554.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.515,
+    "concern": 34.8
+  },
+  "cambridge-ma": {
+    "listings": 273.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.227,
+    "concern": 77.8
+  },
+  "new-braunfels-tx": {
+    "listings": 1186.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.682,
+    "concern": 6.9
+  },
+  "fairfield-ca": {
+    "listings": 261.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.131,
+    "concern": 79.2
+  },
+  "ann-arbor-mi": {
+    "listings": 487.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.984,
+    "concern": 41.8
+  },
+  "thousand-oaks-ca": {
+    "listings": 341.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.79,
+    "concern": 63.9
+  },
+  "hartford-ct": {
+    "listings": 74.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.607,
+    "concern": 99.4
+  },
+  "berkeley-ca": {
+    "listings": 143.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.173,
+    "concern": 95.3
+  },
+  "independence-mo": {
+    "listings": 385.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.164,
+    "concern": 56.6
+  },
+  "billings-mt": {
+    "listings": 637.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.254,
+    "concern": 25.9
+  },
+  "high-point-nc": {
+    "listings": 420.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.483,
+    "concern": 50.1
+  },
+  "nampa-id": {
+    "listings": 494.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.104,
+    "concern": 40.3
+  },
+  "lowell-ma": {
+    "listings": 150.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.25,
+    "concern": 94.7
+  },
+  "league-city-tx": {
+    "listings": 499.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.162,
+    "concern": 39.5
+  },
+  "conroe-tx": {
+    "listings": 1388.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.609,
+    "concern": 4.1
+  },
+  "antioch-ca": {
+    "listings": 239.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.009,
+    "concern": 81.5
+  },
+  "menifee-ca": {
+    "listings": 511.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.309,
+    "concern": 37.5
+  },
+  "richardson-tx": {
+    "listings": 388.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.273,
+    "concern": 54.4
+  },
+  "pompano-beach-fl": {
+    "listings": 1359.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.594,
+    "concern": 4.3
+  },
+  "las-cruces-nm": {
+    "listings": 738.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.309,
+    "concern": 16.1
+  },
+  "manchester-nh": {
+    "listings": 194.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.661,
+    "concern": 87.6
+  },
+  "west-jordan-ut": {
+    "listings": 283.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.423,
+    "concern": 74.3
+  },
+  "westminster-co": {
+    "listings": 425.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.658,
+    "concern": 46.6
+  },
+  "evansville-in": {
+    "listings": 696.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.991,
+    "concern": 18.7
+  },
+  "waterbury-ct": {
+    "listings": 195.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.684,
+    "concern": 86.8
+  },
+  "elgin-il": {
+    "listings": 234.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.026,
+    "concern": 81.1
+  },
+  "greeley-co": {
+    "listings": 345.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.998,
+    "concern": 59.7
+  },
+  "temecula-ca": {
+    "listings": 521.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.536,
+    "concern": 34.4
+  },
+  "richmond-ca": {
+    "listings": 186.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.619,
+    "concern": 88.4
+  },
+  "concord-nc": {
+    "listings": 585.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.105,
+    "concern": 27.9
+  },
+  "provo-ut": {
+    "listings": 271.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.366,
+    "concern": 75.2
+  },
+  "rio-rancho-nm": {
+    "listings": 480.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.195,
+    "concern": 38.9
+  },
+  "clearwater-fl": {
+    "listings": 1488.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 13.011,
+    "concern": 2.9
+  },
+  "tuscaloosa-al": {
+    "listings": 589.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.152,
+    "concern": 27.1
+  },
+  "murrieta-ca": {
+    "listings": 525.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.6,
+    "concern": 33.8
+  },
+  "lansing-mi": {
+    "listings": 485.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.259,
+    "concern": 37.9
+  },
+  "tyler-tx": {
+    "listings": 865.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.606,
+    "concern": 11.4
+  },
+  "miami-gardens-fl": {
+    "listings": 330.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.905,
+    "concern": 61.7
+  },
+  "everett-wa": {
+    "listings": 389.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.425,
+    "concern": 51.3
+  },
+  "allen-tx": {
+    "listings": 423.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.729,
+    "concern": 45.8
+  },
+  "springfield-il": {
+    "listings": 279.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.469,
+    "concern": 71.9
+  },
+  "beaumont-tx": {
+    "listings": 564.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.993,
+    "concern": 28.7
+  },
+  "carlsbad-ca": {
+    "listings": 365.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.251,
+    "concern": 54.8
+  },
+  "sparks-nv": {
+    "listings": 436.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.896,
+    "concern": 44.0
+  },
+  "gresham-or": {
+    "listings": 310.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.78,
+    "concern": 64.2
+  },
+  "santa-maria-ca": {
+    "listings": 183.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.643,
+    "concern": 88.0
+  },
+  "hillsboro-or": {
+    "listings": 359.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.231,
+    "concern": 55.4
+  },
+  "peoria-il": {
+    "listings": 340.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.065,
+    "concern": 58.5
+  },
+  "davie-fl": {
+    "listings": 535.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.826,
+    "concern": 30.5
+  },
+  "edinburg-tx": {
+    "listings": 717.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.477,
+    "concern": 15.3
+  },
+  "pueblo-co": {
+    "listings": 1039.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.411,
+    "concern": 7.3
+  },
+  "ventura-ca": {
+    "listings": 226.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.056,
+    "concern": 80.4
+  },
+  "palm-coast-fl": {
+    "listings": 1174.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 10.684,
+    "concern": 5.9
+  },
+  "costa-mesa-ca": {
+    "listings": 160.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.469,
+    "concern": 91.2
+  },
+  "st-george-ut": {
+    "listings": 1020.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.383,
+    "concern": 7.5
+  },
+  "centennial-co": {
+    "listings": 424.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.902,
+    "concern": 43.6
+  },
+  "downey-ca": {
+    "listings": 92.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.848,
+    "concern": 97.8
+  },
+  "spokane-valley-wa": {
+    "listings": 323.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.98,
+    "concern": 60.3
+  },
+  "sugar-land-tx": {
+    "listings": 750.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.962,
+    "concern": 13.4
+  },
+  "lees-summit-mo": {
+    "listings": 343.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.19,
+    "concern": 56.0
+  },
+  "bend-or": {
+    "listings": 988.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.204,
+    "concern": 7.7
+  },
+  "jurupa-valley-ca": {
+    "listings": 137.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.277,
+    "concern": 94.3
+  },
+  "georgetown-tx": {
+    "listings": 1191.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.141,
+    "concern": 5.5
+  },
+  "green-bay-wi": {
+    "listings": 293.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.747,
+    "concern": 65.0
+  },
+  "fayetteville-ar": {
+    "listings": 490.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.596,
+    "concern": 34.0
+  },
+  "rialto-ca": {
+    "listings": 110.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.032,
+    "concern": 96.7
+  },
+  "brockton-ma": {
+    "listings": 162.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.526,
+    "concern": 90.2
+  },
+  "boulder-co": {
+    "listings": 763.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.219,
+    "concern": 12.4
+  },
+  "carmel-in": {
+    "listings": 301.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.849,
+    "concern": 62.7
+  },
+  "dearborn-mi": {
+    "listings": 186.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.761,
+    "concern": 85.7
+  },
+  "west-covina-ca": {
+    "listings": 147.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.396,
+    "concern": 92.7
+  },
+  "yuma-az": {
+    "listings": 845.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.03,
+    "concern": 10.6
+  },
+  "chico-ca": {
+    "listings": 275.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.617,
+    "concern": 69.0
+  },
+  "el-monte-ca": {
+    "listings": 83.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.79,
+    "concern": 98.6
+  },
+  "sandy-springs-ga": {
+    "listings": 610.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.809,
+    "concern": 19.6
+  },
+  "renton-wa": {
+    "listings": 409.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.896,
+    "concern": 43.8
+  },
+  "fishers-in": {
+    "listings": 352.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.358,
+    "concern": 53.2
+  },
+  "suffolk-va": {
+    "listings": 472.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.508,
+    "concern": 35.0
+  },
+  "lynn-ma": {
+    "listings": 150.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.439,
+    "concern": 91.7
+  },
+  "vacaville-ca": {
+    "listings": 256.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.465,
+    "concern": 72.1
+  },
+  "san-mateo-ca": {
+    "listings": 190.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.839,
+    "concern": 84.3
+  },
+  "south-bend-in": {
+    "listings": 491.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.758,
+    "concern": 31.4
+  },
+  "quincy-ma": {
+    "listings": 197.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.909,
+    "concern": 83.5
+  },
+  "burbank-ca": {
+    "listings": 161.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.563,
+    "concern": 89.6
+  },
+  "hesperia-ca": {
+    "listings": 324.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.158,
+    "concern": 56.8
+  },
+  "wichita-falls-tx": {
+    "listings": 550.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.395,
+    "concern": 23.6
+  },
+  "tracy-ca": {
+    "listings": 264.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.591,
+    "concern": 69.5
+  },
+  "new-bedford-ma": {
+    "listings": 121.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.188,
+    "concern": 95.1
+  },
+  "el-cajon-ca": {
+    "listings": 312.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.066,
+    "concern": 58.3
+  },
+  "albany-ny": {
+    "listings": 183.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.799,
+    "concern": 85.3
+  },
+  "inglewood-ca": {
+    "listings": 150.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.475,
+    "concern": 91.0
+  },
+  "boca-raton-fl": {
+    "listings": 2235.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 22.002,
+    "concern": 1.0
+  },
+  "fort-myers-fl": {
+    "listings": 3633.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 35.765,
+    "concern": 0.2
+  },
+  "daly-city-ca": {
+    "listings": 77.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.76,
+    "concern": 98.8
+  },
+  "avondale-az": {
+    "listings": 276.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.733,
+    "concern": 65.2
+  },
+  "san-angelo-tx": {
+    "listings": 537.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.336,
+    "concern": 24.4
+  },
+  "edmond-ok": {
+    "listings": 1348.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 13.416,
+    "concern": 2.8
+  },
+  "davenport-ia": {
+    "listings": 300.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.989,
+    "concern": 59.9
+  },
+  "deltona-fl": {
+    "listings": 423.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.219,
+    "concern": 38.3
+  },
+  "longmont-co": {
+    "listings": 440.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.395,
+    "concern": 36.3
+  },
+  "federal-way-wa": {
+    "listings": 249.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.497,
+    "concern": 71.3
+  },
+  "merced-ca": {
+    "listings": 271.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.718,
+    "concern": 66.0
+  },
+  "kenosha-wi": {
+    "listings": 190.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.915,
+    "concern": 83.1
+  },
+  "plantation-fl": {
+    "listings": 647.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.523,
+    "concern": 15.1
+  },
+  "roanoke-va": {
+    "listings": 679.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.851,
+    "concern": 13.8
+  },
+  "sunrise-fl": {
+    "listings": 847.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.569,
+    "concern": 9.6
+  },
+  "temple-tx": {
+    "listings": 699.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.103,
+    "concern": 13.0
+  },
+  "vista-ca": {
+    "listings": 217.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.208,
+    "concern": 78.2
+  },
+  "beaverton-or": {
+    "listings": 656.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.705,
+    "concern": 14.5
+  },
+  "yakima-wa": {
+    "listings": 385.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.95,
+    "concern": 42.4
+  },
+  "kirkland-wa": {
+    "listings": 486.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.989,
+    "concern": 28.9
+  },
+  "norwalk-ca": {
+    "listings": 96.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.989,
+    "concern": 96.9
+  },
+  "chino-ca": {
+    "listings": 178.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.836,
+    "concern": 84.5
+  },
+  "portsmouth-va": {
+    "listings": 467.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.826,
+    "concern": 30.3
+  },
+  "manteca-ca": {
+    "listings": 259.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.679,
+    "concern": 66.8
+  },
+  "north-port-fl": {
+    "listings": 729.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.55,
+    "concern": 11.6
+  },
+  "greenville-nc": {
+    "listings": 294.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.048,
+    "concern": 59.1
+  },
+  "bellingham-wa": {
+    "listings": 405.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.201,
+    "concern": 38.5
+  },
+  "lawrence-ks": {
+    "listings": 248.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.573,
+    "concern": 70.3
+  },
+  "ofallon-mo": {
+    "listings": 235.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.445,
+    "concern": 73.3
+  },
+  "reading-pa": {
+    "listings": 338.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.527,
+    "concern": 48.9
+  },
+  "mount-pleasant-sc": {
+    "listings": 820.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.589,
+    "concern": 9.4
+  },
+  "lehi-ut": {
+    "listings": 369.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.871,
+    "concern": 44.4
+  },
+  "fall-river-ma": {
+    "listings": 147.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.543,
+    "concern": 90.0
+  },
+  "orem-ut": {
+    "listings": 219.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.3,
+    "concern": 76.4
+  },
+  "san-marcos-ca": {
+    "listings": 194.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.044,
+    "concern": 80.6
+  },
+  "norwalk-ct": {
+    "listings": 187.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.979,
+    "concern": 82.1
+  },
+  "indio-ca": {
+    "listings": 517.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.484,
+    "concern": 22.8
+  },
+  "redding-ca": {
+    "listings": 439.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.666,
+    "concern": 32.8
+  },
+  "hemet-ca": {
+    "listings": 460.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.912,
+    "concern": 29.5
+  },
+  "hoover-al": {
+    "listings": 442.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.725,
+    "concern": 31.8
+  },
+  "asheville-nc": {
+    "listings": 1061.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.345,
+    "concern": 4.7
+  },
+  "livonia-mi": {
+    "listings": 217.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.343,
+    "concern": 75.8
+  },
+  "nashua-nh": {
+    "listings": 144.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.558,
+    "concern": 89.8
+  },
+  "sandy-ut": {
+    "listings": 276.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.987,
+    "concern": 60.1
+  },
+  "frederick-md": {
+    "listings": 509.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.529,
+    "concern": 22.4
+  },
+  "bryan-tx": {
+    "listings": 595.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.468,
+    "concern": 15.5
+  },
+  "folsom-ca": {
+    "listings": 247.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.685,
+    "concern": 66.6
+  },
+  "erie-pa": {
+    "listings": 291.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.169,
+    "concern": 56.2
+  },
+  "trenton-nj": {
+    "listings": 426.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.655,
+    "concern": 33.0
+  },
+  "roswell-ga": {
+    "listings": 507.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.541,
+    "concern": 22.2
+  },
+  "champaign-il": {
+    "listings": 235.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.577,
+    "concern": 70.1
+  },
+  "leander-tx": {
+    "listings": 796.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.735,
+    "concern": 8.6
+  },
+  "clifton-nj": {
+    "listings": 135.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.481,
+    "concern": 90.6
+  },
+  "fort-smith-ar": {
+    "listings": 441.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.854,
+    "concern": 29.9
+  },
+  "carson-ca": {
+    "listings": 73.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.804,
+    "concern": 98.0
+  },
+  "newton-ma": {
+    "listings": 324.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.571,
+    "concern": 48.1
+  },
+  "springdale-ar": {
+    "listings": 294.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.242,
+    "concern": 55.0
+  },
+  "lawton-ok": {
+    "listings": 418.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.619,
+    "concern": 33.2
+  },
+  "compton-ca": {
+    "listings": 132.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.459,
+    "concern": 91.6
+  },
+  "mission-viejo-ca": {
+    "listings": 251.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.774,
+    "concern": 64.6
+  },
+  "franklin-tn": {
+    "listings": 750.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.312,
+    "concern": 10.0
+  },
+  "santa-monica-ca": {
+    "listings": 256.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.842,
+    "concern": 62.9
+  },
+  "south-gate-ca": {
+    "listings": 32.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.355,
+    "concern": 100.0
+  },
+  "santa-fe-nm": {
+    "listings": 815.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.072,
+    "concern": 7.9
+  },
+  "queen-creek-az": {
+    "listings": 671.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.475,
+    "concern": 12.0
+  },
+  "ogden-ut": {
+    "listings": 422.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.715,
+    "concern": 32.0
+  },
+  "deerfield-beach-fl": {
+    "listings": 1013.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.339,
+    "concern": 4.9
+  },
+  "lawrence-ma": {
+    "listings": 32.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.358,
+    "concern": 99.8
+  },
+  "bloomington-mn": {
+    "listings": 233.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.617,
+    "concern": 68.8
+  },
+  "danbury-ct": {
+    "listings": 172.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.932,
+    "concern": 82.7
+  },
+  "mission-tx": {
+    "listings": 497.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.585,
+    "concern": 21.8
+  },
+  "westminster-ca": {
+    "listings": 71.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.798,
+    "concern": 98.2
+  },
+  "troy-mi": {
+    "listings": 207.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.333,
+    "concern": 76.0
+  },
+  "daytona-beach-fl": {
+    "listings": 985.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.134,
+    "concern": 5.7
+  },
+  "kennewick-wa": {
+    "listings": 354.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.006,
+    "concern": 41.1
+  },
+  "duluth-mn": {
+    "listings": 231.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.615,
+    "concern": 69.2
+  },
+  "waukegan-il": {
+    "listings": 86.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.978,
+    "concern": 97.1
+  },
+  "warner-robins-ga": {
+    "listings": 304.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.464,
+    "concern": 50.7
+  },
+  "south-jordan-ut": {
+    "listings": 455.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.193,
+    "concern": 26.7
+  },
+  "rancho-cordova-ca": {
+    "listings": 260.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.97,
+    "concern": 60.7
+  },
+  "melbourne-fl": {
+    "listings": 871.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 10.0,
+    "concern": 6.5
+  },
+  "gastonia-nc": {
+    "listings": 532.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.11,
+    "concern": 18.3
+  },
+  "baytown-tx": {
+    "listings": 545.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.296,
+    "concern": 16.3
+  },
+  "medford-or": {
+    "listings": 404.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.671,
+    "concern": 32.6
+  },
+  "santa-barbara-ca": {
+    "listings": 216.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.499,
+    "concern": 71.1
+  },
+  "sioux-city-ia": {
+    "listings": 251.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.907,
+    "concern": 61.5
+  },
+  "citrus-heights-ca": {
+    "listings": 210.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.432,
+    "concern": 74.1
+  },
+  "lake-forest-ca": {
+    "listings": 286.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.313,
+    "concern": 54.0
+  },
+  "auburn-wa": {
+    "listings": 279.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.233,
+    "concern": 55.2
+  },
+  "homestead-fl": {
+    "listings": 1418.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 16.442,
+    "concern": 2.0
+  },
+  "san-ramon-ca": {
+    "listings": 207.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.401,
+    "concern": 74.5
+  },
+  "new-rochelle-ny": {
+    "listings": 173.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.015,
+    "concern": 81.3
+  },
+  "whittier-ca": {
+    "listings": 205.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.389,
+    "concern": 74.9
+  },
+  "kissimmee-fl": {
+    "listings": 3133.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 36.604,
+    "concern": 0.0
+  },
+  "mountain-view-ca": {
+    "listings": 140.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.639,
+    "concern": 88.2
+  },
+  "san-leandro-ca": {
+    "listings": 107.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.254,
+    "concern": 94.5
+  },
+  "layton-ut": {
+    "listings": 258.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.024,
+    "concern": 59.3
+  },
+  "auburn-al": {
+    "listings": 457.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.369,
+    "concern": 24.0
+  },
+  "cranston-ri": {
+    "listings": 154.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.819,
+    "concern": 85.1
+  },
+  "mansfield-tx": {
+    "listings": 325.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.849,
+    "concern": 44.6
+  },
+  "somerville-ma": {
+    "listings": 190.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.256,
+    "concern": 77.0
+  },
+  "warwick-ri": {
+    "listings": 206.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.447,
+    "concern": 73.1
+  },
+  "castle-rock-co": {
+    "listings": 652.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.779,
+    "concern": 11.0
+  },
+  "brooklyn-park-mn": {
+    "listings": 237.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.837,
+    "concern": 63.1
+  },
+  "livermore-ca": {
+    "listings": 222.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.66,
+    "concern": 67.0
+  },
+  "bloomington-in": {
+    "listings": 746.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.955,
+    "concern": 8.3
+  },
+  "jonesboro-ar": {
+    "listings": 530.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.363,
+    "concern": 15.7
+  },
+  "farmington-hills-mi": {
+    "listings": 215.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.581,
+    "concern": 69.9
+  },
+  "perris-ca": {
+    "listings": 160.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.922,
+    "concern": 82.9
+  },
+  "longview-tx": {
+    "listings": 529.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 6.355,
+    "concern": 15.9
+  },
+  "pasco-wa": {
+    "listings": 205.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.474,
+    "concern": 71.7
+  },
+  "hawthorne-ca": {
+    "listings": 75.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.906,
+    "concern": 97.2
+  },
+  "lake-charles-la": {
+    "listings": 475.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.745,
+    "concern": 20.6
+  },
+  "redmond-wa": {
+    "listings": 324.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.927,
+    "concern": 43.0
+  },
+  "boynton-beach-fl": {
+    "listings": 1766.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 21.433,
+    "concern": 1.2
+  },
+  "westland-mi": {
+    "listings": 176.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.138,
+    "concern": 79.0
+  },
+  "redwood-city-ca": {
+    "listings": 143.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.74,
+    "concern": 86.2
+  },
+  "newport-beach-ca": {
+    "listings": 375.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.574,
+    "concern": 34.2
+  },
+  "cicero-il": {
+    "listings": 50.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 0.611,
+    "concern": 99.2
+  },
+  "buena-park-ca": {
+    "listings": 94.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.15,
+    "concern": 95.9
+  },
+  "doral-fl": {
+    "listings": 575.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.044,
+    "concern": 13.2
+  },
+  "miami-beach-fl": {
+    "listings": 2102.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 25.762,
+    "concern": 0.4
+  },
+  "woodbury-mn": {
+    "listings": 293.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.593,
+    "concern": 47.5
+  },
+  "loveland-co": {
+    "listings": 475.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.836,
+    "concern": 19.1
+  },
+  "lynchburg-va": {
+    "listings": 430.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.286,
+    "concern": 25.5
+  },
+  "pharr-tx": {
+    "listings": 252.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.118,
+    "concern": 57.6
+  },
+  "largo-fl": {
+    "listings": 599.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 7.423,
+    "concern": 12.2
+  },
+  "rapid-city-sd": {
+    "listings": 365.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.529,
+    "concern": 34.6
+  },
+  "apex-nc": {
+    "listings": 393.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.887,
+    "concern": 29.7
+  },
+  "johns-creek-ga": {
+    "listings": 351.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.366,
+    "concern": 36.5
+  },
+  "alhambra-ca": {
+    "listings": 129.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.616,
+    "concern": 88.6
+  },
+  "bethlehem-pa": {
+    "listings": 225.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.825,
+    "concern": 63.3
+  },
+  "flower-mound-tx": {
+    "listings": 324.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.073,
+    "concern": 40.9
+  },
+  "upland-ca": {
+    "listings": 167.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.102,
+    "concern": 79.8
+  },
+  "flint-mi": {
+    "listings": 400.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.044,
+    "concern": 28.1
+  },
+  "lakeville-mn": {
+    "listings": 313.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.949,
+    "concern": 42.6
+  },
+  "broomfield-co": {
+    "listings": 326.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.118,
+    "concern": 39.9
+  },
+  "cedar-park-tx": {
+    "listings": 377.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 4.77,
+    "concern": 30.8
+  },
+  "plymouth-mn": {
+    "listings": 308.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.902,
+    "concern": 43.4
+  },
+  "missoula-mt": {
+    "listings": 470.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.957,
+    "concern": 18.9
+  },
+  "mableton-ga": {
+    "listings": 231.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.931,
+    "concern": 60.9
+  },
+  "bloomington-il": {
+    "listings": 194.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.462,
+    "concern": 72.3
+  },
+  "milpitas-ca": {
+    "listings": 109.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.387,
+    "concern": 93.1
+  },
+  "wyoming-mi": {
+    "listings": 107.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.362,
+    "concern": 93.7
+  },
+  "parma-oh": {
+    "listings": 160.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.036,
+    "concern": 80.9
+  },
+  "bowling-green-ky": {
+    "listings": 643.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.191,
+    "concern": 10.2
+  },
+  "maricopa-az": {
+    "listings": 636.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 8.116,
+    "concern": 10.4
+  },
+  "lakewood-ca": {
+    "listings": 101.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.295,
+    "concern": 93.9
+  },
+  "bismarck-nd": {
+    "listings": 269.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.45,
+    "concern": 50.9
+  },
+  "racine-wi": {
+    "listings": 180.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.31,
+    "concern": 76.2
+  },
+  "tustin-ca": {
+    "listings": 134.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.721,
+    "concern": 86.6
+  },
+  "ankeny-ia": {
+    "listings": 409.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.255,
+    "concern": 25.7
+  },
+  "san-marcos-tx": {
+    "listings": 450.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.782,
+    "concern": 20.2
+  },
+  "marysville-wa": {
+    "listings": 211.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.716,
+    "concern": 66.2
+  },
+  "pittsburg-ca": {
+    "listings": 142.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.831,
+    "concern": 84.9
+  },
+  "rochester-hills-mi": {
+    "listings": 176.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.27,
+    "concern": 76.6
+  },
+  "chino-hills-ca": {
+    "listings": 175.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.258,
+    "concern": 76.8
+  },
+  "missouri-city-tx": {
+    "listings": 743.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 9.609,
+    "concern": 7.1
+  },
+  "flagstaff-az": {
+    "listings": 450.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.824,
+    "concern": 19.3
+  },
+  "schaumburg-il": {
+    "listings": 196.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.537,
+    "concern": 70.7
+  },
+  "pawtucket-ri": {
+    "listings": 87.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.129,
+    "concern": 96.1
+  },
+  "rogers-ar": {
+    "listings": 417.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.419,
+    "concern": 23.2
+  },
+  "alameda-ca": {
+    "listings": 122.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 1.587,
+    "concern": 89.4
+  },
+  "rocklin-ca": {
+    "listings": 222.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 2.89,
+    "concern": 62.3
+  },
+  "caldwell-id": {
+    "listings": 261.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.406,
+    "concern": 51.7
+  },
+  "carlsbad-nm": {
+    "listings": 120.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.75,
+    "concern": 45.6
+  },
+  "kalispell-mt": {
+    "listings": 498.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 17.786,
+    "concern": 1.8
+  },
+  "durango-co": {
+    "listings": 344.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 18.105,
+    "concern": 1.6
+  },
+  "los-alamos-nm": {
+    "listings": 65.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 5.0,
+    "concern": 28.5
+  },
+  "sandpoint-id": {
+    "listings": 215.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 23.889,
+    "concern": 0.6
+  },
+  "taos-nm": {
+    "listings": 152.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 23.385,
+    "concern": 0.8
+  },
+  "blanding-ut": {
+    "listings": 13.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 3.611,
+    "concern": 47.3
+  },
+  "monticello-ut": {
+    "listings": 21.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 10.5,
+    "concern": 6.1
+  },
+  "whitewright-tx": {
+    "listings": 37.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 20.556,
+    "concern": 1.4
+  },
+  "sundance-wy": {
+    "listings": 19.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 15.833,
+    "concern": 2.2
+  },
+  "grand-junction-co": {
+    "listings": 737.0,
+    "month": "2026-06-30",
+    "listings_per_1000": 11.167,
+    "concern": 5.3
+  }
+}

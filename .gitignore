@@ -55,6 +55,11 @@ data/raw/health-cache/
 data/raw/geocode-2010-cache/
 data/raw/food-access-cache/
 
+# Pure fetch-scratch for the housing-supply dataset build
+# (scripts/gen_housing_inventory_data.py) -- same posture as the caches
+# above. data/housing-inventory.json IS committed.
+data/raw/housing-inventory-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
