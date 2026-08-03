@@ -48,7 +48,8 @@ describe("formula-presets", () => {
     // localStorage data missing a FORMULA_COMPONENT_KEYS entry) used to be
     // returned as-is and crashed FormulaPanel's `weights[key].toFixed(1)`
     // on apply. Same fail-open posture as saved-views.ts's normalizeView.
-    const { turf_boost: _drop, ...incompleteWeights } = DEFAULT_WEIGHTS;
+    const incompleteWeights = { ...DEFAULT_WEIGHTS };
+    delete (incompleteWeights as Partial<typeof DEFAULT_WEIGHTS>).turf_boost;
     window.localStorage.setItem(
       "mapstack:formula-presets",
       JSON.stringify([

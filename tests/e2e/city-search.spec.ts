@@ -39,3 +39,28 @@ test("clicking a search result selects that city in the comparison table and scr
   await expect(page).toHaveURL(/city=chicago-il/);
   await expect(page.getByRole("row", { name: /^Chicago, IL/ })).toHaveAttribute("aria-selected", "true");
 });
+
+test("arrow keys move focus through search results and Enter selects the highlighted one", async ({ page }) => {
+  await page.goto("/advanced");
+  const input = page.getByLabel("Search cities");
+  await input.fill("San");
+
+  // Scope to the search results listbox -- getByRole("option") alone would
+  // also match the unrelated Year <select>'s native <option> elements.
+  const options = page.locator("#city-search-results").getByRole("option");
+  const firstOption = options.first();
+  await expect(firstOption).toHaveAttribute("aria-selected", "false");
+
+  await input.press("ArrowDown");
+  await expect(firstOption).toHaveAttribute("aria-selected", "true");
+
+  await input.press("ArrowDown");
+  await expect(firstOption).toHaveAttribute("aria-selected", "false");
+  await expect(options.nth(1)).toHaveAttribute("aria-selected", "true");
+
+  await input.press("ArrowUp");
+  await expect(firstOption).toHaveAttribute("aria-selected", "true");
+
+  await input.press("Enter");
+  await expect(page).toHaveURL(/city=/);
+});

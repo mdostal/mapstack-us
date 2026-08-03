@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type KeyboardEvent } from "react";
 import { query } from "@/lib/db/client";
 
 interface CityMatch {
@@ -26,6 +26,7 @@ export function CitySearch({ onSelectCity }: Props) {
   const [term, setTerm] = useState("");
   const [matches, setMatches] = useState<CityMatch[]>([]);
   const [error, setError] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
   const isSearching = term.trim().length >= 2;
 
   // Only setState from within the resolved/rejected callbacks, never
@@ -45,6 +46,7 @@ export function CitySearch({ onSelectCity }: Props) {
       .then((rows) => {
         if (cancelled) return;
         setMatches(rows);
+        setActiveIndex(-1);
         setError(false);
       })
       .catch((err) => {
@@ -58,6 +60,22 @@ export function CitySearch({ onSelectCity }: Props) {
     };
   }, [term]);
 
+  function handleKeyDown(e: KeyboardEvent<HTMLInputElement>) {
+    if (matches.length === 0) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIndex((i) => (i + 1) % matches.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((i) => (i - 1 + matches.length) % matches.length);
+    } else if (e.key === "Enter" && activeIndex >= 0) {
+      e.preventDefault();
+      onSelectCity(matches[activeIndex].id);
+    } else if (e.key === "Escape") {
+      setActiveIndex(-1);
+    }
+  }
+
   return (
     <div className="relative">
       <label htmlFor="city-search" className="sr-only">
@@ -68,24 +86,32 @@ export function CitySearch({ onSelectCity }: Props) {
         type="text"
         value={term}
         onChange={(e) => setTerm(e.target.value)}
+        onKeyDown={handleKeyDown}
         placeholder="🔍 Search cities…"
         className="w-32 rounded border border-zinc-200 bg-transparent px-2 py-1 text-xs dark:border-zinc-700 sm:w-48"
+        role="combobox"
+        aria-expanded={isSearching}
+        aria-controls="city-search-results"
+        aria-activedescendant={activeIndex >= 0 ? `city-search-result-${matches[activeIndex].id}` : undefined}
       />
       {isSearching && (
         <div className="absolute left-0 top-full z-10 mt-1 w-56 rounded-lg border border-zinc-200 bg-zinc-50 p-2 shadow-lg dark:border-zinc-700 dark:bg-black">
           {error ? (
             <p className="text-xs text-red-600 dark:text-red-400">Search is unavailable right now.</p>
           ) : (
-            <ul className="flex max-h-40 flex-col gap-0.5 overflow-y-auto">
+            <ul id="city-search-results" role="listbox" className="flex max-h-40 flex-col gap-0.5 overflow-y-auto">
               {matches.length === 0 ? (
                 <li className="text-xs text-zinc-500 dark:text-zinc-400">No matches.</li>
               ) : (
-                matches.map((m) => (
-                  <li key={m.id}>
+                matches.map((m, i) => (
+                  <li key={m.id} id={`city-search-result-${m.id}`} role="option" aria-selected={i === activeIndex}>
                     <button
                       type="button"
                       onClick={() => onSelectCity(m.id)}
-                      className="w-full rounded px-1.5 py-1 text-left text-xs text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                      onMouseEnter={() => setActiveIndex(i)}
+                      className={`w-full rounded px-1.5 py-1 text-left text-xs text-zinc-700 dark:text-zinc-300 ${
+                        i === activeIndex ? "bg-zinc-100 dark:bg-zinc-800" : "hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                      }`}
                     >
                       {m.city}, {m.state}
                     </button>
