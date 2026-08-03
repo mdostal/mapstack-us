@@ -20,6 +20,26 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await expect(page.getByRole("button", { name: "Violent crime (already added)" })).toBeDisabled();
 });
 
+test("every dataset tab in the Add layer panel stays visible and clickable as the dataset count grows -- regression for a silently clipped tab row", async ({
+  page,
+}) => {
+  // Real bug found live: the dataset tablist had no flex-wrap and no
+  // horizontal scroll, so once enough datasets existed (9, after this
+  // session's additions), the row overflowed its fixed-width sidebar
+  // column and later tabs (Health outcomes, Food access, Housing supply,
+  // Housing market speed) were silently clipped -- invisible and
+  // unclickable, with no scrollbar or other affordance hinting they
+  // existed at all. Playwright's own isVisible() didn't catch this either
+  // (it doesn't check ancestor clipping), only a real screenshot did.
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+
+  const lastTab = page.getByRole("tab", { name: "Housing market speed" });
+  await expect(lastTab).toBeInViewport();
+  await lastTab.click();
+  await expect(page.getByRole("button", { name: "Market speed", exact: true })).toBeVisible();
+});
+
 test("the fifth dataset (natural hazard risk) is selectable and honestly reports no coastal-flood data for a landlocked city", async ({
   page,
 }) => {

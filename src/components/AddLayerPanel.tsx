@@ -35,7 +35,7 @@ export function AddLayerPanel({ active, onAdd }: Props) {
 
       {open && (
         <div className="flex flex-col gap-2 border-t border-zinc-200 p-3 dark:border-zinc-800">
-          <div role="tablist" aria-label="Dataset to add from" className="flex gap-1">
+          <div role="tablist" aria-label="Dataset to add from" className="flex flex-wrap gap-1">
             {DATASETS.map((d) => (
               <button
                 key={d.id}
