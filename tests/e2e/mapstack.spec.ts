@@ -210,6 +210,21 @@ test("the fifteenth dataset (electoral competitiveness) is selectable and report
   await expect(detail).toContainText("not left/right lean");
 });
 
+test("the sixteenth dataset (broadband access) is selectable and reports a real ACS-sourced value with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Broadband access" }).click();
+  await page.getByRole("button", { name: "Broadband access", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Broadband access: Broadband access" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Broadband access: Broadband access" });
+  await expect(detail).toContainText("broadband subscription");
+  await expect(detail).toContainText("Census ACS");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

@@ -1,0 +1,3080 @@
+{
+  "_meta": {
+    "source": "County Health Rankings & Roadmaps, 2025 Annual Data Release -- Broadband Access (v166), Census ACS 5-year estimates",
+    "source_url": "https://www.countyhealthrankings.org/health-data/community-conditions/physical-environment/civic-and-community-resources/broadband-access",
+    "underlying_source": "Census American Community Survey (ACS) 5-year estimates",
+    "resolution": "county (state fallback for suppressed small counties)"
+  },
+  "new-york-ny": {
+    "pct_broadband": 91.1,
+    "county": "New York",
+    "fallback": null,
+    "concern": 8.9
+  },
+  "los-angeles-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "chicago-il": {
+    "pct_broadband": 89.2,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 10.8
+  },
+  "houston-tx": {
+    "pct_broadband": 91.0,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "phoenix-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "philadelphia-pa": {
+    "pct_broadband": 87.5,
+    "county": "Philadelphia",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "san-antonio-tx": {
+    "pct_broadband": 90.3,
+    "county": "Bexar",
+    "fallback": null,
+    "concern": 9.7
+  },
+  "san-diego-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "dallas-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "fort-worth-tx": {
+    "pct_broadband": 92.6,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "jacksonville-fl": {
+    "pct_broadband": 89.9,
+    "county": "Duval",
+    "fallback": null,
+    "concern": 10.1
+  },
+  "austin-tx": {
+    "pct_broadband": 93.3,
+    "county": "Travis",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "san-jose-ca": {
+    "pct_broadband": 95.1,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "charlotte-nc": {
+    "pct_broadband": 93.1,
+    "county": "Mecklenburg",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "columbus-oh": {
+    "pct_broadband": 93.3,
+    "county": "Franklin",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "indianapolis-in": {
+    "pct_broadband": 89.3,
+    "county": "Marion",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "san-francisco-ca": {
+    "pct_broadband": 92.3,
+    "county": "San Francisco",
+    "fallback": null,
+    "concern": 7.7
+  },
+  "seattle-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "denver-co": {
+    "pct_broadband": 92.2,
+    "county": "Denver",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "nashville-tn": {
+    "pct_broadband": 91.6,
+    "county": "Davidson",
+    "fallback": null,
+    "concern": 8.4
+  },
+  "oklahoma-city-ok": {
+    "pct_broadband": 90.4,
+    "county": "Oklahoma",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "washington-dc": {
+    "pct_broadband": 90.2,
+    "county": "District of Columbia",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "el-paso-tx": {
+    "pct_broadband": 88.3,
+    "county": "El Paso",
+    "fallback": null,
+    "concern": 11.7
+  },
+  "las-vegas-nv": {
+    "pct_broadband": 90.5,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "boston-ma": {
+    "pct_broadband": 90.3,
+    "county": "Suffolk",
+    "fallback": null,
+    "concern": 9.7
+  },
+  "detroit-mi": {
+    "pct_broadband": 87.8,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "louisville-ky": {
+    "pct_broadband": 90.1,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 9.9
+  },
+  "portland-or": {
+    "pct_broadband": 93.0,
+    "county": "Multnomah",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "memphis-tn": {
+    "pct_broadband": 87.2,
+    "county": "Shelby",
+    "fallback": null,
+    "concern": 12.8
+  },
+  "baltimore-md": {
+    "pct_broadband": 83.1,
+    "county": "Baltimore",
+    "fallback": null,
+    "concern": 16.9
+  },
+  "milwaukee-wi": {
+    "pct_broadband": 87.5,
+    "county": "Milwaukee",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "albuquerque-nm": {
+    "pct_broadband": 88.2,
+    "county": "Bernalillo",
+    "fallback": null,
+    "concern": 11.8
+  },
+  "fresno-ca": {
+    "pct_broadband": 87.2,
+    "county": "Fresno",
+    "fallback": null,
+    "concern": 12.8
+  },
+  "tucson-az": {
+    "pct_broadband": 90.9,
+    "county": "Pima",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "sacramento-ca": {
+    "pct_broadband": 93.3,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "atlanta-ga": {
+    "pct_broadband": 92.4,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "kansas-city-mo": {
+    "pct_broadband": 89.7,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 10.3
+  },
+  "mesa-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "raleigh-nc": {
+    "pct_broadband": 94.7,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "colorado-springs-co": {
+    "pct_broadband": 94.4,
+    "county": "El Paso",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "miami-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "omaha-ne": {
+    "pct_broadband": 91.5,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "virginia-beach-va": {
+    "pct_broadband": 94.1,
+    "county": "Virginia Beach",
+    "fallback": null,
+    "concern": 5.9
+  },
+  "long-beach-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "oakland-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "minneapolis-mn": {
+    "pct_broadband": 92.2,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "bakersfield-ca": {
+    "pct_broadband": 89.8,
+    "county": "Kern",
+    "fallback": null,
+    "concern": 10.2
+  },
+  "tulsa-ok": {
+    "pct_broadband": 90.4,
+    "county": "Tulsa",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "tampa-fl": {
+    "pct_broadband": 93.1,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "aurora-co": {
+    "pct_broadband": 94.2,
+    "county": "Arapahoe",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "arlington-tx": {
+    "pct_broadband": 92.6,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "wichita-ks": {
+    "pct_broadband": 90.7,
+    "county": "Sedgwick",
+    "fallback": null,
+    "concern": 9.3
+  },
+  "cleveland-oh": {
+    "pct_broadband": 87.3,
+    "county": "Cuyahoga",
+    "fallback": null,
+    "concern": 12.7
+  },
+  "new-orleans-la": {
+    "pct_broadband": 83.5,
+    "county": "Orleans",
+    "fallback": null,
+    "concern": 16.5
+  },
+  "henderson-nv": {
+    "pct_broadband": 90.5,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "honolulu-hi": {
+    "pct_broadband": 91.5,
+    "county": "Honolulu",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "anaheim-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "orlando-fl": {
+    "pct_broadband": 93.0,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "lexington-ky": {
+    "pct_broadband": 91.0,
+    "county": "Fayette",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "stockton-ca": {
+    "pct_broadband": 91.3,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "newark-nj": {
+    "pct_broadband": 87.8,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "riverside-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "irvine-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "corpus-christi-tx": {
+    "pct_broadband": 87.8,
+    "county": "Nueces",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "santa-ana-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "cincinnati-oh": {
+    "pct_broadband": 90.4,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "greensboro-nc": {
+    "pct_broadband": 89.3,
+    "county": "Guilford",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "pittsburgh-pa": {
+    "pct_broadband": 89.8,
+    "county": "Allegheny",
+    "fallback": null,
+    "concern": 10.2
+  },
+  "saint-paul-mn": {
+    "pct_broadband": 91.7,
+    "county": "Ramsey",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "durham-nc": {
+    "pct_broadband": 92.8,
+    "county": "Durham",
+    "fallback": null,
+    "concern": 7.2
+  },
+  "jersey-city-nj": {
+    "pct_broadband": 91.1,
+    "county": "Hudson",
+    "fallback": null,
+    "concern": 8.9
+  },
+  "lincoln-ne": {
+    "pct_broadband": 92.2,
+    "county": "Lancaster",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "north-las-vegas-nv": {
+    "pct_broadband": 90.5,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "plano-tx": {
+    "pct_broadband": 96.1,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "gilbert-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "anchorage-ak": {
+    "pct_broadband": 94.3,
+    "county": "Anchorage",
+    "fallback": null,
+    "concern": 5.7
+  },
+  "madison-wi": {
+    "pct_broadband": 92.6,
+    "county": "Dane",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "reno-nv": {
+    "pct_broadband": 90.3,
+    "county": "Washoe",
+    "fallback": null,
+    "concern": 9.7
+  },
+  "chandler-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "st-louis-mo": {
+    "pct_broadband": 85.7,
+    "county": "St. Louis",
+    "fallback": null,
+    "concern": 14.3
+  },
+  "chula-vista-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "fort-wayne-in": {
+    "pct_broadband": 90.8,
+    "county": "Allen",
+    "fallback": null,
+    "concern": 9.2
+  },
+  "buffalo-ny": {
+    "pct_broadband": 89.0,
+    "county": "Erie",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "lubbock-tx": {
+    "pct_broadband": 87.7,
+    "county": "Lubbock",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "laredo-tx": {
+    "pct_broadband": 84.2,
+    "county": "Webb",
+    "fallback": null,
+    "concern": 15.8
+  },
+  "port-st-lucie-fl": {
+    "pct_broadband": 91.3,
+    "county": "St. Lucie",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "st-petersburg-fl": {
+    "pct_broadband": 89.4,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "toledo-oh": {
+    "pct_broadband": 88.3,
+    "county": "Lucas",
+    "fallback": null,
+    "concern": 11.7
+  },
+  "glendale-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "winston-salem-nc": {
+    "pct_broadband": 89.2,
+    "county": "Forsyth",
+    "fallback": null,
+    "concern": 10.8
+  },
+  "irving-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "chesapeake-va": {
+    "pct_broadband": 92.0,
+    "county": "Chesapeake",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "garland-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "arlington-va": {
+    "pct_broadband": 94.5,
+    "county": "Arlington",
+    "fallback": null,
+    "concern": 5.5
+  },
+  "scottsdale-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "boise-id": {
+    "pct_broadband": 94.4,
+    "county": "Ada",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "richmond-va": {
+    "pct_broadband": 84.9,
+    "county": "Richmond",
+    "fallback": null,
+    "concern": 15.1
+  },
+  "frisco-tx": {
+    "pct_broadband": 96.1,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "cape-coral-fl": {
+    "pct_broadband": 91.3,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "mckinney-tx": {
+    "pct_broadband": 96.1,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "huntsville-al": {
+    "pct_broadband": 91.3,
+    "county": "Madison",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "norfolk-va": {
+    "pct_broadband": 87.3,
+    "county": "Norfolk",
+    "fallback": null,
+    "concern": 12.7
+  },
+  "hialeah-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "spokane-wa": {
+    "pct_broadband": 91.3,
+    "county": "Spokane",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "tacoma-wa": {
+    "pct_broadband": 93.8,
+    "county": "Pierce",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "santa-clarita-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "fremont-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "baton-rouge-la": {
+    "pct_broadband": 90.0,
+    "county": "East Baton Rouge",
+    "fallback": null,
+    "concern": 10.0
+  },
+  "san-bernardino-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "fontana-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "modesto-ca": {
+    "pct_broadband": 91.0,
+    "county": "Stanislaus",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "salt-lake-city-ut": {
+    "pct_broadband": 93.6,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "moreno-valley-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "worcester-ma": {
+    "pct_broadband": 91.8,
+    "county": "Worcester",
+    "fallback": null,
+    "concern": 8.2
+  },
+  "sioux-falls-sd": {
+    "pct_broadband": 92.2,
+    "county": "Minnehaha",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "yonkers-ny": {
+    "pct_broadband": 92.4,
+    "county": "Westchester",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "des-moines-ia": {
+    "pct_broadband": 90.5,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "grand-prairie-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "fayetteville-nc": {
+    "pct_broadband": 89.7,
+    "county": "Cumberland",
+    "fallback": null,
+    "concern": 10.3
+  },
+  "little-rock-ar": {
+    "pct_broadband": 87.6,
+    "county": "Pulaski",
+    "fallback": null,
+    "concern": 12.4
+  },
+  "rochester-ny": {
+    "pct_broadband": 89.3,
+    "county": "Monroe",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "amarillo-tx": {
+    "pct_broadband": 86.0,
+    "county": "Potter",
+    "fallback": null,
+    "concern": 14.0
+  },
+  "tallahassee-fl": {
+    "pct_broadband": 90.7,
+    "county": "Leon",
+    "fallback": null,
+    "concern": 9.3
+  },
+  "overland-park-ks": {
+    "pct_broadband": 95.7,
+    "county": "Johnson",
+    "fallback": null,
+    "concern": 4.3
+  },
+  "columbus-ga": {
+    "pct_broadband": 87.4,
+    "county": "Muscogee",
+    "fallback": null,
+    "concern": 12.6
+  },
+  "knoxville-tn": {
+    "pct_broadband": 88.0,
+    "county": "Knox",
+    "fallback": null,
+    "concern": 12.0
+  },
+  "augusta-ga": {
+    "pct_broadband": 85.8,
+    "county": "Richmond",
+    "fallback": null,
+    "concern": 14.2
+  },
+  "grand-rapids-mi": {
+    "pct_broadband": 91.0,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "peoria-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "mobile-al": {
+    "pct_broadband": 83.9,
+    "county": "Mobile",
+    "fallback": null,
+    "concern": 16.1
+  },
+  "vancouver-wa": {
+    "pct_broadband": 94.0,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 6.0
+  },
+  "oxnard-ca": {
+    "pct_broadband": 93.1,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "birmingham-al": {
+    "pct_broadband": 88.5,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 11.5
+  },
+  "providence-ri": {
+    "pct_broadband": 89.3,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "montgomery-al": {
+    "pct_broadband": 89.0,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "chattanooga-tn": {
+    "pct_broadband": 90.4,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "brownsville-tx": {
+    "pct_broadband": 80.1,
+    "county": "Cameron",
+    "fallback": null,
+    "concern": 19.9
+  },
+  "huntington-beach-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "tempe-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "akron-oh": {
+    "pct_broadband": 90.4,
+    "county": "Summit",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "clarksville-tn": {
+    "pct_broadband": 92.6,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "fort-lauderdale-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "glendale-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "ontario-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "elk-grove-ca": {
+    "pct_broadband": 93.3,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "cary-nc": {
+    "pct_broadband": 94.7,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "newport-news-va": {
+    "pct_broadband": 90.7,
+    "county": "Newport News",
+    "fallback": null,
+    "concern": 9.3
+  },
+  "salem-or": {
+    "pct_broadband": 91.3,
+    "county": "Marion",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "aurora-il": {
+    "pct_broadband": 92.5,
+    "county": "Kane",
+    "fallback": null,
+    "concern": 7.5
+  },
+  "santa-rosa-ca": {
+    "pct_broadband": 94.0,
+    "county": "Sonoma",
+    "fallback": null,
+    "concern": 6.0
+  },
+  "eugene-or": {
+    "pct_broadband": 91.4,
+    "county": "Lane",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "rancho-cucamonga-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "pembroke-pines-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "shreveport-la": {
+    "pct_broadband": 82.9,
+    "county": "Caddo",
+    "fallback": null,
+    "concern": 17.1
+  },
+  "surprise-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "fort-collins-co": {
+    "pct_broadband": 92.7,
+    "county": "Larimer",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "murfreesboro-tn": {
+    "pct_broadband": 94.0,
+    "county": "Rutherford",
+    "fallback": null,
+    "concern": 6.0
+  },
+  "oceanside-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "garden-grove-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "lancaster-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "springfield-mo": {
+    "pct_broadband": 84.9,
+    "county": "Greene",
+    "fallback": null,
+    "concern": 15.1
+  },
+  "denton-tx": {
+    "pct_broadband": 95.5,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "roseville-ca": {
+    "pct_broadband": 93.6,
+    "county": "Placer",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "killeen-tx": {
+    "pct_broadband": 89.9,
+    "county": "Bell",
+    "fallback": null,
+    "concern": 10.1
+  },
+  "palmdale-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "paterson-nj": {
+    "pct_broadband": 91.5,
+    "county": "Passaic",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "corona-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "alexandria-va": {
+    "pct_broadband": 93.8,
+    "county": "Alexandria",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "charleston-sc": {
+    "pct_broadband": 86.2,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 13.8
+  },
+  "salinas-ca": {
+    "pct_broadband": 93.1,
+    "county": "Monterey",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "kansas-city-ks": {
+    "pct_broadband": 86.7,
+    "county": "Wyandotte",
+    "fallback": null,
+    "concern": 13.3
+  },
+  "macon-ga": {
+    "pct_broadband": 85.3,
+    "county": "Bibb",
+    "fallback": null,
+    "concern": 14.7
+  },
+  "hayward-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "hollywood-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "lakewood-co": {
+    "pct_broadband": 94.4,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "sunnyvale-ca": {
+    "pct_broadband": 95.1,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "springfield-ma": {
+    "pct_broadband": 87.3,
+    "county": "Hampden",
+    "fallback": null,
+    "concern": 12.7
+  },
+  "bellevue-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "naperville-il": {
+    "pct_broadband": 94.4,
+    "county": "DuPage",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "bridgeport-ct": {
+    "pct_broadband": 90.0,
+    "county": "Greater Bridgeport",
+    "fallback": null,
+    "concern": 10.0
+  },
+  "joliet-il": {
+    "pct_broadband": 93.2,
+    "county": "Will",
+    "fallback": null,
+    "concern": 6.8
+  },
+  "mesquite-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "mcallen-tx": {
+    "pct_broadband": 84.6,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 15.4
+  },
+  "olathe-ks": {
+    "pct_broadband": 95.7,
+    "county": "Johnson",
+    "fallback": null,
+    "concern": 4.3
+  },
+  "savannah-ga": {
+    "pct_broadband": 91.5,
+    "county": "Chatham",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "gainesville-fl": {
+    "pct_broadband": 87.7,
+    "county": "Alachua",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "pasadena-tx": {
+    "pct_broadband": 91.0,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "palm-bay-fl": {
+    "pct_broadband": 92.1,
+    "county": "Brevard",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "pomona-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "waco-tx": {
+    "pct_broadband": 87.7,
+    "county": "McLennan",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "thornton-co": {
+    "pct_broadband": 92.1,
+    "county": "Adams",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "midland-tx": {
+    "pct_broadband": 89.5,
+    "county": "Midland",
+    "fallback": null,
+    "concern": 10.5
+  },
+  "rockford-il": {
+    "pct_broadband": 87.7,
+    "county": "Winnebago",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "columbia-sc": {
+    "pct_broadband": 89.1,
+    "county": "Richland",
+    "fallback": null,
+    "concern": 10.9
+  },
+  "visalia-ca": {
+    "pct_broadband": 87.8,
+    "county": "Tulare",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "escondido-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "syracuse-ny": {
+    "pct_broadband": 89.5,
+    "county": "Onondaga",
+    "fallback": null,
+    "concern": 10.5
+  },
+  "meridian-id": {
+    "pct_broadband": 94.4,
+    "county": "Ada",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "miramar-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "elizabeth-nj": {
+    "pct_broadband": 92.2,
+    "county": "Union",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "victorville-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "round-rock-tx": {
+    "pct_broadband": 95.5,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "jackson-ms": {
+    "pct_broadband": 88.3,
+    "county": "Hinds",
+    "fallback": null,
+    "concern": 11.7
+  },
+  "stamford-ct": {
+    "pct_broadband": 94.2,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "lewisville-tx": {
+    "pct_broadband": 95.5,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "coral-springs-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "new-haven-ct": {
+    "pct_broadband": 91.6,
+    "county": "South Central Connecticut",
+    "fallback": null,
+    "concern": 8.4
+  },
+  "fullerton-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "torrance-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "orange-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "cedar-rapids-ia": {
+    "pct_broadband": 91.3,
+    "county": "Linn",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "west-valley-city-ut": {
+    "pct_broadband": 93.6,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "hampton-va": {
+    "pct_broadband": 91.5,
+    "county": "Hampton",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "warren-mi": {
+    "pct_broadband": 92.5,
+    "county": "Macomb",
+    "fallback": null,
+    "concern": 7.5
+  },
+  "dayton-oh": {
+    "pct_broadband": 89.3,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "fargo-nd": {
+    "pct_broadband": 89.1,
+    "county": "Cass",
+    "fallback": null,
+    "concern": 10.9
+  },
+  "pasadena-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "kent-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "carrollton-tx": {
+    "pct_broadband": 95.5,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "sterling-heights-mi": {
+    "pct_broadband": 92.5,
+    "county": "Macomb",
+    "fallback": null,
+    "concern": 7.5
+  },
+  "santa-clara-ca": {
+    "pct_broadband": 95.1,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "abilene-tx": {
+    "pct_broadband": 90.8,
+    "county": "Taylor",
+    "fallback": null,
+    "concern": 9.2
+  },
+  "norman-ok": {
+    "pct_broadband": 92.1,
+    "county": "Cleveland",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "columbia-mo": {
+    "pct_broadband": 90.3,
+    "county": "Boone",
+    "fallback": null,
+    "concern": 9.7
+  },
+  "pearland-tx": {
+    "pct_broadband": 93.2,
+    "county": "Brazoria",
+    "fallback": null,
+    "concern": 6.8
+  },
+  "clovis-ca": {
+    "pct_broadband": 87.2,
+    "county": "Fresno",
+    "fallback": null,
+    "concern": 12.8
+  },
+  "north-charleston-sc": {
+    "pct_broadband": 86.2,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 13.8
+  },
+  "athens-ga": {
+    "pct_broadband": 91.5,
+    "county": "Clarke",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "college-station-tx": {
+    "pct_broadband": 84.8,
+    "county": "Brazos",
+    "fallback": null,
+    "concern": 15.2
+  },
+  "west-palm-beach-fl": {
+    "pct_broadband": 90.1,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 9.9
+  },
+  "wilmington-nc": {
+    "pct_broadband": 91.9,
+    "county": "New Hanover",
+    "fallback": null,
+    "concern": 8.1
+  },
+  "allentown-pa": {
+    "pct_broadband": 88.7,
+    "county": "Lehigh",
+    "fallback": null,
+    "concern": 11.3
+  },
+  "topeka-ks": {
+    "pct_broadband": 86.0,
+    "county": "Shawnee",
+    "fallback": null,
+    "concern": 14.0
+  },
+  "lakeland-fl": {
+    "pct_broadband": 88.2,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 11.8
+  },
+  "buckeye-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "goodyear-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "broken-arrow-ok": {
+    "pct_broadband": 90.4,
+    "county": "Tulsa",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "simi-valley-ca": {
+    "pct_broadband": 93.1,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "rochester-mn": {
+    "pct_broadband": 91.4,
+    "county": "Olmsted",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "lafayette-la": {
+    "pct_broadband": 90.9,
+    "county": "Lafayette",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "vallejo-ca": {
+    "pct_broadband": 93.1,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "concord-ca": {
+    "pct_broadband": 95.3,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "arvada-co": {
+    "pct_broadband": 94.4,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "odessa-tx": {
+    "pct_broadband": 85.2,
+    "county": "Ector",
+    "fallback": null,
+    "concern": 14.8
+  },
+  "cambridge-ma": {
+    "pct_broadband": 94.2,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "new-braunfels-tx": {
+    "pct_broadband": 94.9,
+    "county": "Comal",
+    "fallback": null,
+    "concern": 5.1
+  },
+  "fairfield-ca": {
+    "pct_broadband": 93.1,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "ann-arbor-mi": {
+    "pct_broadband": 93.7,
+    "county": "Washtenaw",
+    "fallback": null,
+    "concern": 6.3
+  },
+  "thousand-oaks-ca": {
+    "pct_broadband": 93.1,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "hartford-ct": {
+    "pct_broadband": 90.5,
+    "county": "Capitol",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "berkeley-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "independence-mo": {
+    "pct_broadband": 89.7,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 10.3
+  },
+  "billings-mt": {
+    "pct_broadband": 90.9,
+    "county": "Yellowstone",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "high-point-nc": {
+    "pct_broadband": 89.3,
+    "county": "Guilford",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "nampa-id": {
+    "pct_broadband": 92.8,
+    "county": "Canyon",
+    "fallback": null,
+    "concern": 7.2
+  },
+  "lowell-ma": {
+    "pct_broadband": 94.2,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "league-city-tx": {
+    "pct_broadband": 92.8,
+    "county": "Galveston",
+    "fallback": null,
+    "concern": 7.2
+  },
+  "conroe-tx": {
+    "pct_broadband": 93.8,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "antioch-ca": {
+    "pct_broadband": 95.3,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "menifee-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "richardson-tx": {
+    "pct_broadband": 90.2,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "pompano-beach-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "las-cruces-nm": {
+    "pct_broadband": 88.2,
+    "county": "Do\u00f1a Ana",
+    "fallback": null,
+    "concern": 11.8
+  },
+  "manchester-nh": {
+    "pct_broadband": 92.6,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "west-jordan-ut": {
+    "pct_broadband": 93.6,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "westminster-co": {
+    "pct_broadband": 94.4,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "evansville-in": {
+    "pct_broadband": 89.7,
+    "county": "Vanderburgh",
+    "fallback": null,
+    "concern": 10.3
+  },
+  "waterbury-ct": {
+    "pct_broadband": 89.0,
+    "county": "Naugatuck Valley",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "elgin-il": {
+    "pct_broadband": 92.5,
+    "county": "Kane",
+    "fallback": null,
+    "concern": 7.5
+  },
+  "greeley-co": {
+    "pct_broadband": 91.9,
+    "county": "Weld",
+    "fallback": null,
+    "concern": 8.1
+  },
+  "temecula-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "richmond-ca": {
+    "pct_broadband": 95.3,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "concord-nc": {
+    "pct_broadband": 91.3,
+    "county": "Cabarrus",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "provo-ut": {
+    "pct_broadband": 92.0,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "rio-rancho-nm": {
+    "pct_broadband": 88.9,
+    "county": "Sandoval",
+    "fallback": null,
+    "concern": 11.1
+  },
+  "clearwater-fl": {
+    "pct_broadband": 89.4,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "tuscaloosa-al": {
+    "pct_broadband": 87.5,
+    "county": "Tuscaloosa",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "murrieta-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "lansing-mi": {
+    "pct_broadband": 89.4,
+    "county": "Ingham",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "tyler-tx": {
+    "pct_broadband": 88.8,
+    "county": "Smith",
+    "fallback": null,
+    "concern": 11.2
+  },
+  "miami-gardens-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "everett-wa": {
+    "pct_broadband": 93.8,
+    "county": "Snohomish",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "allen-tx": {
+    "pct_broadband": 96.1,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "springfield-il": {
+    "pct_broadband": 87.8,
+    "county": "Sangamon",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "beaumont-tx": {
+    "pct_broadband": 88.9,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 11.1
+  },
+  "south-fulton-ga": {
+    "pct_broadband": 92.4,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "carlsbad-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "sparks-nv": {
+    "pct_broadband": 90.3,
+    "county": "Washoe",
+    "fallback": null,
+    "concern": 9.7
+  },
+  "gresham-or": {
+    "pct_broadband": 93.0,
+    "county": "Multnomah",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "santa-maria-ca": {
+    "pct_broadband": 92.1,
+    "county": "Santa Barbara",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "hillsboro-or": {
+    "pct_broadband": 94.7,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "peoria-il": {
+    "pct_broadband": 88.0,
+    "county": "Peoria",
+    "fallback": null,
+    "concern": 12.0
+  },
+  "davie-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "edinburg-tx": {
+    "pct_broadband": 84.6,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 15.4
+  },
+  "pueblo-co": {
+    "pct_broadband": 86.5,
+    "county": "Pueblo",
+    "fallback": null,
+    "concern": 13.5
+  },
+  "ventura-ca": {
+    "pct_broadband": 93.1,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "palm-coast-fl": {
+    "pct_broadband": 85.9,
+    "county": "Flagler",
+    "fallback": null,
+    "concern": 14.1
+  },
+  "costa-mesa-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "st-george-ut": {
+    "pct_broadband": 92.2,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "centennial-co": {
+    "pct_broadband": 94.2,
+    "county": "Arapahoe",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "downey-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "spokane-valley-wa": {
+    "pct_broadband": 91.3,
+    "county": "Spokane",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "sugar-land-tx": {
+    "pct_broadband": 94.9,
+    "county": "Fort Bend",
+    "fallback": null,
+    "concern": 5.1
+  },
+  "lees-summit-mo": {
+    "pct_broadband": 89.7,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 10.3
+  },
+  "bend-or": {
+    "pct_broadband": 93.0,
+    "county": "Deschutes",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "jurupa-valley-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "georgetown-tx": {
+    "pct_broadband": 95.5,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "green-bay-wi": {
+    "pct_broadband": 91.0,
+    "county": "Brown",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "fayetteville-ar": {
+    "pct_broadband": 89.1,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 10.9
+  },
+  "rialto-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "brockton-ma": {
+    "pct_broadband": 92.0,
+    "county": "Plymouth",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "boulder-co": {
+    "pct_broadband": 95.0,
+    "county": "Boulder",
+    "fallback": null,
+    "concern": 5.0
+  },
+  "carmel-in": {
+    "pct_broadband": 96.1,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "dearborn-mi": {
+    "pct_broadband": 87.8,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "west-covina-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "yuma-az": {
+    "pct_broadband": 86.5,
+    "county": "Yuma",
+    "fallback": null,
+    "concern": 13.5
+  },
+  "chico-ca": {
+    "pct_broadband": 90.7,
+    "county": "Butte",
+    "fallback": null,
+    "concern": 9.3
+  },
+  "el-monte-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "sandy-springs-ga": {
+    "pct_broadband": 92.4,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "renton-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "fishers-in": {
+    "pct_broadband": 96.1,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "suffolk-va": {
+    "pct_broadband": 89.0,
+    "county": "Suffolk",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "lynn-ma": {
+    "pct_broadband": 91.4,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "vacaville-ca": {
+    "pct_broadband": 93.1,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 6.9
+  },
+  "san-mateo-ca": {
+    "pct_broadband": 95.2,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 4.8
+  },
+  "south-bend-in": {
+    "pct_broadband": 88.1,
+    "county": "St. Joseph",
+    "fallback": null,
+    "concern": 11.9
+  },
+  "quincy-ma": {
+    "pct_broadband": 94.2,
+    "county": "Norfolk",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "burbank-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "hesperia-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "wichita-falls-tx": {
+    "pct_broadband": 86.9,
+    "county": "Wichita",
+    "fallback": null,
+    "concern": 13.1
+  },
+  "tracy-ca": {
+    "pct_broadband": 91.3,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "new-bedford-ma": {
+    "pct_broadband": 88.6,
+    "county": "Bristol",
+    "fallback": null,
+    "concern": 11.4
+  },
+  "el-cajon-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "albany-ny": {
+    "pct_broadband": 89.4,
+    "county": "Albany",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "inglewood-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "boca-raton-fl": {
+    "pct_broadband": 90.1,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 9.9
+  },
+  "fort-myers-fl": {
+    "pct_broadband": 91.3,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "daly-city-ca": {
+    "pct_broadband": 95.2,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 4.8
+  },
+  "avondale-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "san-angelo-tx": {
+    "pct_broadband": 86.6,
+    "county": "Tom Green",
+    "fallback": null,
+    "concern": 13.4
+  },
+  "edmond-ok": {
+    "pct_broadband": 90.4,
+    "county": "Oklahoma",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "davenport-ia": {
+    "pct_broadband": 89.0,
+    "county": "Scott",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "deltona-fl": {
+    "pct_broadband": 89.8,
+    "county": "Volusia",
+    "fallback": null,
+    "concern": 10.2
+  },
+  "longmont-co": {
+    "pct_broadband": 95.0,
+    "county": "Boulder",
+    "fallback": null,
+    "concern": 5.0
+  },
+  "federal-way-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "merced-ca": {
+    "pct_broadband": 88.1,
+    "county": "Merced",
+    "fallback": null,
+    "concern": 11.9
+  },
+  "kenosha-wi": {
+    "pct_broadband": 91.8,
+    "county": "Kenosha",
+    "fallback": null,
+    "concern": 8.2
+  },
+  "plantation-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "roanoke-va": {
+    "pct_broadband": 84.0,
+    "county": "Roanoke",
+    "fallback": null,
+    "concern": 16.0
+  },
+  "sunrise-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "temple-tx": {
+    "pct_broadband": 89.9,
+    "county": "Bell",
+    "fallback": null,
+    "concern": 10.1
+  },
+  "vista-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "beaverton-or": {
+    "pct_broadband": 94.7,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "yakima-wa": {
+    "pct_broadband": 88.9,
+    "county": "Yakima",
+    "fallback": null,
+    "concern": 11.1
+  },
+  "kirkland-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "norwalk-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "chino-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "portsmouth-va": {
+    "pct_broadband": 87.5,
+    "county": "Portsmouth",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "manteca-ca": {
+    "pct_broadband": 91.3,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 8.7
+  },
+  "north-port-fl": {
+    "pct_broadband": 91.7,
+    "county": "Sarasota",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "greenville-nc": {
+    "pct_broadband": 87.1,
+    "county": "Pitt",
+    "fallback": null,
+    "concern": 12.9
+  },
+  "bellingham-wa": {
+    "pct_broadband": 92.9,
+    "county": "Whatcom",
+    "fallback": null,
+    "concern": 7.1
+  },
+  "lawrence-ks": {
+    "pct_broadband": 91.4,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "ofallon-mo": {
+    "pct_broadband": 94.4,
+    "county": "St. Charles",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "reading-pa": {
+    "pct_broadband": 88.1,
+    "county": "Berks",
+    "fallback": null,
+    "concern": 11.9
+  },
+  "mount-pleasant-sc": {
+    "pct_broadband": 86.2,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 13.8
+  },
+  "lehi-ut": {
+    "pct_broadband": 92.0,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "fall-river-ma": {
+    "pct_broadband": 88.6,
+    "county": "Bristol",
+    "fallback": null,
+    "concern": 11.4
+  },
+  "orem-ut": {
+    "pct_broadband": 92.0,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "san-marcos-ca": {
+    "pct_broadband": 94.2,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "norwalk-ct": {
+    "pct_broadband": 94.2,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "indio-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "redding-ca": {
+    "pct_broadband": 89.5,
+    "county": "Shasta",
+    "fallback": null,
+    "concern": 10.5
+  },
+  "hemet-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "hoover-al": {
+    "pct_broadband": 88.5,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 11.5
+  },
+  "asheville-nc": {
+    "pct_broadband": 87.7,
+    "county": "Buncombe",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "livonia-mi": {
+    "pct_broadband": 87.8,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "nashua-nh": {
+    "pct_broadband": 92.6,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "sandy-ut": {
+    "pct_broadband": 93.6,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "frederick-md": {
+    "pct_broadband": 92.6,
+    "county": "Frederick",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "bryan-tx": {
+    "pct_broadband": 84.8,
+    "county": "Brazos",
+    "fallback": null,
+    "concern": 15.2
+  },
+  "folsom-ca": {
+    "pct_broadband": 93.3,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "erie-pa": {
+    "pct_broadband": 87.5,
+    "county": "Erie",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "trenton-nj": {
+    "pct_broadband": 90.2,
+    "county": "Mercer",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "roswell-ga": {
+    "pct_broadband": 92.4,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "champaign-il": {
+    "pct_broadband": 88.8,
+    "county": "Champaign",
+    "fallback": null,
+    "concern": 11.2
+  },
+  "leander-tx": {
+    "pct_broadband": 95.5,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "clifton-nj": {
+    "pct_broadband": 91.5,
+    "county": "Passaic",
+    "fallback": null,
+    "concern": 8.5
+  },
+  "fort-smith-ar": {
+    "pct_broadband": 83.8,
+    "county": "Sebastian",
+    "fallback": null,
+    "concern": 16.2
+  },
+  "carson-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "newton-ma": {
+    "pct_broadband": 94.2,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "springdale-ar": {
+    "pct_broadband": 89.1,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 10.9
+  },
+  "lawton-ok": {
+    "pct_broadband": 88.9,
+    "county": "Comanche",
+    "fallback": null,
+    "concern": 11.1
+  },
+  "compton-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "mission-viejo-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "franklin-tn": {
+    "pct_broadband": 95.5,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "santa-monica-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "south-gate-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "santa-fe-nm": {
+    "pct_broadband": 88.1,
+    "county": "Santa Fe",
+    "fallback": null,
+    "concern": 11.9
+  },
+  "queen-creek-az": {
+    "pct_broadband": 92.1,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "ogden-ut": {
+    "pct_broadband": 94.1,
+    "county": "Weber",
+    "fallback": null,
+    "concern": 5.9
+  },
+  "deerfield-beach-fl": {
+    "pct_broadband": 90.9,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 9.1
+  },
+  "lawrence-ma": {
+    "pct_broadband": 91.4,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "bloomington-mn": {
+    "pct_broadband": 92.2,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "danbury-ct": {
+    "pct_broadband": 94.2,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "mission-tx": {
+    "pct_broadband": 84.6,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 15.4
+  },
+  "westminster-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "troy-mi": {
+    "pct_broadband": 93.6,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "daytona-beach-fl": {
+    "pct_broadband": 89.8,
+    "county": "Volusia",
+    "fallback": null,
+    "concern": 10.2
+  },
+  "kennewick-wa": {
+    "pct_broadband": 91.8,
+    "county": "Benton",
+    "fallback": null,
+    "concern": 8.2
+  },
+  "duluth-mn": {
+    "pct_broadband": 87.6,
+    "county": "St. Louis",
+    "fallback": null,
+    "concern": 12.4
+  },
+  "waukegan-il": {
+    "pct_broadband": 93.5,
+    "county": "Lake",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "warner-robins-ga": {
+    "pct_broadband": 91.9,
+    "county": "Houston",
+    "fallback": null,
+    "concern": 8.1
+  },
+  "south-jordan-ut": {
+    "pct_broadband": 93.6,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "rancho-cordova-ca": {
+    "pct_broadband": 93.3,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "melbourne-fl": {
+    "pct_broadband": 92.1,
+    "county": "Brevard",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "gastonia-nc": {
+    "pct_broadband": 87.2,
+    "county": "Gaston",
+    "fallback": null,
+    "concern": 12.8
+  },
+  "baytown-tx": {
+    "pct_broadband": 91.0,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "medford-or": {
+    "pct_broadband": 89.5,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 10.5
+  },
+  "santa-barbara-ca": {
+    "pct_broadband": 92.1,
+    "county": "Santa Barbara",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "sioux-city-ia": {
+    "pct_broadband": 85.7,
+    "county": "Woodbury",
+    "fallback": null,
+    "concern": 14.3
+  },
+  "citrus-heights-ca": {
+    "pct_broadband": 93.3,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "lake-forest-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "auburn-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "homestead-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "san-ramon-ca": {
+    "pct_broadband": 95.3,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "new-rochelle-ny": {
+    "pct_broadband": 92.4,
+    "county": "Westchester",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "whittier-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "kissimmee-fl": {
+    "pct_broadband": 91.8,
+    "county": "Osceola",
+    "fallback": null,
+    "concern": 8.2
+  },
+  "mountain-view-ca": {
+    "pct_broadband": 95.1,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "san-leandro-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "layton-ut": {
+    "pct_broadband": 94.0,
+    "county": "Davis",
+    "fallback": null,
+    "concern": 6.0
+  },
+  "auburn-al": {
+    "pct_broadband": 86.9,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 13.1
+  },
+  "cranston-ri": {
+    "pct_broadband": 89.3,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "mansfield-tx": {
+    "pct_broadband": 92.6,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "somerville-ma": {
+    "pct_broadband": 94.2,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 5.8
+  },
+  "warwick-ri": {
+    "pct_broadband": 91.6,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 8.4
+  },
+  "castle-rock-co": {
+    "pct_broadband": 97.7,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 2.3
+  },
+  "brooklyn-park-mn": {
+    "pct_broadband": 92.2,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "livermore-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "bloomington-in": {
+    "pct_broadband": 89.9,
+    "county": "Monroe",
+    "fallback": null,
+    "concern": 10.1
+  },
+  "jonesboro-ar": {
+    "pct_broadband": 87.4,
+    "county": "Craighead",
+    "fallback": null,
+    "concern": 12.6
+  },
+  "farmington-hills-mi": {
+    "pct_broadband": 93.6,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "perris-ca": {
+    "pct_broadband": 92.7,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "longview-tx": {
+    "pct_broadband": 87.8,
+    "county": "Gregg",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "pasco-wa": {
+    "pct_broadband": 92.3,
+    "county": "Franklin",
+    "fallback": null,
+    "concern": 7.7
+  },
+  "hawthorne-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "lake-charles-la": {
+    "pct_broadband": 85.1,
+    "county": "Calcasieu",
+    "fallback": null,
+    "concern": 14.9
+  },
+  "redmond-wa": {
+    "pct_broadband": 94.8,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.2
+  },
+  "boynton-beach-fl": {
+    "pct_broadband": 90.1,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 9.9
+  },
+  "westland-mi": {
+    "pct_broadband": 87.8,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "redwood-city-ca": {
+    "pct_broadband": 95.2,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 4.8
+  },
+  "newport-beach-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "cicero-il": {
+    "pct_broadband": 89.2,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 10.8
+  },
+  "buena-park-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "doral-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "miami-beach-fl": {
+    "pct_broadband": 87.0,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 13.0
+  },
+  "woodbury-mn": {
+    "pct_broadband": 94.1,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 5.9
+  },
+  "loveland-co": {
+    "pct_broadband": 92.7,
+    "county": "Larimer",
+    "fallback": null,
+    "concern": 7.3
+  },
+  "lynchburg-va": {
+    "pct_broadband": 92.2,
+    "county": "Lynchburg",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "pharr-tx": {
+    "pct_broadband": 84.6,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 15.4
+  },
+  "largo-fl": {
+    "pct_broadband": 89.4,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "rapid-city-sd": {
+    "pct_broadband": 90.4,
+    "county": "Pennington",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "apex-nc": {
+    "pct_broadband": 94.7,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "johns-creek-ga": {
+    "pct_broadband": 92.4,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "alhambra-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "bethlehem-pa": {
+    "pct_broadband": 89.1,
+    "county": "Northampton",
+    "fallback": null,
+    "concern": 10.9
+  },
+  "flower-mound-tx": {
+    "pct_broadband": 95.5,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "upland-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "flint-mi": {
+    "pct_broadband": 87.5,
+    "county": "Genesee",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "lakeville-mn": {
+    "pct_broadband": 93.8,
+    "county": "Dakota",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "broomfield-co": {
+    "pct_broadband": 96.0,
+    "county": "Broomfield",
+    "fallback": null,
+    "concern": 4.0
+  },
+  "cedar-park-tx": {
+    "pct_broadband": 95.5,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "plymouth-mn": {
+    "pct_broadband": 92.2,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "missoula-mt": {
+    "pct_broadband": 92.4,
+    "county": "Missoula",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "mableton-ga": {
+    "pct_broadband": 95.9,
+    "county": "Cobb",
+    "fallback": null,
+    "concern": 4.1
+  },
+  "bloomington-il": {
+    "pct_broadband": 87.8,
+    "county": "McLean",
+    "fallback": null,
+    "concern": 12.2
+  },
+  "milpitas-ca": {
+    "pct_broadband": 95.1,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "wyoming-mi": {
+    "pct_broadband": 91.0,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "parma-oh": {
+    "pct_broadband": 87.3,
+    "county": "Cuyahoga",
+    "fallback": null,
+    "concern": 12.7
+  },
+  "bowling-green-ky": {
+    "pct_broadband": 91.2,
+    "county": "Warren",
+    "fallback": null,
+    "concern": 8.8
+  },
+  "maricopa-az": {
+    "pct_broadband": 91.7,
+    "county": "Pinal",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "lakewood-ca": {
+    "pct_broadband": 91.7,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 8.3
+  },
+  "bismarck-nd": {
+    "pct_broadband": 88.7,
+    "county": "Burleigh",
+    "fallback": null,
+    "concern": 11.3
+  },
+  "racine-wi": {
+    "pct_broadband": 90.0,
+    "county": "Racine",
+    "fallback": null,
+    "concern": 10.0
+  },
+  "tustin-ca": {
+    "pct_broadband": 94.4,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 5.6
+  },
+  "ankeny-ia": {
+    "pct_broadband": 90.5,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 9.5
+  },
+  "san-marcos-tx": {
+    "pct_broadband": 92.0,
+    "county": "Hays",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "marysville-wa": {
+    "pct_broadband": 93.8,
+    "county": "Snohomish",
+    "fallback": null,
+    "concern": 6.2
+  },
+  "pittsburg-ca": {
+    "pct_broadband": 95.3,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "rochester-hills-mi": {
+    "pct_broadband": 93.6,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "chino-hills-ca": {
+    "pct_broadband": 92.1,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 7.9
+  },
+  "missouri-city-tx": {
+    "pct_broadband": 94.9,
+    "county": "Fort Bend",
+    "fallback": null,
+    "concern": 5.1
+  },
+  "flagstaff-az": {
+    "pct_broadband": 83.1,
+    "county": "Coconino",
+    "fallback": null,
+    "concern": 16.9
+  },
+  "schaumburg-il": {
+    "pct_broadband": 89.2,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 10.8
+  },
+  "pawtucket-ri": {
+    "pct_broadband": 89.3,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 10.7
+  },
+  "rogers-ar": {
+    "pct_broadband": 93.0,
+    "county": "Benton",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "alameda-ca": {
+    "pct_broadband": 93.5,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "rocklin-ca": {
+    "pct_broadband": 93.6,
+    "county": "Placer",
+    "fallback": null,
+    "concern": 6.4
+  },
+  "caldwell-id": {
+    "pct_broadband": 92.8,
+    "county": "Canyon",
+    "fallback": null,
+    "concern": 7.2
+  },
+  "carlsbad-nm": {
+    "pct_broadband": 85.3,
+    "county": "Eddy",
+    "fallback": null,
+    "concern": 14.7
+  },
+  "kalispell-mt": {
+    "pct_broadband": 90.0,
+    "county": "Flathead",
+    "fallback": null,
+    "concern": 10.0
+  },
+  "durango-co": {
+    "pct_broadband": 88.2,
+    "county": "La Plata",
+    "fallback": null,
+    "concern": 11.8
+  },
+  "los-alamos-nm": {
+    "pct_broadband": 94.6,
+    "county": "Los Alamos",
+    "fallback": null,
+    "concern": 5.4
+  },
+  "sandpoint-id": {
+    "pct_broadband": 87.4,
+    "county": "Bonner",
+    "fallback": null,
+    "concern": 12.6
+  },
+  "taos-nm": {
+    "pct_broadband": 83.9,
+    "county": "Taos",
+    "fallback": null,
+    "concern": 16.1
+  },
+  "blanding-ut": {
+    "pct_broadband": 70.3,
+    "county": "San Juan",
+    "fallback": null,
+    "concern": 29.7
+  },
+  "monticello-ut": {
+    "pct_broadband": 70.3,
+    "county": "San Juan",
+    "fallback": null,
+    "concern": 29.7
+  },
+  "whitewright-tx": {
+    "pct_broadband": 87.7,
+    "county": "Grayson",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "sundance-wy": {
+    "pct_broadband": 86.1,
+    "county": "Crook",
+    "fallback": null,
+    "concern": 13.9
+  },
+  "geraldine-mt": {
+    "pct_broadband": 72.4,
+    "county": "Chouteau",
+    "fallback": null,
+    "concern": 27.6
+  },
+  "grand-junction-co": {
+    "pct_broadband": 91.9,
+    "county": "Mesa",
+    "fallback": null,
+    "concern": 8.1
+  }
+}

@@ -87,6 +87,11 @@ data/raw/walkability-cache/
 # data/parks.json IS committed.
 data/raw/parks-cache/
 
+# Pure fetch-scratch for the broadband-access dataset build
+# (scripts/gen_broadband_data.py) -- same posture as the caches above.
+# data/broadband.json IS committed.
+data/raw/broadband-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
