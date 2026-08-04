@@ -2,7 +2,7 @@ import trafficFatalitiesData from "@data/traffic-fatalities.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The tenth real Dataset -- motor-vehicle-crash death rate, sourced from
+ * The eleventh real Dataset -- motor-vehicle-crash death rate, sourced from
  * County Health Rankings & Roadmaps' free, keyless national CSV (which
  * itself republishes NCHS Mortality Files / NVSS data, the same underlying
  * system FARS crash data feeds) rather than NHTSA's own FARS CrashViewer
