@@ -13,6 +13,7 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
   // The layer's own add-button relabels itself and disables once already
@@ -48,6 +49,7 @@ test("the fifth dataset (natural hazard risk) is selectable and honestly reports
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Natural hazard risk" }).click();
   await page.getByRole("button", { name: "Coastal flooding" }).click();
+  await page.getByRole("button", { name: "Add Coastal flooding" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Natural hazard risk: Coastal flooding" })).toBeVisible();
 
@@ -62,6 +64,7 @@ test("the sixth dataset (social vulnerability) is selectable and reports a real 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Social vulnerability" }).click();
   await page.getByRole("button", { name: "Overall social vulnerability" }).click();
+  await page.getByRole("button", { name: "Add Overall social vulnerability" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Social vulnerability: Overall social vulnerability" })).toBeVisible();
 
@@ -79,6 +82,7 @@ test("the seventh dataset (health outcomes) is selectable and honestly reports n
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Health outcomes" }).click();
   await page.getByRole("button", { name: "Obesity" }).click();
+  await page.getByRole("button", { name: "Add Obesity" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Health outcomes: Obesity" })).toBeVisible();
 
@@ -94,6 +98,7 @@ test("the eighth dataset (food access) is selectable and reports a real percenta
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Food access" }).click();
   await page.getByRole("button", { name: "Low food access", exact: true }).click();
+  await page.getByRole("button", { name: "Add Low food access" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Food access: Low food access" })).toBeVisible();
 
@@ -109,6 +114,7 @@ test("the ninth dataset (housing supply) is selectable and reports a real value"
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Housing supply" }).click();
   await page.getByRole("button", { name: "Housing market tightness" }).click();
+  await page.getByRole("button", { name: "Add Housing market tightness" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing supply: Housing market tightness" })).toBeVisible();
 
@@ -126,6 +132,7 @@ test("the tenth dataset (housing market speed) is selectable and honestly report
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Housing market speed" }).click();
   await page.getByRole("button", { name: "Market speed", exact: true }).click();
+  await page.getByRole("button", { name: "Add Market speed" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing market speed: Market speed" })).toBeVisible();
 
@@ -141,6 +148,7 @@ test("the eleventh dataset (traffic safety) is selectable and reports a real cou
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Traffic safety" }).click();
   await page.getByRole("button", { name: "Traffic fatality rate", exact: true }).click();
+  await page.getByRole("button", { name: "Add Traffic fatality rate" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Traffic safety: Traffic fatality rate" })).toBeVisible();
 
@@ -156,6 +164,7 @@ test("the twelfth dataset (transit access) is selectable and reports a real ID-j
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Transit access" }).click();
   await page.getByRole("button", { name: "Transit service level", exact: true }).click();
+  await page.getByRole("button", { name: "Add Transit service level" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Transit access: Transit service level" })).toBeVisible();
 
@@ -171,6 +180,7 @@ test("the thirteenth dataset (walkability) is selectable and reports a real EPA-
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Walkability" }).click();
   await page.getByRole("button", { name: "Walkability", exact: true }).click();
+  await page.getByRole("button", { name: "Add Walkability" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Walkability: Walkability" })).toBeVisible();
 
@@ -186,6 +196,7 @@ test("the fourteenth dataset (park access) is selectable and reports a real TPL-
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Park access" }).click();
   await page.getByRole("button", { name: "Park access", exact: true }).click();
+  await page.getByRole("button", { name: "Add Park access" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Park access: Park access" })).toBeVisible();
 
@@ -201,6 +212,7 @@ test("the fifteenth dataset (electoral competitiveness) is selectable and report
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Electoral competitiveness" }).click();
   await page.getByRole("button", { name: "Electoral competitiveness", exact: true }).click();
+  await page.getByRole("button", { name: "Add Electoral competitiveness" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Electoral competitiveness: Electoral competitiveness" })).toBeVisible();
 
@@ -216,6 +228,7 @@ test("the sixteenth dataset (broadband access) is selectable and reports a real 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Broadband access" }).click();
   await page.getByRole("button", { name: "Broadband access", exact: true }).click();
+  await page.getByRole("button", { name: "Add Broadband access" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Broadband access: Broadband access" })).toBeVisible();
 
@@ -231,6 +244,7 @@ test("the seventeenth dataset (median household income) is selectable and report
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Median household income" }).click();
   await page.getByRole("button", { name: "Median household income", exact: true }).click();
+  await page.getByRole("button", { name: "Add Median household income" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Median household income: Median household income" })).toBeVisible();
 
@@ -246,6 +260,7 @@ test("the eighteenth dataset (housing affordability) is selectable and reports a
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Housing affordability" }).click();
   await page.getByRole("button", { name: "Severe housing cost burden", exact: true }).click();
+  await page.getByRole("button", { name: "Add Severe housing cost burden" }).click();
 
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing affordability: Severe housing cost burden" })).toBeVisible();
 
@@ -267,8 +282,11 @@ test("the map stays a normal, bounded size no matter how many layers are stacked
   // Real CI flake found live: 28 sequential real clicks sit right at the
   // default 30s test timeout locally and reliably tip over it on CI's
   // slower/shared runners -- not a product bug, just an inherently slow
-  // test. Double the timeout rather than speeding up the interaction.
-  test.setTimeout(60_000);
+  // test. Interaction count DOUBLED (preview click + explicit Add click
+  // per layer, once AddLayerPanel gained a real preview-then-add flow),
+  // pushing local runs to ~42s -- widened further rather than trimming
+  // the safety margin down to nothing on CI's slower runners.
+  test.setTimeout(90_000);
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
 
@@ -282,10 +300,50 @@ test("the map stays a normal, bounded size no matter how many layers are stacked
   ];
   for (const label of allergyLabels) {
     await page.getByRole("button", { name: label, exact: true }).click();
+    await page.getByRole("button", { name: `Add ${label}` }).click();
   }
 
   const mapWidth = await page.getByTestId("heatmap-canvas").first().evaluate((el) => el.getBoundingClientRect().width);
   expect(mapWidth).toBeLessThan(1500);
+});
+
+test("clicking a layer previews it live on the map without committing it, and a distinct Add button is required to actually add it", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+
+  await page.getByRole("button", { name: "Tall fescue", exact: true }).click();
+  // Real bug found live: clicking a layer used to add it immediately, with
+  // no way to see it on the map first and no explicit confirming action.
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Tall fescue" })).toHaveCount(0);
+  await expect(page.getByRole("img")).toHaveAttribute("aria-label", "Map showing 2 visible layer(s)");
+
+  await page.getByRole("button", { name: "Add Tall fescue" }).click();
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Tall fescue" })).toBeVisible();
+});
+
+test("adding a layer from a dataset that already has active layers groups it with them, instead of always appending at the very bottom of the list", async ({ page }) => {
+  // Real bug found live: MapstackApp's addLayer always did
+  // [...prev, layer], so adding a second Allergy layer AFTER an unrelated
+  // Crime layer had already been added landed the new allergy layer past
+  // Crime at the bottom of the whole list, not grouped with the other
+  // allergy layer it actually belongs next to.
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+
+  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
+
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Redtop", exact: true }).click();
+  await page.getByRole("button", { name: "Add Redtop" }).click();
+
+  const labels = await page.getByTestId("active-layers-row").allInnerTexts();
+  expect(labels).toEqual([
+    expect.stringContaining("Allergy severity: Grass"),
+    expect.stringContaining("Allergy severity: Redtop"),
+    expect.stringContaining("Crime: Violent crime"),
+  ]);
 });
 
 test("stacking 2+ layers shows a legend and detail for each at a clicked city", async ({ page }) => {
@@ -294,6 +352,7 @@ test("stacking 2+ layers shows a legend and detail for each at a clicked city", 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
 
   // Two legends now visible, one per active layer -- "concern" suffix
   // makes legend text unique from the active-layers-list entries.
@@ -323,6 +382,7 @@ test("selecting a city does not reset previously added layers -- regression for 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
@@ -348,6 +408,7 @@ test("a year control appears once a time-varying layer (crime) is active, and sw
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
 
   const yearSelect = page.getByLabel("Year", { exact: true });
   await expect(yearSelect).toBeVisible();
@@ -370,6 +431,7 @@ test("a city with no crime data shows an honest no-data state, not a fabricated 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await page.getByRole("tab", { name: "Crime" }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
 
   // San Francisco is a real, documented NIBRS-non-participation gap.
   await page.getByRole("button", { name: /^San Francisco, CA/ }).click();

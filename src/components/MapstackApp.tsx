@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { AddLayerPanel } from "@/components/AddLayerPanel";
 import { ActiveLayersList } from "@/components/ActiveLayersList";
@@ -9,7 +9,7 @@ import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { isSameLayer, type ActiveLayer } from "@/lib/active-layers";
+import { isSameLayer, resolveActiveLayer, type ActiveLayer } from "@/lib/active-layers";
 import { DATASETS } from "@/lib/datasets/registry";
 import { useSharedViewParams } from "@/lib/shared-view-params";
 
@@ -17,15 +17,46 @@ const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 export function MapstackApp() {
   const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
+  const [previewLayer, setPreviewLayer] = useState<ActiveLayer | null>(null);
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function addLayer(layer: ActiveLayer) {
-    setActive((prev) => (prev.some((a) => isSameLayer(a, layer)) ? prev : [...prev, layer]));
+    setActive((prev) => {
+      if (prev.some((a) => isSameLayer(a, layer))) return prev;
+      // Insert right after the last layer from the SAME dataset (if any),
+      // not always at the very end -- a real bug found live: adding a
+      // second "Allergy severity" layer after an unrelated "Crime" layer
+      // had already been added used to land the new allergy layer at the
+      // bottom of the whole list, past Crime, instead of grouped with the
+      // other allergy layer it actually belongs next to.
+      let insertAt = prev.length;
+      for (let i = prev.length - 1; i >= 0; i--) {
+        if (prev[i].datasetId === layer.datasetId) {
+          insertAt = i + 1;
+          break;
+        }
+      }
+      const next = [...prev];
+      next.splice(insertAt, 0, layer);
+      return next;
+    });
+    setPreviewLayer(null);
   }
 
   function removeLayer(layer: ActiveLayer) {
     setActive((prev) => prev.filter((a) => !isSameLayer(a, layer)));
   }
+
+  const previewOverlay = useMemo(() => {
+    if (!previewLayer) return null;
+    const resolved = resolveActiveLayer(previewLayer);
+    if (!resolved) return null;
+    const context = year !== null ? { year } : undefined;
+    return {
+      label: `Previewing: ${resolved.dataset.label}: ${resolved.layer.label}`,
+      getValue: (cityId: string) => resolved.dataset.getValue(cityId, resolved.layer.id, context)?.value ?? null,
+    };
+  }, [previewLayer, year]);
 
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
@@ -56,7 +87,12 @@ export function MapstackApp() {
             <ActiveLayersList active={active} onRemove={removeLayer} />
           </div>
 
-          <AddLayerPanel active={active} onAdd={addLayer} />
+          <AddLayerPanel
+            active={active}
+            onAdd={addLayer}
+            previewLayer={previewLayer}
+            onPreview={setPreviewLayer}
+          />
 
           <CityDetailPanel cityId={selectedCityId} active={active} year={year} />
         </div>
@@ -73,6 +109,7 @@ export function MapstackApp() {
             year={year}
             onSelectCity={setSelectedCityId}
             selectedCityId={selectedCityId}
+            customOverlay={previewOverlay}
           />
         </div>
       </div>

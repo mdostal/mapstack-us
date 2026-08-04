@@ -7,25 +7,55 @@ import { activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-laye
 interface Props {
   active: ActiveLayer[];
   onAdd: (layer: ActiveLayer) => void;
+  previewLayer: ActiveLayer | null;
+  onPreview: (layer: ActiveLayer | null) => void;
 }
 
 /**
- * "Add layer" flow: pick a dataset, then pick one of its layers to add to
- * the map -- explicit user direction: "I should be able to add an allergy
+ * "Add layer" flow: pick a dataset (the tab row), then pick one of its
+ * layers -- explicit user direction: "I should be able to add an allergy
  * layer, then add a crime layer, then add the hospital healthcare layer
  * etc." Already-active layers show as checked/disabled rather than being
  * hidden, so it's clear at a glance what's already on the map.
+ *
+ * Two real bugs found live and fixed here: clicking a layer used to add it
+ * immediately, with no way to see what it looked like on the map first and
+ * no explicit confirming action -- now a click PREVIEWS the layer (live, on
+ * the actual map, via MapstackApp's customOverlay slot -- see
+ * MultiLayerMap.tsx) and a separate, solid "Add" button commits it. The
+ * insertion-position bug (a newly added layer always landing at the very
+ * bottom of Active Layers instead of grouped with same-dataset layers) was
+ * a MapstackApp.tsx bug, fixed there in addLayer().
  */
-export function AddLayerPanel({ active, onAdd }: Props) {
+export function AddLayerPanel({ active, onAdd, previewLayer, onPreview }: Props) {
   const [open, setOpen] = useState(false);
   const [datasetId, setDatasetId] = useState(DATASETS[0]?.id ?? "");
   const dataset = DATASETS.find((d) => d.id === datasetId);
+  const previewedLabel = previewLayer
+    ? DATASETS.find((d) => d.id === previewLayer.datasetId)?.layers.find((l) => l.id === previewLayer.layerId)?.label
+    : null;
+
+  function togglePanel() {
+    setOpen((v) => {
+      if (v) onPreview(null);
+      return !v;
+    });
+  }
+
+  function selectDataset(id: string) {
+    setDatasetId(id);
+    onPreview(null);
+  }
+
+  function togglePreview(candidate: ActiveLayer) {
+    onPreview(previewLayer && isSameLayer(previewLayer, candidate) ? null : candidate);
+  }
 
   return (
     <div className="rounded-lg border border-zinc-200 dark:border-zinc-800">
       <button
         type="button"
-        onClick={() => setOpen((v) => !v)}
+        onClick={togglePanel}
         aria-expanded={open}
         className="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-zinc-900 dark:text-zinc-50"
       >
@@ -42,7 +72,7 @@ export function AddLayerPanel({ active, onAdd }: Props) {
                 type="button"
                 role="tab"
                 aria-selected={datasetId === d.id}
-                onClick={() => setDatasetId(d.id)}
+                onClick={() => selectDataset(d.id)}
                 className={`rounded-md px-2.5 py-1 text-xs font-medium ${
                   datasetId === d.id
                     ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
@@ -58,14 +88,20 @@ export function AddLayerPanel({ active, onAdd }: Props) {
             {dataset?.layers.map((layer) => {
               const candidate: ActiveLayer = { datasetId, layerId: layer.id };
               const alreadyActive = active.some((a) => isSameLayer(a, candidate));
+              const isPreviewed = !alreadyActive && previewLayer !== null && isSameLayer(previewLayer, candidate);
               return (
                 <button
                   key={activeLayerKey(candidate)}
                   type="button"
                   disabled={alreadyActive}
-                  onClick={() => onAdd(candidate)}
+                  aria-pressed={isPreviewed}
+                  onClick={() => togglePreview(candidate)}
                   aria-label={alreadyActive ? `${layer.label} (already added)` : layer.label}
-                  className="flex items-center justify-between rounded px-2 py-1.5 text-left text-xs text-zinc-700 disabled:cursor-not-allowed disabled:opacity-40 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                  className={`flex items-center justify-between rounded px-2 py-1.5 text-left text-xs disabled:cursor-not-allowed disabled:opacity-40 ${
+                    isPreviewed
+                      ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
+                      : "text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                  }`}
                 >
                   <span aria-hidden>{layer.label}</span>
                   {alreadyActive && (
@@ -77,6 +113,15 @@ export function AddLayerPanel({ active, onAdd }: Props) {
               );
             })}
           </div>
+
+          <button
+            type="button"
+            disabled={previewLayer === null}
+            onClick={() => previewLayer && onAdd(previewLayer)}
+            className="mt-1 rounded-md bg-zinc-900 px-3 py-2 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:bg-zinc-200 disabled:text-zinc-400 dark:bg-zinc-50 dark:text-zinc-900 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-600"
+          >
+            {previewedLabel ? `Add ${previewedLabel}` : "Select a layer above to preview it"}
+          </button>
         </div>
       )}
     </div>
