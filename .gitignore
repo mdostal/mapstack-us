@@ -77,6 +77,11 @@ data/raw/traffic-cache/
 data/raw/urban-area-geocode-cache/
 data/raw/transit-cache/
 
+# Pure fetch-scratch for the walkability dataset build
+# (scripts/gen_walkability_data.py) -- same posture as the caches above.
+# data/walkability.json IS committed.
+data/raw/walkability-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

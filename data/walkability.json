@@ -1,0 +1,3079 @@
+{
+  "_meta": {
+    "source": "EPA National Walkability Index (Smart Location Database), 2021 release",
+    "source_url": "https://www.epa.gov/smartgrowth/smart-location-mapping",
+    "resolution": "census block group (single point sample at each city's stored coordinate)"
+  },
+  "new-york-ny": {
+    "nat_walk_ind": 17.33,
+    "block_group": "360610013001",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 14.0
+  },
+  "los-angeles-ca": {
+    "nat_walk_ind": 19,
+    "block_group": "060372062002",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 5.3
+  },
+  "chicago-il": {
+    "nat_walk_ind": 18.33,
+    "block_group": "170318391001",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 8.8
+  },
+  "houston-tx": {
+    "nat_walk_ind": 18.67,
+    "block_group": "482011000003",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 7.0
+  },
+  "phoenix-az": {
+    "nat_walk_ind": 16.17,
+    "block_group": "040131141001",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 20.2
+  },
+  "philadelphia-pa": {
+    "nat_walk_ind": 19.33,
+    "block_group": "421010008041",
+    "cbsa": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "concern": 3.5
+  },
+  "san-antonio-tx": {
+    "nat_walk_ind": 18.83,
+    "block_group": "480291101002",
+    "cbsa": "San Antonio-New Braunfels, TX",
+    "concern": 6.1
+  },
+  "san-diego-ca": {
+    "nat_walk_ind": 17.67,
+    "block_group": "060730056001",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 12.3
+  },
+  "dallas-tx": {
+    "nat_walk_ind": 18.17,
+    "block_group": "481130031012",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 9.6
+  },
+  "fort-worth-tx": {
+    "nat_walk_ind": 13.33,
+    "block_group": "484391232001",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 35.1
+  },
+  "jacksonville-fl": {
+    "nat_walk_ind": 17.5,
+    "block_group": "120310172001",
+    "cbsa": "Jacksonville, FL",
+    "concern": 13.2
+  },
+  "austin-tx": {
+    "nat_walk_ind": 18.83,
+    "block_group": "484530011001",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 6.1
+  },
+  "san-jose-ca": {
+    "nat_walk_ind": 16.5,
+    "block_group": "060855010003",
+    "cbsa": "San Jose-Sunnyvale-Santa Clara, CA",
+    "concern": 18.4
+  },
+  "charlotte-nc": {
+    "nat_walk_ind": 17.67,
+    "block_group": "371190001003",
+    "cbsa": "Charlotte-Concord-Gastonia, NC-SC",
+    "concern": 12.3
+  },
+  "columbus-oh": {
+    "nat_walk_ind": 17.67,
+    "block_group": "390490040002",
+    "cbsa": "Columbus, OH",
+    "concern": 12.3
+  },
+  "indianapolis-in": {
+    "nat_walk_ind": 18.5,
+    "block_group": "180973910003",
+    "cbsa": "Indianapolis-Carmel-Anderson, IN",
+    "concern": 7.9
+  },
+  "san-francisco-ca": {
+    "nat_walk_ind": 19.17,
+    "block_group": "060750201002",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 4.4
+  },
+  "seattle-wa": {
+    "nat_walk_ind": 15.17,
+    "block_group": "530330082003",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 25.4
+  },
+  "denver-co": {
+    "nat_walk_ind": 19.67,
+    "block_group": "080310020001",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 1.8
+  },
+  "nashville-tn": {
+    "nat_walk_ind": 16.5,
+    "block_group": "470370195003",
+    "cbsa": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "concern": 18.4
+  },
+  "oklahoma-city-ok": {
+    "nat_walk_ind": 18.83,
+    "block_group": "401091036011",
+    "cbsa": "Oklahoma City, OK",
+    "concern": 6.1
+  },
+  "washington-dc": {
+    "nat_walk_ind": 16.83,
+    "block_group": "110010053012",
+    "cbsa": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "concern": 16.7
+  },
+  "el-paso-tx": {
+    "nat_walk_ind": 18.83,
+    "block_group": "481410017002",
+    "cbsa": "El Paso, TX",
+    "concern": 6.1
+  },
+  "las-vegas-nv": {
+    "nat_walk_ind": 15.33,
+    "block_group": "320030007003",
+    "cbsa": "Las Vegas-Henderson-Paradise, NV",
+    "concern": 24.6
+  },
+  "boston-ma": {
+    "nat_walk_ind": 18.33,
+    "block_group": "250250303003",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 8.8
+  },
+  "detroit-mi": {
+    "nat_walk_ind": 18.33,
+    "block_group": "261635208001",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 8.8
+  },
+  "louisville-ky": {
+    "nat_walk_ind": 17.83,
+    "block_group": "211110049003",
+    "cbsa": "Louisville/Jefferson County, KY-IN",
+    "concern": 11.4
+  },
+  "portland-or": {
+    "nat_walk_ind": 19.5,
+    "block_group": "410510106001",
+    "cbsa": "Portland-Vancouver-Hillsboro, OR-WA",
+    "concern": 2.6
+  },
+  "memphis-tn": {
+    "nat_walk_ind": 16.5,
+    "block_group": "471570113001",
+    "cbsa": "Memphis, TN-MS-AR",
+    "concern": 18.4
+  },
+  "baltimore-md": {
+    "nat_walk_ind": 19.17,
+    "block_group": "245100401001",
+    "cbsa": "Baltimore-Columbia-Towson, MD",
+    "concern": 4.4
+  },
+  "milwaukee-wi": {
+    "nat_walk_ind": 18.33,
+    "block_group": "550790144001",
+    "cbsa": "Milwaukee-Waukesha, WI",
+    "concern": 8.8
+  },
+  "albuquerque-nm": {
+    "nat_walk_ind": 17.67,
+    "block_group": "350010014004",
+    "cbsa": "Albuquerque, NM",
+    "concern": 12.3
+  },
+  "fresno-ca": {
+    "nat_walk_ind": 15.17,
+    "block_group": "060190026011",
+    "cbsa": "Fresno, CA",
+    "concern": 25.4
+  },
+  "tucson-az": {
+    "nat_walk_ind": 17.67,
+    "block_group": "040190001002",
+    "cbsa": "Tucson, AZ",
+    "concern": 12.3
+  },
+  "sacramento-ca": {
+    "nat_walk_ind": 16.33,
+    "block_group": "060670011011",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 19.3
+  },
+  "atlanta-ga": {
+    "nat_walk_ind": 14,
+    "block_group": "131210035001",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 31.6
+  },
+  "kansas-city-mo": {
+    "nat_walk_ind": 18.5,
+    "block_group": "290950157001",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 7.9
+  },
+  "mesa-az": {
+    "nat_walk_ind": 16.17,
+    "block_group": "040134214001",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 20.2
+  },
+  "raleigh-nc": {
+    "nat_walk_ind": 18.67,
+    "block_group": "371830501001",
+    "cbsa": "Raleigh-Cary, NC",
+    "concern": 7.0
+  },
+  "colorado-springs-co": {
+    "nat_walk_ind": 19.17,
+    "block_group": "080410023001",
+    "cbsa": "Colorado Springs, CO",
+    "concern": 4.4
+  },
+  "miami-fl": {
+    "nat_walk_ind": 17.5,
+    "block_group": "120860067131",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 13.2
+  },
+  "omaha-ne": {
+    "nat_walk_ind": 16.67,
+    "block_group": "310550016001",
+    "cbsa": "Omaha-Council Bluffs, NE-IA",
+    "concern": 17.5
+  },
+  "virginia-beach-va": {
+    "nat_walk_ind": 17.17,
+    "block_group": "518100440041",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 14.9
+  },
+  "long-beach-ca": {
+    "nat_walk_ind": 19.83,
+    "block_group": "060375762005",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 0.9
+  },
+  "oakland-ca": {
+    "nat_walk_ind": 16,
+    "block_group": "060014030002",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 21.1
+  },
+  "minneapolis-mn": {
+    "nat_walk_ind": 18.67,
+    "block_group": "270531261003",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 7.0
+  },
+  "bakersfield-ca": {
+    "nat_walk_ind": 18.17,
+    "block_group": "060290016002",
+    "cbsa": "Bakersfield, CA",
+    "concern": 9.6
+  },
+  "tulsa-ok": {
+    "nat_walk_ind": 16.17,
+    "block_group": "401430025001",
+    "cbsa": "Tulsa, OK",
+    "concern": 20.2
+  },
+  "tampa-fl": {
+    "nat_walk_ind": 18.17,
+    "block_group": "120570051011",
+    "cbsa": "Tampa-St. Petersburg-Clearwater, FL",
+    "concern": 9.6
+  },
+  "aurora-co": {
+    "nat_walk_ind": 11.83,
+    "block_group": "080050076004",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 43.0
+  },
+  "arlington-tx": {
+    "nat_walk_ind": 9.83,
+    "block_group": "484391222002",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 53.5
+  },
+  "wichita-ks": {
+    "nat_walk_ind": 15.5,
+    "block_group": "201730043001",
+    "cbsa": "Wichita, KS",
+    "concern": 23.7
+  },
+  "cleveland-oh": {
+    "nat_walk_ind": 18.83,
+    "block_group": "390351077011",
+    "cbsa": "Cleveland-Elyria, OH",
+    "concern": 6.1
+  },
+  "new-orleans-la": {
+    "nat_walk_ind": 18.17,
+    "block_group": "220710134003",
+    "cbsa": "New Orleans-Metairie, LA",
+    "concern": 9.6
+  },
+  "henderson-nv": {
+    "nat_walk_ind": 16.83,
+    "block_group": "320030054221",
+    "cbsa": "Las Vegas-Henderson-Paradise, NV",
+    "concern": 16.7
+  },
+  "honolulu-hi": {
+    "nat_walk_ind": 18.83,
+    "block_group": "150030040001",
+    "cbsa": "Urban Honolulu, HI",
+    "concern": 6.1
+  },
+  "anaheim-ca": {
+    "nat_walk_ind": 14.67,
+    "block_group": "060590873004",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 28.1
+  },
+  "orlando-fl": {
+    "nat_walk_ind": 18,
+    "block_group": "120950189005",
+    "cbsa": "Orlando-Kissimmee-Sanford, FL",
+    "concern": 10.5
+  },
+  "lexington-ky": {
+    "nat_walk_ind": 15.83,
+    "block_group": "210670008021",
+    "cbsa": "Lexington-Fayette, KY",
+    "concern": 21.9
+  },
+  "stockton-ca": {
+    "nat_walk_ind": 15.17,
+    "block_group": "060770004022",
+    "cbsa": "Stockton, CA",
+    "concern": 25.4
+  },
+  "newark-nj": {
+    "nat_walk_ind": 18.33,
+    "block_group": "340130229003",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 8.8
+  },
+  "riverside-ca": {
+    "nat_walk_ind": 15.67,
+    "block_group": "060650311004",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 22.8
+  },
+  "irvine-ca": {
+    "nat_walk_ind": 13.83,
+    "block_group": "060590525222",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 32.5
+  },
+  "corpus-christi-tx": {
+    "nat_walk_ind": 16.33,
+    "block_group": "483550064003",
+    "cbsa": "Corpus Christi, TX",
+    "concern": 19.3
+  },
+  "santa-ana-ca": {
+    "nat_walk_ind": 14.17,
+    "block_group": "060590750021",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 30.7
+  },
+  "cincinnati-oh": {
+    "nat_walk_ind": 18.33,
+    "block_group": "390610265002",
+    "cbsa": "Cincinnati, OH-KY-IN",
+    "concern": 8.8
+  },
+  "greensboro-nc": {
+    "nat_walk_ind": 17.17,
+    "block_group": "370810108002",
+    "cbsa": "Greensboro-High Point, NC",
+    "concern": 14.9
+  },
+  "pittsburgh-pa": {
+    "nat_walk_ind": 16.33,
+    "block_group": "420030201005",
+    "cbsa": "Pittsburgh, PA",
+    "concern": 19.3
+  },
+  "saint-paul-mn": {
+    "nat_walk_ind": 19,
+    "block_group": "271230342023",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 5.3
+  },
+  "durham-nc": {
+    "nat_walk_ind": 15.17,
+    "block_group": "370630023002",
+    "cbsa": "Durham-Chapel Hill, NC",
+    "concern": 25.4
+  },
+  "jersey-city-nj": {
+    "nat_walk_ind": 12.33,
+    "block_group": "340170027001",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 40.4
+  },
+  "lincoln-ne": {
+    "nat_walk_ind": 16,
+    "block_group": "311090019001",
+    "cbsa": "Lincoln, NE",
+    "concern": 21.1
+  },
+  "north-las-vegas-nv": {
+    "nat_walk_ind": 16.33,
+    "block_group": "320030038005",
+    "cbsa": "Las Vegas-Henderson-Paradise, NV",
+    "concern": 19.3
+  },
+  "plano-tx": {
+    "nat_walk_ind": 19.33,
+    "block_group": "480850319001",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 3.5
+  },
+  "gilbert-az": {
+    "nat_walk_ind": 9.5,
+    "block_group": "040134224033",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 55.3
+  },
+  "anchorage-ak": {
+    "nat_walk_ind": 17.17,
+    "block_group": "020200011001",
+    "cbsa": "Anchorage, AK",
+    "concern": 14.9
+  },
+  "madison-wi": {
+    "nat_walk_ind": 15.33,
+    "block_group": "550250016063",
+    "cbsa": "Madison, WI",
+    "concern": 24.6
+  },
+  "reno-nv": {
+    "nat_walk_ind": 17.83,
+    "block_group": "320310001023",
+    "cbsa": "Reno, NV",
+    "concern": 11.4
+  },
+  "chandler-az": {
+    "nat_walk_ind": 15.5,
+    "block_group": "040135229031",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 23.7
+  },
+  "st-louis-mo": {
+    "nat_walk_ind": 19.33,
+    "block_group": "295101255001",
+    "cbsa": "St. Louis, MO-IL",
+    "concern": 3.5
+  },
+  "chula-vista-ca": {
+    "nat_walk_ind": 19.5,
+    "block_group": "060730123021",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 2.6
+  },
+  "fort-wayne-in": {
+    "nat_walk_ind": 18.17,
+    "block_group": "180030012001",
+    "cbsa": "Fort Wayne, IN",
+    "concern": 9.6
+  },
+  "buffalo-ny": {
+    "nat_walk_ind": 16.17,
+    "block_group": "360290071022",
+    "cbsa": "Buffalo-Cheektowaga, NY",
+    "concern": 20.2
+  },
+  "lubbock-tx": {
+    "nat_walk_ind": 12.83,
+    "block_group": "483030006071",
+    "cbsa": "Lubbock, TX",
+    "concern": 37.7
+  },
+  "laredo-tx": {
+    "nat_walk_ind": 11.83,
+    "block_group": "484790007001",
+    "cbsa": "Laredo, TX",
+    "concern": 43.0
+  },
+  "port-st-lucie-fl": {
+    "nat_walk_ind": 7.67,
+    "block_group": "121113821132",
+    "cbsa": "Port St. Lucie, FL",
+    "concern": 64.9
+  },
+  "st-petersburg-fl": {
+    "nat_walk_ind": 17.17,
+    "block_group": "121030286003",
+    "cbsa": "Tampa-St. Petersburg-Clearwater, FL",
+    "concern": 14.9
+  },
+  "toledo-oh": {
+    "nat_walk_ind": 14.33,
+    "block_group": "390950021002",
+    "cbsa": "Toledo, OH",
+    "concern": 29.8
+  },
+  "glendale-az": {
+    "nat_walk_ind": 17.5,
+    "block_group": "040130926003",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 13.2
+  },
+  "winston-salem-nc": {
+    "nat_walk_ind": 16.67,
+    "block_group": "370670001001",
+    "cbsa": "Winston-Salem, NC",
+    "concern": 17.5
+  },
+  "irving-tx": {
+    "nat_walk_ind": 16.5,
+    "block_group": "481130149011",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 18.4
+  },
+  "chesapeake-va": {
+    "nat_walk_ind": 10.83,
+    "block_group": "515500209031",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 48.2
+  },
+  "garland-tx": {
+    "nat_walk_ind": 17.67,
+    "block_group": "481130188022",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 12.3
+  },
+  "arlington-va": {
+    "nat_walk_ind": 15.67,
+    "block_group": "510131019003",
+    "cbsa": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "concern": 22.8
+  },
+  "scottsdale-az": {
+    "nat_walk_ind": 17.67,
+    "block_group": "040132172011",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 12.3
+  },
+  "boise-id": {
+    "nat_walk_ind": 18.17,
+    "block_group": "160010001001",
+    "cbsa": "Boise City, ID",
+    "concern": 9.6
+  },
+  "richmond-va": {
+    "nat_walk_ind": 17.83,
+    "block_group": "517600305001",
+    "cbsa": "Richmond, VA",
+    "concern": 11.4
+  },
+  "frisco-tx": {
+    "nat_walk_ind": 9.17,
+    "block_group": "480850304031",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 57.0
+  },
+  "cape-coral-fl": {
+    "nat_walk_ind": 15.83,
+    "block_group": "120710108022",
+    "cbsa": "Cape Coral-Fort Myers, FL",
+    "concern": 21.9
+  },
+  "mckinney-tx": {
+    "nat_walk_ind": 9.67,
+    "block_group": "480850306032",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 54.4
+  },
+  "huntsville-al": {
+    "nat_walk_ind": 16.5,
+    "block_group": "010890031001",
+    "cbsa": "Huntsville, AL",
+    "concern": 18.4
+  },
+  "norfolk-va": {
+    "nat_walk_ind": 18.67,
+    "block_group": "517100049001",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 7.0
+  },
+  "hialeah-fl": {
+    "nat_walk_ind": 17.33,
+    "block_group": "120860006071",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 14.0
+  },
+  "spokane-wa": {
+    "nat_walk_ind": 17.33,
+    "block_group": "530630035001",
+    "cbsa": "Spokane-Spokane Valley, WA",
+    "concern": 14.0
+  },
+  "tacoma-wa": {
+    "nat_walk_ind": 18.17,
+    "block_group": "530530616011",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 9.6
+  },
+  "santa-clarita-ca": {
+    "nat_walk_ind": 7.33,
+    "block_group": "060379203362",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 66.7
+  },
+  "fremont-ca": {
+    "nat_walk_ind": 15.33,
+    "block_group": "060014419233",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 24.6
+  },
+  "baton-rouge-la": {
+    "nat_walk_ind": 13.33,
+    "block_group": "220330051002",
+    "cbsa": "Baton Rouge, LA",
+    "concern": 35.1
+  },
+  "san-bernardino-ca": {
+    "nat_walk_ind": 15.67,
+    "block_group": "060710057011",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 22.8
+  },
+  "fontana-ca": {
+    "nat_walk_ind": 12.67,
+    "block_group": "060710031022",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 38.6
+  },
+  "modesto-ca": {
+    "nat_walk_ind": 7,
+    "block_group": "060990018003",
+    "cbsa": "Modesto, CA",
+    "concern": 68.4
+  },
+  "salt-lake-city-ut": {
+    "nat_walk_ind": 18.33,
+    "block_group": "490351140001",
+    "cbsa": "Salt Lake City, UT",
+    "concern": 8.8
+  },
+  "moreno-valley-ca": {
+    "nat_walk_ind": 15,
+    "block_group": "060650425191",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 26.3
+  },
+  "worcester-ma": {
+    "nat_walk_ind": 18.33,
+    "block_group": "250277317002",
+    "cbsa": "Worcester, MA-CT",
+    "concern": 8.8
+  },
+  "sioux-falls-sd": {
+    "nat_walk_ind": 13.67,
+    "block_group": "460990004012",
+    "cbsa": "Sioux Falls, SD",
+    "concern": 33.3
+  },
+  "yonkers-ny": {
+    "nat_walk_ind": 15.33,
+    "block_group": "361190003003",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 24.6
+  },
+  "des-moines-ia": {
+    "nat_walk_ind": 17.67,
+    "block_group": "191530051002",
+    "cbsa": "Des Moines-West Des Moines, IA",
+    "concern": 12.3
+  },
+  "grand-prairie-tx": {
+    "nat_walk_ind": 12.67,
+    "block_group": "481130155001",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 38.6
+  },
+  "fayetteville-nc": {
+    "nat_walk_ind": 10.5,
+    "block_group": "370510038002",
+    "cbsa": "Fayetteville, NC",
+    "concern": 50.0
+  },
+  "little-rock-ar": {
+    "nat_walk_ind": 17.5,
+    "block_group": "051190044002",
+    "cbsa": "Little Rock-North Little Rock-Conway, AR",
+    "concern": 13.2
+  },
+  "rochester-ny": {
+    "nat_walk_ind": 17.83,
+    "block_group": "360550094004",
+    "cbsa": "Rochester, NY",
+    "concern": 11.4
+  },
+  "amarillo-tx": {
+    "nat_walk_ind": 15.5,
+    "block_group": "483750122001",
+    "cbsa": "Amarillo, TX",
+    "concern": 23.7
+  },
+  "tallahassee-fl": {
+    "nat_walk_ind": 15.33,
+    "block_group": "120730002003",
+    "cbsa": "Tallahassee, FL",
+    "concern": 24.6
+  },
+  "overland-park-ks": {
+    "nat_walk_ind": 16.83,
+    "block_group": "200910512001",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 16.7
+  },
+  "columbus-ga": {
+    "nat_walk_ind": 10,
+    "block_group": "132150111001",
+    "cbsa": "Columbus, GA-AL",
+    "concern": 52.6
+  },
+  "knoxville-tn": {
+    "nat_walk_ind": 17,
+    "block_group": "470930001001",
+    "cbsa": "Knoxville, TN",
+    "concern": 15.8
+  },
+  "augusta-ga": {
+    "nat_walk_ind": 11.67,
+    "block_group": "132450007001",
+    "cbsa": "Augusta-Richmond County, GA-SC",
+    "concern": 43.9
+  },
+  "grand-rapids-mi": {
+    "nat_walk_ind": 19,
+    "block_group": "260810020002",
+    "cbsa": "Grand Rapids-Kentwood, MI",
+    "concern": 5.3
+  },
+  "peoria-az": {
+    "nat_walk_ind": 15.5,
+    "block_group": "040130719062",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 23.7
+  },
+  "mobile-al": {
+    "nat_walk_ind": 12.5,
+    "block_group": "010970002001",
+    "cbsa": "Mobile, AL",
+    "concern": 39.5
+  },
+  "vancouver-wa": {
+    "nat_walk_ind": 18.33,
+    "block_group": "530110426002",
+    "cbsa": "Portland-Vancouver-Hillsboro, OR-WA",
+    "concern": 8.8
+  },
+  "oxnard-ca": {
+    "nat_walk_ind": 18.83,
+    "block_group": "061110087003",
+    "cbsa": "Oxnard-Thousand Oaks-Ventura, CA",
+    "concern": 6.1
+  },
+  "birmingham-al": {
+    "nat_walk_ind": 17.67,
+    "block_group": "010730027001",
+    "cbsa": "Birmingham-Hoover, AL",
+    "concern": 12.3
+  },
+  "providence-ri": {
+    "nat_walk_ind": 19,
+    "block_group": "440070008003",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 5.3
+  },
+  "montgomery-al": {
+    "nat_walk_ind": 14.33,
+    "block_group": "011010006002",
+    "cbsa": "Montgomery, AL",
+    "concern": 29.8
+  },
+  "chattanooga-tn": {
+    "nat_walk_ind": 18.83,
+    "block_group": "470650031001",
+    "cbsa": "Chattanooga, TN-GA",
+    "concern": 6.1
+  },
+  "brownsville-tx": {
+    "nat_walk_ind": 9.67,
+    "block_group": "480610140012",
+    "cbsa": "Brownsville-Harlingen, TX",
+    "concern": 54.4
+  },
+  "huntington-beach-ca": {
+    "nat_walk_ind": 18,
+    "block_group": "060590993111",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 10.5
+  },
+  "tempe-az": {
+    "nat_walk_ind": 14,
+    "block_group": "040133187001",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 31.6
+  },
+  "akron-oh": {
+    "nat_walk_ind": 10.83,
+    "block_group": "391535083011",
+    "cbsa": "Akron, OH",
+    "concern": 48.2
+  },
+  "clarksville-tn": {
+    "nat_walk_ind": 5.0,
+    "block_group": "471251010022",
+    "cbsa": "Clarksville, TN-KY",
+    "concern": 78.9
+  },
+  "fort-lauderdale-fl": {
+    "nat_walk_ind": 19,
+    "block_group": "120110425002",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 5.3
+  },
+  "glendale-ca": {
+    "nat_walk_ind": 16.67,
+    "block_group": "060373023022",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 17.5
+  },
+  "ontario-ca": {
+    "nat_walk_ind": 16,
+    "block_group": "060710014001",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 21.1
+  },
+  "elk-grove-ca": {
+    "nat_walk_ind": 15.83,
+    "block_group": "060670093071",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 21.9
+  },
+  "cary-nc": {
+    "nat_walk_ind": 10.0,
+    "block_group": "371830535251",
+    "cbsa": "Raleigh-Cary, NC",
+    "concern": 52.6
+  },
+  "newport-news-va": {
+    "nat_walk_ind": 8.33,
+    "block_group": "517000319022",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 61.4
+  },
+  "salem-or": {
+    "nat_walk_ind": 18.33,
+    "block_group": "410470002002",
+    "cbsa": "Salem, OR",
+    "concern": 8.8
+  },
+  "aurora-il": {
+    "nat_walk_ind": 16.5,
+    "block_group": "170898539001",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 18.4
+  },
+  "santa-rosa-ca": {
+    "nat_walk_ind": 19.67,
+    "block_group": "060971520001",
+    "cbsa": "Santa Rosa-Petaluma, CA",
+    "concern": 1.8
+  },
+  "eugene-or": {
+    "nat_walk_ind": 16.33,
+    "block_group": "410390042002",
+    "cbsa": "Eugene-Springfield, OR",
+    "concern": 19.3
+  },
+  "rancho-cucamonga-ca": {
+    "nat_walk_ind": 16,
+    "block_group": "060710020272",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 21.1
+  },
+  "pembroke-pines-fl": {
+    "nat_walk_ind": 9.17,
+    "block_group": "120111103271",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 57.0
+  },
+  "shreveport-la": {
+    "nat_walk_ind": 7.67,
+    "block_group": "220170205002",
+    "cbsa": "Shreveport-Bossier City, LA",
+    "concern": 64.9
+  },
+  "surprise-az": {
+    "nat_walk_ind": 3.17,
+    "block_group": "040130405172",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 88.6
+  },
+  "fort-collins-co": {
+    "nat_walk_ind": 16.17,
+    "block_group": "080690010032",
+    "cbsa": "Fort Collins, CO",
+    "concern": 20.2
+  },
+  "murfreesboro-tn": {
+    "nat_walk_ind": 9.5,
+    "block_group": "471490409011",
+    "cbsa": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "concern": 55.3
+  },
+  "oceanside-ca": {
+    "nat_walk_ind": 17.67,
+    "block_group": "060730184002",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 12.3
+  },
+  "garden-grove-ca": {
+    "nat_walk_ind": 11.5,
+    "block_group": "060590887014",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 44.7
+  },
+  "lancaster-ca": {
+    "nat_walk_ind": 13.17,
+    "block_group": "060379010081",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 36.0
+  },
+  "springfield-mo": {
+    "nat_walk_ind": 8.83,
+    "block_group": "290770003004",
+    "cbsa": "Springfield, MO",
+    "concern": 58.8
+  },
+  "denton-tx": {
+    "nat_walk_ind": 14.33,
+    "block_group": "481210204033",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 29.8
+  },
+  "roseville-ca": {
+    "nat_walk_ind": 13,
+    "block_group": "060610210432",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 36.8
+  },
+  "killeen-tx": {
+    "nat_walk_ind": 9.0,
+    "block_group": "480270225023",
+    "cbsa": "Killeen-Temple, TX",
+    "concern": 57.9
+  },
+  "palmdale-ca": {
+    "nat_walk_ind": 4.17,
+    "block_group": "060379101011",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 83.3
+  },
+  "paterson-nj": {
+    "nat_walk_ind": 16.33,
+    "block_group": "340311828001",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 19.3
+  },
+  "corona-ca": {
+    "nat_walk_ind": 14.5,
+    "block_group": "060650418072",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 28.9
+  },
+  "alexandria-va": {
+    "nat_walk_ind": 13.33,
+    "block_group": "515102008011",
+    "cbsa": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "concern": 35.1
+  },
+  "charleston-sc": {
+    "nat_walk_ind": 8.17,
+    "block_group": "450190026062",
+    "cbsa": "Charleston-North Charleston, SC",
+    "concern": 62.3
+  },
+  "salinas-ca": {
+    "nat_walk_ind": 11.67,
+    "block_group": "060530005022",
+    "cbsa": "Salinas, CA",
+    "concern": 43.9
+  },
+  "kansas-city-ks": {
+    "nat_walk_ind": 14.83,
+    "block_group": "202090441042",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 27.2
+  },
+  "macon-ga": {
+    "nat_walk_ind": 7.83,
+    "block_group": "130210132022",
+    "cbsa": "Macon-Bibb County, GA",
+    "concern": 64.0
+  },
+  "hayward-ca": {
+    "nat_walk_ind": 14.33,
+    "block_group": "060014371023",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 29.8
+  },
+  "hollywood-fl": {
+    "nat_walk_ind": 12.83,
+    "block_group": "120110904011",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 37.7
+  },
+  "lakewood-co": {
+    "nat_walk_ind": 8.83,
+    "block_group": "080590117082",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 58.8
+  },
+  "sunnyvale-ca": {
+    "nat_walk_ind": 15.5,
+    "block_group": "060855090001",
+    "cbsa": "San Jose-Sunnyvale-Santa Clara, CA",
+    "concern": 23.7
+  },
+  "springfield-ma": {
+    "nat_walk_ind": 11.17,
+    "block_group": "250138015014",
+    "cbsa": "Springfield, MA",
+    "concern": 46.5
+  },
+  "bellevue-wa": {
+    "nat_walk_ind": 10.5,
+    "block_group": "530330236013",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 50.0
+  },
+  "naperville-il": {
+    "nat_walk_ind": 12.17,
+    "block_group": "170438465231",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 41.2
+  },
+  "bridgeport-ct": {
+    "nat_walk_ind": 15,
+    "block_group": "090010719002",
+    "cbsa": "Bridgeport-Stamford-Norwalk, CT",
+    "concern": 26.3
+  },
+  "joliet-il": {
+    "nat_walk_ind": 13.5,
+    "block_group": "171978832101",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 34.2
+  },
+  "mesquite-tx": {
+    "nat_walk_ind": 7.5,
+    "block_group": "481130173031",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 65.8
+  },
+  "mcallen-tx": {
+    "nat_walk_ind": 6.17,
+    "block_group": "482150207261",
+    "cbsa": "McAllen-Edinburg-Mission, TX",
+    "concern": 72.8
+  },
+  "olathe-ks": {
+    "nat_walk_ind": 14.67,
+    "block_group": "200910535551",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 28.1
+  },
+  "savannah-ga": {
+    "nat_walk_ind": 8.5,
+    "block_group": "130510108083",
+    "cbsa": "Savannah, GA",
+    "concern": 60.5
+  },
+  "gainesville-fl": {
+    "nat_walk_ind": 11.83,
+    "block_group": "120010012032",
+    "cbsa": "Gainesville, FL",
+    "concern": 43.0
+  },
+  "pasadena-tx": {
+    "nat_walk_ind": 11.33,
+    "block_group": "482013421001",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 45.6
+  },
+  "palm-bay-fl": {
+    "nat_walk_ind": 7.67,
+    "block_group": "120090713404",
+    "cbsa": "Palm Bay-Melbourne-Titusville, FL",
+    "concern": 64.9
+  },
+  "pomona-ca": {
+    "nat_walk_ind": 15.33,
+    "block_group": "060374023042",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 24.6
+  },
+  "waco-tx": {
+    "nat_walk_ind": 6.83,
+    "block_group": "483090028002",
+    "cbsa": "Waco, TX",
+    "concern": 69.3
+  },
+  "thornton-co": {
+    "nat_walk_ind": 15.83,
+    "block_group": "080010085472",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 21.9
+  },
+  "midland-tx": {
+    "nat_walk_ind": 8.83,
+    "block_group": "483290003031",
+    "cbsa": "Midland, TX",
+    "concern": 58.8
+  },
+  "rockford-il": {
+    "nat_walk_ind": 9.83,
+    "block_group": "172010014002",
+    "cbsa": "Rockford, IL",
+    "concern": 53.5
+  },
+  "columbia-sc": {
+    "nat_walk_ind": 5.5,
+    "block_group": "450799801001",
+    "cbsa": "Columbia, SC",
+    "concern": 76.3
+  },
+  "visalia-ca": {
+    "nat_walk_ind": 11.5,
+    "block_group": "061070010062",
+    "cbsa": "Visalia, CA",
+    "concern": 44.7
+  },
+  "escondido-ca": {
+    "nat_walk_ind": 15.83,
+    "block_group": "060730202023",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 21.9
+  },
+  "syracuse-ny": {
+    "nat_walk_ind": 13.67,
+    "block_group": "360670043011",
+    "cbsa": "Syracuse, NY",
+    "concern": 33.3
+  },
+  "meridian-id": {
+    "nat_walk_ind": 8.0,
+    "block_group": "160010103222",
+    "cbsa": "Boise City, ID",
+    "concern": 63.2
+  },
+  "miramar-fl": {
+    "nat_walk_ind": 8.0,
+    "block_group": "120111103212",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 63.2
+  },
+  "elizabeth-nj": {
+    "nat_walk_ind": 8.0,
+    "block_group": "340390398004",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 63.2
+  },
+  "victorville-ca": {
+    "nat_walk_ind": 5.67,
+    "block_group": "060710091102",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 75.4
+  },
+  "round-rock-tx": {
+    "nat_walk_ind": 14.83,
+    "block_group": "484910215052",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 27.2
+  },
+  "jackson-ms": {
+    "nat_walk_ind": 11.33,
+    "block_group": "280490020002",
+    "cbsa": "Jackson, MS",
+    "concern": 45.6
+  },
+  "stamford-ct": {
+    "nat_walk_ind": 15.33,
+    "block_group": "090010206003",
+    "cbsa": "Bridgeport-Stamford-Norwalk, CT",
+    "concern": 24.6
+  },
+  "lewisville-tx": {
+    "nat_walk_ind": 4.33,
+    "block_group": "481210215023",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 82.5
+  },
+  "coral-springs-fl": {
+    "nat_walk_ind": 15.5,
+    "block_group": "120110203141",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 23.7
+  },
+  "new-haven-ct": {
+    "nat_walk_ind": 14.17,
+    "block_group": "090091420002",
+    "cbsa": "New Haven-Milford, CT",
+    "concern": 30.7
+  },
+  "fullerton-ca": {
+    "nat_walk_ind": 6.83,
+    "block_group": "060590017062",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 69.3
+  },
+  "torrance-ca": {
+    "nat_walk_ind": 19.33,
+    "block_group": "060376507012",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 3.5
+  },
+  "orange-ca": {
+    "nat_walk_ind": 16.67,
+    "block_group": "060590759013",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 17.5
+  },
+  "cedar-rapids-ia": {
+    "nat_walk_ind": 17.33,
+    "block_group": "191130025002",
+    "cbsa": "Cedar Rapids, IA",
+    "concern": 14.0
+  },
+  "west-valley-city-ut": {
+    "nat_walk_ind": 12.83,
+    "block_group": "490351134133",
+    "cbsa": "Salt Lake City, UT",
+    "concern": 37.7
+  },
+  "hampton-va": {
+    "nat_walk_ind": 11,
+    "block_group": "516500101044",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 47.4
+  },
+  "warren-mi": {
+    "nat_walk_ind": 7.5,
+    "block_group": "260992681001",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 65.8
+  },
+  "dayton-oh": {
+    "nat_walk_ind": 13.17,
+    "block_group": "391130016002",
+    "cbsa": "Dayton-Kettering, OH",
+    "concern": 36.0
+  },
+  "fargo-nd": {
+    "nat_walk_ind": 17.33,
+    "block_group": "380170009032",
+    "cbsa": "Fargo, ND-MN",
+    "concern": 14.0
+  },
+  "pasadena-ca": {
+    "nat_walk_ind": 16.83,
+    "block_group": "060374621002",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 16.7
+  },
+  "kent-wa": {
+    "nat_walk_ind": 7.5,
+    "block_group": "530330292042",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 65.8
+  },
+  "carrollton-tx": {
+    "nat_walk_ind": 14,
+    "block_group": "481210216111",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 31.6
+  },
+  "sterling-heights-mi": {
+    "nat_walk_ind": 8.83,
+    "block_group": "260992312001",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 58.8
+  },
+  "santa-clara-ca": {
+    "nat_walk_ind": 14.83,
+    "block_group": "060855053021",
+    "cbsa": "San Jose-Sunnyvale-Santa Clara, CA",
+    "concern": 27.2
+  },
+  "abilene-tx": {
+    "nat_walk_ind": 13.0,
+    "block_group": "484410110001",
+    "cbsa": "Abilene, TX",
+    "concern": 36.8
+  },
+  "norman-ok": {
+    "nat_walk_ind": 3.67,
+    "block_group": "400272024033",
+    "cbsa": "Oklahoma City, OK",
+    "concern": 86.0
+  },
+  "columbia-mo": {
+    "nat_walk_ind": 13.5,
+    "block_group": "290190005001",
+    "cbsa": "Columbia, MO",
+    "concern": 34.2
+  },
+  "pearland-tx": {
+    "nat_walk_ind": 7.5,
+    "block_group": "480396605005",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 65.8
+  },
+  "clovis-ca": {
+    "nat_walk_ind": 12.33,
+    "block_group": "060190057024",
+    "cbsa": "Fresno, CA",
+    "concern": 40.4
+  },
+  "north-charleston-sc": {
+    "nat_walk_ind": 11.83,
+    "block_group": "450190031081",
+    "cbsa": "Charleston-North Charleston, SC",
+    "concern": 43.0
+  },
+  "athens-ga": {
+    "nat_walk_ind": 11.17,
+    "block_group": "130590004021",
+    "cbsa": "Athens-Clarke County, GA",
+    "concern": 46.5
+  },
+  "college-station-tx": {
+    "nat_walk_ind": 9.5,
+    "block_group": "480410018011",
+    "cbsa": "College Station-Bryan, TX",
+    "concern": 55.3
+  },
+  "west-palm-beach-fl": {
+    "nat_walk_ind": 12.17,
+    "block_group": "120990019071",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 41.2
+  },
+  "wilmington-nc": {
+    "nat_walk_ind": 16.17,
+    "block_group": "371290106003",
+    "cbsa": "Wilmington, NC",
+    "concern": 20.2
+  },
+  "allentown-pa": {
+    "nat_walk_ind": 15.5,
+    "block_group": "420770014011",
+    "cbsa": "Allentown-Bethlehem-Easton, PA-NJ",
+    "concern": 23.7
+  },
+  "topeka-ks": {
+    "nat_walk_ind": 15,
+    "block_group": "201770018002",
+    "cbsa": "Topeka, KS",
+    "concern": 26.3
+  },
+  "lakeland-fl": {
+    "nat_walk_ind": 12.67,
+    "block_group": "121050113002",
+    "cbsa": "Lakeland-Winter Haven, FL",
+    "concern": 38.6
+  },
+  "buckeye-az": {
+    "nat_walk_ind": 4.67,
+    "block_group": "040130506071",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 80.7
+  },
+  "goodyear-az": {
+    "nat_walk_ind": 3.17,
+    "block_group": "040137233041",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 88.6
+  },
+  "broken-arrow-ok": {
+    "nat_walk_ind": 7.83,
+    "block_group": "401430075033",
+    "cbsa": "Tulsa, OK",
+    "concern": 64.0
+  },
+  "simi-valley-ca": {
+    "nat_walk_ind": 15.83,
+    "block_group": "061110080011",
+    "cbsa": "Oxnard-Thousand Oaks-Ventura, CA",
+    "concern": 21.9
+  },
+  "rochester-mn": {
+    "nat_walk_ind": 8.83,
+    "block_group": "271090004003",
+    "cbsa": "Rochester, MN",
+    "concern": 58.8
+  },
+  "lafayette-la": {
+    "nat_walk_ind": 9.5,
+    "block_group": "220550022001",
+    "cbsa": "Lafayette, LA",
+    "concern": 55.3
+  },
+  "vallejo-ca": {
+    "nat_walk_ind": 17.5,
+    "block_group": "060952516001",
+    "cbsa": "Vallejo, CA",
+    "concern": 13.2
+  },
+  "concord-ca": {
+    "nat_walk_ind": 12.17,
+    "block_group": "060133310004",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 41.2
+  },
+  "arvada-co": {
+    "nat_walk_ind": 5.5,
+    "block_group": "080590098362",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 76.3
+  },
+  "odessa-tx": {
+    "nat_walk_ind": 11.5,
+    "block_group": "481350004001",
+    "cbsa": "Odessa, TX",
+    "concern": 44.7
+  },
+  "cambridge-ma": {
+    "nat_walk_ind": 16.17,
+    "block_group": "250173540002",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 20.2
+  },
+  "new-braunfels-tx": {
+    "nat_walk_ind": 12.67,
+    "block_group": "480913101003",
+    "cbsa": "San Antonio-New Braunfels, TX",
+    "concern": 38.6
+  },
+  "fairfield-ca": {
+    "nat_walk_ind": 13.33,
+    "block_group": "060952526063",
+    "cbsa": "Vallejo, CA",
+    "concern": 35.1
+  },
+  "ann-arbor-mi": {
+    "nat_walk_ind": 15.67,
+    "block_group": "261614003003",
+    "cbsa": "Ann Arbor, MI",
+    "concern": 22.8
+  },
+  "thousand-oaks-ca": {
+    "nat_walk_ind": 15.33,
+    "block_group": "061110068003",
+    "cbsa": "Oxnard-Thousand Oaks-Ventura, CA",
+    "concern": 24.6
+  },
+  "hartford-ct": {
+    "nat_walk_ind": 16.67,
+    "block_group": "090035021002",
+    "cbsa": "Hartford-East Hartford-Middletown, CT",
+    "concern": 17.5
+  },
+  "berkeley-ca": {
+    "nat_walk_ind": 18.33,
+    "block_group": "060014220002",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 8.8
+  },
+  "independence-mo": {
+    "nat_walk_ind": 7,
+    "block_group": "290950114013",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 68.4
+  },
+  "billings-mt": {
+    "nat_walk_ind": 15,
+    "block_group": "301110002003",
+    "cbsa": "Billings, MT",
+    "concern": 26.3
+  },
+  "high-point-nc": {
+    "nat_walk_ind": 5.5,
+    "block_group": "370810144112",
+    "cbsa": "Greensboro-High Point, NC",
+    "concern": 76.3
+  },
+  "nampa-id": {
+    "nat_walk_ind": 6.17,
+    "block_group": "160270204014",
+    "cbsa": "Boise City, ID",
+    "concern": 72.8
+  },
+  "lowell-ma": {
+    "nat_walk_ind": 15.67,
+    "block_group": "250173111002",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 22.8
+  },
+  "league-city-tx": {
+    "nat_walk_ind": 9.33,
+    "block_group": "481677205022",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 56.1
+  },
+  "conroe-tx": {
+    "nat_walk_ind": 11.5,
+    "block_group": "483396936001",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 44.7
+  },
+  "antioch-ca": {
+    "nat_walk_ind": 9,
+    "block_group": "060133551091",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 57.9
+  },
+  "menifee-ca": {
+    "nat_walk_ind": 13.83,
+    "block_group": "060650427081",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 32.5
+  },
+  "richardson-tx": {
+    "nat_walk_ind": 15.5,
+    "block_group": "481130190381",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 23.7
+  },
+  "pompano-beach-fl": {
+    "nat_walk_ind": 15.33,
+    "block_group": "120110304021",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 24.6
+  },
+  "las-cruces-nm": {
+    "nat_walk_ind": 6.17,
+    "block_group": "350130001033",
+    "cbsa": "Las Cruces, NM",
+    "concern": 72.8
+  },
+  "manchester-nh": {
+    "nat_walk_ind": 9.5,
+    "block_group": "330110018005",
+    "cbsa": "Manchester-Nashua, NH",
+    "concern": 55.3
+  },
+  "west-jordan-ut": {
+    "nat_walk_ind": 7.33,
+    "block_group": "490351131011",
+    "cbsa": "Salt Lake City, UT",
+    "concern": 66.7
+  },
+  "westminster-co": {
+    "nat_walk_ind": 10.17,
+    "block_group": "080590604002",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 51.8
+  },
+  "evansville-in": {
+    "nat_walk_ind": 12.33,
+    "block_group": "181630002023",
+    "cbsa": "Evansville, IN-KY",
+    "concern": 40.4
+  },
+  "waterbury-ct": {
+    "nat_walk_ind": 15.83,
+    "block_group": "090093501004",
+    "cbsa": "New Haven-Milford, CT",
+    "concern": 21.9
+  },
+  "elgin-il": {
+    "nat_walk_ind": 12.5,
+    "block_group": "170898519043",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 39.5
+  },
+  "greeley-co": {
+    "nat_walk_ind": 10.67,
+    "block_group": "081230014111",
+    "cbsa": "Greeley, CO",
+    "concern": 49.1
+  },
+  "temecula-ca": {
+    "nat_walk_ind": 6.0,
+    "block_group": "060650432222",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 73.7
+  },
+  "richmond-ca": {
+    "nat_walk_ind": 15.67,
+    "block_group": "060133730003",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 22.8
+  },
+  "concord-nc": {
+    "nat_walk_ind": 8.33,
+    "block_group": "370250425041",
+    "cbsa": "Charlotte-Concord-Gastonia, NC-SC",
+    "concern": 61.4
+  },
+  "provo-ut": {
+    "nat_walk_ind": 17.33,
+    "block_group": "490490016024",
+    "cbsa": "Provo-Orem, UT",
+    "concern": 14.0
+  },
+  "rio-rancho-nm": {
+    "nat_walk_ind": 6.17,
+    "block_group": "350430107212",
+    "cbsa": "Albuquerque, NM",
+    "concern": 72.8
+  },
+  "clearwater-fl": {
+    "nat_walk_ind": 11.67,
+    "block_group": "121030265002",
+    "cbsa": "Tampa-St. Petersburg-Clearwater, FL",
+    "concern": 43.9
+  },
+  "tuscaloosa-al": {
+    "nat_walk_ind": 8.67,
+    "block_group": "011250104061",
+    "cbsa": "Tuscaloosa, AL",
+    "concern": 59.6
+  },
+  "murrieta-ca": {
+    "nat_walk_ind": 13.17,
+    "block_group": "060650432063",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 36.0
+  },
+  "lansing-mi": {
+    "nat_walk_ind": 13.5,
+    "block_group": "260650070006",
+    "cbsa": "Lansing-East Lansing, MI",
+    "concern": 34.2
+  },
+  "tyler-tx": {
+    "nat_walk_ind": 6.0,
+    "block_group": "484230010002",
+    "cbsa": "Tyler, TX",
+    "concern": 73.7
+  },
+  "miami-gardens-fl": {
+    "nat_walk_ind": 11.83,
+    "block_group": "120860099032",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 43.0
+  },
+  "everett-wa": {
+    "nat_walk_ind": 15.5,
+    "block_group": "530610407004",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 23.7
+  },
+  "allen-tx": {
+    "nat_walk_ind": 13,
+    "block_group": "480850315081",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 36.8
+  },
+  "springfield-il": {
+    "nat_walk_ind": 16.5,
+    "block_group": "171670017001",
+    "cbsa": "Springfield, IL",
+    "concern": 18.4
+  },
+  "beaumont-tx": {
+    "nat_walk_ind": 10.83,
+    "block_group": "482450013011",
+    "cbsa": "Beaumont-Port Arthur, TX",
+    "concern": 48.2
+  },
+  "south-fulton-ga": {
+    "nat_walk_ind": 5.67,
+    "block_group": "131210103042",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 75.4
+  },
+  "carlsbad-ca": {
+    "nat_walk_ind": 13.17,
+    "block_group": "060730221001",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 36.0
+  },
+  "sparks-nv": {
+    "nat_walk_ind": 10.5,
+    "block_group": "320310035082",
+    "cbsa": "Reno, NV",
+    "concern": 50.0
+  },
+  "gresham-or": {
+    "nat_walk_ind": 19.33,
+    "block_group": "410510100013",
+    "cbsa": "Portland-Vancouver-Hillsboro, OR-WA",
+    "concern": 3.5
+  },
+  "santa-maria-ca": {
+    "nat_walk_ind": 9.67,
+    "block_group": "060830024023",
+    "cbsa": "Santa Maria-Santa Barbara, CA",
+    "concern": 54.4
+  },
+  "hillsboro-or": {
+    "nat_walk_ind": 13.5,
+    "block_group": "410670326081",
+    "cbsa": "Portland-Vancouver-Hillsboro, OR-WA",
+    "concern": 34.2
+  },
+  "peoria-il": {
+    "nat_walk_ind": 14.33,
+    "block_group": "171430030002",
+    "cbsa": "Peoria, IL",
+    "concern": 29.8
+  },
+  "davie-fl": {
+    "nat_walk_ind": 6,
+    "block_group": "120110702091",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 73.7
+  },
+  "edinburg-tx": {
+    "nat_walk_ind": 7,
+    "block_group": "482150236005",
+    "cbsa": "McAllen-Edinburg-Mission, TX",
+    "concern": 68.4
+  },
+  "pueblo-co": {
+    "nat_walk_ind": 17.17,
+    "block_group": "081010035001",
+    "cbsa": "Pueblo, CO",
+    "concern": 14.9
+  },
+  "ventura-ca": {
+    "nat_walk_ind": 18.5,
+    "block_group": "061110027001",
+    "cbsa": "Oxnard-Thousand Oaks-Ventura, CA",
+    "concern": 7.9
+  },
+  "palm-coast-fl": {
+    "nat_walk_ind": 8.17,
+    "block_group": "120350602112",
+    "cbsa": "Deltona-Daytona Beach-Ormond Beach, FL",
+    "concern": 62.3
+  },
+  "costa-mesa-ca": {
+    "nat_walk_ind": 12.5,
+    "block_group": "060590639023",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 39.5
+  },
+  "st-george-ut": {
+    "nat_walk_ind": 9.83,
+    "block_group": "490532718001",
+    "cbsa": "St. George, UT",
+    "concern": 53.5
+  },
+  "centennial-co": {
+    "nat_walk_ind": 13.33,
+    "block_group": "080050068561",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 35.1
+  },
+  "downey-ca": {
+    "nat_walk_ind": 17,
+    "block_group": "060375509013",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 15.8
+  },
+  "spokane-valley-wa": {
+    "nat_walk_ind": 15.33,
+    "block_group": "530630118003",
+    "cbsa": "Spokane-Spokane Valley, WA",
+    "concern": 24.6
+  },
+  "sugar-land-tx": {
+    "nat_walk_ind": 11.83,
+    "block_group": "481576740002",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 43.0
+  },
+  "lees-summit-mo": {
+    "nat_walk_ind": 12.33,
+    "block_group": "290950137033",
+    "cbsa": "Kansas City, MO-KS",
+    "concern": 40.4
+  },
+  "bend-or": {
+    "nat_walk_ind": 19,
+    "block_group": "410170016002",
+    "cbsa": "Bend, OR",
+    "concern": 5.3
+  },
+  "jurupa-valley-ca": {
+    "nat_walk_ind": 7.33,
+    "block_group": "060650404051",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 66.7
+  },
+  "georgetown-tx": {
+    "nat_walk_ind": 9,
+    "block_group": "484910201111",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 57.9
+  },
+  "green-bay-wi": {
+    "nat_walk_ind": 6.83,
+    "block_group": "550090009001",
+    "cbsa": "Green Bay, WI",
+    "concern": 69.3
+  },
+  "fayetteville-ar": {
+    "nat_walk_ind": 14.67,
+    "block_group": "051430113004",
+    "cbsa": "Fayetteville-Springdale-Rogers, AR",
+    "concern": 28.1
+  },
+  "rialto-ca": {
+    "nat_walk_ind": 13,
+    "block_group": "060710035033",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 36.8
+  },
+  "brockton-ma": {
+    "nat_walk_ind": 15.33,
+    "block_group": "250235109002",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 24.6
+  },
+  "boulder-co": {
+    "nat_walk_ind": 18.83,
+    "block_group": "080130122034",
+    "cbsa": "Boulder, CO",
+    "concern": 6.1
+  },
+  "carmel-in": {
+    "nat_walk_ind": 10.83,
+    "block_group": "180571110081",
+    "cbsa": "Indianapolis-Carmel-Anderson, IN",
+    "concern": 48.2
+  },
+  "dearborn-mi": {
+    "nat_walk_ind": 6.83,
+    "block_group": "261635742022",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 69.3
+  },
+  "west-covina-ca": {
+    "nat_walk_ind": 11,
+    "block_group": "060374066011",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 47.4
+  },
+  "yuma-az": {
+    "nat_walk_ind": 15.83,
+    "block_group": "040270008003",
+    "cbsa": "Yuma, AZ",
+    "concern": 21.9
+  },
+  "chico-ca": {
+    "nat_walk_ind": 9.83,
+    "block_group": "060070001022",
+    "cbsa": "Chico, CA",
+    "concern": 53.5
+  },
+  "el-monte-ca": {
+    "nat_walk_ind": 18,
+    "block_group": "060374332001",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 10.5
+  },
+  "sandy-springs-ga": {
+    "nat_walk_ind": 14.67,
+    "block_group": "131210101211",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 28.1
+  },
+  "renton-wa": {
+    "nat_walk_ind": 12.67,
+    "block_group": "530330256013",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 38.6
+  },
+  "fishers-in": {
+    "nat_walk_ind": 9.33,
+    "block_group": "180571108081",
+    "cbsa": "Indianapolis-Carmel-Anderson, IN",
+    "concern": 56.1
+  },
+  "suffolk-va": {
+    "nat_walk_ind": 2.83,
+    "block_group": "518000757032",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 90.4
+  },
+  "lynn-ma": {
+    "nat_walk_ind": 16.67,
+    "block_group": "250092055002",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 17.5
+  },
+  "vacaville-ca": {
+    "nat_walk_ind": 15.83,
+    "block_group": "060952531051",
+    "cbsa": "Vallejo, CA",
+    "concern": 21.9
+  },
+  "san-mateo-ca": {
+    "nat_walk_ind": 8.5,
+    "block_group": "060816076004",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 60.5
+  },
+  "south-bend-in": {
+    "nat_walk_ind": 10.5,
+    "block_group": "181410019002",
+    "cbsa": "South Bend-Mishawaka, IN-MI",
+    "concern": 50.0
+  },
+  "quincy-ma": {
+    "nat_walk_ind": 12.83,
+    "block_group": "250214176021",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 37.7
+  },
+  "burbank-ca": {
+    "nat_walk_ind": 13.17,
+    "block_group": "060373105011",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 36.0
+  },
+  "hesperia-ca": {
+    "nat_walk_ind": 13,
+    "block_group": "060710100191",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 36.8
+  },
+  "wichita-falls-tx": {
+    "nat_walk_ind": 11.33,
+    "block_group": "484850110001",
+    "cbsa": "Wichita Falls, TX",
+    "concern": 45.6
+  },
+  "tracy-ca": {
+    "nat_walk_ind": 6.83,
+    "block_group": "060770054034",
+    "cbsa": "Stockton, CA",
+    "concern": 69.3
+  },
+  "new-bedford-ma": {
+    "nat_walk_ind": 17.83,
+    "block_group": "250056509001",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 11.4
+  },
+  "el-cajon-ca": {
+    "nat_walk_ind": 14.83,
+    "block_group": "060730163012",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 27.2
+  },
+  "albany-ny": {
+    "nat_walk_ind": 11.17,
+    "block_group": "360010004032",
+    "cbsa": "Albany-Schenectady-Troy, NY",
+    "concern": 46.5
+  },
+  "inglewood-ca": {
+    "nat_walk_ind": 14.67,
+    "block_group": "060376007031",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 28.1
+  },
+  "boca-raton-fl": {
+    "nat_walk_ind": 12,
+    "block_group": "120990071001",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 42.1
+  },
+  "fort-myers-fl": {
+    "nat_walk_ind": 12.33,
+    "block_group": "120710012013",
+    "cbsa": "Cape Coral-Fort Myers, FL",
+    "concern": 40.4
+  },
+  "daly-city-ca": {
+    "nat_walk_ind": 16.67,
+    "block_group": "060816006002",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 17.5
+  },
+  "avondale-az": {
+    "nat_walk_ind": 3.17,
+    "block_group": "040137233041",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 88.6
+  },
+  "san-angelo-tx": {
+    "nat_walk_ind": 8.67,
+    "block_group": "484510013011",
+    "cbsa": "San Angelo, TX",
+    "concern": 59.6
+  },
+  "edmond-ok": {
+    "nat_walk_ind": 6.17,
+    "block_group": "401091092014",
+    "cbsa": "Oklahoma City, OK",
+    "concern": 72.8
+  },
+  "davenport-ia": {
+    "nat_walk_ind": 8,
+    "block_group": "191630119001",
+    "cbsa": "Davenport-Moline-Rock Island, IA-IL",
+    "concern": 63.2
+  },
+  "deltona-fl": {
+    "nat_walk_ind": 13.5,
+    "block_group": "121270910272",
+    "cbsa": "Deltona-Daytona Beach-Ormond Beach, FL",
+    "concern": 34.2
+  },
+  "longmont-co": {
+    "nat_walk_ind": 15.5,
+    "block_group": "080130134013",
+    "cbsa": "Boulder, CO",
+    "concern": 23.7
+  },
+  "federal-way-wa": {
+    "nat_walk_ind": 14.5,
+    "block_group": "530330303091",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 28.9
+  },
+  "merced-ca": {
+    "nat_walk_ind": 14,
+    "block_group": "060470013021",
+    "cbsa": "Merced, CA",
+    "concern": 31.6
+  },
+  "kenosha-wi": {
+    "nat_walk_ind": 8.0,
+    "block_group": "550590007002",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 63.2
+  },
+  "plantation-fl": {
+    "nat_walk_ind": 14.33,
+    "block_group": "120110606052",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 29.8
+  },
+  "roanoke-va": {
+    "nat_walk_ind": 16,
+    "block_group": "517700025004",
+    "cbsa": "Roanoke, VA",
+    "concern": 21.1
+  },
+  "sunrise-fl": {
+    "nat_walk_ind": 13.17,
+    "block_group": "120110601174",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 36.0
+  },
+  "temple-tx": {
+    "nat_walk_ind": 9.83,
+    "block_group": "480270212023",
+    "cbsa": "Killeen-Temple, TX",
+    "concern": 53.5
+  },
+  "vista-ca": {
+    "nat_walk_ind": 12.5,
+    "block_group": "060730197022",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 39.5
+  },
+  "beaverton-or": {
+    "nat_walk_ind": 12.67,
+    "block_group": "410670312003",
+    "cbsa": "Portland-Vancouver-Hillsboro, OR-WA",
+    "concern": 38.6
+  },
+  "yakima-wa": {
+    "nat_walk_ind": 10.0,
+    "block_group": "530770010004",
+    "cbsa": "Yakima, WA",
+    "concern": 52.6
+  },
+  "kirkland-wa": {
+    "nat_walk_ind": 7.67,
+    "block_group": "530330224001",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 64.9
+  },
+  "norwalk-ca": {
+    "nat_walk_ind": 16.67,
+    "block_group": "060375522003",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 17.5
+  },
+  "chino-ca": {
+    "nat_walk_ind": 6.83,
+    "block_group": "060710122001",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 69.3
+  },
+  "portsmouth-va": {
+    "nat_walk_ind": 6.33,
+    "block_group": "517402130013",
+    "cbsa": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "concern": 71.9
+  },
+  "manteca-ca": {
+    "nat_walk_ind": 7.5,
+    "block_group": "060770051322",
+    "cbsa": "Stockton, CA",
+    "concern": 65.8
+  },
+  "north-port-fl": {
+    "nat_walk_ind": 7.0,
+    "block_group": "121150027112",
+    "cbsa": "North Port-Sarasota-Bradenton, FL",
+    "concern": 68.4
+  },
+  "greenville-nc": {
+    "nat_walk_ind": 9.33,
+    "block_group": "371470001004",
+    "cbsa": "Greenville, NC",
+    "concern": 56.1
+  },
+  "bellingham-wa": {
+    "nat_walk_ind": 12.83,
+    "block_group": "530730005012",
+    "cbsa": "Bellingham, WA",
+    "concern": 37.7
+  },
+  "lawrence-ks": {
+    "nat_walk_ind": 9.33,
+    "block_group": "200450007022",
+    "cbsa": "Lawrence, KS",
+    "concern": 56.1
+  },
+  "ofallon-mo": {
+    "nat_walk_ind": 6.83,
+    "block_group": "291833117221",
+    "cbsa": "St. Louis, MO-IL",
+    "concern": 69.3
+  },
+  "reading-pa": {
+    "nat_walk_ind": 5.17,
+    "block_group": "420110013003",
+    "cbsa": "Reading, PA",
+    "concern": 78.1
+  },
+  "mount-pleasant-sc": {
+    "nat_walk_ind": 15.17,
+    "block_group": "450190046074",
+    "cbsa": "Charleston-North Charleston, SC",
+    "concern": 25.4
+  },
+  "lehi-ut": {
+    "nat_walk_ind": 12.33,
+    "block_group": "490490102141",
+    "cbsa": "Provo-Orem, UT",
+    "concern": 40.4
+  },
+  "fall-river-ma": {
+    "nat_walk_ind": 8.5,
+    "block_group": "250056425002",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 60.5
+  },
+  "orem-ut": {
+    "nat_walk_ind": 17,
+    "block_group": "490490008023",
+    "cbsa": "Provo-Orem, UT",
+    "concern": 15.8
+  },
+  "san-marcos-ca": {
+    "nat_walk_ind": 13.5,
+    "block_group": "060730200262",
+    "cbsa": "San Diego-Chula Vista-Carlsbad, CA",
+    "concern": 34.2
+  },
+  "norwalk-ct": {
+    "nat_walk_ind": 6.83,
+    "block_group": "090010444001",
+    "cbsa": "Bridgeport-Stamford-Norwalk, CT",
+    "concern": 69.3
+  },
+  "indio-ca": {
+    "nat_walk_ind": 7.17,
+    "block_group": "060650452172",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 67.5
+  },
+  "redding-ca": {
+    "nat_walk_ind": 14.83,
+    "block_group": "060890109001",
+    "cbsa": "Redding, CA",
+    "concern": 27.2
+  },
+  "hemet-ca": {
+    "nat_walk_ind": 13.17,
+    "block_group": "060650433061",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 36.0
+  },
+  "hoover-al": {
+    "nat_walk_ind": 11.67,
+    "block_group": "010730144081",
+    "cbsa": "Birmingham-Hoover, AL",
+    "concern": 43.9
+  },
+  "asheville-nc": {
+    "nat_walk_ind": 17.33,
+    "block_group": "370210006002",
+    "cbsa": "Asheville, NC",
+    "concern": 14.0
+  },
+  "livonia-mi": {
+    "nat_walk_ind": 7.5,
+    "block_group": "261635573002",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 65.8
+  },
+  "nashua-nh": {
+    "nat_walk_ind": 8.33,
+    "block_group": "330110108001",
+    "cbsa": "Manchester-Nashua, NH",
+    "concern": 61.4
+  },
+  "sandy-ut": {
+    "nat_walk_ind": 15.33,
+    "block_group": "490351126132",
+    "cbsa": "Salt Lake City, UT",
+    "concern": 24.6
+  },
+  "frederick-md": {
+    "nat_walk_ind": 16.17,
+    "block_group": "240217508011",
+    "cbsa": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "concern": 20.2
+  },
+  "bryan-tx": {
+    "nat_walk_ind": 8.67,
+    "block_group": "480410006033",
+    "cbsa": "College Station-Bryan, TX",
+    "concern": 59.6
+  },
+  "folsom-ca": {
+    "nat_walk_ind": 14.83,
+    "block_group": "060670085061",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 27.2
+  },
+  "erie-pa": {
+    "nat_walk_ind": 16.5,
+    "block_group": "420490013002",
+    "cbsa": "Erie, PA",
+    "concern": 18.4
+  },
+  "trenton-nj": {
+    "nat_walk_ind": 18.17,
+    "block_group": "340210009002",
+    "cbsa": "Trenton-Princeton, NJ",
+    "concern": 9.6
+  },
+  "roswell-ga": {
+    "nat_walk_ind": 11.5,
+    "block_group": "131210114172",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 44.7
+  },
+  "champaign-il": {
+    "nat_walk_ind": 15.83,
+    "block_group": "170190011003",
+    "cbsa": "Champaign-Urbana, IL",
+    "concern": 21.9
+  },
+  "leander-tx": {
+    "nat_walk_ind": 5.33,
+    "block_group": "484910203123",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 77.2
+  },
+  "clifton-nj": {
+    "nat_walk_ind": 11.83,
+    "block_group": "340311243213",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 43.0
+  },
+  "fort-smith-ar": {
+    "nat_walk_ind": 8.83,
+    "block_group": "051310011021",
+    "cbsa": "Fort Smith, AR-OK",
+    "concern": 58.8
+  },
+  "carson-ca": {
+    "nat_walk_ind": 2.33,
+    "block_group": "060379800251",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 93.0
+  },
+  "newton-ma": {
+    "nat_walk_ind": 15.5,
+    "block_group": "250173742002",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 23.7
+  },
+  "springdale-ar": {
+    "nat_walk_ind": 6.83,
+    "block_group": "051430104013",
+    "cbsa": "Fayetteville-Springdale-Rogers, AR",
+    "concern": 69.3
+  },
+  "lawton-ok": {
+    "nat_walk_ind": 11.5,
+    "block_group": "400310009002",
+    "cbsa": "Lawton, OK",
+    "concern": 44.7
+  },
+  "compton-ca": {
+    "nat_walk_ind": 15.83,
+    "block_group": "060375425024",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 21.9
+  },
+  "mission-viejo-ca": {
+    "nat_walk_ind": 12.5,
+    "block_group": "060590320021",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 39.5
+  },
+  "franklin-tn": {
+    "nat_walk_ind": 7.17,
+    "block_group": "471870509061",
+    "cbsa": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "concern": 67.5
+  },
+  "santa-monica-ca": {
+    "nat_walk_ind": 19.67,
+    "block_group": "060377019023",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 1.8
+  },
+  "south-gate-ca": {
+    "nat_walk_ind": 11.83,
+    "block_group": "060375359021",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 43.0
+  },
+  "santa-fe-nm": {
+    "nat_walk_ind": 18.67,
+    "block_group": "350490004001",
+    "cbsa": "Santa Fe, NM",
+    "concern": 7.0
+  },
+  "queen-creek-az": {
+    "nat_walk_ind": 5.83,
+    "block_group": "040138171002",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 74.6
+  },
+  "ogden-ut": {
+    "nat_walk_ind": 16,
+    "block_group": "490572011001",
+    "cbsa": "Ogden-Clearfield, UT",
+    "concern": 21.1
+  },
+  "deerfield-beach-fl": {
+    "nat_walk_ind": 10.0,
+    "block_group": "120110104031",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 52.6
+  },
+  "lawrence-ma": {
+    "nat_walk_ind": 14,
+    "block_group": "250092516004",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 31.6
+  },
+  "bloomington-mn": {
+    "nat_walk_ind": 11,
+    "block_group": "270530257023",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 47.4
+  },
+  "danbury-ct": {
+    "nat_walk_ind": 4.5,
+    "block_group": "090012108002",
+    "cbsa": "Bridgeport-Stamford-Norwalk, CT",
+    "concern": 81.6
+  },
+  "mission-tx": {
+    "nat_walk_ind": 4.83,
+    "block_group": "482150201023",
+    "cbsa": "McAllen-Edinburg-Mission, TX",
+    "concern": 79.8
+  },
+  "westminster-ca": {
+    "nat_walk_ind": 15.5,
+    "block_group": "060590997013",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 23.7
+  },
+  "troy-mi": {
+    "nat_walk_ind": 9.83,
+    "block_group": "261251969001",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 53.5
+  },
+  "daytona-beach-fl": {
+    "nat_walk_ind": 6,
+    "block_group": "121270832052",
+    "cbsa": "Deltona-Daytona Beach-Ormond Beach, FL",
+    "concern": 73.7
+  },
+  "kennewick-wa": {
+    "nat_walk_ind": 10.67,
+    "block_group": "530050110023",
+    "cbsa": "Kennewick-Richland, WA",
+    "concern": 49.1
+  },
+  "duluth-mn": {
+    "nat_walk_ind": 15.5,
+    "block_group": "271370156003",
+    "cbsa": "Duluth, MN-WI",
+    "concern": 23.7
+  },
+  "waukegan-il": {
+    "nat_walk_ind": 13.33,
+    "block_group": "170978626034",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 35.1
+  },
+  "warner-robins-ga": {
+    "nat_walk_ind": 9,
+    "block_group": "131530210004",
+    "cbsa": "Warner Robins, GA",
+    "concern": 57.9
+  },
+  "south-jordan-ut": {
+    "nat_walk_ind": 17.83,
+    "block_group": "490351130201",
+    "cbsa": "Salt Lake City, UT",
+    "concern": 11.4
+  },
+  "rancho-cordova-ca": {
+    "nat_walk_ind": 11.83,
+    "block_group": "060670087052",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 43.0
+  },
+  "melbourne-fl": {
+    "nat_walk_ind": 13.67,
+    "block_group": "120090647002",
+    "cbsa": "Palm Bay-Melbourne-Titusville, FL",
+    "concern": 33.3
+  },
+  "gastonia-nc": {
+    "nat_walk_ind": 8.33,
+    "block_group": "370710329004",
+    "cbsa": "Charlotte-Concord-Gastonia, NC-SC",
+    "concern": 61.4
+  },
+  "baytown-tx": {
+    "nat_walk_ind": 10.67,
+    "block_group": "482012537002",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 49.1
+  },
+  "medford-or": {
+    "nat_walk_ind": 13.67,
+    "block_group": "410290005021",
+    "cbsa": "Medford, OR",
+    "concern": 33.3
+  },
+  "santa-barbara-ca": {
+    "nat_walk_ind": 10.83,
+    "block_group": "060830012082",
+    "cbsa": "Santa Maria-Santa Barbara, CA",
+    "concern": 48.2
+  },
+  "sioux-city-ia": {
+    "nat_walk_ind": 13.33,
+    "block_group": "191930001004",
+    "cbsa": "Sioux City, IA-NE-SD",
+    "concern": 35.1
+  },
+  "citrus-heights-ca": {
+    "nat_walk_ind": 6.83,
+    "block_group": "060670081411",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 69.3
+  },
+  "lake-forest-ca": {
+    "nat_walk_ind": 12.83,
+    "block_group": "060590524254",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 37.7
+  },
+  "auburn-wa": {
+    "nat_walk_ind": 4,
+    "block_group": "530330311004",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 84.2
+  },
+  "homestead-fl": {
+    "nat_walk_ind": 7.17,
+    "block_group": "120860110071",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 67.5
+  },
+  "san-ramon-ca": {
+    "nat_walk_ind": 6.83,
+    "block_group": "060133451121",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 69.3
+  },
+  "new-rochelle-ny": {
+    "nat_walk_ind": 13.33,
+    "block_group": "361190065003",
+    "cbsa": "New York-Newark-Jersey City, NY-NJ-PA",
+    "concern": 35.1
+  },
+  "whittier-ca": {
+    "nat_walk_ind": 7.5,
+    "block_group": "060375016003",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 65.8
+  },
+  "kissimmee-fl": {
+    "nat_walk_ind": 18.67,
+    "block_group": "120970418001",
+    "cbsa": "Orlando-Kissimmee-Sanford, FL",
+    "concern": 7.0
+  },
+  "mountain-view-ca": {
+    "nat_walk_ind": 17,
+    "block_group": "060855092012",
+    "cbsa": "San Jose-Sunnyvale-Santa Clara, CA",
+    "concern": 15.8
+  },
+  "san-leandro-ca": {
+    "nat_walk_ind": 13.33,
+    "block_group": "060014333004",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 35.1
+  },
+  "layton-ut": {
+    "nat_walk_ind": 16.83,
+    "block_group": "490111258052",
+    "cbsa": "Ogden-Clearfield, UT",
+    "concern": 16.7
+  },
+  "auburn-al": {
+    "nat_walk_ind": 10.67,
+    "block_group": "010810409023",
+    "cbsa": "Auburn-Opelika, AL",
+    "concern": 49.1
+  },
+  "cranston-ri": {
+    "nat_walk_ind": 13.17,
+    "block_group": "440070145022",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 36.0
+  },
+  "mansfield-tx": {
+    "nat_walk_ind": 8.83,
+    "block_group": "484391113082",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 58.8
+  },
+  "somerville-ma": {
+    "nat_walk_ind": 16.5,
+    "block_group": "250173502004",
+    "cbsa": "Boston-Cambridge-Newton, MA-NH",
+    "concern": 18.4
+  },
+  "warwick-ri": {
+    "nat_walk_ind": 11.17,
+    "block_group": "440030219031",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 46.5
+  },
+  "castle-rock-co": {
+    "nat_walk_ind": 6.5,
+    "block_group": "080350145032",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 71.1
+  },
+  "brooklyn-park-mn": {
+    "nat_walk_ind": 11.33,
+    "block_group": "270530268232",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 45.6
+  },
+  "livermore-ca": {
+    "nat_walk_ind": 14.17,
+    "block_group": "060014514013",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 30.7
+  },
+  "bloomington-in": {
+    "nat_walk_ind": 17.33,
+    "block_group": "181050003021",
+    "cbsa": "Bloomington, IN",
+    "concern": 14.0
+  },
+  "jonesboro-ar": {
+    "nat_walk_ind": 9.67,
+    "block_group": "050310004021",
+    "cbsa": "Jonesboro, AR",
+    "concern": 54.4
+  },
+  "farmington-hills-mi": {
+    "nat_walk_ind": 6.5,
+    "block_group": "261251670001",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 71.1
+  },
+  "perris-ca": {
+    "nat_walk_ind": 15.5,
+    "block_group": "060650428003",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 23.7
+  },
+  "longview-tx": {
+    "nat_walk_ind": 6.33,
+    "block_group": "481830005014",
+    "cbsa": "Longview, TX",
+    "concern": 71.9
+  },
+  "pasco-wa": {
+    "nat_walk_ind": 4.33,
+    "block_group": "530219801001",
+    "cbsa": "Kennewick-Richland, WA",
+    "concern": 82.5
+  },
+  "hawthorne-ca": {
+    "nat_walk_ind": 12.33,
+    "block_group": "060376024033",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 40.4
+  },
+  "lake-charles-la": {
+    "nat_walk_ind": 11.67,
+    "block_group": "220190008003",
+    "cbsa": "Lake Charles, LA",
+    "concern": 43.9
+  },
+  "redmond-wa": {
+    "nat_walk_ind": 12.33,
+    "block_group": "530330323243",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 40.4
+  },
+  "boynton-beach-fl": {
+    "nat_walk_ind": 12.17,
+    "block_group": "120990060121",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 41.2
+  },
+  "westland-mi": {
+    "nat_walk_ind": 9.83,
+    "block_group": "261635679003",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 53.5
+  },
+  "redwood-city-ca": {
+    "nat_walk_ind": 8.67,
+    "block_group": "060816103021",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 59.6
+  },
+  "newport-beach-ca": {
+    "nat_walk_ind": 9.17,
+    "block_group": "060590628001",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 57.0
+  },
+  "cicero-il": {
+    "nat_walk_ind": 13.67,
+    "block_group": "170318141003",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 33.3
+  },
+  "buena-park-ca": {
+    "nat_walk_ind": 12.33,
+    "block_group": "060591105004",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 40.4
+  },
+  "doral-fl": {
+    "nat_walk_ind": 18.83,
+    "block_group": "120860090343",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 6.1
+  },
+  "miami-beach-fl": {
+    "nat_walk_ind": 17.17,
+    "block_group": "120860040005",
+    "cbsa": "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "concern": 14.9
+  },
+  "woodbury-mn": {
+    "nat_walk_ind": 8.67,
+    "block_group": "271630710152",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 59.6
+  },
+  "loveland-co": {
+    "nat_walk_ind": 10.33,
+    "block_group": "080690017063",
+    "cbsa": "Fort Collins, CO",
+    "concern": 50.9
+  },
+  "lynchburg-va": {
+    "nat_walk_ind": 11.5,
+    "block_group": "516800008021",
+    "cbsa": "Lynchburg, VA",
+    "concern": 44.7
+  },
+  "pharr-tx": {
+    "nat_walk_ind": 7.5,
+    "block_group": "482150214042",
+    "cbsa": "McAllen-Edinburg-Mission, TX",
+    "concern": 65.8
+  },
+  "largo-fl": {
+    "nat_walk_ind": 10.33,
+    "block_group": "121030253031",
+    "cbsa": "Tampa-St. Petersburg-Clearwater, FL",
+    "concern": 50.9
+  },
+  "rapid-city-sd": {
+    "nat_walk_ind": 11.5,
+    "block_group": "461030102002",
+    "cbsa": "Rapid City, SD",
+    "concern": 44.7
+  },
+  "apex-nc": {
+    "nat_walk_ind": 7.17,
+    "block_group": "371830534141",
+    "cbsa": "Raleigh-Cary, NC",
+    "concern": 67.5
+  },
+  "johns-creek-ga": {
+    "nat_walk_ind": 9.67,
+    "block_group": "131210116253",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 54.4
+  },
+  "alhambra-ca": {
+    "nat_walk_ind": 12.83,
+    "block_group": "060374809021",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 37.7
+  },
+  "bethlehem-pa": {
+    "nat_walk_ind": 18.17,
+    "block_group": "420950106006",
+    "cbsa": "Allentown-Bethlehem-Easton, PA-NJ",
+    "concern": 9.6
+  },
+  "flower-mound-tx": {
+    "nat_walk_ind": 8.83,
+    "block_group": "481210217502",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "concern": 58.8
+  },
+  "upland-ca": {
+    "nat_walk_ind": 8.83,
+    "block_group": "060710008184",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 58.8
+  },
+  "flint-mi": {
+    "nat_walk_ind": 18.17,
+    "block_group": "260490028002",
+    "cbsa": "Flint, MI",
+    "concern": 9.6
+  },
+  "lakeville-mn": {
+    "nat_walk_ind": 5.67,
+    "block_group": "270370608162",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 75.4
+  },
+  "broomfield-co": {
+    "nat_walk_ind": 9.67,
+    "block_group": "080140305002",
+    "cbsa": "Denver-Aurora-Lakewood, CO",
+    "concern": 54.4
+  },
+  "cedar-park-tx": {
+    "nat_walk_ind": 7.17,
+    "block_group": "484910203133",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 67.5
+  },
+  "plymouth-mn": {
+    "nat_walk_ind": 15.83,
+    "block_group": "270530265142",
+    "cbsa": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "concern": 21.9
+  },
+  "missoula-mt": {
+    "nat_walk_ind": 15.17,
+    "block_group": "300630008001",
+    "cbsa": "Missoula, MT",
+    "concern": 25.4
+  },
+  "mableton-ga": {
+    "nat_walk_ind": 12.33,
+    "block_group": "130670313082",
+    "cbsa": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "concern": 40.4
+  },
+  "bloomington-il": {
+    "nat_walk_ind": 13.17,
+    "block_group": "171130018001",
+    "cbsa": "Bloomington, IL",
+    "concern": 36.0
+  },
+  "milpitas-ca": {
+    "nat_walk_ind": 15,
+    "block_group": "060855045044",
+    "cbsa": "San Jose-Sunnyvale-Santa Clara, CA",
+    "concern": 26.3
+  },
+  "wyoming-mi": {
+    "nat_walk_ind": 9.83,
+    "block_group": "260810139002",
+    "cbsa": "Grand Rapids-Kentwood, MI",
+    "concern": 53.5
+  },
+  "parma-oh": {
+    "nat_walk_ind": 14.33,
+    "block_group": "390351776083",
+    "cbsa": "Cleveland-Elyria, OH",
+    "concern": 29.8
+  },
+  "bowling-green-ky": {
+    "nat_walk_ind": 10.5,
+    "block_group": "212270106001",
+    "cbsa": "Bowling Green, KY",
+    "concern": 50.0
+  },
+  "maricopa-az": {
+    "nat_walk_ind": 4.83,
+    "block_group": "040210017111",
+    "cbsa": "Phoenix-Mesa-Chandler, AZ",
+    "concern": 79.8
+  },
+  "lakewood-ca": {
+    "nat_walk_ind": 12.17,
+    "block_group": "060375709022",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 41.2
+  },
+  "bismarck-nd": {
+    "nat_walk_ind": 8.67,
+    "block_group": "380150102003",
+    "cbsa": "Bismarck, ND",
+    "concern": 59.6
+  },
+  "racine-wi": {
+    "nat_walk_ind": 12.83,
+    "block_group": "551010006001",
+    "cbsa": "Racine, WI",
+    "concern": 37.7
+  },
+  "tustin-ca": {
+    "nat_walk_ind": 10.67,
+    "block_group": "060590755072",
+    "cbsa": "Los Angeles-Long Beach-Anaheim, CA",
+    "concern": 49.1
+  },
+  "ankeny-ia": {
+    "nat_walk_ind": 15,
+    "block_group": "191530102051",
+    "cbsa": "Des Moines-West Des Moines, IA",
+    "concern": 26.3
+  },
+  "san-marcos-tx": {
+    "nat_walk_ind": 11.0,
+    "block_group": "482090105002",
+    "cbsa": "Austin-Round Rock-Georgetown, TX",
+    "concern": 47.4
+  },
+  "marysville-wa": {
+    "nat_walk_ind": 5.17,
+    "block_group": "530610528063",
+    "cbsa": "Seattle-Tacoma-Bellevue, WA",
+    "concern": 78.1
+  },
+  "pittsburg-ca": {
+    "nat_walk_ind": 9.83,
+    "block_group": "060133110003",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 53.5
+  },
+  "rochester-hills-mi": {
+    "nat_walk_ind": 7.67,
+    "block_group": "261251942002",
+    "cbsa": "Detroit-Warren-Dearborn, MI",
+    "concern": 64.9
+  },
+  "chino-hills-ca": {
+    "nat_walk_ind": 4.33,
+    "block_group": "060710001161",
+    "cbsa": "Riverside-San Bernardino-Ontario, CA",
+    "concern": 82.5
+  },
+  "missouri-city-tx": {
+    "nat_walk_ind": 7.5,
+    "block_group": "481576709011",
+    "cbsa": "Houston-The Woodlands-Sugar Land, TX",
+    "concern": 65.8
+  },
+  "flagstaff-az": {
+    "nat_walk_ind": 17.33,
+    "block_group": "040050012002",
+    "cbsa": "Flagstaff, AZ",
+    "concern": 14.0
+  },
+  "schaumburg-il": {
+    "nat_walk_ind": 11.17,
+    "block_group": "170318047093",
+    "cbsa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "concern": 46.5
+  },
+  "pawtucket-ri": {
+    "nat_walk_ind": 16.17,
+    "block_group": "440070171003",
+    "cbsa": "Providence-Warwick, RI-MA",
+    "concern": 20.2
+  },
+  "rogers-ar": {
+    "nat_walk_ind": 6.33,
+    "block_group": "050070204013",
+    "cbsa": "Fayetteville-Springdale-Rogers, AR",
+    "concern": 71.9
+  },
+  "alameda-ca": {
+    "nat_walk_ind": 13.83,
+    "block_group": "060014283021",
+    "cbsa": "San Francisco-Oakland-Berkeley, CA",
+    "concern": 32.5
+  },
+  "rocklin-ca": {
+    "nat_walk_ind": 8.67,
+    "block_group": "060610211231",
+    "cbsa": "Sacramento-Roseville-Folsom, CA",
+    "concern": 59.6
+  },
+  "caldwell-id": {
+    "nat_walk_ind": 16,
+    "block_group": "160270213002",
+    "cbsa": "Boise City, ID",
+    "concern": 21.1
+  },
+  "carlsbad-nm": {
+    "nat_walk_ind": 12.67,
+    "block_group": "350150001001",
+    "cbsa": "Carlsbad-Artesia, NM",
+    "concern": 38.6
+  },
+  "kalispell-mt": {
+    "nat_walk_ind": 13.33,
+    "block_group": "300290010001",
+    "cbsa": "Kalispell, MT",
+    "concern": 35.1
+  },
+  "durango-co": {
+    "nat_walk_ind": 11.83,
+    "block_group": "080679710002",
+    "cbsa": "Durango, CO",
+    "concern": 43.0
+  },
+  "los-alamos-nm": {
+    "nat_walk_ind": 13.33,
+    "block_group": "350280004002",
+    "cbsa": "Los Alamos, NM",
+    "concern": 35.1
+  },
+  "sandpoint-id": {
+    "nat_walk_ind": 12.5,
+    "block_group": "160179503002",
+    "cbsa": "Sandpoint, ID",
+    "concern": 39.5
+  },
+  "taos-nm": {
+    "nat_walk_ind": 9.67,
+    "block_group": "350559401006",
+    "cbsa": "Taos, NM",
+    "concern": 54.4
+  },
+  "blanding-ut": {
+    "nat_walk_ind": 12.33,
+    "block_group": "490379782003",
+    "cbsa": null,
+    "concern": 40.4
+  },
+  "monticello-ut": {
+    "nat_walk_ind": 8.5,
+    "block_group": "490379781003",
+    "cbsa": null,
+    "concern": 60.5
+  },
+  "whitewright-tx": {
+    "nat_walk_ind": 5.83,
+    "block_group": "481810001022",
+    "cbsa": "Sherman-Denison, TX",
+    "concern": 74.6
+  },
+  "sundance-wy": {
+    "nat_walk_ind": 7.67,
+    "block_group": "560119503002",
+    "cbsa": "Gillette, WY",
+    "concern": 64.9
+  },
+  "geraldine-mt": {
+    "nat_walk_ind": 5.0,
+    "block_group": "300150103002",
+    "cbsa": null,
+    "concern": 78.9
+  },
+  "grand-junction-co": {
+    "nat_walk_ind": 7.0,
+    "block_group": "080770008003",
+    "cbsa": "Grand Junction, CO",
+    "concern": 68.4
+  }
+}

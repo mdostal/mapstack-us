@@ -165,6 +165,21 @@ test("the twelfth dataset (transit access) is selectable and reports a real ID-j
   await expect(detail).toContainText("National Transit Database");
 });
 
+test("the thirteenth dataset (walkability) is selectable and reports a real EPA-sourced value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Walkability" }).click();
+  await page.getByRole("button", { name: "Walkability", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Walkability: Walkability" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Walkability: Walkability" });
+  await expect(detail).toContainText("National Walkability Index");
+  await expect(detail).toContainText("EPA Smart Location Database");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

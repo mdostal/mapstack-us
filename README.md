@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  twelve genuinely different real implementations across the full 512-city spine, all
+  thirteen genuinely different real implementations across the full 512-city spine, all
   free and keyless:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
@@ -58,6 +58,8 @@ built from two real, working examples instead of upfront design.
     NCHS-NVSS mortality data (`data/traffic-fatalities-methodology.md`).
   - **Transit access** — public transit service level, FTA National Transit Database,
     joined by real Census Urban Area ID (`data/transit-access-methodology.md`).
+  - **Walkability** — EPA National Walkability Index, queried directly from EPA's own
+    hosted ArcGIS FeatureServer (`data/walkability-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

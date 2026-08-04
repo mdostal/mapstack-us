@@ -9,6 +9,7 @@ import { housingInventoryDataset } from "@/lib/datasets/housing-inventory";
 import { daysOnMarketDataset } from "@/lib/datasets/days-on-market";
 import { trafficFatalitiesDataset } from "@/lib/datasets/traffic-fatalities";
 import { transitAccessDataset } from "@/lib/datasets/transit-access";
+import { walkabilityDataset } from "@/lib/datasets/walkability";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -29,6 +30,7 @@ export const DATASETS: Dataset[] = [
   daysOnMarketDataset,
   trafficFatalitiesDataset,
   transitAccessDataset,
+  walkabilityDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {
