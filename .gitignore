@@ -97,6 +97,11 @@ data/raw/broadband-cache/
 # data/income.json IS committed.
 data/raw/income-cache/
 
+# Pure fetch-scratch for the housing-cost-burden dataset build
+# (scripts/gen_housing_cost_burden_data.py) -- same posture as the
+# caches above. data/housing-cost-burden.json IS committed.
+data/raw/housing-cost-burden-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

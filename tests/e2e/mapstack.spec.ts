@@ -240,6 +240,21 @@ test("the seventeenth dataset (median household income) is selectable and report
   await expect(detail).toContainText("Census ACS");
 });
 
+test("the eighteenth dataset (housing affordability) is selectable and reports a real ACS-sourced value with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Housing affordability" }).click();
+  await page.getByRole("button", { name: "Severe housing cost burden", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Housing affordability: Severe housing cost burden" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Housing affordability" });
+  await expect(detail).toContainText("50%+ of income on housing");
+  await expect(detail).toContainText("Census ACS");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
