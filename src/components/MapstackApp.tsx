@@ -9,15 +9,24 @@ import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { AccordionSection } from "@/components/AccordionSection";
+import { ManageDatasetsPanel } from "@/components/ManageDatasetsPanel";
 import { isSameLayer, resolveActiveLayer, type ActiveLayer } from "@/lib/active-layers";
 import { DATASETS } from "@/lib/datasets/registry";
 import { useSharedViewParams } from "@/lib/shared-view-params";
+import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
 
 const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 export function MapstackApp() {
   const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
   const [previewLayer, setPreviewLayer] = useState<ActiveLayer | null>(null);
+  const [hiddenDatasetIds, setHiddenDatasetIdsState] = useState<string[]>(() => getHiddenDatasetIds());
+
+  function updateHiddenDatasetIds(ids: string[]) {
+    setHiddenDatasetIdsState(ids);
+    setHiddenDatasetIds(ids);
+  }
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   function addLayer(layer: ActiveLayer) {
@@ -92,7 +101,12 @@ export function MapstackApp() {
             onAdd={addLayer}
             previewLayer={previewLayer}
             onPreview={setPreviewLayer}
+            hiddenDatasetIds={hiddenDatasetIds}
           />
+
+          <AccordionSection title="Manage datasets">
+            <ManageDatasetsPanel hiddenIds={hiddenDatasetIds} onChange={updateHiddenDatasetIds} />
+          </AccordionSection>
 
           <CityDetailPanel cityId={selectedCityId} active={active} year={year} />
         </div>

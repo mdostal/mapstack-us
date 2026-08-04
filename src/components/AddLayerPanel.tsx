@@ -9,6 +9,9 @@ interface Props {
   onAdd: (layer: ActiveLayer) => void;
   previewLayer: ActiveLayer | null;
   onPreview: (layer: ActiveLayer | null) => void;
+  /** Dataset ids hidden via ManageDatasetsPanel -- pure declutter, see
+   * lib/dataset-visibility.ts. Defaults to none hidden. */
+  hiddenDatasetIds?: string[];
 }
 
 /**
@@ -27,10 +30,11 @@ interface Props {
  * bottom of Active Layers instead of grouped with same-dataset layers) was
  * a MapstackApp.tsx bug, fixed there in addLayer().
  */
-export function AddLayerPanel({ active, onAdd, previewLayer, onPreview }: Props) {
+export function AddLayerPanel({ active, onAdd, previewLayer, onPreview, hiddenDatasetIds = [] }: Props) {
+  const visibleDatasets = DATASETS.filter((d) => !hiddenDatasetIds.includes(d.id));
   const [open, setOpen] = useState(false);
-  const [datasetId, setDatasetId] = useState(DATASETS[0]?.id ?? "");
-  const dataset = DATASETS.find((d) => d.id === datasetId);
+  const [datasetId, setDatasetId] = useState(visibleDatasets[0]?.id ?? "");
+  const dataset = visibleDatasets.find((d) => d.id === datasetId) ?? visibleDatasets[0];
   const previewedLabel = previewLayer
     ? DATASETS.find((d) => d.id === previewLayer.datasetId)?.layers.find((l) => l.id === previewLayer.layerId)?.label
     : null;
@@ -63,10 +67,16 @@ export function AddLayerPanel({ active, onAdd, previewLayer, onPreview }: Props)
         <span aria-hidden>{open ? "−" : "+"}</span>
       </button>
 
-      {open && (
+      {open && visibleDatasets.length === 0 && (
+        <p className="border-t border-zinc-200 p-3 text-xs text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
+          Every dataset is hidden. Re-enable one in &quot;Manage datasets&quot; below to add a layer.
+        </p>
+      )}
+
+      {open && visibleDatasets.length > 0 && (
         <div className="flex flex-col gap-2 border-t border-zinc-200 p-3 dark:border-zinc-800">
           <div role="tablist" aria-label="Dataset to add from" className="flex flex-wrap gap-1">
-            {DATASETS.map((d) => (
+            {visibleDatasets.map((d) => (
               <button
                 key={d.id}
                 type="button"

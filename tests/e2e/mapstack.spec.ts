@@ -21,6 +21,29 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await expect(page.getByRole("button", { name: "Violent crime (already added)" })).toBeDisabled();
 });
 
+test("hiding a dataset removes it from the Add layer tabs, but a layer already active from it stays active -- and the hidden state survives a reload", async ({
+  page,
+}) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "Manage datasets" }).click();
+  await page.getByLabel("Crime", { exact: true }).click();
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await expect(page.getByRole("tab", { name: "Crime", exact: true })).not.toBeVisible();
+  // The default Grass layer (a different dataset) is unaffected.
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
+
+  await page.reload();
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await expect(page.getByRole("tab", { name: "Crime", exact: true })).not.toBeVisible();
+
+  // Re-showing it brings the tab back.
+  await page.getByRole("button", { name: "Manage datasets" }).click();
+  await page.getByLabel("Crime", { exact: true }).click();
+  await expect(page.getByRole("tab", { name: "Crime", exact: true })).toBeVisible();
+});
+
 test("every dataset tab in the Add layer panel stays visible and clickable as the dataset count grows -- regression for a silently clipped tab row", async ({
   page,
 }) => {

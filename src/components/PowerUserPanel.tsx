@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { AccordionSection } from "@/components/AccordionSection";
 import { LayerPicker } from "@/components/LayerPicker";
+import { ManageDatasetsPanel } from "@/components/ManageDatasetsPanel";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
 import { FormulaPanel } from "@/components/FormulaPanel";
@@ -25,6 +26,7 @@ import { downloadCsv } from "@/lib/power-user/csv-export";
 import { decodeView, encodeView, VIEW_PARAM } from "@/lib/url-state";
 import type { SavedView } from "@/lib/saved-views";
 import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
+import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
 import { DEFAULT_WEIGHTS, getGrassComponents, recomputeGrassScore, type ComponentWeights } from "@/lib/formula/allergy-grass-formula";
 
 const GRASS_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
@@ -70,6 +72,12 @@ export function PowerUserPanel() {
   const [restoreVersion, setRestoreVersion] = useState(0);
   const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
   const [viewMode, setViewMode] = useState<"table" | "map">("table");
+  const [hiddenDatasetIds, setHiddenDatasetIdsState] = useState<string[]>(() => getHiddenDatasetIds());
+
+  function updateHiddenDatasetIds(ids: string[]) {
+    setHiddenDatasetIdsState(ids);
+    setHiddenDatasetIds(ids);
+  }
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
   // Per-layer map render controls (visible/inverted/opacity) -- independent
@@ -168,7 +176,16 @@ export function PowerUserPanel() {
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 p-6 md:flex-row">
         <div className="flex flex-col gap-3 overflow-y-auto md:top-6 md:h-[calc(100vh-4.5rem)] md:w-64 md:flex-shrink-0 md:sticky">
           <AccordionSection title="Layers" defaultOpen>
-            <LayerPicker key={restoreVersion} selected={selected} onToggle={toggle} onClearAll={clearAllLayers} />
+            <LayerPicker
+              key={restoreVersion}
+              selected={selected}
+              onToggle={toggle}
+              onClearAll={clearAllLayers}
+              hiddenDatasetIds={hiddenDatasetIds}
+            />
+          </AccordionSection>
+          <AccordionSection title="Manage datasets">
+            <ManageDatasetsPanel hiddenIds={hiddenDatasetIds} onChange={updateHiddenDatasetIds} />
           </AccordionSection>
           <AccordionSection title="Saved views">
             <SavedViewsPanel currentSelections={selected} currentSortKeys={sortKeys} onRestore={restoreSavedView} />

@@ -11,6 +11,21 @@ test("Layers accordion section is open by default", async ({ page }) => {
   await expect(page.getByLabel("Grass", { exact: true })).toBeVisible();
 });
 
+test("hiding a dataset via Manage datasets removes its group from the Layers accordion", async ({ page }) => {
+  await page.goto("/advanced");
+
+  // The group toggle's arrow/count-badge spans are aria-hidden, so its
+  // accessible name is just the dataset label.
+  const crimeGroupToggle = page.getByRole("button", { name: "Crime", exact: true });
+  await expect(crimeGroupToggle).toBeVisible();
+  await expect(crimeGroupToggle).toHaveAttribute("aria-expanded");
+
+  await page.getByRole("button", { name: "Manage datasets" }).click();
+  await page.getByLabel("Crime", { exact: true }).click();
+
+  await expect(crimeGroupToggle).not.toBeVisible();
+});
+
 test("Saved views accordion section is collapsed by default", async ({ page }) => {
   await page.goto("/advanced");
   const savedToggle = page.getByRole("button", { name: "Saved views" });

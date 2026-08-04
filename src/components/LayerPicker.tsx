@@ -8,6 +8,9 @@ interface Props {
   selected: ActiveLayer[];
   onToggle: (layer: ActiveLayer) => void;
   onClearAll: () => void;
+  /** Dataset ids hidden via ManageDatasetsPanel -- pure declutter, see
+   * lib/dataset-visibility.ts. Defaults to none hidden. */
+  hiddenDatasetIds?: string[];
 }
 
 function datasetHasLayer(datasetId: string, layerId: string, selected: ActiveLayer[]): boolean {
@@ -33,7 +36,8 @@ function datasetHasLayer(datasetId: string, layerId: string, selected: ActiveLay
  * nothing and pick just one dataset's layers (e.g. "only crime") rather
  * than always pruning down from the app's 2-layer default.
  */
-export function LayerPicker({ selected, onToggle, onClearAll }: Props) {
+export function LayerPicker({ selected, onToggle, onClearAll, hiddenDatasetIds = [] }: Props) {
+  const visibleDatasets = DATASETS.filter((d) => !hiddenDatasetIds.includes(d.id));
   const [openDatasets, setOpenDatasets] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(
       DATASETS.map((dataset) => [
@@ -58,8 +62,13 @@ export function LayerPicker({ selected, onToggle, onClearAll }: Props) {
           Clear all
         </button>
       )}
+      {visibleDatasets.length === 0 && (
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          Every dataset is hidden. Re-enable one in &quot;Manage datasets&quot; below to add a layer.
+        </p>
+      )}
       <div className="flex flex-col gap-1">
-        {DATASETS.map((dataset) => {
+        {visibleDatasets.map((dataset) => {
           const isOpen = openDatasets[dataset.id] ?? false;
           const selectedCount = dataset.layers.filter((layer) => datasetHasLayer(dataset.id, layer.id, selected)).length;
           return (
