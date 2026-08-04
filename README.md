@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  sixteen genuinely different real implementations across the full 512-city spine, all
+  seventeen genuinely different real implementations across the full 512-city spine, all
   free and keyless:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
@@ -68,6 +68,9 @@ built from two real, working examples instead of upfront design.
   - **Broadband access** — real Census ACS broadband-subscription rates, via County
     Health Rankings' free republication -- the first Census-cluster item unblocked without
     a Census API key (`data/broadband-methodology.md`).
+  - **Median household income** — real Census ACS income figures, same free republication
+    route as broadband -- the second Census-cluster item unblocked
+    (`data/income-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

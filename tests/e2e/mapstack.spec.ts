@@ -225,6 +225,21 @@ test("the sixteenth dataset (broadband access) is selectable and reports a real 
   await expect(detail).toContainText("Census ACS");
 });
 
+test("the seventeenth dataset (median household income) is selectable and reports a real ACS-sourced dollar value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Median household income" }).click();
+  await page.getByRole("button", { name: "Median household income", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Median household income: Median household income" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Median household income" });
+  await expect(detail).toContainText("median household income");
+  await expect(detail).toContainText("Census ACS");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

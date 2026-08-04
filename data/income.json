@@ -1,0 +1,3080 @@
+{
+  "_meta": {
+    "source": "County Health Rankings & Roadmaps, 2025 Annual Data Release -- Median Household Income (v063), Census ACS 5-year estimates",
+    "source_url": "https://www.countyhealthrankings.org/health-data/community-conditions/economic-opportunity/median-household-income",
+    "underlying_source": "Census American Community Survey (ACS) 5-year estimates",
+    "resolution": "county (state fallback for suppressed small counties)"
+  },
+  "new-york-ny": {
+    "median_income": 100869,
+    "county": "New York",
+    "fallback": null,
+    "concern": 21.9
+  },
+  "los-angeles-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 46.2
+  },
+  "chicago-il": {
+    "median_income": 80547,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 55.0
+  },
+  "houston-tx": {
+    "median_income": 72348,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 69.7
+  },
+  "phoenix-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 41.1
+  },
+  "philadelphia-pa": {
+    "median_income": 60196,
+    "county": "Philadelphia",
+    "fallback": null,
+    "concern": 92.4
+  },
+  "san-antonio-tx": {
+    "median_income": 69755,
+    "county": "Bexar",
+    "fallback": null,
+    "concern": 75.7
+  },
+  "san-diego-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 19.6
+  },
+  "dallas-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 66.7
+  },
+  "fort-worth-tx": {
+    "median_income": 80083,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 55.8
+  },
+  "jacksonville-fl": {
+    "median_income": 69455,
+    "county": "Duval",
+    "fallback": null,
+    "concern": 76.5
+  },
+  "austin-tx": {
+    "median_income": 97544,
+    "county": "Travis",
+    "fallback": null,
+    "concern": 24.9
+  },
+  "san-jose-ca": {
+    "median_income": 154573,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 0.8
+  },
+  "charlotte-nc": {
+    "median_income": 84796,
+    "county": "Mecklenburg",
+    "fallback": null,
+    "concern": 47.4
+  },
+  "columbus-oh": {
+    "median_income": 71730,
+    "county": "Franklin",
+    "fallback": null,
+    "concern": 72.0
+  },
+  "indianapolis-in": {
+    "median_income": 66653,
+    "county": "Marion",
+    "fallback": null,
+    "concern": 79.8
+  },
+  "san-francisco-ca": {
+    "median_income": 125456,
+    "county": "San Francisco",
+    "fallback": null,
+    "concern": 2.3
+  },
+  "seattle-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 6.8
+  },
+  "denver-co": {
+    "median_income": 93572,
+    "county": "Denver",
+    "fallback": null,
+    "concern": 30.3
+  },
+  "nashville-tn": {
+    "median_income": 80216,
+    "county": "Davidson",
+    "fallback": null,
+    "concern": 55.2
+  },
+  "oklahoma-city-ok": {
+    "median_income": 65979,
+    "county": "Oklahoma",
+    "fallback": null,
+    "concern": 82.6
+  },
+  "washington-dc": {
+    "median_income": 104643,
+    "county": "District of Columbia",
+    "fallback": null,
+    "concern": 17.4
+  },
+  "el-paso-tx": {
+    "median_income": 58656,
+    "county": "El Paso",
+    "fallback": null,
+    "concern": 93.7
+  },
+  "las-vegas-nv": {
+    "median_income": 75103,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 62.4
+  },
+  "boston-ma": {
+    "median_income": 91386,
+    "county": "Suffolk",
+    "fallback": null,
+    "concern": 32.3
+  },
+  "detroit-mi": {
+    "median_income": 57418,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 95.7
+  },
+  "louisville-ky": {
+    "median_income": 64977,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 84.1
+  },
+  "portland-or": {
+    "median_income": 83290,
+    "county": "Multnomah",
+    "fallback": null,
+    "concern": 51.5
+  },
+  "memphis-tn": {
+    "median_income": 62402,
+    "county": "Shelby",
+    "fallback": null,
+    "concern": 87.3
+  },
+  "baltimore-md": {
+    "median_income": 58616,
+    "county": "Baltimore",
+    "fallback": null,
+    "concern": 93.9
+  },
+  "milwaukee-wi": {
+    "median_income": 63304,
+    "county": "Milwaukee",
+    "fallback": null,
+    "concern": 86.5
+  },
+  "albuquerque-nm": {
+    "median_income": 68286,
+    "county": "Bernalillo",
+    "fallback": null,
+    "concern": 77.5
+  },
+  "fresno-ca": {
+    "median_income": 71271,
+    "county": "Fresno",
+    "fallback": null,
+    "concern": 73.0
+  },
+  "tucson-az": {
+    "median_income": 69553,
+    "county": "Pima",
+    "fallback": null,
+    "concern": 76.3
+  },
+  "sacramento-ca": {
+    "median_income": 89984,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 36.6
+  },
+  "atlanta-ga": {
+    "median_income": 94510,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 28.0
+  },
+  "kansas-city-mo": {
+    "median_income": 66102,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 81.8
+  },
+  "mesa-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 40.9
+  },
+  "raleigh-nc": {
+    "median_income": 103084,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 20.9
+  },
+  "colorado-springs-co": {
+    "median_income": 88794,
+    "county": "El Paso",
+    "fallback": null,
+    "concern": 37.2
+  },
+  "miami-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 71.2
+  },
+  "omaha-ne": {
+    "median_income": 77747,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 58.9
+  },
+  "virginia-beach-va": {
+    "median_income": 90275,
+    "county": "Virginia Beach",
+    "fallback": null,
+    "concern": 33.3
+  },
+  "long-beach-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 46.0
+  },
+  "oakland-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 9.0
+  },
+  "minneapolis-mn": {
+    "median_income": 93642,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 30.1
+  },
+  "bakersfield-ca": {
+    "median_income": 68436,
+    "county": "Kern",
+    "fallback": null,
+    "concern": 77.3
+  },
+  "tulsa-ok": {
+    "median_income": 65619,
+    "county": "Tulsa",
+    "fallback": null,
+    "concern": 83.8
+  },
+  "tampa-fl": {
+    "median_income": 76528,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 59.7
+  },
+  "aurora-co": {
+    "median_income": 97560,
+    "county": "Arapahoe",
+    "fallback": null,
+    "concern": 24.7
+  },
+  "arlington-tx": {
+    "median_income": 80083,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 55.6
+  },
+  "wichita-ks": {
+    "median_income": 67435,
+    "county": "Sedgwick",
+    "fallback": null,
+    "concern": 78.1
+  },
+  "cleveland-oh": {
+    "median_income": 61912,
+    "county": "Cuyahoga",
+    "fallback": null,
+    "concern": 88.5
+  },
+  "new-orleans-la": {
+    "median_income": 53729,
+    "county": "Orleans",
+    "fallback": null,
+    "concern": 97.7
+  },
+  "henderson-nv": {
+    "median_income": 75103,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 62.2
+  },
+  "honolulu-hi": {
+    "median_income": 102382,
+    "county": "Honolulu",
+    "fallback": null,
+    "concern": 21.1
+  },
+  "anaheim-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 14.3
+  },
+  "orlando-fl": {
+    "median_income": 78487,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 57.3
+  },
+  "lexington-ky": {
+    "median_income": 67320,
+    "county": "Fayette",
+    "fallback": null,
+    "concern": 78.3
+  },
+  "stockton-ca": {
+    "median_income": 86211,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 46.8
+  },
+  "newark-nj": {
+    "median_income": 80005,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 56.0
+  },
+  "riverside-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 35.2
+  },
+  "irvine-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 14.1
+  },
+  "corpus-christi-tx": {
+    "median_income": 63669,
+    "county": "Nueces",
+    "fallback": null,
+    "concern": 85.7
+  },
+  "santa-ana-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 13.9
+  },
+  "cincinnati-oh": {
+    "median_income": 68810,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 76.9
+  },
+  "greensboro-nc": {
+    "median_income": 65890,
+    "county": "Guilford",
+    "fallback": null,
+    "concern": 83.2
+  },
+  "pittsburgh-pa": {
+    "median_income": 76488,
+    "county": "Allegheny",
+    "fallback": null,
+    "concern": 59.9
+  },
+  "saint-paul-mn": {
+    "median_income": 77764,
+    "county": "Ramsey",
+    "fallback": null,
+    "concern": 58.7
+  },
+  "durham-nc": {
+    "median_income": 81413,
+    "county": "Durham",
+    "fallback": null,
+    "concern": 53.2
+  },
+  "jersey-city-nj": {
+    "median_income": 88469,
+    "county": "Hudson",
+    "fallback": null,
+    "concern": 38.0
+  },
+  "lincoln-ne": {
+    "median_income": 71171,
+    "county": "Lancaster",
+    "fallback": null,
+    "concern": 73.4
+  },
+  "north-las-vegas-nv": {
+    "median_income": 75103,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 62.0
+  },
+  "plano-tx": {
+    "median_income": 120149,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 7.6
+  },
+  "gilbert-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 40.7
+  },
+  "anchorage-ak": {
+    "median_income": 93881,
+    "county": "Anchorage",
+    "fallback": null,
+    "concern": 29.4
+  },
+  "madison-wi": {
+    "median_income": 84190,
+    "county": "Dane",
+    "fallback": null,
+    "concern": 50.7
+  },
+  "reno-nv": {
+    "median_income": 84282,
+    "county": "Washoe",
+    "fallback": null,
+    "concern": 50.5
+  },
+  "chandler-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 40.5
+  },
+  "st-louis-mo": {
+    "median_income": 55231,
+    "county": "St. Louis",
+    "fallback": null,
+    "concern": 97.1
+  },
+  "chula-vista-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 19.4
+  },
+  "fort-wayne-in": {
+    "median_income": 66194,
+    "county": "Allen",
+    "fallback": null,
+    "concern": 80.4
+  },
+  "buffalo-ny": {
+    "median_income": 70443,
+    "county": "Erie",
+    "fallback": null,
+    "concern": 74.8
+  },
+  "lubbock-tx": {
+    "median_income": 57883,
+    "county": "Lubbock",
+    "fallback": null,
+    "concern": 94.9
+  },
+  "laredo-tx": {
+    "median_income": 57899,
+    "county": "Webb",
+    "fallback": null,
+    "concern": 94.7
+  },
+  "port-st-lucie-fl": {
+    "median_income": 66876,
+    "county": "St. Lucie",
+    "fallback": null,
+    "concern": 79.3
+  },
+  "st-petersburg-fl": {
+    "median_income": 70684,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 74.2
+  },
+  "toledo-oh": {
+    "median_income": 60525,
+    "county": "Lucas",
+    "fallback": null,
+    "concern": 91.4
+  },
+  "glendale-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 40.3
+  },
+  "winston-salem-nc": {
+    "median_income": 65556,
+    "county": "Forsyth",
+    "fallback": null,
+    "concern": 84.0
+  },
+  "irving-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 66.5
+  },
+  "chesapeake-va": {
+    "median_income": 91582,
+    "county": "Chesapeake",
+    "fallback": null,
+    "concern": 32.1
+  },
+  "garland-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 66.3
+  },
+  "arlington-va": {
+    "median_income": 138416,
+    "county": "Arlington",
+    "fallback": null,
+    "concern": 2.0
+  },
+  "scottsdale-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 40.1
+  },
+  "boise-id": {
+    "median_income": 90513,
+    "county": "Ada",
+    "fallback": null,
+    "concern": 33.1
+  },
+  "richmond-va": {
+    "median_income": 64903,
+    "county": "Richmond",
+    "fallback": null,
+    "concern": 84.3
+  },
+  "frisco-tx": {
+    "median_income": 120149,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 7.4
+  },
+  "cape-coral-fl": {
+    "median_income": 71811,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 71.8
+  },
+  "mckinney-tx": {
+    "median_income": 120149,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 7.2
+  },
+  "huntsville-al": {
+    "median_income": 86172,
+    "county": "Madison",
+    "fallback": null,
+    "concern": 47.0
+  },
+  "norfolk-va": {
+    "median_income": 61098,
+    "county": "Norfolk",
+    "fallback": null,
+    "concern": 90.4
+  },
+  "hialeah-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 71.0
+  },
+  "spokane-wa": {
+    "median_income": 73380,
+    "county": "Spokane",
+    "fallback": null,
+    "concern": 67.7
+  },
+  "tacoma-wa": {
+    "median_income": 97493,
+    "county": "Pierce",
+    "fallback": null,
+    "concern": 25.4
+  },
+  "santa-clarita-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 45.8
+  },
+  "fremont-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 8.8
+  },
+  "baton-rouge-la": {
+    "median_income": 60205,
+    "county": "East Baton Rouge",
+    "fallback": null,
+    "concern": 92.0
+  },
+  "san-bernardino-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 50.1
+  },
+  "fontana-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 49.9
+  },
+  "modesto-ca": {
+    "median_income": 81582,
+    "county": "Stanislaus",
+    "fallback": null,
+    "concern": 52.8
+  },
+  "salt-lake-city-ut": {
+    "median_income": 94013,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 29.2
+  },
+  "moreno-valley-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 35.0
+  },
+  "worcester-ma": {
+    "median_income": 93561,
+    "county": "Worcester",
+    "fallback": null,
+    "concern": 30.5
+  },
+  "sioux-falls-sd": {
+    "median_income": 73277,
+    "county": "Minnehaha",
+    "fallback": null,
+    "concern": 68.1
+  },
+  "yonkers-ny": {
+    "median_income": 114020,
+    "county": "Westchester",
+    "fallback": null,
+    "concern": 9.6
+  },
+  "des-moines-ia": {
+    "median_income": 79509,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 56.9
+  },
+  "grand-prairie-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 66.1
+  },
+  "fayetteville-nc": {
+    "median_income": 61511,
+    "county": "Cumberland",
+    "fallback": null,
+    "concern": 89.2
+  },
+  "little-rock-ar": {
+    "median_income": 61344,
+    "county": "Pulaski",
+    "fallback": null,
+    "concern": 89.6
+  },
+  "rochester-ny": {
+    "median_income": 73263,
+    "county": "Monroe",
+    "fallback": null,
+    "concern": 68.3
+  },
+  "amarillo-tx": {
+    "median_income": 51177,
+    "county": "Potter",
+    "fallback": null,
+    "concern": 99.6
+  },
+  "tallahassee-fl": {
+    "median_income": 66063,
+    "county": "Leon",
+    "fallback": null,
+    "concern": 82.0
+  },
+  "overland-park-ks": {
+    "median_income": 103085,
+    "county": "Johnson",
+    "fallback": null,
+    "concern": 20.4
+  },
+  "columbus-ga": {
+    "median_income": 52492,
+    "county": "Muscogee",
+    "fallback": null,
+    "concern": 98.6
+  },
+  "knoxville-tn": {
+    "median_income": 70457,
+    "county": "Knox",
+    "fallback": null,
+    "concern": 74.6
+  },
+  "augusta-ga": {
+    "median_income": 52073,
+    "county": "Richmond",
+    "fallback": null,
+    "concern": 98.8
+  },
+  "grand-rapids-mi": {
+    "median_income": 79715,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 56.4
+  },
+  "peoria-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 39.9
+  },
+  "mobile-al": {
+    "median_income": 55538,
+    "county": "Mobile",
+    "fallback": null,
+    "concern": 96.9
+  },
+  "vancouver-wa": {
+    "median_income": 97240,
+    "county": "Clark",
+    "fallback": null,
+    "concern": 25.6
+  },
+  "oxnard-ca": {
+    "median_income": 106526,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 16.4
+  },
+  "birmingham-al": {
+    "median_income": 64726,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 84.7
+  },
+  "providence-ri": {
+    "median_income": 75307,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 61.6
+  },
+  "montgomery-al": {
+    "median_income": 60063,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 92.8
+  },
+  "chattanooga-tn": {
+    "median_income": 73319,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 67.9
+  },
+  "brownsville-tx": {
+    "median_income": 51716,
+    "county": "Cameron",
+    "fallback": null,
+    "concern": 99.2
+  },
+  "huntington-beach-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 13.7
+  },
+  "tempe-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 39.7
+  },
+  "akron-oh": {
+    "median_income": 69786,
+    "county": "Summit",
+    "fallback": null,
+    "concern": 75.5
+  },
+  "clarksville-tn": {
+    "median_income": 74701,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 63.0
+  },
+  "fort-lauderdale-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 65.6
+  },
+  "glendale-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 45.6
+  },
+  "ontario-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 49.7
+  },
+  "elk-grove-ca": {
+    "median_income": 89984,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 36.4
+  },
+  "cary-nc": {
+    "median_income": 103084,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 20.7
+  },
+  "newport-news-va": {
+    "median_income": 63911,
+    "county": "Newport News",
+    "fallback": null,
+    "concern": 85.3
+  },
+  "salem-or": {
+    "median_income": 73210,
+    "county": "Marion",
+    "fallback": null,
+    "concern": 68.5
+  },
+  "aurora-il": {
+    "median_income": 97543,
+    "county": "Kane",
+    "fallback": null,
+    "concern": 25.2
+  },
+  "santa-rosa-ca": {
+    "median_income": 100157,
+    "county": "Sonoma",
+    "fallback": null,
+    "concern": 22.7
+  },
+  "eugene-or": {
+    "median_income": 70065,
+    "county": "Lane",
+    "fallback": null,
+    "concern": 75.3
+  },
+  "rancho-cucamonga-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 49.5
+  },
+  "pembroke-pines-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 65.4
+  },
+  "shreveport-la": {
+    "median_income": 50773,
+    "county": "Caddo",
+    "fallback": null,
+    "concern": 100.0
+  },
+  "surprise-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 39.5
+  },
+  "fort-collins-co": {
+    "median_income": 88519,
+    "county": "Larimer",
+    "fallback": null,
+    "concern": 37.6
+  },
+  "murfreesboro-tn": {
+    "median_income": 81987,
+    "county": "Rutherford",
+    "fallback": null,
+    "concern": 52.3
+  },
+  "oceanside-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 19.2
+  },
+  "garden-grove-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 13.5
+  },
+  "lancaster-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 45.4
+  },
+  "springfield-mo": {
+    "median_income": 59740,
+    "county": "Greene",
+    "fallback": null,
+    "concern": 93.0
+  },
+  "denton-tx": {
+    "median_income": 107401,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 15.5
+  },
+  "roseville-ca": {
+    "median_income": 110020,
+    "county": "Placer",
+    "fallback": null,
+    "concern": 11.4
+  },
+  "killeen-tx": {
+    "median_income": 69562,
+    "county": "Bell",
+    "fallback": null,
+    "concern": 76.1
+  },
+  "palmdale-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 45.2
+  },
+  "paterson-nj": {
+    "median_income": 81823,
+    "county": "Passaic",
+    "fallback": null,
+    "concern": 52.6
+  },
+  "corona-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 34.8
+  },
+  "alexandria-va": {
+    "median_income": 109902,
+    "county": "Alexandria",
+    "fallback": null,
+    "concern": 11.5
+  },
+  "charleston-sc": {
+    "median_income": 88111,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 38.6
+  },
+  "salinas-ca": {
+    "median_income": 86809,
+    "county": "Monterey",
+    "fallback": null,
+    "concern": 41.3
+  },
+  "kansas-city-ks": {
+    "median_income": 61088,
+    "county": "Wyandotte",
+    "fallback": null,
+    "concern": 90.6
+  },
+  "macon-ga": {
+    "median_income": 51569,
+    "county": "Bibb",
+    "fallback": null,
+    "concern": 99.4
+  },
+  "hayward-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 8.6
+  },
+  "hollywood-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 65.2
+  },
+  "lakewood-co": {
+    "median_income": 102146,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 21.7
+  },
+  "sunnyvale-ca": {
+    "median_income": 154573,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 0.6
+  },
+  "springfield-ma": {
+    "median_income": 67155,
+    "county": "Hampden",
+    "fallback": null,
+    "concern": 78.7
+  },
+  "bellevue-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 6.7
+  },
+  "naperville-il": {
+    "median_income": 107032,
+    "county": "DuPage",
+    "fallback": null,
+    "concern": 15.7
+  },
+  "bridgeport-ct": {
+    "median_income": 92858,
+    "county": "Greater Bridgeport",
+    "fallback": null,
+    "concern": 30.9
+  },
+  "joliet-il": {
+    "median_income": 103587,
+    "county": "Will",
+    "fallback": null,
+    "concern": 17.6
+  },
+  "mesquite-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 65.9
+  },
+  "mcallen-tx": {
+    "median_income": 53160,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 98.4
+  },
+  "olathe-ks": {
+    "median_income": 103085,
+    "county": "Johnson",
+    "fallback": null,
+    "concern": 20.2
+  },
+  "savannah-ga": {
+    "median_income": 70556,
+    "county": "Chatham",
+    "fallback": null,
+    "concern": 74.4
+  },
+  "gainesville-fl": {
+    "median_income": 61843,
+    "county": "Alachua",
+    "fallback": null,
+    "concern": 88.8
+  },
+  "pasadena-tx": {
+    "median_income": 72348,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 69.5
+  },
+  "palm-bay-fl": {
+    "median_income": 77961,
+    "county": "Brevard",
+    "fallback": null,
+    "concern": 58.3
+  },
+  "pomona-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 45.0
+  },
+  "waco-tx": {
+    "median_income": 63377,
+    "county": "McLennan",
+    "fallback": null,
+    "concern": 86.3
+  },
+  "thornton-co": {
+    "median_income": 95278,
+    "county": "Adams",
+    "fallback": null,
+    "concern": 27.0
+  },
+  "midland-tx": {
+    "median_income": 94375,
+    "county": "Midland",
+    "fallback": null,
+    "concern": 28.2
+  },
+  "rockford-il": {
+    "median_income": 65795,
+    "county": "Winnebago",
+    "fallback": null,
+    "concern": 83.4
+  },
+  "columbia-sc": {
+    "median_income": 61508,
+    "county": "Richland",
+    "fallback": null,
+    "concern": 89.4
+  },
+  "visalia-ca": {
+    "median_income": 71368,
+    "county": "Tulare",
+    "fallback": null,
+    "concern": 72.4
+  },
+  "escondido-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 19.0
+  },
+  "syracuse-ny": {
+    "median_income": 74388,
+    "county": "Onondaga",
+    "fallback": null,
+    "concern": 63.6
+  },
+  "meridian-id": {
+    "median_income": 90513,
+    "county": "Ada",
+    "fallback": null,
+    "concern": 32.9
+  },
+  "miramar-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 65.0
+  },
+  "elizabeth-nj": {
+    "median_income": 100031,
+    "county": "Union",
+    "fallback": null,
+    "concern": 22.9
+  },
+  "victorville-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 49.3
+  },
+  "round-rock-tx": {
+    "median_income": 111183,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 10.6
+  },
+  "jackson-ms": {
+    "median_income": 50965,
+    "county": "Hinds",
+    "fallback": null,
+    "concern": 99.8
+  },
+  "stamford-ct": {
+    "median_income": 121285,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 4.9
+  },
+  "lewisville-tx": {
+    "median_income": 107401,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 15.3
+  },
+  "coral-springs-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 64.8
+  },
+  "new-haven-ct": {
+    "median_income": 80953,
+    "county": "South Central Connecticut",
+    "fallback": null,
+    "concern": 54.4
+  },
+  "fullerton-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 13.3
+  },
+  "torrance-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 44.8
+  },
+  "orange-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 13.1
+  },
+  "cedar-rapids-ia": {
+    "median_income": 73079,
+    "county": "Linn",
+    "fallback": null,
+    "concern": 68.7
+  },
+  "west-valley-city-ut": {
+    "median_income": 94013,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 29.0
+  },
+  "hampton-va": {
+    "median_income": 67764,
+    "county": "Hampton",
+    "fallback": null,
+    "concern": 77.9
+  },
+  "warren-mi": {
+    "median_income": 73929,
+    "county": "Macomb",
+    "fallback": null,
+    "concern": 67.3
+  },
+  "dayton-oh": {
+    "median_income": 62650,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 87.1
+  },
+  "fargo-nd": {
+    "median_income": 75477,
+    "county": "Cass",
+    "fallback": null,
+    "concern": 61.1
+  },
+  "pasadena-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 44.6
+  },
+  "kent-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 6.5
+  },
+  "carrollton-tx": {
+    "median_income": 107401,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 15.1
+  },
+  "sterling-heights-mi": {
+    "median_income": 73929,
+    "county": "Macomb",
+    "fallback": null,
+    "concern": 67.1
+  },
+  "santa-clara-ca": {
+    "median_income": 154573,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 0.4
+  },
+  "abilene-tx": {
+    "median_income": 62128,
+    "county": "Taylor",
+    "fallback": null,
+    "concern": 87.9
+  },
+  "norman-ok": {
+    "median_income": 74889,
+    "county": "Cleveland",
+    "fallback": null,
+    "concern": 62.6
+  },
+  "columbia-mo": {
+    "median_income": 70153,
+    "county": "Boone",
+    "fallback": null,
+    "concern": 75.1
+  },
+  "pearland-tx": {
+    "median_income": 93071,
+    "county": "Brazoria",
+    "fallback": null,
+    "concern": 30.7
+  },
+  "clovis-ca": {
+    "median_income": 71271,
+    "county": "Fresno",
+    "fallback": null,
+    "concern": 72.8
+  },
+  "north-charleston-sc": {
+    "median_income": 88111,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 38.4
+  },
+  "athens-ga": {
+    "median_income": 54550,
+    "county": "Clarke",
+    "fallback": null,
+    "concern": 97.3
+  },
+  "college-station-tx": {
+    "median_income": 55724,
+    "county": "Brazos",
+    "fallback": null,
+    "concern": 96.7
+  },
+  "west-palm-beach-fl": {
+    "median_income": 84789,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 47.9
+  },
+  "wilmington-nc": {
+    "median_income": 79106,
+    "county": "New Hanover",
+    "fallback": null,
+    "concern": 57.1
+  },
+  "allentown-pa": {
+    "median_income": 76270,
+    "county": "Lehigh",
+    "fallback": null,
+    "concern": 60.3
+  },
+  "topeka-ks": {
+    "median_income": 63612,
+    "county": "Shawnee",
+    "fallback": null,
+    "concern": 85.9
+  },
+  "lakeland-fl": {
+    "median_income": 66709,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 79.6
+  },
+  "buckeye-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 39.3
+  },
+  "goodyear-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 39.1
+  },
+  "broken-arrow-ok": {
+    "median_income": 65619,
+    "county": "Tulsa",
+    "fallback": null,
+    "concern": 83.6
+  },
+  "simi-valley-ca": {
+    "median_income": 106526,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 16.2
+  },
+  "rochester-mn": {
+    "median_income": 89431,
+    "county": "Olmsted",
+    "fallback": null,
+    "concern": 37.0
+  },
+  "lafayette-la": {
+    "median_income": 64181,
+    "county": "Lafayette",
+    "fallback": null,
+    "concern": 84.9
+  },
+  "vallejo-ca": {
+    "median_income": 99117,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 24.1
+  },
+  "concord-ca": {
+    "median_income": 122000,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.3
+  },
+  "arvada-co": {
+    "median_income": 102146,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 21.5
+  },
+  "odessa-tx": {
+    "median_income": 66813,
+    "county": "Ector",
+    "fallback": null,
+    "concern": 79.5
+  },
+  "cambridge-ma": {
+    "median_income": 123288,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 3.3
+  },
+  "new-braunfels-tx": {
+    "median_income": 99871,
+    "county": "Comal",
+    "fallback": null,
+    "concern": 23.3
+  },
+  "fairfield-ca": {
+    "median_income": 99117,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 23.9
+  },
+  "ann-arbor-mi": {
+    "median_income": 84704,
+    "county": "Washtenaw",
+    "fallback": null,
+    "concern": 48.1
+  },
+  "thousand-oaks-ca": {
+    "median_income": 106526,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 16.0
+  },
+  "hartford-ct": {
+    "median_income": 90965,
+    "county": "Capitol",
+    "fallback": null,
+    "concern": 32.5
+  },
+  "berkeley-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 8.4
+  },
+  "independence-mo": {
+    "median_income": 66102,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 81.6
+  },
+  "billings-mt": {
+    "median_income": 70221,
+    "county": "Yellowstone",
+    "fallback": null,
+    "concern": 75.0
+  },
+  "high-point-nc": {
+    "median_income": 65890,
+    "county": "Guilford",
+    "fallback": null,
+    "concern": 83.0
+  },
+  "nampa-id": {
+    "median_income": 72059,
+    "county": "Canyon",
+    "fallback": null,
+    "concern": 70.1
+  },
+  "lowell-ma": {
+    "median_income": 123288,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 3.1
+  },
+  "league-city-tx": {
+    "median_income": 83080,
+    "county": "Galveston",
+    "fallback": null,
+    "concern": 51.7
+  },
+  "conroe-tx": {
+    "median_income": 92578,
+    "county": "Montgomery",
+    "fallback": null,
+    "concern": 31.3
+  },
+  "antioch-ca": {
+    "median_income": 122000,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 4.1
+  },
+  "menifee-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 34.6
+  },
+  "richardson-tx": {
+    "median_income": 74352,
+    "county": "Dallas",
+    "fallback": null,
+    "concern": 65.8
+  },
+  "pompano-beach-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 64.6
+  },
+  "las-cruces-nm": {
+    "median_income": 56233,
+    "county": "Do\u00f1a Ana",
+    "fallback": null,
+    "concern": 96.3
+  },
+  "manchester-nh": {
+    "median_income": 103181,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 20.0
+  },
+  "west-jordan-ut": {
+    "median_income": 94013,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 28.8
+  },
+  "westminster-co": {
+    "median_income": 102146,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 21.3
+  },
+  "evansville-in": {
+    "median_income": 60923,
+    "county": "Vanderburgh",
+    "fallback": null,
+    "concern": 90.8
+  },
+  "waterbury-ct": {
+    "median_income": 81392,
+    "county": "Naugatuck Valley",
+    "fallback": null,
+    "concern": 53.4
+  },
+  "elgin-il": {
+    "median_income": 97543,
+    "county": "Kane",
+    "fallback": null,
+    "concern": 25.0
+  },
+  "greeley-co": {
+    "median_income": 90675,
+    "county": "Weld",
+    "fallback": null,
+    "concern": 32.7
+  },
+  "temecula-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 34.4
+  },
+  "richmond-ca": {
+    "median_income": 122000,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 3.9
+  },
+  "concord-nc": {
+    "median_income": 85540,
+    "county": "Cabarrus",
+    "fallback": null,
+    "concern": 47.2
+  },
+  "provo-ut": {
+    "median_income": 100617,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 22.5
+  },
+  "rio-rancho-nm": {
+    "median_income": 81557,
+    "county": "Sandoval",
+    "fallback": null,
+    "concern": 53.0
+  },
+  "clearwater-fl": {
+    "median_income": 70684,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 74.0
+  },
+  "tuscaloosa-al": {
+    "median_income": 61117,
+    "county": "Tuscaloosa",
+    "fallback": null,
+    "concern": 90.2
+  },
+  "murrieta-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 34.2
+  },
+  "lansing-mi": {
+    "median_income": 63483,
+    "county": "Ingham",
+    "fallback": null,
+    "concern": 86.1
+  },
+  "tyler-tx": {
+    "median_income": 71348,
+    "county": "Smith",
+    "fallback": null,
+    "concern": 72.6
+  },
+  "miami-gardens-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 70.8
+  },
+  "everett-wa": {
+    "median_income": 106067,
+    "county": "Snohomish",
+    "fallback": null,
+    "concern": 17.2
+  },
+  "allen-tx": {
+    "median_income": 120149,
+    "county": "Collin",
+    "fallback": null,
+    "concern": 7.0
+  },
+  "springfield-il": {
+    "median_income": 73004,
+    "county": "Sangamon",
+    "fallback": null,
+    "concern": 68.9
+  },
+  "beaumont-tx": {
+    "median_income": 59298,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 93.2
+  },
+  "south-fulton-ga": {
+    "median_income": 94510,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 27.8
+  },
+  "carlsbad-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 18.8
+  },
+  "sparks-nv": {
+    "median_income": 84282,
+    "county": "Washoe",
+    "fallback": null,
+    "concern": 50.3
+  },
+  "gresham-or": {
+    "median_income": 83290,
+    "county": "Multnomah",
+    "fallback": null,
+    "concern": 51.3
+  },
+  "santa-maria-ca": {
+    "median_income": 90155,
+    "county": "Santa Barbara",
+    "fallback": null,
+    "concern": 35.6
+  },
+  "hillsboro-or": {
+    "median_income": 103486,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 18.0
+  },
+  "peoria-il": {
+    "median_income": 62873,
+    "county": "Peoria",
+    "fallback": null,
+    "concern": 86.9
+  },
+  "davie-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 64.4
+  },
+  "edinburg-tx": {
+    "median_income": 53160,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 98.2
+  },
+  "pueblo-co": {
+    "median_income": 63801,
+    "county": "Pueblo",
+    "fallback": null,
+    "concern": 85.5
+  },
+  "ventura-ca": {
+    "median_income": 106526,
+    "county": "Ventura",
+    "fallback": null,
+    "concern": 15.9
+  },
+  "palm-coast-fl": {
+    "median_income": 74753,
+    "county": "Flagler",
+    "fallback": null,
+    "concern": 62.8
+  },
+  "costa-mesa-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 12.9
+  },
+  "st-george-ut": {
+    "median_income": 78094,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 57.9
+  },
+  "centennial-co": {
+    "median_income": 97560,
+    "county": "Arapahoe",
+    "fallback": null,
+    "concern": 24.5
+  },
+  "downey-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 44.4
+  },
+  "spokane-valley-wa": {
+    "median_income": 73380,
+    "county": "Spokane",
+    "fallback": null,
+    "concern": 67.5
+  },
+  "sugar-land-tx": {
+    "median_income": 106213,
+    "county": "Fort Bend",
+    "fallback": null,
+    "concern": 16.8
+  },
+  "lees-summit-mo": {
+    "median_income": 66102,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 81.4
+  },
+  "bend-or": {
+    "median_income": 95414,
+    "county": "Deschutes",
+    "fallback": null,
+    "concern": 26.8
+  },
+  "jurupa-valley-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 34.1
+  },
+  "georgetown-tx": {
+    "median_income": 111183,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 10.4
+  },
+  "green-bay-wi": {
+    "median_income": 77645,
+    "county": "Brown",
+    "fallback": null,
+    "concern": 59.1
+  },
+  "fayetteville-ar": {
+    "median_income": 66158,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 80.8
+  },
+  "rialto-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 49.1
+  },
+  "brockton-ma": {
+    "median_income": 107828,
+    "county": "Plymouth",
+    "fallback": null,
+    "concern": 14.7
+  },
+  "boulder-co": {
+    "median_income": 97170,
+    "county": "Boulder",
+    "fallback": null,
+    "concern": 26.0
+  },
+  "carmel-in": {
+    "median_income": 121231,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 5.3
+  },
+  "dearborn-mi": {
+    "median_income": 57418,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 95.5
+  },
+  "west-covina-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 44.2
+  },
+  "yuma-az": {
+    "median_income": 61225,
+    "county": "Yuma",
+    "fallback": null,
+    "concern": 90.0
+  },
+  "chico-ca": {
+    "median_income": 63084,
+    "county": "Butte",
+    "fallback": null,
+    "concern": 86.7
+  },
+  "el-monte-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 44.0
+  },
+  "sandy-springs-ga": {
+    "median_income": 94510,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 27.6
+  },
+  "renton-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 6.3
+  },
+  "fishers-in": {
+    "median_income": 121231,
+    "county": "Hamilton",
+    "fallback": null,
+    "concern": 5.1
+  },
+  "suffolk-va": {
+    "median_income": 81297,
+    "county": "Suffolk",
+    "fallback": null,
+    "concern": 53.6
+  },
+  "lynn-ma": {
+    "median_income": 96303,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 26.4
+  },
+  "vacaville-ca": {
+    "median_income": 99117,
+    "county": "Solano",
+    "fallback": null,
+    "concern": 23.7
+  },
+  "san-mateo-ca": {
+    "median_income": 151004,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 1.4
+  },
+  "south-bend-in": {
+    "median_income": 65977,
+    "county": "St. Joseph",
+    "fallback": null,
+    "concern": 82.8
+  },
+  "quincy-ma": {
+    "median_income": 123449,
+    "county": "Norfolk",
+    "fallback": null,
+    "concern": 2.5
+  },
+  "burbank-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 43.8
+  },
+  "hesperia-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 48.9
+  },
+  "wichita-falls-tx": {
+    "median_income": 61622,
+    "county": "Wichita",
+    "fallback": null,
+    "concern": 89.0
+  },
+  "tracy-ca": {
+    "median_income": 86211,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 46.6
+  },
+  "new-bedford-ma": {
+    "median_income": 81047,
+    "county": "Bristol",
+    "fallback": null,
+    "concern": 54.2
+  },
+  "el-cajon-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 18.6
+  },
+  "albany-ny": {
+    "median_income": 81193,
+    "county": "Albany",
+    "fallback": null,
+    "concern": 53.8
+  },
+  "inglewood-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 43.6
+  },
+  "boca-raton-fl": {
+    "median_income": 84789,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 47.7
+  },
+  "fort-myers-fl": {
+    "median_income": 71811,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 71.6
+  },
+  "daly-city-ca": {
+    "median_income": 151004,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 1.2
+  },
+  "avondale-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 38.9
+  },
+  "san-angelo-tx": {
+    "median_income": 60379,
+    "county": "Tom Green",
+    "fallback": null,
+    "concern": 91.6
+  },
+  "edmond-ok": {
+    "median_income": 65979,
+    "county": "Oklahoma",
+    "fallback": null,
+    "concern": 82.4
+  },
+  "davenport-ia": {
+    "median_income": 77100,
+    "county": "Scott",
+    "fallback": null,
+    "concern": 59.5
+  },
+  "deltona-fl": {
+    "median_income": 66111,
+    "county": "Volusia",
+    "fallback": null,
+    "concern": 81.2
+  },
+  "longmont-co": {
+    "median_income": 97170,
+    "county": "Boulder",
+    "fallback": null,
+    "concern": 25.8
+  },
+  "federal-way-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 6.1
+  },
+  "merced-ca": {
+    "median_income": 58962,
+    "county": "Merced",
+    "fallback": null,
+    "concern": 93.5
+  },
+  "kenosha-wi": {
+    "median_income": 75699,
+    "county": "Kenosha",
+    "fallback": null,
+    "concern": 60.7
+  },
+  "plantation-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 64.2
+  },
+  "roanoke-va": {
+    "median_income": 51782,
+    "county": "Roanoke",
+    "fallback": null,
+    "concern": 99.0
+  },
+  "sunrise-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 64.0
+  },
+  "temple-tx": {
+    "median_income": 69562,
+    "county": "Bell",
+    "fallback": null,
+    "concern": 75.9
+  },
+  "vista-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 18.4
+  },
+  "beaverton-or": {
+    "median_income": 103486,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 17.8
+  },
+  "yakima-wa": {
+    "median_income": 67112,
+    "county": "Yakima",
+    "fallback": null,
+    "concern": 78.9
+  },
+  "kirkland-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.9
+  },
+  "norwalk-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 43.4
+  },
+  "chino-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 48.7
+  },
+  "portsmouth-va": {
+    "median_income": 57012,
+    "county": "Portsmouth",
+    "fallback": null,
+    "concern": 95.9
+  },
+  "manteca-ca": {
+    "median_income": 86211,
+    "county": "San Joaquin",
+    "fallback": null,
+    "concern": 46.4
+  },
+  "north-port-fl": {
+    "median_income": 78218,
+    "county": "Sarasota",
+    "fallback": null,
+    "concern": 57.7
+  },
+  "greenville-nc": {
+    "median_income": 60268,
+    "county": "Pitt",
+    "fallback": null,
+    "concern": 91.8
+  },
+  "bellingham-wa": {
+    "median_income": 75920,
+    "county": "Whatcom",
+    "fallback": null,
+    "concern": 60.5
+  },
+  "lawrence-ks": {
+    "median_income": 68561,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 77.1
+  },
+  "ofallon-mo": {
+    "median_income": 98765,
+    "county": "St. Charles",
+    "fallback": null,
+    "concern": 24.3
+  },
+  "reading-pa": {
+    "median_income": 75655,
+    "county": "Berks",
+    "fallback": null,
+    "concern": 60.9
+  },
+  "mount-pleasant-sc": {
+    "median_income": 88111,
+    "county": "Charleston",
+    "fallback": null,
+    "concern": 38.2
+  },
+  "lehi-ut": {
+    "median_income": 100617,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 22.3
+  },
+  "fall-river-ma": {
+    "median_income": 81047,
+    "county": "Bristol",
+    "fallback": null,
+    "concern": 54.0
+  },
+  "orem-ut": {
+    "median_income": 100617,
+    "county": "Utah",
+    "fallback": null,
+    "concern": 22.1
+  },
+  "san-marcos-ca": {
+    "median_income": 103476,
+    "county": "San Diego",
+    "fallback": null,
+    "concern": 18.2
+  },
+  "norwalk-ct": {
+    "median_income": 121285,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 4.7
+  },
+  "indio-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 33.9
+  },
+  "redding-ca": {
+    "median_income": 71935,
+    "county": "Shasta",
+    "fallback": null,
+    "concern": 71.4
+  },
+  "hemet-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 33.7
+  },
+  "hoover-al": {
+    "median_income": 64726,
+    "county": "Jefferson",
+    "fallback": null,
+    "concern": 84.5
+  },
+  "asheville-nc": {
+    "median_income": 71218,
+    "county": "Buncombe",
+    "fallback": null,
+    "concern": 73.2
+  },
+  "livonia-mi": {
+    "median_income": 57418,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 95.3
+  },
+  "nashua-nh": {
+    "median_income": 103181,
+    "county": "Hillsborough",
+    "fallback": null,
+    "concern": 19.8
+  },
+  "sandy-ut": {
+    "median_income": 94013,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 28.6
+  },
+  "frederick-md": {
+    "median_income": 114089,
+    "county": "Frederick",
+    "fallback": null,
+    "concern": 9.2
+  },
+  "bryan-tx": {
+    "median_income": 55724,
+    "county": "Brazos",
+    "fallback": null,
+    "concern": 96.5
+  },
+  "folsom-ca": {
+    "median_income": 89984,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 36.2
+  },
+  "erie-pa": {
+    "median_income": 60721,
+    "county": "Erie",
+    "fallback": null,
+    "concern": 91.0
+  },
+  "trenton-nj": {
+    "median_income": 95502,
+    "county": "Mercer",
+    "fallback": null,
+    "concern": 26.6
+  },
+  "roswell-ga": {
+    "median_income": 94510,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 27.4
+  },
+  "champaign-il": {
+    "median_income": 62169,
+    "county": "Champaign",
+    "fallback": null,
+    "concern": 87.7
+  },
+  "leander-tx": {
+    "median_income": 111183,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 10.2
+  },
+  "clifton-nj": {
+    "median_income": 81823,
+    "county": "Passaic",
+    "fallback": null,
+    "concern": 52.4
+  },
+  "fort-smith-ar": {
+    "median_income": 58112,
+    "county": "Sebastian",
+    "fallback": null,
+    "concern": 94.1
+  },
+  "carson-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 43.2
+  },
+  "newton-ma": {
+    "median_income": 123288,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 2.9
+  },
+  "springdale-ar": {
+    "median_income": 66158,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 80.6
+  },
+  "lawton-ok": {
+    "median_income": 56973,
+    "county": "Comanche",
+    "fallback": null,
+    "concern": 96.1
+  },
+  "compton-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 43.1
+  },
+  "mission-viejo-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 12.7
+  },
+  "franklin-tn": {
+    "median_income": 136007,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 2.2
+  },
+  "santa-monica-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 42.9
+  },
+  "south-gate-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 42.7
+  },
+  "santa-fe-nm": {
+    "median_income": 78366,
+    "county": "Santa Fe",
+    "fallback": null,
+    "concern": 57.5
+  },
+  "queen-creek-az": {
+    "median_income": 86973,
+    "county": "Maricopa",
+    "fallback": null,
+    "concern": 38.7
+  },
+  "ogden-ut": {
+    "median_income": 86678,
+    "county": "Weber",
+    "fallback": null,
+    "concern": 41.5
+  },
+  "deerfield-beach-fl": {
+    "median_income": 74367,
+    "county": "Broward",
+    "fallback": null,
+    "concern": 63.8
+  },
+  "lawrence-ma": {
+    "median_income": 96303,
+    "county": "Essex",
+    "fallback": null,
+    "concern": 26.2
+  },
+  "bloomington-mn": {
+    "median_income": 93642,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 29.9
+  },
+  "danbury-ct": {
+    "median_income": 121285,
+    "county": "Western Connecticut",
+    "fallback": null,
+    "concern": 4.5
+  },
+  "mission-tx": {
+    "median_income": 53160,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 98.0
+  },
+  "westminster-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 12.5
+  },
+  "troy-mi": {
+    "median_income": 92230,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 31.9
+  },
+  "daytona-beach-fl": {
+    "median_income": 66111,
+    "county": "Volusia",
+    "fallback": null,
+    "concern": 81.0
+  },
+  "kennewick-wa": {
+    "median_income": 83040,
+    "county": "Benton",
+    "fallback": null,
+    "concern": 51.9
+  },
+  "duluth-mn": {
+    "median_income": 67311,
+    "county": "St. Louis",
+    "fallback": null,
+    "concern": 78.5
+  },
+  "waukegan-il": {
+    "median_income": 108349,
+    "county": "Lake",
+    "fallback": null,
+    "concern": 14.5
+  },
+  "warner-robins-ga": {
+    "median_income": 75266,
+    "county": "Houston",
+    "fallback": null,
+    "concern": 61.8
+  },
+  "south-jordan-ut": {
+    "median_income": 94013,
+    "county": "Salt Lake",
+    "fallback": null,
+    "concern": 28.4
+  },
+  "rancho-cordova-ca": {
+    "median_income": 89984,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 36.0
+  },
+  "melbourne-fl": {
+    "median_income": 77961,
+    "county": "Brevard",
+    "fallback": null,
+    "concern": 58.1
+  },
+  "gastonia-nc": {
+    "median_income": 67076,
+    "county": "Gaston",
+    "fallback": null,
+    "concern": 79.1
+  },
+  "baytown-tx": {
+    "median_income": 72348,
+    "county": "Harris",
+    "fallback": null,
+    "concern": 69.3
+  },
+  "medford-or": {
+    "median_income": 71030,
+    "county": "Jackson",
+    "fallback": null,
+    "concern": 73.6
+  },
+  "santa-barbara-ca": {
+    "median_income": 90155,
+    "county": "Santa Barbara",
+    "fallback": null,
+    "concern": 35.4
+  },
+  "sioux-city-ia": {
+    "median_income": 65984,
+    "county": "Woodbury",
+    "fallback": null,
+    "concern": 82.2
+  },
+  "citrus-heights-ca": {
+    "median_income": 89984,
+    "county": "Sacramento",
+    "fallback": null,
+    "concern": 35.8
+  },
+  "lake-forest-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 12.3
+  },
+  "auburn-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.7
+  },
+  "homestead-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 70.6
+  },
+  "san-ramon-ca": {
+    "median_income": 122000,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 3.7
+  },
+  "new-rochelle-ny": {
+    "median_income": 114020,
+    "county": "Westchester",
+    "fallback": null,
+    "concern": 9.4
+  },
+  "whittier-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 42.5
+  },
+  "kissimmee-fl": {
+    "median_income": 76416,
+    "county": "Osceola",
+    "fallback": null,
+    "concern": 60.1
+  },
+  "mountain-view-ca": {
+    "median_income": 154573,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 0.2
+  },
+  "san-leandro-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 8.2
+  },
+  "layton-ut": {
+    "median_income": 111081,
+    "county": "Davis",
+    "fallback": null,
+    "concern": 11.0
+  },
+  "auburn-al": {
+    "median_income": 62301,
+    "county": "Lee",
+    "fallback": null,
+    "concern": 87.5
+  },
+  "cranston-ri": {
+    "median_income": 75307,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 61.4
+  },
+  "mansfield-tx": {
+    "median_income": 80083,
+    "county": "Tarrant",
+    "fallback": null,
+    "concern": 55.4
+  },
+  "somerville-ma": {
+    "median_income": 123288,
+    "county": "Middlesex",
+    "fallback": null,
+    "concern": 2.7
+  },
+  "warwick-ri": {
+    "median_income": 89914,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 36.8
+  },
+  "castle-rock-co": {
+    "median_income": 144807,
+    "county": "Douglas",
+    "fallback": null,
+    "concern": 1.8
+  },
+  "brooklyn-park-mn": {
+    "median_income": 93642,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 29.7
+  },
+  "livermore-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 8.0
+  },
+  "bloomington-in": {
+    "median_income": 60553,
+    "county": "Monroe",
+    "fallback": null,
+    "concern": 91.2
+  },
+  "jonesboro-ar": {
+    "median_income": 60204,
+    "county": "Craighead",
+    "fallback": null,
+    "concern": 92.2
+  },
+  "farmington-hills-mi": {
+    "median_income": 92230,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 31.7
+  },
+  "perris-ca": {
+    "median_income": 90251,
+    "county": "Riverside",
+    "fallback": null,
+    "concern": 33.5
+  },
+  "longview-tx": {
+    "median_income": 61254,
+    "county": "Gregg",
+    "fallback": null,
+    "concern": 89.8
+  },
+  "pasco-wa": {
+    "median_income": 82542,
+    "county": "Franklin",
+    "fallback": null,
+    "concern": 52.1
+  },
+  "hawthorne-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 42.3
+  },
+  "lake-charles-la": {
+    "median_income": 63912,
+    "county": "Calcasieu",
+    "fallback": null,
+    "concern": 85.1
+  },
+  "redmond-wa": {
+    "median_income": 120672,
+    "county": "King",
+    "fallback": null,
+    "concern": 5.5
+  },
+  "boynton-beach-fl": {
+    "median_income": 84789,
+    "county": "Palm Beach",
+    "fallback": null,
+    "concern": 47.6
+  },
+  "westland-mi": {
+    "median_income": 57418,
+    "county": "Wayne",
+    "fallback": null,
+    "concern": 95.1
+  },
+  "redwood-city-ca": {
+    "median_income": 151004,
+    "county": "San Mateo",
+    "fallback": null,
+    "concern": 1.0
+  },
+  "newport-beach-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 12.1
+  },
+  "cicero-il": {
+    "median_income": 80547,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 54.8
+  },
+  "buena-park-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 11.9
+  },
+  "doral-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 70.5
+  },
+  "miami-beach-fl": {
+    "median_income": 72030,
+    "county": "Miami-Dade",
+    "fallback": null,
+    "concern": 70.3
+  },
+  "woodbury-mn": {
+    "median_income": 111118,
+    "county": "Washington",
+    "fallback": null,
+    "concern": 10.8
+  },
+  "loveland-co": {
+    "median_income": 88519,
+    "county": "Larimer",
+    "fallback": null,
+    "concern": 37.4
+  },
+  "lynchburg-va": {
+    "median_income": 58962,
+    "county": "Lynchburg",
+    "fallback": null,
+    "concern": 93.3
+  },
+  "pharr-tx": {
+    "median_income": 53160,
+    "county": "Hidalgo",
+    "fallback": null,
+    "concern": 97.8
+  },
+  "largo-fl": {
+    "median_income": 70684,
+    "county": "Pinellas",
+    "fallback": null,
+    "concern": 73.8
+  },
+  "rapid-city-sd": {
+    "median_income": 74641,
+    "county": "Pennington",
+    "fallback": null,
+    "concern": 63.2
+  },
+  "apex-nc": {
+    "median_income": 103084,
+    "county": "Wake",
+    "fallback": null,
+    "concern": 20.5
+  },
+  "johns-creek-ga": {
+    "median_income": 94510,
+    "county": "Fulton",
+    "fallback": null,
+    "concern": 27.2
+  },
+  "alhambra-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 42.1
+  },
+  "bethlehem-pa": {
+    "median_income": 84051,
+    "county": "Northampton",
+    "fallback": null,
+    "concern": 50.9
+  },
+  "flower-mound-tx": {
+    "median_income": 107401,
+    "county": "Denton",
+    "fallback": null,
+    "concern": 14.9
+  },
+  "upland-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 48.5
+  },
+  "flint-mi": {
+    "median_income": 60192,
+    "county": "Genesee",
+    "fallback": null,
+    "concern": 92.6
+  },
+  "lakeville-mn": {
+    "median_income": 100012,
+    "county": "Dakota",
+    "fallback": null,
+    "concern": 23.1
+  },
+  "broomfield-co": {
+    "median_income": 113162,
+    "county": "Broomfield",
+    "fallback": null,
+    "concern": 9.8
+  },
+  "cedar-park-tx": {
+    "median_income": 111183,
+    "county": "Williamson",
+    "fallback": null,
+    "concern": 10.0
+  },
+  "plymouth-mn": {
+    "median_income": 93642,
+    "county": "Hennepin",
+    "fallback": null,
+    "concern": 29.5
+  },
+  "missoula-mt": {
+    "median_income": 72882,
+    "county": "Missoula",
+    "fallback": null,
+    "concern": 69.1
+  },
+  "mableton-ga": {
+    "median_income": 99134,
+    "county": "Cobb",
+    "fallback": null,
+    "concern": 23.5
+  },
+  "bloomington-il": {
+    "median_income": 79622,
+    "county": "McLean",
+    "fallback": null,
+    "concern": 56.6
+  },
+  "milpitas-ca": {
+    "median_income": 154573,
+    "county": "Santa Clara",
+    "fallback": null,
+    "concern": 0.0
+  },
+  "wyoming-mi": {
+    "median_income": 79715,
+    "county": "Kent",
+    "fallback": null,
+    "concern": 56.2
+  },
+  "parma-oh": {
+    "median_income": 61912,
+    "county": "Cuyahoga",
+    "fallback": null,
+    "concern": 88.3
+  },
+  "bowling-green-ky": {
+    "median_income": 62108,
+    "county": "Warren",
+    "fallback": null,
+    "concern": 88.1
+  },
+  "maricopa-az": {
+    "median_income": 77290,
+    "county": "Pinal",
+    "fallback": null,
+    "concern": 59.3
+  },
+  "lakewood-ca": {
+    "median_income": 86499,
+    "county": "Los Angeles",
+    "fallback": null,
+    "concern": 41.9
+  },
+  "bismarck-nd": {
+    "median_income": 86521,
+    "county": "Burleigh",
+    "fallback": null,
+    "concern": 41.7
+  },
+  "racine-wi": {
+    "median_income": 74555,
+    "county": "Racine",
+    "fallback": null,
+    "concern": 63.4
+  },
+  "tustin-ca": {
+    "median_income": 109768,
+    "county": "Orange",
+    "fallback": null,
+    "concern": 11.7
+  },
+  "ankeny-ia": {
+    "median_income": 79509,
+    "county": "Polk",
+    "fallback": null,
+    "concern": 56.8
+  },
+  "san-marcos-tx": {
+    "median_income": 88491,
+    "county": "Hays",
+    "fallback": null,
+    "concern": 37.8
+  },
+  "marysville-wa": {
+    "median_income": 106067,
+    "county": "Snohomish",
+    "fallback": null,
+    "concern": 17.0
+  },
+  "pittsburg-ca": {
+    "median_income": 122000,
+    "county": "Contra Costa",
+    "fallback": null,
+    "concern": 3.5
+  },
+  "rochester-hills-mi": {
+    "median_income": 92230,
+    "county": "Oakland",
+    "fallback": null,
+    "concern": 31.5
+  },
+  "chino-hills-ca": {
+    "median_income": 84576,
+    "county": "San Bernardino",
+    "fallback": null,
+    "concern": 48.3
+  },
+  "missouri-city-tx": {
+    "median_income": 106213,
+    "county": "Fort Bend",
+    "fallback": null,
+    "concern": 16.6
+  },
+  "flagstaff-az": {
+    "median_income": 71528,
+    "county": "Coconino",
+    "fallback": null,
+    "concern": 72.2
+  },
+  "schaumburg-il": {
+    "median_income": 80547,
+    "county": "Cook",
+    "fallback": null,
+    "concern": 54.6
+  },
+  "pawtucket-ri": {
+    "median_income": 75307,
+    "county": "Providence",
+    "fallback": null,
+    "concern": 61.3
+  },
+  "rogers-ar": {
+    "median_income": 92632,
+    "county": "Benton",
+    "fallback": null,
+    "concern": 31.1
+  },
+  "alameda-ca": {
+    "median_income": 119230,
+    "county": "Alameda",
+    "fallback": null,
+    "concern": 7.8
+  },
+  "rocklin-ca": {
+    "median_income": 110020,
+    "county": "Placer",
+    "fallback": null,
+    "concern": 11.2
+  },
+  "caldwell-id": {
+    "median_income": 72059,
+    "county": "Canyon",
+    "fallback": null,
+    "concern": 69.9
+  },
+  "carlsbad-nm": {
+    "median_income": 66485,
+    "county": "Eddy",
+    "fallback": null,
+    "concern": 80.0
+  },
+  "kalispell-mt": {
+    "median_income": 74150,
+    "county": "Flathead",
+    "fallback": null,
+    "concern": 66.9
+  },
+  "durango-co": {
+    "median_income": 83542,
+    "county": "La Plata",
+    "fallback": null,
+    "concern": 51.1
+  },
+  "los-alamos-nm": {
+    "median_income": 146208,
+    "county": "Los Alamos",
+    "fallback": null,
+    "concern": 1.6
+  },
+  "sandpoint-id": {
+    "median_income": 68030,
+    "county": "Bonner",
+    "fallback": null,
+    "concern": 77.7
+  },
+  "taos-nm": {
+    "median_income": 53935,
+    "county": "Taos",
+    "fallback": null,
+    "concern": 97.5
+  },
+  "blanding-ut": {
+    "median_income": 57941,
+    "county": "San Juan",
+    "fallback": null,
+    "concern": 94.5
+  },
+  "monticello-ut": {
+    "median_income": 57941,
+    "county": "San Juan",
+    "fallback": null,
+    "concern": 94.3
+  },
+  "whitewright-tx": {
+    "median_income": 69442,
+    "county": "Grayson",
+    "fallback": null,
+    "concern": 76.7
+  },
+  "sundance-wy": {
+    "median_income": 77897,
+    "county": "Crook",
+    "fallback": null,
+    "concern": 58.5
+  },
+  "geraldine-mt": {
+    "median_income": 61903,
+    "county": "Chouteau",
+    "fallback": null,
+    "concern": 88.6
+  },
+  "grand-junction-co": {
+    "median_income": 66339,
+    "county": "Mesa",
+    "fallback": null,
+    "concern": 80.2
+  }
+}
