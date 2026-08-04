@@ -1,11 +1,11 @@
 "use client";
 
 import type { ActiveLayer } from "@/lib/active-layers";
-import { getMapLayerMeta, type LayerRenderControl } from "@/lib/map-layers";
+import { getMapLayerMeta, type CustomOverlayMeta, type LayerRenderControl } from "@/lib/map-layers";
 
 interface Props {
   active: ActiveLayer[];
-  customOverlayLabel: string | null;
+  customOverlays: CustomOverlayMeta[];
   getControl: (key: string) => LayerRenderControl;
   onChange: (key: string, patch: Partial<LayerRenderControl>) => void;
 }
@@ -27,8 +27,8 @@ interface Props {
  * other (non-inverted) layer: a city good on the thing you inverted and
  * good on everything else at once.
  */
-export function MapLayerControls({ active, customOverlayLabel, getControl, onChange }: Props) {
-  const layers = getMapLayerMeta(active, customOverlayLabel);
+export function MapLayerControls({ active, customOverlays, getControl, onChange }: Props) {
+  const layers = getMapLayerMeta(active, customOverlays);
   if (layers.length === 0) return null;
 
   return (
@@ -58,7 +58,7 @@ export function MapLayerControls({ active, customOverlayLabel, getControl, onCha
               {layer.isCustom && (
                 <span
                   className="flex-shrink-0 text-amber-600 dark:text-amber-500"
-                  title="Your custom formula weights -- not the shipped/validated score"
+                  title="A custom overlay you defined -- not one of the shipped/validated scores"
                 >
                   *
                 </span>

@@ -9,6 +9,7 @@ import { ManageDatasetsPanel } from "@/components/ManageDatasetsPanel";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { SavedViewsPanel } from "@/components/SavedViewsPanel";
 import { FormulaPanel } from "@/components/FormulaPanel";
+import { CustomBlendPanel } from "@/components/CustomBlendPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { FilterPopover } from "@/components/FilterPopover";
 import { InsightsPanel } from "@/components/InsightsPanel";
@@ -28,6 +29,7 @@ import type { SavedView } from "@/lib/saved-views";
 import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
 import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
 import { DEFAULT_WEIGHTS, getGrassComponents, recomputeGrassScore, type ComponentWeights } from "@/lib/formula/allergy-grass-formula";
+import { computeBlendValue, type BlendWeights } from "@/lib/custom-blend";
 
 const GRASS_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
@@ -97,9 +99,10 @@ export function PowerUserPanel() {
   const [grassWeights, setGrassWeights] = useState<ComponentWeights>(DEFAULT_WEIGHTS);
   const [grassOverlayOn, setGrassOverlayOn] = useState(false);
   const grassSelected = selected.some((s) => isSameLayer(s, GRASS_LAYER));
-  const customOverlay = useMemo(() => {
+  const grassOverlay = useMemo(() => {
     if (!grassOverlayOn || !grassSelected) return null;
     return {
+      key: "grass-formula-overlay",
       label: "Allergy severity: Grass (your weights)",
       getValue: (cityId: string) => {
         const components = getGrassComponents(cityId);
@@ -107,6 +110,25 @@ export function PowerUserPanel() {
       },
     };
   }, [grassOverlayOn, grassSelected, grassWeights]);
+
+  // CustomBlendPanel's user-defined weighted blend across 2+ selected
+  // layers -- same "additional, asterisked, never replaces a real layer"
+  // posture as the grass overlay above, generalized to any layers the
+  // operator picks at any weights THEY choose. See CustomBlendPanel.tsx /
+  // lib/custom-blend.ts.
+  const [blendWeights, setBlendWeights] = useState<BlendWeights>({});
+  const [blendOverlayOn, setBlendOverlayOn] = useState(false);
+  const blendOverlay = useMemo(() => {
+    if (!blendOverlayOn || selected.length < 2) return null;
+    const context = year !== null ? { year } : undefined;
+    return {
+      key: "custom-blend-overlay",
+      label: "Your custom blend",
+      getValue: (cityId: string) => computeBlendValue(cityId, selected, blendWeights, context),
+    };
+  }, [blendOverlayOn, selected, blendWeights, year]);
+
+  const customOverlays = useMemo(() => [grassOverlay, blendOverlay].filter((o) => o !== null), [grassOverlay, blendOverlay]);
 
   function toggle(layer: ActiveLayer) {
     setSelected((prev) =>
@@ -152,7 +174,7 @@ export function PowerUserPanel() {
           </h1>
           <p className="mt-1 max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
             Compare 2+ datasets side by side, city by city — every value labeled with its own
-            methodology. No combined score: see{" "}
+            methodology. No combined score by default: see{" "}
             <a
               href="https://github.com/mdostal/mapstack-us/blob/main/.pHive/epics/power-user-tab/docs/design-discussion.md"
               target="_blank"
@@ -198,6 +220,17 @@ export function PowerUserPanel() {
               onGrassWeightsChange={setGrassWeights}
               grassOverlayOn={grassOverlayOn}
               onToggleGrassOverlay={() => setGrassOverlayOn((v) => !v)}
+            />
+          </AccordionSection>
+          <AccordionSection title="Custom blend">
+            <CustomBlendPanel
+              selected={selected}
+              selectedCityId={selectedCityId}
+              year={year}
+              weights={blendWeights}
+              onWeightsChange={setBlendWeights}
+              overlayOn={blendOverlayOn}
+              onToggleOverlay={() => setBlendOverlayOn((v) => !v)}
             />
           </AccordionSection>
         </div>
@@ -255,7 +288,7 @@ export function PowerUserPanel() {
             <div className="flex flex-1 flex-col gap-2">
               <MapLayerControls
                 active={selected}
-                customOverlayLabel={customOverlay?.label ?? null}
+                customOverlays={customOverlays.map((o) => ({ key: o.key, label: o.label }))}
                 getControl={getLayerControl}
                 onChange={updateLayerControl}
               />
@@ -264,7 +297,7 @@ export function PowerUserPanel() {
                 year={year}
                 onSelectCity={setSelectedCityId}
                 selectedCityId={selectedCityId}
-                customOverlay={customOverlay}
+                customOverlays={customOverlays}
                 getLayerControl={getLayerControl}
               />
               {/* Confirms which city is selected on the map -- Table view has
@@ -280,11 +313,12 @@ export function PowerUserPanel() {
                 </p>
               )}
               <p className="text-xs text-zinc-400 dark:text-zinc-600">
-                Layers render independently, each its own gradient — a visual overlay, not a
-                computed blend: no layer&apos;s value is ever combined into another&apos;s.
-                Visibility, invert, and opacity above are display-only: they change what the map
-                shows, never the table, CSV export, sort, or filter.
-                {customOverlay && " * uses your custom formula weights, not the shipped/validated score."}
+                Every real layer renders independently, each its own gradient — no layer&apos;s
+                value is ever combined into another&apos;s by default. Visibility, invert, and
+                opacity above are display-only: they change what the map shows, never the table,
+                CSV export, sort, or filter.
+                {customOverlays.length > 0 &&
+                  ` * marks a layer you defined yourself (custom formula weights and/or a custom blend) -- not one of the shipped/validated scores, and never fed into the table, CSV, sort, or filter.`}
               </p>
             </div>
           ) : (

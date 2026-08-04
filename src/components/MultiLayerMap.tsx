@@ -9,14 +9,19 @@ import { resolveActiveLayer, activeLayerKey, type ActiveLayer } from "@/lib/acti
 import { getMapLayerMeta, DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
 
 /**
- * An extra rendered layer that isn't a real Dataset/layer pair -- currently
- * only the Formula panel's live-recomputed grass overlay (see
- * FormulaPanel.tsx). Deliberately generic (a label + a getValue function),
- * not a "formula" concept, so MultiLayerMap stays agnostic to WHERE an
+ * An extra rendered layer that isn't a real Dataset/layer pair -- e.g. the
+ * Formula panel's live-recomputed grass overlay (FormulaPanel.tsx) or a
+ * user-defined custom blend across 2+ active layers (CustomBlendPanel.tsx).
+ * Deliberately generic (a label + a getValue function), not tied to either
+ * feature's own concept, so MultiLayerMap stays agnostic to WHERE an
  * overlay's values come from -- it only needs to render one more stacked
- * layer.
+ * layer per entry. `key` must be stable and unique per overlay (can't use
+ * activeLayerKey() since there's no real ActiveLayer behind it) so 2+
+ * custom overlays can be active on the map at the same time without
+ * colliding.
  */
 export interface CustomOverlay {
+  key: string;
   label: string;
   getValue: (cityId: string) => number | null;
 }
@@ -26,7 +31,9 @@ interface Props {
   year: number | null;
   onSelectCity: (cityId: string) => void;
   selectedCityId: string | null;
-  customOverlay?: CustomOverlay | null;
+  /** Any number of custom overlays, e.g. the Formula panel's grass-weight
+   * recompute AND a user-defined custom blend, both active at once. */
+  customOverlays?: CustomOverlay[];
   /** Per-layer visibility/invert/opacity, keyed by the same key
    * getMapLayerMeta() assigns -- see MapLayerControls.tsx, the strip
    * rendered above this map that edits these. Defaults to
@@ -49,8 +56,8 @@ interface RenderedLayer {
  * datasets at once. Replaces the earlier DatasetMap (deleted), which
  * rendered exactly one active layer at a time.
  *
- * `customOverlay`, when present, renders as one more stacked layer -- real
- * (shipped, validated) data stays primary and visible, a custom-weighted
+ * `customOverlays`, when present, each render as one more stacked layer --
+ * real (shipped, validated) data stays primary and visible, a custom
  * reading is an ADDITIONAL layer, never a silent replacement.
  *
  * Visibility/invert/opacity are per-layer render controls, independent of
@@ -67,12 +74,12 @@ export function MultiLayerMap({
   year,
   onSelectCity,
   selectedCityId,
-  customOverlay = null,
+  customOverlays = [],
   getLayerControl = () => DEFAULT_LAYER_CONTROL,
 }: Props) {
   const layers = useMemo<RenderedLayer[]>(() => {
     const context = year !== null ? { year } : undefined;
-    const meta = getMapLayerMeta(active, customOverlay?.label ?? null);
+    const meta = getMapLayerMeta(active, customOverlays);
 
     return meta
       .map((m): RenderedLayer | null => {
@@ -81,8 +88,9 @@ export function MultiLayerMap({
 
         let points: Array<{ x: number; y: number; value: number }>;
         if (m.isCustom) {
+          const overlay = customOverlays.find((o) => o.key === m.key);
           points = CITY_POINTS.map((point) => {
-            const value = customOverlay?.getValue(point.city.id) ?? null;
+            const value = overlay?.getValue(point.city.id) ?? null;
             return value !== null ? { x: point.x, y: point.y, value } : null;
           }).filter((p): p is { x: number; y: number; value: number } => p !== null);
         } else {
@@ -98,7 +106,7 @@ export function MultiLayerMap({
         return { key: m.key, color: m.color, points, control };
       })
       .filter((l): l is RenderedLayer => l !== null);
-  }, [active, year, customOverlay, getLayerControl]);
+  }, [active, year, customOverlays, getLayerControl]);
 
   return (
     <BaseSvgMap

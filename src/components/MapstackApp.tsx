@@ -56,15 +56,18 @@ export function MapstackApp() {
     setActive((prev) => prev.filter((a) => !isSameLayer(a, layer)));
   }
 
-  const previewOverlay = useMemo(() => {
-    if (!previewLayer) return null;
+  const previewOverlays = useMemo(() => {
+    if (!previewLayer) return [];
     const resolved = resolveActiveLayer(previewLayer);
-    if (!resolved) return null;
+    if (!resolved) return [];
     const context = year !== null ? { year } : undefined;
-    return {
-      label: `Previewing: ${resolved.dataset.label}: ${resolved.layer.label}`,
-      getValue: (cityId: string) => resolved.dataset.getValue(cityId, resolved.layer.id, context)?.value ?? null,
-    };
+    return [
+      {
+        key: "layer-preview",
+        label: `Previewing: ${resolved.dataset.label}: ${resolved.layer.label}`,
+        getValue: (cityId: string) => resolved.dataset.getValue(cityId, resolved.layer.id, context)?.value ?? null,
+      },
+    ];
   }, [previewLayer, year]);
 
   return (
@@ -123,7 +126,7 @@ export function MapstackApp() {
             year={year}
             onSelectCity={setSelectedCityId}
             selectedCityId={selectedCityId}
-            customOverlay={previewOverlay}
+            customOverlays={previewOverlays}
           />
         </div>
       </div>

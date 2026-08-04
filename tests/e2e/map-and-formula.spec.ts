@@ -11,7 +11,7 @@ test("advanced route defaults to table view, and Map toggles to the real map", a
 
   await page.getByRole("tab", { name: "Map" }).click();
   await expect(page.locator("table")).toHaveCount(0);
-  await expect(page.getByText(/not a computed blend/)).toBeVisible();
+  await expect(page.getByText(/no layer's value is ever combined into another's by default/)).toBeVisible();
 
   await page.getByRole("tab", { name: "Table" }).click();
   await expect(page.locator("table")).toBeVisible();
@@ -167,6 +167,60 @@ test("Show your weights on the map adds the custom-weighted grass overlay as an 
   await page.getByRole("button", { name: /Showing your weights on the map/ }).click();
   await expect(page.getByRole("button", { name: "Show your weights on the map" })).toBeVisible();
   await expect(overlayChip).not.toBeVisible();
+});
+
+test("Custom blend panel requires 2+ selected layers, blends them at user-chosen weights, and shows as an extra asterisked map layer", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("button", { name: "Custom blend" }).click();
+
+  // Default selection already has 2 layers (Grass + Violent crime), so the
+  // weight sliders show immediately, not the "select 2+" prompt.
+  await expect(page.getByLabel(/^Allergy severity: Grass/)).toBeVisible();
+  await expect(page.getByLabel(/^Crime: Violent crime/)).toBeVisible();
+
+  // Clearing down to a single layer shows the honest "not enough" prompt
+  // instead of a meaningless one-layer "blend".
+  await page.getByRole("button", { name: "Clear all" }).click();
+  await page.getByLabel("Grass", { exact: true }).click();
+  await expect(page.getByText("Select 2 or more layers above to blend them into a custom score.")).toBeVisible();
+
+  // Re-add a second layer to continue the test with a real blend.
+  await page.getByLabel("Violent crime", { exact: true }).click();
+
+  // Selecting a city (in Table view) surfaces a real numeric blend value.
+  await page.getByRole("row", { name: /^New York, NY/ }).click();
+  const blendReadout = page.getByText(/Your blend for this city:/);
+  await expect(blendReadout).toBeVisible();
+  await expect(blendReadout).not.toContainText("no data");
+
+  // The map-wide toggle works without needing a city selected first.
+  await page.getByRole("tab", { name: "Map" }).click();
+  await expect(page.getByRole("group", { name: "Your custom blend" })).not.toBeVisible();
+
+  await page.getByRole("button", { name: "Show your blend on the map" }).click();
+  await expect(page.getByRole("button", { name: /Showing your blend on the map/ })).toBeVisible();
+  const blendChip = page.getByRole("group", { name: "Your custom blend" });
+  await expect(blendChip).toBeVisible();
+  await expect(blendChip.getByText("*")).toBeVisible();
+
+  await page.getByRole("button", { name: /Showing your blend on the map/ }).click();
+  await expect(blendChip).not.toBeVisible();
+});
+
+test("the grass-formula overlay and the custom-blend overlay can both be shown on the map at once, as two distinct asterisked layers", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  await page.getByRole("button", { name: "Formula" }).click();
+  await page.getByRole("button", { name: "Show your weights on the map" }).click();
+  await page.getByRole("button", { name: "Custom blend" }).click();
+  await page.getByRole("button", { name: "Show your blend on the map" }).click();
+
+  await page.getByRole("tab", { name: "Map" }).click();
+  await expect(page.getByRole("group", { name: /Grass \(your weights\)/ })).toBeVisible();
+  await expect(page.getByRole("group", { name: "Your custom blend" })).toBeVisible();
 });
 
 test("map layer controls let you hide and invert a layer on the map without removing it from the analysis", async ({

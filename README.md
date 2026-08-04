@@ -82,9 +82,13 @@ built from two real, working examples instead of upfront design.
   grows year over year as more police agencies joined federal reporting, never
   backfilled or estimated for years without real data.
 - A power-user `/advanced` view: a sortable/filterable comparison table across every
-  active layer, CSV export, saved views, and a live formula editor for grass severity's
-  own component weights — all reading from a real SQLite database (`sql.js`/WASM) built
-  at deploy time, not a hand-rolled query layer.
+  active layer, CSV export, saved views, a live formula editor for grass severity's own
+  component weights, and a custom blend tool — combine any 2+ active layers at weights
+  YOU choose into an opt-in, clearly asterisked overlay, never a shipped default score
+  — all reading from a real SQLite database (`sql.js`/WASM) built at deploy time, not a
+  hand-rolled query layer.
+- Hide datasets you don't care about from the add-layer pickers (Manage datasets, both
+  views) — pure declutter, never touches layers you've already added.
 - Every dataset ships its own methodology doc naming its real sourcing and limitations,
   including the honest gaps (a non-participating agency, a suppressed tract, a city
   below a source's reporting threshold) — see `data/*-methodology.md`.

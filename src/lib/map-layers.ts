@@ -23,20 +23,26 @@ export interface LayerRenderControl {
 
 export const DEFAULT_LAYER_CONTROL: LayerRenderControl = { visible: true, inverted: false, opacity: 70 };
 
-/** The special key for the Formula panel's live custom-overlay layer (see
- * MultiLayerMap.tsx's CustomOverlay) -- not a real (dataset, layer) pair,
- * so it can't use activeLayerKey(). */
-export const CUSTOM_OVERLAY_KEY = "custom-overlay";
+/** A non-real (not a (dataset, layer) pair) map layer -- e.g. the Formula
+ * panel's live grass-weight recompute, or a user-defined custom blend
+ * across 2+ active layers (see MultiLayerMap.tsx's CustomOverlay). Each
+ * needs its own stable `key` (can't use activeLayerKey() since there's no
+ * real ActiveLayer behind it) so 2+ custom overlays can be active on the
+ * map at once without colliding. */
+export interface CustomOverlayMeta {
+  key: string;
+  label: string;
+}
 
 /**
- * Stable color/label assignment for every active layer plus an optional
- * custom overlay, shared by MultiLayerMap (rendering) and MapLayerControls
- * (the per-layer strip) so the two never disagree on which color belongs to
+ * Stable color/label assignment for every active layer plus any custom
+ * overlays, shared by MultiLayerMap (rendering) and MapLayerControls (the
+ * per-layer strip) so the two never disagree on which color belongs to
  * which layer. Order and total COUNT -- not current visibility -- drive hue
  * spacing, so hiding one layer doesn't reshuffle every other layer's color.
  */
-export function getMapLayerMeta(active: ActiveLayer[], customOverlayLabel: string | null): MapLayerMeta[] {
-  const totalCount = active.length + (customOverlayLabel ? 1 : 0);
+export function getMapLayerMeta(active: ActiveLayer[], customOverlays: CustomOverlayMeta[]): MapLayerMeta[] {
+  const totalCount = active.length + customOverlays.length;
   const result: MapLayerMeta[] = active
     .map((item, index): MapLayerMeta | null => {
       const resolved = resolveActiveLayer(item);
@@ -50,14 +56,14 @@ export function getMapLayerMeta(active: ActiveLayer[], customOverlayLabel: strin
     })
     .filter((l): l is MapLayerMeta => l !== null);
 
-  if (customOverlayLabel) {
+  customOverlays.forEach((overlay, i) => {
     result.push({
-      key: CUSTOM_OVERLAY_KEY,
-      color: baseColorForIndex(active.length, totalCount),
-      label: customOverlayLabel,
+      key: overlay.key,
+      color: baseColorForIndex(active.length + i, totalCount),
+      label: overlay.label,
       isCustom: true,
     });
-  }
+  });
 
   return result;
 }
