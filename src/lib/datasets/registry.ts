@@ -11,6 +11,7 @@ import { trafficFatalitiesDataset } from "@/lib/datasets/traffic-fatalities";
 import { transitAccessDataset } from "@/lib/datasets/transit-access";
 import { walkabilityDataset } from "@/lib/datasets/walkability";
 import { parksDataset } from "@/lib/datasets/parks";
+import { politicalLeanDataset } from "@/lib/datasets/political-lean";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -33,6 +34,7 @@ export const DATASETS: Dataset[] = [
   transitAccessDataset,
   walkabilityDataset,
   parksDataset,
+  politicalLeanDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

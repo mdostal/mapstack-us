@@ -1,0 +1,4048 @@
+{
+  "_meta": {
+    "source": "MIT Election Data + Science Lab, County Presidential Election Returns 2000-2024 (2024 results)",
+    "source_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ",
+    "resolution": "county",
+    "framing": "electoral competitiveness (margin of victory), NOT left/right lean -- see data/political-lean-methodology.md"
+  },
+  "new-york-ny": {
+    "county": "New York",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 64.2,
+    "concern": 64.2
+  },
+  "los-angeles-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "chicago-il": {
+    "county": "Cook",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 41.6,
+    "concern": 41.6
+  },
+  "houston-tx": {
+    "county": "Harris",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.5,
+    "concern": 5.5
+  },
+  "phoenix-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "philadelphia-pa": {
+    "county": "Philadelphia",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 58.8,
+    "concern": 58.8
+  },
+  "san-antonio-tx": {
+    "county": "Bexar",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.7,
+    "concern": 9.7
+  },
+  "san-diego-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "dallas-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "fort-worth-tx": {
+    "county": "Tarrant",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.1,
+    "concern": 5.1
+  },
+  "jacksonville-fl": {
+    "county": "Duval",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.5,
+    "concern": 1.5
+  },
+  "austin-tx": {
+    "county": "Travis",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.3,
+    "concern": 39.3
+  },
+  "san-jose-ca": {
+    "county": "Santa Clara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 40.0,
+    "concern": 40.0
+  },
+  "charlotte-nc": {
+    "county": "Mecklenburg",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.7,
+    "concern": 32.7
+  },
+  "columbus-oh": {
+    "county": "Franklin",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 28.4,
+    "concern": 28.4
+  },
+  "indianapolis-in": {
+    "county": "Marion",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 27.6,
+    "concern": 27.6
+  },
+  "san-francisco-ca": {
+    "county": "San Francisco",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 64.8,
+    "concern": 64.8
+  },
+  "seattle-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "denver-co": {
+    "county": "Denver",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 56.2,
+    "concern": 56.2
+  },
+  "nashville-tn": {
+    "county": "Davidson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 27.4,
+    "concern": 27.4
+  },
+  "oklahoma-city-ok": {
+    "county": "Oklahoma",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.7,
+    "concern": 1.7
+  },
+  "washington-dc": {
+    "county": "District of Columbia",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 83.8,
+    "concern": 83.8
+  },
+  "el-paso-tx": {
+    "county": "El Paso",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.1,
+    "concern": 15.1
+  },
+  "las-vegas-nv": {
+    "county": "Clark",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.6,
+    "concern": 2.6
+  },
+  "boston-ma": {
+    "county": "Suffolk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 52.1,
+    "concern": 52.1
+  },
+  "detroit-mi": {
+    "county": "Wayne",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.0,
+    "concern": 29.0
+  },
+  "louisville-ky": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.5,
+    "concern": 16.5
+  },
+  "portland-or": {
+    "county": "Multnomah",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 61.6,
+    "concern": 61.6
+  },
+  "memphis-tn": {
+    "county": "Shelby",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 25.4,
+    "concern": 25.4
+  },
+  "baltimore-md": {
+    "county": "Baltimore",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 72.4,
+    "concern": 72.4
+  },
+  "milwaukee-wi": {
+    "county": "Milwaukee",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 31.8,
+    "concern": 31.8
+  },
+  "albuquerque-nm": {
+    "county": "Bernalillo",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.0,
+    "concern": 21.0
+  },
+  "fresno-ca": {
+    "county": "Fresno",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.4,
+    "concern": 4.4
+  },
+  "tucson-az": {
+    "county": "Pima",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.9,
+    "concern": 14.9
+  },
+  "sacramento-ca": {
+    "county": "Sacramento",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "atlanta-ga": {
+    "county": "Fulton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "kansas-city-mo": {
+    "county": "Jackson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.1,
+    "concern": 4.1
+  },
+  "mesa-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "raleigh-nc": {
+    "county": "Wake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 25.4,
+    "concern": 25.4
+  },
+  "colorado-springs-co": {
+    "county": "El Paso",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 9.8,
+    "concern": 9.8
+  },
+  "miami-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "omaha-ne": {
+    "county": "Douglas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "virginia-beach-va": {
+    "county": "Virginia Beach",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "long-beach-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "oakland-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "minneapolis-mn": {
+    "county": "Hennepin",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 42.4,
+    "concern": 42.4
+  },
+  "bakersfield-ca": {
+    "county": "Kern",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.1,
+    "concern": 21.1
+  },
+  "tulsa-ok": {
+    "county": "Tulsa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 15.2,
+    "concern": 15.2
+  },
+  "tampa-fl": {
+    "county": "Hillsborough",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.1,
+    "concern": 3.1
+  },
+  "aurora-co": {
+    "county": "Arapahoe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.1,
+    "concern": 20.1
+  },
+  "arlington-tx": {
+    "county": "Tarrant",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.1,
+    "concern": 5.1
+  },
+  "wichita-ks": {
+    "county": "Sedgwick",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.8,
+    "concern": 13.8
+  },
+  "cleveland-oh": {
+    "county": "Cuyahoga",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 31.4,
+    "concern": 31.4
+  },
+  "new-orleans-la": {
+    "county": "Orleans",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 67.0,
+    "concern": 67.0
+  },
+  "henderson-nv": {
+    "county": "Clark",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.6,
+    "concern": 2.6
+  },
+  "honolulu-hi": {
+    "county": "Honolulu",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.7,
+    "concern": 21.7
+  },
+  "anaheim-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "orlando-fl": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 13.6,
+    "concern": 13.6
+  },
+  "lexington-ky": {
+    "county": "Fayette",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 18.1,
+    "concern": 18.1
+  },
+  "stockton-ca": {
+    "county": "San Joaquin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 0.9,
+    "concern": 0.9
+  },
+  "newark-nj": {
+    "county": "Essex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "riverside-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "irvine-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "corpus-christi-tx": {
+    "county": "Nueces",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.5,
+    "concern": 11.5
+  },
+  "santa-ana-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "cincinnati-oh": {
+    "county": "Hamilton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.9,
+    "concern": 14.9
+  },
+  "greensboro-nc": {
+    "county": "Guilford",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "pittsburgh-pa": {
+    "county": "Allegheny",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.3,
+    "concern": 20.3
+  },
+  "saint-paul-mn": {
+    "county": "Ramsey",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 43.1,
+    "concern": 43.1
+  },
+  "durham-nc": {
+    "county": "Durham",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 61.7,
+    "concern": 61.7
+  },
+  "jersey-city-nj": {
+    "county": "Hudson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 28.1,
+    "concern": 28.1
+  },
+  "lincoln-ne": {
+    "county": "Lancaster",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 4.3,
+    "concern": 4.3
+  },
+  "north-las-vegas-nv": {
+    "county": "Clark",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.6,
+    "concern": 2.6
+  },
+  "plano-tx": {
+    "county": "Collin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.1,
+    "concern": 11.1
+  },
+  "gilbert-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "anchorage-ak": {
+    "county": "Anchorage",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 12.2,
+    "concern": 12.2
+  },
+  "madison-wi": {
+    "county": "Dane",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 25.1,
+    "concern": 25.1
+  },
+  "reno-nv": {
+    "county": "Washoe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.0,
+    "concern": 1.0
+  },
+  "chandler-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "st-louis-mo": {
+    "county": "St. Louis",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 64.6,
+    "concern": 64.6
+  },
+  "chula-vista-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "fort-wayne-in": {
+    "county": "Allen",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 12.5,
+    "concern": 12.5
+  },
+  "buffalo-ny": {
+    "county": "Erie",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.6,
+    "concern": 9.6
+  },
+  "lubbock-tx": {
+    "county": "Lubbock",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 39.5,
+    "concern": 39.5
+  },
+  "laredo-tx": {
+    "county": "Webb",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.2,
+    "concern": 2.2
+  },
+  "port-st-lucie-fl": {
+    "county": "St. Lucie",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 9.1,
+    "concern": 9.1
+  },
+  "st-petersburg-fl": {
+    "county": "Pinellas",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.2,
+    "concern": 5.2
+  },
+  "toledo-oh": {
+    "county": "Lucas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 12.6,
+    "concern": 12.6
+  },
+  "glendale-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "winston-salem-nc": {
+    "county": "Forsyth",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "irving-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "chesapeake-va": {
+    "county": "Chesapeake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 3.8,
+    "concern": 3.8
+  },
+  "garland-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "arlington-va": {
+    "county": "Arlington",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 58.6,
+    "concern": 58.6
+  },
+  "scottsdale-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "boise-id": {
+    "county": "Ada",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 10.3,
+    "concern": 10.3
+  },
+  "richmond-va": {
+    "county": "Richmond",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 66.3,
+    "concern": 66.3
+  },
+  "frisco-tx": {
+    "county": "Collin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.1,
+    "concern": 11.1
+  },
+  "cape-coral-fl": {
+    "county": "Lee",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 28.4,
+    "concern": 28.4
+  },
+  "mckinney-tx": {
+    "county": "Collin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.1,
+    "concern": 11.1
+  },
+  "huntsville-al": {
+    "county": "Madison",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 8.9,
+    "concern": 8.9
+  },
+  "norfolk-va": {
+    "county": "Norfolk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 41.5,
+    "concern": 41.5
+  },
+  "hialeah-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "spokane-wa": {
+    "county": "Spokane",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.9,
+    "concern": 4.9
+  },
+  "tacoma-wa": {
+    "county": "Pierce",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.7,
+    "concern": 10.7
+  },
+  "santa-clarita-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "fremont-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "baton-rouge-la": {
+    "county": "East Baton Rouge",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 11.1,
+    "concern": 11.1
+  },
+  "san-bernardino-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "fontana-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "modesto-ca": {
+    "county": "Stanislaus",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.0,
+    "concern": 11.0
+  },
+  "salt-lake-city-ut": {
+    "county": "Salt Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "moreno-valley-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "worcester-ma": {
+    "county": "Worcester",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.0,
+    "concern": 10.0
+  },
+  "sioux-falls-sd": {
+    "county": "Minnehaha",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 12.7,
+    "concern": 12.7
+  },
+  "yonkers-ny": {
+    "county": "Westchester",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 26.1,
+    "concern": 26.1
+  },
+  "des-moines-ia": {
+    "county": "Polk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.8,
+    "concern": 10.8
+  },
+  "grand-prairie-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "fayetteville-nc": {
+    "county": "Cumberland",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 13.4,
+    "concern": 13.4
+  },
+  "little-rock-ar": {
+    "county": "Pulaski",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.1,
+    "concern": 22.1
+  },
+  "rochester-ny": {
+    "county": "Monroe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.0,
+    "concern": 19.0
+  },
+  "amarillo-tx": {
+    "county": "Potter",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 44.4,
+    "concern": 44.4
+  },
+  "tallahassee-fl": {
+    "county": "Leon",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "overland-park-ks": {
+    "county": "Johnson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.5,
+    "concern": 8.5
+  },
+  "columbus-ga": {
+    "county": "Muscogee",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.4,
+    "concern": 23.4
+  },
+  "knoxville-tn": {
+    "county": "Knox",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 19.5,
+    "concern": 19.5
+  },
+  "augusta-ga": {
+    "county": "Richmond",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 36.1,
+    "concern": 36.1
+  },
+  "grand-rapids-mi": {
+    "county": "Kent",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.4,
+    "concern": 5.4
+  },
+  "peoria-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "mobile-al": {
+    "county": "Mobile",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 16.4,
+    "concern": 16.4
+  },
+  "vancouver-wa": {
+    "county": "Clark",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 6.9,
+    "concern": 6.9
+  },
+  "oxnard-ca": {
+    "county": "Ventura",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.1,
+    "concern": 15.1
+  },
+  "birmingham-al": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.4,
+    "concern": 10.4
+  },
+  "providence-ri": {
+    "county": "Providence",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.0,
+    "concern": 14.0
+  },
+  "montgomery-al": {
+    "county": "Montgomery",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 30.6,
+    "concern": 30.6
+  },
+  "chattanooga-tn": {
+    "county": "Hamilton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.0,
+    "concern": 13.0
+  },
+  "brownsville-tx": {
+    "county": "Cameron",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.8,
+    "concern": 5.8
+  },
+  "huntington-beach-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "tempe-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "akron-oh": {
+    "county": "Summit",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 7.0,
+    "concern": 7.0
+  },
+  "clarksville-tn": {
+    "county": "Montgomery",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 18.4,
+    "concern": 18.4
+  },
+  "fort-lauderdale-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "glendale-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "ontario-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "elk-grove-ca": {
+    "county": "Sacramento",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "cary-nc": {
+    "county": "Wake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 25.4,
+    "concern": 25.4
+  },
+  "newport-news-va": {
+    "county": "Newport News",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 28.8,
+    "concern": 28.8
+  },
+  "salem-or": {
+    "county": "Marion",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.0,
+    "concern": 2.0
+  },
+  "aurora-il": {
+    "county": "Kane",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.3,
+    "concern": 9.3
+  },
+  "santa-rosa-ca": {
+    "county": "Sonoma",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 46.2,
+    "concern": 46.2
+  },
+  "eugene-or": {
+    "county": "Lane",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.9,
+    "concern": 22.9
+  },
+  "rancho-cucamonga-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "pembroke-pines-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "shreveport-la": {
+    "county": "Caddo",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 4.6,
+    "concern": 4.6
+  },
+  "surprise-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "fort-collins-co": {
+    "county": "Larimer",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.6,
+    "concern": 17.6
+  },
+  "murfreesboro-tn": {
+    "county": "Rutherford",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "oceanside-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "garden-grove-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "lancaster-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "springfield-mo": {
+    "county": "Greene",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.8,
+    "concern": 20.8
+  },
+  "denton-tx": {
+    "county": "Denton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "roseville-ca": {
+    "county": "Placer",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 8.5,
+    "concern": 8.5
+  },
+  "killeen-tx": {
+    "county": "Bell",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 16.2,
+    "concern": 16.2
+  },
+  "palmdale-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "paterson-nj": {
+    "county": "Passaic",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "corona-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "alexandria-va": {
+    "county": "Alexandria",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 57.7,
+    "concern": 57.7
+  },
+  "charleston-sc": {
+    "county": "Charleston",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 48.1,
+    "concern": 48.1
+  },
+  "salinas-ca": {
+    "county": "Monterey",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.9,
+    "concern": 29.9
+  },
+  "kansas-city-ks": {
+    "county": "Wyandotte",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.9,
+    "concern": 23.9
+  },
+  "macon-ga": {
+    "county": "Bibb",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.4,
+    "concern": 22.4
+  },
+  "hayward-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "hollywood-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "lakewood-co": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.5,
+    "concern": 19.5
+  },
+  "sunnyvale-ca": {
+    "county": "Santa Clara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 40.0,
+    "concern": 40.0
+  },
+  "springfield-ma": {
+    "county": "Hampden",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.9,
+    "concern": 8.9
+  },
+  "bellevue-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "naperville-il": {
+    "county": "DuPage",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "joliet-il": {
+    "county": "Will",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.6,
+    "concern": 1.6
+  },
+  "mesquite-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "mcallen-tx": {
+    "county": "Hidalgo",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "olathe-ks": {
+    "county": "Johnson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.5,
+    "concern": 8.5
+  },
+  "savannah-ga": {
+    "county": "Chatham",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 18.0,
+    "concern": 18.0
+  },
+  "gainesville-fl": {
+    "county": "Alachua",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.0,
+    "concern": 21.0
+  },
+  "pasadena-tx": {
+    "county": "Harris",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.5,
+    "concern": 5.5
+  },
+  "palm-bay-fl": {
+    "county": "Brevard",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.8,
+    "concern": 20.8
+  },
+  "pomona-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "waco-tx": {
+    "county": "McLennan",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 30.8,
+    "concern": 30.8
+  },
+  "thornton-co": {
+    "county": "Adams",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.0,
+    "concern": 9.0
+  },
+  "midland-tx": {
+    "county": "Midland",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 60.5,
+    "concern": 60.5
+  },
+  "rockford-il": {
+    "county": "Winnebago",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.6,
+    "concern": 0.6
+  },
+  "columbia-sc": {
+    "county": "Richland",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 33.6,
+    "concern": 33.6
+  },
+  "visalia-ca": {
+    "county": "Tulare",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.7,
+    "concern": 20.7
+  },
+  "escondido-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "syracuse-ny": {
+    "county": "Onondaga",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.2,
+    "concern": 17.2
+  },
+  "meridian-id": {
+    "county": "Ada",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 10.3,
+    "concern": 10.3
+  },
+  "miramar-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "elizabeth-nj": {
+    "county": "Union",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 24.2,
+    "concern": 24.2
+  },
+  "victorville-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "round-rock-tx": {
+    "county": "Williamson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.4,
+    "concern": 2.4
+  },
+  "jackson-ms": {
+    "county": "Hinds",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 46.1,
+    "concern": 46.1
+  },
+  "lewisville-tx": {
+    "county": "Denton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "coral-springs-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "fullerton-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "torrance-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "orange-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "cedar-rapids-ia": {
+    "county": "Linn",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.8,
+    "concern": 9.8
+  },
+  "west-valley-city-ut": {
+    "county": "Salt Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "hampton-va": {
+    "county": "Hampton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.9,
+    "concern": 39.9
+  },
+  "warren-mi": {
+    "county": "Macomb",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.7,
+    "concern": 13.7
+  },
+  "dayton-oh": {
+    "county": "Montgomery",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.5,
+    "concern": 0.5
+  },
+  "fargo-nd": {
+    "county": "Cass",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 8.3,
+    "concern": 8.3
+  },
+  "pasadena-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "kent-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "carrollton-tx": {
+    "county": "Denton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "sterling-heights-mi": {
+    "county": "Macomb",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.7,
+    "concern": 13.7
+  },
+  "santa-clara-ca": {
+    "county": "Santa Clara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 40.0,
+    "concern": 40.0
+  },
+  "abilene-tx": {
+    "county": "Taylor",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 49.8,
+    "concern": 49.8
+  },
+  "norman-ok": {
+    "county": "Cleveland",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 14.9,
+    "concern": 14.9
+  },
+  "columbia-mo": {
+    "county": "Boone",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.7,
+    "concern": 9.7
+  },
+  "pearland-tx": {
+    "county": "Brazoria",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "clovis-ca": {
+    "county": "Fresno",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.4,
+    "concern": 4.4
+  },
+  "north-charleston-sc": {
+    "county": "Charleston",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 48.1,
+    "concern": 48.1
+  },
+  "athens-ga": {
+    "county": "Clarke",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 38.3,
+    "concern": 38.3
+  },
+  "college-station-tx": {
+    "county": "Brazos",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 24.8,
+    "concern": 24.8
+  },
+  "west-palm-beach-fl": {
+    "county": "Palm Beach",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.8,
+    "concern": 0.8
+  },
+  "wilmington-nc": {
+    "county": "New Hanover",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.6,
+    "concern": 0.6
+  },
+  "allentown-pa": {
+    "county": "Lehigh",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "topeka-ks": {
+    "county": "Shawnee",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.5,
+    "concern": 0.5
+  },
+  "lakeland-fl": {
+    "county": "Polk",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.7,
+    "concern": 20.7
+  },
+  "buckeye-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "goodyear-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "broken-arrow-ok": {
+    "county": "Tulsa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 15.2,
+    "concern": 15.2
+  },
+  "simi-valley-ca": {
+    "county": "Ventura",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.1,
+    "concern": 15.1
+  },
+  "rochester-mn": {
+    "county": "Olmsted",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.6,
+    "concern": 10.6
+  },
+  "lafayette-la": {
+    "county": "Lafayette",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 31.4,
+    "concern": 31.4
+  },
+  "vallejo-ca": {
+    "county": "Solano",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.0,
+    "concern": 23.0
+  },
+  "concord-ca": {
+    "county": "Contra Costa",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 37.9,
+    "concern": 37.9
+  },
+  "arvada-co": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.5,
+    "concern": 19.5
+  },
+  "odessa-tx": {
+    "county": "Ector",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 52.9,
+    "concern": 52.9
+  },
+  "cambridge-ma": {
+    "county": "Middlesex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.2,
+    "concern": 39.2
+  },
+  "new-braunfels-tx": {
+    "county": "Comal",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 45.5,
+    "concern": 45.5
+  },
+  "fairfield-ca": {
+    "county": "Solano",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.0,
+    "concern": 23.0
+  },
+  "ann-arbor-mi": {
+    "county": "Washtenaw",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.4,
+    "concern": 44.4
+  },
+  "thousand-oaks-ca": {
+    "county": "Ventura",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.1,
+    "concern": 15.1
+  },
+  "berkeley-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "independence-mo": {
+    "county": "Jackson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.1,
+    "concern": 4.1
+  },
+  "billings-mt": {
+    "county": "Yellowstone",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 27.1,
+    "concern": 27.1
+  },
+  "high-point-nc": {
+    "county": "Guilford",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "nampa-id": {
+    "county": "Canyon",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 46.6,
+    "concern": 46.6
+  },
+  "lowell-ma": {
+    "county": "Middlesex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.2,
+    "concern": 39.2
+  },
+  "league-city-tx": {
+    "county": "Galveston",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 27.4,
+    "concern": 27.4
+  },
+  "conroe-tx": {
+    "county": "Montgomery",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 45.5,
+    "concern": 45.5
+  },
+  "antioch-ca": {
+    "county": "Contra Costa",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 37.9,
+    "concern": 37.9
+  },
+  "menifee-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "richardson-tx": {
+    "county": "Dallas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 22.2,
+    "concern": 22.2
+  },
+  "pompano-beach-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "las-cruces-nm": {
+    "county": "Do\u00f1a Ana",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.8,
+    "concern": 9.8
+  },
+  "manchester-nh": {
+    "county": "Hillsborough",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "west-jordan-ut": {
+    "county": "Salt Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "westminster-co": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.5,
+    "concern": 19.5
+  },
+  "evansville-in": {
+    "county": "Vanderburgh",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 12.6,
+    "concern": 12.6
+  },
+  "elgin-il": {
+    "county": "Kane",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 9.3,
+    "concern": 9.3
+  },
+  "greeley-co": {
+    "county": "Weld",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.0,
+    "concern": 21.0
+  },
+  "temecula-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "richmond-ca": {
+    "county": "Contra Costa",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 37.9,
+    "concern": 37.9
+  },
+  "concord-nc": {
+    "county": "Cabarrus",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 7.7,
+    "concern": 7.7
+  },
+  "provo-ut": {
+    "county": "Utah",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 39.8,
+    "concern": 39.8
+  },
+  "rio-rancho-nm": {
+    "county": "Sandoval",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.8,
+    "concern": 5.8
+  },
+  "clearwater-fl": {
+    "county": "Pinellas",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.2,
+    "concern": 5.2
+  },
+  "tuscaloosa-al": {
+    "county": "Tuscaloosa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.3,
+    "concern": 20.3
+  },
+  "murrieta-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "lansing-mi": {
+    "county": "Ingham",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.7,
+    "concern": 29.7
+  },
+  "tyler-tx": {
+    "county": "Smith",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 45.1,
+    "concern": 45.1
+  },
+  "miami-gardens-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "everett-wa": {
+    "county": "Snohomish",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 18.8,
+    "concern": 18.8
+  },
+  "allen-tx": {
+    "county": "Collin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.1,
+    "concern": 11.1
+  },
+  "springfield-il": {
+    "county": "Sangamon",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.9,
+    "concern": 4.9
+  },
+  "beaumont-tx": {
+    "county": "Jefferson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 8.9,
+    "concern": 8.9
+  },
+  "south-fulton-ga": {
+    "county": "Fulton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "carlsbad-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "sparks-nv": {
+    "county": "Washoe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.0,
+    "concern": 1.0
+  },
+  "gresham-or": {
+    "county": "Multnomah",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 61.6,
+    "concern": 61.6
+  },
+  "santa-maria-ca": {
+    "county": "Santa Barbara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 26.7,
+    "concern": 26.7
+  },
+  "hillsboro-or": {
+    "county": "Washington",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 33.7,
+    "concern": 33.7
+  },
+  "peoria-il": {
+    "county": "Peoria",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 4.6,
+    "concern": 4.6
+  },
+  "davie-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "edinburg-tx": {
+    "county": "Hidalgo",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "pueblo-co": {
+    "county": "Pueblo",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.1,
+    "concern": 5.1
+  },
+  "ventura-ca": {
+    "county": "Ventura",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.1,
+    "concern": 15.1
+  },
+  "palm-coast-fl": {
+    "county": "Flagler",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 28.2,
+    "concern": 28.2
+  },
+  "costa-mesa-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "st-george-ut": {
+    "county": "Washington",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 52.3,
+    "concern": 52.3
+  },
+  "centennial-co": {
+    "county": "Arapahoe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.1,
+    "concern": 20.1
+  },
+  "downey-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "spokane-valley-wa": {
+    "county": "Spokane",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.9,
+    "concern": 4.9
+  },
+  "sugar-land-tx": {
+    "county": "Fort Bend",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.6,
+    "concern": 1.6
+  },
+  "lees-summit-mo": {
+    "county": "Jackson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.1,
+    "concern": 4.1
+  },
+  "bend-or": {
+    "county": "Deschutes",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.4,
+    "concern": 10.4
+  },
+  "jurupa-valley-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "georgetown-tx": {
+    "county": "Williamson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.4,
+    "concern": 2.4
+  },
+  "green-bay-wi": {
+    "county": "Brown",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 47.0,
+    "concern": 47.0
+  },
+  "fayetteville-ar": {
+    "county": "Washington",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 6.7,
+    "concern": 6.7
+  },
+  "rialto-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "brockton-ma": {
+    "county": "Plymouth",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.8,
+    "concern": 8.8
+  },
+  "boulder-co": {
+    "county": "Boulder",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 55.8,
+    "concern": 55.8
+  },
+  "carmel-in": {
+    "county": "Hamilton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 6.1,
+    "concern": 6.1
+  },
+  "dearborn-mi": {
+    "county": "Wayne",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.0,
+    "concern": 29.0
+  },
+  "west-covina-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "yuma-az": {
+    "county": "Yuma",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.2,
+    "concern": 20.2
+  },
+  "chico-ca": {
+    "county": "Butte",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.1,
+    "concern": 3.1
+  },
+  "el-monte-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "sandy-springs-ga": {
+    "county": "Fulton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "renton-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "fishers-in": {
+    "county": "Hamilton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 6.1,
+    "concern": 6.1
+  },
+  "suffolk-va": {
+    "county": "Suffolk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 15.9,
+    "concern": 15.9
+  },
+  "lynn-ma": {
+    "county": "Essex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.2,
+    "concern": 20.2
+  },
+  "vacaville-ca": {
+    "county": "Solano",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.0,
+    "concern": 23.0
+  },
+  "san-mateo-ca": {
+    "county": "San Mateo",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 50.3,
+    "concern": 50.3
+  },
+  "south-bend-in": {
+    "county": "St. Joseph",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.5,
+    "concern": 1.5
+  },
+  "quincy-ma": {
+    "county": "Norfolk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 28.5,
+    "concern": 28.5
+  },
+  "burbank-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "hesperia-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "wichita-falls-tx": {
+    "county": "Wichita",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 44.0,
+    "concern": 44.0
+  },
+  "tracy-ca": {
+    "county": "San Joaquin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 0.9,
+    "concern": 0.9
+  },
+  "new-bedford-ma": {
+    "county": "Bristol",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "el-cajon-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "albany-ny": {
+    "county": "Albany",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 25.6,
+    "concern": 25.6
+  },
+  "inglewood-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "boca-raton-fl": {
+    "county": "Palm Beach",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.8,
+    "concern": 0.8
+  },
+  "fort-myers-fl": {
+    "county": "Lee",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 28.4,
+    "concern": 28.4
+  },
+  "daly-city-ca": {
+    "county": "San Mateo",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 50.3,
+    "concern": 50.3
+  },
+  "avondale-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "san-angelo-tx": {
+    "county": "Tom Green",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 48.0,
+    "concern": 48.0
+  },
+  "edmond-ok": {
+    "county": "Oklahoma",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.7,
+    "concern": 1.7
+  },
+  "davenport-ia": {
+    "county": "Scott",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.9,
+    "concern": 3.9
+  },
+  "deltona-fl": {
+    "county": "Volusia",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "longmont-co": {
+    "county": "Boulder",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 55.8,
+    "concern": 55.8
+  },
+  "federal-way-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "merced-ca": {
+    "county": "Merced",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 4.4,
+    "concern": 4.4
+  },
+  "kenosha-wi": {
+    "county": "Kenosha",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 47.6,
+    "concern": 47.6
+  },
+  "plantation-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "roanoke-va": {
+    "county": "Roanoke",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.6,
+    "concern": 23.6
+  },
+  "sunrise-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "temple-tx": {
+    "county": "Bell",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 16.2,
+    "concern": 16.2
+  },
+  "vista-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "beaverton-or": {
+    "county": "Washington",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 33.7,
+    "concern": 33.7
+  },
+  "yakima-wa": {
+    "county": "Yakima",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 14.3,
+    "concern": 14.3
+  },
+  "kirkland-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "norwalk-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "chino-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "portsmouth-va": {
+    "county": "Portsmouth",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 38.6,
+    "concern": 38.6
+  },
+  "manteca-ca": {
+    "county": "San Joaquin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 0.9,
+    "concern": 0.9
+  },
+  "north-port-fl": {
+    "county": "Sarasota",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 18.2,
+    "concern": 18.2
+  },
+  "greenville-nc": {
+    "county": "Pitt",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 6.0,
+    "concern": 6.0
+  },
+  "bellingham-wa": {
+    "county": "Whatcom",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 24.7,
+    "concern": 24.7
+  },
+  "lawrence-ks": {
+    "county": "Douglas",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 38.0,
+    "concern": 38.0
+  },
+  "ofallon-mo": {
+    "county": "St. Charles",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "reading-pa": {
+    "county": "Berks",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 12.2,
+    "concern": 12.2
+  },
+  "mount-pleasant-sc": {
+    "county": "Charleston",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 48.1,
+    "concern": 48.1
+  },
+  "lehi-ut": {
+    "county": "Utah",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 39.8,
+    "concern": 39.8
+  },
+  "fall-river-ma": {
+    "county": "Bristol",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "orem-ut": {
+    "county": "Utah",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 39.8,
+    "concern": 39.8
+  },
+  "san-marcos-ca": {
+    "county": "San Diego",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 16.8,
+    "concern": 16.8
+  },
+  "indio-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "redding-ca": {
+    "county": "Shasta",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 36.5,
+    "concern": 36.5
+  },
+  "hemet-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "hoover-al": {
+    "county": "Jefferson",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.4,
+    "concern": 10.4
+  },
+  "asheville-nc": {
+    "county": "Buncombe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 24.7,
+    "concern": 24.7
+  },
+  "livonia-mi": {
+    "county": "Wayne",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.0,
+    "concern": 29.0
+  },
+  "nashua-nh": {
+    "county": "Hillsborough",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "sandy-ut": {
+    "county": "Salt Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "frederick-md": {
+    "county": "Frederick",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.7,
+    "concern": 8.7
+  },
+  "bryan-tx": {
+    "county": "Brazos",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 24.8,
+    "concern": 24.8
+  },
+  "folsom-ca": {
+    "county": "Sacramento",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "erie-pa": {
+    "county": "Erie",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.0,
+    "concern": 1.0
+  },
+  "trenton-nj": {
+    "county": "Mercer",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 33.9,
+    "concern": 33.9
+  },
+  "roswell-ga": {
+    "county": "Fulton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "champaign-il": {
+    "county": "Champaign",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 23.8,
+    "concern": 23.8
+  },
+  "leander-tx": {
+    "county": "Williamson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.4,
+    "concern": 2.4
+  },
+  "clifton-nj": {
+    "county": "Passaic",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "fort-smith-ar": {
+    "county": "Sebastian",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 37.5,
+    "concern": 37.5
+  },
+  "carson-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "newton-ma": {
+    "county": "Middlesex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.2,
+    "concern": 39.2
+  },
+  "springdale-ar": {
+    "county": "Washington",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 6.7,
+    "concern": 6.7
+  },
+  "lawton-ok": {
+    "county": "Comanche",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 23.3,
+    "concern": 23.3
+  },
+  "compton-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "mission-viejo-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "franklin-tn": {
+    "county": "Williamson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 32.4,
+    "concern": 32.4
+  },
+  "santa-monica-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "south-gate-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "santa-fe-nm": {
+    "county": "Santa Fe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 48.9,
+    "concern": 48.9
+  },
+  "queen-creek-az": {
+    "county": "Maricopa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 3.5,
+    "concern": 3.5
+  },
+  "ogden-ut": {
+    "county": "Weber",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 23.5,
+    "concern": 23.5
+  },
+  "deerfield-beach-fl": {
+    "county": "Broward",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.0,
+    "concern": 17.0
+  },
+  "lawrence-ma": {
+    "county": "Essex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.2,
+    "concern": 20.2
+  },
+  "bloomington-mn": {
+    "county": "Hennepin",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 42.4,
+    "concern": 42.4
+  },
+  "mission-tx": {
+    "county": "Hidalgo",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "westminster-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "troy-mi": {
+    "county": "Oakland",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.6,
+    "concern": 10.6
+  },
+  "daytona-beach-fl": {
+    "county": "Volusia",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.8,
+    "concern": 21.8
+  },
+  "kennewick-wa": {
+    "county": "Benton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.7,
+    "concern": 21.7
+  },
+  "duluth-mn": {
+    "county": "St. Louis",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 13.7,
+    "concern": 13.7
+  },
+  "waukegan-il": {
+    "county": "Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 20.7,
+    "concern": 20.7
+  },
+  "warner-robins-ga": {
+    "county": "Houston",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.3,
+    "concern": 11.3
+  },
+  "south-jordan-ut": {
+    "county": "Salt Lake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.2,
+    "concern": 10.2
+  },
+  "rancho-cordova-ca": {
+    "county": "Sacramento",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "melbourne-fl": {
+    "county": "Brevard",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 20.8,
+    "concern": 20.8
+  },
+  "gastonia-nc": {
+    "county": "Gaston",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 25.0,
+    "concern": 25.0
+  },
+  "baytown-tx": {
+    "county": "Harris",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.5,
+    "concern": 5.5
+  },
+  "medford-or": {
+    "county": "Jackson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 6.4,
+    "concern": 6.4
+  },
+  "santa-barbara-ca": {
+    "county": "Santa Barbara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 26.7,
+    "concern": 26.7
+  },
+  "sioux-city-ia": {
+    "county": "Woodbury",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 22.7,
+    "concern": 22.7
+  },
+  "citrus-heights-ca": {
+    "county": "Sacramento",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.7,
+    "concern": 19.7
+  },
+  "lake-forest-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "auburn-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "homestead-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "san-ramon-ca": {
+    "county": "Contra Costa",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 37.9,
+    "concern": 37.9
+  },
+  "new-rochelle-ny": {
+    "county": "Westchester",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 26.1,
+    "concern": 26.1
+  },
+  "whittier-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "kissimmee-fl": {
+    "county": "Osceola",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.5,
+    "concern": 1.5
+  },
+  "mountain-view-ca": {
+    "county": "Santa Clara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 40.0,
+    "concern": 40.0
+  },
+  "san-leandro-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "layton-ut": {
+    "county": "Davis",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 24.9,
+    "concern": 24.9
+  },
+  "auburn-al": {
+    "county": "Lee",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 27.7,
+    "concern": 27.7
+  },
+  "cranston-ri": {
+    "county": "Providence",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.0,
+    "concern": 14.0
+  },
+  "mansfield-tx": {
+    "county": "Tarrant",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.1,
+    "concern": 5.1
+  },
+  "somerville-ma": {
+    "county": "Middlesex",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 39.2,
+    "concern": 39.2
+  },
+  "warwick-ri": {
+    "county": "Kent",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.9,
+    "concern": 1.9
+  },
+  "castle-rock-co": {
+    "county": "Douglas",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 7.0,
+    "concern": 7.0
+  },
+  "brooklyn-park-mn": {
+    "county": "Hennepin",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 42.4,
+    "concern": 42.4
+  },
+  "livermore-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "bloomington-in": {
+    "county": "Monroe",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 27.4,
+    "concern": 27.4
+  },
+  "jonesboro-ar": {
+    "county": "Craighead",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 37.4,
+    "concern": 37.4
+  },
+  "farmington-hills-mi": {
+    "county": "Oakland",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.6,
+    "concern": 10.6
+  },
+  "perris-ca": {
+    "county": "Riverside",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.3,
+    "concern": 1.3
+  },
+  "longview-tx": {
+    "county": "Gregg",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 42.2,
+    "concern": 42.2
+  },
+  "pasco-wa": {
+    "county": "Franklin",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 22.6,
+    "concern": 22.6
+  },
+  "hawthorne-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "lake-charles-la": {
+    "county": "Calcasieu",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 39.6,
+    "concern": 39.6
+  },
+  "redmond-wa": {
+    "county": "King",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 51.3,
+    "concern": 51.3
+  },
+  "boynton-beach-fl": {
+    "county": "Palm Beach",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 0.8,
+    "concern": 0.8
+  },
+  "westland-mi": {
+    "county": "Wayne",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 29.0,
+    "concern": 29.0
+  },
+  "redwood-city-ca": {
+    "county": "San Mateo",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 50.3,
+    "concern": 50.3
+  },
+  "newport-beach-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "cicero-il": {
+    "county": "Cook",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 41.6,
+    "concern": 41.6
+  },
+  "buena-park-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "doral-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "miami-beach-fl": {
+    "county": "Miami-Dade",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 11.4,
+    "concern": 11.4
+  },
+  "woodbury-mn": {
+    "county": "Washington",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 8.9,
+    "concern": 8.9
+  },
+  "loveland-co": {
+    "county": "Larimer",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 17.6,
+    "concern": 17.6
+  },
+  "lynchburg-va": {
+    "county": "Lynchburg",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 7.9,
+    "concern": 7.9
+  },
+  "pharr-tx": {
+    "county": "Hidalgo",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.9,
+    "concern": 2.9
+  },
+  "largo-fl": {
+    "county": "Pinellas",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 5.2,
+    "concern": 5.2
+  },
+  "rapid-city-sd": {
+    "county": "Pennington",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 26.4,
+    "concern": 26.4
+  },
+  "apex-nc": {
+    "county": "Wake",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 25.4,
+    "concern": 25.4
+  },
+  "johns-creek-ga": {
+    "county": "Fulton",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 44.9,
+    "concern": 44.9
+  },
+  "alhambra-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "bethlehem-pa": {
+    "county": "Northampton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 1.8,
+    "concern": 1.8
+  },
+  "flower-mound-tx": {
+    "county": "Denton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 13.1,
+    "concern": 13.1
+  },
+  "upland-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "flint-mi": {
+    "county": "Genesee",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 4.2,
+    "concern": 4.2
+  },
+  "lakeville-mn": {
+    "county": "Dakota",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 12.8,
+    "concern": 12.8
+  },
+  "broomfield-co": {
+    "county": "Broomfield",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 28.5,
+    "concern": 28.5
+  },
+  "cedar-park-tx": {
+    "county": "Williamson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.4,
+    "concern": 2.4
+  },
+  "plymouth-mn": {
+    "county": "Hennepin",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 42.4,
+    "concern": 42.4
+  },
+  "missoula-mt": {
+    "county": "Missoula",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 21.4,
+    "concern": 21.4
+  },
+  "mableton-ga": {
+    "county": "Cobb",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.9,
+    "concern": 14.9
+  },
+  "bloomington-il": {
+    "county": "McLean",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 4.9,
+    "concern": 4.9
+  },
+  "milpitas-ca": {
+    "county": "Santa Clara",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 40.0,
+    "concern": 40.0
+  },
+  "wyoming-mi": {
+    "county": "Kent",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.4,
+    "concern": 5.4
+  },
+  "parma-oh": {
+    "county": "Cuyahoga",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 31.4,
+    "concern": 31.4
+  },
+  "bowling-green-ky": {
+    "county": "Warren",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 24.3,
+    "concern": 24.3
+  },
+  "maricopa-az": {
+    "county": "Pinal",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 21.9,
+    "concern": 21.9
+  },
+  "lakewood-ca": {
+    "county": "Los Angeles",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 32.9,
+    "concern": 32.9
+  },
+  "bismarck-nd": {
+    "county": "Burleigh",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 42.8,
+    "concern": 42.8
+  },
+  "racine-wi": {
+    "county": "Racine",
+    "winner": "Total Votes Cast",
+    "winner_party": "",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 47.7,
+    "concern": 47.7
+  },
+  "tustin-ca": {
+    "county": "Orange",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 2.7,
+    "concern": 2.7
+  },
+  "ankeny-ia": {
+    "county": "Polk",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.8,
+    "concern": 10.8
+  },
+  "san-marcos-tx": {
+    "county": "Hays",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 5.6,
+    "concern": 5.6
+  },
+  "marysville-wa": {
+    "county": "Snohomish",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 18.8,
+    "concern": 18.8
+  },
+  "pittsburg-ca": {
+    "county": "Contra Costa",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 37.9,
+    "concern": 37.9
+  },
+  "rochester-hills-mi": {
+    "county": "Oakland",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 10.6,
+    "concern": 10.6
+  },
+  "chino-hills-ca": {
+    "county": "San Bernardino",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 2.1,
+    "concern": 2.1
+  },
+  "missouri-city-tx": {
+    "county": "Fort Bend",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 1.6,
+    "concern": 1.6
+  },
+  "flagstaff-az": {
+    "county": "Coconino",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 19.6,
+    "concern": 19.6
+  },
+  "schaumburg-il": {
+    "county": "Cook",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 41.6,
+    "concern": 41.6
+  },
+  "pawtucket-ri": {
+    "county": "Providence",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 14.0,
+    "concern": 14.0
+  },
+  "rogers-ar": {
+    "county": "Benton",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 27.0,
+    "concern": 27.0
+  },
+  "alameda-ca": {
+    "county": "Alameda",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 53.6,
+    "concern": 53.6
+  },
+  "rocklin-ca": {
+    "county": "Placer",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 8.5,
+    "concern": 8.5
+  },
+  "caldwell-id": {
+    "county": "Canyon",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 46.6,
+    "concern": 46.6
+  },
+  "carlsbad-nm": {
+    "county": "Eddy",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 55.8,
+    "concern": 55.8
+  },
+  "kalispell-mt": {
+    "county": "Flathead",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 33.8,
+    "concern": 33.8
+  },
+  "durango-co": {
+    "county": "La Plata",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 18.6,
+    "concern": 18.6
+  },
+  "los-alamos-nm": {
+    "county": "Los Alamos",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 30.2,
+    "concern": 30.2
+  },
+  "sandpoint-id": {
+    "county": "Bonner",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 46.1,
+    "concern": 46.1
+  },
+  "taos-nm": {
+    "county": "Taos",
+    "winner": "Kamala D Harris",
+    "winner_party": "Democrat",
+    "runner_up": "Donald J Trump",
+    "margin_pct": 47.5,
+    "concern": 47.5
+  },
+  "blanding-ut": {
+    "county": "San Juan",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 16.3,
+    "concern": 16.3
+  },
+  "monticello-ut": {
+    "county": "San Juan",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 16.3,
+    "concern": 16.3
+  },
+  "whitewright-tx": {
+    "county": "Grayson",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 54.2,
+    "concern": 54.2
+  },
+  "sundance-wy": {
+    "county": "Crook",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 77.4,
+    "concern": 77.4
+  },
+  "geraldine-mt": {
+    "county": "Chouteau",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 32.2,
+    "concern": 32.2
+  },
+  "grand-junction-co": {
+    "county": "Mesa",
+    "winner": "Donald J Trump",
+    "winner_party": "Republican",
+    "runner_up": "Kamala D Harris",
+    "margin_pct": 24.3,
+    "concern": 24.3
+  }
+}

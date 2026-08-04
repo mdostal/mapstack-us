@@ -19,6 +19,20 @@ juniper, oak, elm, and mold suppressed** (validated negative on a real skin
 panel). Higher = worse. It is deliberately *not* a generic pollen index — those
 are dominated by species this profile doesn't react to.
 
+**This is a MODELED ESTIMATE, not a measured pollen count** — stated plainly here
+because it matters, not buried in the limitations list below. No free, bulk,
+city-scale *measured* pollen data source exists for the US today: the one real
+measurement network (AAAAI's National Allergy Bureau, real trained counters
+reading real samplers) only has ~71 active stations nationally, covering roughly
+9% of this project's 512-city spine, and its data isn't an API or bulk download —
+it's released per-station through a slow, non-commercial research request process,
+not something a live app can wire up. Every free, bulk, programmatic "pollen"
+source that exists (Google Pollen API, Ambee, pollen.com/IQVIA) is *also* a model,
+just a less transparent one about it. Full research trail, sources checked, and
+why each one was ruled out: `real-pollen-data-research.md` in this same directory.
+This isn't a gap unique to this project — it's a real gap in what data exists at
+all, disclosed here rather than smoothed over.
+
 ## The formula
 ```
 raw   = base_season_climate

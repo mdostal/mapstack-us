@@ -195,6 +195,21 @@ test("the fourteenth dataset (park access) is selectable and reports a real TPL-
   await expect(detail).toContainText("Trust for Public Land");
 });
 
+test("the fifteenth dataset (electoral competitiveness) is selectable and reports a real 2024-election-sourced value, framed as competitiveness not lean", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Electoral competitiveness" }).click();
+  await page.getByRole("button", { name: "Electoral competitiveness", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Electoral competitiveness: Electoral competitiveness" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Electoral competitiveness" });
+  await expect(detail).toContainText("MIT Election Data + Science Lab");
+  await expect(detail).toContainText("not left/right lean");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
