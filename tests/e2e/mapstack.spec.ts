@@ -180,6 +180,21 @@ test("the thirteenth dataset (walkability) is selectable and reports a real EPA-
   await expect(detail).toContainText("EPA Smart Location Database");
 });
 
+test("the fourteenth dataset (park access) is selectable and reports a real TPL-sourced value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Park access" }).click();
+  await page.getByRole("button", { name: "Park access", exact: true }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Park access: Park access" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Park access: Park access" });
+  await expect(detail).toContainText("10-min walk");
+  await expect(detail).toContainText("Trust for Public Land");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

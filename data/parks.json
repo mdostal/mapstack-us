@@ -1,0 +1,3556 @@
+{
+  "_meta": {
+    "source": "Trust for Public Land, ParkServe database, 2024 release -- 10-minute walk service area analysis",
+    "source_url": "https://parkserve.tpl.org",
+    "resolution": "place (population within a 10-minute walk of a park, computed by TPL)"
+  },
+  "new-york-ny": {
+    "place_name": "New York city",
+    "pct_served": 99.3,
+    "park_count": 2418,
+    "total_park_acreage": 32291,
+    "concern": 0.7
+  },
+  "los-angeles-ca": {
+    "place_name": "Los Angeles city",
+    "pct_served": 61.8,
+    "park_count": 662,
+    "total_park_acreage": 39917,
+    "concern": 38.2
+  },
+  "chicago-il": {
+    "place_name": "Chicago city",
+    "pct_served": 98.2,
+    "park_count": 1248,
+    "total_park_acreage": 12540,
+    "concern": 1.8
+  },
+  "houston-tx": {
+    "place_name": "Houston city",
+    "pct_served": 62.1,
+    "park_count": 721,
+    "total_park_acreage": 43389,
+    "concern": 37.9
+  },
+  "phoenix-az": {
+    "place_name": "Phoenix city",
+    "pct_served": 49.8,
+    "park_count": 233,
+    "total_park_acreage": 51075,
+    "concern": 50.2
+  },
+  "philadelphia-pa": {
+    "place_name": "Philadelphia city",
+    "pct_served": 96.8,
+    "park_count": 565,
+    "total_park_acreage": 11456,
+    "concern": 3.2
+  },
+  "san-antonio-tx": {
+    "place_name": "San Antonio city",
+    "pct_served": 47.3,
+    "park_count": 351,
+    "total_park_acreage": 28830,
+    "concern": 52.7
+  },
+  "san-diego-ca": {
+    "place_name": "San Diego city",
+    "pct_served": 81.8,
+    "park_count": 562,
+    "total_park_acreage": 43364,
+    "concern": 18.2
+  },
+  "dallas-tx": {
+    "place_name": "Dallas city",
+    "pct_served": 80.6,
+    "park_count": 635,
+    "total_park_acreage": 23448,
+    "concern": 19.4
+  },
+  "fort-worth-tx": {
+    "place_name": "Fort Worth city",
+    "pct_served": 72.6,
+    "park_count": 455,
+    "total_park_acreage": 14049,
+    "concern": 27.4
+  },
+  "jacksonville-fl": {
+    "place_name": "Jacksonville city",
+    "pct_served": 35.2,
+    "park_count": 433,
+    "total_park_acreage": 87069,
+    "concern": 64.8
+  },
+  "austin-tx": {
+    "place_name": "Austin city",
+    "pct_served": 76.1,
+    "park_count": 531,
+    "total_park_acreage": 19305,
+    "concern": 23.9
+  },
+  "san-jose-ca": {
+    "place_name": "San Jose city",
+    "pct_served": 79.4,
+    "park_count": 382,
+    "total_park_acreage": 17598,
+    "concern": 20.6
+  },
+  "charlotte-nc": {
+    "place_name": "Charlotte-Mecklenburg County",
+    "pct_served": 39.8,
+    "park_count": 389,
+    "total_park_acreage": 22223,
+    "concern": 60.2
+  },
+  "columbus-oh": {
+    "place_name": "Columbus city",
+    "pct_served": 71.3,
+    "park_count": 561,
+    "total_park_acreage": 12181,
+    "concern": 28.7
+  },
+  "indianapolis-in": {
+    "place_name": "Indianapolis city (balance)",
+    "pct_served": 36.3,
+    "park_count": 245,
+    "total_park_acreage": 10037,
+    "concern": 63.7
+  },
+  "san-francisco-ca": {
+    "place_name": "San Francisco city",
+    "pct_served": 99.9,
+    "park_count": 530,
+    "total_park_acreage": 6371,
+    "concern": 0.1
+  },
+  "seattle-wa": {
+    "place_name": "Seattle city",
+    "pct_served": 99.2,
+    "park_count": 850,
+    "total_park_acreage": 6438,
+    "concern": 0.8
+  },
+  "denver-co": {
+    "place_name": "Denver city",
+    "pct_served": 96.3,
+    "park_count": 514,
+    "total_park_acreage": 7548,
+    "concern": 3.7
+  },
+  "nashville-tn": {
+    "place_name": "Nashville-Davidson metropolitan government (balance)",
+    "pct_served": 43.8,
+    "park_count": 249,
+    "total_park_acreage": 36014,
+    "concern": 56.2
+  },
+  "oklahoma-city-ok": {
+    "place_name": "Oklahoma City city",
+    "pct_served": 40.7,
+    "park_count": 261,
+    "total_park_acreage": 17346,
+    "concern": 59.3
+  },
+  "washington-dc": {
+    "place_name": "Washington city",
+    "pct_served": 98.6,
+    "park_count": 375,
+    "total_park_acreage": 8354,
+    "concern": 1.4
+  },
+  "el-paso-tx": {
+    "place_name": "El Paso city",
+    "pct_served": 66.2,
+    "park_count": 355,
+    "total_park_acreage": 31646,
+    "concern": 33.8
+  },
+  "las-vegas-nv": {
+    "place_name": "Las Vegas city",
+    "pct_served": 70.0,
+    "park_count": 361,
+    "total_park_acreage": 17094,
+    "concern": 30.0
+  },
+  "boston-ma": {
+    "place_name": "Boston city",
+    "pct_served": 99.7,
+    "park_count": 860,
+    "total_park_acreage": 6069,
+    "concern": 0.3
+  },
+  "detroit-mi": {
+    "place_name": "Detroit city",
+    "pct_served": 85.4,
+    "park_count": 353,
+    "total_park_acreage": 5031,
+    "concern": 14.6
+  },
+  "louisville-ky": {
+    "place_name": "Louisville/Jefferson County",
+    "pct_served": 37.9,
+    "park_count": 171,
+    "total_park_acreage": 16653,
+    "concern": 62.1
+  },
+  "portland-or": {
+    "place_name": "Portland city",
+    "pct_served": 89.5,
+    "park_count": 332,
+    "total_park_acreage": 13015,
+    "concern": 10.5
+  },
+  "memphis-tn": {
+    "place_name": "Memphis city",
+    "pct_served": 45.2,
+    "park_count": 192,
+    "total_park_acreage": 11206,
+    "concern": 54.8
+  },
+  "baltimore-md": {
+    "place_name": "Baltimore city",
+    "pct_served": 90.6,
+    "park_count": 340,
+    "total_park_acreage": 4732,
+    "concern": 9.4
+  },
+  "milwaukee-wi": {
+    "place_name": "Milwaukee city",
+    "pct_served": 95.6,
+    "park_count": 270,
+    "total_park_acreage": 5696,
+    "concern": 4.4
+  },
+  "albuquerque-nm": {
+    "place_name": "Albuquerque city",
+    "pct_served": 90.9,
+    "park_count": 485,
+    "total_park_acreage": 21008,
+    "concern": 9.1
+  },
+  "fresno-ca": {
+    "place_name": "Fresno city",
+    "pct_served": 71.1,
+    "park_count": 217,
+    "total_park_acreage": 1865,
+    "concern": 28.9
+  },
+  "tucson-az": {
+    "place_name": "Tucson city",
+    "pct_served": 69.3,
+    "park_count": 222,
+    "total_park_acreage": 6533,
+    "concern": 30.7
+  },
+  "sacramento-ca": {
+    "place_name": "Sacramento city",
+    "pct_served": 88.9,
+    "park_count": 261,
+    "total_park_acreage": 6651,
+    "concern": 11.1
+  },
+  "atlanta-ga": {
+    "place_name": "Atlanta city",
+    "pct_served": 84.6,
+    "park_count": 540,
+    "total_park_acreage": 7024,
+    "concern": 15.4
+  },
+  "kansas-city-mo": {
+    "place_name": "Kansas City city",
+    "pct_served": 72.3,
+    "park_count": 371,
+    "total_park_acreage": 17920,
+    "concern": 27.7
+  },
+  "mesa-az": {
+    "place_name": "Mesa city",
+    "pct_served": 63.0,
+    "park_count": 278,
+    "total_park_acreage": 2424,
+    "concern": 37.0
+  },
+  "raleigh-nc": {
+    "place_name": "Raleigh city",
+    "pct_served": 41.2,
+    "park_count": 176,
+    "total_park_acreage": 11930,
+    "concern": 58.8
+  },
+  "colorado-springs-co": {
+    "place_name": "Colorado Springs city",
+    "pct_served": 76.8,
+    "park_count": 314,
+    "total_park_acreage": 13557,
+    "concern": 23.2
+  },
+  "miami-fl": {
+    "place_name": "Miami city",
+    "pct_served": 89.1,
+    "park_count": 176,
+    "total_park_acreage": 1376,
+    "concern": 10.9
+  },
+  "omaha-ne": {
+    "place_name": "Omaha city",
+    "pct_served": 81.2,
+    "park_count": 278,
+    "total_park_acreage": 9353,
+    "concern": 18.8
+  },
+  "virginia-beach-va": {
+    "place_name": "Virginia Beach city",
+    "pct_served": 69.3,
+    "park_count": 382,
+    "total_park_acreage": 17569,
+    "concern": 30.7
+  },
+  "long-beach-ca": {
+    "place_name": "Long Beach city",
+    "pct_served": 81.4,
+    "park_count": 154,
+    "total_park_acreage": 2573,
+    "concern": 18.6
+  },
+  "oakland-ca": {
+    "place_name": "Oakland city",
+    "pct_served": 87.9,
+    "park_count": 163,
+    "total_park_acreage": 4157,
+    "concern": 12.1
+  },
+  "minneapolis-mn": {
+    "place_name": "Minneapolis city",
+    "pct_served": 98.4,
+    "park_count": 303,
+    "total_park_acreage": 5367,
+    "concern": 1.6
+  },
+  "bakersfield-ca": {
+    "place_name": "Bakersfield city",
+    "pct_served": 41.2,
+    "park_count": 83,
+    "total_park_acreage": 5840,
+    "concern": 58.8
+  },
+  "tulsa-ok": {
+    "place_name": "Tulsa city",
+    "pct_served": 64.4,
+    "park_count": 238,
+    "total_park_acreage": 8768,
+    "concern": 35.6
+  },
+  "tampa-fl": {
+    "place_name": "Tampa city",
+    "pct_served": 64.2,
+    "park_count": 205,
+    "total_park_acreage": 6583,
+    "concern": 35.8
+  },
+  "aurora-co": {
+    "place_name": "Aurora city",
+    "pct_served": 90.4,
+    "park_count": 254,
+    "total_park_acreage": 10035,
+    "concern": 9.6
+  },
+  "arlington-tx": {
+    "place_name": "Arlington city",
+    "pct_served": 76.8,
+    "park_count": 209,
+    "total_park_acreage": 5662,
+    "concern": 23.2
+  },
+  "wichita-ks": {
+    "place_name": "Wichita city",
+    "pct_served": 51.9,
+    "park_count": 142,
+    "total_park_acreage": 4379,
+    "concern": 48.1
+  },
+  "cleveland-oh": {
+    "place_name": "Cleveland city",
+    "pct_served": 88.1,
+    "park_count": 207,
+    "total_park_acreage": 3293,
+    "concern": 11.9
+  },
+  "new-orleans-la": {
+    "place_name": "New Orleans city",
+    "pct_served": 81.3,
+    "park_count": 249,
+    "total_park_acreage": 29852,
+    "concern": 18.7
+  },
+  "henderson-nv": {
+    "place_name": "Henderson city",
+    "pct_served": 85.1,
+    "park_count": 234,
+    "total_park_acreage": 4617,
+    "concern": 14.9
+  },
+  "honolulu-hi": {
+    "place_name": "Honolulu County",
+    "pct_served": 76.0,
+    "park_count": 507,
+    "total_park_acreage": 65617,
+    "concern": 24.0
+  },
+  "anaheim-ca": {
+    "place_name": "Anaheim city",
+    "pct_served": 64.6,
+    "park_count": 87,
+    "total_park_acreage": 4615,
+    "concern": 35.4
+  },
+  "orlando-fl": {
+    "place_name": "Orlando city",
+    "pct_served": 70.7,
+    "park_count": 331,
+    "total_park_acreage": 3836,
+    "concern": 29.3
+  },
+  "lexington-ky": {
+    "place_name": "Lexington-Fayette urban county",
+    "pct_served": 61.5,
+    "park_count": 199,
+    "total_park_acreage": 5199,
+    "concern": 38.5
+  },
+  "stockton-ca": {
+    "place_name": "Stockton city",
+    "pct_served": 74.3,
+    "park_count": 92,
+    "total_park_acreage": 1265,
+    "concern": 25.7
+  },
+  "newark-nj": {
+    "place_name": "Newark",
+    "pct_served": 93.9,
+    "park_count": 71,
+    "total_park_acreage": 843,
+    "concern": 6.1
+  },
+  "riverside-ca": {
+    "place_name": "Riverside city",
+    "pct_served": 48.5,
+    "park_count": 84,
+    "total_park_acreage": 4119,
+    "concern": 51.5
+  },
+  "irvine-ca": {
+    "place_name": "Irvine city",
+    "pct_served": 94.0,
+    "park_count": 368,
+    "total_park_acreage": 10557,
+    "concern": 6.0
+  },
+  "corpus-christi-tx": {
+    "place_name": "Corpus Christi city",
+    "pct_served": 74.6,
+    "park_count": 229,
+    "total_park_acreage": 6833,
+    "concern": 25.4
+  },
+  "santa-ana-ca": {
+    "place_name": "Santa Ana city",
+    "pct_served": 73.7,
+    "park_count": 66,
+    "total_park_acreage": 559,
+    "concern": 26.3
+  },
+  "cincinnati-oh": {
+    "place_name": "Cincinnati city",
+    "pct_served": 90.2,
+    "park_count": 404,
+    "total_park_acreage": 8571,
+    "concern": 9.8
+  },
+  "greensboro-nc": {
+    "place_name": "Greensboro city",
+    "pct_served": 58.8,
+    "park_count": 249,
+    "total_park_acreage": 7321,
+    "concern": 41.2
+  },
+  "pittsburgh-pa": {
+    "place_name": "Pittsburgh city",
+    "pct_served": 93.4,
+    "park_count": 243,
+    "total_park_acreage": 4800,
+    "concern": 6.6
+  },
+  "saint-paul-mn": {
+    "place_name": "St. Paul city",
+    "pct_served": 98.8,
+    "park_count": 267,
+    "total_park_acreage": 5101,
+    "concern": 1.2
+  },
+  "durham-nc": {
+    "place_name": "Durham city",
+    "pct_served": 45.2,
+    "park_count": 128,
+    "total_park_acreage": 3345,
+    "concern": 54.8
+  },
+  "jersey-city-nj": {
+    "place_name": "Jersey City city",
+    "pct_served": 99.8,
+    "park_count": 108,
+    "total_park_acreage": 1080,
+    "concern": 0.2
+  },
+  "lincoln-ne": {
+    "place_name": "Lincoln city",
+    "pct_served": 89.0,
+    "park_count": 234,
+    "total_park_acreage": 4268,
+    "concern": 11.0
+  },
+  "north-las-vegas-nv": {
+    "place_name": "North Las Vegas city",
+    "pct_served": 68.7,
+    "park_count": 70,
+    "total_park_acreage": 16814,
+    "concern": 31.3
+  },
+  "plano-tx": {
+    "place_name": "Plano city",
+    "pct_served": 85.1,
+    "park_count": 175,
+    "total_park_acreage": 4800,
+    "concern": 14.9
+  },
+  "gilbert-az": {
+    "place_name": "Gilbert town",
+    "pct_served": 76.3,
+    "park_count": 85,
+    "total_park_acreage": 3572,
+    "concern": 23.7
+  },
+  "anchorage-ak": {
+    "place_name": "Anchorage municipality",
+    "pct_served": 78.1,
+    "park_count": 325,
+    "total_park_acreage": 914945,
+    "concern": 21.9
+  },
+  "madison-wi": {
+    "place_name": "Madison city",
+    "pct_served": 97.4,
+    "park_count": 309,
+    "total_park_acreage": 6997,
+    "concern": 2.6
+  },
+  "reno-nv": {
+    "place_name": "Reno city",
+    "pct_served": 74.1,
+    "park_count": 145,
+    "total_park_acreage": 2714,
+    "concern": 25.9
+  },
+  "chandler-az": {
+    "place_name": "Chandler city",
+    "pct_served": 59.5,
+    "park_count": 83,
+    "total_park_acreage": 1632,
+    "concern": 40.5
+  },
+  "st-louis-mo": {
+    "place_name": "St. Louis city",
+    "pct_served": 97.7,
+    "park_count": 362,
+    "total_park_acreage": 3634,
+    "concern": 2.3
+  },
+  "chula-vista-ca": {
+    "place_name": "Chula Vista city",
+    "pct_served": 70.1,
+    "park_count": 118,
+    "total_park_acreage": 2722,
+    "concern": 29.9
+  },
+  "fort-wayne-in": {
+    "place_name": "Fort Wayne city",
+    "pct_served": 44.6,
+    "park_count": 97,
+    "total_park_acreage": 2045,
+    "concern": 55.4
+  },
+  "buffalo-ny": {
+    "place_name": "Buffalo city",
+    "pct_served": 90.6,
+    "park_count": 365,
+    "total_park_acreage": 2239,
+    "concern": 9.4
+  },
+  "lubbock-tx": {
+    "place_name": "Lubbock city",
+    "pct_served": 50.1,
+    "park_count": 91,
+    "total_park_acreage": 3198,
+    "concern": 49.9
+  },
+  "laredo-tx": {
+    "place_name": "Laredo city",
+    "pct_served": 58.5,
+    "park_count": 84,
+    "total_park_acreage": 1946,
+    "concern": 41.5
+  },
+  "port-st-lucie-fl": {
+    "place_name": "Port St. Lucie city",
+    "pct_served": 27.5,
+    "park_count": 66,
+    "total_park_acreage": 6065,
+    "concern": 72.5
+  },
+  "st-petersburg-fl": {
+    "place_name": "St. Petersburg city",
+    "pct_served": 78.0,
+    "park_count": 182,
+    "total_park_acreage": 4488,
+    "concern": 22.0
+  },
+  "toledo-oh": {
+    "place_name": "Toledo city",
+    "pct_served": 83.0,
+    "park_count": 165,
+    "total_park_acreage": 3400,
+    "concern": 17.0
+  },
+  "glendale-az": {
+    "place_name": "Glendale city",
+    "pct_served": 72.2,
+    "park_count": 96,
+    "total_park_acreage": 2121,
+    "concern": 27.8
+  },
+  "winston-salem-nc": {
+    "place_name": "Winston-Salem city",
+    "pct_served": 36.0,
+    "park_count": 99,
+    "total_park_acreage": 3858,
+    "concern": 64.0
+  },
+  "irving-tx": {
+    "place_name": "Irving city",
+    "pct_served": 63.5,
+    "park_count": 105,
+    "total_park_acreage": 2083,
+    "concern": 36.5
+  },
+  "chesapeake-va": {
+    "place_name": "Chesapeake city",
+    "pct_served": 48.5,
+    "park_count": 159,
+    "total_park_acreage": 62568,
+    "concern": 51.5
+  },
+  "garland-tx": {
+    "place_name": "Garland city",
+    "pct_served": 62.6,
+    "park_count": 65,
+    "total_park_acreage": 3009,
+    "concern": 37.4
+  },
+  "arlington-va": {
+    "place_name": "Arlington CDP",
+    "pct_served": 98.9,
+    "park_count": 197,
+    "total_park_acreage": 1808,
+    "concern": 1.1
+  },
+  "scottsdale-az": {
+    "place_name": "Scottsdale city",
+    "pct_served": 41.9,
+    "park_count": 49,
+    "total_park_acreage": 35891,
+    "concern": 58.1
+  },
+  "boise-id": {
+    "place_name": "Boise City city",
+    "pct_served": 75.3,
+    "park_count": 212,
+    "total_park_acreage": 5162,
+    "concern": 24.7
+  },
+  "richmond-va": {
+    "place_name": "Richmond city",
+    "pct_served": 83.0,
+    "park_count": 214,
+    "total_park_acreage": 3074,
+    "concern": 17.0
+  },
+  "frisco-tx": {
+    "place_name": "Frisco city",
+    "pct_served": 69.4,
+    "park_count": 78,
+    "total_park_acreage": 2286,
+    "concern": 30.6
+  },
+  "cape-coral-fl": {
+    "place_name": "Cape Coral city",
+    "pct_served": 15.8,
+    "park_count": 31,
+    "total_park_acreage": 8728,
+    "concern": 84.2
+  },
+  "mckinney-tx": {
+    "place_name": "McKinney city",
+    "pct_served": 65.6,
+    "park_count": 92,
+    "total_park_acreage": 1580,
+    "concern": 34.4
+  },
+  "huntsville-al": {
+    "place_name": "Huntsville city",
+    "pct_served": 53.2,
+    "park_count": 164,
+    "total_park_acreage": 11321,
+    "concern": 46.8
+  },
+  "norfolk-va": {
+    "place_name": "Norfolk city",
+    "pct_served": 79.5,
+    "park_count": 188,
+    "total_park_acreage": 2204,
+    "concern": 20.5
+  },
+  "hialeah-fl": {
+    "place_name": "Hialeah city",
+    "pct_served": 69.4,
+    "park_count": 35,
+    "total_park_acreage": 270,
+    "concern": 30.6
+  },
+  "spokane-wa": {
+    "place_name": "Spokane city",
+    "pct_served": 85.8,
+    "park_count": 148,
+    "total_park_acreage": 3792,
+    "concern": 14.2
+  },
+  "tacoma-wa": {
+    "place_name": "Tacoma city",
+    "pct_served": 84.2,
+    "park_count": 145,
+    "total_park_acreage": 2366,
+    "concern": 15.8
+  },
+  "santa-clarita-ca": {
+    "place_name": "Santa Clarita city",
+    "pct_served": 52.7,
+    "park_count": 69,
+    "total_park_acreage": 6261,
+    "concern": 47.3
+  },
+  "fremont-ca": {
+    "place_name": "Fremont city",
+    "pct_served": 70.4,
+    "park_count": 63,
+    "total_park_acreage": 17739,
+    "concern": 29.6
+  },
+  "baton-rouge-la": {
+    "place_name": "Baton Rouge city",
+    "pct_served": 50.5,
+    "park_count": 102,
+    "total_park_acreage": 1416,
+    "concern": 49.5
+  },
+  "san-bernardino-ca": {
+    "place_name": "San Bernardino city",
+    "pct_served": 47.0,
+    "park_count": 47,
+    "total_park_acreage": 1063,
+    "concern": 53.0
+  },
+  "fontana-ca": {
+    "place_name": "Fontana city",
+    "pct_served": 50.4,
+    "park_count": 36,
+    "total_park_acreage": 1208,
+    "concern": 49.6
+  },
+  "modesto-ca": {
+    "place_name": "Modesto city",
+    "pct_served": 81.9,
+    "park_count": 79,
+    "total_park_acreage": 1117,
+    "concern": 18.1
+  },
+  "salt-lake-city-ut": {
+    "place_name": "Salt Lake City city",
+    "pct_served": 84.5,
+    "park_count": 101,
+    "total_park_acreage": 5865,
+    "concern": 15.5
+  },
+  "moreno-valley-ca": {
+    "place_name": "Moreno Valley city",
+    "pct_served": 49.6,
+    "park_count": 38,
+    "total_park_acreage": 1119,
+    "concern": 50.4
+  },
+  "worcester-ma": {
+    "place_name": "Worcester city",
+    "pct_served": 75.6,
+    "park_count": 69,
+    "total_park_acreage": 1482,
+    "concern": 24.4
+  },
+  "sioux-falls-sd": {
+    "place_name": "Sioux Falls city",
+    "pct_served": 59.5,
+    "park_count": 98,
+    "total_park_acreage": 2916,
+    "concern": 40.5
+  },
+  "yonkers-ny": {
+    "place_name": "Yonkers city",
+    "pct_served": 90.2,
+    "park_count": 71,
+    "total_park_acreage": 1042,
+    "concern": 9.8
+  },
+  "des-moines-ia": {
+    "place_name": "Des Moines city",
+    "pct_served": 76.1,
+    "park_count": 200,
+    "total_park_acreage": 7457,
+    "concern": 23.9
+  },
+  "grand-prairie-tx": {
+    "place_name": "Grand Prairie city",
+    "pct_served": 49.7,
+    "park_count": 61,
+    "total_park_acreage": 4349,
+    "concern": 50.3
+  },
+  "fayetteville-nc": {
+    "place_name": "Fayetteville city",
+    "pct_served": 11.4,
+    "park_count": 39,
+    "total_park_acreage": 264,
+    "concern": 88.6
+  },
+  "little-rock-ar": {
+    "place_name": "Little Rock city",
+    "pct_served": 43.2,
+    "park_count": 92,
+    "total_park_acreage": 5729,
+    "concern": 56.8
+  },
+  "rochester-ny": {
+    "place_name": "Rochester city",
+    "pct_served": 89.9,
+    "park_count": 103,
+    "total_park_acreage": 3361,
+    "concern": 10.1
+  },
+  "amarillo-tx": {
+    "place_name": "Amarillo city",
+    "pct_served": 52.0,
+    "park_count": 51,
+    "total_park_acreage": 2628,
+    "concern": 48.0
+  },
+  "tallahassee-fl": {
+    "place_name": "Tallahassee city",
+    "pct_served": 41.6,
+    "park_count": 88,
+    "total_park_acreage": 6038,
+    "concern": 58.4
+  },
+  "overland-park-ks": {
+    "place_name": "Overland Park city",
+    "pct_served": 70.1,
+    "park_count": 108,
+    "total_park_acreage": 2076,
+    "concern": 29.9
+  },
+  "columbus-ga": {
+    "place_name": "Columbus city",
+    "pct_served": 32.0,
+    "park_count": 59,
+    "total_park_acreage": 3801,
+    "concern": 68.0
+  },
+  "knoxville-tn": {
+    "place_name": "Knoxville city",
+    "pct_served": 51.2,
+    "park_count": 118,
+    "total_park_acreage": 3268,
+    "concern": 48.8
+  },
+  "augusta-ga": {
+    "place_name": "Augusta-Richmond County consolidated government (balance)",
+    "pct_served": 23.4,
+    "park_count": 56,
+    "total_park_acreage": 2331,
+    "concern": 76.6
+  },
+  "grand-rapids-mi": {
+    "place_name": "Grand Rapids city",
+    "pct_served": 79.0,
+    "park_count": 104,
+    "total_park_acreage": 1709,
+    "concern": 21.0
+  },
+  "peoria-az": {
+    "place_name": "Peoria city",
+    "pct_served": 44.9,
+    "park_count": 42,
+    "total_park_acreage": 963,
+    "concern": 55.1
+  },
+  "mobile-al": {
+    "place_name": "Mobile city",
+    "pct_served": 37.7,
+    "park_count": 92,
+    "total_park_acreage": 1749,
+    "concern": 62.3
+  },
+  "vancouver-wa": {
+    "place_name": "Vancouver city",
+    "pct_served": 79.2,
+    "park_count": 112,
+    "total_park_acreage": 1745,
+    "concern": 20.8
+  },
+  "oxnard-ca": {
+    "place_name": "Oxnard city",
+    "pct_served": 81.5,
+    "park_count": 57,
+    "total_park_acreage": 888,
+    "concern": 18.5
+  },
+  "birmingham-al": {
+    "place_name": "Birmingham city",
+    "pct_served": 60.3,
+    "park_count": 136,
+    "total_park_acreage": 10026,
+    "concern": 39.7
+  },
+  "providence-ri": {
+    "place_name": "Providence city",
+    "pct_served": 99.2,
+    "park_count": 139,
+    "total_park_acreage": 1216,
+    "concern": 0.8
+  },
+  "montgomery-al": {
+    "place_name": "Montgomery city",
+    "pct_served": 23.8,
+    "park_count": 56,
+    "total_park_acreage": 984,
+    "concern": 76.2
+  },
+  "chattanooga-tn": {
+    "place_name": "Chattanooga city",
+    "pct_served": 40.3,
+    "park_count": 105,
+    "total_park_acreage": 7569,
+    "concern": 59.7
+  },
+  "brownsville-tx": {
+    "place_name": "Brownsville city",
+    "pct_served": 31.8,
+    "park_count": 32,
+    "total_park_acreage": 1694,
+    "concern": 68.2
+  },
+  "huntington-beach-ca": {
+    "place_name": "Huntington Beach city",
+    "pct_served": 82.6,
+    "park_count": 79,
+    "total_park_acreage": 1065,
+    "concern": 17.4
+  },
+  "tempe-az": {
+    "place_name": "Tempe city",
+    "pct_served": 61.9,
+    "park_count": 66,
+    "total_park_acreage": 1145,
+    "concern": 38.1
+  },
+  "akron-oh": {
+    "place_name": "Akron city",
+    "pct_served": 82.1,
+    "park_count": 136,
+    "total_park_acreage": 4435,
+    "concern": 17.9
+  },
+  "clarksville-tn": {
+    "place_name": "Clarksville city",
+    "pct_served": 19.7,
+    "park_count": 46,
+    "total_park_acreage": 1485,
+    "concern": 80.3
+  },
+  "fort-lauderdale-fl": {
+    "place_name": "Fort Lauderdale city",
+    "pct_served": 82.5,
+    "park_count": 125,
+    "total_park_acreage": 1029,
+    "concern": 17.5
+  },
+  "glendale-ca": {
+    "place_name": "Glendale city",
+    "pct_served": 74.7,
+    "park_count": 51,
+    "total_park_acreage": 5647,
+    "concern": 25.3
+  },
+  "ontario-ca": {
+    "place_name": "Ontario city",
+    "pct_served": 48.2,
+    "park_count": 26,
+    "total_park_acreage": 298,
+    "concern": 51.8
+  },
+  "elk-grove-ca": {
+    "place_name": "Elk Grove city",
+    "pct_served": 84.7,
+    "park_count": 93,
+    "total_park_acreage": 1086,
+    "concern": 15.3
+  },
+  "cary-nc": {
+    "place_name": "Cary town",
+    "pct_served": 29.2,
+    "park_count": 46,
+    "total_park_acreage": 2628,
+    "concern": 70.8
+  },
+  "newport-news-va": {
+    "place_name": "Newport News city",
+    "pct_served": 27.7,
+    "park_count": 34,
+    "total_park_acreage": 3522,
+    "concern": 72.3
+  },
+  "salem-or": {
+    "place_name": "Salem city",
+    "pct_served": 68.1,
+    "park_count": 93,
+    "total_park_acreage": 2318,
+    "concern": 31.9
+  },
+  "aurora-il": {
+    "place_name": "Aurora city",
+    "pct_served": 84.6,
+    "park_count": 120,
+    "total_park_acreage": 2031,
+    "concern": 15.4
+  },
+  "santa-rosa-ca": {
+    "place_name": "Santa Rosa city",
+    "pct_served": 66.4,
+    "park_count": 67,
+    "total_park_acreage": 1184,
+    "concern": 33.6
+  },
+  "eugene-or": {
+    "place_name": "Eugene city",
+    "pct_served": 86.1,
+    "park_count": 135,
+    "total_park_acreage": 3439,
+    "concern": 13.9
+  },
+  "rancho-cucamonga-ca": {
+    "place_name": "Rancho Cucamonga city",
+    "pct_served": 32.7,
+    "park_count": 22,
+    "total_park_acreage": 956,
+    "concern": 67.3
+  },
+  "pembroke-pines-fl": {
+    "place_name": "Pembroke Pines city",
+    "pct_served": 33.4,
+    "park_count": 32,
+    "total_park_acreage": 2175,
+    "concern": 66.6
+  },
+  "shreveport-la": {
+    "place_name": "Shreveport city",
+    "pct_served": 27.1,
+    "park_count": 41,
+    "total_park_acreage": 738,
+    "concern": 72.9
+  },
+  "surprise-az": {
+    "place_name": "Surprise city",
+    "pct_served": 14.8,
+    "park_count": 15,
+    "total_park_acreage": 222,
+    "concern": 85.2
+  },
+  "fort-collins-co": {
+    "place_name": "Fort Collins city",
+    "pct_served": 70.3,
+    "park_count": 96,
+    "total_park_acreage": 5684,
+    "concern": 29.7
+  },
+  "murfreesboro-tn": {
+    "place_name": "Murfreesboro city",
+    "pct_served": 9.4,
+    "park_count": 16,
+    "total_park_acreage": 1073,
+    "concern": 90.6
+  },
+  "oceanside-ca": {
+    "place_name": "Oceanside city",
+    "pct_served": 55.3,
+    "park_count": 45,
+    "total_park_acreage": 2509,
+    "concern": 44.7
+  },
+  "garden-grove-ca": {
+    "place_name": "Garden Grove city",
+    "pct_served": 40.9,
+    "park_count": 18,
+    "total_park_acreage": 150,
+    "concern": 59.1
+  },
+  "lancaster-ca": {
+    "place_name": "Lancaster city",
+    "pct_served": 18.7,
+    "park_count": 14,
+    "total_park_acreage": 429,
+    "concern": 81.3
+  },
+  "springfield-mo": {
+    "place_name": "Springfield city",
+    "pct_served": 42.9,
+    "park_count": 71,
+    "total_park_acreage": 1280,
+    "concern": 57.1
+  },
+  "denton-tx": {
+    "place_name": "Denton city",
+    "pct_served": 60.4,
+    "park_count": 63,
+    "total_park_acreage": 3537,
+    "concern": 39.6
+  },
+  "roseville-ca": {
+    "place_name": "Roseville city",
+    "pct_served": 90.1,
+    "park_count": 125,
+    "total_park_acreage": 1582,
+    "concern": 9.9
+  },
+  "killeen-tx": {
+    "place_name": "Killeen city",
+    "pct_served": 27.9,
+    "park_count": 27,
+    "total_park_acreage": 1900,
+    "concern": 72.1
+  },
+  "palmdale-ca": {
+    "place_name": "Palmdale city",
+    "pct_served": 33.6,
+    "park_count": 31,
+    "total_park_acreage": 901,
+    "concern": 66.4
+  },
+  "paterson-nj": {
+    "place_name": "Paterson city",
+    "pct_served": 82.4,
+    "park_count": 31,
+    "total_park_acreage": 299,
+    "concern": 17.6
+  },
+  "corona-ca": {
+    "place_name": "Corona city",
+    "pct_served": 57.6,
+    "park_count": 42,
+    "total_park_acreage": 1472,
+    "concern": 42.4
+  },
+  "alexandria-va": {
+    "place_name": "Alexandria city",
+    "pct_served": 95.7,
+    "park_count": 155,
+    "total_park_acreage": 1153,
+    "concern": 4.3
+  },
+  "charleston-sc": {
+    "place_name": "Charleston city",
+    "pct_served": 53.5,
+    "park_count": 126,
+    "total_park_acreage": 5491,
+    "concern": 46.5
+  },
+  "salinas-ca": {
+    "place_name": "Salinas city",
+    "pct_served": 92.1,
+    "park_count": 50,
+    "total_park_acreage": 350,
+    "concern": 7.9
+  },
+  "kansas-city-ks": {
+    "place_name": "Kansas City city",
+    "pct_served": 43.6,
+    "park_count": 59,
+    "total_park_acreage": 2351,
+    "concern": 56.4
+  },
+  "macon-ga": {
+    "place_name": "Macon-Bibb County",
+    "pct_served": 17.1,
+    "park_count": 39,
+    "total_park_acreage": 2075,
+    "concern": 82.9
+  },
+  "hayward-ca": {
+    "place_name": "Hayward city",
+    "pct_served": 76.6,
+    "park_count": 48,
+    "total_park_acreage": 3490,
+    "concern": 23.4
+  },
+  "hollywood-fl": {
+    "place_name": "Hollywood city",
+    "pct_served": 73.5,
+    "park_count": 58,
+    "total_park_acreage": 2162,
+    "concern": 26.5
+  },
+  "lakewood-co": {
+    "place_name": "Lakewood city",
+    "pct_served": 88.0,
+    "park_count": 113,
+    "total_park_acreage": 6805,
+    "concern": 12.0
+  },
+  "sunnyvale-ca": {
+    "place_name": "Sunnyvale city",
+    "pct_served": 57.9,
+    "park_count": 23,
+    "total_park_acreage": 1200,
+    "concern": 42.1
+  },
+  "springfield-ma": {
+    "place_name": "Springfield city",
+    "pct_served": 94.3,
+    "park_count": 143,
+    "total_park_acreage": 2230,
+    "concern": 5.7
+  },
+  "bellevue-wa": {
+    "place_name": "Bellevue city",
+    "pct_served": 91.6,
+    "park_count": 155,
+    "total_park_acreage": 2555,
+    "concern": 8.4
+  },
+  "naperville-il": {
+    "place_name": "Naperville city",
+    "pct_served": 88.0,
+    "park_count": 135,
+    "total_park_acreage": 2262,
+    "concern": 12.0
+  },
+  "bridgeport-ct": {
+    "place_name": "Bridgeport town",
+    "pct_served": 85.2,
+    "park_count": 59,
+    "total_park_acreage": 942,
+    "concern": 14.8
+  },
+  "joliet-il": {
+    "place_name": "Joliet city",
+    "pct_served": 81.6,
+    "park_count": 105,
+    "total_park_acreage": 2856,
+    "concern": 18.4
+  },
+  "mesquite-tx": {
+    "place_name": "Mesquite city",
+    "pct_served": 70.1,
+    "park_count": 74,
+    "total_park_acreage": 1713,
+    "concern": 29.9
+  },
+  "mcallen-tx": {
+    "place_name": "McAllen city",
+    "pct_served": 55.5,
+    "park_count": 61,
+    "total_park_acreage": 662,
+    "concern": 44.5
+  },
+  "olathe-ks": {
+    "place_name": "Olathe city",
+    "pct_served": 65.6,
+    "park_count": 66,
+    "total_park_acreage": 1925,
+    "concern": 34.4
+  },
+  "savannah-ga": {
+    "place_name": "Savannah city",
+    "pct_served": 49.2,
+    "park_count": 99,
+    "total_park_acreage": 606,
+    "concern": 50.8
+  },
+  "gainesville-fl": {
+    "place_name": "Gainesville city",
+    "pct_served": 52.1,
+    "park_count": 75,
+    "total_park_acreage": 3131,
+    "concern": 47.9
+  },
+  "pasadena-tx": {
+    "place_name": "Pasadena city",
+    "pct_served": 63.2,
+    "park_count": 55,
+    "total_park_acreage": 2607,
+    "concern": 36.8
+  },
+  "palm-bay-fl": {
+    "place_name": "Palm Bay city",
+    "pct_served": 19.3,
+    "park_count": 36,
+    "total_park_acreage": 700,
+    "concern": 80.7
+  },
+  "pomona-ca": {
+    "place_name": "Pomona city",
+    "pct_served": 65.3,
+    "park_count": 29,
+    "total_park_acreage": 197,
+    "concern": 34.7
+  },
+  "waco-tx": {
+    "place_name": "Waco city",
+    "pct_served": 52.1,
+    "park_count": 54,
+    "total_park_acreage": 15752,
+    "concern": 47.9
+  },
+  "thornton-co": {
+    "place_name": "Thornton city",
+    "pct_served": 87.9,
+    "park_count": 165,
+    "total_park_acreage": 2682,
+    "concern": 12.1
+  },
+  "midland-tx": {
+    "place_name": "Midland city",
+    "pct_served": 60.0,
+    "park_count": 58,
+    "total_park_acreage": 1361,
+    "concern": 40.0
+  },
+  "rockford-il": {
+    "place_name": "Rockford city",
+    "pct_served": 59.8,
+    "park_count": 67,
+    "total_park_acreage": 1816,
+    "concern": 40.2
+  },
+  "columbia-sc": {
+    "place_name": "Columbia city",
+    "pct_served": 35.9,
+    "park_count": 34,
+    "total_park_acreage": 296,
+    "concern": 64.1
+  },
+  "visalia-ca": {
+    "place_name": "Visalia city",
+    "pct_served": 62.7,
+    "park_count": 50,
+    "total_park_acreage": 523,
+    "concern": 37.3
+  },
+  "escondido-ca": {
+    "place_name": "Escondido city",
+    "pct_served": 50.6,
+    "park_count": 23,
+    "total_park_acreage": 4762,
+    "concern": 49.4
+  },
+  "syracuse-ny": {
+    "place_name": "Syracuse city",
+    "pct_served": 75.3,
+    "park_count": 47,
+    "total_park_acreage": 591,
+    "concern": 24.7
+  },
+  "meridian-id": {
+    "place_name": "Meridian city",
+    "pct_served": 36.4,
+    "park_count": 26,
+    "total_park_acreage": 518,
+    "concern": 63.6
+  },
+  "miramar-fl": {
+    "place_name": "Miramar city",
+    "pct_served": 45.5,
+    "park_count": 48,
+    "total_park_acreage": 1476,
+    "concern": 54.5
+  },
+  "elizabeth-nj": {
+    "place_name": "Elizabeth city",
+    "pct_served": 91.8,
+    "park_count": 46,
+    "total_park_acreage": 104,
+    "concern": 8.2
+  },
+  "victorville-ca": {
+    "place_name": "Victorville city",
+    "pct_served": 27.4,
+    "park_count": 20,
+    "total_park_acreage": 464,
+    "concern": 72.6
+  },
+  "round-rock-tx": {
+    "place_name": "Round Rock city",
+    "pct_served": 84.8,
+    "park_count": 174,
+    "total_park_acreage": 2091,
+    "concern": 15.2
+  },
+  "jackson-ms": {
+    "place_name": "Jackson city",
+    "pct_served": 30.7,
+    "park_count": 54,
+    "total_park_acreage": 1274,
+    "concern": 69.3
+  },
+  "stamford-ct": {
+    "place_name": "Stamford town",
+    "pct_served": 72.9,
+    "park_count": 51,
+    "total_park_acreage": 710,
+    "concern": 27.1
+  },
+  "lewisville-tx": {
+    "place_name": "Lewisville city",
+    "pct_served": 84.3,
+    "park_count": 127,
+    "total_park_acreage": 9458,
+    "concern": 15.7
+  },
+  "coral-springs-fl": {
+    "place_name": "Coral Springs city",
+    "pct_served": 66.8,
+    "park_count": 65,
+    "total_park_acreage": 680,
+    "concern": 33.2
+  },
+  "new-haven-ct": {
+    "place_name": "New Haven town",
+    "pct_served": 96.0,
+    "park_count": 128,
+    "total_park_acreage": 1513,
+    "concern": 4.0
+  },
+  "fullerton-ca": {
+    "place_name": "Fullerton city",
+    "pct_served": 74.5,
+    "park_count": 58,
+    "total_park_acreage": 825,
+    "concern": 25.5
+  },
+  "torrance-ca": {
+    "place_name": "Torrance city",
+    "pct_served": 81.8,
+    "park_count": 45,
+    "total_park_acreage": 340,
+    "concern": 18.2
+  },
+  "orange-ca": {
+    "place_name": "Orange city",
+    "pct_served": 42.1,
+    "park_count": 19,
+    "total_park_acreage": 1124,
+    "concern": 57.9
+  },
+  "cedar-rapids-ia": {
+    "place_name": "Cedar Rapids city",
+    "pct_served": 63.6,
+    "park_count": 97,
+    "total_park_acreage": 2790,
+    "concern": 36.4
+  },
+  "west-valley-city-ut": {
+    "place_name": "West Valley City city",
+    "pct_served": 57.1,
+    "park_count": 34,
+    "total_park_acreage": 283,
+    "concern": 42.9
+  },
+  "hampton-va": {
+    "place_name": "Hampton city",
+    "pct_served": 24.5,
+    "park_count": 29,
+    "total_park_acreage": 1701,
+    "concern": 75.5
+  },
+  "warren-mi": {
+    "place_name": "Center Line city",
+    "pct_served": 64.9,
+    "park_count": 3,
+    "total_park_acreage": 27,
+    "concern": 35.1
+  },
+  "dayton-oh": {
+    "place_name": "Dayton city",
+    "pct_served": 78.8,
+    "park_count": 83,
+    "total_park_acreage": 2531,
+    "concern": 21.2
+  },
+  "fargo-nd": {
+    "place_name": "Fargo city",
+    "pct_served": 84.0,
+    "park_count": 99,
+    "total_park_acreage": 1462,
+    "concern": 16.0
+  },
+  "pasadena-ca": {
+    "place_name": "Pasadena city",
+    "pct_served": 69.8,
+    "park_count": 30,
+    "total_park_acreage": 1480,
+    "concern": 30.2
+  },
+  "kent-wa": {
+    "place_name": "Kent city",
+    "pct_served": 74.4,
+    "park_count": 136,
+    "total_park_acreage": 1656,
+    "concern": 25.6
+  },
+  "carrollton-tx": {
+    "place_name": "Carrollton city",
+    "pct_served": 63.2,
+    "park_count": 41,
+    "total_park_acreage": 1870,
+    "concern": 36.8
+  },
+  "sterling-heights-mi": {
+    "place_name": "Sterling Heights city",
+    "pct_served": 48.6,
+    "park_count": 35,
+    "total_park_acreage": 877,
+    "concern": 51.4
+  },
+  "santa-clara-ca": {
+    "place_name": "Santa Clara city",
+    "pct_served": 77.4,
+    "park_count": 33,
+    "total_park_acreage": 271,
+    "concern": 22.6
+  },
+  "abilene-tx": {
+    "place_name": "Abilene city",
+    "pct_served": 28.5,
+    "park_count": 34,
+    "total_park_acreage": 1325,
+    "concern": 71.5
+  },
+  "norman-ok": {
+    "place_name": "Norman city",
+    "pct_served": 61.3,
+    "park_count": 68,
+    "total_park_acreage": 1039,
+    "concern": 38.7
+  },
+  "columbia-mo": {
+    "place_name": "Columbia city",
+    "pct_served": 54.0,
+    "park_count": 81,
+    "total_park_acreage": 2945,
+    "concern": 46.0
+  },
+  "pearland-tx": {
+    "place_name": "Pearland city",
+    "pct_served": 29.0,
+    "park_count": 34,
+    "total_park_acreage": 732,
+    "concern": 71.0
+  },
+  "clovis-ca": {
+    "place_name": "Clovis city",
+    "pct_served": 67.0,
+    "park_count": 70,
+    "total_park_acreage": 156,
+    "concern": 33.0
+  },
+  "north-charleston-sc": {
+    "place_name": "North Charleston city",
+    "pct_served": 33.8,
+    "park_count": 51,
+    "total_park_acreage": 645,
+    "concern": 66.2
+  },
+  "athens-ga": {
+    "place_name": "Athens-Clarke County unified government (balance)",
+    "pct_served": 26.4,
+    "park_count": 31,
+    "total_park_acreage": 2359,
+    "concern": 73.6
+  },
+  "college-station-tx": {
+    "place_name": "College Station city",
+    "pct_served": 74.3,
+    "park_count": 55,
+    "total_park_acreage": 1824,
+    "concern": 25.7
+  },
+  "west-palm-beach-fl": {
+    "place_name": "West Palm Beach city",
+    "pct_served": 51.6,
+    "park_count": 54,
+    "total_park_acreage": 14869,
+    "concern": 48.4
+  },
+  "wilmington-nc": {
+    "place_name": "Wilmington city",
+    "pct_served": 32.7,
+    "park_count": 48,
+    "total_park_acreage": 669,
+    "concern": 67.3
+  },
+  "allentown-pa": {
+    "place_name": "Allentown city",
+    "pct_served": 88.3,
+    "park_count": 40,
+    "total_park_acreage": 1215,
+    "concern": 11.7
+  },
+  "topeka-ks": {
+    "place_name": "Topeka city",
+    "pct_served": 70.3,
+    "park_count": 93,
+    "total_park_acreage": 1811,
+    "concern": 29.7
+  },
+  "lakeland-fl": {
+    "place_name": "Lakeland city",
+    "pct_served": 35.3,
+    "park_count": 50,
+    "total_park_acreage": 920,
+    "concern": 64.7
+  },
+  "buckeye-az": {
+    "place_name": "Buckeye city",
+    "pct_served": 3.8,
+    "park_count": 2,
+    "total_park_acreage": 24,
+    "concern": 96.2
+  },
+  "goodyear-az": {
+    "place_name": "Goodyear city",
+    "pct_served": 22.3,
+    "park_count": 18,
+    "total_park_acreage": 10085,
+    "concern": 77.7
+  },
+  "broken-arrow-ok": {
+    "place_name": "Broken Arrow city",
+    "pct_served": 38.0,
+    "park_count": 43,
+    "total_park_acreage": 904,
+    "concern": 62.0
+  },
+  "simi-valley-ca": {
+    "place_name": "Simi Valley city",
+    "pct_served": 58.3,
+    "park_count": 42,
+    "total_park_acreage": 4585,
+    "concern": 41.7
+  },
+  "rochester-mn": {
+    "place_name": "Rochester city",
+    "pct_served": 72.6,
+    "park_count": 85,
+    "total_park_acreage": 1296,
+    "concern": 27.4
+  },
+  "lafayette-la": {
+    "place_name": "Lafayette city",
+    "pct_served": 29.2,
+    "park_count": 31,
+    "total_park_acreage": 1045,
+    "concern": 70.8
+  },
+  "vallejo-ca": {
+    "place_name": "Vallejo city",
+    "pct_served": 65.0,
+    "park_count": 38,
+    "total_park_acreage": 920,
+    "concern": 35.0
+  },
+  "concord-ca": {
+    "place_name": "Concord city",
+    "pct_served": 63.9,
+    "park_count": 28,
+    "total_park_acreage": 851,
+    "concern": 36.1
+  },
+  "arvada-co": {
+    "place_name": "Arvada city",
+    "pct_served": 97.3,
+    "park_count": 157,
+    "total_park_acreage": 6177,
+    "concern": 2.7
+  },
+  "odessa-tx": {
+    "place_name": "Odessa city",
+    "pct_served": 49.0,
+    "park_count": 38,
+    "total_park_acreage": 550,
+    "concern": 51.0
+  },
+  "cambridge-ma": {
+    "place_name": "Cambridge city",
+    "pct_served": 97.8,
+    "park_count": 77,
+    "total_park_acreage": 299,
+    "concern": 2.2
+  },
+  "new-braunfels-tx": {
+    "place_name": "New Braunfels city",
+    "pct_served": 36.9,
+    "park_count": 44,
+    "total_park_acreage": 566,
+    "concern": 63.1
+  },
+  "fairfield-ca": {
+    "place_name": "Fairfield city",
+    "pct_served": 67.3,
+    "park_count": 30,
+    "total_park_acreage": 1429,
+    "concern": 32.7
+  },
+  "ann-arbor-mi": {
+    "place_name": "Ann Arbor city",
+    "pct_served": 90.7,
+    "park_count": 173,
+    "total_park_acreage": 1696,
+    "concern": 9.3
+  },
+  "thousand-oaks-ca": {
+    "place_name": "Thousand Oaks city",
+    "pct_served": 86.2,
+    "park_count": 122,
+    "total_park_acreage": 13221,
+    "concern": 13.8
+  },
+  "hartford-ct": {
+    "place_name": "Hartford town",
+    "pct_served": 96.8,
+    "park_count": 89,
+    "total_park_acreage": 1326,
+    "concern": 3.2
+  },
+  "berkeley-ca": {
+    "place_name": "Berkeley city",
+    "pct_served": 95.8,
+    "park_count": 48,
+    "total_park_acreage": 437,
+    "concern": 4.2
+  },
+  "independence-mo": {
+    "place_name": "Independence city",
+    "pct_served": 44.3,
+    "park_count": 46,
+    "total_park_acreage": 2405,
+    "concern": 55.7
+  },
+  "billings-mt": {
+    "place_name": "Billings city",
+    "pct_served": 68.2,
+    "park_count": 55,
+    "total_park_acreage": 1171,
+    "concern": 31.8
+  },
+  "high-point-nc": {
+    "place_name": "High Point city",
+    "pct_served": 38.0,
+    "park_count": 48,
+    "total_park_acreage": 1108,
+    "concern": 62.0
+  },
+  "nampa-id": {
+    "place_name": "Nampa city",
+    "pct_served": 40.4,
+    "park_count": 27,
+    "total_park_acreage": 339,
+    "concern": 59.6
+  },
+  "lowell-ma": {
+    "place_name": "Lowell city",
+    "pct_served": 92.9,
+    "park_count": 76,
+    "total_park_acreage": 555,
+    "concern": 7.1
+  },
+  "league-city-tx": {
+    "place_name": "League City city",
+    "pct_served": 22.7,
+    "park_count": 23,
+    "total_park_acreage": 982,
+    "concern": 77.3
+  },
+  "conroe-tx": {
+    "place_name": "Conroe city",
+    "pct_served": 20.0,
+    "park_count": 23,
+    "total_park_acreage": 2178,
+    "concern": 80.0
+  },
+  "antioch-ca": {
+    "place_name": "Antioch city",
+    "pct_served": 76.0,
+    "park_count": 34,
+    "total_park_acreage": 706,
+    "concern": 24.0
+  },
+  "menifee-ca": {
+    "place_name": "Menifee city",
+    "pct_served": 30.9,
+    "park_count": 18,
+    "total_park_acreage": 106,
+    "concern": 69.1
+  },
+  "richardson-tx": {
+    "place_name": "Richardson city",
+    "pct_served": 80.4,
+    "park_count": 41,
+    "total_park_acreage": 1392,
+    "concern": 19.6
+  },
+  "pompano-beach-fl": {
+    "place_name": "Pompano Beach city",
+    "pct_served": 49.4,
+    "park_count": 39,
+    "total_park_acreage": 239,
+    "concern": 50.6
+  },
+  "las-cruces-nm": {
+    "place_name": "Las Cruces city",
+    "pct_served": 76.3,
+    "park_count": 92,
+    "total_park_acreage": 1019,
+    "concern": 23.7
+  },
+  "manchester-nh": {
+    "place_name": "Manchester city",
+    "pct_served": 69.6,
+    "park_count": 46,
+    "total_park_acreage": 943,
+    "concern": 30.4
+  },
+  "west-jordan-ut": {
+    "place_name": "West Jordan city",
+    "pct_served": 57.5,
+    "park_count": 47,
+    "total_park_acreage": 371,
+    "concern": 42.5
+  },
+  "westminster-co": {
+    "place_name": "Westminster city",
+    "pct_served": 86.4,
+    "park_count": 103,
+    "total_park_acreage": 3347,
+    "concern": 13.6
+  },
+  "evansville-in": {
+    "place_name": "Evansville city",
+    "pct_served": 36.0,
+    "park_count": 32,
+    "total_park_acreage": 532,
+    "concern": 64.0
+  },
+  "waterbury-ct": {
+    "place_name": "Waterbury town",
+    "pct_served": 61.6,
+    "park_count": 30,
+    "total_park_acreage": 1187,
+    "concern": 38.4
+  },
+  "elgin-il": {
+    "place_name": "Elgin city",
+    "pct_served": 68.5,
+    "park_count": 70,
+    "total_park_acreage": 1408,
+    "concern": 31.5
+  },
+  "greeley-co": {
+    "place_name": "Greeley city",
+    "pct_served": 74.2,
+    "park_count": 59,
+    "total_park_acreage": 1500,
+    "concern": 25.8
+  },
+  "temecula-ca": {
+    "place_name": "Temecula city",
+    "pct_served": 61.0,
+    "park_count": 44,
+    "total_park_acreage": 361,
+    "concern": 39.0
+  },
+  "richmond-ca": {
+    "place_name": "Richmond city",
+    "pct_served": 82.6,
+    "park_count": 46,
+    "total_park_acreage": 3905,
+    "concern": 17.4
+  },
+  "concord-nc": {
+    "place_name": "Concord city",
+    "pct_served": 11.0,
+    "park_count": 10,
+    "total_park_acreage": 210,
+    "concern": 89.0
+  },
+  "provo-ut": {
+    "place_name": "Provo city",
+    "pct_served": 76.7,
+    "park_count": 53,
+    "total_park_acreage": 8729,
+    "concern": 23.3
+  },
+  "rio-rancho-nm": {
+    "place_name": "Rio Rancho city",
+    "pct_served": 59.0,
+    "park_count": 50,
+    "total_park_acreage": 648,
+    "concern": 41.0
+  },
+  "clearwater-fl": {
+    "place_name": "Clearwater city",
+    "pct_served": 58.3,
+    "park_count": 61,
+    "total_park_acreage": 853,
+    "concern": 41.7
+  },
+  "tuscaloosa-al": {
+    "place_name": "Tuscaloosa city",
+    "pct_served": 38.9,
+    "park_count": 23,
+    "total_park_acreage": 731,
+    "concern": 61.1
+  },
+  "murrieta-ca": {
+    "place_name": "Murrieta city",
+    "pct_served": 57.0,
+    "park_count": 47,
+    "total_park_acreage": 462,
+    "concern": 43.0
+  },
+  "lansing-mi": {
+    "place_name": "Lansing city",
+    "pct_served": 79.3,
+    "park_count": 94,
+    "total_park_acreage": 1201,
+    "concern": 20.7
+  },
+  "tyler-tx": {
+    "place_name": "Tyler city",
+    "pct_served": 41.7,
+    "park_count": 30,
+    "total_park_acreage": 622,
+    "concern": 58.3
+  },
+  "miami-gardens-fl": {
+    "place_name": "Miami Gardens city",
+    "pct_served": 48.6,
+    "park_count": 21,
+    "total_park_acreage": 206,
+    "concern": 51.4
+  },
+  "everett-wa": {
+    "place_name": "Everett city",
+    "pct_served": 79.6,
+    "park_count": 74,
+    "total_park_acreage": 2065,
+    "concern": 20.4
+  },
+  "allen-tx": {
+    "place_name": "Allen city",
+    "pct_served": 86.4,
+    "park_count": 63,
+    "total_park_acreage": 1010,
+    "concern": 13.6
+  },
+  "springfield-il": {
+    "place_name": "Springfield city",
+    "pct_served": 41.9,
+    "park_count": 39,
+    "total_park_acreage": 1294,
+    "concern": 58.1
+  },
+  "beaumont-tx": {
+    "place_name": "Beaumont city",
+    "pct_served": 11.7,
+    "park_count": 35,
+    "total_park_acreage": 2306,
+    "concern": 88.3
+  },
+  "south-fulton-ga": {
+    "place_name": "South Fulton city",
+    "pct_served": 11.6,
+    "park_count": 16,
+    "total_park_acreage": 543,
+    "concern": 88.4
+  },
+  "carlsbad-ca": {
+    "place_name": "Carlsbad city",
+    "pct_served": 52.7,
+    "park_count": 52,
+    "total_park_acreage": 1442,
+    "concern": 47.3
+  },
+  "sparks-nv": {
+    "place_name": "Sparks city",
+    "pct_served": 70.6,
+    "park_count": 55,
+    "total_park_acreage": 1394,
+    "concern": 29.4
+  },
+  "gresham-or": {
+    "place_name": "Gresham city",
+    "pct_served": 72.0,
+    "park_count": 40,
+    "total_park_acreage": 423,
+    "concern": 28.0
+  },
+  "santa-maria-ca": {
+    "place_name": "Santa Maria city",
+    "pct_served": 73.6,
+    "park_count": 28,
+    "total_park_acreage": 305,
+    "concern": 26.4
+  },
+  "hillsboro-or": {
+    "place_name": "Hillsboro city",
+    "pct_served": 90.0,
+    "park_count": 115,
+    "total_park_acreage": 1138,
+    "concern": 10.0
+  },
+  "peoria-il": {
+    "place_name": "Peoria city",
+    "pct_served": 65.3,
+    "park_count": 71,
+    "total_park_acreage": 4137,
+    "concern": 34.7
+  },
+  "davie-fl": {
+    "place_name": "Davie town",
+    "pct_served": 50.9,
+    "park_count": 41,
+    "total_park_acreage": 1787,
+    "concern": 49.1
+  },
+  "edinburg-tx": {
+    "place_name": "Edinburg city",
+    "pct_served": 25.1,
+    "park_count": 18,
+    "total_park_acreage": 257,
+    "concern": 74.9
+  },
+  "pueblo-co": {
+    "place_name": "Pueblo city",
+    "pct_served": 79.6,
+    "park_count": 94,
+    "total_park_acreage": 2793,
+    "concern": 20.4
+  },
+  "ventura-ca": {
+    "place_name": "San Buenaventura (Ventura) city",
+    "pct_served": 60.9,
+    "park_count": 49,
+    "total_park_acreage": 778,
+    "concern": 39.1
+  },
+  "palm-coast-fl": {
+    "place_name": "Palm Coast city",
+    "pct_served": 22.0,
+    "park_count": 24,
+    "total_park_acreage": 907,
+    "concern": 78.0
+  },
+  "costa-mesa-ca": {
+    "place_name": "Costa Mesa city",
+    "pct_served": 67.0,
+    "park_count": 29,
+    "total_park_acreage": 535,
+    "concern": 33.0
+  },
+  "st-george-ut": {
+    "place_name": "St. George city",
+    "pct_served": 56.1,
+    "park_count": 35,
+    "total_park_acreage": 15385,
+    "concern": 43.9
+  },
+  "centennial-co": {
+    "place_name": "Centennial city",
+    "pct_served": 93.1,
+    "park_count": 132,
+    "total_park_acreage": 1563,
+    "concern": 6.9
+  },
+  "downey-ca": {
+    "place_name": "Downey city",
+    "pct_served": 44.4,
+    "park_count": 12,
+    "total_park_acreage": 132,
+    "concern": 55.6
+  },
+  "spokane-valley-wa": {
+    "place_name": "Spokane Valley city",
+    "pct_served": 30.1,
+    "park_count": 16,
+    "total_park_acreage": 603,
+    "concern": 69.9
+  },
+  "sugar-land-tx": {
+    "place_name": "Sugar Land city",
+    "pct_served": 83.5,
+    "park_count": 127,
+    "total_park_acreage": 2716,
+    "concern": 16.5
+  },
+  "lees-summit-mo": {
+    "place_name": "Lee's Summit city",
+    "pct_served": 36.4,
+    "park_count": 30,
+    "total_park_acreage": 4361,
+    "concern": 63.6
+  },
+  "bend-or": {
+    "place_name": "Bend city",
+    "pct_served": 77.9,
+    "park_count": 93,
+    "total_park_acreage": 967,
+    "concern": 22.1
+  },
+  "jurupa-valley-ca": {
+    "place_name": "Jurupa Valley city",
+    "pct_served": 24.7,
+    "park_count": 21,
+    "total_park_acreage": 1929,
+    "concern": 75.3
+  },
+  "georgetown-tx": {
+    "place_name": "Georgetown city",
+    "pct_served": 54.4,
+    "park_count": 69,
+    "total_park_acreage": 6596,
+    "concern": 45.6
+  },
+  "green-bay-wi": {
+    "place_name": "Green Bay city",
+    "pct_served": 73.8,
+    "park_count": 62,
+    "total_park_acreage": 970,
+    "concern": 26.2
+  },
+  "fayetteville-ar": {
+    "place_name": "Fayetteville city",
+    "pct_served": 57.0,
+    "park_count": 70,
+    "total_park_acreage": 3603,
+    "concern": 43.0
+  },
+  "rialto-ca": {
+    "place_name": "Rialto city",
+    "pct_served": 20.8,
+    "park_count": 9,
+    "total_park_acreage": 101,
+    "concern": 79.2
+  },
+  "brockton-ma": {
+    "place_name": "Brockton city",
+    "pct_served": 72.0,
+    "park_count": 34,
+    "total_park_acreage": 908,
+    "concern": 28.0
+  },
+  "boulder-co": {
+    "place_name": "Boulder city",
+    "pct_served": 93.2,
+    "park_count": 134,
+    "total_park_acreage": 2812,
+    "concern": 6.8
+  },
+  "carmel-in": {
+    "place_name": "Carmel city",
+    "pct_served": 30.8,
+    "park_count": 26,
+    "total_park_acreage": 889,
+    "concern": 69.2
+  },
+  "dearborn-mi": {
+    "place_name": "Dearborn city",
+    "pct_served": 64.1,
+    "park_count": 17,
+    "total_park_acreage": 1009,
+    "concern": 35.9
+  },
+  "west-covina-ca": {
+    "place_name": "West Covina city",
+    "pct_served": 52.5,
+    "park_count": 19,
+    "total_park_acreage": 397,
+    "concern": 47.5
+  },
+  "yuma-az": {
+    "place_name": "Yuma city",
+    "pct_served": 36.1,
+    "park_count": 26,
+    "total_park_acreage": 253,
+    "concern": 63.9
+  },
+  "chico-ca": {
+    "place_name": "Chico city",
+    "pct_served": 47.6,
+    "park_count": 53,
+    "total_park_acreage": 3775,
+    "concern": 52.4
+  },
+  "el-monte-ca": {
+    "place_name": "El Monte city",
+    "pct_served": 51.8,
+    "park_count": 10,
+    "total_park_acreage": 75,
+    "concern": 48.2
+  },
+  "sandy-springs-ga": {
+    "place_name": "Sandy Springs city",
+    "pct_served": 27.5,
+    "park_count": 20,
+    "total_park_acreage": 1588,
+    "concern": 72.5
+  },
+  "renton-wa": {
+    "place_name": "Renton city",
+    "pct_served": 71.5,
+    "park_count": 55,
+    "total_park_acreage": 1318,
+    "concern": 28.5
+  },
+  "fishers-in": {
+    "place_name": "Fishers city",
+    "pct_served": 23.2,
+    "park_count": 26,
+    "total_park_acreage": 556,
+    "concern": 76.8
+  },
+  "suffolk-va": {
+    "place_name": "Suffolk city",
+    "pct_served": 20.3,
+    "park_count": 25,
+    "total_park_acreage": 36015,
+    "concern": 79.7
+  },
+  "lynn-ma": {
+    "place_name": "Lynn city",
+    "pct_served": 98.1,
+    "park_count": 40,
+    "total_park_acreage": 1533,
+    "concern": 1.9
+  },
+  "vacaville-ca": {
+    "place_name": "Vacaville city",
+    "pct_served": 80.7,
+    "park_count": 57,
+    "total_park_acreage": 2190,
+    "concern": 19.3
+  },
+  "san-mateo-ca": {
+    "place_name": "San Mateo city",
+    "pct_served": 80.9,
+    "park_count": 35,
+    "total_park_acreage": 606,
+    "concern": 19.1
+  },
+  "south-bend-in": {
+    "place_name": "South Bend city",
+    "pct_served": 69.5,
+    "park_count": 71,
+    "total_park_acreage": 1324,
+    "concern": 30.5
+  },
+  "quincy-ma": {
+    "place_name": "Quincy city",
+    "pct_served": 97.0,
+    "park_count": 79,
+    "total_park_acreage": 3396,
+    "concern": 3.0
+  },
+  "burbank-ca": {
+    "place_name": "Burbank city",
+    "pct_served": 71.7,
+    "park_count": 29,
+    "total_park_acreage": 2151,
+    "concern": 28.3
+  },
+  "hesperia-ca": {
+    "place_name": "Hesperia city",
+    "pct_served": 14.5,
+    "park_count": 12,
+    "total_park_acreage": 329,
+    "concern": 85.5
+  },
+  "wichita-falls-tx": {
+    "place_name": "Wichita Falls city",
+    "pct_served": 50.3,
+    "park_count": 49,
+    "total_park_acreage": 1315,
+    "concern": 49.7
+  },
+  "tracy-ca": {
+    "place_name": "Tracy city",
+    "pct_served": 83.5,
+    "park_count": 72,
+    "total_park_acreage": 254,
+    "concern": 16.5
+  },
+  "new-bedford-ma": {
+    "place_name": "New Bedford city",
+    "pct_served": 92.4,
+    "park_count": 67,
+    "total_park_acreage": 2354,
+    "concern": 7.6
+  },
+  "el-cajon-ca": {
+    "place_name": "El Cajon city",
+    "pct_served": 52.4,
+    "park_count": 21,
+    "total_park_acreage": 157,
+    "concern": 47.6
+  },
+  "albany-ny": {
+    "place_name": "Albany city",
+    "pct_served": 77.7,
+    "park_count": 48,
+    "total_park_acreage": 2046,
+    "concern": 22.3
+  },
+  "inglewood-ca": {
+    "place_name": "Inglewood city",
+    "pct_served": 64.0,
+    "park_count": 10,
+    "total_park_acreage": 88,
+    "concern": 36.0
+  },
+  "boca-raton-fl": {
+    "place_name": "Boca Raton city",
+    "pct_served": 48.2,
+    "park_count": 36,
+    "total_park_acreage": 573,
+    "concern": 51.8
+  },
+  "fort-myers-fl": {
+    "place_name": "Fort Myers city",
+    "pct_served": 28.7,
+    "park_count": 32,
+    "total_park_acreage": 1457,
+    "concern": 71.3
+  },
+  "daly-city-ca": {
+    "place_name": "Daly City city",
+    "pct_served": 78.7,
+    "park_count": 27,
+    "total_park_acreage": 340,
+    "concern": 21.3
+  },
+  "avondale-az": {
+    "place_name": "Avondale city",
+    "pct_served": 19.4,
+    "park_count": 11,
+    "total_park_acreage": 10034,
+    "concern": 80.6
+  },
+  "san-angelo-tx": {
+    "place_name": "San Angelo city",
+    "pct_served": 55.5,
+    "park_count": 56,
+    "total_park_acreage": 2099,
+    "concern": 44.5
+  },
+  "edmond-ok": {
+    "place_name": "Edmond city",
+    "pct_served": 30.2,
+    "park_count": 29,
+    "total_park_acreage": 1421,
+    "concern": 69.8
+  },
+  "davenport-ia": {
+    "place_name": "Davenport city",
+    "pct_served": 60.0,
+    "park_count": 39,
+    "total_park_acreage": 1487,
+    "concern": 40.0
+  },
+  "deltona-fl": {
+    "place_name": "Deltona city",
+    "pct_served": 27.2,
+    "park_count": 20,
+    "total_park_acreage": 378,
+    "concern": 72.8
+  },
+  "longmont-co": {
+    "place_name": "Longmont city",
+    "pct_served": 71.4,
+    "park_count": 40,
+    "total_park_acreage": 677,
+    "concern": 28.6
+  },
+  "federal-way-wa": {
+    "place_name": "Federal Way city",
+    "pct_served": 73.6,
+    "park_count": 58,
+    "total_park_acreage": 1207,
+    "concern": 26.4
+  },
+  "merced-ca": {
+    "place_name": "Merced city",
+    "pct_served": 66.9,
+    "park_count": 35,
+    "total_park_acreage": 267,
+    "concern": 33.1
+  },
+  "kenosha-wi": {
+    "place_name": "Kenosha city",
+    "pct_served": 81.3,
+    "park_count": 64,
+    "total_park_acreage": 775,
+    "concern": 18.7
+  },
+  "plantation-fl": {
+    "place_name": "Plantation city",
+    "pct_served": 54.6,
+    "park_count": 42,
+    "total_park_acreage": 546,
+    "concern": 45.4
+  },
+  "roanoke-va": {
+    "place_name": "Roanoke city",
+    "pct_served": 64.9,
+    "park_count": 68,
+    "total_park_acreage": 1374,
+    "concern": 35.1
+  },
+  "sunrise-fl": {
+    "place_name": "Sunrise city",
+    "pct_served": 39.6,
+    "park_count": 18,
+    "total_park_acreage": 914,
+    "concern": 60.4
+  },
+  "temple-tx": {
+    "place_name": "Temple city",
+    "pct_served": 67.3,
+    "park_count": 73,
+    "total_park_acreage": 4820,
+    "concern": 32.7
+  },
+  "vista-ca": {
+    "place_name": "Vista city",
+    "pct_served": 47.8,
+    "park_count": 16,
+    "total_park_acreage": 591,
+    "concern": 52.2
+  },
+  "beaverton-or": {
+    "place_name": "Beaverton city",
+    "pct_served": 90.9,
+    "park_count": 110,
+    "total_park_acreage": 1072,
+    "concern": 9.1
+  },
+  "yakima-wa": {
+    "place_name": "Yakima city",
+    "pct_served": 60.8,
+    "park_count": 41,
+    "total_park_acreage": 354,
+    "concern": 39.2
+  },
+  "kirkland-wa": {
+    "place_name": "Kirkland city",
+    "pct_served": 92.9,
+    "park_count": 98,
+    "total_park_acreage": 1055,
+    "concern": 7.1
+  },
+  "norwalk-ca": {
+    "place_name": "Norwalk city",
+    "pct_served": 67.6,
+    "park_count": 12,
+    "total_park_acreage": 96,
+    "concern": 32.4
+  },
+  "chino-ca": {
+    "place_name": "Chino city",
+    "pct_served": 65.6,
+    "park_count": 43,
+    "total_park_acreage": 2558,
+    "concern": 34.4
+  },
+  "portsmouth-va": {
+    "place_name": "Portsmouth city",
+    "pct_served": 50.2,
+    "park_count": 41,
+    "total_park_acreage": 433,
+    "concern": 49.8
+  },
+  "manteca-ca": {
+    "place_name": "Manteca city",
+    "pct_served": 83.7,
+    "park_count": 59,
+    "total_park_acreage": 361,
+    "concern": 16.3
+  },
+  "north-port-fl": {
+    "place_name": "North Port city",
+    "pct_served": 16.4,
+    "park_count": 25,
+    "total_park_acreage": 10026,
+    "concern": 83.6
+  },
+  "greenville-nc": {
+    "place_name": "Greenville city",
+    "pct_served": 23.3,
+    "park_count": 21,
+    "total_park_acreage": 702,
+    "concern": 76.7
+  },
+  "bellingham-wa": {
+    "place_name": "Bellingham city",
+    "pct_served": 91.7,
+    "park_count": 125,
+    "total_park_acreage": 2937,
+    "concern": 8.3
+  },
+  "lawrence-ks": {
+    "place_name": "Lawrence city",
+    "pct_served": 60.1,
+    "park_count": 59,
+    "total_park_acreage": 2249,
+    "concern": 39.9
+  },
+  "ofallon-mo": {
+    "place_name": "O'Fallon city",
+    "pct_served": 13.0,
+    "park_count": 11,
+    "total_park_acreage": 553,
+    "concern": 87.0
+  },
+  "reading-pa": {
+    "place_name": "Reading city",
+    "pct_served": 98.8,
+    "park_count": 54,
+    "total_park_acreage": 855,
+    "concern": 1.2
+  },
+  "mount-pleasant-sc": {
+    "place_name": "Mount Pleasant town",
+    "pct_served": 12.1,
+    "park_count": 15,
+    "total_park_acreage": 1706,
+    "concern": 87.9
+  },
+  "lehi-ut": {
+    "place_name": "Lehi city",
+    "pct_served": 69.1,
+    "park_count": 51,
+    "total_park_acreage": 535,
+    "concern": 30.9
+  },
+  "fall-river-ma": {
+    "place_name": "Fall River city",
+    "pct_served": 77.1,
+    "park_count": 24,
+    "total_park_acreage": 186,
+    "concern": 22.9
+  },
+  "orem-ut": {
+    "place_name": "Orem city",
+    "pct_served": 61.1,
+    "park_count": 25,
+    "total_park_acreage": 393,
+    "concern": 38.9
+  },
+  "san-marcos-ca": {
+    "place_name": "San Marcos city",
+    "pct_served": 54.0,
+    "park_count": 24,
+    "total_park_acreage": 669,
+    "concern": 46.0
+  },
+  "norwalk-ct": {
+    "place_name": "Norwalk town",
+    "pct_served": 56.2,
+    "park_count": 45,
+    "total_park_acreage": 476,
+    "concern": 43.8
+  },
+  "indio-ca": {
+    "place_name": "Indio city",
+    "pct_served": 29.0,
+    "park_count": 9,
+    "total_park_acreage": 66,
+    "concern": 71.0
+  },
+  "redding-ca": {
+    "place_name": "Redding city",
+    "pct_served": 41.6,
+    "park_count": 63,
+    "total_park_acreage": 1100,
+    "concern": 58.4
+  },
+  "hemet-ca": {
+    "place_name": "Hemet city",
+    "pct_served": 37.7,
+    "park_count": 14,
+    "total_park_acreage": 151,
+    "concern": 62.3
+  },
+  "hoover-al": {
+    "place_name": "Hoover city",
+    "pct_served": 23.6,
+    "park_count": 20,
+    "total_park_acreage": 851,
+    "concern": 76.4
+  },
+  "asheville-nc": {
+    "place_name": "Asheville city",
+    "pct_served": 40.1,
+    "park_count": 56,
+    "total_park_acreage": 768,
+    "concern": 59.9
+  },
+  "livonia-mi": {
+    "place_name": "Livonia city",
+    "pct_served": 79.4,
+    "park_count": 75,
+    "total_park_acreage": 1520,
+    "concern": 20.6
+  },
+  "nashua-nh": {
+    "place_name": "Nashua city",
+    "pct_served": 57.5,
+    "park_count": 49,
+    "total_park_acreage": 1053,
+    "concern": 42.5
+  },
+  "sandy-ut": {
+    "place_name": "Sandy city",
+    "pct_served": 69.7,
+    "park_count": 46,
+    "total_park_acreage": 1247,
+    "concern": 30.3
+  },
+  "frederick-md": {
+    "place_name": "Frederick city",
+    "pct_served": 85.7,
+    "park_count": 75,
+    "total_park_acreage": 1037,
+    "concern": 14.3
+  },
+  "bryan-tx": {
+    "place_name": "Bryan city",
+    "pct_served": 64.1,
+    "park_count": 71,
+    "total_park_acreage": 745,
+    "concern": 35.9
+  },
+  "folsom-ca": {
+    "place_name": "Folsom city",
+    "pct_served": 60.3,
+    "park_count": 47,
+    "total_park_acreage": 1497,
+    "concern": 39.7
+  },
+  "erie-pa": {
+    "place_name": "Erie city",
+    "pct_served": 85.5,
+    "park_count": 47,
+    "total_park_acreage": 426,
+    "concern": 14.5
+  },
+  "trenton-nj": {
+    "place_name": "Trenton city",
+    "pct_served": 88.3,
+    "park_count": 28,
+    "total_park_acreage": 301,
+    "concern": 11.7
+  },
+  "roswell-ga": {
+    "place_name": "Roswell city",
+    "pct_served": 24.8,
+    "park_count": 35,
+    "total_park_acreage": 1744,
+    "concern": 75.2
+  },
+  "champaign-il": {
+    "place_name": "Champaign city",
+    "pct_served": 90.1,
+    "park_count": 58,
+    "total_park_acreage": 593,
+    "concern": 9.9
+  },
+  "leander-tx": {
+    "place_name": "Leander city",
+    "pct_served": 44.3,
+    "park_count": 30,
+    "total_park_acreage": 267,
+    "concern": 55.7
+  },
+  "clifton-nj": {
+    "place_name": "Clifton city",
+    "pct_served": 89.1,
+    "park_count": 35,
+    "total_park_acreage": 238,
+    "concern": 10.9
+  },
+  "fort-smith-ar": {
+    "place_name": "Fort Smith city",
+    "pct_served": 22.7,
+    "park_count": 15,
+    "total_park_acreage": 521,
+    "concern": 77.3
+  },
+  "carson-ca": {
+    "place_name": "Carson city",
+    "pct_served": 50.8,
+    "park_count": 15,
+    "total_park_acreage": 133,
+    "concern": 49.2
+  },
+  "newton-ma": {
+    "place_name": "Newton city",
+    "pct_served": 96.3,
+    "park_count": 104,
+    "total_park_acreage": 991,
+    "concern": 3.7
+  },
+  "springdale-ar": {
+    "place_name": "Springdale city",
+    "pct_served": 12.3,
+    "park_count": 11,
+    "total_park_acreage": 187,
+    "concern": 87.7
+  },
+  "lawton-ok": {
+    "place_name": "Lawton city",
+    "pct_served": 65.2,
+    "park_count": 80,
+    "total_park_acreage": 677,
+    "concern": 34.8
+  },
+  "compton-ca": {
+    "place_name": "Compton city",
+    "pct_served": 75.0,
+    "park_count": 17,
+    "total_park_acreage": 58,
+    "concern": 25.0
+  },
+  "mission-viejo-ca": {
+    "place_name": "Mission Viejo city",
+    "pct_served": 86.3,
+    "park_count": 57,
+    "total_park_acreage": 789,
+    "concern": 13.7
+  },
+  "franklin-tn": {
+    "place_name": "Franklin city",
+    "pct_served": 20.8,
+    "park_count": 21,
+    "total_park_acreage": 907,
+    "concern": 79.2
+  },
+  "santa-monica-ca": {
+    "place_name": "Santa Monica city",
+    "pct_served": 82.7,
+    "park_count": 31,
+    "total_park_acreage": 354,
+    "concern": 17.3
+  },
+  "south-gate-ca": {
+    "place_name": "South Gate city",
+    "pct_served": 57.1,
+    "park_count": 12,
+    "total_park_acreage": 142,
+    "concern": 42.9
+  },
+  "santa-fe-nm": {
+    "place_name": "Santa Fe city",
+    "pct_served": 57.5,
+    "park_count": 72,
+    "total_park_acreage": 536,
+    "concern": 42.5
+  },
+  "queen-creek-az": {
+    "place_name": "Queen Creek town",
+    "pct_served": 16.4,
+    "park_count": 8,
+    "total_park_acreage": 293,
+    "concern": 83.6
+  },
+  "ogden-ut": {
+    "place_name": "Ogden city",
+    "pct_served": 77.5,
+    "park_count": 49,
+    "total_park_acreage": 1114,
+    "concern": 22.5
+  },
+  "deerfield-beach-fl": {
+    "place_name": "Deerfield Beach city",
+    "pct_served": 51.5,
+    "park_count": 27,
+    "total_park_acreage": 658,
+    "concern": 48.5
+  },
+  "lawrence-ma": {
+    "place_name": "Lawrence city",
+    "pct_served": 91.4,
+    "park_count": 44,
+    "total_park_acreage": 307,
+    "concern": 8.6
+  },
+  "bloomington-mn": {
+    "place_name": "Bloomington city",
+    "pct_served": 89.7,
+    "park_count": 76,
+    "total_park_acreage": 5140,
+    "concern": 10.3
+  },
+  "danbury-ct": {
+    "place_name": "Danbury town",
+    "pct_served": 37.3,
+    "park_count": 17,
+    "total_park_acreage": 1496,
+    "concern": 62.7
+  },
+  "mission-tx": {
+    "place_name": "Mission city",
+    "pct_served": 37.8,
+    "park_count": 27,
+    "total_park_acreage": 555,
+    "concern": 62.2
+  },
+  "westminster-ca": {
+    "place_name": "Westminster city",
+    "pct_served": 63.3,
+    "park_count": 19,
+    "total_park_acreage": 75,
+    "concern": 36.7
+  },
+  "troy-mi": {
+    "place_name": "Troy city",
+    "pct_served": 15.8,
+    "park_count": 9,
+    "total_park_acreage": 380,
+    "concern": 84.2
+  },
+  "daytona-beach-fl": {
+    "place_name": "Daytona Beach city",
+    "pct_served": 44.9,
+    "park_count": 28,
+    "total_park_acreage": 336,
+    "concern": 55.1
+  },
+  "kennewick-wa": {
+    "place_name": "Kennewick city",
+    "pct_served": 57.3,
+    "park_count": 39,
+    "total_park_acreage": 773,
+    "concern": 42.7
+  },
+  "duluth-mn": {
+    "place_name": "Duluth city",
+    "pct_served": 74.6,
+    "park_count": 77,
+    "total_park_acreage": 4301,
+    "concern": 25.4
+  },
+  "waukegan-il": {
+    "place_name": "Waukegan city",
+    "pct_served": 84.8,
+    "park_count": 52,
+    "total_park_acreage": 1491,
+    "concern": 15.2
+  },
+  "warner-robins-ga": {
+    "place_name": "Warner Robins city",
+    "pct_served": 15.1,
+    "park_count": 11,
+    "total_park_acreage": 190,
+    "concern": 84.9
+  },
+  "south-jordan-ut": {
+    "place_name": "South Jordan city",
+    "pct_served": 60.1,
+    "park_count": 55,
+    "total_park_acreage": 789,
+    "concern": 39.9
+  },
+  "rancho-cordova-ca": {
+    "place_name": "Rancho Cordova city",
+    "pct_served": 74.5,
+    "park_count": 29,
+    "total_park_acreage": 1591,
+    "concern": 25.5
+  },
+  "melbourne-fl": {
+    "place_name": "Melbourne city",
+    "pct_served": 25.5,
+    "park_count": 11,
+    "total_park_acreage": 657,
+    "concern": 74.5
+  },
+  "gastonia-nc": {
+    "place_name": "Gastonia city",
+    "pct_served": 23.0,
+    "park_count": 19,
+    "total_park_acreage": 3086,
+    "concern": 77.0
+  },
+  "baytown-tx": {
+    "place_name": "Baytown city",
+    "pct_served": 47.5,
+    "park_count": 40,
+    "total_park_acreage": 1031,
+    "concern": 52.5
+  },
+  "medford-or": {
+    "place_name": "Medford city",
+    "pct_served": 54.1,
+    "park_count": 27,
+    "total_park_acreage": 459,
+    "concern": 45.9
+  },
+  "santa-barbara-ca": {
+    "place_name": "Santa Barbara city",
+    "pct_served": 76.9,
+    "park_count": 44,
+    "total_park_acreage": 1333,
+    "concern": 23.1
+  },
+  "sioux-city-ia": {
+    "place_name": "Sioux City city",
+    "pct_served": 69.2,
+    "park_count": 44,
+    "total_park_acreage": 1942,
+    "concern": 30.8
+  },
+  "citrus-heights-ca": {
+    "place_name": "Citrus Heights city",
+    "pct_served": 61.6,
+    "park_count": 20,
+    "total_park_acreage": 273,
+    "concern": 38.4
+  },
+  "lake-forest-ca": {
+    "place_name": "Lake Forest city",
+    "pct_served": 71.4,
+    "park_count": 39,
+    "total_park_acreage": 2100,
+    "concern": 28.6
+  },
+  "auburn-wa": {
+    "place_name": "Auburn city",
+    "pct_served": 68.5,
+    "park_count": 60,
+    "total_park_acreage": 933,
+    "concern": 31.5
+  },
+  "homestead-fl": {
+    "place_name": "Homestead city",
+    "pct_served": 44.2,
+    "park_count": 16,
+    "total_park_acreage": 295,
+    "concern": 55.8
+  },
+  "san-ramon-ca": {
+    "place_name": "San Ramon city",
+    "pct_served": 62.8,
+    "park_count": 37,
+    "total_park_acreage": 261,
+    "concern": 37.2
+  },
+  "new-rochelle-ny": {
+    "place_name": "New Rochelle city",
+    "pct_served": 91.5,
+    "park_count": 40,
+    "total_park_acreage": 416,
+    "concern": 8.5
+  },
+  "whittier-ca": {
+    "place_name": "Whittier city",
+    "pct_served": 84.7,
+    "park_count": 30,
+    "total_park_acreage": 2060,
+    "concern": 15.3
+  },
+  "kissimmee-fl": {
+    "place_name": "Kissimmee city",
+    "pct_served": 27.9,
+    "park_count": 25,
+    "total_park_acreage": 487,
+    "concern": 72.1
+  },
+  "mountain-view-ca": {
+    "place_name": "Mountain View city",
+    "pct_served": 92.3,
+    "park_count": 48,
+    "total_park_acreage": 768,
+    "concern": 7.7
+  },
+  "san-leandro-ca": {
+    "place_name": "San Leandro city",
+    "pct_served": 56.9,
+    "park_count": 22,
+    "total_park_acreage": 292,
+    "concern": 43.1
+  },
+  "layton-ut": {
+    "place_name": "Layton city",
+    "pct_served": 27.0,
+    "park_count": 8,
+    "total_park_acreage": 161,
+    "concern": 73.0
+  },
+  "auburn-al": {
+    "place_name": "Auburn city",
+    "pct_served": 47.4,
+    "park_count": 54,
+    "total_park_acreage": 1823,
+    "concern": 52.6
+  },
+  "cranston-ri": {
+    "place_name": "Cranston city",
+    "pct_served": 74.1,
+    "park_count": 45,
+    "total_park_acreage": 812,
+    "concern": 25.9
+  },
+  "mansfield-tx": {
+    "place_name": "Mansfield city",
+    "pct_served": 39.3,
+    "park_count": 39,
+    "total_park_acreage": 997,
+    "concern": 60.7
+  },
+  "somerville-ma": {
+    "place_name": "Somerville city",
+    "pct_served": 100.0,
+    "park_count": 60,
+    "total_park_acreage": 131,
+    "concern": 0.0
+  },
+  "warwick-ri": {
+    "place_name": "Warwick city",
+    "pct_served": 45.8,
+    "park_count": 40,
+    "total_park_acreage": 997,
+    "concern": 54.2
+  },
+  "castle-rock-co": {
+    "place_name": "Castle Rock town",
+    "pct_served": 80.8,
+    "park_count": 79,
+    "total_park_acreage": 3587,
+    "concern": 19.2
+  },
+  "brooklyn-park-mn": {
+    "place_name": "Brooklyn Park city",
+    "pct_served": 90.7,
+    "park_count": 63,
+    "total_park_acreage": 1747,
+    "concern": 9.3
+  },
+  "livermore-ca": {
+    "place_name": "Livermore city",
+    "pct_served": 79.7,
+    "park_count": 41,
+    "total_park_acreage": 536,
+    "concern": 20.3
+  },
+  "bloomington-in": {
+    "place_name": "Bloomington city",
+    "pct_served": 73.2,
+    "park_count": 46,
+    "total_park_acreage": 1816,
+    "concern": 26.8
+  },
+  "jonesboro-ar": {
+    "place_name": "Jonesboro city",
+    "pct_served": 22.1,
+    "park_count": 15,
+    "total_park_acreage": 926,
+    "concern": 77.9
+  },
+  "farmington-hills-mi": {
+    "place_name": "Farmington Hills city",
+    "pct_served": 16.8,
+    "park_count": 8,
+    "total_park_acreage": 475,
+    "concern": 83.2
+  },
+  "perris-ca": {
+    "place_name": "Perris city",
+    "pct_served": 55.5,
+    "park_count": 17,
+    "total_park_acreage": 1171,
+    "concern": 44.5
+  },
+  "longview-tx": {
+    "place_name": "Longview city",
+    "pct_served": 42.3,
+    "park_count": 35,
+    "total_park_acreage": 804,
+    "concern": 57.7
+  },
+  "pasco-wa": {
+    "place_name": "Pasco city",
+    "pct_served": 63.6,
+    "park_count": 34,
+    "total_park_acreage": 681,
+    "concern": 36.4
+  },
+  "hawthorne-ca": {
+    "place_name": "Hawthorne city",
+    "pct_served": 76.5,
+    "park_count": 11,
+    "total_park_acreage": 46,
+    "concern": 23.5
+  },
+  "lake-charles-la": {
+    "place_name": "Lake Charles city",
+    "pct_served": 29.6,
+    "park_count": 24,
+    "total_park_acreage": 391,
+    "concern": 70.4
+  },
+  "redmond-wa": {
+    "place_name": "Redmond city",
+    "pct_served": 91.3,
+    "park_count": 51,
+    "total_park_acreage": 1633,
+    "concern": 8.7
+  },
+  "boynton-beach-fl": {
+    "place_name": "Boynton Beach city",
+    "pct_served": 63.4,
+    "park_count": 49,
+    "total_park_acreage": 404,
+    "concern": 36.6
+  },
+  "westland-mi": {
+    "place_name": "Westland city",
+    "pct_served": 50.8,
+    "park_count": 11,
+    "total_park_acreage": 995,
+    "concern": 49.2
+  },
+  "redwood-city-ca": {
+    "place_name": "Redwood City city",
+    "pct_served": 80.9,
+    "park_count": 40,
+    "total_park_acreage": 757,
+    "concern": 19.1
+  },
+  "newport-beach-ca": {
+    "place_name": "Newport Beach city",
+    "pct_served": 77.4,
+    "park_count": 60,
+    "total_park_acreage": 1440,
+    "concern": 22.6
+  },
+  "cicero-il": {
+    "place_name": "Cicero town",
+    "pct_served": 98.2,
+    "park_count": 22,
+    "total_park_acreage": 59,
+    "concern": 1.8
+  },
+  "buena-park-ca": {
+    "place_name": "Buena Park city",
+    "pct_served": 52.6,
+    "park_count": 11,
+    "total_park_acreage": 130,
+    "concern": 47.4
+  },
+  "doral-fl": {
+    "place_name": "Doral city",
+    "pct_served": 41.9,
+    "park_count": 9,
+    "total_park_acreage": 155,
+    "concern": 58.1
+  },
+  "miami-beach-fl": {
+    "place_name": "Miami Beach city",
+    "pct_served": 98.4,
+    "park_count": 79,
+    "total_park_acreage": 476,
+    "concern": 1.6
+  },
+  "woodbury-mn": {
+    "place_name": "Woodbury city",
+    "pct_served": 90.7,
+    "park_count": 160,
+    "total_park_acreage": 2897,
+    "concern": 9.3
+  },
+  "loveland-co": {
+    "place_name": "Loveland city",
+    "pct_served": 65.6,
+    "park_count": 49,
+    "total_park_acreage": 843,
+    "concern": 34.4
+  },
+  "lynchburg-va": {
+    "place_name": "Lynchburg city",
+    "pct_served": 30.4,
+    "park_count": 30,
+    "total_park_acreage": 927,
+    "concern": 69.6
+  },
+  "pharr-tx": {
+    "place_name": "Pharr city",
+    "pct_served": 31.5,
+    "park_count": 14,
+    "total_park_acreage": 178,
+    "concern": 68.5
+  },
+  "largo-fl": {
+    "place_name": "Largo city",
+    "pct_served": 41.7,
+    "park_count": 28,
+    "total_park_acreage": 546,
+    "concern": 58.3
+  },
+  "rapid-city-sd": {
+    "place_name": "Rapid City city",
+    "pct_served": 48.5,
+    "park_count": 43,
+    "total_park_acreage": 1559,
+    "concern": 51.5
+  },
+  "apex-nc": {
+    "place_name": "Apex town",
+    "pct_served": 36.4,
+    "park_count": 18,
+    "total_park_acreage": 575,
+    "concern": 63.6
+  },
+  "johns-creek-ga": {
+    "place_name": "Johns Creek city",
+    "pct_served": 16.8,
+    "park_count": 14,
+    "total_park_acreage": 1070,
+    "concern": 83.2
+  },
+  "alhambra-ca": {
+    "place_name": "Alhambra city",
+    "pct_served": 63.2,
+    "park_count": 9,
+    "total_park_acreage": 81,
+    "concern": 36.8
+  },
+  "bethlehem-pa": {
+    "place_name": "Bethlehem city",
+    "pct_served": 90.4,
+    "park_count": 32,
+    "total_park_acreage": 489,
+    "concern": 9.6
+  },
+  "flower-mound-tx": {
+    "place_name": "Flower Mound town",
+    "pct_served": 76.7,
+    "park_count": 62,
+    "total_park_acreage": 1233,
+    "concern": 23.3
+  },
+  "upland-ca": {
+    "place_name": "Upland city",
+    "pct_served": 39.6,
+    "park_count": 13,
+    "total_park_acreage": 124,
+    "concern": 60.4
+  },
+  "flint-mi": {
+    "place_name": "Flint city",
+    "pct_served": 82.5,
+    "park_count": 66,
+    "total_park_acreage": 1180,
+    "concern": 17.5
+  },
+  "lakeville-mn": {
+    "place_name": "Lakeville city",
+    "pct_served": 80.5,
+    "park_count": 88,
+    "total_park_acreage": 1688,
+    "concern": 19.5
+  },
+  "broomfield-co": {
+    "place_name": "Broomfield city",
+    "pct_served": 88.9,
+    "park_count": 168,
+    "total_park_acreage": 2288,
+    "concern": 11.1
+  },
+  "cedar-park-tx": {
+    "place_name": "Cedar Park city",
+    "pct_served": 84.5,
+    "park_count": 69,
+    "total_park_acreage": 992,
+    "concern": 15.5
+  },
+  "plymouth-mn": {
+    "place_name": "Plymouth city",
+    "pct_served": 96.9,
+    "park_count": 111,
+    "total_park_acreage": 2294,
+    "concern": 3.1
+  },
+  "missoula-mt": {
+    "place_name": "Missoula city",
+    "pct_served": 78.7,
+    "park_count": 78,
+    "total_park_acreage": 849,
+    "concern": 21.3
+  },
+  "mableton-ga": {
+    "place_name": "Mableton city",
+    "pct_served": 12.7,
+    "park_count": 9,
+    "total_park_acreage": 415,
+    "concern": 87.3
+  },
+  "bloomington-il": {
+    "place_name": "Bloomington city",
+    "pct_served": 57.4,
+    "park_count": 36,
+    "total_park_acreage": 504,
+    "concern": 42.6
+  },
+  "milpitas-ca": {
+    "place_name": "Milpitas city",
+    "pct_served": 63.8,
+    "park_count": 19,
+    "total_park_acreage": 195,
+    "concern": 36.2
+  },
+  "wyoming-mi": {
+    "place_name": "Wyoming city",
+    "pct_served": 51.7,
+    "park_count": 29,
+    "total_park_acreage": 895,
+    "concern": 48.3
+  },
+  "parma-oh": {
+    "place_name": "Parma city",
+    "pct_served": 56.9,
+    "park_count": 24,
+    "total_park_acreage": 969,
+    "concern": 43.1
+  },
+  "bowling-green-ky": {
+    "place_name": "Bowling Green city",
+    "pct_served": 40.0,
+    "park_count": 23,
+    "total_park_acreage": 512,
+    "concern": 60.0
+  },
+  "maricopa-az": {
+    "place_name": "Maricopa city",
+    "pct_served": 9.4,
+    "park_count": 3,
+    "total_park_acreage": 171,
+    "concern": 90.6
+  },
+  "lakewood-ca": {
+    "place_name": "Lakewood city",
+    "pct_served": 75.0,
+    "park_count": 15,
+    "total_park_acreage": 213,
+    "concern": 25.0
+  },
+  "bismarck-nd": {
+    "place_name": "Bismarck city",
+    "pct_served": 76.7,
+    "park_count": 62,
+    "total_park_acreage": 1314,
+    "concern": 23.3
+  },
+  "racine-wi": {
+    "place_name": "Racine city",
+    "pct_served": 91.6,
+    "park_count": 74,
+    "total_park_acreage": 629,
+    "concern": 8.4
+  },
+  "tustin-ca": {
+    "place_name": "Tustin city",
+    "pct_served": 82.7,
+    "park_count": 18,
+    "total_park_acreage": 378,
+    "concern": 17.3
+  },
+  "ankeny-ia": {
+    "place_name": "Ankeny city",
+    "pct_served": 79.2,
+    "park_count": 57,
+    "total_park_acreage": 761,
+    "concern": 20.8
+  },
+  "san-marcos-tx": {
+    "place_name": "San Marcos city",
+    "pct_served": 56.9,
+    "park_count": 70,
+    "total_park_acreage": 1988,
+    "concern": 43.1
+  },
+  "marysville-wa": {
+    "place_name": "Marysville city",
+    "pct_served": 53.6,
+    "park_count": 35,
+    "total_park_acreage": 480,
+    "concern": 46.4
+  },
+  "pittsburg-ca": {
+    "place_name": "Pittsburg city",
+    "pct_served": 78.6,
+    "park_count": 28,
+    "total_park_acreage": 382,
+    "concern": 21.4
+  },
+  "rochester-hills-mi": {
+    "place_name": "Rochester Hills city",
+    "pct_served": 14.8,
+    "park_count": 9,
+    "total_park_acreage": 573,
+    "concern": 85.2
+  },
+  "chino-hills-ca": {
+    "place_name": "Chino Hills city",
+    "pct_served": 85.3,
+    "park_count": 48,
+    "total_park_acreage": 2974,
+    "concern": 14.7
+  },
+  "missouri-city-tx": {
+    "place_name": "Missouri City city",
+    "pct_served": 60.5,
+    "park_count": 37,
+    "total_park_acreage": 773,
+    "concern": 39.5
+  },
+  "flagstaff-az": {
+    "place_name": "Flagstaff city",
+    "pct_served": 57.7,
+    "park_count": 38,
+    "total_park_acreage": 15398,
+    "concern": 42.3
+  },
+  "schaumburg-il": {
+    "place_name": "Schaumburg village",
+    "pct_served": 82.4,
+    "park_count": 72,
+    "total_park_acreage": 940,
+    "concern": 17.6
+  },
+  "pawtucket-ri": {
+    "place_name": "Pawtucket city",
+    "pct_served": 92.4,
+    "park_count": 48,
+    "total_park_acreage": 473,
+    "concern": 7.6
+  },
+  "rogers-ar": {
+    "place_name": "Rogers city",
+    "pct_served": 29.0,
+    "park_count": 20,
+    "total_park_acreage": 578,
+    "concern": 71.0
+  },
+  "alameda-ca": {
+    "place_name": "Alameda city",
+    "pct_served": 92.1,
+    "park_count": 33,
+    "total_park_acreage": 266,
+    "concern": 7.9
+  },
+  "rocklin-ca": {
+    "place_name": "Rocklin city",
+    "pct_served": 67.0,
+    "park_count": 42,
+    "total_park_acreage": 454,
+    "concern": 33.0
+  },
+  "caldwell-id": {
+    "place_name": "Caldwell city",
+    "pct_served": 21.7,
+    "park_count": 21,
+    "total_park_acreage": 333,
+    "concern": 78.3
+  },
+  "carlsbad-nm": {
+    "place_name": "Carlsbad city",
+    "pct_served": 71.9,
+    "park_count": 30,
+    "total_park_acreage": 489,
+    "concern": 28.1
+  },
+  "kalispell-mt": {
+    "place_name": "Kalispell city",
+    "pct_served": 76.7,
+    "park_count": 24,
+    "total_park_acreage": 356,
+    "concern": 23.3
+  },
+  "durango-co": {
+    "place_name": "Durango city",
+    "pct_served": 51.1,
+    "park_count": 23,
+    "total_park_acreage": 612,
+    "concern": 48.9
+  },
+  "los-alamos-nm": {
+    "place_name": "Los Alamos CDP",
+    "pct_served": 75.6,
+    "park_count": 14,
+    "total_park_acreage": 401,
+    "concern": 24.4
+  },
+  "sandpoint-id": {
+    "place_name": "Sandpoint city",
+    "pct_served": 70.3,
+    "park_count": 10,
+    "total_park_acreage": 79,
+    "concern": 29.7
+  },
+  "taos-nm": {
+    "place_name": "Taos town",
+    "pct_served": 25.7,
+    "park_count": 4,
+    "total_park_acreage": 41,
+    "concern": 74.3
+  },
+  "grand-junction-co": {
+    "place_name": "Grand Junction city",
+    "pct_served": 60.6,
+    "park_count": 46,
+    "total_park_acreage": 1025,
+    "concern": 39.4
+  }
+}

@@ -10,6 +10,7 @@ import { daysOnMarketDataset } from "@/lib/datasets/days-on-market";
 import { trafficFatalitiesDataset } from "@/lib/datasets/traffic-fatalities";
 import { transitAccessDataset } from "@/lib/datasets/transit-access";
 import { walkabilityDataset } from "@/lib/datasets/walkability";
+import { parksDataset } from "@/lib/datasets/parks";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -31,6 +32,7 @@ export const DATASETS: Dataset[] = [
   trafficFatalitiesDataset,
   transitAccessDataset,
   walkabilityDataset,
+  parksDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

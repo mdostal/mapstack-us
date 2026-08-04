@@ -82,6 +82,11 @@ data/raw/transit-cache/
 # data/walkability.json IS committed.
 data/raw/walkability-cache/
 
+# Pure fetch-scratch for the park-access dataset build
+# (scripts/gen_parks_data.py) -- same posture as the caches above.
+# data/parks.json IS committed.
+data/raw/parks-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
