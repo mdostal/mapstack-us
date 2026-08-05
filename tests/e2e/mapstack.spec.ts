@@ -349,6 +349,22 @@ test("the twenty-first dataset (measured grass pollen) is selectable and reports
   await expect(nycDetail).toContainText("No data for this layer");
 });
 
+test("the twenty-second dataset (state income tax) is selectable and reports a real Tax-Foundation-sourced rate with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "State income tax" }).click();
+  await page.getByRole("button", { name: "State income tax", exact: true }).click();
+  await page.getByRole("button", { name: "Add State income tax" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "State income tax: State income tax" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "State income tax" });
+  await expect(detail).toContainText("state income tax rate");
+  await expect(detail).toContainText("reflects the whole state");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

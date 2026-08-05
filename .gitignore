@@ -120,6 +120,11 @@ data/raw/sales-tax-cache/
 # caches above. data/measured-grass-pollen.json IS committed.
 data/raw/measured-grass-pollen-cache/
 
+# Pure fetch-scratch for the state-income-tax dataset build
+# (scripts/gen_income_tax_data.py) -- same posture as the caches above.
+# data/income-tax.json IS committed.
+data/raw/income-tax-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

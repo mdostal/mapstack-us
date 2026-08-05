@@ -1,0 +1,2568 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "no_income_data_count": 0,
+    "rate_cap_for_100_concern": 0.11,
+    "source": "Tax Foundation, State Individual Income Tax Rates and Brackets, 2026"
+  },
+  "abilene-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 62128,
+    "concern": 0.0
+  },
+  "akron-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 69786,
+    "concern": 25.0
+  },
+  "alameda-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "albany-ny": {
+    "applicable_rate_pct": 5.9,
+    "at_median_income": 81193,
+    "concern": 53.6
+  },
+  "albuquerque-nm": {
+    "applicable_rate_pct": 4.9,
+    "at_median_income": 68286,
+    "concern": 44.5
+  },
+  "alexandria-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 109902,
+    "concern": 52.3
+  },
+  "alhambra-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "allen-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120149,
+    "concern": 0.0
+  },
+  "allentown-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 76270,
+    "concern": 27.9
+  },
+  "amarillo-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 51177,
+    "concern": 0.0
+  },
+  "anaheim-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "anchorage-ak": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 93881,
+    "concern": 0.0
+  },
+  "ankeny-ia": {
+    "applicable_rate_pct": 3.8,
+    "at_median_income": 79509,
+    "concern": 34.5
+  },
+  "ann-arbor-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 84704,
+    "concern": 38.6
+  },
+  "antioch-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 122000,
+    "concern": 84.5
+  },
+  "apex-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 103084,
+    "concern": 36.3
+  },
+  "arlington-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 80083,
+    "concern": 0.0
+  },
+  "arlington-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 138416,
+    "concern": 52.3
+  },
+  "arvada-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 102146,
+    "concern": 40.0
+  },
+  "asheville-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 71218,
+    "concern": 36.3
+  },
+  "athens-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 54550,
+    "concern": 47.2
+  },
+  "atlanta-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 94510,
+    "concern": 47.2
+  },
+  "auburn-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 62301,
+    "concern": 45.5
+  },
+  "auburn-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "augusta-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 52073,
+    "concern": 47.2
+  },
+  "aurora-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 97560,
+    "concern": 40.0
+  },
+  "aurora-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 97543,
+    "concern": 45.0
+  },
+  "austin-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 97544,
+    "concern": 0.0
+  },
+  "avondale-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "bakersfield-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 68436,
+    "concern": 72.7
+  },
+  "baltimore-md": {
+    "applicable_rate_pct": 4.75,
+    "at_median_income": 58616,
+    "concern": 43.2
+  },
+  "baton-rouge-la": {
+    "applicable_rate_pct": 3.0,
+    "at_median_income": 60205,
+    "concern": 27.3
+  },
+  "baytown-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72348,
+    "concern": 0.0
+  },
+  "beaumont-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 59298,
+    "concern": 0.0
+  },
+  "beaverton-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 103486,
+    "concern": 79.5
+  },
+  "bellevue-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "bellingham-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 75920,
+    "concern": 0.0
+  },
+  "bend-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 95414,
+    "concern": 79.5
+  },
+  "berkeley-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "bethlehem-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 84051,
+    "concern": 27.9
+  },
+  "billings-mt": {
+    "applicable_rate_pct": 5.65,
+    "at_median_income": 70221,
+    "concern": 51.4
+  },
+  "birmingham-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 64726,
+    "concern": 45.5
+  },
+  "bismarck-nd": {
+    "applicable_rate_pct": 1.95,
+    "at_median_income": 86521,
+    "concern": 17.7
+  },
+  "blanding-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 57941,
+    "concern": 40.9
+  },
+  "bloomington-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 79622,
+    "concern": 45.0
+  },
+  "bloomington-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 60553,
+    "concern": 26.8
+  },
+  "bloomington-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 93642,
+    "concern": 61.8
+  },
+  "boca-raton-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 84789,
+    "concern": 0.0
+  },
+  "boise-id": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 90513,
+    "concern": 48.2
+  },
+  "boston-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 91386,
+    "concern": 45.5
+  },
+  "boulder-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 97170,
+    "concern": 40.0
+  },
+  "bowling-green-ky": {
+    "applicable_rate_pct": 3.5,
+    "at_median_income": 62108,
+    "concern": 31.8
+  },
+  "boynton-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 84789,
+    "concern": 0.0
+  },
+  "bridgeport-ct": {
+    "applicable_rate_pct": 5.5,
+    "at_median_income": 92858,
+    "concern": 50.0
+  },
+  "brockton-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 107828,
+    "concern": 45.5
+  },
+  "broken-arrow-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 65619,
+    "concern": 40.9
+  },
+  "brooklyn-park-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 93642,
+    "concern": 61.8
+  },
+  "broomfield-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 113162,
+    "concern": 40.0
+  },
+  "brownsville-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 51716,
+    "concern": 0.0
+  },
+  "bryan-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 55724,
+    "concern": 0.0
+  },
+  "buckeye-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "buena-park-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "buffalo-ny": {
+    "applicable_rate_pct": 5.4,
+    "at_median_income": 70443,
+    "concern": 49.1
+  },
+  "burbank-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "caldwell-id": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 72059,
+    "concern": 48.2
+  },
+  "cambridge-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 123288,
+    "concern": 45.5
+  },
+  "cape-coral-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 71811,
+    "concern": 0.0
+  },
+  "carlsbad-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "carlsbad-nm": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 66485,
+    "concern": 42.7
+  },
+  "carmel-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 121231,
+    "concern": 26.8
+  },
+  "carrollton-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 107401,
+    "concern": 0.0
+  },
+  "carson-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "cary-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 103084,
+    "concern": 36.3
+  },
+  "castle-rock-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 144807,
+    "concern": 40.0
+  },
+  "cedar-park-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 111183,
+    "concern": 0.0
+  },
+  "cedar-rapids-ia": {
+    "applicable_rate_pct": 3.8,
+    "at_median_income": 73079,
+    "concern": 34.5
+  },
+  "centennial-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 97560,
+    "concern": 40.0
+  },
+  "champaign-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 62169,
+    "concern": 45.0
+  },
+  "chandler-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "charleston-sc": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 88111,
+    "concern": 54.5
+  },
+  "charlotte-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 84796,
+    "concern": 36.3
+  },
+  "chattanooga-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 73319,
+    "concern": 0.0
+  },
+  "chesapeake-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 91582,
+    "concern": 52.3
+  },
+  "chicago-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 80547,
+    "concern": 45.0
+  },
+  "chico-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 63084,
+    "concern": 72.7
+  },
+  "chino-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "chino-hills-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "chula-vista-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "cicero-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 80547,
+    "concern": 45.0
+  },
+  "cincinnati-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 68810,
+    "concern": 25.0
+  },
+  "citrus-heights-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 89984,
+    "concern": 84.5
+  },
+  "clarksville-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74701,
+    "concern": 0.0
+  },
+  "clearwater-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 70684,
+    "concern": 0.0
+  },
+  "cleveland-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 61912,
+    "concern": 25.0
+  },
+  "clifton-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 81823,
+    "concern": 57.9
+  },
+  "clovis-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 71271,
+    "concern": 72.7
+  },
+  "college-station-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 55724,
+    "concern": 0.0
+  },
+  "colorado-springs-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 88794,
+    "concern": 40.0
+  },
+  "columbia-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 70153,
+    "concern": 42.7
+  },
+  "columbia-sc": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 61508,
+    "concern": 54.5
+  },
+  "columbus-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 52492,
+    "concern": 47.2
+  },
+  "columbus-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 71730,
+    "concern": 25.0
+  },
+  "compton-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "concord-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 122000,
+    "concern": 84.5
+  },
+  "concord-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 85540,
+    "concern": 36.3
+  },
+  "conroe-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 92578,
+    "concern": 0.0
+  },
+  "coral-springs-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "corona-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "corpus-christi-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 63669,
+    "concern": 0.0
+  },
+  "costa-mesa-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "cranston-ri": {
+    "applicable_rate_pct": 3.75,
+    "at_median_income": 75307,
+    "concern": 34.1
+  },
+  "dallas-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "daly-city-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 151004,
+    "concern": 84.5
+  },
+  "danbury-ct": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 121285,
+    "concern": 54.5
+  },
+  "davenport-ia": {
+    "applicable_rate_pct": 3.8,
+    "at_median_income": 77100,
+    "concern": 34.5
+  },
+  "davie-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "dayton-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 62650,
+    "concern": 25.0
+  },
+  "daytona-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66111,
+    "concern": 0.0
+  },
+  "dearborn-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 57418,
+    "concern": 38.6
+  },
+  "deerfield-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "deltona-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66111,
+    "concern": 0.0
+  },
+  "denton-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 107401,
+    "concern": 0.0
+  },
+  "denver-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 93572,
+    "concern": 40.0
+  },
+  "des-moines-ia": {
+    "applicable_rate_pct": 3.8,
+    "at_median_income": 79509,
+    "concern": 34.5
+  },
+  "detroit-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 57418,
+    "concern": 38.6
+  },
+  "doral-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "downey-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "duluth-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 67311,
+    "concern": 61.8
+  },
+  "durango-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 83542,
+    "concern": 40.0
+  },
+  "durham-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 81413,
+    "concern": 36.3
+  },
+  "edinburg-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 53160,
+    "concern": 0.0
+  },
+  "edmond-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 65979,
+    "concern": 40.9
+  },
+  "el-cajon-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "el-monte-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "el-paso-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 58656,
+    "concern": 0.0
+  },
+  "elgin-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 97543,
+    "concern": 45.0
+  },
+  "elizabeth-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 100031,
+    "concern": 57.9
+  },
+  "elk-grove-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 89984,
+    "concern": 84.5
+  },
+  "erie-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 60721,
+    "concern": 27.9
+  },
+  "escondido-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "eugene-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 70065,
+    "concern": 79.5
+  },
+  "evansville-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 60923,
+    "concern": 26.8
+  },
+  "everett-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 106067,
+    "concern": 0.0
+  },
+  "fairfield-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 99117,
+    "concern": 84.5
+  },
+  "fall-river-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 81047,
+    "concern": 45.5
+  },
+  "fargo-nd": {
+    "applicable_rate_pct": 1.95,
+    "at_median_income": 75477,
+    "concern": 17.7
+  },
+  "farmington-hills-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 92230,
+    "concern": 38.6
+  },
+  "fayetteville-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 66158,
+    "concern": 35.5
+  },
+  "fayetteville-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 61511,
+    "concern": 36.3
+  },
+  "federal-way-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "fishers-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 121231,
+    "concern": 26.8
+  },
+  "flagstaff-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 71528,
+    "concern": 22.7
+  },
+  "flint-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 60192,
+    "concern": 38.6
+  },
+  "flower-mound-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 107401,
+    "concern": 0.0
+  },
+  "folsom-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 89984,
+    "concern": 84.5
+  },
+  "fontana-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "fort-collins-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 88519,
+    "concern": 40.0
+  },
+  "fort-lauderdale-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "fort-myers-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 71811,
+    "concern": 0.0
+  },
+  "fort-smith-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 58112,
+    "concern": 35.5
+  },
+  "fort-wayne-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 66194,
+    "concern": 26.8
+  },
+  "fort-worth-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 80083,
+    "concern": 0.0
+  },
+  "franklin-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 136007,
+    "concern": 0.0
+  },
+  "frederick-md": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 114089,
+    "concern": 45.5
+  },
+  "fremont-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "fresno-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 71271,
+    "concern": 72.7
+  },
+  "frisco-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120149,
+    "concern": 0.0
+  },
+  "fullerton-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "gainesville-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 61843,
+    "concern": 0.0
+  },
+  "garden-grove-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "garland-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "gastonia-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 67076,
+    "concern": 36.3
+  },
+  "georgetown-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 111183,
+    "concern": 0.0
+  },
+  "geraldine-mt": {
+    "applicable_rate_pct": 5.65,
+    "at_median_income": 61903,
+    "concern": 51.4
+  },
+  "gilbert-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "glendale-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "glendale-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "goodyear-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "grand-junction-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 66339,
+    "concern": 40.0
+  },
+  "grand-prairie-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "grand-rapids-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 79715,
+    "concern": 38.6
+  },
+  "greeley-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 90675,
+    "concern": 40.0
+  },
+  "green-bay-wi": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 77645,
+    "concern": 48.2
+  },
+  "greensboro-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 65890,
+    "concern": 36.3
+  },
+  "greenville-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 60268,
+    "concern": 36.3
+  },
+  "gresham-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 83290,
+    "concern": 79.5
+  },
+  "hampton-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 67764,
+    "concern": 52.3
+  },
+  "hartford-ct": {
+    "applicable_rate_pct": 5.5,
+    "at_median_income": 90965,
+    "concern": 50.0
+  },
+  "hawthorne-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "hayward-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "hemet-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "henderson-nv": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 75103,
+    "concern": 0.0
+  },
+  "hesperia-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "hialeah-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "high-point-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 65890,
+    "concern": 36.3
+  },
+  "hillsboro-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 103486,
+    "concern": 79.5
+  },
+  "hollywood-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "homestead-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "honolulu-hi": {
+    "applicable_rate_pct": 7.6,
+    "at_median_income": 102382,
+    "concern": 69.1
+  },
+  "hoover-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 64726,
+    "concern": 45.5
+  },
+  "houston-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72348,
+    "concern": 0.0
+  },
+  "huntington-beach-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "huntsville-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 86172,
+    "concern": 45.5
+  },
+  "independence-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 66102,
+    "concern": 42.7
+  },
+  "indianapolis-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 66653,
+    "concern": 26.8
+  },
+  "indio-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "inglewood-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "irvine-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "irving-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "jackson-ms": {
+    "applicable_rate_pct": 4.0,
+    "at_median_income": 50965,
+    "concern": 36.4
+  },
+  "jacksonville-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 69455,
+    "concern": 0.0
+  },
+  "jersey-city-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 88469,
+    "concern": 57.9
+  },
+  "johns-creek-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 94510,
+    "concern": 47.2
+  },
+  "joliet-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 103587,
+    "concern": 45.0
+  },
+  "jonesboro-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 60204,
+    "concern": 35.5
+  },
+  "jurupa-valley-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "kalispell-mt": {
+    "applicable_rate_pct": 5.65,
+    "at_median_income": 74150,
+    "concern": 51.4
+  },
+  "kansas-city-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 61088,
+    "concern": 50.7
+  },
+  "kansas-city-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 66102,
+    "concern": 42.7
+  },
+  "kennewick-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 83040,
+    "concern": 0.0
+  },
+  "kenosha-wi": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 75699,
+    "concern": 48.2
+  },
+  "kent-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "killeen-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 69562,
+    "concern": 0.0
+  },
+  "kirkland-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "kissimmee-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 76416,
+    "concern": 0.0
+  },
+  "knoxville-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 70457,
+    "concern": 0.0
+  },
+  "lafayette-la": {
+    "applicable_rate_pct": 3.0,
+    "at_median_income": 64181,
+    "concern": 27.3
+  },
+  "lake-charles-la": {
+    "applicable_rate_pct": 3.0,
+    "at_median_income": 63912,
+    "concern": 27.3
+  },
+  "lake-forest-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "lakeland-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66709,
+    "concern": 0.0
+  },
+  "lakeville-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 100012,
+    "concern": 61.8
+  },
+  "lakewood-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "lakewood-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 102146,
+    "concern": 40.0
+  },
+  "lancaster-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "lansing-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 63483,
+    "concern": 38.6
+  },
+  "laredo-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 57899,
+    "concern": 0.0
+  },
+  "largo-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 70684,
+    "concern": 0.0
+  },
+  "las-cruces-nm": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 56233,
+    "concern": 42.7
+  },
+  "las-vegas-nv": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 75103,
+    "concern": 0.0
+  },
+  "lawrence-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 68561,
+    "concern": 50.7
+  },
+  "lawrence-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 96303,
+    "concern": 45.5
+  },
+  "lawton-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 56973,
+    "concern": 40.9
+  },
+  "layton-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 111081,
+    "concern": 40.9
+  },
+  "league-city-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 83080,
+    "concern": 0.0
+  },
+  "leander-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 111183,
+    "concern": 0.0
+  },
+  "lees-summit-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 66102,
+    "concern": 42.7
+  },
+  "lehi-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 100617,
+    "concern": 40.9
+  },
+  "lewisville-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 107401,
+    "concern": 0.0
+  },
+  "lexington-ky": {
+    "applicable_rate_pct": 3.5,
+    "at_median_income": 67320,
+    "concern": 31.8
+  },
+  "lincoln-ne": {
+    "applicable_rate_pct": 4.55,
+    "at_median_income": 71171,
+    "concern": 41.4
+  },
+  "little-rock-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 61344,
+    "concern": 35.5
+  },
+  "livermore-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "livonia-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 57418,
+    "concern": 38.6
+  },
+  "long-beach-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "longmont-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 97170,
+    "concern": 40.0
+  },
+  "longview-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 61254,
+    "concern": 0.0
+  },
+  "los-alamos-nm": {
+    "applicable_rate_pct": 4.9,
+    "at_median_income": 146208,
+    "concern": 44.5
+  },
+  "los-angeles-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "louisville-ky": {
+    "applicable_rate_pct": 3.5,
+    "at_median_income": 64977,
+    "concern": 31.8
+  },
+  "loveland-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 88519,
+    "concern": 40.0
+  },
+  "lowell-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 123288,
+    "concern": 45.5
+  },
+  "lubbock-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 57883,
+    "concern": 0.0
+  },
+  "lynchburg-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 58962,
+    "concern": 52.3
+  },
+  "lynn-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 96303,
+    "concern": 45.5
+  },
+  "mableton-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 99134,
+    "concern": 47.2
+  },
+  "macon-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 51569,
+    "concern": 47.2
+  },
+  "madison-wi": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 84190,
+    "concern": 48.2
+  },
+  "manchester-nh": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 103181,
+    "concern": 0.0
+  },
+  "mansfield-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 80083,
+    "concern": 0.0
+  },
+  "manteca-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86211,
+    "concern": 84.5
+  },
+  "maricopa-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 77290,
+    "concern": 22.7
+  },
+  "marysville-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 106067,
+    "concern": 0.0
+  },
+  "mcallen-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 53160,
+    "concern": 0.0
+  },
+  "mckinney-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120149,
+    "concern": 0.0
+  },
+  "medford-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 71030,
+    "concern": 79.5
+  },
+  "melbourne-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 77961,
+    "concern": 0.0
+  },
+  "memphis-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 62402,
+    "concern": 0.0
+  },
+  "menifee-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "merced-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 58962,
+    "concern": 72.7
+  },
+  "meridian-id": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 90513,
+    "concern": 48.2
+  },
+  "mesa-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "mesquite-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "miami-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "miami-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "miami-gardens-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72030,
+    "concern": 0.0
+  },
+  "midland-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 94375,
+    "concern": 0.0
+  },
+  "milpitas-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 154573,
+    "concern": 84.5
+  },
+  "milwaukee-wi": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 63304,
+    "concern": 48.2
+  },
+  "minneapolis-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 93642,
+    "concern": 61.8
+  },
+  "miramar-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "mission-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 53160,
+    "concern": 0.0
+  },
+  "mission-viejo-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "missoula-mt": {
+    "applicable_rate_pct": 5.65,
+    "at_median_income": 72882,
+    "concern": 51.4
+  },
+  "missouri-city-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 106213,
+    "concern": 0.0
+  },
+  "mobile-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 55538,
+    "concern": 45.5
+  },
+  "modesto-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 81582,
+    "concern": 84.5
+  },
+  "montgomery-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 60063,
+    "concern": 45.5
+  },
+  "monticello-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 57941,
+    "concern": 40.9
+  },
+  "moreno-valley-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "mount-pleasant-sc": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 88111,
+    "concern": 54.5
+  },
+  "mountain-view-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 154573,
+    "concern": 84.5
+  },
+  "murfreesboro-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 81987,
+    "concern": 0.0
+  },
+  "murrieta-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "nampa-id": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 72059,
+    "concern": 48.2
+  },
+  "naperville-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 107032,
+    "concern": 45.0
+  },
+  "nashua-nh": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 103181,
+    "concern": 0.0
+  },
+  "nashville-tn": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 80216,
+    "concern": 0.0
+  },
+  "new-bedford-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 81047,
+    "concern": 45.5
+  },
+  "new-braunfels-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 99871,
+    "concern": 0.0
+  },
+  "new-haven-ct": {
+    "applicable_rate_pct": 5.5,
+    "at_median_income": 80953,
+    "concern": 50.0
+  },
+  "new-orleans-la": {
+    "applicable_rate_pct": 3.0,
+    "at_median_income": 53729,
+    "concern": 27.3
+  },
+  "new-rochelle-ny": {
+    "applicable_rate_pct": 5.9,
+    "at_median_income": 114020,
+    "concern": 53.6
+  },
+  "new-york-ny": {
+    "applicable_rate_pct": 5.9,
+    "at_median_income": 100869,
+    "concern": 53.6
+  },
+  "newark-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 80005,
+    "concern": 57.9
+  },
+  "newport-beach-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "newport-news-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 63911,
+    "concern": 52.3
+  },
+  "newton-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 123288,
+    "concern": 45.5
+  },
+  "norfolk-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 61098,
+    "concern": 52.3
+  },
+  "norman-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 74889,
+    "concern": 40.9
+  },
+  "north-charleston-sc": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 88111,
+    "concern": 54.5
+  },
+  "north-las-vegas-nv": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 75103,
+    "concern": 0.0
+  },
+  "north-port-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 78218,
+    "concern": 0.0
+  },
+  "norwalk-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "norwalk-ct": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 121285,
+    "concern": 54.5
+  },
+  "oakland-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "oceanside-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "odessa-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66813,
+    "concern": 0.0
+  },
+  "ofallon-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 98765,
+    "concern": 42.7
+  },
+  "ogden-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 86678,
+    "concern": 40.9
+  },
+  "oklahoma-city-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 65979,
+    "concern": 40.9
+  },
+  "olathe-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 103085,
+    "concern": 50.7
+  },
+  "omaha-ne": {
+    "applicable_rate_pct": 4.55,
+    "at_median_income": 77747,
+    "concern": 41.4
+  },
+  "ontario-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "orange-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "orem-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 100617,
+    "concern": 40.9
+  },
+  "orlando-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 78487,
+    "concern": 0.0
+  },
+  "overland-park-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 103085,
+    "concern": 50.7
+  },
+  "oxnard-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 106526,
+    "concern": 84.5
+  },
+  "palm-bay-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 77961,
+    "concern": 0.0
+  },
+  "palm-coast-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74753,
+    "concern": 0.0
+  },
+  "palmdale-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "parma-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 61912,
+    "concern": 25.0
+  },
+  "pasadena-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "pasadena-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 72348,
+    "concern": 0.0
+  },
+  "pasco-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 82542,
+    "concern": 0.0
+  },
+  "paterson-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 81823,
+    "concern": 57.9
+  },
+  "pawtucket-ri": {
+    "applicable_rate_pct": 3.75,
+    "at_median_income": 75307,
+    "concern": 34.1
+  },
+  "pearland-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 93071,
+    "concern": 0.0
+  },
+  "pembroke-pines-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "peoria-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "peoria-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 62873,
+    "concern": 45.0
+  },
+  "perris-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "pharr-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 53160,
+    "concern": 0.0
+  },
+  "philadelphia-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 60196,
+    "concern": 27.9
+  },
+  "phoenix-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "pittsburg-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 122000,
+    "concern": 84.5
+  },
+  "pittsburgh-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 76488,
+    "concern": 27.9
+  },
+  "plano-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120149,
+    "concern": 0.0
+  },
+  "plantation-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "plymouth-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 93642,
+    "concern": 61.8
+  },
+  "pomona-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "pompano-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "port-st-lucie-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66876,
+    "concern": 0.0
+  },
+  "portland-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 83290,
+    "concern": 79.5
+  },
+  "portsmouth-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 57012,
+    "concern": 52.3
+  },
+  "providence-ri": {
+    "applicable_rate_pct": 3.75,
+    "at_median_income": 75307,
+    "concern": 34.1
+  },
+  "provo-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 100617,
+    "concern": 40.9
+  },
+  "pueblo-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 63801,
+    "concern": 40.0
+  },
+  "queen-creek-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "quincy-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 123449,
+    "concern": 45.5
+  },
+  "racine-wi": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 74555,
+    "concern": 48.2
+  },
+  "raleigh-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 103084,
+    "concern": 36.3
+  },
+  "rancho-cordova-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 89984,
+    "concern": 84.5
+  },
+  "rancho-cucamonga-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "rapid-city-sd": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74641,
+    "concern": 0.0
+  },
+  "reading-pa": {
+    "applicable_rate_pct": 3.07,
+    "at_median_income": 75655,
+    "concern": 27.9
+  },
+  "redding-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 71935,
+    "concern": 72.7
+  },
+  "redmond-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "redwood-city-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 151004,
+    "concern": 84.5
+  },
+  "reno-nv": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 84282,
+    "concern": 0.0
+  },
+  "renton-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "rialto-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "richardson-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74352,
+    "concern": 0.0
+  },
+  "richmond-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 122000,
+    "concern": 84.5
+  },
+  "richmond-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 64903,
+    "concern": 52.3
+  },
+  "rio-rancho-nm": {
+    "applicable_rate_pct": 4.9,
+    "at_median_income": 81557,
+    "concern": 44.5
+  },
+  "riverside-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "roanoke-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 51782,
+    "concern": 52.3
+  },
+  "rochester-hills-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 92230,
+    "concern": 38.6
+  },
+  "rochester-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 89431,
+    "concern": 61.8
+  },
+  "rochester-ny": {
+    "applicable_rate_pct": 5.4,
+    "at_median_income": 73263,
+    "concern": 49.1
+  },
+  "rockford-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 65795,
+    "concern": 45.0
+  },
+  "rocklin-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 110020,
+    "concern": 84.5
+  },
+  "rogers-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 92632,
+    "concern": 35.5
+  },
+  "roseville-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 110020,
+    "concern": 84.5
+  },
+  "roswell-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 94510,
+    "concern": 47.2
+  },
+  "round-rock-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 111183,
+    "concern": 0.0
+  },
+  "sacramento-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 89984,
+    "concern": 84.5
+  },
+  "saint-paul-mn": {
+    "applicable_rate_pct": 6.8,
+    "at_median_income": 77764,
+    "concern": 61.8
+  },
+  "salem-or": {
+    "applicable_rate_pct": 8.75,
+    "at_median_income": 73210,
+    "concern": 79.5
+  },
+  "salinas-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86809,
+    "concern": 84.5
+  },
+  "salt-lake-city-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 94013,
+    "concern": 40.9
+  },
+  "san-angelo-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 60379,
+    "concern": 0.0
+  },
+  "san-antonio-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 69755,
+    "concern": 0.0
+  },
+  "san-bernardino-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "san-diego-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "san-francisco-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 125456,
+    "concern": 84.5
+  },
+  "san-jose-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 154573,
+    "concern": 84.5
+  },
+  "san-leandro-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 119230,
+    "concern": 84.5
+  },
+  "san-marcos-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "san-marcos-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 88491,
+    "concern": 0.0
+  },
+  "san-mateo-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 151004,
+    "concern": 84.5
+  },
+  "san-ramon-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 122000,
+    "concern": 84.5
+  },
+  "sandpoint-id": {
+    "applicable_rate_pct": 5.3,
+    "at_median_income": 68030,
+    "concern": 48.2
+  },
+  "sandy-springs-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 94510,
+    "concern": 47.2
+  },
+  "sandy-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 94013,
+    "concern": 40.9
+  },
+  "santa-ana-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "santa-barbara-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90155,
+    "concern": 84.5
+  },
+  "santa-clara-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 154573,
+    "concern": 84.5
+  },
+  "santa-clarita-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "santa-fe-nm": {
+    "applicable_rate_pct": 4.9,
+    "at_median_income": 78366,
+    "concern": 44.5
+  },
+  "santa-maria-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90155,
+    "concern": 84.5
+  },
+  "santa-monica-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "santa-rosa-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 100157,
+    "concern": 84.5
+  },
+  "savannah-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 70556,
+    "concern": 47.2
+  },
+  "schaumburg-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 80547,
+    "concern": 45.0
+  },
+  "scottsdale-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "seattle-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 120672,
+    "concern": 0.0
+  },
+  "shreveport-la": {
+    "applicable_rate_pct": 3.0,
+    "at_median_income": 50773,
+    "concern": 27.3
+  },
+  "simi-valley-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 106526,
+    "concern": 84.5
+  },
+  "sioux-city-ia": {
+    "applicable_rate_pct": 3.8,
+    "at_median_income": 65984,
+    "concern": 34.5
+  },
+  "sioux-falls-sd": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 73277,
+    "concern": 0.0
+  },
+  "somerville-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 123288,
+    "concern": 45.5
+  },
+  "south-bend-in": {
+    "applicable_rate_pct": 2.95,
+    "at_median_income": 65977,
+    "concern": 26.8
+  },
+  "south-fulton-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 94510,
+    "concern": 47.2
+  },
+  "south-gate-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "south-jordan-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 94013,
+    "concern": 40.9
+  },
+  "sparks-nv": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 84282,
+    "concern": 0.0
+  },
+  "spokane-valley-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 73380,
+    "concern": 0.0
+  },
+  "spokane-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 73380,
+    "concern": 0.0
+  },
+  "springdale-ar": {
+    "applicable_rate_pct": 3.9,
+    "at_median_income": 66158,
+    "concern": 35.5
+  },
+  "springfield-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 73004,
+    "concern": 45.0
+  },
+  "springfield-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 67155,
+    "concern": 45.5
+  },
+  "springfield-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 59740,
+    "concern": 42.7
+  },
+  "st-george-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 78094,
+    "concern": 40.9
+  },
+  "st-louis-mo": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 55231,
+    "concern": 42.7
+  },
+  "st-petersburg-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 70684,
+    "concern": 0.0
+  },
+  "stamford-ct": {
+    "applicable_rate_pct": 6.0,
+    "at_median_income": 121285,
+    "concern": 54.5
+  },
+  "sterling-heights-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 73929,
+    "concern": 38.6
+  },
+  "stockton-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86211,
+    "concern": 84.5
+  },
+  "suffolk-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 81297,
+    "concern": 52.3
+  },
+  "sugar-land-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 106213,
+    "concern": 0.0
+  },
+  "sundance-wy": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 77897,
+    "concern": 0.0
+  },
+  "sunnyvale-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 154573,
+    "concern": 84.5
+  },
+  "sunrise-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 74367,
+    "concern": 0.0
+  },
+  "surprise-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "syracuse-ny": {
+    "applicable_rate_pct": 5.4,
+    "at_median_income": 74388,
+    "concern": 49.1
+  },
+  "tacoma-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 97493,
+    "concern": 0.0
+  },
+  "tallahassee-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 66063,
+    "concern": 0.0
+  },
+  "tampa-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 76528,
+    "concern": 0.0
+  },
+  "taos-nm": {
+    "applicable_rate_pct": 4.7,
+    "at_median_income": 53935,
+    "concern": 42.7
+  },
+  "temecula-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 90251,
+    "concern": 84.5
+  },
+  "tempe-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 86973,
+    "concern": 22.7
+  },
+  "temple-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 69562,
+    "concern": 0.0
+  },
+  "thornton-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 95278,
+    "concern": 40.0
+  },
+  "thousand-oaks-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 106526,
+    "concern": 84.5
+  },
+  "toledo-oh": {
+    "applicable_rate_pct": 2.75,
+    "at_median_income": 60525,
+    "concern": 25.0
+  },
+  "topeka-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 63612,
+    "concern": 50.7
+  },
+  "torrance-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "tracy-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86211,
+    "concern": 84.5
+  },
+  "trenton-nj": {
+    "applicable_rate_pct": 6.37,
+    "at_median_income": 95502,
+    "concern": 57.9
+  },
+  "troy-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 92230,
+    "concern": 38.6
+  },
+  "tucson-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 69553,
+    "concern": 22.7
+  },
+  "tulsa-ok": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 65619,
+    "concern": 40.9
+  },
+  "tuscaloosa-al": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 61117,
+    "concern": 45.5
+  },
+  "tustin-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "tyler-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 71348,
+    "concern": 0.0
+  },
+  "upland-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "vacaville-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 99117,
+    "concern": 84.5
+  },
+  "vallejo-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 99117,
+    "concern": 84.5
+  },
+  "vancouver-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 97240,
+    "concern": 0.0
+  },
+  "ventura-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 106526,
+    "concern": 84.5
+  },
+  "victorville-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 84576,
+    "concern": 84.5
+  },
+  "virginia-beach-va": {
+    "applicable_rate_pct": 5.75,
+    "at_median_income": 90275,
+    "concern": 52.3
+  },
+  "visalia-ca": {
+    "applicable_rate_pct": 8.0,
+    "at_median_income": 71368,
+    "concern": 72.7
+  },
+  "vista-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 103476,
+    "concern": 84.5
+  },
+  "waco-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 63377,
+    "concern": 0.0
+  },
+  "warner-robins-ga": {
+    "applicable_rate_pct": 5.19,
+    "at_median_income": 75266,
+    "concern": 47.2
+  },
+  "warren-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 73929,
+    "concern": 38.6
+  },
+  "warwick-ri": {
+    "applicable_rate_pct": 4.75,
+    "at_median_income": 89914,
+    "concern": 43.2
+  },
+  "washington-dc": {
+    "applicable_rate_pct": 8.5,
+    "at_median_income": 104643,
+    "concern": 77.3
+  },
+  "waterbury-ct": {
+    "applicable_rate_pct": 5.5,
+    "at_median_income": 81392,
+    "concern": 50.0
+  },
+  "waukegan-il": {
+    "applicable_rate_pct": 4.95,
+    "at_median_income": 108349,
+    "concern": 45.0
+  },
+  "west-covina-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "west-jordan-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 94013,
+    "concern": 40.9
+  },
+  "west-palm-beach-fl": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 84789,
+    "concern": 0.0
+  },
+  "west-valley-city-ut": {
+    "applicable_rate_pct": 4.5,
+    "at_median_income": 94013,
+    "concern": 40.9
+  },
+  "westland-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 57418,
+    "concern": 38.6
+  },
+  "westminster-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 109768,
+    "concern": 84.5
+  },
+  "westminster-co": {
+    "applicable_rate_pct": 4.4,
+    "at_median_income": 102146,
+    "concern": 40.0
+  },
+  "whitewright-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 69442,
+    "concern": 0.0
+  },
+  "whittier-ca": {
+    "applicable_rate_pct": 9.3,
+    "at_median_income": 86499,
+    "concern": 84.5
+  },
+  "wichita-falls-tx": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 61622,
+    "concern": 0.0
+  },
+  "wichita-ks": {
+    "applicable_rate_pct": 5.58,
+    "at_median_income": 67435,
+    "concern": 50.7
+  },
+  "wilmington-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 79106,
+    "concern": 36.3
+  },
+  "winston-salem-nc": {
+    "applicable_rate_pct": 3.99,
+    "at_median_income": 65556,
+    "concern": 36.3
+  },
+  "woodbury-mn": {
+    "applicable_rate_pct": 7.85,
+    "at_median_income": 111118,
+    "concern": 71.4
+  },
+  "worcester-ma": {
+    "applicable_rate_pct": 5.0,
+    "at_median_income": 93561,
+    "concern": 45.5
+  },
+  "wyoming-mi": {
+    "applicable_rate_pct": 4.25,
+    "at_median_income": 79715,
+    "concern": 38.6
+  },
+  "yakima-wa": {
+    "applicable_rate_pct": 0.0,
+    "at_median_income": 67112,
+    "concern": 0.0
+  },
+  "yonkers-ny": {
+    "applicable_rate_pct": 5.9,
+    "at_median_income": 114020,
+    "concern": 53.6
+  },
+  "yuma-az": {
+    "applicable_rate_pct": 2.5,
+    "at_median_income": 61225,
+    "concern": 22.7
+  }
+}
