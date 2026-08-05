@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  nineteen genuinely different real implementations across the full 512-city spine, all
+  twenty genuinely different real implementations across the full 512-city spine, all
   free and keyless:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
@@ -77,6 +77,9 @@ built from two real, working examples instead of upfront design.
   - **Extreme heat** — average days per year above 90°F, real NOAA 1991–2020 Climate
     Normals, nearest-station matched to all 512 cities with no API key at all
     (`data/heat-methodology.md`).
+  - **Sales tax** — real combined state + local sales tax rate, Tax Foundation
+    city-level data where published, a real state average fallback otherwise, full
+    512-city coverage with no API key (`data/sales-tax-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

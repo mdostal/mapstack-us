@@ -309,6 +309,21 @@ test("the nineteenth dataset (extreme heat) is selectable and reports a real NOA
   await expect(detail).toContainText("nearest station");
 });
 
+test("the twentieth dataset (sales tax) is selectable and reports a real Tax-Foundation-sourced rate with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Sales tax" }).click();
+  await page.getByRole("button", { name: "Combined sales tax rate", exact: true }).click();
+  await page.getByRole("button", { name: "Add Combined sales tax rate" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Sales tax: Combined sales tax rate" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Sales tax" });
+  await expect(detail).toContainText("combined state + local sales tax");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

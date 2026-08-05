@@ -1,0 +1,2568 @@
+{
+  "_meta": {
+    "city_tier_source": "Tax Foundation, State and Local Sales Tax Rates in Major Cities, as of July 1 2021",
+    "coverage": 512,
+    "rate_cap_for_100_concern": 0.11,
+    "state_tier_source": "Tax Foundation, State & Local Sales Tax Rates, as of January 1 2026"
+  },
+  "abilene-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "akron-oh": {
+    "combined_rate_pct": 7.29,
+    "concern": 66.3,
+    "tier": "state"
+  },
+  "alameda-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "albany-ny": {
+    "combined_rate_pct": 8.54,
+    "concern": 77.7,
+    "tier": "state"
+  },
+  "albuquerque-nm": {
+    "combined_rate_pct": 7.62,
+    "concern": 69.3,
+    "tier": "city"
+  },
+  "alexandria-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "alhambra-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "allen-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "allentown-pa": {
+    "combined_rate_pct": 6.34,
+    "concern": 57.6,
+    "tier": "state"
+  },
+  "amarillo-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "anaheim-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "anchorage-ak": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "city"
+  },
+  "ankeny-ia": {
+    "combined_rate_pct": 6.94,
+    "concern": 63.1,
+    "tier": "state"
+  },
+  "ann-arbor-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "antioch-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "apex-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "arlington-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "arlington-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "arvada-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "asheville-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "athens-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "atlanta-ga": {
+    "combined_rate_pct": 8.9,
+    "concern": 80.9,
+    "tier": "city"
+  },
+  "auburn-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "auburn-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "augusta-ga": {
+    "combined_rate_pct": 8.5,
+    "concern": 77.3,
+    "tier": "city"
+  },
+  "aurora-co": {
+    "combined_rate_pct": 8.0,
+    "concern": 72.7,
+    "tier": "city"
+  },
+  "aurora-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "austin-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "avondale-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "bakersfield-ca": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "baltimore-md": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "baton-rouge-la": {
+    "combined_rate_pct": 9.95,
+    "concern": 90.5,
+    "tier": "city"
+  },
+  "baytown-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "beaumont-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "beaverton-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "bellevue-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "bellingham-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "bend-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "berkeley-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "bethlehem-pa": {
+    "combined_rate_pct": 6.34,
+    "concern": 57.6,
+    "tier": "state"
+  },
+  "billings-mt": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "birmingham-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "bismarck-nd": {
+    "combined_rate_pct": 7.09,
+    "concern": 64.5,
+    "tier": "state"
+  },
+  "blanding-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "bloomington-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "bloomington-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "bloomington-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "boca-raton-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "boise-id": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "boston-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "city"
+  },
+  "boulder-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "bowling-green-ky": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "boynton-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "bridgeport-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "brockton-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "broken-arrow-ok": {
+    "combined_rate_pct": 9.06,
+    "concern": 82.4,
+    "tier": "state"
+  },
+  "brooklyn-park-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "broomfield-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "brownsville-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "bryan-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "buckeye-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "buena-park-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "buffalo-ny": {
+    "combined_rate_pct": 8.75,
+    "concern": 79.5,
+    "tier": "city"
+  },
+  "burbank-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "caldwell-id": {
+    "combined_rate_pct": 6.03,
+    "concern": 54.8,
+    "tier": "state"
+  },
+  "cambridge-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "cape-coral-fl": {
+    "combined_rate_pct": 6.5,
+    "concern": 59.1,
+    "tier": "city"
+  },
+  "carlsbad-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "carlsbad-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "carmel-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "carrollton-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "carson-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "cary-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "castle-rock-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "cedar-park-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "cedar-rapids-ia": {
+    "combined_rate_pct": 6.94,
+    "concern": 63.1,
+    "tier": "state"
+  },
+  "centennial-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "champaign-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "chandler-az": {
+    "combined_rate_pct": 7.8,
+    "concern": 70.9,
+    "tier": "city"
+  },
+  "charleston-sc": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "charlotte-nc": {
+    "combined_rate_pct": 7.25,
+    "concern": 65.9,
+    "tier": "city"
+  },
+  "chattanooga-tn": {
+    "combined_rate_pct": 9.61,
+    "concern": 87.4,
+    "tier": "state"
+  },
+  "chesapeake-va": {
+    "combined_rate_pct": 6.3,
+    "concern": 57.3,
+    "tier": "city"
+  },
+  "chicago-il": {
+    "combined_rate_pct": 10.25,
+    "concern": 93.2,
+    "tier": "city"
+  },
+  "chico-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "chino-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "chino-hills-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "chula-vista-ca": {
+    "combined_rate_pct": 8.75,
+    "concern": 79.5,
+    "tier": "city"
+  },
+  "cicero-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "cincinnati-oh": {
+    "combined_rate_pct": 7.8,
+    "concern": 70.9,
+    "tier": "city"
+  },
+  "citrus-heights-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "clarksville-tn": {
+    "combined_rate_pct": 9.61,
+    "concern": 87.4,
+    "tier": "state"
+  },
+  "clearwater-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "cleveland-oh": {
+    "combined_rate_pct": 8.0,
+    "concern": 72.7,
+    "tier": "city"
+  },
+  "clifton-nj": {
+    "combined_rate_pct": 6.6,
+    "concern": 60.0,
+    "tier": "state"
+  },
+  "clovis-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "college-station-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "colorado-springs-co": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.5,
+    "tier": "city"
+  },
+  "columbia-mo": {
+    "combined_rate_pct": 8.44,
+    "concern": 76.7,
+    "tier": "state"
+  },
+  "columbia-sc": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "columbus-ga": {
+    "combined_rate_pct": 9.0,
+    "concern": 81.8,
+    "tier": "city"
+  },
+  "columbus-oh": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "compton-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "concord-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "concord-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "conroe-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "coral-springs-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "corona-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "corpus-christi-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "costa-mesa-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "cranston-ri": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "dallas-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "daly-city-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "danbury-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "davenport-ia": {
+    "combined_rate_pct": 6.94,
+    "concern": 63.1,
+    "tier": "state"
+  },
+  "davie-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "dayton-oh": {
+    "combined_rate_pct": 7.29,
+    "concern": 66.3,
+    "tier": "state"
+  },
+  "daytona-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "dearborn-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "deerfield-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "deltona-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "denton-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "denver-co": {
+    "combined_rate_pct": 8.81,
+    "concern": 80.1,
+    "tier": "city"
+  },
+  "des-moines-ia": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "detroit-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "doral-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "downey-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "duluth-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "durango-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "durham-nc": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "edinburg-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "edmond-ok": {
+    "combined_rate_pct": 9.06,
+    "concern": 82.4,
+    "tier": "state"
+  },
+  "el-cajon-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "el-monte-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "el-paso-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "elgin-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "elizabeth-nj": {
+    "combined_rate_pct": 6.6,
+    "concern": 60.0,
+    "tier": "state"
+  },
+  "elk-grove-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "erie-pa": {
+    "combined_rate_pct": 6.34,
+    "concern": 57.6,
+    "tier": "state"
+  },
+  "escondido-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "eugene-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "evansville-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "everett-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "fairfield-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "fall-river-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "fargo-nd": {
+    "combined_rate_pct": 7.09,
+    "concern": 64.5,
+    "tier": "state"
+  },
+  "farmington-hills-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "fayetteville-ar": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "fayetteville-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "federal-way-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "fishers-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "flagstaff-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "flint-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "flower-mound-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "folsom-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "fontana-ca": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "fort-collins-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "fort-lauderdale-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "fort-myers-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "fort-smith-ar": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "fort-wayne-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "fort-worth-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "franklin-tn": {
+    "combined_rate_pct": 9.61,
+    "concern": 87.4,
+    "tier": "state"
+  },
+  "frederick-md": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "fremont-ca": {
+    "combined_rate_pct": 10.25,
+    "concern": 93.2,
+    "tier": "city"
+  },
+  "fresno-ca": {
+    "combined_rate_pct": 8.35,
+    "concern": 75.9,
+    "tier": "city"
+  },
+  "frisco-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "fullerton-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "gainesville-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "garden-grove-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "garland-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "gastonia-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "georgetown-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "geraldine-mt": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "gilbert-az": {
+    "combined_rate_pct": 7.8,
+    "concern": 70.9,
+    "tier": "city"
+  },
+  "glendale-az": {
+    "combined_rate_pct": 9.2,
+    "concern": 83.6,
+    "tier": "city"
+  },
+  "glendale-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "goodyear-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "grand-junction-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "grand-prairie-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "grand-rapids-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "greeley-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "green-bay-wi": {
+    "combined_rate_pct": 5.72,
+    "concern": 52.0,
+    "tier": "state"
+  },
+  "greensboro-nc": {
+    "combined_rate_pct": 6.75,
+    "concern": 61.4,
+    "tier": "city"
+  },
+  "greenville-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "gresham-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "hampton-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "hartford-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "hawthorne-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "hayward-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "hemet-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "henderson-nv": {
+    "combined_rate_pct": 8.38,
+    "concern": 76.1,
+    "tier": "city"
+  },
+  "hesperia-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "hialeah-fl": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "high-point-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "hillsboro-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "hollywood-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "homestead-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "honolulu-hi": {
+    "combined_rate_pct": 4.5,
+    "concern": 40.9,
+    "tier": "city"
+  },
+  "hoover-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "houston-tx": {
+    "combined_rate_pct": 7.25,
+    "concern": 65.9,
+    "tier": "city"
+  },
+  "huntington-beach-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "huntsville-al": {
+    "combined_rate_pct": 9.0,
+    "concern": 81.8,
+    "tier": "city"
+  },
+  "independence-mo": {
+    "combined_rate_pct": 8.44,
+    "concern": 76.7,
+    "tier": "state"
+  },
+  "indianapolis-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "indio-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "inglewood-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "irvine-ca": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "irving-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "jackson-ms": {
+    "combined_rate_pct": 7.06,
+    "concern": 64.2,
+    "tier": "state"
+  },
+  "jacksonville-fl": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "jersey-city-nj": {
+    "combined_rate_pct": 6.62,
+    "concern": 60.2,
+    "tier": "city"
+  },
+  "johns-creek-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "joliet-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "jonesboro-ar": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "jurupa-valley-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "kalispell-mt": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "kansas-city-ks": {
+    "combined_rate_pct": 8.69,
+    "concern": 79.0,
+    "tier": "state"
+  },
+  "kansas-city-mo": {
+    "combined_rate_pct": 9.1,
+    "concern": 82.7,
+    "tier": "city"
+  },
+  "kennewick-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "kenosha-wi": {
+    "combined_rate_pct": 5.72,
+    "concern": 52.0,
+    "tier": "state"
+  },
+  "kent-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "killeen-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "kirkland-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "kissimmee-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "knoxville-tn": {
+    "combined_rate_pct": 9.61,
+    "concern": 87.4,
+    "tier": "state"
+  },
+  "lafayette-la": {
+    "combined_rate_pct": 10.11,
+    "concern": 91.9,
+    "tier": "state"
+  },
+  "lake-charles-la": {
+    "combined_rate_pct": 10.11,
+    "concern": 91.9,
+    "tier": "state"
+  },
+  "lake-forest-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "lakeland-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "lakeville-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "lakewood-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "lakewood-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "lancaster-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "lansing-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "laredo-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "largo-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "las-cruces-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "las-vegas-nv": {
+    "combined_rate_pct": 8.38,
+    "concern": 76.1,
+    "tier": "city"
+  },
+  "lawrence-ks": {
+    "combined_rate_pct": 8.69,
+    "concern": 79.0,
+    "tier": "state"
+  },
+  "lawrence-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "lawton-ok": {
+    "combined_rate_pct": 9.06,
+    "concern": 82.4,
+    "tier": "state"
+  },
+  "layton-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "league-city-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "leander-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "lees-summit-mo": {
+    "combined_rate_pct": 8.44,
+    "concern": 76.7,
+    "tier": "state"
+  },
+  "lehi-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "lewisville-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "lexington-ky": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "lincoln-ne": {
+    "combined_rate_pct": 7.25,
+    "concern": 65.9,
+    "tier": "city"
+  },
+  "little-rock-ar": {
+    "combined_rate_pct": 8.62,
+    "concern": 78.4,
+    "tier": "city"
+  },
+  "livermore-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "livonia-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "long-beach-ca": {
+    "combined_rate_pct": 10.25,
+    "concern": 93.2,
+    "tier": "city"
+  },
+  "longmont-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "longview-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "los-alamos-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "los-angeles-ca": {
+    "combined_rate_pct": 9.5,
+    "concern": 86.4,
+    "tier": "city"
+  },
+  "louisville-ky": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "loveland-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "lowell-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "lubbock-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "lynchburg-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "lynn-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "mableton-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "macon-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "madison-wi": {
+    "combined_rate_pct": 5.5,
+    "concern": 50.0,
+    "tier": "city"
+  },
+  "manchester-nh": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "mansfield-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "manteca-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "maricopa-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "marysville-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "mcallen-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "mckinney-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "medford-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "melbourne-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "memphis-tn": {
+    "combined_rate_pct": 9.75,
+    "concern": 88.6,
+    "tier": "city"
+  },
+  "menifee-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "merced-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "meridian-id": {
+    "combined_rate_pct": 6.03,
+    "concern": 54.8,
+    "tier": "state"
+  },
+  "mesa-az": {
+    "combined_rate_pct": 8.3,
+    "concern": 75.5,
+    "tier": "city"
+  },
+  "mesquite-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "miami-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "miami-fl": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "miami-gardens-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "midland-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "milpitas-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "milwaukee-wi": {
+    "combined_rate_pct": 7.9,
+    "concern": 71.8,
+    "tier": "city"
+  },
+  "minneapolis-mn": {
+    "combined_rate_pct": 9.03,
+    "concern": 82.0,
+    "tier": "city"
+  },
+  "miramar-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "mission-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "mission-viejo-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "missoula-mt": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "missouri-city-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "mobile-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "modesto-ca": {
+    "combined_rate_pct": 8.88,
+    "concern": 80.7,
+    "tier": "city"
+  },
+  "montgomery-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "monticello-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "moreno-valley-ca": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "mount-pleasant-sc": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "mountain-view-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "murfreesboro-tn": {
+    "combined_rate_pct": 9.61,
+    "concern": 87.4,
+    "tier": "state"
+  },
+  "murrieta-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "nampa-id": {
+    "combined_rate_pct": 6.03,
+    "concern": 54.8,
+    "tier": "state"
+  },
+  "naperville-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "nashua-nh": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "nashville-tn": {
+    "combined_rate_pct": 9.25,
+    "concern": 84.1,
+    "tier": "city"
+  },
+  "new-bedford-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "new-braunfels-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "new-haven-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "new-orleans-la": {
+    "combined_rate_pct": 9.45,
+    "concern": 85.9,
+    "tier": "city"
+  },
+  "new-rochelle-ny": {
+    "combined_rate_pct": 8.54,
+    "concern": 77.7,
+    "tier": "state"
+  },
+  "new-york-ny": {
+    "combined_rate_pct": 8.88,
+    "concern": 80.7,
+    "tier": "city"
+  },
+  "newark-nj": {
+    "combined_rate_pct": 6.62,
+    "concern": 60.2,
+    "tier": "city"
+  },
+  "newport-beach-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "newport-news-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "newton-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "norfolk-va": {
+    "combined_rate_pct": 6.3,
+    "concern": 57.3,
+    "tier": "city"
+  },
+  "norman-ok": {
+    "combined_rate_pct": 9.06,
+    "concern": 82.4,
+    "tier": "state"
+  },
+  "north-charleston-sc": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "north-las-vegas-nv": {
+    "combined_rate_pct": 8.38,
+    "concern": 76.1,
+    "tier": "city"
+  },
+  "north-port-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "norwalk-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "norwalk-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "oakland-ca": {
+    "combined_rate_pct": 10.25,
+    "concern": 93.2,
+    "tier": "city"
+  },
+  "oceanside-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "odessa-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "ofallon-mo": {
+    "combined_rate_pct": 8.44,
+    "concern": 76.7,
+    "tier": "state"
+  },
+  "ogden-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "oklahoma-city-ok": {
+    "combined_rate_pct": 8.62,
+    "concern": 78.4,
+    "tier": "city"
+  },
+  "olathe-ks": {
+    "combined_rate_pct": 8.69,
+    "concern": 79.0,
+    "tier": "state"
+  },
+  "omaha-ne": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "ontario-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "orange-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "orem-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "orlando-fl": {
+    "combined_rate_pct": 6.5,
+    "concern": 59.1,
+    "tier": "city"
+  },
+  "overland-park-ks": {
+    "combined_rate_pct": 8.69,
+    "concern": 79.0,
+    "tier": "state"
+  },
+  "oxnard-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "palm-bay-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "palm-coast-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "palmdale-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "parma-oh": {
+    "combined_rate_pct": 7.29,
+    "concern": 66.3,
+    "tier": "state"
+  },
+  "pasadena-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "pasadena-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "pasco-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "paterson-nj": {
+    "combined_rate_pct": 6.6,
+    "concern": 60.0,
+    "tier": "state"
+  },
+  "pawtucket-ri": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "pearland-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "pembroke-pines-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "peoria-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "peoria-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "perris-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "pharr-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "philadelphia-pa": {
+    "combined_rate_pct": 8.0,
+    "concern": 72.7,
+    "tier": "city"
+  },
+  "phoenix-az": {
+    "combined_rate_pct": 8.6,
+    "concern": 78.2,
+    "tier": "city"
+  },
+  "pittsburg-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "pittsburgh-pa": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "plano-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "plantation-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "plymouth-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "pomona-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "pompano-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "port-st-lucie-fl": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "portland-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "city"
+  },
+  "portsmouth-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "providence-ri": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "provo-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "pueblo-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "queen-creek-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "quincy-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "racine-wi": {
+    "combined_rate_pct": 5.72,
+    "concern": 52.0,
+    "tier": "state"
+  },
+  "raleigh-nc": {
+    "combined_rate_pct": 7.25,
+    "concern": 65.9,
+    "tier": "city"
+  },
+  "rancho-cordova-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "rancho-cucamonga-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "rapid-city-sd": {
+    "combined_rate_pct": 6.11,
+    "concern": 55.6,
+    "tier": "state"
+  },
+  "reading-pa": {
+    "combined_rate_pct": 6.34,
+    "concern": 57.6,
+    "tier": "state"
+  },
+  "redding-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "redmond-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "redwood-city-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "reno-nv": {
+    "combined_rate_pct": 8.27,
+    "concern": 75.1,
+    "tier": "city"
+  },
+  "renton-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "rialto-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "richardson-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "richmond-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "richmond-va": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "rio-rancho-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "riverside-ca": {
+    "combined_rate_pct": 8.75,
+    "concern": 79.5,
+    "tier": "city"
+  },
+  "roanoke-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "rochester-hills-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "rochester-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "rochester-ny": {
+    "combined_rate_pct": 8.0,
+    "concern": 72.7,
+    "tier": "city"
+  },
+  "rockford-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "rocklin-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "rogers-ar": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "roseville-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "roswell-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "round-rock-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "sacramento-ca": {
+    "combined_rate_pct": 8.75,
+    "concern": 79.5,
+    "tier": "city"
+  },
+  "saint-paul-mn": {
+    "combined_rate_pct": 9.88,
+    "concern": 89.8,
+    "tier": "city"
+  },
+  "salem-or": {
+    "combined_rate_pct": 0.0,
+    "concern": 0.0,
+    "tier": "state"
+  },
+  "salinas-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "salt-lake-city-ut": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "san-angelo-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "san-antonio-tx": {
+    "combined_rate_pct": 8.25,
+    "concern": 75.0,
+    "tier": "city"
+  },
+  "san-bernardino-ca": {
+    "combined_rate_pct": 8.75,
+    "concern": 79.5,
+    "tier": "city"
+  },
+  "san-diego-ca": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "san-francisco-ca": {
+    "combined_rate_pct": 8.62,
+    "concern": 78.4,
+    "tier": "city"
+  },
+  "san-jose-ca": {
+    "combined_rate_pct": 9.38,
+    "concern": 85.2,
+    "tier": "city"
+  },
+  "san-leandro-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "san-marcos-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "san-marcos-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "san-mateo-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "san-ramon-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "sandpoint-id": {
+    "combined_rate_pct": 6.03,
+    "concern": 54.8,
+    "tier": "state"
+  },
+  "sandy-springs-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "sandy-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "santa-ana-ca": {
+    "combined_rate_pct": 9.25,
+    "concern": 84.1,
+    "tier": "city"
+  },
+  "santa-barbara-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "santa-clara-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "santa-clarita-ca": {
+    "combined_rate_pct": 9.5,
+    "concern": 86.4,
+    "tier": "city"
+  },
+  "santa-fe-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "santa-maria-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "santa-monica-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "santa-rosa-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "savannah-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "schaumburg-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "scottsdale-az": {
+    "combined_rate_pct": 8.05,
+    "concern": 73.2,
+    "tier": "city"
+  },
+  "seattle-wa": {
+    "combined_rate_pct": 10.35,
+    "concern": 94.1,
+    "tier": "city"
+  },
+  "shreveport-la": {
+    "combined_rate_pct": 10.11,
+    "concern": 91.9,
+    "tier": "state"
+  },
+  "simi-valley-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "sioux-city-ia": {
+    "combined_rate_pct": 6.94,
+    "concern": 63.1,
+    "tier": "state"
+  },
+  "sioux-falls-sd": {
+    "combined_rate_pct": 6.2,
+    "concern": 56.4,
+    "tier": "city"
+  },
+  "somerville-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "south-bend-in": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "south-fulton-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "south-gate-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "south-jordan-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "sparks-nv": {
+    "combined_rate_pct": 8.24,
+    "concern": 74.9,
+    "tier": "state"
+  },
+  "spokane-valley-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "spokane-wa": {
+    "combined_rate_pct": 9.0,
+    "concern": 81.8,
+    "tier": "city"
+  },
+  "springdale-ar": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "springfield-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "springfield-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "state"
+  },
+  "springfield-mo": {
+    "combined_rate_pct": 8.44,
+    "concern": 76.7,
+    "tier": "state"
+  },
+  "st-george-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "st-louis-mo": {
+    "combined_rate_pct": 9.68,
+    "concern": 88.0,
+    "tier": "city"
+  },
+  "st-petersburg-fl": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "stamford-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "sterling-heights-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "stockton-ca": {
+    "combined_rate_pct": 9.0,
+    "concern": 81.8,
+    "tier": "city"
+  },
+  "suffolk-va": {
+    "combined_rate_pct": 5.77,
+    "concern": 52.5,
+    "tier": "state"
+  },
+  "sugar-land-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "sundance-wy": {
+    "combined_rate_pct": 5.56,
+    "concern": 50.5,
+    "tier": "state"
+  },
+  "sunnyvale-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "sunrise-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "surprise-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "syracuse-ny": {
+    "combined_rate_pct": 8.54,
+    "concern": 77.7,
+    "tier": "state"
+  },
+  "tacoma-wa": {
+    "combined_rate_pct": 10.3,
+    "concern": 93.6,
+    "tier": "city"
+  },
+  "tallahassee-fl": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "tampa-fl": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "taos-nm": {
+    "combined_rate_pct": 7.67,
+    "concern": 69.7,
+    "tier": "state"
+  },
+  "temecula-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "tempe-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  },
+  "temple-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "thornton-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "thousand-oaks-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "toledo-oh": {
+    "combined_rate_pct": 7.75,
+    "concern": 70.5,
+    "tier": "city"
+  },
+  "topeka-ks": {
+    "combined_rate_pct": 8.69,
+    "concern": 79.0,
+    "tier": "state"
+  },
+  "torrance-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "tracy-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "trenton-nj": {
+    "combined_rate_pct": 6.6,
+    "concern": 60.0,
+    "tier": "state"
+  },
+  "troy-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "tucson-az": {
+    "combined_rate_pct": 8.7,
+    "concern": 79.1,
+    "tier": "city"
+  },
+  "tulsa-ok": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "city"
+  },
+  "tuscaloosa-al": {
+    "combined_rate_pct": 9.46,
+    "concern": 86.0,
+    "tier": "state"
+  },
+  "tustin-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "tyler-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "upland-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "vacaville-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "vallejo-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "vancouver-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "ventura-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "victorville-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "virginia-beach-va": {
+    "combined_rate_pct": 6.3,
+    "concern": 57.3,
+    "tier": "city"
+  },
+  "visalia-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "vista-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "waco-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "warner-robins-ga": {
+    "combined_rate_pct": 7.49,
+    "concern": 68.1,
+    "tier": "state"
+  },
+  "warren-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "warwick-ri": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "washington-dc": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "city"
+  },
+  "waterbury-ct": {
+    "combined_rate_pct": 6.35,
+    "concern": 57.7,
+    "tier": "state"
+  },
+  "waukegan-il": {
+    "combined_rate_pct": 8.96,
+    "concern": 81.5,
+    "tier": "state"
+  },
+  "west-covina-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "west-jordan-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "west-palm-beach-fl": {
+    "combined_rate_pct": 6.98,
+    "concern": 63.4,
+    "tier": "state"
+  },
+  "west-valley-city-ut": {
+    "combined_rate_pct": 7.42,
+    "concern": 67.4,
+    "tier": "state"
+  },
+  "westland-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "westminster-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "westminster-co": {
+    "combined_rate_pct": 7.89,
+    "concern": 71.8,
+    "tier": "state"
+  },
+  "whitewright-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "whittier-ca": {
+    "combined_rate_pct": 8.99,
+    "concern": 81.7,
+    "tier": "state"
+  },
+  "wichita-falls-tx": {
+    "combined_rate_pct": 8.2,
+    "concern": 74.6,
+    "tier": "state"
+  },
+  "wichita-ks": {
+    "combined_rate_pct": 7.5,
+    "concern": 68.2,
+    "tier": "city"
+  },
+  "wilmington-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "state"
+  },
+  "winston-salem-nc": {
+    "combined_rate_pct": 7.0,
+    "concern": 63.6,
+    "tier": "city"
+  },
+  "woodbury-mn": {
+    "combined_rate_pct": 8.13,
+    "concern": 74.0,
+    "tier": "state"
+  },
+  "worcester-ma": {
+    "combined_rate_pct": 6.25,
+    "concern": 56.8,
+    "tier": "city"
+  },
+  "wyoming-mi": {
+    "combined_rate_pct": 6.0,
+    "concern": 54.5,
+    "tier": "state"
+  },
+  "yakima-wa": {
+    "combined_rate_pct": 9.51,
+    "concern": 86.5,
+    "tier": "state"
+  },
+  "yonkers-ny": {
+    "combined_rate_pct": 8.88,
+    "concern": 80.7,
+    "tier": "city"
+  },
+  "yuma-az": {
+    "combined_rate_pct": 8.52,
+    "concern": 77.4,
+    "tier": "state"
+  }
+}
