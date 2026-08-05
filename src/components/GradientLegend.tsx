@@ -16,8 +16,8 @@ export function GradientLegend({ label, colorForValue }: Props) {
       <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">{label}</span>
       <div className="h-3 w-full rounded" style={{ background: gradient }} />
       <div className="flex justify-between text-[10px] text-zinc-400 dark:text-zinc-500">
-        <span>Low</span>
-        <span>High</span>
+        <span>Low concern</span>
+        <span>High concern</span>
       </div>
     </div>
   );

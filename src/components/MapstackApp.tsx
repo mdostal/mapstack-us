@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import { AddLayerPanel } from "@/components/AddLayerPanel";
 import { ActiveLayersList } from "@/components/ActiveLayersList";
@@ -11,10 +11,11 @@ import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccordionSection } from "@/components/AccordionSection";
 import { ManageDatasetsPanel } from "@/components/ManageDatasetsPanel";
-import { isSameLayer, resolveActiveLayer, type ActiveLayer } from "@/lib/active-layers";
+import { isSameLayer, resolveActiveLayer, activeLayerKey, type ActiveLayer } from "@/lib/active-layers";
 import { DATASETS } from "@/lib/datasets/registry";
 import { useSharedViewParams } from "@/lib/shared-view-params";
 import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
+import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
 
 const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
@@ -26,6 +27,23 @@ export function MapstackApp() {
   function updateHiddenDatasetIds(ids: string[]) {
     setHiddenDatasetIdsState(ids);
     setHiddenDatasetIds(ids);
+  }
+
+  // Per-layer map visibility -- independent of `active`: hiding a layer on
+  // the map keeps it in the Active layers list (and the click-to-detail
+  // panel), so you can quickly flip layers on/off to compare without
+  // re-adding them. Same LayerRenderControl shape /advanced's
+  // MapLayerControls uses, but simple view only exposes the visibility
+  // toggle -- explicit operator direction: keep simple view simple.
+  const [layerControls, setLayerControls] = useState<Record<string, LayerRenderControl>>({});
+  const getLayerControl = useCallback((key: string) => layerControls[key] ?? DEFAULT_LAYER_CONTROL, [layerControls]);
+  const isLayerVisible = useCallback((key: string) => getLayerControl(key).visible, [getLayerControl]);
+  function toggleLayerVisible(layer: ActiveLayer) {
+    const key = activeLayerKey(layer);
+    setLayerControls((prev) => ({
+      ...prev,
+      [key]: { ...(prev[key] ?? DEFAULT_LAYER_CONTROL), visible: !(prev[key] ?? DEFAULT_LAYER_CONTROL).visible },
+    }));
   }
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
@@ -96,7 +114,12 @@ export function MapstackApp() {
             <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
               Active layers
             </h2>
-            <ActiveLayersList active={active} onRemove={removeLayer} />
+            <ActiveLayersList
+              active={active}
+              onRemove={removeLayer}
+              isVisible={isLayerVisible}
+              onToggleVisible={toggleLayerVisible}
+            />
           </div>
 
           <AddLayerPanel
@@ -127,6 +150,7 @@ export function MapstackApp() {
             onSelectCity={setSelectedCityId}
             selectedCityId={selectedCityId}
             customOverlays={previewOverlays}
+            getLayerControl={getLayerControl}
           />
         </div>
       </div>

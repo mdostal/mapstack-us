@@ -453,6 +453,33 @@ test("removing a layer takes it off the map and the active list", async ({ page 
   await expect(page.getByText("No layers on the map yet")).toBeVisible();
 });
 
+test("toggling a layer's visibility eye button hides it from the map without removing it from the active list or detail panel", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const grassRow = page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" });
+  await expect(grassRow).toBeVisible();
+  await expect(page.getByRole("img", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
+
+  const eyeButton = grassRow.getByRole("button", { name: "Hide Allergy severity: Grass on the map" });
+  await eyeButton.click();
+
+  // Hidden on the map -- the aria-label reflects zero visible layers --
+  // but the row stays in the list (just dimmed) rather than disappearing.
+  await expect(page.getByRole("img", { name: "Map (no layers visible)" })).toBeVisible();
+  await expect(grassRow).toBeVisible();
+  await expect(grassRow.getByRole("button", { name: "Show Allergy severity: Grass on the map" })).toBeVisible();
+
+  // The click-to-detail panel still uses the real active selection,
+  // unaffected by map-only visibility -- explicit operator direction: a
+  // display-only toggle should never touch the underlying analysis.
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await expect(page.getByTestId("city-detail-row").filter({ hasText: "Allergy severity" })).toBeVisible();
+
+  await grassRow.getByRole("button", { name: "Show Allergy severity: Grass on the map" }).click();
+  await expect(page.getByRole("img", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
+});
+
 test("a year control appears once a time-varying layer (crime) is active, and switching years changes the detail", async ({
   page,
 }) => {
