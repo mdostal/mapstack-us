@@ -64,3 +64,14 @@ test("arrow keys move focus through search results and Enter selects the highlig
   await input.press("Enter");
   await expect(page).toHaveURL(/city=/);
 });
+
+test("city search is also available in the simple view, not just /advanced -- explicit operator direction to bring more of /advanced's power into simple view", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByLabel("Search cities").fill("Chicago");
+  await page.getByRole("button", { name: "Chicago, IL" }).click();
+
+  await expect(page).toHaveURL(/city=chicago-il/);
+  await expect(page.getByTestId("city-detail").getByText("Chicago, IL")).toBeVisible();
+});

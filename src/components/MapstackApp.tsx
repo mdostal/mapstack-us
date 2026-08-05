@@ -7,6 +7,7 @@ import { ActiveLayersList } from "@/components/ActiveLayersList";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
 import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
+import { CitySearch } from "@/components/CitySearch";
 import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccordionSection } from "@/components/AccordionSection";
@@ -138,7 +139,8 @@ export function MapstackApp() {
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col gap-3">
-          <div className="flex items-start justify-between gap-3">
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <CitySearch onSelectCity={setSelectedCityId} />
             <div className="max-h-40 w-56 flex-shrink-0 overflow-y-auto">
               <LayerLegends active={active} />
             </div>
