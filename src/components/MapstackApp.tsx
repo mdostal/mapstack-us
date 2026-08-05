@@ -8,6 +8,8 @@ import { MultiLayerMap } from "@/components/MultiLayerMap";
 import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { CitySearch } from "@/components/CitySearch";
+import { InsightsDock } from "@/components/InsightsDock";
+import { InsightsPanel } from "@/components/InsightsPanel";
 import { YearControl } from "@/components/YearControl";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccordionSection } from "@/components/AccordionSection";
@@ -154,6 +156,9 @@ export function MapstackApp() {
             customOverlays={previewOverlays}
             getLayerControl={getLayerControl}
           />
+          <InsightsDock>
+            <InsightsPanel selected={active} year={year} onSelectCity={setSelectedCityId} />
+          </InsightsDock>
         </div>
       </div>
     </main>

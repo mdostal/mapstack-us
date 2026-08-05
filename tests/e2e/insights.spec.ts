@@ -61,3 +61,11 @@ test("insights dock stays visible when switching to Map view, not just Table", a
   await page.getByRole("tab", { name: "Table" }).click();
   await expect(page.getByText("Highest:").first()).toBeVisible();
 });
+
+test("the insights dock is also available in the simple view, not just /advanced -- explicit operator direction to bring more of /advanced's power into simple view", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await expect(page.getByRole("button", { name: "Insights ▾ collapse" })).toBeVisible();
+  await expect(page.getByText(/min \d+ · avg \d+ · max \d+ · \d+ cities/).first()).toBeVisible();
+});
