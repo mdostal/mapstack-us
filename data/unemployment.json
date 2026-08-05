@@ -1,0 +1,3079 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "rate_cap_for_100_concern": 12.0,
+    "source": "BLS Local Area Unemployment Statistics (LAUS)"
+  },
+  "abilene-tx": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "akron-oh": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "alameda-ca": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "albany-ny": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "albuquerque-nm": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "alexandria-va": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "alhambra-ca": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "allen-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "allentown-pa": {
+    "as_of": "June 2026",
+    "concern": 48.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.8
+  },
+  "amarillo-tx": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "anaheim-ca": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "anchorage-ak": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "ankeny-ia": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "ann-arbor-mi": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "antioch-ca": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "apex-nc": {
+    "as_of": "June 2026",
+    "concern": 22.5,
+    "tier": "city",
+    "unemployment_rate_pct": 2.7
+  },
+  "arlington-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "arlington-va": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "county",
+    "unemployment_rate_pct": 3.1
+  },
+  "arvada-co": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "asheville-nc": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "athens-ga": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "county",
+    "unemployment_rate_pct": 3.8
+  },
+  "atlanta-ga": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "auburn-al": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "auburn-wa": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "augusta-ga": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "county",
+    "unemployment_rate_pct": 4.6
+  },
+  "aurora-co": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "aurora-il": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "austin-tx": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "avondale-az": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "bakersfield-ca": {
+    "as_of": "June 2026",
+    "concern": 51.7,
+    "tier": "city",
+    "unemployment_rate_pct": 6.2
+  },
+  "baltimore-md": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "baton-rouge-la": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "baytown-tx": {
+    "as_of": "June 2026",
+    "concern": 64.2,
+    "tier": "city",
+    "unemployment_rate_pct": 7.7
+  },
+  "beaumont-tx": {
+    "as_of": "June 2026",
+    "concern": 48.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.8
+  },
+  "beaverton-or": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "bellevue-wa": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "bellingham-wa": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "bend-or": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "berkeley-ca": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "bethlehem-pa": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "billings-mt": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "birmingham-al": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "bismarck-nd": {
+    "as_of": "June 2026",
+    "concern": 19.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.3
+  },
+  "blanding-ut": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "county",
+    "unemployment_rate_pct": 4.2
+  },
+  "bloomington-il": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "bloomington-in": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "bloomington-mn": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "boca-raton-fl": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "boise-id": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "boston-ma": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "boulder-co": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "bowling-green-ky": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "boynton-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "bridgeport-ct": {
+    "as_of": "June 2026",
+    "concern": 53.3,
+    "tier": "city",
+    "unemployment_rate_pct": 6.4
+  },
+  "brockton-ma": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "broken-arrow-ok": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "brooklyn-park-mn": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "broomfield-co": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "brownsville-tx": {
+    "as_of": "June 2026",
+    "concern": 64.2,
+    "tier": "city",
+    "unemployment_rate_pct": 7.7
+  },
+  "bryan-tx": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "buckeye-az": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "buena-park-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "buffalo-ny": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "burbank-ca": {
+    "as_of": "June 2026",
+    "concern": 51.7,
+    "tier": "city",
+    "unemployment_rate_pct": 6.2
+  },
+  "caldwell-id": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "cambridge-ma": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "cape-coral-fl": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "carlsbad-ca": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "carlsbad-nm": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "carmel-in": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "carrollton-tx": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "carson-ca": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "cary-nc": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "castle-rock-co": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "cedar-park-tx": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "cedar-rapids-ia": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "centennial-co": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "champaign-il": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "chandler-az": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "charleston-sc": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "charlotte-nc": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "chattanooga-tn": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "chesapeake-va": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "chicago-il": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "chico-ca": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "chino-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "chino-hills-ca": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "chula-vista-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "cicero-il": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "cincinnati-oh": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "citrus-heights-ca": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "clarksville-tn": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "clearwater-fl": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "cleveland-oh": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "clifton-nj": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "clovis-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "college-station-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "colorado-springs-co": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "columbia-mo": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "columbia-sc": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "columbus-ga": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "columbus-oh": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "compton-ca": {
+    "as_of": "June 2026",
+    "concern": 50.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.1
+  },
+  "concord-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "concord-nc": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "conroe-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "coral-springs-fl": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "corona-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "corpus-christi-tx": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "costa-mesa-ca": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "cranston-ri": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "dallas-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "daly-city-ca": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "danbury-ct": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "davenport-ia": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "davie-fl": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "dayton-oh": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "daytona-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "dearborn-mi": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "deerfield-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "deltona-fl": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "denton-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "denver-co": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "des-moines-ia": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "detroit-mi": {
+    "as_of": "June 2026",
+    "concern": 89.2,
+    "tier": "city",
+    "unemployment_rate_pct": 10.7
+  },
+  "doral-fl": {
+    "as_of": "June 2026",
+    "concern": 22.5,
+    "tier": "city",
+    "unemployment_rate_pct": 2.7
+  },
+  "downey-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "duluth-mn": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "durango-co": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "county",
+    "unemployment_rate_pct": 3.5
+  },
+  "durham-nc": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "edinburg-tx": {
+    "as_of": "June 2026",
+    "concern": 50.0,
+    "tier": "city",
+    "unemployment_rate_pct": 6.0
+  },
+  "edmond-ok": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "el-cajon-ca": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "el-monte-ca": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "el-paso-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "elgin-il": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "elizabeth-nj": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "elk-grove-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "erie-pa": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "escondido-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "eugene-or": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "evansville-in": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "everett-wa": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "fairfield-ca": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "fall-river-ma": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "fargo-nd": {
+    "as_of": "June 2026",
+    "concern": 20.0,
+    "tier": "city",
+    "unemployment_rate_pct": 2.4
+  },
+  "farmington-hills-mi": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "fayetteville-ar": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "fayetteville-nc": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "federal-way-wa": {
+    "as_of": "June 2026",
+    "concern": 46.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.6
+  },
+  "fishers-in": {
+    "as_of": "June 2026",
+    "concern": 25.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.0
+  },
+  "flagstaff-az": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "flint-mi": {
+    "as_of": "June 2026",
+    "concern": 100.0,
+    "tier": "city",
+    "unemployment_rate_pct": 12.3
+  },
+  "flower-mound-tx": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "folsom-ca": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "fontana-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "fort-collins-co": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "fort-lauderdale-fl": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "fort-myers-fl": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "fort-smith-ar": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "fort-wayne-in": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "fort-worth-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "franklin-tn": {
+    "as_of": "June 2026",
+    "concern": 25.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.0
+  },
+  "frederick-md": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "fremont-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "fresno-ca": {
+    "as_of": "June 2026",
+    "concern": 51.7,
+    "tier": "city",
+    "unemployment_rate_pct": 6.2
+  },
+  "frisco-tx": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "fullerton-ca": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "gainesville-fl": {
+    "as_of": "June 2026",
+    "concern": 53.3,
+    "tier": "city",
+    "unemployment_rate_pct": 6.4
+  },
+  "garden-grove-ca": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "garland-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "gastonia-nc": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "georgetown-tx": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "geraldine-mt": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "county",
+    "unemployment_rate_pct": 3.2
+  },
+  "gilbert-az": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "glendale-az": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "glendale-ca": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "goodyear-az": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "grand-junction-co": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "grand-prairie-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "grand-rapids-mi": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "greeley-co": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "green-bay-wi": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "greensboro-nc": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "greenville-nc": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "gresham-or": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "hampton-va": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "hartford-ct": {
+    "as_of": "June 2026",
+    "concern": 62.5,
+    "tier": "city",
+    "unemployment_rate_pct": 7.5
+  },
+  "hawthorne-ca": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "hayward-ca": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "hemet-ca": {
+    "as_of": "June 2026",
+    "concern": 56.7,
+    "tier": "city",
+    "unemployment_rate_pct": 6.8
+  },
+  "henderson-nv": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "hesperia-ca": {
+    "as_of": "June 2026",
+    "concern": 52.5,
+    "tier": "city",
+    "unemployment_rate_pct": 6.3
+  },
+  "hialeah-fl": {
+    "as_of": "June 2026",
+    "concern": 23.3,
+    "tier": "city",
+    "unemployment_rate_pct": 2.8
+  },
+  "high-point-nc": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "hillsboro-or": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "hollywood-fl": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "homestead-fl": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "honolulu-hi": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "county",
+    "unemployment_rate_pct": 3.1
+  },
+  "hoover-al": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "houston-tx": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "huntington-beach-ca": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "huntsville-al": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "independence-mo": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "indianapolis-in": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "indio-ca": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "inglewood-ca": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "irvine-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "irving-tx": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "jackson-ms": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "jacksonville-fl": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "jersey-city-nj": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "johns-creek-ga": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "joliet-il": {
+    "as_of": "June 2026",
+    "concern": 50.0,
+    "tier": "city",
+    "unemployment_rate_pct": 6.0
+  },
+  "jonesboro-ar": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "jurupa-valley-ca": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "kalispell-mt": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "kansas-city-ks": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "kansas-city-mo": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "kennewick-wa": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "kenosha-wi": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "county",
+    "unemployment_rate_pct": 3.6
+  },
+  "kent-wa": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "killeen-tx": {
+    "as_of": "June 2026",
+    "concern": 52.5,
+    "tier": "city",
+    "unemployment_rate_pct": 6.3
+  },
+  "kirkland-wa": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "kissimmee-fl": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "knoxville-tn": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "lafayette-la": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "lake-charles-la": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "lake-forest-ca": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "lakeland-fl": {
+    "as_of": "June 2026",
+    "concern": 48.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.8
+  },
+  "lakeville-mn": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "lakewood-ca": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "lakewood-co": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "lancaster-ca": {
+    "as_of": "June 2026",
+    "concern": 60.0,
+    "tier": "city",
+    "unemployment_rate_pct": 7.2
+  },
+  "lansing-mi": {
+    "as_of": "June 2026",
+    "concern": 51.7,
+    "tier": "city",
+    "unemployment_rate_pct": 6.2
+  },
+  "laredo-tx": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "largo-fl": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "las-cruces-nm": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "las-vegas-nv": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "lawrence-ks": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "lawrence-ma": {
+    "as_of": "June 2026",
+    "concern": 50.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.1
+  },
+  "lawton-ok": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "layton-ut": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "league-city-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "leander-tx": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "lees-summit-mo": {
+    "as_of": "June 2026",
+    "concern": 25.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.0
+  },
+  "lehi-ut": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "lewisville-tx": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "lexington-ky": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "lincoln-ne": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "little-rock-ar": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "livermore-ca": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "livonia-mi": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "long-beach-ca": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "longmont-co": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "longview-tx": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "los-alamos-nm": {
+    "as_of": "June 2026",
+    "concern": 19.2,
+    "tier": "county",
+    "unemployment_rate_pct": 2.3
+  },
+  "los-angeles-ca": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "louisville-ky": {
+    "as_of": "June 2026",
+    "concern": 46.7,
+    "tier": "county",
+    "unemployment_rate_pct": 5.6
+  },
+  "loveland-co": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "lowell-ma": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "lubbock-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "lynchburg-va": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "lynn-ma": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "mableton-ga": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "macon-ga": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "madison-wi": {
+    "as_of": "June 2026",
+    "concern": 25.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.0
+  },
+  "manchester-nh": {
+    "as_of": "June 2026",
+    "concern": 21.7,
+    "tier": "city",
+    "unemployment_rate_pct": 2.6
+  },
+  "mansfield-tx": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "manteca-ca": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "maricopa-az": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "marysville-wa": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "mcallen-tx": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "mckinney-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "medford-or": {
+    "as_of": "June 2026",
+    "concern": 53.3,
+    "tier": "city",
+    "unemployment_rate_pct": 6.4
+  },
+  "melbourne-fl": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "memphis-tn": {
+    "as_of": "June 2026",
+    "concern": 46.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.6
+  },
+  "menifee-ca": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "merced-ca": {
+    "as_of": "June 2026",
+    "concern": 63.3,
+    "tier": "city",
+    "unemployment_rate_pct": 7.6
+  },
+  "meridian-id": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "mesa-az": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "mesquite-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "miami-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 20.8,
+    "tier": "city",
+    "unemployment_rate_pct": 2.5
+  },
+  "miami-fl": {
+    "as_of": "June 2026",
+    "concern": 21.7,
+    "tier": "city",
+    "unemployment_rate_pct": 2.6
+  },
+  "miami-gardens-fl": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "midland-tx": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "milpitas-ca": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "milwaukee-wi": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "minneapolis-mn": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "miramar-fl": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "mission-tx": {
+    "as_of": "June 2026",
+    "concern": 52.5,
+    "tier": "city",
+    "unemployment_rate_pct": 6.3
+  },
+  "mission-viejo-ca": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "missoula-mt": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "missouri-city-tx": {
+    "as_of": "June 2026",
+    "concern": 48.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.8
+  },
+  "mobile-al": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "modesto-ca": {
+    "as_of": "June 2026",
+    "concern": 54.2,
+    "tier": "city",
+    "unemployment_rate_pct": 6.5
+  },
+  "montgomery-al": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "monticello-ut": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "county",
+    "unemployment_rate_pct": 4.2
+  },
+  "moreno-valley-ca": {
+    "as_of": "June 2026",
+    "concern": 46.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.6
+  },
+  "mount-pleasant-sc": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "mountain-view-ca": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "murfreesboro-tn": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "murrieta-ca": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "nampa-id": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "naperville-il": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "nashua-nh": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "nashville-tn": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "county",
+    "unemployment_rate_pct": 3.2
+  },
+  "new-bedford-ma": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "new-braunfels-tx": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "new-haven-ct": {
+    "as_of": "June 2026",
+    "concern": 50.0,
+    "tier": "city",
+    "unemployment_rate_pct": 6.0
+  },
+  "new-orleans-la": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "new-rochelle-ny": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "new-york-ny": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "newark-nj": {
+    "as_of": "June 2026",
+    "concern": 55.0,
+    "tier": "city",
+    "unemployment_rate_pct": 6.6
+  },
+  "newport-beach-ca": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "newport-news-va": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "newton-ma": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "norfolk-va": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "norman-ok": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "north-charleston-sc": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "north-las-vegas-nv": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "north-port-fl": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "norwalk-ca": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "norwalk-ct": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "oakland-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "oceanside-ca": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "odessa-tx": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "ofallon-mo": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "ogden-ut": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "oklahoma-city-ok": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "olathe-ks": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "omaha-ne": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "ontario-ca": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "orange-ca": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "orem-ut": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "orlando-fl": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "overland-park-ks": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "oxnard-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "palm-bay-fl": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "palm-coast-fl": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "palmdale-ca": {
+    "as_of": "June 2026",
+    "concern": 52.5,
+    "tier": "city",
+    "unemployment_rate_pct": 6.3
+  },
+  "parma-oh": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "pasadena-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "pasadena-tx": {
+    "as_of": "June 2026",
+    "concern": 49.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.9
+  },
+  "pasco-wa": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "paterson-nj": {
+    "as_of": "June 2026",
+    "concern": 57.5,
+    "tier": "city",
+    "unemployment_rate_pct": 6.9
+  },
+  "pawtucket-ri": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "pearland-tx": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "pembroke-pines-fl": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "peoria-az": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "peoria-il": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "perris-ca": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "pharr-tx": {
+    "as_of": "June 2026",
+    "concern": 60.0,
+    "tier": "city",
+    "unemployment_rate_pct": 7.2
+  },
+  "philadelphia-pa": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "phoenix-az": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "pittsburg-ca": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "pittsburgh-pa": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "plano-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "plantation-fl": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "plymouth-mn": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "pomona-ca": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "pompano-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "port-st-lucie-fl": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "portland-or": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "portsmouth-va": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "providence-ri": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "provo-ut": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "pueblo-co": {
+    "as_of": "June 2026",
+    "concern": 50.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.1
+  },
+  "queen-creek-az": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "quincy-ma": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "racine-wi": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "raleigh-nc": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.1
+  },
+  "rancho-cordova-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "rancho-cucamonga-ca": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "rapid-city-sd": {
+    "as_of": "June 2026",
+    "concern": 15.8,
+    "tier": "city",
+    "unemployment_rate_pct": 1.9
+  },
+  "reading-pa": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "redding-ca": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "redmond-wa": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "redwood-city-ca": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "reno-nv": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "renton-wa": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "rialto-ca": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "richardson-tx": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "richmond-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "richmond-va": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "rio-rancho-nm": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "riverside-ca": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "roanoke-va": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "rochester-hills-mi": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "rochester-mn": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "rochester-ny": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "city",
+    "unemployment_rate_pct": 5.5
+  },
+  "rockford-il": {
+    "as_of": "June 2026",
+    "concern": 48.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.8
+  },
+  "rocklin-ca": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "rogers-ar": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "roseville-ca": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "roswell-ga": {
+    "as_of": "June 2026",
+    "concern": 24.2,
+    "tier": "city",
+    "unemployment_rate_pct": 2.9
+  },
+  "round-rock-tx": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "sacramento-ca": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "saint-paul-mn": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "salem-or": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "salinas-ca": {
+    "as_of": "June 2026",
+    "concern": 54.2,
+    "tier": "city",
+    "unemployment_rate_pct": 6.5
+  },
+  "salt-lake-city-ut": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "san-angelo-tx": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "san-antonio-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "san-bernardino-ca": {
+    "as_of": "June 2026",
+    "concern": 46.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.6
+  },
+  "san-diego-ca": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "san-francisco-ca": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "san-jose-ca": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "san-leandro-ca": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "san-marcos-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "san-marcos-tx": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "san-mateo-ca": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "san-ramon-ca": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "sandpoint-id": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "county",
+    "unemployment_rate_pct": 4.7
+  },
+  "sandy-springs-ga": {
+    "as_of": "June 2026",
+    "concern": 21.7,
+    "tier": "city",
+    "unemployment_rate_pct": 2.6
+  },
+  "sandy-ut": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "santa-ana-ca": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "santa-barbara-ca": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "santa-clara-ca": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "santa-clarita-ca": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "santa-fe-nm": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "santa-maria-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "santa-monica-ca": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "santa-rosa-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "savannah-ga": {
+    "as_of": "June 2026",
+    "concern": 25.8,
+    "tier": "county",
+    "unemployment_rate_pct": 3.1
+  },
+  "schaumburg-il": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "scottsdale-az": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "seattle-wa": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "shreveport-la": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "simi-valley-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "sioux-city-ia": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "sioux-falls-sd": {
+    "as_of": "June 2026",
+    "concern": 16.7,
+    "tier": "city",
+    "unemployment_rate_pct": 2.0
+  },
+  "somerville-ma": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "south-bend-in": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "south-fulton-ga": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "south-gate-ca": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "south-jordan-ut": {
+    "as_of": "June 2026",
+    "concern": 30.0,
+    "tier": "city",
+    "unemployment_rate_pct": 3.6
+  },
+  "sparks-nv": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "spokane-valley-wa": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "spokane-wa": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "springdale-ar": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "springfield-il": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "springfield-ma": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "springfield-mo": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "st-george-ut": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "st-louis-mo": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "st-petersburg-fl": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "stamford-ct": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "sterling-heights-mi": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "stockton-ca": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "suffolk-va": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "sugar-land-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "sundance-wy": {
+    "as_of": "June 2026",
+    "concern": 18.3,
+    "tier": "county",
+    "unemployment_rate_pct": 2.2
+  },
+  "sunnyvale-ca": {
+    "as_of": "June 2026",
+    "concern": 29.2,
+    "tier": "city",
+    "unemployment_rate_pct": 3.5
+  },
+  "sunrise-fl": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "surprise-az": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "syracuse-ny": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "tacoma-wa": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "tallahassee-fl": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "tampa-fl": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "taos-nm": {
+    "as_of": "June 2026",
+    "concern": 45.8,
+    "tier": "county",
+    "unemployment_rate_pct": 5.5
+  },
+  "temecula-ca": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "tempe-az": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "temple-tx": {
+    "as_of": "June 2026",
+    "concern": 43.3,
+    "tier": "city",
+    "unemployment_rate_pct": 5.2
+  },
+  "thornton-co": {
+    "as_of": "June 2026",
+    "concern": 33.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.0
+  },
+  "thousand-oaks-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "toledo-oh": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "topeka-ks": {
+    "as_of": "June 2026",
+    "concern": 35.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.3
+  },
+  "torrance-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "tracy-ca": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "trenton-nj": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "troy-mi": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "tucson-az": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "tulsa-ok": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "tuscaloosa-al": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "tustin-ca": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "tyler-tx": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "upland-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "vacaville-ca": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "vallejo-ca": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "city",
+    "unemployment_rate_pct": 5.3
+  },
+  "vancouver-wa": {
+    "as_of": "June 2026",
+    "concern": 38.3,
+    "tier": "city",
+    "unemployment_rate_pct": 4.6
+  },
+  "ventura-ca": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "victorville-ca": {
+    "as_of": "June 2026",
+    "concern": 55.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.7
+  },
+  "virginia-beach-va": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "visalia-ca": {
+    "as_of": "June 2026",
+    "concern": 47.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.7
+  },
+  "vista-ca": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "waco-tx": {
+    "as_of": "June 2026",
+    "concern": 40.8,
+    "tier": "city",
+    "unemployment_rate_pct": 4.9
+  },
+  "warner-robins-ga": {
+    "as_of": "June 2026",
+    "concern": 26.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.2
+  },
+  "warren-mi": {
+    "as_of": "June 2026",
+    "concern": 44.2,
+    "tier": "county",
+    "unemployment_rate_pct": 5.3
+  },
+  "warwick-ri": {
+    "as_of": "June 2026",
+    "concern": 23.3,
+    "tier": "city",
+    "unemployment_rate_pct": 2.8
+  },
+  "washington-dc": {
+    "as_of": "June 2026",
+    "concern": 50.8,
+    "tier": "city",
+    "unemployment_rate_pct": 6.1
+  },
+  "waterbury-ct": {
+    "as_of": "June 2026",
+    "concern": 63.3,
+    "tier": "city",
+    "unemployment_rate_pct": 7.6
+  },
+  "waukegan-il": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.7
+  },
+  "west-covina-ca": {
+    "as_of": "June 2026",
+    "concern": 41.7,
+    "tier": "city",
+    "unemployment_rate_pct": 5.0
+  },
+  "west-jordan-ut": {
+    "as_of": "June 2026",
+    "concern": 28.3,
+    "tier": "city",
+    "unemployment_rate_pct": 3.4
+  },
+  "west-palm-beach-fl": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "west-valley-city-ut": {
+    "as_of": "June 2026",
+    "concern": 30.8,
+    "tier": "city",
+    "unemployment_rate_pct": 3.7
+  },
+  "westland-mi": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "westminster-ca": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "westminster-co": {
+    "as_of": "June 2026",
+    "concern": 31.7,
+    "tier": "city",
+    "unemployment_rate_pct": 3.8
+  },
+  "whitewright-tx": {
+    "as_of": "June 2026",
+    "concern": 39.2,
+    "tier": "county",
+    "unemployment_rate_pct": 4.7
+  },
+  "whittier-ca": {
+    "as_of": "June 2026",
+    "concern": 45.0,
+    "tier": "city",
+    "unemployment_rate_pct": 5.4
+  },
+  "wichita-falls-tx": {
+    "as_of": "June 2026",
+    "concern": 40.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.8
+  },
+  "wichita-ks": {
+    "as_of": "June 2026",
+    "concern": 37.5,
+    "tier": "city",
+    "unemployment_rate_pct": 4.5
+  },
+  "wilmington-nc": {
+    "as_of": "June 2026",
+    "concern": 27.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.3
+  },
+  "winston-salem-nc": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "woodbury-mn": {
+    "as_of": "June 2026",
+    "concern": 32.5,
+    "tier": "city",
+    "unemployment_rate_pct": 3.9
+  },
+  "worcester-ma": {
+    "as_of": "June 2026",
+    "concern": 36.7,
+    "tier": "city",
+    "unemployment_rate_pct": 4.4
+  },
+  "wyoming-mi": {
+    "as_of": "June 2026",
+    "concern": 35.0,
+    "tier": "city",
+    "unemployment_rate_pct": 4.2
+  },
+  "yakima-wa": {
+    "as_of": "June 2026",
+    "concern": 42.5,
+    "tier": "city",
+    "unemployment_rate_pct": 5.1
+  },
+  "yonkers-ny": {
+    "as_of": "June 2026",
+    "concern": 34.2,
+    "tier": "city",
+    "unemployment_rate_pct": 4.1
+  },
+  "yuma-az": {
+    "as_of": "June 2026",
+    "concern": 97.5,
+    "tier": "city",
+    "unemployment_rate_pct": 11.7
+  }
+}

@@ -1,0 +1,3055 @@
+{
+  "_meta": {
+    "coverage": 508,
+    "rate_cap_for_100_concern": 0.025,
+    "source": "Census ACS 2023 5-year estimates, B25103 (median real estate taxes) / B25077 (median home value)"
+  },
+  "abilene-tx": {
+    "concern": 60.6,
+    "effective_rate_pct": 1.51,
+    "median_annual_taxes": 2709,
+    "median_home_value": 178900
+  },
+  "akron-oh": {
+    "concern": 67.9,
+    "effective_rate_pct": 1.7,
+    "median_annual_taxes": 1888,
+    "median_home_value": 111200
+  },
+  "alameda-ca": {
+    "concern": 31.9,
+    "effective_rate_pct": 0.8,
+    "median_annual_taxes": 9587,
+    "median_home_value": 1203900
+  },
+  "albany-ny": {
+    "concern": 93.9,
+    "effective_rate_pct": 2.35,
+    "median_annual_taxes": 5235,
+    "median_home_value": 223000
+  },
+  "albuquerque-nm": {
+    "concern": 38.9,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 2596,
+    "median_home_value": 266700
+  },
+  "alexandria-va": {
+    "concern": 39.5,
+    "effective_rate_pct": 0.99,
+    "median_annual_taxes": 6879,
+    "median_home_value": 696800
+  },
+  "alhambra-ca": {
+    "concern": 26.6,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 5401,
+    "median_home_value": 812700
+  },
+  "allen-tx": {
+    "concern": 71.8,
+    "effective_rate_pct": 1.8,
+    "median_annual_taxes": 7721,
+    "median_home_value": 429900
+  },
+  "allentown-pa": {
+    "concern": 78.2,
+    "effective_rate_pct": 1.95,
+    "median_annual_taxes": 3692,
+    "median_home_value": 188900
+  },
+  "amarillo-tx": {
+    "concern": 62.8,
+    "effective_rate_pct": 1.57,
+    "median_annual_taxes": 2933,
+    "median_home_value": 186800
+  },
+  "anaheim-ca": {
+    "concern": 26.9,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 5189,
+    "median_home_value": 771700
+  },
+  "anchorage-ak": {
+    "concern": 51.8,
+    "effective_rate_pct": 1.29,
+    "median_annual_taxes": 4865,
+    "median_home_value": 375900
+  },
+  "ankeny-ia": {
+    "concern": 70.4,
+    "effective_rate_pct": 1.76,
+    "median_annual_taxes": 5475,
+    "median_home_value": 311300
+  },
+  "ann-arbor-mi": {
+    "concern": 66.5,
+    "effective_rate_pct": 1.66,
+    "median_annual_taxes": 7232,
+    "median_home_value": 435100
+  },
+  "antioch-ca": {
+    "concern": 29.8,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 4532,
+    "median_home_value": 607400
+  },
+  "apex-nc": {
+    "concern": 29.1,
+    "effective_rate_pct": 0.73,
+    "median_annual_taxes": 3750,
+    "median_home_value": 514800
+  },
+  "arlington-tx": {
+    "concern": 67.5,
+    "effective_rate_pct": 1.69,
+    "median_annual_taxes": 4666,
+    "median_home_value": 276400
+  },
+  "arlington-va": {
+    "concern": 36.0,
+    "effective_rate_pct": 0.9,
+    "median_annual_taxes": 7774,
+    "median_home_value": 864800
+  },
+  "arvada-co": {
+    "concern": 19.7,
+    "effective_rate_pct": 0.49,
+    "median_annual_taxes": 2963,
+    "median_home_value": 600800
+  },
+  "asheville-nc": {
+    "concern": 27.2,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 2797,
+    "median_home_value": 411000
+  },
+  "athens-ga": {
+    "concern": 35.8,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 2431,
+    "median_home_value": 271800
+  },
+  "atlanta-ga": {
+    "concern": 38.6,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 4061,
+    "median_home_value": 420600
+  },
+  "auburn-al": {
+    "concern": 18.3,
+    "effective_rate_pct": 0.46,
+    "median_annual_taxes": 1564,
+    "median_home_value": 342400
+  },
+  "auburn-wa": {
+    "concern": 40.7,
+    "effective_rate_pct": 1.02,
+    "median_annual_taxes": 5194,
+    "median_home_value": 510400
+  },
+  "augusta-ga": {
+    "concern": 35.6,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 1451,
+    "median_home_value": 162900
+  },
+  "aurora-co": {
+    "concern": 20.9,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 2321,
+    "median_home_value": 444500
+  },
+  "aurora-il": {
+    "concern": 95.8,
+    "effective_rate_pct": 2.4,
+    "median_annual_taxes": 6238,
+    "median_home_value": 260400
+  },
+  "austin-tx": {
+    "concern": 60.9,
+    "effective_rate_pct": 1.52,
+    "median_annual_taxes": 7801,
+    "median_home_value": 512700
+  },
+  "avondale-az": {
+    "concern": 20.1,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 1749,
+    "median_home_value": 348700
+  },
+  "bakersfield-ca": {
+    "concern": 39.9,
+    "effective_rate_pct": 1.0,
+    "median_annual_taxes": 3468,
+    "median_home_value": 347300
+  },
+  "baltimore-md": {
+    "concern": 59.0,
+    "effective_rate_pct": 1.48,
+    "median_annual_taxes": 3236,
+    "median_home_value": 219300
+  },
+  "baton-rouge-la": {
+    "concern": 23.8,
+    "effective_rate_pct": 0.6,
+    "median_annual_taxes": 1336,
+    "median_home_value": 224500
+  },
+  "baytown-tx": {
+    "concern": 70.0,
+    "effective_rate_pct": 1.75,
+    "median_annual_taxes": 3288,
+    "median_home_value": 187900
+  },
+  "beaumont-tx": {
+    "concern": 65.8,
+    "effective_rate_pct": 1.64,
+    "median_annual_taxes": 2612,
+    "median_home_value": 158800
+  },
+  "beaverton-or": {
+    "concern": 41.4,
+    "effective_rate_pct": 1.04,
+    "median_annual_taxes": 5627,
+    "median_home_value": 543100
+  },
+  "bellevue-wa": {
+    "concern": 30.0,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 9018,
+    "median_home_value": 1203100
+  },
+  "bellingham-wa": {
+    "concern": 27.8,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 4019,
+    "median_home_value": 577400
+  },
+  "bend-or": {
+    "concern": 24.6,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 3980,
+    "median_home_value": 646800
+  },
+  "berkeley-ca": {
+    "concern": 29.6,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 10001,
+    "median_home_value": 1351100
+  },
+  "bethlehem-pa": {
+    "concern": 70.8,
+    "effective_rate_pct": 1.77,
+    "median_annual_taxes": 4186,
+    "median_home_value": 236500
+  },
+  "billings-mt": {
+    "concern": 34.7,
+    "effective_rate_pct": 0.87,
+    "median_annual_taxes": 2706,
+    "median_home_value": 311800
+  },
+  "birmingham-al": {
+    "concern": 26.8,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 930,
+    "median_home_value": 138600
+  },
+  "bismarck-nd": {
+    "concern": 39.7,
+    "effective_rate_pct": 0.99,
+    "median_annual_taxes": 2893,
+    "median_home_value": 291400
+  },
+  "blanding-ut": {
+    "concern": 25.7,
+    "effective_rate_pct": 0.64,
+    "median_annual_taxes": 1444,
+    "median_home_value": 225000
+  },
+  "bloomington-il": {
+    "concern": 89.1,
+    "effective_rate_pct": 2.23,
+    "median_annual_taxes": 4429,
+    "median_home_value": 198800
+  },
+  "bloomington-in": {
+    "concern": 32.7,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 2370,
+    "median_home_value": 289700
+  },
+  "bloomington-mn": {
+    "concern": 43.2,
+    "effective_rate_pct": 1.08,
+    "median_annual_taxes": 3736,
+    "median_home_value": 346200
+  },
+  "boca-raton-fl": {
+    "concern": 34.8,
+    "effective_rate_pct": 0.87,
+    "median_annual_taxes": 5741,
+    "median_home_value": 660100
+  },
+  "boise-id": {
+    "concern": 24.7,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 2817,
+    "median_home_value": 456000
+  },
+  "boston-ma": {
+    "concern": 24.4,
+    "effective_rate_pct": 0.61,
+    "median_annual_taxes": 4335,
+    "median_home_value": 710400
+  },
+  "boulder-co": {
+    "concern": 20.4,
+    "effective_rate_pct": 0.51,
+    "median_annual_taxes": 5023,
+    "median_home_value": 982600
+  },
+  "bowling-green-ky": {
+    "concern": 28.6,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 1659,
+    "median_home_value": 232100
+  },
+  "boynton-beach-fl": {
+    "concern": 33.0,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 2579,
+    "median_home_value": 312700
+  },
+  "bridgeport-ct": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.57,
+    "median_annual_taxes": 6482,
+    "median_home_value": 252400
+  },
+  "brockton-ma": {
+    "concern": 46.3,
+    "effective_rate_pct": 1.16,
+    "median_annual_taxes": 4689,
+    "median_home_value": 405500
+  },
+  "broken-arrow-ok": {
+    "concern": 41.8,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 2398,
+    "median_home_value": 229300
+  },
+  "brooklyn-park-mn": {
+    "concern": 46.1,
+    "effective_rate_pct": 1.15,
+    "median_annual_taxes": 3613,
+    "median_home_value": 313500
+  },
+  "broomfield-co": {
+    "concern": 24.6,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 3888,
+    "median_home_value": 631600
+  },
+  "brownsville-tx": {
+    "concern": 73.0,
+    "effective_rate_pct": 1.82,
+    "median_annual_taxes": 2233,
+    "median_home_value": 122400
+  },
+  "bryan-tx": {
+    "concern": 65.2,
+    "effective_rate_pct": 1.63,
+    "median_annual_taxes": 3434,
+    "median_home_value": 210600
+  },
+  "buckeye-az": {
+    "concern": 20.7,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 1991,
+    "median_home_value": 384100
+  },
+  "buena-park-ca": {
+    "concern": 25.3,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 4888,
+    "median_home_value": 771900
+  },
+  "buffalo-ny": {
+    "concern": 42.7,
+    "effective_rate_pct": 1.07,
+    "median_annual_taxes": 1625,
+    "median_home_value": 152300
+  },
+  "burbank-ca": {
+    "concern": 22.4,
+    "effective_rate_pct": 0.56,
+    "median_annual_taxes": 5819,
+    "median_home_value": 1041100
+  },
+  "caldwell-id": {
+    "concern": 23.6,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 1898,
+    "median_home_value": 322100
+  },
+  "cambridge-ma": {
+    "concern": 17.2,
+    "effective_rate_pct": 0.43,
+    "median_annual_taxes": 4472,
+    "median_home_value": 1040500
+  },
+  "cape-coral-fl": {
+    "concern": 34.8,
+    "effective_rate_pct": 0.87,
+    "median_annual_taxes": 2951,
+    "median_home_value": 339200
+  },
+  "carlsbad-ca": {
+    "concern": 27.1,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 7830,
+    "median_home_value": 1156900
+  },
+  "carlsbad-nm": {
+    "concern": 21.8,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 1023,
+    "median_home_value": 187900
+  },
+  "carmel-in": {
+    "concern": 33.4,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 3804,
+    "median_home_value": 455500
+  },
+  "carrollton-tx": {
+    "concern": 63.1,
+    "effective_rate_pct": 1.58,
+    "median_annual_taxes": 5578,
+    "median_home_value": 353600
+  },
+  "carson-ca": {
+    "concern": 27.0,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 4362,
+    "median_home_value": 645600
+  },
+  "cary-nc": {
+    "concern": 29.9,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 3922,
+    "median_home_value": 525200
+  },
+  "castle-rock-co": {
+    "concern": 22.5,
+    "effective_rate_pct": 0.56,
+    "median_annual_taxes": 3493,
+    "median_home_value": 621700
+  },
+  "cedar-park-tx": {
+    "concern": 74.6,
+    "effective_rate_pct": 1.87,
+    "median_annual_taxes": 8860,
+    "median_home_value": 474800
+  },
+  "cedar-rapids-ia": {
+    "concern": 68.3,
+    "effective_rate_pct": 1.71,
+    "median_annual_taxes": 3024,
+    "median_home_value": 177100
+  },
+  "centennial-co": {
+    "concern": 21.6,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 3378,
+    "median_home_value": 626700
+  },
+  "champaign-il": {
+    "concern": 89.5,
+    "effective_rate_pct": 2.24,
+    "median_annual_taxes": 4466,
+    "median_home_value": 199700
+  },
+  "chandler-az": {
+    "concern": 19.3,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 2262,
+    "median_home_value": 469800
+  },
+  "charleston-sc": {
+    "concern": 18.3,
+    "effective_rate_pct": 0.46,
+    "median_annual_taxes": 2144,
+    "median_home_value": 469100
+  },
+  "charlotte-nc": {
+    "concern": 30.7,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 2701,
+    "median_home_value": 351500
+  },
+  "chattanooga-tn": {
+    "concern": 34.1,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 2208,
+    "median_home_value": 259200
+  },
+  "chesapeake-va": {
+    "concern": 32.7,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 2937,
+    "median_home_value": 359100
+  },
+  "chicago-il": {
+    "concern": 61.1,
+    "effective_rate_pct": 1.53,
+    "median_annual_taxes": 4814,
+    "median_home_value": 315200
+  },
+  "chico-ca": {
+    "concern": 29.9,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 3398,
+    "median_home_value": 455300
+  },
+  "chino-ca": {
+    "concern": 31.0,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 4969,
+    "median_home_value": 641500
+  },
+  "chino-hills-ca": {
+    "concern": 29.8,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 6180,
+    "median_home_value": 830000
+  },
+  "chula-vista-ca": {
+    "concern": 33.9,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 5911,
+    "median_home_value": 697400
+  },
+  "cicero-il": {
+    "concern": 88.9,
+    "effective_rate_pct": 2.22,
+    "median_annual_taxes": 5248,
+    "median_home_value": 236000
+  },
+  "cincinnati-oh": {
+    "concern": 53.8,
+    "effective_rate_pct": 1.35,
+    "median_annual_taxes": 2897,
+    "median_home_value": 215300
+  },
+  "citrus-heights-ca": {
+    "concern": 25.9,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 2799,
+    "median_home_value": 432100
+  },
+  "clarksville-tn": {
+    "concern": 27.6,
+    "effective_rate_pct": 0.69,
+    "median_annual_taxes": 1628,
+    "median_home_value": 236100
+  },
+  "clearwater-fl": {
+    "concern": 29.3,
+    "effective_rate_pct": 0.73,
+    "median_annual_taxes": 2386,
+    "median_home_value": 326100
+  },
+  "cleveland-oh": {
+    "concern": 72.2,
+    "effective_rate_pct": 1.81,
+    "median_annual_taxes": 1699,
+    "median_home_value": 94100
+  },
+  "clifton-nj": {
+    "concern": 90.0,
+    "effective_rate_pct": 2.25,
+    "median_annual_taxes": 10001,
+    "median_home_value": 444300
+  },
+  "clovis-ca": {
+    "concern": 35.7,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 4047,
+    "median_home_value": 453300
+  },
+  "college-station-tx": {
+    "concern": 70.3,
+    "effective_rate_pct": 1.76,
+    "median_annual_taxes": 5742,
+    "median_home_value": 326500
+  },
+  "colorado-springs-co": {
+    "concern": 15.8,
+    "effective_rate_pct": 0.4,
+    "median_annual_taxes": 1664,
+    "median_home_value": 420700
+  },
+  "columbia-mo": {
+    "concern": 36.9,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 2478,
+    "median_home_value": 268300
+  },
+  "columbia-sc": {
+    "concern": 26.4,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 1608,
+    "median_home_value": 243500
+  },
+  "columbus-ga": {
+    "concern": 33.5,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 1526,
+    "median_home_value": 182300
+  },
+  "columbus-oh": {
+    "concern": 54.0,
+    "effective_rate_pct": 1.35,
+    "median_annual_taxes": 3165,
+    "median_home_value": 234500
+  },
+  "compton-ca": {
+    "concern": 30.9,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 4222,
+    "median_home_value": 546700
+  },
+  "concord-ca": {
+    "concern": 27.1,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 5119,
+    "median_home_value": 755900
+  },
+  "concord-nc": {
+    "concern": 32.5,
+    "effective_rate_pct": 0.81,
+    "median_annual_taxes": 2659,
+    "median_home_value": 327600
+  },
+  "conroe-tx": {
+    "concern": 69.9,
+    "effective_rate_pct": 1.75,
+    "median_annual_taxes": 4947,
+    "median_home_value": 283100
+  },
+  "coral-springs-fl": {
+    "concern": 42.0,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 5278,
+    "median_home_value": 502700
+  },
+  "corona-ca": {
+    "concern": 29.8,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 4885,
+    "median_home_value": 656500
+  },
+  "corpus-christi-tx": {
+    "concern": 67.8,
+    "effective_rate_pct": 1.7,
+    "median_annual_taxes": 3342,
+    "median_home_value": 197100
+  },
+  "costa-mesa-ca": {
+    "concern": 25.3,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 6676,
+    "median_home_value": 1054700
+  },
+  "cranston-ri": {
+    "concern": 58.3,
+    "effective_rate_pct": 1.46,
+    "median_annual_taxes": 5081,
+    "median_home_value": 348800
+  },
+  "dallas-tx": {
+    "concern": 66.5,
+    "effective_rate_pct": 1.66,
+    "median_annual_taxes": 4908,
+    "median_home_value": 295300
+  },
+  "daly-city-ca": {
+    "concern": 22.9,
+    "effective_rate_pct": 0.57,
+    "median_annual_taxes": 6264,
+    "median_home_value": 1092700
+  },
+  "danbury-ct": {
+    "concern": 61.5,
+    "effective_rate_pct": 1.54,
+    "median_annual_taxes": 5863,
+    "median_home_value": 381600
+  },
+  "davenport-ia": {
+    "concern": 68.2,
+    "effective_rate_pct": 1.7,
+    "median_annual_taxes": 2777,
+    "median_home_value": 162900
+  },
+  "davie-fl": {
+    "concern": 39.9,
+    "effective_rate_pct": 1.0,
+    "median_annual_taxes": 4325,
+    "median_home_value": 433600
+  },
+  "dayton-oh": {
+    "concern": 71.2,
+    "effective_rate_pct": 1.78,
+    "median_annual_taxes": 1658,
+    "median_home_value": 93200
+  },
+  "daytona-beach-fl": {
+    "concern": 28.4,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 1737,
+    "median_home_value": 244300
+  },
+  "dearborn-mi": {
+    "concern": 74.3,
+    "effective_rate_pct": 1.86,
+    "median_annual_taxes": 3824,
+    "median_home_value": 205900
+  },
+  "deerfield-beach-fl": {
+    "concern": 36.6,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 2511,
+    "median_home_value": 274400
+  },
+  "deltona-fl": {
+    "concern": 26.5,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 1682,
+    "median_home_value": 254100
+  },
+  "denton-tx": {
+    "concern": 67.0,
+    "effective_rate_pct": 1.68,
+    "median_annual_taxes": 5456,
+    "median_home_value": 325700
+  },
+  "denver-co": {
+    "concern": 17.7,
+    "effective_rate_pct": 0.44,
+    "median_annual_taxes": 2596,
+    "median_home_value": 586700
+  },
+  "des-moines-ia": {
+    "concern": 75.0,
+    "effective_rate_pct": 1.88,
+    "median_annual_taxes": 3445,
+    "median_home_value": 183700
+  },
+  "detroit-mi": {
+    "concern": 72.0,
+    "effective_rate_pct": 1.8,
+    "median_annual_taxes": 1382,
+    "median_home_value": 76800
+  },
+  "doral-fl": {
+    "concern": 44.0,
+    "effective_rate_pct": 1.1,
+    "median_annual_taxes": 5662,
+    "median_home_value": 514600
+  },
+  "downey-ca": {
+    "concern": 28.6,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 5217,
+    "median_home_value": 728500
+  },
+  "duluth-mn": {
+    "concern": 47.2,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 2661,
+    "median_home_value": 225700
+  },
+  "durango-co": {
+    "concern": 8.7,
+    "effective_rate_pct": 0.22,
+    "median_annual_taxes": 1328,
+    "median_home_value": 609700
+  },
+  "durham-nc": {
+    "concern": 35.1,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 3115,
+    "median_home_value": 355300
+  },
+  "edinburg-tx": {
+    "concern": 79.5,
+    "effective_rate_pct": 1.99,
+    "median_annual_taxes": 3473,
+    "median_home_value": 174800
+  },
+  "edmond-ok": {
+    "concern": 38.7,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 3141,
+    "median_home_value": 324900
+  },
+  "el-cajon-ca": {
+    "concern": 27.5,
+    "effective_rate_pct": 0.69,
+    "median_annual_taxes": 4346,
+    "median_home_value": 632800
+  },
+  "el-monte-ca": {
+    "concern": 30.0,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 4694,
+    "median_home_value": 626000
+  },
+  "el-paso-tx": {
+    "concern": 85.1,
+    "effective_rate_pct": 2.13,
+    "median_annual_taxes": 3652,
+    "median_home_value": 171700
+  },
+  "elgin-il": {
+    "concern": 96.9,
+    "effective_rate_pct": 2.42,
+    "median_annual_taxes": 6115,
+    "median_home_value": 252400
+  },
+  "elizabeth-nj": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.54,
+    "median_annual_taxes": 10001,
+    "median_home_value": 393500
+  },
+  "elk-grove-ca": {
+    "concern": 33.7,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 5084,
+    "median_home_value": 603400
+  },
+  "erie-pa": {
+    "concern": 92.2,
+    "effective_rate_pct": 2.31,
+    "median_annual_taxes": 2495,
+    "median_home_value": 108200
+  },
+  "escondido-ca": {
+    "concern": 28.6,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 4741,
+    "median_home_value": 663500
+  },
+  "eugene-or": {
+    "concern": 40.8,
+    "effective_rate_pct": 1.02,
+    "median_annual_taxes": 4446,
+    "median_home_value": 435400
+  },
+  "evansville-in": {
+    "concern": 34.0,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 1097,
+    "median_home_value": 129100
+  },
+  "everett-wa": {
+    "concern": 30.9,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 4112,
+    "median_home_value": 532300
+  },
+  "fairfield-ca": {
+    "concern": 30.3,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 4489,
+    "median_home_value": 592500
+  },
+  "fall-river-ma": {
+    "concern": 42.2,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 3772,
+    "median_home_value": 357800
+  },
+  "fargo-nd": {
+    "concern": 49.7,
+    "effective_rate_pct": 1.24,
+    "median_annual_taxes": 3351,
+    "median_home_value": 269800
+  },
+  "farmington-hills-mi": {
+    "concern": 63.4,
+    "effective_rate_pct": 1.59,
+    "median_annual_taxes": 5285,
+    "median_home_value": 333200
+  },
+  "fayetteville-ar": {
+    "concern": 23.5,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 1895,
+    "median_home_value": 322500
+  },
+  "fayetteville-nc": {
+    "concern": 43.8,
+    "effective_rate_pct": 1.09,
+    "median_annual_taxes": 1882,
+    "median_home_value": 171900
+  },
+  "federal-way-wa": {
+    "concern": 35.3,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 4408,
+    "median_home_value": 499600
+  },
+  "fishers-in": {
+    "concern": 37.8,
+    "effective_rate_pct": 0.94,
+    "median_annual_taxes": 3496,
+    "median_home_value": 370200
+  },
+  "flagstaff-az": {
+    "concern": 17.1,
+    "effective_rate_pct": 0.43,
+    "median_annual_taxes": 2155,
+    "median_home_value": 503400
+  },
+  "flint-mi": {
+    "concern": 90.0,
+    "effective_rate_pct": 2.25,
+    "median_annual_taxes": 1071,
+    "median_home_value": 47600
+  },
+  "flower-mound-tx": {
+    "concern": 63.6,
+    "effective_rate_pct": 1.59,
+    "median_annual_taxes": 8169,
+    "median_home_value": 514100
+  },
+  "folsom-ca": {
+    "concern": 34.6,
+    "effective_rate_pct": 0.86,
+    "median_annual_taxes": 6071,
+    "median_home_value": 702200
+  },
+  "fontana-ca": {
+    "concern": 34.7,
+    "effective_rate_pct": 0.87,
+    "median_annual_taxes": 4845,
+    "median_home_value": 558500
+  },
+  "fort-collins-co": {
+    "concern": 19.9,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 2734,
+    "median_home_value": 548400
+  },
+  "fort-lauderdale-fl": {
+    "concern": 36.2,
+    "effective_rate_pct": 0.91,
+    "median_annual_taxes": 4125,
+    "median_home_value": 455600
+  },
+  "fort-myers-fl": {
+    "concern": 41.4,
+    "effective_rate_pct": 1.04,
+    "median_annual_taxes": 3640,
+    "median_home_value": 351600
+  },
+  "fort-smith-ar": {
+    "concern": 26.6,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 1118,
+    "median_home_value": 168100
+  },
+  "fort-wayne-in": {
+    "concern": 34.4,
+    "effective_rate_pct": 0.86,
+    "median_annual_taxes": 1460,
+    "median_home_value": 169700
+  },
+  "fort-worth-tx": {
+    "concern": 72.6,
+    "effective_rate_pct": 1.82,
+    "median_annual_taxes": 5036,
+    "median_home_value": 277300
+  },
+  "franklin-tn": {
+    "concern": 18.1,
+    "effective_rate_pct": 0.45,
+    "median_annual_taxes": 2923,
+    "median_home_value": 646300
+  },
+  "frederick-md": {
+    "concern": 52.6,
+    "effective_rate_pct": 1.31,
+    "median_annual_taxes": 4799,
+    "median_home_value": 365200
+  },
+  "fremont-ca": {
+    "concern": 28.0,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 9025,
+    "median_home_value": 1289400
+  },
+  "fresno-ca": {
+    "concern": 29.7,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 2586,
+    "median_home_value": 348500
+  },
+  "frisco-tx": {
+    "concern": 64.4,
+    "effective_rate_pct": 1.61,
+    "median_annual_taxes": 9591,
+    "median_home_value": 595400
+  },
+  "fullerton-ca": {
+    "concern": 25.8,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 5546,
+    "median_home_value": 859600
+  },
+  "gainesville-fl": {
+    "concern": 38.6,
+    "effective_rate_pct": 0.96,
+    "median_annual_taxes": 2265,
+    "median_home_value": 235000
+  },
+  "garden-grove-ca": {
+    "concern": 25.6,
+    "effective_rate_pct": 0.64,
+    "median_annual_taxes": 4892,
+    "median_home_value": 765500
+  },
+  "garland-tx": {
+    "concern": 68.5,
+    "effective_rate_pct": 1.71,
+    "median_annual_taxes": 4265,
+    "median_home_value": 248900
+  },
+  "gastonia-nc": {
+    "concern": 37.7,
+    "effective_rate_pct": 0.94,
+    "median_annual_taxes": 2355,
+    "median_home_value": 250000
+  },
+  "georgetown-tx": {
+    "concern": 62.1,
+    "effective_rate_pct": 1.55,
+    "median_annual_taxes": 6189,
+    "median_home_value": 398600
+  },
+  "geraldine-mt": {
+    "concern": 50.0,
+    "effective_rate_pct": 1.25,
+    "median_annual_taxes": 917,
+    "median_home_value": 73300
+  },
+  "gilbert-az": {
+    "concern": 18.4,
+    "effective_rate_pct": 0.46,
+    "median_annual_taxes": 2381,
+    "median_home_value": 518600
+  },
+  "glendale-az": {
+    "concern": 18.4,
+    "effective_rate_pct": 0.46,
+    "median_annual_taxes": 1596,
+    "median_home_value": 347000
+  },
+  "glendale-ca": {
+    "concern": 24.7,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 6447,
+    "median_home_value": 1043900
+  },
+  "goodyear-az": {
+    "concern": 23.1,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 2557,
+    "median_home_value": 441900
+  },
+  "grand-junction-co": {
+    "concern": 15.6,
+    "effective_rate_pct": 0.39,
+    "median_annual_taxes": 1394,
+    "median_home_value": 358300
+  },
+  "grand-prairie-tx": {
+    "concern": 71.6,
+    "effective_rate_pct": 1.79,
+    "median_annual_taxes": 4869,
+    "median_home_value": 272200
+  },
+  "grand-rapids-mi": {
+    "concern": 42.6,
+    "effective_rate_pct": 1.06,
+    "median_annual_taxes": 2401,
+    "median_home_value": 225500
+  },
+  "greeley-co": {
+    "concern": 18.7,
+    "effective_rate_pct": 0.47,
+    "median_annual_taxes": 1731,
+    "median_home_value": 369600
+  },
+  "green-bay-wi": {
+    "concern": 62.7,
+    "effective_rate_pct": 1.57,
+    "median_annual_taxes": 3003,
+    "median_home_value": 191500
+  },
+  "greensboro-nc": {
+    "concern": 39.0,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 2155,
+    "median_home_value": 221300
+  },
+  "greenville-nc": {
+    "concern": 38.6,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 2059,
+    "median_home_value": 213100
+  },
+  "gresham-or": {
+    "concern": 36.7,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 4041,
+    "median_home_value": 440000
+  },
+  "hampton-va": {
+    "concern": 38.6,
+    "effective_rate_pct": 0.96,
+    "median_annual_taxes": 2259,
+    "median_home_value": 234100
+  },
+  "hartford-ct": {
+    "concern": 83.9,
+    "effective_rate_pct": 2.1,
+    "median_annual_taxes": 4556,
+    "median_home_value": 217200
+  },
+  "hawthorne-ca": {
+    "concern": 26.9,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 5480,
+    "median_home_value": 813700
+  },
+  "hayward-ca": {
+    "concern": 26.9,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 5519,
+    "median_home_value": 820700
+  },
+  "hemet-ca": {
+    "concern": 28.8,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 2262,
+    "median_home_value": 314200
+  },
+  "henderson-nv": {
+    "concern": 21.0,
+    "effective_rate_pct": 0.53,
+    "median_annual_taxes": 2446,
+    "median_home_value": 465000
+  },
+  "hesperia-ca": {
+    "concern": 25.9,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 2377,
+    "median_home_value": 366800
+  },
+  "hialeah-fl": {
+    "concern": 23.5,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 2110,
+    "median_home_value": 359200
+  },
+  "high-point-nc": {
+    "concern": 41.2,
+    "effective_rate_pct": 1.03,
+    "median_annual_taxes": 2187,
+    "median_home_value": 212400
+  },
+  "hillsboro-or": {
+    "concern": 34.5,
+    "effective_rate_pct": 0.86,
+    "median_annual_taxes": 4170,
+    "median_home_value": 483400
+  },
+  "hollywood-fl": {
+    "concern": 35.5,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 3324,
+    "median_home_value": 374200
+  },
+  "homestead-fl": {
+    "concern": 43.2,
+    "effective_rate_pct": 1.08,
+    "median_annual_taxes": 3740,
+    "median_home_value": 346500
+  },
+  "honolulu-hi": {
+    "concern": 11.6,
+    "effective_rate_pct": 0.29,
+    "median_annual_taxes": 2416,
+    "median_home_value": 834100
+  },
+  "hoover-al": {
+    "concern": 24.1,
+    "effective_rate_pct": 0.6,
+    "median_annual_taxes": 2355,
+    "median_home_value": 391300
+  },
+  "houston-tx": {
+    "concern": 63.2,
+    "effective_rate_pct": 1.58,
+    "median_annual_taxes": 4003,
+    "median_home_value": 253400
+  },
+  "huntington-beach-ca": {
+    "concern": 23.3,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 6097,
+    "median_home_value": 1047300
+  },
+  "huntsville-al": {
+    "concern": 19.1,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 1259,
+    "median_home_value": 263100
+  },
+  "independence-mo": {
+    "concern": 44.6,
+    "effective_rate_pct": 1.12,
+    "median_annual_taxes": 1856,
+    "median_home_value": 166400
+  },
+  "indianapolis-in": {
+    "concern": 37.2,
+    "effective_rate_pct": 0.93,
+    "median_annual_taxes": 1924,
+    "median_home_value": 207000
+  },
+  "indio-ca": {
+    "concern": 42.1,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 4473,
+    "median_home_value": 424700
+  },
+  "inglewood-ca": {
+    "concern": 24.9,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 4639,
+    "median_home_value": 744300
+  },
+  "irvine-ca": {
+    "concern": 32.6,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 9091,
+    "median_home_value": 1115400
+  },
+  "irving-tx": {
+    "concern": 64.0,
+    "effective_rate_pct": 1.6,
+    "median_annual_taxes": 4594,
+    "median_home_value": 287300
+  },
+  "jackson-ms": {
+    "concern": 49.6,
+    "effective_rate_pct": 1.24,
+    "median_annual_taxes": 1341,
+    "median_home_value": 108200
+  },
+  "jacksonville-fl": {
+    "concern": 30.9,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 2053,
+    "median_home_value": 266100
+  },
+  "jersey-city-nj": {
+    "concern": 61.6,
+    "effective_rate_pct": 1.54,
+    "median_annual_taxes": 8225,
+    "median_home_value": 534500
+  },
+  "johns-creek-ga": {
+    "concern": 33.9,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 4950,
+    "median_home_value": 583700
+  },
+  "joliet-il": {
+    "concern": 89.6,
+    "effective_rate_pct": 2.24,
+    "median_annual_taxes": 5569,
+    "median_home_value": 248600
+  },
+  "jonesboro-ar": {
+    "concern": 23.0,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 1228,
+    "median_home_value": 213400
+  },
+  "jurupa-valley-ca": {
+    "concern": 22.8,
+    "effective_rate_pct": 0.57,
+    "median_annual_taxes": 3064,
+    "median_home_value": 538700
+  },
+  "kalispell-mt": {
+    "concern": 32.4,
+    "effective_rate_pct": 0.81,
+    "median_annual_taxes": 3093,
+    "median_home_value": 381400
+  },
+  "kansas-city-ks": {
+    "concern": 58.5,
+    "effective_rate_pct": 1.46,
+    "median_annual_taxes": 2152,
+    "median_home_value": 147100
+  },
+  "kansas-city-mo": {
+    "concern": 44.8,
+    "effective_rate_pct": 1.12,
+    "median_annual_taxes": 2543,
+    "median_home_value": 227000
+  },
+  "kennewick-wa": {
+    "concern": 30.3,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 2602,
+    "median_home_value": 343600
+  },
+  "kent-wa": {
+    "concern": 38.0,
+    "effective_rate_pct": 0.95,
+    "median_annual_taxes": 5102,
+    "median_home_value": 537500
+  },
+  "killeen-tx": {
+    "concern": 65.7,
+    "effective_rate_pct": 1.64,
+    "median_annual_taxes": 3218,
+    "median_home_value": 196000
+  },
+  "kirkland-wa": {
+    "concern": 28.6,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 7315,
+    "median_home_value": 1022500
+  },
+  "kissimmee-fl": {
+    "concern": 25.2,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 1724,
+    "median_home_value": 273900
+  },
+  "knoxville-tn": {
+    "concern": 27.0,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 1443,
+    "median_home_value": 214000
+  },
+  "lafayette-la": {
+    "concern": 23.2,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 1455,
+    "median_home_value": 251300
+  },
+  "lake-charles-la": {
+    "concern": 13.6,
+    "effective_rate_pct": 0.34,
+    "median_annual_taxes": 692,
+    "median_home_value": 204000
+  },
+  "lake-forest-ca": {
+    "concern": 25.6,
+    "effective_rate_pct": 0.64,
+    "median_annual_taxes": 5615,
+    "median_home_value": 876300
+  },
+  "lakeland-fl": {
+    "concern": 29.1,
+    "effective_rate_pct": 0.73,
+    "median_annual_taxes": 1669,
+    "median_home_value": 229100
+  },
+  "lakeville-mn": {
+    "concern": 40.6,
+    "effective_rate_pct": 1.01,
+    "median_annual_taxes": 4313,
+    "median_home_value": 425200
+  },
+  "lakewood-ca": {
+    "concern": 26.3,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 5084,
+    "median_home_value": 774100
+  },
+  "lakewood-co": {
+    "concern": 18.9,
+    "effective_rate_pct": 0.47,
+    "median_annual_taxes": 2586,
+    "median_home_value": 548200
+  },
+  "lancaster-ca": {
+    "concern": 36.0,
+    "effective_rate_pct": 0.9,
+    "median_annual_taxes": 3685,
+    "median_home_value": 409100
+  },
+  "lansing-mi": {
+    "concern": 86.2,
+    "effective_rate_pct": 2.16,
+    "median_annual_taxes": 2574,
+    "median_home_value": 119400
+  },
+  "laredo-tx": {
+    "concern": 75.2,
+    "effective_rate_pct": 1.88,
+    "median_annual_taxes": 3428,
+    "median_home_value": 182400
+  },
+  "largo-fl": {
+    "concern": 29.6,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 1542,
+    "median_home_value": 208500
+  },
+  "las-cruces-nm": {
+    "concern": 28.2,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 1531,
+    "median_home_value": 217400
+  },
+  "las-vegas-nv": {
+    "concern": 20.1,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 1985,
+    "median_home_value": 395300
+  },
+  "lawrence-ks": {
+    "concern": 50.5,
+    "effective_rate_pct": 1.26,
+    "median_annual_taxes": 3404,
+    "median_home_value": 269500
+  },
+  "lawrence-ma": {
+    "concern": 34.2,
+    "effective_rate_pct": 0.86,
+    "median_annual_taxes": 3366,
+    "median_home_value": 393500
+  },
+  "lawton-ok": {
+    "concern": 37.7,
+    "effective_rate_pct": 0.94,
+    "median_annual_taxes": 1266,
+    "median_home_value": 134200
+  },
+  "layton-ut": {
+    "concern": 22.1,
+    "effective_rate_pct": 0.55,
+    "median_annual_taxes": 2416,
+    "median_home_value": 437400
+  },
+  "league-city-tx": {
+    "concern": 69.3,
+    "effective_rate_pct": 1.73,
+    "median_annual_taxes": 5788,
+    "median_home_value": 334000
+  },
+  "leander-tx": {
+    "concern": 75.8,
+    "effective_rate_pct": 1.9,
+    "median_annual_taxes": 8925,
+    "median_home_value": 470700
+  },
+  "lees-summit-mo": {
+    "concern": 47.8,
+    "effective_rate_pct": 1.2,
+    "median_annual_taxes": 3746,
+    "median_home_value": 313200
+  },
+  "lehi-ut": {
+    "concern": 16.3,
+    "effective_rate_pct": 0.41,
+    "median_annual_taxes": 2315,
+    "median_home_value": 567100
+  },
+  "lewisville-tx": {
+    "concern": 64.2,
+    "effective_rate_pct": 1.61,
+    "median_annual_taxes": 5621,
+    "median_home_value": 350200
+  },
+  "lexington-ky": {
+    "concern": 35.6,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 2425,
+    "median_home_value": 272100
+  },
+  "lincoln-ne": {
+    "concern": 62.8,
+    "effective_rate_pct": 1.57,
+    "median_annual_taxes": 3898,
+    "median_home_value": 248200
+  },
+  "little-rock-ar": {
+    "concern": 33.6,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 1859,
+    "median_home_value": 221200
+  },
+  "livermore-ca": {
+    "concern": 31.9,
+    "effective_rate_pct": 0.8,
+    "median_annual_taxes": 8272,
+    "median_home_value": 1038600
+  },
+  "livonia-mi": {
+    "concern": 57.2,
+    "effective_rate_pct": 1.43,
+    "median_annual_taxes": 3796,
+    "median_home_value": 265300
+  },
+  "long-beach-ca": {
+    "concern": 25.8,
+    "effective_rate_pct": 0.64,
+    "median_annual_taxes": 4911,
+    "median_home_value": 762200
+  },
+  "longmont-co": {
+    "concern": 20.7,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 2804,
+    "median_home_value": 541400
+  },
+  "longview-tx": {
+    "concern": 51.3,
+    "effective_rate_pct": 1.28,
+    "median_annual_taxes": 2342,
+    "median_home_value": 182700
+  },
+  "los-alamos-nm": {
+    "concern": 23.0,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 2637,
+    "median_home_value": 458200
+  },
+  "los-angeles-ca": {
+    "concern": 26.3,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 5773,
+    "median_home_value": 879500
+  },
+  "loveland-co": {
+    "concern": 18.9,
+    "effective_rate_pct": 0.47,
+    "median_annual_taxes": 2137,
+    "median_home_value": 453100
+  },
+  "lowell-ma": {
+    "concern": 44.3,
+    "effective_rate_pct": 1.11,
+    "median_annual_taxes": 4372,
+    "median_home_value": 395100
+  },
+  "lubbock-tx": {
+    "concern": 65.0,
+    "effective_rate_pct": 1.63,
+    "median_annual_taxes": 3216,
+    "median_home_value": 197900
+  },
+  "lynchburg-va": {
+    "concern": 33.6,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 1778,
+    "median_home_value": 211800
+  },
+  "lynn-ma": {
+    "concern": 43.9,
+    "effective_rate_pct": 1.1,
+    "median_annual_taxes": 5188,
+    "median_home_value": 472600
+  },
+  "mableton-ga": {
+    "concern": 27.3,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 2090,
+    "median_home_value": 306200
+  },
+  "macon-ga": {
+    "concern": 44.1,
+    "effective_rate_pct": 1.1,
+    "median_annual_taxes": 1826,
+    "median_home_value": 165800
+  },
+  "madison-wi": {
+    "concern": 73.7,
+    "effective_rate_pct": 1.84,
+    "median_annual_taxes": 6390,
+    "median_home_value": 346900
+  },
+  "manchester-nh": {
+    "concern": 69.0,
+    "effective_rate_pct": 1.72,
+    "median_annual_taxes": 5800,
+    "median_home_value": 336300
+  },
+  "mansfield-tx": {
+    "concern": 77.9,
+    "effective_rate_pct": 1.95,
+    "median_annual_taxes": 7397,
+    "median_home_value": 380000
+  },
+  "manteca-ca": {
+    "concern": 30.6,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 4291,
+    "median_home_value": 561200
+  },
+  "maricopa-az": {
+    "concern": 24.9,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 2107,
+    "median_home_value": 338600
+  },
+  "marysville-wa": {
+    "concern": 30.8,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 4014,
+    "median_home_value": 521500
+  },
+  "mcallen-tx": {
+    "concern": 71.3,
+    "effective_rate_pct": 1.78,
+    "median_annual_taxes": 3096,
+    "median_home_value": 173800
+  },
+  "mckinney-tx": {
+    "concern": 70.2,
+    "effective_rate_pct": 1.75,
+    "median_annual_taxes": 7710,
+    "median_home_value": 439500
+  },
+  "medford-or": {
+    "concern": 31.0,
+    "effective_rate_pct": 0.78,
+    "median_annual_taxes": 3003,
+    "median_home_value": 387000
+  },
+  "melbourne-fl": {
+    "concern": 28.0,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 1913,
+    "median_home_value": 272900
+  },
+  "memphis-tn": {
+    "concern": 47.1,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 1848,
+    "median_home_value": 157100
+  },
+  "menifee-ca": {
+    "concern": 37.9,
+    "effective_rate_pct": 0.95,
+    "median_annual_taxes": 4619,
+    "median_home_value": 487200
+  },
+  "merced-ca": {
+    "concern": 28.1,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 2443,
+    "median_home_value": 347700
+  },
+  "meridian-id": {
+    "concern": 20.6,
+    "effective_rate_pct": 0.51,
+    "median_annual_taxes": 2497,
+    "median_home_value": 485000
+  },
+  "mesa-az": {
+    "concern": 17.0,
+    "effective_rate_pct": 0.43,
+    "median_annual_taxes": 1549,
+    "median_home_value": 364300
+  },
+  "mesquite-tx": {
+    "concern": 63.1,
+    "effective_rate_pct": 1.58,
+    "median_annual_taxes": 3572,
+    "median_home_value": 226500
+  },
+  "miami-beach-fl": {
+    "concern": 38.0,
+    "effective_rate_pct": 0.95,
+    "median_annual_taxes": 5152,
+    "median_home_value": 542000
+  },
+  "miami-fl": {
+    "concern": 35.4,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 4203,
+    "median_home_value": 475200
+  },
+  "miami-gardens-fl": {
+    "concern": 31.0,
+    "effective_rate_pct": 0.78,
+    "median_annual_taxes": 2616,
+    "median_home_value": 337200
+  },
+  "midland-tx": {
+    "concern": 52.1,
+    "effective_rate_pct": 1.3,
+    "median_annual_taxes": 3886,
+    "median_home_value": 298600
+  },
+  "milpitas-ca": {
+    "concern": 27.1,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 8002,
+    "median_home_value": 1180000
+  },
+  "milwaukee-wi": {
+    "concern": 83.1,
+    "effective_rate_pct": 2.08,
+    "median_annual_taxes": 3575,
+    "median_home_value": 172000
+  },
+  "minneapolis-mn": {
+    "concern": 48.4,
+    "effective_rate_pct": 1.21,
+    "median_annual_taxes": 4181,
+    "median_home_value": 345600
+  },
+  "miramar-fl": {
+    "concern": 39.6,
+    "effective_rate_pct": 0.99,
+    "median_annual_taxes": 4156,
+    "median_home_value": 420300
+  },
+  "mission-tx": {
+    "concern": 71.7,
+    "effective_rate_pct": 1.79,
+    "median_annual_taxes": 2883,
+    "median_home_value": 160800
+  },
+  "mission-viejo-ca": {
+    "concern": 24.0,
+    "effective_rate_pct": 0.6,
+    "median_annual_taxes": 5675,
+    "median_home_value": 946300
+  },
+  "missoula-mt": {
+    "concern": 38.5,
+    "effective_rate_pct": 0.96,
+    "median_annual_taxes": 4117,
+    "median_home_value": 427400
+  },
+  "missouri-city-tx": {
+    "concern": 81.8,
+    "effective_rate_pct": 2.04,
+    "median_annual_taxes": 5757,
+    "median_home_value": 281600
+  },
+  "mobile-al": {
+    "concern": 21.7,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 924,
+    "median_home_value": 170300
+  },
+  "modesto-ca": {
+    "concern": 26.2,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 2727,
+    "median_home_value": 415600
+  },
+  "montgomery-al": {
+    "concern": 15.0,
+    "effective_rate_pct": 0.38,
+    "median_annual_taxes": 558,
+    "median_home_value": 148500
+  },
+  "monticello-ut": {
+    "concern": 21.6,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 1661,
+    "median_home_value": 307900
+  },
+  "moreno-valley-ca": {
+    "concern": 27.9,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 3220,
+    "median_home_value": 461400
+  },
+  "mount-pleasant-sc": {
+    "concern": 13.6,
+    "effective_rate_pct": 0.34,
+    "median_annual_taxes": 2261,
+    "median_home_value": 667100
+  },
+  "mountain-view-ca": {
+    "concern": 20.8,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 10001,
+    "median_home_value": 1927400
+  },
+  "murfreesboro-tn": {
+    "concern": 23.8,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 2169,
+    "median_home_value": 365100
+  },
+  "murrieta-ca": {
+    "concern": 35.7,
+    "effective_rate_pct": 0.89,
+    "median_annual_taxes": 5415,
+    "median_home_value": 606900
+  },
+  "nampa-id": {
+    "concern": 23.2,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 1931,
+    "median_home_value": 332500
+  },
+  "naperville-il": {
+    "concern": 78.5,
+    "effective_rate_pct": 1.96,
+    "median_annual_taxes": 10001,
+    "median_home_value": 509900
+  },
+  "nashua-nh": {
+    "concern": 70.1,
+    "effective_rate_pct": 1.75,
+    "median_annual_taxes": 6535,
+    "median_home_value": 373100
+  },
+  "nashville-tn": {
+    "concern": 24.6,
+    "effective_rate_pct": 0.61,
+    "median_annual_taxes": 2355,
+    "median_home_value": 383100
+  },
+  "new-bedford-ma": {
+    "concern": 52.1,
+    "effective_rate_pct": 1.3,
+    "median_annual_taxes": 4223,
+    "median_home_value": 324400
+  },
+  "new-braunfels-tx": {
+    "concern": 56.2,
+    "effective_rate_pct": 1.41,
+    "median_annual_taxes": 4428,
+    "median_home_value": 315100
+  },
+  "new-haven-ct": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.5,
+    "median_annual_taxes": 6232,
+    "median_home_value": 249000
+  },
+  "new-orleans-la": {
+    "concern": 32.8,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 2428,
+    "median_home_value": 296400
+  },
+  "new-rochelle-ny": {
+    "concern": 59.9,
+    "effective_rate_pct": 1.5,
+    "median_annual_taxes": 10001,
+    "median_home_value": 667300
+  },
+  "new-york-ny": {
+    "concern": 33.8,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 6358,
+    "median_home_value": 751700
+  },
+  "newark-nj": {
+    "concern": 85.0,
+    "effective_rate_pct": 2.12,
+    "median_annual_taxes": 7178,
+    "median_home_value": 337800
+  },
+  "newport-beach-ca": {
+    "concern": 20.0,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 10001,
+    "median_home_value": 2000001
+  },
+  "newport-news-va": {
+    "concern": 41.2,
+    "effective_rate_pct": 1.03,
+    "median_annual_taxes": 2507,
+    "median_home_value": 243300
+  },
+  "newton-ma": {
+    "concern": 33.3,
+    "effective_rate_pct": 0.83,
+    "median_annual_taxes": 10001,
+    "median_home_value": 1202500
+  },
+  "norfolk-va": {
+    "concern": 40.3,
+    "effective_rate_pct": 1.01,
+    "median_annual_taxes": 2738,
+    "median_home_value": 271900
+  },
+  "norman-ok": {
+    "concern": 40.7,
+    "effective_rate_pct": 1.02,
+    "median_annual_taxes": 2432,
+    "median_home_value": 239300
+  },
+  "north-charleston-sc": {
+    "concern": 20.8,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 1394,
+    "median_home_value": 267700
+  },
+  "north-las-vegas-nv": {
+    "concern": 19.3,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 1801,
+    "median_home_value": 372300
+  },
+  "north-port-fl": {
+    "concern": 35.3,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 2900,
+    "median_home_value": 328700
+  },
+  "norwalk-ca": {
+    "concern": 26.9,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 4152,
+    "median_home_value": 616600
+  },
+  "norwalk-ct": {
+    "concern": 57.4,
+    "effective_rate_pct": 1.43,
+    "median_annual_taxes": 7675,
+    "median_home_value": 535000
+  },
+  "oakland-ca": {
+    "concern": 34.0,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 7855,
+    "median_home_value": 924700
+  },
+  "oceanside-ca": {
+    "concern": 26.1,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 4587,
+    "median_home_value": 702000
+  },
+  "odessa-tx": {
+    "concern": 54.7,
+    "effective_rate_pct": 1.37,
+    "median_annual_taxes": 2843,
+    "median_home_value": 208000
+  },
+  "ofallon-mo": {
+    "concern": 45.9,
+    "effective_rate_pct": 1.15,
+    "median_annual_taxes": 3501,
+    "median_home_value": 305100
+  },
+  "ogden-ut": {
+    "concern": 27.4,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 2130,
+    "median_home_value": 311300
+  },
+  "oklahoma-city-ok": {
+    "concern": 40.7,
+    "effective_rate_pct": 1.02,
+    "median_annual_taxes": 2186,
+    "median_home_value": 215100
+  },
+  "olathe-ks": {
+    "concern": 47.2,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 4015,
+    "median_home_value": 340600
+  },
+  "omaha-ne": {
+    "concern": 67.7,
+    "effective_rate_pct": 1.69,
+    "median_annual_taxes": 3895,
+    "median_home_value": 230100
+  },
+  "ontario-ca": {
+    "concern": 23.8,
+    "effective_rate_pct": 0.6,
+    "median_annual_taxes": 3384,
+    "median_home_value": 568000
+  },
+  "orange-ca": {
+    "concern": 26.4,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 5950,
+    "median_home_value": 900700
+  },
+  "orem-ut": {
+    "concern": 16.8,
+    "effective_rate_pct": 0.42,
+    "median_annual_taxes": 1845,
+    "median_home_value": 439000
+  },
+  "orlando-fl": {
+    "concern": 32.6,
+    "effective_rate_pct": 0.81,
+    "median_annual_taxes": 2922,
+    "median_home_value": 359000
+  },
+  "overland-park-ks": {
+    "concern": 43.3,
+    "effective_rate_pct": 1.08,
+    "median_annual_taxes": 4158,
+    "median_home_value": 384400
+  },
+  "oxnard-ca": {
+    "concern": 27.0,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 4177,
+    "median_home_value": 617800
+  },
+  "palm-bay-fl": {
+    "concern": 24.8,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 1539,
+    "median_home_value": 248000
+  },
+  "palm-coast-fl": {
+    "concern": 31.5,
+    "effective_rate_pct": 0.79,
+    "median_annual_taxes": 2499,
+    "median_home_value": 317200
+  },
+  "palmdale-ca": {
+    "concern": 39.0,
+    "effective_rate_pct": 0.98,
+    "median_annual_taxes": 4248,
+    "median_home_value": 435300
+  },
+  "parma-oh": {
+    "concern": 82.1,
+    "effective_rate_pct": 2.05,
+    "median_annual_taxes": 3233,
+    "median_home_value": 157600
+  },
+  "pasadena-ca": {
+    "concern": 24.7,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 6449,
+    "median_home_value": 1045000
+  },
+  "pasadena-tx": {
+    "concern": 57.7,
+    "effective_rate_pct": 1.44,
+    "median_annual_taxes": 2791,
+    "median_home_value": 193600
+  },
+  "pasco-wa": {
+    "concern": 30.2,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 2600,
+    "median_home_value": 344700
+  },
+  "paterson-nj": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.91,
+    "median_annual_taxes": 9752,
+    "median_home_value": 335400
+  },
+  "pawtucket-ri": {
+    "concern": 58.1,
+    "effective_rate_pct": 1.45,
+    "median_annual_taxes": 4155,
+    "median_home_value": 286200
+  },
+  "pearland-tx": {
+    "concern": 87.9,
+    "effective_rate_pct": 2.2,
+    "median_annual_taxes": 7275,
+    "median_home_value": 330900
+  },
+  "pembroke-pines-fl": {
+    "concern": 35.8,
+    "effective_rate_pct": 0.9,
+    "median_annual_taxes": 3685,
+    "median_home_value": 411700
+  },
+  "peoria-az": {
+    "concern": 20.1,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 2161,
+    "median_home_value": 429400
+  },
+  "peoria-il": {
+    "concern": 96.2,
+    "effective_rate_pct": 2.41,
+    "median_annual_taxes": 3596,
+    "median_home_value": 149500
+  },
+  "perris-ca": {
+    "concern": 33.5,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 3620,
+    "median_home_value": 431900
+  },
+  "pharr-tx": {
+    "concern": 85.9,
+    "effective_rate_pct": 2.15,
+    "median_annual_taxes": 2394,
+    "median_home_value": 111500
+  },
+  "philadelphia-pa": {
+    "concern": 33.6,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 1952,
+    "median_home_value": 232400
+  },
+  "phoenix-az": {
+    "concern": 19.1,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 1825,
+    "median_home_value": 381900
+  },
+  "pittsburg-ca": {
+    "concern": 30.8,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 4494,
+    "median_home_value": 583100
+  },
+  "pittsburgh-pa": {
+    "concern": 38.4,
+    "effective_rate_pct": 0.96,
+    "median_annual_taxes": 1853,
+    "median_home_value": 193200
+  },
+  "plano-tx": {
+    "concern": 61.4,
+    "effective_rate_pct": 1.54,
+    "median_annual_taxes": 6768,
+    "median_home_value": 440600
+  },
+  "plantation-fl": {
+    "concern": 36.5,
+    "effective_rate_pct": 0.91,
+    "median_annual_taxes": 4088,
+    "median_home_value": 447700
+  },
+  "plymouth-mn": {
+    "concern": 42.0,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 4985,
+    "median_home_value": 474700
+  },
+  "pomona-ca": {
+    "concern": 25.4,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 3615,
+    "median_home_value": 569600
+  },
+  "pompano-beach-fl": {
+    "concern": 36.1,
+    "effective_rate_pct": 0.9,
+    "median_annual_taxes": 2904,
+    "median_home_value": 321900
+  },
+  "port-st-lucie-fl": {
+    "concern": 38.9,
+    "effective_rate_pct": 0.97,
+    "median_annual_taxes": 3188,
+    "median_home_value": 327700
+  },
+  "portland-or": {
+    "concern": 39.4,
+    "effective_rate_pct": 0.99,
+    "median_annual_taxes": 5495,
+    "median_home_value": 557600
+  },
+  "portsmouth-va": {
+    "concern": 42.8,
+    "effective_rate_pct": 1.07,
+    "median_annual_taxes": 2452,
+    "median_home_value": 229400
+  },
+  "providence-ri": {
+    "concern": 54.5,
+    "effective_rate_pct": 1.36,
+    "median_annual_taxes": 4396,
+    "median_home_value": 322800
+  },
+  "provo-ut": {
+    "concern": 19.6,
+    "effective_rate_pct": 0.49,
+    "median_annual_taxes": 2146,
+    "median_home_value": 437100
+  },
+  "pueblo-co": {
+    "concern": 20.2,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 1165,
+    "median_home_value": 230900
+  },
+  "queen-creek-az": {
+    "concern": 19.1,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 2754,
+    "median_home_value": 576600
+  },
+  "quincy-ma": {
+    "concern": 42.3,
+    "effective_rate_pct": 1.06,
+    "median_annual_taxes": 6325,
+    "median_home_value": 598100
+  },
+  "racine-wi": {
+    "concern": 90.5,
+    "effective_rate_pct": 2.26,
+    "median_annual_taxes": 3576,
+    "median_home_value": 158100
+  },
+  "raleigh-nc": {
+    "concern": 30.3,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 2862,
+    "median_home_value": 377800
+  },
+  "rancho-cordova-ca": {
+    "concern": 32.8,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 3703,
+    "median_home_value": 451400
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 28.8,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 4999,
+    "median_home_value": 694400
+  },
+  "rapid-city-sd": {
+    "concern": 45.3,
+    "effective_rate_pct": 1.13,
+    "median_annual_taxes": 3058,
+    "median_home_value": 270000
+  },
+  "reading-pa": {
+    "concern": 66.3,
+    "effective_rate_pct": 1.66,
+    "median_annual_taxes": 1820,
+    "median_home_value": 109800
+  },
+  "redding-ca": {
+    "concern": 28.4,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 2581,
+    "median_home_value": 363800
+  },
+  "redmond-wa": {
+    "concern": 29.8,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 8132,
+    "median_home_value": 1091700
+  },
+  "redwood-city-ca": {
+    "concern": 21.6,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 9916,
+    "median_home_value": 1838800
+  },
+  "reno-nv": {
+    "concern": 18.1,
+    "effective_rate_pct": 0.45,
+    "median_annual_taxes": 2252,
+    "median_home_value": 498600
+  },
+  "renton-wa": {
+    "concern": 35.1,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 5538,
+    "median_home_value": 631400
+  },
+  "rialto-ca": {
+    "concern": 28.2,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 3206,
+    "median_home_value": 454400
+  },
+  "richardson-tx": {
+    "concern": 63.5,
+    "effective_rate_pct": 1.59,
+    "median_annual_taxes": 6438,
+    "median_home_value": 405600
+  },
+  "richmond-ca": {
+    "concern": 37.6,
+    "effective_rate_pct": 0.94,
+    "median_annual_taxes": 6113,
+    "median_home_value": 650100
+  },
+  "richmond-va": {
+    "concern": 34.6,
+    "effective_rate_pct": 0.86,
+    "median_annual_taxes": 2834,
+    "median_home_value": 328100
+  },
+  "rio-rancho-nm": {
+    "concern": 30.8,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 2104,
+    "median_home_value": 273300
+  },
+  "riverside-ca": {
+    "concern": 24.4,
+    "effective_rate_pct": 0.61,
+    "median_annual_taxes": 3308,
+    "median_home_value": 542100
+  },
+  "roanoke-va": {
+    "concern": 40.5,
+    "effective_rate_pct": 1.01,
+    "median_annual_taxes": 1828,
+    "median_home_value": 180500
+  },
+  "rochester-hills-mi": {
+    "concern": 47.3,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 4465,
+    "median_home_value": 377400
+  },
+  "rochester-mn": {
+    "concern": 41.9,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 3015,
+    "median_home_value": 287500
+  },
+  "rochester-ny": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.55,
+    "median_annual_taxes": 3074,
+    "median_home_value": 120600
+  },
+  "rockford-il": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.66,
+    "median_annual_taxes": 3219,
+    "median_home_value": 120900
+  },
+  "rocklin-ca": {
+    "concern": 36.0,
+    "effective_rate_pct": 0.9,
+    "median_annual_taxes": 6065,
+    "median_home_value": 673300
+  },
+  "rogers-ar": {
+    "concern": 23.0,
+    "effective_rate_pct": 0.57,
+    "median_annual_taxes": 1597,
+    "median_home_value": 278000
+  },
+  "roseville-ca": {
+    "concern": 33.3,
+    "effective_rate_pct": 0.83,
+    "median_annual_taxes": 5242,
+    "median_home_value": 630600
+  },
+  "roswell-ga": {
+    "concern": 33.0,
+    "effective_rate_pct": 0.83,
+    "median_annual_taxes": 4296,
+    "median_home_value": 520500
+  },
+  "round-rock-tx": {
+    "concern": 66.5,
+    "effective_rate_pct": 1.66,
+    "median_annual_taxes": 6381,
+    "median_home_value": 383700
+  },
+  "sacramento-ca": {
+    "concern": 30.5,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 3690,
+    "median_home_value": 484600
+  },
+  "saint-paul-mn": {
+    "concern": 51.4,
+    "effective_rate_pct": 1.29,
+    "median_annual_taxes": 3605,
+    "median_home_value": 280300
+  },
+  "salem-or": {
+    "concern": 41.2,
+    "effective_rate_pct": 1.03,
+    "median_annual_taxes": 3936,
+    "median_home_value": 382400
+  },
+  "salinas-ca": {
+    "concern": 26.1,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 3993,
+    "median_home_value": 610900
+  },
+  "salt-lake-city-ut": {
+    "concern": 21.2,
+    "effective_rate_pct": 0.53,
+    "median_annual_taxes": 2628,
+    "median_home_value": 495700
+  },
+  "san-angelo-tx": {
+    "concern": 58.0,
+    "effective_rate_pct": 1.45,
+    "median_annual_taxes": 2602,
+    "median_home_value": 179300
+  },
+  "san-antonio-tx": {
+    "concern": 72.5,
+    "effective_rate_pct": 1.81,
+    "median_annual_taxes": 3983,
+    "median_home_value": 219700
+  },
+  "san-bernardino-ca": {
+    "concern": 25.2,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 2421,
+    "median_home_value": 384900
+  },
+  "san-diego-ca": {
+    "concern": 26.7,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 5658,
+    "median_home_value": 848500
+  },
+  "san-francisco-ca": {
+    "concern": 27.3,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 9412,
+    "median_home_value": 1380500
+  },
+  "san-jose-ca": {
+    "concern": 30.7,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 9121,
+    "median_home_value": 1187800
+  },
+  "san-leandro-ca": {
+    "concern": 28.7,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 5832,
+    "median_home_value": 813600
+  },
+  "san-marcos-ca": {
+    "concern": 31.5,
+    "effective_rate_pct": 0.79,
+    "median_annual_taxes": 6240,
+    "median_home_value": 792400
+  },
+  "san-marcos-tx": {
+    "concern": 64.9,
+    "effective_rate_pct": 1.62,
+    "median_annual_taxes": 4377,
+    "median_home_value": 269700
+  },
+  "san-mateo-ca": {
+    "concern": 24.7,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 9646,
+    "median_home_value": 1563200
+  },
+  "san-ramon-ca": {
+    "concern": 29.4,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 10001,
+    "median_home_value": 1359100
+  },
+  "sandpoint-id": {
+    "concern": 20.8,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 2333,
+    "median_home_value": 449500
+  },
+  "sandy-springs-ga": {
+    "concern": 36.7,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 5357,
+    "median_home_value": 583900
+  },
+  "sandy-ut": {
+    "concern": 20.3,
+    "effective_rate_pct": 0.51,
+    "median_annual_taxes": 2850,
+    "median_home_value": 562500
+  },
+  "santa-ana-ca": {
+    "concern": 23.7,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 3894,
+    "median_home_value": 657800
+  },
+  "santa-barbara-ca": {
+    "concern": 19.2,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 7043,
+    "median_home_value": 1466400
+  },
+  "santa-clara-ca": {
+    "concern": 23.4,
+    "effective_rate_pct": 0.59,
+    "median_annual_taxes": 8939,
+    "median_home_value": 1527900
+  },
+  "santa-clarita-ca": {
+    "concern": 37.3,
+    "effective_rate_pct": 0.93,
+    "median_annual_taxes": 6727,
+    "median_home_value": 721000
+  },
+  "santa-fe-nm": {
+    "concern": 20.0,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 2055,
+    "median_home_value": 411500
+  },
+  "santa-maria-ca": {
+    "concern": 27.4,
+    "effective_rate_pct": 0.68,
+    "median_annual_taxes": 3274,
+    "median_home_value": 478200
+  },
+  "santa-monica-ca": {
+    "concern": 22.1,
+    "effective_rate_pct": 0.55,
+    "median_annual_taxes": 10001,
+    "median_home_value": 1810200
+  },
+  "santa-rosa-ca": {
+    "concern": 28.8,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 4938,
+    "median_home_value": 685000
+  },
+  "schaumburg-il": {
+    "concern": 81.9,
+    "effective_rate_pct": 2.05,
+    "median_annual_taxes": 6395,
+    "median_home_value": 312200
+  },
+  "scottsdale-az": {
+    "concern": 16.5,
+    "effective_rate_pct": 0.41,
+    "median_annual_taxes": 2924,
+    "median_home_value": 709900
+  },
+  "seattle-wa": {
+    "concern": 30.8,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 7025,
+    "median_home_value": 912100
+  },
+  "shreveport-la": {
+    "concern": 26.7,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 1191,
+    "median_home_value": 178100
+  },
+  "simi-valley-ca": {
+    "concern": 29.4,
+    "effective_rate_pct": 0.74,
+    "median_annual_taxes": 5540,
+    "median_home_value": 753500
+  },
+  "sioux-city-ia": {
+    "concern": 62.6,
+    "effective_rate_pct": 1.56,
+    "median_annual_taxes": 2544,
+    "median_home_value": 162600
+  },
+  "sioux-falls-sd": {
+    "concern": 47.2,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 3201,
+    "median_home_value": 271400
+  },
+  "somerville-ma": {
+    "concern": 27.7,
+    "effective_rate_pct": 0.69,
+    "median_annual_taxes": 6237,
+    "median_home_value": 899400
+  },
+  "south-bend-in": {
+    "concern": 39.7,
+    "effective_rate_pct": 0.99,
+    "median_annual_taxes": 1235,
+    "median_home_value": 124500
+  },
+  "south-fulton-ga": {
+    "concern": 30.1,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 2037,
+    "median_home_value": 270600
+  },
+  "south-gate-ca": {
+    "concern": 26.2,
+    "effective_rate_pct": 0.65,
+    "median_annual_taxes": 3982,
+    "median_home_value": 608500
+  },
+  "south-jordan-ut": {
+    "concern": 20.4,
+    "effective_rate_pct": 0.51,
+    "median_annual_taxes": 3140,
+    "median_home_value": 614800
+  },
+  "sparks-nv": {
+    "concern": 19.2,
+    "effective_rate_pct": 0.48,
+    "median_annual_taxes": 2193,
+    "median_home_value": 455900
+  },
+  "spokane-valley-wa": {
+    "concern": 36.8,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 3168,
+    "median_home_value": 344300
+  },
+  "spokane-wa": {
+    "concern": 33.2,
+    "effective_rate_pct": 0.83,
+    "median_annual_taxes": 2705,
+    "median_home_value": 326200
+  },
+  "springdale-ar": {
+    "concern": 22.4,
+    "effective_rate_pct": 0.56,
+    "median_annual_taxes": 1328,
+    "median_home_value": 237200
+  },
+  "springfield-il": {
+    "concern": 83.1,
+    "effective_rate_pct": 2.08,
+    "median_annual_taxes": 3224,
+    "median_home_value": 155200
+  },
+  "springfield-ma": {
+    "concern": 64.1,
+    "effective_rate_pct": 1.6,
+    "median_annual_taxes": 3570,
+    "median_home_value": 222700
+  },
+  "springfield-mo": {
+    "concern": 30.7,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 1268,
+    "median_home_value": 165200
+  },
+  "st-george-ut": {
+    "concern": 18.1,
+    "effective_rate_pct": 0.45,
+    "median_annual_taxes": 2064,
+    "median_home_value": 456900
+  },
+  "st-louis-mo": {
+    "concern": 41.8,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 1935,
+    "median_home_value": 185100
+  },
+  "st-petersburg-fl": {
+    "concern": 27.8,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 2306,
+    "median_home_value": 331500
+  },
+  "stamford-ct": {
+    "concern": 60.4,
+    "effective_rate_pct": 1.51,
+    "median_annual_taxes": 9273,
+    "median_home_value": 614300
+  },
+  "sterling-heights-mi": {
+    "concern": 54.6,
+    "effective_rate_pct": 1.37,
+    "median_annual_taxes": 3559,
+    "median_home_value": 260700
+  },
+  "stockton-ca": {
+    "concern": 28.6,
+    "effective_rate_pct": 0.71,
+    "median_annual_taxes": 2950,
+    "median_home_value": 412900
+  },
+  "suffolk-va": {
+    "concern": 37.3,
+    "effective_rate_pct": 0.93,
+    "median_annual_taxes": 3073,
+    "median_home_value": 329600
+  },
+  "sugar-land-tx": {
+    "concern": 71.9,
+    "effective_rate_pct": 1.8,
+    "median_annual_taxes": 7306,
+    "median_home_value": 406600
+  },
+  "sunnyvale-ca": {
+    "concern": 19.8,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 9006,
+    "median_home_value": 1816600
+  },
+  "sunrise-fl": {
+    "concern": 30.3,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 2487,
+    "median_home_value": 328700
+  },
+  "surprise-az": {
+    "concern": 18.3,
+    "effective_rate_pct": 0.46,
+    "median_annual_taxes": 1811,
+    "median_home_value": 396000
+  },
+  "syracuse-ny": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.5,
+    "median_annual_taxes": 3129,
+    "median_home_value": 125100
+  },
+  "tacoma-wa": {
+    "concern": 37.4,
+    "effective_rate_pct": 0.93,
+    "median_annual_taxes": 4248,
+    "median_home_value": 454600
+  },
+  "tallahassee-fl": {
+    "concern": 35.2,
+    "effective_rate_pct": 0.88,
+    "median_annual_taxes": 2428,
+    "median_home_value": 276000
+  },
+  "tampa-fl": {
+    "concern": 30.2,
+    "effective_rate_pct": 0.75,
+    "median_annual_taxes": 2832,
+    "median_home_value": 375300
+  },
+  "taos-nm": {
+    "concern": 13.9,
+    "effective_rate_pct": 0.35,
+    "median_annual_taxes": 1504,
+    "median_home_value": 432700
+  },
+  "temecula-ca": {
+    "concern": 34.0,
+    "effective_rate_pct": 0.85,
+    "median_annual_taxes": 5436,
+    "median_home_value": 640400
+  },
+  "tempe-az": {
+    "concern": 20.7,
+    "effective_rate_pct": 0.52,
+    "median_annual_taxes": 2179,
+    "median_home_value": 421900
+  },
+  "temple-tx": {
+    "concern": 64.2,
+    "effective_rate_pct": 1.61,
+    "median_annual_taxes": 3537,
+    "median_home_value": 220300
+  },
+  "thornton-co": {
+    "concern": 23.1,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 2786,
+    "median_home_value": 482200
+  },
+  "thousand-oaks-ca": {
+    "concern": 27.9,
+    "effective_rate_pct": 0.7,
+    "median_annual_taxes": 6641,
+    "median_home_value": 951200
+  },
+  "toledo-oh": {
+    "concern": 68.0,
+    "effective_rate_pct": 1.7,
+    "median_annual_taxes": 1818,
+    "median_home_value": 107000
+  },
+  "topeka-ks": {
+    "concern": 61.0,
+    "effective_rate_pct": 1.52,
+    "median_annual_taxes": 1991,
+    "median_home_value": 130600
+  },
+  "torrance-ca": {
+    "concern": 25.6,
+    "effective_rate_pct": 0.64,
+    "median_annual_taxes": 6644,
+    "median_home_value": 1036600
+  },
+  "tracy-ca": {
+    "concern": 32.8,
+    "effective_rate_pct": 0.82,
+    "median_annual_taxes": 5354,
+    "median_home_value": 653900
+  },
+  "trenton-nj": {
+    "concern": 100.0,
+    "effective_rate_pct": 3.43,
+    "median_annual_taxes": 4204,
+    "median_home_value": 122500
+  },
+  "troy-mi": {
+    "concern": 50.5,
+    "effective_rate_pct": 1.26,
+    "median_annual_taxes": 5013,
+    "median_home_value": 396800
+  },
+  "tucson-az": {
+    "concern": 29.2,
+    "effective_rate_pct": 0.73,
+    "median_annual_taxes": 1771,
+    "median_home_value": 242200
+  },
+  "tulsa-ok": {
+    "concern": 41.8,
+    "effective_rate_pct": 1.04,
+    "median_annual_taxes": 1981,
+    "median_home_value": 189600
+  },
+  "tuscaloosa-al": {
+    "concern": 19.0,
+    "effective_rate_pct": 0.47,
+    "median_annual_taxes": 1123,
+    "median_home_value": 236600
+  },
+  "tustin-ca": {
+    "concern": 28.8,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 6413,
+    "median_home_value": 890600
+  },
+  "tyler-tx": {
+    "concern": 50.5,
+    "effective_rate_pct": 1.26,
+    "median_annual_taxes": 2730,
+    "median_home_value": 216400
+  },
+  "upland-ca": {
+    "concern": 25.3,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 4353,
+    "median_home_value": 688800
+  },
+  "vacaville-ca": {
+    "concern": 29.0,
+    "effective_rate_pct": 0.73,
+    "median_annual_taxes": 4331,
+    "median_home_value": 596700
+  },
+  "vallejo-ca": {
+    "concern": 30.5,
+    "effective_rate_pct": 0.76,
+    "median_annual_taxes": 4244,
+    "median_home_value": 557500
+  },
+  "vancouver-wa": {
+    "concern": 33.5,
+    "effective_rate_pct": 0.84,
+    "median_annual_taxes": 3687,
+    "median_home_value": 440300
+  },
+  "ventura-ca": {
+    "concern": 22.9,
+    "effective_rate_pct": 0.57,
+    "median_annual_taxes": 4462,
+    "median_home_value": 778700
+  },
+  "victorville-ca": {
+    "concern": 31.6,
+    "effective_rate_pct": 0.79,
+    "median_annual_taxes": 2704,
+    "median_home_value": 342500
+  },
+  "virginia-beach-va": {
+    "concern": 32.0,
+    "effective_rate_pct": 0.8,
+    "median_annual_taxes": 2929,
+    "median_home_value": 366300
+  },
+  "visalia-ca": {
+    "concern": 30.8,
+    "effective_rate_pct": 0.77,
+    "median_annual_taxes": 2620,
+    "median_home_value": 340600
+  },
+  "vista-ca": {
+    "concern": 27.8,
+    "effective_rate_pct": 0.69,
+    "median_annual_taxes": 4682,
+    "median_home_value": 674400
+  },
+  "waco-tx": {
+    "concern": 66.5,
+    "effective_rate_pct": 1.66,
+    "median_annual_taxes": 3318,
+    "median_home_value": 199600
+  },
+  "warner-robins-ga": {
+    "concern": 34.8,
+    "effective_rate_pct": 0.87,
+    "median_annual_taxes": 1493,
+    "median_home_value": 171600
+  },
+  "warren-mi": {
+    "concern": 82.6,
+    "effective_rate_pct": 2.06,
+    "median_annual_taxes": 3000,
+    "median_home_value": 145300
+  },
+  "warwick-ri": {
+    "concern": 56.8,
+    "effective_rate_pct": 1.42,
+    "median_annual_taxes": 4571,
+    "median_home_value": 322000
+  },
+  "washington-dc": {
+    "concern": 23.1,
+    "effective_rate_pct": 0.58,
+    "median_annual_taxes": 4180,
+    "median_home_value": 724600
+  },
+  "waterbury-ct": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.9,
+    "median_annual_taxes": 5380,
+    "median_home_value": 185400
+  },
+  "waukegan-il": {
+    "concern": 100.0,
+    "effective_rate_pct": 2.57,
+    "median_annual_taxes": 4559,
+    "median_home_value": 177600
+  },
+  "west-covina-ca": {
+    "concern": 26.7,
+    "effective_rate_pct": 0.67,
+    "median_annual_taxes": 4750,
+    "median_home_value": 712300
+  },
+  "west-jordan-ut": {
+    "concern": 21.8,
+    "effective_rate_pct": 0.54,
+    "median_annual_taxes": 2477,
+    "median_home_value": 454700
+  },
+  "west-palm-beach-fl": {
+    "concern": 36.7,
+    "effective_rate_pct": 0.92,
+    "median_annual_taxes": 3389,
+    "median_home_value": 369800
+  },
+  "west-valley-city-ut": {
+    "concern": 25.2,
+    "effective_rate_pct": 0.63,
+    "median_annual_taxes": 2374,
+    "median_home_value": 377300
+  },
+  "westland-mi": {
+    "concern": 60.6,
+    "effective_rate_pct": 1.52,
+    "median_annual_taxes": 2674,
+    "median_home_value": 176500
+  },
+  "westminster-ca": {
+    "concern": 24.8,
+    "effective_rate_pct": 0.62,
+    "median_annual_taxes": 5079,
+    "median_home_value": 820000
+  },
+  "westminster-co": {
+    "concern": 20.2,
+    "effective_rate_pct": 0.5,
+    "median_annual_taxes": 2509,
+    "median_home_value": 497400
+  },
+  "whitewright-tx": {
+    "concern": 49.8,
+    "effective_rate_pct": 1.24,
+    "median_annual_taxes": 2581,
+    "median_home_value": 207500
+  },
+  "whittier-ca": {
+    "concern": 26.5,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 4979,
+    "median_home_value": 751700
+  },
+  "wichita-falls-tx": {
+    "concern": 71.6,
+    "effective_rate_pct": 1.79,
+    "median_annual_taxes": 2554,
+    "median_home_value": 142600
+  },
+  "wichita-ks": {
+    "concern": 47.3,
+    "effective_rate_pct": 1.18,
+    "median_annual_taxes": 2122,
+    "median_home_value": 179500
+  },
+  "wilmington-nc": {
+    "concern": 28.8,
+    "effective_rate_pct": 0.72,
+    "median_annual_taxes": 2521,
+    "median_home_value": 350300
+  },
+  "winston-salem-nc": {
+    "concern": 37.7,
+    "effective_rate_pct": 0.94,
+    "median_annual_taxes": 1964,
+    "median_home_value": 208200
+  },
+  "woodbury-mn": {
+    "concern": 42.1,
+    "effective_rate_pct": 1.05,
+    "median_annual_taxes": 4574,
+    "median_home_value": 434900
+  },
+  "worcester-ma": {
+    "concern": 53.7,
+    "effective_rate_pct": 1.34,
+    "median_annual_taxes": 4555,
+    "median_home_value": 339500
+  },
+  "wyoming-mi": {
+    "concern": 52.6,
+    "effective_rate_pct": 1.32,
+    "median_annual_taxes": 2683,
+    "median_home_value": 203900
+  },
+  "yakima-wa": {
+    "concern": 33.0,
+    "effective_rate_pct": 0.83,
+    "median_annual_taxes": 2258,
+    "median_home_value": 273400
+  },
+  "yonkers-ny": {
+    "concern": 78.9,
+    "effective_rate_pct": 1.97,
+    "median_annual_taxes": 9434,
+    "median_home_value": 478000
+  },
+  "yuma-az": {
+    "concern": 26.5,
+    "effective_rate_pct": 0.66,
+    "median_annual_taxes": 1384,
+    "median_home_value": 209100
+  }
+}

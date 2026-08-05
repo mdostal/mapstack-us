@@ -125,6 +125,21 @@ data/raw/measured-grass-pollen-cache/
 # data/income-tax.json IS committed.
 data/raw/income-tax-cache/
 
+# Pure fetch-scratch for the property-tax dataset build
+# (scripts/gen_property_tax_data.py) -- same posture as the caches above.
+# data/property-tax.json IS committed.
+data/raw/property-tax-cache/
+
+# Pure fetch-scratch for the unemployment dataset build
+# (scripts/gen_unemployment_data.py) -- same posture as the caches above.
+# data/unemployment.json IS committed.
+data/raw/unemployment-cache/
+
+# Pure fetch-scratch for the air-quality dataset build
+# (scripts/gen_air_quality_data.py) -- same posture as the caches above.
+# data/air-quality.json IS committed.
+data/raw/air-quality-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

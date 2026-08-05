@@ -365,6 +365,54 @@ test("the twenty-second dataset (state income tax) is selectable and reports a r
   await expect(detail).toContainText("reflects the whole state");
 });
 
+test("the twenty-third dataset (property tax) is selectable and reports a real Census-sourced rate", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Property tax" }).click();
+  await page.getByRole("button", { name: "Effective property tax rate", exact: true }).click();
+  await page.getByRole("button", { name: "Add Effective property tax rate" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Property tax: Effective property tax rate" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Property tax" });
+  await expect(detail).toContainText("effective property tax rate");
+  await expect(detail).toContainText("Census ACS");
+});
+
+test("the twenty-fourth dataset (unemployment) is selectable and reports a real BLS-sourced rate with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Unemployment" }).click();
+  await page.getByRole("button", { name: "Unemployment rate", exact: true }).click();
+  await page.getByRole("button", { name: "Add Unemployment rate" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Unemployment: Unemployment rate" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Unemployment" });
+  await expect(detail).toContainText("unemployment rate");
+  await expect(detail).toContainText("BLS LAUS");
+});
+
+test("the twenty-fifth dataset (air quality) is selectable and reports a real AirNow-sourced AQI value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Air quality" }).click();
+  await page.getByRole("button", { name: "Air Quality Index", exact: true }).click();
+  await page.getByRole("button", { name: "Add Air Quality Index" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Air quality: Air Quality Index" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Air quality" });
+  await expect(detail).toContainText("AQI");
+  await expect(detail).toContainText("EPA AirNow");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

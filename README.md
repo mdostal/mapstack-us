@@ -34,8 +34,8 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  twenty-two genuinely different real implementations across the full 512-city spine,
-  all free and keyless:
+  twenty-five genuinely different real implementations across the full 512-city spine,
+  all free (all but crime, property tax, unemployment, and air quality also keyless):
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
@@ -88,6 +88,17 @@ built from two real, working examples instead of upfront design.
   - **State income tax** — real state individual income tax rate at each city's own
     real median household income, not the top bracket. State-level only, full
     512-city coverage with no API key (`data/income-tax-methodology.md`).
+  - **Property tax** — real effective property tax rate (median taxes ÷ median home
+    value), the first dataset pulled directly from the Census API rather than a free
+    republication route, unblocked by a real `CENSUS_API_KEY`
+    (`data/property-tax-methodology.md`).
+  - **Unemployment** — real BLS Local Area Unemployment Statistics, city-level where
+    available, county fallback otherwise, full 512-city coverage, unblocked by a real
+    `BLS_API_KEY` (`data/unemployment-methodology.md`).
+  - **Air quality** — real current-conditions AQI (PM2.5/ozone, worse of the two) from
+    EPA AirNow, unblocked by a real `EPA_AIRNOW_API_KEY`. 459/512 coverage, with the
+    rest a real, recoverable rate-limit gap, not a fabricated value
+    (`data/air-quality-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
@@ -109,15 +120,20 @@ built from two real, working examples instead of upfront design.
 
 ## What's next
 
-The Census-cluster datasets (population, income, broadband, property tax, at full
-~19,500-place resolution) are designed but blocked on a free, self-serve
-`CENSUS_API_KEY` (see `.pHive/epics/data-store/docs/full-resolution-spine-research.md`
-for the lazy-load design once that's available). Beyond that: more free, keyless real
-datasets as good candidates turn up (`.pHive/epics/data-store/docs/dataset-backlog.md`
-tracks research on ~25 candidates, ranked by real-world feasibility and effort), and
-continuing to port allergy-locator's fuller daily/seasonal resolution into this same
-generalized interface. See `.pHive/planning/roadmap.md` (v5) in the allergy-locator
-repo for the fuller reasoning this project grew out of.
+A `CENSUS_API_KEY` is finally in hand — property tax just shipped as the first dataset
+pulled directly from the Census API. Population growth/decline (the last Census-cluster
+item) is still blocked, but now on a real API-endpoint question rather than a missing
+key: Census's own PEP place-level population product appears to have moved for recent
+vintages (the `pep/population` path only supports state-level geography as of 2023),
+and the real current path hasn't been found yet. Full ~19,500-place resolution (beyond
+the 512-city spine) remains a separate, larger lift — see
+`.pHive/epics/data-store/docs/full-resolution-spine-research.md` for the lazy-load
+design. Beyond that: more free real datasets as good candidates turn up
+(`.pHive/epics/data-store/docs/dataset-backlog.md` tracks research on further
+candidates, ranked by real-world feasibility and effort), and continuing to port
+allergy-locator's fuller daily/seasonal resolution into this same generalized interface.
+See `.pHive/planning/roadmap.md` (v5) in the allergy-locator repo for the fuller
+reasoning this project grew out of.
 
 ## Stack
 

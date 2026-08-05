@@ -1,0 +1,3736 @@
+{
+  "_meta": {
+    "aqi_cap_for_100_concern": 150.0,
+    "coverage": 459,
+    "distance_miles": 50,
+    "known_gap_cities_rate_limited_at_build": [
+      "oklahoma-city-ok",
+      "tulsa-ok",
+      "irvine-ca",
+      "santa-ana-ca",
+      "boise-id",
+      "huntington-beach-ca",
+      "ontario-ca",
+      "rancho-cucamonga-ca",
+      "corona-ca",
+      "pomona-ca",
+      "meridian-id",
+      "stamford-ct",
+      "torrance-ca",
+      "abilene-tx",
+      "norman-ok",
+      "broken-arrow-ok",
+      "nampa-id",
+      "menifee-ca",
+      "concord-nc",
+      "costa-mesa-ca",
+      "downey-ca",
+      "wichita-falls-tx",
+      "inglewood-ca",
+      "san-angelo-tx",
+      "edmond-ok",
+      "norwalk-ca",
+      "chino-ca",
+      "indio-ca",
+      "hemet-ca",
+      "lawton-ok",
+      "gastonia-nc",
+      "santa-barbara-ca",
+      "citrus-heights-ca",
+      "jonesboro-ar",
+      "perris-ca",
+      "hawthorne-ca",
+      "newport-beach-ca",
+      "upland-ca",
+      "tustin-ca",
+      "chino-hills-ca",
+      "caldwell-id",
+      "carlsbad-nm",
+      "kalispell-mt",
+      "durango-co",
+      "los-alamos-nm",
+      "sandpoint-id",
+      "taos-nm",
+      "blanding-ut",
+      "monticello-ut",
+      "whitewright-tx",
+      "sundance-wy",
+      "geraldine-mt",
+      "grand-junction-co"
+    ],
+    "note": "The cities listed above returned AirNow rate-limit errors during this build (a new API key appears to start with a lower hourly quota), not a genuine no-monitor gap -- most (Oklahoma City, Tulsa, Boise, Santa Barbara, and several LA-basin suburbs) almost certainly have real nearby monitors. Re-run scripts/gen_air_quality_data.py after the quota resets to recover them.",
+    "source": "EPA AirNow, current-conditions observation (real-time, single build-time snapshot)"
+  },
+  "akron-oh": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Canton and Massillon"
+  },
+  "alameda-ca": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oakland"
+  },
+  "albany-ny": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Upper Hudson Valley Region"
+  },
+  "albuquerque-nm": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Albuquerque"
+  },
+  "alexandria-va": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northern Virginia and DC"
+  },
+  "alhambra-ca": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "W San Gabriel Vly"
+  },
+  "allen-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "allentown-pa": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Lehigh Valley"
+  },
+  "amarillo-tx": {
+    "aqi": 37,
+    "category": "Good",
+    "concern": 24.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Amarillo"
+  },
+  "anaheim-ca": {
+    "aqi": 22,
+    "category": "Good",
+    "concern": 14.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "North Orange CO"
+  },
+  "anchorage-ak": {
+    "aqi": 9,
+    "category": "Good",
+    "concern": 6.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Anchorage"
+  },
+  "ankeny-ia": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Des Moines"
+  },
+  "ann-arbor-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "antioch-ca": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Concord"
+  },
+  "apex-nc": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Wake County"
+  },
+  "arlington-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "arlington-va": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northern Virginia and DC"
+  },
+  "arvada-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "asheville-nc": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Buncombe County"
+  },
+  "athens-ga": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Athens-Clarke County"
+  },
+  "atlanta-ga": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Atlanta"
+  },
+  "auburn-al": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Columbus-Phenix City - GA and AL"
+  },
+  "auburn-wa": {
+    "aqi": 94,
+    "category": "Moderate",
+    "concern": 62.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tacoma-Puyallup"
+  },
+  "augusta-ga": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Aiken-Augusta - SC and GA"
+  },
+  "aurora-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "aurora-il": {
+    "aqi": 61,
+    "category": "Moderate",
+    "concern": 40.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Aurora and Elgin"
+  },
+  "austin-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "avondale-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "bakersfield-ca": {
+    "aqi": 91,
+    "category": "Moderate",
+    "concern": 60.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bakersfield"
+  },
+  "baltimore-md": {
+    "aqi": 28,
+    "category": "Good",
+    "concern": 18.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Metro Baltimore"
+  },
+  "baton-rouge-la": {
+    "aqi": 62,
+    "category": "Moderate",
+    "concern": 41.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Baton Rouge Area"
+  },
+  "baytown-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "beaumont-tx": {
+    "aqi": 66,
+    "category": "Moderate",
+    "concern": 44.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Beaumont-Port Arthur"
+  },
+  "beaverton-or": {
+    "aqi": 137,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 91.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Beaverton"
+  },
+  "bellevue-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "bellingham-wa": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bellingham"
+  },
+  "bend-or": {
+    "aqi": 165,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bend and Redmond"
+  },
+  "berkeley-ca": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oakland"
+  },
+  "bethlehem-pa": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Lehigh Valley"
+  },
+  "billings-mt": {
+    "aqi": 72,
+    "category": "Moderate",
+    "concern": 48.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Billings"
+  },
+  "birmingham-al": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Birmingham"
+  },
+  "bismarck-nd": {
+    "aqi": 33,
+    "category": "Good",
+    "concern": 22.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Bismarck"
+  },
+  "bloomington-il": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bloomington and Normal"
+  },
+  "bloomington-in": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bloomington"
+  },
+  "bloomington-mn": {
+    "aqi": 33,
+    "category": "Good",
+    "concern": 22.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Southern Twin Cities Metro"
+  },
+  "boca-raton-fl": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "West Palm Beach"
+  },
+  "boston-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "boulder-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "bowling-green-ky": {
+    "aqi": 37,
+    "category": "Good",
+    "concern": 24.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Bowling Green"
+  },
+  "boynton-beach-fl": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "West Palm Beach"
+  },
+  "bridgeport-ct": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bridgeport"
+  },
+  "brockton-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "North Bristol-Plymouth"
+  },
+  "brooklyn-park-mn": {
+    "aqi": 32,
+    "category": "Good",
+    "concern": 21.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Northern Twin Cities Metro"
+  },
+  "broomfield-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "brownsville-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Brownsville-McAllen"
+  },
+  "bryan-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bryan-College Station"
+  },
+  "buckeye-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "buena-park-ca": {
+    "aqi": 71,
+    "category": "Moderate",
+    "concern": 47.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Central Orange"
+  },
+  "buffalo-ny": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Western New York Region"
+  },
+  "burbank-ca": {
+    "aqi": 26,
+    "category": "Good",
+    "concern": 17.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "E San Fernando Vly"
+  },
+  "cambridge-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "cape-coral-fl": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Myers"
+  },
+  "carlsbad-ca": {
+    "aqi": 63,
+    "category": "Moderate",
+    "concern": 42.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Diego Coast"
+  },
+  "carmel-in": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Indianapolis"
+  },
+  "carrollton-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "carson-ca": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "South Coastal LA"
+  },
+  "cary-nc": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Wake County"
+  },
+  "castle-rock-co": {
+    "aqi": 73,
+    "category": "Moderate",
+    "concern": 48.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Colorado Springs"
+  },
+  "cedar-park-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "cedar-rapids-ia": {
+    "aqi": 74,
+    "category": "Moderate",
+    "concern": 49.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Iowa City"
+  },
+  "centennial-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "champaign-il": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Champaign"
+  },
+  "chandler-az": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Salt River Pima-Maricopa Indian Community"
+  },
+  "charleston-sc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Charleston"
+  },
+  "charlotte-nc": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Mecklenburg County"
+  },
+  "chattanooga-tn": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Chattanooga"
+  },
+  "chesapeake-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "chicago-il": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Chicago"
+  },
+  "chico-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Chico"
+  },
+  "chula-vista-ca": {
+    "aqi": 78,
+    "category": "Moderate",
+    "concern": 52.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Border Area"
+  },
+  "cicero-il": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Chicago"
+  },
+  "cincinnati-oh": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Cincinnati"
+  },
+  "clarksville-tn": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Clarksville-Montgomery County"
+  },
+  "clearwater-fl": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "St. Petersburg"
+  },
+  "cleveland-oh": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Cleveland-Akron-Lorain"
+  },
+  "clifton-nj": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "clovis-ca": {
+    "aqi": 87,
+    "category": "Moderate",
+    "concern": 58.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Fresno"
+  },
+  "college-station-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Bryan-College Station"
+  },
+  "colorado-springs-co": {
+    "aqi": 73,
+    "category": "Moderate",
+    "concern": 48.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Colorado Springs"
+  },
+  "columbia-mo": {
+    "aqi": 20,
+    "category": "Good",
+    "concern": 13.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Columbia"
+  },
+  "columbia-sc": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Columbia"
+  },
+  "columbus-ga": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Columbus-Phenix City - GA and AL"
+  },
+  "columbus-oh": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Columbus"
+  },
+  "compton-ca": {
+    "aqi": 66,
+    "category": "Moderate",
+    "concern": 44.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "S Central LA CO"
+  },
+  "concord-ca": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Concord"
+  },
+  "conroe-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "coral-springs-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "corpus-christi-tx": {
+    "aqi": 71,
+    "category": "Moderate",
+    "concern": 47.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Corpus Christi"
+  },
+  "cranston-ri": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Providence"
+  },
+  "dallas-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "daly-city-ca": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Francisco"
+  },
+  "danbury-ct": {
+    "aqi": 45,
+    "category": "Good",
+    "concern": 30.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Danbury"
+  },
+  "davenport-ia": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Davenport"
+  },
+  "davie-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "dayton-oh": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dayton"
+  },
+  "daytona-beach-fl": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Daytona Beach"
+  },
+  "dearborn-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "deerfield-beach-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "deltona-fl": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seminole County"
+  },
+  "denton-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "denver-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "des-moines-ia": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Des Moines"
+  },
+  "detroit-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "doral-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "duluth-mn": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Duluth Area"
+  },
+  "durham-nc": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Durham County"
+  },
+  "edinburg-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Brownsville-McAllen"
+  },
+  "el-cajon-ca": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Diego Mesa and Inland Valley"
+  },
+  "el-monte-ca": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "S San Gabriel Vly"
+  },
+  "el-paso-tx": {
+    "aqi": 135,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 90.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "El Paso"
+  },
+  "elgin-il": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "North and West Suburbs (Chicago)"
+  },
+  "elizabeth-nj": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "elk-grove-ca": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Elk Grove"
+  },
+  "erie-pa": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Erie"
+  },
+  "escondido-ca": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Diego Mesa and Inland Valley"
+  },
+  "eugene-or": {
+    "aqi": 187,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Eugene and Springfield"
+  },
+  "evansville-in": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Evansville"
+  },
+  "everett-wa": {
+    "aqi": 158,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Everett-Marysville-Lynnwood"
+  },
+  "fairfield-ca": {
+    "aqi": 21,
+    "category": "Good",
+    "concern": 14.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Fairfield"
+  },
+  "fall-river-ma": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "South Bristol-Plymouth"
+  },
+  "fargo-nd": {
+    "aqi": 27,
+    "category": "Good",
+    "concern": 18.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fargo"
+  },
+  "farmington-hills-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "fayetteville-ar": {
+    "aqi": 70,
+    "category": "Moderate",
+    "concern": 46.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Springdale (Springdale-Fayetteville-Bentonville)"
+  },
+  "fayetteville-nc": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Cumberland County"
+  },
+  "federal-way-wa": {
+    "aqi": 94,
+    "category": "Moderate",
+    "concern": 62.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tacoma-Puyallup"
+  },
+  "fishers-in": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Indianapolis"
+  },
+  "flagstaff-az": {
+    "aqi": 40,
+    "category": "Good",
+    "concern": 26.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Flagstaff"
+  },
+  "flint-mi": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Flint"
+  },
+  "flower-mound-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "folsom-ca": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Folsom"
+  },
+  "fontana-ca": {
+    "aqi": 69,
+    "category": "Moderate",
+    "concern": 46.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "C San Bernardino"
+  },
+  "fort-collins-co": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Collins"
+  },
+  "fort-lauderdale-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "fort-myers-fl": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Myers"
+  },
+  "fort-smith-ar": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Roland"
+  },
+  "fort-wayne-in": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Wayne"
+  },
+  "fort-worth-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "franklin-tn": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Nashville"
+  },
+  "frederick-md": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Maryland Piedmont"
+  },
+  "fremont-ca": {
+    "aqi": 22,
+    "category": "Good",
+    "concern": 14.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Fremont"
+  },
+  "fresno-ca": {
+    "aqi": 87,
+    "category": "Moderate",
+    "concern": 58.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Fresno"
+  },
+  "frisco-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "fullerton-ca": {
+    "aqi": 22,
+    "category": "Good",
+    "concern": 14.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "North Orange CO"
+  },
+  "gainesville-fl": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Gainesville"
+  },
+  "garden-grove-ca": {
+    "aqi": 71,
+    "category": "Moderate",
+    "concern": 47.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Central Orange"
+  },
+  "garland-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "georgetown-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "gilbert-az": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Salt River Pima-Maricopa Indian Community"
+  },
+  "glendale-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "glendale-ca": {
+    "aqi": 26,
+    "category": "Good",
+    "concern": 17.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "E San Fernando Vly"
+  },
+  "goodyear-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "grand-prairie-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "grand-rapids-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Grand Rapids"
+  },
+  "greeley-co": {
+    "aqi": 77,
+    "category": "Moderate",
+    "concern": 51.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Greeley"
+  },
+  "green-bay-wi": {
+    "aqi": 72,
+    "category": "Moderate",
+    "concern": 48.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Green Bay and Fox Cities"
+  },
+  "greensboro-nc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Forsyth County-Winston-Salem-Greensboro-High Point"
+  },
+  "greenville-nc": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Pitt County"
+  },
+  "gresham-or": {
+    "aqi": 168,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Clackamas"
+  },
+  "hampton-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "hartford-ct": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Hartford"
+  },
+  "hayward-ca": {
+    "aqi": 22,
+    "category": "Good",
+    "concern": 14.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Fremont"
+  },
+  "henderson-nv": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boulder City"
+  },
+  "hesperia-ca": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Hesperia"
+  },
+  "hialeah-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "high-point-nc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Forsyth County-Winston-Salem-Greensboro-High Point"
+  },
+  "hillsboro-or": {
+    "aqi": 117,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 78.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hillsboro"
+  },
+  "hollywood-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "homestead-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "honolulu-hi": {
+    "aqi": 17,
+    "category": "Good",
+    "concern": 11.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Honolulu"
+  },
+  "hoover-al": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Birmingham"
+  },
+  "houston-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "huntsville-al": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Huntsville"
+  },
+  "independence-mo": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "indianapolis-in": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Indianapolis"
+  },
+  "irving-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "jackson-ms": {
+    "aqi": 62,
+    "category": "Moderate",
+    "concern": 41.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Jackson"
+  },
+  "jacksonville-fl": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Jacksonville"
+  },
+  "jersey-city-nj": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "johns-creek-ga": {
+    "aqi": 30,
+    "category": "Good",
+    "concern": 20.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Gainesville"
+  },
+  "joliet-il": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Joliet and Will County"
+  },
+  "jurupa-valley-ca": {
+    "aqi": 78,
+    "category": "Moderate",
+    "concern": 52.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Metro Riverside CO"
+  },
+  "kansas-city-ks": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "kansas-city-mo": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "kennewick-wa": {
+    "aqi": 164,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kennewick"
+  },
+  "kenosha-wi": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kenosha-Racine Lakeside"
+  },
+  "kent-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "killeen-tx": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Waco-Killeen"
+  },
+  "kirkland-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "kissimmee-fl": {
+    "aqi": 42,
+    "category": "Good",
+    "concern": 28.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Orlando"
+  },
+  "knoxville-tn": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Knoxville"
+  },
+  "lafayette-la": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lafayette"
+  },
+  "lake-charles-la": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lake Charles"
+  },
+  "lake-forest-ca": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Saddleback Vly"
+  },
+  "lakeland-fl": {
+    "aqi": 30,
+    "category": "Good",
+    "concern": 20.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lakeland"
+  },
+  "lakeville-mn": {
+    "aqi": 33,
+    "category": "Good",
+    "concern": 22.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Southern Twin Cities Metro"
+  },
+  "lakewood-ca": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "South Coastal LA"
+  },
+  "lakewood-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "lancaster-ca": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Antelope Vly"
+  },
+  "lansing-mi": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lansing"
+  },
+  "laredo-tx": {
+    "aqi": 66,
+    "category": "Moderate",
+    "concern": 44.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Laredo"
+  },
+  "largo-fl": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "St. Petersburg"
+  },
+  "las-cruces-nm": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Las Cruces"
+  },
+  "las-vegas-nv": {
+    "aqi": 80,
+    "category": "Moderate",
+    "concern": 53.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Las Vegas"
+  },
+  "lawrence-ks": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Topeka"
+  },
+  "lawrence-ma": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Essex"
+  },
+  "layton-ut": {
+    "aqi": 88,
+    "category": "Moderate",
+    "concern": 58.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Ogden"
+  },
+  "league-city-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "leander-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "lees-summit-mo": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "lehi-ut": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Timpanogos Cave National Monument"
+  },
+  "lewisville-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "lexington-ky": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Lexington"
+  },
+  "lincoln-ne": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lincoln"
+  },
+  "little-rock-ar": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Little Rock-North Little Rock"
+  },
+  "livermore-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Livermore"
+  },
+  "livonia-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "long-beach-ca": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "South Coastal LA"
+  },
+  "longmont-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "longview-tx": {
+    "aqi": 73,
+    "category": "Moderate",
+    "concern": 48.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tyler-Longview-Marshall"
+  },
+  "los-angeles-ca": {
+    "aqi": 62,
+    "category": "Moderate",
+    "concern": 41.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Central LA CO"
+  },
+  "louisville-ky": {
+    "aqi": 61,
+    "category": "Moderate",
+    "concern": 40.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Louisville"
+  },
+  "loveland-co": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Collins"
+  },
+  "lowell-ma": {
+    "aqi": 30,
+    "category": "Good",
+    "concern": 20.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "West Middlesex"
+  },
+  "lubbock-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lubbock"
+  },
+  "lynchburg-va": {
+    "aqi": 28,
+    "category": "Good",
+    "concern": 18.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Natural Bridge"
+  },
+  "lynn-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "mableton-ga": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Atlanta"
+  },
+  "macon-ga": {
+    "aqi": 63,
+    "category": "Moderate",
+    "concern": 42.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Macon"
+  },
+  "madison-wi": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Madison Area"
+  },
+  "manchester-nh": {
+    "aqi": 28,
+    "category": "Good",
+    "concern": 18.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Interior Rockingham County"
+  },
+  "mansfield-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "manteca-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Stockton"
+  },
+  "maricopa-az": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Gila River Indian Community"
+  },
+  "marysville-wa": {
+    "aqi": 158,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Everett-Marysville-Lynnwood"
+  },
+  "mcallen-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Brownsville-McAllen"
+  },
+  "mckinney-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "medford-or": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Medford"
+  },
+  "melbourne-fl": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Melbourne"
+  },
+  "memphis-tn": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Memphis"
+  },
+  "merced-ca": {
+    "aqi": 69,
+    "category": "Moderate",
+    "concern": 46.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Merced"
+  },
+  "mesa-az": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Salt River Pima-Maricopa Indian Community"
+  },
+  "mesquite-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "miami-beach-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "miami-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "miami-gardens-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "midland-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Midland-Odessa"
+  },
+  "milpitas-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Jose"
+  },
+  "milwaukee-wi": {
+    "aqi": 72,
+    "category": "Moderate",
+    "concern": 48.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Milwaukee-Ozaukee"
+  },
+  "minneapolis-mn": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Twin Cities"
+  },
+  "miramar-fl": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Miami"
+  },
+  "mission-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Brownsville-McAllen"
+  },
+  "mission-viejo-ca": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Saddleback Vly"
+  },
+  "missoula-mt": {
+    "aqi": 70,
+    "category": "Moderate",
+    "concern": 46.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Missoula"
+  },
+  "missouri-city-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "mobile-al": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Mobile"
+  },
+  "modesto-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Modesto"
+  },
+  "montgomery-al": {
+    "aqi": 32,
+    "category": "Good",
+    "concern": 21.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Montgomery"
+  },
+  "moreno-valley-ca": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "E San Bernardino"
+  },
+  "mount-pleasant-sc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Charleston"
+  },
+  "mountain-view-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Redwood City"
+  },
+  "murfreesboro-tn": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Nashville"
+  },
+  "murrieta-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Temecula Vly"
+  },
+  "naperville-il": {
+    "aqi": 61,
+    "category": "Moderate",
+    "concern": 40.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Aurora and Elgin"
+  },
+  "nashua-nh": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Hillsborough County"
+  },
+  "nashville-tn": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Nashville"
+  },
+  "new-bedford-ma": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "South Bristol-Plymouth"
+  },
+  "new-braunfels-tx": {
+    "aqi": 76,
+    "category": "Moderate",
+    "concern": 50.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Antonio"
+  },
+  "new-haven-ct": {
+    "aqi": 32,
+    "category": "Good",
+    "concern": 21.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "New Haven"
+  },
+  "new-orleans-la": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "New Orleans"
+  },
+  "new-rochelle-ny": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "New York City Region"
+  },
+  "new-york-ny": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "newark-nj": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "newport-news-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "newton-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "norfolk-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "north-charleston-sc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Charleston"
+  },
+  "north-las-vegas-nv": {
+    "aqi": 80,
+    "category": "Moderate",
+    "concern": 53.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Las Vegas"
+  },
+  "north-port-fl": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Sarasota"
+  },
+  "norwalk-ct": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Westport"
+  },
+  "oakland-ca": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oakland"
+  },
+  "oceanside-ca": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Pechanga Indian Reservation"
+  },
+  "odessa-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Midland-Odessa"
+  },
+  "ofallon-mo": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Saint Louis"
+  },
+  "ogden-ut": {
+    "aqi": 88,
+    "category": "Moderate",
+    "concern": 58.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Ogden"
+  },
+  "olathe-ks": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "omaha-ne": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Omaha"
+  },
+  "orange-ca": {
+    "aqi": 22,
+    "category": "Good",
+    "concern": 14.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "North Orange CO"
+  },
+  "orem-ut": {
+    "aqi": 77,
+    "category": "Moderate",
+    "concern": 51.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Provo"
+  },
+  "orlando-fl": {
+    "aqi": 42,
+    "category": "Good",
+    "concern": 28.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Orlando"
+  },
+  "overland-park-ks": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kansas City"
+  },
+  "oxnard-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oxnard"
+  },
+  "palm-bay-fl": {
+    "aqi": 27,
+    "category": "Good",
+    "concern": 18.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Indian River County"
+  },
+  "palm-coast-fl": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Daytona Beach"
+  },
+  "palmdale-ca": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Antelope Vly"
+  },
+  "parma-oh": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Cleveland-Akron-Lorain"
+  },
+  "pasadena-ca": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "W San Gabriel Vly"
+  },
+  "pasadena-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "pasco-wa": {
+    "aqi": 164,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kennewick"
+  },
+  "paterson-nj": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northeast Urban"
+  },
+  "pawtucket-ri": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Providence"
+  },
+  "pearland-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "pembroke-pines-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "peoria-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "peoria-il": {
+    "aqi": 62,
+    "category": "Moderate",
+    "concern": 41.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Peoria"
+  },
+  "pharr-tx": {
+    "aqi": 68,
+    "category": "Moderate",
+    "concern": 45.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Brownsville-McAllen"
+  },
+  "philadelphia-pa": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Philadelphia"
+  },
+  "phoenix-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "pittsburg-ca": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Concord"
+  },
+  "pittsburgh-pa": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Pittsburgh"
+  },
+  "plano-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "plantation-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "plymouth-mn": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Twin Cities"
+  },
+  "pompano-beach-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "port-st-lucie-fl": {
+    "aqi": 33,
+    "category": "Good",
+    "concern": 22.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Fort Pierce"
+  },
+  "portland-or": {
+    "aqi": 170,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Portland"
+  },
+  "portsmouth-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "providence-ri": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Providence"
+  },
+  "provo-ut": {
+    "aqi": 77,
+    "category": "Moderate",
+    "concern": 51.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Provo"
+  },
+  "pueblo-co": {
+    "aqi": 74,
+    "category": "Moderate",
+    "concern": 49.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Pueblo"
+  },
+  "queen-creek-az": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Gila River Indian Community"
+  },
+  "quincy-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "racine-wi": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Kenosha-Racine Lakeside"
+  },
+  "raleigh-nc": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Wake County"
+  },
+  "rancho-cordova-ca": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Sloughhouse"
+  },
+  "rapid-city-sd": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Rapid City"
+  },
+  "reading-pa": {
+    "aqi": 31,
+    "category": "Good",
+    "concern": 20.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Lehigh Valley"
+  },
+  "redding-ca": {
+    "aqi": 63,
+    "category": "Moderate",
+    "concern": 42.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Redding"
+  },
+  "redmond-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "redwood-city-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Redwood City"
+  },
+  "reno-nv": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Reno-Sparks"
+  },
+  "renton-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "rialto-ca": {
+    "aqi": 69,
+    "category": "Moderate",
+    "concern": 46.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "C San Bernardino"
+  },
+  "richardson-tx": {
+    "aqi": 84,
+    "category": "Moderate",
+    "concern": 56.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Dallas-Fort Worth"
+  },
+  "richmond-ca": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Rafael"
+  },
+  "richmond-va": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Richmond"
+  },
+  "rio-rancho-nm": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Albuquerque"
+  },
+  "riverside-ca": {
+    "aqi": 78,
+    "category": "Moderate",
+    "concern": 52.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Metro Riverside CO"
+  },
+  "roanoke-va": {
+    "aqi": 27,
+    "category": "Good",
+    "concern": 18.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Roanoke"
+  },
+  "rochester-hills-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "rochester-mn": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Rochester Area"
+  },
+  "rochester-ny": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Eastern Lake Ontario Region"
+  },
+  "rockford-il": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Rockford"
+  },
+  "rocklin-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Roseville-Rocklin"
+  },
+  "rogers-ar": {
+    "aqi": 70,
+    "category": "Moderate",
+    "concern": 46.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Springdale (Springdale-Fayetteville-Bentonville)"
+  },
+  "roseville-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Roseville-Rocklin"
+  },
+  "roswell-ga": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Atlanta"
+  },
+  "round-rock-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "sacramento-ca": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Sacramento"
+  },
+  "saint-paul-mn": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Twin Cities"
+  },
+  "salem-or": {
+    "aqi": 157,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salem"
+  },
+  "salinas-ca": {
+    "aqi": 45,
+    "category": "Good",
+    "concern": 30.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salinas"
+  },
+  "salt-lake-city-ut": {
+    "aqi": 90,
+    "category": "Moderate",
+    "concern": 60.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salt Lake City"
+  },
+  "san-antonio-tx": {
+    "aqi": 76,
+    "category": "Moderate",
+    "concern": 50.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Antonio"
+  },
+  "san-bernardino-ca": {
+    "aqi": 69,
+    "category": "Moderate",
+    "concern": 46.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "C San Bernardino"
+  },
+  "san-diego-ca": {
+    "aqi": 63,
+    "category": "Moderate",
+    "concern": 42.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Diego Coast"
+  },
+  "san-francisco-ca": {
+    "aqi": 44,
+    "category": "Good",
+    "concern": 29.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Francisco"
+  },
+  "san-jose-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Jose"
+  },
+  "san-leandro-ca": {
+    "aqi": 57,
+    "category": "Moderate",
+    "concern": 38.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oakland"
+  },
+  "san-marcos-ca": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Diego Mesa and Inland Valley"
+  },
+  "san-marcos-tx": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Austin"
+  },
+  "san-mateo-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Redwood City"
+  },
+  "san-ramon-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Livermore"
+  },
+  "sandy-springs-ga": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Atlanta"
+  },
+  "sandy-ut": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Timpanogos Cave National Monument"
+  },
+  "santa-clara-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Jose"
+  },
+  "santa-clarita-ca": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Santa Clarita Vly"
+  },
+  "santa-fe-nm": {
+    "aqi": 42,
+    "category": "Good",
+    "concern": 28.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Santa Fe"
+  },
+  "santa-maria-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Santa Maria"
+  },
+  "santa-monica-ca": {
+    "aqi": 26,
+    "category": "Good",
+    "concern": 17.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "NW Coastal LA"
+  },
+  "santa-rosa-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Santa Rosa"
+  },
+  "savannah-ga": {
+    "aqi": 37,
+    "category": "Good",
+    "concern": 24.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Savannah"
+  },
+  "schaumburg-il": {
+    "aqi": 64,
+    "category": "Moderate",
+    "concern": 42.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "North and West Suburbs (Chicago)"
+  },
+  "scottsdale-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "seattle-wa": {
+    "aqi": 139,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 92.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Seattle-Bellevue-Kent Valley"
+  },
+  "shreveport-la": {
+    "aqi": 75,
+    "category": "Moderate",
+    "concern": 50.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Shreveport"
+  },
+  "simi-valley-ca": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Simi Valley"
+  },
+  "sioux-city-ia": {
+    "aqi": 16,
+    "category": "Good",
+    "concern": 10.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Sioux City"
+  },
+  "sioux-falls-sd": {
+    "aqi": 15,
+    "category": "Good",
+    "concern": 10.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Sioux Falls"
+  },
+  "somerville-ma": {
+    "aqi": 41,
+    "category": "Good",
+    "concern": 27.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Boston Metro"
+  },
+  "south-bend-in": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "South Bend"
+  },
+  "south-fulton-ga": {
+    "aqi": 60,
+    "category": "Moderate",
+    "concern": 40.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Atlanta"
+  },
+  "south-gate-ca": {
+    "aqi": 66,
+    "category": "Moderate",
+    "concern": 44.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "S Central LA CO"
+  },
+  "south-jordan-ut": {
+    "aqi": 90,
+    "category": "Moderate",
+    "concern": 60.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salt Lake City"
+  },
+  "sparks-nv": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Reno-Sparks"
+  },
+  "spokane-valley-wa": {
+    "aqi": 141,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 94.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Spokane"
+  },
+  "spokane-wa": {
+    "aqi": 141,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 94.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Spokane"
+  },
+  "springdale-ar": {
+    "aqi": 70,
+    "category": "Moderate",
+    "concern": 46.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Springdale (Springdale-Fayetteville-Bentonville)"
+  },
+  "springfield-il": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Springfield"
+  },
+  "springfield-ma": {
+    "aqi": 37,
+    "category": "Good",
+    "concern": 24.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampden-Hampshire"
+  },
+  "springfield-mo": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Springfield"
+  },
+  "st-george-ut": {
+    "aqi": 39,
+    "category": "Good",
+    "concern": 26.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Hurricane"
+  },
+  "st-louis-mo": {
+    "aqi": 63,
+    "category": "Moderate",
+    "concern": 42.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "St. Louis (Metro-east)"
+  },
+  "st-petersburg-fl": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "St. Petersburg"
+  },
+  "sterling-heights-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "stockton-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Stockton"
+  },
+  "suffolk-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "sugar-land-tx": {
+    "aqi": 79,
+    "category": "Moderate",
+    "concern": 52.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Houston-Galveston-Brazoria"
+  },
+  "sunnyvale-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "San Jose"
+  },
+  "sunrise-fl": {
+    "aqi": 36,
+    "category": "Good",
+    "concern": 24.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Broward County"
+  },
+  "surprise-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "syracuse-ny": {
+    "aqi": 45,
+    "category": "Good",
+    "concern": 30.0,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Central New York Region"
+  },
+  "tacoma-wa": {
+    "aqi": 94,
+    "category": "Moderate",
+    "concern": 62.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tacoma-Puyallup"
+  },
+  "tallahassee-fl": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tallahassee"
+  },
+  "tampa-fl": {
+    "aqi": 50,
+    "category": "Good",
+    "concern": 33.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tampa"
+  },
+  "temecula-ca": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Temecula Vly"
+  },
+  "tempe-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Phoenix"
+  },
+  "temple-tx": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Waco-Killeen"
+  },
+  "thornton-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "thousand-oaks-ca": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Thousand Oaks"
+  },
+  "toledo-oh": {
+    "aqi": 55,
+    "category": "Moderate",
+    "concern": 36.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Toledo"
+  },
+  "topeka-ks": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Topeka"
+  },
+  "tracy-ca": {
+    "aqi": 53,
+    "category": "Moderate",
+    "concern": 35.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Livermore"
+  },
+  "trenton-nj": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Central"
+  },
+  "troy-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "tucson-az": {
+    "aqi": 61,
+    "category": "Moderate",
+    "concern": 40.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tucson"
+  },
+  "tuscaloosa-al": {
+    "aqi": 49,
+    "category": "Good",
+    "concern": 32.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tuscaloosa"
+  },
+  "tyler-tx": {
+    "aqi": 73,
+    "category": "Moderate",
+    "concern": 48.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Tyler-Longview-Marshall"
+  },
+  "vacaville-ca": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Vacaville"
+  },
+  "vallejo-ca": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Napa"
+  },
+  "vancouver-wa": {
+    "aqi": 149,
+    "category": "Unhealthy for Sensitive Groups",
+    "concern": 99.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Vancouver"
+  },
+  "ventura-ca": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Oxnard"
+  },
+  "victorville-ca": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Victorville"
+  },
+  "virginia-beach-va": {
+    "aqi": 48,
+    "category": "Good",
+    "concern": 32.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Hampton Roads"
+  },
+  "visalia-ca": {
+    "aqi": 54,
+    "category": "Moderate",
+    "concern": 36.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Visalia"
+  },
+  "vista-ca": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Pechanga Indian Reservation"
+  },
+  "waco-tx": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Waco-Killeen"
+  },
+  "warner-robins-ga": {
+    "aqi": 52,
+    "category": "Moderate",
+    "concern": 34.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Warner Robins"
+  },
+  "warren-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "warwick-ri": {
+    "aqi": 51,
+    "category": "Moderate",
+    "concern": 34.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Providence"
+  },
+  "washington-dc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Northern Virginia and DC"
+  },
+  "waterbury-ct": {
+    "aqi": 38,
+    "category": "Good",
+    "concern": 25.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Waterbury"
+  },
+  "waukegan-il": {
+    "aqi": 56,
+    "category": "Moderate",
+    "concern": 37.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Lake County"
+  },
+  "west-covina-ca": {
+    "aqi": 65,
+    "category": "Moderate",
+    "concern": 43.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "E San Gabriel Vly"
+  },
+  "west-jordan-ut": {
+    "aqi": 90,
+    "category": "Moderate",
+    "concern": 60.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salt Lake City"
+  },
+  "west-palm-beach-fl": {
+    "aqi": 34,
+    "category": "Good",
+    "concern": 22.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "West Palm Beach"
+  },
+  "west-valley-city-ut": {
+    "aqi": 90,
+    "category": "Moderate",
+    "concern": 60.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Salt Lake City"
+  },
+  "westland-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Southeast"
+  },
+  "westminster-ca": {
+    "aqi": 71,
+    "category": "Moderate",
+    "concern": 47.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Central Orange"
+  },
+  "westminster-co": {
+    "aqi": 83,
+    "category": "Moderate",
+    "concern": 55.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Denver-Boulder"
+  },
+  "whittier-ca": {
+    "aqi": 23,
+    "category": "Good",
+    "concern": 15.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "S San Gabriel Vly"
+  },
+  "wichita-ks": {
+    "aqi": 67,
+    "category": "Moderate",
+    "concern": 44.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Wichita"
+  },
+  "wilmington-nc": {
+    "aqi": 24,
+    "category": "Good",
+    "concern": 16.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "New Hanover County"
+  },
+  "winston-salem-nc": {
+    "aqi": 46,
+    "category": "Good",
+    "concern": 30.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Forsyth County-Winston-Salem-Greensboro-High Point"
+  },
+  "woodbury-mn": {
+    "aqi": 47,
+    "category": "Good",
+    "concern": 31.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM10",
+    "reporting_area": "Twin Cities"
+  },
+  "worcester-ma": {
+    "aqi": 32,
+    "category": "Good",
+    "concern": 21.3,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "Worcester"
+  },
+  "wyoming-mi": {
+    "aqi": 58,
+    "category": "Moderate",
+    "concern": 38.7,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Grand Rapids"
+  },
+  "yakima-wa": {
+    "aqi": 169,
+    "category": "Unhealthy",
+    "concern": 100.0,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Yakima"
+  },
+  "yonkers-ny": {
+    "aqi": 43,
+    "category": "Good",
+    "concern": 28.7,
+    "date_observed": "2026-08-05",
+    "parameter": "O3",
+    "reporting_area": "New York City Region"
+  },
+  "yuma-az": {
+    "aqi": 59,
+    "category": "Moderate",
+    "concern": 39.3,
+    "date_observed": "2026-08-05",
+    "parameter": "PM2.5",
+    "reporting_area": "Yuma"
+  }
+}
