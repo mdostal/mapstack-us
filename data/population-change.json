@@ -1,0 +1,3055 @@
+{
+  "_meta": {
+    "coverage": 508,
+    "decline_pct_cap_for_100_concern": 10.0,
+    "source": "Census ACS 5-year estimates, B01003 (total population), 2018 vintage vs 2023 vintage"
+  },
+  "abilene-tx": {
+    "concern": 0.0,
+    "pct_change": 2.79,
+    "population_2018": 123676,
+    "population_2023": 127130
+  },
+  "akron-oh": {
+    "concern": 44.3,
+    "pct_change": -4.43,
+    "population_2018": 198314,
+    "population_2023": 189526
+  },
+  "alameda-ca": {
+    "concern": 20.2,
+    "pct_change": -2.02,
+    "population_2018": 78462,
+    "population_2023": 76876
+  },
+  "albany-ny": {
+    "concern": 0.0,
+    "pct_change": 2.24,
+    "population_2018": 97889,
+    "population_2023": 100081
+  },
+  "albuquerque-nm": {
+    "concern": 0.0,
+    "pct_change": 0.59,
+    "population_2018": 559202,
+    "population_2023": 562488
+  },
+  "alexandria-va": {
+    "concern": 0.0,
+    "pct_change": 0.18,
+    "population_2018": 156505,
+    "population_2023": 156788
+  },
+  "alhambra-ca": {
+    "concern": 41.1,
+    "pct_change": -4.11,
+    "population_2018": 84974,
+    "population_2023": 81483
+  },
+  "allen-tx": {
+    "concern": 0.0,
+    "pct_change": 8.49,
+    "population_2018": 99255,
+    "population_2023": 107684
+  },
+  "allentown-pa": {
+    "concern": 0.0,
+    "pct_change": 4.08,
+    "population_2018": 120410,
+    "population_2023": 125320
+  },
+  "amarillo-tx": {
+    "concern": 0.0,
+    "pct_change": 1.09,
+    "population_2018": 198773,
+    "population_2023": 200945
+  },
+  "anaheim-ca": {
+    "concern": 14.6,
+    "pct_change": -1.46,
+    "population_2018": 349668,
+    "population_2023": 344553
+  },
+  "anchorage-ak": {
+    "concern": 23.8,
+    "pct_change": -2.38,
+    "population_2018": 296112,
+    "population_2023": 289069
+  },
+  "ankeny-ia": {
+    "concern": 0.0,
+    "pct_change": 19.26,
+    "population_2018": 59152,
+    "population_2023": 70542
+  },
+  "ann-arbor-mi": {
+    "concern": 0.0,
+    "pct_change": 0.45,
+    "population_2018": 120641,
+    "population_2023": 121179
+  },
+  "antioch-ca": {
+    "concern": 0.0,
+    "pct_change": 4.54,
+    "population_2018": 110730,
+    "population_2023": 115759
+  },
+  "apex-nc": {
+    "concern": 0.0,
+    "pct_change": 40.43,
+    "population_2018": 48254,
+    "population_2023": 67765
+  },
+  "arlington-tx": {
+    "concern": 0.0,
+    "pct_change": 0.59,
+    "population_2018": 392462,
+    "population_2023": 394769
+  },
+  "arlington-va": {
+    "concern": 0.0,
+    "pct_change": 1.58,
+    "population_2018": 231803,
+    "population_2023": 235463
+  },
+  "arvada-co": {
+    "concern": 0.0,
+    "pct_change": 4.76,
+    "population_2018": 117251,
+    "population_2023": 122835
+  },
+  "asheville-nc": {
+    "concern": 0.0,
+    "pct_change": 4.24,
+    "population_2018": 90531,
+    "population_2023": 94369
+  },
+  "athens-ga": {
+    "concern": 0.0,
+    "pct_change": 2.98,
+    "population_2018": 123310,
+    "population_2023": 126987
+  },
+  "atlanta-ga": {
+    "concern": 0.0,
+    "pct_change": 4.09,
+    "population_2018": 479655,
+    "population_2023": 499287
+  },
+  "auburn-al": {
+    "concern": 0.0,
+    "pct_change": 24.99,
+    "population_2018": 62996,
+    "population_2023": 78738
+  },
+  "auburn-wa": {
+    "concern": 0.0,
+    "pct_change": 8.02,
+    "population_2018": 79110,
+    "population_2023": 85455
+  },
+  "augusta-ga": {
+    "concern": 0.0,
+    "pct_change": 2.39,
+    "population_2018": 196807,
+    "population_2023": 201504
+  },
+  "aurora-co": {
+    "concern": 0.0,
+    "pct_change": 7.33,
+    "population_2018": 363550,
+    "population_2023": 390201
+  },
+  "aurora-il": {
+    "concern": 100.0,
+    "pct_change": -10.36,
+    "population_2018": 200660,
+    "population_2023": 179867
+  },
+  "austin-tx": {
+    "concern": 0.0,
+    "pct_change": 3.43,
+    "population_2018": 935755,
+    "population_2023": 967862
+  },
+  "avondale-az": {
+    "concern": 0.0,
+    "pct_change": 8.7,
+    "population_2018": 83392,
+    "population_2023": 90644
+  },
+  "bakersfield-ca": {
+    "concern": 0.0,
+    "pct_change": 8.69,
+    "population_2018": 375699,
+    "population_2023": 408366
+  },
+  "baltimore-md": {
+    "concern": 61.0,
+    "pct_change": -6.1,
+    "population_2018": 614700,
+    "population_2023": 577193
+  },
+  "baton-rouge-la": {
+    "concern": 7.4,
+    "pct_change": -0.74,
+    "population_2018": 225362,
+    "population_2023": 223699
+  },
+  "baytown-tx": {
+    "concern": 0.0,
+    "pct_change": 10.39,
+    "population_2018": 76581,
+    "population_2023": 84538
+  },
+  "beaumont-tx": {
+    "concern": 41.5,
+    "pct_change": -4.15,
+    "population_2018": 118632,
+    "population_2023": 113710
+  },
+  "beaverton-or": {
+    "concern": 0.0,
+    "pct_change": 0.51,
+    "population_2018": 97012,
+    "population_2023": 97502
+  },
+  "bellevue-wa": {
+    "concern": 0.0,
+    "pct_change": 6.3,
+    "population_2018": 142242,
+    "population_2023": 151199
+  },
+  "bellingham-wa": {
+    "concern": 0.0,
+    "pct_change": 6.08,
+    "population_2018": 87071,
+    "population_2023": 92367
+  },
+  "bend-or": {
+    "concern": 0.0,
+    "pct_change": 12.12,
+    "population_2018": 90500,
+    "population_2023": 101472
+  },
+  "berkeley-ca": {
+    "concern": 5.8,
+    "pct_change": -0.58,
+    "population_2018": 120926,
+    "population_2023": 120223
+  },
+  "bethlehem-pa": {
+    "concern": 0.0,
+    "pct_change": 2.35,
+    "population_2018": 75296,
+    "population_2023": 77069
+  },
+  "billings-mt": {
+    "concern": 0.0,
+    "pct_change": 8.12,
+    "population_2018": 109431,
+    "population_2023": 118321
+  },
+  "birmingham-al": {
+    "concern": 59.9,
+    "pct_change": -5.99,
+    "population_2018": 212021,
+    "population_2023": 199322
+  },
+  "bismarck-nd": {
+    "concern": 0.0,
+    "pct_change": 3.37,
+    "population_2018": 71731,
+    "population_2023": 74146
+  },
+  "blanding-ut": {
+    "concern": 100.0,
+    "pct_change": -10.37,
+    "population_2018": 3685,
+    "population_2023": 3303
+  },
+  "bloomington-il": {
+    "concern": 0.0,
+    "pct_change": 0.47,
+    "population_2018": 78331,
+    "population_2023": 78703
+  },
+  "bloomington-in": {
+    "concern": 62.7,
+    "pct_change": -6.27,
+    "population_2018": 84058,
+    "population_2023": 78791
+  },
+  "bloomington-mn": {
+    "concern": 0.0,
+    "pct_change": 4.03,
+    "population_2018": 85394,
+    "population_2023": 88838
+  },
+  "boca-raton-fl": {
+    "concern": 0.0,
+    "pct_change": 3.23,
+    "population_2018": 95745,
+    "population_2023": 98833
+  },
+  "boise-id": {
+    "concern": 0.0,
+    "pct_change": 5.08,
+    "population_2018": 224300,
+    "population_2023": 235701
+  },
+  "boston-ma": {
+    "concern": 22.7,
+    "pct_change": -2.27,
+    "population_2018": 679413,
+    "population_2023": 663972
+  },
+  "boulder-co": {
+    "concern": 10.1,
+    "pct_change": -1.01,
+    "population_2018": 107360,
+    "population_2023": 106274
+  },
+  "bowling-green-ky": {
+    "concern": 0.0,
+    "pct_change": 12.03,
+    "population_2018": 65731,
+    "population_2023": 73638
+  },
+  "boynton-beach-fl": {
+    "concern": 0.0,
+    "pct_change": 6.45,
+    "population_2018": 75720,
+    "population_2023": 80601
+  },
+  "bridgeport-ct": {
+    "concern": 0.0,
+    "pct_change": 1.09,
+    "population_2018": 146417,
+    "population_2023": 148012
+  },
+  "brockton-ma": {
+    "concern": 0.0,
+    "pct_change": 10.12,
+    "population_2018": 95426,
+    "population_2023": 105080
+  },
+  "broken-arrow-ok": {
+    "concern": 0.0,
+    "pct_change": 7.83,
+    "population_2018": 107500,
+    "population_2023": 115919
+  },
+  "brooklyn-park-mn": {
+    "concern": 0.0,
+    "pct_change": 5.71,
+    "population_2018": 79792,
+    "population_2023": 84349
+  },
+  "broomfield-co": {
+    "concern": 0.0,
+    "pct_change": 13.6,
+    "population_2018": 66120,
+    "population_2023": 75110
+  },
+  "brownsville-tx": {
+    "concern": 0.0,
+    "pct_change": 2.93,
+    "population_2018": 182679,
+    "population_2023": 188023
+  },
+  "bryan-tx": {
+    "concern": 0.0,
+    "pct_change": 3.57,
+    "population_2018": 83199,
+    "population_2023": 86169
+  },
+  "buckeye-az": {
+    "concern": 0.0,
+    "pct_change": 52.13,
+    "population_2018": 65630,
+    "population_2023": 99844
+  },
+  "buena-park-ca": {
+    "concern": 0.0,
+    "pct_change": 0.33,
+    "population_2018": 82781,
+    "population_2023": 83052
+  },
+  "buffalo-ny": {
+    "concern": 0.0,
+    "pct_change": 7.33,
+    "population_2018": 257518,
+    "population_2023": 276397
+  },
+  "burbank-ca": {
+    "concern": 0.0,
+    "pct_change": 0.85,
+    "population_2018": 104275,
+    "population_2023": 105165
+  },
+  "caldwell-id": {
+    "concern": 0.0,
+    "pct_change": 19.28,
+    "population_2018": 53205,
+    "population_2023": 63465
+  },
+  "cambridge-ma": {
+    "concern": 0.0,
+    "pct_change": 1.84,
+    "population_2018": 115665,
+    "population_2023": 117794
+  },
+  "cape-coral-fl": {
+    "concern": 0.0,
+    "pct_change": 15.56,
+    "population_2018": 178593,
+    "population_2023": 206387
+  },
+  "carlsbad-ca": {
+    "concern": 0.0,
+    "pct_change": 0.73,
+    "population_2018": 113670,
+    "population_2023": 114500
+  },
+  "carlsbad-nm": {
+    "concern": 0.0,
+    "pct_change": 10.32,
+    "population_2018": 28838,
+    "population_2023": 31813
+  },
+  "carmel-in": {
+    "concern": 0.0,
+    "pct_change": 11.47,
+    "population_2018": 90163,
+    "population_2023": 100501
+  },
+  "carrollton-tx": {
+    "concern": 5.2,
+    "pct_change": -0.52,
+    "population_2018": 133438,
+    "population_2023": 132741
+  },
+  "carson-ca": {
+    "concern": 0.0,
+    "pct_change": 1.09,
+    "population_2018": 92517,
+    "population_2023": 93523
+  },
+  "cary-nc": {
+    "concern": 0.0,
+    "pct_change": 8.22,
+    "population_2018": 163266,
+    "population_2023": 176686
+  },
+  "castle-rock-co": {
+    "concern": 0.0,
+    "pct_change": 28.37,
+    "population_2018": 59680,
+    "population_2023": 76614
+  },
+  "cedar-park-tx": {
+    "concern": 0.0,
+    "pct_change": 6.99,
+    "population_2018": 72415,
+    "population_2023": 77474
+  },
+  "cedar-rapids-ia": {
+    "concern": 0.0,
+    "pct_change": 4.19,
+    "population_2018": 131360,
+    "population_2023": 136859
+  },
+  "centennial-co": {
+    "concern": 19.4,
+    "pct_change": -1.94,
+    "population_2018": 109505,
+    "population_2023": 107386
+  },
+  "champaign-il": {
+    "concern": 0.0,
+    "pct_change": 2.34,
+    "population_2018": 86791,
+    "population_2023": 88822
+  },
+  "chandler-az": {
+    "concern": 0.0,
+    "pct_change": 11.86,
+    "population_2018": 248631,
+    "population_2023": 278123
+  },
+  "charleston-sc": {
+    "concern": 0.0,
+    "pct_change": 13.65,
+    "population_2018": 133762,
+    "population_2023": 152014
+  },
+  "charlotte-nc": {
+    "concern": 0.0,
+    "pct_change": 5.31,
+    "population_2018": 841611,
+    "population_2023": 886283
+  },
+  "chattanooga-tn": {
+    "concern": 0.0,
+    "pct_change": 3.08,
+    "population_2018": 177365,
+    "population_2023": 182832
+  },
+  "chesapeake-va": {
+    "concern": 0.0,
+    "pct_change": 5.61,
+    "population_2018": 237820,
+    "population_2023": 251153
+  },
+  "chicago-il": {
+    "concern": 4.0,
+    "pct_change": -0.4,
+    "population_2018": 2718555,
+    "population_2023": 2707648
+  },
+  "chico-ca": {
+    "concern": 0.0,
+    "pct_change": 10.91,
+    "population_2018": 91998,
+    "population_2023": 102032
+  },
+  "chino-ca": {
+    "concern": 0.0,
+    "pct_change": 4.6,
+    "population_2018": 87735,
+    "population_2023": 91775
+  },
+  "chino-hills-ca": {
+    "concern": 16.1,
+    "pct_change": -1.61,
+    "population_2018": 79298,
+    "population_2023": 78024
+  },
+  "chula-vista-ca": {
+    "concern": 0.0,
+    "pct_change": 3.21,
+    "population_2018": 266468,
+    "population_2023": 275030
+  },
+  "cicero-il": {
+    "concern": 0.0,
+    "pct_change": 0.09,
+    "population_2018": 83147,
+    "population_2023": 83223
+  },
+  "cincinnati-oh": {
+    "concern": 0.0,
+    "pct_change": 3.08,
+    "population_2018": 300357,
+    "population_2023": 309595
+  },
+  "citrus-heights-ca": {
+    "concern": 0.3,
+    "pct_change": -0.03,
+    "population_2018": 87061,
+    "population_2023": 87036
+  },
+  "clarksville-tn": {
+    "concern": 0.0,
+    "pct_change": 14.14,
+    "population_2018": 150602,
+    "population_2023": 171897
+  },
+  "clearwater-fl": {
+    "concern": 0.0,
+    "pct_change": 2.68,
+    "population_2018": 114015,
+    "population_2023": 117075
+  },
+  "cleveland-oh": {
+    "concern": 51.3,
+    "pct_change": -5.13,
+    "population_2018": 387398,
+    "population_2023": 367523
+  },
+  "clifton-nj": {
+    "concern": 0.0,
+    "pct_change": 4.79,
+    "population_2018": 85169,
+    "population_2023": 89247
+  },
+  "clovis-ca": {
+    "concern": 0.0,
+    "pct_change": 15.05,
+    "population_2018": 106666,
+    "population_2023": 122719
+  },
+  "college-station-tx": {
+    "concern": 0.0,
+    "pct_change": 10.38,
+    "population_2018": 110782,
+    "population_2023": 122280
+  },
+  "colorado-springs-co": {
+    "concern": 0.0,
+    "pct_change": 5.59,
+    "population_2018": 457502,
+    "population_2023": 483099
+  },
+  "columbia-mo": {
+    "concern": 0.0,
+    "pct_change": 5.78,
+    "population_2018": 120248,
+    "population_2023": 127200
+  },
+  "columbia-sc": {
+    "concern": 0.0,
+    "pct_change": 3.5,
+    "population_2018": 133352,
+    "population_2023": 138019
+  },
+  "columbus-ga": {
+    "concern": 0.0,
+    "pct_change": 3.92,
+    "population_2018": 196670,
+    "population_2023": 204383
+  },
+  "columbus-oh": {
+    "concern": 0.0,
+    "pct_change": 4.48,
+    "population_2018": 867628,
+    "population_2023": 906480
+  },
+  "compton-ca": {
+    "concern": 38.8,
+    "pct_change": -3.88,
+    "population_2018": 97301,
+    "population_2023": 93525
+  },
+  "concord-ca": {
+    "concern": 34.9,
+    "pct_change": -3.49,
+    "population_2018": 128758,
+    "population_2023": 124260
+  },
+  "concord-nc": {
+    "concern": 0.0,
+    "pct_change": 18.71,
+    "population_2018": 89729,
+    "population_2023": 106518
+  },
+  "conroe-tx": {
+    "concern": 0.0,
+    "pct_change": 19.88,
+    "population_2018": 80893,
+    "population_2023": 96976
+  },
+  "coral-springs-fl": {
+    "concern": 0.0,
+    "pct_change": 2.14,
+    "population_2018": 131151,
+    "population_2023": 133962
+  },
+  "corona-ca": {
+    "concern": 39.4,
+    "pct_change": -3.94,
+    "population_2018": 165355,
+    "population_2023": 158839
+  },
+  "corpus-christi-tx": {
+    "concern": 22.5,
+    "pct_change": -2.25,
+    "population_2018": 324692,
+    "population_2023": 317383
+  },
+  "costa-mesa-ca": {
+    "concern": 23.5,
+    "pct_change": -2.35,
+    "population_2018": 113198,
+    "population_2023": 110538
+  },
+  "cranston-ri": {
+    "concern": 0.0,
+    "pct_change": 1.77,
+    "population_2018": 81196,
+    "population_2023": 82632
+  },
+  "dallas-tx": {
+    "concern": 14.6,
+    "pct_change": -1.46,
+    "population_2018": 1318806,
+    "population_2023": 1299553
+  },
+  "daly-city-ca": {
+    "concern": 38.2,
+    "pct_change": -3.82,
+    "population_2018": 106638,
+    "population_2023": 102560
+  },
+  "danbury-ct": {
+    "concern": 0.0,
+    "pct_change": 1.9,
+    "population_2018": 84479,
+    "population_2023": 86086
+  },
+  "davenport-ia": {
+    "concern": 12.1,
+    "pct_change": -1.21,
+    "population_2018": 102318,
+    "population_2023": 101083
+  },
+  "davie-fl": {
+    "concern": 0.0,
+    "pct_change": 3.18,
+    "population_2018": 103132,
+    "population_2023": 106412
+  },
+  "dayton-oh": {
+    "concern": 28.7,
+    "pct_change": -2.87,
+    "population_2018": 140782,
+    "population_2023": 136741
+  },
+  "daytona-beach-fl": {
+    "concern": 0.0,
+    "pct_change": 14.14,
+    "population_2018": 66520,
+    "population_2023": 75924
+  },
+  "dearborn-mi": {
+    "concern": 0.0,
+    "pct_change": 13.42,
+    "population_2018": 95089,
+    "population_2023": 107846
+  },
+  "deerfield-beach-fl": {
+    "concern": 0.0,
+    "pct_change": 8.63,
+    "population_2018": 79854,
+    "population_2023": 86742
+  },
+  "deltona-fl": {
+    "concern": 0.0,
+    "pct_change": 7.28,
+    "population_2018": 89186,
+    "population_2023": 95682
+  },
+  "denton-tx": {
+    "concern": 0.0,
+    "pct_change": 9.97,
+    "population_2018": 133661,
+    "population_2023": 146987
+  },
+  "denver-co": {
+    "concern": 0.0,
+    "pct_change": 2.93,
+    "population_2018": 693417,
+    "population_2023": 713734
+  },
+  "des-moines-ia": {
+    "concern": 16.1,
+    "pct_change": -1.61,
+    "population_2018": 215932,
+    "population_2023": 212464
+  },
+  "detroit-mi": {
+    "concern": 59.8,
+    "pct_change": -5.98,
+    "population_2018": 677155,
+    "population_2023": 636644
+  },
+  "doral-fl": {
+    "concern": 0.0,
+    "pct_change": 31.28,
+    "population_2018": 58265,
+    "population_2023": 76490
+  },
+  "downey-ca": {
+    "concern": 9.8,
+    "pct_change": -0.98,
+    "population_2018": 112901,
+    "population_2023": 111793
+  },
+  "duluth-mn": {
+    "concern": 0.0,
+    "pct_change": 1.0,
+    "population_2018": 86004,
+    "population_2023": 86863
+  },
+  "durango-co": {
+    "concern": 0.0,
+    "pct_change": 5.11,
+    "population_2018": 18321,
+    "population_2023": 19257
+  },
+  "durham-nc": {
+    "concern": 0.0,
+    "pct_change": 9.14,
+    "population_2018": 264310,
+    "population_2023": 288465
+  },
+  "edinburg-tx": {
+    "concern": 0.0,
+    "pct_change": 9.09,
+    "population_2018": 94019,
+    "population_2023": 102561
+  },
+  "edmond-ok": {
+    "concern": 0.0,
+    "pct_change": 5.01,
+    "population_2018": 91053,
+    "population_2023": 95618
+  },
+  "el-cajon-ca": {
+    "concern": 0.0,
+    "pct_change": 1.57,
+    "population_2018": 103285,
+    "population_2023": 104909
+  },
+  "el-monte-ca": {
+    "concern": 74.4,
+    "pct_change": -7.44,
+    "population_2018": 115669,
+    "population_2023": 107066
+  },
+  "el-paso-tx": {
+    "concern": 3.2,
+    "pct_change": -0.32,
+    "population_2018": 680354,
+    "population_2023": 678147
+  },
+  "elgin-il": {
+    "concern": 0.0,
+    "pct_change": 0.96,
+    "population_2018": 113023,
+    "population_2023": 114106
+  },
+  "elizabeth-nj": {
+    "concern": 0.0,
+    "pct_change": 6.03,
+    "population_2018": 128153,
+    "population_2023": 135887
+  },
+  "elk-grove-ca": {
+    "concern": 0.0,
+    "pct_change": 5.17,
+    "population_2018": 168503,
+    "population_2023": 177221
+  },
+  "erie-pa": {
+    "concern": 40.8,
+    "pct_change": -4.08,
+    "population_2018": 98156,
+    "population_2023": 94156
+  },
+  "escondido-ca": {
+    "concern": 8.0,
+    "pct_change": -0.8,
+    "population_2018": 151115,
+    "population_2023": 149913
+  },
+  "eugene-or": {
+    "concern": 0.0,
+    "pct_change": 6.94,
+    "population_2018": 165997,
+    "population_2023": 177520
+  },
+  "evansville-in": {
+    "concern": 21.1,
+    "pct_change": -2.11,
+    "population_2018": 118952,
+    "population_2023": 116441
+  },
+  "everett-wa": {
+    "concern": 0.0,
+    "pct_change": 1.97,
+    "population_2018": 108941,
+    "population_2023": 111083
+  },
+  "fairfield-ca": {
+    "concern": 0.0,
+    "pct_change": 5.16,
+    "population_2018": 114101,
+    "population_2023": 119985
+  },
+  "fall-river-ma": {
+    "concern": 0.0,
+    "pct_change": 4.95,
+    "population_2018": 89339,
+    "population_2023": 93764
+  },
+  "fargo-nd": {
+    "concern": 0.0,
+    "pct_change": 7.37,
+    "population_2018": 120209,
+    "population_2023": 129064
+  },
+  "farmington-hills-mi": {
+    "concern": 0.0,
+    "pct_change": 2.25,
+    "population_2018": 81482,
+    "population_2023": 83316
+  },
+  "fayetteville-ar": {
+    "concern": 0.0,
+    "pct_change": 16.11,
+    "population_2018": 83736,
+    "population_2023": 97227
+  },
+  "fayetteville-nc": {
+    "concern": 0.8,
+    "pct_change": -0.08,
+    "population_2018": 209867,
+    "population_2023": 209692
+  },
+  "federal-way-wa": {
+    "concern": 0.0,
+    "pct_change": 3.25,
+    "population_2018": 96110,
+    "population_2023": 99232
+  },
+  "fishers-in": {
+    "concern": 0.0,
+    "pct_change": 13.75,
+    "population_2018": 88717,
+    "population_2023": 100918
+  },
+  "flagstaff-az": {
+    "concern": 0.0,
+    "pct_change": 7.21,
+    "population_2018": 71202,
+    "population_2023": 76333
+  },
+  "flint-mi": {
+    "concern": 100.0,
+    "pct_change": -16.8,
+    "population_2018": 97161,
+    "population_2023": 80835
+  },
+  "flower-mound-tx": {
+    "concern": 0.0,
+    "pct_change": 6.33,
+    "population_2018": 73252,
+    "population_2023": 77886
+  },
+  "folsom-ca": {
+    "concern": 0.0,
+    "pct_change": 6.67,
+    "population_2018": 77007,
+    "population_2023": 82140
+  },
+  "fontana-ca": {
+    "concern": 0.0,
+    "pct_change": 1.43,
+    "population_2018": 208943,
+    "population_2023": 211921
+  },
+  "fort-collins-co": {
+    "concern": 0.0,
+    "pct_change": 4.43,
+    "population_2018": 162511,
+    "population_2023": 169705
+  },
+  "fort-lauderdale-fl": {
+    "concern": 0.0,
+    "pct_change": 2.38,
+    "population_2018": 178783,
+    "population_2023": 183032
+  },
+  "fort-myers-fl": {
+    "concern": 0.0,
+    "pct_change": 19.77,
+    "population_2018": 76591,
+    "population_2023": 91730
+  },
+  "fort-smith-ar": {
+    "concern": 0.0,
+    "pct_change": 2.12,
+    "population_2018": 87639,
+    "population_2023": 89496
+  },
+  "fort-wayne-in": {
+    "concern": 0.0,
+    "pct_change": 0.83,
+    "population_2018": 264052,
+    "population_2023": 266235
+  },
+  "fort-worth-tx": {
+    "concern": 0.0,
+    "pct_change": 9.99,
+    "population_2018": 855786,
+    "population_2023": 941311
+  },
+  "franklin-tn": {
+    "concern": 0.0,
+    "pct_change": 13.55,
+    "population_2018": 75366,
+    "population_2023": 85575
+  },
+  "frederick-md": {
+    "concern": 0.0,
+    "pct_change": 14.89,
+    "population_2018": 70166,
+    "population_2023": 80617
+  },
+  "fremont-ca": {
+    "concern": 19.6,
+    "pct_change": -1.96,
+    "population_2018": 233083,
+    "population_2023": 228518
+  },
+  "fresno-ca": {
+    "concern": 0.0,
+    "pct_change": 4.09,
+    "population_2018": 522277,
+    "population_2023": 543615
+  },
+  "frisco-tx": {
+    "concern": 0.0,
+    "pct_change": 26.88,
+    "population_2018": 165700,
+    "population_2023": 210238
+  },
+  "fullerton-ca": {
+    "concern": 0.0,
+    "pct_change": 1.01,
+    "population_2018": 139866,
+    "population_2023": 141278
+  },
+  "gainesville-fl": {
+    "concern": 0.0,
+    "pct_change": 9.8,
+    "population_2018": 130790,
+    "population_2023": 143611
+  },
+  "garden-grove-ca": {
+    "concern": 19.6,
+    "pct_change": -1.96,
+    "population_2018": 174010,
+    "population_2023": 170603
+  },
+  "garland-tx": {
+    "concern": 0.0,
+    "pct_change": 3.07,
+    "population_2018": 237982,
+    "population_2023": 245298
+  },
+  "gastonia-nc": {
+    "concern": 0.0,
+    "pct_change": 8.64,
+    "population_2018": 75138,
+    "population_2023": 81632
+  },
+  "georgetown-tx": {
+    "concern": 0.0,
+    "pct_change": 17.96,
+    "population_2018": 66804,
+    "population_2023": 78803
+  },
+  "geraldine-mt": {
+    "concern": 0.0,
+    "pct_change": 30.69,
+    "population_2018": 202,
+    "population_2023": 264
+  },
+  "gilbert-az": {
+    "concern": 0.0,
+    "pct_change": 14.16,
+    "population_2018": 237484,
+    "population_2023": 271118
+  },
+  "glendale-az": {
+    "concern": 0.0,
+    "pct_change": 1.91,
+    "population_2018": 245514,
+    "population_2023": 250193
+  },
+  "glendale-ca": {
+    "concern": 40.4,
+    "pct_change": -4.04,
+    "population_2018": 200372,
+    "population_2023": 192270
+  },
+  "goodyear-az": {
+    "concern": 0.0,
+    "pct_change": 32.8,
+    "population_2018": 77476,
+    "population_2023": 102891
+  },
+  "grand-junction-co": {
+    "concern": 0.0,
+    "pct_change": 9.02,
+    "population_2018": 61479,
+    "population_2023": 67027
+  },
+  "grand-prairie-tx": {
+    "concern": 0.0,
+    "pct_change": 3.9,
+    "population_2018": 191104,
+    "population_2023": 198564
+  },
+  "grand-rapids-mi": {
+    "concern": 0.0,
+    "pct_change": 0.35,
+    "population_2018": 197081,
+    "population_2023": 197768
+  },
+  "greeley-co": {
+    "concern": 0.0,
+    "pct_change": 5.44,
+    "population_2018": 103773,
+    "population_2023": 109421
+  },
+  "green-bay-wi": {
+    "concern": 0.0,
+    "pct_change": 1.69,
+    "population_2018": 104818,
+    "population_2023": 106585
+  },
+  "greensboro-nc": {
+    "concern": 0.0,
+    "pct_change": 3.41,
+    "population_2018": 288719,
+    "population_2023": 298564
+  },
+  "greenville-nc": {
+    "concern": 29.2,
+    "pct_change": -2.92,
+    "population_2018": 91207,
+    "population_2023": 88540
+  },
+  "gresham-or": {
+    "concern": 0.0,
+    "pct_change": 1.85,
+    "population_2018": 110770,
+    "population_2023": 112818
+  },
+  "hampton-va": {
+    "concern": 0.0,
+    "pct_change": 1.29,
+    "population_2018": 135583,
+    "population_2023": 137334
+  },
+  "hartford-ct": {
+    "concern": 29.6,
+    "pct_change": -2.96,
+    "population_2018": 123628,
+    "population_2023": 119970
+  },
+  "hawthorne-ca": {
+    "concern": 16.4,
+    "pct_change": -1.64,
+    "population_2018": 87370,
+    "population_2023": 85933
+  },
+  "hayward-ca": {
+    "concern": 0.0,
+    "pct_change": 0.61,
+    "population_2018": 158241,
+    "population_2023": 159201
+  },
+  "hemet-ca": {
+    "concern": 0.0,
+    "pct_change": 7.82,
+    "population_2018": 84069,
+    "population_2023": 90646
+  },
+  "henderson-nv": {
+    "concern": 0.0,
+    "pct_change": 11.39,
+    "population_2018": 291346,
+    "population_2023": 324523
+  },
+  "hesperia-ca": {
+    "concern": 0.0,
+    "pct_change": 6.98,
+    "population_2018": 93609,
+    "population_2023": 100141
+  },
+  "hialeah-fl": {
+    "concern": 64.8,
+    "pct_change": -6.48,
+    "population_2018": 237285,
+    "population_2023": 221901
+  },
+  "high-point-nc": {
+    "concern": 0.0,
+    "pct_change": 3.81,
+    "population_2018": 111035,
+    "population_2023": 115263
+  },
+  "hillsboro-or": {
+    "concern": 0.0,
+    "pct_change": 2.22,
+    "population_2018": 104730,
+    "population_2023": 107050
+  },
+  "hollywood-fl": {
+    "concern": 0.0,
+    "pct_change": 1.24,
+    "population_2018": 151056,
+    "population_2023": 152935
+  },
+  "homestead-fl": {
+    "concern": 0.0,
+    "pct_change": 17.98,
+    "population_2018": 68424,
+    "population_2023": 80725
+  },
+  "honolulu-hi": {
+    "concern": 10.5,
+    "pct_change": -1.05,
+    "population_2018": 350003,
+    "population_2023": 346323
+  },
+  "hoover-al": {
+    "concern": 0.0,
+    "pct_change": 9.38,
+    "population_2018": 84480,
+    "population_2023": 92401
+  },
+  "houston-tx": {
+    "concern": 0.0,
+    "pct_change": 0.19,
+    "population_2018": 2295982,
+    "population_2023": 2300419
+  },
+  "huntington-beach-ca": {
+    "concern": 22.9,
+    "pct_change": -2.29,
+    "population_2018": 200606,
+    "population_2023": 196010
+  },
+  "huntsville-al": {
+    "concern": 0.0,
+    "pct_change": 12.99,
+    "population_2018": 193663,
+    "population_2023": 218814
+  },
+  "independence-mo": {
+    "concern": 0.0,
+    "pct_change": 4.04,
+    "population_2018": 117207,
+    "population_2023": 121944
+  },
+  "indianapolis-in": {
+    "concern": 0.0,
+    "pct_change": 2.85,
+    "population_2018": 857637,
+    "population_2023": 882043
+  },
+  "indio-ca": {
+    "concern": 0.0,
+    "pct_change": 2.69,
+    "population_2018": 88291,
+    "population_2023": 90669
+  },
+  "inglewood-ca": {
+    "concern": 43.1,
+    "pct_change": -4.31,
+    "population_2018": 110327,
+    "population_2023": 105575
+  },
+  "irvine-ca": {
+    "concern": 0.0,
+    "pct_change": 16.07,
+    "population_2018": 265502,
+    "population_2023": 308160
+  },
+  "irving-tx": {
+    "concern": 0.0,
+    "pct_change": 6.87,
+    "population_2018": 238637,
+    "population_2023": 255036
+  },
+  "jackson-ms": {
+    "concern": 100.0,
+    "pct_change": -11.27,
+    "population_2018": 168862,
+    "population_2023": 149827
+  },
+  "jacksonville-fl": {
+    "concern": 0.0,
+    "pct_change": 9.42,
+    "population_2018": 878907,
+    "population_2023": 961739
+  },
+  "jersey-city-nj": {
+    "concern": 0.0,
+    "pct_change": 10.68,
+    "population_2018": 261746,
+    "population_2023": 289691
+  },
+  "johns-creek-ga": {
+    "concern": 18.2,
+    "pct_change": -1.82,
+    "population_2018": 83637,
+    "population_2023": 82115
+  },
+  "joliet-il": {
+    "concern": 0.0,
+    "pct_change": 1.24,
+    "population_2018": 147957,
+    "population_2023": 149785
+  },
+  "jonesboro-ar": {
+    "concern": 0.0,
+    "pct_change": 5.99,
+    "population_2018": 74710,
+    "population_2023": 79187
+  },
+  "jurupa-valley-ca": {
+    "concern": 0.0,
+    "pct_change": 2.37,
+    "population_2018": 103784,
+    "population_2023": 106244
+  },
+  "kalispell-mt": {
+    "concern": 0.0,
+    "pct_change": 18.61,
+    "population_2018": 22621,
+    "population_2023": 26830
+  },
+  "kansas-city-ks": {
+    "concern": 0.0,
+    "pct_change": 1.78,
+    "population_2018": 152069,
+    "population_2023": 154776
+  },
+  "kansas-city-mo": {
+    "concern": 0.0,
+    "pct_change": 5.57,
+    "population_2018": 481417,
+    "population_2023": 508233
+  },
+  "kennewick-wa": {
+    "concern": 0.0,
+    "pct_change": 5.22,
+    "population_2018": 80204,
+    "population_2023": 84389
+  },
+  "kent-wa": {
+    "concern": 0.0,
+    "pct_change": 5.43,
+    "population_2018": 128057,
+    "population_2023": 135015
+  },
+  "killeen-tx": {
+    "concern": 0.0,
+    "pct_change": 9.14,
+    "population_2018": 143070,
+    "population_2023": 156144
+  },
+  "kirkland-wa": {
+    "concern": 0.0,
+    "pct_change": 4.01,
+    "population_2018": 88079,
+    "population_2023": 91614
+  },
+  "kissimmee-fl": {
+    "concern": 0.0,
+    "pct_change": 13.85,
+    "population_2018": 69833,
+    "population_2023": 79504
+  },
+  "knoxville-tn": {
+    "concern": 0.0,
+    "pct_change": 4.47,
+    "population_2018": 185429,
+    "population_2023": 193721
+  },
+  "lafayette-la": {
+    "concern": 39.3,
+    "pct_change": -3.93,
+    "population_2018": 126515,
+    "population_2023": 121537
+  },
+  "lake-charles-la": {
+    "concern": 0.0,
+    "pct_change": 7.1,
+    "population_2018": 76267,
+    "population_2023": 81679
+  },
+  "lake-forest-ca": {
+    "concern": 0.0,
+    "pct_change": 3.54,
+    "population_2018": 82911,
+    "population_2023": 85846
+  },
+  "lakeland-fl": {
+    "concern": 0.0,
+    "pct_change": 10.45,
+    "population_2018": 105958,
+    "population_2023": 117030
+  },
+  "lakeville-mn": {
+    "concern": 0.0,
+    "pct_change": 15.99,
+    "population_2018": 62489,
+    "population_2023": 72480
+  },
+  "lakewood-ca": {
+    "concern": 3.2,
+    "pct_change": -0.32,
+    "population_2018": 80771,
+    "population_2023": 80510
+  },
+  "lakewood-co": {
+    "concern": 0.0,
+    "pct_change": 1.82,
+    "population_2018": 153522,
+    "population_2023": 156309
+  },
+  "lancaster-ca": {
+    "concern": 0.0,
+    "pct_change": 6.48,
+    "population_2018": 159662,
+    "population_2023": 170013
+  },
+  "lansing-mi": {
+    "concern": 35.6,
+    "pct_change": -3.56,
+    "population_2018": 116699,
+    "population_2023": 112546
+  },
+  "laredo-tx": {
+    "concern": 6.3,
+    "pct_change": -0.63,
+    "population_2018": 257575,
+    "population_2023": 255949
+  },
+  "largo-fl": {
+    "concern": 8.9,
+    "pct_change": -0.89,
+    "population_2018": 83243,
+    "population_2023": 82506
+  },
+  "las-cruces-nm": {
+    "concern": 0.0,
+    "pct_change": 10.68,
+    "population_2018": 101742,
+    "population_2023": 112612
+  },
+  "las-vegas-nv": {
+    "concern": 0.0,
+    "pct_change": 3.87,
+    "population_2018": 626637,
+    "population_2023": 650873
+  },
+  "lawrence-ks": {
+    "concern": 0.0,
+    "pct_change": 0.17,
+    "population_2018": 95294,
+    "population_2023": 95459
+  },
+  "lawrence-ma": {
+    "concern": 0.0,
+    "pct_change": 10.59,
+    "population_2018": 79841,
+    "population_2023": 88297
+  },
+  "lawton-ok": {
+    "concern": 42.6,
+    "pct_change": -4.26,
+    "population_2018": 94697,
+    "population_2023": 90662
+  },
+  "layton-ut": {
+    "concern": 0.0,
+    "pct_change": 9.86,
+    "population_2018": 75106,
+    "population_2023": 82512
+  },
+  "league-city-tx": {
+    "concern": 0.0,
+    "pct_change": 13.94,
+    "population_2018": 100832,
+    "population_2023": 114885
+  },
+  "leander-tx": {
+    "concern": 0.0,
+    "pct_change": 46.23,
+    "population_2018": 46419,
+    "population_2023": 67880
+  },
+  "lees-summit-mo": {
+    "concern": 0.0,
+    "pct_change": 6.5,
+    "population_2018": 96325,
+    "population_2023": 102583
+  },
+  "lehi-ut": {
+    "concern": 0.0,
+    "pct_change": 31.75,
+    "population_2018": 61508,
+    "population_2023": 81039
+  },
+  "lewisville-tx": {
+    "concern": 0.0,
+    "pct_change": 22.45,
+    "population_2018": 104789,
+    "population_2023": 128313
+  },
+  "lexington-ky": {
+    "concern": 0.0,
+    "pct_change": 0.75,
+    "population_2018": 318734,
+    "population_2023": 321122
+  },
+  "lincoln-ne": {
+    "concern": 0.0,
+    "pct_change": 3.95,
+    "population_2018": 280849,
+    "population_2023": 291932
+  },
+  "little-rock-ar": {
+    "concern": 0.0,
+    "pct_change": 2.32,
+    "population_2018": 198135,
+    "population_2023": 202739
+  },
+  "livermore-ca": {
+    "concern": 35.5,
+    "pct_change": -3.55,
+    "population_2018": 89027,
+    "population_2023": 85870
+  },
+  "livonia-mi": {
+    "concern": 5.4,
+    "pct_change": -0.54,
+    "population_2018": 94567,
+    "population_2023": 94058
+  },
+  "long-beach-ca": {
+    "concern": 22.2,
+    "pct_change": -2.22,
+    "population_2018": 468883,
+    "population_2023": 458491
+  },
+  "longmont-co": {
+    "concern": 0.0,
+    "pct_change": 6.13,
+    "population_2018": 93244,
+    "population_2023": 98958
+  },
+  "longview-tx": {
+    "concern": 0.0,
+    "pct_change": 0.62,
+    "population_2018": 82256,
+    "population_2023": 82765
+  },
+  "los-alamos-nm": {
+    "concern": 0.0,
+    "pct_change": 8.87,
+    "population_2018": 12373,
+    "population_2023": 13471
+  },
+  "los-angeles-ca": {
+    "concern": 25.7,
+    "pct_change": -2.57,
+    "population_2018": 3959657,
+    "population_2023": 3857897
+  },
+  "loveland-co": {
+    "concern": 0.0,
+    "pct_change": 2.59,
+    "population_2018": 75395,
+    "population_2023": 77350
+  },
+  "lowell-ma": {
+    "concern": 0.0,
+    "pct_change": 3.19,
+    "population_2018": 111249,
+    "population_2023": 114799
+  },
+  "lubbock-tx": {
+    "concern": 0.0,
+    "pct_change": 4.26,
+    "population_2018": 250415,
+    "population_2023": 261078
+  },
+  "lynchburg-va": {
+    "concern": 10.9,
+    "pct_change": -1.09,
+    "population_2018": 80131,
+    "population_2023": 79255
+  },
+  "lynn-ma": {
+    "concern": 0.0,
+    "pct_change": 7.78,
+    "population_2018": 93617,
+    "population_2023": 100905
+  },
+  "mableton-ga": {
+    "concern": 0.0,
+    "pct_change": 4.79,
+    "population_2018": 40464,
+    "population_2023": 42403
+  },
+  "macon-ga": {
+    "concern": 0.0,
+    "pct_change": 1.99,
+    "population_2018": 153490,
+    "population_2023": 156543
+  },
+  "madison-wi": {
+    "concern": 0.0,
+    "pct_change": 9.32,
+    "population_2018": 252086,
+    "population_2023": 275568
+  },
+  "manchester-nh": {
+    "concern": 0.0,
+    "pct_change": 3.37,
+    "population_2018": 111657,
+    "population_2023": 115415
+  },
+  "mansfield-tx": {
+    "concern": 0.0,
+    "pct_change": 11.71,
+    "population_2018": 67492,
+    "population_2023": 75398
+  },
+  "manteca-ca": {
+    "concern": 0.0,
+    "pct_change": 12.26,
+    "population_2018": 77073,
+    "population_2023": 86521
+  },
+  "maricopa-az": {
+    "concern": 0.0,
+    "pct_change": 33.12,
+    "population_2018": 47314,
+    "population_2023": 62986
+  },
+  "marysville-wa": {
+    "concern": 0.0,
+    "pct_change": 5.92,
+    "population_2018": 67567,
+    "population_2023": 71570
+  },
+  "mcallen-tx": {
+    "concern": 0.0,
+    "pct_change": 1.55,
+    "population_2018": 141597,
+    "population_2023": 143789
+  },
+  "mckinney-tx": {
+    "concern": 0.0,
+    "pct_change": 16.63,
+    "population_2018": 173460,
+    "population_2023": 202314
+  },
+  "medford-or": {
+    "concern": 0.0,
+    "pct_change": 7.17,
+    "population_2018": 80051,
+    "population_2023": 85794
+  },
+  "melbourne-fl": {
+    "concern": 0.0,
+    "pct_change": 6.27,
+    "population_2018": 80664,
+    "population_2023": 85718
+  },
+  "memphis-tn": {
+    "concern": 37.0,
+    "pct_change": -3.7,
+    "population_2018": 653248,
+    "population_2023": 629063
+  },
+  "menifee-ca": {
+    "concern": 0.0,
+    "pct_change": 20.91,
+    "population_2018": 88515,
+    "population_2023": 107020
+  },
+  "merced-ca": {
+    "concern": 0.0,
+    "pct_change": 9.09,
+    "population_2018": 82289,
+    "population_2023": 89766
+  },
+  "meridian-id": {
+    "concern": 0.0,
+    "pct_change": 28.72,
+    "population_2018": 97008,
+    "population_2023": 124865
+  },
+  "mesa-az": {
+    "concern": 0.0,
+    "pct_change": 3.32,
+    "population_2018": 491194,
+    "population_2023": 507478
+  },
+  "mesquite-tx": {
+    "concern": 0.0,
+    "pct_change": 3.19,
+    "population_2018": 144250,
+    "population_2023": 148848
+  },
+  "miami-beach-fl": {
+    "concern": 100.0,
+    "pct_change": -11.44,
+    "population_2018": 91826,
+    "population_2023": 81319
+  },
+  "miami-fl": {
+    "concern": 10.1,
+    "pct_change": -1.01,
+    "population_2018": 451214,
+    "population_2023": 446663
+  },
+  "miami-gardens-fl": {
+    "concern": 14.6,
+    "pct_change": -1.46,
+    "population_2018": 112913,
+    "population_2023": 111264
+  },
+  "midland-tx": {
+    "concern": 8.4,
+    "pct_change": -0.84,
+    "population_2018": 135134,
+    "population_2023": 133998
+  },
+  "milpitas-ca": {
+    "concern": 0.0,
+    "pct_change": 0.98,
+    "population_2018": 77457,
+    "population_2023": 78216
+  },
+  "milwaukee-wi": {
+    "concern": 45.5,
+    "pct_change": -4.55,
+    "population_2018": 596886,
+    "population_2023": 569756
+  },
+  "minneapolis-mn": {
+    "concern": 0.0,
+    "pct_change": 2.6,
+    "population_2018": 416021,
+    "population_2023": 426845
+  },
+  "miramar-fl": {
+    "concern": 15.8,
+    "pct_change": -1.58,
+    "population_2018": 138168,
+    "population_2023": 135986
+  },
+  "mission-tx": {
+    "concern": 0.0,
+    "pct_change": 3.02,
+    "population_2018": 83709,
+    "population_2023": 86234
+  },
+  "mission-viejo-ca": {
+    "concern": 38.6,
+    "pct_change": -3.86,
+    "population_2018": 96124,
+    "population_2023": 92415
+  },
+  "missoula-mt": {
+    "concern": 0.0,
+    "pct_change": 4.82,
+    "population_2018": 72125,
+    "population_2023": 75600
+  },
+  "missouri-city-tx": {
+    "concern": 0.0,
+    "pct_change": 2.26,
+    "population_2018": 73573,
+    "population_2023": 75234
+  },
+  "mobile-al": {
+    "concern": 33.4,
+    "pct_change": -3.34,
+    "population_2018": 191485,
+    "population_2023": 185097
+  },
+  "modesto-ca": {
+    "concern": 0.0,
+    "pct_change": 3.44,
+    "population_2018": 211336,
+    "population_2023": 218614
+  },
+  "montgomery-al": {
+    "concern": 8.6,
+    "pct_change": -0.86,
+    "population_2018": 200156,
+    "population_2023": 198440
+  },
+  "monticello-ut": {
+    "concern": 100.0,
+    "pct_change": -23.76,
+    "population_2018": 2546,
+    "population_2023": 1941
+  },
+  "moreno-valley-ca": {
+    "concern": 0.0,
+    "pct_change": 2.61,
+    "population_2018": 205034,
+    "population_2023": 210378
+  },
+  "mount-pleasant-sc": {
+    "concern": 0.0,
+    "pct_change": 10.71,
+    "population_2018": 83700,
+    "population_2023": 92662
+  },
+  "mountain-view-ca": {
+    "concern": 0.0,
+    "pct_change": 1.69,
+    "population_2018": 80993,
+    "population_2023": 82363
+  },
+  "murfreesboro-tn": {
+    "concern": 0.0,
+    "pct_change": 20.29,
+    "population_2018": 130968,
+    "population_2023": 157547
+  },
+  "murrieta-ca": {
+    "concern": 0.0,
+    "pct_change": 0.17,
+    "population_2018": 111427,
+    "population_2023": 111621
+  },
+  "nampa-id": {
+    "concern": 0.0,
+    "pct_change": 15.96,
+    "population_2018": 91663,
+    "population_2023": 106289
+  },
+  "naperville-il": {
+    "concern": 0.0,
+    "pct_change": 1.37,
+    "population_2018": 147411,
+    "population_2023": 149424
+  },
+  "nashua-nh": {
+    "concern": 0.0,
+    "pct_change": 2.85,
+    "population_2018": 88606,
+    "population_2023": 91131
+  },
+  "nashville-tn": {
+    "concern": 0.0,
+    "pct_change": 3.67,
+    "population_2018": 660062,
+    "population_2023": 684298
+  },
+  "new-bedford-ma": {
+    "concern": 0.0,
+    "pct_change": 5.9,
+    "population_2018": 95117,
+    "population_2023": 100731
+  },
+  "new-braunfels-tx": {
+    "concern": 0.0,
+    "pct_change": 32.33,
+    "population_2018": 74587,
+    "population_2023": 98700
+  },
+  "new-haven-ct": {
+    "concern": 0.0,
+    "pct_change": 1.81,
+    "population_2018": 130529,
+    "population_2023": 132893
+  },
+  "new-orleans-la": {
+    "concern": 34.9,
+    "pct_change": -3.49,
+    "population_2018": 389648,
+    "population_2023": 376035
+  },
+  "new-rochelle-ny": {
+    "concern": 0.0,
+    "pct_change": 3.01,
+    "population_2018": 79205,
+    "population_2023": 81591
+  },
+  "new-york-ny": {
+    "concern": 0.0,
+    "pct_change": 0.86,
+    "population_2018": 8443713,
+    "population_2023": 8516202
+  },
+  "newark-nj": {
+    "concern": 0.0,
+    "pct_change": 9.53,
+    "population_2018": 280463,
+    "population_2023": 307188
+  },
+  "newport-beach-ca": {
+    "concern": 22.9,
+    "pct_change": -2.29,
+    "population_2018": 86280,
+    "population_2023": 84304
+  },
+  "newport-news-va": {
+    "concern": 0.0,
+    "pct_change": 2.57,
+    "population_2018": 180145,
+    "population_2023": 184774
+  },
+  "newton-ma": {
+    "concern": 1.8,
+    "pct_change": -0.18,
+    "population_2018": 88660,
+    "population_2023": 88504
+  },
+  "norfolk-va": {
+    "concern": 43.0,
+    "pct_change": -4.3,
+    "population_2018": 245592,
+    "population_2023": 235037
+  },
+  "norman-ok": {
+    "concern": 0.0,
+    "pct_change": 6.3,
+    "population_2018": 121090,
+    "population_2023": 128714
+  },
+  "north-charleston-sc": {
+    "concern": 0.0,
+    "pct_change": 6.89,
+    "population_2018": 109886,
+    "population_2023": 117460
+  },
+  "north-las-vegas-nv": {
+    "concern": 0.0,
+    "pct_change": 14.26,
+    "population_2018": 236986,
+    "population_2023": 270773
+  },
+  "north-port-fl": {
+    "concern": 0.0,
+    "pct_change": 24.97,
+    "population_2018": 64425,
+    "population_2023": 80512
+  },
+  "norwalk-ca": {
+    "concern": 48.9,
+    "pct_change": -4.89,
+    "population_2018": 105886,
+    "population_2023": 100713
+  },
+  "norwalk-ct": {
+    "concern": 0.0,
+    "pct_change": 3.32,
+    "population_2018": 88436,
+    "population_2023": 91375
+  },
+  "oakland-ca": {
+    "concern": 0.0,
+    "pct_change": 4.04,
+    "population_2018": 421042,
+    "population_2023": 438072
+  },
+  "oceanside-ca": {
+    "concern": 16.2,
+    "pct_change": -1.62,
+    "population_2018": 175389,
+    "population_2023": 172542
+  },
+  "odessa-tx": {
+    "concern": 38.0,
+    "pct_change": -3.8,
+    "population_2018": 118582,
+    "population_2023": 114080
+  },
+  "ofallon-mo": {
+    "concern": 0.0,
+    "pct_change": 7.36,
+    "population_2018": 86340,
+    "population_2023": 92697
+  },
+  "ogden-ut": {
+    "concern": 0.0,
+    "pct_change": 0.98,
+    "population_2018": 86126,
+    "population_2023": 86973
+  },
+  "oklahoma-city-ok": {
+    "concern": 0.0,
+    "pct_change": 8.07,
+    "population_2018": 637284,
+    "population_2023": 688693
+  },
+  "olathe-ks": {
+    "concern": 0.0,
+    "pct_change": 5.69,
+    "population_2018": 135986,
+    "population_2023": 143720
+  },
+  "omaha-ne": {
+    "concern": 0.0,
+    "pct_change": 4.96,
+    "population_2018": 465112,
+    "population_2023": 488197
+  },
+  "ontario-ca": {
+    "concern": 0.0,
+    "pct_change": 2.75,
+    "population_2018": 173580,
+    "population_2023": 178347
+  },
+  "orange-ca": {
+    "concern": 8.2,
+    "pct_change": -0.82,
+    "population_2018": 139873,
+    "population_2023": 138723
+  },
+  "orem-ut": {
+    "concern": 0.0,
+    "pct_change": 1.7,
+    "population_2018": 95428,
+    "population_2023": 97048
+  },
+  "orlando-fl": {
+    "concern": 0.0,
+    "pct_change": 13.07,
+    "population_2018": 275690,
+    "population_2023": 311732
+  },
+  "overland-park-ks": {
+    "concern": 0.0,
+    "pct_change": 4.51,
+    "population_2018": 188687,
+    "population_2023": 197199
+  },
+  "oxnard-ca": {
+    "concern": 31.6,
+    "pct_change": -3.16,
+    "population_2018": 207568,
+    "population_2023": 201014
+  },
+  "palm-bay-fl": {
+    "concern": 0.0,
+    "pct_change": 13.6,
+    "population_2018": 110271,
+    "population_2023": 125273
+  },
+  "palm-coast-fl": {
+    "concern": 0.0,
+    "pct_change": 12.42,
+    "population_2018": 83940,
+    "population_2023": 94362
+  },
+  "palmdale-ca": {
+    "concern": 0.0,
+    "pct_change": 5.47,
+    "population_2018": 156904,
+    "population_2023": 165487
+  },
+  "parma-oh": {
+    "concern": 0.0,
+    "pct_change": 0.72,
+    "population_2018": 79559,
+    "population_2023": 80131
+  },
+  "pasadena-ca": {
+    "concern": 33.9,
+    "pct_change": -3.39,
+    "population_2018": 141246,
+    "population_2023": 136462
+  },
+  "pasadena-tx": {
+    "concern": 31.4,
+    "pct_change": -3.14,
+    "population_2018": 154193,
+    "population_2023": 149345
+  },
+  "pasco-wa": {
+    "concern": 0.0,
+    "pct_change": 9.17,
+    "population_2018": 71858,
+    "population_2023": 78446
+  },
+  "paterson-nj": {
+    "concern": 0.0,
+    "pct_change": 8.13,
+    "population_2018": 145800,
+    "population_2023": 157660
+  },
+  "pawtucket-ri": {
+    "concern": 0.0,
+    "pct_change": 4.91,
+    "population_2018": 71756,
+    "population_2023": 75280
+  },
+  "pearland-tx": {
+    "concern": 0.0,
+    "pct_change": 6.89,
+    "population_2018": 117867,
+    "population_2023": 125983
+  },
+  "pembroke-pines-fl": {
+    "concern": 0.0,
+    "pct_change": 1.37,
+    "population_2018": 168260,
+    "population_2023": 170557
+  },
+  "peoria-az": {
+    "concern": 0.0,
+    "pct_change": 18.09,
+    "population_2018": 164572,
+    "population_2023": 194338
+  },
+  "peoria-il": {
+    "concern": 20.8,
+    "pct_change": -2.08,
+    "population_2018": 114512,
+    "population_2023": 112126
+  },
+  "perris-ca": {
+    "concern": 0.0,
+    "pct_change": 4.03,
+    "population_2018": 76276,
+    "population_2023": 79349
+  },
+  "pharr-tx": {
+    "concern": 0.0,
+    "pct_change": 2.54,
+    "population_2018": 77835,
+    "population_2023": 79809
+  },
+  "philadelphia-pa": {
+    "concern": 0.0,
+    "pct_change": 0.44,
+    "population_2018": 1575522,
+    "population_2023": 1582432
+  },
+  "phoenix-az": {
+    "concern": 0.0,
+    "pct_change": 0.92,
+    "population_2018": 1610071,
+    "population_2023": 1624832
+  },
+  "pittsburg-ca": {
+    "concern": 0.0,
+    "pct_change": 7.63,
+    "population_2018": 70492,
+    "population_2023": 75868
+  },
+  "pittsburgh-pa": {
+    "concern": 0.0,
+    "pct_change": 0.01,
+    "population_2018": 303587,
+    "population_2023": 303620
+  },
+  "plano-tx": {
+    "concern": 0.0,
+    "pct_change": 0.97,
+    "population_2018": 284579,
+    "population_2023": 287339
+  },
+  "plantation-fl": {
+    "concern": 0.0,
+    "pct_change": 1.32,
+    "population_2018": 92775,
+    "population_2023": 94002
+  },
+  "plymouth-mn": {
+    "concern": 0.0,
+    "pct_change": 3.0,
+    "population_2018": 77213,
+    "population_2023": 79526
+  },
+  "pomona-ca": {
+    "concern": 26.9,
+    "pct_change": -2.69,
+    "population_2018": 152494,
+    "population_2023": 148391
+  },
+  "pompano-beach-fl": {
+    "concern": 0.0,
+    "pct_change": 3.08,
+    "population_2018": 108855,
+    "population_2023": 112212
+  },
+  "port-st-lucie-fl": {
+    "concern": 0.0,
+    "pct_change": 19.97,
+    "population_2018": 183762,
+    "population_2023": 220453
+  },
+  "portland-or": {
+    "concern": 0.0,
+    "pct_change": 0.52,
+    "population_2018": 639387,
+    "population_2023": 642715
+  },
+  "portsmouth-va": {
+    "concern": 0.0,
+    "pct_change": 2.09,
+    "population_2018": 95311,
+    "population_2023": 97299
+  },
+  "providence-ri": {
+    "concern": 0.0,
+    "pct_change": 6.01,
+    "population_2018": 179435,
+    "population_2023": 190214
+  },
+  "provo-ut": {
+    "concern": 15.9,
+    "pct_change": -1.59,
+    "population_2018": 116146,
+    "population_2023": 114303
+  },
+  "pueblo-co": {
+    "concern": 0.0,
+    "pct_change": 1.39,
+    "population_2018": 109985,
+    "population_2023": 111514
+  },
+  "queen-creek-az": {
+    "concern": 0.0,
+    "pct_change": 84.09,
+    "population_2018": 36053,
+    "population_2023": 66369
+  },
+  "quincy-ma": {
+    "concern": 0.0,
+    "pct_change": 7.69,
+    "population_2018": 94121,
+    "population_2023": 101361
+  },
+  "racine-wi": {
+    "concern": 5.4,
+    "pct_change": -0.54,
+    "population_2018": 77576,
+    "population_2023": 77155
+  },
+  "raleigh-nc": {
+    "concern": 0.0,
+    "pct_change": 2.98,
+    "population_2018": 457159,
+    "population_2023": 470763
+  },
+  "rancho-cordova-ca": {
+    "concern": 0.0,
+    "pct_change": 11.94,
+    "population_2018": 72056,
+    "population_2023": 80656
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 5.6,
+    "pct_change": -0.56,
+    "population_2018": 175679,
+    "population_2023": 174693
+  },
+  "rapid-city-sd": {
+    "concern": 0.0,
+    "pct_change": 4.23,
+    "population_2018": 73721,
+    "population_2023": 76836
+  },
+  "reading-pa": {
+    "concern": 0.0,
+    "pct_change": 7.51,
+    "population_2018": 88211,
+    "population_2023": 94836
+  },
+  "redding-ca": {
+    "concern": 0.0,
+    "pct_change": 2.13,
+    "population_2018": 91327,
+    "population_2023": 93268
+  },
+  "redmond-wa": {
+    "concern": 0.0,
+    "pct_change": 19.82,
+    "population_2018": 63197,
+    "population_2023": 75721
+  },
+  "redwood-city-ca": {
+    "concern": 32.8,
+    "pct_change": -3.28,
+    "population_2018": 85217,
+    "population_2023": 82423
+  },
+  "reno-nv": {
+    "concern": 0.0,
+    "pct_change": 10.85,
+    "population_2018": 242633,
+    "population_2023": 268959
+  },
+  "renton-wa": {
+    "concern": 0.0,
+    "pct_change": 4.18,
+    "population_2018": 101054,
+    "population_2023": 105279
+  },
+  "rialto-ca": {
+    "concern": 0.0,
+    "pct_change": 0.97,
+    "population_2018": 102873,
+    "population_2023": 103866
+  },
+  "richardson-tx": {
+    "concern": 0.0,
+    "pct_change": 3.38,
+    "population_2018": 114402,
+    "population_2023": 118269
+  },
+  "richmond-ca": {
+    "concern": 0.0,
+    "pct_change": 5.54,
+    "population_2018": 109340,
+    "population_2023": 115396
+  },
+  "richmond-va": {
+    "concern": 0.0,
+    "pct_change": 1.7,
+    "population_2018": 223787,
+    "population_2023": 227595
+  },
+  "rio-rancho-nm": {
+    "concern": 0.0,
+    "pct_change": 12.42,
+    "population_2018": 94765,
+    "population_2023": 106533
+  },
+  "riverside-ca": {
+    "concern": 23.8,
+    "pct_change": -2.38,
+    "population_2018": 323935,
+    "population_2023": 316241
+  },
+  "roanoke-va": {
+    "concern": 9.5,
+    "pct_change": -0.95,
+    "population_2018": 99621,
+    "population_2023": 98677
+  },
+  "rochester-hills-mi": {
+    "concern": 0.0,
+    "pct_change": 2.8,
+    "population_2018": 74011,
+    "population_2023": 76086
+  },
+  "rochester-mn": {
+    "concern": 0.0,
+    "pct_change": 6.78,
+    "population_2018": 113913,
+    "population_2023": 121638
+  },
+  "rochester-ny": {
+    "concern": 0.0,
+    "pct_change": 0.93,
+    "population_2018": 207778,
+    "population_2023": 209720
+  },
+  "rockford-il": {
+    "concern": 1.6,
+    "pct_change": -0.16,
+    "population_2018": 147881,
+    "population_2023": 147649
+  },
+  "rocklin-ca": {
+    "concern": 0.0,
+    "pct_change": 14.59,
+    "population_2018": 63127,
+    "population_2023": 72340
+  },
+  "rogers-ar": {
+    "concern": 0.0,
+    "pct_change": 9.95,
+    "population_2018": 64947,
+    "population_2023": 71411
+  },
+  "roseville-ca": {
+    "concern": 0.0,
+    "pct_change": 14.57,
+    "population_2018": 133049,
+    "population_2023": 152438
+  },
+  "roswell-ga": {
+    "concern": 17.8,
+    "pct_change": -1.78,
+    "population_2018": 94257,
+    "population_2023": 92577
+  },
+  "round-rock-tx": {
+    "concern": 0.0,
+    "pct_change": 3.44,
+    "population_2018": 120157,
+    "population_2023": 124288
+  },
+  "sacramento-ca": {
+    "concern": 0.0,
+    "pct_change": 6.02,
+    "population_2018": 495011,
+    "population_2023": 524802
+  },
+  "saint-paul-mn": {
+    "concern": 0.0,
+    "pct_change": 1.65,
+    "population_2018": 302760,
+    "population_2023": 307762
+  },
+  "salem-or": {
+    "concern": 0.0,
+    "pct_change": 5.94,
+    "population_2018": 166756,
+    "population_2023": 176666
+  },
+  "salinas-ca": {
+    "concern": 0.0,
+    "pct_change": 3.48,
+    "population_2018": 156550,
+    "population_2023": 161993
+  },
+  "salt-lake-city-ut": {
+    "concern": 0.0,
+    "pct_change": 4.18,
+    "population_2018": 195701,
+    "population_2023": 203888
+  },
+  "san-angelo-tx": {
+    "concern": 1.3,
+    "pct_change": -0.13,
+    "population_2018": 99634,
+    "population_2023": 99507
+  },
+  "san-antonio-tx": {
+    "concern": 18.5,
+    "pct_change": -1.85,
+    "population_2018": 1486521,
+    "population_2023": 1458954
+  },
+  "san-bernardino-ca": {
+    "concern": 0.0,
+    "pct_change": 3.06,
+    "population_2018": 215182,
+    "population_2023": 221774
+  },
+  "san-diego-ca": {
+    "concern": 12.0,
+    "pct_change": -1.2,
+    "population_2018": 1401932,
+    "population_2023": 1385061
+  },
+  "san-francisco-ca": {
+    "concern": 38.8,
+    "pct_change": -3.88,
+    "population_2018": 870044,
+    "population_2023": 836321
+  },
+  "san-jose-ca": {
+    "concern": 35.7,
+    "pct_change": -3.57,
+    "population_2018": 1026658,
+    "population_2023": 990054
+  },
+  "san-leandro-ca": {
+    "concern": 17.4,
+    "pct_change": -1.74,
+    "population_2018": 90103,
+    "population_2023": 88531
+  },
+  "san-marcos-ca": {
+    "concern": 6.7,
+    "pct_change": -0.67,
+    "population_2018": 94709,
+    "population_2023": 94078
+  },
+  "san-marcos-tx": {
+    "concern": 0.0,
+    "pct_change": 11.61,
+    "population_2018": 61751,
+    "population_2023": 68920
+  },
+  "san-mateo-ca": {
+    "concern": 4.6,
+    "pct_change": -0.46,
+    "population_2018": 104035,
+    "population_2023": 103555
+  },
+  "san-ramon-ca": {
+    "concern": 0.0,
+    "pct_change": 13.73,
+    "population_2018": 75384,
+    "population_2023": 85734
+  },
+  "sandpoint-id": {
+    "concern": 0.0,
+    "pct_change": 13.51,
+    "population_2018": 8144,
+    "population_2023": 9244
+  },
+  "sandy-springs-ga": {
+    "concern": 0.0,
+    "pct_change": 1.7,
+    "population_2018": 105411,
+    "population_2023": 107198
+  },
+  "sandy-ut": {
+    "concern": 7.3,
+    "pct_change": -0.73,
+    "population_2018": 95420,
+    "population_2023": 94723
+  },
+  "santa-ana-ca": {
+    "concern": 65.5,
+    "pct_change": -6.55,
+    "population_2018": 333499,
+    "population_2023": 311639
+  },
+  "santa-barbara-ca": {
+    "concern": 36.1,
+    "pct_change": -3.61,
+    "population_2018": 91325,
+    "population_2023": 88024
+  },
+  "santa-clara-ca": {
+    "concern": 0.0,
+    "pct_change": 2.4,
+    "population_2018": 126209,
+    "population_2023": 129239
+  },
+  "santa-clarita-ca": {
+    "concern": 0.0,
+    "pct_change": 9.33,
+    "population_2018": 209478,
+    "population_2023": 229021
+  },
+  "santa-fe-nm": {
+    "concern": 0.0,
+    "pct_change": 5.22,
+    "population_2018": 83847,
+    "population_2023": 88224
+  },
+  "santa-maria-ca": {
+    "concern": 0.0,
+    "pct_change": 4.17,
+    "population_2018": 105483,
+    "population_2023": 109880
+  },
+  "santa-monica-ca": {
+    "concern": 5.9,
+    "pct_change": -0.59,
+    "population_2018": 92078,
+    "population_2023": 91535
+  },
+  "santa-rosa-ca": {
+    "concern": 21.1,
+    "pct_change": -2.11,
+    "population_2018": 181038,
+    "population_2023": 177216
+  },
+  "schaumburg-il": {
+    "concern": 0.0,
+    "pct_change": 2.97,
+    "population_2018": 74569,
+    "population_2023": 76780
+  },
+  "scottsdale-az": {
+    "concern": 15.7,
+    "pct_change": -1.57,
+    "population_2018": 246026,
+    "population_2023": 242169
+  },
+  "seattle-wa": {
+    "concern": 0.0,
+    "pct_change": 4.6,
+    "population_2018": 708823,
+    "population_2023": 741440
+  },
+  "shreveport-la": {
+    "concern": 53.2,
+    "pct_change": -5.32,
+    "population_2018": 193785,
+    "population_2023": 183483
+  },
+  "simi-valley-ca": {
+    "concern": 3.4,
+    "pct_change": -0.34,
+    "population_2018": 126199,
+    "population_2023": 125769
+  },
+  "sioux-city-ia": {
+    "concern": 0.0,
+    "pct_change": 3.84,
+    "population_2018": 82486,
+    "population_2023": 85651
+  },
+  "sioux-falls-sd": {
+    "concern": 0.0,
+    "pct_change": 13.49,
+    "population_2018": 174151,
+    "population_2023": 197642
+  },
+  "somerville-ma": {
+    "concern": 0.0,
+    "pct_change": 0.14,
+    "population_2018": 80434,
+    "population_2023": 80549
+  },
+  "south-bend-in": {
+    "concern": 0.0,
+    "pct_change": 0.62,
+    "population_2018": 102233,
+    "population_2023": 102866
+  },
+  "south-fulton-ga": {
+    "concern": 0.0,
+    "pct_change": 15.01,
+    "population_2018": 94912,
+    "population_2023": 109157
+  },
+  "south-gate-ca": {
+    "concern": 34.4,
+    "pct_change": -3.44,
+    "population_2018": 95103,
+    "population_2023": 91836
+  },
+  "south-jordan-ut": {
+    "concern": 0.0,
+    "pct_change": 17.29,
+    "population_2018": 68491,
+    "population_2023": 80331
+  },
+  "sparks-nv": {
+    "concern": 0.0,
+    "pct_change": 10.74,
+    "population_2018": 98524,
+    "population_2023": 109106
+  },
+  "spokane-valley-wa": {
+    "concern": 0.0,
+    "pct_change": 9.77,
+    "population_2018": 96070,
+    "population_2023": 105460
+  },
+  "spokane-wa": {
+    "concern": 0.0,
+    "pct_change": 6.71,
+    "population_2018": 214804,
+    "population_2023": 229228
+  },
+  "springdale-ar": {
+    "concern": 0.0,
+    "pct_change": 11.05,
+    "population_2018": 78690,
+    "population_2023": 87388
+  },
+  "springfield-il": {
+    "concern": 23.6,
+    "pct_change": -2.36,
+    "population_2018": 116459,
+    "population_2023": 113714
+  },
+  "springfield-ma": {
+    "concern": 0.0,
+    "pct_change": 0.1,
+    "population_2018": 154596,
+    "population_2023": 154751
+  },
+  "springfield-mo": {
+    "concern": 0.0,
+    "pct_change": 1.68,
+    "population_2018": 166633,
+    "population_2023": 169432
+  },
+  "st-george-ut": {
+    "concern": 0.0,
+    "pct_change": 20.67,
+    "population_2018": 82194,
+    "population_2023": 99184
+  },
+  "st-louis-mo": {
+    "concern": 58.4,
+    "pct_change": -5.84,
+    "population_2018": 311273,
+    "population_2023": 293109
+  },
+  "st-petersburg-fl": {
+    "concern": 0.0,
+    "pct_change": 0.62,
+    "population_2018": 259041,
+    "population_2023": 260646
+  },
+  "stamford-ct": {
+    "concern": 0.0,
+    "pct_change": 5.25,
+    "population_2018": 129026,
+    "population_2023": 135806
+  },
+  "sterling-heights-mi": {
+    "concern": 0.0,
+    "pct_change": 0.76,
+    "population_2018": 132470,
+    "population_2023": 133473
+  },
+  "stockton-ca": {
+    "concern": 0.0,
+    "pct_change": 4.63,
+    "population_2018": 306283,
+    "population_2023": 320470
+  },
+  "suffolk-va": {
+    "concern": 0.0,
+    "pct_change": 8.39,
+    "population_2018": 89160,
+    "population_2023": 96638
+  },
+  "sugar-land-tx": {
+    "concern": 71.5,
+    "pct_change": -7.15,
+    "population_2018": 118182,
+    "population_2023": 109735
+  },
+  "sunnyvale-ca": {
+    "concern": 0.0,
+    "pct_change": 0.74,
+    "population_2018": 152323,
+    "population_2023": 153455
+  },
+  "sunrise-fl": {
+    "concern": 0.0,
+    "pct_change": 3.68,
+    "population_2018": 93199,
+    "population_2023": 96633
+  },
+  "surprise-az": {
+    "concern": 0.0,
+    "pct_change": 12.5,
+    "population_2018": 132904,
+    "population_2023": 149519
+  },
+  "syracuse-ny": {
+    "concern": 0.0,
+    "pct_change": 2.04,
+    "population_2018": 143293,
+    "population_2023": 146211
+  },
+  "tacoma-wa": {
+    "concern": 0.0,
+    "pct_change": 4.94,
+    "population_2018": 210103,
+    "population_2023": 220482
+  },
+  "tallahassee-fl": {
+    "concern": 0.0,
+    "pct_change": 5.0,
+    "population_2018": 190180,
+    "population_2023": 199696
+  },
+  "tampa-fl": {
+    "concern": 0.0,
+    "pct_change": 4.53,
+    "population_2018": 376345,
+    "population_2023": 393389
+  },
+  "taos-nm": {
+    "concern": 0.0,
+    "pct_change": 7.42,
+    "population_2018": 6021,
+    "population_2023": 6468
+  },
+  "temecula-ca": {
+    "concern": 16.3,
+    "pct_change": -1.63,
+    "population_2018": 112230,
+    "population_2023": 110404
+  },
+  "tempe-az": {
+    "concern": 0.0,
+    "pct_change": 1.51,
+    "population_2018": 183652,
+    "population_2023": 186419
+  },
+  "temple-tx": {
+    "concern": 0.0,
+    "pct_change": 18.07,
+    "population_2018": 73143,
+    "population_2023": 86358
+  },
+  "thornton-co": {
+    "concern": 0.0,
+    "pct_change": 6.16,
+    "population_2018": 134588,
+    "population_2023": 142878
+  },
+  "thousand-oaks-ca": {
+    "concern": 21.8,
+    "pct_change": -2.18,
+    "population_2018": 128481,
+    "population_2023": 125676
+  },
+  "toledo-oh": {
+    "concern": 35.0,
+    "pct_change": -3.5,
+    "population_2018": 278193,
+    "population_2023": 268461
+  },
+  "topeka-ks": {
+    "concern": 6.1,
+    "pct_change": -0.61,
+    "population_2018": 126877,
+    "population_2023": 126103
+  },
+  "torrance-ca": {
+    "concern": 19.8,
+    "pct_change": -1.98,
+    "population_2018": 146392,
+    "population_2023": 143499
+  },
+  "tracy-ca": {
+    "concern": 0.0,
+    "pct_change": 7.38,
+    "population_2018": 88806,
+    "population_2023": 95358
+  },
+  "trenton-nj": {
+    "concern": 0.0,
+    "pct_change": 7.44,
+    "population_2018": 83734,
+    "population_2023": 89966
+  },
+  "troy-mi": {
+    "concern": 0.0,
+    "pct_change": 4.08,
+    "population_2018": 83881,
+    "population_2023": 87307
+  },
+  "tucson-az": {
+    "concern": 0.0,
+    "pct_change": 0.77,
+    "population_2018": 539216,
+    "population_2023": 543348
+  },
+  "tulsa-ok": {
+    "concern": 0.0,
+    "pct_change": 2.51,
+    "population_2018": 402223,
+    "population_2023": 412322
+  },
+  "tuscaloosa-al": {
+    "concern": 0.0,
+    "pct_change": 8.92,
+    "population_2018": 98881,
+    "population_2023": 107699
+  },
+  "tustin-ca": {
+    "concern": 13.8,
+    "pct_change": -1.38,
+    "population_2018": 80140,
+    "population_2023": 79035
+  },
+  "tyler-tx": {
+    "concern": 0.0,
+    "pct_change": 3.85,
+    "population_2018": 103721,
+    "population_2023": 107718
+  },
+  "upland-ca": {
+    "concern": 0.0,
+    "pct_change": 3.35,
+    "population_2018": 76382,
+    "population_2023": 78940
+  },
+  "vacaville-ca": {
+    "concern": 0.0,
+    "pct_change": 4.23,
+    "population_2018": 97943,
+    "population_2023": 102085
+  },
+  "vallejo-ca": {
+    "concern": 0.0,
+    "pct_change": 3.03,
+    "population_2018": 120977,
+    "population_2023": 124637
+  },
+  "vancouver-wa": {
+    "concern": 0.0,
+    "pct_change": 8.01,
+    "population_2018": 178413,
+    "population_2023": 192696
+  },
+  "ventura-ca": {
+    "concern": 3.0,
+    "pct_change": -0.3,
+    "population_2018": 110234,
+    "population_2023": 109900
+  },
+  "victorville-ca": {
+    "concern": 0.0,
+    "pct_change": 11.59,
+    "population_2018": 121861,
+    "population_2023": 135983
+  },
+  "virginia-beach-va": {
+    "concern": 0.0,
+    "pct_change": 1.54,
+    "population_2018": 450135,
+    "population_2023": 457066
+  },
+  "visalia-ca": {
+    "concern": 0.0,
+    "pct_change": 8.84,
+    "population_2018": 131066,
+    "population_2023": 142649
+  },
+  "vista-ca": {
+    "concern": 14.6,
+    "pct_change": -1.46,
+    "population_2018": 100108,
+    "population_2023": 98646
+  },
+  "waco-tx": {
+    "concern": 0.0,
+    "pct_change": 5.94,
+    "population_2018": 133964,
+    "population_2023": 141925
+  },
+  "warner-robins-ga": {
+    "concern": 0.0,
+    "pct_change": 8.93,
+    "population_2018": 74762,
+    "population_2023": 81438
+  },
+  "warren-mi": {
+    "concern": 0.0,
+    "pct_change": 1.75,
+    "population_2018": 8303,
+    "population_2023": 8448
+  },
+  "warwick-ri": {
+    "concern": 0.0,
+    "pct_change": 2.21,
+    "population_2018": 81079,
+    "population_2023": 82871
+  },
+  "washington-dc": {
+    "concern": 18.1,
+    "pct_change": -1.81,
+    "population_2018": 684498,
+    "population_2023": 672079
+  },
+  "waterbury-ct": {
+    "concern": 0.0,
+    "pct_change": 5.23,
+    "population_2018": 108672,
+    "population_2023": 114356
+  },
+  "waukegan-il": {
+    "concern": 0.0,
+    "pct_change": 1.54,
+    "population_2018": 87571,
+    "population_2023": 88919
+  },
+  "west-covina-ca": {
+    "concern": 0.0,
+    "pct_change": 0.18,
+    "population_2018": 107242,
+    "population_2023": 107436
+  },
+  "west-jordan-ut": {
+    "concern": 0.0,
+    "pct_change": 2.82,
+    "population_2018": 113089,
+    "population_2023": 116277
+  },
+  "west-palm-beach-fl": {
+    "concern": 0.0,
+    "pct_change": 10.28,
+    "population_2018": 108365,
+    "population_2023": 119508
+  },
+  "west-valley-city-ut": {
+    "concern": 0.0,
+    "pct_change": 1.45,
+    "population_2018": 135985,
+    "population_2023": 137955
+  },
+  "westland-mi": {
+    "concern": 0.0,
+    "pct_change": 2.48,
+    "population_2018": 82120,
+    "population_2023": 84155
+  },
+  "westminster-ca": {
+    "concern": 13.9,
+    "pct_change": -1.39,
+    "population_2018": 91417,
+    "population_2023": 90147
+  },
+  "westminster-co": {
+    "concern": 0.0,
+    "pct_change": 2.48,
+    "population_2018": 112747,
+    "population_2023": 115546
+  },
+  "whitewright-tx": {
+    "concern": 62.3,
+    "pct_change": -6.23,
+    "population_2018": 1717,
+    "population_2023": 1610
+  },
+  "whittier-ca": {
+    "concern": 6.9,
+    "pct_change": -0.69,
+    "population_2018": 86523,
+    "population_2023": 85925
+  },
+  "wichita-falls-tx": {
+    "concern": 18.5,
+    "pct_change": -1.85,
+    "population_2018": 104494,
+    "population_2023": 102558
+  },
+  "wichita-ks": {
+    "concern": 0.0,
+    "pct_change": 1.78,
+    "population_2018": 389563,
+    "population_2023": 396488
+  },
+  "wilmington-nc": {
+    "concern": 0.0,
+    "pct_change": 0.41,
+    "population_2018": 118094,
+    "population_2023": 118578
+  },
+  "winston-salem-nc": {
+    "concern": 0.0,
+    "pct_change": 3.62,
+    "population_2018": 242125,
+    "population_2023": 250887
+  },
+  "woodbury-mn": {
+    "concern": 0.0,
+    "pct_change": 12.02,
+    "population_2018": 68686,
+    "population_2023": 76945
+  },
+  "worcester-ma": {
+    "concern": 0.0,
+    "pct_change": 10.96,
+    "population_2018": 185195,
+    "population_2023": 205501
+  },
+  "wyoming-mi": {
+    "concern": 0.0,
+    "pct_change": 1.76,
+    "population_2018": 75532,
+    "population_2023": 76865
+  },
+  "yakima-wa": {
+    "concern": 0.0,
+    "pct_change": 3.63,
+    "population_2018": 93416,
+    "population_2023": 96810
+  },
+  "yonkers-ny": {
+    "concern": 0.0,
+    "pct_change": 4.9,
+    "population_2018": 199745,
+    "population_2023": 209529
+  },
+  "yuma-az": {
+    "concern": 0.0,
+    "pct_change": 3.02,
+    "population_2018": 95573,
+    "population_2023": 98461
+  }
+}

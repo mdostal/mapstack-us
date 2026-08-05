@@ -413,6 +413,22 @@ test("the twenty-fifth dataset (air quality) is selectable and reports a real Ai
   await expect(detail).toContainText("EPA AirNow");
 });
 
+test("the twenty-sixth dataset (population change) is selectable and reports a real Census-sourced value -- the last of the original Census-cluster items", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Population change" }).click();
+  await page.getByRole("button", { name: "Population growth/decline", exact: true }).click();
+  await page.getByRole("button", { name: "Add Population growth/decline" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Population change: Population growth/decline" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Population change" });
+  await expect(detail).toContainText("population");
+  await expect(detail).toContainText("Census ACS");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

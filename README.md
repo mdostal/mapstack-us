@@ -34,8 +34,9 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  twenty-five genuinely different real implementations across the full 512-city spine,
-  all free (all but crime, property tax, unemployment, and air quality also keyless):
+  twenty-six genuinely different real implementations across the full 512-city spine,
+  all free (all but crime, property tax, unemployment, air quality, and population
+  change also keyless):
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
@@ -99,6 +100,10 @@ built from two real, working examples instead of upfront design.
     EPA AirNow, unblocked by a real `EPA_AIRNOW_API_KEY`. 459/512 coverage, with the
     rest a real, recoverable rate-limit gap, not a fabricated value
     (`data/air-quality-methodology.md`).
+  - **Population change** — real 5-year population growth/decline, the last of the
+    original five Census-cluster items, real Census ACS data (Census PEP's own
+    place-level product appears to have moved for recent vintages, confirmed live)
+    (`data/population-change-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
@@ -120,15 +125,15 @@ built from two real, working examples instead of upfront design.
 
 ## What's next
 
-A `CENSUS_API_KEY` is finally in hand — property tax just shipped as the first dataset
-pulled directly from the Census API. Population growth/decline (the last Census-cluster
-item) is still blocked, but now on a real API-endpoint question rather than a missing
-key: Census's own PEP place-level population product appears to have moved for recent
-vintages (the `pep/population` path only supports state-level geography as of 2023),
-and the real current path hasn't been found yet. Full ~19,500-place resolution (beyond
-the 512-city spine) remains a separate, larger lift — see
-`.pHive/epics/data-store/docs/full-resolution-spine-research.md` for the lazy-load
-design. Beyond that: more free real datasets as good candidates turn up
+All five original Census-cluster items (population, income, broadband, property tax,
+housing-cost-burden) are now real and shipped, three of them (population, property tax)
+pulled directly from a real `CENSUS_API_KEY` this session, the rest via County Health
+Rankings' free republication route. Also newly unblocked this session:
+`BLS_API_KEY` (unemployment) and `EPA_AIRNOW_API_KEY` (air quality) — both shipped.
+`BEA_API_KEY` (cost of living / Regional Price Parities) is in hand but not yet built.
+Full ~19,500-place resolution (beyond the 512-city spine) remains a separate, larger
+lift — see `.pHive/epics/data-store/docs/full-resolution-spine-research.md` for the
+lazy-load design. Beyond that: more free real datasets as good candidates turn up
 (`.pHive/epics/data-store/docs/dataset-backlog.md` tracks research on further
 candidates, ranked by real-world feasibility and effort), and continuing to port
 allergy-locator's fuller daily/seasonal resolution into this same generalized interface.

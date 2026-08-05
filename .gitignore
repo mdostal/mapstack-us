@@ -140,6 +140,11 @@ data/raw/unemployment-cache/
 # data/air-quality.json IS committed.
 data/raw/air-quality-cache/
 
+# Pure fetch-scratch for the population-change dataset build
+# (scripts/gen_population_change_data.py) -- same posture as the caches
+# above. data/population-change.json IS committed.
+data/raw/population-change-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
