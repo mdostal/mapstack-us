@@ -66,6 +66,16 @@ export function InsightsPanel({ selected, year, onSelectCity }: Props) {
                       key={c.id}
                       type="button"
                       onClick={() => onSelectCity(c.id)}
+                      // aria-label deliberately doesn't start with "City, ST"
+                      // -- a real bug found live: once Insights rendered on
+                      // the simple view too (alongside the map's own city
+                      // markers, whose accessible name IS "City, ST -- N
+                      // layers visible"), the existing /^City, ST/ locator
+                      // pattern used throughout mapstack.spec.ts started
+                      // matching two elements (Playwright strict-mode
+                      // violation). The visible text stays "City, ST --
+                      // value" unchanged.
+                      aria-label={`View ${c.city}, ${c.state} on the map`}
                       className="text-left text-zinc-700 hover:underline dark:text-zinc-300"
                     >
                       {c.city}, {c.state} — {c.value.toFixed(0)}
@@ -79,6 +89,7 @@ export function InsightsPanel({ selected, year, onSelectCity }: Props) {
                       key={c.id}
                       type="button"
                       onClick={() => onSelectCity(c.id)}
+                      aria-label={`View ${c.city}, ${c.state} on the map`}
                       className="text-left text-zinc-700 hover:underline dark:text-zinc-300"
                     >
                       {c.city}, {c.state} — {c.value.toFixed(0)}
