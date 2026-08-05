@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "coverage": 7,
+    "grass_days_cap_for_100_concern": 90.0,
+    "match_radius_km": 65,
+    "note": "Vermont's EPHT Pollen dataset (real daily grass counts, 2009-2025, genuinely live-maintained) was also confirmed real this session but has zero cities in the 512-city spine within range -- documented in gen_measured_grass_pollen_data.py for whoever extends this next.",
+    "source": "Carver County, MN Environmental Services -- Elevated Pollen Days (real annual counts, 1993-2020, not updated since)"
+  },
+  "bloomington-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 22.5,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "brooklyn-park-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 40.7,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "lakeville-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 30.2,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "minneapolis-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 33.5,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "plymouth-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 27.9,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "saint-paul-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 44.0,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  },
+  "woodbury-mn": {
+    "avg_elevated_grass_pollen_days_per_year": 39.2,
+    "concern": 43.6,
+    "distance_km_from_station_region": 55.2,
+    "years_averaged": [
+      2020,
+      2019,
+      2018,
+      2017,
+      2016
+    ]
+  }
+}

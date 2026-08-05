@@ -115,6 +115,11 @@ data/raw/heat-cache/
 # data/sales-tax.json IS committed.
 data/raw/sales-tax-cache/
 
+# Pure fetch-scratch for the measured-grass-pollen dataset build
+# (scripts/gen_measured_grass_pollen_data.py) -- same posture as the
+# caches above. data/measured-grass-pollen.json IS committed.
+data/raw/measured-grass-pollen-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

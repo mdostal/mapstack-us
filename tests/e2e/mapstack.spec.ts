@@ -324,6 +324,31 @@ test("the twentieth dataset (sales tax) is selectable and reports a real Tax-Fou
   await expect(detail).toContainText("combined state + local sales tax");
 });
 
+test("the twenty-first dataset (measured grass pollen) is selectable and reports a real station-sourced value only for its narrow real coverage area", async ({
+  page,
+}) => {
+  await page.goto("/?city=minneapolis-mn");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Measured grass pollen (real, limited coverage)" }).click();
+  await page.getByRole("button", { name: "Measured grass pollen", exact: true }).click();
+  await page.getByRole("button", { name: "Add Measured grass pollen" }).click();
+
+  await expect(
+    page.getByTestId("active-layers-row").filter({ hasText: "Measured grass pollen (real, limited coverage): Measured grass pollen" }),
+  ).toBeVisible();
+
+  const minneapolisDetail = page.getByTestId("city-detail-row").filter({ hasText: "Measured grass pollen" });
+  await expect(minneapolisDetail).toContainText("real measured elevated-grass-pollen days/year");
+  await expect(minneapolisDetail).toContainText("Carver County, MN");
+
+  // Real coverage is intentionally narrow (Twin Cities MN metro only) --
+  // a distant city shows an honest no-data state, not a fabricated value.
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const nycDetail = page.getByTestId("city-detail-row").filter({ hasText: "Measured grass pollen" });
+  await expect(nycDetail).toContainText("No data for this layer");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
