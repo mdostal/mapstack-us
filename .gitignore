@@ -102,6 +102,14 @@ data/raw/income-cache/
 # caches above. data/housing-cost-burden.json IS committed.
 data/raw/housing-cost-burden-cache/
 
+# Pure fetch-scratch for the extreme-heat dataset build
+# (scripts/fetch_heat_stations.py, scripts/gen_heat_data.py) -- same
+# posture as the caches above. data/heat.json AND
+# data/raw/heat-station-matches.json ARE committed (the real
+# city->station matching decision, same posture as
+# data/raw/crime-agency-matches.json).
+data/raw/heat-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

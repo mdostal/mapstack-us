@@ -293,6 +293,22 @@ test("the eighteenth dataset (housing affordability) is selectable and reports a
   await expect(detail).toContainText("Census ACS");
 });
 
+test("the nineteenth dataset (extreme heat) is selectable and reports a real NOAA-sourced value with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Extreme heat" }).click();
+  await page.getByRole("button", { name: "Extreme heat days", exact: true }).click();
+  await page.getByRole("button", { name: "Add Extreme heat days" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Extreme heat: Extreme heat days" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Extreme heat" });
+  await expect(detail).toContainText("days/year above 90");
+  await expect(detail).toContainText("nearest station");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

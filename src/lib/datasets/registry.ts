@@ -15,6 +15,7 @@ import { politicalLeanDataset } from "@/lib/datasets/political-lean";
 import { broadbandDataset } from "@/lib/datasets/broadband";
 import { incomeDataset } from "@/lib/datasets/income";
 import { housingCostBurdenDataset } from "@/lib/datasets/housing-cost-burden";
+import { heatDataset } from "@/lib/datasets/heat";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -41,6 +42,7 @@ export const DATASETS: Dataset[] = [
   broadbandDataset,
   incomeDataset,
   housingCostBurdenDataset,
+  heatDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

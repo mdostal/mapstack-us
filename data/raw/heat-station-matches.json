@@ -1,0 +1,3074 @@
+{
+  "abilene-tx": {
+    "days_above_90f": 90.0,
+    "distance_km": 7.0,
+    "station_id": "USW00013962",
+    "station_name": "ABILENE RGNL AP"
+  },
+  "akron-oh": {
+    "days_above_90f": 5.8,
+    "distance_km": 6.6,
+    "station_id": "USW00014813",
+    "station_name": "AKRON FULTON INTL AP"
+  },
+  "alameda-ca": {
+    "days_above_90f": 3.1,
+    "distance_km": 4.0,
+    "station_id": "USW00023230",
+    "station_name": "OAKLAND METRO INTL AP"
+  },
+  "albany-ny": {
+    "days_above_90f": 7.1,
+    "distance_km": 8.2,
+    "station_id": "USW00014735",
+    "station_name": "ALBANY AP"
+  },
+  "albuquerque-nm": {
+    "days_above_90f": 42.6,
+    "distance_km": 5.3,
+    "station_id": "USW00023050",
+    "station_name": "ALBUQUERQUE INTL AP"
+  },
+  "alexandria-va": {
+    "days_above_90f": 31.0,
+    "distance_km": 5.1,
+    "station_id": "USW00013743",
+    "station_name": "WASHINGTON REAGAN AP"
+  },
+  "alhambra-ca": {
+    "days_above_90f": 33.4,
+    "distance_km": 3.7,
+    "station_id": "USC00047785",
+    "station_name": "SAN GABRIEL FIRE DEPT"
+  },
+  "allen-tx": {
+    "days_above_90f": 83.0,
+    "distance_km": 10.8,
+    "station_id": "USW00053914",
+    "station_name": "MCKINNEY MUNI AP"
+  },
+  "allentown-pa": {
+    "days_above_90f": 11.9,
+    "distance_km": 7.2,
+    "station_id": "USW00014737",
+    "station_name": "ALLENTOWN INTL AP"
+  },
+  "amarillo-tx": {
+    "days_above_90f": 60.8,
+    "distance_km": 11.1,
+    "station_id": "USW00023047",
+    "station_name": "AMARILLO"
+  },
+  "anaheim-ca": {
+    "days_above_90f": 43.5,
+    "distance_km": 6.8,
+    "station_id": "USC00040192",
+    "station_name": "ANAHEIM"
+  },
+  "anchorage-ak": {
+    "days_above_90f": 0.0,
+    "distance_km": 2.4,
+    "station_id": "USW00026409",
+    "station_name": "ANCHORAGE MERRILL FLD"
+  },
+  "ankeny-ia": {
+    "days_above_90f": 23.6,
+    "distance_km": 4.2,
+    "station_id": "USC00130241",
+    "station_name": "ANKENY"
+  },
+  "ann-arbor-mi": {
+    "days_above_90f": 6.4,
+    "distance_km": 5.2,
+    "station_id": "USC00200228",
+    "station_name": "ANN ARBOR SE"
+  },
+  "antioch-ca": {
+    "days_above_90f": 56.9,
+    "distance_km": 4.2,
+    "station_id": "USC00040232",
+    "station_name": "ANTIOCH PUMPING PLT #3"
+  },
+  "apex-nc": {
+    "days_above_90f": 33.7,
+    "distance_km": 4.1,
+    "station_id": "USC00310212",
+    "station_name": "APEX"
+  },
+  "arlington-tx": {
+    "days_above_90f": 78.5,
+    "distance_km": 3.9,
+    "station_id": "USC00410337",
+    "station_name": "ARLINGTON SIX FLAGS"
+  },
+  "arlington-va": {
+    "days_above_90f": 31.9,
+    "distance_km": 6.6,
+    "station_id": "USC00182325",
+    "station_name": "DALECARLIA RSVR"
+  },
+  "arvada-co": {
+    "days_above_90f": 29.9,
+    "distance_km": 6.7,
+    "station_id": "USC00058995",
+    "station_name": "WHEAT RIDGE 2"
+  },
+  "asheville-nc": {
+    "days_above_90f": 10.7,
+    "distance_km": 0.8,
+    "station_id": "USW00013872",
+    "station_name": "ASHEVILLE"
+  },
+  "athens-ga": {
+    "days_above_90f": 57.0,
+    "distance_km": 3.9,
+    "station_id": "USW00013873",
+    "station_name": "ATHENS BEN EPPS AP"
+  },
+  "atlanta-ga": {
+    "days_above_90f": 38.5,
+    "distance_km": 12.6,
+    "station_id": "USW00003888",
+    "station_name": "ATLANTA FULTON CO AP"
+  },
+  "auburn-al": {
+    "days_above_90f": 47.0,
+    "distance_km": 2.6,
+    "station_id": "USC00010425",
+    "station_name": "AUBURN NO.2"
+  },
+  "auburn-wa": {
+    "days_above_90f": 3.2,
+    "distance_km": 13.3,
+    "station_id": "USC00454169",
+    "station_name": "KENT"
+  },
+  "augusta-ga": {
+    "days_above_90f": 61.7,
+    "distance_km": 6.4,
+    "station_id": "USW00013837",
+    "station_name": "AUGUSTA DANIEL FLD AP"
+  },
+  "aurora-co": {
+    "days_above_90f": 30.6,
+    "distance_km": 5.0,
+    "station_id": "USW00023062",
+    "station_name": "DENVER-STAPLETON"
+  },
+  "aurora-il": {
+    "days_above_90f": 12.1,
+    "distance_km": 2.4,
+    "station_id": "USC00110338",
+    "station_name": "AURORA"
+  },
+  "austin-tx": {
+    "days_above_90f": 103.3,
+    "distance_km": 5.1,
+    "station_id": "USC00410431",
+    "station_name": "AUSTIN 6S"
+  },
+  "avondale-az": {
+    "days_above_90f": 172.1,
+    "distance_km": 17.3,
+    "station_id": "USC00024829",
+    "station_name": "LAVEEN 3 SSE"
+  },
+  "bakersfield-ca": {
+    "days_above_90f": 102.5,
+    "distance_km": 6.1,
+    "station_id": "USC00040444",
+    "station_name": "BAKERSFIELD 5 NW"
+  },
+  "baltimore-md": {
+    "days_above_90f": 37.3,
+    "distance_km": 1.0,
+    "station_id": "USW00093784",
+    "station_name": "MD SCI CTR BALTIMORE"
+  },
+  "baton-rouge-la": {
+    "days_above_90f": 83.5,
+    "distance_km": 9.8,
+    "station_id": "USC00165620",
+    "station_name": "LSU BEN-HUR FARM"
+  },
+  "baytown-tx": {
+    "days_above_90f": 73.5,
+    "distance_km": 17.3,
+    "station_id": "USC00410586",
+    "station_name": "BAYTOWN"
+  },
+  "beaumont-tx": {
+    "days_above_90f": 81.3,
+    "distance_km": 5.2,
+    "station_id": "USC00410611",
+    "station_name": "BEAUMONT CITY"
+  },
+  "beaverton-or": {
+    "days_above_90f": 9.5,
+    "distance_km": 2.5,
+    "station_id": "USC00355945",
+    "station_name": "NATURE PARK-BEAVERTON"
+  },
+  "bellevue-wa": {
+    "days_above_90f": 1.2,
+    "distance_km": 12.0,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "bellingham-wa": {
+    "days_above_90f": 0.2,
+    "distance_km": 4.7,
+    "station_id": "USC00450587",
+    "station_name": "BELLINGHAM 3 SSW"
+  },
+  "bend-or": {
+    "days_above_90f": 10.3,
+    "distance_km": 2.0,
+    "station_id": "USC00350694",
+    "station_name": "BEND"
+  },
+  "berkeley-ca": {
+    "days_above_90f": 5.3,
+    "distance_km": 3.5,
+    "station_id": "USC00040693",
+    "station_name": "BERKELEY"
+  },
+  "bethlehem-pa": {
+    "days_above_90f": 11.9,
+    "distance_km": 7.1,
+    "station_id": "USW00014737",
+    "station_name": "ALLENTOWN INTL AP"
+  },
+  "billings-mt": {
+    "days_above_90f": 40.5,
+    "distance_km": 2.5,
+    "station_id": "USC00240802",
+    "station_name": "BILLINGS WTP"
+  },
+  "birmingham-al": {
+    "days_above_90f": 54.6,
+    "distance_km": 7.9,
+    "station_id": "USW00013876",
+    "station_name": "BIRMINGHAM AP"
+  },
+  "bismarck-nd": {
+    "days_above_90f": 9.1,
+    "distance_km": 3.4,
+    "station_id": "USC00320817",
+    "station_name": "BISMARCK 2.4 NNW"
+  },
+  "blanding-ut": {
+    "days_above_90f": 45.2,
+    "distance_km": 0.9,
+    "station_id": "USC00420738",
+    "station_name": "BLANDING"
+  },
+  "bloomington-il": {
+    "days_above_90f": 19.7,
+    "distance_km": 7.9,
+    "station_id": "USC00116200",
+    "station_name": "NORMAL 4NE"
+  },
+  "bloomington-in": {
+    "days_above_90f": 17.6,
+    "distance_km": 1.6,
+    "station_id": "USC00120784",
+    "station_name": "BLOOMINGTON INDIANA UNIV"
+  },
+  "bloomington-mn": {
+    "days_above_90f": 10.7,
+    "distance_km": 9.3,
+    "station_id": "USW00014922",
+    "station_name": "MINNEAPOLIS/ST PAUL AP"
+  },
+  "boca-raton-fl": {
+    "days_above_90f": 30.5,
+    "distance_km": 13.4,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "boise-id": {
+    "days_above_90f": 47.5,
+    "distance_km": 6.8,
+    "station_id": "USW00024131",
+    "station_name": "BOISE AIR TERMINAL"
+  },
+  "boston-ma": {
+    "days_above_90f": 10.3,
+    "distance_km": 4.1,
+    "station_id": "USW00014739",
+    "station_name": "BOSTON LOGAN INTL AP"
+  },
+  "boulder-co": {
+    "days_above_90f": 27.6,
+    "distance_km": 3.4,
+    "station_id": "USC00050848",
+    "station_name": "BOULDER"
+  },
+  "bowling-green-ky": {
+    "days_above_90f": 42.0,
+    "distance_km": 1.8,
+    "station_id": "USW00093808",
+    "station_name": "BOWLING GREEN WARREN CO AP"
+  },
+  "boynton-beach-fl": {
+    "days_above_90f": 74.6,
+    "distance_km": 14.0,
+    "station_id": "USC00085184",
+    "station_name": "LOXAHATCHEE NWR"
+  },
+  "bridgeport-ct": {
+    "days_above_90f": 6.3,
+    "distance_km": 6.9,
+    "station_id": "USW00094702",
+    "station_name": "BRIDGEPORT SIKORSKY MEM AP"
+  },
+  "brockton-ma": {
+    "days_above_90f": 7.6,
+    "distance_km": 3.7,
+    "station_id": "USC00190860",
+    "station_name": "BROCKTON"
+  },
+  "broken-arrow-ok": {
+    "days_above_90f": 66.6,
+    "distance_km": 11.2,
+    "station_id": "USC00340782",
+    "station_name": "BIXBY"
+  },
+  "brooklyn-park-mn": {
+    "days_above_90f": 11.7,
+    "distance_km": 5.3,
+    "station_id": "USW00094960",
+    "station_name": "MPLS CRYSTAL AP"
+  },
+  "broomfield-co": {
+    "days_above_90f": 54.3,
+    "distance_km": 6.5,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "brownsville-tx": {
+    "days_above_90f": 123.0,
+    "distance_km": 8.3,
+    "station_id": "USW00012919",
+    "station_name": "BROWNSVILLE"
+  },
+  "bryan-tx": {
+    "days_above_90f": 106.3,
+    "distance_km": 9.1,
+    "station_id": "USW00003904",
+    "station_name": "COLLEGE STN"
+  },
+  "buckeye-az": {
+    "days_above_90f": 161.9,
+    "distance_km": 26.8,
+    "station_id": "USC00024977",
+    "station_name": "LITCHFIELD PARK"
+  },
+  "buena-park-ca": {
+    "days_above_90f": 24.4,
+    "distance_km": 3.2,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "buffalo-ny": {
+    "days_above_90f": 2.0,
+    "distance_km": 13.4,
+    "station_id": "USW00014733",
+    "station_name": "BUFFALO"
+  },
+  "burbank-ca": {
+    "days_above_90f": 43.2,
+    "distance_km": 2.8,
+    "station_id": "USW00023152",
+    "station_name": "BURBANK GLENDALE PASADENA AP"
+  },
+  "caldwell-id": {
+    "days_above_90f": 51.4,
+    "distance_km": 8.5,
+    "station_id": "USC00106305",
+    "station_name": "NAMPA SUGAR FACTORY"
+  },
+  "cambridge-ma": {
+    "days_above_90f": 13.4,
+    "distance_km": 8.6,
+    "station_id": "USC00193890",
+    "station_name": "JAMAICA PLAIN"
+  },
+  "cape-coral-fl": {
+    "days_above_90f": 112.7,
+    "distance_km": 9.2,
+    "station_id": "USW00012835",
+    "station_name": "FT MYERS PAGE FLD AP"
+  },
+  "carlsbad-ca": {
+    "days_above_90f": 1.1,
+    "distance_km": 0.2,
+    "station_id": "USW00003177",
+    "station_name": "CARLSBAD PALOMAR AP"
+  },
+  "carlsbad-nm": {
+    "days_above_90f": 98.2,
+    "distance_km": 8.1,
+    "station_id": "USC00291469",
+    "station_name": "CARLSBAD"
+  },
+  "carmel-in": {
+    "days_above_90f": 13.2,
+    "distance_km": 7.8,
+    "station_id": "USC00121303",
+    "station_name": "CARMEL 3 E"
+  },
+  "carrollton-tx": {
+    "days_above_90f": 80.4,
+    "distance_km": 14.7,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "carson-ca": {
+    "days_above_90f": 4.4,
+    "distance_km": 9.4,
+    "station_id": "USW00003122",
+    "station_name": "TORRANCE AP"
+  },
+  "cary-nc": {
+    "days_above_90f": 33.7,
+    "distance_km": 4.4,
+    "station_id": "USC00310212",
+    "station_name": "APEX"
+  },
+  "castle-rock-co": {
+    "days_above_90f": 13.5,
+    "distance_km": 5.9,
+    "station_id": "USC00051401",
+    "station_name": "CASTLE ROCK"
+  },
+  "cedar-park-tx": {
+    "days_above_90f": 100.7,
+    "distance_km": 11.8,
+    "station_id": "USC00410433",
+    "station_name": "AUSTIN GREAT HILLS"
+  },
+  "cedar-rapids-ia": {
+    "days_above_90f": 11.6,
+    "distance_km": 9.1,
+    "station_id": "USW00014990",
+    "station_name": "CEDAR RAPIDS MUNI AP"
+  },
+  "centennial-co": {
+    "days_above_90f": 17.9,
+    "distance_km": 2.4,
+    "station_id": "USW00093067",
+    "station_name": "DENVER CENTENNIAL AP"
+  },
+  "champaign-il": {
+    "days_above_90f": 18.5,
+    "distance_km": 3.8,
+    "station_id": "USC00118740",
+    "station_name": "CHAMPAIGN 3S"
+  },
+  "chandler-az": {
+    "days_above_90f": 172.4,
+    "distance_km": 14.9,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "charleston-sc": {
+    "days_above_90f": 22.4,
+    "distance_km": 6.6,
+    "station_id": "USW00013782",
+    "station_name": "CHARLESTON CITY"
+  },
+  "charlotte-nc": {
+    "days_above_90f": 35.0,
+    "distance_km": 10.5,
+    "station_id": "USW00013881",
+    "station_name": "CHARLOTTE DOUGLAS AP"
+  },
+  "chattanooga-tn": {
+    "days_above_90f": 8.1,
+    "distance_km": 5.5,
+    "station_id": "USC00405431",
+    "station_name": "LOOKOUT MTN-POINT PARK"
+  },
+  "chesapeake-va": {
+    "days_above_90f": 32.4,
+    "distance_km": 12.5,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "chicago-il": {
+    "days_above_90f": 8.0,
+    "distance_km": 3.2,
+    "station_id": "USC00111550",
+    "station_name": "CHICAGO NORTHERLY IS"
+  },
+  "chico-ca": {
+    "days_above_90f": 85.0,
+    "distance_km": 7.7,
+    "station_id": "USC00041715",
+    "station_name": "CHICO UNIV FARM"
+  },
+  "chino-ca": {
+    "days_above_90f": 82.3,
+    "distance_km": 2.3,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "chino-hills-ca": {
+    "days_above_90f": 82.3,
+    "distance_km": 9.5,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "chula-vista-ca": {
+    "days_above_90f": 2.8,
+    "distance_km": 0.5,
+    "station_id": "USC00041758",
+    "station_name": "CHULA VISTA"
+  },
+  "cicero-il": {
+    "days_above_90f": 15.1,
+    "distance_km": 6.0,
+    "station_id": "USW00014819",
+    "station_name": "CHICAGO MIDWAY AP"
+  },
+  "cincinnati-oh": {
+    "days_above_90f": 22.2,
+    "distance_km": 7.9,
+    "station_id": "USW00093812",
+    "station_name": "CINCINNATI LUNKEN AP"
+  },
+  "citrus-heights-ca": {
+    "days_above_90f": 74.4,
+    "distance_km": 18.6,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "clarksville-tn": {
+    "days_above_90f": 51.5,
+    "distance_km": 2.9,
+    "station_id": "USC00401790",
+    "station_name": "CLARKSVILLE WWTP"
+  },
+  "clearwater-fl": {
+    "days_above_90f": 71.2,
+    "distance_km": 11.2,
+    "station_id": "USW00012873",
+    "station_name": "ST PETERSBURG INTL AP"
+  },
+  "cleveland-oh": {
+    "days_above_90f": 6.6,
+    "distance_km": 2.0,
+    "station_id": "USW00004853",
+    "station_name": "CLEVELAND BURKE AP"
+  },
+  "clifton-nj": {
+    "days_above_90f": 15.8,
+    "distance_km": 6.3,
+    "station_id": "USC00284887",
+    "station_name": "LITTLE FALLS"
+  },
+  "clovis-ca": {
+    "days_above_90f": 106.2,
+    "distance_km": 6.6,
+    "station_id": "USW00093193",
+    "station_name": "FRESNO YOSEMITE INTL AP"
+  },
+  "college-station-tx": {
+    "days_above_90f": 106.3,
+    "distance_km": 6.2,
+    "station_id": "USW00003904",
+    "station_name": "COLLEGE STN"
+  },
+  "colorado-springs-co": {
+    "days_above_90f": 14.5,
+    "distance_km": 11.6,
+    "station_id": "USW00093037",
+    "station_name": "COLORADO SPRINGS MUNI AP"
+  },
+  "columbia-mo": {
+    "days_above_90f": 37.9,
+    "distance_km": 1.2,
+    "station_id": "USC00231801",
+    "station_name": "COLUMBIA U OF M"
+  },
+  "columbia-sc": {
+    "days_above_90f": 61.8,
+    "distance_km": 10.8,
+    "station_id": "USC00387666",
+    "station_name": "SANDHILL RSCH - ELGIN"
+  },
+  "columbus-ga": {
+    "days_above_90f": 73.2,
+    "distance_km": 7.7,
+    "station_id": "USW00093842",
+    "station_name": "COLUMBUS METRO AP"
+  },
+  "columbus-oh": {
+    "days_above_90f": 21.0,
+    "distance_km": 8.6,
+    "station_id": "USC00331783",
+    "station_name": "COLUMBUS-VALLEY CROSSING"
+  },
+  "compton-ca": {
+    "days_above_90f": 5.3,
+    "distance_km": 10.3,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "concord-ca": {
+    "days_above_90f": 41.2,
+    "distance_km": 5.4,
+    "station_id": "USW00023254",
+    "station_name": "CONCORD BUCHANAN FLD"
+  },
+  "concord-nc": {
+    "days_above_90f": 55.2,
+    "distance_km": 5.6,
+    "station_id": "USC00311975",
+    "station_name": "CONCORD"
+  },
+  "conroe-tx": {
+    "days_above_90f": 92.2,
+    "distance_km": 0.3,
+    "station_id": "USC00411956",
+    "station_name": "CONROE"
+  },
+  "coral-springs-fl": {
+    "days_above_90f": 70.4,
+    "distance_km": 1.5,
+    "station_id": "USC00081858",
+    "station_name": "CORAL SPRINGS"
+  },
+  "corona-ca": {
+    "days_above_90f": 82.3,
+    "distance_km": 14.2,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "corpus-christi-tx": {
+    "days_above_90f": 104.8,
+    "distance_km": 10.6,
+    "station_id": "USC00412011",
+    "station_name": "CORPUS CHRISTI NWS"
+  },
+  "costa-mesa-ca": {
+    "days_above_90f": 5.7,
+    "distance_km": 4.2,
+    "station_id": "USW00093184",
+    "station_name": "SANTA ANA JOHN WAYNE AP"
+  },
+  "cranston-ri": {
+    "days_above_90f": 9.3,
+    "distance_km": 6.6,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "dallas-tx": {
+    "days_above_90f": 97.2,
+    "distance_km": 9.5,
+    "station_id": "USW00013960",
+    "station_name": "DALLAS LOVE FLD"
+  },
+  "daly-city-ca": {
+    "days_above_90f": 2.1,
+    "distance_km": 8.7,
+    "station_id": "USW00023272",
+    "station_name": "SAN FRANCISCO DWTN"
+  },
+  "danbury-ct": {
+    "days_above_90f": 5.1,
+    "distance_km": 3.2,
+    "station_id": "USW00054734",
+    "station_name": "DANBURY MUNI AP"
+  },
+  "davenport-ia": {
+    "days_above_90f": 15.9,
+    "distance_km": 5.5,
+    "station_id": "USC00117391",
+    "station_name": "ROCK ISLAND L&D 15"
+  },
+  "davie-fl": {
+    "days_above_90f": 52.4,
+    "distance_km": 8.2,
+    "station_id": "USC00083163",
+    "station_name": "FT LAUDERDALE"
+  },
+  "dayton-oh": {
+    "days_above_90f": 31.1,
+    "distance_km": 2.0,
+    "station_id": "USC00332067",
+    "station_name": "DAYTON MCD"
+  },
+  "daytona-beach-fl": {
+    "days_above_90f": 49.3,
+    "distance_km": 5.1,
+    "station_id": "USW00012834",
+    "station_name": "DAYTONA BEACH INTL AP"
+  },
+  "dearborn-mi": {
+    "days_above_90f": 13.5,
+    "distance_km": 2.5,
+    "station_id": "USC00202015",
+    "station_name": "DEARBORN"
+  },
+  "deerfield-beach-fl": {
+    "days_above_90f": 30.5,
+    "distance_km": 7.0,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "deltona-fl": {
+    "days_above_90f": 100.2,
+    "distance_km": 12.5,
+    "station_id": "USC00087982",
+    "station_name": "SANFORD"
+  },
+  "denton-tx": {
+    "days_above_90f": 88.3,
+    "distance_km": 4.0,
+    "station_id": "USC00412404",
+    "station_name": "DENTON 2 SE"
+  },
+  "denver-co": {
+    "days_above_90f": 50.5,
+    "distance_km": 2.0,
+    "station_id": "USC00052223",
+    "station_name": "DENVER WATER DEPT"
+  },
+  "des-moines-ia": {
+    "days_above_90f": 18.4,
+    "distance_km": 6.8,
+    "station_id": "USW00014933",
+    "station_name": "DES MOINES INTL AP"
+  },
+  "detroit-mi": {
+    "days_above_90f": 7.6,
+    "distance_km": 9.4,
+    "station_id": "USW00014822",
+    "station_name": "DETROIT CITY AP"
+  },
+  "doral-fl": {
+    "days_above_90f": 79.8,
+    "distance_km": 5.5,
+    "station_id": "USW00012839",
+    "station_name": "MIAMI INTL AP"
+  },
+  "downey-ca": {
+    "days_above_90f": 18.2,
+    "distance_km": 14.3,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "duluth-mn": {
+    "days_above_90f": 1.3,
+    "distance_km": 3.0,
+    "station_id": "USC00212246",
+    "station_name": "DULUTH HARBOR STN"
+  },
+  "durango-co": {
+    "days_above_90f": 5.7,
+    "distance_km": 2.4,
+    "station_id": "USC00052441",
+    "station_name": "DURANGO"
+  },
+  "durham-nc": {
+    "days_above_90f": 24.5,
+    "distance_km": 8.1,
+    "station_id": "USC00312515",
+    "station_name": "DURHAM"
+  },
+  "edinburg-tx": {
+    "days_above_90f": 143.3,
+    "distance_km": 2.5,
+    "station_id": "USC00412758",
+    "station_name": "EDINBURG"
+  },
+  "edmond-ok": {
+    "days_above_90f": 64.4,
+    "distance_km": 16.3,
+    "station_id": "USC00343821",
+    "station_name": "GUTHRIE 5S"
+  },
+  "el-cajon-ca": {
+    "days_above_90f": 48.0,
+    "distance_km": 3.0,
+    "station_id": "USC00042706",
+    "station_name": "EL CAJON"
+  },
+  "el-monte-ca": {
+    "days_above_90f": 33.4,
+    "distance_km": 6.7,
+    "station_id": "USC00047785",
+    "station_name": "SAN GABRIEL FIRE DEPT"
+  },
+  "el-paso-tx": {
+    "days_above_90f": 99.4,
+    "distance_km": 12.2,
+    "station_id": "USW00023044",
+    "station_name": "EL PASO INTL AP"
+  },
+  "elgin-il": {
+    "days_above_90f": 12.7,
+    "distance_km": 4.4,
+    "station_id": "USC00112736",
+    "station_name": "ELGIN"
+  },
+  "elizabeth-nj": {
+    "days_above_90f": 20.9,
+    "distance_km": 2.2,
+    "station_id": "USW00014734",
+    "station_name": "NEWARK INTL AP"
+  },
+  "elk-grove-ca": {
+    "days_above_90f": 66.4,
+    "distance_km": 15.3,
+    "station_id": "USW00023232",
+    "station_name": "SACRAMENTO EXECUTIVE AP"
+  },
+  "erie-pa": {
+    "days_above_90f": 2.5,
+    "distance_km": 10.3,
+    "station_id": "USW00014860",
+    "station_name": "ERIE INTL AP"
+  },
+  "escondido-ca": {
+    "days_above_90f": 44.3,
+    "distance_km": 2.1,
+    "station_id": "USC00042863",
+    "station_name": "ESCONDIDO #2"
+  },
+  "eugene-or": {
+    "days_above_90f": 14.0,
+    "distance_km": 11.0,
+    "station_id": "USW00024221",
+    "station_name": "EUGENE MAHLON SWEET AP"
+  },
+  "evansville-in": {
+    "days_above_90f": 65.7,
+    "distance_km": 4.7,
+    "station_id": "USC00122731",
+    "station_name": "EVANSVILLE MUSEUM"
+  },
+  "everett-wa": {
+    "days_above_90f": 0.6,
+    "distance_km": 0.7,
+    "station_id": "USC00452675",
+    "station_name": "EVERETT"
+  },
+  "fairfield-ca": {
+    "days_above_90f": 53.4,
+    "distance_km": 3.6,
+    "station_id": "USC00042934",
+    "station_name": "FAIRFIELD"
+  },
+  "fall-river-ma": {
+    "days_above_90f": 4.5,
+    "distance_km": 12.5,
+    "station_id": "USW00094726",
+    "station_name": "NEW BEDFORD MUNI AP"
+  },
+  "fargo-nd": {
+    "days_above_90f": 9.9,
+    "distance_km": 6.9,
+    "station_id": "USC00215586",
+    "station_name": "MOORHEAD"
+  },
+  "farmington-hills-mi": {
+    "days_above_90f": 4.7,
+    "distance_km": 2.9,
+    "station_id": "USC00202691",
+    "station_name": "FARMINGTON"
+  },
+  "fayetteville-ar": {
+    "days_above_90f": 35.5,
+    "distance_km": 3.5,
+    "station_id": "USC00032444",
+    "station_name": "FAYETTEVILLE EXP STN"
+  },
+  "fayetteville-nc": {
+    "days_above_90f": 47.6,
+    "distance_km": 2.2,
+    "station_id": "USC00313017",
+    "station_name": "FAYETTEVILLE (PWC)"
+  },
+  "federal-way-wa": {
+    "days_above_90f": 1.0,
+    "distance_km": 8.9,
+    "station_id": "USC00458278",
+    "station_name": "TACOMA #1"
+  },
+  "fishers-in": {
+    "days_above_90f": 13.2,
+    "distance_km": 7.6,
+    "station_id": "USC00121303",
+    "station_name": "CARMEL 3 E"
+  },
+  "flagstaff-az": {
+    "days_above_90f": 1.5,
+    "distance_km": 6.4,
+    "station_id": "USW00003103",
+    "station_name": "FLAGSTAFF PULLIAM AP"
+  },
+  "flint-mi": {
+    "days_above_90f": 4.5,
+    "distance_km": 6.8,
+    "station_id": "USC00202851",
+    "station_name": "FLINT 7W"
+  },
+  "flower-mound-tx": {
+    "days_above_90f": 84.5,
+    "distance_km": 11.2,
+    "station_id": "USC00413691",
+    "station_name": "GRAPEVINE DAM"
+  },
+  "folsom-ca": {
+    "days_above_90f": 57.8,
+    "distance_km": 26.8,
+    "station_id": "USC00040383",
+    "station_name": "AUBURN"
+  },
+  "fontana-ca": {
+    "days_above_90f": 80.2,
+    "distance_km": 15.2,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "fort-collins-co": {
+    "days_above_90f": 19.8,
+    "distance_km": 3.7,
+    "station_id": "USC00053005",
+    "station_name": "FT COLLINS"
+  },
+  "fort-lauderdale-fl": {
+    "days_above_90f": 48.7,
+    "distance_km": 4.1,
+    "station_id": "USC00083168",
+    "station_name": "FT LAUDERDALE BEACH"
+  },
+  "fort-myers-fl": {
+    "days_above_90f": 112.7,
+    "distance_km": 5.0,
+    "station_id": "USW00012835",
+    "station_name": "FT MYERS PAGE FLD AP"
+  },
+  "fort-smith-ar": {
+    "days_above_90f": 68.9,
+    "distance_km": 2.0,
+    "station_id": "USW00013964",
+    "station_name": "FT SMITH RGNL AP"
+  },
+  "fort-wayne-in": {
+    "days_above_90f": 13.4,
+    "distance_km": 13.4,
+    "station_id": "USW00014827",
+    "station_name": "FT WAYNE INTL AP"
+  },
+  "fort-worth-tx": {
+    "days_above_90f": 91.6,
+    "distance_km": 7.2,
+    "station_id": "USW00013961",
+    "station_name": "FT WORTH MEACHAM FLD"
+  },
+  "franklin-tn": {
+    "days_above_90f": 45.4,
+    "distance_km": 3.9,
+    "station_id": "USC00403280",
+    "station_name": "FRANKLIN SEWAGE PLT"
+  },
+  "frederick-md": {
+    "days_above_90f": 32.8,
+    "distance_km": 2.9,
+    "station_id": "USC00183348",
+    "station_name": "FREDERICK POLICE BRKS"
+  },
+  "fremont-ca": {
+    "days_above_90f": 9.5,
+    "distance_km": 2.4,
+    "station_id": "USC00043244",
+    "station_name": "FREMONT"
+  },
+  "fresno-ca": {
+    "days_above_90f": 106.2,
+    "distance_km": 5.6,
+    "station_id": "USW00093193",
+    "station_name": "FRESNO YOSEMITE INTL AP"
+  },
+  "frisco-tx": {
+    "days_above_90f": 80.4,
+    "distance_km": 18.5,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "fullerton-ca": {
+    "days_above_90f": 24.4,
+    "distance_km": 4.9,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "gainesville-fl": {
+    "days_above_90f": 72.7,
+    "distance_km": 7.3,
+    "station_id": "USW00012816",
+    "station_name": "GAINESVILLE RGNL AP"
+  },
+  "garden-grove-ca": {
+    "days_above_90f": 22.3,
+    "distance_km": 9.5,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "garland-tx": {
+    "days_above_90f": 80.4,
+    "distance_km": 13.6,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "gastonia-nc": {
+    "days_above_90f": 39.9,
+    "distance_km": 4.6,
+    "station_id": "USC00313356",
+    "station_name": "GASTONIA"
+  },
+  "georgetown-tx": {
+    "days_above_90f": 102.6,
+    "distance_km": 2.1,
+    "station_id": "USC00413507",
+    "station_name": "GEORGETOWN LAKE"
+  },
+  "geraldine-mt": {
+    "days_above_90f": 27.3,
+    "distance_km": 0.5,
+    "station_id": "USC00243445",
+    "station_name": "GERALDINE"
+  },
+  "gilbert-az": {
+    "days_above_90f": 172.4,
+    "distance_km": 14.9,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "glendale-az": {
+    "days_above_90f": 170.2,
+    "distance_km": 12.0,
+    "station_id": "USC00029634",
+    "station_name": "YOUNGTOWN"
+  },
+  "glendale-ca": {
+    "days_above_90f": 21.4,
+    "distance_km": 10.1,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "goodyear-az": {
+    "days_above_90f": 172.1,
+    "distance_km": 22.9,
+    "station_id": "USC00024829",
+    "station_name": "LAVEEN 3 SSE"
+  },
+  "grand-junction-co": {
+    "days_above_90f": 58.0,
+    "distance_km": 7.5,
+    "station_id": "USC00053489",
+    "station_name": "GRAND JUNCTION 6ESE"
+  },
+  "grand-prairie-tx": {
+    "days_above_90f": 78.5,
+    "distance_km": 6.9,
+    "station_id": "USC00410337",
+    "station_name": "ARLINGTON SIX FLAGS"
+  },
+  "grand-rapids-mi": {
+    "days_above_90f": 8.4,
+    "distance_km": 12.6,
+    "station_id": "USW00094860",
+    "station_name": "GRAND RAPIDS"
+  },
+  "greeley-co": {
+    "days_above_90f": 67.7,
+    "distance_km": 6.3,
+    "station_id": "USC00053553",
+    "station_name": "GREELEY UNC"
+  },
+  "green-bay-wi": {
+    "days_above_90f": 3.7,
+    "distance_km": 8.7,
+    "station_id": "USC00473271",
+    "station_name": "GREEN BAY BOTANICAL"
+  },
+  "greensboro-nc": {
+    "days_above_90f": 28.8,
+    "distance_km": 14.1,
+    "station_id": "USW00013723",
+    "station_name": "PIEDMONT TRIAD INTL AP"
+  },
+  "greenville-nc": {
+    "days_above_90f": 45.8,
+    "distance_km": 4.7,
+    "station_id": "USC00313638",
+    "station_name": "GREENVILLE"
+  },
+  "gresham-or": {
+    "days_above_90f": 14.8,
+    "distance_km": 6.2,
+    "station_id": "USW00024242",
+    "station_name": "PORTLAND TROUTDALE AP"
+  },
+  "hampton-va": {
+    "days_above_90f": 26.0,
+    "distance_km": 5.8,
+    "station_id": "USW00013702",
+    "station_name": "LANGLEY AFB"
+  },
+  "hartford-ct": {
+    "days_above_90f": 11.9,
+    "distance_km": 4.5,
+    "station_id": "USW00014752",
+    "station_name": "HARTFORD BRAINARD FLD"
+  },
+  "hawthorne-ca": {
+    "days_above_90f": 5.3,
+    "distance_km": 2.0,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "hayward-ca": {
+    "days_above_90f": 5.8,
+    "distance_km": 3.0,
+    "station_id": "USW00093228",
+    "station_name": "HAYWARD AIR TERMINAL"
+  },
+  "hemet-ca": {
+    "days_above_90f": 112.5,
+    "distance_km": 7.7,
+    "station_id": "USC00047813",
+    "station_name": "SAN JACINTO"
+  },
+  "henderson-nv": {
+    "days_above_90f": 111.1,
+    "distance_km": 13.7,
+    "station_id": "USC00261071",
+    "station_name": "BOULDER CITY"
+  },
+  "hesperia-ca": {
+    "days_above_90f": 117.0,
+    "distance_km": 14.6,
+    "station_id": "USC00049325",
+    "station_name": "VICTORVILLE"
+  },
+  "hialeah-fl": {
+    "days_above_90f": 37.4,
+    "distance_km": 4.8,
+    "station_id": "USC00083909",
+    "station_name": "HIALEAH"
+  },
+  "high-point-nc": {
+    "days_above_90f": 42.5,
+    "distance_km": 3.0,
+    "station_id": "USC00314063",
+    "station_name": "HIGH PT"
+  },
+  "hillsboro-or": {
+    "days_above_90f": 11.8,
+    "distance_km": 1.4,
+    "station_id": "USW00094261",
+    "station_name": "PORTLAND-HILLSBORO AP"
+  },
+  "hollywood-fl": {
+    "days_above_90f": 44.3,
+    "distance_km": 2.6,
+    "station_id": "USC00084050",
+    "station_name": "HOLLYWOOD"
+  },
+  "homestead-fl": {
+    "days_above_90f": 74.1,
+    "distance_km": 11.6,
+    "station_id": "USC00084095",
+    "station_name": "HOMESTEAD GEN AVIATION AP"
+  },
+  "honolulu-hi": {
+    "days_above_90f": 13.3,
+    "distance_km": 6.2,
+    "station_id": "USC00519397",
+    "station_name": "WAIKIKI 717.2"
+  },
+  "hoover-al": {
+    "days_above_90f": 65.7,
+    "distance_km": 12.2,
+    "station_id": "USC00013781",
+    "station_name": "HELENA"
+  },
+  "houston-tx": {
+    "days_above_90f": 95.7,
+    "distance_km": 8.8,
+    "station_id": "USC00414326",
+    "station_name": "HOUSTON-PORT"
+  },
+  "huntington-beach-ca": {
+    "days_above_90f": 0.4,
+    "distance_km": 12.4,
+    "station_id": "USC00046175",
+    "station_name": "NEWPORT BEACH HARBOR"
+  },
+  "huntsville-al": {
+    "days_above_90f": 58.5,
+    "distance_km": 20.3,
+    "station_id": "USW00003856",
+    "station_name": "HUNTSVILLE INTL AP"
+  },
+  "independence-mo": {
+    "days_above_90f": 31.1,
+    "distance_km": 4.2,
+    "station_id": "USC00234154",
+    "station_name": "INDEPENDENCE"
+  },
+  "indianapolis-in": {
+    "days_above_90f": 9.9,
+    "distance_km": 9.9,
+    "station_id": "USC00124272",
+    "station_name": "INDIANAPOLIS SE SIDE"
+  },
+  "indio-ca": {
+    "days_above_90f": 182.3,
+    "distance_km": 3.3,
+    "station_id": "USC00044259",
+    "station_name": "INDIO FIRE STN"
+  },
+  "inglewood-ca": {
+    "days_above_90f": 5.3,
+    "distance_km": 4.2,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "irvine-ca": {
+    "days_above_90f": 5.7,
+    "distance_km": 3.4,
+    "station_id": "USW00093184",
+    "station_name": "SANTA ANA JOHN WAYNE AP"
+  },
+  "irving-tx": {
+    "days_above_90f": 97.2,
+    "distance_km": 10.0,
+    "station_id": "USW00013960",
+    "station_name": "DALLAS LOVE FLD"
+  },
+  "jackson-ms": {
+    "days_above_90f": 63.1,
+    "distance_km": 2.1,
+    "station_id": "USW00013927",
+    "station_name": "JACKSON HAWKINS FLD"
+  },
+  "jacksonville-fl": {
+    "days_above_90f": 70.3,
+    "distance_km": 10.8,
+    "station_id": "USW00093837",
+    "station_name": "JACKSONVILLE NAS"
+  },
+  "jersey-city-nj": {
+    "days_above_90f": 22.4,
+    "distance_km": 6.4,
+    "station_id": "USC00283704",
+    "station_name": "HARRISON"
+  },
+  "johns-creek-ga": {
+    "days_above_90f": 39.1,
+    "distance_km": 19.6,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "joliet-il": {
+    "days_above_90f": 13.8,
+    "distance_km": 4.3,
+    "station_id": "USC00114530",
+    "station_name": "JOLIET BRANDON RD DAM"
+  },
+  "jonesboro-ar": {
+    "days_above_90f": 54.2,
+    "distance_km": 3.3,
+    "station_id": "USW00003953",
+    "station_name": "JONESBORO MUNI AP"
+  },
+  "jurupa-valley-ca": {
+    "days_above_90f": 86.4,
+    "distance_km": 6.1,
+    "station_id": "USW00003171",
+    "station_name": "RIVERSIDE MUNI AP"
+  },
+  "kalispell-mt": {
+    "days_above_90f": 11.1,
+    "distance_km": 12.1,
+    "station_id": "USC00244558",
+    "station_name": "KALISPELL GLACIER AP"
+  },
+  "kansas-city-ks": {
+    "days_above_90f": 40.5,
+    "distance_km": 12.3,
+    "station_id": "USW00013988",
+    "station_name": "KANSAS CITY DOWNTOWN AP"
+  },
+  "kansas-city-mo": {
+    "days_above_90f": 40.5,
+    "distance_km": 2.7,
+    "station_id": "USW00013988",
+    "station_name": "KANSAS CITY DOWNTOWN AP"
+  },
+  "kennewick-wa": {
+    "days_above_90f": 42.1,
+    "distance_km": 6.2,
+    "station_id": "USC00454154",
+    "station_name": "KENNEWICK"
+  },
+  "kenosha-wi": {
+    "days_above_90f": 6.7,
+    "distance_km": 4.8,
+    "station_id": "USW00004845",
+    "station_name": "KENOSHA RGNL AP"
+  },
+  "kent-wa": {
+    "days_above_90f": 3.2,
+    "distance_km": 3.9,
+    "station_id": "USC00454169",
+    "station_name": "KENT"
+  },
+  "killeen-tx": {
+    "days_above_90f": 95.3,
+    "distance_km": 4.0,
+    "station_id": "USC00414792",
+    "station_name": "KILLEEN"
+  },
+  "kirkland-wa": {
+    "days_above_90f": 1.2,
+    "distance_km": 4.4,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "kissimmee-fl": {
+    "days_above_90f": 84.0,
+    "distance_km": 2.7,
+    "station_id": "USC00084625",
+    "station_name": "KISSIMMEE 2"
+  },
+  "knoxville-tn": {
+    "days_above_90f": 28.1,
+    "distance_km": 7.6,
+    "station_id": "USC00404946",
+    "station_name": "KNOXVILLE EXP STN"
+  },
+  "lafayette-la": {
+    "days_above_90f": 73.1,
+    "distance_km": 3.5,
+    "station_id": "USC00165021",
+    "station_name": "LAFAYETTE"
+  },
+  "lake-charles-la": {
+    "days_above_90f": 72.7,
+    "distance_km": 8.4,
+    "station_id": "USW00003937",
+    "station_name": "LAKE CHARLES"
+  },
+  "lake-forest-ca": {
+    "days_above_90f": 54.4,
+    "distance_km": 8.7,
+    "station_id": "USC00044303",
+    "station_name": "IRVINE RCH"
+  },
+  "lakeland-fl": {
+    "days_above_90f": 77.5,
+    "distance_km": 9.8,
+    "station_id": "USC00084802",
+    "station_name": "LAKELAND 2"
+  },
+  "lakeville-mn": {
+    "days_above_90f": 6.3,
+    "distance_km": 6.4,
+    "station_id": "USC00212737",
+    "station_name": "FARMINGTON 3 NW"
+  },
+  "lakewood-ca": {
+    "days_above_90f": 18.2,
+    "distance_km": 4.9,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "lakewood-co": {
+    "days_above_90f": 37.4,
+    "distance_km": 5.4,
+    "station_id": "USC00054762",
+    "station_name": "LAKEWOOD"
+  },
+  "lancaster-ca": {
+    "days_above_90f": 104.5,
+    "distance_km": 6.4,
+    "station_id": "USW00003159",
+    "station_name": "LANCASTER WM J FOX FLD"
+  },
+  "lansing-mi": {
+    "days_above_90f": 7.5,
+    "distance_km": 7.3,
+    "station_id": "USC00202395",
+    "station_name": "EAST LANSING 4 S"
+  },
+  "laredo-tx": {
+    "days_above_90f": 162.1,
+    "distance_km": 6.6,
+    "station_id": "USC00415060",
+    "station_name": "LAREDO 2"
+  },
+  "largo-fl": {
+    "days_above_90f": 71.2,
+    "distance_km": 8.1,
+    "station_id": "USW00012873",
+    "station_name": "ST PETERSBURG INTL AP"
+  },
+  "las-cruces-nm": {
+    "days_above_90f": 96.0,
+    "distance_km": 6.0,
+    "station_id": "USC00298535",
+    "station_name": "STATE UNIV"
+  },
+  "las-vegas-nv": {
+    "days_above_90f": 127.0,
+    "distance_km": 6.8,
+    "station_id": "USW00053123",
+    "station_name": "LAS VEGAS AIR TERMINAL"
+  },
+  "lawrence-ks": {
+    "days_above_90f": 31.7,
+    "distance_km": 1.6,
+    "station_id": "USC00144559",
+    "station_name": "LAWRENCE"
+  },
+  "lawrence-ma": {
+    "days_above_90f": 10.7,
+    "distance_km": 0.5,
+    "station_id": "USC00194105",
+    "station_name": "LAWRENCE"
+  },
+  "lawton-ok": {
+    "days_above_90f": 81.8,
+    "distance_km": 3.6,
+    "station_id": "USC00345063",
+    "station_name": "LAWTON"
+  },
+  "layton-ut": {
+    "days_above_90f": 37.8,
+    "distance_km": 7.0,
+    "station_id": "USC00422726",
+    "station_name": "FARMINGTON 3 NW"
+  },
+  "league-city-tx": {
+    "days_above_90f": 57.4,
+    "distance_km": 3.3,
+    "station_id": "USC00414333",
+    "station_name": "HOUSTON NWSO"
+  },
+  "leander-tx": {
+    "days_above_90f": 102.6,
+    "distance_km": 17.8,
+    "station_id": "USC00413507",
+    "station_name": "GEORGETOWN LAKE"
+  },
+  "lees-summit-mo": {
+    "days_above_90f": 29.7,
+    "distance_km": 4.5,
+    "station_id": "USW00053879",
+    "station_name": "LEES SUMMIT MUNI AP"
+  },
+  "lehi-ut": {
+    "days_above_90f": 36.7,
+    "distance_km": 7.0,
+    "station_id": "USC00428973",
+    "station_name": "UTAH LAKE LEHI"
+  },
+  "lewisville-tx": {
+    "days_above_90f": 84.5,
+    "distance_km": 13.6,
+    "station_id": "USC00413691",
+    "station_name": "GRAPEVINE DAM"
+  },
+  "lexington-ky": {
+    "days_above_90f": 19.4,
+    "distance_km": 9.3,
+    "station_id": "USW00093820",
+    "station_name": "LEXINGTON BLUEGRASS AP"
+  },
+  "lincoln-ne": {
+    "days_above_90f": 37.4,
+    "distance_km": 6.0,
+    "station_id": "USW00014939",
+    "station_name": "LINCOLN MUNI AP"
+  },
+  "little-rock-ar": {
+    "days_above_90f": 69.2,
+    "distance_km": 5.3,
+    "station_id": "USW00013963",
+    "station_name": "LITTLE ROCK AP ADAMS FLD"
+  },
+  "livermore-ca": {
+    "days_above_90f": 49.7,
+    "distance_km": 4.8,
+    "station_id": "USC00044997",
+    "station_name": "LIVERMORE"
+  },
+  "livonia-mi": {
+    "days_above_90f": 4.7,
+    "distance_km": 7.5,
+    "station_id": "USC00202691",
+    "station_name": "FARMINGTON"
+  },
+  "long-beach-ca": {
+    "days_above_90f": 18.2,
+    "distance_km": 6.1,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "longmont-co": {
+    "days_above_90f": 43.3,
+    "distance_km": 1.9,
+    "station_id": "USC00055116",
+    "station_name": "LONGMONT 2 ESE"
+  },
+  "longview-tx": {
+    "days_above_90f": 93.0,
+    "distance_km": 3.9,
+    "station_id": "USC00415344",
+    "station_name": "LONGVIEW #2"
+  },
+  "los-alamos-nm": {
+    "days_above_90f": 1.7,
+    "distance_km": 2.6,
+    "station_id": "USC00295084",
+    "station_name": "LOS ALAMOS"
+  },
+  "los-angeles-ca": {
+    "days_above_90f": 21.4,
+    "distance_km": 0.4,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "louisville-ky": {
+    "days_above_90f": 37.2,
+    "distance_km": 7.9,
+    "station_id": "USW00093821",
+    "station_name": "LOUISVILLE INTL AP"
+  },
+  "loveland-co": {
+    "days_above_90f": 27.9,
+    "distance_km": 2.7,
+    "station_id": "USC00055236",
+    "station_name": "LOVELAND 2N"
+  },
+  "lowell-ma": {
+    "days_above_90f": 15.4,
+    "distance_km": 3.6,
+    "station_id": "USC00194313",
+    "station_name": "LOWELL"
+  },
+  "lubbock-tx": {
+    "days_above_90f": 78.3,
+    "distance_km": 9.3,
+    "station_id": "USW00023042",
+    "station_name": "LUBBOCK"
+  },
+  "lynchburg-va": {
+    "days_above_90f": 14.6,
+    "distance_km": 3.6,
+    "station_id": "USC00445117",
+    "station_name": "LYNCHBURG #2"
+  },
+  "lynn-ma": {
+    "days_above_90f": 6.1,
+    "distance_km": 8.6,
+    "station_id": "USC00194502",
+    "station_name": "MARBLEHEAD"
+  },
+  "mableton-ga": {
+    "days_above_90f": 6.7,
+    "distance_km": 4.8,
+    "station_id": "USC00095404",
+    "station_name": "MABLETON 1 N"
+  },
+  "macon-ga": {
+    "days_above_90f": 75.7,
+    "distance_km": 14.4,
+    "station_id": "USW00003813",
+    "station_name": "MACON MIDDLE GA RGNL AP"
+  },
+  "madison-wi": {
+    "days_above_90f": 8.9,
+    "distance_km": 4.0,
+    "station_id": "USC00470273",
+    "station_name": "UW ARBORETUM - MADISON"
+  },
+  "manchester-nh": {
+    "days_above_90f": 8.0,
+    "distance_km": 3.9,
+    "station_id": "USC00275211",
+    "station_name": "MASSABESIC LAKE"
+  },
+  "mansfield-tx": {
+    "days_above_90f": 92.9,
+    "distance_km": 10.7,
+    "station_id": "USW00053907",
+    "station_name": "ARLINGTON MUNI AP"
+  },
+  "manteca-ca": {
+    "days_above_90f": 73.7,
+    "distance_km": 11.0,
+    "station_id": "USW00023237",
+    "station_name": "STOCKTON METRO AP"
+  },
+  "maricopa-az": {
+    "days_above_90f": 180.6,
+    "distance_km": 8.7,
+    "station_id": "USC00025270",
+    "station_name": "MARICOPA 4 N"
+  },
+  "marysville-wa": {
+    "days_above_90f": 0.6,
+    "distance_km": 12.1,
+    "station_id": "USC00452675",
+    "station_name": "EVERETT"
+  },
+  "mcallen-tx": {
+    "days_above_90f": 150.4,
+    "distance_km": 4.3,
+    "station_id": "USC00415701",
+    "station_name": "MCALLEN"
+  },
+  "mckinney-tx": {
+    "days_above_90f": 56.7,
+    "distance_km": 4.6,
+    "station_id": "USC00415766",
+    "station_name": "MCKINNEY  MUNICIPAL AIRPORT"
+  },
+  "medford-or": {
+    "days_above_90f": 53.9,
+    "distance_km": 4.9,
+    "station_id": "USW00024225",
+    "station_name": "MEDFORD ROGUE VLY AP"
+  },
+  "melbourne-fl": {
+    "days_above_90f": 65.7,
+    "distance_km": 1.9,
+    "station_id": "USW00012838",
+    "station_name": "MELBOURNE INTL AP"
+  },
+  "memphis-tn": {
+    "days_above_90f": 64.3,
+    "distance_km": 11.9,
+    "station_id": "USW00013893",
+    "station_name": "MEMPHIS INTL AP"
+  },
+  "menifee-ca": {
+    "days_above_90f": 114.8,
+    "distance_km": 15.3,
+    "station_id": "USC00042805",
+    "station_name": "ELSINORE"
+  },
+  "merced-ca": {
+    "days_above_90f": 95.1,
+    "distance_km": 3.9,
+    "station_id": "USC00045532",
+    "station_name": "MERCED"
+  },
+  "meridian-id": {
+    "days_above_90f": 47.5,
+    "distance_km": 13.7,
+    "station_id": "USW00024131",
+    "station_name": "BOISE AIR TERMINAL"
+  },
+  "mesa-az": {
+    "days_above_90f": 172.4,
+    "distance_km": 8.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "mesquite-tx": {
+    "days_above_90f": 94.3,
+    "distance_km": 26.3,
+    "station_id": "USC00413133",
+    "station_name": "FERRIS"
+  },
+  "miami-beach-fl": {
+    "days_above_90f": 18.8,
+    "distance_km": 1.7,
+    "station_id": "USW00092811",
+    "station_name": "MIAMI BEACH"
+  },
+  "miami-fl": {
+    "days_above_90f": 18.8,
+    "distance_km": 7.6,
+    "station_id": "USW00092811",
+    "station_name": "MIAMI BEACH"
+  },
+  "miami-gardens-fl": {
+    "days_above_90f": 65.0,
+    "distance_km": 2.4,
+    "station_id": "USC00086315",
+    "station_name": "N MIAMI BEACH #2"
+  },
+  "midland-tx": {
+    "days_above_90f": 119.4,
+    "distance_km": 7.9,
+    "station_id": "USC00415891",
+    "station_name": "MIDLAND 4 ENE"
+  },
+  "milpitas-ca": {
+    "days_above_90f": 20.2,
+    "distance_km": 8.4,
+    "station_id": "USW00023293",
+    "station_name": "SAN JOSE"
+  },
+  "milwaukee-wi": {
+    "days_above_90f": 16.2,
+    "distance_km": 7.9,
+    "station_id": "USC00479046",
+    "station_name": "WEST ALLIS"
+  },
+  "minneapolis-mn": {
+    "days_above_90f": 17.1,
+    "distance_km": 1.8,
+    "station_id": "USC00214884",
+    "station_name": "LOWER ST ANTHONY FALLS"
+  },
+  "miramar-fl": {
+    "days_above_90f": 82.2,
+    "distance_km": 9.2,
+    "station_id": "USW00012882",
+    "station_name": "MIAMI OPA LOCKA AP"
+  },
+  "mission-tx": {
+    "days_above_90f": 162.7,
+    "distance_km": 7.8,
+    "station_id": "USW00012959",
+    "station_name": "MCALLEN MILLER INTL AP"
+  },
+  "mission-viejo-ca": {
+    "days_above_90f": 4.5,
+    "distance_km": 13.4,
+    "station_id": "USC00044647",
+    "station_name": "LAGUNA BEACH"
+  },
+  "missoula-mt": {
+    "days_above_90f": 17.1,
+    "distance_km": 5.7,
+    "station_id": "USC00245735",
+    "station_name": "MISSOULA 2 NE"
+  },
+  "missouri-city-tx": {
+    "days_above_90f": 108.4,
+    "distance_km": 12.4,
+    "station_id": "USC00418996",
+    "station_name": "THOMPSONS 3 WSW"
+  },
+  "mobile-al": {
+    "days_above_90f": 53.7,
+    "distance_km": 7.6,
+    "station_id": "USW00013838",
+    "station_name": "MOBILE DWTN AP"
+  },
+  "modesto-ca": {
+    "days_above_90f": 86.5,
+    "distance_km": 4.4,
+    "station_id": "USW00023258",
+    "station_name": "MODESTO CITY CO AP"
+  },
+  "montgomery-al": {
+    "days_above_90f": 76.0,
+    "distance_km": 12.8,
+    "station_id": "USW00013895",
+    "station_name": "MONTGOMERY AP"
+  },
+  "monticello-ut": {
+    "days_above_90f": 6.2,
+    "distance_km": 2.9,
+    "station_id": "USC00425805",
+    "station_name": "MONTICELLO 2E"
+  },
+  "moreno-valley-ca": {
+    "days_above_90f": 101.8,
+    "distance_km": 11.3,
+    "station_id": "USC00047306",
+    "station_name": "REDLANDS"
+  },
+  "mount-pleasant-sc": {
+    "days_above_90f": 47.3,
+    "distance_km": 5.4,
+    "station_id": "USC00388405",
+    "station_name": "SULLIVANS IS"
+  },
+  "mountain-view-ca": {
+    "days_above_90f": 7.6,
+    "distance_km": 2.9,
+    "station_id": "USW00023244",
+    "station_name": "MOFFETT FEDERAL AIRFIELD"
+  },
+  "murfreesboro-tn": {
+    "days_above_90f": 48.8,
+    "distance_km": 8.9,
+    "station_id": "USC00406371",
+    "station_name": "MURFREESBORO 5 N"
+  },
+  "murrieta-ca": {
+    "days_above_90f": 43.8,
+    "distance_km": 14.5,
+    "station_id": "USW00053151",
+    "station_name": "FALLBROOK 5 NE"
+  },
+  "nampa-id": {
+    "days_above_90f": 51.4,
+    "distance_km": 2.0,
+    "station_id": "USC00106305",
+    "station_name": "NAMPA SUGAR FACTORY"
+  },
+  "naperville-il": {
+    "days_above_90f": 7.1,
+    "distance_km": 10.1,
+    "station_id": "USC00115097",
+    "station_name": "LISLE-MORTON ARBORETUM"
+  },
+  "nashua-nh": {
+    "days_above_90f": 9.4,
+    "distance_km": 4.8,
+    "station_id": "USC00275712",
+    "station_name": "NASHUA 2 NNW"
+  },
+  "nashville-tn": {
+    "days_above_90f": 40.0,
+    "distance_km": 9.3,
+    "station_id": "USW00013897",
+    "station_name": "NASHVILLE INTL AP"
+  },
+  "new-bedford-ma": {
+    "days_above_90f": 4.5,
+    "distance_km": 2.4,
+    "station_id": "USW00094726",
+    "station_name": "NEW BEDFORD MUNI AP"
+  },
+  "new-braunfels-tx": {
+    "days_above_90f": 95.7,
+    "distance_km": 6.1,
+    "station_id": "USC00416276",
+    "station_name": "NEW BRAUNFELS"
+  },
+  "new-haven-ct": {
+    "days_above_90f": 3.8,
+    "distance_km": 5.8,
+    "station_id": "USW00014758",
+    "station_name": "NEW HAVEN TWEED AP"
+  },
+  "new-orleans-la": {
+    "days_above_90f": 79.2,
+    "distance_km": 5.6,
+    "station_id": "USC00168941",
+    "station_name": "TERRYTOWN 3S"
+  },
+  "new-rochelle-ny": {
+    "days_above_90f": 14.6,
+    "distance_km": 10.7,
+    "station_id": "USC00302129",
+    "station_name": "DOBBS FERRY-ARDSLEY"
+  },
+  "new-york-ny": {
+    "days_above_90f": 12.2,
+    "distance_km": 8.4,
+    "station_id": "USW00094728",
+    "station_name": "NEW YORK CNTRL PK TWR"
+  },
+  "newark-nj": {
+    "days_above_90f": 22.4,
+    "distance_km": 1.8,
+    "station_id": "USC00283704",
+    "station_name": "HARRISON"
+  },
+  "newport-beach-ca": {
+    "days_above_90f": 0.4,
+    "distance_km": 0.7,
+    "station_id": "USC00046175",
+    "station_name": "NEWPORT BEACH HARBOR"
+  },
+  "newport-news-va": {
+    "days_above_90f": 40.0,
+    "distance_km": 5.2,
+    "station_id": "USW00093741",
+    "station_name": "NEWPORT NEWS INTL AP"
+  },
+  "newton-ma": {
+    "days_above_90f": 13.4,
+    "distance_km": 7.7,
+    "station_id": "USC00193890",
+    "station_name": "JAMAICA PLAIN"
+  },
+  "norfolk-va": {
+    "days_above_90f": 32.4,
+    "distance_km": 5.9,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "norman-ok": {
+    "days_above_90f": 58.6,
+    "distance_km": 10.3,
+    "station_id": "USC00346386",
+    "station_name": "NORMAN 3SSE"
+  },
+  "north-charleston-sc": {
+    "days_above_90f": 55.2,
+    "distance_km": 3.0,
+    "station_id": "USW00013880",
+    "station_name": "CHARLESTON INTL AP"
+  },
+  "north-las-vegas-nv": {
+    "days_above_90f": 137.8,
+    "distance_km": 3.9,
+    "station_id": "USC00265705",
+    "station_name": "N LAS VEGAS"
+  },
+  "north-port-fl": {
+    "days_above_90f": 114.3,
+    "distance_km": 23.0,
+    "station_id": "USC00086065",
+    "station_name": "MYAKKA RVR SP"
+  },
+  "norwalk-ca": {
+    "days_above_90f": 24.4,
+    "distance_km": 10.2,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "norwalk-ct": {
+    "days_above_90f": 14.8,
+    "distance_km": 11.4,
+    "station_id": "USC00067970",
+    "station_name": "STAMFORD 5 N"
+  },
+  "oakland-ca": {
+    "days_above_90f": 4.0,
+    "distance_km": 0.5,
+    "station_id": "USC00046336",
+    "station_name": "OAKLAND MUSEUM"
+  },
+  "oceanside-ca": {
+    "days_above_90f": 0.4,
+    "distance_km": 1.8,
+    "station_id": "USC00046377",
+    "station_name": "OCEANSIDE MARINA"
+  },
+  "odessa-tx": {
+    "days_above_90f": 107.0,
+    "distance_km": 0.9,
+    "station_id": "USC00416502",
+    "station_name": "ODESSA"
+  },
+  "ofallon-mo": {
+    "days_above_90f": 26.7,
+    "distance_km": 9.6,
+    "station_id": "USC00238805",
+    "station_name": "WELDON SPRING NWS"
+  },
+  "ogden-ut": {
+    "days_above_90f": 42.2,
+    "distance_km": 2.5,
+    "station_id": "USC00426404",
+    "station_name": "OGDEN PIONEER PH"
+  },
+  "oklahoma-city-ok": {
+    "days_above_90f": 70.7,
+    "distance_km": 11.6,
+    "station_id": "USW00013967",
+    "station_name": "OKLAHOMA CITY WILL ROGERS AP"
+  },
+  "olathe-ks": {
+    "days_above_90f": 27.8,
+    "distance_km": 5.2,
+    "station_id": "USC00145972",
+    "station_name": "OLATHE 3E"
+  },
+  "omaha-ne": {
+    "days_above_90f": 28.0,
+    "distance_km": 6.6,
+    "station_id": "USW00014942",
+    "station_name": "OMAHA EPPLEY AIRFIELD"
+  },
+  "ontario-ca": {
+    "days_above_90f": 80.2,
+    "distance_km": 4.8,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "orange-ca": {
+    "days_above_90f": 22.3,
+    "distance_km": 5.1,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "orem-ut": {
+    "days_above_90f": 45.5,
+    "distance_km": 4.1,
+    "station_id": "USC00426538",
+    "station_name": "OREM TRTMT PLT"
+  },
+  "orlando-fl": {
+    "days_above_90f": 94.6,
+    "distance_km": 4.6,
+    "station_id": "USW00012841",
+    "station_name": "ORLANDO EXECUTIVE AP"
+  },
+  "overland-park-ks": {
+    "days_above_90f": 27.8,
+    "distance_km": 12.9,
+    "station_id": "USC00145972",
+    "station_name": "OLATHE 3E"
+  },
+  "oxnard-ca": {
+    "days_above_90f": 1.3,
+    "distance_km": 0.5,
+    "station_id": "USC00046569",
+    "station_name": "OXNARD"
+  },
+  "palm-bay-fl": {
+    "days_above_90f": 65.7,
+    "distance_km": 17.0,
+    "station_id": "USW00012838",
+    "station_name": "MELBOURNE INTL AP"
+  },
+  "palm-coast-fl": {
+    "days_above_90f": 31.4,
+    "distance_km": 10.7,
+    "station_id": "USC00086767",
+    "station_name": "PALM COAST 6NE"
+  },
+  "palmdale-ca": {
+    "days_above_90f": 111.1,
+    "distance_km": 1.5,
+    "station_id": "USC00046624",
+    "station_name": "PALMDALE"
+  },
+  "parma-oh": {
+    "days_above_90f": 8.9,
+    "distance_km": 11.5,
+    "station_id": "USW00014820",
+    "station_name": "CLEVELAND"
+  },
+  "pasadena-ca": {
+    "days_above_90f": 63.2,
+    "distance_km": 1.4,
+    "station_id": "USC00046719",
+    "station_name": "PASADENA"
+  },
+  "pasadena-tx": {
+    "days_above_90f": 83.7,
+    "distance_km": 13.0,
+    "station_id": "USW00012918",
+    "station_name": "HOUSTON HOBBY AP"
+  },
+  "pasco-wa": {
+    "days_above_90f": 44.9,
+    "distance_km": 0.4,
+    "station_id": "USW00024163",
+    "station_name": "PASCO TRI CITIES AP"
+  },
+  "paterson-nj": {
+    "days_above_90f": 15.8,
+    "distance_km": 6.2,
+    "station_id": "USC00284887",
+    "station_name": "LITTLE FALLS"
+  },
+  "pawtucket-ri": {
+    "days_above_90f": 7.9,
+    "distance_km": 16.2,
+    "station_id": "USC00379423",
+    "station_name": "WOONSOCKET"
+  },
+  "pearland-tx": {
+    "days_above_90f": 77.0,
+    "distance_km": 8.8,
+    "station_id": "USW00012975",
+    "station_name": "HOUSTON CLOVER FLD"
+  },
+  "pembroke-pines-fl": {
+    "days_above_90f": 90.9,
+    "distance_km": 10.0,
+    "station_id": "USW00092809",
+    "station_name": "HOLLYWOOD NORTH PERRY AP"
+  },
+  "peoria-az": {
+    "days_above_90f": 170.2,
+    "distance_km": 5.9,
+    "station_id": "USC00029634",
+    "station_name": "YOUNGTOWN"
+  },
+  "peoria-il": {
+    "days_above_90f": 18.7,
+    "distance_km": 10.6,
+    "station_id": "USW00014842",
+    "station_name": "PEORIA GTR PEORIA AP"
+  },
+  "perris-ca": {
+    "days_above_90f": 114.8,
+    "distance_km": 16.4,
+    "station_id": "USC00042805",
+    "station_name": "ELSINORE"
+  },
+  "pharr-tx": {
+    "days_above_90f": 162.7,
+    "distance_km": 6.9,
+    "station_id": "USW00012959",
+    "station_name": "MCALLEN MILLER INTL AP"
+  },
+  "philadelphia-pa": {
+    "days_above_90f": 31.7,
+    "distance_km": 1.0,
+    "station_id": "USC00366886",
+    "station_name": "PHILA FRANKLIN INST"
+  },
+  "phoenix-az": {
+    "days_above_90f": 168.8,
+    "distance_km": 6.6,
+    "station_id": "USW00023183",
+    "station_name": "PHOENIX SKY HARBOR INTL AP"
+  },
+  "pittsburg-ca": {
+    "days_above_90f": 56.9,
+    "distance_km": 13.6,
+    "station_id": "USC00040232",
+    "station_name": "ANTIOCH PUMPING PLT #3"
+  },
+  "pittsburgh-pa": {
+    "days_above_90f": 9.0,
+    "distance_km": 10.6,
+    "station_id": "USC00362574",
+    "station_name": "EMSWORTH L/D OHIO RVR"
+  },
+  "plano-tx": {
+    "days_above_90f": 80.4,
+    "distance_km": 4.8,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "plantation-fl": {
+    "days_above_90f": 52.4,
+    "distance_km": 6.7,
+    "station_id": "USC00083163",
+    "station_name": "FT LAUDERDALE"
+  },
+  "plymouth-mn": {
+    "days_above_90f": 7.9,
+    "distance_km": 6.4,
+    "station_id": "USC00215838",
+    "station_name": "NEW HOPE"
+  },
+  "pomona-ca": {
+    "days_above_90f": 66.4,
+    "distance_km": 2.5,
+    "station_id": "USC00047050",
+    "station_name": "POMONA/FAIRPLEX"
+  },
+  "pompano-beach-fl": {
+    "days_above_90f": 30.5,
+    "distance_km": 2.4,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "port-st-lucie-fl": {
+    "days_above_90f": 52.9,
+    "distance_km": 14.9,
+    "station_id": "USC00088620",
+    "station_name": "STUART"
+  },
+  "portland-or": {
+    "days_above_90f": 10.4,
+    "distance_km": 0.8,
+    "station_id": "USC00356749",
+    "station_name": "PORTLAND KGW-TV"
+  },
+  "portsmouth-va": {
+    "days_above_90f": 32.4,
+    "distance_km": 11.7,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "providence-ri": {
+    "days_above_90f": 9.3,
+    "distance_km": 11.1,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "provo-ut": {
+    "days_above_90f": 60.3,
+    "distance_km": 0.5,
+    "station_id": "USC00427064",
+    "station_name": "PROVO BYU"
+  },
+  "pueblo-co": {
+    "days_above_90f": 60.5,
+    "distance_km": 9.5,
+    "station_id": "USC00056765",
+    "station_name": "PUEBLO RSVR"
+  },
+  "queen-creek-az": {
+    "days_above_90f": 156.9,
+    "distance_km": 7.7,
+    "station_id": "USC00021514",
+    "station_name": "CHANDLER HEIGHTS"
+  },
+  "quincy-ma": {
+    "days_above_90f": 8.9,
+    "distance_km": 8.8,
+    "station_id": "USC00193624",
+    "station_name": "HINGHAM"
+  },
+  "racine-wi": {
+    "days_above_90f": 3.7,
+    "distance_km": 3.5,
+    "station_id": "USW00094818",
+    "station_name": "RACINE BATTEN AP"
+  },
+  "raleigh-nc": {
+    "days_above_90f": 46.0,
+    "distance_km": 5.4,
+    "station_id": "USC00317079",
+    "station_name": "RALEIGH STATE UNIV"
+  },
+  "rancho-cordova-ca": {
+    "days_above_90f": 74.4,
+    "distance_km": 15.6,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "rancho-cucamonga-ca": {
+    "days_above_90f": 80.2,
+    "distance_km": 6.1,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "rapid-city-sd": {
+    "days_above_90f": 17.9,
+    "distance_km": 1.7,
+    "station_id": "USC00396948",
+    "station_name": "RAPID CITY WFO"
+  },
+  "reading-pa": {
+    "days_above_90f": 15.3,
+    "distance_km": 4.3,
+    "station_id": "USW00014712",
+    "station_name": "READING SPAATZ FLD"
+  },
+  "redding-ca": {
+    "days_above_90f": 96.9,
+    "distance_km": 8.4,
+    "station_id": "USW00024257",
+    "station_name": "REDDING MUNI AP"
+  },
+  "redmond-wa": {
+    "days_above_90f": 1.2,
+    "distance_km": 10.2,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "redwood-city-ca": {
+    "days_above_90f": 17.1,
+    "distance_km": 5.4,
+    "station_id": "USC00047339",
+    "station_name": "REDWOOD CITY"
+  },
+  "reno-nv": {
+    "days_above_90f": 40.4,
+    "distance_km": 4.4,
+    "station_id": "USC00266791",
+    "station_name": "RENO WFO"
+  },
+  "renton-wa": {
+    "days_above_90f": 2.1,
+    "distance_km": 2.4,
+    "station_id": "USW00094248",
+    "station_name": "RENTON MUNI AP"
+  },
+  "rialto-ca": {
+    "days_above_90f": 94.2,
+    "distance_km": 17.2,
+    "station_id": "USC00047473",
+    "station_name": "RIVERSIDE CITRUS EXP"
+  },
+  "richardson-tx": {
+    "days_above_90f": 80.4,
+    "distance_km": 4.2,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "richmond-ca": {
+    "days_above_90f": 3.4,
+    "distance_km": 3.7,
+    "station_id": "USC00047414",
+    "station_name": "RICHMOND"
+  },
+  "richmond-va": {
+    "days_above_90f": 42.0,
+    "distance_km": 11.3,
+    "station_id": "USW00013740",
+    "station_name": "RICHMOND INTL AP"
+  },
+  "rio-rancho-nm": {
+    "days_above_90f": 77.3,
+    "distance_km": 7.3,
+    "station_id": "USC00297481",
+    "station_name": "RIO RANCHO #2"
+  },
+  "riverside-ca": {
+    "days_above_90f": 102.9,
+    "distance_km": 1.1,
+    "station_id": "USC00047470",
+    "station_name": "RIVERSIDE FIRE STN 3"
+  },
+  "roanoke-va": {
+    "days_above_90f": 25.1,
+    "distance_km": 4.3,
+    "station_id": "USW00013741",
+    "station_name": "ROANOKE RGNL AP"
+  },
+  "rochester-hills-mi": {
+    "days_above_90f": 5.9,
+    "distance_km": 8.2,
+    "station_id": "USC00206658",
+    "station_name": "PONTIAC WWTP"
+  },
+  "rochester-mn": {
+    "days_above_90f": 6.1,
+    "distance_km": 11.8,
+    "station_id": "USW00014925",
+    "station_name": "ROCHESTER INTL AP"
+  },
+  "rochester-ny": {
+    "days_above_90f": 5.2,
+    "distance_km": 7.2,
+    "station_id": "USW00014768",
+    "station_name": "ROCHESTER GTR INTL AP"
+  },
+  "rockford-il": {
+    "days_above_90f": 14.9,
+    "distance_km": 8.0,
+    "station_id": "USW00094822",
+    "station_name": "ROCKFORD GTR ROCKFORD AP"
+  },
+  "rocklin-ca": {
+    "days_above_90f": 57.8,
+    "distance_km": 18.0,
+    "station_id": "USC00040383",
+    "station_name": "AUBURN"
+  },
+  "rogers-ar": {
+    "days_above_90f": 38.5,
+    "distance_km": 5.8,
+    "station_id": "USC00030586",
+    "station_name": "BENTONVILLE 4 S"
+  },
+  "roseville-ca": {
+    "days_above_90f": 73.5,
+    "distance_km": 24.8,
+    "station_id": "USW00093225",
+    "station_name": "SACRAMENTO METRO AP"
+  },
+  "roswell-ga": {
+    "days_above_90f": 39.1,
+    "distance_km": 18.9,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "round-rock-tx": {
+    "days_above_90f": 100.7,
+    "distance_km": 16.4,
+    "station_id": "USC00410433",
+    "station_name": "AUSTIN GREAT HILLS"
+  },
+  "sacramento-ca": {
+    "days_above_90f": 74.4,
+    "distance_km": 6.9,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "saint-paul-mn": {
+    "days_above_90f": 9.2,
+    "distance_km": 3.4,
+    "station_id": "USW00014927",
+    "station_name": "ST PAUL DOWNTOWN AP"
+  },
+  "salem-or": {
+    "days_above_90f": 14.7,
+    "distance_km": 5.0,
+    "station_id": "USW00024232",
+    "station_name": "SALEM MCNARY FLD"
+  },
+  "salinas-ca": {
+    "days_above_90f": 4.3,
+    "distance_km": 3.5,
+    "station_id": "USW00023233",
+    "station_name": "SALINAS MUNICIPAL AP"
+  },
+  "salt-lake-city-ut": {
+    "days_above_90f": 38.5,
+    "distance_km": 1.3,
+    "station_id": "USC00427606",
+    "station_name": "SALT LAKE TRIAD CTR"
+  },
+  "san-angelo-tx": {
+    "days_above_90f": 102.0,
+    "distance_km": 8.6,
+    "station_id": "USW00023034",
+    "station_name": "SAN ANGELO"
+  },
+  "san-antonio-tx": {
+    "days_above_90f": 95.1,
+    "distance_km": 5.8,
+    "station_id": "USC00417947",
+    "station_name": "SAN ANTONIO INCARNATE WORD"
+  },
+  "san-bernardino-ca": {
+    "days_above_90f": 101.8,
+    "distance_km": 12.0,
+    "station_id": "USC00047306",
+    "station_name": "REDLANDS"
+  },
+  "san-diego-ca": {
+    "days_above_90f": 1.2,
+    "distance_km": 2.6,
+    "station_id": "USW00023188",
+    "station_name": "SAN DIEGO LINDBERGH FLD"
+  },
+  "san-francisco-ca": {
+    "days_above_90f": 2.1,
+    "distance_km": 0.6,
+    "station_id": "USW00023272",
+    "station_name": "SAN FRANCISCO DWTN"
+  },
+  "san-jose-ca": {
+    "days_above_90f": 16.1,
+    "distance_km": 1.6,
+    "station_id": "USC00047821",
+    "station_name": "SAN JOSE"
+  },
+  "san-leandro-ca": {
+    "days_above_90f": 3.1,
+    "distance_km": 5.9,
+    "station_id": "USW00023230",
+    "station_name": "OAKLAND METRO INTL AP"
+  },
+  "san-marcos-ca": {
+    "days_above_90f": 44.3,
+    "distance_km": 7.5,
+    "station_id": "USC00042863",
+    "station_name": "ESCONDIDO #2"
+  },
+  "san-marcos-tx": {
+    "days_above_90f": 104.6,
+    "distance_km": 1.7,
+    "station_id": "USC00417983",
+    "station_name": "SAN MARCOS"
+  },
+  "san-mateo-ca": {
+    "days_above_90f": 3.3,
+    "distance_km": 8.2,
+    "station_id": "USW00023234",
+    "station_name": "SAN FRANCISCO INTL AP"
+  },
+  "san-ramon-ca": {
+    "days_above_90f": 28.2,
+    "distance_km": 12.1,
+    "station_id": "USC00045915",
+    "station_name": "MT DIABLO JUNCTION"
+  },
+  "sandpoint-id": {
+    "days_above_90f": 11.1,
+    "distance_km": 1.8,
+    "station_id": "USC00108137",
+    "station_name": "SANDPOINT EXP STN"
+  },
+  "sandy-springs-ga": {
+    "days_above_90f": 39.1,
+    "distance_km": 8.7,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "sandy-ut": {
+    "days_above_90f": 30.9,
+    "distance_km": 7.8,
+    "station_id": "USC00421759",
+    "station_name": "COTTONWOOD WEIR"
+  },
+  "santa-ana-ca": {
+    "days_above_90f": 22.3,
+    "distance_km": 0.7,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "santa-barbara-ca": {
+    "days_above_90f": 2.7,
+    "distance_km": 3.0,
+    "station_id": "USC00047902",
+    "station_name": "SANTA BARBARA"
+  },
+  "santa-clara-ca": {
+    "days_above_90f": 20.2,
+    "distance_km": 4.1,
+    "station_id": "USW00023293",
+    "station_name": "SAN JOSE"
+  },
+  "santa-clarita-ca": {
+    "days_above_90f": 84.7,
+    "distance_km": 5.0,
+    "station_id": "USC00046161",
+    "station_name": "NEWHALL 5NW"
+  },
+  "santa-fe-nm": {
+    "days_above_90f": 16.8,
+    "distance_km": 8.5,
+    "station_id": "USC00298085",
+    "station_name": "SANTA FE 2"
+  },
+  "santa-maria-ca": {
+    "days_above_90f": 3.1,
+    "distance_km": 3.5,
+    "station_id": "USW00023273",
+    "station_name": "SANTA MARIA PUBLIC AP"
+  },
+  "santa-monica-ca": {
+    "days_above_90f": 0.5,
+    "distance_km": 0.3,
+    "station_id": "USC00047953",
+    "station_name": "SANTA MONICA PIER"
+  },
+  "santa-rosa-ca": {
+    "days_above_90f": 26.4,
+    "distance_km": 1.8,
+    "station_id": "USC00047965",
+    "station_name": "SANTA ROSA"
+  },
+  "savannah-ga": {
+    "days_above_90f": 70.0,
+    "distance_km": 12.3,
+    "station_id": "USW00003822",
+    "station_name": "SAVANNAH INTL AP"
+  },
+  "schaumburg-il": {
+    "days_above_90f": 27.8,
+    "distance_km": 8.1,
+    "station_id": "USC00118324",
+    "station_name": "STREAMWOOD"
+  },
+  "scottsdale-az": {
+    "days_above_90f": 172.4,
+    "distance_km": 7.2,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "seattle-wa": {
+    "days_above_90f": 1.5,
+    "distance_km": 9.1,
+    "station_id": "USW00024234",
+    "station_name": "SEATTLE BOEING FLD"
+  },
+  "shreveport-la": {
+    "days_above_90f": 76.9,
+    "distance_km": 1.5,
+    "station_id": "USW00053905",
+    "station_name": "SHREVEPORT DWTN AP"
+  },
+  "simi-valley-ca": {
+    "days_above_90f": 100.5,
+    "distance_km": 18.9,
+    "station_id": "USC00049785",
+    "station_name": "WOODLAND HILLS PIERCE COLLEGE"
+  },
+  "sioux-city-ia": {
+    "days_above_90f": 21.1,
+    "distance_km": 12.1,
+    "station_id": "USW00014943",
+    "station_name": "SIOUX CITY GATEWAY AP"
+  },
+  "sioux-falls-sd": {
+    "days_above_90f": 13.8,
+    "distance_km": 4.8,
+    "station_id": "USW00014944",
+    "station_name": "SIOUX FALLS"
+  },
+  "somerville-ma": {
+    "days_above_90f": 10.3,
+    "distance_km": 8.0,
+    "station_id": "USW00014739",
+    "station_name": "BOSTON LOGAN INTL AP"
+  },
+  "south-bend-in": {
+    "days_above_90f": 9.7,
+    "distance_km": 4.9,
+    "station_id": "USW00014848",
+    "station_name": "SOUTH BEND MICHIANA RGNL AP"
+  },
+  "south-fulton-ga": {
+    "days_above_90f": 35.7,
+    "distance_km": 12.9,
+    "station_id": "USW00013874",
+    "station_name": "ATLANTA HARTSFIELD INTL AP"
+  },
+  "south-gate-ca": {
+    "days_above_90f": 21.4,
+    "distance_km": 13.0,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "south-jordan-ut": {
+    "days_above_90f": 71.6,
+    "distance_km": 10.3,
+    "station_id": "USC00422235",
+    "station_name": "DRAPER-POINT OF MTN"
+  },
+  "sparks-nv": {
+    "days_above_90f": 47.9,
+    "distance_km": 1.9,
+    "station_id": "USC00267697",
+    "station_name": "SPARKS"
+  },
+  "spokane-valley-wa": {
+    "days_above_90f": 20.8,
+    "distance_km": 7.3,
+    "station_id": "USW00094176",
+    "station_name": "SPOKANE FELTS FLD"
+  },
+  "spokane-wa": {
+    "days_above_90f": 16.2,
+    "distance_km": 8.5,
+    "station_id": "USW00024157",
+    "station_name": "SPOKANE INTL AP"
+  },
+  "springdale-ar": {
+    "days_above_90f": 35.5,
+    "distance_km": 10.0,
+    "station_id": "USC00032444",
+    "station_name": "FAYETTEVILLE EXP STN"
+  },
+  "springfield-il": {
+    "days_above_90f": 19.2,
+    "distance_km": 3.2,
+    "station_id": "USC00118186",
+    "station_name": "SPRINGFIELD #2"
+  },
+  "springfield-ma": {
+    "days_above_90f": 11.1,
+    "distance_km": 15.1,
+    "station_id": "USW00014775",
+    "station_name": "WESTFIELD BARNES MUNI AP"
+  },
+  "springfield-mo": {
+    "days_above_90f": 34.7,
+    "distance_km": 11.0,
+    "station_id": "USW00013995",
+    "station_name": "SPRINGFIELD"
+  },
+  "st-george-ut": {
+    "days_above_90f": 116.3,
+    "distance_km": 4.9,
+    "station_id": "USC00427516",
+    "station_name": "ST GEORGE"
+  },
+  "st-louis-mo": {
+    "days_above_90f": 39.5,
+    "distance_km": 6.2,
+    "station_id": "USC00237452",
+    "station_name": "ST LOUIS SCI CTR"
+  },
+  "st-petersburg-fl": {
+    "days_above_90f": 75.7,
+    "distance_km": 1.6,
+    "station_id": "USW00092806",
+    "station_name": "ST PETERSBURG AP"
+  },
+  "stamford-ct": {
+    "days_above_90f": 14.8,
+    "distance_km": 5.0,
+    "station_id": "USC00067970",
+    "station_name": "STAMFORD 5 N"
+  },
+  "sterling-heights-mi": {
+    "days_above_90f": 5.9,
+    "distance_km": 17.6,
+    "station_id": "USW00014804",
+    "station_name": "MT CLEMENS ANG BASE"
+  },
+  "stockton-ca": {
+    "days_above_90f": 81.7,
+    "distance_km": 5.0,
+    "station_id": "USC00048560",
+    "station_name": "STOCKTON FIRE STN 4"
+  },
+  "suffolk-va": {
+    "days_above_90f": 22.8,
+    "distance_km": 4.2,
+    "station_id": "USC00448192",
+    "station_name": "SUFFOLK LAKE KILBY"
+  },
+  "sugar-land-tx": {
+    "days_above_90f": 118.1,
+    "distance_km": 4.4,
+    "station_id": "USC00418728",
+    "station_name": "SUGAR LAND"
+  },
+  "sundance-wy": {
+    "days_above_90f": 19.7,
+    "distance_km": 1.9,
+    "station_id": "USC00488705",
+    "station_name": "SUNDANCE"
+  },
+  "sunnyvale-ca": {
+    "days_above_90f": 7.6,
+    "distance_km": 2.4,
+    "station_id": "USW00023244",
+    "station_name": "MOFFETT FEDERAL AIRFIELD"
+  },
+  "sunrise-fl": {
+    "days_above_90f": 67.8,
+    "distance_km": 9.4,
+    "station_id": "USW00012885",
+    "station_name": "FT LAUDERDALE EXECUTIVE AP"
+  },
+  "surprise-az": {
+    "days_above_90f": 165.8,
+    "distance_km": 13.7,
+    "station_id": "USC00029464",
+    "station_name": "WITTMANN 1SE"
+  },
+  "syracuse-ny": {
+    "days_above_90f": 6.8,
+    "distance_km": 8.4,
+    "station_id": "USW00014771",
+    "station_name": "SYRACUSE HANCOCK INTL AP"
+  },
+  "tacoma-wa": {
+    "days_above_90f": 1.0,
+    "distance_km": 2.1,
+    "station_id": "USC00458278",
+    "station_name": "TACOMA #1"
+  },
+  "tallahassee-fl": {
+    "days_above_90f": 86.7,
+    "distance_km": 6.7,
+    "station_id": "USW00093805",
+    "station_name": "TALLAHASSEE"
+  },
+  "tampa-fl": {
+    "days_above_90f": 72.5,
+    "distance_km": 8.0,
+    "station_id": "USW00012842",
+    "station_name": "TAMPA INTL AP"
+  },
+  "taos-nm": {
+    "days_above_90f": 16.9,
+    "distance_km": 2.6,
+    "station_id": "USC00298668",
+    "station_name": "TAOS"
+  },
+  "temecula-ca": {
+    "days_above_90f": 43.8,
+    "distance_km": 7.9,
+    "station_id": "USW00053151",
+    "station_name": "FALLBROOK 5 NE"
+  },
+  "tempe-az": {
+    "days_above_90f": 172.4,
+    "distance_km": 1.8,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "temple-tx": {
+    "days_above_90f": 107.4,
+    "distance_km": 14.9,
+    "station_id": "USC00418646",
+    "station_name": "STILLHOUSE HOLLOW DAM"
+  },
+  "thornton-co": {
+    "days_above_90f": 54.3,
+    "distance_km": 6.7,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "thousand-oaks-ca": {
+    "days_above_90f": 3.9,
+    "distance_km": 19.8,
+    "station_id": "USW00023136",
+    "station_name": "CAMARILLO AP"
+  },
+  "toledo-oh": {
+    "days_above_90f": 12.7,
+    "distance_km": 12.8,
+    "station_id": "USW00004848",
+    "station_name": "TOLEDO METCALF FLD"
+  },
+  "topeka-ks": {
+    "days_above_90f": 41.5,
+    "distance_km": 7.9,
+    "station_id": "USW00013996",
+    "station_name": "TOPEKA MUNI AP"
+  },
+  "torrance-ca": {
+    "days_above_90f": 4.4,
+    "distance_km": 3.6,
+    "station_id": "USW00003122",
+    "station_name": "TORRANCE AP"
+  },
+  "tracy-ca": {
+    "days_above_90f": 73.3,
+    "distance_km": 10.5,
+    "station_id": "USC00048999",
+    "station_name": "TRACY CARBONA"
+  },
+  "trenton-nj": {
+    "days_above_90f": 15.7,
+    "distance_km": 7.9,
+    "station_id": "USW00014792",
+    "station_name": "TRENTON MERCER CO AP"
+  },
+  "troy-mi": {
+    "days_above_90f": 5.9,
+    "distance_km": 10.8,
+    "station_id": "USC00206658",
+    "station_name": "PONTIAC WWTP"
+  },
+  "tucson-az": {
+    "days_above_90f": 139.3,
+    "distance_km": 1.9,
+    "station_id": "USC00028815",
+    "station_name": "TUCSON WFO"
+  },
+  "tulsa-ok": {
+    "days_above_90f": 66.3,
+    "distance_km": 10.7,
+    "station_id": "USW00013968",
+    "station_name": "TULSA INTL AP"
+  },
+  "tuscaloosa-al": {
+    "days_above_90f": 80.3,
+    "distance_km": 8.3,
+    "station_id": "USC00018380",
+    "station_name": "TUSCALOOSA ACFD"
+  },
+  "tustin-ca": {
+    "days_above_90f": 22.3,
+    "distance_km": 5.5,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "tyler-tx": {
+    "days_above_90f": 82.2,
+    "distance_km": 1.9,
+    "station_id": "USC00419207",
+    "station_name": "TYLER"
+  },
+  "upland-ca": {
+    "days_above_90f": 80.2,
+    "distance_km": 9.0,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "vacaville-ca": {
+    "days_above_90f": 73.9,
+    "distance_km": 2.2,
+    "station_id": "USW00093241",
+    "station_name": "VACAVILLE NUT TREE AP"
+  },
+  "vallejo-ca": {
+    "days_above_90f": 14.1,
+    "distance_km": 11.4,
+    "station_id": "USW00093227",
+    "station_name": "NAPA CO AP"
+  },
+  "vancouver-wa": {
+    "days_above_90f": 10.7,
+    "distance_km": 1.0,
+    "station_id": "USW00094298",
+    "station_name": "VANCOUVER PEARSON AP"
+  },
+  "ventura-ca": {
+    "days_above_90f": 0.6,
+    "distance_km": 8.7,
+    "station_id": "USW00093110",
+    "station_name": "OXNARD VENTURA CO AP"
+  },
+  "victorville-ca": {
+    "days_above_90f": 117.0,
+    "distance_km": 5.2,
+    "station_id": "USC00049325",
+    "station_name": "VICTORVILLE"
+  },
+  "virginia-beach-va": {
+    "days_above_90f": 26.0,
+    "distance_km": 6.0,
+    "station_id": "USW00013769",
+    "station_name": "OCEANA NAS"
+  },
+  "visalia-ca": {
+    "days_above_90f": 81.8,
+    "distance_km": 2.7,
+    "station_id": "USC00049367",
+    "station_name": "VISALIA"
+  },
+  "vista-ca": {
+    "days_above_90f": 11.9,
+    "distance_km": 5.1,
+    "station_id": "USC00049378",
+    "station_name": "VISTA"
+  },
+  "waco-tx": {
+    "days_above_90f": 99.3,
+    "distance_km": 5.2,
+    "station_id": "USC00419417",
+    "station_name": "WACO DAM"
+  },
+  "warner-robins-ga": {
+    "days_above_90f": 64.8,
+    "distance_km": 3.3,
+    "station_id": "USC00099124",
+    "station_name": "WARNER ROBINS"
+  },
+  "warren-mi": {
+    "days_above_90f": 7.6,
+    "distance_km": 9.1,
+    "station_id": "USW00014822",
+    "station_name": "DETROIT CITY AP"
+  },
+  "warwick-ri": {
+    "days_above_90f": 9.3,
+    "distance_km": 2.6,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "washington-dc": {
+    "days_above_90f": 43.4,
+    "distance_km": 6.1,
+    "station_id": "USC00186350",
+    "station_name": "NATL ARBORETUM DC"
+  },
+  "waterbury-ct": {
+    "days_above_90f": 9.7,
+    "distance_km": 18.5,
+    "station_id": "USW00054788",
+    "station_name": "MERIDEN MARKHAM MUNI AP"
+  },
+  "waukegan-il": {
+    "days_above_90f": 10.2,
+    "distance_km": 2.5,
+    "station_id": "USC00119029",
+    "station_name": "WAUKEGAN"
+  },
+  "west-covina-ca": {
+    "days_above_90f": 66.4,
+    "distance_km": 13.5,
+    "station_id": "USC00047050",
+    "station_name": "POMONA/FAIRPLEX"
+  },
+  "west-jordan-ut": {
+    "days_above_90f": 71.6,
+    "distance_km": 15.1,
+    "station_id": "USC00422235",
+    "station_name": "DRAPER-POINT OF MTN"
+  },
+  "west-palm-beach-fl": {
+    "days_above_90f": 50.2,
+    "distance_km": 7.9,
+    "station_id": "USW00012844",
+    "station_name": "WEST PALM BEACH INTL AP"
+  },
+  "west-valley-city-ut": {
+    "days_above_90f": 52.1,
+    "distance_km": 10.4,
+    "station_id": "USW00024127",
+    "station_name": "SALT LAKE CITY INTL AP"
+  },
+  "westland-mi": {
+    "days_above_90f": 10.2,
+    "distance_km": 10.7,
+    "station_id": "USW00094847",
+    "station_name": "DETROIT METRO AP"
+  },
+  "westminster-ca": {
+    "days_above_90f": 22.3,
+    "distance_km": 11.4,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "westminster-co": {
+    "days_above_90f": 54.3,
+    "distance_km": 4.5,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "whitewright-tx": {
+    "days_above_90f": 66.8,
+    "distance_km": 25.3,
+    "station_id": "USC00410923",
+    "station_name": "BONHAM 3NNE"
+  },
+  "whittier-ca": {
+    "days_above_90f": 24.4,
+    "distance_km": 11.5,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "wichita-falls-tx": {
+    "days_above_90f": 97.9,
+    "distance_km": 8.4,
+    "station_id": "USW00013966",
+    "station_name": "WICHITA FALLS MUNI AP"
+  },
+  "wichita-ks": {
+    "days_above_90f": 57.7,
+    "distance_km": 9.9,
+    "station_id": "USW00003928",
+    "station_name": "WICHITA"
+  },
+  "wilmington-nc": {
+    "days_above_90f": 40.2,
+    "distance_km": 6.5,
+    "station_id": "USW00013748",
+    "station_name": "WILMINGTON INTL AP"
+  },
+  "winston-salem-nc": {
+    "days_above_90f": 31.3,
+    "distance_km": 4.1,
+    "station_id": "USW00093807",
+    "station_name": "WINSTON SALEM RYNLDS AP"
+  },
+  "woodbury-mn": {
+    "days_above_90f": 7.9,
+    "distance_km": 9.5,
+    "station_id": "USC00217377",
+    "station_name": "ST PAUL"
+  },
+  "worcester-ma": {
+    "days_above_90f": 2.0,
+    "distance_km": 6.1,
+    "station_id": "USW00094746",
+    "station_name": "WORCESTER RGNL AP"
+  },
+  "wyoming-mi": {
+    "days_above_90f": 8.4,
+    "distance_km": 13.5,
+    "station_id": "USW00094860",
+    "station_name": "GRAND RAPIDS"
+  },
+  "yakima-wa": {
+    "days_above_90f": 29.7,
+    "distance_km": 1.4,
+    "station_id": "USC00459463",
+    "station_name": "YAKIMA #2"
+  },
+  "yonkers-ny": {
+    "days_above_90f": 14.6,
+    "distance_km": 10.2,
+    "station_id": "USC00302129",
+    "station_name": "DOBBS FERRY-ARDSLEY"
+  },
+  "yuma-az": {
+    "days_above_90f": 184.7,
+    "distance_km": 4.2,
+    "station_id": "USC00029656",
+    "station_name": "YUMA QUARTERMASTER DEPOT"
+  }
+}
