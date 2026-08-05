@@ -435,14 +435,14 @@ test("a year control appears once a time-varying layer (crime) is active, and sw
 
   const yearSelect = page.getByLabel("Year", { exact: true });
   await expect(yearSelect).toBeVisible();
-  await expect(yearSelect).toHaveValue("2024");
+  await expect(yearSelect).toHaveValue("2025");
 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   const crimeDetail = page.getByTestId("city-detail-row").filter({ hasText: "Crime: Violent crime" });
-  await expect(crimeDetail).toContainText("2024");
+  await expect(crimeDetail).toContainText("2025");
 
   const options = await yearSelect.locator("option").allTextContents();
-  const earlierYear = options.find((y) => y !== "2024");
+  const earlierYear = options.find((y) => y !== "2025");
   if (earlierYear) {
     await yearSelect.selectOption(earlierYear);
     await expect(crimeDetail).toContainText(earlierYear);

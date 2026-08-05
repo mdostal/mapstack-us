@@ -8,7 +8,7 @@ different shape, proving the interface holds across all three.
 
 ## What this measures
 
-Two independent layers, computed for **every year 2020–2024** (a real, year-by-year
+Two independent layers, computed for **every year 2020–2025** (a real, year-by-year
 history — not just one snapshot — per explicit user direction that every Mapstack dataset
 should carry "dates and years and historical data like the allergy one"):
 - **Violent crime** — homicide, rape, robbery, aggravated assault (NIBRS/UCR "violent
@@ -16,7 +16,7 @@ should carry "dates and years and historical data like the allergy one"):
 - **Property crime** — burglary, larceny-theft, motor vehicle theft (NIBRS/UCR "property
   crime" offense group).
 
-The map's year control offers exactly these 5 real years — never a year invented to make
+The map's year control offers exactly these 6 real years — never a year invented to make
 the range look longer than the data actually supports.
 
 Deliberately **not blended into one score** — combining violent and property crime into a
@@ -59,15 +59,14 @@ U.S. government data — public domain, free to use and redistribute.
 
 ## Why these years, and why coverage grows over time
 
-2020–2024 chosen as the most recent 5 full years with real NIBRS data available. Real
+2020–2025 chosen as the most recent 6 full years with real NIBRS data available. Real
 NIBRS participation **grows every year** as more agencies join — so earlier years
-genuinely, honestly cover FEWER cities than 2024, not because of a bug but because fewer
-agencies were reporting yet. Per the FBI's own 2024 crime report, every city with
-population ≥1M provided a full year of data that year, and overall population coverage
-exceeded 95% — the best-covered year in this range. 2021's NIBRS-only reporting mandate
-caused a well-documented dip (~40% of agencies, including NYPD and LAPD, submitted no
-data that specific year) — visible directly in this dataset's own year-over-year coverage
-counts, not smoothed over.
+genuinely, honestly cover FEWER cities than 2025, not because of a bug but because fewer
+agencies were reporting yet. 2025 is now the best-covered year in this range (460/512
+cities on both layers), edging out 2024's 454 as more agencies crossed their own
+full-calendar-year threshold. 2021's NIBRS-only reporting mandate caused a well-documented
+dip (~40% of agencies, including NYPD and LAPD, submitted no data that specific year) —
+visible directly in this dataset's own year-over-year coverage counts, not smoothed over.
 
 ## Known limitations (shown, not smoothed over)
 
@@ -82,18 +81,17 @@ counts, not smoothed over.
   Compton CA, South Gate CA, Deerfield Beach FL, Daytona Beach FL, Lakewood CA, and
   Chino Hills CA. These show **no data for any year** on the affected layer(s) — never a
   fabricated or interpolated value.
-- **23 agencies only recently joined NIBRS**, so they have no full year of data yet even
-  though a real agency match exists — Miami Beach FL (Jan 2024), Indio CA (Mar 2024), Los
-  Angeles (May 2024), Allentown PA (May 2024), Santa Monica CA (May 2024), Port St. Lucie
-  FL (Jun 2024), Pembroke Pines FL (Oct 2024), Melbourne FL (Dec 2024), Jacksonville FL
-  (Jan 2025, via Jacksonville Beach PD), Jackson MS (Jan 2025), Downey CA (Jan 2025),
-  Homestead FL (Jan 2025), North Port FL (Mar 2025), San Leandro CA (Apr 2025), San
-  Bernardino CA (Jun 2025), Phoenix (Sep 2025), Plantation FL (Sep 2025), Orlando (Jan
-  2026), Moreno Valley CA (Jan 2026), Temecula CA (Jan 2026), Jurupa Valley CA (Jan 2026),
-  Perris CA (Jan 2026), and Syracuse NY (Apr 2026). Every real match's own start date
+- **13 agencies only recently joined NIBRS**, so they have no full calendar year of data
+  yet even though a real agency match exists — Miami Beach FL (Jan 2024), Melbourne FL
+  (Dec 2024), North Port FL (Mar 2025), San Leandro CA (Apr 2025), San Bernardino CA (Jun
+  2025), Phoenix (Sep 2025), Plantation FL (Sep 2025), Orlando (Jan 2026), Moreno Valley CA
+  (Jan 2026), Temecula CA (Jan 2026), Jurupa Valley CA (Jan 2026), Perris CA (Jan 2026),
+  and Syracuse NY (Apr 2026). Every real match's own start date
   (`data/raw/crime-agency-matches.json`'s `nibrs_start_date`) determines this, not a
   guess — an agency reappears here the moment it has a real full calendar year of NIBRS
-  data.
+  data. This list shrank from 23 to 13 between this dataset's initial build and this
+  update, purely from real agencies crossing their own full-year threshold plus adding
+  2025 to the tracked window — not a methodology change.
 - **Both lists above are the complete current picture, not illustrative examples** — the
   count and membership of each shift over time as more agencies join NIBRS or a fresh year
   completes; re-running `scripts/gen_crime_data.py` reproduces the current split exactly

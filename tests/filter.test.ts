@@ -61,10 +61,10 @@ describe("filter", () => {
     expect(sql).not.toContain("lv2");
     expect(sql).toContain("lv0.value >= ? AND lv1.value <= ?");
     // allergy (non-time-varying) always binds NULL; crime (time-varying)
-    // resolves the shared null year to its own latest real year (2024) --
+    // resolves the shared null year to its own latest real year (2025) --
     // NOT the same null passed in, since crime rows are never stored with
     // year IS NULL. See src/lib/db/effective-year.ts.
-    expect(params).toEqual(["allergy", "grass", null, "crime", "violent_crime", 2024, 60, 40]);
+    expect(params).toEqual(["allergy", "grass", null, "crime", "violent_crime", 2025, 60, 40]);
   });
 
   it("resolves each criterion's year independently of the app's single shared year value -- a non-time-varying dataset always binds NULL even when a time-varying layer's year is explicitly set", async () => {

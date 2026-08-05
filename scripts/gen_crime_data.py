@@ -57,7 +57,7 @@ def load_dotenv(path):
 
 load_dotenv(ROOT / ".env")
 API_KEY = os.environ.get("FBI_CRIME_API_KEY")
-YEARS = [2020, 2021, 2022, 2023, 2024]
+YEARS = [2020, 2021, 2022, 2023, 2024, 2025]
 
 if not API_KEY:
     print("FBI_CRIME_API_KEY not set (checked environment and .env).", file=sys.stderr)

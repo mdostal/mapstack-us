@@ -8,29 +8,29 @@ describe("crimeDataset (Dataset interface, third real implementation, now multi-
     expect(crimeDataset.supportsTime).toBe(true);
   });
 
-  it("reports real availableYears, ending in 2024", () => {
+  it("reports real availableYears, ending in 2025", () => {
     expect(crimeDataset.availableYears).toBeDefined();
     expect(crimeDataset.availableYears!.length).toBeGreaterThanOrEqual(2);
-    expect(crimeDataset.availableYears![crimeDataset.availableYears!.length - 1]).toBe(2024);
+    expect(crimeDataset.availableYears![crimeDataset.availableYears!.length - 1]).toBe(2025);
   });
 
   it("defaults to the latest available year when no context is given", () => {
     const withoutContext = crimeDataset.getValue("new-york-ny", "violent_crime");
-    const withLatestYear = crimeDataset.getValue("new-york-ny", "violent_crime", { year: 2024 });
+    const withLatestYear = crimeDataset.getValue("new-york-ny", "violent_crime", { year: 2025 });
     expect(withoutContext).toEqual(withLatestYear);
   });
 
   it("returns a 0-100 value and a year+percentile-labeled detail for a covered city/year", () => {
-    const result = crimeDataset.getValue("new-york-ny", "violent_crime", { year: 2024 });
+    const result = crimeDataset.getValue("new-york-ny", "violent_crime", { year: 2025 });
     expect(result).not.toBeNull();
     expect(result!.value).toBeGreaterThanOrEqual(0);
     expect(result!.value).toBeLessThanOrEqual(100);
-    expect(result!.detail).toContain("2024");
+    expect(result!.detail).toContain("2025");
     expect(result!.detail).toContain("percentile");
   });
 
   it("returns null for a known NIBRS-non-participating city, not a fabricated value", () => {
-    expect(crimeDataset.getValue("san-francisco-ca", "violent_crime", { year: 2024 })).toBeNull();
+    expect(crimeDataset.getValue("san-francisco-ca", "violent_crime", { year: 2025 })).toBeNull();
   });
 
   it("returns null for a year the dataset genuinely has no data for", () => {

@@ -22,7 +22,7 @@ describe("data/crime.json integrity (multi-year)", () => {
   it("has real, sorted years in _meta, most recent last", () => {
     expect(years.length).toBeGreaterThanOrEqual(2);
     expect([...years].sort((a, b) => a - b)).toEqual(years);
-    expect(years[years.length - 1]).toBe(2024);
+    expect(years[years.length - 1]).toBe(2025);
   });
 
   it("has no orphan entries -- every key besides _meta is a real city id", () => {

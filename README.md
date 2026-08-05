@@ -39,7 +39,7 @@ built from two real, working examples instead of upfront design.
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
-    2020–2024 year-over-year history (`data/crime-methodology.md`).
+    2020–2025 year-over-year history (`data/crime-methodology.md`).
   - **Care access** — nearest-hospital drive time, general/pediatric-specialty/
     pediatric-cardiac (`data/care-access-methodology.md`).
   - **Natural hazard risk** — FEMA National Risk Index, overall plus inland flood/
@@ -78,7 +78,7 @@ built from two real, working examples instead of upfront design.
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
 - **A shared year control** wherever real historical data exists — crime currently
-  spans 2020–2024 real years (`data/crime-methodology.md`), with coverage that honestly
+  spans 2020–2025 real years (`data/crime-methodology.md`), with coverage that honestly
   grows year over year as more police agencies joined federal reporting, never
   backfilled or estimated for years without real data.
 - A power-user `/advanced` view: a sortable/filterable comparison table across every

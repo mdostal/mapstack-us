@@ -6,7 +6,8 @@
       2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "method": "Annual rate per 100k = sum of 12 real monthly offense counts / agency population * 100000. Concern score (0-100) is a PERCENTILE RANK among that YEAR's own covered cities -- a relative comparison, not an absolute severity claim, and not comparable across years.",
     "source": "FBI Crime Data Explorer (cde.ucr.cjis.gov), U.S. government public domain data.",
@@ -30,6 +31,10 @@
       "2024": {
         "violent_crime": 454,
         "property_crime": 454
+      },
+      "2025": {
+        "violent_crime": 460,
+        "property_crime": 460
       }
     },
     "caveat": "Real coverage GROWS over time as more agencies join NIBRS -- earlier years genuinely cover fewer cities than 2024, an honest property of real reporting history, not a bug. Some agencies (including several large cities) don't participate in NIBRS at all, or only began reporting partway through a given year. Those city/year/layer combinations have NO score, never a fabricated or estimated one. See crime-methodology.md."
@@ -87,6 +92,16 @@
           "rate_per_100k": 1772.4,
           "concern": 38.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 456.6,
+          "concern": 68.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1658.7,
+          "concern": 45.8
+        }
       }
     }
   },
@@ -143,6 +158,16 @@
           "rate_per_100k": 3065.0,
           "concern": 76.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 869.5,
+          "concern": 92.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2848.9,
+          "concern": 81.9
+        }
       }
     }
   },
@@ -178,6 +203,16 @@
         "property_crime": {
           "rate_per_100k": 4989.4,
           "concern": 96.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 346.9,
+          "concern": 49.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3552.9,
+          "concern": 92.2
         }
       }
     }
@@ -224,6 +259,16 @@
         "property_crime": {
           "rate_per_100k": 2999.2,
           "concern": 75.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 828.4,
+          "concern": 91.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2697.8,
+          "concern": 79.1
         }
       }
     }
@@ -281,6 +326,16 @@
           "rate_per_100k": 4766.4,
           "concern": 95.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1022.9,
+          "concern": 95.4
+        },
+        "property_crime": {
+          "rate_per_100k": 4042.1,
+          "concern": 96.3
+        }
       }
     }
   },
@@ -337,6 +392,16 @@
           "rate_per_100k": 2688.3,
           "concern": 65.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 142.3,
+          "concern": 16.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1646.7,
+          "concern": 45.1
+        }
       }
     }
   },
@@ -383,6 +448,16 @@
           "rate_per_100k": 2456.9,
           "concern": 59.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 194.5,
+          "concern": 25.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1947.3,
+          "concern": 57.3
+        }
       }
     }
   },
@@ -408,6 +483,32 @@
         "property_crime": {
           "rate_per_100k": 888.9,
           "concern": 6.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 76.8,
+          "concern": 4.6
+        },
+        "property_crime": {
+          "rate_per_100k": 703.2,
+          "concern": 5.9
+        }
+      }
+    }
+  },
+  "allentown-pa": {
+    "agency_name": "Allentown Police Department",
+    "ori": "PA0390100",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 264.3,
+          "concern": 37.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1429.9,
+          "concern": 34.9
         }
       }
     }
@@ -465,6 +566,16 @@
           "rate_per_100k": 2691.6,
           "concern": 66.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 550.5,
+          "concern": 75.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2420.7,
+          "concern": 73.0
+        }
       }
     }
   },
@@ -500,6 +611,16 @@
         "property_crime": {
           "rate_per_100k": 2233.2,
           "concern": 52.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 550.5,
+          "concern": 75.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1771.6,
+          "concern": 49.7
         }
       }
     }
@@ -557,6 +678,16 @@
           "rate_per_100k": 1032.0,
           "concern": 10.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 150.8,
+          "concern": 17.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1028.9,
+          "concern": 17.0
+        }
       }
     }
   },
@@ -613,6 +744,16 @@
           "rate_per_100k": 1741.2,
           "concern": 37.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 294.1,
+          "concern": 42.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1706.0,
+          "concern": 47.3
+        }
       }
     }
   },
@@ -648,6 +789,16 @@
         "property_crime": {
           "rate_per_100k": 3210.5,
           "concern": 78.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 761.5,
+          "concern": 88.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2453.2,
+          "concern": 73.9
         }
       }
     }
@@ -705,6 +856,16 @@
           "rate_per_100k": 561.7,
           "concern": 1.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 53.2,
+          "concern": 1.3
+        },
+        "property_crime": {
+          "rate_per_100k": 799.4,
+          "concern": 8.9
+        }
       }
     }
   },
@@ -760,6 +921,16 @@
         "property_crime": {
           "rate_per_100k": 2434.0,
           "concern": 58.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 405.1,
+          "concern": 60.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1991.2,
+          "concern": 59.3
         }
       }
     }
@@ -817,6 +988,16 @@
           "rate_per_100k": 2137.8,
           "concern": 49.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 278.8,
+          "concern": 39.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1723.6,
+          "concern": 47.5
+        }
       }
     }
   },
@@ -872,6 +1053,16 @@
         "property_crime": {
           "rate_per_100k": 2544.5,
           "concern": 63.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 306.0,
+          "concern": 43.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2343.7,
+          "concern": 68.8
         }
       }
     }
@@ -929,6 +1120,16 @@
           "rate_per_100k": 3960.3,
           "concern": 90.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 751.4,
+          "concern": 87.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4390.7,
+          "concern": 98.0
+        }
       }
     }
   },
@@ -985,6 +1186,16 @@
           "rate_per_100k": 2308.8,
           "concern": 55.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 352.1,
+          "concern": 51.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2000.7,
+          "concern": 59.7
+        }
       }
     }
   },
@@ -1031,6 +1242,16 @@
           "rate_per_100k": 3548.3,
           "concern": 84.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 734.9,
+          "concern": 86.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3114.0,
+          "concern": 86.7
+        }
       }
     }
   },
@@ -1076,6 +1297,16 @@
         "property_crime": {
           "rate_per_100k": 992.2,
           "concern": 8.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 98.2,
+          "concern": 8.3
+        },
+        "property_crime": {
+          "rate_per_100k": 871.1,
+          "concern": 11.3
         }
       }
     }
@@ -1132,6 +1363,16 @@
         "property_crime": {
           "rate_per_100k": 3988.5,
           "concern": 91.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 300.7,
+          "concern": 43.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2498.3,
+          "concern": 75.6
         }
       }
     }
@@ -1215,6 +1456,16 @@
           "rate_per_100k": 3367.1,
           "concern": 81.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 762.1,
+          "concern": 88.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2484.8,
+          "concern": 74.9
+        }
       }
     }
   },
@@ -1240,6 +1491,16 @@
         "property_crime": {
           "rate_per_100k": 1247.4,
           "concern": 17.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 220.1,
+          "concern": 29.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1082.3,
+          "concern": 19.2
         }
       }
     }
@@ -1297,6 +1558,16 @@
           "rate_per_100k": 3290.5,
           "concern": 79.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 420.9,
+          "concern": 63.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3095.9,
+          "concern": 86.5
+        }
       }
     }
   },
@@ -1343,6 +1614,16 @@
           "rate_per_100k": 2254.7,
           "concern": 53.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 341.3,
+          "concern": 48.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2247.7,
+          "concern": 64.9
+        }
       }
     }
   },
@@ -1368,6 +1649,16 @@
         "property_crime": {
           "rate_per_100k": 2488.7,
           "concern": 60.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 495.7,
+          "concern": 70.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2256.4,
+          "concern": 65.4
         }
       }
     }
@@ -1404,6 +1695,16 @@
         "property_crime": {
           "rate_per_100k": 4202.4,
           "concern": 92.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1350.0,
+          "concern": 98.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4006.1,
+          "concern": 95.6
         }
       }
     }
@@ -1497,6 +1798,16 @@
           "rate_per_100k": 2814.5,
           "concern": 70.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 399.3,
+          "concern": 59.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2368.0,
+          "concern": 71.0
+        }
       }
     }
   },
@@ -1542,6 +1853,16 @@
         "property_crime": {
           "rate_per_100k": 3322.9,
           "concern": 79.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 940.4,
+          "concern": 94.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2965.2,
+          "concern": 84.5
         }
       }
     }
@@ -1599,6 +1920,16 @@
           "rate_per_100k": 2709.7,
           "concern": 66.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 251.8,
+          "concern": 34.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2485.4,
+          "concern": 75.2
+        }
       }
     }
   },
@@ -1655,6 +1986,16 @@
           "rate_per_100k": 3379.8,
           "concern": 81.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 113.5,
+          "concern": 11.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2187.1,
+          "concern": 63.2
+        }
       }
     }
   },
@@ -1709,6 +2050,16 @@
         },
         "property_crime": {
           "rate_per_100k": 3782.0,
+          "concern": 88.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 262.1,
+          "concern": 36.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3272.4,
           "concern": 88.7
         }
       }
@@ -1767,6 +2118,16 @@
           "rate_per_100k": 1404.4,
           "concern": 24.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 191.1,
+          "concern": 24.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1338.9,
+          "concern": 30.7
+        }
       }
     }
   },
@@ -1782,6 +2143,16 @@
         "property_crime": {
           "rate_per_100k": 5293.0,
           "concern": 98.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 639.3,
+          "concern": 81.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4108.5,
+          "concern": 96.5
         }
       }
     }
@@ -1808,6 +2179,16 @@
         "property_crime": {
           "rate_per_100k": 1419.3,
           "concern": 25.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 196.5,
+          "concern": 26.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1239.7,
+          "concern": 26.6
         }
       }
     }
@@ -1865,6 +2246,16 @@
           "rate_per_100k": 3124.4,
           "concern": 77.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 760.4,
+          "concern": 87.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2514.5,
+          "concern": 76.3
+        }
       }
     }
   },
@@ -1900,6 +2291,16 @@
         "property_crime": {
           "rate_per_100k": 4233.0,
           "concern": 93.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1237.5,
+          "concern": 98.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4461.8,
+          "concern": 98.5
         }
       }
     }
@@ -1957,6 +2358,16 @@
           "rate_per_100k": 2417.1,
           "concern": 58.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 239.8,
+          "concern": 32.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1888.0,
+          "concern": 53.8
+        }
       }
     }
   },
@@ -1983,6 +2394,16 @@
           "rate_per_100k": 1205.2,
           "concern": 13.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 157.4,
+          "concern": 18.7
+        },
+        "property_crime": {
+          "rate_per_100k": 472.3,
+          "concern": 2.0
+        }
       }
     }
   },
@@ -1998,6 +2419,16 @@
         "property_crime": {
           "rate_per_100k": 1067.8,
           "concern": 11.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 317.5,
+          "concern": 45.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1295.2,
+          "concern": 29.2
         }
       }
     }
@@ -2055,6 +2486,16 @@
           "rate_per_100k": 2752.6,
           "concern": 68.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 292.7,
+          "concern": 42.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1945.0,
+          "concern": 57.1
+        }
       }
     }
   },
@@ -2101,6 +2542,16 @@
           "rate_per_100k": 3519.7,
           "concern": 83.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 273.9,
+          "concern": 39.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2822.4,
+          "concern": 81.3
+        }
       }
     }
   },
@@ -2136,6 +2587,16 @@
         "property_crime": {
           "rate_per_100k": 1677.7,
           "concern": 33.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 113.3,
+          "concern": 10.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1281.2,
+          "concern": 28.1
         }
       }
     }
@@ -2193,6 +2654,16 @@
           "rate_per_100k": 1135.1,
           "concern": 12.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 287.3,
+          "concern": 41.6
+        },
+        "property_crime": {
+          "rate_per_100k": 851.3,
+          "concern": 10.0
+        }
       }
     }
   },
@@ -2248,6 +2719,16 @@
         "property_crime": {
           "rate_per_100k": 2030.7,
           "concern": 47.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 583.1,
+          "concern": 78.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1923.8,
+          "concern": 56.6
         }
       }
     }
@@ -2305,6 +2786,16 @@
           "rate_per_100k": 2788.2,
           "concern": 69.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 354.2,
+          "concern": 51.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2424.2,
+          "concern": 73.6
+        }
       }
     }
   },
@@ -2361,6 +2852,16 @@
           "rate_per_100k": 2984.4,
           "concern": 74.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 185.6,
+          "concern": 23.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2282.8,
+          "concern": 66.7
+        }
       }
     }
   },
@@ -2386,6 +2887,16 @@
         "property_crime": {
           "rate_per_100k": 2295.2,
           "concern": 54.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 175.5,
+          "concern": 22.7
+        },
+        "property_crime": {
+          "rate_per_100k": 907.3,
+          "concern": 12.6
         }
       }
     }
@@ -2443,6 +2954,16 @@
           "rate_per_100k": 1478.4,
           "concern": 27.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 249.7,
+          "concern": 34.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1265.5,
+          "concern": 27.9
+        }
       }
     }
   },
@@ -2499,6 +3020,16 @@
           "rate_per_100k": 1359.6,
           "concern": 22.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 538.0,
+          "concern": 74.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1403.8,
+          "concern": 33.8
+        }
       }
     }
   },
@@ -2544,6 +3075,16 @@
         "property_crime": {
           "rate_per_100k": 1203.3,
           "concern": 16.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 197.5,
+          "concern": 26.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1081.9,
+          "concern": 19.0
         }
       }
     }
@@ -2601,6 +3142,16 @@
           "rate_per_100k": 2498.0,
           "concern": 61.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 346.0,
+          "concern": 49.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1898.0,
+          "concern": 54.7
+        }
       }
     }
   },
@@ -2656,6 +3207,16 @@
         "property_crime": {
           "rate_per_100k": 1868.6,
           "concern": 41.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 153.6,
+          "concern": 17.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1497.8,
+          "concern": 38.3
         }
       }
     }
@@ -2713,6 +3274,16 @@
           "rate_per_100k": 1958.5,
           "concern": 44.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 404.0,
+          "concern": 60.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1527.5,
+          "concern": 39.9
+        }
       }
     }
   },
@@ -2758,6 +3329,16 @@
         "property_crime": {
           "rate_per_100k": 1462.0,
           "concern": 26.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 286.8,
+          "concern": 41.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1129.1,
+          "concern": 21.1
         }
       }
     }
@@ -2805,6 +3386,16 @@
           "rate_per_100k": 773.7,
           "concern": 4.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 158.9,
+          "concern": 19.0
+        },
+        "property_crime": {
+          "rate_per_100k": 754.7,
+          "concern": 6.5
+        }
       }
     }
   },
@@ -2820,6 +3411,16 @@
         "property_crime": {
           "rate_per_100k": 2418.4,
           "concern": 58.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 281.9,
+          "concern": 39.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1995.1,
+          "concern": 59.5
         }
       }
     }
@@ -2867,6 +3468,16 @@
           "rate_per_100k": 4003.2,
           "concern": 91.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 729.1,
+          "concern": 86.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3448.5,
+          "concern": 90.6
+        }
       }
     }
   },
@@ -2902,6 +3513,16 @@
         "property_crime": {
           "rate_per_100k": 3070.7,
           "concern": 77.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 341.8,
+          "concern": 48.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2456.1,
+          "concern": 74.1
         }
       }
     }
@@ -2959,6 +3580,16 @@
           "rate_per_100k": 982.9,
           "concern": 8.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 482.0,
+          "concern": 69.5
+        },
+        "property_crime": {
+          "rate_per_100k": 683.2,
+          "concern": 4.8
+        }
       }
     }
   },
@@ -3014,6 +3645,16 @@
         "property_crime": {
           "rate_per_100k": 2657.6,
           "concern": 65.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 435.7,
+          "concern": 64.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2600.4,
+          "concern": 77.8
         }
       }
     }
@@ -3087,6 +3728,16 @@
           "rate_per_100k": 1529.8,
           "concern": 30.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 211.9,
+          "concern": 27.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1115.3,
+          "concern": 20.3
+        }
       }
     }
   },
@@ -3143,6 +3794,16 @@
           "rate_per_100k": 2842.2,
           "concern": 71.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 573.0,
+          "concern": 77.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2721.1,
+          "concern": 79.5
+        }
       }
     }
   },
@@ -3189,6 +3850,16 @@
           "rate_per_100k": 829.2,
           "concern": 4.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 50.7,
+          "concern": 1.1
+        },
+        "property_crime": {
+          "rate_per_100k": 686.7,
+          "concern": 5.2
+        }
       }
     }
   },
@@ -3234,6 +3905,16 @@
         "property_crime": {
           "rate_per_100k": 1367.3,
           "concern": 22.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 97.9,
+          "concern": 8.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1000.7,
+          "concern": 16.1
         }
       }
     }
@@ -3291,6 +3972,16 @@
           "rate_per_100k": 1325.7,
           "concern": 20.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 74.7,
+          "concern": 4.4
+        },
+        "property_crime": {
+          "rate_per_100k": 965.5,
+          "concern": 14.6
+        }
       }
     }
   },
@@ -3346,6 +4037,16 @@
         "property_crime": {
           "rate_per_100k": 954.8,
           "concern": 7.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 30.3,
+          "concern": 0.0
+        },
+        "property_crime": {
+          "rate_per_100k": 942.5,
+          "concern": 13.9
         }
       }
     }
@@ -3403,6 +4104,16 @@
           "rate_per_100k": 1243.7,
           "concern": 17.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 89.2,
+          "concern": 6.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1222.1,
+          "concern": 25.3
+        }
       }
     }
   },
@@ -3458,6 +4169,16 @@
         "property_crime": {
           "rate_per_100k": 2724.5,
           "concern": 67.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 265.4,
+          "concern": 37.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2133.2,
+          "concern": 62.5
         }
       }
     }
@@ -3515,6 +4236,16 @@
           "rate_per_100k": 1749.1,
           "concern": 37.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 166.9,
+          "concern": 20.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1341.0,
+          "concern": 31.2
+        }
       }
     }
   },
@@ -3561,6 +4292,16 @@
           "rate_per_100k": 2300.3,
           "concern": 55.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 372.5,
+          "concern": 56.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2083.4,
+          "concern": 61.0
+        }
       }
     }
   },
@@ -3606,6 +4347,16 @@
         "property_crime": {
           "rate_per_100k": 1521.4,
           "concern": 29.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 123.7,
+          "concern": 13.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1230.4,
+          "concern": 25.9
         }
       }
     }
@@ -3663,6 +4414,16 @@
           "rate_per_100k": 2035.1,
           "concern": 47.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 279.9,
+          "concern": 39.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1612.1,
+          "concern": 43.1
+        }
       }
     }
   },
@@ -3718,6 +4479,16 @@
         "property_crime": {
           "rate_per_100k": 3718.9,
           "concern": 87.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 559.1,
+          "concern": 76.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3418.2,
+          "concern": 90.0
         }
       }
     }
@@ -3775,6 +4546,16 @@
           "rate_per_100k": 3968.9,
           "concern": 90.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 682.9,
+          "concern": 84.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3318.5,
+          "concern": 89.1
+        }
       }
     }
   },
@@ -3831,6 +4612,16 @@
           "rate_per_100k": 1759.8,
           "concern": 38.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 319.4,
+          "concern": 45.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1474.6,
+          "concern": 37.0
+        }
       }
     }
   },
@@ -3867,6 +4658,16 @@
           "rate_per_100k": 3489.9,
           "concern": 82.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 420.4,
+          "concern": 62.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2955.8,
+          "concern": 84.3
+        }
       }
     }
   },
@@ -3882,6 +4683,16 @@
         "property_crime": {
           "rate_per_100k": 1958.7,
           "concern": 44.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 661.3,
+          "concern": 82.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1839.0,
+          "concern": 52.7
         }
       }
     }
@@ -3918,6 +4729,16 @@
         "property_crime": {
           "rate_per_100k": 2225.6,
           "concern": 52.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 323.9,
+          "concern": 46.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2029.1,
+          "concern": 60.1
         }
       }
     }
@@ -3965,6 +4786,16 @@
           "rate_per_100k": 1154.7,
           "concern": 13.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 365.3,
+          "concern": 54.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1061.5,
+          "concern": 18.1
+        }
       }
     }
   },
@@ -4010,6 +4841,16 @@
         "property_crime": {
           "rate_per_100k": 1388.1,
           "concern": 23.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 219.9,
+          "concern": 29.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1007.4,
+          "concern": 16.3
         }
       }
     }
@@ -4067,6 +4908,16 @@
           "rate_per_100k": 3877.4,
           "concern": 89.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 781.3,
+          "concern": 89.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3602.1,
+          "concern": 92.6
+        }
       }
     }
   },
@@ -4102,6 +4953,16 @@
         "property_crime": {
           "rate_per_100k": 2185.1,
           "concern": 51.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 376.9,
+          "concern": 57.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1951.6,
+          "concern": 57.5
         }
       }
     }
@@ -4159,6 +5020,16 @@
           "rate_per_100k": 1653.1,
           "concern": 32.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 364.2,
+          "concern": 54.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1289.0,
+          "concern": 29.0
+        }
       }
     }
   },
@@ -4174,6 +5045,16 @@
         "property_crime": {
           "rate_per_100k": 1495.4,
           "concern": 28.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 252.8,
+          "concern": 35.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1417.6,
+          "concern": 34.2
         }
       }
     }
@@ -4231,6 +5112,16 @@
           "rate_per_100k": 4530.8,
           "concern": 94.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1365.0,
+          "concern": 99.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3962.8,
+          "concern": 94.8
+        }
       }
     }
   },
@@ -4246,6 +5137,16 @@
         "property_crime": {
           "rate_per_100k": 2281.1,
           "concern": 54.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 164.8,
+          "concern": 20.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1953.4,
+          "concern": 58.2
         }
       }
     }
@@ -4282,6 +5183,16 @@
         "property_crime": {
           "rate_per_100k": 1683.9,
           "concern": 34.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 260.3,
+          "concern": 36.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1413.0,
+          "concern": 34.0
         }
       }
     }
@@ -4339,6 +5250,16 @@
           "rate_per_100k": 1123.9,
           "concern": 12.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 127.0,
+          "concern": 13.9
+        },
+        "property_crime": {
+          "rate_per_100k": 861.4,
+          "concern": 10.9
+        }
       }
     }
   },
@@ -4394,6 +5315,16 @@
         "property_crime": {
           "rate_per_100k": 3488.9,
           "concern": 82.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 685.5,
+          "concern": 85.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3027.0,
+          "concern": 85.2
         }
       }
     }
@@ -4451,6 +5382,16 @@
           "rate_per_100k": 2357.4,
           "concern": 56.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 358.9,
+          "concern": 52.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1889.1,
+          "concern": 54.0
+        }
       }
     }
   },
@@ -4507,6 +5448,16 @@
           "rate_per_100k": 3265.1,
           "concern": 79.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 791.0,
+          "concern": 90.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3154.7,
+          "concern": 87.1
+        }
       }
     }
   },
@@ -4552,6 +5503,16 @@
         "property_crime": {
           "rate_per_100k": 2273.4,
           "concern": 54.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 366.4,
+          "concern": 55.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1911.6,
+          "concern": 55.8
         }
       }
     }
@@ -4609,6 +5570,16 @@
           "rate_per_100k": 3093.9,
           "concern": 77.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 379.7,
+          "concern": 57.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2531.7,
+          "concern": 76.7
+        }
       }
     }
   },
@@ -4654,6 +5625,16 @@
         "property_crime": {
           "rate_per_100k": 2997.3,
           "concern": 75.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 420.4,
+          "concern": 63.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2781.7,
+          "concern": 80.2
         }
       }
     }
@@ -4711,6 +5692,16 @@
           "rate_per_100k": 1110.6,
           "concern": 12.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 117.2,
+          "concern": 12.0
+        },
+        "property_crime": {
+          "rate_per_100k": 929.6,
+          "concern": 13.5
+        }
       }
     }
   },
@@ -4767,6 +5758,16 @@
           "rate_per_100k": 1654.6,
           "concern": 32.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 262.2,
+          "concern": 37.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1460.0,
+          "concern": 36.2
+        }
       }
     }
   },
@@ -4803,6 +5804,16 @@
           "rate_per_100k": 1173.5,
           "concern": 14.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 118.1,
+          "concern": 12.2
+        },
+        "property_crime": {
+          "rate_per_100k": 884.5,
+          "concern": 12.0
+        }
       }
     }
   },
@@ -4828,6 +5839,16 @@
         "property_crime": {
           "rate_per_100k": 1736.6,
           "concern": 37.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 238.6,
+          "concern": 32.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1585.4,
+          "concern": 42.9
         }
       }
     }
@@ -4885,6 +5906,16 @@
           "rate_per_100k": 3048.0,
           "concern": 76.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 797.3,
+          "concern": 90.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2781.0,
+          "concern": 80.0
+        }
       }
     }
   },
@@ -4900,6 +5931,16 @@
         "property_crime": {
           "rate_per_100k": 2877.8,
           "concern": 71.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 544.2,
+          "concern": 74.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2092.9,
+          "concern": 61.4
         }
       }
     }
@@ -4957,6 +5998,16 @@
           "rate_per_100k": 1065.4,
           "concern": 11.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 88.5,
+          "concern": 6.3
+        },
+        "property_crime": {
+          "rate_per_100k": 889.8,
+          "concern": 12.2
+        }
       }
     }
   },
@@ -5013,6 +6064,16 @@
           "rate_per_100k": 3412.6,
           "concern": 81.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 576.2,
+          "concern": 78.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3071.9,
+          "concern": 85.8
+        }
       }
     }
   },
@@ -5038,6 +6099,16 @@
         "property_crime": {
           "rate_per_100k": 1832.7,
           "concern": 39.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 254.6,
+          "concern": 35.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1377.2,
+          "concern": 33.3
         }
       }
     }
@@ -5095,6 +6166,16 @@
           "rate_per_100k": 1267.1,
           "concern": 18.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 144.4,
+          "concern": 16.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1054.2,
+          "concern": 17.9
+        }
       }
     }
   },
@@ -5150,6 +6231,16 @@
         "property_crime": {
           "rate_per_100k": 3559.6,
           "concern": 84.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 652.0,
+          "concern": 81.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3178.8,
+          "concern": 87.6
         }
       }
     }
@@ -5233,6 +6324,16 @@
           "rate_per_100k": 4388.4,
           "concern": 94.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1227.5,
+          "concern": 97.6
+        },
+        "property_crime": {
+          "rate_per_100k": 4019.2,
+          "concern": 96.1
+        }
       }
     }
   },
@@ -5288,6 +6389,16 @@
         "property_crime": {
           "rate_per_100k": 2030.2,
           "concern": 47.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 249.1,
+          "concern": 33.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1728.2,
+          "concern": 48.4
         }
       }
     }
@@ -5345,6 +6456,16 @@
           "rate_per_100k": 1879.5,
           "concern": 41.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 201.3,
+          "concern": 26.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1727.8,
+          "concern": 47.7
+        }
       }
     }
   },
@@ -5400,6 +6521,16 @@
         "property_crime": {
           "rate_per_100k": 4782.5,
           "concern": 96.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 880.4,
+          "concern": 93.0
+        },
+        "property_crime": {
+          "rate_per_100k": 4138.2,
+          "concern": 96.9
         }
       }
     }
@@ -5457,6 +6588,16 @@
           "rate_per_100k": 3156.6,
           "concern": 78.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 641.0,
+          "concern": 81.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2834.7,
+          "concern": 81.5
+        }
       }
     }
   },
@@ -5513,6 +6654,16 @@
           "rate_per_100k": 4391.2,
           "concern": 94.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1653.2,
+          "concern": 99.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3953.9,
+          "concern": 94.6
+        }
       }
     }
   },
@@ -5559,6 +6710,32 @@
           "rate_per_100k": 1203.3,
           "concern": 16.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 79.4,
+          "concern": 5.2
+        },
+        "property_crime": {
+          "rate_per_100k": 866.8,
+          "concern": 11.1
+        }
+      }
+    }
+  },
+  "downey-ca": {
+    "agency_name": "Downey Police Department",
+    "ori": "CA0192000",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 299.3,
+          "concern": 43.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2196.7,
+          "concern": 63.6
+        }
       }
     }
   },
@@ -5604,6 +6781,16 @@
         "property_crime": {
           "rate_per_100k": 2995.4,
           "concern": 75.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 229.9,
+          "concern": 31.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3053.0,
+          "concern": 85.4
         }
       }
     }
@@ -5717,6 +6904,16 @@
           "rate_per_100k": 3813.0,
           "concern": 89.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 506.9,
+          "concern": 71.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3598.4,
+          "concern": 92.4
+        }
       }
     }
   },
@@ -5762,6 +6959,16 @@
         "property_crime": {
           "rate_per_100k": 1776.8,
           "concern": 38.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 213.0,
+          "concern": 27.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1487.1,
+          "concern": 37.5
         }
       }
     }
@@ -5819,6 +7026,16 @@
           "rate_per_100k": 1372.3,
           "concern": 23.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 138.8,
+          "concern": 15.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1117.4,
+          "concern": 20.5
+        }
       }
     }
   },
@@ -5865,6 +7082,16 @@
           "rate_per_100k": 1536.5,
           "concern": 30.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 456.1,
+          "concern": 67.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1224.1,
+          "concern": 25.7
+        }
       }
     }
   },
@@ -5910,6 +7137,16 @@
         "property_crime": {
           "rate_per_100k": 2066.8,
           "concern": 48.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 410.4,
+          "concern": 61.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1952.7,
+          "concern": 57.7
         }
       }
     }
@@ -5967,6 +7204,16 @@
           "rate_per_100k": 1509.3,
           "concern": 29.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 287.8,
+          "concern": 41.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1340.4,
+          "concern": 30.9
+        }
       }
     }
   },
@@ -6002,6 +7249,16 @@
         "property_crime": {
           "rate_per_100k": 1114.5,
           "concern": 12.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 217.9,
+          "concern": 29.0
+        },
+        "property_crime": {
+          "rate_per_100k": 924.0,
+          "concern": 13.1
         }
       }
     }
@@ -6049,6 +7306,16 @@
           "rate_per_100k": 2661.4,
           "concern": 65.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 344.2,
+          "concern": 49.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2409.5,
+          "concern": 72.8
+        }
       }
     }
   },
@@ -6085,6 +7352,16 @@
           "rate_per_100k": 1262.0,
           "concern": 17.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 161.6,
+          "concern": 19.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1215.9,
+          "concern": 24.8
+        }
       }
     }
   },
@@ -6120,6 +7397,16 @@
         "property_crime": {
           "rate_per_100k": 2002.6,
           "concern": 46.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 314.7,
+          "concern": 44.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2052.8,
+          "concern": 60.6
         }
       }
     }
@@ -6166,6 +7453,16 @@
         "property_crime": {
           "rate_per_100k": 1513.9,
           "concern": 29.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 335.8,
+          "concern": 47.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1441.6,
+          "concern": 35.1
         }
       }
     }
@@ -6223,6 +7520,16 @@
           "rate_per_100k": 3349.5,
           "concern": 80.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 347.1,
+          "concern": 50.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2844.8,
+          "concern": 81.7
+        }
       }
     }
   },
@@ -6268,6 +7575,16 @@
         "property_crime": {
           "rate_per_100k": 3721.4,
           "concern": 88.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1110.5,
+          "concern": 96.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3056.4,
+          "concern": 85.6
         }
       }
     }
@@ -6325,6 +7642,16 @@
           "rate_per_100k": 3281.9,
           "concern": 79.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 251.0,
+          "concern": 34.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2500.3,
+          "concern": 75.8
+        }
       }
     }
   },
@@ -6350,6 +7677,16 @@
         "property_crime": {
           "rate_per_100k": 1735.2,
           "concern": 36.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 520.5,
+          "concern": 73.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1796.6,
+          "concern": 51.0
         }
       }
     }
@@ -6407,6 +7744,16 @@
           "rate_per_100k": 1457.5,
           "concern": 26.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 768.3,
+          "concern": 89.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1549.2,
+          "concern": 41.0
+        }
       }
     }
   },
@@ -6462,6 +7809,16 @@
         "property_crime": {
           "rate_per_100k": 3725.6,
           "concern": 88.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 376.3,
+          "concern": 56.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3257.1,
+          "concern": 88.5
         }
       }
     }
@@ -6519,6 +7876,16 @@
           "rate_per_100k": 694.1,
           "concern": 3.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 143.6,
+          "concern": 16.3
+        },
+        "property_crime": {
+          "rate_per_100k": 786.8,
+          "concern": 7.8
+        }
       }
     }
   },
@@ -6574,6 +7941,16 @@
         "property_crime": {
           "rate_per_100k": 2392.2,
           "concern": 57.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 446.2,
+          "concern": 66.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1911.0,
+          "concern": 55.6
         }
       }
     }
@@ -6631,6 +8008,16 @@
           "rate_per_100k": 3146.1,
           "concern": 77.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 606.3,
+          "concern": 79.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2764.5,
+          "concern": 79.7
+        }
       }
     }
   },
@@ -6687,6 +8074,16 @@
           "rate_per_100k": 4416.8,
           "concern": 94.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 351.7,
+          "concern": 51.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2668.0,
+          "concern": 78.4
+        }
       }
     }
   },
@@ -6733,6 +8130,16 @@
           "rate_per_100k": 669.0,
           "concern": 2.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 78.0,
+          "concern": 4.8
+        },
+        "property_crime": {
+          "rate_per_100k": 467.0,
+          "concern": 1.5
+        }
       }
     }
   },
@@ -6778,6 +8185,16 @@
         "property_crime": {
           "rate_per_100k": 2260.8,
           "concern": 53.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 500.9,
+          "concern": 71.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2107.8,
+          "concern": 61.9
         }
       }
     }
@@ -6835,6 +8252,16 @@
           "rate_per_100k": 1341.2,
           "concern": 21.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1097.0,
+          "concern": 95.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1092.0,
+          "concern": 19.8
+        }
       }
     }
   },
@@ -6891,6 +8318,16 @@
           "rate_per_100k": 590.4,
           "concern": 2.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 43.3,
+          "concern": 0.7
+        },
+        "property_crime": {
+          "rate_per_100k": 571.1,
+          "concern": 3.5
+        }
       }
     }
   },
@@ -6916,6 +8353,16 @@
         "property_crime": {
           "rate_per_100k": 1650.6,
           "concern": 32.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 161.1,
+          "concern": 19.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1246.7,
+          "concern": 27.5
         }
       }
     }
@@ -6952,6 +8399,16 @@
         "property_crime": {
           "rate_per_100k": 1226.1,
           "concern": 16.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 244.1,
+          "concern": 33.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1135.7,
+          "concern": 21.6
         }
       }
     }
@@ -7009,6 +8466,16 @@
           "rate_per_100k": 2178.2,
           "concern": 51.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 288.6,
+          "concern": 42.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1772.6,
+          "concern": 49.9
+        }
       }
     }
   },
@@ -7034,6 +8501,16 @@
         "property_crime": {
           "rate_per_100k": 4061.4,
           "concern": 92.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 673.1,
+          "concern": 83.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3284.0,
+          "concern": 88.9
         }
       }
     }
@@ -7080,6 +8557,16 @@
         "property_crime": {
           "rate_per_100k": 1446.3,
           "concern": 25.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 444.0,
+          "concern": 66.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1067.0,
+          "concern": 18.3
         }
       }
     }
@@ -7137,6 +8624,16 @@
           "rate_per_100k": 3696.5,
           "concern": 87.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 789.2,
+          "concern": 90.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3374.9,
+          "concern": 89.8
+        }
       }
     }
   },
@@ -7182,6 +8679,16 @@
         "property_crime": {
           "rate_per_100k": 2245.4,
           "concern": 52.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 274.8,
+          "concern": 39.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1866.4,
+          "concern": 53.2
         }
       }
     }
@@ -7239,6 +8746,16 @@
           "rate_per_100k": 2735.5,
           "concern": 67.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 374.0,
+          "concern": 56.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2218.5,
+          "concern": 64.3
+        }
       }
     }
   },
@@ -7295,6 +8812,16 @@
           "rate_per_100k": 954.7,
           "concern": 7.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 171.4,
+          "concern": 21.6
+        },
+        "property_crime": {
+          "rate_per_100k": 692.2,
+          "concern": 5.4
+        }
       }
     }
   },
@@ -7331,6 +8858,16 @@
           "rate_per_100k": 1696.3,
           "concern": 34.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 390.0,
+          "concern": 58.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1571.9,
+          "concern": 42.5
+        }
       }
     }
   },
@@ -7356,6 +8893,16 @@
         "property_crime": {
           "rate_per_100k": 2420.6,
           "concern": 58.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 105.9,
+          "concern": 8.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1777.0,
+          "concern": 50.3
         }
       }
     }
@@ -7402,6 +8949,16 @@
         "property_crime": {
           "rate_per_100k": 3335.0,
           "concern": 80.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 718.9,
+          "concern": 86.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2579.1,
+          "concern": 77.3
         }
       }
     }
@@ -7459,6 +9016,16 @@
           "rate_per_100k": 1014.8,
           "concern": 9.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 96.3,
+          "concern": 7.4
+        },
+        "property_crime": {
+          "rate_per_100k": 789.4,
+          "concern": 8.3
+        }
       }
     }
   },
@@ -7474,6 +9041,16 @@
         "property_crime": {
           "rate_per_100k": 2004.5,
           "concern": 46.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 362.0,
+          "concern": 53.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1728.0,
+          "concern": 48.1
         }
       }
     }
@@ -7511,6 +9088,16 @@
           "rate_per_100k": 2735.6,
           "concern": 68.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 633.7,
+          "concern": 80.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2199.2,
+          "concern": 64.1
+        }
       }
     }
   },
@@ -7546,6 +9133,16 @@
         "property_crime": {
           "rate_per_100k": 1873.2,
           "concern": 41.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 244.7,
+          "concern": 33.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1336.3,
+          "concern": 30.5
         }
       }
     }
@@ -7603,6 +9200,16 @@
           "rate_per_100k": 2007.3,
           "concern": 46.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 190.6,
+          "concern": 24.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1670.3,
+          "concern": 47.1
+        }
       }
     }
   },
@@ -7658,6 +9265,16 @@
         "property_crime": {
           "rate_per_100k": 3561.2,
           "concern": 84.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 885.7,
+          "concern": 93.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2895.4,
+          "concern": 83.2
         }
       }
     }
@@ -7715,6 +9332,16 @@
           "rate_per_100k": 1182.4,
           "concern": 15.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 149.5,
+          "concern": 17.0
+        },
+        "property_crime": {
+          "rate_per_100k": 788.4,
+          "concern": 8.1
+        }
       }
     }
   },
@@ -7771,6 +9398,16 @@
           "rate_per_100k": 984.4,
           "concern": 8.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 117.1,
+          "concern": 11.8
+        },
+        "property_crime": {
+          "rate_per_100k": 874.9,
+          "concern": 11.5
+        }
       }
     }
   },
@@ -7797,6 +9434,16 @@
           "rate_per_100k": 2702.0,
           "concern": 66.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 437.6,
+          "concern": 64.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2348.2,
+          "concern": 69.5
+        }
       }
     }
   },
@@ -7822,6 +9469,16 @@
         "property_crime": {
           "rate_per_100k": 2048.0,
           "concern": 48.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 234.1,
+          "concern": 31.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1903.7,
+          "concern": 55.1
         }
       }
     }
@@ -7868,6 +9525,16 @@
         "property_crime": {
           "rate_per_100k": 1481.7,
           "concern": 27.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 235.7,
+          "concern": 32.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1362.3,
+          "concern": 32.7
         }
       }
     }
@@ -7925,6 +9592,16 @@
           "rate_per_100k": 3231.2,
           "concern": 78.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 536.2,
+          "concern": 74.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2393.9,
+          "concern": 71.9
+        }
       }
     }
   },
@@ -7980,6 +9657,16 @@
         "property_crime": {
           "rate_per_100k": 1618.0,
           "concern": 31.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 202.7,
+          "concern": 26.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1328.1,
+          "concern": 29.8
         }
       }
     }
@@ -8037,6 +9724,16 @@
           "rate_per_100k": 2506.2,
           "concern": 62.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 893.9,
+          "concern": 93.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2334.0,
+          "concern": 68.4
+        }
       }
     }
   },
@@ -8093,6 +9790,16 @@
           "rate_per_100k": 3047.7,
           "concern": 76.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 630.2,
+          "concern": 80.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2915.0,
+          "concern": 83.9
+        }
       }
     }
   },
@@ -8148,6 +9855,16 @@
         "property_crime": {
           "rate_per_100k": 1331.2,
           "concern": 20.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 449.7,
+          "concern": 67.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1192.6,
+          "concern": 24.0
         }
       }
     }
@@ -8261,6 +9978,16 @@
           "rate_per_100k": 2950.3,
           "concern": 74.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 449.0,
+          "concern": 66.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2367.6,
+          "concern": 70.8
+        }
       }
     }
   },
@@ -8316,6 +10043,16 @@
         "property_crime": {
           "rate_per_100k": 2458.6,
           "concern": 59.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 363.8,
+          "concern": 54.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2339.9,
+          "concern": 68.6
         }
       }
     }
@@ -8373,6 +10110,16 @@
           "rate_per_100k": 2901.5,
           "concern": 72.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 268.0,
+          "concern": 38.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2873.8,
+          "concern": 82.6
+        }
       }
     }
   },
@@ -8419,6 +10166,16 @@
           "rate_per_100k": 2949.2,
           "concern": 74.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 457.0,
+          "concern": 68.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2257.1,
+          "concern": 65.6
+        }
       }
     }
   },
@@ -8445,6 +10202,16 @@
           "rate_per_100k": 2510.3,
           "concern": 62.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 571.2,
+          "concern": 77.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1892.9,
+          "concern": 54.2
+        }
       }
     }
   },
@@ -8470,6 +10237,16 @@
         "property_crime": {
           "rate_per_100k": 3705.5,
           "concern": 87.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 460.0,
+          "concern": 68.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2675.4,
+          "concern": 78.6
         }
       }
     }
@@ -8506,6 +10283,16 @@
         "property_crime": {
           "rate_per_100k": 1699.4,
           "concern": 35.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 397.1,
+          "concern": 58.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1907.4,
+          "concern": 55.3
         }
       }
     }
@@ -8553,6 +10340,16 @@
           "rate_per_100k": 1725.7,
           "concern": 36.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 225.5,
+          "concern": 30.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1502.1,
+          "concern": 39.0
+        }
       }
     }
   },
@@ -8598,6 +10395,16 @@
         "property_crime": {
           "rate_per_100k": 1643.9,
           "concern": 31.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 172.6,
+          "concern": 22.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1369.5,
+          "concern": 33.1
         }
       }
     }
@@ -8655,6 +10462,16 @@
           "rate_per_100k": 2500.2,
           "concern": 61.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 521.0,
+          "concern": 73.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1969.4,
+          "concern": 58.6
+        }
       }
     }
   },
@@ -8710,6 +10527,32 @@
         "property_crime": {
           "rate_per_100k": 2474.6,
           "concern": 60.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 284.3,
+          "concern": 40.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1973.6,
+          "concern": 58.8
+        }
+      }
+    }
+  },
+  "homestead-fl": {
+    "agency_name": "Homestead Police Department",
+    "ori": "FL0130500",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 441.7,
+          "concern": 65.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1516.6,
+          "concern": 39.7
         }
       }
     }
@@ -8767,6 +10610,16 @@
           "rate_per_100k": 1919.8,
           "concern": 43.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 181.3,
+          "concern": 23.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1459.1,
+          "concern": 35.9
+        }
       }
     }
   },
@@ -8822,6 +10675,16 @@
         "property_crime": {
           "rate_per_100k": 1272.3,
           "concern": 18.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 65.5,
+          "concern": 3.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1034.4,
+          "concern": 17.4
         }
       }
     }
@@ -8879,6 +10742,16 @@
           "rate_per_100k": 4326.4,
           "concern": 93.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 886.8,
+          "concern": 93.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3829.2,
+          "concern": 93.7
+        }
       }
     }
   },
@@ -8924,6 +10797,16 @@
         "property_crime": {
           "rate_per_100k": 2395.7,
           "concern": 57.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 399.1,
+          "concern": 59.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2297.0,
+          "concern": 67.1
         }
       }
     }
@@ -8981,6 +10864,16 @@
           "rate_per_100k": 3584.4,
           "concern": 85.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 558.8,
+          "concern": 76.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2999.3,
+          "concern": 84.7
+        }
       }
     }
   },
@@ -9037,6 +10930,32 @@
           "rate_per_100k": 3351.7,
           "concern": 80.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 768.8,
+          "concern": 89.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2819.4,
+          "concern": 81.0
+        }
+      }
+    }
+  },
+  "indio-ca": {
+    "agency_name": "Indio Police Department",
+    "ori": "CA0330900",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 265.9,
+          "concern": 38.1
+        },
+        "property_crime": {
+          "rate_per_100k": 755.9,
+          "concern": 6.8
+        }
       }
     }
   },
@@ -9062,6 +10981,16 @@
         "property_crime": {
           "rate_per_100k": 3649.0,
           "concern": 86.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 683.7,
+          "concern": 84.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3208.0,
+          "concern": 88.0
         }
       }
     }
@@ -9098,6 +11027,16 @@
         "property_crime": {
           "rate_per_100k": 1402.3,
           "concern": 24.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 78.7,
+          "concern": 5.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1153.6,
+          "concern": 22.2
         }
       }
     }
@@ -9155,6 +11094,48 @@
           "rate_per_100k": 2212.4,
           "concern": 51.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 268.0,
+          "concern": 38.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1753.9,
+          "concern": 49.2
+        }
+      }
+    }
+  },
+  "jackson-ms": {
+    "agency_name": "Jackson Police Department",
+    "ori": "MS0250100",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 400.1,
+          "concern": 59.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1501.8,
+          "concern": 38.8
+        }
+      }
+    }
+  },
+  "jacksonville-fl": {
+    "agency_name": "Jacksonville Beach Police Department",
+    "ori": "FL0160300",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 339.2,
+          "concern": 48.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2315.0,
+          "concern": 67.8
+        }
       }
     }
   },
@@ -9200,6 +11181,16 @@
         "property_crime": {
           "rate_per_100k": 2036.4,
           "concern": 48.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 487.1,
+          "concern": 69.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1830.3,
+          "concern": 52.5
         }
       }
     }
@@ -9257,6 +11248,16 @@
           "rate_per_100k": 537.9,
           "concern": 1.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 39.5,
+          "concern": 0.2
+        },
+        "property_crime": {
+          "rate_per_100k": 443.6,
+          "concern": 1.3
+        }
       }
     }
   },
@@ -9292,6 +11293,16 @@
         "property_crime": {
           "rate_per_100k": 1258.6,
           "concern": 17.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 344.3,
+          "concern": 49.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1154.3,
+          "concern": 22.4
         }
       }
     }
@@ -9349,6 +11360,16 @@
           "rate_per_100k": 3066.9,
           "concern": 76.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 575.1,
+          "concern": 77.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2483.9,
+          "concern": 74.7
+        }
       }
     }
   },
@@ -9405,6 +11426,16 @@
           "rate_per_100k": 2258.0,
           "concern": 53.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 408.8,
+          "concern": 61.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1741.4,
+          "concern": 48.6
+        }
       }
     }
   },
@@ -9430,6 +11461,16 @@
         "property_crime": {
           "rate_per_100k": 3668.4,
           "concern": 87.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 981.4,
+          "concern": 95.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3166.8,
+          "concern": 87.4
         }
       }
     }
@@ -9487,6 +11528,16 @@
           "rate_per_100k": 4721.3,
           "concern": 95.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1374.2,
+          "concern": 99.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3982.5,
+          "concern": 95.4
+        }
       }
     }
   },
@@ -9542,6 +11593,16 @@
         "property_crime": {
           "rate_per_100k": 3472.7,
           "concern": 82.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 316.8,
+          "concern": 45.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2677.8,
+          "concern": 78.9
         }
       }
     }
@@ -9599,6 +11660,16 @@
           "rate_per_100k": 878.6,
           "concern": 6.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 323.7,
+          "concern": 46.2
+        },
+        "property_crime": {
+          "rate_per_100k": 738.8,
+          "concern": 6.3
+        }
       }
     }
   },
@@ -9655,6 +11726,16 @@
           "rate_per_100k": 3775.6,
           "concern": 88.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 282.6,
+          "concern": 40.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2129.0,
+          "concern": 62.1
+        }
       }
     }
   },
@@ -9700,6 +11781,16 @@
         "property_crime": {
           "rate_per_100k": 1392.4,
           "concern": 24.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 497.6,
+          "concern": 71.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1643.0,
+          "concern": 44.7
         }
       }
     }
@@ -9757,6 +11848,16 @@
           "rate_per_100k": 2035.6,
           "concern": 47.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 65.5,
+          "concern": 3.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1216.0,
+          "concern": 25.1
+        }
       }
     }
   },
@@ -9792,6 +11893,16 @@
         "property_crime": {
           "rate_per_100k": 1905.6,
           "concern": 42.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 447.7,
+          "concern": 66.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1622.7,
+          "concern": 43.4
         }
       }
     }
@@ -9849,6 +11960,16 @@
           "rate_per_100k": 2733.8,
           "concern": 67.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 684.8,
+          "concern": 84.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2358.4,
+          "concern": 70.4
+        }
       }
     }
   },
@@ -9864,6 +11985,16 @@
         "property_crime": {
           "rate_per_100k": 4361.5,
           "concern": 93.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1130.7,
+          "concern": 96.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3468.1,
+          "concern": 91.5
         }
       }
     }
@@ -9921,6 +12052,16 @@
           "rate_per_100k": 2485.2,
           "concern": 60.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 663.9,
+          "concern": 82.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2424.0,
+          "concern": 73.4
+        }
       }
     }
   },
@@ -9967,6 +12108,16 @@
           "rate_per_100k": 839.1,
           "concern": 5.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 164.6,
+          "concern": 20.0
+        },
+        "property_crime": {
+          "rate_per_100k": 700.8,
+          "concern": 5.7
+        }
       }
     }
   },
@@ -9992,6 +12143,16 @@
         "property_crime": {
           "rate_per_100k": 1702.2,
           "concern": 35.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 368.9,
+          "concern": 55.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1536.7,
+          "concern": 40.1
         }
       }
     }
@@ -10038,6 +12199,16 @@
         "property_crime": {
           "rate_per_100k": 576.3,
           "concern": 1.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 92.4,
+          "concern": 7.0
+        },
+        "property_crime": {
+          "rate_per_100k": 524.4,
+          "concern": 2.4
         }
       }
     }
@@ -10095,6 +12266,16 @@
           "rate_per_100k": 5165.3,
           "concern": 97.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 674.5,
+          "concern": 83.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4509.1,
+          "concern": 98.7
+        }
       }
     }
   },
@@ -10150,6 +12331,16 @@
         "property_crime": {
           "rate_per_100k": 2534.7,
           "concern": 63.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1317.2,
+          "concern": 98.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2096.1,
+          "concern": 61.7
         }
       }
     }
@@ -10207,6 +12398,16 @@
           "rate_per_100k": 1500.9,
           "concern": 28.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 315.5,
+          "concern": 44.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1154.4,
+          "concern": 22.7
+        }
       }
     }
   },
@@ -10242,6 +12443,16 @@
         "property_crime": {
           "rate_per_100k": 1999.2,
           "concern": 46.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 254.1,
+          "concern": 35.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1654.4,
+          "concern": 45.5
         }
       }
     }
@@ -10299,6 +12510,16 @@
           "rate_per_100k": 4898.4,
           "concern": 96.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 496.0,
+          "concern": 70.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3662.7,
+          "concern": 93.2
+        }
       }
     }
   },
@@ -10345,6 +12566,16 @@
           "rate_per_100k": 2642.0,
           "concern": 64.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 411.1,
+          "concern": 61.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2422.3,
+          "concern": 73.2
+        }
       }
     }
   },
@@ -10390,6 +12621,16 @@
         "property_crime": {
           "rate_per_100k": 2187.6,
           "concern": 51.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 440.4,
+          "concern": 65.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1898.6,
+          "concern": 54.9
         }
       }
     }
@@ -10447,6 +12688,16 @@
           "rate_per_100k": 1000.0,
           "concern": 9.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 361.0,
+          "concern": 53.2
+        },
+        "property_crime": {
+          "rate_per_100k": 899.1,
+          "concern": 12.4
+        }
       }
     }
   },
@@ -10492,6 +12743,16 @@
         "property_crime": {
           "rate_per_100k": 2713.7,
           "concern": 67.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 767.2,
+          "concern": 88.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2343.7,
+          "concern": 69.1
         }
       }
     }
@@ -10549,6 +12810,16 @@
           "rate_per_100k": 1359.2,
           "concern": 21.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 140.1,
+          "concern": 15.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1350.4,
+          "concern": 31.8
+        }
       }
     }
   },
@@ -10604,6 +12875,16 @@
         "property_crime": {
           "rate_per_100k": 1168.7,
           "concern": 14.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 58.6,
+          "concern": 2.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1070.9,
+          "concern": 18.7
         }
       }
     }
@@ -10661,6 +12942,16 @@
           "rate_per_100k": 995.0,
           "concern": 9.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 58.4,
+          "concern": 1.7
+        },
+        "property_crime": {
+          "rate_per_100k": 470.6,
+          "concern": 1.7
+        }
       }
     }
   },
@@ -10707,6 +12998,16 @@
           "rate_per_100k": 2384.5,
           "concern": 56.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 111.5,
+          "concern": 10.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1953.2,
+          "concern": 58.0
+        }
       }
     }
   },
@@ -10742,6 +13043,16 @@
         "property_crime": {
           "rate_per_100k": 546.3,
           "concern": 1.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 109.0,
+          "concern": 9.8
+        },
+        "property_crime": {
+          "rate_per_100k": 414.7,
+          "concern": 1.1
         }
       }
     }
@@ -10799,6 +13110,16 @@
           "rate_per_100k": 1548.0,
           "concern": 30.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 215.9,
+          "concern": 28.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1354.6,
+          "concern": 32.2
+        }
       }
     }
   },
@@ -10855,6 +13176,16 @@
           "rate_per_100k": 2304.4,
           "concern": 55.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 227.5,
+          "concern": 30.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2078.9,
+          "concern": 60.8
+        }
       }
     }
   },
@@ -10900,6 +13231,16 @@
         "property_crime": {
           "rate_per_100k": 2484.4,
           "concern": 60.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 424.6,
+          "concern": 64.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1919.7,
+          "concern": 56.2
         }
       }
     }
@@ -10957,6 +13298,16 @@
           "rate_per_100k": 5252.0,
           "concern": 98.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1485.0,
+          "concern": 99.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3979.2,
+          "concern": 95.2
+        }
       }
     }
   },
@@ -10972,6 +13323,16 @@
         "property_crime": {
           "rate_per_100k": 2355.0,
           "concern": 55.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 173.5,
+          "concern": 22.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1817.3,
+          "concern": 52.3
         }
       }
     }
@@ -11029,6 +13390,16 @@
           "rate_per_100k": 1285.2,
           "concern": 19.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 218.3,
+          "concern": 29.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1240.5,
+          "concern": 27.0
+        }
       }
     }
   },
@@ -11054,6 +13425,16 @@
         "property_crime": {
           "rate_per_100k": 3584.4,
           "concern": 85.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 620.8,
+          "concern": 79.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2552.8,
+          "concern": 77.1
         }
       }
     }
@@ -11167,6 +13548,16 @@
           "rate_per_100k": 2355.2,
           "concern": 56.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 343.4,
+          "concern": 48.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2130.7,
+          "concern": 62.3
+        }
       }
     }
   },
@@ -11192,6 +13583,32 @@
         "property_crime": {
           "rate_per_100k": 397.8,
           "concern": 0.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 61.0,
+          "concern": 2.2
+        },
+        "property_crime": {
+          "rate_per_100k": 300.0,
+          "concern": 0.4
+        }
+      }
+    }
+  },
+  "los-angeles-ca": {
+    "agency_name": "Los Angeles Police Department",
+    "ori": "CA0194200",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 669.3,
+          "concern": 83.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2252.1,
+          "concern": 65.1
         }
       }
     }
@@ -11249,6 +13666,16 @@
           "rate_per_100k": 3536.1,
           "concern": 83.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 673.6,
+          "concern": 83.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3453.3,
+          "concern": 90.8
+        }
       }
     }
   },
@@ -11305,6 +13732,16 @@
           "rate_per_100k": 2059.1,
           "concern": 48.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 162.8,
+          "concern": 19.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1441.8,
+          "concern": 35.3
+        }
       }
     }
   },
@@ -11359,6 +13796,16 @@
         },
         "property_crime": {
           "rate_per_100k": 1675.8,
+          "concern": 33.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 505.4,
+          "concern": 71.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1391.0,
           "concern": 33.6
         }
       }
@@ -11417,6 +13864,16 @@
           "rate_per_100k": 2694.0,
           "concern": 66.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 698.9,
+          "concern": 85.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2487.4,
+          "concern": 75.4
+        }
       }
     }
   },
@@ -11472,6 +13929,16 @@
         "property_crime": {
           "rate_per_100k": 1757.6,
           "concern": 37.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 361.2,
+          "concern": 53.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1664.9,
+          "concern": 46.4
         }
       }
     }
@@ -11529,6 +13996,16 @@
           "rate_per_100k": 1176.4,
           "concern": 14.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 560.6,
+          "concern": 76.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1109.6,
+          "concern": 20.0
+        }
       }
     }
   },
@@ -11584,6 +14061,16 @@
         "property_crime": {
           "rate_per_100k": 1194.2,
           "concern": 15.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 181.5,
+          "concern": 23.3
+        },
+        "property_crime": {
+          "rate_per_100k": 957.8,
+          "concern": 14.4
         }
       }
     }
@@ -11641,6 +14128,16 @@
           "rate_per_100k": 4116.2,
           "concern": 92.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1292.7,
+          "concern": 98.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3423.6,
+          "concern": 90.2
+        }
       }
     }
   },
@@ -11696,6 +14193,16 @@
         "property_crime": {
           "rate_per_100k": 1884.5,
           "concern": 42.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 213.9,
+          "concern": 28.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1882.3,
+          "concern": 53.4
         }
       }
     }
@@ -11753,6 +14260,16 @@
           "rate_per_100k": 1691.4,
           "concern": 34.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 322.5,
+          "concern": 46.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1536.8,
+          "concern": 40.3
+        }
       }
     }
   },
@@ -11809,6 +14326,16 @@
           "rate_per_100k": 1393.8,
           "concern": 24.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 106.1,
+          "concern": 9.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1186.4,
+          "concern": 23.7
+        }
       }
     }
   },
@@ -11824,6 +14351,16 @@
         "property_crime": {
           "rate_per_100k": 1494.6,
           "concern": 28.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 335.9,
+          "concern": 47.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1346.9,
+          "concern": 31.6
         }
       }
     }
@@ -11870,6 +14407,16 @@
         "property_crime": {
           "rate_per_100k": 870.2,
           "concern": 5.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 241.8,
+          "concern": 32.9
+        },
+        "property_crime": {
+          "rate_per_100k": 793.7,
+          "concern": 8.5
         }
       }
     }
@@ -11927,6 +14474,16 @@
           "rate_per_100k": 1972.2,
           "concern": 45.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 168.9,
+          "concern": 21.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1331.5,
+          "concern": 30.3
+        }
       }
     }
   },
@@ -11972,6 +14529,16 @@
         "property_crime": {
           "rate_per_100k": 1841.7,
           "concern": 40.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 126.3,
+          "concern": 13.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1422.0,
+          "concern": 34.4
         }
       }
     }
@@ -12029,6 +14596,16 @@
           "rate_per_100k": 826.9,
           "concern": 4.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 114.5,
+          "concern": 11.5
+        },
+        "property_crime": {
+          "rate_per_100k": 680.0,
+          "concern": 4.6
+        }
       }
     }
   },
@@ -12084,6 +14661,16 @@
         "property_crime": {
           "rate_per_100k": 3937.9,
           "concern": 90.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 405.6,
+          "concern": 60.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3717.4,
+          "concern": 93.5
         }
       }
     }
@@ -12141,6 +14728,16 @@
           "rate_per_100k": 6966.2,
           "concern": 100.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1851.5,
+          "concern": 100.0
+        },
+        "property_crime": {
+          "rate_per_100k": 5027.1,
+          "concern": 99.6
+        }
       }
     }
   },
@@ -12187,6 +14784,16 @@
           "rate_per_100k": 801.3,
           "concern": 4.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 168.9,
+          "concern": 20.9
+        },
+        "property_crime": {
+          "rate_per_100k": 794.9,
+          "concern": 8.7
+        }
       }
     }
   },
@@ -12212,6 +14819,16 @@
         "property_crime": {
           "rate_per_100k": 2889.3,
           "concern": 72.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 699.6,
+          "concern": 85.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2508.1,
+          "concern": 76.0
         }
       }
     }
@@ -12269,6 +14886,16 @@
           "rate_per_100k": 583.5,
           "concern": 2.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 133.5,
+          "concern": 14.8
+        },
+        "property_crime": {
+          "rate_per_100k": 406.7,
+          "concern": 0.9
+        }
       }
     }
   },
@@ -12324,6 +14951,16 @@
         "property_crime": {
           "rate_per_100k": 1487.8,
           "concern": 28.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 423.3,
+          "concern": 63.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1304.8,
+          "concern": 29.4
         }
       }
     }
@@ -12381,6 +15018,16 @@
           "rate_per_100k": 2981.1,
           "concern": 74.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 452.8,
+          "concern": 67.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2230.5,
+          "concern": 64.5
+        }
       }
     }
   },
@@ -12407,6 +15054,16 @@
           "rate_per_100k": 3025.2,
           "concern": 75.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 358.3,
+          "concern": 52.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2241.0,
+          "concern": 64.7
+        }
       }
     }
   },
@@ -12422,6 +15079,16 @@
         "property_crime": {
           "rate_per_100k": 2524.8,
           "concern": 63.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 358.6,
+          "concern": 52.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1746.3,
+          "concern": 49.0
         }
       }
     }
@@ -12469,6 +15136,16 @@
           "rate_per_100k": 1709.2,
           "concern": 36.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 351.7,
+          "concern": 50.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1630.7,
+          "concern": 44.0
+        }
       }
     }
   },
@@ -12494,6 +15171,16 @@
         "property_crime": {
           "rate_per_100k": 3210.8,
           "concern": 78.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 237.0,
+          "concern": 32.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2854.0,
+          "concern": 82.1
         }
       }
     }
@@ -12551,6 +15238,16 @@
           "rate_per_100k": 2772.2,
           "concern": 68.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1145.0,
+          "concern": 96.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2401.0,
+          "concern": 72.3
+        }
       }
     }
   },
@@ -12607,6 +15304,16 @@
           "rate_per_100k": 5183.1,
           "concern": 97.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1003.6,
+          "concern": 95.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4515.8,
+          "concern": 98.9
+        }
       }
     }
   },
@@ -12653,6 +15360,16 @@
           "rate_per_100k": 827.3,
           "concern": 4.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 121.2,
+          "concern": 12.9
+        },
+        "property_crime": {
+          "rate_per_100k": 584.5,
+          "concern": 3.7
+        }
       }
     }
   },
@@ -12688,6 +15405,16 @@
         "property_crime": {
           "rate_per_100k": 1154.1,
           "concern": 13.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 134.4,
+          "concern": 15.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1164.0,
+          "concern": 23.5
         }
       }
     }
@@ -12734,6 +15461,16 @@
         "property_crime": {
           "rate_per_100k": 1192.9,
           "concern": 15.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 118.5,
+          "concern": 12.4
+        },
+        "property_crime": {
+          "rate_per_100k": 859.1,
+          "concern": 10.5
         }
       }
     }
@@ -12791,6 +15528,16 @@
           "rate_per_100k": 3685.2,
           "concern": 87.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 592.3,
+          "concern": 78.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2859.2,
+          "concern": 82.4
+        }
       }
     }
   },
@@ -12847,6 +15594,16 @@
           "rate_per_100k": 1049.4,
           "concern": 11.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 150.7,
+          "concern": 17.4
+        },
+        "property_crime": {
+          "rate_per_100k": 978.0,
+          "concern": 15.3
+        }
       }
     }
   },
@@ -12893,6 +15650,16 @@
           "rate_per_100k": 1679.1,
           "concern": 34.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 587.7,
+          "concern": 78.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1472.3,
+          "concern": 36.8
+        }
       }
     }
   },
@@ -12928,6 +15695,16 @@
         "property_crime": {
           "rate_per_100k": 2489.6,
           "concern": 61.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 585.8,
+          "concern": 78.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1895.8,
+          "concern": 54.5
         }
       }
     }
@@ -12974,6 +15751,16 @@
         "property_crime": {
           "rate_per_100k": 2256.8,
           "concern": 53.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 644.3,
+          "concern": 81.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2901.3,
+          "concern": 83.4
         }
       }
     }
@@ -13031,6 +15818,16 @@
           "rate_per_100k": 1178.0,
           "concern": 15.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 132.3,
+          "concern": 14.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1027.6,
+          "concern": 16.8
+        }
       }
     }
   },
@@ -13066,6 +15863,16 @@
         "property_crime": {
           "rate_per_100k": 2813.6,
           "concern": 70.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 205.6,
+          "concern": 27.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2405.5,
+          "concern": 72.5
         }
       }
     }
@@ -13123,6 +15930,16 @@
           "rate_per_100k": 2029.3,
           "concern": 47.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 400.6,
+          "concern": 59.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1554.2,
+          "concern": 41.6
+        }
       }
     }
   },
@@ -13158,6 +15975,16 @@
         "property_crime": {
           "rate_per_100k": 965.0,
           "concern": 8.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 186.0,
+          "concern": 23.7
+        },
+        "property_crime": {
+          "rate_per_100k": 860.1,
+          "concern": 10.7
         }
       }
     }
@@ -13215,6 +16042,16 @@
           "rate_per_100k": 763.3,
           "concern": 3.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 309.7,
+          "concern": 44.2
+        },
+        "property_crime": {
+          "rate_per_100k": 674.5,
+          "concern": 4.4
+        }
       }
     }
   },
@@ -13250,6 +16087,16 @@
         "property_crime": {
           "rate_per_100k": 892.2,
           "concern": 6.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 70.1,
+          "concern": 3.7
+        },
+        "property_crime": {
+          "rate_per_100k": 568.6,
+          "concern": 3.3
         }
       }
     }
@@ -13307,6 +16154,16 @@
           "rate_per_100k": 1269.0,
           "concern": 18.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 109.8,
+          "concern": 10.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1030.3,
+          "concern": 17.2
+        }
       }
     }
   },
@@ -13362,6 +16219,16 @@
         "property_crime": {
           "rate_per_100k": 4558.2,
           "concern": 94.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 957.0,
+          "concern": 94.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3865.1,
+          "concern": 94.1
         }
       }
     }
@@ -13419,6 +16286,16 @@
           "rate_per_100k": 1368.9,
           "concern": 22.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 345.1,
+          "concern": 49.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1558.3,
+          "concern": 42.0
+        }
       }
     }
   },
@@ -13474,6 +16351,16 @@
         "property_crime": {
           "rate_per_100k": 1287.8,
           "concern": 19.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 224.0,
+          "concern": 30.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1158.7,
+          "concern": 23.3
         }
       }
     }
@@ -13531,6 +16418,16 @@
           "rate_per_100k": 3601.6,
           "concern": 85.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 398.7,
+          "concern": 58.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3115.6,
+          "concern": 86.9
+        }
       }
     }
   },
@@ -13587,6 +16484,16 @@
           "rate_per_100k": 1297.1,
           "concern": 20.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 154.2,
+          "concern": 18.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1233.7,
+          "concern": 26.1
+        }
       }
     }
   },
@@ -13612,6 +16519,16 @@
         "property_crime": {
           "rate_per_100k": 2414.9,
           "concern": 58.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 659.1,
+          "concern": 82.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2296.0,
+          "concern": 66.9
         }
       }
     }
@@ -13659,6 +16576,16 @@
           "rate_per_100k": 1961.8,
           "concern": 45.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 516.6,
+          "concern": 72.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1787.9,
+          "concern": 50.5
+        }
       }
     }
   },
@@ -13684,6 +16611,16 @@
         "property_crime": {
           "rate_per_100k": 1883.6,
           "concern": 41.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 251.1,
+          "concern": 34.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1555.2,
+          "concern": 41.8
         }
       }
     }
@@ -13741,6 +16678,16 @@
           "rate_per_100k": 2452.6,
           "concern": 59.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 792.1,
+          "concern": 90.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2277.9,
+          "concern": 66.2
+        }
       }
     }
   },
@@ -13795,6 +16742,16 @@
         },
         "property_crime": {
           "rate_per_100k": 601.5,
+          "concern": 2.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 56.1,
+          "concern": 1.5
+        },
+        "property_crime": {
+          "rate_per_100k": 524.5,
           "concern": 2.6
         }
       }
@@ -13853,6 +16810,16 @@
           "rate_per_100k": 3800.7,
           "concern": 89.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 399.0,
+          "concern": 59.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3183.4,
+          "concern": 87.8
+        }
       }
     }
   },
@@ -13908,6 +16875,16 @@
         "property_crime": {
           "rate_per_100k": 2294.1,
           "concern": 54.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 242.9,
+          "concern": 33.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1809.8,
+          "concern": 51.9
         }
       }
     }
@@ -13965,6 +16942,16 @@
           "rate_per_100k": 3981.0,
           "concern": 90.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 668.0,
+          "concern": 83.0
+        },
+        "property_crime": {
+          "rate_per_100k": 3454.0,
+          "concern": 91.1
+        }
       }
     }
   },
@@ -14020,6 +17007,16 @@
         "property_crime": {
           "rate_per_100k": 1989.4,
           "concern": 45.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 361.5,
+          "concern": 53.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1623.7,
+          "concern": 43.6
         }
       }
     }
@@ -14077,6 +17074,16 @@
           "rate_per_100k": 1505.6,
           "concern": 28.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 49.8,
+          "concern": 0.9
+        },
+        "property_crime": {
+          "rate_per_100k": 973.9,
+          "concern": 14.8
+        }
       }
     }
   },
@@ -14122,6 +17129,16 @@
         "property_crime": {
           "rate_per_100k": 1705.1,
           "concern": 35.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 383.7,
+          "concern": 57.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1542.0,
+          "concern": 40.5
         }
       }
     }
@@ -14169,6 +17186,16 @@
           "rate_per_100k": 1848.5,
           "concern": 40.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 285.1,
+          "concern": 40.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1156.9,
+          "concern": 23.1
+        }
       }
     }
   },
@@ -14214,6 +17241,16 @@
         "property_crime": {
           "rate_per_100k": 489.9,
           "concern": 0.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 96.6,
+          "concern": 7.6
+        },
+        "property_crime": {
+          "rate_per_100k": 528.5,
+          "concern": 2.8
         }
       }
     }
@@ -14271,6 +17308,16 @@
           "rate_per_100k": 1937.9,
           "concern": 43.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 444.9,
+          "concern": 66.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1626.9,
+          "concern": 43.8
+        }
       }
     }
   },
@@ -14326,6 +17373,16 @@
         "property_crime": {
           "rate_per_100k": 2929.1,
           "concern": 73.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 680.6,
+          "concern": 84.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2654.4,
+          "concern": 78.2
         }
       }
     }
@@ -14383,6 +17440,16 @@
           "rate_per_100k": 958.0,
           "concern": 7.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 229.2,
+          "concern": 31.2
+        },
+        "property_crime": {
+          "rate_per_100k": 848.5,
+          "concern": 9.8
+        }
       }
     }
   },
@@ -14398,6 +17465,16 @@
         "property_crime": {
           "rate_per_100k": 3153.2,
           "concern": 77.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 349.1,
+          "concern": 50.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2792.2,
+          "concern": 80.4
         }
       }
     }
@@ -14424,6 +17501,16 @@
         "property_crime": {
           "rate_per_100k": 1312.6,
           "concern": 20.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 196.3,
+          "concern": 25.9
+        },
+        "property_crime": {
+          "rate_per_100k": 938.5,
+          "concern": 13.7
         }
       }
     }
@@ -14470,6 +17557,16 @@
         "property_crime": {
           "rate_per_100k": 1366.2,
           "concern": 22.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 133.0,
+          "concern": 14.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1242.1,
+          "concern": 27.2
         }
       }
     }
@@ -14527,6 +17624,16 @@
           "rate_per_100k": 1790.5,
           "concern": 39.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 159.7,
+          "concern": 19.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1467.4,
+          "concern": 36.6
+        }
       }
     }
   },
@@ -14552,6 +17659,16 @@
         "property_crime": {
           "rate_per_100k": 1923.9,
           "concern": 43.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 556.2,
+          "concern": 76.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1636.1,
+          "concern": 44.2
         }
       }
     }
@@ -14599,6 +17716,16 @@
           "rate_per_100k": 1030.9,
           "concern": 10.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 271.5,
+          "concern": 38.8
+        },
+        "property_crime": {
+          "rate_per_100k": 834.6,
+          "concern": 9.4
+        }
       }
     }
   },
@@ -14613,6 +17740,16 @@
         },
         "property_crime": {
           "rate_per_100k": 584.2,
+          "concern": 2.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 104.4,
+          "concern": 8.7
+        },
+        "property_crime": {
+          "rate_per_100k": 473.8,
           "concern": 2.2
         }
       }
@@ -14671,6 +17808,16 @@
           "rate_per_100k": 715.5,
           "concern": 3.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 149.5,
+          "concern": 17.2
+        },
+        "property_crime": {
+          "rate_per_100k": 724.7,
+          "concern": 6.1
+        }
       }
     }
   },
@@ -14696,6 +17843,16 @@
         "property_crime": {
           "rate_per_100k": 2815.9,
           "concern": 70.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 420.7,
+          "concern": 63.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2356.2,
+          "concern": 70.2
         }
       }
     }
@@ -14753,6 +17910,16 @@
           "rate_per_100k": 2373.3,
           "concern": 56.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 435.1,
+          "concern": 64.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1776.5,
+          "concern": 50.1
+        }
       }
     }
   },
@@ -14809,6 +17976,16 @@
           "rate_per_100k": 2218.0,
           "concern": 51.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 337.1,
+          "concern": 47.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1643.2,
+          "concern": 44.9
+        }
       }
     }
   },
@@ -14844,6 +18021,16 @@
         "property_crime": {
           "rate_per_100k": 2389.5,
           "concern": 57.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 840.1,
+          "concern": 91.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2332.4,
+          "concern": 68.2
         }
       }
     }
@@ -14901,6 +18088,16 @@
           "rate_per_100k": 1522.3,
           "concern": 29.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 223.9,
+          "concern": 30.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1240.1,
+          "concern": 26.8
+        }
       }
     }
   },
@@ -14957,6 +18154,32 @@
           "rate_per_100k": 1444.0,
           "concern": 25.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 82.0,
+          "concern": 5.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1134.5,
+          "concern": 21.4
+        }
+      }
+    }
+  },
+  "pembroke-pines-fl": {
+    "agency_name": "Pembroke Pines Police Department",
+    "ori": "FL0060800",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 41.6,
+          "concern": 0.4
+        },
+        "property_crime": {
+          "rate_per_100k": 685.3,
+          "concern": 5.0
+        }
       }
     }
   },
@@ -15003,6 +18226,16 @@
           "rate_per_100k": 1244.9,
           "concern": 17.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 252.5,
+          "concern": 35.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1091.3,
+          "concern": 19.6
+        }
       }
     }
   },
@@ -15038,6 +18271,16 @@
         "property_crime": {
           "rate_per_100k": 4335.5,
           "concern": 93.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1254.2,
+          "concern": 98.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3977.1,
+          "concern": 95.0
         }
       }
     }
@@ -15085,6 +18328,16 @@
           "rate_per_100k": 1156.3,
           "concern": 13.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 212.3,
+          "concern": 27.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1086.3,
+          "concern": 19.4
+        }
       }
     }
   },
@@ -15121,6 +18374,16 @@
           "rate_per_100k": 4615.2,
           "concern": 95.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 828.1,
+          "concern": 91.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4352.5,
+          "concern": 97.6
+        }
       }
     }
   },
@@ -15147,6 +18410,16 @@
           "rate_per_100k": 2159.5,
           "concern": 50.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 439.7,
+          "concern": 65.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1544.1,
+          "concern": 40.7
+        }
       }
     }
   },
@@ -15162,6 +18435,16 @@
         "property_crime": {
           "rate_per_100k": 2315.7,
           "concern": 55.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 467.7,
+          "concern": 68.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2369.7,
+          "concern": 71.2
         }
       }
     }
@@ -15219,6 +18502,16 @@
           "rate_per_100k": 1471.9,
           "concern": 26.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 146.1,
+          "concern": 16.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1193.1,
+          "concern": 24.2
+        }
       }
     }
   },
@@ -15265,6 +18558,16 @@
           "rate_per_100k": 1038.2,
           "concern": 11.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 64.1,
+          "concern": 2.6
+        },
+        "property_crime": {
+          "rate_per_100k": 855.5,
+          "concern": 10.2
+        }
       }
     }
   },
@@ -15290,6 +18593,32 @@
         "property_crime": {
           "rate_per_100k": 2772.6,
           "concern": 69.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 645.3,
+          "concern": 81.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2271.5,
+          "concern": 66.0
+        }
+      }
+    }
+  },
+  "port-st-lucie-fl": {
+    "agency_name": "Port St. Lucie Police Department",
+    "ori": "FL0560200",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 127.6,
+          "concern": 14.2
+        },
+        "property_crime": {
+          "rate_per_100k": 625.0,
+          "concern": 3.9
         }
       }
     }
@@ -15347,6 +18676,16 @@
           "rate_per_100k": 5606.6,
           "concern": 99.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 700.9,
+          "concern": 85.6
+        },
+        "property_crime": {
+          "rate_per_100k": 5108.3,
+          "concern": 100.0
+        }
       }
     }
   },
@@ -15402,6 +18741,16 @@
         "property_crime": {
           "rate_per_100k": 3890.7,
           "concern": 89.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 767.9,
+          "concern": 88.9
+        },
+        "property_crime": {
+          "rate_per_100k": 3253.4,
+          "concern": 88.2
         }
       }
     }
@@ -15459,6 +18808,16 @@
           "rate_per_100k": 1665.6,
           "concern": 33.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 287.1,
+          "concern": 41.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1570.8,
+          "concern": 42.3
+        }
       }
     }
   },
@@ -15514,6 +18873,16 @@
         "property_crime": {
           "rate_per_100k": 1280.6,
           "concern": 19.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 176.5,
+          "concern": 22.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1118.7,
+          "concern": 20.7
         }
       }
     }
@@ -15571,6 +18940,16 @@
           "rate_per_100k": 4997.1,
           "concern": 97.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1176.8,
+          "concern": 96.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4335.0,
+          "concern": 97.4
+        }
       }
     }
   },
@@ -15606,6 +18985,16 @@
         "property_crime": {
           "rate_per_100k": 848.3,
           "concern": 5.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 155.4,
+          "concern": 18.5
+        },
+        "property_crime": {
+          "rate_per_100k": 779.1,
+          "concern": 7.4
         }
       }
     }
@@ -15663,6 +19052,16 @@
           "rate_per_100k": 1333.7,
           "concern": 21.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 302.0,
+          "concern": 43.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1198.3,
+          "concern": 24.4
+        }
       }
     }
   },
@@ -15718,6 +19117,16 @@
         "property_crime": {
           "rate_per_100k": 1162.1,
           "concern": 14.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 417.8,
+          "concern": 62.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1353.3,
+          "concern": 32.0
         }
       }
     }
@@ -15775,6 +19184,16 @@
           "rate_per_100k": 2838.4,
           "concern": 70.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 392.9,
+          "concern": 58.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2302.8,
+          "concern": 67.5
+        }
       }
     }
   },
@@ -15790,6 +19209,16 @@
         "property_crime": {
           "rate_per_100k": 2141.8,
           "concern": 49.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 507.8,
+          "concern": 72.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1647.7,
+          "concern": 45.3
         }
       }
     }
@@ -15847,6 +19276,16 @@
           "rate_per_100k": 3795.8,
           "concern": 89.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 767.4,
+          "concern": 88.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3654.6,
+          "concern": 93.0
+        }
       }
     }
   },
@@ -15873,6 +19312,16 @@
           "rate_per_100k": 1446.8,
           "concern": 25.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 257.8,
+          "concern": 35.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1285.0,
+          "concern": 28.3
+        }
       }
     }
   },
@@ -15888,6 +19337,16 @@
         "property_crime": {
           "rate_per_100k": 1773.6,
           "concern": 38.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 730.0,
+          "concern": 86.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1661.2,
+          "concern": 46.2
         }
       }
     }
@@ -15945,6 +19404,16 @@
           "rate_per_100k": 2754.2,
           "concern": 68.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 104.1,
+          "concern": 8.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1920.4,
+          "concern": 56.4
+        }
       }
     }
   },
@@ -15970,6 +19439,16 @@
         "property_crime": {
           "rate_per_100k": 1653.8,
           "concern": 32.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 368.5,
+          "concern": 55.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1465.5,
+          "concern": 36.4
         }
       }
     }
@@ -16027,6 +19506,16 @@
           "rate_per_100k": 2488.2,
           "concern": 60.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 549.5,
+          "concern": 75.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2346.4,
+          "concern": 69.3
+        }
       }
     }
   },
@@ -16082,6 +19571,16 @@
         "property_crime": {
           "rate_per_100k": 3915.7,
           "concern": 90.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 258.4,
+          "concern": 36.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2458.9,
+          "concern": 74.3
         }
       }
     }
@@ -16139,6 +19638,16 @@
           "rate_per_100k": 1854.8,
           "concern": 40.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 137.4,
+          "concern": 15.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1496.8,
+          "concern": 37.9
+        }
       }
     }
   },
@@ -16184,6 +19693,16 @@
         "property_crime": {
           "rate_per_100k": 2813.5,
           "concern": 69.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 813.7,
+          "concern": 90.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2087.7,
+          "concern": 61.2
         }
       }
     }
@@ -16241,6 +19760,16 @@
           "rate_per_100k": 3240.2,
           "concern": 79.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 440.7,
+          "concern": 65.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3347.5,
+          "concern": 89.5
+        }
       }
     }
   },
@@ -16287,6 +19816,16 @@
           "rate_per_100k": 1479.4,
           "concern": 27.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 320.1,
+          "concern": 45.8
+        },
+        "property_crime": {
+          "rate_per_100k": 987.4,
+          "concern": 15.5
+        }
       }
     }
   },
@@ -16312,6 +19851,16 @@
         "property_crime": {
           "rate_per_100k": 2887.7,
           "concern": 72.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 534.0,
+          "concern": 74.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2178.6,
+          "concern": 62.7
         }
       }
     }
@@ -16369,6 +19918,16 @@
           "rate_per_100k": 4117.4,
           "concern": 92.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 557.9,
+          "concern": 76.3
+        },
+        "property_crime": {
+          "rate_per_100k": 3518.6,
+          "concern": 91.9
+        }
       }
     }
   },
@@ -16424,6 +19983,16 @@
         "property_crime": {
           "rate_per_100k": 533.2,
           "concern": 0.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 62.1,
+          "concern": 2.4
+        },
+        "property_crime": {
+          "rate_per_100k": 630.0,
+          "concern": 4.1
         }
       }
     }
@@ -16481,6 +20050,16 @@
           "rate_per_100k": 1379.0,
           "concern": 23.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 186.1,
+          "concern": 24.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1443.5,
+          "concern": 35.5
+        }
       }
     }
   },
@@ -16516,6 +20095,16 @@
         "property_crime": {
           "rate_per_100k": 3532.9,
           "concern": 83.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 571.2,
+          "concern": 77.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2814.6,
+          "concern": 80.8
         }
       }
     }
@@ -16573,6 +20162,16 @@
           "rate_per_100k": 2562.6,
           "concern": 63.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 900.2,
+          "concern": 94.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2528.8,
+          "concern": 76.5
+        }
       }
     }
   },
@@ -16608,6 +20207,16 @@
         "property_crime": {
           "rate_per_100k": 930.5,
           "concern": 7.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 119.7,
+          "concern": 12.6
+        },
+        "property_crime": {
+          "rate_per_100k": 838.2,
+          "concern": 9.6
         }
       }
     }
@@ -16665,6 +20274,16 @@
           "rate_per_100k": 1294.7,
           "concern": 19.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 261.0,
+          "concern": 36.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1069.9,
+          "concern": 18.5
+        }
       }
     }
   },
@@ -16690,6 +20309,16 @@
         "property_crime": {
           "rate_per_100k": 1448.7,
           "concern": 26.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 191.4,
+          "concern": 25.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1288.1,
+          "concern": 28.5
         }
       }
     }
@@ -16747,6 +20376,16 @@
           "rate_per_100k": 1030.6,
           "concern": 10.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 110.7,
+          "concern": 10.2
+        },
+        "property_crime": {
+          "rate_per_100k": 760.5,
+          "concern": 7.0
+        }
       }
     }
   },
@@ -16793,6 +20432,16 @@
           "rate_per_100k": 1955.7,
           "concern": 44.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 124.9,
+          "concern": 13.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1445.5,
+          "concern": 35.7
+        }
       }
     }
   },
@@ -16818,6 +20467,16 @@
         "property_crime": {
           "rate_per_100k": 2615.3,
           "concern": 64.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 719.9,
+          "concern": 86.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2301.9,
+          "concern": 67.3
         }
       }
     }
@@ -16864,6 +20523,16 @@
         "property_crime": {
           "rate_per_100k": 1346.4,
           "concern": 21.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 107.0,
+          "concern": 9.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1288.9,
+          "concern": 28.8
         }
       }
     }
@@ -16921,6 +20590,16 @@
           "rate_per_100k": 2878.6,
           "concern": 72.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 423.6,
+          "concern": 64.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2364.8,
+          "concern": 70.6
+        }
       }
     }
   },
@@ -16946,6 +20625,16 @@
         "property_crime": {
           "rate_per_100k": 1735.4,
           "concern": 36.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 513.9,
+          "concern": 72.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1489.3,
+          "concern": 37.7
         }
       }
     }
@@ -17003,6 +20692,16 @@
           "rate_per_100k": 5257.3,
           "concern": 98.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 861.4,
+          "concern": 91.9
+        },
+        "property_crime": {
+          "rate_per_100k": 4767.8,
+          "concern": 99.3
+        }
       }
     }
   },
@@ -17059,6 +20758,16 @@
           "rate_per_100k": 2513.2,
           "concern": 62.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 283.5,
+          "concern": 40.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2188.0,
+          "concern": 63.4
+        }
       }
     }
   },
@@ -17104,6 +20813,16 @@
         "property_crime": {
           "rate_per_100k": 4665.4,
           "concern": 95.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 531.2,
+          "concern": 74.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3916.3,
+          "concern": 94.3
         }
       }
     }
@@ -17151,6 +20870,16 @@
           "rate_per_100k": 1693.6,
           "concern": 34.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 373.8,
+          "concern": 56.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1553.0,
+          "concern": 41.4
+        }
       }
     }
   },
@@ -17166,6 +20895,16 @@
         "property_crime": {
           "rate_per_100k": 2640.4,
           "concern": 64.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 505.1,
+          "concern": 71.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2400.2,
+          "concern": 72.1
         }
       }
     }
@@ -17212,6 +20951,16 @@
         "property_crime": {
           "rate_per_100k": 672.5,
           "concern": 3.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 106.1,
+          "concern": 9.2
+        },
+        "property_crime": {
+          "rate_per_100k": 395.7,
+          "concern": 0.7
         }
       }
     }
@@ -17269,6 +21018,16 @@
           "rate_per_100k": 2268.9,
           "concern": 53.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 416.2,
+          "concern": 62.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1940.1,
+          "concern": 56.9
+        }
       }
     }
   },
@@ -17295,6 +21054,16 @@
           "rate_per_100k": 1887.3,
           "concern": 42.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 167.1,
+          "concern": 20.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1501.5,
+          "concern": 38.6
+        }
       }
     }
   },
@@ -17320,6 +21089,16 @@
         "property_crime": {
           "rate_per_100k": 1149.8,
           "concern": 13.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 92.1,
+          "concern": 6.8
+        },
+        "property_crime": {
+          "rate_per_100k": 976.6,
+          "concern": 15.0
         }
       }
     }
@@ -17377,6 +21156,16 @@
           "rate_per_100k": 1019.2,
           "concern": 9.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 64.1,
+          "concern": 2.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1126.0,
+          "concern": 20.9
+        }
       }
     }
   },
@@ -17432,6 +21221,16 @@
         "property_crime": {
           "rate_per_100k": 1478.5,
           "concern": 27.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 114.3,
+          "concern": 11.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1261.1,
+          "concern": 27.7
         }
       }
     }
@@ -17489,6 +21288,16 @@
           "rate_per_100k": 1856.3,
           "concern": 40.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 218.9,
+          "concern": 29.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1804.2,
+          "concern": 51.6
+        }
       }
     }
   },
@@ -17515,6 +21324,16 @@
           "rate_per_100k": 1722.2,
           "concern": 36.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 336.8,
+          "concern": 47.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1328.4,
+          "concern": 30.1
+        }
       }
     }
   },
@@ -17540,6 +21359,16 @@
         "property_crime": {
           "rate_per_100k": 1841.2,
           "concern": 39.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 635.0,
+          "concern": 80.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1666.9,
+          "concern": 46.6
         }
       }
     }
@@ -17576,6 +21405,16 @@
         "property_crime": {
           "rate_per_100k": 2523.9,
           "concern": 62.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 172.0,
+          "concern": 21.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2592.2,
+          "concern": 77.6
         }
       }
     }
@@ -17623,6 +21462,16 @@
           "rate_per_100k": 5189.0,
           "concern": 98.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 518.3,
+          "concern": 73.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2893.7,
+          "concern": 83.0
+        }
       }
     }
   },
@@ -17659,6 +21508,32 @@
           "rate_per_100k": 1960.8,
           "concern": 45.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 622.9,
+          "concern": 80.0
+        },
+        "property_crime": {
+          "rate_per_100k": 1812.2,
+          "concern": 52.1
+        }
+      }
+    }
+  },
+  "santa-monica-ca": {
+    "agency_name": "Santa Monica Police Department",
+    "ori": "CA0196500",
+    "years": {
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 617.6,
+          "concern": 79.5
+        },
+        "property_crime": {
+          "rate_per_100k": 4110.1,
+          "concern": 96.7
+        }
       }
     }
   },
@@ -17685,6 +21560,16 @@
           "rate_per_100k": 1354.3,
           "concern": 21.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 292.5,
+          "concern": 42.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1427.2,
+          "concern": 34.6
+        }
       }
     }
   },
@@ -17699,6 +21584,16 @@
         },
         "property_crime": {
           "rate_per_100k": 0.4,
+          "concern": 0.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 85.8,
+          "concern": 5.9
+        },
+        "property_crime": {
+          "rate_per_100k": 60.2,
           "concern": 0.0
         }
       }
@@ -17736,6 +21631,16 @@
         "property_crime": {
           "rate_per_100k": 2435.8,
           "concern": 59.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 67.7,
+          "concern": 3.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1639.9,
+          "concern": 44.4
         }
       }
     }
@@ -17782,6 +21687,16 @@
         "property_crime": {
           "rate_per_100k": 1876.6,
           "concern": 41.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 172.7,
+          "concern": 22.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1743.5,
+          "concern": 48.8
         }
       }
     }
@@ -17839,6 +21754,16 @@
           "rate_per_100k": 5108.4,
           "concern": 97.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 704.0,
+          "concern": 85.8
+        },
+        "property_crime": {
+          "rate_per_100k": 4452.4,
+          "concern": 98.3
+        }
       }
     }
   },
@@ -17865,6 +21790,16 @@
           "rate_per_100k": 4048.2,
           "concern": 91.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1160.7,
+          "concern": 96.7
+        },
+        "property_crime": {
+          "rate_per_100k": 3605.7,
+          "concern": 92.8
+        }
       }
     }
   },
@@ -17890,6 +21825,16 @@
         "property_crime": {
           "rate_per_100k": 937.4,
           "concern": 7.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 136.1,
+          "concern": 15.3
+        },
+        "property_crime": {
+          "rate_per_100k": 767.3,
+          "concern": 7.2
         }
       }
     }
@@ -17945,6 +21890,16 @@
         },
         "property_crime": {
           "rate_per_100k": 3350.8,
+          "concern": 80.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 492.4,
+          "concern": 70.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2812.1,
           "concern": 80.6
         }
       }
@@ -18003,6 +21958,16 @@
           "rate_per_100k": 2927.1,
           "concern": 73.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 364.0,
+          "concern": 54.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2197.7,
+          "concern": 63.8
+        }
       }
     }
   },
@@ -18058,6 +22023,16 @@
         "property_crime": {
           "rate_per_100k": 1701.2,
           "concern": 35.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 194.5,
+          "concern": 25.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1580.5,
+          "concern": 42.7
         }
       }
     }
@@ -18115,6 +22090,16 @@
           "rate_per_100k": 1906.9,
           "concern": 42.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 452.8,
+          "concern": 67.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1047.2,
+          "concern": 17.6
+        }
       }
     }
   },
@@ -18170,6 +22155,16 @@
         "property_crime": {
           "rate_per_100k": 1929.9,
           "concern": 43.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 477.4,
+          "concern": 69.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1669.9,
+          "concern": 46.8
         }
       }
     }
@@ -18227,6 +22222,16 @@
           "rate_per_100k": 871.7,
           "concern": 5.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 110.9,
+          "concern": 10.5
+        },
+        "property_crime": {
+          "rate_per_100k": 942.9,
+          "concern": 14.2
+        }
       }
     }
   },
@@ -18282,6 +22287,16 @@
         "property_crime": {
           "rate_per_100k": 2600.0,
           "concern": 64.0
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 365.4,
+          "concern": 55.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2262.2,
+          "concern": 65.8
         }
       }
     }
@@ -18339,6 +22354,16 @@
           "rate_per_100k": 3549.3,
           "concern": 84.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 232.1,
+          "concern": 31.6
+        },
+        "property_crime": {
+          "rate_per_100k": 3334.7,
+          "concern": 89.3
+        }
       }
     }
   },
@@ -18394,6 +22419,16 @@
         "property_crime": {
           "rate_per_100k": 4931.0,
           "concern": 96.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 611.8,
+          "concern": 79.3
+        },
+        "property_crime": {
+          "rate_per_100k": 4385.6,
+          "concern": 97.8
         }
       }
     }
@@ -18451,6 +22486,16 @@
           "rate_per_100k": 1967.7,
           "concern": 45.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 521.5,
+          "concern": 73.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1354.7,
+          "concern": 32.5
+        }
       }
     }
   },
@@ -18496,6 +22541,16 @@
         "property_crime": {
           "rate_per_100k": 4973.9,
           "concern": 96.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 894.4,
+          "concern": 94.1
+        },
+        "property_crime": {
+          "rate_per_100k": 4208.9,
+          "concern": 97.2
         }
       }
     }
@@ -18553,6 +22608,16 @@
           "rate_per_100k": 2868.3,
           "concern": 71.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 870.5,
+          "concern": 92.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2467.8,
+          "concern": 74.5
+        }
       }
     }
   },
@@ -18608,6 +22673,16 @@
         "property_crime": {
           "rate_per_100k": 4230.4,
           "concern": 92.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1227.2,
+          "concern": 97.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3860.6,
+          "concern": 93.9
         }
       }
     }
@@ -18665,6 +22740,16 @@
           "rate_per_100k": 1009.3,
           "concern": 9.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 190.8,
+          "concern": 24.6
+        },
+        "property_crime": {
+          "rate_per_100k": 830.1,
+          "concern": 9.2
+        }
       }
     }
   },
@@ -18710,6 +22795,16 @@
         "property_crime": {
           "rate_per_100k": 5794.9,
           "concern": 99.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1230.3,
+          "concern": 97.8
+        },
+        "property_crime": {
+          "rate_per_100k": 5042.6,
+          "concern": 99.8
         }
       }
     }
@@ -18767,6 +22862,16 @@
           "rate_per_100k": 1234.6,
           "concern": 16.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 154.2,
+          "concern": 18.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1013.8,
+          "concern": 16.6
+        }
       }
     }
   },
@@ -18823,6 +22928,16 @@
           "rate_per_100k": 1049.2,
           "concern": 11.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 220.2,
+          "concern": 30.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1156.2,
+          "concern": 22.9
+        }
       }
     }
   },
@@ -18858,6 +22973,16 @@
         "property_crime": {
           "rate_per_100k": 2700.4,
           "concern": 66.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1028.0,
+          "concern": 95.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2318.5,
+          "concern": 68.0
         }
       }
     }
@@ -18915,6 +23040,16 @@
           "rate_per_100k": 1588.3,
           "concern": 31.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 360.9,
+          "concern": 52.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1238.0,
+          "concern": 26.4
+        }
       }
     }
   },
@@ -18971,6 +23106,16 @@
           "rate_per_100k": 1392.0,
           "concern": 24.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 73.0,
+          "concern": 3.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1222.6,
+          "concern": 25.5
+        }
       }
     }
   },
@@ -19006,6 +23151,16 @@
         "property_crime": {
           "rate_per_100k": 1948.4,
           "concern": 44.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 187.7,
+          "concern": 24.2
+        },
+        "property_crime": {
+          "rate_per_100k": 1859.5,
+          "concern": 52.9
         }
       }
     }
@@ -19063,6 +23218,16 @@
           "rate_per_100k": 884.8,
           "concern": 6.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 85.7,
+          "concern": 5.7
+        },
+        "property_crime": {
+          "rate_per_100k": 780.8,
+          "concern": 7.6
+        }
       }
     }
   },
@@ -19119,6 +23284,16 @@
           "rate_per_100k": 5695.2,
           "concern": 99.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 864.7,
+          "concern": 92.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4008.4,
+          "concern": 95.9
+        }
       }
     }
   },
@@ -19154,6 +23329,16 @@
         "property_crime": {
           "rate_per_100k": 2849.7,
           "concern": 71.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 628.8,
+          "concern": 80.2
+        },
+        "property_crime": {
+          "rate_per_100k": 2380.2,
+          "concern": 71.7
         }
       }
     }
@@ -19201,6 +23386,16 @@
           "rate_per_100k": 1473.2,
           "concern": 26.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 333.0,
+          "concern": 46.6
+        },
+        "property_crime": {
+          "rate_per_100k": 988.8,
+          "concern": 15.9
+        }
       }
     }
   },
@@ -19247,6 +23442,16 @@
           "rate_per_100k": 6025.6,
           "concern": 99.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 667.4,
+          "concern": 82.8
+        },
+        "property_crime": {
+          "rate_per_100k": 3507.7,
+          "concern": 91.7
+        }
       }
     }
   },
@@ -19282,6 +23487,16 @@
         "property_crime": {
           "rate_per_100k": 2915.7,
           "concern": 73.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 418.6,
+          "concern": 62.5
+        },
+        "property_crime": {
+          "rate_per_100k": 2698.2,
+          "concern": 79.3
         }
       }
     }
@@ -19395,6 +23610,16 @@
           "rate_per_100k": 2881.1,
           "concern": 72.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 249.6,
+          "concern": 34.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2282.2,
+          "concern": 66.4
+        }
       }
     }
   },
@@ -19410,6 +23635,16 @@
         "property_crime": {
           "rate_per_100k": 1025.6,
           "concern": 10.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 125.4,
+          "concern": 13.5
+        },
+        "property_crime": {
+          "rate_per_100k": 988.7,
+          "concern": 15.7
         }
       }
     }
@@ -19467,6 +23702,16 @@
           "rate_per_100k": 2831.6,
           "concern": 70.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 867.0,
+          "concern": 92.4
+        },
+        "property_crime": {
+          "rate_per_100k": 2532.8,
+          "concern": 76.9
+        }
       }
     }
   },
@@ -19513,6 +23758,16 @@
           "rate_per_100k": 3660.2,
           "concern": 86.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 881.6,
+          "concern": 93.2
+        },
+        "property_crime": {
+          "rate_per_100k": 3467.3,
+          "concern": 91.3
+        }
       }
     }
   },
@@ -19549,6 +23804,16 @@
           "rate_per_100k": 2791.1,
           "concern": 69.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 308.2,
+          "concern": 44.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2621.2,
+          "concern": 78.0
+        }
       }
     }
   },
@@ -19584,6 +23849,16 @@
         "property_crime": {
           "rate_per_100k": 1600.7,
           "concern": 31.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 194.4,
+          "concern": 25.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1342.4,
+          "concern": 31.4
         }
       }
     }
@@ -19641,6 +23916,16 @@
           "rate_per_100k": 1284.6,
           "concern": 19.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 93.6,
+          "concern": 7.2
+        },
+        "property_crime": {
+          "rate_per_100k": 928.2,
+          "concern": 13.3
+        }
       }
     }
   },
@@ -19656,6 +23941,16 @@
         "property_crime": {
           "rate_per_100k": 3460.0,
           "concern": 82.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 354.8,
+          "concern": 51.9
+        },
+        "property_crime": {
+          "rate_per_100k": 2043.3,
+          "concern": 60.3
         }
       }
     }
@@ -19703,6 +23998,16 @@
           "rate_per_100k": 3664.6,
           "concern": 86.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 833.2,
+          "concern": 91.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3426.7,
+          "concern": 90.4
+        }
       }
     }
   },
@@ -19739,6 +24044,16 @@
           "rate_per_100k": 2752.3,
           "concern": 68.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 479.5,
+          "concern": 69.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2375.0,
+          "concern": 71.5
+        }
       }
     }
   },
@@ -19774,6 +24089,16 @@
         "property_crime": {
           "rate_per_100k": 2505.7,
           "concern": 61.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 215.0,
+          "concern": 28.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1919.6,
+          "concern": 56.0
         }
       }
     }
@@ -19831,6 +24156,16 @@
           "rate_per_100k": 1927.2,
           "concern": 43.5
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 364.8,
+          "concern": 54.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1798.5,
+          "concern": 51.4
+        }
       }
     }
   },
@@ -19877,6 +24212,16 @@
           "rate_per_100k": 1821.0,
           "concern": 39.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 333.1,
+          "concern": 46.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1502.9,
+          "concern": 39.2
+        }
       }
     }
   },
@@ -19903,6 +24248,16 @@
           "rate_per_100k": 1766.8,
           "concern": 38.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 264.2,
+          "concern": 37.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1509.6,
+          "concern": 39.4
+        }
       }
     }
   },
@@ -19928,6 +24283,16 @@
         "property_crime": {
           "rate_per_100k": 4049.4,
           "concern": 91.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 777.2,
+          "concern": 89.5
+        },
+        "property_crime": {
+          "rate_per_100k": 3079.7,
+          "concern": 86.1
         }
       }
     }
@@ -19985,6 +24350,16 @@
           "rate_per_100k": 3446.1,
           "concern": 81.9
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 555.3,
+          "concern": 75.8
+        },
+        "property_crime": {
+          "rate_per_100k": 2888.5,
+          "concern": 82.8
+        }
       }
     }
   },
@@ -20010,6 +24385,16 @@
         "property_crime": {
           "rate_per_100k": 2236.0,
           "concern": 52.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 350.3,
+          "concern": 50.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1793.3,
+          "concern": 50.8
         }
       }
     }
@@ -20067,6 +24452,16 @@
           "rate_per_100k": 1664.9,
           "concern": 33.1
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 97.0,
+          "concern": 7.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1477.3,
+          "concern": 37.3
+        }
       }
     }
   },
@@ -20102,6 +24497,16 @@
         "property_crime": {
           "rate_per_100k": 2169.2,
           "concern": 50.6
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 415.8,
+          "concern": 61.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1761.7,
+          "concern": 49.5
         }
       }
     }
@@ -20148,6 +24553,16 @@
         "property_crime": {
           "rate_per_100k": 892.3,
           "concern": 6.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 207.1,
+          "concern": 27.2
+        },
+        "property_crime": {
+          "rate_per_100k": 549.0,
+          "concern": 3.1
         }
       }
     }
@@ -20205,6 +24620,16 @@
           "rate_per_100k": 2136.5,
           "concern": 49.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 414.4,
+          "concern": 61.7
+        },
+        "property_crime": {
+          "rate_per_100k": 1798.0,
+          "concern": 51.2
+        }
       }
     }
   },
@@ -20260,6 +24685,16 @@
         "property_crime": {
           "rate_per_100k": 3007.0,
           "concern": 75.7
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 512.2,
+          "concern": 72.3
+        },
+        "property_crime": {
+          "rate_per_100k": 2353.2,
+          "concern": 69.7
         }
       }
     }
@@ -20317,6 +24752,16 @@
           "rate_per_100k": 1576.8,
           "concern": 30.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 496.7,
+          "concern": 70.8
+        },
+        "property_crime": {
+          "rate_per_100k": 1369.2,
+          "concern": 32.9
+        }
       }
     }
   },
@@ -20373,6 +24818,16 @@
           "rate_per_100k": 1149.5,
           "concern": 13.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 87.3,
+          "concern": 6.1
+        },
+        "property_crime": {
+          "rate_per_100k": 912.8,
+          "concern": 12.9
+        }
       }
     }
   },
@@ -20408,6 +24863,16 @@
         "property_crime": {
           "rate_per_100k": 3627.5,
           "concern": 85.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 748.2,
+          "concern": 87.4
+        },
+        "property_crime": {
+          "rate_per_100k": 3086.6,
+          "concern": 86.3
         }
       }
     }
@@ -20465,6 +24930,16 @@
           "rate_per_100k": 2926.4,
           "concern": 73.3
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 293.8,
+          "concern": 42.7
+        },
+        "property_crime": {
+          "rate_per_100k": 2353.6,
+          "concern": 69.9
+        }
       }
     }
   },
@@ -20490,6 +24965,16 @@
         "property_crime": {
           "rate_per_100k": 1662.6,
           "concern": 32.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 374.3,
+          "concern": 56.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1551.5,
+          "concern": 41.2
         }
       }
     }
@@ -20526,6 +25011,16 @@
         "property_crime": {
           "rate_per_100k": 2127.9,
           "concern": 49.2
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 214.3,
+          "concern": 28.3
+        },
+        "property_crime": {
+          "rate_per_100k": 1727.9,
+          "concern": 47.9
         }
       }
     }
@@ -20583,6 +25078,16 @@
           "rate_per_100k": 1373.8,
           "concern": 23.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 311.3,
+          "concern": 44.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1307.9,
+          "concern": 29.6
+        }
       }
     }
   },
@@ -20628,6 +25133,16 @@
         "property_crime": {
           "rate_per_100k": 2162.5,
           "concern": 50.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 492.1,
+          "concern": 69.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1497.1,
+          "concern": 38.1
         }
       }
     }
@@ -20685,6 +25200,16 @@
           "rate_per_100k": 1855.5,
           "concern": 40.6
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 383.5,
+          "concern": 57.5
+        },
+        "property_crime": {
+          "rate_per_100k": 1660.3,
+          "concern": 46.0
+        }
       }
     }
   },
@@ -20741,6 +25266,16 @@
           "rate_per_100k": 1374.1,
           "concern": 23.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 422.3,
+          "concern": 63.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1201.3,
+          "concern": 24.6
+        }
       }
     }
   },
@@ -20766,6 +25301,16 @@
         "property_crime": {
           "rate_per_100k": 2524.3,
           "concern": 62.9
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 334.0,
+          "concern": 47.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2019.5,
+          "concern": 59.9
         }
       }
     }
@@ -20823,6 +25368,16 @@
           "rate_per_100k": 3598.1,
           "concern": 85.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 286.2,
+          "concern": 41.0
+        },
+        "property_crime": {
+          "rate_per_100k": 2919.0,
+          "concern": 84.1
+        }
       }
     }
   },
@@ -20859,6 +25414,16 @@
           "rate_per_100k": 223.1,
           "concern": 0.2
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 169.7,
+          "concern": 21.4
+        },
+        "property_crime": {
+          "rate_per_100k": 169.7,
+          "concern": 0.2
+        }
       }
     }
   },
@@ -20884,6 +25449,16 @@
         "property_crime": {
           "rate_per_100k": 2407.9,
           "concern": 57.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 393.7,
+          "concern": 58.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1974.6,
+          "concern": 59.0
         }
       }
     }
@@ -20930,6 +25505,16 @@
         "property_crime": {
           "rate_per_100k": 2644.9,
           "concern": 65.1
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 355.7,
+          "concern": 52.1
+        },
+        "property_crime": {
+          "rate_per_100k": 2184.8,
+          "concern": 63.0
         }
       }
     }
@@ -20987,6 +25572,16 @@
           "rate_per_100k": 5284.9,
           "concern": 98.7
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 1208.3,
+          "concern": 97.2
+        },
+        "property_crime": {
+          "rate_per_100k": 4640.9,
+          "concern": 99.1
+        }
       }
     }
   },
@@ -21042,6 +25637,16 @@
         "property_crime": {
           "rate_per_100k": 3529.9,
           "concern": 83.4
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 405.5,
+          "concern": 60.6
+        },
+        "property_crime": {
+          "rate_per_100k": 2912.7,
+          "concern": 83.7
         }
       }
     }
@@ -21099,6 +25704,16 @@
           "rate_per_100k": 2961.3,
           "concern": 74.4
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 743.9,
+          "concern": 87.1
+        },
+        "property_crime": {
+          "rate_per_100k": 3022.6,
+          "concern": 85.0
+        }
       }
     }
   },
@@ -21144,6 +25759,16 @@
         "property_crime": {
           "rate_per_100k": 1191.0,
           "concern": 15.5
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 74.5,
+          "concern": 4.1
+        },
+        "property_crime": {
+          "rate_per_100k": 1152.2,
+          "concern": 21.8
         }
       }
     }
@@ -21257,6 +25882,16 @@
           "rate_per_100k": 2170.3,
           "concern": 50.8
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 460.7,
+          "concern": 68.6
+        },
+        "property_crime": {
+          "rate_per_100k": 1968.0,
+          "concern": 58.4
+        }
       }
     }
   },
@@ -21313,6 +25948,16 @@
           "rate_per_100k": 2068.4,
           "concern": 49.0
         }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 522.2,
+          "concern": 73.9
+        },
+        "property_crime": {
+          "rate_per_100k": 1883.7,
+          "concern": 53.6
+        }
       }
     }
   },
@@ -21358,6 +26003,16 @@
         "property_crime": {
           "rate_per_100k": 1048.6,
           "concern": 11.3
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 262.5,
+          "concern": 37.3
+        },
+        "property_crime": {
+          "rate_per_100k": 877.0,
+          "concern": 11.8
         }
       }
     }
@@ -21414,6 +26069,16 @@
         "property_crime": {
           "rate_per_100k": 1275.6,
           "concern": 18.8
+        }
+      },
+      "2025": {
+        "violent_crime": {
+          "rate_per_100k": 352.7,
+          "concern": 51.4
+        },
+        "property_crime": {
+          "rate_per_100k": 1153.3,
+          "concern": 22.0
         }
       }
     }
