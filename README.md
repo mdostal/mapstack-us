@@ -81,7 +81,7 @@ built from two real, working examples instead of upfront design.
   - **Sales tax** — real combined state + local sales tax rate, Tax Foundation
     city-level data where published, a real state average fallback otherwise, full
     512-city coverage with no API key (`data/sales-tax-methodology.md`).
-  - **Measured grass pollen** — real (not modeled) elevated-grass-pollen-day counts
+  - **Measured grass pollen (real, limited coverage)** — real (not modeled) elevated-grass-pollen-day counts
     from a real county health department pollen station, a genuinely separate signal
     from allergy severity's modeled score. Intentionally sparse (7/512 cities, the
     Twin Cities MN metro) rather than a fabricated national estimate
