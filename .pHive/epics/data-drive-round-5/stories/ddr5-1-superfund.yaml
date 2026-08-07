@@ -1,7 +1,7 @@
 id: ddr5-1-superfund
 epic: data-drive-round-5
 title: Ship EPA Superfund/NPL site density
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
