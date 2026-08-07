@@ -34,9 +34,9 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  twenty-six genuinely different real implementations across the full 512-city spine,
-  all free (all but crime, property tax, unemployment, air quality, and population
-  change also keyless):
+  twenty-seven genuinely different real implementations across the full 512-city spine,
+  all free (all but crime, property tax, unemployment, air quality, population change,
+  and cost of living also keyless):
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
@@ -104,6 +104,11 @@ built from two real, working examples instead of upfront design.
     original five Census-cluster items, real Census ACS data (Census PEP's own
     place-level product appears to have moved for recent vintages, confirmed live)
     (`data/population-change-methodology.md`).
+  - **Cost of living** — real BEA Regional Price Parities, unblocked by a real
+    `BEA_API_KEY`. Required building a brand-new city→CBSA crosswalk from the Census
+    Bureau's own delineation file since BEA only publishes at the metro/state level,
+    with a real state-level fallback for cities outside any metro area
+    (`data/cost-of-living-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
@@ -126,11 +131,18 @@ built from two real, working examples instead of upfront design.
 ## What's next
 
 All five original Census-cluster items (population, income, broadband, property tax,
-housing-cost-burden) are now real and shipped, three of them (population, property tax)
-pulled directly from a real `CENSUS_API_KEY` this session, the rest via County Health
-Rankings' free republication route. Also newly unblocked this session:
-`BLS_API_KEY` (unemployment) and `EPA_AIRNOW_API_KEY` (air quality) — both shipped.
-`BEA_API_KEY` (cost of living / Regional Price Parities) is in hand but not yet built.
+housing-cost-burden) are real and shipped, three of them (population, property tax)
+pulled directly from a real `CENSUS_API_KEY`, the rest via County Health Rankings' free
+republication route. All four freshly-obtained keys this cycle are now shipped:
+`BLS_API_KEY` (unemployment), `EPA_AIRNOW_API_KEY` (air quality), and `BEA_API_KEY`
+(cost of living, Regional Price Parities — required building a brand-new city→CBSA
+crosswalk since BEA only publishes at the metro/state level).
+
+One real, pending, user-side action remains: the formal NAB (National Allergy Bureau)
+pollen data request — a real application process (PI info, abstract, CV, institutional
+letter, up to 12 weeks), not a self-serve key, tracked at
+`https://allergist.aaaai.org/forms/nab-data-request-form.php`.
+
 Full ~19,500-place resolution (beyond the 512-city spine) remains a separate, larger
 lift — see `.pHive/epics/data-store/docs/full-resolution-spine-research.md` for the
 lazy-load design. Beyond that: more free real datasets as good candidates turn up

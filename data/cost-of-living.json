@@ -1,0 +1,3082 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "metro_tier_cities": 502,
+    "rpp_ceiling_for_100_score": 118.0,
+    "rpp_floor_for_0_score": 82.0,
+    "source": "BEA Regional Price Parities, 2024, MARPP (metro) LineCode 1 with SARPP (state) fallback",
+    "state_tier_cities": 10
+  },
+  "abilene-tx": {
+    "rpp": 90.4,
+    "score": 23.2,
+    "tier": "metro",
+    "tier_name": "Abilene, TX"
+  },
+  "akron-oh": {
+    "rpp": 93.4,
+    "score": 31.6,
+    "tier": "metro",
+    "tier_name": "Akron, OH"
+  },
+  "alameda-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "albany-ny": {
+    "rpp": 99.6,
+    "score": 48.8,
+    "tier": "metro",
+    "tier_name": "Albany-Schenectady-Troy, NY"
+  },
+  "albuquerque-nm": {
+    "rpp": 95.5,
+    "score": 37.6,
+    "tier": "metro",
+    "tier_name": "Albuquerque, NM"
+  },
+  "alexandria-va": {
+    "rpp": 108.9,
+    "score": 74.7,
+    "tier": "metro",
+    "tier_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+  },
+  "alhambra-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "allen-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "allentown-pa": {
+    "rpp": 100.0,
+    "score": 49.9,
+    "tier": "metro",
+    "tier_name": "Allentown-Bethlehem-Easton, PA-NJ"
+  },
+  "amarillo-tx": {
+    "rpp": 91.8,
+    "score": 27.3,
+    "tier": "metro",
+    "tier_name": "Amarillo, TX"
+  },
+  "anaheim-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "anchorage-ak": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Anchorage, AK"
+  },
+  "ankeny-ia": {
+    "rpp": 91.7,
+    "score": 26.9,
+    "tier": "metro",
+    "tier_name": "Des Moines-West Des Moines, IA"
+  },
+  "ann-arbor-mi": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Ann Arbor, MI"
+  },
+  "antioch-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "apex-nc": {
+    "rpp": 98.2,
+    "score": 44.9,
+    "tier": "metro",
+    "tier_name": "Raleigh-Cary, NC"
+  },
+  "arlington-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "arlington-va": {
+    "rpp": 108.9,
+    "score": 74.7,
+    "tier": "metro",
+    "tier_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+  },
+  "arvada-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "asheville-nc": {
+    "rpp": 96.5,
+    "score": 40.3,
+    "tier": "metro",
+    "tier_name": "Asheville, NC"
+  },
+  "athens-ga": {
+    "rpp": 93.3,
+    "score": 31.5,
+    "tier": "metro",
+    "tier_name": "Athens-Clarke County, GA"
+  },
+  "atlanta-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "auburn-al": {
+    "rpp": 87.9,
+    "score": 16.5,
+    "tier": "metro",
+    "tier_name": "Auburn-Opelika, AL"
+  },
+  "auburn-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "augusta-ga": {
+    "rpp": 91.9,
+    "score": 27.5,
+    "tier": "metro",
+    "tier_name": "Augusta-Richmond County, GA-SC"
+  },
+  "aurora-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "aurora-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "austin-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "avondale-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "bakersfield-ca": {
+    "rpp": 100.9,
+    "score": 52.5,
+    "tier": "metro",
+    "tier_name": "Bakersfield-Delano, CA"
+  },
+  "baltimore-md": {
+    "rpp": 104.5,
+    "score": 62.5,
+    "tier": "metro",
+    "tier_name": "Baltimore-Columbia-Towson, MD"
+  },
+  "baton-rouge-la": {
+    "rpp": 90.8,
+    "score": 24.4,
+    "tier": "metro",
+    "tier_name": "Baton Rouge, LA"
+  },
+  "baytown-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "beaumont-tx": {
+    "rpp": 90.0,
+    "score": 22.4,
+    "tier": "metro",
+    "tier_name": "Beaumont-Port Arthur, TX"
+  },
+  "beaverton-or": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Portland-Vancouver-Hillsboro, OR-WA"
+  },
+  "bellevue-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "bellingham-wa": {
+    "rpp": 103.3,
+    "score": 59.3,
+    "tier": "metro",
+    "tier_name": "Bellingham, WA"
+  },
+  "bend-or": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Bend, OR"
+  },
+  "berkeley-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "bethlehem-pa": {
+    "rpp": 100.0,
+    "score": 49.9,
+    "tier": "metro",
+    "tier_name": "Allentown-Bethlehem-Easton, PA-NJ"
+  },
+  "billings-mt": {
+    "rpp": 93.5,
+    "score": 32.0,
+    "tier": "metro",
+    "tier_name": "Billings, MT"
+  },
+  "birmingham-al": {
+    "rpp": 91.6,
+    "score": 26.8,
+    "tier": "metro",
+    "tier_name": "Birmingham, AL"
+  },
+  "bismarck-nd": {
+    "rpp": 91.0,
+    "score": 25.1,
+    "tier": "metro",
+    "tier_name": "Bismarck, ND"
+  },
+  "blanding-ut": {
+    "rpp": 98.9,
+    "score": 46.8,
+    "tier": "state",
+    "tier_name": "UT"
+  },
+  "bloomington-il": {
+    "rpp": 93.5,
+    "score": 32.0,
+    "tier": "metro",
+    "tier_name": "Bloomington, IL"
+  },
+  "bloomington-in": {
+    "rpp": 95.1,
+    "score": 36.3,
+    "tier": "metro",
+    "tier_name": "Bloomington, IN"
+  },
+  "bloomington-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "boca-raton-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "boise-id": {
+    "rpp": 98.4,
+    "score": 45.5,
+    "tier": "metro",
+    "tier_name": "Boise City, ID"
+  },
+  "boston-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "boulder-co": {
+    "rpp": 105.2,
+    "score": 64.5,
+    "tier": "metro",
+    "tier_name": "Boulder, CO"
+  },
+  "bowling-green-ky": {
+    "rpp": 90.2,
+    "score": 22.7,
+    "tier": "metro",
+    "tier_name": "Bowling Green, KY"
+  },
+  "boynton-beach-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "bridgeport-ct": {
+    "rpp": 106.9,
+    "score": 69.1,
+    "tier": "metro",
+    "tier_name": "Bridgeport-Stamford-Danbury, CT"
+  },
+  "brockton-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "broken-arrow-ok": {
+    "rpp": 89.2,
+    "score": 20.0,
+    "tier": "metro",
+    "tier_name": "Tulsa, OK"
+  },
+  "brooklyn-park-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "broomfield-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "brownsville-tx": {
+    "rpp": 86.0,
+    "score": 11.0,
+    "tier": "metro",
+    "tier_name": "Brownsville-Harlingen, TX"
+  },
+  "bryan-tx": {
+    "rpp": 91.0,
+    "score": 24.9,
+    "tier": "metro",
+    "tier_name": "College Station-Bryan, TX"
+  },
+  "buckeye-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "buena-park-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "buffalo-ny": {
+    "rpp": 95.8,
+    "score": 38.5,
+    "tier": "metro",
+    "tier_name": "Buffalo-Cheektowaga, NY"
+  },
+  "burbank-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "caldwell-id": {
+    "rpp": 98.4,
+    "score": 45.5,
+    "tier": "metro",
+    "tier_name": "Boise City, ID"
+  },
+  "cambridge-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "cape-coral-fl": {
+    "rpp": 102.3,
+    "score": 56.5,
+    "tier": "metro",
+    "tier_name": "Cape Coral-Fort Myers, FL"
+  },
+  "carlsbad-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "carlsbad-nm": {
+    "rpp": 92.2,
+    "score": 28.4,
+    "tier": "state",
+    "tier_name": "NM"
+  },
+  "carmel-in": {
+    "rpp": 95.7,
+    "score": 38.0,
+    "tier": "metro",
+    "tier_name": "Indianapolis-Carmel-Greenwood, IN"
+  },
+  "carrollton-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "carson-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "cary-nc": {
+    "rpp": 98.2,
+    "score": 44.9,
+    "tier": "metro",
+    "tier_name": "Raleigh-Cary, NC"
+  },
+  "castle-rock-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "cedar-park-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "cedar-rapids-ia": {
+    "rpp": 89.0,
+    "score": 19.3,
+    "tier": "metro",
+    "tier_name": "Cedar Rapids, IA"
+  },
+  "centennial-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "champaign-il": {
+    "rpp": 92.7,
+    "score": 29.7,
+    "tier": "metro",
+    "tier_name": "Champaign-Urbana, IL"
+  },
+  "chandler-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "charleston-sc": {
+    "rpp": 101.0,
+    "score": 52.7,
+    "tier": "metro",
+    "tier_name": "Charleston-North Charleston, SC"
+  },
+  "charlotte-nc": {
+    "rpp": 97.3,
+    "score": 42.6,
+    "tier": "metro",
+    "tier_name": "Charlotte-Concord-Gastonia, NC-SC"
+  },
+  "chattanooga-tn": {
+    "rpp": 91.5,
+    "score": 26.3,
+    "tier": "metro",
+    "tier_name": "Chattanooga, TN-GA"
+  },
+  "chesapeake-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "chicago-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "chico-ca": {
+    "rpp": 101.2,
+    "score": 53.3,
+    "tier": "metro",
+    "tier_name": "Chico, CA"
+  },
+  "chino-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "chino-hills-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "chula-vista-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "cicero-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "cincinnati-oh": {
+    "rpp": 95.4,
+    "score": 37.1,
+    "tier": "metro",
+    "tier_name": "Cincinnati, OH-KY-IN"
+  },
+  "citrus-heights-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "clarksville-tn": {
+    "rpp": 90.9,
+    "score": 24.9,
+    "tier": "metro",
+    "tier_name": "Clarksville, TN-KY"
+  },
+  "clearwater-fl": {
+    "rpp": 100.9,
+    "score": 52.5,
+    "tier": "metro",
+    "tier_name": "Tampa-St. Petersburg-Clearwater, FL"
+  },
+  "cleveland-oh": {
+    "rpp": 93.9,
+    "score": 33.1,
+    "tier": "metro",
+    "tier_name": "Cleveland, OH"
+  },
+  "clifton-nj": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "clovis-ca": {
+    "rpp": 102.2,
+    "score": 56.0,
+    "tier": "metro",
+    "tier_name": "Fresno, CA"
+  },
+  "college-station-tx": {
+    "rpp": 91.0,
+    "score": 24.9,
+    "tier": "metro",
+    "tier_name": "College Station-Bryan, TX"
+  },
+  "colorado-springs-co": {
+    "rpp": 100.7,
+    "score": 52.0,
+    "tier": "metro",
+    "tier_name": "Colorado Springs, CO"
+  },
+  "columbia-mo": {
+    "rpp": 89.4,
+    "score": 20.7,
+    "tier": "metro",
+    "tier_name": "Columbia, MO"
+  },
+  "columbia-sc": {
+    "rpp": 93.7,
+    "score": 32.4,
+    "tier": "metro",
+    "tier_name": "Columbia, SC"
+  },
+  "columbus-ga": {
+    "rpp": 89.3,
+    "score": 20.3,
+    "tier": "metro",
+    "tier_name": "Columbus, GA-AL"
+  },
+  "columbus-oh": {
+    "rpp": 95.5,
+    "score": 37.4,
+    "tier": "metro",
+    "tier_name": "Columbus, OH"
+  },
+  "compton-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "concord-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "concord-nc": {
+    "rpp": 97.3,
+    "score": 42.6,
+    "tier": "metro",
+    "tier_name": "Charlotte-Concord-Gastonia, NC-SC"
+  },
+  "conroe-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "coral-springs-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "corona-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "corpus-christi-tx": {
+    "rpp": 92.7,
+    "score": 29.6,
+    "tier": "metro",
+    "tier_name": "Corpus Christi, TX"
+  },
+  "costa-mesa-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "cranston-ri": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "dallas-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "daly-city-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "danbury-ct": {
+    "rpp": 106.9,
+    "score": 69.1,
+    "tier": "metro",
+    "tier_name": "Bridgeport-Stamford-Danbury, CT"
+  },
+  "davenport-ia": {
+    "rpp": 89.1,
+    "score": 19.7,
+    "tier": "metro",
+    "tier_name": "Davenport-Moline-Rock Island, IA-IL"
+  },
+  "davie-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "dayton-oh": {
+    "rpp": 92.7,
+    "score": 29.7,
+    "tier": "metro",
+    "tier_name": "Dayton-Kettering-Beavercreek, OH"
+  },
+  "daytona-beach-fl": {
+    "rpp": 99.4,
+    "score": 48.2,
+    "tier": "metro",
+    "tier_name": "Deltona-Daytona Beach-Ormond Beach, FL"
+  },
+  "dearborn-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "deerfield-beach-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "deltona-fl": {
+    "rpp": 99.4,
+    "score": 48.2,
+    "tier": "metro",
+    "tier_name": "Deltona-Daytona Beach-Ormond Beach, FL"
+  },
+  "denton-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "denver-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "des-moines-ia": {
+    "rpp": 91.7,
+    "score": 26.9,
+    "tier": "metro",
+    "tier_name": "Des Moines-West Des Moines, IA"
+  },
+  "detroit-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "doral-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "downey-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "duluth-mn": {
+    "rpp": 88.8,
+    "score": 18.8,
+    "tier": "metro",
+    "tier_name": "Duluth, MN-WI"
+  },
+  "durango-co": {
+    "rpp": 103.1,
+    "score": 58.5,
+    "tier": "state",
+    "tier_name": "CO"
+  },
+  "durham-nc": {
+    "rpp": 97.6,
+    "score": 43.3,
+    "tier": "metro",
+    "tier_name": "Durham-Chapel Hill, NC"
+  },
+  "edinburg-tx": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "McAllen-Edinburg-Mission, TX"
+  },
+  "edmond-ok": {
+    "rpp": 90.4,
+    "score": 23.4,
+    "tier": "metro",
+    "tier_name": "Oklahoma City, OK"
+  },
+  "el-cajon-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "el-monte-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "el-paso-tx": {
+    "rpp": 89.9,
+    "score": 22.0,
+    "tier": "metro",
+    "tier_name": "El Paso, TX"
+  },
+  "elgin-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "elizabeth-nj": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "elk-grove-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "erie-pa": {
+    "rpp": 91.0,
+    "score": 24.9,
+    "tier": "metro",
+    "tier_name": "Erie, PA"
+  },
+  "escondido-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "eugene-or": {
+    "rpp": 101.6,
+    "score": 54.4,
+    "tier": "metro",
+    "tier_name": "Eugene-Springfield, OR"
+  },
+  "evansville-in": {
+    "rpp": 91.5,
+    "score": 26.5,
+    "tier": "metro",
+    "tier_name": "Evansville, IN"
+  },
+  "everett-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "fairfield-ca": {
+    "rpp": 108.5,
+    "score": 73.6,
+    "tier": "metro",
+    "tier_name": "Vallejo, CA"
+  },
+  "fall-river-ma": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "fargo-nd": {
+    "rpp": 90.9,
+    "score": 24.6,
+    "tier": "metro",
+    "tier_name": "Fargo, ND-MN"
+  },
+  "farmington-hills-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "fayetteville-ar": {
+    "rpp": 91.4,
+    "score": 26.0,
+    "tier": "metro",
+    "tier_name": "Fayetteville-Springdale-Rogers, AR"
+  },
+  "fayetteville-nc": {
+    "rpp": 92.0,
+    "score": 27.7,
+    "tier": "metro",
+    "tier_name": "Fayetteville, NC"
+  },
+  "federal-way-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "fishers-in": {
+    "rpp": 95.7,
+    "score": 38.0,
+    "tier": "metro",
+    "tier_name": "Indianapolis-Carmel-Greenwood, IN"
+  },
+  "flagstaff-az": {
+    "rpp": 100.3,
+    "score": 50.9,
+    "tier": "metro",
+    "tier_name": "Flagstaff, AZ"
+  },
+  "flint-mi": {
+    "rpp": 93.0,
+    "score": 30.7,
+    "tier": "metro",
+    "tier_name": "Flint, MI"
+  },
+  "flower-mound-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "folsom-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "fontana-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "fort-collins-co": {
+    "rpp": 101.1,
+    "score": 53.1,
+    "tier": "metro",
+    "tier_name": "Fort Collins-Loveland, CO"
+  },
+  "fort-lauderdale-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "fort-myers-fl": {
+    "rpp": 102.3,
+    "score": 56.5,
+    "tier": "metro",
+    "tier_name": "Cape Coral-Fort Myers, FL"
+  },
+  "fort-smith-ar": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "Fort Smith, AR-OK"
+  },
+  "fort-wayne-in": {
+    "rpp": 92.6,
+    "score": 29.4,
+    "tier": "metro",
+    "tier_name": "Fort Wayne, IN"
+  },
+  "fort-worth-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "franklin-tn": {
+    "rpp": 96.3,
+    "score": 39.8,
+    "tier": "metro",
+    "tier_name": "Nashville-Davidson--Murfreesboro--Franklin, TN"
+  },
+  "frederick-md": {
+    "rpp": 108.9,
+    "score": 74.7,
+    "tier": "metro",
+    "tier_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+  },
+  "fremont-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "fresno-ca": {
+    "rpp": 102.2,
+    "score": 56.0,
+    "tier": "metro",
+    "tier_name": "Fresno, CA"
+  },
+  "frisco-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "fullerton-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "gainesville-fl": {
+    "rpp": 96.7,
+    "score": 40.9,
+    "tier": "metro",
+    "tier_name": "Gainesville, FL"
+  },
+  "garden-grove-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "garland-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "gastonia-nc": {
+    "rpp": 97.3,
+    "score": 42.6,
+    "tier": "metro",
+    "tier_name": "Charlotte-Concord-Gastonia, NC-SC"
+  },
+  "georgetown-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "geraldine-mt": {
+    "rpp": 94.6,
+    "score": 35.1,
+    "tier": "state",
+    "tier_name": "MT"
+  },
+  "gilbert-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "glendale-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "glendale-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "goodyear-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "grand-junction-co": {
+    "rpp": 95.5,
+    "score": 37.4,
+    "tier": "metro",
+    "tier_name": "Grand Junction, CO"
+  },
+  "grand-prairie-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "grand-rapids-mi": {
+    "rpp": 95.5,
+    "score": 37.6,
+    "tier": "metro",
+    "tier_name": "Grand Rapids-Wyoming-Kentwood, MI"
+  },
+  "greeley-co": {
+    "rpp": 100.2,
+    "score": 50.5,
+    "tier": "metro",
+    "tier_name": "Greeley, CO"
+  },
+  "green-bay-wi": {
+    "rpp": 93.1,
+    "score": 30.8,
+    "tier": "metro",
+    "tier_name": "Green Bay, WI"
+  },
+  "greensboro-nc": {
+    "rpp": 92.9,
+    "score": 30.2,
+    "tier": "metro",
+    "tier_name": "Greensboro-High Point, NC"
+  },
+  "greenville-nc": {
+    "rpp": 88.4,
+    "score": 17.8,
+    "tier": "metro",
+    "tier_name": "Greenville, NC"
+  },
+  "gresham-or": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Portland-Vancouver-Hillsboro, OR-WA"
+  },
+  "hampton-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "hartford-ct": {
+    "rpp": 102.7,
+    "score": 57.6,
+    "tier": "metro",
+    "tier_name": "Hartford-West Hartford-East Hartford, CT"
+  },
+  "hawthorne-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "hayward-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "hemet-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "henderson-nv": {
+    "rpp": 100.2,
+    "score": 50.6,
+    "tier": "metro",
+    "tier_name": "Las Vegas-Henderson-North Las Vegas, NV"
+  },
+  "hesperia-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "hialeah-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "high-point-nc": {
+    "rpp": 92.9,
+    "score": 30.2,
+    "tier": "metro",
+    "tier_name": "Greensboro-High Point, NC"
+  },
+  "hillsboro-or": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Portland-Vancouver-Hillsboro, OR-WA"
+  },
+  "hollywood-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "homestead-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "honolulu-hi": {
+    "rpp": 111.0,
+    "score": 80.4,
+    "tier": "metro",
+    "tier_name": "Urban Honolulu, HI"
+  },
+  "hoover-al": {
+    "rpp": 91.6,
+    "score": 26.8,
+    "tier": "metro",
+    "tier_name": "Birmingham, AL"
+  },
+  "houston-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "huntington-beach-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "huntsville-al": {
+    "rpp": 93.1,
+    "score": 30.8,
+    "tier": "metro",
+    "tier_name": "Huntsville, AL"
+  },
+  "independence-mo": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "indianapolis-in": {
+    "rpp": 95.7,
+    "score": 38.0,
+    "tier": "metro",
+    "tier_name": "Indianapolis-Carmel-Greenwood, IN"
+  },
+  "indio-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "inglewood-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "irvine-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "irving-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "jackson-ms": {
+    "rpp": 89.0,
+    "score": 19.6,
+    "tier": "metro",
+    "tier_name": "Jackson, MS"
+  },
+  "jacksonville-fl": {
+    "rpp": 99.5,
+    "score": 48.6,
+    "tier": "metro",
+    "tier_name": "Jacksonville, FL"
+  },
+  "jersey-city-nj": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "johns-creek-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "joliet-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "jonesboro-ar": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "Jonesboro, AR"
+  },
+  "jurupa-valley-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "kalispell-mt": {
+    "rpp": 94.6,
+    "score": 35.1,
+    "tier": "state",
+    "tier_name": "MT"
+  },
+  "kansas-city-ks": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "kansas-city-mo": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "kennewick-wa": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Kennewick-Richland, WA"
+  },
+  "kenosha-wi": {
+    "rpp": 101.1,
+    "score": 53.1,
+    "tier": "metro",
+    "tier_name": "Kenosha, WI"
+  },
+  "kent-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "killeen-tx": {
+    "rpp": 91.1,
+    "score": 25.4,
+    "tier": "metro",
+    "tier_name": "Killeen-Temple, TX"
+  },
+  "kirkland-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "kissimmee-fl": {
+    "rpp": 101.4,
+    "score": 53.9,
+    "tier": "metro",
+    "tier_name": "Orlando-Kissimmee-Sanford, FL"
+  },
+  "knoxville-tn": {
+    "rpp": 92.6,
+    "score": 29.4,
+    "tier": "metro",
+    "tier_name": "Knoxville, TN"
+  },
+  "lafayette-la": {
+    "rpp": 87.2,
+    "score": 14.5,
+    "tier": "metro",
+    "tier_name": "Lafayette, LA"
+  },
+  "lake-charles-la": {
+    "rpp": 85.9,
+    "score": 10.7,
+    "tier": "metro",
+    "tier_name": "Lake Charles, LA"
+  },
+  "lake-forest-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "lakeland-fl": {
+    "rpp": 97.1,
+    "score": 42.1,
+    "tier": "metro",
+    "tier_name": "Lakeland-Winter Haven, FL"
+  },
+  "lakeville-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "lakewood-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "lakewood-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "lancaster-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "lansing-mi": {
+    "rpp": 95.0,
+    "score": 36.1,
+    "tier": "metro",
+    "tier_name": "Lansing-East Lansing, MI"
+  },
+  "laredo-tx": {
+    "rpp": 87.0,
+    "score": 13.8,
+    "tier": "metro",
+    "tier_name": "Laredo, TX"
+  },
+  "largo-fl": {
+    "rpp": 100.9,
+    "score": 52.5,
+    "tier": "metro",
+    "tier_name": "Tampa-St. Petersburg-Clearwater, FL"
+  },
+  "las-cruces-nm": {
+    "rpp": 90.2,
+    "score": 22.8,
+    "tier": "metro",
+    "tier_name": "Las Cruces, NM"
+  },
+  "las-vegas-nv": {
+    "rpp": 100.2,
+    "score": 50.6,
+    "tier": "metro",
+    "tier_name": "Las Vegas-Henderson-North Las Vegas, NV"
+  },
+  "lawrence-ks": {
+    "rpp": 90.2,
+    "score": 22.9,
+    "tier": "metro",
+    "tier_name": "Lawrence, KS"
+  },
+  "lawrence-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "lawton-ok": {
+    "rpp": 85.9,
+    "score": 10.9,
+    "tier": "metro",
+    "tier_name": "Lawton, OK"
+  },
+  "layton-ut": {
+    "rpp": 100.3,
+    "score": 51.0,
+    "tier": "metro",
+    "tier_name": "Ogden, UT"
+  },
+  "league-city-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "leander-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "lees-summit-mo": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "lehi-ut": {
+    "rpp": 98.2,
+    "score": 45.1,
+    "tier": "metro",
+    "tier_name": "Provo-Orem-Lehi, UT"
+  },
+  "lewisville-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "lexington-ky": {
+    "rpp": 92.9,
+    "score": 30.2,
+    "tier": "metro",
+    "tier_name": "Lexington-Fayette, KY"
+  },
+  "lincoln-ne": {
+    "rpp": 91.6,
+    "score": 26.6,
+    "tier": "metro",
+    "tier_name": "Lincoln, NE"
+  },
+  "little-rock-ar": {
+    "rpp": 89.4,
+    "score": 20.5,
+    "tier": "metro",
+    "tier_name": "Little Rock-North Little Rock-Conway, AR"
+  },
+  "livermore-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "livonia-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "long-beach-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "longmont-co": {
+    "rpp": 105.2,
+    "score": 64.5,
+    "tier": "metro",
+    "tier_name": "Boulder, CO"
+  },
+  "longview-tx": {
+    "rpp": 89.5,
+    "score": 20.8,
+    "tier": "metro",
+    "tier_name": "Longview, TX"
+  },
+  "los-alamos-nm": {
+    "rpp": 92.2,
+    "score": 28.4,
+    "tier": "state",
+    "tier_name": "NM"
+  },
+  "los-angeles-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "louisville-ky": {
+    "rpp": 93.1,
+    "score": 30.8,
+    "tier": "metro",
+    "tier_name": "Louisville/Jefferson County, KY-IN"
+  },
+  "loveland-co": {
+    "rpp": 101.1,
+    "score": 53.1,
+    "tier": "metro",
+    "tier_name": "Fort Collins-Loveland, CO"
+  },
+  "lowell-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "lubbock-tx": {
+    "rpp": 91.3,
+    "score": 25.9,
+    "tier": "metro",
+    "tier_name": "Lubbock, TX"
+  },
+  "lynchburg-va": {
+    "rpp": 89.4,
+    "score": 20.5,
+    "tier": "metro",
+    "tier_name": "Lynchburg, VA"
+  },
+  "lynn-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "mableton-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "macon-ga": {
+    "rpp": 88.5,
+    "score": 18.1,
+    "tier": "metro",
+    "tier_name": "Macon-Bibb County, GA"
+  },
+  "madison-wi": {
+    "rpp": 97.3,
+    "score": 42.5,
+    "tier": "metro",
+    "tier_name": "Madison, WI"
+  },
+  "manchester-nh": {
+    "rpp": 105.7,
+    "score": 65.7,
+    "tier": "metro",
+    "tier_name": "Manchester-Nashua, NH"
+  },
+  "mansfield-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "manteca-ca": {
+    "rpp": 105.1,
+    "score": 64.1,
+    "tier": "metro",
+    "tier_name": "Stockton-Lodi, CA"
+  },
+  "maricopa-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "marysville-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "mcallen-tx": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "McAllen-Edinburg-Mission, TX"
+  },
+  "mckinney-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "medford-or": {
+    "rpp": 101.4,
+    "score": 54.0,
+    "tier": "metro",
+    "tier_name": "Medford, OR"
+  },
+  "melbourne-fl": {
+    "rpp": 100.0,
+    "score": 50.0,
+    "tier": "metro",
+    "tier_name": "Palm Bay-Melbourne-Titusville, FL"
+  },
+  "memphis-tn": {
+    "rpp": 92.2,
+    "score": 28.3,
+    "tier": "metro",
+    "tier_name": "Memphis, TN-MS-AR"
+  },
+  "menifee-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "merced-ca": {
+    "rpp": 98.3,
+    "score": 45.2,
+    "tier": "metro",
+    "tier_name": "Merced, CA"
+  },
+  "meridian-id": {
+    "rpp": 98.4,
+    "score": 45.5,
+    "tier": "metro",
+    "tier_name": "Boise City, ID"
+  },
+  "mesa-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "mesquite-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "miami-beach-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "miami-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "miami-gardens-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "midland-tx": {
+    "rpp": 95.8,
+    "score": 38.3,
+    "tier": "metro",
+    "tier_name": "Midland, TX"
+  },
+  "milpitas-ca": {
+    "rpp": 110.4,
+    "score": 79.0,
+    "tier": "metro",
+    "tier_name": "San Jose-Sunnyvale-Santa Clara, CA"
+  },
+  "milwaukee-wi": {
+    "rpp": 96.9,
+    "score": 41.5,
+    "tier": "metro",
+    "tier_name": "Milwaukee-Waukesha, WI"
+  },
+  "minneapolis-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "miramar-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "mission-tx": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "McAllen-Edinburg-Mission, TX"
+  },
+  "mission-viejo-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "missoula-mt": {
+    "rpp": 96.4,
+    "score": 40.1,
+    "tier": "metro",
+    "tier_name": "Missoula, MT"
+  },
+  "missouri-city-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "mobile-al": {
+    "rpp": 88.1,
+    "score": 16.9,
+    "tier": "metro",
+    "tier_name": "Mobile, AL"
+  },
+  "modesto-ca": {
+    "rpp": 104.1,
+    "score": 61.4,
+    "tier": "metro",
+    "tier_name": "Modesto, CA"
+  },
+  "montgomery-al": {
+    "rpp": 89.7,
+    "score": 21.3,
+    "tier": "metro",
+    "tier_name": "Montgomery, AL"
+  },
+  "monticello-ut": {
+    "rpp": 98.9,
+    "score": 46.8,
+    "tier": "state",
+    "tier_name": "UT"
+  },
+  "moreno-valley-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "mount-pleasant-sc": {
+    "rpp": 101.0,
+    "score": 52.7,
+    "tier": "metro",
+    "tier_name": "Charleston-North Charleston, SC"
+  },
+  "mountain-view-ca": {
+    "rpp": 110.4,
+    "score": 79.0,
+    "tier": "metro",
+    "tier_name": "San Jose-Sunnyvale-Santa Clara, CA"
+  },
+  "murfreesboro-tn": {
+    "rpp": 96.3,
+    "score": 39.8,
+    "tier": "metro",
+    "tier_name": "Nashville-Davidson--Murfreesboro--Franklin, TN"
+  },
+  "murrieta-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "nampa-id": {
+    "rpp": 98.4,
+    "score": 45.5,
+    "tier": "metro",
+    "tier_name": "Boise City, ID"
+  },
+  "naperville-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "nashua-nh": {
+    "rpp": 105.7,
+    "score": 65.7,
+    "tier": "metro",
+    "tier_name": "Manchester-Nashua, NH"
+  },
+  "nashville-tn": {
+    "rpp": 96.3,
+    "score": 39.8,
+    "tier": "metro",
+    "tier_name": "Nashville-Davidson--Murfreesboro--Franklin, TN"
+  },
+  "new-bedford-ma": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "new-braunfels-tx": {
+    "rpp": 94.7,
+    "score": 35.3,
+    "tier": "metro",
+    "tier_name": "San Antonio-New Braunfels, TX"
+  },
+  "new-haven-ct": {
+    "rpp": 104.6,
+    "score": 62.7,
+    "tier": "metro",
+    "tier_name": "New Haven, CT"
+  },
+  "new-orleans-la": {
+    "rpp": 92.6,
+    "score": 29.4,
+    "tier": "metro",
+    "tier_name": "New Orleans-Metairie, LA"
+  },
+  "new-rochelle-ny": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "new-york-ny": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "newark-nj": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "newport-beach-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "newport-news-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "newton-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "norfolk-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "norman-ok": {
+    "rpp": 90.4,
+    "score": 23.4,
+    "tier": "metro",
+    "tier_name": "Oklahoma City, OK"
+  },
+  "north-charleston-sc": {
+    "rpp": 101.0,
+    "score": 52.7,
+    "tier": "metro",
+    "tier_name": "Charleston-North Charleston, SC"
+  },
+  "north-las-vegas-nv": {
+    "rpp": 100.2,
+    "score": 50.6,
+    "tier": "metro",
+    "tier_name": "Las Vegas-Henderson-North Las Vegas, NV"
+  },
+  "north-port-fl": {
+    "rpp": 102.4,
+    "score": 56.7,
+    "tier": "metro",
+    "tier_name": "North Port-Bradenton-Sarasota, FL"
+  },
+  "norwalk-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "norwalk-ct": {
+    "rpp": 106.9,
+    "score": 69.1,
+    "tier": "metro",
+    "tier_name": "Bridgeport-Stamford-Danbury, CT"
+  },
+  "oakland-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "oceanside-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "odessa-tx": {
+    "rpp": 93.9,
+    "score": 33.0,
+    "tier": "metro",
+    "tier_name": "Odessa, TX"
+  },
+  "ofallon-mo": {
+    "rpp": 95.1,
+    "score": 36.4,
+    "tier": "metro",
+    "tier_name": "St. Louis, MO-IL"
+  },
+  "ogden-ut": {
+    "rpp": 100.3,
+    "score": 51.0,
+    "tier": "metro",
+    "tier_name": "Ogden, UT"
+  },
+  "oklahoma-city-ok": {
+    "rpp": 90.4,
+    "score": 23.4,
+    "tier": "metro",
+    "tier_name": "Oklahoma City, OK"
+  },
+  "olathe-ks": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "omaha-ne": {
+    "rpp": 91.9,
+    "score": 27.5,
+    "tier": "metro",
+    "tier_name": "Omaha, NE-IA"
+  },
+  "ontario-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "orange-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "orem-ut": {
+    "rpp": 98.2,
+    "score": 45.1,
+    "tier": "metro",
+    "tier_name": "Provo-Orem-Lehi, UT"
+  },
+  "orlando-fl": {
+    "rpp": 101.4,
+    "score": 53.9,
+    "tier": "metro",
+    "tier_name": "Orlando-Kissimmee-Sanford, FL"
+  },
+  "overland-park-ks": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Kansas City, MO-KS"
+  },
+  "oxnard-ca": {
+    "rpp": 110.5,
+    "score": 79.3,
+    "tier": "metro",
+    "tier_name": "Oxnard-Thousand Oaks-Ventura, CA"
+  },
+  "palm-bay-fl": {
+    "rpp": 100.0,
+    "score": 50.0,
+    "tier": "metro",
+    "tier_name": "Palm Bay-Melbourne-Titusville, FL"
+  },
+  "palm-coast-fl": {
+    "rpp": 99.4,
+    "score": 48.2,
+    "tier": "metro",
+    "tier_name": "Deltona-Daytona Beach-Ormond Beach, FL"
+  },
+  "palmdale-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "parma-oh": {
+    "rpp": 93.9,
+    "score": 33.1,
+    "tier": "metro",
+    "tier_name": "Cleveland, OH"
+  },
+  "pasadena-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "pasadena-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "pasco-wa": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Kennewick-Richland, WA"
+  },
+  "paterson-nj": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "pawtucket-ri": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "pearland-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "pembroke-pines-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "peoria-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "peoria-il": {
+    "rpp": 91.2,
+    "score": 25.6,
+    "tier": "metro",
+    "tier_name": "Peoria, IL"
+  },
+  "perris-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "pharr-tx": {
+    "rpp": 85.9,
+    "score": 10.8,
+    "tier": "metro",
+    "tier_name": "McAllen-Edinburg-Mission, TX"
+  },
+  "philadelphia-pa": {
+    "rpp": 102.6,
+    "score": 57.1,
+    "tier": "metro",
+    "tier_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD"
+  },
+  "phoenix-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "pittsburg-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "pittsburgh-pa": {
+    "rpp": 94.7,
+    "score": 35.2,
+    "tier": "metro",
+    "tier_name": "Pittsburgh, PA"
+  },
+  "plano-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "plantation-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "plymouth-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "pomona-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "pompano-beach-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "port-st-lucie-fl": {
+    "rpp": 100.2,
+    "score": 50.6,
+    "tier": "metro",
+    "tier_name": "Port St. Lucie, FL"
+  },
+  "portland-or": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Portland-Vancouver-Hillsboro, OR-WA"
+  },
+  "portsmouth-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "providence-ri": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "provo-ut": {
+    "rpp": 98.2,
+    "score": 45.1,
+    "tier": "metro",
+    "tier_name": "Provo-Orem-Lehi, UT"
+  },
+  "pueblo-co": {
+    "rpp": 91.8,
+    "score": 27.1,
+    "tier": "metro",
+    "tier_name": "Pueblo, CO"
+  },
+  "queen-creek-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "quincy-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "racine-wi": {
+    "rpp": 96.0,
+    "score": 38.8,
+    "tier": "metro",
+    "tier_name": "Racine-Mount Pleasant, WI"
+  },
+  "raleigh-nc": {
+    "rpp": 98.2,
+    "score": 44.9,
+    "tier": "metro",
+    "tier_name": "Raleigh-Cary, NC"
+  },
+  "rancho-cordova-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "rancho-cucamonga-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "rapid-city-sd": {
+    "rpp": 89.2,
+    "score": 19.9,
+    "tier": "metro",
+    "tier_name": "Rapid City, SD"
+  },
+  "reading-pa": {
+    "rpp": 97.1,
+    "score": 41.8,
+    "tier": "metro",
+    "tier_name": "Reading, PA"
+  },
+  "redding-ca": {
+    "rpp": 100.7,
+    "score": 51.9,
+    "tier": "metro",
+    "tier_name": "Redding, CA"
+  },
+  "redmond-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "redwood-city-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "reno-nv": {
+    "rpp": 101.0,
+    "score": 52.8,
+    "tier": "metro",
+    "tier_name": "Reno, NV"
+  },
+  "renton-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "rialto-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "richardson-tx": {
+    "rpp": 103.1,
+    "score": 58.6,
+    "tier": "metro",
+    "tier_name": "Dallas-Fort Worth-Arlington, TX"
+  },
+  "richmond-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "richmond-va": {
+    "rpp": 97.9,
+    "score": 44.1,
+    "tier": "metro",
+    "tier_name": "Richmond, VA"
+  },
+  "rio-rancho-nm": {
+    "rpp": 95.5,
+    "score": 37.6,
+    "tier": "metro",
+    "tier_name": "Albuquerque, NM"
+  },
+  "riverside-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "roanoke-va": {
+    "rpp": 93.6,
+    "score": 32.3,
+    "tier": "metro",
+    "tier_name": "Roanoke, VA"
+  },
+  "rochester-hills-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "rochester-mn": {
+    "rpp": 90.8,
+    "score": 24.5,
+    "tier": "metro",
+    "tier_name": "Rochester, MN"
+  },
+  "rochester-ny": {
+    "rpp": 97.0,
+    "score": 41.8,
+    "tier": "metro",
+    "tier_name": "Rochester, NY"
+  },
+  "rockford-il": {
+    "rpp": 92.2,
+    "score": 28.2,
+    "tier": "metro",
+    "tier_name": "Rockford, IL"
+  },
+  "rocklin-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "rogers-ar": {
+    "rpp": 91.4,
+    "score": 26.0,
+    "tier": "metro",
+    "tier_name": "Fayetteville-Springdale-Rogers, AR"
+  },
+  "roseville-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "roswell-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "round-rock-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "sacramento-ca": {
+    "rpp": 106.7,
+    "score": 68.5,
+    "tier": "metro",
+    "tier_name": "Sacramento-Roseville-Folsom, CA"
+  },
+  "saint-paul-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "salem-or": {
+    "rpp": 103.6,
+    "score": 60.1,
+    "tier": "metro",
+    "tier_name": "Salem, OR"
+  },
+  "salinas-ca": {
+    "rpp": 109.0,
+    "score": 75.1,
+    "tier": "metro",
+    "tier_name": "Salinas, CA"
+  },
+  "salt-lake-city-ut": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Salt Lake City-Murray, UT"
+  },
+  "san-angelo-tx": {
+    "rpp": 92.5,
+    "score": 29.0,
+    "tier": "metro",
+    "tier_name": "San Angelo, TX"
+  },
+  "san-antonio-tx": {
+    "rpp": 94.7,
+    "score": 35.3,
+    "tier": "metro",
+    "tier_name": "San Antonio-New Braunfels, TX"
+  },
+  "san-bernardino-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "san-diego-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "san-francisco-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "san-jose-ca": {
+    "rpp": 110.4,
+    "score": 79.0,
+    "tier": "metro",
+    "tier_name": "San Jose-Sunnyvale-Santa Clara, CA"
+  },
+  "san-leandro-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "san-marcos-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "san-marcos-tx": {
+    "rpp": 98.1,
+    "score": 44.6,
+    "tier": "metro",
+    "tier_name": "Austin-Round Rock-San Marcos, TX"
+  },
+  "san-mateo-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "san-ramon-ca": {
+    "rpp": 115.6,
+    "score": 93.4,
+    "tier": "metro",
+    "tier_name": "San Francisco-Oakland-Fremont, CA"
+  },
+  "sandpoint-id": {
+    "rpp": 95.5,
+    "score": 37.5,
+    "tier": "state",
+    "tier_name": "ID"
+  },
+  "sandy-springs-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "sandy-ut": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Salt Lake City-Murray, UT"
+  },
+  "santa-ana-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "santa-barbara-ca": {
+    "rpp": 108.8,
+    "score": 74.4,
+    "tier": "metro",
+    "tier_name": "Santa Maria-Santa Barbara, CA"
+  },
+  "santa-clara-ca": {
+    "rpp": 110.4,
+    "score": 79.0,
+    "tier": "metro",
+    "tier_name": "San Jose-Sunnyvale-Santa Clara, CA"
+  },
+  "santa-clarita-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "santa-fe-nm": {
+    "rpp": 98.8,
+    "score": 46.6,
+    "tier": "metro",
+    "tier_name": "Santa Fe, NM"
+  },
+  "santa-maria-ca": {
+    "rpp": 108.8,
+    "score": 74.4,
+    "tier": "metro",
+    "tier_name": "Santa Maria-Santa Barbara, CA"
+  },
+  "santa-monica-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "santa-rosa-ca": {
+    "rpp": 107.8,
+    "score": 71.6,
+    "tier": "metro",
+    "tier_name": "Santa Rosa-Petaluma, CA"
+  },
+  "savannah-ga": {
+    "rpp": 95.2,
+    "score": 36.7,
+    "tier": "metro",
+    "tier_name": "Savannah, GA"
+  },
+  "schaumburg-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "scottsdale-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "seattle-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "shreveport-la": {
+    "rpp": 84.8,
+    "score": 7.7,
+    "tier": "metro",
+    "tier_name": "Shreveport-Bossier City, LA"
+  },
+  "simi-valley-ca": {
+    "rpp": 110.5,
+    "score": 79.3,
+    "tier": "metro",
+    "tier_name": "Oxnard-Thousand Oaks-Ventura, CA"
+  },
+  "sioux-city-ia": {
+    "rpp": 86.5,
+    "score": 12.4,
+    "tier": "metro",
+    "tier_name": "Sioux City, IA-NE-SD"
+  },
+  "sioux-falls-sd": {
+    "rpp": 90.6,
+    "score": 24.0,
+    "tier": "metro",
+    "tier_name": "Sioux Falls, SD-MN"
+  },
+  "somerville-ma": {
+    "rpp": 108.3,
+    "score": 73.0,
+    "tier": "metro",
+    "tier_name": "Boston-Cambridge-Newton, MA-NH"
+  },
+  "south-bend-in": {
+    "rpp": 92.9,
+    "score": 30.2,
+    "tier": "metro",
+    "tier_name": "South Bend-Mishawaka, IN-MI"
+  },
+  "south-fulton-ga": {
+    "rpp": 100.1,
+    "score": 50.2,
+    "tier": "metro",
+    "tier_name": "Atlanta-Sandy Springs-Roswell, GA"
+  },
+  "south-gate-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "south-jordan-ut": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Salt Lake City-Murray, UT"
+  },
+  "sparks-nv": {
+    "rpp": 101.0,
+    "score": 52.8,
+    "tier": "metro",
+    "tier_name": "Reno, NV"
+  },
+  "spokane-valley-wa": {
+    "rpp": 100.3,
+    "score": 51.0,
+    "tier": "metro",
+    "tier_name": "Spokane-Spokane Valley, WA"
+  },
+  "spokane-wa": {
+    "rpp": 100.3,
+    "score": 51.0,
+    "tier": "metro",
+    "tier_name": "Spokane-Spokane Valley, WA"
+  },
+  "springdale-ar": {
+    "rpp": 91.4,
+    "score": 26.0,
+    "tier": "metro",
+    "tier_name": "Fayetteville-Springdale-Rogers, AR"
+  },
+  "springfield-il": {
+    "rpp": 92.7,
+    "score": 29.8,
+    "tier": "metro",
+    "tier_name": "Springfield, IL"
+  },
+  "springfield-ma": {
+    "rpp": 96.1,
+    "score": 39.1,
+    "tier": "metro",
+    "tier_name": "Springfield, MA"
+  },
+  "springfield-mo": {
+    "rpp": 88.6,
+    "score": 18.3,
+    "tier": "metro",
+    "tier_name": "Springfield, MO"
+  },
+  "st-george-ut": {
+    "rpp": 97.3,
+    "score": 42.6,
+    "tier": "metro",
+    "tier_name": "St. George, UT"
+  },
+  "st-louis-mo": {
+    "rpp": 95.1,
+    "score": 36.4,
+    "tier": "metro",
+    "tier_name": "St. Louis, MO-IL"
+  },
+  "st-petersburg-fl": {
+    "rpp": 100.9,
+    "score": 52.5,
+    "tier": "metro",
+    "tier_name": "Tampa-St. Petersburg-Clearwater, FL"
+  },
+  "stamford-ct": {
+    "rpp": 106.9,
+    "score": 69.1,
+    "tier": "metro",
+    "tier_name": "Bridgeport-Stamford-Danbury, CT"
+  },
+  "sterling-heights-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "stockton-ca": {
+    "rpp": 105.1,
+    "score": 64.1,
+    "tier": "metro",
+    "tier_name": "Stockton-Lodi, CA"
+  },
+  "suffolk-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "sugar-land-tx": {
+    "rpp": 98.6,
+    "score": 46.2,
+    "tier": "metro",
+    "tier_name": "Houston-Pasadena-The Woodlands, TX"
+  },
+  "sundance-wy": {
+    "rpp": 92.7,
+    "score": 29.7,
+    "tier": "state",
+    "tier_name": "WY"
+  },
+  "sunnyvale-ca": {
+    "rpp": 110.4,
+    "score": 79.0,
+    "tier": "metro",
+    "tier_name": "San Jose-Sunnyvale-Santa Clara, CA"
+  },
+  "sunrise-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "surprise-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "syracuse-ny": {
+    "rpp": 95.7,
+    "score": 38.2,
+    "tier": "metro",
+    "tier_name": "Syracuse, NY"
+  },
+  "tacoma-wa": {
+    "rpp": 111.1,
+    "score": 80.9,
+    "tier": "metro",
+    "tier_name": "Seattle-Tacoma-Bellevue, WA"
+  },
+  "tallahassee-fl": {
+    "rpp": 93.9,
+    "score": 33.1,
+    "tier": "metro",
+    "tier_name": "Tallahassee, FL"
+  },
+  "tampa-fl": {
+    "rpp": 100.9,
+    "score": 52.5,
+    "tier": "metro",
+    "tier_name": "Tampa-St. Petersburg-Clearwater, FL"
+  },
+  "taos-nm": {
+    "rpp": 92.2,
+    "score": 28.4,
+    "tier": "state",
+    "tier_name": "NM"
+  },
+  "temecula-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "tempe-az": {
+    "rpp": 103.3,
+    "score": 59.2,
+    "tier": "metro",
+    "tier_name": "Phoenix-Mesa-Chandler, AZ"
+  },
+  "temple-tx": {
+    "rpp": 91.1,
+    "score": 25.4,
+    "tier": "metro",
+    "tier_name": "Killeen-Temple, TX"
+  },
+  "thornton-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "thousand-oaks-ca": {
+    "rpp": 110.5,
+    "score": 79.3,
+    "tier": "metro",
+    "tier_name": "Oxnard-Thousand Oaks-Ventura, CA"
+  },
+  "toledo-oh": {
+    "rpp": 91.5,
+    "score": 26.3,
+    "tier": "metro",
+    "tier_name": "Toledo, OH"
+  },
+  "topeka-ks": {
+    "rpp": 88.8,
+    "score": 18.9,
+    "tier": "metro",
+    "tier_name": "Topeka, KS"
+  },
+  "torrance-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "tracy-ca": {
+    "rpp": 105.1,
+    "score": 64.1,
+    "tier": "metro",
+    "tier_name": "Stockton-Lodi, CA"
+  },
+  "trenton-nj": {
+    "rpp": 103.2,
+    "score": 58.8,
+    "tier": "metro",
+    "tier_name": "Trenton-Princeton, NJ"
+  },
+  "troy-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "tucson-az": {
+    "rpp": 96.9,
+    "score": 41.4,
+    "tier": "metro",
+    "tier_name": "Tucson, AZ"
+  },
+  "tulsa-ok": {
+    "rpp": 89.2,
+    "score": 20.0,
+    "tier": "metro",
+    "tier_name": "Tulsa, OK"
+  },
+  "tuscaloosa-al": {
+    "rpp": 87.7,
+    "score": 15.9,
+    "tier": "metro",
+    "tier_name": "Tuscaloosa, AL"
+  },
+  "tustin-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "tyler-tx": {
+    "rpp": 92.2,
+    "score": 28.2,
+    "tier": "metro",
+    "tier_name": "Tyler, TX"
+  },
+  "upland-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "vacaville-ca": {
+    "rpp": 108.5,
+    "score": 73.6,
+    "tier": "metro",
+    "tier_name": "Vallejo, CA"
+  },
+  "vallejo-ca": {
+    "rpp": 108.5,
+    "score": 73.6,
+    "tier": "metro",
+    "tier_name": "Vallejo, CA"
+  },
+  "vancouver-wa": {
+    "rpp": 105.4,
+    "score": 65.1,
+    "tier": "metro",
+    "tier_name": "Portland-Vancouver-Hillsboro, OR-WA"
+  },
+  "ventura-ca": {
+    "rpp": 110.5,
+    "score": 79.3,
+    "tier": "metro",
+    "tier_name": "Oxnard-Thousand Oaks-Ventura, CA"
+  },
+  "victorville-ca": {
+    "rpp": 106.4,
+    "score": 67.9,
+    "tier": "metro",
+    "tier_name": "Riverside-San Bernardino-Ontario, CA"
+  },
+  "virginia-beach-va": {
+    "rpp": 97.9,
+    "score": 44.3,
+    "tier": "metro",
+    "tier_name": "Virginia Beach-Chesapeake-Norfolk, VA-NC"
+  },
+  "visalia-ca": {
+    "rpp": 99.8,
+    "score": 49.5,
+    "tier": "metro",
+    "tier_name": "Visalia, CA"
+  },
+  "vista-ca": {
+    "rpp": 111.9,
+    "score": 83.0,
+    "tier": "metro",
+    "tier_name": "San Diego-Chula Vista-Carlsbad, CA"
+  },
+  "waco-tx": {
+    "rpp": 92.5,
+    "score": 29.3,
+    "tier": "metro",
+    "tier_name": "Waco, TX"
+  },
+  "warner-robins-ga": {
+    "rpp": 93.8,
+    "score": 32.7,
+    "tier": "metro",
+    "tier_name": "Warner Robins, GA"
+  },
+  "warren-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "warwick-ri": {
+    "rpp": 101.8,
+    "score": 54.9,
+    "tier": "metro",
+    "tier_name": "Providence-Warwick, RI-MA"
+  },
+  "washington-dc": {
+    "rpp": 108.9,
+    "score": 74.7,
+    "tier": "metro",
+    "tier_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+  },
+  "waterbury-ct": {
+    "rpp": 99.8,
+    "score": 49.4,
+    "tier": "metro",
+    "tier_name": "Waterbury-Shelton, CT"
+  },
+  "waukegan-il": {
+    "rpp": 103.6,
+    "score": 60.0,
+    "tier": "metro",
+    "tier_name": "Chicago-Naperville-Elgin, IL-IN"
+  },
+  "west-covina-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "west-jordan-ut": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Salt Lake City-Murray, UT"
+  },
+  "west-palm-beach-fl": {
+    "rpp": 114.2,
+    "score": 89.3,
+    "tier": "metro",
+    "tier_name": "Miami-Fort Lauderdale-West Palm Beach, FL"
+  },
+  "west-valley-city-ut": {
+    "rpp": 100.9,
+    "score": 52.4,
+    "tier": "metro",
+    "tier_name": "Salt Lake City-Murray, UT"
+  },
+  "westland-mi": {
+    "rpp": 100.3,
+    "score": 50.8,
+    "tier": "metro",
+    "tier_name": "Detroit-Warren-Dearborn, MI"
+  },
+  "westminster-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "westminster-co": {
+    "rpp": 105.8,
+    "score": 66.1,
+    "tier": "metro",
+    "tier_name": "Denver-Aurora-Centennial, CO"
+  },
+  "whitewright-tx": {
+    "rpp": 93.8,
+    "score": 32.7,
+    "tier": "metro",
+    "tier_name": "Sherman-Denison, TX"
+  },
+  "whittier-ca": {
+    "rpp": 113.6,
+    "score": 87.7,
+    "tier": "metro",
+    "tier_name": "Los Angeles-Long Beach-Anaheim, CA"
+  },
+  "wichita-falls-tx": {
+    "rpp": 89.5,
+    "score": 20.9,
+    "tier": "metro",
+    "tier_name": "Wichita Falls, TX"
+  },
+  "wichita-ks": {
+    "rpp": 88.9,
+    "score": 19.3,
+    "tier": "metro",
+    "tier_name": "Wichita, KS"
+  },
+  "wilmington-nc": {
+    "rpp": 96.4,
+    "score": 40.1,
+    "tier": "metro",
+    "tier_name": "Wilmington, NC"
+  },
+  "winston-salem-nc": {
+    "rpp": 92.0,
+    "score": 27.9,
+    "tier": "metro",
+    "tier_name": "Winston-Salem, NC"
+  },
+  "woodbury-mn": {
+    "rpp": 104.8,
+    "score": 63.4,
+    "tier": "metro",
+    "tier_name": "Minneapolis-St. Paul-Bloomington, MN-WI"
+  },
+  "worcester-ma": {
+    "rpp": 102.5,
+    "score": 57.0,
+    "tier": "metro",
+    "tier_name": "Worcester, MA"
+  },
+  "wyoming-mi": {
+    "rpp": 95.5,
+    "score": 37.6,
+    "tier": "metro",
+    "tier_name": "Grand Rapids-Wyoming-Kentwood, MI"
+  },
+  "yakima-wa": {
+    "rpp": 95.5,
+    "score": 37.6,
+    "tier": "metro",
+    "tier_name": "Yakima, WA"
+  },
+  "yonkers-ny": {
+    "rpp": 112.6,
+    "score": 84.9,
+    "tier": "metro",
+    "tier_name": "New York-Newark-Jersey City, NY-NJ"
+  },
+  "yuma-az": {
+    "rpp": 92.7,
+    "score": 29.7,
+    "tier": "metro",
+    "tier_name": "Yuma, AZ"
+  }
+}

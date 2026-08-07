@@ -145,6 +145,13 @@ data/raw/air-quality-cache/
 # above. data/population-change.json IS committed.
 data/raw/population-change-cache/
 
+# Pure fetch-scratch for the cost-of-living dataset build
+# (scripts/gen_cost_of_living_data.py) -- same posture as the caches
+# above, plus the raw Census CBSA delineation download and the
+# county-to-cbsa crosswalk derived from it (regeneratable any time).
+# data/cost-of-living.json IS committed.
+data/raw/bea-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

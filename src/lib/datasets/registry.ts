@@ -23,6 +23,7 @@ import { propertyTaxDataset } from "@/lib/datasets/property-tax";
 import { unemploymentDataset } from "@/lib/datasets/unemployment";
 import { airQualityDataset } from "@/lib/datasets/air-quality";
 import { populationChangeDataset } from "@/lib/datasets/population-change";
+import { costOfLivingDataset } from "@/lib/datasets/cost-of-living";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -57,6 +58,7 @@ export const DATASETS: Dataset[] = [
   unemploymentDataset,
   airQualityDataset,
   populationChangeDataset,
+  costOfLivingDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

@@ -429,6 +429,22 @@ test("the twenty-sixth dataset (population change) is selectable and reports a r
   await expect(detail).toContainText("Census ACS");
 });
 
+test("the twenty-seventh dataset (cost of living) is selectable and reports a real BEA-sourced value -- the last of the four newly-obtained API keys", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Cost of living" }).click();
+  await page.getByRole("button", { name: "Cost of living", exact: true }).click();
+  await page.getByRole("button", { name: "Add Cost of living" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Cost of living: Cost of living" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Cost of living" });
+  await expect(detail).toContainText("RPP");
+  await expect(detail).toContainText("BEA Regional Price Parities");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
