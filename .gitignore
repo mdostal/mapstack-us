@@ -192,6 +192,11 @@ data/raw/superfund-cache/
 # data/earthquake.json IS committed.
 data/raw/earthquake-cache/
 
+# Pure fetch-scratch for the library-access dataset build
+# (scripts/gen_library_access_data.py) -- same posture as the caches
+# above. data/library-access.json IS committed.
+data/raw/library-access-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

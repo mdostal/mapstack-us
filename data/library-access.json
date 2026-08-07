@@ -1,0 +1,2874 @@
+{
+  "_meta": {
+    "coverage": 478,
+    "source": "IMLS Public Libraries Survey (PLS), 2024, 10-mile radius join"
+  },
+  "abilene-tx": {
+    "score": 41.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.84,
+    "year": "2024"
+  },
+  "akron-oh": {
+    "score": 16.4,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.92,
+    "year": "2024"
+  },
+  "alameda-ca": {
+    "score": 13.4,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.11,
+    "year": "2024"
+  },
+  "albany-ny": {
+    "score": 23.5,
+    "systems_nearby": 12,
+    "visits_per_capita": 3.65,
+    "year": "2024"
+  },
+  "albuquerque-nm": {
+    "score": 55.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.42,
+    "year": "2024"
+  },
+  "alexandria-va": {
+    "score": 6.7,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.65,
+    "year": "2024"
+  },
+  "alhambra-ca": {
+    "score": 70.6,
+    "systems_nearby": 15,
+    "visits_per_capita": 1.86,
+    "year": "2024"
+  },
+  "allen-tx": {
+    "score": 14.0,
+    "systems_nearby": 6,
+    "visits_per_capita": 4.07,
+    "year": "2024"
+  },
+  "allentown-pa": {
+    "score": 82.4,
+    "systems_nearby": 11,
+    "visits_per_capita": 1.54,
+    "year": "2024"
+  },
+  "amarillo-tx": {
+    "score": 74.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.83,
+    "year": "2024"
+  },
+  "anaheim-ca": {
+    "score": 65.0,
+    "systems_nearby": 9,
+    "visits_per_capita": 2.09,
+    "year": "2024"
+  },
+  "anchorage-ak": {
+    "score": 73.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "ankeny-ia": {
+    "score": 10.1,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.35,
+    "year": "2024"
+  },
+  "ann-arbor-mi": {
+    "score": 0.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 6.22,
+    "year": "2024"
+  },
+  "arlington-tx": {
+    "score": 60.2,
+    "systems_nearby": 8,
+    "visits_per_capita": 2.23,
+    "year": "2024"
+  },
+  "arlington-va": {
+    "score": 6.9,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.64,
+    "year": "2024"
+  },
+  "arvada-co": {
+    "score": 29.4,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.33,
+    "year": "2024"
+  },
+  "asheville-nc": {
+    "score": 47.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.67,
+    "year": "2024"
+  },
+  "athens-ga": {
+    "score": 62.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.16,
+    "year": "2024"
+  },
+  "atlanta-ga": {
+    "score": 64.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.11,
+    "year": "2024"
+  },
+  "auburn-al": {
+    "score": 5.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.86,
+    "year": "2024"
+  },
+  "auburn-wa": {
+    "score": 2.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 5.34,
+    "year": "2024"
+  },
+  "augusta-ga": {
+    "score": 95.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.0,
+    "year": "2024"
+  },
+  "aurora-co": {
+    "score": 42.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.81,
+    "year": "2024"
+  },
+  "aurora-il": {
+    "score": 2.3,
+    "systems_nearby": 8,
+    "visits_per_capita": 5.39,
+    "year": "2024"
+  },
+  "austin-tx": {
+    "score": 33.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.15,
+    "year": "2024"
+  },
+  "avondale-az": {
+    "score": 88.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.36,
+    "year": "2024"
+  },
+  "bakersfield-ca": {
+    "score": 97.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.79,
+    "year": "2024"
+  },
+  "baltimore-md": {
+    "score": 99.2,
+    "systems_nearby": 3,
+    "visits_per_capita": 0.5,
+    "year": "2024"
+  },
+  "baton-rouge-la": {
+    "score": 20.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.76,
+    "year": "2024"
+  },
+  "baytown-tx": {
+    "score": 79.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.65,
+    "year": "2024"
+  },
+  "beaumont-tx": {
+    "score": 63.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.14,
+    "year": "2024"
+  },
+  "beaverton-or": {
+    "score": 33.5,
+    "systems_nearby": 12,
+    "visits_per_capita": 3.13,
+    "year": "2024"
+  },
+  "bellevue-wa": {
+    "score": 25.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.46,
+    "year": "2024"
+  },
+  "bellingham-wa": {
+    "score": 11.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.22,
+    "year": "2024"
+  },
+  "bend-or": {
+    "score": 49.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.56,
+    "year": "2024"
+  },
+  "berkeley-ca": {
+    "score": 16.1,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.97,
+    "year": "2024"
+  },
+  "bethlehem-pa": {
+    "score": 80.5,
+    "systems_nearby": 13,
+    "visits_per_capita": 1.62,
+    "year": "2024"
+  },
+  "billings-mt": {
+    "score": 77.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.76,
+    "year": "2024"
+  },
+  "birmingham-al": {
+    "score": 16.6,
+    "systems_nearby": 13,
+    "visits_per_capita": 3.92,
+    "year": "2024"
+  },
+  "bismarck-nd": {
+    "score": 57.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.31,
+    "year": "2024"
+  },
+  "blanding-ut": {
+    "score": 17.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.89,
+    "year": "2024"
+  },
+  "bloomington-il": {
+    "score": 39.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.87,
+    "year": "2024"
+  },
+  "bloomington-in": {
+    "score": 13.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 4.09,
+    "year": "2024"
+  },
+  "bloomington-mn": {
+    "score": 31.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.2,
+    "year": "2024"
+  },
+  "boca-raton-fl": {
+    "score": 17.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.88,
+    "year": "2024"
+  },
+  "boise-id": {
+    "score": 21.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.7,
+    "year": "2024"
+  },
+  "boston-ma": {
+    "score": 20.5,
+    "systems_nearby": 26,
+    "visits_per_capita": 3.73,
+    "year": "2024"
+  },
+  "boulder-co": {
+    "score": 4.6,
+    "systems_nearby": 3,
+    "visits_per_capita": 5.04,
+    "year": "2024"
+  },
+  "bowling-green-ky": {
+    "score": 45.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.73,
+    "year": "2024"
+  },
+  "boynton-beach-fl": {
+    "score": 51.4,
+    "systems_nearby": 7,
+    "visits_per_capita": 2.53,
+    "year": "2024"
+  },
+  "bridgeport-ct": {
+    "score": 31.9,
+    "systems_nearby": 10,
+    "visits_per_capita": 3.19,
+    "year": "2024"
+  },
+  "brockton-ma": {
+    "score": 17.4,
+    "systems_nearby": 18,
+    "visits_per_capita": 3.89,
+    "year": "2024"
+  },
+  "broken-arrow-ok": {
+    "score": 46.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.7,
+    "year": "2024"
+  },
+  "brooklyn-park-mn": {
+    "score": 72.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "broomfield-co": {
+    "score": 48.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.6,
+    "year": "2024"
+  },
+  "brownsville-tx": {
+    "score": 57.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.31,
+    "year": "2024"
+  },
+  "bryan-tx": {
+    "score": 83.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.52,
+    "year": "2024"
+  },
+  "buckeye-az": {
+    "score": 91.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.2,
+    "year": "2024"
+  },
+  "buena-park-ca": {
+    "score": 72.5,
+    "systems_nearby": 9,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "buffalo-ny": {
+    "score": 93.3,
+    "systems_nearby": 7,
+    "visits_per_capita": 1.16,
+    "year": "2024"
+  },
+  "burbank-ca": {
+    "score": 6.1,
+    "systems_nearby": 3,
+    "visits_per_capita": 4.74,
+    "year": "2024"
+  },
+  "caldwell-id": {
+    "score": 59.3,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.27,
+    "year": "2024"
+  },
+  "cambridge-ma": {
+    "score": 13.2,
+    "systems_nearby": 27,
+    "visits_per_capita": 4.18,
+    "year": "2024"
+  },
+  "cape-coral-fl": {
+    "score": 78.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.74,
+    "year": "2024"
+  },
+  "carlsbad-ca": {
+    "score": 34.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.1,
+    "year": "2024"
+  },
+  "carlsbad-nm": {
+    "score": 8.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 4.56,
+    "year": "2024"
+  },
+  "carmel-in": {
+    "score": 11.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.21,
+    "year": "2024"
+  },
+  "carrollton-tx": {
+    "score": 26.6,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.43,
+    "year": "2024"
+  },
+  "carson-ca": {
+    "score": 69.2,
+    "systems_nearby": 7,
+    "visits_per_capita": 1.92,
+    "year": "2024"
+  },
+  "castle-rock-co": {
+    "score": 23.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.65,
+    "year": "2024"
+  },
+  "cedar-park-tx": {
+    "score": 27.9,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.38,
+    "year": "2024"
+  },
+  "cedar-rapids-ia": {
+    "score": 22.2,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.68,
+    "year": "2024"
+  },
+  "centennial-co": {
+    "score": 37.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.95,
+    "year": "2024"
+  },
+  "champaign-il": {
+    "score": 0.4,
+    "systems_nearby": 5,
+    "visits_per_capita": 6.55,
+    "year": "2024"
+  },
+  "chandler-az": {
+    "score": 99.0,
+    "systems_nearby": 4,
+    "visits_per_capita": 0.6,
+    "year": "2024"
+  },
+  "charleston-sc": {
+    "score": 30.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.26,
+    "year": "2024"
+  },
+  "charlotte-nc": {
+    "score": 69.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.95,
+    "year": "2024"
+  },
+  "chattanooga-tn": {
+    "score": 77.8,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.74,
+    "year": "2024"
+  },
+  "chesapeake-va": {
+    "score": 59.1,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.28,
+    "year": "2024"
+  },
+  "chicago-il": {
+    "score": 70.4,
+    "systems_nearby": 7,
+    "visits_per_capita": 1.87,
+    "year": "2024"
+  },
+  "chino-ca": {
+    "score": 92.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.16,
+    "year": "2024"
+  },
+  "chino-hills-ca": {
+    "score": 46.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.71,
+    "year": "2024"
+  },
+  "chula-vista-ca": {
+    "score": 30.4,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.26,
+    "year": "2024"
+  },
+  "cicero-il": {
+    "score": 60.4,
+    "systems_nearby": 40,
+    "visits_per_capita": 2.2,
+    "year": "2024"
+  },
+  "cincinnati-oh": {
+    "score": 7.5,
+    "systems_nearby": 3,
+    "visits_per_capita": 4.63,
+    "year": "2024"
+  },
+  "citrus-heights-ca": {
+    "score": 51.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.53,
+    "year": "2024"
+  },
+  "clarksville-tn": {
+    "score": 96.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.99,
+    "year": "2024"
+  },
+  "clearwater-fl": {
+    "score": 53.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.5,
+    "year": "2024"
+  },
+  "cleveland-oh": {
+    "score": 1.3,
+    "systems_nearby": 7,
+    "visits_per_capita": 5.81,
+    "year": "2024"
+  },
+  "clifton-nj": {
+    "score": 43.6,
+    "systems_nearby": 73,
+    "visits_per_capita": 2.79,
+    "year": "2024"
+  },
+  "clovis-ca": {
+    "score": 94.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.12,
+    "year": "2024"
+  },
+  "college-station-tx": {
+    "score": 83.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.52,
+    "year": "2024"
+  },
+  "colorado-springs-co": {
+    "score": 47.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.7,
+    "year": "2024"
+  },
+  "columbia-mo": {
+    "score": 62.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.16,
+    "year": "2024"
+  },
+  "columbia-sc": {
+    "score": 41.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.83,
+    "year": "2024"
+  },
+  "columbus-ga": {
+    "score": 71.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.86,
+    "year": "2024"
+  },
+  "columbus-oh": {
+    "score": 1.5,
+    "systems_nearby": 6,
+    "visits_per_capita": 5.81,
+    "year": "2024"
+  },
+  "compton-ca": {
+    "score": 73.0,
+    "systems_nearby": 10,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "concord-ca": {
+    "score": 56.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.37,
+    "year": "2024"
+  },
+  "concord-nc": {
+    "score": 89.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.34,
+    "year": "2024"
+  },
+  "conroe-tx": {
+    "score": 94.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.12,
+    "year": "2024"
+  },
+  "coral-springs-fl": {
+    "score": 97.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 0.85,
+    "year": "2024"
+  },
+  "corona-ca": {
+    "score": 86.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.42,
+    "year": "2024"
+  },
+  "corpus-christi-tx": {
+    "score": 80.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.64,
+    "year": "2024"
+  },
+  "costa-mesa-ca": {
+    "score": 61.0,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.19,
+    "year": "2024"
+  },
+  "cranston-ri": {
+    "score": 42.8,
+    "systems_nearby": 19,
+    "visits_per_capita": 2.8,
+    "year": "2024"
+  },
+  "dallas-tx": {
+    "score": 98.7,
+    "systems_nearby": 5,
+    "visits_per_capita": 0.63,
+    "year": "2024"
+  },
+  "daly-city-ca": {
+    "score": 9.0,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.44,
+    "year": "2024"
+  },
+  "danbury-ct": {
+    "score": 27.0,
+    "systems_nearby": 11,
+    "visits_per_capita": 3.42,
+    "year": "2024"
+  },
+  "davenport-ia": {
+    "score": 27.3,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.41,
+    "year": "2024"
+  },
+  "davie-fl": {
+    "score": 39.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.88,
+    "year": "2024"
+  },
+  "dayton-oh": {
+    "score": 8.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.58,
+    "year": "2024"
+  },
+  "daytona-beach-fl": {
+    "score": 64.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.09,
+    "year": "2024"
+  },
+  "dearborn-mi": {
+    "score": 91.4,
+    "systems_nearby": 18,
+    "visits_per_capita": 1.2,
+    "year": "2024"
+  },
+  "deerfield-beach-fl": {
+    "score": 45.5,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.73,
+    "year": "2024"
+  },
+  "denton-tx": {
+    "score": 48.0,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.65,
+    "year": "2024"
+  },
+  "denver-co": {
+    "score": 36.1,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.02,
+    "year": "2024"
+  },
+  "des-moines-ia": {
+    "score": 16.8,
+    "systems_nearby": 10,
+    "visits_per_capita": 3.92,
+    "year": "2024"
+  },
+  "detroit-mi": {
+    "score": 93.5,
+    "systems_nearby": 13,
+    "visits_per_capita": 1.16,
+    "year": "2024"
+  },
+  "doral-fl": {
+    "score": 98.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.7,
+    "year": "2024"
+  },
+  "downey-ca": {
+    "score": 71.9,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.85,
+    "year": "2024"
+  },
+  "duluth-mn": {
+    "score": 28.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.33,
+    "year": "2024"
+  },
+  "durango-co": {
+    "score": 4.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 5.1,
+    "year": "2024"
+  },
+  "durham-nc": {
+    "score": 60.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.24,
+    "year": "2024"
+  },
+  "edinburg-tx": {
+    "score": 85.5,
+    "systems_nearby": 6,
+    "visits_per_capita": 1.43,
+    "year": "2024"
+  },
+  "el-monte-ca": {
+    "score": 26.4,
+    "systems_nearby": 14,
+    "visits_per_capita": 3.44,
+    "year": "2024"
+  },
+  "el-paso-tx": {
+    "score": 95.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.05,
+    "year": "2024"
+  },
+  "elgin-il": {
+    "score": 23.7,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.64,
+    "year": "2024"
+  },
+  "elizabeth-nj": {
+    "score": 63.1,
+    "systems_nearby": 35,
+    "visits_per_capita": 2.15,
+    "year": "2024"
+  },
+  "erie-pa": {
+    "score": 73.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.83,
+    "year": "2024"
+  },
+  "escondido-ca": {
+    "score": 76.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.77,
+    "year": "2024"
+  },
+  "eugene-or": {
+    "score": 17.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.91,
+    "year": "2024"
+  },
+  "evansville-in": {
+    "score": 43.8,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.79,
+    "year": "2024"
+  },
+  "everett-wa": {
+    "score": 38.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.93,
+    "year": "2024"
+  },
+  "fairfield-ca": {
+    "score": 74.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.83,
+    "year": "2024"
+  },
+  "fall-river-ma": {
+    "score": 64.6,
+    "systems_nearby": 10,
+    "visits_per_capita": 2.09,
+    "year": "2024"
+  },
+  "fargo-nd": {
+    "score": 39.8,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.87,
+    "year": "2024"
+  },
+  "farmington-hills-mi": {
+    "score": 13.0,
+    "systems_nearby": 15,
+    "visits_per_capita": 4.18,
+    "year": "2024"
+  },
+  "fayetteville-ar": {
+    "score": 40.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.84,
+    "year": "2024"
+  },
+  "fayetteville-nc": {
+    "score": 73.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "federal-way-wa": {
+    "score": 49.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.6,
+    "year": "2024"
+  },
+  "fishers-in": {
+    "score": 17.8,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.87,
+    "year": "2024"
+  },
+  "flagstaff-az": {
+    "score": 28.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.35,
+    "year": "2024"
+  },
+  "flint-mi": {
+    "score": 67.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.01,
+    "year": "2024"
+  },
+  "flower-mound-tx": {
+    "score": 42.6,
+    "systems_nearby": 7,
+    "visits_per_capita": 2.8,
+    "year": "2024"
+  },
+  "folsom-ca": {
+    "score": 51.8,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.53,
+    "year": "2024"
+  },
+  "fontana-ca": {
+    "score": 92.0,
+    "systems_nearby": 6,
+    "visits_per_capita": 1.19,
+    "year": "2024"
+  },
+  "fort-collins-co": {
+    "score": 20.8,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.72,
+    "year": "2024"
+  },
+  "fort-lauderdale-fl": {
+    "score": 42.1,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.81,
+    "year": "2024"
+  },
+  "fort-myers-fl": {
+    "score": 73.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.83,
+    "year": "2024"
+  },
+  "fort-smith-ar": {
+    "score": 54.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.45,
+    "year": "2024"
+  },
+  "fort-wayne-in": {
+    "score": 9.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 4.44,
+    "year": "2024"
+  },
+  "fort-worth-tx": {
+    "score": 46.1,
+    "systems_nearby": 10,
+    "visits_per_capita": 2.72,
+    "year": "2024"
+  },
+  "franklin-tn": {
+    "score": 54.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.48,
+    "year": "2024"
+  },
+  "frederick-md": {
+    "score": 23.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.66,
+    "year": "2024"
+  },
+  "fremont-ca": {
+    "score": 52.0,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.53,
+    "year": "2024"
+  },
+  "fresno-ca": {
+    "score": 94.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.12,
+    "year": "2024"
+  },
+  "frisco-tx": {
+    "score": 12.8,
+    "systems_nearby": 6,
+    "visits_per_capita": 4.19,
+    "year": "2024"
+  },
+  "fullerton-ca": {
+    "score": 47.2,
+    "systems_nearby": 9,
+    "visits_per_capita": 2.69,
+    "year": "2024"
+  },
+  "garden-grove-ca": {
+    "score": 65.8,
+    "systems_nearby": 9,
+    "visits_per_capita": 2.07,
+    "year": "2024"
+  },
+  "garland-tx": {
+    "score": 80.7,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.62,
+    "year": "2024"
+  },
+  "gastonia-nc": {
+    "score": 70.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.88,
+    "year": "2024"
+  },
+  "georgetown-tx": {
+    "score": 18.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.84,
+    "year": "2024"
+  },
+  "gilbert-az": {
+    "score": 78.2,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.72,
+    "year": "2024"
+  },
+  "glendale-az": {
+    "score": 87.8,
+    "systems_nearby": 6,
+    "visits_per_capita": 1.39,
+    "year": "2024"
+  },
+  "glendale-ca": {
+    "score": 69.4,
+    "systems_nearby": 10,
+    "visits_per_capita": 1.92,
+    "year": "2024"
+  },
+  "grand-junction-co": {
+    "score": 8.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 4.51,
+    "year": "2024"
+  },
+  "grand-prairie-tx": {
+    "score": 67.5,
+    "systems_nearby": 6,
+    "visits_per_capita": 2.01,
+    "year": "2024"
+  },
+  "grand-rapids-mi": {
+    "score": 10.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 4.29,
+    "year": "2024"
+  },
+  "greeley-co": {
+    "score": 11.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.26,
+    "year": "2024"
+  },
+  "green-bay-wi": {
+    "score": 57.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.31,
+    "year": "2024"
+  },
+  "greensboro-nc": {
+    "score": 53.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.5,
+    "year": "2024"
+  },
+  "greenville-nc": {
+    "score": 85.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.43,
+    "year": "2024"
+  },
+  "gresham-or": {
+    "score": 2.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 5.38,
+    "year": "2024"
+  },
+  "hampton-va": {
+    "score": 65.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.07,
+    "year": "2024"
+  },
+  "hartford-ct": {
+    "score": 12.4,
+    "systems_nearby": 17,
+    "visits_per_capita": 4.19,
+    "year": "2024"
+  },
+  "hawthorne-ca": {
+    "score": 10.5,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.33,
+    "year": "2024"
+  },
+  "hayward-ca": {
+    "score": 56.0,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.39,
+    "year": "2024"
+  },
+  "hemet-ca": {
+    "score": 97.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.9,
+    "year": "2024"
+  },
+  "henderson-nv": {
+    "score": 79.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.66,
+    "year": "2024"
+  },
+  "hesperia-ca": {
+    "score": 99.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.43,
+    "year": "2024"
+  },
+  "hialeah-fl": {
+    "score": 75.9,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.79,
+    "year": "2024"
+  },
+  "high-point-nc": {
+    "score": 76.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.78,
+    "year": "2024"
+  },
+  "hillsboro-or": {
+    "score": 14.5,
+    "systems_nearby": 8,
+    "visits_per_capita": 4.06,
+    "year": "2024"
+  },
+  "hollywood-fl": {
+    "score": 30.8,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.25,
+    "year": "2024"
+  },
+  "homestead-fl": {
+    "score": 90.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.23,
+    "year": "2024"
+  },
+  "honolulu-hi": {
+    "score": 88.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.38,
+    "year": "2024"
+  },
+  "hoover-al": {
+    "score": 23.9,
+    "systems_nearby": 12,
+    "visits_per_capita": 3.62,
+    "year": "2024"
+  },
+  "houston-tx": {
+    "score": 95.6,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.03,
+    "year": "2024"
+  },
+  "huntington-beach-ca": {
+    "score": 61.4,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.18,
+    "year": "2024"
+  },
+  "huntsville-al": {
+    "score": 31.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.25,
+    "year": "2024"
+  },
+  "independence-mo": {
+    "score": 37.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.96,
+    "year": "2024"
+  },
+  "indianapolis-in": {
+    "score": 52.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.52,
+    "year": "2024"
+  },
+  "inglewood-ca": {
+    "score": 77.4,
+    "systems_nearby": 7,
+    "visits_per_capita": 1.75,
+    "year": "2024"
+  },
+  "irvine-ca": {
+    "score": 65.4,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.08,
+    "year": "2024"
+  },
+  "irving-tx": {
+    "score": 97.3,
+    "systems_nearby": 8,
+    "visits_per_capita": 0.9,
+    "year": "2024"
+  },
+  "jackson-ms": {
+    "score": 96.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.93,
+    "year": "2024"
+  },
+  "jacksonville-fl": {
+    "score": 65.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.09,
+    "year": "2024"
+  },
+  "jersey-city-nj": {
+    "score": 48.2,
+    "systems_nearby": 41,
+    "visits_per_capita": 2.65,
+    "year": "2024"
+  },
+  "joliet-il": {
+    "score": 62.7,
+    "systems_nearby": 6,
+    "visits_per_capita": 2.16,
+    "year": "2024"
+  },
+  "jonesboro-ar": {
+    "score": 79.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.65,
+    "year": "2024"
+  },
+  "jurupa-valley-ca": {
+    "score": 88.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.35,
+    "year": "2024"
+  },
+  "kalispell-mt": {
+    "score": 56.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.32,
+    "year": "2024"
+  },
+  "kansas-city-ks": {
+    "score": 9.4,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.4,
+    "year": "2024"
+  },
+  "kansas-city-mo": {
+    "score": 10.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 4.35,
+    "year": "2024"
+  },
+  "kennewick-wa": {
+    "score": 63.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.12,
+    "year": "2024"
+  },
+  "kenosha-wi": {
+    "score": 33.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.15,
+    "year": "2024"
+  },
+  "killeen-tx": {
+    "score": 89.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.24,
+    "year": "2024"
+  },
+  "kirkland-wa": {
+    "score": 22.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.68,
+    "year": "2024"
+  },
+  "kissimmee-fl": {
+    "score": 83.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.52,
+    "year": "2024"
+  },
+  "knoxville-tn": {
+    "score": 66.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.07,
+    "year": "2024"
+  },
+  "lafayette-la": {
+    "score": 36.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.98,
+    "year": "2024"
+  },
+  "lake-charles-la": {
+    "score": 79.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.66,
+    "year": "2024"
+  },
+  "lake-forest-ca": {
+    "score": 24.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.47,
+    "year": "2024"
+  },
+  "lakewood-ca": {
+    "score": 75.3,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.81,
+    "year": "2024"
+  },
+  "lakewood-co": {
+    "score": 24.7,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.48,
+    "year": "2024"
+  },
+  "lancaster-ca": {
+    "score": 100.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.35,
+    "year": "2024"
+  },
+  "lansing-mi": {
+    "score": 29.6,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.27,
+    "year": "2024"
+  },
+  "laredo-tx": {
+    "score": 92.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.17,
+    "year": "2024"
+  },
+  "largo-fl": {
+    "score": 52.8,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.5,
+    "year": "2024"
+  },
+  "las-cruces-nm": {
+    "score": 54.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.48,
+    "year": "2024"
+  },
+  "las-vegas-nv": {
+    "score": 96.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.94,
+    "year": "2024"
+  },
+  "lawrence-ks": {
+    "score": 15.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.01,
+    "year": "2024"
+  },
+  "lawrence-ma": {
+    "score": 55.1,
+    "systems_nearby": 18,
+    "visits_per_capita": 2.43,
+    "year": "2024"
+  },
+  "lawton-ok": {
+    "score": 86.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.41,
+    "year": "2024"
+  },
+  "layton-ut": {
+    "score": 44.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.78,
+    "year": "2024"
+  },
+  "league-city-tx": {
+    "score": 76.1,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.78,
+    "year": "2024"
+  },
+  "leander-tx": {
+    "score": 55.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.4,
+    "year": "2024"
+  },
+  "lehi-ut": {
+    "score": 34.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.07,
+    "year": "2024"
+  },
+  "lewisville-tx": {
+    "score": 69.8,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.89,
+    "year": "2024"
+  },
+  "lexington-ky": {
+    "score": 33.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.12,
+    "year": "2024"
+  },
+  "lincoln-ne": {
+    "score": 52.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.52,
+    "year": "2024"
+  },
+  "little-rock-ar": {
+    "score": 8.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.47,
+    "year": "2024"
+  },
+  "livermore-ca": {
+    "score": 9.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.38,
+    "year": "2024"
+  },
+  "livonia-mi": {
+    "score": 34.8,
+    "systems_nearby": 14,
+    "visits_per_capita": 3.04,
+    "year": "2024"
+  },
+  "long-beach-ca": {
+    "score": 57.2,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.32,
+    "year": "2024"
+  },
+  "longmont-co": {
+    "score": 22.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.67,
+    "year": "2024"
+  },
+  "longview-tx": {
+    "score": 93.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.13,
+    "year": "2024"
+  },
+  "los-alamos-nm": {
+    "score": 0.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 11.64,
+    "year": "2024"
+  },
+  "los-angeles-ca": {
+    "score": 75.1,
+    "systems_nearby": 13,
+    "visits_per_capita": 1.82,
+    "year": "2024"
+  },
+  "louisville-ky": {
+    "score": 56.6,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.34,
+    "year": "2024"
+  },
+  "loveland-co": {
+    "score": 19.7,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.76,
+    "year": "2024"
+  },
+  "lowell-ma": {
+    "score": 44.4,
+    "systems_nearby": 14,
+    "visits_per_capita": 2.77,
+    "year": "2024"
+  },
+  "lubbock-tx": {
+    "score": 90.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.23,
+    "year": "2024"
+  },
+  "lynchburg-va": {
+    "score": 70.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.87,
+    "year": "2024"
+  },
+  "lynn-ma": {
+    "score": 14.7,
+    "systems_nearby": 25,
+    "visits_per_capita": 4.05,
+    "year": "2024"
+  },
+  "mableton-ga": {
+    "score": 75.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.8,
+    "year": "2024"
+  },
+  "macon-ga": {
+    "score": 88.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.38,
+    "year": "2024"
+  },
+  "madison-wi": {
+    "score": 1.7,
+    "systems_nearby": 8,
+    "visits_per_capita": 5.79,
+    "year": "2024"
+  },
+  "manchester-nh": {
+    "score": 57.0,
+    "systems_nearby": 12,
+    "visits_per_capita": 2.32,
+    "year": "2024"
+  },
+  "mansfield-tx": {
+    "score": 93.7,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.14,
+    "year": "2024"
+  },
+  "maricopa-az": {
+    "score": 5.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.99,
+    "year": "2024"
+  },
+  "marysville-wa": {
+    "score": 38.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.93,
+    "year": "2024"
+  },
+  "mcallen-tx": {
+    "score": 83.6,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.49,
+    "year": "2024"
+  },
+  "mckinney-tx": {
+    "score": 60.8,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.2,
+    "year": "2024"
+  },
+  "medford-or": {
+    "score": 31.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.24,
+    "year": "2024"
+  },
+  "memphis-tn": {
+    "score": 94.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.13,
+    "year": "2024"
+  },
+  "menifee-ca": {
+    "score": 82.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.54,
+    "year": "2024"
+  },
+  "merced-ca": {
+    "score": 96.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.98,
+    "year": "2024"
+  },
+  "meridian-id": {
+    "score": 31.7,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.2,
+    "year": "2024"
+  },
+  "mesa-az": {
+    "score": 72.1,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.85,
+    "year": "2024"
+  },
+  "mesquite-tx": {
+    "score": 87.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.39,
+    "year": "2024"
+  },
+  "miami-beach-fl": {
+    "score": 75.7,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.79,
+    "year": "2024"
+  },
+  "miami-fl": {
+    "score": 83.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.49,
+    "year": "2024"
+  },
+  "miami-gardens-fl": {
+    "score": 24.3,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.62,
+    "year": "2024"
+  },
+  "midland-tx": {
+    "score": 95.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.07,
+    "year": "2024"
+  },
+  "milpitas-ca": {
+    "score": 29.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.26,
+    "year": "2024"
+  },
+  "milwaukee-wi": {
+    "score": 28.1,
+    "systems_nearby": 15,
+    "visits_per_capita": 3.37,
+    "year": "2024"
+  },
+  "minneapolis-mn": {
+    "score": 21.0,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.72,
+    "year": "2024"
+  },
+  "miramar-fl": {
+    "score": 98.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.7,
+    "year": "2024"
+  },
+  "mission-tx": {
+    "score": 74.6,
+    "systems_nearby": 7,
+    "visits_per_capita": 1.82,
+    "year": "2024"
+  },
+  "mission-viejo-ca": {
+    "score": 25.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.47,
+    "year": "2024"
+  },
+  "missoula-mt": {
+    "score": 11.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 4.28,
+    "year": "2024"
+  },
+  "mobile-al": {
+    "score": 60.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.2,
+    "year": "2024"
+  },
+  "modesto-ca": {
+    "score": 86.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.42,
+    "year": "2024"
+  },
+  "montgomery-al": {
+    "score": 81.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.59,
+    "year": "2024"
+  },
+  "moreno-valley-ca": {
+    "score": 81.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.58,
+    "year": "2024"
+  },
+  "mount-pleasant-sc": {
+    "score": 30.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.26,
+    "year": "2024"
+  },
+  "mountain-view-ca": {
+    "score": 3.4,
+    "systems_nearby": 6,
+    "visits_per_capita": 5.19,
+    "year": "2024"
+  },
+  "murfreesboro-tn": {
+    "score": 77.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.74,
+    "year": "2024"
+  },
+  "murrieta-ca": {
+    "score": 81.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.54,
+    "year": "2024"
+  },
+  "nampa-id": {
+    "score": 49.9,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.56,
+    "year": "2024"
+  },
+  "naperville-il": {
+    "score": 5.5,
+    "systems_nearby": 14,
+    "visits_per_capita": 4.99,
+    "year": "2024"
+  },
+  "nashua-nh": {
+    "score": 46.5,
+    "systems_nearby": 12,
+    "visits_per_capita": 2.71,
+    "year": "2024"
+  },
+  "nashville-tn": {
+    "score": 18.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.87,
+    "year": "2024"
+  },
+  "new-bedford-ma": {
+    "score": 50.9,
+    "systems_nearby": 9,
+    "visits_per_capita": 2.54,
+    "year": "2024"
+  },
+  "new-braunfels-tx": {
+    "score": 49.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.6,
+    "year": "2024"
+  },
+  "new-haven-ct": {
+    "score": 45.7,
+    "systems_nearby": 16,
+    "visits_per_capita": 2.73,
+    "year": "2024"
+  },
+  "new-orleans-la": {
+    "score": 47.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.67,
+    "year": "2024"
+  },
+  "new-rochelle-ny": {
+    "score": 3.6,
+    "systems_nearby": 28,
+    "visits_per_capita": 5.16,
+    "year": "2024"
+  },
+  "new-york-ny": {
+    "score": 47.4,
+    "systems_nearby": 25,
+    "visits_per_capita": 2.68,
+    "year": "2024"
+  },
+  "newark-nj": {
+    "score": 39.0,
+    "systems_nearby": 48,
+    "visits_per_capita": 2.92,
+    "year": "2024"
+  },
+  "newport-beach-ca": {
+    "score": 54.1,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.48,
+    "year": "2024"
+  },
+  "newport-news-va": {
+    "score": 43.4,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.8,
+    "year": "2024"
+  },
+  "newton-ma": {
+    "score": 7.3,
+    "systems_nearby": 26,
+    "visits_per_capita": 4.63,
+    "year": "2024"
+  },
+  "norfolk-va": {
+    "score": 58.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.28,
+    "year": "2024"
+  },
+  "norman-ok": {
+    "score": 56.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.37,
+    "year": "2024"
+  },
+  "north-las-vegas-nv": {
+    "score": 96.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.94,
+    "year": "2024"
+  },
+  "north-port-fl": {
+    "score": 85.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.43,
+    "year": "2024"
+  },
+  "norwalk-ca": {
+    "score": 71.7,
+    "systems_nearby": 9,
+    "visits_per_capita": 1.85,
+    "year": "2024"
+  },
+  "norwalk-ct": {
+    "score": 6.3,
+    "systems_nearby": 12,
+    "visits_per_capita": 4.71,
+    "year": "2024"
+  },
+  "oakland-ca": {
+    "score": 13.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.11,
+    "year": "2024"
+  },
+  "oceanside-ca": {
+    "score": 34.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.1,
+    "year": "2024"
+  },
+  "odessa-tx": {
+    "score": 87.4,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.4,
+    "year": "2024"
+  },
+  "ofallon-mo": {
+    "score": 35.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.02,
+    "year": "2024"
+  },
+  "ogden-ut": {
+    "score": 15.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.98,
+    "year": "2024"
+  },
+  "oklahoma-city-ok": {
+    "score": 58.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.31,
+    "year": "2024"
+  },
+  "olathe-ks": {
+    "score": 15.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.99,
+    "year": "2024"
+  },
+  "omaha-ne": {
+    "score": 53.9,
+    "systems_nearby": 7,
+    "visits_per_capita": 2.49,
+    "year": "2024"
+  },
+  "ontario-ca": {
+    "score": 91.2,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.21,
+    "year": "2024"
+  },
+  "orange-ca": {
+    "score": 68.1,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.99,
+    "year": "2024"
+  },
+  "orem-ut": {
+    "score": 8.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.46,
+    "year": "2024"
+  },
+  "orlando-fl": {
+    "score": 71.3,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.86,
+    "year": "2024"
+  },
+  "overland-park-ks": {
+    "score": 14.3,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.07,
+    "year": "2024"
+  },
+  "oxnard-ca": {
+    "score": 84.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.48,
+    "year": "2024"
+  },
+  "palm-coast-fl": {
+    "score": 70.9,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.86,
+    "year": "2024"
+  },
+  "palmdale-ca": {
+    "score": 99.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.35,
+    "year": "2024"
+  },
+  "parma-oh": {
+    "score": 1.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 5.6,
+    "year": "2024"
+  },
+  "pasadena-ca": {
+    "score": 18.0,
+    "systems_nearby": 11,
+    "visits_per_capita": 3.87,
+    "year": "2024"
+  },
+  "pasadena-tx": {
+    "score": 79.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.64,
+    "year": "2024"
+  },
+  "pasco-wa": {
+    "score": 63.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.12,
+    "year": "2024"
+  },
+  "paterson-nj": {
+    "score": 19.5,
+    "systems_nearby": 71,
+    "visits_per_capita": 3.77,
+    "year": "2024"
+  },
+  "pawtucket-ri": {
+    "score": 44.7,
+    "systems_nearby": 18,
+    "visits_per_capita": 2.76,
+    "year": "2024"
+  },
+  "pearland-tx": {
+    "score": 93.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.16,
+    "year": "2024"
+  },
+  "peoria-az": {
+    "score": 69.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.9,
+    "year": "2024"
+  },
+  "peoria-il": {
+    "score": 35.4,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.03,
+    "year": "2024"
+  },
+  "perris-ca": {
+    "score": 90.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.23,
+    "year": "2024"
+  },
+  "pharr-tx": {
+    "score": 82.8,
+    "systems_nearby": 8,
+    "visits_per_capita": 1.53,
+    "year": "2024"
+  },
+  "philadelphia-pa": {
+    "score": 82.6,
+    "systems_nearby": 32,
+    "visits_per_capita": 1.54,
+    "year": "2024"
+  },
+  "phoenix-az": {
+    "score": 84.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.46,
+    "year": "2024"
+  },
+  "pittsburgh-pa": {
+    "score": 18.9,
+    "systems_nearby": 32,
+    "visits_per_capita": 3.83,
+    "year": "2024"
+  },
+  "plano-tx": {
+    "score": 30.6,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.26,
+    "year": "2024"
+  },
+  "plantation-fl": {
+    "score": 41.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.81,
+    "year": "2024"
+  },
+  "plymouth-mn": {
+    "score": 21.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.69,
+    "year": "2024"
+  },
+  "pomona-ca": {
+    "score": 89.5,
+    "systems_nearby": 6,
+    "visits_per_capita": 1.33,
+    "year": "2024"
+  },
+  "pompano-beach-fl": {
+    "score": 43.2,
+    "systems_nearby": 6,
+    "visits_per_capita": 2.8,
+    "year": "2024"
+  },
+  "port-st-lucie-fl": {
+    "score": 39.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.9,
+    "year": "2024"
+  },
+  "portland-or": {
+    "score": 45.1,
+    "systems_nearby": 11,
+    "visits_per_capita": 2.74,
+    "year": "2024"
+  },
+  "portsmouth-va": {
+    "score": 67.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.01,
+    "year": "2024"
+  },
+  "providence-ri": {
+    "score": 41.3,
+    "systems_nearby": 21,
+    "visits_per_capita": 2.84,
+    "year": "2024"
+  },
+  "provo-ut": {
+    "score": 7.8,
+    "systems_nearby": 6,
+    "visits_per_capita": 4.58,
+    "year": "2024"
+  },
+  "pueblo-co": {
+    "score": 24.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.62,
+    "year": "2024"
+  },
+  "quincy-ma": {
+    "score": 19.9,
+    "systems_nearby": 17,
+    "visits_per_capita": 3.76,
+    "year": "2024"
+  },
+  "racine-wi": {
+    "score": 61.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.16,
+    "year": "2024"
+  },
+  "raleigh-nc": {
+    "score": 50.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.55,
+    "year": "2024"
+  },
+  "rancho-cordova-ca": {
+    "score": 59.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.26,
+    "year": "2024"
+  },
+  "rancho-cucamonga-ca": {
+    "score": 91.0,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.21,
+    "year": "2024"
+  },
+  "rapid-city-sd": {
+    "score": 49.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.57,
+    "year": "2024"
+  },
+  "reading-pa": {
+    "score": 67.7,
+    "systems_nearby": 13,
+    "visits_per_capita": 2.0,
+    "year": "2024"
+  },
+  "redding-ca": {
+    "score": 55.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.43,
+    "year": "2024"
+  },
+  "redwood-city-ca": {
+    "score": 0.6,
+    "systems_nearby": 6,
+    "visits_per_capita": 6.54,
+    "year": "2024"
+  },
+  "reno-nv": {
+    "score": 84.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.48,
+    "year": "2024"
+  },
+  "renton-wa": {
+    "score": 28.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.35,
+    "year": "2024"
+  },
+  "rialto-ca": {
+    "score": 91.8,
+    "systems_nearby": 6,
+    "visits_per_capita": 1.19,
+    "year": "2024"
+  },
+  "richardson-tx": {
+    "score": 32.7,
+    "systems_nearby": 9,
+    "visits_per_capita": 3.16,
+    "year": "2024"
+  },
+  "richmond-ca": {
+    "score": 20.3,
+    "systems_nearby": 7,
+    "visits_per_capita": 3.73,
+    "year": "2024"
+  },
+  "richmond-va": {
+    "score": 25.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.47,
+    "year": "2024"
+  },
+  "rio-rancho-nm": {
+    "score": 78.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.67,
+    "year": "2024"
+  },
+  "riverside-ca": {
+    "score": 89.7,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.33,
+    "year": "2024"
+  },
+  "roanoke-va": {
+    "score": 21.4,
+    "systems_nearby": 4,
+    "visits_per_capita": 3.7,
+    "year": "2024"
+  },
+  "rochester-hills-mi": {
+    "score": 40.5,
+    "systems_nearby": 11,
+    "visits_per_capita": 2.84,
+    "year": "2024"
+  },
+  "rochester-mn": {
+    "score": 50.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.56,
+    "year": "2024"
+  },
+  "rochester-ny": {
+    "score": 12.6,
+    "systems_nearby": 13,
+    "visits_per_capita": 4.19,
+    "year": "2024"
+  },
+  "rockford-il": {
+    "score": 53.2,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.5,
+    "year": "2024"
+  },
+  "rocklin-ca": {
+    "score": 38.6,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.92,
+    "year": "2024"
+  },
+  "rogers-ar": {
+    "score": 32.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.15,
+    "year": "2024"
+  },
+  "roseville-ca": {
+    "score": 32.1,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.19,
+    "year": "2024"
+  },
+  "round-rock-tx": {
+    "score": 24.5,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.49,
+    "year": "2024"
+  },
+  "sacramento-ca": {
+    "score": 89.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.35,
+    "year": "2024"
+  },
+  "saint-paul-mn": {
+    "score": 25.8,
+    "systems_nearby": 5,
+    "visits_per_capita": 3.46,
+    "year": "2024"
+  },
+  "salem-or": {
+    "score": 61.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.19,
+    "year": "2024"
+  },
+  "salinas-ca": {
+    "score": 76.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.77,
+    "year": "2024"
+  },
+  "salt-lake-city-ut": {
+    "score": 6.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 4.68,
+    "year": "2024"
+  },
+  "san-angelo-tx": {
+    "score": 62.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.15,
+    "year": "2024"
+  },
+  "san-antonio-tx": {
+    "score": 84.7,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.47,
+    "year": "2024"
+  },
+  "san-bernardino-ca": {
+    "score": 95.2,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.07,
+    "year": "2024"
+  },
+  "san-diego-ca": {
+    "score": 37.1,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.97,
+    "year": "2024"
+  },
+  "san-francisco-ca": {
+    "score": 15.1,
+    "systems_nearby": 8,
+    "visits_per_capita": 4.02,
+    "year": "2024"
+  },
+  "san-jose-ca": {
+    "score": 11.7,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.22,
+    "year": "2024"
+  },
+  "san-leandro-ca": {
+    "score": 40.7,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.84,
+    "year": "2024"
+  },
+  "san-marcos-ca": {
+    "score": 40.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.86,
+    "year": "2024"
+  },
+  "san-marcos-tx": {
+    "score": 72.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 1.84,
+    "year": "2024"
+  },
+  "san-mateo-ca": {
+    "score": 1.0,
+    "systems_nearby": 6,
+    "visits_per_capita": 5.86,
+    "year": "2024"
+  },
+  "san-ramon-ca": {
+    "score": 5.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 5.0,
+    "year": "2024"
+  },
+  "sandpoint-id": {
+    "score": 3.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 5.1,
+    "year": "2024"
+  },
+  "sandy-ut": {
+    "score": 35.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.03,
+    "year": "2024"
+  },
+  "santa-ana-ca": {
+    "score": 63.3,
+    "systems_nearby": 8,
+    "visits_per_capita": 2.15,
+    "year": "2024"
+  },
+  "santa-barbara-ca": {
+    "score": 44.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.78,
+    "year": "2024"
+  },
+  "santa-clara-ca": {
+    "score": 12.2,
+    "systems_nearby": 6,
+    "visits_per_capita": 4.21,
+    "year": "2024"
+  },
+  "santa-clarita-ca": {
+    "score": 76.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.77,
+    "year": "2024"
+  },
+  "santa-fe-nm": {
+    "score": 3.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 5.24,
+    "year": "2024"
+  },
+  "santa-maria-ca": {
+    "score": 85.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.42,
+    "year": "2024"
+  },
+  "santa-monica-ca": {
+    "score": 5.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 4.75,
+    "year": "2024"
+  },
+  "santa-rosa-ca": {
+    "score": 36.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.98,
+    "year": "2024"
+  },
+  "savannah-ga": {
+    "score": 86.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.41,
+    "year": "2024"
+  },
+  "schaumburg-il": {
+    "score": 4.8,
+    "systems_nearby": 20,
+    "visits_per_capita": 5.01,
+    "year": "2024"
+  },
+  "scottsdale-az": {
+    "score": 87.2,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.41,
+    "year": "2024"
+  },
+  "seattle-wa": {
+    "score": 22.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.68,
+    "year": "2024"
+  },
+  "shreveport-la": {
+    "score": 52.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.51,
+    "year": "2024"
+  },
+  "simi-valley-ca": {
+    "score": 51.2,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.54,
+    "year": "2024"
+  },
+  "sioux-city-ia": {
+    "score": 36.3,
+    "systems_nearby": 6,
+    "visits_per_capita": 3.01,
+    "year": "2024"
+  },
+  "sioux-falls-sd": {
+    "score": 32.3,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.18,
+    "year": "2024"
+  },
+  "somerville-ma": {
+    "score": 14.9,
+    "systems_nearby": 28,
+    "visits_per_capita": 4.03,
+    "year": "2024"
+  },
+  "south-bend-in": {
+    "score": 18.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.86,
+    "year": "2024"
+  },
+  "south-gate-ca": {
+    "score": 78.6,
+    "systems_nearby": 10,
+    "visits_per_capita": 1.69,
+    "year": "2024"
+  },
+  "south-jordan-ut": {
+    "score": 35.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.03,
+    "year": "2024"
+  },
+  "sparks-nv": {
+    "score": 84.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.48,
+    "year": "2024"
+  },
+  "spokane-valley-wa": {
+    "score": 21.2,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.71,
+    "year": "2024"
+  },
+  "spokane-wa": {
+    "score": 22.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.68,
+    "year": "2024"
+  },
+  "springdale-ar": {
+    "score": 37.3,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.96,
+    "year": "2024"
+  },
+  "springfield-il": {
+    "score": 61.6,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.17,
+    "year": "2024"
+  },
+  "springfield-ma": {
+    "score": 38.8,
+    "systems_nearby": 13,
+    "visits_per_capita": 2.92,
+    "year": "2024"
+  },
+  "springfield-mo": {
+    "score": 15.7,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.99,
+    "year": "2024"
+  },
+  "st-george-ut": {
+    "score": 41.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.83,
+    "year": "2024"
+  },
+  "st-louis-mo": {
+    "score": 27.7,
+    "systems_nearby": 15,
+    "visits_per_capita": 3.4,
+    "year": "2024"
+  },
+  "stamford-ct": {
+    "score": 4.2,
+    "systems_nearby": 15,
+    "visits_per_capita": 5.06,
+    "year": "2024"
+  },
+  "sterling-heights-mi": {
+    "score": 50.3,
+    "systems_nearby": 22,
+    "visits_per_capita": 2.56,
+    "year": "2024"
+  },
+  "stockton-ca": {
+    "score": 97.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.9,
+    "year": "2024"
+  },
+  "suffolk-va": {
+    "score": 86.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.41,
+    "year": "2024"
+  },
+  "sugar-land-tx": {
+    "score": 68.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.97,
+    "year": "2024"
+  },
+  "sundance-wy": {
+    "score": 26.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.45,
+    "year": "2024"
+  },
+  "sunnyvale-ca": {
+    "score": 9.9,
+    "systems_nearby": 7,
+    "visits_per_capita": 4.37,
+    "year": "2024"
+  },
+  "sunrise-fl": {
+    "score": 43.0,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.8,
+    "year": "2024"
+  },
+  "syracuse-ny": {
+    "score": 64.8,
+    "systems_nearby": 12,
+    "visits_per_capita": 2.09,
+    "year": "2024"
+  },
+  "tacoma-wa": {
+    "score": 58.7,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.28,
+    "year": "2024"
+  },
+  "tallahassee-fl": {
+    "score": 68.8,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.97,
+    "year": "2024"
+  },
+  "tampa-fl": {
+    "score": 80.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.62,
+    "year": "2024"
+  },
+  "taos-nm": {
+    "score": 0.2,
+    "systems_nearby": 3,
+    "visits_per_capita": 8.56,
+    "year": "2024"
+  },
+  "temecula-ca": {
+    "score": 82.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.54,
+    "year": "2024"
+  },
+  "tempe-az": {
+    "score": 87.0,
+    "systems_nearby": 5,
+    "visits_per_capita": 1.41,
+    "year": "2024"
+  },
+  "temple-tx": {
+    "score": 62.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.16,
+    "year": "2024"
+  },
+  "thornton-co": {
+    "score": 59.5,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.27,
+    "year": "2024"
+  },
+  "thousand-oaks-ca": {
+    "score": 29.1,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.33,
+    "year": "2024"
+  },
+  "toledo-oh": {
+    "score": 2.9,
+    "systems_nearby": 3,
+    "visits_per_capita": 5.27,
+    "year": "2024"
+  },
+  "topeka-ks": {
+    "score": 48.4,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.64,
+    "year": "2024"
+  },
+  "torrance-ca": {
+    "score": 10.7,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.33,
+    "year": "2024"
+  },
+  "trenton-nj": {
+    "score": 37.5,
+    "systems_nearby": 7,
+    "visits_per_capita": 2.96,
+    "year": "2024"
+  },
+  "troy-mi": {
+    "score": 48.8,
+    "systems_nearby": 22,
+    "visits_per_capita": 2.6,
+    "year": "2024"
+  },
+  "tucson-az": {
+    "score": 58.5,
+    "systems_nearby": 3,
+    "visits_per_capita": 2.3,
+    "year": "2024"
+  },
+  "tulsa-ok": {
+    "score": 45.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.72,
+    "year": "2024"
+  },
+  "tuscaloosa-al": {
+    "score": 26.2,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.45,
+    "year": "2024"
+  },
+  "tustin-ca": {
+    "score": 66.5,
+    "systems_nearby": 5,
+    "visits_per_capita": 2.04,
+    "year": "2024"
+  },
+  "tyler-tx": {
+    "score": 88.7,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.36,
+    "year": "2024"
+  },
+  "upland-ca": {
+    "score": 90.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.21,
+    "year": "2024"
+  },
+  "vacaville-ca": {
+    "score": 74.0,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.83,
+    "year": "2024"
+  },
+  "vallejo-ca": {
+    "score": 2.1,
+    "systems_nearby": 1,
+    "visits_per_capita": 5.41,
+    "year": "2024"
+  },
+  "vancouver-wa": {
+    "score": 58.1,
+    "systems_nearby": 2,
+    "visits_per_capita": 2.31,
+    "year": "2024"
+  },
+  "ventura-ca": {
+    "score": 92.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.17,
+    "year": "2024"
+  },
+  "victorville-ca": {
+    "score": 99.6,
+    "systems_nearby": 1,
+    "visits_per_capita": 0.43,
+    "year": "2024"
+  },
+  "virginia-beach-va": {
+    "score": 68.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.99,
+    "year": "2024"
+  },
+  "visalia-ca": {
+    "score": 98.5,
+    "systems_nearby": 2,
+    "visits_per_capita": 0.63,
+    "year": "2024"
+  },
+  "vista-ca": {
+    "score": 34.0,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.1,
+    "year": "2024"
+  },
+  "waco-tx": {
+    "score": 81.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.56,
+    "year": "2024"
+  },
+  "warren-mi": {
+    "score": 78.4,
+    "systems_nearby": 23,
+    "visits_per_capita": 1.7,
+    "year": "2024"
+  },
+  "warwick-ri": {
+    "score": 40.0,
+    "systems_nearby": 15,
+    "visits_per_capita": 2.86,
+    "year": "2024"
+  },
+  "washington-dc": {
+    "score": 7.1,
+    "systems_nearby": 5,
+    "visits_per_capita": 4.64,
+    "year": "2024"
+  },
+  "waterbury-ct": {
+    "score": 50.5,
+    "systems_nearby": 14,
+    "visits_per_capita": 2.55,
+    "year": "2024"
+  },
+  "waukegan-il": {
+    "score": 19.1,
+    "systems_nearby": 10,
+    "visits_per_capita": 3.81,
+    "year": "2024"
+  },
+  "west-covina-ca": {
+    "score": 66.2,
+    "systems_nearby": 8,
+    "visits_per_capita": 2.06,
+    "year": "2024"
+  },
+  "west-jordan-ut": {
+    "score": 35.6,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.03,
+    "year": "2024"
+  },
+  "west-palm-beach-fl": {
+    "score": 53.7,
+    "systems_nearby": 6,
+    "visits_per_capita": 2.49,
+    "year": "2024"
+  },
+  "west-valley-city-ut": {
+    "score": 27.5,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.4,
+    "year": "2024"
+  },
+  "westland-mi": {
+    "score": 54.3,
+    "systems_nearby": 15,
+    "visits_per_capita": 2.48,
+    "year": "2024"
+  },
+  "westminster-ca": {
+    "score": 66.7,
+    "systems_nearby": 8,
+    "visits_per_capita": 2.03,
+    "year": "2024"
+  },
+  "westminster-co": {
+    "score": 36.9,
+    "systems_nearby": 6,
+    "visits_per_capita": 2.97,
+    "year": "2024"
+  },
+  "whitewright-tx": {
+    "score": 28.7,
+    "systems_nearby": 2,
+    "visits_per_capita": 3.34,
+    "year": "2024"
+  },
+  "whittier-ca": {
+    "score": 71.5,
+    "systems_nearby": 9,
+    "visits_per_capita": 1.85,
+    "year": "2024"
+  },
+  "wichita-falls-tx": {
+    "score": 92.2,
+    "systems_nearby": 2,
+    "visits_per_capita": 1.18,
+    "year": "2024"
+  },
+  "wichita-ks": {
+    "score": 74.8,
+    "systems_nearby": 4,
+    "visits_per_capita": 1.82,
+    "year": "2024"
+  },
+  "wilmington-nc": {
+    "score": 67.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.0,
+    "year": "2024"
+  },
+  "winston-salem-nc": {
+    "score": 32.5,
+    "systems_nearby": 1,
+    "visits_per_capita": 3.18,
+    "year": "2024"
+  },
+  "woodbury-mn": {
+    "score": 26.8,
+    "systems_nearby": 3,
+    "visits_per_capita": 3.42,
+    "year": "2024"
+  },
+  "worcester-ma": {
+    "score": 19.3,
+    "systems_nearby": 13,
+    "visits_per_capita": 3.78,
+    "year": "2024"
+  },
+  "wyoming-mi": {
+    "score": 44.9,
+    "systems_nearby": 4,
+    "visits_per_capita": 2.74,
+    "year": "2024"
+  },
+  "yakima-wa": {
+    "score": 80.3,
+    "systems_nearby": 1,
+    "visits_per_capita": 1.63,
+    "year": "2024"
+  },
+  "yonkers-ny": {
+    "score": 4.4,
+    "systems_nearby": 56,
+    "visits_per_capita": 5.06,
+    "year": "2024"
+  },
+  "yuma-az": {
+    "score": 66.9,
+    "systems_nearby": 1,
+    "visits_per_capita": 2.03,
+    "year": "2024"
+  }
+}

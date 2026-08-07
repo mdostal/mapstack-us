@@ -588,6 +588,22 @@ test("the thirty-fifth dataset (seismic risk) is selectable and reports a real U
   await expect(detail).toContainText("USGS ASCE 7-22");
 });
 
+test("the thirty-sixth dataset (library access) is selectable and reports a real IMLS-sourced value -- resolves a lead deferred twice this session", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Library access" }).click();
+  await page.getByRole("button", { name: "Library access", exact: true }).click();
+  await page.getByRole("button", { name: "Add Library access" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Library access: Library access" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Library access" });
+  await expect(detail).toContainText("library visits per resident per year");
+  await expect(detail).toContainText("IMLS Public Libraries Survey");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

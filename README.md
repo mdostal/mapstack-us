@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  thirty-five genuinely different real implementations across the full 512-city spine,
+  thirty-six genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -144,6 +144,11 @@ built from two real, working examples instead of upfront design.
     standard values real building codes use, a genuinely new hazard category
     (earthquake, distinct from `hazard.ts`'s flood/wildfire), zero crosswalk
     needed at all (`data/earthquake-methodology.md`).
+  - **Library access** — real IMLS Public Libraries Survey visits per capita,
+    resolving a lead deferred twice this session; a radius-based join against
+    real lat/lon (not the source file's own unreliable administrative
+    city-name field) lifted real coverage from 77% to 93%
+    (`data/library-access-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
