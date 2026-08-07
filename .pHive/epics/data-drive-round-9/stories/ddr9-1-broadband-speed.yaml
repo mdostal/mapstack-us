@@ -1,7 +1,7 @@
 id: ddr9-1-broadband-speed
 epic: data-drive-round-9
 title: Ship FCC broadband speed availability
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []
