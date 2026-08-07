@@ -1,7 +1,7 @@
 id: ddr8-1-severe-weather
 epic: data-drive-round-8
 title: Ship NOAA Storm Events severe-weather frequency
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []
