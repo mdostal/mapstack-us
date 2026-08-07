@@ -1,7 +1,7 @@
 id: tri-2-data-drive-round-2
 epic: tri-bulk-and-data-drive-2
 title: Second fresh dataset-candidate research round -- build the best finding
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
