@@ -1,0 +1,32 @@
+name: data-drive-round-8
+title: Eighth data-drive research round -- ship NOAA severe weather frequency
+description: >
+  An eighth fresh dataset-candidate research round. Ships NOAA Storm
+  Events severe-weather event frequency -- real, keyless, static bulk
+  file, reuses the existing county crosswalk. A genuinely new hazard
+  signal distinct from hazard.ts's flood/wildfire and earthquake.ts's
+  seismic risk.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the seven prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the seven prior epics.
+
+stories:
+  - id: ddr8-1-severe-weather
+    title: Ship NOAA Storm Events severe-weather frequency
+    complexity: low
+    depends_on: []
