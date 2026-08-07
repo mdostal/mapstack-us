@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "sds_cap_for_100_score": 1.5,
+    "source": "USGS ASCE 7-22 Web Service, seismic design values (siteClass=D, riskCategory=I)"
+  },
+  "abilene-tx": {
+    "score": 4.9,
+    "sdc": "A",
+    "sds": 0.073
+  },
+  "akron-oh": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "alameda-ca": {
+    "score": 73.3,
+    "sdc": "D",
+    "sds": 1.1
+  },
+  "albany-ny": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "albuquerque-nm": {
+    "score": 25.3,
+    "sdc": "D",
+    "sds": 0.38
+  },
+  "alexandria-va": {
+    "score": 8.7,
+    "sdc": "A",
+    "sds": 0.13
+  },
+  "alhambra-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.53
+  },
+  "allen-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "allentown-pa": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "amarillo-tx": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "anaheim-ca": {
+    "score": 85.3,
+    "sdc": "D",
+    "sds": 1.28
+  },
+  "anchorage-ak": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "ankeny-ia": {
+    "score": 6.0,
+    "sdc": "B",
+    "sds": 0.09
+  },
+  "ann-arbor-mi": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "antioch-ca": {
+    "score": 77.3,
+    "sdc": "D",
+    "sds": 1.16
+  },
+  "apex-nc": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "arlington-tx": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "arlington-va": {
+    "score": 8.7,
+    "sdc": "A",
+    "sds": 0.13
+  },
+  "arvada-co": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "asheville-nc": {
+    "score": 18.7,
+    "sdc": "C",
+    "sds": 0.28
+  },
+  "athens-ga": {
+    "score": 14.7,
+    "sdc": "B",
+    "sds": 0.22
+  },
+  "atlanta-ga": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "auburn-al": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "auburn-wa": {
+    "score": 68.7,
+    "sdc": "D",
+    "sds": 1.03
+  },
+  "augusta-ga": {
+    "score": 19.3,
+    "sdc": "C",
+    "sds": 0.29
+  },
+  "aurora-co": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "aurora-il": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "austin-tx": {
+    "score": 3.9,
+    "sdc": "A",
+    "sds": 0.058
+  },
+  "avondale-az": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "bakersfield-ca": {
+    "score": 62.0,
+    "sdc": "D",
+    "sds": 0.93
+  },
+  "baltimore-md": {
+    "score": 8.7,
+    "sdc": "A",
+    "sds": 0.13
+  },
+  "baton-rouge-la": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "baytown-tx": {
+    "score": 4.9,
+    "sdc": "A",
+    "sds": 0.074
+  },
+  "beaumont-tx": {
+    "score": 5.5,
+    "sdc": "B",
+    "sds": 0.083
+  },
+  "beaverton-or": {
+    "score": 52.7,
+    "sdc": "D",
+    "sds": 0.79
+  },
+  "bellevue-wa": {
+    "score": 72.7,
+    "sdc": "D",
+    "sds": 1.09
+  },
+  "bellingham-wa": {
+    "score": 57.3,
+    "sdc": "D",
+    "sds": 0.86
+  },
+  "bend-or": {
+    "score": 26.0,
+    "sdc": "D",
+    "sds": 0.39
+  },
+  "berkeley-ca": {
+    "score": 94.0,
+    "sdc": "E",
+    "sds": 1.41
+  },
+  "bethlehem-pa": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "billings-mt": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "birmingham-al": {
+    "score": 17.3,
+    "sdc": "C",
+    "sds": 0.26
+  },
+  "bismarck-nd": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.052
+  },
+  "blanding-ut": {
+    "score": 9.3,
+    "sdc": "A",
+    "sds": 0.14
+  },
+  "bloomington-il": {
+    "score": 13.3,
+    "sdc": "C",
+    "sds": 0.2
+  },
+  "bloomington-in": {
+    "score": 18.0,
+    "sdc": "C",
+    "sds": 0.27
+  },
+  "bloomington-mn": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.053
+  },
+  "boca-raton-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "boise-id": {
+    "score": 22.0,
+    "sdc": "C",
+    "sds": 0.33
+  },
+  "boston-ma": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "boulder-co": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "bowling-green-ky": {
+    "score": 22.0,
+    "sdc": "D",
+    "sds": 0.33
+  },
+  "boynton-beach-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.047
+  },
+  "bridgeport-ct": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "brockton-ma": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "broken-arrow-ok": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "brooklyn-park-mn": {
+    "score": 3.3,
+    "sdc": "A",
+    "sds": 0.05
+  },
+  "broomfield-co": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "brownsville-tx": {
+    "score": 2.5,
+    "sdc": "A",
+    "sds": 0.038
+  },
+  "bryan-tx": {
+    "score": 4.9,
+    "sdc": "B",
+    "sds": 0.073
+  },
+  "buckeye-az": {
+    "score": 12.0,
+    "sdc": "C",
+    "sds": 0.18
+  },
+  "buena-park-ca": {
+    "score": 84.7,
+    "sdc": "D",
+    "sds": 1.27
+  },
+  "buffalo-ny": {
+    "score": 9.3,
+    "sdc": "A",
+    "sds": 0.14
+  },
+  "burbank-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.57
+  },
+  "caldwell-id": {
+    "score": 20.0,
+    "sdc": "C",
+    "sds": 0.3
+  },
+  "cambridge-ma": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "cape-coral-fl": {
+    "score": 3.3,
+    "sdc": "A",
+    "sds": 0.049
+  },
+  "carlsbad-ca": {
+    "score": 61.3,
+    "sdc": "D",
+    "sds": 0.92
+  },
+  "carlsbad-nm": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "carmel-in": {
+    "score": 13.3,
+    "sdc": "C",
+    "sds": 0.2
+  },
+  "carrollton-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "carson-ca": {
+    "score": 90.0,
+    "sdc": "E",
+    "sds": 1.35
+  },
+  "cary-nc": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "castle-rock-co": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "cedar-park-tx": {
+    "score": 4.0,
+    "sdc": "A",
+    "sds": 0.06
+  },
+  "cedar-rapids-ia": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "centennial-co": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "champaign-il": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "chandler-az": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "charleston-sc": {
+    "score": 54.0,
+    "sdc": "D",
+    "sds": 0.81
+  },
+  "charlotte-nc": {
+    "score": 14.7,
+    "sdc": "B",
+    "sds": 0.22
+  },
+  "chattanooga-tn": {
+    "score": 23.3,
+    "sdc": "C",
+    "sds": 0.35
+  },
+  "chesapeake-va": {
+    "score": 6.5,
+    "sdc": "A",
+    "sds": 0.097
+  },
+  "chicago-il": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "chico-ca": {
+    "score": 52.0,
+    "sdc": "D",
+    "sds": 0.78
+  },
+  "chino-ca": {
+    "score": 83.3,
+    "sdc": "D",
+    "sds": 1.25
+  },
+  "chino-hills-ca": {
+    "score": 100.0,
+    "sdc": "D",
+    "sds": 1.51
+  },
+  "chula-vista-ca": {
+    "score": 62.0,
+    "sdc": "D",
+    "sds": 0.93
+  },
+  "cicero-il": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "cincinnati-oh": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "citrus-heights-ca": {
+    "score": 36.0,
+    "sdc": "D",
+    "sds": 0.54
+  },
+  "clarksville-tn": {
+    "score": 30.7,
+    "sdc": "D",
+    "sds": 0.46
+  },
+  "clearwater-fl": {
+    "score": 3.9,
+    "sdc": "A",
+    "sds": 0.059
+  },
+  "cleveland-oh": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "clifton-nj": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "clovis-ca": {
+    "score": 41.3,
+    "sdc": "D",
+    "sds": 0.62
+  },
+  "college-station-tx": {
+    "score": 4.9,
+    "sdc": "A",
+    "sds": 0.073
+  },
+  "colorado-springs-co": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "columbia-mo": {
+    "score": 15.3,
+    "sdc": "C",
+    "sds": 0.23
+  },
+  "columbia-sc": {
+    "score": 22.0,
+    "sdc": "C",
+    "sds": 0.33
+  },
+  "columbus-ga": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "columbus-oh": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "compton-ca": {
+    "score": 91.3,
+    "sdc": "E",
+    "sds": 1.37
+  },
+  "concord-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.51
+  },
+  "concord-nc": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "conroe-tx": {
+    "score": 5.1,
+    "sdc": "B",
+    "sds": 0.077
+  },
+  "coral-springs-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.047
+  },
+  "corona-ca": {
+    "score": 98.0,
+    "sdc": "E",
+    "sds": 1.47
+  },
+  "corpus-christi-tx": {
+    "score": 3.4,
+    "sdc": "A",
+    "sds": 0.051
+  },
+  "costa-mesa-ca": {
+    "score": 76.7,
+    "sdc": "D",
+    "sds": 1.15
+  },
+  "cranston-ri": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "dallas-tx": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "daly-city-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.59
+  },
+  "danbury-ct": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "davenport-ia": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "davie-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "dayton-oh": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "daytona-beach-fl": {
+    "score": 6.1,
+    "sdc": "A",
+    "sds": 0.092
+  },
+  "dearborn-mi": {
+    "score": 6.4,
+    "sdc": "B",
+    "sds": 0.096
+  },
+  "deerfield-beach-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "deltona-fl": {
+    "score": 5.6,
+    "sdc": "A",
+    "sds": 0.084
+  },
+  "denton-tx": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "denver-co": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "des-moines-ia": {
+    "score": 6.2,
+    "sdc": "B",
+    "sds": 0.093
+  },
+  "detroit-mi": {
+    "score": 6.3,
+    "sdc": "B",
+    "sds": 0.095
+  },
+  "doral-fl": {
+    "score": 3.0,
+    "sdc": "A",
+    "sds": 0.045
+  },
+  "downey-ca": {
+    "score": 91.3,
+    "sdc": "E",
+    "sds": 1.37
+  },
+  "duluth-mn": {
+    "score": 2.6,
+    "sdc": "A",
+    "sds": 0.039
+  },
+  "durango-co": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "durham-nc": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "edinburg-tx": {
+    "score": 2.7,
+    "sdc": "A",
+    "sds": 0.04
+  },
+  "edmond-ok": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "el-cajon-ca": {
+    "score": 52.0,
+    "sdc": "D",
+    "sds": 0.78
+  },
+  "el-monte-ca": {
+    "score": 96.7,
+    "sdc": "D",
+    "sds": 1.45
+  },
+  "el-paso-tx": {
+    "score": 22.7,
+    "sdc": "C",
+    "sds": 0.34
+  },
+  "elgin-il": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "elizabeth-nj": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "elk-grove-ca": {
+    "score": 42.0,
+    "sdc": "D",
+    "sds": 0.63
+  },
+  "erie-pa": {
+    "score": 6.5,
+    "sdc": "A",
+    "sds": 0.098
+  },
+  "escondido-ca": {
+    "score": 60.7,
+    "sdc": "D",
+    "sds": 0.91
+  },
+  "eugene-or": {
+    "score": 51.3,
+    "sdc": "D",
+    "sds": 0.77
+  },
+  "evansville-in": {
+    "score": 31.3,
+    "sdc": "D",
+    "sds": 0.47
+  },
+  "everett-wa": {
+    "score": 68.7,
+    "sdc": "D",
+    "sds": 1.03
+  },
+  "fairfield-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "fall-river-ma": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "fargo-nd": {
+    "score": 3.8,
+    "sdc": "A",
+    "sds": 0.057
+  },
+  "farmington-hills-mi": {
+    "score": 6.1,
+    "sdc": "B",
+    "sds": 0.092
+  },
+  "fayetteville-ar": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "fayetteville-nc": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "federal-way-wa": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "fishers-in": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "flagstaff-az": {
+    "score": 24.0,
+    "sdc": "C",
+    "sds": 0.36
+  },
+  "flint-mi": {
+    "score": 5.3,
+    "sdc": "A",
+    "sds": 0.08
+  },
+  "flower-mound-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "folsom-ca": {
+    "score": 34.7,
+    "sdc": "D",
+    "sds": 0.52
+  },
+  "fontana-ca": {
+    "score": 96.7,
+    "sdc": "E",
+    "sds": 1.45
+  },
+  "fort-collins-co": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "fort-lauderdale-fl": {
+    "score": 3.0,
+    "sdc": "A",
+    "sds": 0.045
+  },
+  "fort-myers-fl": {
+    "score": 3.3,
+    "sdc": "A",
+    "sds": 0.05
+  },
+  "fort-smith-ar": {
+    "score": 14.0,
+    "sdc": "C",
+    "sds": 0.21
+  },
+  "fort-wayne-in": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "fort-worth-tx": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "franklin-tn": {
+    "score": 24.0,
+    "sdc": "D",
+    "sds": 0.36
+  },
+  "frederick-md": {
+    "score": 8.0,
+    "sdc": "A",
+    "sds": 0.12
+  },
+  "fremont-ca": {
+    "score": 94.7,
+    "sdc": "E",
+    "sds": 1.42
+  },
+  "fresno-ca": {
+    "score": 44.0,
+    "sdc": "D",
+    "sds": 0.66
+  },
+  "frisco-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "fullerton-ca": {
+    "score": 89.3,
+    "sdc": "D",
+    "sds": 1.34
+  },
+  "gainesville-fl": {
+    "score": 6.6,
+    "sdc": "B",
+    "sds": 0.099
+  },
+  "garden-grove-ca": {
+    "score": 80.0,
+    "sdc": "D",
+    "sds": 1.2
+  },
+  "garland-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "gastonia-nc": {
+    "score": 15.3,
+    "sdc": "B",
+    "sds": 0.23
+  },
+  "georgetown-tx": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.062
+  },
+  "geraldine-mt": {
+    "score": 6.5,
+    "sdc": "B",
+    "sds": 0.097
+  },
+  "gilbert-az": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "glendale-az": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "glendale-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.6
+  },
+  "goodyear-az": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "grand-junction-co": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "grand-prairie-tx": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "grand-rapids-mi": {
+    "score": 6.1,
+    "sdc": "B",
+    "sds": 0.092
+  },
+  "greeley-co": {
+    "score": 9.3,
+    "sdc": "A",
+    "sds": 0.14
+  },
+  "green-bay-wi": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.062
+  },
+  "greensboro-nc": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "greenville-nc": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "gresham-or": {
+    "score": 48.7,
+    "sdc": "D",
+    "sds": 0.73
+  },
+  "hampton-va": {
+    "score": 6.7,
+    "sdc": "A",
+    "sds": 0.1
+  },
+  "hartford-ct": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "hawthorne-ca": {
+    "score": 94.7,
+    "sdc": "E",
+    "sds": 1.42
+  },
+  "hayward-ca": {
+    "score": 85.3,
+    "sdc": "D",
+    "sds": 1.28
+  },
+  "hemet-ca": {
+    "score": 96.0,
+    "sdc": "D",
+    "sds": 1.44
+  },
+  "henderson-nv": {
+    "score": 30.7,
+    "sdc": "D",
+    "sds": 0.46
+  },
+  "hesperia-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "hialeah-fl": {
+    "score": 3.0,
+    "sdc": "A",
+    "sds": 0.045
+  },
+  "high-point-nc": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "hillsboro-or": {
+    "score": 54.7,
+    "sdc": "D",
+    "sds": 0.82
+  },
+  "hollywood-fl": {
+    "score": 3.0,
+    "sdc": "A",
+    "sds": 0.045
+  },
+  "homestead-fl": {
+    "score": 2.9,
+    "sdc": "A",
+    "sds": 0.043
+  },
+  "honolulu-hi": {
+    "score": 33.3,
+    "sdc": "D",
+    "sds": 0.5
+  },
+  "hoover-al": {
+    "score": 17.3,
+    "sdc": "C",
+    "sds": 0.26
+  },
+  "houston-tx": {
+    "score": 4.8,
+    "sdc": "A",
+    "sds": 0.072
+  },
+  "huntington-beach-ca": {
+    "score": 78.0,
+    "sdc": "D",
+    "sds": 1.17
+  },
+  "huntsville-al": {
+    "score": 20.0,
+    "sdc": "C",
+    "sds": 0.3
+  },
+  "independence-mo": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "indianapolis-in": {
+    "score": 14.0,
+    "sdc": "C",
+    "sds": 0.21
+  },
+  "indio-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.55
+  },
+  "inglewood-ca": {
+    "score": 98.0,
+    "sdc": "E",
+    "sds": 1.47
+  },
+  "irvine-ca": {
+    "score": 76.0,
+    "sdc": "D",
+    "sds": 1.14
+  },
+  "irving-tx": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "jackson-ms": {
+    "score": 13.3,
+    "sdc": "C",
+    "sds": 0.2
+  },
+  "jacksonville-fl": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "jersey-city-nj": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "johns-creek-ga": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "joliet-il": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "jonesboro-ar": {
+    "score": 54.0,
+    "sdc": "D",
+    "sds": 0.81
+  },
+  "jurupa-valley-ca": {
+    "score": 76.0,
+    "sdc": "D",
+    "sds": 1.14
+  },
+  "kalispell-mt": {
+    "score": 42.0,
+    "sdc": "D",
+    "sds": 0.63
+  },
+  "kansas-city-ks": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "kansas-city-mo": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "kennewick-wa": {
+    "score": 26.7,
+    "sdc": "D",
+    "sds": 0.4
+  },
+  "kenosha-wi": {
+    "score": 6.7,
+    "sdc": "B",
+    "sds": 0.1
+  },
+  "kent-wa": {
+    "score": 74.7,
+    "sdc": "D",
+    "sds": 1.12
+  },
+  "killeen-tx": {
+    "score": 4.4,
+    "sdc": "A",
+    "sds": 0.066
+  },
+  "kirkland-wa": {
+    "score": 68.7,
+    "sdc": "D",
+    "sds": 1.03
+  },
+  "kissimmee-fl": {
+    "score": 4.7,
+    "sdc": "A",
+    "sds": 0.07
+  },
+  "knoxville-tn": {
+    "score": 25.3,
+    "sdc": "C",
+    "sds": 0.38
+  },
+  "lafayette-la": {
+    "score": 6.5,
+    "sdc": "B",
+    "sds": 0.097
+  },
+  "lake-charles-la": {
+    "score": 6.1,
+    "sdc": "B",
+    "sds": 0.091
+  },
+  "lake-forest-ca": {
+    "score": 75.3,
+    "sdc": "D",
+    "sds": 1.13
+  },
+  "lakeland-fl": {
+    "score": 4.3,
+    "sdc": "A",
+    "sds": 0.065
+  },
+  "lakeville-mn": {
+    "score": 3.6,
+    "sdc": "A",
+    "sds": 0.054
+  },
+  "lakewood-ca": {
+    "score": 85.3,
+    "sdc": "D",
+    "sds": 1.28
+  },
+  "lakewood-co": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "lancaster-ca": {
+    "score": 81.3,
+    "sdc": "D",
+    "sds": 1.22
+  },
+  "lansing-mi": {
+    "score": 6.4,
+    "sdc": "B",
+    "sds": 0.096
+  },
+  "laredo-tx": {
+    "score": 2.9,
+    "sdc": "A",
+    "sds": 0.043
+  },
+  "largo-fl": {
+    "score": 3.9,
+    "sdc": "A",
+    "sds": 0.058
+  },
+  "las-cruces-nm": {
+    "score": 19.3,
+    "sdc": "C",
+    "sds": 0.29
+  },
+  "las-vegas-nv": {
+    "score": 34.7,
+    "sdc": "D",
+    "sds": 0.52
+  },
+  "lawrence-ks": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "lawrence-ma": {
+    "score": 16.7,
+    "sdc": "B",
+    "sds": 0.25
+  },
+  "lawton-ok": {
+    "score": 22.0,
+    "sdc": "D",
+    "sds": 0.33
+  },
+  "layton-ut": {
+    "score": 64.7,
+    "sdc": "D",
+    "sds": 0.97
+  },
+  "league-city-tx": {
+    "score": 4.7,
+    "sdc": "A",
+    "sds": 0.071
+  },
+  "leander-tx": {
+    "score": 4.0,
+    "sdc": "A",
+    "sds": 0.06
+  },
+  "lees-summit-mo": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "lehi-ut": {
+    "score": 64.7,
+    "sdc": "D",
+    "sds": 0.97
+  },
+  "lewisville-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "lexington-ky": {
+    "score": 14.0,
+    "sdc": "C",
+    "sds": 0.21
+  },
+  "lincoln-ne": {
+    "score": 5.4,
+    "sdc": "B",
+    "sds": 0.081
+  },
+  "little-rock-ar": {
+    "score": 26.0,
+    "sdc": "D",
+    "sds": 0.39
+  },
+  "livermore-ca": {
+    "score": 88.0,
+    "sdc": "E",
+    "sds": 1.32
+  },
+  "livonia-mi": {
+    "score": 6.3,
+    "sdc": "B",
+    "sds": 0.094
+  },
+  "long-beach-ca": {
+    "score": 86.0,
+    "sdc": "D",
+    "sds": 1.29
+  },
+  "longmont-co": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "longview-tx": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "los-alamos-nm": {
+    "score": 30.7,
+    "sdc": "D",
+    "sds": 0.46
+  },
+  "los-angeles-ca": {
+    "score": 100.0,
+    "sdc": "D",
+    "sds": 1.51
+  },
+  "louisville-ky": {
+    "score": 16.7,
+    "sdc": "C",
+    "sds": 0.25
+  },
+  "loveland-co": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "lowell-ma": {
+    "score": 16.0,
+    "sdc": "B",
+    "sds": 0.24
+  },
+  "lubbock-tx": {
+    "score": 5.1,
+    "sdc": "A",
+    "sds": 0.077
+  },
+  "lynchburg-va": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "lynn-ma": {
+    "score": 14.7,
+    "sdc": "B",
+    "sds": 0.22
+  },
+  "mableton-ga": {
+    "score": 14.0,
+    "sdc": "C",
+    "sds": 0.21
+  },
+  "macon-ga": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "madison-wi": {
+    "score": 5.7,
+    "sdc": "B",
+    "sds": 0.086
+  },
+  "manchester-nh": {
+    "score": 18.0,
+    "sdc": "B",
+    "sds": 0.27
+  },
+  "mansfield-tx": {
+    "score": 6.6,
+    "sdc": "B",
+    "sds": 0.099
+  },
+  "manteca-ca": {
+    "score": 56.0,
+    "sdc": "D",
+    "sds": 0.84
+  },
+  "maricopa-az": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "marysville-wa": {
+    "score": 63.3,
+    "sdc": "D",
+    "sds": 0.95
+  },
+  "mcallen-tx": {
+    "score": 2.6,
+    "sdc": "A",
+    "sds": 0.039
+  },
+  "mckinney-tx": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "medford-or": {
+    "score": 44.0,
+    "sdc": "D",
+    "sds": 0.66
+  },
+  "melbourne-fl": {
+    "score": 4.4,
+    "sdc": "A",
+    "sds": 0.066
+  },
+  "memphis-tn": {
+    "score": 50.0,
+    "sdc": "D",
+    "sds": 0.75
+  },
+  "menifee-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "merced-ca": {
+    "score": 42.7,
+    "sdc": "D",
+    "sds": 0.64
+  },
+  "meridian-id": {
+    "score": 20.7,
+    "sdc": "C",
+    "sds": 0.31
+  },
+  "mesa-az": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "mesquite-tx": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "miami-beach-fl": {
+    "score": 2.9,
+    "sdc": "A",
+    "sds": 0.043
+  },
+  "miami-fl": {
+    "score": 2.9,
+    "sdc": "A",
+    "sds": 0.043
+  },
+  "miami-gardens-fl": {
+    "score": 3.0,
+    "sdc": "A",
+    "sds": 0.045
+  },
+  "midland-tx": {
+    "score": 5.2,
+    "sdc": "A",
+    "sds": 0.078
+  },
+  "milpitas-ca": {
+    "score": 98.7,
+    "sdc": "E",
+    "sds": 1.48
+  },
+  "milwaukee-wi": {
+    "score": 5.8,
+    "sdc": "B",
+    "sds": 0.087
+  },
+  "minneapolis-mn": {
+    "score": 3.4,
+    "sdc": "A",
+    "sds": 0.051
+  },
+  "miramar-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "mission-tx": {
+    "score": 2.5,
+    "sdc": "A",
+    "sds": 0.038
+  },
+  "mission-viejo-ca": {
+    "score": 74.0,
+    "sdc": "D",
+    "sds": 1.11
+  },
+  "missoula-mt": {
+    "score": 27.3,
+    "sdc": "D",
+    "sds": 0.41
+  },
+  "missouri-city-tx": {
+    "score": 4.6,
+    "sdc": "A",
+    "sds": 0.069
+  },
+  "mobile-al": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "modesto-ca": {
+    "score": 50.7,
+    "sdc": "D",
+    "sds": 0.76
+  },
+  "montgomery-al": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "monticello-ut": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "moreno-valley-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.5
+  },
+  "mount-pleasant-sc": {
+    "score": 46.0,
+    "sdc": "D",
+    "sds": 0.69
+  },
+  "mountain-view-ca": {
+    "score": 82.7,
+    "sdc": "D",
+    "sds": 1.24
+  },
+  "murfreesboro-tn": {
+    "score": 21.3,
+    "sdc": "D",
+    "sds": 0.32
+  },
+  "murrieta-ca": {
+    "score": 84.0,
+    "sdc": "D",
+    "sds": 1.26
+  },
+  "nampa-id": {
+    "score": 20.0,
+    "sdc": "C",
+    "sds": 0.3
+  },
+  "naperville-il": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "nashua-nh": {
+    "score": 17.3,
+    "sdc": "B",
+    "sds": 0.26
+  },
+  "nashville-tn": {
+    "score": 24.0,
+    "sdc": "D",
+    "sds": 0.36
+  },
+  "new-bedford-ma": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "new-braunfels-tx": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.053
+  },
+  "new-haven-ct": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "new-orleans-la": {
+    "score": 6.5,
+    "sdc": "B",
+    "sds": 0.098
+  },
+  "new-rochelle-ny": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "new-york-ny": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "newark-nj": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "newport-beach-ca": {
+    "score": 76.7,
+    "sdc": "D",
+    "sds": 1.15
+  },
+  "newport-news-va": {
+    "score": 7.3,
+    "sdc": "A",
+    "sds": 0.11
+  },
+  "newton-ma": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "norfolk-va": {
+    "score": 6.5,
+    "sdc": "A",
+    "sds": 0.098
+  },
+  "norman-ok": {
+    "score": 16.0,
+    "sdc": "B",
+    "sds": 0.24
+  },
+  "north-charleston-sc": {
+    "score": 63.3,
+    "sdc": "D",
+    "sds": 0.95
+  },
+  "north-las-vegas-nv": {
+    "score": 36.0,
+    "sdc": "D",
+    "sds": 0.54
+  },
+  "north-port-fl": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.052
+  },
+  "norwalk-ca": {
+    "score": 88.7,
+    "sdc": "D",
+    "sds": 1.33
+  },
+  "norwalk-ct": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "oakland-ca": {
+    "score": 83.3,
+    "sdc": "D",
+    "sds": 1.25
+  },
+  "oceanside-ca": {
+    "score": 64.0,
+    "sdc": "D",
+    "sds": 0.96
+  },
+  "odessa-tx": {
+    "score": 5.7,
+    "sdc": "A",
+    "sds": 0.085
+  },
+  "ofallon-mo": {
+    "score": 24.0,
+    "sdc": "D",
+    "sds": 0.36
+  },
+  "ogden-ut": {
+    "score": 66.7,
+    "sdc": "D",
+    "sds": 1.0
+  },
+  "oklahoma-city-ok": {
+    "score": 17.3,
+    "sdc": "B",
+    "sds": 0.26
+  },
+  "olathe-ks": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "omaha-ne": {
+    "score": 5.3,
+    "sdc": "B",
+    "sds": 0.08
+  },
+  "ontario-ca": {
+    "score": 84.0,
+    "sdc": "D",
+    "sds": 1.26
+  },
+  "orange-ca": {
+    "score": 80.7,
+    "sdc": "D",
+    "sds": 1.21
+  },
+  "orem-ut": {
+    "score": 66.0,
+    "sdc": "D",
+    "sds": 0.99
+  },
+  "orlando-fl": {
+    "score": 5.0,
+    "sdc": "A",
+    "sds": 0.075
+  },
+  "overland-park-ks": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "oxnard-ca": {
+    "score": 91.3,
+    "sdc": "E",
+    "sds": 1.37
+  },
+  "palm-bay-fl": {
+    "score": 4.2,
+    "sdc": "A",
+    "sds": 0.063
+  },
+  "palm-coast-fl": {
+    "score": 6.7,
+    "sdc": "A",
+    "sds": 0.1
+  },
+  "palmdale-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.58
+  },
+  "parma-oh": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "pasadena-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.54
+  },
+  "pasadena-tx": {
+    "score": 4.8,
+    "sdc": "A",
+    "sds": 0.072
+  },
+  "pasco-wa": {
+    "score": 25.3,
+    "sdc": "D",
+    "sds": 0.38
+  },
+  "paterson-nj": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "pawtucket-ri": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "pearland-tx": {
+    "score": 4.7,
+    "sdc": "A",
+    "sds": 0.07
+  },
+  "pembroke-pines-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "peoria-az": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "peoria-il": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "perris-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "pharr-tx": {
+    "score": 2.5,
+    "sdc": "A",
+    "sds": 0.038
+  },
+  "philadelphia-pa": {
+    "score": 11.3,
+    "sdc": "A",
+    "sds": 0.17
+  },
+  "phoenix-az": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "pittsburg-ca": {
+    "score": 98.7,
+    "sdc": "D",
+    "sds": 1.48
+  },
+  "pittsburgh-pa": {
+    "score": 6.3,
+    "sdc": "B",
+    "sds": 0.095
+  },
+  "plano-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "plantation-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "plymouth-mn": {
+    "score": 3.4,
+    "sdc": "A",
+    "sds": 0.051
+  },
+  "pomona-ca": {
+    "score": 94.7,
+    "sdc": "D",
+    "sds": 1.42
+  },
+  "pompano-beach-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "port-st-lucie-fl": {
+    "score": 3.6,
+    "sdc": "A",
+    "sds": 0.054
+  },
+  "portland-or": {
+    "score": 51.3,
+    "sdc": "D",
+    "sds": 0.77
+  },
+  "portsmouth-va": {
+    "score": 6.7,
+    "sdc": "A",
+    "sds": 0.1
+  },
+  "providence-ri": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "provo-ut": {
+    "score": 66.0,
+    "sdc": "D",
+    "sds": 0.99
+  },
+  "pueblo-co": {
+    "score": 9.3,
+    "sdc": "B",
+    "sds": 0.14
+  },
+  "queen-creek-az": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "quincy-ma": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "racine-wi": {
+    "score": 6.3,
+    "sdc": "B",
+    "sds": 0.095
+  },
+  "raleigh-nc": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "rancho-cordova-ca": {
+    "score": 36.0,
+    "sdc": "D",
+    "sds": 0.54
+  },
+  "rancho-cucamonga-ca": {
+    "score": 90.0,
+    "sdc": "D",
+    "sds": 1.35
+  },
+  "rapid-city-sd": {
+    "score": 8.0,
+    "sdc": "A",
+    "sds": 0.12
+  },
+  "reading-pa": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "redding-ca": {
+    "score": 68.0,
+    "sdc": "D",
+    "sds": 1.02
+  },
+  "redmond-wa": {
+    "score": 70.0,
+    "sdc": "D",
+    "sds": 1.05
+  },
+  "redwood-city-ca": {
+    "score": 82.0,
+    "sdc": "D",
+    "sds": 1.23
+  },
+  "reno-nv": {
+    "score": 81.3,
+    "sdc": "D",
+    "sds": 1.22
+  },
+  "renton-wa": {
+    "score": 76.0,
+    "sdc": "D",
+    "sds": 1.14
+  },
+  "rialto-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.63
+  },
+  "richardson-tx": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "richmond-ca": {
+    "score": 98.0,
+    "sdc": "E",
+    "sds": 1.47
+  },
+  "richmond-va": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "rio-rancho-nm": {
+    "score": 28.0,
+    "sdc": "D",
+    "sds": 0.42
+  },
+  "riverside-ca": {
+    "score": 73.3,
+    "sdc": "D",
+    "sds": 1.1
+  },
+  "roanoke-va": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "rochester-hills-mi": {
+    "score": 5.7,
+    "sdc": "B",
+    "sds": 0.086
+  },
+  "rochester-mn": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.062
+  },
+  "rochester-ny": {
+    "score": 9.3,
+    "sdc": "A",
+    "sds": 0.14
+  },
+  "rockford-il": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "rocklin-ca": {
+    "score": 36.0,
+    "sdc": "D",
+    "sds": 0.54
+  },
+  "rogers-ar": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "roseville-ca": {
+    "score": 36.7,
+    "sdc": "D",
+    "sds": 0.55
+  },
+  "roswell-ga": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "round-rock-tx": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.061
+  },
+  "sacramento-ca": {
+    "score": 43.3,
+    "sdc": "D",
+    "sds": 0.65
+  },
+  "saint-paul-mn": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.052
+  },
+  "salem-or": {
+    "score": 54.0,
+    "sdc": "D",
+    "sds": 0.81
+  },
+  "salinas-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "salt-lake-city-ut": {
+    "score": 72.7,
+    "sdc": "D",
+    "sds": 1.09
+  },
+  "san-angelo-tx": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.061
+  },
+  "san-antonio-tx": {
+    "score": 3.3,
+    "sdc": "A",
+    "sds": 0.05
+  },
+  "san-bernardino-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.71
+  },
+  "san-diego-ca": {
+    "score": 72.7,
+    "sdc": "D",
+    "sds": 1.09
+  },
+  "san-francisco-ca": {
+    "score": 78.0,
+    "sdc": "D",
+    "sds": 1.17
+  },
+  "san-jose-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "san-leandro-ca": {
+    "score": 88.0,
+    "sdc": "E",
+    "sds": 1.32
+  },
+  "san-marcos-ca": {
+    "score": 59.3,
+    "sdc": "D",
+    "sds": 0.89
+  },
+  "san-marcos-tx": {
+    "score": 3.7,
+    "sdc": "A",
+    "sds": 0.055
+  },
+  "san-mateo-ca": {
+    "score": 96.0,
+    "sdc": "E",
+    "sds": 1.44
+  },
+  "san-ramon-ca": {
+    "score": 96.7,
+    "sdc": "E",
+    "sds": 1.45
+  },
+  "sandpoint-id": {
+    "score": 22.7,
+    "sdc": "C",
+    "sds": 0.34
+  },
+  "sandy-springs-ga": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "sandy-ut": {
+    "score": 70.7,
+    "sdc": "D",
+    "sds": 1.06
+  },
+  "santa-ana-ca": {
+    "score": 78.0,
+    "sdc": "D",
+    "sds": 1.17
+  },
+  "santa-barbara-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.58
+  },
+  "santa-clara-ca": {
+    "score": 72.7,
+    "sdc": "D",
+    "sds": 1.09
+  },
+  "santa-clarita-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.76
+  },
+  "santa-fe-nm": {
+    "score": 25.3,
+    "sdc": "D",
+    "sds": 0.38
+  },
+  "santa-maria-ca": {
+    "score": 60.0,
+    "sdc": "D",
+    "sds": 0.9
+  },
+  "santa-monica-ca": {
+    "score": 99.3,
+    "sdc": "E",
+    "sds": 1.49
+  },
+  "santa-rosa-ca": {
+    "score": 100.0,
+    "sdc": "E",
+    "sds": 1.63
+  },
+  "savannah-ga": {
+    "score": 20.0,
+    "sdc": "C",
+    "sds": 0.3
+  },
+  "schaumburg-il": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "scottsdale-az": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "seattle-wa": {
+    "score": 76.0,
+    "sdc": "D",
+    "sds": 1.14
+  },
+  "shreveport-la": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "simi-valley-ca": {
+    "score": 100.0,
+    "sdc": "D",
+    "sds": 1.51
+  },
+  "sioux-city-ia": {
+    "score": 5.1,
+    "sdc": "A",
+    "sds": 0.076
+  },
+  "sioux-falls-sd": {
+    "score": 5.2,
+    "sdc": "A",
+    "sds": 0.078
+  },
+  "somerville-ma": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "south-bend-in": {
+    "score": 8.7,
+    "sdc": "B",
+    "sds": 0.13
+  },
+  "south-fulton-ga": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "south-gate-ca": {
+    "score": 92.0,
+    "sdc": "E",
+    "sds": 1.38
+  },
+  "south-jordan-ut": {
+    "score": 60.0,
+    "sdc": "D",
+    "sds": 0.9
+  },
+  "sparks-nv": {
+    "score": 82.0,
+    "sdc": "D",
+    "sds": 1.23
+  },
+  "spokane-valley-wa": {
+    "score": 20.7,
+    "sdc": "C",
+    "sds": 0.31
+  },
+  "spokane-wa": {
+    "score": 20.7,
+    "sdc": "C",
+    "sds": 0.31
+  },
+  "springdale-ar": {
+    "score": 14.7,
+    "sdc": "C",
+    "sds": 0.22
+  },
+  "springfield-il": {
+    "score": 16.7,
+    "sdc": "C",
+    "sds": 0.25
+  },
+  "springfield-ma": {
+    "score": 10.7,
+    "sdc": "B",
+    "sds": 0.16
+  },
+  "springfield-mo": {
+    "score": 17.3,
+    "sdc": "C",
+    "sds": 0.26
+  },
+  "st-george-ut": {
+    "score": 31.3,
+    "sdc": "D",
+    "sds": 0.47
+  },
+  "st-louis-mo": {
+    "score": 29.3,
+    "sdc": "D",
+    "sds": 0.44
+  },
+  "st-petersburg-fl": {
+    "score": 3.8,
+    "sdc": "A",
+    "sds": 0.057
+  },
+  "stamford-ct": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "sterling-heights-mi": {
+    "score": 5.9,
+    "sdc": "B",
+    "sds": 0.088
+  },
+  "stockton-ca": {
+    "score": 52.0,
+    "sdc": "D",
+    "sds": 0.78
+  },
+  "suffolk-va": {
+    "score": 7.3,
+    "sdc": "A",
+    "sds": 0.11
+  },
+  "sugar-land-tx": {
+    "score": 4.6,
+    "sdc": "A",
+    "sds": 0.069
+  },
+  "sundance-wy": {
+    "score": 8.0,
+    "sdc": "A",
+    "sds": 0.12
+  },
+  "sunnyvale-ca": {
+    "score": 76.0,
+    "sdc": "D",
+    "sds": 1.14
+  },
+  "sunrise-fl": {
+    "score": 3.1,
+    "sdc": "A",
+    "sds": 0.046
+  },
+  "surprise-az": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "syracuse-ny": {
+    "score": 9.3,
+    "sdc": "A",
+    "sds": 0.14
+  },
+  "tacoma-wa": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "tallahassee-fl": {
+    "score": 6.5,
+    "sdc": "B",
+    "sds": 0.097
+  },
+  "tampa-fl": {
+    "score": 4.1,
+    "sdc": "A",
+    "sds": 0.061
+  },
+  "taos-nm": {
+    "score": 24.0,
+    "sdc": "D",
+    "sds": 0.36
+  },
+  "temecula-ca": {
+    "score": 84.0,
+    "sdc": "D",
+    "sds": 1.26
+  },
+  "tempe-az": {
+    "score": 13.3,
+    "sdc": "B",
+    "sds": 0.2
+  },
+  "temple-tx": {
+    "score": 4.6,
+    "sdc": "A",
+    "sds": 0.069
+  },
+  "thornton-co": {
+    "score": 10.0,
+    "sdc": "A",
+    "sds": 0.15
+  },
+  "thousand-oaks-ca": {
+    "score": 82.7,
+    "sdc": "D",
+    "sds": 1.24
+  },
+  "toledo-oh": {
+    "score": 8.0,
+    "sdc": "B",
+    "sds": 0.12
+  },
+  "topeka-ks": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "torrance-ca": {
+    "score": 93.3,
+    "sdc": "E",
+    "sds": 1.4
+  },
+  "tracy-ca": {
+    "score": 71.3,
+    "sdc": "D",
+    "sds": 1.07
+  },
+  "trenton-nj": {
+    "score": 11.3,
+    "sdc": "B",
+    "sds": 0.17
+  },
+  "troy-mi": {
+    "score": 5.9,
+    "sdc": "B",
+    "sds": 0.088
+  },
+  "tucson-az": {
+    "score": 18.7,
+    "sdc": "C",
+    "sds": 0.28
+  },
+  "tulsa-ok": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "tuscaloosa-al": {
+    "score": 18.0,
+    "sdc": "C",
+    "sds": 0.27
+  },
+  "tustin-ca": {
+    "score": 78.0,
+    "sdc": "D",
+    "sds": 1.17
+  },
+  "tyler-tx": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "upland-ca": {
+    "score": 95.3,
+    "sdc": "D",
+    "sds": 1.43
+  },
+  "vacaville-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "vallejo-ca": {
+    "score": 96.7,
+    "sdc": "E",
+    "sds": 1.45
+  },
+  "vancouver-wa": {
+    "score": 49.3,
+    "sdc": "D",
+    "sds": 0.74
+  },
+  "ventura-ca": {
+    "score": 98.7,
+    "sdc": "E",
+    "sds": 1.48
+  },
+  "victorville-ca": {
+    "score": 72.0,
+    "sdc": "D",
+    "sds": 1.08
+  },
+  "virginia-beach-va": {
+    "score": 6.0,
+    "sdc": "A",
+    "sds": 0.09
+  },
+  "visalia-ca": {
+    "score": 42.0,
+    "sdc": "D",
+    "sds": 0.63
+  },
+  "vista-ca": {
+    "score": 60.7,
+    "sdc": "D",
+    "sds": 0.91
+  },
+  "waco-tx": {
+    "score": 5.1,
+    "sdc": "B",
+    "sds": 0.076
+  },
+  "warner-robins-ga": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "warren-mi": {
+    "score": 6.0,
+    "sdc": "B",
+    "sds": 0.09
+  },
+  "warwick-ri": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "washington-dc": {
+    "score": 8.7,
+    "sdc": "A",
+    "sds": 0.13
+  },
+  "waterbury-ct": {
+    "score": 11.3,
+    "sdc": "A",
+    "sds": 0.17
+  },
+  "waukegan-il": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "west-covina-ca": {
+    "score": 92.0,
+    "sdc": "D",
+    "sds": 1.38
+  },
+  "west-jordan-ut": {
+    "score": 58.7,
+    "sdc": "D",
+    "sds": 0.88
+  },
+  "west-palm-beach-fl": {
+    "score": 3.3,
+    "sdc": "A",
+    "sds": 0.049
+  },
+  "west-valley-city-ut": {
+    "score": 64.7,
+    "sdc": "D",
+    "sds": 0.97
+  },
+  "westland-mi": {
+    "score": 6.5,
+    "sdc": "B",
+    "sds": 0.097
+  },
+  "westminster-ca": {
+    "score": 79.3,
+    "sdc": "D",
+    "sds": 1.19
+  },
+  "westminster-co": {
+    "score": 10.7,
+    "sdc": "A",
+    "sds": 0.16
+  },
+  "whitewright-tx": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "whittier-ca": {
+    "score": 94.7,
+    "sdc": "E",
+    "sds": 1.42
+  },
+  "wichita-falls-tx": {
+    "score": 10.0,
+    "sdc": "B",
+    "sds": 0.15
+  },
+  "wichita-ks": {
+    "score": 7.3,
+    "sdc": "B",
+    "sds": 0.11
+  },
+  "wilmington-nc": {
+    "score": 12.7,
+    "sdc": "B",
+    "sds": 0.19
+  },
+  "winston-salem-nc": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "woodbury-mn": {
+    "score": 3.5,
+    "sdc": "A",
+    "sds": 0.052
+  },
+  "worcester-ma": {
+    "score": 12.0,
+    "sdc": "B",
+    "sds": 0.18
+  },
+  "wyoming-mi": {
+    "score": 6.3,
+    "sdc": "B",
+    "sds": 0.095
+  },
+  "yakima-wa": {
+    "score": 31.3,
+    "sdc": "D",
+    "sds": 0.47
+  },
+  "yonkers-ny": {
+    "score": 14.0,
+    "sdc": "B",
+    "sds": 0.21
+  },
+  "yuma-az": {
+    "score": 42.0,
+    "sdc": "D",
+    "sds": 0.63
+  }
+}

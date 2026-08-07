@@ -572,6 +572,22 @@ test("the thirty-fourth dataset (Superfund site density) is selectable and repor
   await expect(detail).toContainText("EPA Envirofacts SEMS");
 });
 
+test("the thirty-fifth dataset (seismic risk) is selectable and reports a real USGS-sourced value -- a genuinely new hazard category for this project", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Seismic risk" }).click();
+  await page.getByRole("button", { name: "Seismic risk", exact: true }).click();
+  await page.getByRole("button", { name: "Add Seismic risk" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Seismic risk: Seismic risk" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Seismic risk" });
+  await expect(detail).toContainText("g design spectral acceleration");
+  await expect(detail).toContainText("USGS ASCE 7-22");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

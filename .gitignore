@@ -187,6 +187,11 @@ data/raw/hate-crime-cache/
 # data/superfund.json IS committed.
 data/raw/superfund-cache/
 
+# Pure fetch-scratch for the earthquake dataset build
+# (scripts/gen_earthquake_data.py) -- same posture as the caches above.
+# data/earthquake.json IS committed.
+data/raw/earthquake-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
