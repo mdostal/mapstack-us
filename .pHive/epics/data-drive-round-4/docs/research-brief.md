@@ -48,8 +48,39 @@ filter is what makes this a real, reliable join.
 `compl_per_begin_date` -- both directly usable for a "recent health-based violation
 count" metric.
 
+## UPDATE (post-planning, real live build attempt)
+
+**SDWA drinking water violations turned out structurally infeasible.** Live-testing
+the join design against New York City -- the single most scrutinized case -- found a
+serious problem the original validation (Houston) didn't surface: `WATER_SYSTEM`'s
+`city_name` field is the system's *administrative/mailing* address, not its real
+service area. NYC's real water system ("NEW YORK CITY SYSTEM", 8,271,000 served,
+confirmed via a state-wide query) is registered under `city_name=VALHALLA` (its
+Westchester County watershed office) -- querying `city_name=NEW YORK` returns 20
+unrelated small systems (mobile home parks, none over 655 served), so the "highest
+population match" heuristic would have silently mislabeled NYC's real drinking-water
+record with a random trailer park's. `GEOGRAPHIC_AREA.city_served` (the field that
+might have fixed this) is sparse/null for real records tried. No lat/lon or county
+field exists anywhere in this data model either. Genuinely abandoned, not shipped --
+this is exactly the kind of thing this project's "verify before reporting" standard
+exists to catch.
+
+**Pivoted to FBI hate crime statistics instead** -- resolving a lead deferred across
+three prior research rounds. The blocker was never the offense code (`hate-crime`,
+`bias`, etc. were always wrong guesses) -- it's a real, separate resource tree with
+its own `{bias}` path parameter, not an `{offense}` value on the existing
+`summarized/agency` endpoint. Found by rendering the FBI CDE's own JS-based API docs
+page (`cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi`) via Playwright -- unreadable
+via plain `curl` (confirmed, that's why 3 rounds of guessing failed), but real and
+complete once rendered. Real endpoint: `GET /hate-crime/agency/{ori}/{bias}`, with
+`bias=all` a valid enum value (confirmed via the docs page's own Enum Info panel).
+Confirmed live against NYC's real ORI: 624 real hate crime incidents in 2023 --
+plausible for the nation's largest, highest-reporting department. Reuses
+`data/raw/crime-agency-matches.json` (509 real city→ORI mappings, already built for
+`crime.ts`) and that same build's cached per-agency population data -- zero new
+crosswalk work needed.
+
 ## Pick for this round
 
-**SDWA drinking water violations** -- real, live-verified, keyless, a genuinely
-different join strategy (name+type+population, not FIPS) from any dataset shipped so
-far this session, real public-health signal.
+**FBI hate crime statistics** -- real, live-verified, resolves a three-round-deferred
+lead, reuses `crime.ts`'s existing ORI crosswalk and population cache entirely.

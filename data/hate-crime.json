@@ -1,0 +1,3304 @@
+{
+  "_meta": {
+    "coverage": 471,
+    "rate_cap_for_100_score": 15.0,
+    "source": "FBI Crime Data Explorer, hate crime statistics (voluntary agency reporting, real year per agency -- see each record's own year field)"
+  },
+  "abilene-tx": {
+    "agency_name": "Abilene Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.56,
+    "score": 10.4,
+    "year": 2023
+  },
+  "akron-oh": {
+    "agency_name": "Akron Police Department",
+    "incidents": 5,
+    "rate_per_100k": 2.66,
+    "score": 17.7,
+    "year": 2023
+  },
+  "alameda-ca": {
+    "agency_name": "Alameda Police Department",
+    "incidents": 6,
+    "rate_per_100k": 7.99,
+    "score": 53.3,
+    "year": 2023
+  },
+  "albany-ny": {
+    "agency_name": "Albany Police Department",
+    "incidents": 11,
+    "rate_per_100k": 10.79,
+    "score": 71.9,
+    "year": 2023
+  },
+  "albuquerque-nm": {
+    "agency_name": "Albuquerque Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.36,
+    "score": 2.4,
+    "year": 2023
+  },
+  "alexandria-va": {
+    "agency_name": "Alexandria Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.65,
+    "score": 4.3,
+    "year": 2023
+  },
+  "alhambra-ca": {
+    "agency_name": "Alhambra Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.53,
+    "score": 16.9,
+    "year": 2023
+  },
+  "allen-tx": {
+    "agency_name": "Allen Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "allentown-pa": {
+    "agency_name": "Allentown Police Department",
+    "incidents": 6,
+    "rate_per_100k": 4.71,
+    "score": 31.4,
+    "year": 2025
+  },
+  "amarillo-tx": {
+    "agency_name": "Amarillo Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "anaheim-ca": {
+    "agency_name": "Anaheim Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.58,
+    "score": 3.9,
+    "year": 2023
+  },
+  "ankeny-ia": {
+    "agency_name": "Ankeny Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.35,
+    "score": 9.0,
+    "year": 2023
+  },
+  "ann-arbor-mi": {
+    "agency_name": "Ann Arbor Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.54,
+    "score": 16.9,
+    "year": 2023
+  },
+  "antioch-ca": {
+    "agency_name": "Antioch Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.74,
+    "score": 11.6,
+    "year": 2023
+  },
+  "apex-nc": {
+    "agency_name": "Apex Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.7,
+    "score": 18.0,
+    "year": 2023
+  },
+  "arlington-tx": {
+    "agency_name": "Arlington Police Department",
+    "incidents": 15,
+    "rate_per_100k": 3.8,
+    "score": 25.3,
+    "year": 2023
+  },
+  "arlington-va": {
+    "agency_name": "Arlington County Police Department",
+    "incidents": 10,
+    "rate_per_100k": 4.31,
+    "score": 28.7,
+    "year": 2023
+  },
+  "arvada-co": {
+    "agency_name": "Arvada Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "asheville-nc": {
+    "agency_name": "Asheville Police Department",
+    "incidents": 12,
+    "rate_per_100k": 12.84,
+    "score": 85.6,
+    "year": 2023
+  },
+  "athens-ga": {
+    "agency_name": "Athens-Clarke County Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "atlanta-ga": {
+    "agency_name": "Atlanta Police Department",
+    "incidents": 14,
+    "rate_per_100k": 2.8,
+    "score": 18.7,
+    "year": 2023
+  },
+  "auburn-al": {
+    "agency_name": "Auburn Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "auburn-wa": {
+    "agency_name": "Auburn Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.77,
+    "score": 31.8,
+    "year": 2023
+  },
+  "augusta-ga": {
+    "agency_name": "Augusta-Richmond County Sheriff's Office",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "aurora-co": {
+    "agency_name": "Aurora Police Department",
+    "incidents": 25,
+    "rate_per_100k": 6.3,
+    "score": 42.0,
+    "year": 2023
+  },
+  "aurora-il": {
+    "agency_name": "Aurora Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "austin-tx": {
+    "agency_name": "Austin Police Department",
+    "incidents": 53,
+    "rate_per_100k": 5.41,
+    "score": 36.1,
+    "year": 2023
+  },
+  "avondale-az": {
+    "agency_name": "Avondale Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "bakersfield-ca": {
+    "agency_name": "Bakersfield Police Department",
+    "incidents": 5,
+    "rate_per_100k": 1.21,
+    "score": 8.1,
+    "year": 2023
+  },
+  "baltimore-md": {
+    "agency_name": "Baltimore Police Department",
+    "incidents": 50,
+    "rate_per_100k": 8.85,
+    "score": 59.0,
+    "year": 2023
+  },
+  "baton-rouge-la": {
+    "agency_name": "Baton Rouge Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "baytown-tx": {
+    "agency_name": "Baytown Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "beaumont-tx": {
+    "agency_name": "Beaumont Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.71,
+    "score": 18.1,
+    "year": 2023
+  },
+  "beaverton-or": {
+    "agency_name": "Beaverton Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.03,
+    "score": 6.9,
+    "year": 2023
+  },
+  "bellevue-wa": {
+    "agency_name": "Bellevue Police Department",
+    "incidents": 20,
+    "rate_per_100k": 13.05,
+    "score": 87.0,
+    "year": 2023
+  },
+  "bellingham-wa": {
+    "agency_name": "Bellingham Police Department",
+    "incidents": 8,
+    "rate_per_100k": 8.42,
+    "score": 56.1,
+    "year": 2023
+  },
+  "bend-or": {
+    "agency_name": "Bend Police Department",
+    "incidents": 20,
+    "rate_per_100k": 19.03,
+    "score": 100.0,
+    "year": 2023
+  },
+  "berkeley-ca": {
+    "agency_name": "Berkeley Police Department",
+    "incidents": 57,
+    "rate_per_100k": 48.55,
+    "score": 100.0,
+    "year": 2024
+  },
+  "bethlehem-pa": {
+    "agency_name": "Bethlehem Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "billings-mt": {
+    "agency_name": "Billings Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "birmingham-al": {
+    "agency_name": "Birmingham Police Department",
+    "incidents": 8,
+    "rate_per_100k": 4.1,
+    "score": 27.3,
+    "year": 2023
+  },
+  "bismarck-nd": {
+    "agency_name": "Bismarck Police Department",
+    "incidents": 3,
+    "rate_per_100k": 4.01,
+    "score": 26.7,
+    "year": 2023
+  },
+  "blanding-ut": {
+    "agency_name": "Blanding Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "bloomington-il": {
+    "agency_name": "Bloomington Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "bloomington-in": {
+    "agency_name": "Bloomington Police Department",
+    "incidents": 4,
+    "rate_per_100k": 5.05,
+    "score": 33.7,
+    "year": 2023
+  },
+  "bloomington-mn": {
+    "agency_name": "Bloomington Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.3,
+    "score": 15.3,
+    "year": 2023
+  },
+  "boca-raton-fl": {
+    "agency_name": "Boca Raton Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.01,
+    "score": 6.7,
+    "year": 2023
+  },
+  "boise-id": {
+    "agency_name": "Boise Police Department",
+    "incidents": 10,
+    "rate_per_100k": 4.22,
+    "score": 28.1,
+    "year": 2023
+  },
+  "boston-ma": {
+    "agency_name": "Boston Police Department",
+    "incidents": 212,
+    "rate_per_100k": 32.98,
+    "score": 100.0,
+    "year": 2023
+  },
+  "boulder-co": {
+    "agency_name": "Boulder Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.8,
+    "score": 32.0,
+    "year": 2023
+  },
+  "bowling-green-ky": {
+    "agency_name": "Bowling Green Police Department",
+    "incidents": 5,
+    "rate_per_100k": 6.56,
+    "score": 43.7,
+    "year": 2023
+  },
+  "boynton-beach-fl": {
+    "agency_name": "Boynton Beach Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "bridgeport-ct": {
+    "agency_name": "Bridgeport Police Department",
+    "incidents": 7,
+    "rate_per_100k": 4.71,
+    "score": 31.4,
+    "year": 2023
+  },
+  "brockton-ma": {
+    "agency_name": "Brockton Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.81,
+    "score": 25.4,
+    "year": 2023
+  },
+  "broken-arrow-ok": {
+    "agency_name": "Broken Arrow Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "brooklyn-park-mn": {
+    "agency_name": "Brooklyn Park Police Department",
+    "incidents": 6,
+    "rate_per_100k": 7.32,
+    "score": 48.8,
+    "year": 2023
+  },
+  "broomfield-co": {
+    "agency_name": "Broomfield Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "brownsville-tx": {
+    "agency_name": "Brownsville Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.05,
+    "score": 7.0,
+    "year": 2023
+  },
+  "bryan-tx": {
+    "agency_name": "Bryan Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "buckeye-az": {
+    "agency_name": "Buckeye Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.78,
+    "score": 11.9,
+    "year": 2023
+  },
+  "buena-park-ca": {
+    "agency_name": "Buena Park Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.23,
+    "score": 8.2,
+    "year": 2024
+  },
+  "buffalo-ny": {
+    "agency_name": "Buffalo Police Department",
+    "incidents": 8,
+    "rate_per_100k": 2.9,
+    "score": 19.3,
+    "year": 2023
+  },
+  "burbank-ca": {
+    "agency_name": "Burbank Police Department",
+    "incidents": 29,
+    "rate_per_100k": 28.34,
+    "score": 100.0,
+    "year": 2023
+  },
+  "caldwell-id": {
+    "agency_name": "Caldwell Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.45,
+    "score": 9.7,
+    "year": 2023
+  },
+  "cambridge-ma": {
+    "agency_name": "Cambridge Police Department",
+    "incidents": 57,
+    "rate_per_100k": 47.92,
+    "score": 100.0,
+    "year": 2023
+  },
+  "cape-coral-fl": {
+    "agency_name": "Cape Coral Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.44,
+    "score": 2.9,
+    "year": 2023
+  },
+  "carlsbad-ca": {
+    "agency_name": "Carlsbad Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.76,
+    "score": 11.7,
+    "year": 2023
+  },
+  "carlsbad-nm": {
+    "agency_name": "Carlsbad Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "carmel-in": {
+    "agency_name": "Carmel Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.94,
+    "score": 12.9,
+    "year": 2023
+  },
+  "carrollton-tx": {
+    "agency_name": "Carrollton Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.49,
+    "score": 9.9,
+    "year": 2023
+  },
+  "cary-nc": {
+    "agency_name": "Cary Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.09,
+    "score": 7.3,
+    "year": 2023
+  },
+  "castle-rock-co": {
+    "agency_name": "Castle Rock Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "cedar-park-tx": {
+    "agency_name": "Cedar Park Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.58,
+    "score": 17.2,
+    "year": 2023
+  },
+  "cedar-rapids-ia": {
+    "agency_name": "Cedar Rapids Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "centennial-co": {
+    "agency_name": "Centennial Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.86,
+    "score": 19.1,
+    "year": 2023
+  },
+  "champaign-il": {
+    "agency_name": "Champaign Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "chandler-az": {
+    "agency_name": "Chandler Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.35,
+    "score": 2.3,
+    "year": 2023
+  },
+  "charleston-sc": {
+    "agency_name": "Charleston Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.58,
+    "score": 17.2,
+    "year": 2023
+  },
+  "charlotte-nc": {
+    "agency_name": "Charlotte-Mecklenburg Police Department",
+    "incidents": 27,
+    "rate_per_100k": 2.76,
+    "score": 18.4,
+    "year": 2023
+  },
+  "chattanooga-tn": {
+    "agency_name": "Chattanooga Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.62,
+    "score": 10.8,
+    "year": 2023
+  },
+  "chesapeake-va": {
+    "agency_name": "Chesapeake Police Department",
+    "incidents": 8,
+    "rate_per_100k": 3.15,
+    "score": 21.0,
+    "year": 2023
+  },
+  "chicago-il": {
+    "agency_name": "Chicago Police Department",
+    "incidents": 181,
+    "rate_per_100k": 6.89,
+    "score": 45.9,
+    "year": 2023
+  },
+  "chico-ca": {
+    "agency_name": "Chico Police Department",
+    "incidents": 16,
+    "rate_per_100k": 15.87,
+    "score": 100.0,
+    "year": 2024
+  },
+  "chino-ca": {
+    "agency_name": "Chino Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.25,
+    "score": 28.3,
+    "year": 2023
+  },
+  "chula-vista-ca": {
+    "agency_name": "Chula Vista Police Department",
+    "incidents": 7,
+    "rate_per_100k": 2.49,
+    "score": 16.6,
+    "year": 2023
+  },
+  "cicero-il": {
+    "agency_name": "Cicero Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "cincinnati-oh": {
+    "agency_name": "Cincinnati Police Department",
+    "incidents": 11,
+    "rate_per_100k": 3.55,
+    "score": 23.7,
+    "year": 2023
+  },
+  "citrus-heights-ca": {
+    "agency_name": "Citrus Heights Police Department",
+    "incidents": 6,
+    "rate_per_100k": 6.99,
+    "score": 46.6,
+    "year": 2023
+  },
+  "clarksville-tn": {
+    "agency_name": "Clarksville Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "clearwater-fl": {
+    "agency_name": "Clearwater Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.71,
+    "score": 11.4,
+    "year": 2024
+  },
+  "cleveland-oh": {
+    "agency_name": "Cleveland Police Department",
+    "incidents": 14,
+    "rate_per_100k": 3.91,
+    "score": 26.1,
+    "year": 2023
+  },
+  "clifton-nj": {
+    "agency_name": "Clifton Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "clovis-ca": {
+    "agency_name": "Clovis Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.58,
+    "score": 10.5,
+    "year": 2023
+  },
+  "college-station-tx": {
+    "agency_name": "College Station Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "colorado-springs-co": {
+    "agency_name": "Colorado Springs Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.41,
+    "score": 2.7,
+    "year": 2023
+  },
+  "columbia-mo": {
+    "agency_name": "Columbia Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.77,
+    "score": 5.1,
+    "year": 2023
+  },
+  "columbia-sc": {
+    "agency_name": "Columbia Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.71,
+    "score": 4.7,
+    "year": 2023
+  },
+  "columbus-ga": {
+    "agency_name": "Columbus Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "columbus-oh": {
+    "agency_name": "Columbus Police Department",
+    "incidents": 39,
+    "rate_per_100k": 4.29,
+    "score": 28.6,
+    "year": 2023
+  },
+  "concord-ca": {
+    "agency_name": "Concord Police Department",
+    "incidents": 12,
+    "rate_per_100k": 9.89,
+    "score": 65.9,
+    "year": 2023
+  },
+  "concord-nc": {
+    "agency_name": "Concord Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.89,
+    "score": 5.9,
+    "year": 2023
+  },
+  "conroe-tx": {
+    "agency_name": "Conroe Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "coral-springs-fl": {
+    "agency_name": "Coral Springs Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.26,
+    "score": 15.1,
+    "year": 2023
+  },
+  "corona-ca": {
+    "agency_name": "Corona Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "corpus-christi-tx": {
+    "agency_name": "Corpus Christi Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "costa-mesa-ca": {
+    "agency_name": "Costa Mesa Police Department",
+    "incidents": 7,
+    "rate_per_100k": 6.53,
+    "score": 43.5,
+    "year": 2024
+  },
+  "cranston-ri": {
+    "agency_name": "Cranston Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.85,
+    "score": 32.3,
+    "year": 2023
+  },
+  "dallas-tx": {
+    "agency_name": "Dallas Police Department",
+    "incidents": 31,
+    "rate_per_100k": 2.38,
+    "score": 15.9,
+    "year": 2023
+  },
+  "daly-city-ca": {
+    "agency_name": "Daly City Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.05,
+    "score": 13.7,
+    "year": 2023
+  },
+  "danbury-ct": {
+    "agency_name": "Danbury Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "davenport-ia": {
+    "agency_name": "Davenport Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "davie-fl": {
+    "agency_name": "Davie Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.94,
+    "score": 6.3,
+    "year": 2023
+  },
+  "dayton-oh": {
+    "agency_name": "Dayton Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.96,
+    "score": 19.7,
+    "year": 2023
+  },
+  "dearborn-mi": {
+    "agency_name": "Dearborn Police Department",
+    "incidents": 9,
+    "rate_per_100k": 8.43,
+    "score": 56.2,
+    "year": 2023
+  },
+  "denton-tx": {
+    "agency_name": "Denton Police Department",
+    "incidents": 6,
+    "rate_per_100k": 3.87,
+    "score": 25.8,
+    "year": 2023
+  },
+  "denver-co": {
+    "agency_name": "Denver Police Department",
+    "incidents": 107,
+    "rate_per_100k": 15.02,
+    "score": 100.0,
+    "year": 2023
+  },
+  "des-moines-ia": {
+    "agency_name": "Des Moines Police Department",
+    "incidents": 11,
+    "rate_per_100k": 5.25,
+    "score": 35.0,
+    "year": 2023
+  },
+  "detroit-mi": {
+    "agency_name": "Detroit Police Department",
+    "incidents": 37,
+    "rate_per_100k": 6.01,
+    "score": 40.1,
+    "year": 2023
+  },
+  "doral-fl": {
+    "agency_name": "Doral Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "downey-ca": {
+    "agency_name": "Downey Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.92,
+    "score": 6.1,
+    "year": 2025
+  },
+  "duluth-mn": {
+    "agency_name": "Duluth Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.16,
+    "score": 7.7,
+    "year": 2023
+  },
+  "durango-co": {
+    "agency_name": "Durango Police Department",
+    "incidents": 3,
+    "rate_per_100k": 15.19,
+    "score": 100.0,
+    "year": 2023
+  },
+  "durham-nc": {
+    "agency_name": "Durham Police Department",
+    "incidents": 5,
+    "rate_per_100k": 1.69,
+    "score": 11.3,
+    "year": 2023
+  },
+  "edinburg-tx": {
+    "agency_name": "Edinburg Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.94,
+    "score": 6.3,
+    "year": 2023
+  },
+  "edmond-ok": {
+    "agency_name": "Edmond Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "el-cajon-ca": {
+    "agency_name": "El Cajon Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.93,
+    "score": 12.9,
+    "year": 2023
+  },
+  "el-monte-ca": {
+    "agency_name": "El Monte Police Department",
+    "incidents": 7,
+    "rate_per_100k": 6.77,
+    "score": 45.1,
+    "year": 2023
+  },
+  "el-paso-tx": {
+    "agency_name": "El Paso Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "elgin-il": {
+    "agency_name": "Elgin Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "elizabeth-nj": {
+    "agency_name": "Elizabeth Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.99,
+    "score": 19.9,
+    "year": 2023
+  },
+  "elk-grove-ca": {
+    "agency_name": "Elk Grove Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.12,
+    "score": 7.5,
+    "year": 2023
+  },
+  "erie-pa": {
+    "agency_name": "Erie Police Department",
+    "incidents": 7,
+    "rate_per_100k": 7.53,
+    "score": 50.2,
+    "year": 2023
+  },
+  "escondido-ca": {
+    "agency_name": "Escondido Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.67,
+    "score": 4.5,
+    "year": 2023
+  },
+  "eugene-or": {
+    "agency_name": "Eugene Police Department",
+    "incidents": 17,
+    "rate_per_100k": 9.54,
+    "score": 63.6,
+    "year": 2023
+  },
+  "evansville-in": {
+    "agency_name": "Evansville Police Department",
+    "incidents": 11,
+    "rate_per_100k": 9.57,
+    "score": 63.8,
+    "year": 2023
+  },
+  "everett-wa": {
+    "agency_name": "Everett Police Department",
+    "incidents": 14,
+    "rate_per_100k": 12.55,
+    "score": 83.7,
+    "year": 2023
+  },
+  "fairfield-ca": {
+    "agency_name": "Fairfield Police Department",
+    "incidents": 11,
+    "rate_per_100k": 9.24,
+    "score": 61.6,
+    "year": 2023
+  },
+  "fall-river-ma": {
+    "agency_name": "Fall River Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.2,
+    "score": 21.3,
+    "year": 2023
+  },
+  "fargo-nd": {
+    "agency_name": "Fargo Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "farmington-hills-mi": {
+    "agency_name": "Farmington Hills Police Department",
+    "incidents": 6,
+    "rate_per_100k": 7.3,
+    "score": 48.7,
+    "year": 2023
+  },
+  "fayetteville-ar": {
+    "agency_name": "Fayetteville Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "fayetteville-nc": {
+    "agency_name": "Fayetteville Police Department",
+    "incidents": 10,
+    "rate_per_100k": 4.78,
+    "score": 31.9,
+    "year": 2023
+  },
+  "federal-way-wa": {
+    "agency_name": "Federal Way Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.19,
+    "score": 34.6,
+    "year": 2023
+  },
+  "fishers-in": {
+    "agency_name": "Fishers Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.97,
+    "score": 6.5,
+    "year": 2023
+  },
+  "flagstaff-az": {
+    "agency_name": "Flagstaff Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.33,
+    "score": 8.9,
+    "year": 2023
+  },
+  "flint-mi": {
+    "agency_name": "Flint Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "flower-mound-tx": {
+    "agency_name": "Flower Mound Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "folsom-ca": {
+    "agency_name": "Folsom Police Department",
+    "incidents": 14,
+    "rate_per_100k": 16.56,
+    "score": 100.0,
+    "year": 2023
+  },
+  "fontana-ca": {
+    "agency_name": "Fontana Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "fort-collins-co": {
+    "agency_name": "Fort Collins Police Department",
+    "incidents": 11,
+    "rate_per_100k": 6.51,
+    "score": 43.4,
+    "year": 2023
+  },
+  "fort-lauderdale-fl": {
+    "agency_name": "Fort Lauderdale Police Department",
+    "incidents": 7,
+    "rate_per_100k": 3.82,
+    "score": 25.5,
+    "year": 2023
+  },
+  "fort-myers-fl": {
+    "agency_name": "Fort Myers Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.98,
+    "score": 26.5,
+    "year": 2023
+  },
+  "fort-smith-ar": {
+    "agency_name": "Fort Smith Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "fort-wayne-in": {
+    "agency_name": "Fort Wayne Police Department",
+    "incidents": 13,
+    "rate_per_100k": 4.82,
+    "score": 32.1,
+    "year": 2023
+  },
+  "fort-worth-tx": {
+    "agency_name": "Fort Worth Police Department",
+    "incidents": 15,
+    "rate_per_100k": 1.54,
+    "score": 10.3,
+    "year": 2023
+  },
+  "franklin-tn": {
+    "agency_name": "Franklin Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.26,
+    "score": 15.1,
+    "year": 2023
+  },
+  "frederick-md": {
+    "agency_name": "Frederick Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.38,
+    "score": 15.9,
+    "year": 2023
+  },
+  "fremont-ca": {
+    "agency_name": "Fremont Police Department",
+    "incidents": 17,
+    "rate_per_100k": 7.7,
+    "score": 51.3,
+    "year": 2023
+  },
+  "fresno-ca": {
+    "agency_name": "Fresno Police Department",
+    "incidents": 20,
+    "rate_per_100k": 3.66,
+    "score": 24.4,
+    "year": 2023
+  },
+  "frisco-tx": {
+    "agency_name": "Frisco Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "fullerton-ca": {
+    "agency_name": "Fullerton Police Department",
+    "incidents": 9,
+    "rate_per_100k": 6.52,
+    "score": 43.5,
+    "year": 2024
+  },
+  "gainesville-fl": {
+    "agency_name": "Gainesville Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.04,
+    "score": 13.6,
+    "year": 2023
+  },
+  "garden-grove-ca": {
+    "agency_name": "Garden Grove Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.19,
+    "score": 7.9,
+    "year": 2023
+  },
+  "garland-tx": {
+    "agency_name": "Garland Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.42,
+    "score": 2.8,
+    "year": 2023
+  },
+  "gastonia-nc": {
+    "agency_name": "Gastonia Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.19,
+    "score": 7.9,
+    "year": 2023
+  },
+  "georgetown-tx": {
+    "agency_name": "Georgetown Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "gilbert-az": {
+    "agency_name": "Gilbert Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "glendale-az": {
+    "agency_name": "Glendale Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.18,
+    "score": 7.9,
+    "year": 2023
+  },
+  "glendale-ca": {
+    "agency_name": "Glendale Police Department",
+    "incidents": 12,
+    "rate_per_100k": 6.45,
+    "score": 43.0,
+    "year": 2023
+  },
+  "goodyear-az": {
+    "agency_name": "Goodyear Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.82,
+    "score": 12.1,
+    "year": 2023
+  },
+  "grand-junction-co": {
+    "agency_name": "Grand Junction Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.44,
+    "score": 9.6,
+    "year": 2023
+  },
+  "grand-prairie-tx": {
+    "agency_name": "Grand Prairie Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "grand-rapids-mi": {
+    "agency_name": "Grand Rapids Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.02,
+    "score": 6.8,
+    "year": 2023
+  },
+  "greeley-co": {
+    "agency_name": "Greeley Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.66,
+    "score": 24.4,
+    "year": 2023
+  },
+  "green-bay-wi": {
+    "agency_name": "Green Bay Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.79,
+    "score": 25.3,
+    "year": 2023
+  },
+  "greensboro-nc": {
+    "agency_name": "Greensboro Police Department",
+    "incidents": 13,
+    "rate_per_100k": 4.29,
+    "score": 28.6,
+    "year": 2023
+  },
+  "greenville-nc": {
+    "agency_name": "Greenville Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.11,
+    "score": 7.4,
+    "year": 2023
+  },
+  "gresham-or": {
+    "agency_name": "Gresham Police Department",
+    "incidents": 9,
+    "rate_per_100k": 8.17,
+    "score": 54.5,
+    "year": 2023
+  },
+  "hampton-va": {
+    "agency_name": "Hampton Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "hartford-ct": {
+    "agency_name": "Hartford Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.83,
+    "score": 5.5,
+    "year": 2023
+  },
+  "hawthorne-ca": {
+    "agency_name": "Hawthorne Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.2,
+    "score": 8.0,
+    "year": 2023
+  },
+  "hayward-ca": {
+    "agency_name": "Hayward Police Department",
+    "incidents": 6,
+    "rate_per_100k": 3.9,
+    "score": 26.0,
+    "year": 2023
+  },
+  "hemet-ca": {
+    "agency_name": "Hemet Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "henderson-nv": {
+    "agency_name": "Henderson Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "hialeah-fl": {
+    "agency_name": "Hialeah Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.37,
+    "score": 9.1,
+    "year": 2023
+  },
+  "high-point-nc": {
+    "agency_name": "High Point Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.73,
+    "score": 11.5,
+    "year": 2023
+  },
+  "hillsboro-or": {
+    "agency_name": "Hillsboro Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.86,
+    "score": 12.4,
+    "year": 2023
+  },
+  "homestead-fl": {
+    "agency_name": "Homestead Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.15,
+    "score": 7.7,
+    "year": 2025
+  },
+  "honolulu-hi": {
+    "agency_name": "Honolulu Police Department",
+    "incidents": 20,
+    "rate_per_100k": 2.03,
+    "score": 13.5,
+    "year": 2023
+  },
+  "hoover-al": {
+    "agency_name": "Hoover Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "houston-tx": {
+    "agency_name": "Houston Police Department",
+    "incidents": 35,
+    "rate_per_100k": 1.52,
+    "score": 10.1,
+    "year": 2023
+  },
+  "huntsville-al": {
+    "agency_name": "Huntsville Police Department",
+    "incidents": 51,
+    "rate_per_100k": 22.69,
+    "score": 100.0,
+    "year": 2023
+  },
+  "independence-mo": {
+    "agency_name": "Independence Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.49,
+    "score": 16.6,
+    "year": 2023
+  },
+  "indianapolis-in": {
+    "agency_name": "Indianapolis Police Department",
+    "incidents": 26,
+    "rate_per_100k": 2.93,
+    "score": 19.5,
+    "year": 2023
+  },
+  "indio-ca": {
+    "agency_name": "Indio Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2025
+  },
+  "inglewood-ca": {
+    "agency_name": "Inglewood Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.93,
+    "score": 26.2,
+    "year": 2023
+  },
+  "irvine-ca": {
+    "agency_name": "Irvine Police Department",
+    "incidents": 14,
+    "rate_per_100k": 4.43,
+    "score": 29.5,
+    "year": 2023
+  },
+  "irving-tx": {
+    "agency_name": "Irving Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.39,
+    "score": 2.6,
+    "year": 2023
+  },
+  "jackson-ms": {
+    "agency_name": "Jackson Police Department",
+    "incidents": 13,
+    "rate_per_100k": 9.37,
+    "score": 62.5,
+    "year": 2025
+  },
+  "jacksonville-fl": {
+    "agency_name": "Jacksonville Beach Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2025
+  },
+  "jersey-city-nj": {
+    "agency_name": "Jersey City Police Department",
+    "incidents": 7,
+    "rate_per_100k": 2.46,
+    "score": 16.4,
+    "year": 2023
+  },
+  "johns-creek-ga": {
+    "agency_name": "Johns Creek Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "joliet-il": {
+    "agency_name": "Joliet Police Department",
+    "incidents": 8,
+    "rate_per_100k": 5.34,
+    "score": 35.6,
+    "year": 2023
+  },
+  "jonesboro-ar": {
+    "agency_name": "Jonesboro Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "kalispell-mt": {
+    "agency_name": "Kalispell Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "kansas-city-ks": {
+    "agency_name": "Kansas City Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "kansas-city-mo": {
+    "agency_name": "Kansas City Police Department",
+    "incidents": 43,
+    "rate_per_100k": 8.43,
+    "score": 56.2,
+    "year": 2023
+  },
+  "kennewick-wa": {
+    "agency_name": "Kennewick Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.87,
+    "score": 39.1,
+    "year": 2023
+  },
+  "kenosha-wi": {
+    "agency_name": "Kenosha Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "kent-wa": {
+    "agency_name": "Kent Police Department",
+    "incidents": 8,
+    "rate_per_100k": 6.0,
+    "score": 40.0,
+    "year": 2023
+  },
+  "killeen-tx": {
+    "agency_name": "Killeen Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.62,
+    "score": 4.1,
+    "year": 2023
+  },
+  "kirkland-wa": {
+    "agency_name": "Kirkland Police Department",
+    "incidents": 14,
+    "rate_per_100k": 15.24,
+    "score": 100.0,
+    "year": 2023
+  },
+  "kissimmee-fl": {
+    "agency_name": "Kissimmee Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.24,
+    "score": 8.3,
+    "year": 2023
+  },
+  "knoxville-tn": {
+    "agency_name": "Knoxville Police Department",
+    "incidents": 8,
+    "rate_per_100k": 4.04,
+    "score": 26.9,
+    "year": 2023
+  },
+  "lafayette-la": {
+    "agency_name": "Lafayette Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "lake-charles-la": {
+    "agency_name": "Lake Charles Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.31,
+    "score": 8.7,
+    "year": 2023
+  },
+  "lake-forest-ca": {
+    "agency_name": "Lake Forest Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.17,
+    "score": 7.8,
+    "year": 2023
+  },
+  "lakeland-fl": {
+    "agency_name": "Lakeland Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.24,
+    "score": 21.6,
+    "year": 2023
+  },
+  "lakeville-mn": {
+    "agency_name": "Lakeville Police Department",
+    "incidents": 9,
+    "rate_per_100k": 11.7,
+    "score": 78.0,
+    "year": 2023
+  },
+  "lakewood-co": {
+    "agency_name": "Lakewood Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.2,
+    "score": 21.3,
+    "year": 2023
+  },
+  "lansing-mi": {
+    "agency_name": "Lansing Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.78,
+    "score": 11.9,
+    "year": 2023
+  },
+  "laredo-tx": {
+    "agency_name": "Laredo Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.78,
+    "score": 5.2,
+    "year": 2023
+  },
+  "largo-fl": {
+    "agency_name": "Largo Police Department",
+    "incidents": 6,
+    "rate_per_100k": 7.27,
+    "score": 48.5,
+    "year": 2023
+  },
+  "las-cruces-nm": {
+    "agency_name": "Las Cruces Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.61,
+    "score": 17.4,
+    "year": 2023
+  },
+  "las-vegas-nv": {
+    "agency_name": "Las Vegas Metropolitan Police Department",
+    "incidents": 34,
+    "rate_per_100k": 2.04,
+    "score": 13.6,
+    "year": 2023
+  },
+  "lawrence-ks": {
+    "agency_name": "Lawrence Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.2,
+    "score": 34.7,
+    "year": 2023
+  },
+  "lawrence-ma": {
+    "agency_name": "Lawrence Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "lawton-ok": {
+    "agency_name": "Lawton Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.43,
+    "score": 36.2,
+    "year": 2023
+  },
+  "layton-ut": {
+    "agency_name": "Layton Police Department",
+    "incidents": 5,
+    "rate_per_100k": 6.03,
+    "score": 40.2,
+    "year": 2023
+  },
+  "league-city-tx": {
+    "agency_name": "League City Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.32,
+    "score": 28.8,
+    "year": 2023
+  },
+  "leander-tx": {
+    "agency_name": "Leander Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "lees-summit-mo": {
+    "agency_name": "Lee's Summit Police Department",
+    "incidents": 6,
+    "rate_per_100k": 5.75,
+    "score": 38.3,
+    "year": 2023
+  },
+  "lehi-ut": {
+    "agency_name": "Lehi Police Department",
+    "incidents": 7,
+    "rate_per_100k": 7.92,
+    "score": 52.8,
+    "year": 2023
+  },
+  "lewisville-tx": {
+    "agency_name": "Lewisville Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.5,
+    "score": 10.0,
+    "year": 2023
+  },
+  "lexington-ky": {
+    "agency_name": "Lexington Police Department",
+    "incidents": 17,
+    "rate_per_100k": 5.31,
+    "score": 35.4,
+    "year": 2023
+  },
+  "lincoln-ne": {
+    "agency_name": "Lincoln Police Department",
+    "incidents": 7,
+    "rate_per_100k": 2.39,
+    "score": 15.9,
+    "year": 2023
+  },
+  "little-rock-ar": {
+    "agency_name": "Little Rock Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "livermore-ca": {
+    "agency_name": "Livermore Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.92,
+    "score": 32.8,
+    "year": 2024
+  },
+  "livonia-mi": {
+    "agency_name": "Livonia Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.07,
+    "score": 7.1,
+    "year": 2023
+  },
+  "long-beach-ca": {
+    "agency_name": "Long Beach Police Department",
+    "incidents": 36,
+    "rate_per_100k": 8.1,
+    "score": 54.0,
+    "year": 2023
+  },
+  "longmont-co": {
+    "agency_name": "Longmont Police Department",
+    "incidents": 6,
+    "rate_per_100k": 6.09,
+    "score": 40.6,
+    "year": 2023
+  },
+  "longview-tx": {
+    "agency_name": "Longview Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "los-alamos-nm": {
+    "agency_name": "Los Alamos Police Department",
+    "incidents": 1,
+    "rate_per_100k": 5.23,
+    "score": 34.9,
+    "year": 2023
+  },
+  "los-angeles-ca": {
+    "agency_name": "Los Angeles Police Department",
+    "incidents": 590,
+    "rate_per_100k": 15.23,
+    "score": 100.0,
+    "year": 2025
+  },
+  "louisville-ky": {
+    "agency_name": "Louisville Metro Police Department",
+    "incidents": 26,
+    "rate_per_100k": 3.88,
+    "score": 25.9,
+    "year": 2023
+  },
+  "loveland-co": {
+    "agency_name": "Loveland Police Department",
+    "incidents": 5,
+    "rate_per_100k": 6.36,
+    "score": 42.4,
+    "year": 2023
+  },
+  "lowell-ma": {
+    "agency_name": "Lowell Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.54,
+    "score": 23.6,
+    "year": 2023
+  },
+  "lubbock-tx": {
+    "agency_name": "Lubbock Police Department",
+    "incidents": 5,
+    "rate_per_100k": 1.87,
+    "score": 12.5,
+    "year": 2023
+  },
+  "lynchburg-va": {
+    "agency_name": "Lynchburg Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "lynn-ma": {
+    "agency_name": "Lynn Police Department",
+    "incidents": 7,
+    "rate_per_100k": 6.92,
+    "score": 46.1,
+    "year": 2023
+  },
+  "mableton-ga": {
+    "agency_name": "Cobb County Police Department",
+    "incidents": 14,
+    "rate_per_100k": 2.43,
+    "score": 16.2,
+    "year": 2023
+  },
+  "macon-ga": {
+    "agency_name": "Bibb County Sheriff's Office",
+    "incidents": 1,
+    "rate_per_100k": 0.64,
+    "score": 4.3,
+    "year": 2023
+  },
+  "madison-wi": {
+    "agency_name": "Madison Police Department",
+    "incidents": 7,
+    "rate_per_100k": 2.55,
+    "score": 17.0,
+    "year": 2023
+  },
+  "manchester-nh": {
+    "agency_name": "Manchester Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.61,
+    "score": 17.4,
+    "year": 2023
+  },
+  "mansfield-tx": {
+    "agency_name": "Mansfield Police Department",
+    "incidents": 4,
+    "rate_per_100k": 5.08,
+    "score": 33.9,
+    "year": 2023
+  },
+  "manteca-ca": {
+    "agency_name": "Manteca Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.14,
+    "score": 14.3,
+    "year": 2024
+  },
+  "maricopa-az": {
+    "agency_name": "Maricopa Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.84,
+    "score": 18.9,
+    "year": 2023
+  },
+  "marysville-wa": {
+    "agency_name": "Marysville Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.74,
+    "score": 18.3,
+    "year": 2023
+  },
+  "mcallen-tx": {
+    "agency_name": "McAllen Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "mckinney-tx": {
+    "agency_name": "McKinney Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.47,
+    "score": 3.1,
+    "year": 2023
+  },
+  "medford-or": {
+    "agency_name": "Medford Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.34,
+    "score": 15.6,
+    "year": 2023
+  },
+  "melbourne-fl": {
+    "agency_name": "Melbourne Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.4,
+    "score": 22.7,
+    "year": 2025
+  },
+  "memphis-tn": {
+    "agency_name": "Memphis Police Department",
+    "incidents": 5,
+    "rate_per_100k": 0.81,
+    "score": 5.4,
+    "year": 2023
+  },
+  "menifee-ca": {
+    "agency_name": "Menifee Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.89,
+    "score": 5.9,
+    "year": 2023
+  },
+  "merced-ca": {
+    "agency_name": "Merced Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.12,
+    "score": 14.1,
+    "year": 2023
+  },
+  "meridian-id": {
+    "agency_name": "Meridian Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.96,
+    "score": 19.7,
+    "year": 2023
+  },
+  "mesa-az": {
+    "agency_name": "Mesa Police Department",
+    "incidents": 18,
+    "rate_per_100k": 3.49,
+    "score": 23.3,
+    "year": 2023
+  },
+  "mesquite-tx": {
+    "agency_name": "Mesquite Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "miami-beach-fl": {
+    "agency_name": "Miami Beach Police Department",
+    "incidents": 5,
+    "rate_per_100k": 6.36,
+    "score": 42.4,
+    "year": 2024
+  },
+  "miami-fl": {
+    "agency_name": "Miami Police Department",
+    "incidents": 17,
+    "rate_per_100k": 3.75,
+    "score": 25.0,
+    "year": 2023
+  },
+  "miami-gardens-fl": {
+    "agency_name": "Miami Gardens Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.72,
+    "score": 18.1,
+    "year": 2024
+  },
+  "midland-tx": {
+    "agency_name": "Midland Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.22,
+    "score": 14.8,
+    "year": 2023
+  },
+  "milpitas-ca": {
+    "agency_name": "Milpitas Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.31,
+    "score": 8.7,
+    "year": 2023
+  },
+  "milwaukee-wi": {
+    "agency_name": "Milwaukee Police Department",
+    "incidents": 3,
+    "rate_per_100k": 0.54,
+    "score": 3.6,
+    "year": 2023
+  },
+  "minneapolis-mn": {
+    "agency_name": "Minneapolis Police Department",
+    "incidents": 34,
+    "rate_per_100k": 8.05,
+    "score": 53.7,
+    "year": 2023
+  },
+  "miramar-fl": {
+    "agency_name": "Miramar Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "mission-tx": {
+    "agency_name": "Mission Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "mission-viejo-ca": {
+    "agency_name": "Mission Viejo Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.1,
+    "score": 7.3,
+    "year": 2023
+  },
+  "missoula-mt": {
+    "agency_name": "Missoula Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "missouri-city-tx": {
+    "agency_name": "Missouri City Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.87,
+    "score": 25.8,
+    "year": 2023
+  },
+  "mobile-al": {
+    "agency_name": "Mobile Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.42,
+    "score": 2.8,
+    "year": 2023
+  },
+  "modesto-ca": {
+    "agency_name": "Modesto Police Department",
+    "incidents": 7,
+    "rate_per_100k": 3.21,
+    "score": 21.4,
+    "year": 2023
+  },
+  "montgomery-al": {
+    "agency_name": "Montgomery Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "mount-pleasant-sc": {
+    "agency_name": "Mount Pleasant Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "mountain-view-ca": {
+    "agency_name": "Mountain View Police Department",
+    "incidents": 14,
+    "rate_per_100k": 17.42,
+    "score": 100.0,
+    "year": 2023
+  },
+  "murfreesboro-tn": {
+    "agency_name": "Murfreesboro Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.2,
+    "score": 8.0,
+    "year": 2023
+  },
+  "murrieta-ca": {
+    "agency_name": "Murrieta Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.87,
+    "score": 5.8,
+    "year": 2023
+  },
+  "nampa-id": {
+    "agency_name": "Nampa Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.86,
+    "score": 5.7,
+    "year": 2023
+  },
+  "naperville-il": {
+    "agency_name": "Naperville Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.67,
+    "score": 4.5,
+    "year": 2023
+  },
+  "nashua-nh": {
+    "agency_name": "Nashua Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.1,
+    "score": 7.3,
+    "year": 2023
+  },
+  "nashville-tn": {
+    "agency_name": "Metropolitan Nashville Police Department",
+    "incidents": 9,
+    "rate_per_100k": 1.3,
+    "score": 8.7,
+    "year": 2023
+  },
+  "new-bedford-ma": {
+    "agency_name": "New Bedford Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "new-braunfels-tx": {
+    "agency_name": "New Braunfels Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.57,
+    "score": 23.8,
+    "year": 2023
+  },
+  "new-haven-ct": {
+    "agency_name": "New Haven Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.53,
+    "score": 23.5,
+    "year": 2023
+  },
+  "new-rochelle-ny": {
+    "agency_name": "New Rochelle Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.4,
+    "score": 16.0,
+    "year": 2023
+  },
+  "new-york-ny": {
+    "agency_name": "New York City Police Department",
+    "incidents": 624,
+    "rate_per_100k": 7.62,
+    "score": 50.8,
+    "year": 2023
+  },
+  "newark-nj": {
+    "agency_name": "Newark Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "newport-beach-ca": {
+    "agency_name": "Newport Beach Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.8,
+    "score": 32.0,
+    "year": 2023
+  },
+  "newport-news-va": {
+    "agency_name": "Newport News Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.18,
+    "score": 14.5,
+    "year": 2023
+  },
+  "newton-ma": {
+    "agency_name": "Newton Police Department",
+    "incidents": 20,
+    "rate_per_100k": 22.99,
+    "score": 100.0,
+    "year": 2023
+  },
+  "norfolk-va": {
+    "agency_name": "Norfolk Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.3,
+    "score": 8.7,
+    "year": 2023
+  },
+  "norman-ok": {
+    "agency_name": "Norman Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "north-charleston-sc": {
+    "agency_name": "North Charleston Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.16,
+    "score": 27.7,
+    "year": 2023
+  },
+  "north-las-vegas-nv": {
+    "agency_name": "North Las Vegas Police Department",
+    "incidents": 4,
+    "rate_per_100k": 1.38,
+    "score": 9.2,
+    "year": 2023
+  },
+  "norwalk-ct": {
+    "agency_name": "Norwalk Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.09,
+    "score": 7.3,
+    "year": 2023
+  },
+  "oceanside-ca": {
+    "agency_name": "Oceanside Police Department",
+    "incidents": 14,
+    "rate_per_100k": 8.17,
+    "score": 54.5,
+    "year": 2023
+  },
+  "odessa-tx": {
+    "agency_name": "Odessa Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.57,
+    "score": 23.8,
+    "year": 2023
+  },
+  "ofallon-mo": {
+    "agency_name": "O'Fallon Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.22,
+    "score": 28.1,
+    "year": 2023
+  },
+  "ogden-ut": {
+    "agency_name": "Ogden Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.15,
+    "score": 7.7,
+    "year": 2023
+  },
+  "oklahoma-city-ok": {
+    "agency_name": "Oklahoma City Police Department",
+    "incidents": 30,
+    "rate_per_100k": 4.28,
+    "score": 28.5,
+    "year": 2023
+  },
+  "olathe-ks": {
+    "agency_name": "Olathe Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.35,
+    "score": 9.0,
+    "year": 2023
+  },
+  "omaha-ne": {
+    "agency_name": "Omaha Police Department",
+    "incidents": 10,
+    "rate_per_100k": 2.08,
+    "score": 13.9,
+    "year": 2024
+  },
+  "orange-ca": {
+    "agency_name": "Orange Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.74,
+    "score": 4.9,
+    "year": 2023
+  },
+  "orem-ut": {
+    "agency_name": "Orem Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.22,
+    "score": 28.1,
+    "year": 2023
+  },
+  "overland-park-ks": {
+    "agency_name": "Overland Park Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "oxnard-ca": {
+    "agency_name": "Oxnard Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.0,
+    "score": 13.3,
+    "year": 2023
+  },
+  "palm-bay-fl": {
+    "agency_name": "Palm Bay Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "palm-coast-fl": {
+    "agency_name": "Flagler County Sheriff's Office",
+    "incidents": 1,
+    "rate_per_100k": 0.77,
+    "score": 5.1,
+    "year": 2024
+  },
+  "parma-oh": {
+    "agency_name": "Parma Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "pasadena-ca": {
+    "agency_name": "Pasadena Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.51,
+    "score": 10.1,
+    "year": 2023
+  },
+  "pasadena-tx": {
+    "agency_name": "Pasadena Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.06,
+    "score": 13.7,
+    "year": 2023
+  },
+  "pasco-wa": {
+    "agency_name": "Pasco Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.49,
+    "score": 16.6,
+    "year": 2023
+  },
+  "paterson-nj": {
+    "agency_name": "Paterson Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "pawtucket-ri": {
+    "agency_name": "Pawtucket Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.66,
+    "score": 17.7,
+    "year": 2023
+  },
+  "pearland-tx": {
+    "agency_name": "Pearland Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "pembroke-pines-fl": {
+    "agency_name": "Pembroke Pines Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.56,
+    "score": 3.7,
+    "year": 2025
+  },
+  "peoria-az": {
+    "agency_name": "Peoria Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.49,
+    "score": 9.9,
+    "year": 2023
+  },
+  "peoria-il": {
+    "agency_name": "Peoria Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "pharr-tx": {
+    "agency_name": "Pharr Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "philadelphia-pa": {
+    "agency_name": "Philadelphia Police Department",
+    "incidents": 105,
+    "rate_per_100k": 6.77,
+    "score": 45.1,
+    "year": 2023
+  },
+  "pittsburg-ca": {
+    "agency_name": "Pittsburg Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.28,
+    "score": 8.5,
+    "year": 2023
+  },
+  "pittsburgh-pa": {
+    "agency_name": "Pittsburgh Bureau of Police",
+    "incidents": 30,
+    "rate_per_100k": 9.46,
+    "score": 63.1,
+    "year": 2024
+  },
+  "plano-tx": {
+    "agency_name": "Plano Police Department",
+    "incidents": 4,
+    "rate_per_100k": 1.37,
+    "score": 9.1,
+    "year": 2023
+  },
+  "plymouth-mn": {
+    "agency_name": "Plymouth Police Department",
+    "incidents": 5,
+    "rate_per_100k": 6.45,
+    "score": 43.0,
+    "year": 2023
+  },
+  "pomona-ca": {
+    "agency_name": "Pomona Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.09,
+    "score": 13.9,
+    "year": 2023
+  },
+  "port-st-lucie-fl": {
+    "agency_name": "Port St. Lucie Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2025
+  },
+  "portland-or": {
+    "agency_name": "Portland Police Department",
+    "incidents": 83,
+    "rate_per_100k": 13.26,
+    "score": 88.4,
+    "year": 2023
+  },
+  "portsmouth-va": {
+    "agency_name": "Portsmouth Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.03,
+    "score": 6.9,
+    "year": 2023
+  },
+  "providence-ri": {
+    "agency_name": "Providence Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.58,
+    "score": 10.5,
+    "year": 2023
+  },
+  "provo-ut": {
+    "agency_name": "Provo Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "pueblo-co": {
+    "agency_name": "Pueblo Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.6,
+    "score": 24.0,
+    "year": 2023
+  },
+  "queen-creek-az": {
+    "agency_name": "Queen Creek Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "quincy-ma": {
+    "agency_name": "Quincy Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.89,
+    "score": 32.6,
+    "year": 2023
+  },
+  "racine-wi": {
+    "agency_name": "Racine Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "raleigh-nc": {
+    "agency_name": "Raleigh Police Department",
+    "incidents": 27,
+    "rate_per_100k": 5.59,
+    "score": 37.3,
+    "year": 2023
+  },
+  "rancho-cordova-ca": {
+    "agency_name": "Rancho Cordova Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.98,
+    "score": 39.9,
+    "year": 2024
+  },
+  "rapid-city-sd": {
+    "agency_name": "Rapid City Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.95,
+    "score": 33.0,
+    "year": 2023
+  },
+  "reading-pa": {
+    "agency_name": "Reading Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.09,
+    "score": 27.3,
+    "year": 2023
+  },
+  "redding-ca": {
+    "agency_name": "Redding Police Department",
+    "incidents": 17,
+    "rate_per_100k": 18.38,
+    "score": 100.0,
+    "year": 2024
+  },
+  "redmond-wa": {
+    "agency_name": "Redmond Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.27,
+    "score": 8.5,
+    "year": 2023
+  },
+  "redwood-city-ca": {
+    "agency_name": "Redwood City Police Department",
+    "incidents": 7,
+    "rate_per_100k": 8.89,
+    "score": 59.3,
+    "year": 2023
+  },
+  "reno-nv": {
+    "agency_name": "Reno Police Department",
+    "incidents": 14,
+    "rate_per_100k": 5.04,
+    "score": 33.6,
+    "year": 2023
+  },
+  "renton-wa": {
+    "agency_name": "Renton Police Department",
+    "incidents": 8,
+    "rate_per_100k": 7.79,
+    "score": 51.9,
+    "year": 2023
+  },
+  "richardson-tx": {
+    "agency_name": "Richardson Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.68,
+    "score": 11.2,
+    "year": 2023
+  },
+  "richmond-ca": {
+    "agency_name": "Richmond Police Department",
+    "incidents": 3,
+    "rate_per_100k": 2.65,
+    "score": 17.7,
+    "year": 2023
+  },
+  "richmond-va": {
+    "agency_name": "Richmond Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.43,
+    "score": 2.9,
+    "year": 2023
+  },
+  "rio-rancho-nm": {
+    "agency_name": "Rio Rancho Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.55,
+    "score": 30.3,
+    "year": 2023
+  },
+  "riverside-ca": {
+    "agency_name": "Riverside Police Department",
+    "incidents": 9,
+    "rate_per_100k": 2.78,
+    "score": 18.5,
+    "year": 2023
+  },
+  "roanoke-va": {
+    "agency_name": "Roanoke Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "rochester-hills-mi": {
+    "agency_name": "Rochester Hills Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.64,
+    "score": 17.6,
+    "year": 2023
+  },
+  "rochester-mn": {
+    "agency_name": "Rochester Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.1,
+    "score": 27.3,
+    "year": 2023
+  },
+  "rochester-ny": {
+    "agency_name": "Rochester Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.96,
+    "score": 6.4,
+    "year": 2023
+  },
+  "rockford-il": {
+    "agency_name": "Rockford Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "rocklin-ca": {
+    "agency_name": "Rocklin Police Department",
+    "incidents": 3,
+    "rate_per_100k": 4.01,
+    "score": 26.7,
+    "year": 2023
+  },
+  "rogers-ar": {
+    "agency_name": "Rogers Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "roseville-ca": {
+    "agency_name": "Roseville Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.27,
+    "score": 8.5,
+    "year": 2023
+  },
+  "roswell-ga": {
+    "agency_name": "Roswell Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "round-rock-tx": {
+    "agency_name": "Round Rock Police Department",
+    "incidents": 7,
+    "rate_per_100k": 5.39,
+    "score": 35.9,
+    "year": 2023
+  },
+  "sacramento-ca": {
+    "agency_name": "Sacramento Police Department",
+    "incidents": 65,
+    "rate_per_100k": 12.28,
+    "score": 81.9,
+    "year": 2023
+  },
+  "saint-paul-mn": {
+    "agency_name": "South St. Paul Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "salem-or": {
+    "agency_name": "Salem Police Department",
+    "incidents": 20,
+    "rate_per_100k": 11.22,
+    "score": 74.8,
+    "year": 2023
+  },
+  "salinas-ca": {
+    "agency_name": "Salinas Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.13,
+    "score": 20.9,
+    "year": 2023
+  },
+  "salt-lake-city-ut": {
+    "agency_name": "Salt Lake City Police Department",
+    "incidents": 25,
+    "rate_per_100k": 12.1,
+    "score": 80.7,
+    "year": 2023
+  },
+  "san-angelo-tx": {
+    "agency_name": "San Angelo Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "san-antonio-tx": {
+    "agency_name": "San Antonio Police Department",
+    "incidents": 42,
+    "rate_per_100k": 2.82,
+    "score": 18.8,
+    "year": 2023
+  },
+  "san-diego-ca": {
+    "agency_name": "San Diego Police Department",
+    "incidents": 59,
+    "rate_per_100k": 4.28,
+    "score": 28.5,
+    "year": 2023
+  },
+  "san-jose-ca": {
+    "agency_name": "San Jose Police Department",
+    "incidents": 116,
+    "rate_per_100k": 12.12,
+    "score": 80.8,
+    "year": 2024
+  },
+  "san-marcos-ca": {
+    "agency_name": "San Marcos Police Department",
+    "incidents": 6,
+    "rate_per_100k": 6.33,
+    "score": 42.2,
+    "year": 2023
+  },
+  "san-marcos-tx": {
+    "agency_name": "San Marcos Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.8,
+    "score": 18.7,
+    "year": 2023
+  },
+  "san-mateo-ca": {
+    "agency_name": "San Mateo Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.01,
+    "score": 6.7,
+    "year": 2023
+  },
+  "san-ramon-ca": {
+    "agency_name": "San Ramon Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.5,
+    "score": 23.3,
+    "year": 2023
+  },
+  "sandpoint-id": {
+    "agency_name": "Sandpoint Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "sandy-springs-ga": {
+    "agency_name": "Sandy Springs Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.93,
+    "score": 6.2,
+    "year": 2023
+  },
+  "sandy-ut": {
+    "agency_name": "Sandy Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.19,
+    "score": 14.6,
+    "year": 2023
+  },
+  "santa-ana-ca": {
+    "agency_name": "Santa Ana Police Department",
+    "incidents": 17,
+    "rate_per_100k": 5.53,
+    "score": 36.9,
+    "year": 2023
+  },
+  "santa-barbara-ca": {
+    "agency_name": "Santa Barbara Police Department",
+    "incidents": 5,
+    "rate_per_100k": 5.75,
+    "score": 38.3,
+    "year": 2023
+  },
+  "santa-clara-ca": {
+    "agency_name": "Santa Clara Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.95,
+    "score": 26.3,
+    "year": 2023
+  },
+  "santa-fe-nm": {
+    "agency_name": "Santa Fe Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.23,
+    "score": 14.9,
+    "year": 2023
+  },
+  "santa-maria-ca": {
+    "agency_name": "Santa Maria Police Department",
+    "incidents": 7,
+    "rate_per_100k": 6.35,
+    "score": 42.3,
+    "year": 2023
+  },
+  "santa-monica-ca": {
+    "agency_name": "Santa Monica Police Department",
+    "incidents": 8,
+    "rate_per_100k": 8.87,
+    "score": 59.1,
+    "year": 2025
+  },
+  "santa-rosa-ca": {
+    "agency_name": "Santa Rosa Police Department",
+    "incidents": 7,
+    "rate_per_100k": 3.96,
+    "score": 26.4,
+    "year": 2023
+  },
+  "savannah-ga": {
+    "agency_name": "Savannah Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "schaumburg-il": {
+    "agency_name": "Schaumburg Police Department",
+    "incidents": 4,
+    "rate_per_100k": 5.32,
+    "score": 35.5,
+    "year": 2023
+  },
+  "scottsdale-az": {
+    "agency_name": "Scottsdale Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.82,
+    "score": 5.5,
+    "year": 2023
+  },
+  "seattle-wa": {
+    "agency_name": "Seattle Police Department",
+    "incidents": 120,
+    "rate_per_100k": 15.92,
+    "score": 100.0,
+    "year": 2023
+  },
+  "shreveport-la": {
+    "agency_name": "Shreveport Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.57,
+    "score": 3.8,
+    "year": 2023
+  },
+  "simi-valley-ca": {
+    "agency_name": "Simi Valley Police Department",
+    "incidents": 7,
+    "rate_per_100k": 5.67,
+    "score": 37.8,
+    "year": 2023
+  },
+  "sioux-city-ia": {
+    "agency_name": "Sioux City Police Department",
+    "incidents": 8,
+    "rate_per_100k": 9.37,
+    "score": 62.5,
+    "year": 2023
+  },
+  "sioux-falls-sd": {
+    "agency_name": "Sioux Falls Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.48,
+    "score": 3.2,
+    "year": 2023
+  },
+  "somerville-ma": {
+    "agency_name": "Somerville Police Department",
+    "incidents": 19,
+    "rate_per_100k": 23.9,
+    "score": 100.0,
+    "year": 2023
+  },
+  "south-bend-in": {
+    "agency_name": "South Bend Police Department",
+    "incidents": 17,
+    "rate_per_100k": 16.51,
+    "score": 100.0,
+    "year": 2023
+  },
+  "south-fulton-ga": {
+    "agency_name": "South Fulton Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "south-jordan-ut": {
+    "agency_name": "South Jordan Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "sparks-nv": {
+    "agency_name": "Sparks Police Department",
+    "incidents": 6,
+    "rate_per_100k": 5.48,
+    "score": 36.5,
+    "year": 2023
+  },
+  "spokane-valley-wa": {
+    "agency_name": "Spokane Valley Police Department",
+    "incidents": 10,
+    "rate_per_100k": 9.15,
+    "score": 61.0,
+    "year": 2023
+  },
+  "spokane-wa": {
+    "agency_name": "Spokane Police Department",
+    "incidents": 12,
+    "rate_per_100k": 5.2,
+    "score": 34.7,
+    "year": 2023
+  },
+  "springdale-ar": {
+    "agency_name": "Springdale Police Department",
+    "incidents": 7,
+    "rate_per_100k": 7.7,
+    "score": 51.3,
+    "year": 2023
+  },
+  "springfield-il": {
+    "agency_name": "Springfield Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.89,
+    "score": 5.9,
+    "year": 2023
+  },
+  "springfield-ma": {
+    "agency_name": "Springfield Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.24,
+    "score": 21.6,
+    "year": 2023
+  },
+  "springfield-mo": {
+    "agency_name": "Springfield Police Department",
+    "incidents": 4,
+    "rate_per_100k": 2.35,
+    "score": 15.7,
+    "year": 2023
+  },
+  "st-george-ut": {
+    "agency_name": "St. George Police Department",
+    "incidents": 7,
+    "rate_per_100k": 6.61,
+    "score": 44.1,
+    "year": 2023
+  },
+  "st-louis-mo": {
+    "agency_name": "St. Louis Police Department",
+    "incidents": 16,
+    "rate_per_100k": 5.71,
+    "score": 38.1,
+    "year": 2023
+  },
+  "stamford-ct": {
+    "agency_name": "Stamford Police Department",
+    "incidents": 5,
+    "rate_per_100k": 3.66,
+    "score": 24.4,
+    "year": 2023
+  },
+  "sterling-heights-mi": {
+    "agency_name": "Sterling Heights Police Department",
+    "incidents": 10,
+    "rate_per_100k": 7.59,
+    "score": 50.6,
+    "year": 2023
+  },
+  "stockton-ca": {
+    "agency_name": "Stockton Police Department",
+    "incidents": 8,
+    "rate_per_100k": 2.48,
+    "score": 16.5,
+    "year": 2023
+  },
+  "suffolk-va": {
+    "agency_name": "Suffolk Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.97,
+    "score": 33.1,
+    "year": 2023
+  },
+  "sugar-land-tx": {
+    "agency_name": "Sugar Land Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "sunnyvale-ca": {
+    "agency_name": "Sunnyvale Police Department",
+    "incidents": 37,
+    "rate_per_100k": 24.34,
+    "score": 100.0,
+    "year": 2023
+  },
+  "surprise-az": {
+    "agency_name": "Surprise Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.63,
+    "score": 4.2,
+    "year": 2023
+  },
+  "tacoma-wa": {
+    "agency_name": "Tacoma Police Department",
+    "incidents": 33,
+    "rate_per_100k": 14.81,
+    "score": 98.7,
+    "year": 2023
+  },
+  "tallahassee-fl": {
+    "agency_name": "Tallahassee Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "tampa-fl": {
+    "agency_name": "Tampa Police Department",
+    "incidents": 3,
+    "rate_per_100k": 0.74,
+    "score": 4.9,
+    "year": 2023
+  },
+  "taos-nm": {
+    "agency_name": "Taos Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "tempe-az": {
+    "agency_name": "Tempe Police Department",
+    "incidents": 22,
+    "rate_per_100k": 11.69,
+    "score": 77.9,
+    "year": 2023
+  },
+  "temple-tx": {
+    "agency_name": "Temple Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "thornton-co": {
+    "agency_name": "Thornton Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.39,
+    "score": 9.3,
+    "year": 2023
+  },
+  "thousand-oaks-ca": {
+    "agency_name": "Thousand Oaks Police Department",
+    "incidents": 8,
+    "rate_per_100k": 6.54,
+    "score": 43.6,
+    "year": 2024
+  },
+  "toledo-oh": {
+    "agency_name": "Toledo Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.13,
+    "score": 7.5,
+    "year": 2023
+  },
+  "topeka-ks": {
+    "agency_name": "Topeka Police Department",
+    "incidents": 11,
+    "rate_per_100k": 8.8,
+    "score": 58.7,
+    "year": 2023
+  },
+  "torrance-ca": {
+    "agency_name": "Torrance Police Department",
+    "incidents": 10,
+    "rate_per_100k": 7.22,
+    "score": 48.1,
+    "year": 2023
+  },
+  "tracy-ca": {
+    "agency_name": "Tracy Police Department",
+    "incidents": 7,
+    "rate_per_100k": 7.05,
+    "score": 47.0,
+    "year": 2023
+  },
+  "troy-mi": {
+    "agency_name": "Troy Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.44,
+    "score": 22.9,
+    "year": 2023
+  },
+  "tucson-az": {
+    "agency_name": "Tucson Police Department",
+    "incidents": 14,
+    "rate_per_100k": 2.55,
+    "score": 17.0,
+    "year": 2024
+  },
+  "tulsa-ok": {
+    "agency_name": "Tulsa Police Department",
+    "incidents": 2,
+    "rate_per_100k": 0.49,
+    "score": 3.3,
+    "year": 2023
+  },
+  "tuscaloosa-al": {
+    "agency_name": "Tuscaloosa Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.51,
+    "score": 23.4,
+    "year": 2023
+  },
+  "tustin-ca": {
+    "agency_name": "Tustin Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.29,
+    "score": 8.6,
+    "year": 2023
+  },
+  "tyler-tx": {
+    "agency_name": "Tyler Police Department",
+    "incidents": 4,
+    "rate_per_100k": 3.61,
+    "score": 24.1,
+    "year": 2023
+  },
+  "upland-ca": {
+    "agency_name": "Upland Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.54,
+    "score": 16.9,
+    "year": 2023
+  },
+  "vacaville-ca": {
+    "agency_name": "Vacaville Police Department",
+    "incidents": 5,
+    "rate_per_100k": 4.9,
+    "score": 32.7,
+    "year": 2023
+  },
+  "vallejo-ca": {
+    "agency_name": "Vallejo Police Department",
+    "incidents": 11,
+    "rate_per_100k": 8.99,
+    "score": 59.9,
+    "year": 2023
+  },
+  "vancouver-wa": {
+    "agency_name": "Vancouver Police Department",
+    "incidents": 80,
+    "rate_per_100k": 40.78,
+    "score": 100.0,
+    "year": 2023
+  },
+  "ventura-ca": {
+    "agency_name": "Ventura Police Department",
+    "incidents": 15,
+    "rate_per_100k": 13.76,
+    "score": 91.7,
+    "year": 2023
+  },
+  "virginia-beach-va": {
+    "agency_name": "Virginia Beach Police Department",
+    "incidents": 8,
+    "rate_per_100k": 1.76,
+    "score": 11.7,
+    "year": 2023
+  },
+  "visalia-ca": {
+    "agency_name": "Visalia Police Department",
+    "incidents": 7,
+    "rate_per_100k": 4.83,
+    "score": 32.2,
+    "year": 2023
+  },
+  "vista-ca": {
+    "agency_name": "Vista Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.05,
+    "score": 13.7,
+    "year": 2023
+  },
+  "waco-tx": {
+    "agency_name": "Waco Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "warner-robins-ga": {
+    "agency_name": "Warner Robins Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "warren-mi": {
+    "agency_name": "Warren Police Department",
+    "incidents": 8,
+    "rate_per_100k": 5.88,
+    "score": 39.2,
+    "year": 2023
+  },
+  "warwick-ri": {
+    "agency_name": "Warwick Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.6,
+    "score": 24.0,
+    "year": 2023
+  },
+  "washington-dc": {
+    "agency_name": "Washington Police Department",
+    "incidents": 149,
+    "rate_per_100k": 21.94,
+    "score": 100.0,
+    "year": 2023
+  },
+  "waterbury-ct": {
+    "agency_name": "Waterbury Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.73,
+    "score": 11.5,
+    "year": 2023
+  },
+  "waukegan-il": {
+    "agency_name": "Waukegan Police Department",
+    "incidents": 1,
+    "rate_per_100k": 1.14,
+    "score": 7.6,
+    "year": 2023
+  },
+  "west-covina-ca": {
+    "agency_name": "West Covina Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.97,
+    "score": 6.5,
+    "year": 2023
+  },
+  "west-jordan-ut": {
+    "agency_name": "West Jordan Police Department",
+    "incidents": 1,
+    "rate_per_100k": 0.86,
+    "score": 5.7,
+    "year": 2023
+  },
+  "west-palm-beach-fl": {
+    "agency_name": "West Palm Beach Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.63,
+    "score": 10.9,
+    "year": 2023
+  },
+  "west-valley-city-ut": {
+    "agency_name": "West Valley Police Department",
+    "incidents": 7,
+    "rate_per_100k": 5.18,
+    "score": 34.5,
+    "year": 2023
+  },
+  "westland-mi": {
+    "agency_name": "Westland Police Department",
+    "incidents": 2,
+    "rate_per_100k": 2.4,
+    "score": 16.0,
+    "year": 2023
+  },
+  "westminster-ca": {
+    "agency_name": "Westminster Police Department",
+    "incidents": 9,
+    "rate_per_100k": 10.15,
+    "score": 67.7,
+    "year": 2023
+  },
+  "westminster-co": {
+    "agency_name": "Westminster Police Department",
+    "incidents": 2,
+    "rate_per_100k": 1.76,
+    "score": 11.7,
+    "year": 2023
+  },
+  "whitewright-tx": {
+    "agency_name": "Whitewright Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "whittier-ca": {
+    "agency_name": "Whittier Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "wichita-falls-tx": {
+    "agency_name": "Wichita Falls Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "wichita-ks": {
+    "agency_name": "Wichita Police Department",
+    "incidents": 11,
+    "rate_per_100k": 2.78,
+    "score": 18.5,
+    "year": 2023
+  },
+  "wilmington-nc": {
+    "agency_name": "Wilmington Police Department",
+    "incidents": 6,
+    "rate_per_100k": 4.89,
+    "score": 32.6,
+    "year": 2023
+  },
+  "winston-salem-nc": {
+    "agency_name": "Winston-Salem Police Department",
+    "incidents": 3,
+    "rate_per_100k": 1.19,
+    "score": 7.9,
+    "year": 2023
+  },
+  "woodbury-mn": {
+    "agency_name": "Woodbury Police Department",
+    "incidents": 0,
+    "rate_per_100k": 0.0,
+    "score": 0.0,
+    "year": 2023
+  },
+  "worcester-ma": {
+    "agency_name": "Worcester Police Department",
+    "incidents": 4,
+    "rate_per_100k": 1.94,
+    "score": 12.9,
+    "year": 2023
+  },
+  "wyoming-mi": {
+    "agency_name": "Wyoming Police Department",
+    "incidents": 3,
+    "rate_per_100k": 3.91,
+    "score": 26.1,
+    "year": 2023
+  },
+  "yakima-wa": {
+    "agency_name": "Yakima Police Department",
+    "incidents": 4,
+    "rate_per_100k": 4.12,
+    "score": 27.5,
+    "year": 2023
+  },
+  "yonkers-ny": {
+    "agency_name": "Yonkers Police Department",
+    "incidents": 12,
+    "rate_per_100k": 5.81,
+    "score": 38.7,
+    "year": 2023
+  },
+  "yuma-az": {
+    "agency_name": "Yuma Police Department",
+    "incidents": 7,
+    "rate_per_100k": 7.03,
+    "score": 46.9,
+    "year": 2023
+  }
+}
