@@ -620,6 +620,22 @@ test("the thirty-seventh dataset (severe weather frequency) is selectable and re
   await expect(detail).toContainText("NOAA Storm Events Database");
 });
 
+test("the thirty-eighth dataset (gigabit availability) is selectable and reports a real FCC-sourced value -- distinct from the ACS broadband-subscription dataset", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Gigabit availability" }).click();
+  await page.getByRole("button", { name: "Gigabit availability", exact: true }).click();
+  await page.getByRole("button", { name: "Add Gigabit availability" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Gigabit availability: Gigabit availability" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Gigabit availability" });
+  await expect(detail).toContainText("gigabit (1000/100 Mbps) broadband access");
+  await expect(detail).toContainText("FCC National Broadband Map");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

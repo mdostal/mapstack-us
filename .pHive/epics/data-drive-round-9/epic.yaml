@@ -1,0 +1,31 @@
+name: data-drive-round-9
+title: Ninth data-drive research round -- ship FCC broadband speed availability
+description: >
+  A ninth fresh dataset-candidate research round. Ships FCC National
+  Broadband Map speed availability (100/20 Mbps standard) -- real,
+  county-level, genuinely distinct from broadband.ts's Census ACS
+  subscription-rate dataset (availability vs. adoption).
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the eight prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the eight prior epics.
+
+stories:
+  - id: ddr9-1-broadband-speed
+    title: Ship FCC broadband speed availability
+    complexity: low
+    depends_on: []
