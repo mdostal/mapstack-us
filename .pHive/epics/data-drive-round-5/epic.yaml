@@ -1,0 +1,33 @@
+name: data-drive-round-5
+title: Fifth data-drive research round -- ship EPA Superfund/NPL site density
+description: >
+  A fifth fresh dataset-candidate research round. Resolves EPA
+  Superfund/NPL -- deferred since dataset-verification-drive's addendum,
+  found via the same docs-rendering technique that resolved FBI hate
+  crime in round 4: a newer dmapservice API base and program-prefixed
+  table names (sems.envirofacts_site) that three prior guessing attempts
+  against the legacy efservice endpoint never found.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the four prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the four prior epics.
+
+stories:
+  - id: ddr5-1-superfund
+    title: Ship EPA Superfund/NPL site density
+    complexity: medium
+    depends_on: []
