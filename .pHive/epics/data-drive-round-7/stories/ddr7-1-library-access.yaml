@@ -1,7 +1,7 @@
 id: ddr7-1-library-access
 epic: data-drive-round-7
 title: Ship IMLS library visits per capita
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
