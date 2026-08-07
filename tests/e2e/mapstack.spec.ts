@@ -636,6 +636,22 @@ test("the thirty-eighth dataset (gigabit availability) is selectable and reports
   await expect(detail).toContainText("FCC National Broadband Map");
 });
 
+test("the thirty-ninth dataset (historic site access) is selectable and reports a real NPS-sourced value via a live server-side radius query", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Historic site access" }).click();
+  await page.getByRole("button", { name: "Historic site access", exact: true }).click();
+  await page.getByRole("button", { name: "Add Historic site access" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Historic site access: Historic site access" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Historic site access" });
+  await expect(detail).toContainText("National Register of Historic Places");
+  await expect(detail).toContainText("within 10 miles");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

@@ -1,0 +1,2055 @@
+{
+  "_meta": {
+    "count_cap_for_0_concern": 290,
+    "coverage": 512,
+    "source": "NPS National Register of Historic Places (NRHP), sites within 10mi via ArcGIS spatial radius query"
+  },
+  "abilene-tx": {
+    "concern": 81.0,
+    "count_within_10mi": 55
+  },
+  "akron-oh": {
+    "concern": 66.2,
+    "count_within_10mi": 98
+  },
+  "alameda-ca": {
+    "concern": 8.3,
+    "count_within_10mi": 266
+  },
+  "albany-ny": {
+    "concern": 34.1,
+    "count_within_10mi": 191
+  },
+  "albuquerque-nm": {
+    "concern": 55.9,
+    "count_within_10mi": 128
+  },
+  "alexandria-va": {
+    "concern": 0.0,
+    "count_within_10mi": 619
+  },
+  "alhambra-ca": {
+    "concern": 0.7,
+    "count_within_10mi": 288
+  },
+  "allen-tx": {
+    "concern": 79.7,
+    "count_within_10mi": 59
+  },
+  "allentown-pa": {
+    "concern": 79.7,
+    "count_within_10mi": 59
+  },
+  "amarillo-tx": {
+    "concern": 90.7,
+    "count_within_10mi": 27
+  },
+  "anaheim-ca": {
+    "concern": 72.4,
+    "count_within_10mi": 80
+  },
+  "anchorage-ak": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "ankeny-ia": {
+    "concern": 66.9,
+    "count_within_10mi": 96
+  },
+  "ann-arbor-mi": {
+    "concern": 78.6,
+    "count_within_10mi": 62
+  },
+  "antioch-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "apex-nc": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "arlington-tx": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "arlington-va": {
+    "concern": 0.0,
+    "count_within_10mi": 669
+  },
+  "arvada-co": {
+    "concern": 62.1,
+    "count_within_10mi": 110
+  },
+  "asheville-nc": {
+    "concern": 69.7,
+    "count_within_10mi": 88
+  },
+  "athens-ga": {
+    "concern": 83.4,
+    "count_within_10mi": 48
+  },
+  "atlanta-ga": {
+    "concern": 33.8,
+    "count_within_10mi": 192
+  },
+  "auburn-al": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "auburn-wa": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "augusta-ga": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "aurora-co": {
+    "concern": 13.1,
+    "count_within_10mi": 252
+  },
+  "aurora-il": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "austin-tx": {
+    "concern": 42.1,
+    "count_within_10mi": 168
+  },
+  "avondale-az": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "bakersfield-ca": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "baltimore-md": {
+    "concern": 16.6,
+    "count_within_10mi": 242
+  },
+  "baton-rouge-la": {
+    "concern": 71.7,
+    "count_within_10mi": 82
+  },
+  "baytown-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "beaumont-tx": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "beaverton-or": {
+    "concern": 0.0,
+    "count_within_10mi": 585
+  },
+  "bellevue-wa": {
+    "concern": 31.4,
+    "count_within_10mi": 199
+  },
+  "bellingham-wa": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "bend-or": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "berkeley-ca": {
+    "concern": 0.3,
+    "count_within_10mi": 289
+  },
+  "bethlehem-pa": {
+    "concern": 74.1,
+    "count_within_10mi": 75
+  },
+  "billings-mt": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "birmingham-al": {
+    "concern": 62.4,
+    "count_within_10mi": 109
+  },
+  "bismarck-nd": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "blanding-ut": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "bloomington-il": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "bloomington-in": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "bloomington-mn": {
+    "concern": 71.0,
+    "count_within_10mi": 84
+  },
+  "boca-raton-fl": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "boise-id": {
+    "concern": 52.8,
+    "count_within_10mi": 137
+  },
+  "boston-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 1176
+  },
+  "boulder-co": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "bowling-green-ky": {
+    "concern": 77.2,
+    "count_within_10mi": 66
+  },
+  "boynton-beach-fl": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "bridgeport-ct": {
+    "concern": 74.8,
+    "count_within_10mi": 73
+  },
+  "brockton-ma": {
+    "concern": 81.7,
+    "count_within_10mi": 53
+  },
+  "broken-arrow-ok": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "brooklyn-park-mn": {
+    "concern": 80.7,
+    "count_within_10mi": 56
+  },
+  "broomfield-co": {
+    "concern": 89.7,
+    "count_within_10mi": 30
+  },
+  "brownsville-tx": {
+    "concern": 91.7,
+    "count_within_10mi": 24
+  },
+  "bryan-tx": {
+    "concern": 84.8,
+    "count_within_10mi": 44
+  },
+  "buckeye-az": {
+    "concern": 98.6,
+    "count_within_10mi": 4
+  },
+  "buena-park-ca": {
+    "concern": 79.3,
+    "count_within_10mi": 60
+  },
+  "buffalo-ny": {
+    "concern": 37.6,
+    "count_within_10mi": 181
+  },
+  "burbank-ca": {
+    "concern": 46.2,
+    "count_within_10mi": 156
+  },
+  "caldwell-id": {
+    "concern": 89.0,
+    "count_within_10mi": 32
+  },
+  "cambridge-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 1220
+  },
+  "cape-coral-fl": {
+    "concern": 94.5,
+    "count_within_10mi": 16
+  },
+  "carlsbad-ca": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "carlsbad-nm": {
+    "concern": 98.6,
+    "count_within_10mi": 4
+  },
+  "carmel-in": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "carrollton-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "carson-ca": {
+    "concern": 82.4,
+    "count_within_10mi": 51
+  },
+  "cary-nc": {
+    "concern": 77.2,
+    "count_within_10mi": 66
+  },
+  "castle-rock-co": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "cedar-park-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "cedar-rapids-ia": {
+    "concern": 79.0,
+    "count_within_10mi": 61
+  },
+  "centennial-co": {
+    "concern": 86.6,
+    "count_within_10mi": 39
+  },
+  "champaign-il": {
+    "concern": 81.7,
+    "count_within_10mi": 53
+  },
+  "chandler-az": {
+    "concern": 79.3,
+    "count_within_10mi": 60
+  },
+  "charleston-sc": {
+    "concern": 65.9,
+    "count_within_10mi": 99
+  },
+  "charlotte-nc": {
+    "concern": 76.9,
+    "count_within_10mi": 67
+  },
+  "chattanooga-tn": {
+    "concern": 72.1,
+    "count_within_10mi": 81
+  },
+  "chesapeake-va": {
+    "concern": 79.7,
+    "count_within_10mi": 59
+  },
+  "chicago-il": {
+    "concern": 0.0,
+    "count_within_10mi": 308
+  },
+  "chico-ca": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "chino-ca": {
+    "concern": 89.0,
+    "count_within_10mi": 32
+  },
+  "chino-hills-ca": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "chula-vista-ca": {
+    "concern": 80.3,
+    "count_within_10mi": 57
+  },
+  "cicero-il": {
+    "concern": 0.0,
+    "count_within_10mi": 324
+  },
+  "cincinnati-oh": {
+    "concern": 0.0,
+    "count_within_10mi": 361
+  },
+  "citrus-heights-ca": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "clarksville-tn": {
+    "concern": 87.2,
+    "count_within_10mi": 37
+  },
+  "clearwater-fl": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "cleveland-oh": {
+    "concern": 5.2,
+    "count_within_10mi": 275
+  },
+  "clifton-nj": {
+    "concern": 1.7,
+    "count_within_10mi": 285
+  },
+  "clovis-ca": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "college-station-tx": {
+    "concern": 84.8,
+    "count_within_10mi": 44
+  },
+  "colorado-springs-co": {
+    "concern": 78.3,
+    "count_within_10mi": 63
+  },
+  "columbia-mo": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "columbia-sc": {
+    "concern": 57.9,
+    "count_within_10mi": 122
+  },
+  "columbus-ga": {
+    "concern": 55.2,
+    "count_within_10mi": 130
+  },
+  "columbus-oh": {
+    "concern": 34.1,
+    "count_within_10mi": 191
+  },
+  "compton-ca": {
+    "concern": 76.6,
+    "count_within_10mi": 68
+  },
+  "concord-ca": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "concord-nc": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "conroe-tx": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "coral-springs-fl": {
+    "concern": 99.0,
+    "count_within_10mi": 3
+  },
+  "corona-ca": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "corpus-christi-tx": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "costa-mesa-ca": {
+    "concern": 81.4,
+    "count_within_10mi": 54
+  },
+  "cranston-ri": {
+    "concern": 3.4,
+    "count_within_10mi": 280
+  },
+  "dallas-tx": {
+    "concern": 64.1,
+    "count_within_10mi": 104
+  },
+  "daly-city-ca": {
+    "concern": 38.3,
+    "count_within_10mi": 179
+  },
+  "danbury-ct": {
+    "concern": 86.9,
+    "count_within_10mi": 38
+  },
+  "davenport-ia": {
+    "concern": 6.2,
+    "count_within_10mi": 272
+  },
+  "davie-fl": {
+    "concern": 93.1,
+    "count_within_10mi": 20
+  },
+  "dayton-oh": {
+    "concern": 63.1,
+    "count_within_10mi": 107
+  },
+  "daytona-beach-fl": {
+    "concern": 86.2,
+    "count_within_10mi": 40
+  },
+  "dearborn-mi": {
+    "concern": 19.7,
+    "count_within_10mi": 233
+  },
+  "deerfield-beach-fl": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "deltona-fl": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "denton-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "denver-co": {
+    "concern": 0.0,
+    "count_within_10mi": 302
+  },
+  "des-moines-ia": {
+    "concern": 44.8,
+    "count_within_10mi": 160
+  },
+  "detroit-mi": {
+    "concern": 3.8,
+    "count_within_10mi": 279
+  },
+  "doral-fl": {
+    "concern": 80.7,
+    "count_within_10mi": 56
+  },
+  "downey-ca": {
+    "concern": 80.3,
+    "count_within_10mi": 57
+  },
+  "duluth-mn": {
+    "concern": 83.1,
+    "count_within_10mi": 49
+  },
+  "durango-co": {
+    "concern": 97.6,
+    "count_within_10mi": 7
+  },
+  "durham-nc": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "edinburg-tx": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "edmond-ok": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "el-cajon-ca": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "el-monte-ca": {
+    "concern": 48.3,
+    "count_within_10mi": 150
+  },
+  "el-paso-tx": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "elgin-il": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "elizabeth-nj": {
+    "concern": 3.8,
+    "count_within_10mi": 279
+  },
+  "elk-grove-ca": {
+    "concern": 99.0,
+    "count_within_10mi": 3
+  },
+  "erie-pa": {
+    "concern": 90.3,
+    "count_within_10mi": 28
+  },
+  "escondido-ca": {
+    "concern": 97.6,
+    "count_within_10mi": 7
+  },
+  "eugene-or": {
+    "concern": 75.9,
+    "count_within_10mi": 70
+  },
+  "evansville-in": {
+    "concern": 70.3,
+    "count_within_10mi": 86
+  },
+  "everett-wa": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "fairfield-ca": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "fall-river-ma": {
+    "concern": 60.0,
+    "count_within_10mi": 116
+  },
+  "fargo-nd": {
+    "concern": 88.6,
+    "count_within_10mi": 33
+  },
+  "farmington-hills-mi": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "fayetteville-ar": {
+    "concern": 67.9,
+    "count_within_10mi": 93
+  },
+  "fayetteville-nc": {
+    "concern": 82.4,
+    "count_within_10mi": 51
+  },
+  "federal-way-wa": {
+    "concern": 67.2,
+    "count_within_10mi": 95
+  },
+  "fishers-in": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "flagstaff-az": {
+    "concern": 89.0,
+    "count_within_10mi": 32
+  },
+  "flint-mi": {
+    "concern": 87.6,
+    "count_within_10mi": 36
+  },
+  "flower-mound-tx": {
+    "concern": 98.6,
+    "count_within_10mi": 4
+  },
+  "folsom-ca": {
+    "concern": 96.6,
+    "count_within_10mi": 10
+  },
+  "fontana-ca": {
+    "concern": 90.7,
+    "count_within_10mi": 27
+  },
+  "fort-collins-co": {
+    "concern": 89.0,
+    "count_within_10mi": 32
+  },
+  "fort-lauderdale-fl": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "fort-myers-fl": {
+    "concern": 94.1,
+    "count_within_10mi": 17
+  },
+  "fort-smith-ar": {
+    "concern": 81.0,
+    "count_within_10mi": 55
+  },
+  "fort-wayne-in": {
+    "concern": 86.2,
+    "count_within_10mi": 40
+  },
+  "fort-worth-tx": {
+    "concern": 69.7,
+    "count_within_10mi": 88
+  },
+  "franklin-tn": {
+    "concern": 71.7,
+    "count_within_10mi": 82
+  },
+  "frederick-md": {
+    "concern": 89.3,
+    "count_within_10mi": 31
+  },
+  "fremont-ca": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "fresno-ca": {
+    "concern": 89.3,
+    "count_within_10mi": 31
+  },
+  "frisco-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "fullerton-ca": {
+    "concern": 75.5,
+    "count_within_10mi": 71
+  },
+  "gainesville-fl": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "garden-grove-ca": {
+    "concern": 69.0,
+    "count_within_10mi": 90
+  },
+  "garland-tx": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "gastonia-nc": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "georgetown-tx": {
+    "concern": 80.3,
+    "count_within_10mi": 57
+  },
+  "geraldine-mt": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "gilbert-az": {
+    "concern": 82.1,
+    "count_within_10mi": 52
+  },
+  "glendale-az": {
+    "concern": 36.6,
+    "count_within_10mi": 184
+  },
+  "glendale-ca": {
+    "concern": 0.0,
+    "count_within_10mi": 350
+  },
+  "goodyear-az": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "grand-junction-co": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "grand-prairie-tx": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "grand-rapids-mi": {
+    "concern": 85.2,
+    "count_within_10mi": 43
+  },
+  "greeley-co": {
+    "concern": 92.1,
+    "count_within_10mi": 23
+  },
+  "green-bay-wi": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "greensboro-nc": {
+    "concern": 81.7,
+    "count_within_10mi": 53
+  },
+  "greenville-nc": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "gresham-or": {
+    "concern": 66.2,
+    "count_within_10mi": 98
+  },
+  "hampton-va": {
+    "concern": 85.9,
+    "count_within_10mi": 41
+  },
+  "hartford-ct": {
+    "concern": 27.2,
+    "count_within_10mi": 211
+  },
+  "hawthorne-ca": {
+    "concern": 76.6,
+    "count_within_10mi": 68
+  },
+  "hayward-ca": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "hemet-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "henderson-nv": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "hesperia-ca": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "hialeah-fl": {
+    "concern": 52.1,
+    "count_within_10mi": 139
+  },
+  "high-point-nc": {
+    "concern": 86.2,
+    "count_within_10mi": 40
+  },
+  "hillsboro-or": {
+    "concern": 86.6,
+    "count_within_10mi": 39
+  },
+  "hollywood-fl": {
+    "concern": 89.7,
+    "count_within_10mi": 30
+  },
+  "homestead-fl": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "honolulu-hi": {
+    "concern": 66.2,
+    "count_within_10mi": 98
+  },
+  "hoover-al": {
+    "concern": 67.2,
+    "count_within_10mi": 95
+  },
+  "houston-tx": {
+    "concern": 8.6,
+    "count_within_10mi": 265
+  },
+  "huntington-beach-ca": {
+    "concern": 89.7,
+    "count_within_10mi": 30
+  },
+  "huntsville-al": {
+    "concern": 76.6,
+    "count_within_10mi": 68
+  },
+  "independence-mo": {
+    "concern": 92.1,
+    "count_within_10mi": 23
+  },
+  "indianapolis-in": {
+    "concern": 33.8,
+    "count_within_10mi": 192
+  },
+  "indio-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "inglewood-ca": {
+    "concern": 31.0,
+    "count_within_10mi": 200
+  },
+  "irvine-ca": {
+    "concern": 81.4,
+    "count_within_10mi": 54
+  },
+  "irving-tx": {
+    "concern": 77.6,
+    "count_within_10mi": 65
+  },
+  "jackson-ms": {
+    "concern": 76.9,
+    "count_within_10mi": 67
+  },
+  "jacksonville-fl": {
+    "concern": 71.7,
+    "count_within_10mi": 82
+  },
+  "jersey-city-nj": {
+    "concern": 0.0,
+    "count_within_10mi": 803
+  },
+  "johns-creek-ga": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "joliet-il": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "jonesboro-ar": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "jurupa-valley-ca": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "kalispell-mt": {
+    "concern": 80.3,
+    "count_within_10mi": 57
+  },
+  "kansas-city-ks": {
+    "concern": 0.0,
+    "count_within_10mi": 304
+  },
+  "kansas-city-mo": {
+    "concern": 0.0,
+    "count_within_10mi": 359
+  },
+  "kennewick-wa": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "kenosha-wi": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "kent-wa": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "killeen-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "kirkland-wa": {
+    "concern": 29.0,
+    "count_within_10mi": 206
+  },
+  "kissimmee-fl": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "knoxville-tn": {
+    "concern": 69.7,
+    "count_within_10mi": 88
+  },
+  "lafayette-la": {
+    "concern": 83.4,
+    "count_within_10mi": 48
+  },
+  "lake-charles-la": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "lake-forest-ca": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "lakeland-fl": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "lakeville-mn": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "lakewood-ca": {
+    "concern": 87.2,
+    "count_within_10mi": 37
+  },
+  "lakewood-co": {
+    "concern": 0.0,
+    "count_within_10mi": 298
+  },
+  "lancaster-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "lansing-mi": {
+    "concern": 86.9,
+    "count_within_10mi": 38
+  },
+  "laredo-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "largo-fl": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "las-cruces-nm": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "las-vegas-nv": {
+    "concern": 94.1,
+    "count_within_10mi": 17
+  },
+  "lawrence-ks": {
+    "concern": 78.3,
+    "count_within_10mi": 63
+  },
+  "lawrence-ma": {
+    "concern": 45.2,
+    "count_within_10mi": 159
+  },
+  "lawton-ok": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "layton-ut": {
+    "concern": 74.8,
+    "count_within_10mi": 73
+  },
+  "league-city-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "leander-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "lees-summit-mo": {
+    "concern": 94.8,
+    "count_within_10mi": 15
+  },
+  "lehi-ut": {
+    "concern": 74.8,
+    "count_within_10mi": 73
+  },
+  "lewisville-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "lexington-ky": {
+    "concern": 52.1,
+    "count_within_10mi": 139
+  },
+  "lincoln-ne": {
+    "concern": 70.0,
+    "count_within_10mi": 87
+  },
+  "little-rock-ar": {
+    "concern": 0.0,
+    "count_within_10mi": 316
+  },
+  "livermore-ca": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "livonia-mi": {
+    "concern": 89.3,
+    "count_within_10mi": 31
+  },
+  "long-beach-ca": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "longmont-co": {
+    "concern": 94.5,
+    "count_within_10mi": 16
+  },
+  "longview-tx": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "los-alamos-nm": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "los-angeles-ca": {
+    "concern": 0.0,
+    "count_within_10mi": 346
+  },
+  "louisville-ky": {
+    "concern": 0.0,
+    "count_within_10mi": 363
+  },
+  "loveland-co": {
+    "concern": 92.1,
+    "count_within_10mi": 23
+  },
+  "lowell-ma": {
+    "concern": 55.2,
+    "count_within_10mi": 130
+  },
+  "lubbock-tx": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "lynchburg-va": {
+    "concern": 81.4,
+    "count_within_10mi": 54
+  },
+  "lynn-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 668
+  },
+  "mableton-ga": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "macon-ga": {
+    "concern": 79.7,
+    "count_within_10mi": 59
+  },
+  "madison-wi": {
+    "concern": 51.0,
+    "count_within_10mi": 142
+  },
+  "manchester-nh": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "mansfield-tx": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "manteca-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "maricopa-az": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "marysville-wa": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "mcallen-tx": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "mckinney-tx": {
+    "concern": 80.7,
+    "count_within_10mi": 56
+  },
+  "medford-or": {
+    "concern": 79.7,
+    "count_within_10mi": 59
+  },
+  "melbourne-fl": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "memphis-tn": {
+    "concern": 58.6,
+    "count_within_10mi": 120
+  },
+  "menifee-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "merced-ca": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "meridian-id": {
+    "concern": 67.6,
+    "count_within_10mi": 94
+  },
+  "mesa-az": {
+    "concern": 72.1,
+    "count_within_10mi": 81
+  },
+  "mesquite-tx": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "miami-beach-fl": {
+    "concern": 49.3,
+    "count_within_10mi": 147
+  },
+  "miami-fl": {
+    "concern": 55.9,
+    "count_within_10mi": 128
+  },
+  "miami-gardens-fl": {
+    "concern": 75.5,
+    "count_within_10mi": 71
+  },
+  "midland-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "milpitas-ca": {
+    "concern": 86.9,
+    "count_within_10mi": 38
+  },
+  "milwaukee-wi": {
+    "concern": 23.1,
+    "count_within_10mi": 223
+  },
+  "minneapolis-mn": {
+    "concern": 14.5,
+    "count_within_10mi": 248
+  },
+  "miramar-fl": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "mission-tx": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "mission-viejo-ca": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "missoula-mt": {
+    "concern": 79.0,
+    "count_within_10mi": 61
+  },
+  "missouri-city-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "mobile-al": {
+    "concern": 65.5,
+    "count_within_10mi": 100
+  },
+  "modesto-ca": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "montgomery-al": {
+    "concern": 82.8,
+    "count_within_10mi": 50
+  },
+  "monticello-ut": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "moreno-valley-ca": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "mount-pleasant-sc": {
+    "concern": 65.5,
+    "count_within_10mi": 100
+  },
+  "mountain-view-ca": {
+    "concern": 81.0,
+    "count_within_10mi": 55
+  },
+  "murfreesboro-tn": {
+    "concern": 91.4,
+    "count_within_10mi": 25
+  },
+  "murrieta-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "nampa-id": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "naperville-il": {
+    "concern": 87.6,
+    "count_within_10mi": 36
+  },
+  "nashua-nh": {
+    "concern": 91.7,
+    "count_within_10mi": 24
+  },
+  "nashville-tn": {
+    "concern": 53.4,
+    "count_within_10mi": 135
+  },
+  "new-bedford-ma": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "new-braunfels-tx": {
+    "concern": 94.5,
+    "count_within_10mi": 16
+  },
+  "new-haven-ct": {
+    "concern": 62.1,
+    "count_within_10mi": 110
+  },
+  "new-orleans-la": {
+    "concern": 0.0,
+    "count_within_10mi": 748
+  },
+  "new-rochelle-ny": {
+    "concern": 6.6,
+    "count_within_10mi": 271
+  },
+  "new-york-ny": {
+    "concern": 0.0,
+    "count_within_10mi": 802
+  },
+  "newark-nj": {
+    "concern": 0.0,
+    "count_within_10mi": 494
+  },
+  "newport-beach-ca": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "newport-news-va": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "newton-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 989
+  },
+  "norfolk-va": {
+    "concern": 77.6,
+    "count_within_10mi": 65
+  },
+  "norman-ok": {
+    "concern": 94.1,
+    "count_within_10mi": 17
+  },
+  "north-charleston-sc": {
+    "concern": 96.6,
+    "count_within_10mi": 10
+  },
+  "north-las-vegas-nv": {
+    "concern": 94.1,
+    "count_within_10mi": 17
+  },
+  "north-port-fl": {
+    "concern": 97.9,
+    "count_within_10mi": 6
+  },
+  "norwalk-ca": {
+    "concern": 83.8,
+    "count_within_10mi": 47
+  },
+  "norwalk-ct": {
+    "concern": 67.9,
+    "count_within_10mi": 93
+  },
+  "oakland-ca": {
+    "concern": 0.0,
+    "count_within_10mi": 296
+  },
+  "oceanside-ca": {
+    "concern": 97.6,
+    "count_within_10mi": 7
+  },
+  "odessa-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "ofallon-mo": {
+    "concern": 98.6,
+    "count_within_10mi": 4
+  },
+  "ogden-ut": {
+    "concern": 77.9,
+    "count_within_10mi": 64
+  },
+  "oklahoma-city-ok": {
+    "concern": 61.4,
+    "count_within_10mi": 112
+  },
+  "olathe-ks": {
+    "concern": 96.2,
+    "count_within_10mi": 11
+  },
+  "omaha-ne": {
+    "concern": 35.9,
+    "count_within_10mi": 186
+  },
+  "ontario-ca": {
+    "concern": 86.6,
+    "count_within_10mi": 39
+  },
+  "orange-ca": {
+    "concern": 71.7,
+    "count_within_10mi": 82
+  },
+  "orem-ut": {
+    "concern": 65.9,
+    "count_within_10mi": 99
+  },
+  "orlando-fl": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "overland-park-ks": {
+    "concern": 1.7,
+    "count_within_10mi": 285
+  },
+  "oxnard-ca": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "palm-bay-fl": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "palm-coast-fl": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "palmdale-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "parma-oh": {
+    "concern": 13.1,
+    "count_within_10mi": 252
+  },
+  "pasadena-ca": {
+    "concern": 29.3,
+    "count_within_10mi": 205
+  },
+  "pasadena-tx": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "pasco-wa": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "paterson-nj": {
+    "concern": 1.4,
+    "count_within_10mi": 286
+  },
+  "pawtucket-ri": {
+    "concern": 0.0,
+    "count_within_10mi": 295
+  },
+  "pearland-tx": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "pembroke-pines-fl": {
+    "concern": 92.1,
+    "count_within_10mi": 23
+  },
+  "peoria-az": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "peoria-il": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "perris-ca": {
+    "concern": 99.0,
+    "count_within_10mi": 3
+  },
+  "pharr-tx": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "philadelphia-pa": {
+    "concern": 0.0,
+    "count_within_10mi": 598
+  },
+  "phoenix-az": {
+    "concern": 12.1,
+    "count_within_10mi": 255
+  },
+  "pittsburg-ca": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "pittsburgh-pa": {
+    "concern": 35.9,
+    "count_within_10mi": 186
+  },
+  "plano-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "plantation-fl": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "plymouth-mn": {
+    "concern": 66.9,
+    "count_within_10mi": 96
+  },
+  "pomona-ca": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "pompano-beach-fl": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "port-st-lucie-fl": {
+    "concern": 97.6,
+    "count_within_10mi": 7
+  },
+  "portland-or": {
+    "concern": 0.0,
+    "count_within_10mi": 637
+  },
+  "portsmouth-va": {
+    "concern": 74.8,
+    "count_within_10mi": 73
+  },
+  "providence-ri": {
+    "concern": 0.0,
+    "count_within_10mi": 300
+  },
+  "provo-ut": {
+    "concern": 62.1,
+    "count_within_10mi": 110
+  },
+  "pueblo-co": {
+    "concern": 81.7,
+    "count_within_10mi": 53
+  },
+  "queen-creek-az": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "quincy-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 566
+  },
+  "racine-wi": {
+    "concern": 85.9,
+    "count_within_10mi": 41
+  },
+  "raleigh-nc": {
+    "concern": 60.7,
+    "count_within_10mi": 114
+  },
+  "rancho-cordova-ca": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "rapid-city-sd": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "reading-pa": {
+    "concern": 83.4,
+    "count_within_10mi": 48
+  },
+  "redding-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "redmond-wa": {
+    "concern": 75.9,
+    "count_within_10mi": 70
+  },
+  "redwood-city-ca": {
+    "concern": 81.7,
+    "count_within_10mi": 53
+  },
+  "reno-nv": {
+    "concern": 78.6,
+    "count_within_10mi": 62
+  },
+  "renton-wa": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "rialto-ca": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "richardson-tx": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "richmond-ca": {
+    "concern": 65.5,
+    "count_within_10mi": 100
+  },
+  "richmond-va": {
+    "concern": 39.3,
+    "count_within_10mi": 176
+  },
+  "rio-rancho-nm": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "riverside-ca": {
+    "concern": 92.8,
+    "count_within_10mi": 21
+  },
+  "roanoke-va": {
+    "concern": 76.9,
+    "count_within_10mi": 67
+  },
+  "rochester-hills-mi": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "rochester-mn": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "rochester-ny": {
+    "concern": 55.2,
+    "count_within_10mi": 130
+  },
+  "rockford-il": {
+    "concern": 90.7,
+    "count_within_10mi": 27
+  },
+  "rocklin-ca": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "rogers-ar": {
+    "concern": 66.2,
+    "count_within_10mi": 98
+  },
+  "roseville-ca": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "roswell-ga": {
+    "concern": 95.9,
+    "count_within_10mi": 12
+  },
+  "round-rock-tx": {
+    "concern": 77.9,
+    "count_within_10mi": 64
+  },
+  "sacramento-ca": {
+    "concern": 77.9,
+    "count_within_10mi": 64
+  },
+  "saint-paul-mn": {
+    "concern": 21.7,
+    "count_within_10mi": 227
+  },
+  "salem-or": {
+    "concern": 74.1,
+    "count_within_10mi": 75
+  },
+  "salinas-ca": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "salt-lake-city-ut": {
+    "concern": 15.9,
+    "count_within_10mi": 244
+  },
+  "san-angelo-tx": {
+    "concern": 75.2,
+    "count_within_10mi": 72
+  },
+  "san-antonio-tx": {
+    "concern": 62.8,
+    "count_within_10mi": 108
+  },
+  "san-bernardino-ca": {
+    "concern": 93.1,
+    "count_within_10mi": 20
+  },
+  "san-diego-ca": {
+    "concern": 79.3,
+    "count_within_10mi": 60
+  },
+  "san-francisco-ca": {
+    "concern": 15.2,
+    "count_within_10mi": 246
+  },
+  "san-jose-ca": {
+    "concern": 82.1,
+    "count_within_10mi": 52
+  },
+  "san-leandro-ca": {
+    "concern": 77.9,
+    "count_within_10mi": 64
+  },
+  "san-marcos-ca": {
+    "concern": 94.5,
+    "count_within_10mi": 16
+  },
+  "san-marcos-tx": {
+    "concern": 86.2,
+    "count_within_10mi": 40
+  },
+  "san-mateo-ca": {
+    "concern": 87.6,
+    "count_within_10mi": 36
+  },
+  "san-ramon-ca": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "sandpoint-id": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "sandy-springs-ga": {
+    "concern": 80.7,
+    "count_within_10mi": 56
+  },
+  "sandy-ut": {
+    "concern": 58.6,
+    "count_within_10mi": 120
+  },
+  "santa-ana-ca": {
+    "concern": 70.7,
+    "count_within_10mi": 85
+  },
+  "santa-barbara-ca": {
+    "concern": 93.1,
+    "count_within_10mi": 20
+  },
+  "santa-clara-ca": {
+    "concern": 78.6,
+    "count_within_10mi": 62
+  },
+  "santa-clarita-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "santa-fe-nm": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "santa-maria-ca": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "santa-monica-ca": {
+    "concern": 79.3,
+    "count_within_10mi": 60
+  },
+  "santa-rosa-ca": {
+    "concern": 92.4,
+    "count_within_10mi": 22
+  },
+  "savannah-ga": {
+    "concern": 87.2,
+    "count_within_10mi": 37
+  },
+  "schaumburg-il": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "scottsdale-az": {
+    "concern": 14.8,
+    "count_within_10mi": 247
+  },
+  "seattle-wa": {
+    "concern": 28.3,
+    "count_within_10mi": 208
+  },
+  "shreveport-la": {
+    "concern": 77.9,
+    "count_within_10mi": 64
+  },
+  "simi-valley-ca": {
+    "concern": 98.6,
+    "count_within_10mi": 4
+  },
+  "sioux-city-ia": {
+    "concern": 84.1,
+    "count_within_10mi": 46
+  },
+  "sioux-falls-sd": {
+    "concern": 78.6,
+    "count_within_10mi": 62
+  },
+  "somerville-ma": {
+    "concern": 0.0,
+    "count_within_10mi": 1245
+  },
+  "south-bend-in": {
+    "concern": 75.2,
+    "count_within_10mi": 72
+  },
+  "south-fulton-ga": {
+    "concern": 97.6,
+    "count_within_10mi": 7
+  },
+  "south-gate-ca": {
+    "concern": 56.9,
+    "count_within_10mi": 125
+  },
+  "south-jordan-ut": {
+    "concern": 67.6,
+    "count_within_10mi": 94
+  },
+  "sparks-nv": {
+    "concern": 79.3,
+    "count_within_10mi": 60
+  },
+  "spokane-valley-wa": {
+    "concern": 66.2,
+    "count_within_10mi": 98
+  },
+  "spokane-wa": {
+    "concern": 61.7,
+    "count_within_10mi": 111
+  },
+  "springdale-ar": {
+    "concern": 62.8,
+    "count_within_10mi": 108
+  },
+  "springfield-il": {
+    "concern": 82.8,
+    "count_within_10mi": 50
+  },
+  "springfield-ma": {
+    "concern": 62.1,
+    "count_within_10mi": 110
+  },
+  "springfield-mo": {
+    "concern": 82.1,
+    "count_within_10mi": 52
+  },
+  "st-george-ut": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "st-louis-mo": {
+    "concern": 0.0,
+    "count_within_10mi": 430
+  },
+  "st-petersburg-fl": {
+    "concern": 90.0,
+    "count_within_10mi": 29
+  },
+  "stamford-ct": {
+    "concern": 65.5,
+    "count_within_10mi": 100
+  },
+  "sterling-heights-mi": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "stockton-ca": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "suffolk-va": {
+    "concern": 97.2,
+    "count_within_10mi": 8
+  },
+  "sugar-land-tx": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "sundance-wy": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "sunnyvale-ca": {
+    "concern": 73.8,
+    "count_within_10mi": 76
+  },
+  "sunrise-fl": {
+    "concern": 93.1,
+    "count_within_10mi": 20
+  },
+  "surprise-az": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "syracuse-ny": {
+    "concern": 59.0,
+    "count_within_10mi": 119
+  },
+  "tacoma-wa": {
+    "concern": 65.9,
+    "count_within_10mi": 99
+  },
+  "tallahassee-fl": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "tampa-fl": {
+    "concern": 75.2,
+    "count_within_10mi": 72
+  },
+  "taos-nm": {
+    "concern": 93.8,
+    "count_within_10mi": 18
+  },
+  "temecula-ca": {
+    "concern": 99.7,
+    "count_within_10mi": 1
+  },
+  "tempe-az": {
+    "concern": 18.6,
+    "count_within_10mi": 236
+  },
+  "temple-tx": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "thornton-co": {
+    "concern": 93.4,
+    "count_within_10mi": 19
+  },
+  "thousand-oaks-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "toledo-oh": {
+    "concern": 78.6,
+    "count_within_10mi": 62
+  },
+  "topeka-ks": {
+    "concern": 72.1,
+    "count_within_10mi": 81
+  },
+  "torrance-ca": {
+    "concern": 87.9,
+    "count_within_10mi": 35
+  },
+  "tracy-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "trenton-nj": {
+    "concern": 67.9,
+    "count_within_10mi": 93
+  },
+  "troy-mi": {
+    "concern": 87.6,
+    "count_within_10mi": 36
+  },
+  "tucson-az": {
+    "concern": 65.5,
+    "count_within_10mi": 100
+  },
+  "tulsa-ok": {
+    "concern": 74.5,
+    "count_within_10mi": 74
+  },
+  "tuscaloosa-al": {
+    "concern": 89.7,
+    "count_within_10mi": 30
+  },
+  "tustin-ca": {
+    "concern": 80.0,
+    "count_within_10mi": 58
+  },
+  "tyler-tx": {
+    "concern": 91.0,
+    "count_within_10mi": 26
+  },
+  "upland-ca": {
+    "concern": 87.2,
+    "count_within_10mi": 37
+  },
+  "vacaville-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "vallejo-ca": {
+    "concern": 89.3,
+    "count_within_10mi": 31
+  },
+  "vancouver-wa": {
+    "concern": 0.0,
+    "count_within_10mi": 573
+  },
+  "ventura-ca": {
+    "concern": 95.2,
+    "count_within_10mi": 14
+  },
+  "victorville-ca": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "virginia-beach-va": {
+    "concern": 93.1,
+    "count_within_10mi": 20
+  },
+  "visalia-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "vista-ca": {
+    "concern": 98.3,
+    "count_within_10mi": 5
+  },
+  "waco-tx": {
+    "concern": 94.1,
+    "count_within_10mi": 17
+  },
+  "warner-robins-ga": {
+    "concern": 99.3,
+    "count_within_10mi": 2
+  },
+  "warren-mi": {
+    "concern": 45.5,
+    "count_within_10mi": 158
+  },
+  "warwick-ri": {
+    "concern": 27.6,
+    "count_within_10mi": 210
+  },
+  "washington-dc": {
+    "concern": 0.0,
+    "count_within_10mi": 676
+  },
+  "waterbury-ct": {
+    "concern": 75.5,
+    "count_within_10mi": 71
+  },
+  "waukegan-il": {
+    "concern": 88.6,
+    "count_within_10mi": 33
+  },
+  "west-covina-ca": {
+    "concern": 88.6,
+    "count_within_10mi": 33
+  },
+  "west-jordan-ut": {
+    "concern": 64.1,
+    "count_within_10mi": 104
+  },
+  "west-palm-beach-fl": {
+    "concern": 88.6,
+    "count_within_10mi": 33
+  },
+  "west-valley-city-ut": {
+    "concern": 0.7,
+    "count_within_10mi": 288
+  },
+  "westland-mi": {
+    "concern": 88.3,
+    "count_within_10mi": 34
+  },
+  "westminster-ca": {
+    "concern": 71.7,
+    "count_within_10mi": 82
+  },
+  "westminster-co": {
+    "concern": 53.1,
+    "count_within_10mi": 136
+  },
+  "whitewright-tx": {
+    "concern": 100.0,
+    "count_within_10mi": 0
+  },
+  "whittier-ca": {
+    "concern": 84.5,
+    "count_within_10mi": 45
+  },
+  "wichita-falls-tx": {
+    "concern": 96.9,
+    "count_within_10mi": 9
+  },
+  "wichita-ks": {
+    "concern": 59.3,
+    "count_within_10mi": 118
+  },
+  "wilmington-nc": {
+    "concern": 95.5,
+    "count_within_10mi": 13
+  },
+  "winston-salem-nc": {
+    "concern": 74.8,
+    "count_within_10mi": 73
+  },
+  "woodbury-mn": {
+    "concern": 65.2,
+    "count_within_10mi": 101
+  },
+  "worcester-ma": {
+    "concern": 0.7,
+    "count_within_10mi": 288
+  },
+  "wyoming-mi": {
+    "concern": 85.5,
+    "count_within_10mi": 42
+  },
+  "yakima-wa": {
+    "concern": 85.2,
+    "count_within_10mi": 43
+  },
+  "yonkers-ny": {
+    "concern": 0.0,
+    "count_within_10mi": 387
+  },
+  "yuma-az": {
+    "concern": 83.1,
+    "count_within_10mi": 49
+  }
+}
