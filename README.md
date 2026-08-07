@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  thirty-seven genuinely different real implementations across the full 512-city spine,
+  thirty-eight genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -153,6 +153,12 @@ built from two real, working examples instead of upfront design.
     county-level, a genuinely new hazard signal distinct from the flood/
     wildfire/earthquake layers already shipped
     (`data/severe-weather-methodology.md`).
+  - **Gigabit availability** — real FCC National Broadband Map gigabit-tier
+    availability, distinct from the ACS subscription-rate broadband dataset
+    already shipped (availability vs. adoption); the FCC's own official
+    100/20 Mbps standard turned out already >99.6% available everywhere in
+    this spine, so this uses the gigabit tier instead for real differentiation
+    (`data/broadband-speed-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

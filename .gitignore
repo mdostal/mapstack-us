@@ -202,6 +202,13 @@ data/raw/library-access-cache/
 # above. data/severe-weather.json IS committed.
 data/raw/severe-weather-cache/
 
+# Pure fetch-scratch for the broadband-speed dataset build
+# (scripts/gen_broadband_speed_data.py) -- same posture as the caches
+# above (not committed, 90MB). This source has NO stable download URL
+# (see the methodology doc's real re-download instructions).
+# data/broadband-speed.json IS committed.
+data/raw/broadband-speed-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

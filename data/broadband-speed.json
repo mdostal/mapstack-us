@@ -1,0 +1,2532 @@
+{
+  "_meta": {
+    "coverage": 505,
+    "resolution": "county",
+    "source": "FCC National Broadband Map, fixed broadband summary by county, gigabit tier (speed_1000_100), residential"
+  },
+  "abilene-tx": {
+    "concern": 20.6,
+    "county": "Taylor",
+    "pct_gigabit_available": 89.9
+  },
+  "akron-oh": {
+    "concern": 87.7,
+    "county": "Summit",
+    "pct_gigabit_available": 52.3
+  },
+  "alameda-ca": {
+    "concern": 7.9,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "albany-ny": {
+    "concern": 99.4,
+    "county": "Albany",
+    "pct_gigabit_available": 8.6
+  },
+  "albuquerque-nm": {
+    "concern": 94.8,
+    "county": "Bernalillo",
+    "pct_gigabit_available": 38.3
+  },
+  "alexandria-va": {
+    "concern": 40.5,
+    "county": "Alexandria",
+    "pct_gigabit_available": 81.5
+  },
+  "alhambra-ca": {
+    "concern": 78.8,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "allen-tx": {
+    "concern": 15.5,
+    "county": "Collin",
+    "pct_gigabit_available": 91.1
+  },
+  "allentown-pa": {
+    "concern": 96.6,
+    "county": "Lehigh",
+    "pct_gigabit_available": 31.8
+  },
+  "amarillo-tx": {
+    "concern": 21.4,
+    "county": "Potter",
+    "pct_gigabit_available": 88.7
+  },
+  "anaheim-ca": {
+    "concern": 61.3,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "anchorage-ak": {
+    "concern": 99.6,
+    "county": "Anchorage",
+    "pct_gigabit_available": 4.9
+  },
+  "ankeny-ia": {
+    "concern": 11.5,
+    "county": "Polk",
+    "pct_gigabit_available": 92.3
+  },
+  "ann-arbor-mi": {
+    "concern": 88.1,
+    "county": "Washtenaw",
+    "pct_gigabit_available": 51.9
+  },
+  "antioch-ca": {
+    "concern": 23.2,
+    "county": "Contra Costa",
+    "pct_gigabit_available": 88.2
+  },
+  "apex-nc": {
+    "concern": 47.4,
+    "county": "Wake",
+    "pct_gigabit_available": 77.0
+  },
+  "arlington-tx": {
+    "concern": 7.1,
+    "county": "Tarrant",
+    "pct_gigabit_available": 94.3
+  },
+  "arlington-va": {
+    "concern": 2.4,
+    "county": "Arlington",
+    "pct_gigabit_available": 96.9
+  },
+  "arvada-co": {
+    "concern": 29.6,
+    "county": "Jefferson",
+    "pct_gigabit_available": 86.8
+  },
+  "asheville-nc": {
+    "concern": 93.7,
+    "county": "Buncombe",
+    "pct_gigabit_available": 40.9
+  },
+  "athens-ga": {
+    "concern": 87.5,
+    "county": "Clarke",
+    "pct_gigabit_available": 52.5
+  },
+  "atlanta-ga": {
+    "concern": 20.0,
+    "county": "Fulton",
+    "pct_gigabit_available": 90.1
+  },
+  "auburn-al": {
+    "concern": 74.6,
+    "county": "Lee",
+    "pct_gigabit_available": 61.6
+  },
+  "auburn-wa": {
+    "concern": 32.7,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "augusta-ga": {
+    "concern": 38.5,
+    "county": "Richmond",
+    "pct_gigabit_available": 82.7
+  },
+  "aurora-co": {
+    "concern": 41.9,
+    "county": "Arapahoe",
+    "pct_gigabit_available": 80.9
+  },
+  "aurora-il": {
+    "concern": 34.9,
+    "county": "Kane",
+    "pct_gigabit_available": 84.2
+  },
+  "austin-tx": {
+    "concern": 46.8,
+    "county": "Travis",
+    "pct_gigabit_available": 77.5
+  },
+  "avondale-az": {
+    "concern": 55.0,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "bakersfield-ca": {
+    "concern": 91.1,
+    "county": "Kern",
+    "pct_gigabit_available": 48.5
+  },
+  "baltimore-md": {
+    "concern": 2.8,
+    "county": "Baltimore",
+    "pct_gigabit_available": 96.7
+  },
+  "baton-rouge-la": {
+    "concern": 51.0,
+    "county": "East Baton Rouge",
+    "pct_gigabit_available": 73.4
+  },
+  "baytown-tx": {
+    "concern": 13.7,
+    "county": "Harris",
+    "pct_gigabit_available": 91.5
+  },
+  "beaumont-tx": {
+    "concern": 84.7,
+    "county": "Jefferson",
+    "pct_gigabit_available": 57.5
+  },
+  "beaverton-or": {
+    "concern": 9.9,
+    "county": "Washington",
+    "pct_gigabit_available": 93.5
+  },
+  "bellevue-wa": {
+    "concern": 33.7,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "bellingham-wa": {
+    "concern": 93.8,
+    "county": "Whatcom",
+    "pct_gigabit_available": 40.9
+  },
+  "bend-or": {
+    "concern": 95.8,
+    "county": "Deschutes",
+    "pct_gigabit_available": 34.0
+  },
+  "berkeley-ca": {
+    "concern": 8.5,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "bethlehem-pa": {
+    "concern": 98.8,
+    "county": "Northampton",
+    "pct_gigabit_available": 11.7
+  },
+  "billings-mt": {
+    "concern": 95.4,
+    "county": "Yellowstone",
+    "pct_gigabit_available": 34.7
+  },
+  "birmingham-al": {
+    "concern": 71.2,
+    "county": "Jefferson",
+    "pct_gigabit_available": 63.9
+  },
+  "bismarck-nd": {
+    "concern": 34.5,
+    "county": "Burleigh",
+    "pct_gigabit_available": 84.9
+  },
+  "blanding-ut": {
+    "concern": 89.7,
+    "county": "San Juan",
+    "pct_gigabit_available": 50.2
+  },
+  "bloomington-il": {
+    "concern": 44.8,
+    "county": "McLean",
+    "pct_gigabit_available": 79.1
+  },
+  "bloomington-in": {
+    "concern": 51.6,
+    "county": "Monroe",
+    "pct_gigabit_available": 72.5
+  },
+  "bloomington-mn": {
+    "concern": 39.1,
+    "county": "Hennepin",
+    "pct_gigabit_available": 82.6
+  },
+  "boca-raton-fl": {
+    "concern": 45.6,
+    "county": "Palm Beach",
+    "pct_gigabit_available": 78.3
+  },
+  "boise-id": {
+    "concern": 95.2,
+    "county": "Ada",
+    "pct_gigabit_available": 36.0
+  },
+  "boston-ma": {
+    "concern": 47.2,
+    "county": "Suffolk",
+    "pct_gigabit_available": 77.4
+  },
+  "boulder-co": {
+    "concern": 10.3,
+    "county": "Boulder",
+    "pct_gigabit_available": 93.5
+  },
+  "bowling-green-ky": {
+    "concern": 71.6,
+    "county": "Warren",
+    "pct_gigabit_available": 63.8
+  },
+  "boynton-beach-fl": {
+    "concern": 45.4,
+    "county": "Palm Beach",
+    "pct_gigabit_available": 78.3
+  },
+  "brockton-ma": {
+    "concern": 89.3,
+    "county": "Plymouth",
+    "pct_gigabit_available": 50.4
+  },
+  "broken-arrow-ok": {
+    "concern": 40.7,
+    "county": "Tulsa",
+    "pct_gigabit_available": 81.4
+  },
+  "brooklyn-park-mn": {
+    "concern": 38.9,
+    "county": "Hennepin",
+    "pct_gigabit_available": 82.6
+  },
+  "broomfield-co": {
+    "concern": 39.9,
+    "county": "Broomfield",
+    "pct_gigabit_available": 81.9
+  },
+  "brownsville-tx": {
+    "concern": 92.9,
+    "county": "Cameron",
+    "pct_gigabit_available": 43.4
+  },
+  "bryan-tx": {
+    "concern": 91.9,
+    "county": "Brazos",
+    "pct_gigabit_available": 45.8
+  },
+  "buckeye-az": {
+    "concern": 55.4,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "buena-park-ca": {
+    "concern": 58.9,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "buffalo-ny": {
+    "concern": 96.8,
+    "county": "Erie",
+    "pct_gigabit_available": 31.8
+  },
+  "burbank-ca": {
+    "concern": 80.8,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "caldwell-id": {
+    "concern": 90.7,
+    "county": "Canyon",
+    "pct_gigabit_available": 49.6
+  },
+  "cambridge-ma": {
+    "concern": 24.8,
+    "county": "Middlesex",
+    "pct_gigabit_available": 88.1
+  },
+  "cape-coral-fl": {
+    "concern": 44.2,
+    "county": "Lee",
+    "pct_gigabit_available": 79.6
+  },
+  "carlsbad-ca": {
+    "concern": 53.2,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "carlsbad-nm": {
+    "concern": 93.1,
+    "county": "Eddy",
+    "pct_gigabit_available": 43.1
+  },
+  "carmel-in": {
+    "concern": 11.9,
+    "county": "Hamilton",
+    "pct_gigabit_available": 92.3
+  },
+  "carrollton-tx": {
+    "concern": 13.9,
+    "county": "Denton",
+    "pct_gigabit_available": 91.5
+  },
+  "carson-ca": {
+    "concern": 80.0,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "cary-nc": {
+    "concern": 47.6,
+    "county": "Wake",
+    "pct_gigabit_available": 77.0
+  },
+  "castle-rock-co": {
+    "concern": 36.3,
+    "county": "Douglas",
+    "pct_gigabit_available": 83.8
+  },
+  "cedar-park-tx": {
+    "concern": 73.4,
+    "county": "Williamson",
+    "pct_gigabit_available": 62.0
+  },
+  "cedar-rapids-ia": {
+    "concern": 7.7,
+    "county": "Linn",
+    "pct_gigabit_available": 94.1
+  },
+  "centennial-co": {
+    "concern": 41.7,
+    "county": "Arapahoe",
+    "pct_gigabit_available": 80.9
+  },
+  "champaign-il": {
+    "concern": 37.1,
+    "county": "Champaign",
+    "pct_gigabit_available": 83.4
+  },
+  "chandler-az": {
+    "concern": 56.5,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "charleston-sc": {
+    "concern": 67.7,
+    "county": "Charleston",
+    "pct_gigabit_available": 65.6
+  },
+  "charlotte-nc": {
+    "concern": 52.2,
+    "county": "Mecklenburg",
+    "pct_gigabit_available": 71.5
+  },
+  "chattanooga-tn": {
+    "concern": 1.2,
+    "county": "Hamilton",
+    "pct_gigabit_available": 97.8
+  },
+  "chesapeake-va": {
+    "concern": 84.3,
+    "county": "Chesapeake",
+    "pct_gigabit_available": 58.0
+  },
+  "chicago-il": {
+    "concern": 57.3,
+    "county": "Cook",
+    "pct_gigabit_available": 70.3
+  },
+  "chico-ca": {
+    "concern": 96.0,
+    "county": "Butte",
+    "pct_gigabit_available": 33.0
+  },
+  "chino-ca": {
+    "concern": 63.9,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "chino-hills-ca": {
+    "concern": 63.5,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "chula-vista-ca": {
+    "concern": 53.8,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "cicero-il": {
+    "concern": 54.6,
+    "county": "Cook",
+    "pct_gigabit_available": 70.3
+  },
+  "cincinnati-oh": {
+    "concern": 0.4,
+    "county": "Hamilton",
+    "pct_gigabit_available": 98.5
+  },
+  "citrus-heights-ca": {
+    "concern": 22.4,
+    "county": "Sacramento",
+    "pct_gigabit_available": 88.2
+  },
+  "clarksville-tn": {
+    "concern": 0.0,
+    "county": "Montgomery",
+    "pct_gigabit_available": 99.6
+  },
+  "clearwater-fl": {
+    "concern": 88.9,
+    "county": "Pinellas",
+    "pct_gigabit_available": 50.5
+  },
+  "cleveland-oh": {
+    "concern": 73.0,
+    "county": "Cuyahoga",
+    "pct_gigabit_available": 62.3
+  },
+  "clifton-nj": {
+    "concern": 26.2,
+    "county": "Passaic",
+    "pct_gigabit_available": 87.3
+  },
+  "clovis-ca": {
+    "concern": 49.8,
+    "county": "Fresno",
+    "pct_gigabit_available": 74.4
+  },
+  "college-station-tx": {
+    "concern": 92.1,
+    "county": "Brazos",
+    "pct_gigabit_available": 45.8
+  },
+  "colorado-springs-co": {
+    "concern": 1.4,
+    "county": "El Paso",
+    "pct_gigabit_available": 97.4
+  },
+  "columbia-mo": {
+    "concern": 40.3,
+    "county": "Boone",
+    "pct_gigabit_available": 81.5
+  },
+  "columbia-sc": {
+    "concern": 74.8,
+    "county": "Richland",
+    "pct_gigabit_available": 61.6
+  },
+  "columbus-ga": {
+    "concern": 92.5,
+    "county": "Muscogee",
+    "pct_gigabit_available": 45.3
+  },
+  "columbus-oh": {
+    "concern": 94.2,
+    "county": "Franklin",
+    "pct_gigabit_available": 39.3
+  },
+  "compton-ca": {
+    "concern": 79.8,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "concord-ca": {
+    "concern": 23.4,
+    "county": "Contra Costa",
+    "pct_gigabit_available": 88.2
+  },
+  "concord-nc": {
+    "concern": 57.9,
+    "county": "Cabarrus",
+    "pct_gigabit_available": 69.8
+  },
+  "conroe-tx": {
+    "concern": 10.9,
+    "county": "Montgomery",
+    "pct_gigabit_available": 92.6
+  },
+  "coral-springs-fl": {
+    "concern": 27.8,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "corona-ca": {
+    "concern": 70.0,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "corpus-christi-tx": {
+    "concern": 62.9,
+    "county": "Nueces",
+    "pct_gigabit_available": 67.9
+  },
+  "costa-mesa-ca": {
+    "concern": 59.9,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "cranston-ri": {
+    "concern": 62.3,
+    "county": "Providence",
+    "pct_gigabit_available": 68.3
+  },
+  "dallas-tx": {
+    "concern": 7.5,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "daly-city-ca": {
+    "concern": 16.5,
+    "county": "San Mateo",
+    "pct_gigabit_available": 90.9
+  },
+  "davenport-ia": {
+    "concern": 26.4,
+    "county": "Scott",
+    "pct_gigabit_available": 87.3
+  },
+  "davie-fl": {
+    "concern": 27.4,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "dayton-oh": {
+    "concern": 78.4,
+    "county": "Montgomery",
+    "pct_gigabit_available": 59.1
+  },
+  "daytona-beach-fl": {
+    "concern": 65.5,
+    "county": "Volusia",
+    "pct_gigabit_available": 66.9
+  },
+  "dearborn-mi": {
+    "concern": 72.4,
+    "county": "Wayne",
+    "pct_gigabit_available": 62.6
+  },
+  "deerfield-beach-fl": {
+    "concern": 26.8,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "deltona-fl": {
+    "concern": 65.7,
+    "county": "Volusia",
+    "pct_gigabit_available": 66.9
+  },
+  "denton-tx": {
+    "concern": 14.5,
+    "county": "Denton",
+    "pct_gigabit_available": 91.5
+  },
+  "denver-co": {
+    "concern": 9.7,
+    "county": "Denver",
+    "pct_gigabit_available": 93.7
+  },
+  "des-moines-ia": {
+    "concern": 12.1,
+    "county": "Polk",
+    "pct_gigabit_available": 92.3
+  },
+  "detroit-mi": {
+    "concern": 72.6,
+    "county": "Wayne",
+    "pct_gigabit_available": 62.6
+  },
+  "doral-fl": {
+    "concern": 17.1,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "downey-ca": {
+    "concern": 81.3,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "duluth-mn": {
+    "concern": 97.4,
+    "county": "St. Louis",
+    "pct_gigabit_available": 30.9
+  },
+  "durango-co": {
+    "concern": 97.6,
+    "county": "La Plata",
+    "pct_gigabit_available": 29.7
+  },
+  "durham-nc": {
+    "concern": 49.2,
+    "county": "Durham",
+    "pct_gigabit_available": 74.7
+  },
+  "edinburg-tx": {
+    "concern": 90.3,
+    "county": "Hidalgo",
+    "pct_gigabit_available": 49.8
+  },
+  "edmond-ok": {
+    "concern": 42.9,
+    "county": "Oklahoma",
+    "pct_gigabit_available": 80.1
+  },
+  "el-cajon-ca": {
+    "concern": 53.0,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "el-monte-ca": {
+    "concern": 81.0,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "el-paso-tx": {
+    "concern": 75.6,
+    "county": "El Paso",
+    "pct_gigabit_available": 60.9
+  },
+  "elgin-il": {
+    "concern": 34.7,
+    "county": "Kane",
+    "pct_gigabit_available": 84.2
+  },
+  "elizabeth-nj": {
+    "concern": 1.0,
+    "county": "Union",
+    "pct_gigabit_available": 97.8
+  },
+  "elk-grove-ca": {
+    "concern": 23.8,
+    "county": "Sacramento",
+    "pct_gigabit_available": 88.2
+  },
+  "erie-pa": {
+    "concern": 95.6,
+    "county": "Erie",
+    "pct_gigabit_available": 34.5
+  },
+  "escondido-ca": {
+    "concern": 53.4,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "eugene-or": {
+    "concern": 36.9,
+    "county": "Lane",
+    "pct_gigabit_available": 83.8
+  },
+  "evansville-in": {
+    "concern": 68.5,
+    "county": "Vanderburgh",
+    "pct_gigabit_available": 64.4
+  },
+  "everett-wa": {
+    "concern": 29.2,
+    "county": "Snohomish",
+    "pct_gigabit_available": 86.8
+  },
+  "fairfield-ca": {
+    "concern": 25.6,
+    "county": "Solano",
+    "pct_gigabit_available": 87.6
+  },
+  "fall-river-ma": {
+    "concern": 75.0,
+    "county": "Bristol",
+    "pct_gigabit_available": 61.2
+  },
+  "fargo-nd": {
+    "concern": 8.7,
+    "county": "Cass",
+    "pct_gigabit_available": 93.9
+  },
+  "farmington-hills-mi": {
+    "concern": 76.0,
+    "county": "Oakland",
+    "pct_gigabit_available": 60.8
+  },
+  "fayetteville-ar": {
+    "concern": 18.8,
+    "county": "Washington",
+    "pct_gigabit_available": 90.2
+  },
+  "fayetteville-nc": {
+    "concern": 67.1,
+    "county": "Cumberland",
+    "pct_gigabit_available": 66.1
+  },
+  "federal-way-wa": {
+    "concern": 33.1,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "fishers-in": {
+    "concern": 11.7,
+    "county": "Hamilton",
+    "pct_gigabit_available": 92.3
+  },
+  "flagstaff-az": {
+    "concern": 99.8,
+    "county": "Coconino",
+    "pct_gigabit_available": 4.2
+  },
+  "flint-mi": {
+    "concern": 93.5,
+    "county": "Genesee",
+    "pct_gigabit_available": 41.6
+  },
+  "flower-mound-tx": {
+    "concern": 13.5,
+    "county": "Denton",
+    "pct_gigabit_available": 91.5
+  },
+  "folsom-ca": {
+    "concern": 22.8,
+    "county": "Sacramento",
+    "pct_gigabit_available": 88.2
+  },
+  "fontana-ca": {
+    "concern": 65.1,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "fort-collins-co": {
+    "concern": 38.3,
+    "county": "Larimer",
+    "pct_gigabit_available": 82.7
+  },
+  "fort-lauderdale-fl": {
+    "concern": 28.8,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "fort-myers-fl": {
+    "concern": 43.8,
+    "county": "Lee",
+    "pct_gigabit_available": 79.6
+  },
+  "fort-smith-ar": {
+    "concern": 37.3,
+    "county": "Sebastian",
+    "pct_gigabit_available": 83.3
+  },
+  "fort-wayne-in": {
+    "concern": 49.6,
+    "county": "Allen",
+    "pct_gigabit_available": 74.5
+  },
+  "fort-worth-tx": {
+    "concern": 7.3,
+    "county": "Tarrant",
+    "pct_gigabit_available": 94.3
+  },
+  "franklin-tn": {
+    "concern": 25.0,
+    "county": "Williamson",
+    "pct_gigabit_available": 87.8
+  },
+  "frederick-md": {
+    "concern": 44.6,
+    "county": "Frederick",
+    "pct_gigabit_available": 79.2
+  },
+  "fremont-ca": {
+    "concern": 9.1,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "fresno-ca": {
+    "concern": 50.0,
+    "county": "Fresno",
+    "pct_gigabit_available": 74.4
+  },
+  "frisco-tx": {
+    "concern": 15.9,
+    "county": "Collin",
+    "pct_gigabit_available": 91.1
+  },
+  "fullerton-ca": {
+    "concern": 60.3,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "gainesville-fl": {
+    "concern": 63.3,
+    "county": "Alachua",
+    "pct_gigabit_available": 67.3
+  },
+  "garden-grove-ca": {
+    "concern": 60.5,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "garland-tx": {
+    "concern": 6.7,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "gastonia-nc": {
+    "concern": 87.1,
+    "county": "Gaston",
+    "pct_gigabit_available": 53.6
+  },
+  "georgetown-tx": {
+    "concern": 73.8,
+    "county": "Williamson",
+    "pct_gigabit_available": 62.0
+  },
+  "geraldine-mt": {
+    "concern": 98.4,
+    "county": "Chouteau",
+    "pct_gigabit_available": 19.6
+  },
+  "gilbert-az": {
+    "concern": 56.7,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "glendale-az": {
+    "concern": 56.3,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "glendale-ca": {
+    "concern": 82.5,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "goodyear-az": {
+    "concern": 55.2,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "grand-junction-co": {
+    "concern": 86.9,
+    "county": "Mesa",
+    "pct_gigabit_available": 53.7
+  },
+  "grand-prairie-tx": {
+    "concern": 6.5,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "grand-rapids-mi": {
+    "concern": 41.5,
+    "county": "Kent",
+    "pct_gigabit_available": 81.0
+  },
+  "greeley-co": {
+    "concern": 46.4,
+    "county": "Weld",
+    "pct_gigabit_available": 77.5
+  },
+  "green-bay-wi": {
+    "concern": 76.6,
+    "county": "Brown",
+    "pct_gigabit_available": 60.4
+  },
+  "greensboro-nc": {
+    "concern": 71.4,
+    "county": "Guilford",
+    "pct_gigabit_available": 63.9
+  },
+  "greenville-nc": {
+    "concern": 78.0,
+    "county": "Pitt",
+    "pct_gigabit_available": 59.2
+  },
+  "gresham-or": {
+    "concern": 35.1,
+    "county": "Multnomah",
+    "pct_gigabit_available": 84.0
+  },
+  "hampton-va": {
+    "concern": 73.2,
+    "county": "Hampton",
+    "pct_gigabit_available": 62.1
+  },
+  "hawthorne-ca": {
+    "concern": 79.0,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "hayward-ca": {
+    "concern": 8.9,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "hemet-ca": {
+    "concern": 68.8,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "henderson-nv": {
+    "concern": 37.7,
+    "county": "Clark",
+    "pct_gigabit_available": 83.1
+  },
+  "hesperia-ca": {
+    "concern": 64.1,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "hialeah-fl": {
+    "concern": 17.7,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "high-point-nc": {
+    "concern": 71.0,
+    "county": "Guilford",
+    "pct_gigabit_available": 63.9
+  },
+  "hillsboro-or": {
+    "concern": 10.5,
+    "county": "Washington",
+    "pct_gigabit_available": 93.5
+  },
+  "hollywood-fl": {
+    "concern": 28.4,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "homestead-fl": {
+    "concern": 17.3,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "honolulu-hi": {
+    "concern": 48.8,
+    "county": "Honolulu",
+    "pct_gigabit_available": 75.0
+  },
+  "hoover-al": {
+    "concern": 70.8,
+    "county": "Jefferson",
+    "pct_gigabit_available": 63.9
+  },
+  "houston-tx": {
+    "concern": 14.9,
+    "county": "Harris",
+    "pct_gigabit_available": 91.5
+  },
+  "huntington-beach-ca": {
+    "concern": 60.7,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "huntsville-al": {
+    "concern": 10.7,
+    "county": "Madison",
+    "pct_gigabit_available": 92.7
+  },
+  "independence-mo": {
+    "concern": 3.8,
+    "county": "Jackson",
+    "pct_gigabit_available": 95.7
+  },
+  "indianapolis-in": {
+    "concern": 43.7,
+    "county": "Marion",
+    "pct_gigabit_available": 79.7
+  },
+  "indio-ca": {
+    "concern": 69.0,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "inglewood-ca": {
+    "concern": 80.6,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "irvine-ca": {
+    "concern": 61.1,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "irving-tx": {
+    "concern": 6.9,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "jackson-ms": {
+    "concern": 23.6,
+    "county": "Hinds",
+    "pct_gigabit_available": 88.2
+  },
+  "jacksonville-fl": {
+    "concern": 40.1,
+    "county": "Duval",
+    "pct_gigabit_available": 81.9
+  },
+  "jersey-city-nj": {
+    "concern": 11.1,
+    "county": "Hudson",
+    "pct_gigabit_available": 92.6
+  },
+  "johns-creek-ga": {
+    "concern": 19.2,
+    "county": "Fulton",
+    "pct_gigabit_available": 90.1
+  },
+  "joliet-il": {
+    "concern": 54.2,
+    "county": "Will",
+    "pct_gigabit_available": 70.6
+  },
+  "jonesboro-ar": {
+    "concern": 51.4,
+    "county": "Craighead",
+    "pct_gigabit_available": 72.6
+  },
+  "jurupa-valley-ca": {
+    "concern": 69.2,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "kalispell-mt": {
+    "concern": 94.0,
+    "county": "Flathead",
+    "pct_gigabit_available": 39.8
+  },
+  "kansas-city-ks": {
+    "concern": 31.9,
+    "county": "Wyandotte",
+    "pct_gigabit_available": 85.3
+  },
+  "kansas-city-mo": {
+    "concern": 4.0,
+    "county": "Jackson",
+    "pct_gigabit_available": 95.7
+  },
+  "kennewick-wa": {
+    "concern": 88.5,
+    "county": "Benton",
+    "pct_gigabit_available": 50.8
+  },
+  "kenosha-wi": {
+    "concern": 71.8,
+    "county": "Kenosha",
+    "pct_gigabit_available": 63.1
+  },
+  "kent-wa": {
+    "concern": 33.5,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "killeen-tx": {
+    "concern": 66.9,
+    "county": "Bell",
+    "pct_gigabit_available": 66.3
+  },
+  "kirkland-wa": {
+    "concern": 32.9,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "kissimmee-fl": {
+    "concern": 85.9,
+    "county": "Osceola",
+    "pct_gigabit_available": 56.2
+  },
+  "knoxville-tn": {
+    "concern": 2.0,
+    "county": "Knox",
+    "pct_gigabit_available": 97.0
+  },
+  "lafayette-la": {
+    "concern": 26.0,
+    "county": "Lafayette",
+    "pct_gigabit_available": 87.5
+  },
+  "lake-charles-la": {
+    "concern": 88.3,
+    "county": "Calcasieu",
+    "pct_gigabit_available": 50.8
+  },
+  "lake-forest-ca": {
+    "concern": 59.3,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "lakeland-fl": {
+    "concern": 78.2,
+    "county": "Polk",
+    "pct_gigabit_available": 59.1
+  },
+  "lakeville-mn": {
+    "concern": 62.1,
+    "county": "Dakota",
+    "pct_gigabit_available": 68.3
+  },
+  "lakewood-ca": {
+    "concern": 78.6,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "lakewood-co": {
+    "concern": 29.8,
+    "county": "Jefferson",
+    "pct_gigabit_available": 86.8
+  },
+  "lancaster-ca": {
+    "concern": 82.3,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "lansing-mi": {
+    "concern": 62.7,
+    "county": "Ingham",
+    "pct_gigabit_available": 68.0
+  },
+  "laredo-tx": {
+    "concern": 83.3,
+    "county": "Webb",
+    "pct_gigabit_available": 58.3
+  },
+  "largo-fl": {
+    "concern": 88.7,
+    "county": "Pinellas",
+    "pct_gigabit_available": 50.5
+  },
+  "las-cruces-nm": {
+    "concern": 98.0,
+    "county": "Do\u00f1a Ana",
+    "pct_gigabit_available": 22.6
+  },
+  "las-vegas-nv": {
+    "concern": 37.9,
+    "county": "Clark",
+    "pct_gigabit_available": 83.1
+  },
+  "lawrence-ks": {
+    "concern": 31.7,
+    "county": "Douglas",
+    "pct_gigabit_available": 85.3
+  },
+  "lawrence-ma": {
+    "concern": 61.5,
+    "county": "Essex",
+    "pct_gigabit_available": 68.7
+  },
+  "lawton-ok": {
+    "concern": 34.1,
+    "county": "Comanche",
+    "pct_gigabit_available": 85.0
+  },
+  "layton-ut": {
+    "concern": 1.6,
+    "county": "Davis",
+    "pct_gigabit_available": 97.3
+  },
+  "league-city-tx": {
+    "concern": 36.5,
+    "county": "Galveston",
+    "pct_gigabit_available": 83.8
+  },
+  "leander-tx": {
+    "concern": 73.6,
+    "county": "Williamson",
+    "pct_gigabit_available": 62.0
+  },
+  "lees-summit-mo": {
+    "concern": 3.6,
+    "county": "Jackson",
+    "pct_gigabit_available": 95.7
+  },
+  "lehi-ut": {
+    "concern": 21.0,
+    "county": "Utah",
+    "pct_gigabit_available": 89.7
+  },
+  "lewisville-tx": {
+    "concern": 14.1,
+    "county": "Denton",
+    "pct_gigabit_available": 91.5
+  },
+  "lexington-ky": {
+    "concern": 0.2,
+    "county": "Fayette",
+    "pct_gigabit_available": 98.6
+  },
+  "lincoln-ne": {
+    "concern": 5.4,
+    "county": "Lancaster",
+    "pct_gigabit_available": 94.7
+  },
+  "little-rock-ar": {
+    "concern": 25.2,
+    "county": "Pulaski",
+    "pct_gigabit_available": 87.8
+  },
+  "livermore-ca": {
+    "concern": 8.1,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "livonia-mi": {
+    "concern": 72.2,
+    "county": "Wayne",
+    "pct_gigabit_available": 62.6
+  },
+  "long-beach-ca": {
+    "concern": 82.9,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "longmont-co": {
+    "concern": 10.1,
+    "county": "Boulder",
+    "pct_gigabit_available": 93.5
+  },
+  "longview-tx": {
+    "concern": 13.1,
+    "county": "Gregg",
+    "pct_gigabit_available": 91.6
+  },
+  "los-alamos-nm": {
+    "concern": 100.0,
+    "county": "Los Alamos",
+    "pct_gigabit_available": 1.8
+  },
+  "los-angeles-ca": {
+    "concern": 83.1,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "louisville-ky": {
+    "concern": 1.8,
+    "county": "Jefferson",
+    "pct_gigabit_available": 97.3
+  },
+  "loveland-co": {
+    "concern": 38.1,
+    "county": "Larimer",
+    "pct_gigabit_available": 82.7
+  },
+  "lowell-ma": {
+    "concern": 24.6,
+    "county": "Middlesex",
+    "pct_gigabit_available": 88.1
+  },
+  "lubbock-tx": {
+    "concern": 44.4,
+    "county": "Lubbock",
+    "pct_gigabit_available": 79.6
+  },
+  "lynchburg-va": {
+    "concern": 18.3,
+    "county": "Lynchburg",
+    "pct_gigabit_available": 90.3
+  },
+  "lynn-ma": {
+    "concern": 61.7,
+    "county": "Essex",
+    "pct_gigabit_available": 68.7
+  },
+  "mableton-ga": {
+    "concern": 5.6,
+    "county": "Cobb",
+    "pct_gigabit_available": 94.4
+  },
+  "macon-ga": {
+    "concern": 41.3,
+    "county": "Bibb",
+    "pct_gigabit_available": 81.0
+  },
+  "madison-wi": {
+    "concern": 66.1,
+    "county": "Dane",
+    "pct_gigabit_available": 66.9
+  },
+  "manchester-nh": {
+    "concern": 15.3,
+    "county": "Hillsborough",
+    "pct_gigabit_available": 91.4
+  },
+  "mansfield-tx": {
+    "concern": 6.0,
+    "county": "Tarrant",
+    "pct_gigabit_available": 94.3
+  },
+  "manteca-ca": {
+    "concern": 35.7,
+    "county": "San Joaquin",
+    "pct_gigabit_available": 83.9
+  },
+  "maricopa-az": {
+    "concern": 85.7,
+    "county": "Pinal",
+    "pct_gigabit_available": 56.8
+  },
+  "marysville-wa": {
+    "concern": 29.0,
+    "county": "Snohomish",
+    "pct_gigabit_available": 86.8
+  },
+  "mcallen-tx": {
+    "concern": 90.5,
+    "county": "Hidalgo",
+    "pct_gigabit_available": 49.8
+  },
+  "mckinney-tx": {
+    "concern": 15.7,
+    "county": "Collin",
+    "pct_gigabit_available": 91.1
+  },
+  "medford-or": {
+    "concern": 91.7,
+    "county": "Jackson",
+    "pct_gigabit_available": 47.2
+  },
+  "melbourne-fl": {
+    "concern": 84.9,
+    "county": "Brevard",
+    "pct_gigabit_available": 57.4
+  },
+  "memphis-tn": {
+    "concern": 21.8,
+    "county": "Shelby",
+    "pct_gigabit_available": 88.3
+  },
+  "menifee-ca": {
+    "concern": 69.8,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "merced-ca": {
+    "concern": 80.4,
+    "county": "Merced",
+    "pct_gigabit_available": 58.5
+  },
+  "meridian-id": {
+    "concern": 95.0,
+    "county": "Ada",
+    "pct_gigabit_available": 36.0
+  },
+  "mesa-az": {
+    "concern": 56.9,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "mesquite-tx": {
+    "concern": 6.3,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "miami-beach-fl": {
+    "concern": 16.9,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "miami-fl": {
+    "concern": 17.9,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "miami-gardens-fl": {
+    "concern": 17.5,
+    "county": "Miami-Dade",
+    "pct_gigabit_available": 90.8
+  },
+  "midland-tx": {
+    "concern": 46.0,
+    "county": "Midland",
+    "pct_gigabit_available": 78.1
+  },
+  "milpitas-ca": {
+    "concern": 30.4,
+    "county": "Santa Clara",
+    "pct_gigabit_available": 86.4
+  },
+  "milwaukee-wi": {
+    "concern": 86.3,
+    "county": "Milwaukee",
+    "pct_gigabit_available": 55.7
+  },
+  "minneapolis-mn": {
+    "concern": 39.3,
+    "county": "Hennepin",
+    "pct_gigabit_available": 82.6
+  },
+  "miramar-fl": {
+    "concern": 28.0,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "mission-tx": {
+    "concern": 90.1,
+    "county": "Hidalgo",
+    "pct_gigabit_available": 49.8
+  },
+  "mission-viejo-ca": {
+    "concern": 59.7,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "missoula-mt": {
+    "concern": 13.3,
+    "county": "Missoula",
+    "pct_gigabit_available": 91.5
+  },
+  "missouri-city-tx": {
+    "concern": 12.7,
+    "county": "Fort Bend",
+    "pct_gigabit_available": 91.8
+  },
+  "mobile-al": {
+    "concern": 65.9,
+    "county": "Mobile",
+    "pct_gigabit_available": 66.9
+  },
+  "modesto-ca": {
+    "concern": 51.8,
+    "county": "Stanislaus",
+    "pct_gigabit_available": 72.5
+  },
+  "montgomery-al": {
+    "concern": 91.3,
+    "county": "Montgomery",
+    "pct_gigabit_available": 47.6
+  },
+  "monticello-ut": {
+    "concern": 89.5,
+    "county": "San Juan",
+    "pct_gigabit_available": 50.2
+  },
+  "moreno-valley-ca": {
+    "concern": 70.2,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "mount-pleasant-sc": {
+    "concern": 67.3,
+    "county": "Charleston",
+    "pct_gigabit_available": 65.6
+  },
+  "mountain-view-ca": {
+    "concern": 30.6,
+    "county": "Santa Clara",
+    "pct_gigabit_available": 86.4
+  },
+  "murfreesboro-tn": {
+    "concern": 2.6,
+    "county": "Rutherford",
+    "pct_gigabit_available": 96.7
+  },
+  "murrieta-ca": {
+    "concern": 69.4,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "nampa-id": {
+    "concern": 90.9,
+    "county": "Canyon",
+    "pct_gigabit_available": 49.6
+  },
+  "naperville-il": {
+    "concern": 12.5,
+    "county": "DuPage",
+    "pct_gigabit_available": 92.0
+  },
+  "nashua-nh": {
+    "concern": 15.1,
+    "county": "Hillsborough",
+    "pct_gigabit_available": 91.4
+  },
+  "nashville-tn": {
+    "concern": 5.8,
+    "county": "Davidson",
+    "pct_gigabit_available": 94.4
+  },
+  "new-bedford-ma": {
+    "concern": 75.2,
+    "county": "Bristol",
+    "pct_gigabit_available": 61.2
+  },
+  "new-braunfels-tx": {
+    "concern": 43.3,
+    "county": "Comal",
+    "pct_gigabit_available": 79.8
+  },
+  "new-orleans-la": {
+    "concern": 49.4,
+    "county": "Orleans",
+    "pct_gigabit_available": 74.7
+  },
+  "new-rochelle-ny": {
+    "concern": 45.0,
+    "county": "Westchester",
+    "pct_gigabit_available": 78.5
+  },
+  "new-york-ny": {
+    "concern": 91.5,
+    "county": "New York",
+    "pct_gigabit_available": 47.6
+  },
+  "newark-nj": {
+    "concern": 18.5,
+    "county": "Essex",
+    "pct_gigabit_available": 90.3
+  },
+  "newport-beach-ca": {
+    "concern": 59.1,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "newport-news-va": {
+    "concern": 48.6,
+    "county": "Newport News",
+    "pct_gigabit_available": 75.4
+  },
+  "newton-ma": {
+    "concern": 24.4,
+    "county": "Middlesex",
+    "pct_gigabit_available": 88.1
+  },
+  "norfolk-va": {
+    "concern": 20.4,
+    "county": "Norfolk",
+    "pct_gigabit_available": 90.0
+  },
+  "norman-ok": {
+    "concern": 19.0,
+    "county": "Cleveland",
+    "pct_gigabit_available": 90.2
+  },
+  "north-charleston-sc": {
+    "concern": 67.5,
+    "county": "Charleston",
+    "pct_gigabit_available": 65.6
+  },
+  "north-las-vegas-nv": {
+    "concern": 37.5,
+    "county": "Clark",
+    "pct_gigabit_available": 83.1
+  },
+  "north-port-fl": {
+    "concern": 46.2,
+    "county": "Sarasota",
+    "pct_gigabit_available": 77.6
+  },
+  "norwalk-ca": {
+    "concern": 80.2,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "oakland-ca": {
+    "concern": 9.3,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "oceanside-ca": {
+    "concern": 53.6,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "odessa-tx": {
+    "concern": 11.3,
+    "county": "Ector",
+    "pct_gigabit_available": 92.4
+  },
+  "ofallon-mo": {
+    "concern": 9.5,
+    "county": "St. Charles",
+    "pct_gigabit_available": 93.8
+  },
+  "ogden-ut": {
+    "concern": 20.2,
+    "county": "Weber",
+    "pct_gigabit_available": 90.0
+  },
+  "oklahoma-city-ok": {
+    "concern": 43.1,
+    "county": "Oklahoma",
+    "pct_gigabit_available": 80.1
+  },
+  "olathe-ks": {
+    "concern": 0.6,
+    "county": "Johnson",
+    "pct_gigabit_available": 97.9
+  },
+  "omaha-ne": {
+    "concern": 32.3,
+    "county": "Douglas",
+    "pct_gigabit_available": 85.2
+  },
+  "ontario-ca": {
+    "concern": 64.9,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "orange-ca": {
+    "concern": 60.1,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "orem-ut": {
+    "concern": 20.8,
+    "county": "Utah",
+    "pct_gigabit_available": 89.7
+  },
+  "orlando-fl": {
+    "concern": 75.4,
+    "county": "Orange",
+    "pct_gigabit_available": 61.0
+  },
+  "overland-park-ks": {
+    "concern": 0.8,
+    "county": "Johnson",
+    "pct_gigabit_available": 97.9
+  },
+  "oxnard-ca": {
+    "concern": 84.1,
+    "county": "Ventura",
+    "pct_gigabit_available": 58.1
+  },
+  "palm-bay-fl": {
+    "concern": 85.1,
+    "county": "Brevard",
+    "pct_gigabit_available": 57.4
+  },
+  "palm-coast-fl": {
+    "concern": 42.1,
+    "county": "Flagler",
+    "pct_gigabit_available": 80.7
+  },
+  "palmdale-ca": {
+    "concern": 82.1,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "parma-oh": {
+    "concern": 72.8,
+    "county": "Cuyahoga",
+    "pct_gigabit_available": 62.3
+  },
+  "pasadena-ca": {
+    "concern": 81.5,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "pasadena-tx": {
+    "concern": 14.3,
+    "county": "Harris",
+    "pct_gigabit_available": 91.5
+  },
+  "pasco-wa": {
+    "concern": 97.8,
+    "county": "Franklin",
+    "pct_gigabit_available": 25.9
+  },
+  "paterson-nj": {
+    "concern": 26.6,
+    "county": "Passaic",
+    "pct_gigabit_available": 87.3
+  },
+  "pawtucket-ri": {
+    "concern": 61.9,
+    "county": "Providence",
+    "pct_gigabit_available": 68.3
+  },
+  "pearland-tx": {
+    "concern": 36.7,
+    "county": "Brazoria",
+    "pct_gigabit_available": 83.8
+  },
+  "pembroke-pines-fl": {
+    "concern": 28.6,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "peoria-az": {
+    "concern": 56.0,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "peoria-il": {
+    "concern": 21.6,
+    "county": "Peoria",
+    "pct_gigabit_available": 88.3
+  },
+  "perris-ca": {
+    "concern": 68.7,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "pharr-tx": {
+    "concern": 89.9,
+    "county": "Hidalgo",
+    "pct_gigabit_available": 49.8
+  },
+  "philadelphia-pa": {
+    "concern": 35.5,
+    "county": "Philadelphia",
+    "pct_gigabit_available": 84.0
+  },
+  "phoenix-az": {
+    "concern": 57.1,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "pittsburg-ca": {
+    "concern": 22.0,
+    "county": "Contra Costa",
+    "pct_gigabit_available": 88.2
+  },
+  "pittsburgh-pa": {
+    "concern": 46.6,
+    "county": "Allegheny",
+    "pct_gigabit_available": 77.5
+  },
+  "plano-tx": {
+    "concern": 16.1,
+    "county": "Collin",
+    "pct_gigabit_available": 91.1
+  },
+  "plantation-fl": {
+    "concern": 27.2,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "plymouth-mn": {
+    "concern": 38.7,
+    "county": "Hennepin",
+    "pct_gigabit_available": 82.6
+  },
+  "pomona-ca": {
+    "concern": 81.9,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "pompano-beach-fl": {
+    "concern": 27.6,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "port-st-lucie-fl": {
+    "concern": 63.1,
+    "county": "St. Lucie",
+    "pct_gigabit_available": 67.4
+  },
+  "portland-or": {
+    "concern": 35.3,
+    "county": "Multnomah",
+    "pct_gigabit_available": 84.0
+  },
+  "portsmouth-va": {
+    "concern": 42.3,
+    "county": "Portsmouth",
+    "pct_gigabit_available": 80.5
+  },
+  "providence-ri": {
+    "concern": 62.5,
+    "county": "Providence",
+    "pct_gigabit_available": 68.3
+  },
+  "provo-ut": {
+    "concern": 21.2,
+    "county": "Utah",
+    "pct_gigabit_available": 89.7
+  },
+  "pueblo-co": {
+    "concern": 48.4,
+    "county": "Pueblo",
+    "pct_gigabit_available": 75.7
+  },
+  "queen-creek-az": {
+    "concern": 54.8,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "quincy-ma": {
+    "concern": 68.1,
+    "county": "Norfolk",
+    "pct_gigabit_available": 65.4
+  },
+  "racine-wi": {
+    "concern": 92.7,
+    "county": "Racine",
+    "pct_gigabit_available": 43.8
+  },
+  "raleigh-nc": {
+    "concern": 47.8,
+    "county": "Wake",
+    "pct_gigabit_available": 77.0
+  },
+  "rancho-cordova-ca": {
+    "concern": 22.6,
+    "county": "Sacramento",
+    "pct_gigabit_available": 88.2
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 64.7,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "rapid-city-sd": {
+    "concern": 85.3,
+    "county": "Pennington",
+    "pct_gigabit_available": 56.9
+  },
+  "reading-pa": {
+    "concern": 30.2,
+    "county": "Berks",
+    "pct_gigabit_available": 86.5
+  },
+  "redding-ca": {
+    "concern": 98.6,
+    "county": "Shasta",
+    "pct_gigabit_available": 17.9
+  },
+  "redmond-wa": {
+    "concern": 32.5,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "redwood-city-ca": {
+    "concern": 16.3,
+    "county": "San Mateo",
+    "pct_gigabit_available": 90.9
+  },
+  "reno-nv": {
+    "concern": 3.2,
+    "county": "Washoe",
+    "pct_gigabit_available": 96.5
+  },
+  "renton-wa": {
+    "concern": 33.3,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "rialto-ca": {
+    "concern": 64.3,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "richardson-tx": {
+    "concern": 6.2,
+    "county": "Dallas",
+    "pct_gigabit_available": 94.3
+  },
+  "richmond-ca": {
+    "concern": 23.0,
+    "county": "Contra Costa",
+    "pct_gigabit_available": 88.2
+  },
+  "richmond-va": {
+    "concern": 94.6,
+    "county": "Richmond",
+    "pct_gigabit_available": 38.7
+  },
+  "rio-rancho-nm": {
+    "concern": 86.1,
+    "county": "Sandoval",
+    "pct_gigabit_available": 55.7
+  },
+  "riverside-ca": {
+    "concern": 70.4,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "roanoke-va": {
+    "concern": 32.1,
+    "county": "Roanoke",
+    "pct_gigabit_available": 85.2
+  },
+  "rochester-hills-mi": {
+    "concern": 75.8,
+    "county": "Oakland",
+    "pct_gigabit_available": 60.8
+  },
+  "rochester-mn": {
+    "concern": 4.2,
+    "county": "Olmsted",
+    "pct_gigabit_available": 95.4
+  },
+  "rochester-ny": {
+    "concern": 3.4,
+    "county": "Monroe",
+    "pct_gigabit_available": 95.8
+  },
+  "rockford-il": {
+    "concern": 48.0,
+    "county": "Winnebago",
+    "pct_gigabit_available": 76.8
+  },
+  "rocklin-ca": {
+    "concern": 77.4,
+    "county": "Placer",
+    "pct_gigabit_available": 59.5
+  },
+  "rogers-ar": {
+    "concern": 58.5,
+    "county": "Benton",
+    "pct_gigabit_available": 69.1
+  },
+  "roseville-ca": {
+    "concern": 77.6,
+    "county": "Placer",
+    "pct_gigabit_available": 59.5
+  },
+  "roswell-ga": {
+    "concern": 19.4,
+    "county": "Fulton",
+    "pct_gigabit_available": 90.1
+  },
+  "round-rock-tx": {
+    "concern": 74.0,
+    "county": "Williamson",
+    "pct_gigabit_available": 62.0
+  },
+  "sacramento-ca": {
+    "concern": 24.0,
+    "county": "Sacramento",
+    "pct_gigabit_available": 88.2
+  },
+  "saint-paul-mn": {
+    "concern": 49.0,
+    "county": "Ramsey",
+    "pct_gigabit_available": 74.8
+  },
+  "salem-or": {
+    "concern": 58.3,
+    "county": "Marion",
+    "pct_gigabit_available": 69.3
+  },
+  "salinas-ca": {
+    "concern": 84.5,
+    "county": "Monterey",
+    "pct_gigabit_available": 57.8
+  },
+  "salt-lake-city-ut": {
+    "concern": 5.2,
+    "county": "Salt Lake",
+    "pct_gigabit_available": 95.3
+  },
+  "san-angelo-tx": {
+    "concern": 42.5,
+    "county": "Tom Green",
+    "pct_gigabit_available": 80.4
+  },
+  "san-antonio-tx": {
+    "concern": 34.3,
+    "county": "Bexar",
+    "pct_gigabit_available": 85.0
+  },
+  "san-bernardino-ca": {
+    "concern": 65.3,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "san-diego-ca": {
+    "concern": 54.0,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "san-francisco-ca": {
+    "concern": 50.6,
+    "county": "San Francisco",
+    "pct_gigabit_available": 73.6
+  },
+  "san-jose-ca": {
+    "concern": 31.2,
+    "county": "Santa Clara",
+    "pct_gigabit_available": 86.4
+  },
+  "san-leandro-ca": {
+    "concern": 8.3,
+    "county": "Alameda",
+    "pct_gigabit_available": 93.9
+  },
+  "san-marcos-ca": {
+    "concern": 52.6,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "san-marcos-tx": {
+    "concern": 92.3,
+    "county": "Hays",
+    "pct_gigabit_available": 45.7
+  },
+  "san-mateo-ca": {
+    "concern": 16.7,
+    "county": "San Mateo",
+    "pct_gigabit_available": 90.9
+  },
+  "san-ramon-ca": {
+    "concern": 22.2,
+    "county": "Contra Costa",
+    "pct_gigabit_available": 88.2
+  },
+  "sandpoint-id": {
+    "concern": 97.2,
+    "county": "Bonner",
+    "pct_gigabit_available": 31.7
+  },
+  "sandy-springs-ga": {
+    "concern": 19.6,
+    "county": "Fulton",
+    "pct_gigabit_available": 90.1
+  },
+  "sandy-ut": {
+    "concern": 4.6,
+    "county": "Salt Lake",
+    "pct_gigabit_available": 95.3
+  },
+  "santa-ana-ca": {
+    "concern": 60.9,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "santa-barbara-ca": {
+    "concern": 50.2,
+    "county": "Santa Barbara",
+    "pct_gigabit_available": 74.2
+  },
+  "santa-clara-ca": {
+    "concern": 30.8,
+    "county": "Santa Clara",
+    "pct_gigabit_available": 86.4
+  },
+  "santa-clarita-ca": {
+    "concern": 82.7,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "santa-fe-nm": {
+    "concern": 99.2,
+    "county": "Santa Fe",
+    "pct_gigabit_available": 10.6
+  },
+  "santa-maria-ca": {
+    "concern": 50.4,
+    "county": "Santa Barbara",
+    "pct_gigabit_available": 74.2
+  },
+  "santa-monica-ca": {
+    "concern": 79.6,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "santa-rosa-ca": {
+    "concern": 86.5,
+    "county": "Sonoma",
+    "pct_gigabit_available": 54.7
+  },
+  "savannah-ga": {
+    "concern": 39.7,
+    "county": "Chatham",
+    "pct_gigabit_available": 82.2
+  },
+  "schaumburg-il": {
+    "concern": 54.4,
+    "county": "Cook",
+    "pct_gigabit_available": 70.3
+  },
+  "scottsdale-az": {
+    "concern": 56.2,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "seattle-wa": {
+    "concern": 33.9,
+    "county": "King",
+    "pct_gigabit_available": 85.1
+  },
+  "shreveport-la": {
+    "concern": 74.2,
+    "county": "Caddo",
+    "pct_gigabit_available": 61.9
+  },
+  "simi-valley-ca": {
+    "concern": 83.9,
+    "county": "Ventura",
+    "pct_gigabit_available": 58.1
+  },
+  "sioux-city-ia": {
+    "concern": 47.0,
+    "county": "Woodbury",
+    "pct_gigabit_available": 77.4
+  },
+  "sioux-falls-sd": {
+    "concern": 14.7,
+    "county": "Minnehaha",
+    "pct_gigabit_available": 91.5
+  },
+  "somerville-ma": {
+    "concern": 24.2,
+    "county": "Middlesex",
+    "pct_gigabit_available": 88.1
+  },
+  "south-bend-in": {
+    "concern": 52.4,
+    "county": "St. Joseph",
+    "pct_gigabit_available": 71.2
+  },
+  "south-fulton-ga": {
+    "concern": 19.8,
+    "county": "Fulton",
+    "pct_gigabit_available": 90.1
+  },
+  "south-gate-ca": {
+    "concern": 79.4,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "south-jordan-ut": {
+    "concern": 4.4,
+    "county": "Salt Lake",
+    "pct_gigabit_available": 95.3
+  },
+  "sparks-nv": {
+    "concern": 3.0,
+    "county": "Washoe",
+    "pct_gigabit_available": 96.5
+  },
+  "spokane-valley-wa": {
+    "concern": 50.8,
+    "county": "Spokane",
+    "pct_gigabit_available": 73.4
+  },
+  "spokane-wa": {
+    "concern": 51.2,
+    "county": "Spokane",
+    "pct_gigabit_available": 73.4
+  },
+  "springdale-ar": {
+    "concern": 18.7,
+    "county": "Washington",
+    "pct_gigabit_available": 90.2
+  },
+  "springfield-il": {
+    "concern": 76.8,
+    "county": "Sangamon",
+    "pct_gigabit_available": 60.2
+  },
+  "springfield-ma": {
+    "concern": 39.5,
+    "county": "Hampden",
+    "pct_gigabit_available": 82.5
+  },
+  "springfield-mo": {
+    "concern": 94.4,
+    "county": "Greene",
+    "pct_gigabit_available": 38.8
+  },
+  "st-george-ut": {
+    "concern": 74.4,
+    "county": "Washington",
+    "pct_gigabit_available": 61.8
+  },
+  "st-louis-mo": {
+    "concern": 2.2,
+    "county": "St. Louis",
+    "pct_gigabit_available": 97.0
+  },
+  "st-petersburg-fl": {
+    "concern": 89.1,
+    "county": "Pinellas",
+    "pct_gigabit_available": 50.5
+  },
+  "sterling-heights-mi": {
+    "concern": 57.5,
+    "county": "Macomb",
+    "pct_gigabit_available": 70.1
+  },
+  "stockton-ca": {
+    "concern": 36.1,
+    "county": "San Joaquin",
+    "pct_gigabit_available": 83.9
+  },
+  "suffolk-va": {
+    "concern": 66.3,
+    "county": "Suffolk",
+    "pct_gigabit_available": 66.8
+  },
+  "sugar-land-tx": {
+    "concern": 12.9,
+    "county": "Fort Bend",
+    "pct_gigabit_available": 91.8
+  },
+  "sundance-wy": {
+    "concern": 97.0,
+    "county": "Crook",
+    "pct_gigabit_available": 31.7
+  },
+  "sunnyvale-ca": {
+    "concern": 31.0,
+    "county": "Santa Clara",
+    "pct_gigabit_available": 86.4
+  },
+  "sunrise-fl": {
+    "concern": 27.0,
+    "county": "Broward",
+    "pct_gigabit_available": 87.1
+  },
+  "surprise-az": {
+    "concern": 55.6,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "syracuse-ny": {
+    "concern": 99.0,
+    "county": "Onondaga",
+    "pct_gigabit_available": 11.5
+  },
+  "tacoma-wa": {
+    "concern": 67.9,
+    "county": "Pierce",
+    "pct_gigabit_available": 65.6
+  },
+  "tallahassee-fl": {
+    "concern": 66.5,
+    "county": "Leon",
+    "pct_gigabit_available": 66.4
+  },
+  "tampa-fl": {
+    "concern": 42.7,
+    "county": "Hillsborough",
+    "pct_gigabit_available": 80.3
+  },
+  "taos-nm": {
+    "concern": 18.1,
+    "county": "Taos",
+    "pct_gigabit_available": 90.7
+  },
+  "temecula-ca": {
+    "concern": 69.6,
+    "county": "Riverside",
+    "pct_gigabit_available": 64.1
+  },
+  "tempe-az": {
+    "concern": 55.8,
+    "county": "Maricopa",
+    "pct_gigabit_available": 70.3
+  },
+  "temple-tx": {
+    "concern": 66.7,
+    "county": "Bell",
+    "pct_gigabit_available": 66.3
+  },
+  "thornton-co": {
+    "concern": 28.2,
+    "county": "Adams",
+    "pct_gigabit_available": 87.1
+  },
+  "thousand-oaks-ca": {
+    "concern": 83.7,
+    "county": "Ventura",
+    "pct_gigabit_available": 58.1
+  },
+  "toledo-oh": {
+    "concern": 85.5,
+    "county": "Lucas",
+    "pct_gigabit_available": 56.9
+  },
+  "topeka-ks": {
+    "concern": 52.0,
+    "county": "Shawnee",
+    "pct_gigabit_available": 71.8
+  },
+  "torrance-ca": {
+    "concern": 81.7,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "tracy-ca": {
+    "concern": 35.9,
+    "county": "San Joaquin",
+    "pct_gigabit_available": 83.9
+  },
+  "trenton-nj": {
+    "concern": 31.5,
+    "county": "Mercer",
+    "pct_gigabit_available": 85.3
+  },
+  "troy-mi": {
+    "concern": 76.2,
+    "county": "Oakland",
+    "pct_gigabit_available": 60.8
+  },
+  "tucson-az": {
+    "concern": 86.7,
+    "county": "Pima",
+    "pct_gigabit_available": 54.6
+  },
+  "tulsa-ok": {
+    "concern": 40.9,
+    "county": "Tulsa",
+    "pct_gigabit_available": 81.4
+  },
+  "tuscaloosa-al": {
+    "concern": 70.6,
+    "county": "Tuscaloosa",
+    "pct_gigabit_available": 64.0
+  },
+  "tustin-ca": {
+    "concern": 58.7,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "tyler-tx": {
+    "concern": 77.2,
+    "county": "Smith",
+    "pct_gigabit_available": 59.8
+  },
+  "upland-ca": {
+    "concern": 63.7,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "vacaville-ca": {
+    "concern": 25.4,
+    "county": "Solano",
+    "pct_gigabit_available": 87.6
+  },
+  "vallejo-ca": {
+    "concern": 25.8,
+    "county": "Solano",
+    "pct_gigabit_available": 87.6
+  },
+  "vancouver-wa": {
+    "concern": 44.0,
+    "county": "Clark",
+    "pct_gigabit_available": 79.6
+  },
+  "ventura-ca": {
+    "concern": 83.5,
+    "county": "Ventura",
+    "pct_gigabit_available": 58.1
+  },
+  "victorville-ca": {
+    "concern": 64.5,
+    "county": "San Bernardino",
+    "pct_gigabit_available": 67.2
+  },
+  "virginia-beach-va": {
+    "concern": 68.3,
+    "county": "Virginia Beach",
+    "pct_gigabit_available": 65.0
+  },
+  "visalia-ca": {
+    "concern": 58.1,
+    "county": "Tulare",
+    "pct_gigabit_available": 69.4
+  },
+  "vista-ca": {
+    "concern": 52.8,
+    "county": "San Diego",
+    "pct_gigabit_available": 71.0
+  },
+  "waco-tx": {
+    "concern": 87.3,
+    "county": "McLennan",
+    "pct_gigabit_available": 53.4
+  },
+  "warner-robins-ga": {
+    "concern": 30.0,
+    "county": "Houston",
+    "pct_gigabit_available": 86.6
+  },
+  "warren-mi": {
+    "concern": 57.7,
+    "county": "Macomb",
+    "pct_gigabit_available": 70.1
+  },
+  "warwick-ri": {
+    "concern": 98.2,
+    "county": "Kent",
+    "pct_gigabit_available": 21.5
+  },
+  "washington-dc": {
+    "concern": 43.5,
+    "county": "District of Columbia",
+    "pct_gigabit_available": 79.7
+  },
+  "waukegan-il": {
+    "concern": 48.2,
+    "county": "Lake",
+    "pct_gigabit_available": 75.7
+  },
+  "west-covina-ca": {
+    "concern": 81.2,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "west-jordan-ut": {
+    "concern": 4.8,
+    "county": "Salt Lake",
+    "pct_gigabit_available": 95.3
+  },
+  "west-palm-beach-fl": {
+    "concern": 45.8,
+    "county": "Palm Beach",
+    "pct_gigabit_available": 78.3
+  },
+  "west-valley-city-ut": {
+    "concern": 5.0,
+    "county": "Salt Lake",
+    "pct_gigabit_available": 95.3
+  },
+  "westland-mi": {
+    "concern": 72.0,
+    "county": "Wayne",
+    "pct_gigabit_available": 62.6
+  },
+  "westminster-ca": {
+    "concern": 59.5,
+    "county": "Orange",
+    "pct_gigabit_available": 68.8
+  },
+  "westminster-co": {
+    "concern": 29.4,
+    "county": "Jefferson",
+    "pct_gigabit_available": 86.8
+  },
+  "whitewright-tx": {
+    "concern": 87.9,
+    "county": "Grayson",
+    "pct_gigabit_available": 52.2
+  },
+  "whittier-ca": {
+    "concern": 79.2,
+    "county": "Los Angeles",
+    "pct_gigabit_available": 58.5
+  },
+  "wichita-falls-tx": {
+    "concern": 31.3,
+    "county": "Wichita",
+    "pct_gigabit_available": 85.6
+  },
+  "wichita-ks": {
+    "concern": 12.3,
+    "county": "Sedgwick",
+    "pct_gigabit_available": 92.2
+  },
+  "wilmington-nc": {
+    "concern": 77.0,
+    "county": "New Hanover",
+    "pct_gigabit_available": 60.1
+  },
+  "winston-salem-nc": {
+    "concern": 77.8,
+    "county": "Forsyth",
+    "pct_gigabit_available": 59.4
+  },
+  "woodbury-mn": {
+    "concern": 93.3,
+    "county": "Washington",
+    "pct_gigabit_available": 41.9
+  },
+  "worcester-ma": {
+    "concern": 96.2,
+    "county": "Worcester",
+    "pct_gigabit_available": 32.2
+  },
+  "wyoming-mi": {
+    "concern": 41.1,
+    "county": "Kent",
+    "pct_gigabit_available": 81.0
+  },
+  "yakima-wa": {
+    "concern": 96.4,
+    "county": "Yakima",
+    "pct_gigabit_available": 31.9
+  },
+  "yonkers-ny": {
+    "concern": 45.2,
+    "county": "Westchester",
+    "pct_gigabit_available": 78.5
+  },
+  "yuma-az": {
+    "concern": 76.4,
+    "county": "Yuma",
+    "pct_gigabit_available": 60.7
+  }
+}
