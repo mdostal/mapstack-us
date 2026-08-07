@@ -524,6 +524,22 @@ test("the thirty-first dataset (average wage) is selectable and reports a real C
   await expect(detail).toContainText("Census Business Patterns");
 });
 
+test("the thirty-second dataset (drought severity) is selectable and reports a real US Drought Monitor value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Drought severity" }).click();
+  await page.getByRole("button", { name: "Drought severity", exact: true }).click();
+  await page.getByRole("button", { name: "Add Drought severity" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Drought severity: Drought severity" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Drought severity" });
+  await expect(detail).toContainText("Severe Drought or worse");
+  await expect(detail).toContainText("US Drought Monitor");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
