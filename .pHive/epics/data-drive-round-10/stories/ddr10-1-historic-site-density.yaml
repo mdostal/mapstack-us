@@ -1,7 +1,7 @@
 id: ddr10-1-historic-site-density
 epic: data-drive-round-10
 title: Ship the 39th real dataset -- NRHP historic-site density (radius join, server-side spatial query)
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
