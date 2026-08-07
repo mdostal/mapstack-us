@@ -1,0 +1,2528 @@
+{
+  "_meta": {
+    "coverage": 504,
+    "resolution": "county (enrollment-weighted average across every district mapped to that county)",
+    "source": "Urban Institute Education Data Portal, NCES CCD F-33 school district finance survey, 2020",
+    "source_url": "https://educationdata.urban.org/documentation/"
+  },
+  "abilene-tx": {
+    "concern": 67.4,
+    "county": "Taylor",
+    "per_pupil_spending": 13842
+  },
+  "akron-oh": {
+    "concern": 31.4,
+    "county": "Summit",
+    "per_pupil_spending": 17426
+  },
+  "alameda-ca": {
+    "concern": 24.7,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "albany-ny": {
+    "concern": 3.4,
+    "county": "Albany",
+    "per_pupil_spending": 24869
+  },
+  "albuquerque-nm": {
+    "concern": 63.2,
+    "county": "Bernalillo",
+    "per_pupil_spending": 14264
+  },
+  "alexandria-va": {
+    "concern": 11.3,
+    "county": "Alexandria",
+    "per_pupil_spending": 20526
+  },
+  "alhambra-ca": {
+    "concern": 19.7,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "allen-tx": {
+    "concern": 55.5,
+    "county": "Collin",
+    "per_pupil_spending": 15135
+  },
+  "allentown-pa": {
+    "concern": 15.1,
+    "county": "Lehigh",
+    "per_pupil_spending": 19788
+  },
+  "amarillo-tx": {
+    "concern": 72.4,
+    "county": "Potter",
+    "per_pupil_spending": 13287
+  },
+  "anaheim-ca": {
+    "concern": 42.3,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "anchorage-ak": {
+    "concern": 15.9,
+    "county": "Anchorage",
+    "per_pupil_spending": 19125
+  },
+  "ankeny-ia": {
+    "concern": 53.1,
+    "county": "Polk",
+    "per_pupil_spending": 15375
+  },
+  "ann-arbor-mi": {
+    "concern": 36.4,
+    "county": "Washtenaw",
+    "per_pupil_spending": 16942
+  },
+  "antioch-ca": {
+    "concern": 52.7,
+    "county": "Contra Costa",
+    "per_pupil_spending": 15534
+  },
+  "apex-nc": {
+    "concern": 88.3,
+    "county": "Wake",
+    "per_pupil_spending": 11689
+  },
+  "arlington-tx": {
+    "concern": 60.0,
+    "county": "Tarrant",
+    "per_pupil_spending": 14719
+  },
+  "arlington-va": {
+    "concern": 3.8,
+    "county": "Arlington",
+    "per_pupil_spending": 24515
+  },
+  "arvada-co": {
+    "concern": 59.4,
+    "county": "Jefferson",
+    "per_pupil_spending": 14748
+  },
+  "asheville-nc": {
+    "concern": 75.9,
+    "county": "Buncombe",
+    "per_pupil_spending": 12894
+  },
+  "athens-ga": {
+    "concern": 47.7,
+    "county": "Clarke",
+    "per_pupil_spending": 16230
+  },
+  "atlanta-ga": {
+    "concern": 39.2,
+    "county": "Fulton",
+    "per_pupil_spending": 16646
+  },
+  "auburn-al": {
+    "concern": 74.4,
+    "county": "Lee",
+    "per_pupil_spending": 13039
+  },
+  "auburn-wa": {
+    "concern": 9.7,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "augusta-ga": {
+    "concern": 74.8,
+    "county": "Richmond",
+    "per_pupil_spending": 13009
+  },
+  "aurora-co": {
+    "concern": 48.3,
+    "county": "Arapahoe",
+    "per_pupil_spending": 16212
+  },
+  "aurora-il": {
+    "concern": 17.9,
+    "county": "Kane",
+    "per_pupil_spending": 18859
+  },
+  "austin-tx": {
+    "concern": 8.3,
+    "county": "Travis",
+    "per_pupil_spending": 21290
+  },
+  "avondale-az": {
+    "concern": 89.9,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "bakersfield-ca": {
+    "concern": 31.8,
+    "county": "Kern",
+    "per_pupil_spending": 17350
+  },
+  "baltimore-md": {
+    "concern": 11.1,
+    "county": "Baltimore",
+    "per_pupil_spending": 20673
+  },
+  "baton-rouge-la": {
+    "concern": 56.5,
+    "county": "East Baton Rouge",
+    "per_pupil_spending": 15101
+  },
+  "baytown-tx": {
+    "concern": 66.0,
+    "county": "Harris",
+    "per_pupil_spending": 13915
+  },
+  "beaumont-tx": {
+    "concern": 72.6,
+    "county": "Jefferson",
+    "per_pupil_spending": 13279
+  },
+  "beaverton-or": {
+    "concern": 33.6,
+    "county": "Washington",
+    "per_pupil_spending": 17175
+  },
+  "bellevue-wa": {
+    "concern": 10.7,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "bellingham-wa": {
+    "concern": 12.3,
+    "county": "Whatcom",
+    "per_pupil_spending": 20326
+  },
+  "bend-or": {
+    "concern": 31.2,
+    "county": "Deschutes",
+    "per_pupil_spending": 17445
+  },
+  "berkeley-ca": {
+    "concern": 25.2,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "bethlehem-pa": {
+    "concern": 8.0,
+    "county": "Northampton",
+    "per_pupil_spending": 21367
+  },
+  "billings-mt": {
+    "concern": 64.6,
+    "county": "Yellowstone",
+    "per_pupil_spending": 14075
+  },
+  "birmingham-al": {
+    "concern": 69.0,
+    "county": "Jefferson",
+    "per_pupil_spending": 13705
+  },
+  "bismarck-nd": {
+    "concern": 49.7,
+    "county": "Burleigh",
+    "per_pupil_spending": 16132
+  },
+  "blanding-ut": {
+    "concern": 32.4,
+    "county": "San Juan",
+    "per_pupil_spending": 17284
+  },
+  "bloomington-il": {
+    "concern": 29.2,
+    "county": "McLean",
+    "per_pupil_spending": 17861
+  },
+  "bloomington-in": {
+    "concern": 73.0,
+    "county": "Monroe",
+    "per_pupil_spending": 13260
+  },
+  "bloomington-mn": {
+    "concern": 16.7,
+    "county": "Hennepin",
+    "per_pupil_spending": 19038
+  },
+  "boca-raton-fl": {
+    "concern": 71.0,
+    "county": "Palm Beach",
+    "per_pupil_spending": 13485
+  },
+  "boise-id": {
+    "concern": 99.2,
+    "county": "Ada",
+    "per_pupil_spending": 9635
+  },
+  "boston-ma": {
+    "concern": 0.2,
+    "county": "Suffolk",
+    "per_pupil_spending": 33142
+  },
+  "boulder-co": {
+    "concern": 45.5,
+    "county": "Boulder",
+    "per_pupil_spending": 16491
+  },
+  "bowling-green-ky": {
+    "concern": 73.2,
+    "county": "Warren",
+    "per_pupil_spending": 13206
+  },
+  "boynton-beach-fl": {
+    "concern": 70.8,
+    "county": "Palm Beach",
+    "per_pupil_spending": 13485
+  },
+  "brockton-ma": {
+    "concern": 7.4,
+    "county": "Plymouth",
+    "per_pupil_spending": 21824
+  },
+  "broken-arrow-ok": {
+    "concern": 87.5,
+    "county": "Tulsa",
+    "per_pupil_spending": 11826
+  },
+  "brooklyn-park-mn": {
+    "concern": 16.5,
+    "county": "Hennepin",
+    "per_pupil_spending": 19038
+  },
+  "brownsville-tx": {
+    "concern": 74.6,
+    "county": "Cameron",
+    "per_pupil_spending": 13010
+  },
+  "bryan-tx": {
+    "concern": 78.9,
+    "county": "Brazos",
+    "per_pupil_spending": 12600
+  },
+  "buckeye-az": {
+    "concern": 90.3,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "buena-park-ca": {
+    "concern": 40.0,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "buffalo-ny": {
+    "concern": 4.2,
+    "county": "Erie",
+    "per_pupil_spending": 23978
+  },
+  "burbank-ca": {
+    "concern": 21.5,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "caldwell-id": {
+    "concern": 99.4,
+    "county": "Canyon",
+    "per_pupil_spending": 9443
+  },
+  "cambridge-ma": {
+    "concern": 2.2,
+    "county": "Middlesex",
+    "per_pupil_spending": 26254
+  },
+  "cape-coral-fl": {
+    "concern": 85.1,
+    "county": "Lee",
+    "per_pupil_spending": 12129
+  },
+  "carlsbad-ca": {
+    "concern": 27.8,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "carlsbad-nm": {
+    "concern": 78.5,
+    "county": "Eddy",
+    "per_pupil_spending": 12747
+  },
+  "carmel-in": {
+    "concern": 75.1,
+    "county": "Hamilton",
+    "per_pupil_spending": 13000
+  },
+  "carrollton-tx": {
+    "concern": 47.1,
+    "county": "Denton",
+    "per_pupil_spending": 16290
+  },
+  "carson-ca": {
+    "concern": 20.9,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "cary-nc": {
+    "concern": 88.5,
+    "county": "Wake",
+    "per_pupil_spending": 11689
+  },
+  "castle-rock-co": {
+    "concern": 68.2,
+    "county": "Douglas",
+    "per_pupil_spending": 13803
+  },
+  "cedar-park-tx": {
+    "concern": 54.3,
+    "county": "Williamson",
+    "per_pupil_spending": 15270
+  },
+  "cedar-rapids-ia": {
+    "concern": 50.7,
+    "county": "Linn",
+    "per_pupil_spending": 15733
+  },
+  "centennial-co": {
+    "concern": 48.1,
+    "county": "Arapahoe",
+    "per_pupil_spending": 16212
+  },
+  "champaign-il": {
+    "concern": 30.8,
+    "county": "Champaign",
+    "per_pupil_spending": 17591
+  },
+  "chandler-az": {
+    "concern": 91.5,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "charleston-sc": {
+    "concern": 11.9,
+    "county": "Charleston",
+    "per_pupil_spending": 20379
+  },
+  "charlotte-nc": {
+    "concern": 64.8,
+    "county": "Mecklenburg",
+    "per_pupil_spending": 14062
+  },
+  "chattanooga-tn": {
+    "concern": 88.1,
+    "county": "Hamilton",
+    "per_pupil_spending": 11709
+  },
+  "chesapeake-va": {
+    "concern": 62.2,
+    "county": "Chesapeake",
+    "per_pupil_spending": 14359
+  },
+  "chicago-il": {
+    "concern": 5.8,
+    "county": "Cook",
+    "per_pupil_spending": 22873
+  },
+  "chico-ca": {
+    "concern": 8.7,
+    "county": "Butte",
+    "per_pupil_spending": 21175
+  },
+  "chino-ca": {
+    "concern": 43.1,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "chino-hills-ca": {
+    "concern": 42.7,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "chula-vista-ca": {
+    "concern": 28.4,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "cicero-il": {
+    "concern": 5.6,
+    "county": "Cook",
+    "per_pupil_spending": 22873
+  },
+  "cincinnati-oh": {
+    "concern": 26.0,
+    "county": "Hamilton",
+    "per_pupil_spending": 18337
+  },
+  "citrus-heights-ca": {
+    "concern": 45.9,
+    "county": "Sacramento",
+    "per_pupil_spending": 16345
+  },
+  "clarksville-tn": {
+    "concern": 97.4,
+    "county": "Montgomery",
+    "per_pupil_spending": 10479
+  },
+  "clearwater-fl": {
+    "concern": 77.5,
+    "county": "Pinellas",
+    "per_pupil_spending": 12820
+  },
+  "cleveland-oh": {
+    "concern": 12.7,
+    "county": "Cuyahoga",
+    "per_pupil_spending": 20183
+  },
+  "clifton-nj": {
+    "concern": 1.0,
+    "county": "Passaic",
+    "per_pupil_spending": 26458
+  },
+  "clovis-ca": {
+    "concern": 36.0,
+    "county": "Fresno",
+    "per_pupil_spending": 17062
+  },
+  "college-station-tx": {
+    "concern": 79.1,
+    "county": "Brazos",
+    "per_pupil_spending": 12600
+  },
+  "colorado-springs-co": {
+    "concern": 78.1,
+    "county": "El Paso",
+    "per_pupil_spending": 12801
+  },
+  "columbia-mo": {
+    "concern": 64.2,
+    "county": "Boone",
+    "per_pupil_spending": 14162
+  },
+  "columbia-sc": {
+    "concern": 26.2,
+    "county": "Richland",
+    "per_pupil_spending": 18262
+  },
+  "columbus-ga": {
+    "concern": 84.5,
+    "county": "Muscogee",
+    "per_pupil_spending": 12204
+  },
+  "columbus-oh": {
+    "concern": 29.6,
+    "county": "Franklin",
+    "per_pupil_spending": 17738
+  },
+  "compton-ca": {
+    "concern": 20.7,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "concord-ca": {
+    "concern": 52.9,
+    "county": "Contra Costa",
+    "per_pupil_spending": 15534
+  },
+  "concord-nc": {
+    "concern": 92.2,
+    "county": "Cabarrus",
+    "per_pupil_spending": 11470
+  },
+  "conroe-tx": {
+    "concern": 72.2,
+    "county": "Montgomery",
+    "per_pupil_spending": 13297
+  },
+  "coral-springs-fl": {
+    "concern": 83.5,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "corona-ca": {
+    "concern": 35.4,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "corpus-christi-tx": {
+    "concern": 68.4,
+    "county": "Nueces",
+    "per_pupil_spending": 13779
+  },
+  "costa-mesa-ca": {
+    "concern": 41.0,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "cranston-ri": {
+    "concern": 14.3,
+    "county": "Providence",
+    "per_pupil_spending": 20044
+  },
+  "dallas-tx": {
+    "concern": 70.2,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "daly-city-ca": {
+    "concern": 5.0,
+    "county": "San Mateo",
+    "per_pupil_spending": 22940
+  },
+  "davenport-ia": {
+    "concern": 74.0,
+    "county": "Scott",
+    "per_pupil_spending": 13156
+  },
+  "davie-fl": {
+    "concern": 83.1,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "dayton-oh": {
+    "concern": 30.6,
+    "county": "Montgomery",
+    "per_pupil_spending": 17595
+  },
+  "daytona-beach-fl": {
+    "concern": 94.8,
+    "county": "Volusia",
+    "per_pupil_spending": 11018
+  },
+  "dearborn-mi": {
+    "concern": 57.7,
+    "county": "Wayne",
+    "per_pupil_spending": 15057
+  },
+  "deerfield-beach-fl": {
+    "concern": 82.5,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "deltona-fl": {
+    "concern": 95.0,
+    "county": "Volusia",
+    "per_pupil_spending": 11018
+  },
+  "denton-tx": {
+    "concern": 47.5,
+    "county": "Denton",
+    "per_pupil_spending": 16290
+  },
+  "denver-co": {
+    "concern": 42.5,
+    "county": "Denver",
+    "per_pupil_spending": 16593
+  },
+  "des-moines-ia": {
+    "concern": 53.3,
+    "county": "Polk",
+    "per_pupil_spending": 15375
+  },
+  "detroit-mi": {
+    "concern": 57.9,
+    "county": "Wayne",
+    "per_pupil_spending": 15057
+  },
+  "doral-fl": {
+    "concern": 80.3,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "downey-ca": {
+    "concern": 22.1,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "duluth-mn": {
+    "concern": 15.7,
+    "county": "St. Louis",
+    "per_pupil_spending": 19553
+  },
+  "durango-co": {
+    "concern": 85.5,
+    "county": "La Plata",
+    "per_pupil_spending": 12104
+  },
+  "durham-nc": {
+    "concern": 76.7,
+    "county": "Durham",
+    "per_pupil_spending": 12833
+  },
+  "edinburg-tx": {
+    "concern": 81.9,
+    "county": "Hidalgo",
+    "per_pupil_spending": 12333
+  },
+  "edmond-ok": {
+    "concern": 98.4,
+    "county": "Oklahoma",
+    "per_pupil_spending": 9937
+  },
+  "el-cajon-ca": {
+    "concern": 27.6,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "el-monte-ca": {
+    "concern": 21.7,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "el-paso-tx": {
+    "concern": 55.3,
+    "county": "El Paso",
+    "per_pupil_spending": 15180
+  },
+  "elgin-il": {
+    "concern": 17.7,
+    "county": "Kane",
+    "per_pupil_spending": 18859
+  },
+  "elizabeth-nj": {
+    "concern": 6.8,
+    "county": "Union",
+    "per_pupil_spending": 22644
+  },
+  "elk-grove-ca": {
+    "concern": 46.5,
+    "county": "Sacramento",
+    "per_pupil_spending": 16345
+  },
+  "erie-pa": {
+    "concern": 18.7,
+    "county": "Erie",
+    "per_pupil_spending": 18730
+  },
+  "escondido-ca": {
+    "concern": 28.0,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "eugene-or": {
+    "concern": 50.3,
+    "county": "Lane",
+    "per_pupil_spending": 15893
+  },
+  "evansville-in": {
+    "concern": 87.9,
+    "county": "Vanderburgh",
+    "per_pupil_spending": 11819
+  },
+  "everett-wa": {
+    "concern": 26.6,
+    "county": "Snohomish",
+    "per_pupil_spending": 18041
+  },
+  "fairfield-ca": {
+    "concern": 53.7,
+    "county": "Solano",
+    "per_pupil_spending": 15371
+  },
+  "fall-river-ma": {
+    "concern": 6.4,
+    "county": "Bristol",
+    "per_pupil_spending": 22786
+  },
+  "fargo-nd": {
+    "concern": 18.5,
+    "county": "Cass",
+    "per_pupil_spending": 18778
+  },
+  "farmington-hills-mi": {
+    "concern": 38.0,
+    "county": "Oakland",
+    "per_pupil_spending": 16654
+  },
+  "fayetteville-ar": {
+    "concern": 79.5,
+    "county": "Washington",
+    "per_pupil_spending": 12499
+  },
+  "fayetteville-nc": {
+    "concern": 96.8,
+    "county": "Cumberland",
+    "per_pupil_spending": 10726
+  },
+  "federal-way-wa": {
+    "concern": 10.1,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "fishers-in": {
+    "concern": 75.0,
+    "county": "Hamilton",
+    "per_pupil_spending": 13000
+  },
+  "flagstaff-az": {
+    "concern": 68.0,
+    "county": "Coconino",
+    "per_pupil_spending": 13808
+  },
+  "flint-mi": {
+    "concern": 72.8,
+    "county": "Genesee",
+    "per_pupil_spending": 13272
+  },
+  "flower-mound-tx": {
+    "concern": 46.9,
+    "county": "Denton",
+    "per_pupil_spending": 16290
+  },
+  "folsom-ca": {
+    "concern": 46.3,
+    "county": "Sacramento",
+    "per_pupil_spending": 16345
+  },
+  "fontana-ca": {
+    "concern": 44.3,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "fort-collins-co": {
+    "concern": 17.3,
+    "county": "Larimer",
+    "per_pupil_spending": 19035
+  },
+  "fort-lauderdale-fl": {
+    "concern": 84.3,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "fort-myers-fl": {
+    "concern": 84.9,
+    "county": "Lee",
+    "per_pupil_spending": 12129
+  },
+  "fort-smith-ar": {
+    "concern": 51.3,
+    "county": "Sebastian",
+    "per_pupil_spending": 15642
+  },
+  "fort-wayne-in": {
+    "concern": 77.1,
+    "county": "Allen",
+    "per_pupil_spending": 12826
+  },
+  "fort-worth-tx": {
+    "concern": 60.2,
+    "county": "Tarrant",
+    "per_pupil_spending": 14719
+  },
+  "franklin-tn": {
+    "concern": 67.8,
+    "county": "Williamson",
+    "per_pupil_spending": 13809
+  },
+  "frederick-md": {
+    "concern": 28.8,
+    "county": "Frederick",
+    "per_pupil_spending": 17872
+  },
+  "fremont-ca": {
+    "concern": 25.6,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "fresno-ca": {
+    "concern": 36.2,
+    "county": "Fresno",
+    "per_pupil_spending": 17062
+  },
+  "frisco-tx": {
+    "concern": 55.9,
+    "county": "Collin",
+    "per_pupil_spending": 15135
+  },
+  "fullerton-ca": {
+    "concern": 41.4,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "gainesville-fl": {
+    "concern": 60.8,
+    "county": "Alachua",
+    "per_pupil_spending": 14664
+  },
+  "garden-grove-ca": {
+    "concern": 41.6,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "garland-tx": {
+    "concern": 69.8,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "gastonia-nc": {
+    "concern": 96.0,
+    "county": "Gaston",
+    "per_pupil_spending": 10909
+  },
+  "georgetown-tx": {
+    "concern": 54.7,
+    "county": "Williamson",
+    "per_pupil_spending": 15270
+  },
+  "geraldine-mt": {
+    "concern": 27.0,
+    "county": "Chouteau",
+    "per_pupil_spending": 17943
+  },
+  "gilbert-az": {
+    "concern": 91.7,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "glendale-az": {
+    "concern": 91.3,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "glendale-ca": {
+    "concern": 23.3,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "goodyear-az": {
+    "concern": 90.1,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "grand-junction-co": {
+    "concern": 76.3,
+    "county": "Mesa",
+    "per_pupil_spending": 12869
+  },
+  "grand-prairie-tx": {
+    "concern": 69.6,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "grand-rapids-mi": {
+    "concern": 51.1,
+    "county": "Kent",
+    "per_pupil_spending": 15709
+  },
+  "greeley-co": {
+    "concern": 44.7,
+    "county": "Weld",
+    "per_pupil_spending": 16565
+  },
+  "green-bay-wi": {
+    "concern": 50.1,
+    "county": "Brown",
+    "per_pupil_spending": 15966
+  },
+  "greensboro-nc": {
+    "concern": 89.3,
+    "county": "Guilford",
+    "per_pupil_spending": 11584
+  },
+  "greenville-nc": {
+    "concern": 94.0,
+    "county": "Pitt",
+    "per_pupil_spending": 11211
+  },
+  "gresham-or": {
+    "concern": 8.9,
+    "county": "Multnomah",
+    "per_pupil_spending": 21140
+  },
+  "hampton-va": {
+    "concern": 72.0,
+    "county": "Hampton",
+    "per_pupil_spending": 13298
+  },
+  "hawthorne-ca": {
+    "concern": 19.9,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "hayward-ca": {
+    "concern": 25.4,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "hemet-ca": {
+    "concern": 34.2,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "henderson-nv": {
+    "concern": 85.9,
+    "county": "Clark",
+    "per_pupil_spending": 12103
+  },
+  "hesperia-ca": {
+    "concern": 43.3,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "hialeah-fl": {
+    "concern": 80.9,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "high-point-nc": {
+    "concern": 89.1,
+    "county": "Guilford",
+    "per_pupil_spending": 11584
+  },
+  "hillsboro-or": {
+    "concern": 33.8,
+    "county": "Washington",
+    "per_pupil_spending": 17175
+  },
+  "hollywood-fl": {
+    "concern": 83.9,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "homestead-fl": {
+    "concern": 80.5,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "honolulu-hi": {
+    "concern": 29.8,
+    "county": "Honolulu",
+    "per_pupil_spending": 17656
+  },
+  "hoover-al": {
+    "concern": 68.8,
+    "county": "Jefferson",
+    "per_pupil_spending": 13705
+  },
+  "houston-tx": {
+    "concern": 66.4,
+    "county": "Harris",
+    "per_pupil_spending": 13915
+  },
+  "huntington-beach-ca": {
+    "concern": 41.7,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "huntsville-al": {
+    "concern": 79.7,
+    "county": "Madison",
+    "per_pupil_spending": 12493
+  },
+  "independence-mo": {
+    "concern": 56.9,
+    "county": "Jackson",
+    "per_pupil_spending": 15087
+  },
+  "indianapolis-in": {
+    "concern": 62.4,
+    "county": "Marion",
+    "per_pupil_spending": 14336
+  },
+  "indio-ca": {
+    "concern": 34.4,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "inglewood-ca": {
+    "concern": 21.3,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "irvine-ca": {
+    "concern": 42.1,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "irving-tx": {
+    "concern": 70.0,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "jackson-ms": {
+    "concern": 75.7,
+    "county": "Hinds",
+    "per_pupil_spending": 12921
+  },
+  "jacksonville-fl": {
+    "concern": 97.0,
+    "county": "Duval",
+    "per_pupil_spending": 10682
+  },
+  "jersey-city-nj": {
+    "concern": 4.0,
+    "county": "Hudson",
+    "per_pupil_spending": 24123
+  },
+  "johns-creek-ga": {
+    "concern": 38.4,
+    "county": "Fulton",
+    "per_pupil_spending": 16646
+  },
+  "joliet-il": {
+    "concern": 15.3,
+    "county": "Will",
+    "per_pupil_spending": 19633
+  },
+  "jonesboro-ar": {
+    "concern": 94.6,
+    "county": "Craighead",
+    "per_pupil_spending": 11063
+  },
+  "jurupa-valley-ca": {
+    "concern": 34.6,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "kalispell-mt": {
+    "concern": 62.0,
+    "county": "Flathead",
+    "per_pupil_spending": 14382
+  },
+  "kansas-city-ks": {
+    "concern": 33.2,
+    "county": "Wyandotte",
+    "per_pupil_spending": 17206
+  },
+  "kansas-city-mo": {
+    "concern": 57.1,
+    "county": "Jackson",
+    "per_pupil_spending": 15087
+  },
+  "kennewick-wa": {
+    "concern": 18.3,
+    "county": "Benton",
+    "per_pupil_spending": 18790
+  },
+  "kenosha-wi": {
+    "concern": 51.5,
+    "county": "Kenosha",
+    "per_pupil_spending": 15575
+  },
+  "kent-wa": {
+    "concern": 10.5,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "killeen-tx": {
+    "concern": 65.6,
+    "county": "Bell",
+    "per_pupil_spending": 13938
+  },
+  "kirkland-wa": {
+    "concern": 9.9,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "kissimmee-fl": {
+    "concern": 96.4,
+    "county": "Osceola",
+    "per_pupil_spending": 10828
+  },
+  "knoxville-tn": {
+    "concern": 97.6,
+    "county": "Knox",
+    "per_pupil_spending": 10337
+  },
+  "lafayette-la": {
+    "concern": 73.8,
+    "county": "Lafayette",
+    "per_pupil_spending": 13177
+  },
+  "lake-charles-la": {
+    "concern": 12.1,
+    "county": "Calcasieu",
+    "per_pupil_spending": 20328
+  },
+  "lake-forest-ca": {
+    "concern": 40.4,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "lakeland-fl": {
+    "concern": 76.1,
+    "county": "Polk",
+    "per_pupil_spending": 12889
+  },
+  "lakeville-mn": {
+    "concern": 37.2,
+    "county": "Dakota",
+    "per_pupil_spending": 16830
+  },
+  "lakewood-ca": {
+    "concern": 19.5,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "lakewood-co": {
+    "concern": 59.6,
+    "county": "Jefferson",
+    "per_pupil_spending": 14748
+  },
+  "lancaster-ca": {
+    "concern": 23.1,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "lansing-mi": {
+    "concern": 50.5,
+    "county": "Ingham",
+    "per_pupil_spending": 15736
+  },
+  "laredo-tx": {
+    "concern": 74.2,
+    "county": "Webb",
+    "per_pupil_spending": 13094
+  },
+  "largo-fl": {
+    "concern": 77.3,
+    "county": "Pinellas",
+    "per_pupil_spending": 12820
+  },
+  "las-cruces-nm": {
+    "concern": 76.5,
+    "county": "Do\u00f1a Ana",
+    "per_pupil_spending": 12857
+  },
+  "las-vegas-nv": {
+    "concern": 86.1,
+    "county": "Clark",
+    "per_pupil_spending": 12103
+  },
+  "lawrence-ks": {
+    "concern": 71.4,
+    "county": "Douglas",
+    "per_pupil_spending": 13432
+  },
+  "lawrence-ma": {
+    "concern": 7.0,
+    "county": "Essex",
+    "per_pupil_spending": 22575
+  },
+  "lawton-ok": {
+    "concern": 88.9,
+    "county": "Comanche",
+    "per_pupil_spending": 11667
+  },
+  "layton-ut": {
+    "concern": 98.8,
+    "county": "Davis",
+    "per_pupil_spending": 9822
+  },
+  "league-city-tx": {
+    "concern": 63.4,
+    "county": "Galveston",
+    "per_pupil_spending": 14250
+  },
+  "leander-tx": {
+    "concern": 54.5,
+    "county": "Williamson",
+    "per_pupil_spending": 15270
+  },
+  "lees-summit-mo": {
+    "concern": 56.7,
+    "county": "Jackson",
+    "per_pupil_spending": 15087
+  },
+  "lehi-ut": {
+    "concern": 98.0,
+    "county": "Utah",
+    "per_pupil_spending": 10206
+  },
+  "lewisville-tx": {
+    "concern": 47.3,
+    "county": "Denton",
+    "per_pupil_spending": 16290
+  },
+  "lexington-ky": {
+    "concern": 44.9,
+    "county": "Fayette",
+    "per_pupil_spending": 16527
+  },
+  "lincoln-ne": {
+    "concern": 32.6,
+    "county": "Lancaster",
+    "per_pupil_spending": 17278
+  },
+  "little-rock-ar": {
+    "concern": 67.0,
+    "county": "Pulaski",
+    "per_pupil_spending": 13887
+  },
+  "livermore-ca": {
+    "concern": 24.9,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "livonia-mi": {
+    "concern": 57.5,
+    "county": "Wayne",
+    "per_pupil_spending": 15057
+  },
+  "long-beach-ca": {
+    "concern": 23.7,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "longmont-co": {
+    "concern": 45.3,
+    "county": "Boulder",
+    "per_pupil_spending": 16491
+  },
+  "longview-tx": {
+    "concern": 85.3,
+    "county": "Gregg",
+    "per_pupil_spending": 12105
+  },
+  "los-alamos-nm": {
+    "concern": 60.6,
+    "county": "Los Alamos",
+    "per_pupil_spending": 14673
+  },
+  "los-angeles-ca": {
+    "concern": 23.9,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "louisville-ky": {
+    "concern": 37.4,
+    "county": "Jefferson",
+    "per_pupil_spending": 16745
+  },
+  "loveland-co": {
+    "concern": 17.1,
+    "county": "Larimer",
+    "per_pupil_spending": 19035
+  },
+  "lowell-ma": {
+    "concern": 2.0,
+    "county": "Middlesex",
+    "per_pupil_spending": 26254
+  },
+  "lubbock-tx": {
+    "concern": 71.6,
+    "county": "Lubbock",
+    "per_pupil_spending": 13414
+  },
+  "lynchburg-va": {
+    "concern": 58.8,
+    "county": "Lynchburg",
+    "per_pupil_spending": 14773
+  },
+  "lynn-ma": {
+    "concern": 7.2,
+    "county": "Essex",
+    "per_pupil_spending": 22575
+  },
+  "mableton-ga": {
+    "concern": 67.6,
+    "county": "Cobb",
+    "per_pupil_spending": 13816
+  },
+  "macon-ga": {
+    "concern": 66.8,
+    "county": "Bibb",
+    "per_pupil_spending": 13894
+  },
+  "madison-wi": {
+    "concern": 18.1,
+    "county": "Dane",
+    "per_pupil_spending": 18818
+  },
+  "manchester-nh": {
+    "concern": 24.3,
+    "county": "Hillsborough",
+    "per_pupil_spending": 18525
+  },
+  "mansfield-tx": {
+    "concern": 59.8,
+    "county": "Tarrant",
+    "per_pupil_spending": 14719
+  },
+  "manteca-ca": {
+    "concern": 36.6,
+    "county": "San Joaquin",
+    "per_pupil_spending": 16909
+  },
+  "maricopa-az": {
+    "concern": 97.2,
+    "county": "Pinal",
+    "per_pupil_spending": 10635
+  },
+  "marysville-wa": {
+    "concern": 26.4,
+    "county": "Snohomish",
+    "per_pupil_spending": 18041
+  },
+  "mcallen-tx": {
+    "concern": 82.1,
+    "county": "Hidalgo",
+    "per_pupil_spending": 12333
+  },
+  "mckinney-tx": {
+    "concern": 55.7,
+    "county": "Collin",
+    "per_pupil_spending": 15135
+  },
+  "medford-or": {
+    "concern": 51.7,
+    "county": "Jackson",
+    "per_pupil_spending": 15562
+  },
+  "melbourne-fl": {
+    "concern": 95.2,
+    "county": "Brevard",
+    "per_pupil_spending": 10991
+  },
+  "memphis-tn": {
+    "concern": 79.9,
+    "county": "Shelby",
+    "per_pupil_spending": 12462
+  },
+  "menifee-ca": {
+    "concern": 35.2,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "merced-ca": {
+    "concern": 32.8,
+    "county": "Merced",
+    "per_pupil_spending": 17244
+  },
+  "meridian-id": {
+    "concern": 99.0,
+    "county": "Ada",
+    "per_pupil_spending": 9635
+  },
+  "mesa-az": {
+    "concern": 91.8,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "mesquite-tx": {
+    "concern": 69.4,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "miami-beach-fl": {
+    "concern": 80.1,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "miami-fl": {
+    "concern": 81.1,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "miami-gardens-fl": {
+    "concern": 80.7,
+    "county": "Miami-Dade",
+    "per_pupil_spending": 12440
+  },
+  "midland-tx": {
+    "concern": 30.0,
+    "county": "Midland",
+    "per_pupil_spending": 17643
+  },
+  "milpitas-ca": {
+    "concern": 12.9,
+    "county": "Santa Clara",
+    "per_pupil_spending": 20144
+  },
+  "milwaukee-wi": {
+    "concern": 29.0,
+    "county": "Milwaukee",
+    "per_pupil_spending": 17863
+  },
+  "minneapolis-mn": {
+    "concern": 16.9,
+    "county": "Hennepin",
+    "per_pupil_spending": 19038
+  },
+  "miramar-fl": {
+    "concern": 83.7,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "mission-tx": {
+    "concern": 81.7,
+    "county": "Hidalgo",
+    "per_pupil_spending": 12333
+  },
+  "mission-viejo-ca": {
+    "concern": 40.8,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "missoula-mt": {
+    "concern": 64.4,
+    "county": "Missoula",
+    "per_pupil_spending": 14101
+  },
+  "missouri-city-tx": {
+    "concern": 62.6,
+    "county": "Fort Bend",
+    "per_pupil_spending": 14270
+  },
+  "mobile-al": {
+    "concern": 86.9,
+    "county": "Mobile",
+    "per_pupil_spending": 11934
+  },
+  "modesto-ca": {
+    "concern": 33.4,
+    "county": "Stanislaus",
+    "per_pupil_spending": 17188
+  },
+  "montgomery-al": {
+    "concern": 89.5,
+    "county": "Montgomery",
+    "per_pupil_spending": 11569
+  },
+  "monticello-ut": {
+    "concern": 32.2,
+    "county": "San Juan",
+    "per_pupil_spending": 17284
+  },
+  "moreno-valley-ca": {
+    "concern": 35.6,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "mount-pleasant-sc": {
+    "concern": 11.5,
+    "county": "Charleston",
+    "per_pupil_spending": 20379
+  },
+  "mountain-view-ca": {
+    "concern": 13.1,
+    "county": "Santa Clara",
+    "per_pupil_spending": 20144
+  },
+  "murfreesboro-tn": {
+    "concern": 86.5,
+    "county": "Rutherford",
+    "per_pupil_spending": 11964
+  },
+  "murrieta-ca": {
+    "concern": 34.8,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "nampa-id": {
+    "concern": 99.6,
+    "county": "Canyon",
+    "per_pupil_spending": 9443
+  },
+  "naperville-il": {
+    "concern": 6.2,
+    "county": "DuPage",
+    "per_pupil_spending": 22826
+  },
+  "nashua-nh": {
+    "concern": 24.1,
+    "county": "Hillsborough",
+    "per_pupil_spending": 18525
+  },
+  "nashville-tn": {
+    "concern": 58.1,
+    "county": "Davidson",
+    "per_pupil_spending": 15011
+  },
+  "new-bedford-ma": {
+    "concern": 6.6,
+    "county": "Bristol",
+    "per_pupil_spending": 22786
+  },
+  "new-braunfels-tx": {
+    "concern": 70.6,
+    "county": "Comal",
+    "per_pupil_spending": 13508
+  },
+  "new-orleans-la": {
+    "concern": 13.9,
+    "county": "Orleans",
+    "per_pupil_spending": 20098
+  },
+  "new-rochelle-ny": {
+    "concern": 0.4,
+    "county": "Westchester",
+    "per_pupil_spending": 32118
+  },
+  "new-york-ny": {
+    "concern": 0.0,
+    "county": "New York",
+    "per_pupil_spending": 36822
+  },
+  "newark-nj": {
+    "concern": 1.4,
+    "county": "Essex",
+    "per_pupil_spending": 26388
+  },
+  "newport-beach-ca": {
+    "concern": 40.2,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "newport-news-va": {
+    "concern": 65.2,
+    "county": "Newport News",
+    "per_pupil_spending": 13998
+  },
+  "newton-ma": {
+    "concern": 1.8,
+    "county": "Middlesex",
+    "per_pupil_spending": 26254
+  },
+  "norfolk-va": {
+    "concern": 66.6,
+    "county": "Norfolk",
+    "per_pupil_spending": 13913
+  },
+  "norman-ok": {
+    "concern": 94.2,
+    "county": "Cleveland",
+    "per_pupil_spending": 11161
+  },
+  "north-charleston-sc": {
+    "concern": 11.7,
+    "county": "Charleston",
+    "per_pupil_spending": 20379
+  },
+  "north-las-vegas-nv": {
+    "concern": 85.7,
+    "county": "Clark",
+    "per_pupil_spending": 12103
+  },
+  "north-port-fl": {
+    "concern": 59.0,
+    "county": "Sarasota",
+    "per_pupil_spending": 14764
+  },
+  "norwalk-ca": {
+    "concern": 21.1,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "oakland-ca": {
+    "concern": 25.8,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "oceanside-ca": {
+    "concern": 28.2,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "odessa-tx": {
+    "concern": 95.6,
+    "county": "Ector",
+    "per_pupil_spending": 10958
+  },
+  "ofallon-mo": {
+    "concern": 54.1,
+    "county": "St. Charles",
+    "per_pupil_spending": 15294
+  },
+  "ogden-ut": {
+    "concern": 93.6,
+    "county": "Weber",
+    "per_pupil_spending": 11332
+  },
+  "oklahoma-city-ok": {
+    "concern": 98.6,
+    "county": "Oklahoma",
+    "per_pupil_spending": 9937
+  },
+  "olathe-ks": {
+    "concern": 48.5,
+    "county": "Johnson",
+    "per_pupil_spending": 16157
+  },
+  "omaha-ne": {
+    "concern": 45.1,
+    "county": "Douglas",
+    "per_pupil_spending": 16512
+  },
+  "ontario-ca": {
+    "concern": 44.1,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "orange-ca": {
+    "concern": 41.2,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "orem-ut": {
+    "concern": 97.8,
+    "county": "Utah",
+    "per_pupil_spending": 10206
+  },
+  "orlando-fl": {
+    "concern": 73.6,
+    "county": "Orange",
+    "per_pupil_spending": 13197
+  },
+  "overland-park-ks": {
+    "concern": 48.7,
+    "county": "Johnson",
+    "per_pupil_spending": 16157
+  },
+  "oxnard-ca": {
+    "concern": 49.5,
+    "county": "Ventura",
+    "per_pupil_spending": 16135
+  },
+  "palm-bay-fl": {
+    "concern": 95.4,
+    "county": "Brevard",
+    "per_pupil_spending": 10991
+  },
+  "palm-coast-fl": {
+    "concern": 96.6,
+    "county": "Flagler",
+    "per_pupil_spending": 10776
+  },
+  "palmdale-ca": {
+    "concern": 22.9,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "parma-oh": {
+    "concern": 12.5,
+    "county": "Cuyahoga",
+    "per_pupil_spending": 20183
+  },
+  "pasadena-ca": {
+    "concern": 22.3,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "pasadena-tx": {
+    "concern": 66.2,
+    "county": "Harris",
+    "per_pupil_spending": 13915
+  },
+  "pasco-wa": {
+    "concern": 47.9,
+    "county": "Franklin",
+    "per_pupil_spending": 16214
+  },
+  "paterson-nj": {
+    "concern": 1.2,
+    "county": "Passaic",
+    "per_pupil_spending": 26458
+  },
+  "pawtucket-ri": {
+    "concern": 14.1,
+    "county": "Providence",
+    "per_pupil_spending": 20044
+  },
+  "pearland-tx": {
+    "concern": 56.3,
+    "county": "Brazoria",
+    "per_pupil_spending": 15119
+  },
+  "pembroke-pines-fl": {
+    "concern": 84.1,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "peoria-az": {
+    "concern": 90.9,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "peoria-il": {
+    "concern": 24.5,
+    "county": "Peoria",
+    "per_pupil_spending": 18389
+  },
+  "perris-ca": {
+    "concern": 34.0,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "pharr-tx": {
+    "concern": 81.5,
+    "county": "Hidalgo",
+    "per_pupil_spending": 12333
+  },
+  "philadelphia-pa": {
+    "concern": 2.6,
+    "county": "Philadelphia",
+    "per_pupil_spending": 25857
+  },
+  "phoenix-az": {
+    "concern": 92.0,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "pittsburg-ca": {
+    "concern": 52.1,
+    "county": "Contra Costa",
+    "per_pupil_spending": 15534
+  },
+  "pittsburgh-pa": {
+    "concern": 4.4,
+    "county": "Allegheny",
+    "per_pupil_spending": 23383
+  },
+  "plano-tx": {
+    "concern": 56.1,
+    "county": "Collin",
+    "per_pupil_spending": 15135
+  },
+  "plantation-fl": {
+    "concern": 82.9,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "plymouth-mn": {
+    "concern": 16.3,
+    "county": "Hennepin",
+    "per_pupil_spending": 19038
+  },
+  "pomona-ca": {
+    "concern": 22.7,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "pompano-beach-fl": {
+    "concern": 83.3,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "port-st-lucie-fl": {
+    "concern": 93.8,
+    "county": "St. Lucie",
+    "per_pupil_spending": 11275
+  },
+  "portland-or": {
+    "concern": 9.1,
+    "county": "Multnomah",
+    "per_pupil_spending": 21140
+  },
+  "portsmouth-va": {
+    "concern": 65.8,
+    "county": "Portsmouth",
+    "per_pupil_spending": 13932
+  },
+  "providence-ri": {
+    "concern": 14.5,
+    "county": "Providence",
+    "per_pupil_spending": 20044
+  },
+  "provo-ut": {
+    "concern": 98.2,
+    "county": "Utah",
+    "per_pupil_spending": 10206
+  },
+  "pueblo-co": {
+    "concern": 77.9,
+    "county": "Pueblo",
+    "per_pupil_spending": 12818
+  },
+  "queen-creek-az": {
+    "concern": 89.7,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "quincy-ma": {
+    "concern": 3.6,
+    "county": "Norfolk",
+    "per_pupil_spending": 24777
+  },
+  "racine-wi": {
+    "concern": 14.7,
+    "county": "Racine",
+    "per_pupil_spending": 19879
+  },
+  "raleigh-nc": {
+    "concern": 88.7,
+    "county": "Wake",
+    "per_pupil_spending": 11689
+  },
+  "rancho-cordova-ca": {
+    "concern": 46.1,
+    "county": "Sacramento",
+    "per_pupil_spending": 16345
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 43.9,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "rapid-city-sd": {
+    "concern": 93.4,
+    "county": "Pennington",
+    "per_pupil_spending": 11366
+  },
+  "reading-pa": {
+    "concern": 17.5,
+    "county": "Berks",
+    "per_pupil_spending": 18915
+  },
+  "redding-ca": {
+    "concern": 31.0,
+    "county": "Shasta",
+    "per_pupil_spending": 17532
+  },
+  "redmond-wa": {
+    "concern": 9.5,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "redwood-city-ca": {
+    "concern": 4.8,
+    "county": "San Mateo",
+    "per_pupil_spending": 22940
+  },
+  "reno-nv": {
+    "concern": 64.0,
+    "county": "Washoe",
+    "per_pupil_spending": 14175
+  },
+  "renton-wa": {
+    "concern": 10.3,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "rialto-ca": {
+    "concern": 43.5,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "richardson-tx": {
+    "concern": 69.2,
+    "county": "Dallas",
+    "per_pupil_spending": 13644
+  },
+  "richmond-ca": {
+    "concern": 52.5,
+    "county": "Contra Costa",
+    "per_pupil_spending": 15534
+  },
+  "richmond-va": {
+    "concern": 58.3,
+    "county": "Richmond",
+    "per_pupil_spending": 15004
+  },
+  "rio-rancho-nm": {
+    "concern": 68.6,
+    "county": "Sandoval",
+    "per_pupil_spending": 13728
+  },
+  "riverside-ca": {
+    "concern": 35.8,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "roanoke-va": {
+    "concern": 61.2,
+    "county": "Roanoke",
+    "per_pupil_spending": 14620
+  },
+  "rochester-hills-mi": {
+    "concern": 37.8,
+    "county": "Oakland",
+    "per_pupil_spending": 16654
+  },
+  "rochester-mn": {
+    "concern": 33.0,
+    "county": "Olmsted",
+    "per_pupil_spending": 17242
+  },
+  "rochester-ny": {
+    "concern": 2.4,
+    "county": "Monroe",
+    "per_pupil_spending": 26096
+  },
+  "rockford-il": {
+    "concern": 26.8,
+    "county": "Winnebago",
+    "per_pupil_spending": 18032
+  },
+  "rocklin-ca": {
+    "concern": 39.4,
+    "county": "Placer",
+    "per_pupil_spending": 16612
+  },
+  "rogers-ar": {
+    "concern": 81.3,
+    "county": "Benton",
+    "per_pupil_spending": 12414
+  },
+  "roseville-ca": {
+    "concern": 39.6,
+    "county": "Placer",
+    "per_pupil_spending": 16612
+  },
+  "roswell-ga": {
+    "concern": 38.6,
+    "county": "Fulton",
+    "per_pupil_spending": 16646
+  },
+  "round-rock-tx": {
+    "concern": 54.9,
+    "county": "Williamson",
+    "per_pupil_spending": 15270
+  },
+  "sacramento-ca": {
+    "concern": 46.7,
+    "county": "Sacramento",
+    "per_pupil_spending": 16345
+  },
+  "saint-paul-mn": {
+    "concern": 8.5,
+    "county": "Ramsey",
+    "per_pupil_spending": 21257
+  },
+  "salem-or": {
+    "concern": 16.1,
+    "county": "Marion",
+    "per_pupil_spending": 19087
+  },
+  "salinas-ca": {
+    "concern": 19.3,
+    "county": "Monterey",
+    "per_pupil_spending": 18573
+  },
+  "salt-lake-city-ut": {
+    "concern": 93.2,
+    "county": "Salt Lake",
+    "per_pupil_spending": 11442
+  },
+  "san-angelo-tx": {
+    "concern": 96.2,
+    "county": "Tom Green",
+    "per_pupil_spending": 10892
+  },
+  "san-antonio-tx": {
+    "concern": 71.8,
+    "county": "Bexar",
+    "per_pupil_spending": 13323
+  },
+  "san-bernardino-ca": {
+    "concern": 44.5,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "san-diego-ca": {
+    "concern": 28.6,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "san-francisco-ca": {
+    "concern": 6.0,
+    "county": "San Francisco",
+    "per_pupil_spending": 22855
+  },
+  "san-jose-ca": {
+    "concern": 13.7,
+    "county": "Santa Clara",
+    "per_pupil_spending": 20144
+  },
+  "san-leandro-ca": {
+    "concern": 25.0,
+    "county": "Alameda",
+    "per_pupil_spending": 18368
+  },
+  "san-marcos-ca": {
+    "concern": 27.2,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "san-marcos-tx": {
+    "concern": 60.4,
+    "county": "Hays",
+    "per_pupil_spending": 14677
+  },
+  "san-mateo-ca": {
+    "concern": 5.2,
+    "county": "San Mateo",
+    "per_pupil_spending": 22940
+  },
+  "san-ramon-ca": {
+    "concern": 52.3,
+    "county": "Contra Costa",
+    "per_pupil_spending": 15534
+  },
+  "sandpoint-id": {
+    "concern": 86.3,
+    "county": "Bonner",
+    "per_pupil_spending": 12012
+  },
+  "sandy-springs-ga": {
+    "concern": 38.8,
+    "county": "Fulton",
+    "per_pupil_spending": 16646
+  },
+  "sandy-ut": {
+    "concern": 92.6,
+    "county": "Salt Lake",
+    "per_pupil_spending": 11442
+  },
+  "santa-ana-ca": {
+    "concern": 41.9,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "santa-barbara-ca": {
+    "concern": 30.2,
+    "county": "Santa Barbara",
+    "per_pupil_spending": 17632
+  },
+  "santa-clara-ca": {
+    "concern": 13.3,
+    "county": "Santa Clara",
+    "per_pupil_spending": 20144
+  },
+  "santa-clarita-ca": {
+    "concern": 23.5,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "santa-fe-nm": {
+    "concern": 61.0,
+    "county": "Santa Fe",
+    "per_pupil_spending": 14657
+  },
+  "santa-maria-ca": {
+    "concern": 30.4,
+    "county": "Santa Barbara",
+    "per_pupil_spending": 17632
+  },
+  "santa-monica-ca": {
+    "concern": 20.5,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "santa-rosa-ca": {
+    "concern": 14.9,
+    "county": "Sonoma",
+    "per_pupil_spending": 19852
+  },
+  "savannah-ga": {
+    "concern": 55.1,
+    "county": "Chatham",
+    "per_pupil_spending": 15246
+  },
+  "schaumburg-il": {
+    "concern": 5.4,
+    "county": "Cook",
+    "per_pupil_spending": 22873
+  },
+  "scottsdale-az": {
+    "concern": 91.1,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "seattle-wa": {
+    "concern": 10.9,
+    "county": "King",
+    "per_pupil_spending": 21003
+  },
+  "shreveport-la": {
+    "concern": 65.0,
+    "county": "Caddo",
+    "per_pupil_spending": 14015
+  },
+  "simi-valley-ca": {
+    "concern": 49.3,
+    "county": "Ventura",
+    "per_pupil_spending": 16135
+  },
+  "sioux-city-ia": {
+    "concern": 76.9,
+    "county": "Woodbury",
+    "per_pupil_spending": 12826
+  },
+  "sioux-falls-sd": {
+    "concern": 75.3,
+    "county": "Minnehaha",
+    "per_pupil_spending": 12996
+  },
+  "somerville-ma": {
+    "concern": 1.6,
+    "county": "Middlesex",
+    "per_pupil_spending": 26254
+  },
+  "south-bend-in": {
+    "concern": 84.7,
+    "county": "St. Joseph",
+    "per_pupil_spending": 12149
+  },
+  "south-fulton-ga": {
+    "concern": 39.0,
+    "county": "Fulton",
+    "per_pupil_spending": 16646
+  },
+  "south-gate-ca": {
+    "concern": 20.3,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "south-jordan-ut": {
+    "concern": 92.4,
+    "county": "Salt Lake",
+    "per_pupil_spending": 11442
+  },
+  "sparks-nv": {
+    "concern": 63.8,
+    "county": "Washoe",
+    "per_pupil_spending": 14175
+  },
+  "spokane-valley-wa": {
+    "concern": 18.9,
+    "county": "Spokane",
+    "per_pupil_spending": 18722
+  },
+  "spokane-wa": {
+    "concern": 19.1,
+    "county": "Spokane",
+    "per_pupil_spending": 18722
+  },
+  "springdale-ar": {
+    "concern": 79.3,
+    "county": "Washington",
+    "per_pupil_spending": 12499
+  },
+  "springfield-il": {
+    "concern": 31.6,
+    "county": "Sangamon",
+    "per_pupil_spending": 17373
+  },
+  "springfield-ma": {
+    "concern": 4.6,
+    "county": "Hampden",
+    "per_pupil_spending": 23370
+  },
+  "springfield-mo": {
+    "concern": 61.8,
+    "county": "Greene",
+    "per_pupil_spending": 14518
+  },
+  "st-george-ut": {
+    "concern": 100.0,
+    "county": "Washington",
+    "per_pupil_spending": 9357
+  },
+  "st-louis-mo": {
+    "concern": 37.6,
+    "county": "St. Louis",
+    "per_pupil_spending": 16671
+  },
+  "st-petersburg-fl": {
+    "concern": 77.7,
+    "county": "Pinellas",
+    "per_pupil_spending": 12820
+  },
+  "sterling-heights-mi": {
+    "concern": 61.4,
+    "county": "Macomb",
+    "per_pupil_spending": 14610
+  },
+  "stockton-ca": {
+    "concern": 37.0,
+    "county": "San Joaquin",
+    "per_pupil_spending": 16909
+  },
+  "suffolk-va": {
+    "concern": 70.4,
+    "county": "Suffolk",
+    "per_pupil_spending": 13620
+  },
+  "sugar-land-tx": {
+    "concern": 62.8,
+    "county": "Fort Bend",
+    "per_pupil_spending": 14270
+  },
+  "sundance-wy": {
+    "concern": 9.3,
+    "county": "Crook",
+    "per_pupil_spending": 21052
+  },
+  "sunnyvale-ca": {
+    "concern": 13.5,
+    "county": "Santa Clara",
+    "per_pupil_spending": 20144
+  },
+  "sunrise-fl": {
+    "concern": 82.7,
+    "county": "Broward",
+    "per_pupil_spending": 12217
+  },
+  "surprise-az": {
+    "concern": 90.5,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "syracuse-ny": {
+    "concern": 3.2,
+    "county": "Onondaga",
+    "per_pupil_spending": 25218
+  },
+  "tacoma-wa": {
+    "concern": 15.5,
+    "county": "Pierce",
+    "per_pupil_spending": 19573
+  },
+  "tallahassee-fl": {
+    "concern": 95.8,
+    "county": "Leon",
+    "per_pupil_spending": 10951
+  },
+  "tampa-fl": {
+    "concern": 94.4,
+    "county": "Hillsborough",
+    "per_pupil_spending": 11103
+  },
+  "taos-nm": {
+    "concern": 45.7,
+    "county": "Taos",
+    "per_pupil_spending": 16453
+  },
+  "temecula-ca": {
+    "concern": 35.0,
+    "county": "Riverside",
+    "per_pupil_spending": 17076
+  },
+  "tempe-az": {
+    "concern": 90.7,
+    "county": "Maricopa",
+    "per_pupil_spending": 11501
+  },
+  "temple-tx": {
+    "concern": 65.4,
+    "county": "Bell",
+    "per_pupil_spending": 13938
+  },
+  "thornton-co": {
+    "concern": 58.4,
+    "county": "Adams",
+    "per_pupil_spending": 14943
+  },
+  "thousand-oaks-ca": {
+    "concern": 49.1,
+    "county": "Ventura",
+    "per_pupil_spending": 16135
+  },
+  "toledo-oh": {
+    "concern": 67.2,
+    "county": "Lucas",
+    "per_pupil_spending": 13846
+  },
+  "topeka-ks": {
+    "concern": 63.6,
+    "county": "Shawnee",
+    "per_pupil_spending": 14220
+  },
+  "torrance-ca": {
+    "concern": 22.5,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "tracy-ca": {
+    "concern": 36.8,
+    "county": "San Joaquin",
+    "per_pupil_spending": 16909
+  },
+  "trenton-nj": {
+    "concern": 2.8,
+    "county": "Mercer",
+    "per_pupil_spending": 25567
+  },
+  "troy-mi": {
+    "concern": 38.2,
+    "county": "Oakland",
+    "per_pupil_spending": 16654
+  },
+  "tucson-az": {
+    "concern": 87.1,
+    "county": "Pima",
+    "per_pupil_spending": 11910
+  },
+  "tulsa-ok": {
+    "concern": 87.7,
+    "county": "Tulsa",
+    "per_pupil_spending": 11826
+  },
+  "tuscaloosa-al": {
+    "concern": 82.3,
+    "county": "Tuscaloosa",
+    "per_pupil_spending": 12295
+  },
+  "tustin-ca": {
+    "concern": 39.8,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "tyler-tx": {
+    "concern": 78.7,
+    "county": "Smith",
+    "per_pupil_spending": 12740
+  },
+  "upland-ca": {
+    "concern": 42.9,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "vacaville-ca": {
+    "concern": 53.5,
+    "county": "Solano",
+    "per_pupil_spending": 15371
+  },
+  "vallejo-ca": {
+    "concern": 53.9,
+    "county": "Solano",
+    "per_pupil_spending": 15371
+  },
+  "vancouver-wa": {
+    "concern": 7.6,
+    "county": "Clark",
+    "per_pupil_spending": 21591
+  },
+  "ventura-ca": {
+    "concern": 48.9,
+    "county": "Ventura",
+    "per_pupil_spending": 16135
+  },
+  "victorville-ca": {
+    "concern": 43.7,
+    "county": "San Bernardino",
+    "per_pupil_spending": 16567
+  },
+  "virginia-beach-va": {
+    "concern": 63.0,
+    "county": "Virginia Beach",
+    "per_pupil_spending": 14268
+  },
+  "visalia-ca": {
+    "concern": 32.0,
+    "county": "Tulare",
+    "per_pupil_spending": 17292
+  },
+  "vista-ca": {
+    "concern": 27.4,
+    "county": "San Diego",
+    "per_pupil_spending": 17884
+  },
+  "waco-tx": {
+    "concern": 78.3,
+    "county": "McLennan",
+    "per_pupil_spending": 12787
+  },
+  "warner-robins-ga": {
+    "concern": 73.4,
+    "county": "Houston",
+    "per_pupil_spending": 13206
+  },
+  "warren-mi": {
+    "concern": 61.6,
+    "county": "Macomb",
+    "per_pupil_spending": 14610
+  },
+  "warwick-ri": {
+    "concern": 7.8,
+    "county": "Kent",
+    "per_pupil_spending": 21379
+  },
+  "washington-dc": {
+    "concern": 0.8,
+    "county": "District of Columbia",
+    "per_pupil_spending": 31911
+  },
+  "waukegan-il": {
+    "concern": 3.0,
+    "county": "Lake",
+    "per_pupil_spending": 25455
+  },
+  "west-covina-ca": {
+    "concern": 21.9,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "west-jordan-ut": {
+    "concern": 92.8,
+    "county": "Salt Lake",
+    "per_pupil_spending": 11442
+  },
+  "west-palm-beach-fl": {
+    "concern": 71.2,
+    "county": "Palm Beach",
+    "per_pupil_spending": 13485
+  },
+  "west-valley-city-ut": {
+    "concern": 93.0,
+    "county": "Salt Lake",
+    "per_pupil_spending": 11442
+  },
+  "westland-mi": {
+    "concern": 57.3,
+    "county": "Wayne",
+    "per_pupil_spending": 15057
+  },
+  "westminster-ca": {
+    "concern": 40.6,
+    "county": "Orange",
+    "per_pupil_spending": 16598
+  },
+  "westminster-co": {
+    "concern": 59.2,
+    "county": "Jefferson",
+    "per_pupil_spending": 14748
+  },
+  "whitewright-tx": {
+    "concern": 49.9,
+    "county": "Grayson",
+    "per_pupil_spending": 16089
+  },
+  "whittier-ca": {
+    "concern": 20.1,
+    "county": "Los Angeles",
+    "per_pupil_spending": 18550
+  },
+  "wichita-falls-tx": {
+    "concern": 75.5,
+    "county": "Wichita",
+    "per_pupil_spending": 12969
+  },
+  "wichita-ks": {
+    "concern": 58.6,
+    "county": "Sedgwick",
+    "per_pupil_spending": 14921
+  },
+  "wilmington-nc": {
+    "concern": 86.7,
+    "county": "New Hanover",
+    "per_pupil_spending": 11937
+  },
+  "winston-salem-nc": {
+    "concern": 87.3,
+    "county": "Forsyth",
+    "per_pupil_spending": 11883
+  },
+  "woodbury-mn": {
+    "concern": 51.9,
+    "county": "Washington",
+    "per_pupil_spending": 15560
+  },
+  "worcester-ma": {
+    "concern": 8.2,
+    "county": "Worcester",
+    "per_pupil_spending": 21347
+  },
+  "wyoming-mi": {
+    "concern": 50.9,
+    "county": "Kent",
+    "per_pupil_spending": 15709
+  },
+  "yakima-wa": {
+    "concern": 29.4,
+    "county": "Yakima",
+    "per_pupil_spending": 17823
+  },
+  "yonkers-ny": {
+    "concern": 0.6,
+    "county": "Westchester",
+    "per_pupil_spending": 32118
+  },
+  "yuma-az": {
+    "concern": 99.8,
+    "county": "Yuma",
+    "per_pupil_spending": 9414
+  }
+}

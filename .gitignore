@@ -152,6 +152,11 @@ data/raw/population-change-cache/
 # data/cost-of-living.json IS committed.
 data/raw/bea-cache/
 
+# Pure fetch-scratch for the school-spending dataset build
+# (scripts/gen_school_spending_data.py) -- same posture as the caches
+# above. data/school-spending.json IS committed.
+data/raw/school-spending-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

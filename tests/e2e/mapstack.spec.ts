@@ -460,6 +460,22 @@ test("the twenty-seventh dataset (cost of living) is selectable and reports a re
   await expect(detail).toContainText("BEA Regional Price Parities");
 });
 
+test("the twenty-eighth dataset (school spending) is selectable and reports a real NCES-sourced value -- upgrades the backlog's former weak proxy-only school-quality candidate", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "School spending" }).click();
+  await page.getByRole("button", { name: "Per-pupil spending", exact: true }).click();
+  await page.getByRole("button", { name: "Add Per-pupil spending" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "School spending: Per-pupil spending" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "School spending" });
+  await expect(detail).toContainText("per-pupil school spending");
+  await expect(detail).toContainText("NCES");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
