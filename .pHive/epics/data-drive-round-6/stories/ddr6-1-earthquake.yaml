@@ -1,7 +1,7 @@
 id: ddr6-1-earthquake
 epic: data-drive-round-6
 title: Ship USGS seismic design values (earthquake risk)
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []
