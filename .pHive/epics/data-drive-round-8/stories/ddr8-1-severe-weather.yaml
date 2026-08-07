@@ -1,0 +1,71 @@
+id: ddr8-1-severe-weather
+epic: data-drive-round-8
+title: Ship NOAA Storm Events severe-weather frequency
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+description: |
+  Real NOAA Storm Events Database data (ncei.noaa.gov/pub/data/swdi/
+  stormevents/csvfiles/, a real static bulk CSV per year, confirmed live
+  during planning research). Filters to CZ_TYPE='C' (county-zone
+  events), counts real events per county via STATE_FIPS+CZ_FIPS, joins
+  to the spine via the existing city-county-fips.json crosswalk.
+
+acceptance_criteria:
+  - "Given the real 2024 Storm Events file, when fetched, then it is cached and not re-downloaded on subsequent runs."
+  - "Given a county's real event count, when scored, then higher count is more concerning, direct rescale."
+  - "Given the dataset ships, when checked against dvd-1's completeness test, then it passes with zero exceptions."
+
+steps:
+  - id: research
+    description: Confirm the live NOAA Storm Events file naming/URL pattern and CSV schema still match this story's live-verified findings.
+    agent: researcher
+  - id: implement
+    description: Write scripts/gen_severe_weather_data.py, src/lib/datasets/severe-weather.ts, data/severe-weather-methodology.md, following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "tests/severe-weather-dataset.test.ts, a new tests/e2e/mapstack.spec.ts block, then pnpm verify end to end."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting and real methodology disclosure (single-year volatility, CZ_TYPE='C' scope).
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: data/raw/city-county-fips.json
+      purpose: Existing county crosswalk this story reuses unchanged.
+
+files_to_modify: []
+code_examples:
+  - title: Real confirmed working request (live-checked during planning)
+    file: N/A
+    snippet: |
+      https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz
+      # Real fields: STATE_FIPS, CZ_FIPS, CZ_TYPE, EVENT_TYPE.
+      # Confirmed join: STATE_FIPS=40 + CZ_FIPS=141 = 40141 (Tillman County, OK), correct.
+
+design_decisions:
+  - decision: "Filter to CZ_TYPE='C' (county zones) only, not Z (NWS forecast zones) or M (marine)."
+    rationale: "County zones join directly and reliably to the existing FIPS crosswalk; forecast zones use a separate NWS zone code NOAA doesn't publish a direct county crosswalk for."
+
+risks:
+  - severity: low
+    description: "A single year's event count is real but volatile -- severe weather frequency varies significantly year to year."
+    mitigation: "Disclosed explicitly in the methodology doc, same posture as drought.ts's own snapshot disclosure."
+
+references:
+  - path: .pHive/epics/data-drive-round-8/docs/research-brief.md
+    relevant_excerpt: |
+      Confirmed the county join directly: STATE_FIPS=40 + CZ_FIPS=141...
+      resolves to 40141 -- Tillman County, OK, correctly matching the
+      event's own real location text.

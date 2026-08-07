@@ -1,0 +1,3079 @@
+{
+  "_meta": {
+    "count_cap_for_100_score": 70,
+    "coverage": 512,
+    "source": "NOAA Storm Events Database, 2024, county-zone (CZ_TYPE=C) events"
+  },
+  "abilene-tx": {
+    "county": "Taylor",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "akron-oh": {
+    "county": "Summit",
+    "event_count": 36,
+    "score": 51.4,
+    "year": 2024
+  },
+  "alameda-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "albany-ny": {
+    "county": "Albany",
+    "event_count": 47,
+    "score": 67.1,
+    "year": 2024
+  },
+  "albuquerque-nm": {
+    "county": "Bernalillo",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "alexandria-va": {
+    "county": "Alexandria",
+    "event_count": 3,
+    "score": 4.3,
+    "year": 2024
+  },
+  "alhambra-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "allen-tx": {
+    "county": "Collin",
+    "event_count": 57,
+    "score": 81.4,
+    "year": 2024
+  },
+  "allentown-pa": {
+    "county": "Lehigh",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "amarillo-tx": {
+    "county": "Potter",
+    "event_count": 18,
+    "score": 25.7,
+    "year": 2024
+  },
+  "anaheim-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "anchorage-ak": {
+    "county": "Anchorage",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "ankeny-ia": {
+    "county": "Polk",
+    "event_count": 68,
+    "score": 97.1,
+    "year": 2024
+  },
+  "ann-arbor-mi": {
+    "county": "Washtenaw",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "antioch-ca": {
+    "county": "Contra Costa",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "apex-nc": {
+    "county": "Wake",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "arlington-tx": {
+    "county": "Tarrant",
+    "event_count": 133,
+    "score": 100.0,
+    "year": 2024
+  },
+  "arlington-va": {
+    "county": "Arlington",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "arvada-co": {
+    "county": "Jefferson",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "asheville-nc": {
+    "county": "Buncombe",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "athens-ga": {
+    "county": "Clarke",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "atlanta-ga": {
+    "county": "Fulton",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "auburn-al": {
+    "county": "Lee",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "auburn-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "augusta-ga": {
+    "county": "Richmond",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "aurora-co": {
+    "county": "Arapahoe",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "aurora-il": {
+    "county": "Kane",
+    "event_count": 59,
+    "score": 84.3,
+    "year": 2024
+  },
+  "austin-tx": {
+    "county": "Travis",
+    "event_count": 39,
+    "score": 55.7,
+    "year": 2024
+  },
+  "avondale-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "bakersfield-ca": {
+    "county": "Kern",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "baltimore-md": {
+    "county": "Baltimore",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "baton-rouge-la": {
+    "county": "East Baton Rouge",
+    "event_count": 31,
+    "score": 44.3,
+    "year": 2024
+  },
+  "baytown-tx": {
+    "county": "Harris",
+    "event_count": 79,
+    "score": 100.0,
+    "year": 2024
+  },
+  "beaumont-tx": {
+    "county": "Jefferson",
+    "event_count": 32,
+    "score": 45.7,
+    "year": 2024
+  },
+  "beaverton-or": {
+    "county": "Washington",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "bellevue-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "bellingham-wa": {
+    "county": "Whatcom",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "bend-or": {
+    "county": "Deschutes",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "berkeley-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "bethlehem-pa": {
+    "county": "Northampton",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "billings-mt": {
+    "county": "Yellowstone",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "birmingham-al": {
+    "county": "Jefferson",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "bismarck-nd": {
+    "county": "Burleigh",
+    "event_count": 23,
+    "score": 32.9,
+    "year": 2024
+  },
+  "blanding-ut": {
+    "county": "San Juan",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "bloomington-il": {
+    "county": "McLean",
+    "event_count": 31,
+    "score": 44.3,
+    "year": 2024
+  },
+  "bloomington-in": {
+    "county": "Monroe",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "bloomington-mn": {
+    "county": "Hennepin",
+    "event_count": 39,
+    "score": 55.7,
+    "year": 2024
+  },
+  "boca-raton-fl": {
+    "county": "Palm Beach",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "boise-id": {
+    "county": "Ada",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "boston-ma": {
+    "county": "Suffolk",
+    "event_count": 3,
+    "score": 4.3,
+    "year": 2024
+  },
+  "boulder-co": {
+    "county": "Boulder",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "bowling-green-ky": {
+    "county": "Warren",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "boynton-beach-fl": {
+    "county": "Palm Beach",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "bridgeport-ct": {
+    "county": "Greater Bridgeport",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "brockton-ma": {
+    "county": "Plymouth",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "broken-arrow-ok": {
+    "county": "Tulsa",
+    "event_count": 87,
+    "score": 100.0,
+    "year": 2024
+  },
+  "brooklyn-park-mn": {
+    "county": "Hennepin",
+    "event_count": 39,
+    "score": 55.7,
+    "year": 2024
+  },
+  "broomfield-co": {
+    "county": "Broomfield",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "brownsville-tx": {
+    "county": "Cameron",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "bryan-tx": {
+    "county": "Brazos",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "buckeye-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "buena-park-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "buffalo-ny": {
+    "county": "Erie",
+    "event_count": 42,
+    "score": 60.0,
+    "year": 2024
+  },
+  "burbank-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "caldwell-id": {
+    "county": "Canyon",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "cambridge-ma": {
+    "county": "Middlesex",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "cape-coral-fl": {
+    "county": "Lee",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "carlsbad-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "carlsbad-nm": {
+    "county": "Eddy",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "carmel-in": {
+    "county": "Hamilton",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "carrollton-tx": {
+    "county": "Denton",
+    "event_count": 112,
+    "score": 100.0,
+    "year": 2024
+  },
+  "carson-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "cary-nc": {
+    "county": "Wake",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "castle-rock-co": {
+    "county": "Douglas",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "cedar-park-tx": {
+    "county": "Williamson",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "cedar-rapids-ia": {
+    "county": "Linn",
+    "event_count": 36,
+    "score": 51.4,
+    "year": 2024
+  },
+  "centennial-co": {
+    "county": "Arapahoe",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "champaign-il": {
+    "county": "Champaign",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "chandler-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "charleston-sc": {
+    "county": "Charleston",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "charlotte-nc": {
+    "county": "Mecklenburg",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "chattanooga-tn": {
+    "county": "Hamilton",
+    "event_count": 18,
+    "score": 25.7,
+    "year": 2024
+  },
+  "chesapeake-va": {
+    "county": "Chesapeake",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "chicago-il": {
+    "county": "Cook",
+    "event_count": 177,
+    "score": 100.0,
+    "year": 2024
+  },
+  "chico-ca": {
+    "county": "Butte",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "chino-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "chino-hills-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "chula-vista-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "cicero-il": {
+    "county": "Cook",
+    "event_count": 177,
+    "score": 100.0,
+    "year": 2024
+  },
+  "cincinnati-oh": {
+    "county": "Hamilton",
+    "event_count": 23,
+    "score": 32.9,
+    "year": 2024
+  },
+  "citrus-heights-ca": {
+    "county": "Sacramento",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "clarksville-tn": {
+    "county": "Montgomery",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "clearwater-fl": {
+    "county": "Pinellas",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "cleveland-oh": {
+    "county": "Cuyahoga",
+    "event_count": 44,
+    "score": 62.9,
+    "year": 2024
+  },
+  "clifton-nj": {
+    "county": "Passaic",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "clovis-ca": {
+    "county": "Fresno",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "college-station-tx": {
+    "county": "Brazos",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "colorado-springs-co": {
+    "county": "El Paso",
+    "event_count": 55,
+    "score": 78.6,
+    "year": 2024
+  },
+  "columbia-mo": {
+    "county": "Boone",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "columbia-sc": {
+    "county": "Richland",
+    "event_count": 94,
+    "score": 100.0,
+    "year": 2024
+  },
+  "columbus-ga": {
+    "county": "Muscogee",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "columbus-oh": {
+    "county": "Franklin",
+    "event_count": 48,
+    "score": 68.6,
+    "year": 2024
+  },
+  "compton-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "concord-ca": {
+    "county": "Contra Costa",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "concord-nc": {
+    "county": "Cabarrus",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "conroe-tx": {
+    "county": "Montgomery",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "coral-springs-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "corona-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "corpus-christi-tx": {
+    "county": "Nueces",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "costa-mesa-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "cranston-ri": {
+    "county": "Providence",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "dallas-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "daly-city-ca": {
+    "county": "San Mateo",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "danbury-ct": {
+    "county": "Western Connecticut",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "davenport-ia": {
+    "county": "Scott",
+    "event_count": 54,
+    "score": 77.1,
+    "year": 2024
+  },
+  "davie-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "dayton-oh": {
+    "county": "Montgomery",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "daytona-beach-fl": {
+    "county": "Volusia",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "dearborn-mi": {
+    "county": "Wayne",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "deerfield-beach-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "deltona-fl": {
+    "county": "Volusia",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "denton-tx": {
+    "county": "Denton",
+    "event_count": 112,
+    "score": 100.0,
+    "year": 2024
+  },
+  "denver-co": {
+    "county": "Denver",
+    "event_count": 37,
+    "score": 52.9,
+    "year": 2024
+  },
+  "des-moines-ia": {
+    "county": "Polk",
+    "event_count": 68,
+    "score": 97.1,
+    "year": 2024
+  },
+  "detroit-mi": {
+    "county": "Wayne",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "doral-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "downey-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "duluth-mn": {
+    "county": "St. Louis",
+    "event_count": 91,
+    "score": 100.0,
+    "year": 2024
+  },
+  "durango-co": {
+    "county": "La Plata",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "durham-nc": {
+    "county": "Durham",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "edinburg-tx": {
+    "county": "Hidalgo",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "edmond-ok": {
+    "county": "Oklahoma",
+    "event_count": 133,
+    "score": 100.0,
+    "year": 2024
+  },
+  "el-cajon-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "el-monte-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "el-paso-tx": {
+    "county": "El Paso",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "elgin-il": {
+    "county": "Kane",
+    "event_count": 59,
+    "score": 84.3,
+    "year": 2024
+  },
+  "elizabeth-nj": {
+    "county": "Union",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "elk-grove-ca": {
+    "county": "Sacramento",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "erie-pa": {
+    "county": "Erie",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "escondido-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "eugene-or": {
+    "county": "Lane",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "evansville-in": {
+    "county": "Vanderburgh",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "everett-wa": {
+    "county": "Snohomish",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "fairfield-ca": {
+    "county": "Solano",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "fall-river-ma": {
+    "county": "Bristol",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "fargo-nd": {
+    "county": "Cass",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "farmington-hills-mi": {
+    "county": "Oakland",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "fayetteville-ar": {
+    "county": "Washington",
+    "event_count": 32,
+    "score": 45.7,
+    "year": 2024
+  },
+  "fayetteville-nc": {
+    "county": "Cumberland",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "federal-way-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "fishers-in": {
+    "county": "Hamilton",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "flagstaff-az": {
+    "county": "Coconino",
+    "event_count": 18,
+    "score": 25.7,
+    "year": 2024
+  },
+  "flint-mi": {
+    "county": "Genesee",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "flower-mound-tx": {
+    "county": "Denton",
+    "event_count": 112,
+    "score": 100.0,
+    "year": 2024
+  },
+  "folsom-ca": {
+    "county": "Sacramento",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "fontana-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "fort-collins-co": {
+    "county": "Larimer",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "fort-lauderdale-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "fort-myers-fl": {
+    "county": "Lee",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "fort-smith-ar": {
+    "county": "Sebastian",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "fort-wayne-in": {
+    "county": "Allen",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "fort-worth-tx": {
+    "county": "Tarrant",
+    "event_count": 133,
+    "score": 100.0,
+    "year": 2024
+  },
+  "franklin-tn": {
+    "county": "Williamson",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "frederick-md": {
+    "county": "Frederick",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "fremont-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "fresno-ca": {
+    "county": "Fresno",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "frisco-tx": {
+    "county": "Collin",
+    "event_count": 57,
+    "score": 81.4,
+    "year": 2024
+  },
+  "fullerton-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "gainesville-fl": {
+    "county": "Alachua",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "garden-grove-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "garland-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "gastonia-nc": {
+    "county": "Gaston",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "georgetown-tx": {
+    "county": "Williamson",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "geraldine-mt": {
+    "county": "Chouteau",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "gilbert-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "glendale-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "glendale-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "goodyear-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "grand-junction-co": {
+    "county": "Mesa",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "grand-prairie-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "grand-rapids-mi": {
+    "county": "Kent",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "greeley-co": {
+    "county": "Weld",
+    "event_count": 58,
+    "score": 82.9,
+    "year": 2024
+  },
+  "green-bay-wi": {
+    "county": "Brown",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "greensboro-nc": {
+    "county": "Guilford",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "greenville-nc": {
+    "county": "Pitt",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "gresham-or": {
+    "county": "Multnomah",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "hampton-va": {
+    "county": "Hampton",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "hartford-ct": {
+    "county": "Capitol",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "hawthorne-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "hayward-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "hemet-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "henderson-nv": {
+    "county": "Clark",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "hesperia-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "hialeah-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "high-point-nc": {
+    "county": "Guilford",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "hillsboro-or": {
+    "county": "Washington",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "hollywood-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "homestead-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "honolulu-hi": {
+    "county": "Honolulu",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "hoover-al": {
+    "county": "Jefferson",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "houston-tx": {
+    "county": "Harris",
+    "event_count": 79,
+    "score": 100.0,
+    "year": 2024
+  },
+  "huntington-beach-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "huntsville-al": {
+    "county": "Madison",
+    "event_count": 53,
+    "score": 75.7,
+    "year": 2024
+  },
+  "independence-mo": {
+    "county": "Jackson",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "indianapolis-in": {
+    "county": "Marion",
+    "event_count": 18,
+    "score": 25.7,
+    "year": 2024
+  },
+  "indio-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "inglewood-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "irvine-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "irving-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "jackson-ms": {
+    "county": "Hinds",
+    "event_count": 43,
+    "score": 61.4,
+    "year": 2024
+  },
+  "jacksonville-fl": {
+    "county": "Duval",
+    "event_count": 81,
+    "score": 100.0,
+    "year": 2024
+  },
+  "jersey-city-nj": {
+    "county": "Hudson",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "johns-creek-ga": {
+    "county": "Fulton",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "joliet-il": {
+    "county": "Will",
+    "event_count": 65,
+    "score": 92.9,
+    "year": 2024
+  },
+  "jonesboro-ar": {
+    "county": "Craighead",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "jurupa-valley-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "kalispell-mt": {
+    "county": "Flathead",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "kansas-city-ks": {
+    "county": "Wyandotte",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "kansas-city-mo": {
+    "county": "Jackson",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "kennewick-wa": {
+    "county": "Benton",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "kenosha-wi": {
+    "county": "Kenosha",
+    "event_count": 6,
+    "score": 8.6,
+    "year": 2024
+  },
+  "kent-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "killeen-tx": {
+    "county": "Bell",
+    "event_count": 54,
+    "score": 77.1,
+    "year": 2024
+  },
+  "kirkland-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "kissimmee-fl": {
+    "county": "Osceola",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "knoxville-tn": {
+    "county": "Knox",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "lafayette-la": {
+    "county": "Lafayette",
+    "event_count": 26,
+    "score": 37.1,
+    "year": 2024
+  },
+  "lake-charles-la": {
+    "county": "Calcasieu",
+    "event_count": 47,
+    "score": 67.1,
+    "year": 2024
+  },
+  "lake-forest-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "lakeland-fl": {
+    "county": "Polk",
+    "event_count": 6,
+    "score": 8.6,
+    "year": 2024
+  },
+  "lakeville-mn": {
+    "county": "Dakota",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "lakewood-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "lakewood-co": {
+    "county": "Jefferson",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "lancaster-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "lansing-mi": {
+    "county": "Ingham",
+    "event_count": 6,
+    "score": 8.6,
+    "year": 2024
+  },
+  "laredo-tx": {
+    "county": "Webb",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "largo-fl": {
+    "county": "Pinellas",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "las-cruces-nm": {
+    "county": "Do\u00f1a Ana",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "las-vegas-nv": {
+    "county": "Clark",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "lawrence-ks": {
+    "county": "Douglas",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "lawrence-ma": {
+    "county": "Essex",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "lawton-ok": {
+    "county": "Comanche",
+    "event_count": 35,
+    "score": 50.0,
+    "year": 2024
+  },
+  "layton-ut": {
+    "county": "Davis",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "league-city-tx": {
+    "county": "Galveston",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "leander-tx": {
+    "county": "Williamson",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "lees-summit-mo": {
+    "county": "Jackson",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "lehi-ut": {
+    "county": "Utah",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "lewisville-tx": {
+    "county": "Denton",
+    "event_count": 112,
+    "score": 100.0,
+    "year": 2024
+  },
+  "lexington-ky": {
+    "county": "Fayette",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "lincoln-ne": {
+    "county": "Lancaster",
+    "event_count": 31,
+    "score": 44.3,
+    "year": 2024
+  },
+  "little-rock-ar": {
+    "county": "Pulaski",
+    "event_count": 48,
+    "score": 68.6,
+    "year": 2024
+  },
+  "livermore-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "livonia-mi": {
+    "county": "Wayne",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "long-beach-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "longmont-co": {
+    "county": "Boulder",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "longview-tx": {
+    "county": "Gregg",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "los-alamos-nm": {
+    "county": "Los Alamos",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "los-angeles-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "louisville-ky": {
+    "county": "Jefferson",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "loveland-co": {
+    "county": "Larimer",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "lowell-ma": {
+    "county": "Middlesex",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "lubbock-tx": {
+    "county": "Lubbock",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "lynchburg-va": {
+    "county": "Lynchburg",
+    "event_count": 6,
+    "score": 8.6,
+    "year": 2024
+  },
+  "lynn-ma": {
+    "county": "Essex",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "mableton-ga": {
+    "county": "Cobb",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "macon-ga": {
+    "county": "Bibb",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "madison-wi": {
+    "county": "Dane",
+    "event_count": 60,
+    "score": 85.7,
+    "year": 2024
+  },
+  "manchester-nh": {
+    "county": "Hillsborough",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "mansfield-tx": {
+    "county": "Tarrant",
+    "event_count": 133,
+    "score": 100.0,
+    "year": 2024
+  },
+  "manteca-ca": {
+    "county": "San Joaquin",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "maricopa-az": {
+    "county": "Pinal",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "marysville-wa": {
+    "county": "Snohomish",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "mcallen-tx": {
+    "county": "Hidalgo",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "mckinney-tx": {
+    "county": "Collin",
+    "event_count": 57,
+    "score": 81.4,
+    "year": 2024
+  },
+  "medford-or": {
+    "county": "Jackson",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "melbourne-fl": {
+    "county": "Brevard",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "memphis-tn": {
+    "county": "Shelby",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "menifee-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "merced-ca": {
+    "county": "Merced",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "meridian-id": {
+    "county": "Ada",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "mesa-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "mesquite-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "miami-beach-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "miami-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "miami-gardens-fl": {
+    "county": "Miami-Dade",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "midland-tx": {
+    "county": "Midland",
+    "event_count": 48,
+    "score": 68.6,
+    "year": 2024
+  },
+  "milpitas-ca": {
+    "county": "Santa Clara",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "milwaukee-wi": {
+    "county": "Milwaukee",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "minneapolis-mn": {
+    "county": "Hennepin",
+    "event_count": 39,
+    "score": 55.7,
+    "year": 2024
+  },
+  "miramar-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "mission-tx": {
+    "county": "Hidalgo",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "mission-viejo-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "missoula-mt": {
+    "county": "Missoula",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "missouri-city-tx": {
+    "county": "Fort Bend",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "mobile-al": {
+    "county": "Mobile",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "modesto-ca": {
+    "county": "Stanislaus",
+    "event_count": 2,
+    "score": 2.9,
+    "year": 2024
+  },
+  "montgomery-al": {
+    "county": "Montgomery",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "monticello-ut": {
+    "county": "San Juan",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "moreno-valley-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "mount-pleasant-sc": {
+    "county": "Charleston",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "mountain-view-ca": {
+    "county": "Santa Clara",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "murfreesboro-tn": {
+    "county": "Rutherford",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "murrieta-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "nampa-id": {
+    "county": "Canyon",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "naperville-il": {
+    "county": "DuPage",
+    "event_count": 57,
+    "score": 81.4,
+    "year": 2024
+  },
+  "nashua-nh": {
+    "county": "Hillsborough",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "nashville-tn": {
+    "county": "Davidson",
+    "event_count": 38,
+    "score": 54.3,
+    "year": 2024
+  },
+  "new-bedford-ma": {
+    "county": "Bristol",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "new-braunfels-tx": {
+    "county": "Comal",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "new-haven-ct": {
+    "county": "South Central Connecticut",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "new-orleans-la": {
+    "county": "Orleans",
+    "event_count": 46,
+    "score": 65.7,
+    "year": 2024
+  },
+  "new-rochelle-ny": {
+    "county": "Westchester",
+    "event_count": 35,
+    "score": 50.0,
+    "year": 2024
+  },
+  "new-york-ny": {
+    "county": "New York",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "newark-nj": {
+    "county": "Essex",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "newport-beach-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "newport-news-va": {
+    "county": "Newport News",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "newton-ma": {
+    "county": "Middlesex",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "norfolk-va": {
+    "county": "Norfolk",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "norman-ok": {
+    "county": "Cleveland",
+    "event_count": 99,
+    "score": 100.0,
+    "year": 2024
+  },
+  "north-charleston-sc": {
+    "county": "Charleston",
+    "event_count": 30,
+    "score": 42.9,
+    "year": 2024
+  },
+  "north-las-vegas-nv": {
+    "county": "Clark",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "north-port-fl": {
+    "county": "Sarasota",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "norwalk-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "norwalk-ct": {
+    "county": "Western Connecticut",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "oakland-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "oceanside-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "odessa-tx": {
+    "county": "Ector",
+    "event_count": 37,
+    "score": 52.9,
+    "year": 2024
+  },
+  "ofallon-mo": {
+    "county": "St. Charles",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "ogden-ut": {
+    "county": "Weber",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "oklahoma-city-ok": {
+    "county": "Oklahoma",
+    "event_count": 133,
+    "score": 100.0,
+    "year": 2024
+  },
+  "olathe-ks": {
+    "county": "Johnson",
+    "event_count": 56,
+    "score": 80.0,
+    "year": 2024
+  },
+  "omaha-ne": {
+    "county": "Douglas",
+    "event_count": 46,
+    "score": 65.7,
+    "year": 2024
+  },
+  "ontario-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "orange-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "orem-ut": {
+    "county": "Utah",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "orlando-fl": {
+    "county": "Orange",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "overland-park-ks": {
+    "county": "Johnson",
+    "event_count": 56,
+    "score": 80.0,
+    "year": 2024
+  },
+  "oxnard-ca": {
+    "county": "Ventura",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "palm-bay-fl": {
+    "county": "Brevard",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "palm-coast-fl": {
+    "county": "Flagler",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "palmdale-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "parma-oh": {
+    "county": "Cuyahoga",
+    "event_count": 44,
+    "score": 62.9,
+    "year": 2024
+  },
+  "pasadena-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "pasadena-tx": {
+    "county": "Harris",
+    "event_count": 79,
+    "score": 100.0,
+    "year": 2024
+  },
+  "pasco-wa": {
+    "county": "Franklin",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "paterson-nj": {
+    "county": "Passaic",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "pawtucket-ri": {
+    "county": "Providence",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "pearland-tx": {
+    "county": "Brazoria",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "pembroke-pines-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "peoria-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "peoria-il": {
+    "county": "Peoria",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "perris-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "pharr-tx": {
+    "county": "Hidalgo",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "philadelphia-pa": {
+    "county": "Philadelphia",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "phoenix-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "pittsburg-ca": {
+    "county": "Contra Costa",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "pittsburgh-pa": {
+    "county": "Allegheny",
+    "event_count": 165,
+    "score": 100.0,
+    "year": 2024
+  },
+  "plano-tx": {
+    "county": "Collin",
+    "event_count": 57,
+    "score": 81.4,
+    "year": 2024
+  },
+  "plantation-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "plymouth-mn": {
+    "county": "Hennepin",
+    "event_count": 39,
+    "score": 55.7,
+    "year": 2024
+  },
+  "pomona-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "pompano-beach-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "port-st-lucie-fl": {
+    "county": "St. Lucie",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "portland-or": {
+    "county": "Multnomah",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "portsmouth-va": {
+    "county": "Portsmouth",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "providence-ri": {
+    "county": "Providence",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "provo-ut": {
+    "county": "Utah",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "pueblo-co": {
+    "county": "Pueblo",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "queen-creek-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "quincy-ma": {
+    "county": "Norfolk",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "racine-wi": {
+    "county": "Racine",
+    "event_count": 4,
+    "score": 5.7,
+    "year": 2024
+  },
+  "raleigh-nc": {
+    "county": "Wake",
+    "event_count": 74,
+    "score": 100.0,
+    "year": 2024
+  },
+  "rancho-cordova-ca": {
+    "county": "Sacramento",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "rancho-cucamonga-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "rapid-city-sd": {
+    "county": "Pennington",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "reading-pa": {
+    "county": "Berks",
+    "event_count": 43,
+    "score": 61.4,
+    "year": 2024
+  },
+  "redding-ca": {
+    "county": "Shasta",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "redmond-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "redwood-city-ca": {
+    "county": "San Mateo",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "reno-nv": {
+    "county": "Washoe",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "renton-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "rialto-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "richardson-tx": {
+    "county": "Dallas",
+    "event_count": 69,
+    "score": 98.6,
+    "year": 2024
+  },
+  "richmond-ca": {
+    "county": "Contra Costa",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "richmond-va": {
+    "county": "Richmond",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "rio-rancho-nm": {
+    "county": "Sandoval",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "riverside-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "roanoke-va": {
+    "county": "Roanoke",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "rochester-hills-mi": {
+    "county": "Oakland",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "rochester-mn": {
+    "county": "Olmsted",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "rochester-ny": {
+    "county": "Monroe",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "rockford-il": {
+    "county": "Winnebago",
+    "event_count": 44,
+    "score": 62.9,
+    "year": 2024
+  },
+  "rocklin-ca": {
+    "county": "Placer",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "rogers-ar": {
+    "county": "Benton",
+    "event_count": 64,
+    "score": 91.4,
+    "year": 2024
+  },
+  "roseville-ca": {
+    "county": "Placer",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "roswell-ga": {
+    "county": "Fulton",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "round-rock-tx": {
+    "county": "Williamson",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "sacramento-ca": {
+    "county": "Sacramento",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "saint-paul-mn": {
+    "county": "Ramsey",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "salem-or": {
+    "county": "Marion",
+    "event_count": 1,
+    "score": 1.4,
+    "year": 2024
+  },
+  "salinas-ca": {
+    "county": "Monterey",
+    "event_count": 32,
+    "score": 45.7,
+    "year": 2024
+  },
+  "salt-lake-city-ut": {
+    "county": "Salt Lake",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "san-angelo-tx": {
+    "county": "Tom Green",
+    "event_count": 75,
+    "score": 100.0,
+    "year": 2024
+  },
+  "san-antonio-tx": {
+    "county": "Bexar",
+    "event_count": 51,
+    "score": 72.9,
+    "year": 2024
+  },
+  "san-bernardino-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "san-diego-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "san-francisco-ca": {
+    "county": "San Francisco",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "san-jose-ca": {
+    "county": "Santa Clara",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "san-leandro-ca": {
+    "county": "Alameda",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "san-marcos-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "san-marcos-tx": {
+    "county": "Hays",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "san-mateo-ca": {
+    "county": "San Mateo",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "san-ramon-ca": {
+    "county": "Contra Costa",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "sandpoint-id": {
+    "county": "Bonner",
+    "event_count": 3,
+    "score": 4.3,
+    "year": 2024
+  },
+  "sandy-springs-ga": {
+    "county": "Fulton",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "sandy-ut": {
+    "county": "Salt Lake",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "santa-ana-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "santa-barbara-ca": {
+    "county": "Santa Barbara",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "santa-clara-ca": {
+    "county": "Santa Clara",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "santa-clarita-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "santa-fe-nm": {
+    "county": "Santa Fe",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "santa-maria-ca": {
+    "county": "Santa Barbara",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "santa-monica-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "santa-rosa-ca": {
+    "county": "Sonoma",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "savannah-ga": {
+    "county": "Chatham",
+    "event_count": 36,
+    "score": 51.4,
+    "year": 2024
+  },
+  "schaumburg-il": {
+    "county": "Cook",
+    "event_count": 177,
+    "score": 100.0,
+    "year": 2024
+  },
+  "scottsdale-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "seattle-wa": {
+    "county": "King",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "shreveport-la": {
+    "county": "Caddo",
+    "event_count": 54,
+    "score": 77.1,
+    "year": 2024
+  },
+  "simi-valley-ca": {
+    "county": "Ventura",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "sioux-city-ia": {
+    "county": "Woodbury",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "sioux-falls-sd": {
+    "county": "Minnehaha",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "somerville-ma": {
+    "county": "Middlesex",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "south-bend-in": {
+    "county": "St. Joseph",
+    "event_count": 38,
+    "score": 54.3,
+    "year": 2024
+  },
+  "south-fulton-ga": {
+    "county": "Fulton",
+    "event_count": 25,
+    "score": 35.7,
+    "year": 2024
+  },
+  "south-gate-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "south-jordan-ut": {
+    "county": "Salt Lake",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "sparks-nv": {
+    "county": "Washoe",
+    "event_count": 11,
+    "score": 15.7,
+    "year": 2024
+  },
+  "spokane-valley-wa": {
+    "county": "Spokane",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "spokane-wa": {
+    "county": "Spokane",
+    "event_count": 19,
+    "score": 27.1,
+    "year": 2024
+  },
+  "springdale-ar": {
+    "county": "Washington",
+    "event_count": 32,
+    "score": 45.7,
+    "year": 2024
+  },
+  "springfield-il": {
+    "county": "Sangamon",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "springfield-ma": {
+    "county": "Hampden",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "springfield-mo": {
+    "county": "Greene",
+    "event_count": 68,
+    "score": 97.1,
+    "year": 2024
+  },
+  "st-george-ut": {
+    "county": "Washington",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "st-louis-mo": {
+    "county": "St. Louis",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "st-petersburg-fl": {
+    "county": "Pinellas",
+    "event_count": 13,
+    "score": 18.6,
+    "year": 2024
+  },
+  "stamford-ct": {
+    "county": "Western Connecticut",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "sterling-heights-mi": {
+    "county": "Macomb",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "stockton-ca": {
+    "county": "San Joaquin",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "suffolk-va": {
+    "county": "Suffolk",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "sugar-land-tx": {
+    "county": "Fort Bend",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "sundance-wy": {
+    "county": "Crook",
+    "event_count": 21,
+    "score": 30.0,
+    "year": 2024
+  },
+  "sunnyvale-ca": {
+    "county": "Santa Clara",
+    "event_count": 22,
+    "score": 31.4,
+    "year": 2024
+  },
+  "sunrise-fl": {
+    "county": "Broward",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "surprise-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "syracuse-ny": {
+    "county": "Onondaga",
+    "event_count": 53,
+    "score": 75.7,
+    "year": 2024
+  },
+  "tacoma-wa": {
+    "county": "Pierce",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "tallahassee-fl": {
+    "county": "Leon",
+    "event_count": 94,
+    "score": 100.0,
+    "year": 2024
+  },
+  "tampa-fl": {
+    "county": "Hillsborough",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "taos-nm": {
+    "county": "Taos",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "temecula-ca": {
+    "county": "Riverside",
+    "event_count": 33,
+    "score": 47.1,
+    "year": 2024
+  },
+  "tempe-az": {
+    "county": "Maricopa",
+    "event_count": 80,
+    "score": 100.0,
+    "year": 2024
+  },
+  "temple-tx": {
+    "county": "Bell",
+    "event_count": 54,
+    "score": 77.1,
+    "year": 2024
+  },
+  "thornton-co": {
+    "county": "Adams",
+    "event_count": 38,
+    "score": 54.3,
+    "year": 2024
+  },
+  "thousand-oaks-ca": {
+    "county": "Ventura",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "toledo-oh": {
+    "county": "Lucas",
+    "event_count": 17,
+    "score": 24.3,
+    "year": 2024
+  },
+  "topeka-ks": {
+    "county": "Shawnee",
+    "event_count": 63,
+    "score": 90.0,
+    "year": 2024
+  },
+  "torrance-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "tracy-ca": {
+    "county": "San Joaquin",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "trenton-nj": {
+    "county": "Mercer",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "troy-mi": {
+    "county": "Oakland",
+    "event_count": 27,
+    "score": 38.6,
+    "year": 2024
+  },
+  "tucson-az": {
+    "county": "Pima",
+    "event_count": 56,
+    "score": 80.0,
+    "year": 2024
+  },
+  "tulsa-ok": {
+    "county": "Tulsa",
+    "event_count": 87,
+    "score": 100.0,
+    "year": 2024
+  },
+  "tuscaloosa-al": {
+    "county": "Tuscaloosa",
+    "event_count": 23,
+    "score": 32.9,
+    "year": 2024
+  },
+  "tustin-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "tyler-tx": {
+    "county": "Smith",
+    "event_count": 44,
+    "score": 62.9,
+    "year": 2024
+  },
+  "upland-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "vacaville-ca": {
+    "county": "Solano",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "vallejo-ca": {
+    "county": "Solano",
+    "event_count": 5,
+    "score": 7.1,
+    "year": 2024
+  },
+  "vancouver-wa": {
+    "county": "Clark",
+    "event_count": 3,
+    "score": 4.3,
+    "year": 2024
+  },
+  "ventura-ca": {
+    "county": "Ventura",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "victorville-ca": {
+    "county": "San Bernardino",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "virginia-beach-va": {
+    "county": "Virginia Beach",
+    "event_count": 28,
+    "score": 40.0,
+    "year": 2024
+  },
+  "visalia-ca": {
+    "county": "Tulare",
+    "event_count": 24,
+    "score": 34.3,
+    "year": 2024
+  },
+  "vista-ca": {
+    "county": "San Diego",
+    "event_count": 70,
+    "score": 100.0,
+    "year": 2024
+  },
+  "waco-tx": {
+    "county": "McLennan",
+    "event_count": 37,
+    "score": 52.9,
+    "year": 2024
+  },
+  "warner-robins-ga": {
+    "county": "Houston",
+    "event_count": 7,
+    "score": 10.0,
+    "year": 2024
+  },
+  "warren-mi": {
+    "county": "Macomb",
+    "event_count": 29,
+    "score": 41.4,
+    "year": 2024
+  },
+  "warwick-ri": {
+    "county": "Kent",
+    "event_count": 10,
+    "score": 14.3,
+    "year": 2024
+  },
+  "washington-dc": {
+    "county": "District of Columbia",
+    "event_count": 14,
+    "score": 20.0,
+    "year": 2024
+  },
+  "waterbury-ct": {
+    "county": "Naugatuck Valley",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "waukegan-il": {
+    "county": "Lake",
+    "event_count": 54,
+    "score": 77.1,
+    "year": 2024
+  },
+  "west-covina-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "west-jordan-ut": {
+    "county": "Salt Lake",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "west-palm-beach-fl": {
+    "county": "Palm Beach",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "west-valley-city-ut": {
+    "county": "Salt Lake",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "westland-mi": {
+    "county": "Wayne",
+    "event_count": 8,
+    "score": 11.4,
+    "year": 2024
+  },
+  "westminster-ca": {
+    "county": "Orange",
+    "event_count": 15,
+    "score": 21.4,
+    "year": 2024
+  },
+  "westminster-co": {
+    "county": "Jefferson",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "whitewright-tx": {
+    "county": "Grayson",
+    "event_count": 59,
+    "score": 84.3,
+    "year": 2024
+  },
+  "whittier-ca": {
+    "county": "Los Angeles",
+    "event_count": 49,
+    "score": 70.0,
+    "year": 2024
+  },
+  "wichita-falls-tx": {
+    "county": "Wichita",
+    "event_count": 42,
+    "score": 60.0,
+    "year": 2024
+  },
+  "wichita-ks": {
+    "county": "Sedgwick",
+    "event_count": 72,
+    "score": 100.0,
+    "year": 2024
+  },
+  "wilmington-nc": {
+    "county": "New Hanover",
+    "event_count": 34,
+    "score": 48.6,
+    "year": 2024
+  },
+  "winston-salem-nc": {
+    "county": "Forsyth",
+    "event_count": 16,
+    "score": 22.9,
+    "year": 2024
+  },
+  "woodbury-mn": {
+    "county": "Washington",
+    "event_count": 9,
+    "score": 12.9,
+    "year": 2024
+  },
+  "worcester-ma": {
+    "county": "Worcester",
+    "event_count": 20,
+    "score": 28.6,
+    "year": 2024
+  },
+  "wyoming-mi": {
+    "county": "Kent",
+    "event_count": 12,
+    "score": 17.1,
+    "year": 2024
+  },
+  "yakima-wa": {
+    "county": "Yakima",
+    "event_count": 0,
+    "score": 0.0,
+    "year": 2024
+  },
+  "yonkers-ny": {
+    "county": "Westchester",
+    "event_count": 35,
+    "score": 50.0,
+    "year": 2024
+  },
+  "yuma-az": {
+    "county": "Yuma",
+    "event_count": 6,
+    "score": 8.6,
+    "year": 2024
+  }
+}
