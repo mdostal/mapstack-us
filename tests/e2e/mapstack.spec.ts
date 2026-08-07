@@ -492,6 +492,22 @@ test("the twenty-ninth dataset (business density) is selectable and reports a re
   await expect(detail).toContainText("Census Business Patterns");
 });
 
+test("the thirtieth dataset (industrial facility density) is selectable and reports a real EPA TRI-sourced value -- the real fix for a prior epic's slow-API blocker", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Industrial facility density" }).click();
+  await page.getByRole("button", { name: "Industrial facility density", exact: true }).click();
+  await page.getByRole("button", { name: "Add Industrial facility density" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Industrial facility density: Industrial facility density" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Industrial facility density" });
+  await expect(detail).toContainText("TRI-reporting facilities within 10 miles");
+  await expect(detail).toContainText("EPA Toxics Release Inventory");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

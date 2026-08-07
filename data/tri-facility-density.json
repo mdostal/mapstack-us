@@ -1,0 +1,2058 @@
+{
+  "_meta": {
+    "count_cap_for_100_score": 70,
+    "coverage": 512,
+    "radius_miles": 10,
+    "source": "EPA TRI Basic Data File, 2024 reporting year, national bulk download",
+    "source_url": "https://data.epa.gov/efservice/downloads/tri/mv_tri_basic_download/2024_US/csv",
+    "unique_facilities_nationally": 21482
+  },
+  "abilene-tx": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "akron-oh": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "alameda-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "albany-ny": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "albuquerque-nm": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "alexandria-va": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "alhambra-ca": {
+    "facility_count": 96,
+    "score": 100.0
+  },
+  "allen-tx": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "allentown-pa": {
+    "facility_count": 32,
+    "score": 45.7
+  },
+  "amarillo-tx": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "anaheim-ca": {
+    "facility_count": 74,
+    "score": 100.0
+  },
+  "anchorage-ak": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "ankeny-ia": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "ann-arbor-mi": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "antioch-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "apex-nc": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "arlington-tx": {
+    "facility_count": 56,
+    "score": 80.0
+  },
+  "arlington-va": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "arvada-co": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "asheville-nc": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "athens-ga": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "atlanta-ga": {
+    "facility_count": 38,
+    "score": 54.3
+  },
+  "auburn-al": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "auburn-wa": {
+    "facility_count": 37,
+    "score": 52.9
+  },
+  "augusta-ga": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "aurora-co": {
+    "facility_count": 49,
+    "score": 70.0
+  },
+  "aurora-il": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "austin-tx": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "avondale-az": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "bakersfield-ca": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "baltimore-md": {
+    "facility_count": 44,
+    "score": 62.9
+  },
+  "baton-rouge-la": {
+    "facility_count": 35,
+    "score": 50.0
+  },
+  "baytown-tx": {
+    "facility_count": 103,
+    "score": 100.0
+  },
+  "beaumont-tx": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "beaverton-or": {
+    "facility_count": 67,
+    "score": 95.7
+  },
+  "bellevue-wa": {
+    "facility_count": 32,
+    "score": 45.7
+  },
+  "bellingham-wa": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "bend-or": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "berkeley-ca": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "bethlehem-pa": {
+    "facility_count": 32,
+    "score": 45.7
+  },
+  "billings-mt": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "birmingham-al": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "bismarck-nd": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "blanding-ut": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "bloomington-il": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "bloomington-in": {
+    "facility_count": 2,
+    "score": 2.9
+  },
+  "bloomington-mn": {
+    "facility_count": 36,
+    "score": 51.4
+  },
+  "boca-raton-fl": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "boise-id": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "boston-ma": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "boulder-co": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "bowling-green-ky": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "boynton-beach-fl": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "bridgeport-ct": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "brockton-ma": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "broken-arrow-ok": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "brooklyn-park-mn": {
+    "facility_count": 75,
+    "score": 100.0
+  },
+  "broomfield-co": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "brownsville-tx": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "bryan-tx": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "buckeye-az": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "buena-park-ca": {
+    "facility_count": 91,
+    "score": 100.0
+  },
+  "buffalo-ny": {
+    "facility_count": 45,
+    "score": 64.3
+  },
+  "burbank-ca": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "caldwell-id": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "cambridge-ma": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "cape-coral-fl": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "carlsbad-ca": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "carlsbad-nm": {
+    "facility_count": 2,
+    "score": 2.9
+  },
+  "carmel-in": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "carrollton-tx": {
+    "facility_count": 41,
+    "score": 58.6
+  },
+  "carson-ca": {
+    "facility_count": 131,
+    "score": 100.0
+  },
+  "cary-nc": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "castle-rock-co": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "cedar-park-tx": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "cedar-rapids-ia": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "centennial-co": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "champaign-il": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "chandler-az": {
+    "facility_count": 41,
+    "score": 58.6
+  },
+  "charleston-sc": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "charlotte-nc": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "chattanooga-tn": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "chesapeake-va": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "chicago-il": {
+    "facility_count": 78,
+    "score": 100.0
+  },
+  "chico-ca": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "chino-ca": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "chino-hills-ca": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "chula-vista-ca": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "cicero-il": {
+    "facility_count": 138,
+    "score": 100.0
+  },
+  "cincinnati-oh": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "citrus-heights-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "clarksville-tn": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "clearwater-fl": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "cleveland-oh": {
+    "facility_count": 86,
+    "score": 100.0
+  },
+  "clifton-nj": {
+    "facility_count": 74,
+    "score": 100.0
+  },
+  "clovis-ca": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "college-station-tx": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "colorado-springs-co": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "columbia-mo": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "columbia-sc": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "columbus-ga": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "columbus-oh": {
+    "facility_count": 58,
+    "score": 82.9
+  },
+  "compton-ca": {
+    "facility_count": 181,
+    "score": 100.0
+  },
+  "concord-ca": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "concord-nc": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "conroe-tx": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "coral-springs-fl": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "corona-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "corpus-christi-tx": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "costa-mesa-ca": {
+    "facility_count": 53,
+    "score": 75.7
+  },
+  "cranston-ri": {
+    "facility_count": 52,
+    "score": 74.3
+  },
+  "dallas-tx": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "daly-city-ca": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "danbury-ct": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "davenport-ia": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "davie-fl": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "dayton-oh": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "daytona-beach-fl": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "dearborn-mi": {
+    "facility_count": 59,
+    "score": 84.3
+  },
+  "deerfield-beach-fl": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "deltona-fl": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "denton-tx": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "denver-co": {
+    "facility_count": 55,
+    "score": 78.6
+  },
+  "des-moines-ia": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "detroit-mi": {
+    "facility_count": 59,
+    "score": 84.3
+  },
+  "doral-fl": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "downey-ca": {
+    "facility_count": 145,
+    "score": 100.0
+  },
+  "duluth-mn": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "durango-co": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "durham-nc": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "edinburg-tx": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "edmond-ok": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "el-cajon-ca": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "el-monte-ca": {
+    "facility_count": 74,
+    "score": 100.0
+  },
+  "el-paso-tx": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "elgin-il": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "elizabeth-nj": {
+    "facility_count": 64,
+    "score": 91.4
+  },
+  "elk-grove-ca": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "erie-pa": {
+    "facility_count": 31,
+    "score": 44.3
+  },
+  "escondido-ca": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "eugene-or": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "evansville-in": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "everett-wa": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "fairfield-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "fall-river-ma": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "fargo-nd": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "farmington-hills-mi": {
+    "facility_count": 38,
+    "score": 54.3
+  },
+  "fayetteville-ar": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "fayetteville-nc": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "federal-way-wa": {
+    "facility_count": 44,
+    "score": 62.9
+  },
+  "fishers-in": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "flagstaff-az": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "flint-mi": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "flower-mound-tx": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "folsom-ca": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "fontana-ca": {
+    "facility_count": 68,
+    "score": 97.1
+  },
+  "fort-collins-co": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "fort-lauderdale-fl": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "fort-myers-fl": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "fort-smith-ar": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "fort-wayne-in": {
+    "facility_count": 37,
+    "score": 52.9
+  },
+  "fort-worth-tx": {
+    "facility_count": 63,
+    "score": 90.0
+  },
+  "franklin-tn": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "frederick-md": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "fremont-ca": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "fresno-ca": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "frisco-tx": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "fullerton-ca": {
+    "facility_count": 86,
+    "score": 100.0
+  },
+  "gainesville-fl": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "garden-grove-ca": {
+    "facility_count": 87,
+    "score": 100.0
+  },
+  "garland-tx": {
+    "facility_count": 46,
+    "score": 65.7
+  },
+  "gastonia-nc": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "georgetown-tx": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "geraldine-mt": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "gilbert-az": {
+    "facility_count": 31,
+    "score": 44.3
+  },
+  "glendale-az": {
+    "facility_count": 81,
+    "score": 100.0
+  },
+  "glendale-ca": {
+    "facility_count": 40,
+    "score": 57.1
+  },
+  "goodyear-az": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "grand-junction-co": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "grand-prairie-tx": {
+    "facility_count": 67,
+    "score": 95.7
+  },
+  "grand-rapids-mi": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "greeley-co": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "green-bay-wi": {
+    "facility_count": 41,
+    "score": 58.6
+  },
+  "greensboro-nc": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "greenville-nc": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "gresham-or": {
+    "facility_count": 39,
+    "score": 55.7
+  },
+  "hampton-va": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "hartford-ct": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "hawthorne-ca": {
+    "facility_count": 99,
+    "score": 100.0
+  },
+  "hayward-ca": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "hemet-ca": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "henderson-nv": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "hesperia-ca": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "hialeah-fl": {
+    "facility_count": 35,
+    "score": 50.0
+  },
+  "high-point-nc": {
+    "facility_count": 46,
+    "score": 65.7
+  },
+  "hillsboro-or": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "hollywood-fl": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "homestead-fl": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "honolulu-hi": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "hoover-al": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "houston-tx": {
+    "facility_count": 88,
+    "score": 100.0
+  },
+  "huntington-beach-ca": {
+    "facility_count": 42,
+    "score": 60.0
+  },
+  "huntsville-al": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "independence-mo": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "indianapolis-in": {
+    "facility_count": 53,
+    "score": 75.7
+  },
+  "indio-ca": {
+    "facility_count": 2,
+    "score": 2.9
+  },
+  "inglewood-ca": {
+    "facility_count": 99,
+    "score": 100.0
+  },
+  "irvine-ca": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "irving-tx": {
+    "facility_count": 73,
+    "score": 100.0
+  },
+  "jackson-ms": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "jacksonville-fl": {
+    "facility_count": 49,
+    "score": 70.0
+  },
+  "jersey-city-nj": {
+    "facility_count": 74,
+    "score": 100.0
+  },
+  "johns-creek-ga": {
+    "facility_count": 40,
+    "score": 57.1
+  },
+  "joliet-il": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "jonesboro-ar": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "jurupa-valley-ca": {
+    "facility_count": 73,
+    "score": 100.0
+  },
+  "kalispell-mt": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "kansas-city-ks": {
+    "facility_count": 58,
+    "score": 82.9
+  },
+  "kansas-city-mo": {
+    "facility_count": 76,
+    "score": 100.0
+  },
+  "kennewick-wa": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "kenosha-wi": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "kent-wa": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "killeen-tx": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "kirkland-wa": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "kissimmee-fl": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "knoxville-tn": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "lafayette-la": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "lake-charles-la": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "lake-forest-ca": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "lakeland-fl": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "lakeville-mn": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "lakewood-ca": {
+    "facility_count": 138,
+    "score": 100.0
+  },
+  "lakewood-co": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "lancaster-ca": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "lansing-mi": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "laredo-tx": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "largo-fl": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "las-cruces-nm": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "las-vegas-nv": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "lawrence-ks": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "lawrence-ma": {
+    "facility_count": 34,
+    "score": 48.6
+  },
+  "lawton-ok": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "layton-ut": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "league-city-tx": {
+    "facility_count": 40,
+    "score": 57.1
+  },
+  "leander-tx": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "lees-summit-mo": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "lehi-ut": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "lewisville-tx": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "lexington-ky": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "lincoln-ne": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "little-rock-ar": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "livermore-ca": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "livonia-mi": {
+    "facility_count": 47,
+    "score": 67.1
+  },
+  "long-beach-ca": {
+    "facility_count": 99,
+    "score": 100.0
+  },
+  "longmont-co": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "longview-tx": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "los-alamos-nm": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "los-angeles-ca": {
+    "facility_count": 75,
+    "score": 100.0
+  },
+  "louisville-ky": {
+    "facility_count": 70,
+    "score": 100.0
+  },
+  "loveland-co": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "lowell-ma": {
+    "facility_count": 39,
+    "score": 55.7
+  },
+  "lubbock-tx": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "lynchburg-va": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "lynn-ma": {
+    "facility_count": 32,
+    "score": 45.7
+  },
+  "mableton-ga": {
+    "facility_count": 38,
+    "score": 54.3
+  },
+  "macon-ga": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "madison-wi": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "manchester-nh": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "mansfield-tx": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "manteca-ca": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "maricopa-az": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "marysville-wa": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "mcallen-tx": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "mckinney-tx": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "medford-or": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "melbourne-fl": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "memphis-tn": {
+    "facility_count": 66,
+    "score": 94.3
+  },
+  "menifee-ca": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "merced-ca": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "meridian-id": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "mesa-az": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "mesquite-tx": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "miami-beach-fl": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "miami-fl": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "miami-gardens-fl": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "midland-tx": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "milpitas-ca": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "milwaukee-wi": {
+    "facility_count": 76,
+    "score": 100.0
+  },
+  "minneapolis-mn": {
+    "facility_count": 81,
+    "score": 100.0
+  },
+  "miramar-fl": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "mission-tx": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "mission-viejo-ca": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "missoula-mt": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "missouri-city-tx": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "mobile-al": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "modesto-ca": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "montgomery-al": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "monticello-ut": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "moreno-valley-ca": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "mount-pleasant-sc": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "mountain-view-ca": {
+    "facility_count": 37,
+    "score": 52.9
+  },
+  "murfreesboro-tn": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "murrieta-ca": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "nampa-id": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "naperville-il": {
+    "facility_count": 39,
+    "score": 55.7
+  },
+  "nashua-nh": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "nashville-tn": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "new-bedford-ma": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "new-braunfels-tx": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "new-haven-ct": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "new-orleans-la": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "new-rochelle-ny": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "new-york-ny": {
+    "facility_count": 63,
+    "score": 90.0
+  },
+  "newark-nj": {
+    "facility_count": 67,
+    "score": 95.7
+  },
+  "newport-beach-ca": {
+    "facility_count": 35,
+    "score": 50.0
+  },
+  "newport-news-va": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "newton-ma": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "norfolk-va": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "norman-ok": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "north-charleston-sc": {
+    "facility_count": 41,
+    "score": 58.6
+  },
+  "north-las-vegas-nv": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "north-port-fl": {
+    "facility_count": 2,
+    "score": 2.9
+  },
+  "norwalk-ca": {
+    "facility_count": 115,
+    "score": 100.0
+  },
+  "norwalk-ct": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "oakland-ca": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "oceanside-ca": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "odessa-tx": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "ofallon-mo": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "ogden-ut": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "oklahoma-city-ok": {
+    "facility_count": 47,
+    "score": 67.1
+  },
+  "olathe-ks": {
+    "facility_count": 20,
+    "score": 28.6
+  },
+  "omaha-ne": {
+    "facility_count": 34,
+    "score": 48.6
+  },
+  "ontario-ca": {
+    "facility_count": 55,
+    "score": 78.6
+  },
+  "orange-ca": {
+    "facility_count": 71,
+    "score": 100.0
+  },
+  "orem-ut": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "orlando-fl": {
+    "facility_count": 45,
+    "score": 64.3
+  },
+  "overland-park-ks": {
+    "facility_count": 42,
+    "score": 60.0
+  },
+  "oxnard-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "palm-bay-fl": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "palm-coast-fl": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "palmdale-ca": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "parma-oh": {
+    "facility_count": 80,
+    "score": 100.0
+  },
+  "pasadena-ca": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "pasadena-tx": {
+    "facility_count": 163,
+    "score": 100.0
+  },
+  "pasco-wa": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "paterson-nj": {
+    "facility_count": 57,
+    "score": 81.4
+  },
+  "pawtucket-ri": {
+    "facility_count": 69,
+    "score": 98.6
+  },
+  "pearland-tx": {
+    "facility_count": 51,
+    "score": 72.9
+  },
+  "pembroke-pines-fl": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "peoria-az": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "peoria-il": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "perris-ca": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "pharr-tx": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "philadelphia-pa": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "phoenix-az": {
+    "facility_count": 101,
+    "score": 100.0
+  },
+  "pittsburg-ca": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "pittsburgh-pa": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "plano-tx": {
+    "facility_count": 44,
+    "score": 62.9
+  },
+  "plantation-fl": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "plymouth-mn": {
+    "facility_count": 47,
+    "score": 67.1
+  },
+  "pomona-ca": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "pompano-beach-fl": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "port-st-lucie-fl": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "portland-or": {
+    "facility_count": 74,
+    "score": 100.0
+  },
+  "portsmouth-va": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "providence-ri": {
+    "facility_count": 62,
+    "score": 88.6
+  },
+  "provo-ut": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "pueblo-co": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "queen-creek-az": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "quincy-ma": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "racine-wi": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "raleigh-nc": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "rancho-cordova-ca": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "rancho-cucamonga-ca": {
+    "facility_count": 63,
+    "score": 90.0
+  },
+  "rapid-city-sd": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "reading-pa": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "redding-ca": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "redmond-wa": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "redwood-city-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "reno-nv": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "renton-wa": {
+    "facility_count": 41,
+    "score": 58.6
+  },
+  "rialto-ca": {
+    "facility_count": 59,
+    "score": 84.3
+  },
+  "richardson-tx": {
+    "facility_count": 46,
+    "score": 65.7
+  },
+  "richmond-ca": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "richmond-va": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "rio-rancho-nm": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "riverside-ca": {
+    "facility_count": 42,
+    "score": 60.0
+  },
+  "roanoke-va": {
+    "facility_count": 31,
+    "score": 44.3
+  },
+  "rochester-hills-mi": {
+    "facility_count": 44,
+    "score": 62.9
+  },
+  "rochester-mn": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "rochester-ny": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "rockford-il": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "rocklin-ca": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "rogers-ar": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "roseville-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "roswell-ga": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "round-rock-tx": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "sacramento-ca": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "saint-paul-mn": {
+    "facility_count": 62,
+    "score": 88.6
+  },
+  "salem-or": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "salinas-ca": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "salt-lake-city-ut": {
+    "facility_count": 51,
+    "score": 72.9
+  },
+  "san-angelo-tx": {
+    "facility_count": 5,
+    "score": 7.1
+  },
+  "san-antonio-tx": {
+    "facility_count": 30,
+    "score": 42.9
+  },
+  "san-bernardino-ca": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "san-diego-ca": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "san-francisco-ca": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "san-jose-ca": {
+    "facility_count": 38,
+    "score": 54.3
+  },
+  "san-leandro-ca": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "san-marcos-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "san-marcos-tx": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "san-mateo-ca": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "san-ramon-ca": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "sandpoint-id": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "sandy-springs-ga": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "sandy-ut": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "santa-ana-ca": {
+    "facility_count": 79,
+    "score": 100.0
+  },
+  "santa-barbara-ca": {
+    "facility_count": 2,
+    "score": 2.9
+  },
+  "santa-clara-ca": {
+    "facility_count": 42,
+    "score": 60.0
+  },
+  "santa-clarita-ca": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "santa-fe-nm": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "santa-maria-ca": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "santa-monica-ca": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "santa-rosa-ca": {
+    "facility_count": 7,
+    "score": 10.0
+  },
+  "savannah-ga": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "schaumburg-il": {
+    "facility_count": 88,
+    "score": 100.0
+  },
+  "scottsdale-az": {
+    "facility_count": 43,
+    "score": 61.4
+  },
+  "seattle-wa": {
+    "facility_count": 31,
+    "score": 44.3
+  },
+  "shreveport-la": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "simi-valley-ca": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "sioux-city-ia": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "sioux-falls-sd": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "somerville-ma": {
+    "facility_count": 29,
+    "score": 41.4
+  },
+  "south-bend-in": {
+    "facility_count": 35,
+    "score": 50.0
+  },
+  "south-fulton-ga": {
+    "facility_count": 31,
+    "score": 44.3
+  },
+  "south-gate-ca": {
+    "facility_count": 161,
+    "score": 100.0
+  },
+  "south-jordan-ut": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "sparks-nv": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "spokane-valley-wa": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "spokane-wa": {
+    "facility_count": 16,
+    "score": 22.9
+  },
+  "springdale-ar": {
+    "facility_count": 21,
+    "score": 30.0
+  },
+  "springfield-il": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "springfield-ma": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "springfield-mo": {
+    "facility_count": 32,
+    "score": 45.7
+  },
+  "st-george-ut": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "st-louis-mo": {
+    "facility_count": 85,
+    "score": 100.0
+  },
+  "st-petersburg-fl": {
+    "facility_count": 22,
+    "score": 31.4
+  },
+  "stamford-ct": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "sterling-heights-mi": {
+    "facility_count": 69,
+    "score": 98.6
+  },
+  "stockton-ca": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "suffolk-va": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "sugar-land-tx": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "sundance-wy": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "sunnyvale-ca": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "sunrise-fl": {
+    "facility_count": 27,
+    "score": 38.6
+  },
+  "surprise-az": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "syracuse-ny": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "tacoma-wa": {
+    "facility_count": 25,
+    "score": 35.7
+  },
+  "tallahassee-fl": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "tampa-fl": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "taos-nm": {
+    "facility_count": 0,
+    "score": 0.0
+  },
+  "temecula-ca": {
+    "facility_count": 3,
+    "score": 4.3
+  },
+  "tempe-az": {
+    "facility_count": 68,
+    "score": 97.1
+  },
+  "temple-tx": {
+    "facility_count": 23,
+    "score": 32.9
+  },
+  "thornton-co": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "thousand-oaks-ca": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "toledo-oh": {
+    "facility_count": 52,
+    "score": 74.3
+  },
+  "topeka-ks": {
+    "facility_count": 8,
+    "score": 11.4
+  },
+  "torrance-ca": {
+    "facility_count": 97,
+    "score": 100.0
+  },
+  "tracy-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "trenton-nj": {
+    "facility_count": 33,
+    "score": 47.1
+  },
+  "troy-mi": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "tucson-az": {
+    "facility_count": 14,
+    "score": 20.0
+  },
+  "tulsa-ok": {
+    "facility_count": 73,
+    "score": 100.0
+  },
+  "tuscaloosa-al": {
+    "facility_count": 17,
+    "score": 24.3
+  },
+  "tustin-ca": {
+    "facility_count": 61,
+    "score": 87.1
+  },
+  "tyler-tx": {
+    "facility_count": 11,
+    "score": 15.7
+  },
+  "upland-ca": {
+    "facility_count": 50,
+    "score": 71.4
+  },
+  "vacaville-ca": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "vallejo-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "vancouver-wa": {
+    "facility_count": 57,
+    "score": 81.4
+  },
+  "ventura-ca": {
+    "facility_count": 9,
+    "score": 12.9
+  },
+  "victorville-ca": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "virginia-beach-va": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "visalia-ca": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "vista-ca": {
+    "facility_count": 13,
+    "score": 18.6
+  },
+  "waco-tx": {
+    "facility_count": 28,
+    "score": 40.0
+  },
+  "warner-robins-ga": {
+    "facility_count": 10,
+    "score": 14.3
+  },
+  "warren-mi": {
+    "facility_count": 72,
+    "score": 100.0
+  },
+  "warwick-ri": {
+    "facility_count": 51,
+    "score": 72.9
+  },
+  "washington-dc": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "waterbury-ct": {
+    "facility_count": 40,
+    "score": 57.1
+  },
+  "waukegan-il": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "west-covina-ca": {
+    "facility_count": 48,
+    "score": 68.6
+  },
+  "west-jordan-ut": {
+    "facility_count": 37,
+    "score": 52.9
+  },
+  "west-palm-beach-fl": {
+    "facility_count": 15,
+    "score": 21.4
+  },
+  "west-valley-city-ut": {
+    "facility_count": 55,
+    "score": 78.6
+  },
+  "westland-mi": {
+    "facility_count": 54,
+    "score": 77.1
+  },
+  "westminster-ca": {
+    "facility_count": 72,
+    "score": 100.0
+  },
+  "westminster-co": {
+    "facility_count": 52,
+    "score": 74.3
+  },
+  "whitewright-tx": {
+    "facility_count": 1,
+    "score": 1.4
+  },
+  "whittier-ca": {
+    "facility_count": 102,
+    "score": 100.0
+  },
+  "wichita-falls-tx": {
+    "facility_count": 6,
+    "score": 8.6
+  },
+  "wichita-ks": {
+    "facility_count": 57,
+    "score": 81.4
+  },
+  "wilmington-nc": {
+    "facility_count": 12,
+    "score": 17.1
+  },
+  "winston-salem-nc": {
+    "facility_count": 19,
+    "score": 27.1
+  },
+  "woodbury-mn": {
+    "facility_count": 24,
+    "score": 34.3
+  },
+  "worcester-ma": {
+    "facility_count": 18,
+    "score": 25.7
+  },
+  "wyoming-mi": {
+    "facility_count": 57,
+    "score": 81.4
+  },
+  "yakima-wa": {
+    "facility_count": 4,
+    "score": 5.7
+  },
+  "yonkers-ny": {
+    "facility_count": 26,
+    "score": 37.1
+  },
+  "yuma-az": {
+    "facility_count": 6,
+    "score": 8.6
+  }
+}

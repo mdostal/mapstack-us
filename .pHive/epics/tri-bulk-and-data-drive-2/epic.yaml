@@ -1,0 +1,38 @@
+name: tri-bulk-and-data-drive-2
+title: EPA TRI via bulk data files + continued data drive round 2
+description: >
+  Ship EPA TRI facility density using the real bulk Basic Data File download
+  endpoint discovered in research (data.epa.gov/efservice/downloads/tri/
+  mv_tri_basic_download/{year}_US/csv) -- a fast, purpose-built access path
+  that dvd-6 in the dataset-verification-drive epic didn't know existed when
+  it hit the slow live query API and pivoted away. Also runs a second fresh
+  round of real-dataset candidate research beyond both prior sweeps.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset builds + backlog research, same shape as dataset-verification-drive."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: >
+    Solo-operator run, same posture as dataset-verification-drive's epic.yaml note.
+
+stories:
+  - id: tri-1-facility-density
+    title: Ship EPA TRI facility density via the real bulk Basic Data File endpoint
+    complexity: medium
+    depends_on: []
+  - id: tri-2-data-drive-round-2
+    title: Second fresh dataset-candidate research round -- build the best finding
+    complexity: medium
+    depends_on: []
