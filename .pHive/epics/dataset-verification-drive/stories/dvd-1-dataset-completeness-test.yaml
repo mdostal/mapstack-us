@@ -1,7 +1,7 @@
 id: dvd-1-dataset-completeness-test
 epic: dataset-verification-drive
 title: Registry-walking completeness test -- every dataset has its four required artifacts
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []

@@ -1,7 +1,7 @@
 id: dvd-3-coverage-honesty-check
 epic: dataset-verification-drive
 title: Coverage-honesty regression test -- methodology doc claims match real _meta counts
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []

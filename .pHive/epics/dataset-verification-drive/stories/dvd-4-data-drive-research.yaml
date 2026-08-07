@@ -1,7 +1,7 @@
 id: dvd-4-data-drive-research
 epic: dataset-verification-drive
 title: Fresh dataset-candidate research sweep -- update dataset-backlog.md
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []

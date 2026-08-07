@@ -1,7 +1,7 @@
 id: dvd-5-build-next-dataset
 epic: dataset-verification-drive
 title: Build and ship the single best new candidate found by dvd-4, if any
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: [dvd-4-data-drive-research]

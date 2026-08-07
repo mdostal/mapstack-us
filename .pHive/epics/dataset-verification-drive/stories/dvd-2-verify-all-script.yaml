@@ -1,7 +1,7 @@
 id: dvd-2-verify-all-script
 epic: dataset-verification-drive
 title: pnpm verify -- codify the full manual ship ritual into one command
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []
