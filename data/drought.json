@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "resolution": "county",
+    "source": "US Drought Monitor (usdmdataservices.unl.edu), county-level D2 (Severe Drought or worse) percentage"
+  },
+  "abilene-tx": {
+    "as_of": "20260804",
+    "county": "Taylor",
+    "severe_drought_pct": 0.0
+  },
+  "akron-oh": {
+    "as_of": "20260804",
+    "county": "Summit",
+    "severe_drought_pct": 0.0
+  },
+  "alameda-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "albany-ny": {
+    "as_of": "20260804",
+    "county": "Albany",
+    "severe_drought_pct": 0.0
+  },
+  "albuquerque-nm": {
+    "as_of": "20260804",
+    "county": "Bernalillo",
+    "severe_drought_pct": 100.0
+  },
+  "alexandria-va": {
+    "as_of": "20260804",
+    "county": "Alexandria",
+    "severe_drought_pct": 0.0
+  },
+  "alhambra-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "allen-tx": {
+    "as_of": "20260804",
+    "county": "Collin",
+    "severe_drought_pct": 0.0
+  },
+  "allentown-pa": {
+    "as_of": "20260804",
+    "county": "Lehigh",
+    "severe_drought_pct": 0.0
+  },
+  "amarillo-tx": {
+    "as_of": "20260804",
+    "county": "Potter",
+    "severe_drought_pct": 100.0
+  },
+  "anaheim-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "anchorage-ak": {
+    "as_of": "20260804",
+    "county": "Anchorage",
+    "severe_drought_pct": 0.0
+  },
+  "ankeny-ia": {
+    "as_of": "20260804",
+    "county": "Polk",
+    "severe_drought_pct": 0.0
+  },
+  "ann-arbor-mi": {
+    "as_of": "20260804",
+    "county": "Washtenaw",
+    "severe_drought_pct": 0.0
+  },
+  "antioch-ca": {
+    "as_of": "20260804",
+    "county": "Contra Costa",
+    "severe_drought_pct": 0.0
+  },
+  "apex-nc": {
+    "as_of": "20260804",
+    "county": "Wake",
+    "severe_drought_pct": 0.0
+  },
+  "arlington-tx": {
+    "as_of": "20260804",
+    "county": "Tarrant",
+    "severe_drought_pct": 0.0
+  },
+  "arlington-va": {
+    "as_of": "20260804",
+    "county": "Arlington",
+    "severe_drought_pct": 0.0
+  },
+  "arvada-co": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 100.0
+  },
+  "asheville-nc": {
+    "as_of": "20260804",
+    "county": "Buncombe",
+    "severe_drought_pct": 0.0
+  },
+  "athens-ga": {
+    "as_of": "20260804",
+    "county": "Clarke",
+    "severe_drought_pct": 0.0
+  },
+  "atlanta-ga": {
+    "as_of": "20260804",
+    "county": "Fulton",
+    "severe_drought_pct": 0.0
+  },
+  "auburn-al": {
+    "as_of": "20260804",
+    "county": "Lee",
+    "severe_drought_pct": 0.0
+  },
+  "auburn-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "augusta-ga": {
+    "as_of": "20260804",
+    "county": "Richmond",
+    "severe_drought_pct": 0.0
+  },
+  "aurora-co": {
+    "as_of": "20260804",
+    "county": "Arapahoe",
+    "severe_drought_pct": 45.2
+  },
+  "aurora-il": {
+    "as_of": "20260804",
+    "county": "Kane",
+    "severe_drought_pct": 0.0
+  },
+  "austin-tx": {
+    "as_of": "20260804",
+    "county": "Travis",
+    "severe_drought_pct": 10.35
+  },
+  "avondale-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "bakersfield-ca": {
+    "as_of": "20260804",
+    "county": "Kern",
+    "severe_drought_pct": 0.0
+  },
+  "baltimore-md": {
+    "as_of": "20260804",
+    "county": "Baltimore",
+    "severe_drought_pct": 0.0
+  },
+  "baton-rouge-la": {
+    "as_of": "20260804",
+    "county": "East Baton Rouge",
+    "severe_drought_pct": 0.0
+  },
+  "baytown-tx": {
+    "as_of": "20260804",
+    "county": "Harris",
+    "severe_drought_pct": 0.0
+  },
+  "beaumont-tx": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 0.0
+  },
+  "beaverton-or": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 0.0
+  },
+  "bellevue-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "bellingham-wa": {
+    "as_of": "20260804",
+    "county": "Whatcom",
+    "severe_drought_pct": 0.0
+  },
+  "bend-or": {
+    "as_of": "20260804",
+    "county": "Deschutes",
+    "severe_drought_pct": 99.95
+  },
+  "berkeley-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "bethlehem-pa": {
+    "as_of": "20260804",
+    "county": "Northampton",
+    "severe_drought_pct": 0.0
+  },
+  "billings-mt": {
+    "as_of": "20260804",
+    "county": "Yellowstone",
+    "severe_drought_pct": 43.81
+  },
+  "birmingham-al": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 0.0
+  },
+  "bismarck-nd": {
+    "as_of": "20260804",
+    "county": "Burleigh",
+    "severe_drought_pct": 0.0
+  },
+  "blanding-ut": {
+    "as_of": "20260804",
+    "county": "San Juan",
+    "severe_drought_pct": 100.0
+  },
+  "bloomington-il": {
+    "as_of": "20260804",
+    "county": "McLean",
+    "severe_drought_pct": 0.0
+  },
+  "bloomington-in": {
+    "as_of": "20260804",
+    "county": "Monroe",
+    "severe_drought_pct": 0.0
+  },
+  "bloomington-mn": {
+    "as_of": "20260804",
+    "county": "Hennepin",
+    "severe_drought_pct": 0.0
+  },
+  "boca-raton-fl": {
+    "as_of": "20260804",
+    "county": "Palm Beach",
+    "severe_drought_pct": 50.13
+  },
+  "boise-id": {
+    "as_of": "20260804",
+    "county": "Ada",
+    "severe_drought_pct": 14.72
+  },
+  "boston-ma": {
+    "as_of": "20260804",
+    "county": "Suffolk",
+    "severe_drought_pct": 0.0
+  },
+  "boulder-co": {
+    "as_of": "20260804",
+    "county": "Boulder",
+    "severe_drought_pct": 100.0
+  },
+  "bowling-green-ky": {
+    "as_of": "20260804",
+    "county": "Warren",
+    "severe_drought_pct": 0.0
+  },
+  "boynton-beach-fl": {
+    "as_of": "20260804",
+    "county": "Palm Beach",
+    "severe_drought_pct": 50.13
+  },
+  "bridgeport-ct": {
+    "as_of": "20260804",
+    "county": "Greater Bridgeport",
+    "severe_drought_pct": 0.0
+  },
+  "brockton-ma": {
+    "as_of": "20260804",
+    "county": "Plymouth",
+    "severe_drought_pct": 30.18
+  },
+  "broken-arrow-ok": {
+    "as_of": "20260804",
+    "county": "Tulsa",
+    "severe_drought_pct": 0.0
+  },
+  "brooklyn-park-mn": {
+    "as_of": "20260804",
+    "county": "Hennepin",
+    "severe_drought_pct": 0.0
+  },
+  "broomfield-co": {
+    "as_of": "20260804",
+    "county": "Broomfield",
+    "severe_drought_pct": 100.0
+  },
+  "brownsville-tx": {
+    "as_of": "20260804",
+    "county": "Cameron",
+    "severe_drought_pct": 32.73
+  },
+  "bryan-tx": {
+    "as_of": "20260804",
+    "county": "Brazos",
+    "severe_drought_pct": 0.0
+  },
+  "buckeye-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "buena-park-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "buffalo-ny": {
+    "as_of": "20260804",
+    "county": "Erie",
+    "severe_drought_pct": 0.0
+  },
+  "burbank-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "caldwell-id": {
+    "as_of": "20260804",
+    "county": "Canyon",
+    "severe_drought_pct": 0.0
+  },
+  "cambridge-ma": {
+    "as_of": "20260804",
+    "county": "Middlesex",
+    "severe_drought_pct": 15.26
+  },
+  "cape-coral-fl": {
+    "as_of": "20260804",
+    "county": "Lee",
+    "severe_drought_pct": 49.44
+  },
+  "carlsbad-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "carlsbad-nm": {
+    "as_of": "20260804",
+    "county": "Eddy",
+    "severe_drought_pct": 7.62
+  },
+  "carmel-in": {
+    "as_of": "20260804",
+    "county": "Hamilton",
+    "severe_drought_pct": 0.0
+  },
+  "carrollton-tx": {
+    "as_of": "20260804",
+    "county": "Denton",
+    "severe_drought_pct": 0.0
+  },
+  "carson-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "cary-nc": {
+    "as_of": "20260804",
+    "county": "Wake",
+    "severe_drought_pct": 0.0
+  },
+  "castle-rock-co": {
+    "as_of": "20260804",
+    "county": "Douglas",
+    "severe_drought_pct": 91.37
+  },
+  "cedar-park-tx": {
+    "as_of": "20260804",
+    "county": "Williamson",
+    "severe_drought_pct": 0.0
+  },
+  "cedar-rapids-ia": {
+    "as_of": "20260804",
+    "county": "Linn",
+    "severe_drought_pct": 0.0
+  },
+  "centennial-co": {
+    "as_of": "20260804",
+    "county": "Arapahoe",
+    "severe_drought_pct": 45.2
+  },
+  "champaign-il": {
+    "as_of": "20260804",
+    "county": "Champaign",
+    "severe_drought_pct": 0.0
+  },
+  "chandler-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "charleston-sc": {
+    "as_of": "20260804",
+    "county": "Charleston",
+    "severe_drought_pct": 100.0
+  },
+  "charlotte-nc": {
+    "as_of": "20260804",
+    "county": "Mecklenburg",
+    "severe_drought_pct": 0.0
+  },
+  "chattanooga-tn": {
+    "as_of": "20260804",
+    "county": "Hamilton",
+    "severe_drought_pct": 0.0
+  },
+  "chesapeake-va": {
+    "as_of": "20260804",
+    "county": "Chesapeake",
+    "severe_drought_pct": 0.0
+  },
+  "chicago-il": {
+    "as_of": "20260804",
+    "county": "Cook",
+    "severe_drought_pct": 0.0
+  },
+  "chico-ca": {
+    "as_of": "20260804",
+    "county": "Butte",
+    "severe_drought_pct": 0.0
+  },
+  "chino-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "chino-hills-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "chula-vista-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "cicero-il": {
+    "as_of": "20260804",
+    "county": "Cook",
+    "severe_drought_pct": 0.0
+  },
+  "cincinnati-oh": {
+    "as_of": "20260804",
+    "county": "Hamilton",
+    "severe_drought_pct": 0.0
+  },
+  "citrus-heights-ca": {
+    "as_of": "20260804",
+    "county": "Sacramento",
+    "severe_drought_pct": 0.0
+  },
+  "clarksville-tn": {
+    "as_of": "20260804",
+    "county": "Montgomery",
+    "severe_drought_pct": 0.0
+  },
+  "clearwater-fl": {
+    "as_of": "20260804",
+    "county": "Pinellas",
+    "severe_drought_pct": 100.0
+  },
+  "cleveland-oh": {
+    "as_of": "20260804",
+    "county": "Cuyahoga",
+    "severe_drought_pct": 0.0
+  },
+  "clifton-nj": {
+    "as_of": "20260804",
+    "county": "Passaic",
+    "severe_drought_pct": 0.0
+  },
+  "clovis-ca": {
+    "as_of": "20260804",
+    "county": "Fresno",
+    "severe_drought_pct": 0.0
+  },
+  "college-station-tx": {
+    "as_of": "20260804",
+    "county": "Brazos",
+    "severe_drought_pct": 0.0
+  },
+  "colorado-springs-co": {
+    "as_of": "20260804",
+    "county": "El Paso",
+    "severe_drought_pct": 91.18
+  },
+  "columbia-mo": {
+    "as_of": "20260804",
+    "county": "Boone",
+    "severe_drought_pct": 0.0
+  },
+  "columbia-sc": {
+    "as_of": "20260804",
+    "county": "Richland",
+    "severe_drought_pct": 0.0
+  },
+  "columbus-ga": {
+    "as_of": "20260804",
+    "county": "Muscogee",
+    "severe_drought_pct": 0.0
+  },
+  "columbus-oh": {
+    "as_of": "20260804",
+    "county": "Franklin",
+    "severe_drought_pct": 0.0
+  },
+  "compton-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "concord-ca": {
+    "as_of": "20260804",
+    "county": "Contra Costa",
+    "severe_drought_pct": 0.0
+  },
+  "concord-nc": {
+    "as_of": "20260804",
+    "county": "Cabarrus",
+    "severe_drought_pct": 0.0
+  },
+  "conroe-tx": {
+    "as_of": "20260804",
+    "county": "Montgomery",
+    "severe_drought_pct": 0.0
+  },
+  "coral-springs-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "corona-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "corpus-christi-tx": {
+    "as_of": "20260804",
+    "county": "Nueces",
+    "severe_drought_pct": 0.0
+  },
+  "costa-mesa-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "cranston-ri": {
+    "as_of": "20260804",
+    "county": "Providence",
+    "severe_drought_pct": 0.0
+  },
+  "dallas-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "daly-city-ca": {
+    "as_of": "20260804",
+    "county": "San Mateo",
+    "severe_drought_pct": 0.0
+  },
+  "danbury-ct": {
+    "as_of": "20260804",
+    "county": "Western Connecticut",
+    "severe_drought_pct": 0.0
+  },
+  "davenport-ia": {
+    "as_of": "20260804",
+    "county": "Scott",
+    "severe_drought_pct": 0.0
+  },
+  "davie-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "dayton-oh": {
+    "as_of": "20260804",
+    "county": "Montgomery",
+    "severe_drought_pct": 0.0
+  },
+  "daytona-beach-fl": {
+    "as_of": "20260804",
+    "county": "Volusia",
+    "severe_drought_pct": 18.03
+  },
+  "dearborn-mi": {
+    "as_of": "20260804",
+    "county": "Wayne",
+    "severe_drought_pct": 0.0
+  },
+  "deerfield-beach-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "deltona-fl": {
+    "as_of": "20260804",
+    "county": "Volusia",
+    "severe_drought_pct": 18.03
+  },
+  "denton-tx": {
+    "as_of": "20260804",
+    "county": "Denton",
+    "severe_drought_pct": 0.0
+  },
+  "denver-co": {
+    "as_of": "20260804",
+    "county": "Denver",
+    "severe_drought_pct": 100.0
+  },
+  "des-moines-ia": {
+    "as_of": "20260804",
+    "county": "Polk",
+    "severe_drought_pct": 0.0
+  },
+  "detroit-mi": {
+    "as_of": "20260804",
+    "county": "Wayne",
+    "severe_drought_pct": 0.0
+  },
+  "doral-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "downey-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "duluth-mn": {
+    "as_of": "20260804",
+    "county": "St. Louis",
+    "severe_drought_pct": 99.66
+  },
+  "durango-co": {
+    "as_of": "20260804",
+    "county": "La Plata",
+    "severe_drought_pct": 100.0
+  },
+  "durham-nc": {
+    "as_of": "20260804",
+    "county": "Durham",
+    "severe_drought_pct": 17.75
+  },
+  "edinburg-tx": {
+    "as_of": "20260804",
+    "county": "Hidalgo",
+    "severe_drought_pct": 2.62
+  },
+  "edmond-ok": {
+    "as_of": "20260804",
+    "county": "Oklahoma",
+    "severe_drought_pct": 97.53
+  },
+  "el-cajon-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "el-monte-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "el-paso-tx": {
+    "as_of": "20260804",
+    "county": "El Paso",
+    "severe_drought_pct": 0.0
+  },
+  "elgin-il": {
+    "as_of": "20260804",
+    "county": "Kane",
+    "severe_drought_pct": 0.0
+  },
+  "elizabeth-nj": {
+    "as_of": "20260804",
+    "county": "Union",
+    "severe_drought_pct": 0.0
+  },
+  "elk-grove-ca": {
+    "as_of": "20260804",
+    "county": "Sacramento",
+    "severe_drought_pct": 0.0
+  },
+  "erie-pa": {
+    "as_of": "20260804",
+    "county": "Erie",
+    "severe_drought_pct": 0.0
+  },
+  "escondido-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "eugene-or": {
+    "as_of": "20260804",
+    "county": "Lane",
+    "severe_drought_pct": 85.57
+  },
+  "evansville-in": {
+    "as_of": "20260804",
+    "county": "Vanderburgh",
+    "severe_drought_pct": 0.0
+  },
+  "everett-wa": {
+    "as_of": "20260804",
+    "county": "Snohomish",
+    "severe_drought_pct": 0.0
+  },
+  "fairfield-ca": {
+    "as_of": "20260804",
+    "county": "Solano",
+    "severe_drought_pct": 0.0
+  },
+  "fall-river-ma": {
+    "as_of": "20260804",
+    "county": "Bristol",
+    "severe_drought_pct": 8.17
+  },
+  "fargo-nd": {
+    "as_of": "20260804",
+    "county": "Cass",
+    "severe_drought_pct": 99.95
+  },
+  "farmington-hills-mi": {
+    "as_of": "20260804",
+    "county": "Oakland",
+    "severe_drought_pct": 0.0
+  },
+  "fayetteville-ar": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 0.0
+  },
+  "fayetteville-nc": {
+    "as_of": "20260804",
+    "county": "Cumberland",
+    "severe_drought_pct": 49.9
+  },
+  "federal-way-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "fishers-in": {
+    "as_of": "20260804",
+    "county": "Hamilton",
+    "severe_drought_pct": 0.0
+  },
+  "flagstaff-az": {
+    "as_of": "20260804",
+    "county": "Coconino",
+    "severe_drought_pct": 51.11
+  },
+  "flint-mi": {
+    "as_of": "20260804",
+    "county": "Genesee",
+    "severe_drought_pct": 0.0
+  },
+  "flower-mound-tx": {
+    "as_of": "20260804",
+    "county": "Denton",
+    "severe_drought_pct": 0.0
+  },
+  "folsom-ca": {
+    "as_of": "20260804",
+    "county": "Sacramento",
+    "severe_drought_pct": 0.0
+  },
+  "fontana-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "fort-collins-co": {
+    "as_of": "20260804",
+    "county": "Larimer",
+    "severe_drought_pct": 100.0
+  },
+  "fort-lauderdale-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "fort-myers-fl": {
+    "as_of": "20260804",
+    "county": "Lee",
+    "severe_drought_pct": 49.44
+  },
+  "fort-smith-ar": {
+    "as_of": "20260804",
+    "county": "Sebastian",
+    "severe_drought_pct": 0.0
+  },
+  "fort-wayne-in": {
+    "as_of": "20260804",
+    "county": "Allen",
+    "severe_drought_pct": 0.0
+  },
+  "fort-worth-tx": {
+    "as_of": "20260804",
+    "county": "Tarrant",
+    "severe_drought_pct": 0.0
+  },
+  "franklin-tn": {
+    "as_of": "20260804",
+    "county": "Williamson",
+    "severe_drought_pct": 0.0
+  },
+  "frederick-md": {
+    "as_of": "20260804",
+    "county": "Frederick",
+    "severe_drought_pct": 81.58
+  },
+  "fremont-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "fresno-ca": {
+    "as_of": "20260804",
+    "county": "Fresno",
+    "severe_drought_pct": 0.0
+  },
+  "frisco-tx": {
+    "as_of": "20260804",
+    "county": "Collin",
+    "severe_drought_pct": 0.0
+  },
+  "fullerton-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "gainesville-fl": {
+    "as_of": "20260804",
+    "county": "Alachua",
+    "severe_drought_pct": 85.38
+  },
+  "garden-grove-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "garland-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "gastonia-nc": {
+    "as_of": "20260804",
+    "county": "Gaston",
+    "severe_drought_pct": 0.0
+  },
+  "georgetown-tx": {
+    "as_of": "20260804",
+    "county": "Williamson",
+    "severe_drought_pct": 0.0
+  },
+  "geraldine-mt": {
+    "as_of": "20260804",
+    "county": "Chouteau",
+    "severe_drought_pct": 0.0
+  },
+  "gilbert-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "glendale-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "glendale-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "goodyear-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "grand-junction-co": {
+    "as_of": "20260804",
+    "county": "Mesa",
+    "severe_drought_pct": 100.0
+  },
+  "grand-prairie-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "grand-rapids-mi": {
+    "as_of": "20260804",
+    "county": "Kent",
+    "severe_drought_pct": 0.0
+  },
+  "greeley-co": {
+    "as_of": "20260804",
+    "county": "Weld",
+    "severe_drought_pct": 97.16
+  },
+  "green-bay-wi": {
+    "as_of": "20260804",
+    "county": "Brown",
+    "severe_drought_pct": 0.0
+  },
+  "greensboro-nc": {
+    "as_of": "20260804",
+    "county": "Guilford",
+    "severe_drought_pct": 64.36
+  },
+  "greenville-nc": {
+    "as_of": "20260804",
+    "county": "Pitt",
+    "severe_drought_pct": 1.96
+  },
+  "gresham-or": {
+    "as_of": "20260804",
+    "county": "Multnomah",
+    "severe_drought_pct": 0.0
+  },
+  "hampton-va": {
+    "as_of": "20260804",
+    "county": "Hampton",
+    "severe_drought_pct": 0.0
+  },
+  "hartford-ct": {
+    "as_of": "20260804",
+    "county": "Capitol",
+    "severe_drought_pct": 0.0
+  },
+  "hawthorne-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "hayward-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "hemet-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "henderson-nv": {
+    "as_of": "20260804",
+    "county": "Clark",
+    "severe_drought_pct": 15.12
+  },
+  "hesperia-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "hialeah-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "high-point-nc": {
+    "as_of": "20260804",
+    "county": "Guilford",
+    "severe_drought_pct": 64.36
+  },
+  "hillsboro-or": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 0.0
+  },
+  "hollywood-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "homestead-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "honolulu-hi": {
+    "as_of": "20260804",
+    "county": "Honolulu",
+    "severe_drought_pct": 0.0
+  },
+  "hoover-al": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 0.0
+  },
+  "houston-tx": {
+    "as_of": "20260804",
+    "county": "Harris",
+    "severe_drought_pct": 0.0
+  },
+  "huntington-beach-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "huntsville-al": {
+    "as_of": "20260804",
+    "county": "Madison",
+    "severe_drought_pct": 0.0
+  },
+  "independence-mo": {
+    "as_of": "20260804",
+    "county": "Jackson",
+    "severe_drought_pct": 0.0
+  },
+  "indianapolis-in": {
+    "as_of": "20260804",
+    "county": "Marion",
+    "severe_drought_pct": 0.0
+  },
+  "indio-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "inglewood-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "irvine-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "irving-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "jackson-ms": {
+    "as_of": "20260804",
+    "county": "Hinds",
+    "severe_drought_pct": 0.0
+  },
+  "jacksonville-fl": {
+    "as_of": "20260804",
+    "county": "Duval",
+    "severe_drought_pct": 100.0
+  },
+  "jersey-city-nj": {
+    "as_of": "20260804",
+    "county": "Hudson",
+    "severe_drought_pct": 0.0
+  },
+  "johns-creek-ga": {
+    "as_of": "20260804",
+    "county": "Fulton",
+    "severe_drought_pct": 0.0
+  },
+  "joliet-il": {
+    "as_of": "20260804",
+    "county": "Will",
+    "severe_drought_pct": 0.0
+  },
+  "jonesboro-ar": {
+    "as_of": "20260804",
+    "county": "Craighead",
+    "severe_drought_pct": 4.66
+  },
+  "jurupa-valley-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "kalispell-mt": {
+    "as_of": "20260804",
+    "county": "Flathead",
+    "severe_drought_pct": 0.0
+  },
+  "kansas-city-ks": {
+    "as_of": "20260804",
+    "county": "Wyandotte",
+    "severe_drought_pct": 0.0
+  },
+  "kansas-city-mo": {
+    "as_of": "20260804",
+    "county": "Jackson",
+    "severe_drought_pct": 0.0
+  },
+  "kennewick-wa": {
+    "as_of": "20260804",
+    "county": "Benton",
+    "severe_drought_pct": 0.03
+  },
+  "kenosha-wi": {
+    "as_of": "20260804",
+    "county": "Kenosha",
+    "severe_drought_pct": 0.0
+  },
+  "kent-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "killeen-tx": {
+    "as_of": "20260804",
+    "county": "Bell",
+    "severe_drought_pct": 0.0
+  },
+  "kirkland-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "kissimmee-fl": {
+    "as_of": "20260804",
+    "county": "Osceola",
+    "severe_drought_pct": 12.57
+  },
+  "knoxville-tn": {
+    "as_of": "20260804",
+    "county": "Knox",
+    "severe_drought_pct": 0.0
+  },
+  "lafayette-la": {
+    "as_of": "20260804",
+    "county": "Lafayette",
+    "severe_drought_pct": 0.0
+  },
+  "lake-charles-la": {
+    "as_of": "20260804",
+    "county": "Calcasieu",
+    "severe_drought_pct": 0.0
+  },
+  "lake-forest-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "lakeland-fl": {
+    "as_of": "20260804",
+    "county": "Polk",
+    "severe_drought_pct": 28.29
+  },
+  "lakeville-mn": {
+    "as_of": "20260804",
+    "county": "Dakota",
+    "severe_drought_pct": 0.0
+  },
+  "lakewood-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "lakewood-co": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 100.0
+  },
+  "lancaster-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "lansing-mi": {
+    "as_of": "20260804",
+    "county": "Ingham",
+    "severe_drought_pct": 0.0
+  },
+  "laredo-tx": {
+    "as_of": "20260804",
+    "county": "Webb",
+    "severe_drought_pct": 0.0
+  },
+  "largo-fl": {
+    "as_of": "20260804",
+    "county": "Pinellas",
+    "severe_drought_pct": 100.0
+  },
+  "las-cruces-nm": {
+    "as_of": "20260804",
+    "county": "Do\u00f1a Ana",
+    "severe_drought_pct": 0.13
+  },
+  "las-vegas-nv": {
+    "as_of": "20260804",
+    "county": "Clark",
+    "severe_drought_pct": 15.12
+  },
+  "lawrence-ks": {
+    "as_of": "20260804",
+    "county": "Douglas",
+    "severe_drought_pct": 0.0
+  },
+  "lawrence-ma": {
+    "as_of": "20260804",
+    "county": "Essex",
+    "severe_drought_pct": 15.03
+  },
+  "lawton-ok": {
+    "as_of": "20260804",
+    "county": "Comanche",
+    "severe_drought_pct": 50.03
+  },
+  "layton-ut": {
+    "as_of": "20260804",
+    "county": "Davis",
+    "severe_drought_pct": 100.0
+  },
+  "league-city-tx": {
+    "as_of": "20260804",
+    "county": "Galveston",
+    "severe_drought_pct": 0.0
+  },
+  "leander-tx": {
+    "as_of": "20260804",
+    "county": "Williamson",
+    "severe_drought_pct": 0.0
+  },
+  "lees-summit-mo": {
+    "as_of": "20260804",
+    "county": "Jackson",
+    "severe_drought_pct": 0.0
+  },
+  "lehi-ut": {
+    "as_of": "20260804",
+    "county": "Utah",
+    "severe_drought_pct": 100.0
+  },
+  "lewisville-tx": {
+    "as_of": "20260804",
+    "county": "Denton",
+    "severe_drought_pct": 0.0
+  },
+  "lexington-ky": {
+    "as_of": "20260804",
+    "county": "Fayette",
+    "severe_drought_pct": 0.0
+  },
+  "lincoln-ne": {
+    "as_of": "20260804",
+    "county": "Lancaster",
+    "severe_drought_pct": 0.0
+  },
+  "little-rock-ar": {
+    "as_of": "20260804",
+    "county": "Pulaski",
+    "severe_drought_pct": 20.65
+  },
+  "livermore-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "livonia-mi": {
+    "as_of": "20260804",
+    "county": "Wayne",
+    "severe_drought_pct": 0.0
+  },
+  "long-beach-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "longmont-co": {
+    "as_of": "20260804",
+    "county": "Boulder",
+    "severe_drought_pct": 100.0
+  },
+  "longview-tx": {
+    "as_of": "20260804",
+    "county": "Gregg",
+    "severe_drought_pct": 0.0
+  },
+  "los-alamos-nm": {
+    "as_of": "20260804",
+    "county": "Los Alamos",
+    "severe_drought_pct": 100.0
+  },
+  "los-angeles-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "louisville-ky": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 0.0
+  },
+  "loveland-co": {
+    "as_of": "20260804",
+    "county": "Larimer",
+    "severe_drought_pct": 100.0
+  },
+  "lowell-ma": {
+    "as_of": "20260804",
+    "county": "Middlesex",
+    "severe_drought_pct": 15.26
+  },
+  "lubbock-tx": {
+    "as_of": "20260804",
+    "county": "Lubbock",
+    "severe_drought_pct": 0.0
+  },
+  "lynchburg-va": {
+    "as_of": "20260804",
+    "county": "Lynchburg",
+    "severe_drought_pct": 100.0
+  },
+  "lynn-ma": {
+    "as_of": "20260804",
+    "county": "Essex",
+    "severe_drought_pct": 15.03
+  },
+  "mableton-ga": {
+    "as_of": "20260804",
+    "county": "Cobb",
+    "severe_drought_pct": 0.0
+  },
+  "macon-ga": {
+    "as_of": "20260804",
+    "county": "Bibb",
+    "severe_drought_pct": 0.0
+  },
+  "madison-wi": {
+    "as_of": "20260804",
+    "county": "Dane",
+    "severe_drought_pct": 0.0
+  },
+  "manchester-nh": {
+    "as_of": "20260804",
+    "county": "Hillsborough",
+    "severe_drought_pct": 5.37
+  },
+  "mansfield-tx": {
+    "as_of": "20260804",
+    "county": "Tarrant",
+    "severe_drought_pct": 0.0
+  },
+  "manteca-ca": {
+    "as_of": "20260804",
+    "county": "San Joaquin",
+    "severe_drought_pct": 0.0
+  },
+  "maricopa-az": {
+    "as_of": "20260804",
+    "county": "Pinal",
+    "severe_drought_pct": 45.0
+  },
+  "marysville-wa": {
+    "as_of": "20260804",
+    "county": "Snohomish",
+    "severe_drought_pct": 0.0
+  },
+  "mcallen-tx": {
+    "as_of": "20260804",
+    "county": "Hidalgo",
+    "severe_drought_pct": 2.62
+  },
+  "mckinney-tx": {
+    "as_of": "20260804",
+    "county": "Collin",
+    "severe_drought_pct": 0.0
+  },
+  "medford-or": {
+    "as_of": "20260804",
+    "county": "Jackson",
+    "severe_drought_pct": 76.98
+  },
+  "melbourne-fl": {
+    "as_of": "20260804",
+    "county": "Brevard",
+    "severe_drought_pct": 0.0
+  },
+  "memphis-tn": {
+    "as_of": "20260804",
+    "county": "Shelby",
+    "severe_drought_pct": 0.0
+  },
+  "menifee-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "merced-ca": {
+    "as_of": "20260804",
+    "county": "Merced",
+    "severe_drought_pct": 0.0
+  },
+  "meridian-id": {
+    "as_of": "20260804",
+    "county": "Ada",
+    "severe_drought_pct": 14.72
+  },
+  "mesa-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "mesquite-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "miami-beach-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "miami-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "miami-gardens-fl": {
+    "as_of": "20260804",
+    "county": "Miami-Dade",
+    "severe_drought_pct": 71.94
+  },
+  "midland-tx": {
+    "as_of": "20260804",
+    "county": "Midland",
+    "severe_drought_pct": 0.0
+  },
+  "milpitas-ca": {
+    "as_of": "20260804",
+    "county": "Santa Clara",
+    "severe_drought_pct": 0.0
+  },
+  "milwaukee-wi": {
+    "as_of": "20260804",
+    "county": "Milwaukee",
+    "severe_drought_pct": 0.0
+  },
+  "minneapolis-mn": {
+    "as_of": "20260804",
+    "county": "Hennepin",
+    "severe_drought_pct": 0.0
+  },
+  "miramar-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "mission-tx": {
+    "as_of": "20260804",
+    "county": "Hidalgo",
+    "severe_drought_pct": 2.62
+  },
+  "mission-viejo-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "missoula-mt": {
+    "as_of": "20260804",
+    "county": "Missoula",
+    "severe_drought_pct": 0.0
+  },
+  "missouri-city-tx": {
+    "as_of": "20260804",
+    "county": "Fort Bend",
+    "severe_drought_pct": 0.0
+  },
+  "mobile-al": {
+    "as_of": "20260804",
+    "county": "Mobile",
+    "severe_drought_pct": 0.0
+  },
+  "modesto-ca": {
+    "as_of": "20260804",
+    "county": "Stanislaus",
+    "severe_drought_pct": 0.0
+  },
+  "montgomery-al": {
+    "as_of": "20260804",
+    "county": "Montgomery",
+    "severe_drought_pct": 0.0
+  },
+  "monticello-ut": {
+    "as_of": "20260804",
+    "county": "San Juan",
+    "severe_drought_pct": 100.0
+  },
+  "moreno-valley-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "mount-pleasant-sc": {
+    "as_of": "20260804",
+    "county": "Charleston",
+    "severe_drought_pct": 100.0
+  },
+  "mountain-view-ca": {
+    "as_of": "20260804",
+    "county": "Santa Clara",
+    "severe_drought_pct": 0.0
+  },
+  "murfreesboro-tn": {
+    "as_of": "20260804",
+    "county": "Rutherford",
+    "severe_drought_pct": 0.0
+  },
+  "murrieta-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "nampa-id": {
+    "as_of": "20260804",
+    "county": "Canyon",
+    "severe_drought_pct": 0.0
+  },
+  "naperville-il": {
+    "as_of": "20260804",
+    "county": "DuPage",
+    "severe_drought_pct": 0.0
+  },
+  "nashua-nh": {
+    "as_of": "20260804",
+    "county": "Hillsborough",
+    "severe_drought_pct": 5.37
+  },
+  "nashville-tn": {
+    "as_of": "20260804",
+    "county": "Davidson",
+    "severe_drought_pct": 0.0
+  },
+  "new-bedford-ma": {
+    "as_of": "20260804",
+    "county": "Bristol",
+    "severe_drought_pct": 8.17
+  },
+  "new-braunfels-tx": {
+    "as_of": "20260804",
+    "county": "Comal",
+    "severe_drought_pct": 0.0
+  },
+  "new-haven-ct": {
+    "as_of": "20260804",
+    "county": "South Central Connecticut",
+    "severe_drought_pct": 0.0
+  },
+  "new-orleans-la": {
+    "as_of": "20260804",
+    "county": "Orleans",
+    "severe_drought_pct": 0.0
+  },
+  "new-rochelle-ny": {
+    "as_of": "20260804",
+    "county": "Westchester",
+    "severe_drought_pct": 0.0
+  },
+  "new-york-ny": {
+    "as_of": "20260804",
+    "county": "New York",
+    "severe_drought_pct": 0.0
+  },
+  "newark-nj": {
+    "as_of": "20260804",
+    "county": "Essex",
+    "severe_drought_pct": 0.0
+  },
+  "newport-beach-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "newport-news-va": {
+    "as_of": "20260804",
+    "county": "Newport News",
+    "severe_drought_pct": 0.0
+  },
+  "newton-ma": {
+    "as_of": "20260804",
+    "county": "Middlesex",
+    "severe_drought_pct": 15.26
+  },
+  "norfolk-va": {
+    "as_of": "20260804",
+    "county": "Norfolk",
+    "severe_drought_pct": 0.0
+  },
+  "norman-ok": {
+    "as_of": "20260804",
+    "county": "Cleveland",
+    "severe_drought_pct": 20.4
+  },
+  "north-charleston-sc": {
+    "as_of": "20260804",
+    "county": "Charleston",
+    "severe_drought_pct": 100.0
+  },
+  "north-las-vegas-nv": {
+    "as_of": "20260804",
+    "county": "Clark",
+    "severe_drought_pct": 15.12
+  },
+  "north-port-fl": {
+    "as_of": "20260804",
+    "county": "Sarasota",
+    "severe_drought_pct": 100.0
+  },
+  "norwalk-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "norwalk-ct": {
+    "as_of": "20260804",
+    "county": "Western Connecticut",
+    "severe_drought_pct": 0.0
+  },
+  "oakland-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "oceanside-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "odessa-tx": {
+    "as_of": "20260804",
+    "county": "Ector",
+    "severe_drought_pct": 0.0
+  },
+  "ofallon-mo": {
+    "as_of": "20260804",
+    "county": "St. Charles",
+    "severe_drought_pct": 0.0
+  },
+  "ogden-ut": {
+    "as_of": "20260804",
+    "county": "Weber",
+    "severe_drought_pct": 94.56
+  },
+  "oklahoma-city-ok": {
+    "as_of": "20260804",
+    "county": "Oklahoma",
+    "severe_drought_pct": 97.53
+  },
+  "olathe-ks": {
+    "as_of": "20260804",
+    "county": "Johnson",
+    "severe_drought_pct": 0.0
+  },
+  "omaha-ne": {
+    "as_of": "20260804",
+    "county": "Douglas",
+    "severe_drought_pct": 8.05
+  },
+  "ontario-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "orange-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "orem-ut": {
+    "as_of": "20260804",
+    "county": "Utah",
+    "severe_drought_pct": 100.0
+  },
+  "orlando-fl": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 68.8
+  },
+  "overland-park-ks": {
+    "as_of": "20260804",
+    "county": "Johnson",
+    "severe_drought_pct": 0.0
+  },
+  "oxnard-ca": {
+    "as_of": "20260804",
+    "county": "Ventura",
+    "severe_drought_pct": 0.0
+  },
+  "palm-bay-fl": {
+    "as_of": "20260804",
+    "county": "Brevard",
+    "severe_drought_pct": 0.0
+  },
+  "palm-coast-fl": {
+    "as_of": "20260804",
+    "county": "Flagler",
+    "severe_drought_pct": 11.63
+  },
+  "palmdale-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "parma-oh": {
+    "as_of": "20260804",
+    "county": "Cuyahoga",
+    "severe_drought_pct": 0.0
+  },
+  "pasadena-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "pasadena-tx": {
+    "as_of": "20260804",
+    "county": "Harris",
+    "severe_drought_pct": 0.0
+  },
+  "pasco-wa": {
+    "as_of": "20260804",
+    "county": "Franklin",
+    "severe_drought_pct": 9.11
+  },
+  "paterson-nj": {
+    "as_of": "20260804",
+    "county": "Passaic",
+    "severe_drought_pct": 0.0
+  },
+  "pawtucket-ri": {
+    "as_of": "20260804",
+    "county": "Providence",
+    "severe_drought_pct": 0.0
+  },
+  "pearland-tx": {
+    "as_of": "20260804",
+    "county": "Brazoria",
+    "severe_drought_pct": 0.0
+  },
+  "pembroke-pines-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "peoria-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "peoria-il": {
+    "as_of": "20260804",
+    "county": "Peoria",
+    "severe_drought_pct": 0.0
+  },
+  "perris-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "pharr-tx": {
+    "as_of": "20260804",
+    "county": "Hidalgo",
+    "severe_drought_pct": 2.62
+  },
+  "philadelphia-pa": {
+    "as_of": "20260804",
+    "county": "Philadelphia",
+    "severe_drought_pct": 0.0
+  },
+  "phoenix-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "pittsburg-ca": {
+    "as_of": "20260804",
+    "county": "Contra Costa",
+    "severe_drought_pct": 0.0
+  },
+  "pittsburgh-pa": {
+    "as_of": "20260804",
+    "county": "Allegheny",
+    "severe_drought_pct": 0.0
+  },
+  "plano-tx": {
+    "as_of": "20260804",
+    "county": "Collin",
+    "severe_drought_pct": 0.0
+  },
+  "plantation-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "plymouth-mn": {
+    "as_of": "20260804",
+    "county": "Hennepin",
+    "severe_drought_pct": 0.0
+  },
+  "pomona-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "pompano-beach-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "port-st-lucie-fl": {
+    "as_of": "20260804",
+    "county": "St. Lucie",
+    "severe_drought_pct": 19.8
+  },
+  "portland-or": {
+    "as_of": "20260804",
+    "county": "Multnomah",
+    "severe_drought_pct": 0.0
+  },
+  "portsmouth-va": {
+    "as_of": "20260804",
+    "county": "Portsmouth",
+    "severe_drought_pct": 0.0
+  },
+  "providence-ri": {
+    "as_of": "20260804",
+    "county": "Providence",
+    "severe_drought_pct": 0.0
+  },
+  "provo-ut": {
+    "as_of": "20260804",
+    "county": "Utah",
+    "severe_drought_pct": 100.0
+  },
+  "pueblo-co": {
+    "as_of": "20260804",
+    "county": "Pueblo",
+    "severe_drought_pct": 39.7
+  },
+  "queen-creek-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "quincy-ma": {
+    "as_of": "20260804",
+    "county": "Norfolk",
+    "severe_drought_pct": 0.0
+  },
+  "racine-wi": {
+    "as_of": "20260804",
+    "county": "Racine",
+    "severe_drought_pct": 0.0
+  },
+  "raleigh-nc": {
+    "as_of": "20260804",
+    "county": "Wake",
+    "severe_drought_pct": 0.0
+  },
+  "rancho-cordova-ca": {
+    "as_of": "20260804",
+    "county": "Sacramento",
+    "severe_drought_pct": 0.0
+  },
+  "rancho-cucamonga-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "rapid-city-sd": {
+    "as_of": "20260804",
+    "county": "Pennington",
+    "severe_drought_pct": 73.99
+  },
+  "reading-pa": {
+    "as_of": "20260804",
+    "county": "Berks",
+    "severe_drought_pct": 43.8
+  },
+  "redding-ca": {
+    "as_of": "20260804",
+    "county": "Shasta",
+    "severe_drought_pct": 0.0
+  },
+  "redmond-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "redwood-city-ca": {
+    "as_of": "20260804",
+    "county": "San Mateo",
+    "severe_drought_pct": 0.0
+  },
+  "reno-nv": {
+    "as_of": "20260804",
+    "county": "Washoe",
+    "severe_drought_pct": 0.0
+  },
+  "renton-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "rialto-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "richardson-tx": {
+    "as_of": "20260804",
+    "county": "Dallas",
+    "severe_drought_pct": 0.0
+  },
+  "richmond-ca": {
+    "as_of": "20260804",
+    "county": "Contra Costa",
+    "severe_drought_pct": 0.0
+  },
+  "richmond-va": {
+    "as_of": "20260804",
+    "county": "Richmond",
+    "severe_drought_pct": 0.0
+  },
+  "rio-rancho-nm": {
+    "as_of": "20260804",
+    "county": "Sandoval",
+    "severe_drought_pct": 100.0
+  },
+  "riverside-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "roanoke-va": {
+    "as_of": "20260804",
+    "county": "Roanoke",
+    "severe_drought_pct": 0.0
+  },
+  "rochester-hills-mi": {
+    "as_of": "20260804",
+    "county": "Oakland",
+    "severe_drought_pct": 0.0
+  },
+  "rochester-mn": {
+    "as_of": "20260804",
+    "county": "Olmsted",
+    "severe_drought_pct": 0.0
+  },
+  "rochester-ny": {
+    "as_of": "20260804",
+    "county": "Monroe",
+    "severe_drought_pct": 0.0
+  },
+  "rockford-il": {
+    "as_of": "20260804",
+    "county": "Winnebago",
+    "severe_drought_pct": 0.0
+  },
+  "rocklin-ca": {
+    "as_of": "20260804",
+    "county": "Placer",
+    "severe_drought_pct": 0.0
+  },
+  "rogers-ar": {
+    "as_of": "20260804",
+    "county": "Benton",
+    "severe_drought_pct": 0.0
+  },
+  "roseville-ca": {
+    "as_of": "20260804",
+    "county": "Placer",
+    "severe_drought_pct": 0.0
+  },
+  "roswell-ga": {
+    "as_of": "20260804",
+    "county": "Fulton",
+    "severe_drought_pct": 0.0
+  },
+  "round-rock-tx": {
+    "as_of": "20260804",
+    "county": "Williamson",
+    "severe_drought_pct": 0.0
+  },
+  "sacramento-ca": {
+    "as_of": "20260804",
+    "county": "Sacramento",
+    "severe_drought_pct": 0.0
+  },
+  "saint-paul-mn": {
+    "as_of": "20260804",
+    "county": "Ramsey",
+    "severe_drought_pct": 0.0
+  },
+  "salem-or": {
+    "as_of": "20260804",
+    "county": "Marion",
+    "severe_drought_pct": 36.68
+  },
+  "salinas-ca": {
+    "as_of": "20260804",
+    "county": "Monterey",
+    "severe_drought_pct": 0.0
+  },
+  "salt-lake-city-ut": {
+    "as_of": "20260804",
+    "county": "Salt Lake",
+    "severe_drought_pct": 100.0
+  },
+  "san-angelo-tx": {
+    "as_of": "20260804",
+    "county": "Tom Green",
+    "severe_drought_pct": 0.0
+  },
+  "san-antonio-tx": {
+    "as_of": "20260804",
+    "county": "Bexar",
+    "severe_drought_pct": 0.0
+  },
+  "san-bernardino-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "san-diego-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "san-francisco-ca": {
+    "as_of": "20260804",
+    "county": "San Francisco",
+    "severe_drought_pct": 0.0
+  },
+  "san-jose-ca": {
+    "as_of": "20260804",
+    "county": "Santa Clara",
+    "severe_drought_pct": 0.0
+  },
+  "san-leandro-ca": {
+    "as_of": "20260804",
+    "county": "Alameda",
+    "severe_drought_pct": 0.0
+  },
+  "san-marcos-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "san-marcos-tx": {
+    "as_of": "20260804",
+    "county": "Hays",
+    "severe_drought_pct": 0.0
+  },
+  "san-mateo-ca": {
+    "as_of": "20260804",
+    "county": "San Mateo",
+    "severe_drought_pct": 0.0
+  },
+  "san-ramon-ca": {
+    "as_of": "20260804",
+    "county": "Contra Costa",
+    "severe_drought_pct": 0.0
+  },
+  "sandpoint-id": {
+    "as_of": "20260804",
+    "county": "Bonner",
+    "severe_drought_pct": 100.0
+  },
+  "sandy-springs-ga": {
+    "as_of": "20260804",
+    "county": "Fulton",
+    "severe_drought_pct": 0.0
+  },
+  "sandy-ut": {
+    "as_of": "20260804",
+    "county": "Salt Lake",
+    "severe_drought_pct": 100.0
+  },
+  "santa-ana-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "santa-barbara-ca": {
+    "as_of": "20260804",
+    "county": "Santa Barbara",
+    "severe_drought_pct": 0.0
+  },
+  "santa-clara-ca": {
+    "as_of": "20260804",
+    "county": "Santa Clara",
+    "severe_drought_pct": 0.0
+  },
+  "santa-clarita-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "santa-fe-nm": {
+    "as_of": "20260804",
+    "county": "Santa Fe",
+    "severe_drought_pct": 100.0
+  },
+  "santa-maria-ca": {
+    "as_of": "20260804",
+    "county": "Santa Barbara",
+    "severe_drought_pct": 0.0
+  },
+  "santa-monica-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "santa-rosa-ca": {
+    "as_of": "20260804",
+    "county": "Sonoma",
+    "severe_drought_pct": 0.0
+  },
+  "savannah-ga": {
+    "as_of": "20260804",
+    "county": "Chatham",
+    "severe_drought_pct": 4.91
+  },
+  "schaumburg-il": {
+    "as_of": "20260804",
+    "county": "Cook",
+    "severe_drought_pct": 0.0
+  },
+  "scottsdale-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "seattle-wa": {
+    "as_of": "20260804",
+    "county": "King",
+    "severe_drought_pct": 0.0
+  },
+  "shreveport-la": {
+    "as_of": "20260804",
+    "county": "Caddo",
+    "severe_drought_pct": 0.0
+  },
+  "simi-valley-ca": {
+    "as_of": "20260804",
+    "county": "Ventura",
+    "severe_drought_pct": 0.0
+  },
+  "sioux-city-ia": {
+    "as_of": "20260804",
+    "county": "Woodbury",
+    "severe_drought_pct": 0.0
+  },
+  "sioux-falls-sd": {
+    "as_of": "20260804",
+    "county": "Minnehaha",
+    "severe_drought_pct": 20.17
+  },
+  "somerville-ma": {
+    "as_of": "20260804",
+    "county": "Middlesex",
+    "severe_drought_pct": 15.26
+  },
+  "south-bend-in": {
+    "as_of": "20260804",
+    "county": "St. Joseph",
+    "severe_drought_pct": 0.0
+  },
+  "south-fulton-ga": {
+    "as_of": "20260804",
+    "county": "Fulton",
+    "severe_drought_pct": 0.0
+  },
+  "south-gate-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "south-jordan-ut": {
+    "as_of": "20260804",
+    "county": "Salt Lake",
+    "severe_drought_pct": 100.0
+  },
+  "sparks-nv": {
+    "as_of": "20260804",
+    "county": "Washoe",
+    "severe_drought_pct": 0.0
+  },
+  "spokane-valley-wa": {
+    "as_of": "20260804",
+    "county": "Spokane",
+    "severe_drought_pct": 100.0
+  },
+  "spokane-wa": {
+    "as_of": "20260804",
+    "county": "Spokane",
+    "severe_drought_pct": 100.0
+  },
+  "springdale-ar": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 0.0
+  },
+  "springfield-il": {
+    "as_of": "20260804",
+    "county": "Sangamon",
+    "severe_drought_pct": 0.0
+  },
+  "springfield-ma": {
+    "as_of": "20260804",
+    "county": "Hampden",
+    "severe_drought_pct": 0.0
+  },
+  "springfield-mo": {
+    "as_of": "20260804",
+    "county": "Greene",
+    "severe_drought_pct": 0.0
+  },
+  "st-george-ut": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 100.0
+  },
+  "st-louis-mo": {
+    "as_of": "20260804",
+    "county": "St. Louis",
+    "severe_drought_pct": 0.0
+  },
+  "st-petersburg-fl": {
+    "as_of": "20260804",
+    "county": "Pinellas",
+    "severe_drought_pct": 100.0
+  },
+  "stamford-ct": {
+    "as_of": "20260804",
+    "county": "Western Connecticut",
+    "severe_drought_pct": 0.0
+  },
+  "sterling-heights-mi": {
+    "as_of": "20260804",
+    "county": "Macomb",
+    "severe_drought_pct": 0.0
+  },
+  "stockton-ca": {
+    "as_of": "20260804",
+    "county": "San Joaquin",
+    "severe_drought_pct": 0.0
+  },
+  "suffolk-va": {
+    "as_of": "20260804",
+    "county": "Suffolk",
+    "severe_drought_pct": 0.0
+  },
+  "sugar-land-tx": {
+    "as_of": "20260804",
+    "county": "Fort Bend",
+    "severe_drought_pct": 0.0
+  },
+  "sundance-wy": {
+    "as_of": "20260804",
+    "county": "Crook",
+    "severe_drought_pct": 100.0
+  },
+  "sunnyvale-ca": {
+    "as_of": "20260804",
+    "county": "Santa Clara",
+    "severe_drought_pct": 0.0
+  },
+  "sunrise-fl": {
+    "as_of": "20260804",
+    "county": "Broward",
+    "severe_drought_pct": 69.81
+  },
+  "surprise-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "syracuse-ny": {
+    "as_of": "20260804",
+    "county": "Onondaga",
+    "severe_drought_pct": 0.0
+  },
+  "tacoma-wa": {
+    "as_of": "20260804",
+    "county": "Pierce",
+    "severe_drought_pct": 0.0
+  },
+  "tallahassee-fl": {
+    "as_of": "20260804",
+    "county": "Leon",
+    "severe_drought_pct": 0.0
+  },
+  "tampa-fl": {
+    "as_of": "20260804",
+    "county": "Hillsborough",
+    "severe_drought_pct": 100.0
+  },
+  "taos-nm": {
+    "as_of": "20260804",
+    "county": "Taos",
+    "severe_drought_pct": 100.0
+  },
+  "temecula-ca": {
+    "as_of": "20260804",
+    "county": "Riverside",
+    "severe_drought_pct": 0.0
+  },
+  "tempe-az": {
+    "as_of": "20260804",
+    "county": "Maricopa",
+    "severe_drought_pct": 80.12
+  },
+  "temple-tx": {
+    "as_of": "20260804",
+    "county": "Bell",
+    "severe_drought_pct": 0.0
+  },
+  "thornton-co": {
+    "as_of": "20260804",
+    "county": "Adams",
+    "severe_drought_pct": 61.39
+  },
+  "thousand-oaks-ca": {
+    "as_of": "20260804",
+    "county": "Ventura",
+    "severe_drought_pct": 0.0
+  },
+  "toledo-oh": {
+    "as_of": "20260804",
+    "county": "Lucas",
+    "severe_drought_pct": 0.0
+  },
+  "topeka-ks": {
+    "as_of": "20260804",
+    "county": "Shawnee",
+    "severe_drought_pct": 0.0
+  },
+  "torrance-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "tracy-ca": {
+    "as_of": "20260804",
+    "county": "San Joaquin",
+    "severe_drought_pct": 0.0
+  },
+  "trenton-nj": {
+    "as_of": "20260804",
+    "county": "Mercer",
+    "severe_drought_pct": 0.0
+  },
+  "troy-mi": {
+    "as_of": "20260804",
+    "county": "Oakland",
+    "severe_drought_pct": 0.0
+  },
+  "tucson-az": {
+    "as_of": "20260804",
+    "county": "Pima",
+    "severe_drought_pct": 41.99
+  },
+  "tulsa-ok": {
+    "as_of": "20260804",
+    "county": "Tulsa",
+    "severe_drought_pct": 0.0
+  },
+  "tuscaloosa-al": {
+    "as_of": "20260804",
+    "county": "Tuscaloosa",
+    "severe_drought_pct": 0.0
+  },
+  "tustin-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "tyler-tx": {
+    "as_of": "20260804",
+    "county": "Smith",
+    "severe_drought_pct": 0.0
+  },
+  "upland-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "vacaville-ca": {
+    "as_of": "20260804",
+    "county": "Solano",
+    "severe_drought_pct": 0.0
+  },
+  "vallejo-ca": {
+    "as_of": "20260804",
+    "county": "Solano",
+    "severe_drought_pct": 0.0
+  },
+  "vancouver-wa": {
+    "as_of": "20260804",
+    "county": "Clark",
+    "severe_drought_pct": 0.0
+  },
+  "ventura-ca": {
+    "as_of": "20260804",
+    "county": "Ventura",
+    "severe_drought_pct": 0.0
+  },
+  "victorville-ca": {
+    "as_of": "20260804",
+    "county": "San Bernardino",
+    "severe_drought_pct": 0.0
+  },
+  "virginia-beach-va": {
+    "as_of": "20260804",
+    "county": "Virginia Beach",
+    "severe_drought_pct": 0.0
+  },
+  "visalia-ca": {
+    "as_of": "20260804",
+    "county": "Tulare",
+    "severe_drought_pct": 0.0
+  },
+  "vista-ca": {
+    "as_of": "20260804",
+    "county": "San Diego",
+    "severe_drought_pct": 0.0
+  },
+  "waco-tx": {
+    "as_of": "20260804",
+    "county": "McLennan",
+    "severe_drought_pct": 0.0
+  },
+  "warner-robins-ga": {
+    "as_of": "20260804",
+    "county": "Houston",
+    "severe_drought_pct": 0.0
+  },
+  "warren-mi": {
+    "as_of": "20260804",
+    "county": "Macomb",
+    "severe_drought_pct": 0.0
+  },
+  "warwick-ri": {
+    "as_of": "20260804",
+    "county": "Kent",
+    "severe_drought_pct": 0.0
+  },
+  "washington-dc": {
+    "as_of": "20260804",
+    "county": "District of Columbia",
+    "severe_drought_pct": 0.0
+  },
+  "waterbury-ct": {
+    "as_of": "20260804",
+    "county": "Naugatuck Valley",
+    "severe_drought_pct": 0.0
+  },
+  "waukegan-il": {
+    "as_of": "20260804",
+    "county": "Lake",
+    "severe_drought_pct": 0.0
+  },
+  "west-covina-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "west-jordan-ut": {
+    "as_of": "20260804",
+    "county": "Salt Lake",
+    "severe_drought_pct": 100.0
+  },
+  "west-palm-beach-fl": {
+    "as_of": "20260804",
+    "county": "Palm Beach",
+    "severe_drought_pct": 50.13
+  },
+  "west-valley-city-ut": {
+    "as_of": "20260804",
+    "county": "Salt Lake",
+    "severe_drought_pct": 100.0
+  },
+  "westland-mi": {
+    "as_of": "20260804",
+    "county": "Wayne",
+    "severe_drought_pct": 0.0
+  },
+  "westminster-ca": {
+    "as_of": "20260804",
+    "county": "Orange",
+    "severe_drought_pct": 0.0
+  },
+  "westminster-co": {
+    "as_of": "20260804",
+    "county": "Jefferson",
+    "severe_drought_pct": 100.0
+  },
+  "whitewright-tx": {
+    "as_of": "20260804",
+    "county": "Grayson",
+    "severe_drought_pct": 0.0
+  },
+  "whittier-ca": {
+    "as_of": "20260804",
+    "county": "Los Angeles",
+    "severe_drought_pct": 0.0
+  },
+  "wichita-falls-tx": {
+    "as_of": "20260804",
+    "county": "Wichita",
+    "severe_drought_pct": 0.34
+  },
+  "wichita-ks": {
+    "as_of": "20260804",
+    "county": "Sedgwick",
+    "severe_drought_pct": 0.0
+  },
+  "wilmington-nc": {
+    "as_of": "20260804",
+    "county": "New Hanover",
+    "severe_drought_pct": 0.0
+  },
+  "winston-salem-nc": {
+    "as_of": "20260804",
+    "county": "Forsyth",
+    "severe_drought_pct": 92.27
+  },
+  "woodbury-mn": {
+    "as_of": "20260804",
+    "county": "Washington",
+    "severe_drought_pct": 0.0
+  },
+  "worcester-ma": {
+    "as_of": "20260804",
+    "county": "Worcester",
+    "severe_drought_pct": 0.0
+  },
+  "wyoming-mi": {
+    "as_of": "20260804",
+    "county": "Kent",
+    "severe_drought_pct": 0.0
+  },
+  "yakima-wa": {
+    "as_of": "20260804",
+    "county": "Yakima",
+    "severe_drought_pct": 0.0
+  },
+  "yonkers-ny": {
+    "as_of": "20260804",
+    "county": "Westchester",
+    "severe_drought_pct": 0.0
+  },
+  "yuma-az": {
+    "as_of": "20260804",
+    "county": "Yuma",
+    "severe_drought_pct": 0.7
+  }
+}

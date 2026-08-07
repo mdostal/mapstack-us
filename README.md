@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  thirty-one genuinely different real implementations across the full 512-city spine,
+  thirty-two genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -127,6 +127,10 @@ built from two real, working examples instead of upfront design.
     employee, reusing the business-density pipeline with zero new endpoint risk,
     genuinely distinct from median household income and business density
     (`data/average-wage-methodology.md`).
+  - **Drought severity** — real US Drought Monitor county-level severity, a joint
+    NOAA/USDA/University of Nebraska-Lincoln product, no API key, already a
+    natively bounded percentage with no rescale needed
+    (`data/drought-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

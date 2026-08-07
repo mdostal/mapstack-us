@@ -172,6 +172,11 @@ data/raw/tri-cache/
 # data/average-wage.json IS committed.
 data/raw/average-wage-cache/
 
+# Pure fetch-scratch for the drought dataset build
+# (scripts/gen_drought_data.py) -- same posture as the caches above.
+# data/drought.json IS committed.
+data/raw/drought-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
