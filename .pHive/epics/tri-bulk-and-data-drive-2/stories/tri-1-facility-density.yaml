@@ -1,7 +1,7 @@
 id: tri-1-facility-density
 epic: tri-bulk-and-data-drive-2
 title: Ship EPA TRI facility density via the real bulk Basic Data File endpoint
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
