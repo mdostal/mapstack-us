@@ -1054,3 +1054,129 @@ rejection this backlog already applied to GreatSchools (#21) and C2ER (#15).
   Every one of those should return `null` from `getValue`, per `types.ts`'s own contract,
   and be named in that dataset's methodology doc the way crime names its 9 non-participating
   agencies — never smoothed over or defaulted to a score.
+
+---
+
+## Addendum (dvd-4, dataset-verification-drive epic) — fresh sweep after #1–27 shipped
+
+By the time this addendum was written, every #1–27 candidate ranked medium-or-higher
+confidence had shipped (including #15 cost of living, this same session), and #7/#9 turned
+out to already be covered by `hazard.ts`'s composite + sub-layers. This section is a fresh
+search for genuinely new candidates, each live-checked (not assumed) against its real API/
+download endpoint.
+
+### 28. School district per-pupil spending (upgrades #21 from "weak proxy" to real, direct data)
+**Measures:** real per-pupil education revenue/spending by school district — a direct
+government-finance number, not a ranking-service proxy. #21 in this same doc rated school
+quality "weak (proxy only, lowest confidence)" because GreatSchools/Niche-style *ratings*
+aren't real measured data; per-pupil spending is.
+
+**Real source:** [Urban Institute Education Data Portal API](https://educationdata.urban.org/documentation/),
+built on NCES Common Core of Data (CCD) F-33 school district finance survey. **No API key
+required** — confirmed live: `GET https://educationdata.urban.org/api/v1/school-districts/ccd/finance/2020/?leaid=3620580`
+returned real NYC Department of Education revenue data (`rev_total: $34.6B`, breakdowns by
+federal/state/local source) with zero authentication.
+
+**City-level feasibility:** confirmed live via the sibling `ccd/directory` endpoint, which
+carries a real `county_code` field per district (e.g. NYC's district → `36061`, matching
+this repo's own Census county FIPS format exactly) — reuses `data/raw/city-county-fips.json`
+unchanged, the same crosswalk `unemployment.ts`/`cost-of-living.ts` already lean on. Spot-
+checked a genuinely rural case too: querying `fips=49` (Utah) and filtering to
+`county_code=49037` (San Juan County) returned "San Juan District" based in Blanding, UT —
+real coverage for one of this spine's smallest, most isolated cities, not just NYC.
+
+**Raw direction / normalization:** no obviously "more spending = better" or "= worse" a
+priori (a real methodological question education-finance research treats seriously) — this
+would need to ship as a transparent dollar figure (like #2 income), NOT a
+scored/direction-implying 0–100 concern the way most other layers work, or ship two framings
+(a high-spending-is-good civic-investment framing AND explicit non-scoring of the raw number)
+rather than picking one silently.
+
+**Effort vs. crime:** Medium — one new API client (no key friction, unlike BEA/BLS/Census),
+reuses the existing county crosswalk entirely, but the district-to-county join can be
+many-to-one (a county can contain several small districts) requiring a real aggregation
+decision (population-weighted average per county, most-likely-district-by-city-name-match,
+or similar) not yet designed.
+
+**Known caveats:** 2020 is the latest real year available (2021 query returned zero rows
+live) — a real ~5-year release lag, worse than most datasets in this backlog. District
+boundaries don't always align with city boundaries (the many-to-one join above). No
+national per-pupil "concerning range" convention exists the way there is for e.g.
+unemployment or property tax rates, so a defensible 0–100 scoring scheme needs real design
+work before this can ship, not just a fetch script.
+
+**Confidence: medium** — real, live-verified, keyless data with a working crosswalk; the
+open item is scoring design, not data availability.
+
+### 29. Toxics Release Inventory (TRI) facility density/proximity
+**Measures:** proximity to and density of EPA-regulated industrial facilities reporting
+toxic chemical releases — a genuinely different environmental-justice-adjacent signal from
+AQI (current air quality) and SVI (general social vulnerability), closer in spirit to
+FEMA NRI's hazard-proximity framing than to AQI's day-to-day pollution reading.
+
+**Real source:** [EPA Envirofacts TRI API](https://www.epa.gov/enviro/envirofacts-data-service-api),
+`https://data.epa.gov/efservice/tri_facility/...` — confirmed live, no API key required.
+`COUNT` query confirms 64,990 total facility records nationally (open + historically
+closed, `fac_closed_ind` field distinguishes). Real per-facility lat/lon
+(`pref_latitude`/`pref_longitude`) and a real county FIPS field
+(`state_county_fips_code`) both present — two independent, both-real ways to join to the
+spine (nearest-distance like `heat.ts`'s station matching, or county tier like
+`unemployment.ts`'s fallback).
+
+**Note on the endpoint itself:** table-name casing affects response format in a way worth
+flagging for whoever builds this — `TRI_FACILITY` (uppercase) returned XML despite a
+`/JSON` path suffix; `tri_facility` (lowercase) returned real JSON. A real endpoint quirk,
+not a documentation error — confirm live before assuming either casing works.
+
+**Raw direction / normalization:** higher density / closer proximity is more concerning —
+direct rescale against a data-informed cap (facility count within N miles, or distance to
+nearest facility), same shape as the drive-time-to-concern pattern `care-access.ts` already
+uses.
+
+**Effort vs. crime:** Medium — needs `fac_closed_ind` filtering (exclude closed facilities
+from a "current risk" framing, but note closed sites can still carry contamination — a real
+framing decision), then either a nearest-distance or radius-count computation across
+~65k records against 512 cities.
+
+**Confidence: medium** — real, live-verified, keyless, two independent real join paths.
+Strong candidate for a future build; not selected as this round's dvd-5 pick only because
+per-pupil spending (#28) more directly closes a gap already named in this backlog (#21).
+
+### 30. Census Business Patterns (business/establishment density)
+**Measures:** local business establishment count and employment, a economic-vitality signal
+distinct from unemployment (joblessness rate) — density of commercial activity rather than
+the workforce's employment status.
+
+**Real source:** [Census Business Patterns (CBP)](https://www.census.gov/programs-surveys/cbp.html)
+via `api.census.gov` — reuses the existing `CENSUS_API_KEY`, no new credential needed.
+Confirmed live: `GET .../2023/cbp?get=NAME,EMP,ESTAB&for=county:061&in=state:36` returned
+real data for New York County (93,904 establishments, 2,322,720 employees). 2023 is the
+latest vintage (2024 query 404s — real release lag, same pattern as every other Census
+product this session hit).
+
+**City-level feasibility:** **no place-level geography at all** — confirmed live via
+`.../2023/cbp/geography.json`, which lists only us/state/county/CBSA/CSA/congressional-
+district/zip. County-level only, same fallback tier `unemployment.ts`/`cost-of-living.ts`
+already use, but with no city-level tier above it this time (unlike unemployment's
+494-city-tier/18-county-tier split) — every city in this dataset would be county-level,
+a real, coarser-than-most precision gap worth naming prominently.
+
+**Confidence: low-medium** — real and keyless, but the county-only ceiling (no city tier
+at all) and conceptual proximity to unemployment (#11, already shipped) make this the
+weakest of the three new candidates in this addendum.
+
+### Considered this round, not pursued (real live-check results)
+- **IMLS Public Libraries Survey** — the URL pattern tried (`imls.gov/research-evaluation/
+  data-collection/public-libraries-survey`) 404s live; IMLS restructured its site since this
+  was last known and the real current API/download path needs a fresh lookup before this
+  can be ranked. Not struck out — genuinely unchecked, not confirmed-unavailable.
+- **USDA local food / farmers market directory** — `usdalocalfoodportal.com`'s API returned
+  a real, live `403 Forbidden` on an unauthenticated request; needs a real registered key to
+  even evaluate further. Deferred, not struck out.
+- **FCC National Broadband Map API** — the public map API's `listAvailableSpecificationVersions`
+  endpoint returned a real, live `405 Method Not Allowed` on a plain GET; likely needs a
+  different HTTP method or an API key this project doesn't have. Deferred, not struck out.
+
+**This round's pick for dvd-5: #28 (school district per-pupil spending)** — real, keyless,
+live-verified crosswalk down to the spine's smallest rural cities, and directly upgrades an
+already-identified weak spot (#21) rather than adding an entirely new category.
