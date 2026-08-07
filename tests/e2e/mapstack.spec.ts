@@ -604,6 +604,22 @@ test("the thirty-sixth dataset (library access) is selectable and reports a real
   await expect(detail).toContainText("IMLS Public Libraries Survey");
 });
 
+test("the thirty-seventh dataset (severe weather frequency) is selectable and reports a real NOAA-sourced value -- a genuinely new hazard signal for this project", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Severe weather frequency" }).click();
+  await page.getByRole("button", { name: "Severe weather frequency", exact: true }).click();
+  await page.getByRole("button", { name: "Add Severe weather frequency" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Severe weather frequency: Severe weather frequency" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Severe weather frequency" });
+  await expect(detail).toContainText("severe weather event");
+  await expect(detail).toContainText("NOAA Storm Events Database");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

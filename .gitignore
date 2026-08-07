@@ -197,6 +197,11 @@ data/raw/earthquake-cache/
 # above. data/library-access.json IS committed.
 data/raw/library-access-cache/
 
+# Pure fetch-scratch for the severe-weather dataset build
+# (scripts/gen_severe_weather_data.py) -- same posture as the caches
+# above. data/severe-weather.json IS committed.
+data/raw/severe-weather-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
