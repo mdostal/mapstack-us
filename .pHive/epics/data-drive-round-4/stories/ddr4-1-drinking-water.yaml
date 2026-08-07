@@ -1,0 +1,77 @@
+id: ddr4-1-drinking-water
+epic: data-drive-round-4
+title: Ship SDWA drinking water violations at each city's primary water system
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Real EPA Safe Drinking Water Act (SDWA) violation data via Envirofacts
+  (WATER_SYSTEM + VIOLATION tables, confirmed live during planning
+  research). For each city, query WATER_SYSTEM by city_name+state_code+
+  pws_type_code=CWS+pws_activity_code=A, take the highest-
+  population_served_count match as the real primary municipal system
+  (validated live: Houston's top match is "CITY OF HOUSTON" at 2.97M
+  served). Query VIOLATION for that system's pwsid, count real
+  health-based violations (is_health_based_ind=Y) with compl_per_begin_date
+  in the last 5 years.
+
+acceptance_criteria:
+  - "Given a real city name+state, when queried against WATER_SYSTEM, then the highest-population active CWS match is used as the primary system, not an arbitrary or first-returned result."
+  - "Given that system's pwsid, when queried against VIOLATION, then the real count of health-based violations in the last 5 years is used, not a fabricated or estimated number."
+  - "Given the dataset ships, when checked against dvd-1's completeness test, then it passes with zero exceptions."
+  - "Given a city with genuinely zero recent health-based violations at its primary system, when displayed, then it shows 0 concern, not null -- a real, confirmed clean record is a real value, not a missing one."
+
+steps:
+  - id: research
+    description: Confirm the live WATER_SYSTEM/VIOLATION table schemas still match this story's live-verified findings.
+    agent: researcher
+  - id: implement
+    description: Write scripts/gen_drinking_water_data.py, src/lib/datasets/drinking-water.ts, data/drinking-water-methodology.md, following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "tests/drinking-water-dataset.test.ts, a new tests/e2e/mapstack.spec.ts block, then pnpm verify end to end."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting, real methodology disclosure of the name-based join's real limitations.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: data/cities.json
+      purpose: Real city name + state fields used directly as the query key -- no crosswalk file needed for this dataset, unlike most others.
+
+files_to_modify: []
+code_examples:
+  - title: Real validated query design (confirmed live during planning)
+    file: N/A
+    snippet: |
+      https://data.epa.gov/efservice/WATER_SYSTEM/city_name/HOUSTON/state_code/TX/pws_type_code/CWS/pws_activity_code/A/JSON
+      # Top result by population_served_count: CITY OF HOUSTON, 2,970,543 -- the real municipal utility.
+      https://data.epa.gov/efservice/VIOLATION/pwsid/{pwsid}/JSON
+      # Real fields: is_health_based_ind (Y/N), compl_per_begin_date
+
+design_decisions:
+  - decision: "5-year recency window for counting violations, not all-time."
+    rationale: "Matches crime.ts's own established convention for time-bounded government data -- a decades-old resolved violation shouldn't score the same as an ongoing recent one."
+
+risks:
+  - severity: medium
+    description: "Name-based city matching (not FIPS) has a real, non-zero error rate for ambiguous city names or non-obviously-named utilities."
+    mitigation: "Disclosed explicitly in the methodology doc, validated live against a real example (Houston) rather than assumed to work."
+
+references:
+  - path: .pHive/epics/data-drive-round-4/docs/research-brief.md
+    relevant_excerpt: |
+      Querying by city name + state + pws_type_code=CWS + pws_activity_code=A
+      (active) and taking the highest population_served_count reliably
+      surfaces the real municipal system -- confirmed live for Houston, TX.

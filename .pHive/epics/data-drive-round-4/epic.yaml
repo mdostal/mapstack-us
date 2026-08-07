@@ -1,0 +1,34 @@
+name: data-drive-round-4
+title: Fourth data-drive research round -- ship drinking water violations
+description: >
+  A fourth fresh dataset-candidate research round. FBI hate crime and EPA
+  Superfund deferred a third time (documentation access, not endpoint
+  guessing, is the real blocker now). HUD Fair Market Rents deferred
+  (needs a new registration key). DOT AADT deferred (wrong service name).
+  Ships EPA SDWA drinking water violations -- real, live-verified,
+  keyless, a name+type+population join strategy validated live against
+  Houston, TX.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the three prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the three prior epics.
+
+stories:
+  - id: ddr4-1-drinking-water
+    title: Ship SDWA drinking water violations at each city's primary water system
+    complexity: medium
+    depends_on: []
