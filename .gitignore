@@ -182,6 +182,11 @@ data/raw/drought-cache/
 # data/hate-crime.json IS committed.
 data/raw/hate-crime-cache/
 
+# Pure fetch-scratch for the superfund dataset build
+# (scripts/gen_superfund_data.py) -- same posture as the caches above.
+# data/superfund.json IS committed.
+data/raw/superfund-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

@@ -556,6 +556,22 @@ test("the thirty-third dataset (hate crime rate) is selectable and reports a rea
   await expect(detail).toContainText("FBI Crime Data Explorer");
 });
 
+test("the thirty-fourth dataset (Superfund site density) is selectable and reports a real EPA-sourced value -- resolves a lead deferred since the addendum to dataset-verification-drive", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Superfund site density" }).click();
+  await page.getByRole("button", { name: "Superfund site density", exact: true }).click();
+  await page.getByRole("button", { name: "Add Superfund site density" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Superfund site density: Superfund site density" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Superfund site density" });
+  await expect(detail).toContainText("active Superfund (Final NPL)");
+  await expect(detail).toContainText("EPA Envirofacts SEMS");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
