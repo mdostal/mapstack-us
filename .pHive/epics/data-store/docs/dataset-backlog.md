@@ -1193,3 +1193,53 @@ weakest of the three new candidates in this addendum.
 **This round's pick for dvd-5: #28 (school district per-pupil spending)** — real, keyless,
 live-verified crosswalk down to the spine's smallest rural cities, and directly upgrades an
 already-identified weak spot (#21) rather than adding an entirely new category.
+
+---
+
+## Addendum 2 (tri-2, tri-bulk-and-data-drive-2 epic) — second fresh sweep
+
+By this round, the original backlog (#1-27) and the first addendum (#28-30 plus deferred
+IMLS/USDA/FCC items) are both shipped or dispositioned. This is a genuinely new pass.
+
+### 31. Average annual wage (Census Business Patterns payroll)
+**Measures:** real average annual wage per employee (`PAYANN` / `EMP`, both real CBP
+fields) — a local wage-level signal, genuinely distinct from #2's median HOUSEHOLD income
+(includes non-wage income, multiple earners per household) and from #30's business
+DENSITY (establishment count, not pay level).
+
+**Real source:** the exact same Census Business Patterns pipeline `business-density.ts`
+already uses — confirmed live in one request:
+`.../2023/cbp?get=NAME,ESTAB,EMP,PAYANN&for=county:061&in=state:36` returns real
+`PAYANN` ($339,413,027 thousand = real total annual payroll for New York County) alongside
+the `EMP`/`ESTAB` fields already fetched. Zero new endpoint risk — same API, same key,
+same county-level ceiling already disclosed for #30.
+
+**Effort vs. crime:** Low — the fetch script already exists (`gen_business_density_data.py`)
+and only needs one more field added to the same request; the harder work (crosswalk,
+caching, batching) is already solved.
+
+**Confidence: high** — real, live-verified, keyless, reuses a proven pipeline with zero new
+risk. **Picked as this round's build.**
+
+### 32. FBI hate crime statistics (deferred, real endpoint not yet found)
+**Measures:** would be a real, distinct crime-adjacent signal from the already-shipped
+Crime Data Explorer violent/property rates (`crime.ts`).
+
+**Real finding:** the FBI Crime Data Explorer API (`api.usa.gov/crime/fbi/cde/...`, the
+same `FBI_CRIME_API_KEY` `crime.ts` already uses) has a real, working agency-directory
+endpoint (confirmed live: `.../cde/agency/byStateAbbr/NY` returns real agency ORIs/
+lat-lon), but the specific hate-crime summary path guessed during this round
+(`.../cde/hatecrime/national/national`) 404s. Not struck out — the right endpoint likely
+exists under a different path this round didn't find; genuinely deferred, not
+disproven.
+
+### Considered, not deeply pursued this round (real, brief live-checks only)
+- **NOAA US Drought Monitor** — not live-checked this round; a real, plausible source
+  worth a future look but not chased down given #31 was already a strong, fast, proven-
+  pipeline win.
+- **EPA Superfund/NPL sites** — tried several plausible Envirofacts table names
+  (`sems_nplsites`, `sems_active_sites`, `SEMS_SITE`, `CERCLIS`, others) against the
+  live query API; all returned real "table is not available" errors. The correct table
+  name for Superfund site data isn't `SEMS_*`/`CERCLIS` on this endpoint — deferred, not
+  struck out, needs the real EPA data dictionary to find the right table.
+- **USGS real-time water quality** — not live-checked this round.

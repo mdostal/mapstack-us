@@ -167,6 +167,11 @@ data/raw/business-density-cache/
 # above. data/tri-facility-density.json IS committed.
 data/raw/tri-cache/
 
+# Pure fetch-scratch for the average-wage dataset build
+# (scripts/gen_average_wage_data.py) -- same posture as the caches above.
+# data/average-wage.json IS committed.
+data/raw/average-wage-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

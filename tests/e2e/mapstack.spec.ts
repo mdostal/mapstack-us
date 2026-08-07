@@ -508,6 +508,22 @@ test("the thirtieth dataset (industrial facility density) is selectable and repo
   await expect(detail).toContainText("EPA Toxics Release Inventory");
 });
 
+test("the thirty-first dataset (average wage) is selectable and reports a real Census Business Patterns value -- reuses the business-density pipeline with zero new endpoint risk", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Average wage" }).click();
+  await page.getByRole("button", { name: "Average wage", exact: true }).click();
+  await page.getByRole("button", { name: "Add Average wage" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Average wage: Average wage" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Average wage" });
+  await expect(detail).toContainText("average annual wage per employee");
+  await expect(detail).toContainText("Census Business Patterns");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

@@ -27,6 +27,7 @@ import { costOfLivingDataset } from "@/lib/datasets/cost-of-living";
 import { schoolSpendingDataset } from "@/lib/datasets/school-spending";
 import { businessDensityDataset } from "@/lib/datasets/business-density";
 import { triFacilityDensityDataset } from "@/lib/datasets/tri-facility-density";
+import { averageWageDataset } from "@/lib/datasets/average-wage";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -65,6 +66,7 @@ export const DATASETS: Dataset[] = [
   schoolSpendingDataset,
   businessDensityDataset,
   triFacilityDensityDataset,
+  averageWageDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {
