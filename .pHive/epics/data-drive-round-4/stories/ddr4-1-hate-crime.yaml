@@ -1,7 +1,7 @@
 id: ddr4-1-hate-crime
 epic: data-drive-round-4
 title: Ship FBI hate crime statistics (pivoted from infeasible SDWA drinking water)
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
