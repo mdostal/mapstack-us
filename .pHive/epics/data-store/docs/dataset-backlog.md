@@ -1142,6 +1142,19 @@ framing decision), then either a nearest-distance or radius-count computation ac
 Strong candidate for a future build; not selected as this round's dvd-5 pick only because
 per-pupil spending (#28) more directly closes a gap already named in this backlog (#21).
 
+**UPDATE (dvd-6 attempt, real live finding):** attempted to build this next and hit a
+real feasibility blocker the small `COUNT`/single-facility test queries above didn't
+surface — `data.epa.gov/efservice`'s **bulk** query path is impractically slow at the
+scale this needs. A single-state pull (`tri_facility/state_abbr/NY/fac_closed_ind/0/JSON`)
+ran for **16+ minutes** and still returned a truncated, invalid-JSON response (cut off
+mid-string at ~1MB). Fetching all 51 states this way is not tractable in any reasonable
+build session. Downgrading this from "strong candidate" to **blocked on a faster access
+path** — a bulk CSV/FTP download from EPA's TRI Basic Data Files
+(https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present)
+is the likely real fix (annual pre-built national files, not a live query API), but
+that's real, separate follow-up work, not a same-session pivot. Not struck out —
+genuinely blocked on access method, not on data availability or real-world relevance.
+
 ### 30. Census Business Patterns (business/establishment density)
 **Measures:** local business establishment count and employment, a economic-vitality signal
 distinct from unemployment (joblessness rate) — density of commercial activity rather than
