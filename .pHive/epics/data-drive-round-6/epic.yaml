@@ -1,0 +1,32 @@
+name: data-drive-round-6
+title: Sixth data-drive research round -- ship USGS seismic design values
+description: >
+  A sixth fresh dataset-candidate research round. Ships USGS earthquake
+  seismic design values (ASCE 7-22 web service) -- real, keyless, direct
+  lat/lon join (no crosswalk needed), a genuinely new hazard category
+  not represented anywhere in this project's existing FEMA-sourced
+  hazard.ts (flood/wildfire only).
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the five prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the five prior epics.
+
+stories:
+  - id: ddr6-1-earthquake
+    title: Ship USGS seismic design values (earthquake risk)
+    complexity: low
+    depends_on: []
