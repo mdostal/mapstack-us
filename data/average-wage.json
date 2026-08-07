@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "resolution": "county (CBP has no place-level geography)",
+    "source": "Census Business Patterns 2023 (PAYANN / EMP)"
+  },
+  "abilene-tx": {
+    "average_wage": 48549,
+    "concern": 93.0,
+    "county": "Taylor"
+  },
+  "akron-oh": {
+    "average_wage": 58332,
+    "concern": 65.0,
+    "county": "Summit"
+  },
+  "alameda-ca": {
+    "average_wage": 101250,
+    "concern": 5.7,
+    "county": "Alameda"
+  },
+  "albany-ny": {
+    "average_wage": 66300,
+    "concern": 44.0,
+    "county": "Albany"
+  },
+  "albuquerque-nm": {
+    "average_wage": 55010,
+    "concern": 75.5,
+    "county": "Bernalillo"
+  },
+  "alexandria-va": {
+    "average_wage": 78904,
+    "concern": 15.7,
+    "county": "Alexandria"
+  },
+  "alhambra-ca": {
+    "average_wage": 75135,
+    "concern": 20.0,
+    "county": "Los Angeles"
+  },
+  "allen-tx": {
+    "average_wage": 80684,
+    "concern": 13.1,
+    "county": "Collin"
+  },
+  "allentown-pa": {
+    "average_wage": 63513,
+    "concern": 49.1,
+    "county": "Lehigh"
+  },
+  "amarillo-tx": {
+    "average_wage": 57441,
+    "concern": 67.1,
+    "county": "Potter"
+  },
+  "anaheim-ca": {
+    "average_wage": 75083,
+    "concern": 26.8,
+    "county": "Orange"
+  },
+  "anchorage-ak": {
+    "average_wage": 75510,
+    "concern": 19.6,
+    "county": "Anchorage"
+  },
+  "ankeny-ia": {
+    "average_wage": 66459,
+    "concern": 41.7,
+    "county": "Polk"
+  },
+  "ann-arbor-mi": {
+    "average_wage": 70778,
+    "concern": 31.7,
+    "county": "Washtenaw"
+  },
+  "antioch-ca": {
+    "average_wage": 81636,
+    "concern": 12.7,
+    "county": "Contra Costa"
+  },
+  "apex-nc": {
+    "average_wage": 71192,
+    "concern": 30.9,
+    "county": "Wake"
+  },
+  "arlington-tx": {
+    "average_wage": 63154,
+    "concern": 50.3,
+    "county": "Tarrant"
+  },
+  "arlington-va": {
+    "average_wage": 113611,
+    "concern": 2.2,
+    "county": "Arlington"
+  },
+  "arvada-co": {
+    "average_wage": 61901,
+    "concern": 52.6,
+    "county": "Jefferson"
+  },
+  "asheville-nc": {
+    "average_wage": 51760,
+    "concern": 87.3,
+    "county": "Buncombe"
+  },
+  "athens-ga": {
+    "average_wage": 51480,
+    "concern": 88.6,
+    "county": "Clarke"
+  },
+  "atlanta-ga": {
+    "average_wage": 92125,
+    "concern": 8.4,
+    "county": "Fulton"
+  },
+  "auburn-al": {
+    "average_wage": 46096,
+    "concern": 95.5,
+    "county": "Lee"
+  },
+  "auburn-wa": {
+    "average_wage": 110043,
+    "concern": 3.3,
+    "county": "King"
+  },
+  "augusta-ga": {
+    "average_wage": 54547,
+    "concern": 78.3,
+    "county": "Richmond"
+  },
+  "aurora-co": {
+    "average_wage": 76250,
+    "concern": 19.0,
+    "county": "Arapahoe"
+  },
+  "aurora-il": {
+    "average_wage": 58541,
+    "concern": 64.2,
+    "county": "Kane"
+  },
+  "austin-tx": {
+    "average_wage": 86279,
+    "concern": 9.8,
+    "county": "Travis"
+  },
+  "avondale-az": {
+    "average_wage": 65314,
+    "concern": 45.2,
+    "county": "Maricopa"
+  },
+  "bakersfield-ca": {
+    "average_wage": 56579,
+    "concern": 70.3,
+    "county": "Kern"
+  },
+  "baltimore-md": {
+    "average_wage": 77696,
+    "concern": 16.6,
+    "county": "Baltimore"
+  },
+  "baton-rouge-la": {
+    "average_wage": 60945,
+    "concern": 56.9,
+    "county": "East Baton Rouge"
+  },
+  "baytown-tx": {
+    "average_wage": 80572,
+    "concern": 13.9,
+    "county": "Harris"
+  },
+  "beaumont-tx": {
+    "average_wage": 61299,
+    "concern": 54.0,
+    "county": "Jefferson"
+  },
+  "beaverton-or": {
+    "average_wage": 87499,
+    "concern": 9.2,
+    "county": "Washington"
+  },
+  "bellevue-wa": {
+    "average_wage": 110043,
+    "concern": 4.3,
+    "county": "King"
+  },
+  "bellingham-wa": {
+    "average_wage": 59115,
+    "concern": 61.8,
+    "county": "Whatcom"
+  },
+  "bend-or": {
+    "average_wage": 57237,
+    "concern": 67.9,
+    "county": "Deschutes"
+  },
+  "berkeley-ca": {
+    "average_wage": 101250,
+    "concern": 6.3,
+    "county": "Alameda"
+  },
+  "bethlehem-pa": {
+    "average_wage": 56792,
+    "concern": 69.7,
+    "county": "Northampton"
+  },
+  "billings-mt": {
+    "average_wage": 57475,
+    "concern": 66.9,
+    "county": "Yellowstone"
+  },
+  "birmingham-al": {
+    "average_wage": 66634,
+    "concern": 41.5,
+    "county": "Jefferson"
+  },
+  "bismarck-nd": {
+    "average_wage": 56777,
+    "concern": 69.9,
+    "county": "Burleigh"
+  },
+  "blanding-ut": {
+    "average_wage": 47474,
+    "concern": 94.1,
+    "county": "San Juan"
+  },
+  "bloomington-il": {
+    "average_wage": 72957,
+    "concern": 27.4,
+    "county": "McLean"
+  },
+  "bloomington-in": {
+    "average_wage": 51459,
+    "concern": 88.8,
+    "county": "Monroe"
+  },
+  "bloomington-mn": {
+    "average_wage": 83049,
+    "concern": 11.4,
+    "county": "Hennepin"
+  },
+  "boca-raton-fl": {
+    "average_wage": 66342,
+    "concern": 43.2,
+    "county": "Palm Beach"
+  },
+  "boise-id": {
+    "average_wage": 66301,
+    "concern": 43.8,
+    "county": "Ada"
+  },
+  "boston-ma": {
+    "average_wage": 119182,
+    "concern": 2.0,
+    "county": "Suffolk"
+  },
+  "boulder-co": {
+    "average_wage": 82814,
+    "concern": 11.9,
+    "county": "Boulder"
+  },
+  "bowling-green-ky": {
+    "average_wage": 51119,
+    "concern": 89.6,
+    "county": "Warren"
+  },
+  "boynton-beach-fl": {
+    "average_wage": 66342,
+    "concern": 43.1,
+    "county": "Palm Beach"
+  },
+  "bridgeport-ct": {
+    "average_wage": 61734,
+    "concern": 53.2,
+    "county": "Greater Bridgeport"
+  },
+  "brockton-ma": {
+    "average_wage": 60181,
+    "concern": 57.5,
+    "county": "Plymouth"
+  },
+  "broken-arrow-ok": {
+    "average_wage": 59264,
+    "concern": 60.5,
+    "county": "Tulsa"
+  },
+  "brooklyn-park-mn": {
+    "average_wage": 83049,
+    "concern": 11.2,
+    "county": "Hennepin"
+  },
+  "broomfield-co": {
+    "average_wage": 91036,
+    "concern": 8.6,
+    "county": "Broomfield"
+  },
+  "brownsville-tx": {
+    "average_wage": 36649,
+    "concern": 100.0,
+    "county": "Cameron"
+  },
+  "bryan-tx": {
+    "average_wage": 47910,
+    "concern": 93.3,
+    "county": "Brazos"
+  },
+  "buckeye-az": {
+    "average_wage": 65314,
+    "concern": 45.6,
+    "county": "Maricopa"
+  },
+  "buena-park-ca": {
+    "average_wage": 75083,
+    "concern": 24.5,
+    "county": "Orange"
+  },
+  "buffalo-ny": {
+    "average_wage": 58979,
+    "concern": 63.0,
+    "county": "Erie"
+  },
+  "burbank-ca": {
+    "average_wage": 75135,
+    "concern": 21.7,
+    "county": "Los Angeles"
+  },
+  "caldwell-id": {
+    "average_wage": 47072,
+    "concern": 94.5,
+    "county": "Canyon"
+  },
+  "cambridge-ma": {
+    "average_wage": 101547,
+    "concern": 5.5,
+    "county": "Middlesex"
+  },
+  "cape-coral-fl": {
+    "average_wage": 55417,
+    "concern": 73.8,
+    "county": "Lee"
+  },
+  "carlsbad-ca": {
+    "average_wage": 76323,
+    "concern": 17.8,
+    "county": "San Diego"
+  },
+  "carlsbad-nm": {
+    "average_wage": 71823,
+    "concern": 29.4,
+    "county": "Eddy"
+  },
+  "carmel-in": {
+    "average_wage": 66669,
+    "concern": 41.1,
+    "county": "Hamilton"
+  },
+  "carrollton-tx": {
+    "average_wage": 59177,
+    "concern": 61.3,
+    "county": "Denton"
+  },
+  "carson-ca": {
+    "average_wage": 75135,
+    "concern": 21.1,
+    "county": "Los Angeles"
+  },
+  "cary-nc": {
+    "average_wage": 71192,
+    "concern": 31.1,
+    "county": "Wake"
+  },
+  "castle-rock-co": {
+    "average_wage": 72160,
+    "concern": 28.6,
+    "county": "Douglas"
+  },
+  "cedar-park-tx": {
+    "average_wage": 66266,
+    "concern": 44.2,
+    "county": "Williamson"
+  },
+  "cedar-rapids-ia": {
+    "average_wage": 60739,
+    "concern": 57.1,
+    "county": "Linn"
+  },
+  "centennial-co": {
+    "average_wage": 76250,
+    "concern": 18.8,
+    "county": "Arapahoe"
+  },
+  "champaign-il": {
+    "average_wage": 55721,
+    "concern": 72.8,
+    "county": "Champaign"
+  },
+  "chandler-az": {
+    "average_wage": 65314,
+    "concern": 46.8,
+    "county": "Maricopa"
+  },
+  "charleston-sc": {
+    "average_wage": 59680,
+    "concern": 59.7,
+    "county": "Charleston"
+  },
+  "charlotte-nc": {
+    "average_wage": 78166,
+    "concern": 16.2,
+    "county": "Mecklenburg"
+  },
+  "chattanooga-tn": {
+    "average_wage": 56819,
+    "concern": 69.3,
+    "county": "Hamilton"
+  },
+  "chesapeake-va": {
+    "average_wage": 55207,
+    "concern": 74.8,
+    "county": "Chesapeake"
+  },
+  "chicago-il": {
+    "average_wage": 83113,
+    "concern": 10.8,
+    "county": "Cook"
+  },
+  "chico-ca": {
+    "average_wage": 51526,
+    "concern": 88.5,
+    "county": "Butte"
+  },
+  "chino-ca": {
+    "average_wage": 54598,
+    "concern": 76.7,
+    "county": "San Bernardino"
+  },
+  "chino-hills-ca": {
+    "average_wage": 54598,
+    "concern": 76.3,
+    "county": "San Bernardino"
+  },
+  "chula-vista-ca": {
+    "average_wage": 76323,
+    "concern": 18.4,
+    "county": "San Diego"
+  },
+  "cicero-il": {
+    "average_wage": 83113,
+    "concern": 10.6,
+    "county": "Cook"
+  },
+  "cincinnati-oh": {
+    "average_wage": 70726,
+    "concern": 31.9,
+    "county": "Hamilton"
+  },
+  "citrus-heights-ca": {
+    "average_wage": 71257,
+    "concern": 29.5,
+    "county": "Sacramento"
+  },
+  "clarksville-tn": {
+    "average_wage": 44717,
+    "concern": 96.7,
+    "county": "Montgomery"
+  },
+  "clearwater-fl": {
+    "average_wage": 59991,
+    "concern": 57.9,
+    "county": "Pinellas"
+  },
+  "cleveland-oh": {
+    "average_wage": 70297,
+    "concern": 33.7,
+    "county": "Cuyahoga"
+  },
+  "clifton-nj": {
+    "average_wage": 60957,
+    "concern": 56.4,
+    "county": "Passaic"
+  },
+  "clovis-ca": {
+    "average_wage": 55303,
+    "concern": 74.0,
+    "county": "Fresno"
+  },
+  "college-station-tx": {
+    "average_wage": 47910,
+    "concern": 93.5,
+    "county": "Brazos"
+  },
+  "colorado-springs-co": {
+    "average_wage": 59667,
+    "concern": 59.9,
+    "county": "El Paso"
+  },
+  "columbia-mo": {
+    "average_wage": 52766,
+    "concern": 82.8,
+    "county": "Boone"
+  },
+  "columbia-sc": {
+    "average_wage": 52671,
+    "concern": 83.6,
+    "county": "Richland"
+  },
+  "columbus-ga": {
+    "average_wage": 53167,
+    "concern": 82.0,
+    "county": "Muscogee"
+  },
+  "columbus-oh": {
+    "average_wage": 63716,
+    "concern": 48.9,
+    "county": "Franklin"
+  },
+  "compton-ca": {
+    "average_wage": 75135,
+    "concern": 20.9,
+    "county": "Los Angeles"
+  },
+  "concord-ca": {
+    "average_wage": 81636,
+    "concern": 12.9,
+    "county": "Contra Costa"
+  },
+  "concord-nc": {
+    "average_wage": 48112,
+    "concern": 93.2,
+    "county": "Cabarrus"
+  },
+  "conroe-tx": {
+    "average_wage": 66692,
+    "concern": 40.5,
+    "county": "Montgomery"
+  },
+  "coral-springs-fl": {
+    "average_wage": 61265,
+    "concern": 55.2,
+    "county": "Broward"
+  },
+  "corona-ca": {
+    "average_wage": 52621,
+    "concern": 85.1,
+    "county": "Riverside"
+  },
+  "corpus-christi-tx": {
+    "average_wage": 53723,
+    "concern": 80.6,
+    "county": "Nueces"
+  },
+  "costa-mesa-ca": {
+    "average_wage": 75083,
+    "concern": 25.4,
+    "county": "Orange"
+  },
+  "cranston-ri": {
+    "average_wage": 63100,
+    "concern": 50.9,
+    "county": "Providence"
+  },
+  "dallas-tx": {
+    "average_wage": 80015,
+    "concern": 15.5,
+    "county": "Dallas"
+  },
+  "daly-city-ca": {
+    "average_wage": 183393,
+    "concern": 0.2,
+    "county": "San Mateo"
+  },
+  "danbury-ct": {
+    "average_wage": 113020,
+    "concern": 2.5,
+    "county": "Western Connecticut"
+  },
+  "davenport-ia": {
+    "average_wage": 52754,
+    "concern": 83.0,
+    "county": "Scott"
+  },
+  "davie-fl": {
+    "average_wage": 61265,
+    "concern": 54.8,
+    "county": "Broward"
+  },
+  "dayton-oh": {
+    "average_wage": 59100,
+    "concern": 62.4,
+    "county": "Montgomery"
+  },
+  "daytona-beach-fl": {
+    "average_wage": 45852,
+    "concern": 95.7,
+    "county": "Volusia"
+  },
+  "dearborn-mi": {
+    "average_wage": 70068,
+    "concern": 34.2,
+    "county": "Wayne"
+  },
+  "deerfield-beach-fl": {
+    "average_wage": 61265,
+    "concern": 54.2,
+    "county": "Broward"
+  },
+  "deltona-fl": {
+    "average_wage": 45852,
+    "concern": 95.9,
+    "county": "Volusia"
+  },
+  "denton-tx": {
+    "average_wage": 59177,
+    "concern": 61.6,
+    "county": "Denton"
+  },
+  "denver-co": {
+    "average_wage": 89764,
+    "concern": 8.8,
+    "county": "Denver"
+  },
+  "des-moines-ia": {
+    "average_wage": 66459,
+    "concern": 41.9,
+    "county": "Polk"
+  },
+  "detroit-mi": {
+    "average_wage": 70068,
+    "concern": 34.4,
+    "county": "Wayne"
+  },
+  "doral-fl": {
+    "average_wage": 67834,
+    "concern": 37.6,
+    "county": "Miami-Dade"
+  },
+  "downey-ca": {
+    "average_wage": 75135,
+    "concern": 22.3,
+    "county": "Los Angeles"
+  },
+  "duluth-mn": {
+    "average_wage": 55875,
+    "concern": 71.4,
+    "county": "St. Louis"
+  },
+  "durango-co": {
+    "average_wage": 53628,
+    "concern": 81.4,
+    "county": "La Plata"
+  },
+  "durham-nc": {
+    "average_wage": 93186,
+    "concern": 7.2,
+    "county": "Durham"
+  },
+  "edinburg-tx": {
+    "average_wage": 36895,
+    "concern": 99.6,
+    "county": "Hidalgo"
+  },
+  "edmond-ok": {
+    "average_wage": 59101,
+    "concern": 62.0,
+    "county": "Oklahoma"
+  },
+  "el-cajon-ca": {
+    "average_wage": 76323,
+    "concern": 17.6,
+    "county": "San Diego"
+  },
+  "el-monte-ca": {
+    "average_wage": 75135,
+    "concern": 21.9,
+    "county": "Los Angeles"
+  },
+  "el-paso-tx": {
+    "average_wage": 42760,
+    "concern": 97.8,
+    "county": "El Paso"
+  },
+  "elgin-il": {
+    "average_wage": 58541,
+    "concern": 64.0,
+    "county": "Kane"
+  },
+  "elizabeth-nj": {
+    "average_wage": 72244,
+    "concern": 28.4,
+    "county": "Union"
+  },
+  "elk-grove-ca": {
+    "average_wage": 71257,
+    "concern": 30.1,
+    "county": "Sacramento"
+  },
+  "erie-pa": {
+    "average_wage": 51456,
+    "concern": 89.0,
+    "county": "Erie"
+  },
+  "escondido-ca": {
+    "average_wage": 76323,
+    "concern": 18.0,
+    "county": "San Diego"
+  },
+  "eugene-or": {
+    "average_wage": 53045,
+    "concern": 82.2,
+    "county": "Lane"
+  },
+  "evansville-in": {
+    "average_wage": 54687,
+    "concern": 76.1,
+    "county": "Vanderburgh"
+  },
+  "everett-wa": {
+    "average_wage": 70427,
+    "concern": 33.3,
+    "county": "Snohomish"
+  },
+  "fairfield-ca": {
+    "average_wage": 63168,
+    "concern": 49.7,
+    "county": "Solano"
+  },
+  "fall-river-ma": {
+    "average_wage": 59037,
+    "concern": 62.6,
+    "county": "Bristol"
+  },
+  "fargo-nd": {
+    "average_wage": 63014,
+    "concern": 51.3,
+    "county": "Cass"
+  },
+  "farmington-hills-mi": {
+    "average_wage": 72528,
+    "concern": 27.8,
+    "county": "Oakland"
+  },
+  "fayetteville-ar": {
+    "average_wage": 51935,
+    "concern": 86.9,
+    "county": "Washington"
+  },
+  "fayetteville-nc": {
+    "average_wage": 45798,
+    "concern": 96.1,
+    "county": "Cumberland"
+  },
+  "federal-way-wa": {
+    "average_wage": 110043,
+    "concern": 3.7,
+    "county": "King"
+  },
+  "fishers-in": {
+    "average_wage": 66669,
+    "concern": 40.9,
+    "county": "Hamilton"
+  },
+  "flagstaff-az": {
+    "average_wage": 47152,
+    "concern": 94.3,
+    "county": "Coconino"
+  },
+  "flint-mi": {
+    "average_wage": 50797,
+    "concern": 90.4,
+    "county": "Genesee"
+  },
+  "flower-mound-tx": {
+    "average_wage": 59177,
+    "concern": 61.1,
+    "county": "Denton"
+  },
+  "folsom-ca": {
+    "average_wage": 71257,
+    "concern": 29.9,
+    "county": "Sacramento"
+  },
+  "fontana-ca": {
+    "average_wage": 54598,
+    "concern": 77.9,
+    "county": "San Bernardino"
+  },
+  "fort-collins-co": {
+    "average_wage": 62840,
+    "concern": 51.7,
+    "county": "Larimer"
+  },
+  "fort-lauderdale-fl": {
+    "average_wage": 61265,
+    "concern": 56.0,
+    "county": "Broward"
+  },
+  "fort-myers-fl": {
+    "average_wage": 55417,
+    "concern": 73.6,
+    "county": "Lee"
+  },
+  "fort-smith-ar": {
+    "average_wage": 52690,
+    "concern": 83.2,
+    "county": "Sebastian"
+  },
+  "fort-wayne-in": {
+    "average_wage": 56031,
+    "concern": 71.2,
+    "county": "Allen"
+  },
+  "fort-worth-tx": {
+    "average_wage": 63154,
+    "concern": 50.5,
+    "county": "Tarrant"
+  },
+  "franklin-tn": {
+    "average_wage": 78308,
+    "concern": 16.0,
+    "county": "Williamson"
+  },
+  "frederick-md": {
+    "average_wage": 59829,
+    "concern": 58.7,
+    "county": "Frederick"
+  },
+  "fremont-ca": {
+    "average_wage": 101250,
+    "concern": 6.7,
+    "county": "Alameda"
+  },
+  "fresno-ca": {
+    "average_wage": 55303,
+    "concern": 74.2,
+    "county": "Fresno"
+  },
+  "frisco-tx": {
+    "average_wage": 80684,
+    "concern": 13.5,
+    "county": "Collin"
+  },
+  "fullerton-ca": {
+    "average_wage": 75083,
+    "concern": 25.8,
+    "county": "Orange"
+  },
+  "gainesville-fl": {
+    "average_wage": 53632,
+    "concern": 81.2,
+    "county": "Alachua"
+  },
+  "garden-grove-ca": {
+    "average_wage": 75083,
+    "concern": 26.0,
+    "county": "Orange"
+  },
+  "garland-tx": {
+    "average_wage": 80015,
+    "concern": 15.1,
+    "county": "Dallas"
+  },
+  "gastonia-nc": {
+    "average_wage": 49335,
+    "concern": 92.8,
+    "county": "Gaston"
+  },
+  "georgetown-tx": {
+    "average_wage": 66266,
+    "concern": 44.6,
+    "county": "Williamson"
+  },
+  "geraldine-mt": {
+    "average_wage": 41918,
+    "concern": 98.2,
+    "county": "Chouteau"
+  },
+  "gilbert-az": {
+    "average_wage": 65314,
+    "concern": 47.0,
+    "county": "Maricopa"
+  },
+  "glendale-az": {
+    "average_wage": 65314,
+    "concern": 46.6,
+    "county": "Maricopa"
+  },
+  "glendale-ca": {
+    "average_wage": 75135,
+    "concern": 23.5,
+    "county": "Los Angeles"
+  },
+  "goodyear-az": {
+    "average_wage": 65314,
+    "concern": 45.4,
+    "county": "Maricopa"
+  },
+  "grand-junction-co": {
+    "average_wage": 54260,
+    "concern": 79.1,
+    "county": "Mesa"
+  },
+  "grand-prairie-tx": {
+    "average_wage": 80015,
+    "concern": 14.9,
+    "county": "Dallas"
+  },
+  "grand-rapids-mi": {
+    "average_wage": 59787,
+    "concern": 59.1,
+    "county": "Kent"
+  },
+  "greeley-co": {
+    "average_wage": 65135,
+    "concern": 47.6,
+    "county": "Weld"
+  },
+  "green-bay-wi": {
+    "average_wage": 61586,
+    "concern": 53.8,
+    "county": "Brown"
+  },
+  "greensboro-nc": {
+    "average_wage": 57417,
+    "concern": 67.5,
+    "county": "Guilford"
+  },
+  "greenville-nc": {
+    "average_wage": 50144,
+    "concern": 91.8,
+    "county": "Pitt"
+  },
+  "gresham-or": {
+    "average_wage": 69616,
+    "concern": 35.6,
+    "county": "Multnomah"
+  },
+  "hampton-va": {
+    "average_wage": 51276,
+    "concern": 89.4,
+    "county": "Hampton"
+  },
+  "hartford-ct": {
+    "average_wage": 72492,
+    "concern": 28.2,
+    "county": "Capitol"
+  },
+  "hawthorne-ca": {
+    "average_wage": 75135,
+    "concern": 20.2,
+    "county": "Los Angeles"
+  },
+  "hayward-ca": {
+    "average_wage": 101250,
+    "concern": 6.5,
+    "county": "Alameda"
+  },
+  "hemet-ca": {
+    "average_wage": 52621,
+    "concern": 84.0,
+    "county": "Riverside"
+  },
+  "henderson-nv": {
+    "average_wage": 55015,
+    "concern": 75.1,
+    "county": "Clark"
+  },
+  "hesperia-ca": {
+    "average_wage": 54598,
+    "concern": 76.9,
+    "county": "San Bernardino"
+  },
+  "hialeah-fl": {
+    "average_wage": 67834,
+    "concern": 38.2,
+    "county": "Miami-Dade"
+  },
+  "high-point-nc": {
+    "average_wage": 57417,
+    "concern": 67.3,
+    "county": "Guilford"
+  },
+  "hillsboro-or": {
+    "average_wage": 87499,
+    "concern": 9.4,
+    "county": "Washington"
+  },
+  "hollywood-fl": {
+    "average_wage": 61265,
+    "concern": 55.6,
+    "county": "Broward"
+  },
+  "homestead-fl": {
+    "average_wage": 67834,
+    "concern": 37.8,
+    "county": "Miami-Dade"
+  },
+  "honolulu-hi": {
+    "average_wage": 61232,
+    "concern": 56.2,
+    "county": "Honolulu"
+  },
+  "hoover-al": {
+    "average_wage": 66634,
+    "concern": 41.3,
+    "county": "Jefferson"
+  },
+  "houston-tx": {
+    "average_wage": 80572,
+    "concern": 14.3,
+    "county": "Harris"
+  },
+  "huntington-beach-ca": {
+    "average_wage": 75083,
+    "concern": 26.2,
+    "county": "Orange"
+  },
+  "huntsville-al": {
+    "average_wage": 67688,
+    "concern": 39.7,
+    "county": "Madison"
+  },
+  "independence-mo": {
+    "average_wage": 69909,
+    "concern": 35.0,
+    "county": "Jackson"
+  },
+  "indianapolis-in": {
+    "average_wage": 69754,
+    "concern": 35.4,
+    "county": "Marion"
+  },
+  "indio-ca": {
+    "average_wage": 52621,
+    "concern": 84.1,
+    "county": "Riverside"
+  },
+  "inglewood-ca": {
+    "average_wage": 75135,
+    "concern": 21.5,
+    "county": "Los Angeles"
+  },
+  "irvine-ca": {
+    "average_wage": 75083,
+    "concern": 26.6,
+    "county": "Orange"
+  },
+  "irving-tx": {
+    "average_wage": 80015,
+    "concern": 15.3,
+    "county": "Dallas"
+  },
+  "jackson-ms": {
+    "average_wage": 53807,
+    "concern": 80.2,
+    "county": "Hinds"
+  },
+  "jacksonville-fl": {
+    "average_wage": 64686,
+    "concern": 47.9,
+    "county": "Duval"
+  },
+  "jersey-city-nj": {
+    "average_wage": 95558,
+    "concern": 7.0,
+    "county": "Hudson"
+  },
+  "johns-creek-ga": {
+    "average_wage": 92125,
+    "concern": 7.6,
+    "county": "Fulton"
+  },
+  "joliet-il": {
+    "average_wage": 55858,
+    "concern": 71.6,
+    "county": "Will"
+  },
+  "jonesboro-ar": {
+    "average_wage": 51049,
+    "concern": 90.0,
+    "county": "Craighead"
+  },
+  "jurupa-valley-ca": {
+    "average_wage": 52621,
+    "concern": 84.3,
+    "county": "Riverside"
+  },
+  "kalispell-mt": {
+    "average_wage": 51608,
+    "concern": 87.9,
+    "county": "Flathead"
+  },
+  "kansas-city-ks": {
+    "average_wage": 57348,
+    "concern": 67.7,
+    "county": "Wyandotte"
+  },
+  "kansas-city-mo": {
+    "average_wage": 69909,
+    "concern": 35.2,
+    "county": "Jackson"
+  },
+  "kennewick-wa": {
+    "average_wage": 67346,
+    "concern": 40.1,
+    "county": "Benton"
+  },
+  "kenosha-wi": {
+    "average_wage": 52172,
+    "concern": 86.5,
+    "county": "Kenosha"
+  },
+  "kent-wa": {
+    "average_wage": 110043,
+    "concern": 4.1,
+    "county": "King"
+  },
+  "killeen-tx": {
+    "average_wage": 55687,
+    "concern": 73.2,
+    "county": "Bell"
+  },
+  "kirkland-wa": {
+    "average_wage": 110043,
+    "concern": 3.5,
+    "county": "King"
+  },
+  "kissimmee-fl": {
+    "average_wage": 41059,
+    "concern": 98.6,
+    "county": "Osceola"
+  },
+  "knoxville-tn": {
+    "average_wage": 56286,
+    "concern": 70.8,
+    "county": "Knox"
+  },
+  "lafayette-la": {
+    "average_wage": 56889,
+    "concern": 68.5,
+    "county": "Lafayette"
+  },
+  "lake-charles-la": {
+    "average_wage": 56686,
+    "concern": 70.1,
+    "county": "Calcasieu"
+  },
+  "lake-forest-ca": {
+    "average_wage": 75083,
+    "concern": 24.9,
+    "county": "Orange"
+  },
+  "lakeland-fl": {
+    "average_wage": 50155,
+    "concern": 91.6,
+    "county": "Polk"
+  },
+  "lakeville-mn": {
+    "average_wage": 67061,
+    "concern": 40.3,
+    "county": "Dakota"
+  },
+  "lakewood-ca": {
+    "average_wage": 75135,
+    "concern": 19.8,
+    "county": "Los Angeles"
+  },
+  "lakewood-co": {
+    "average_wage": 61901,
+    "concern": 52.8,
+    "county": "Jefferson"
+  },
+  "lancaster-ca": {
+    "average_wage": 75135,
+    "concern": 23.3,
+    "county": "Los Angeles"
+  },
+  "lansing-mi": {
+    "average_wage": 59373,
+    "concern": 60.3,
+    "county": "Ingham"
+  },
+  "laredo-tx": {
+    "average_wage": 38101,
+    "concern": 98.8,
+    "county": "Webb"
+  },
+  "largo-fl": {
+    "average_wage": 59991,
+    "concern": 57.7,
+    "county": "Pinellas"
+  },
+  "las-cruces-nm": {
+    "average_wage": 41231,
+    "concern": 98.4,
+    "county": "Do\u00f1a Ana"
+  },
+  "las-vegas-nv": {
+    "average_wage": 55015,
+    "concern": 75.3,
+    "county": "Clark"
+  },
+  "lawrence-ks": {
+    "average_wage": 43718,
+    "concern": 97.3,
+    "county": "Douglas"
+  },
+  "lawrence-ma": {
+    "average_wage": 67758,
+    "concern": 38.9,
+    "county": "Essex"
+  },
+  "lawton-ok": {
+    "average_wage": 43411,
+    "concern": 97.7,
+    "county": "Comanche"
+  },
+  "layton-ut": {
+    "average_wage": 51685,
+    "concern": 87.7,
+    "county": "Davis"
+  },
+  "league-city-tx": {
+    "average_wage": 52817,
+    "concern": 82.6,
+    "county": "Galveston"
+  },
+  "leander-tx": {
+    "average_wage": 66266,
+    "concern": 44.4,
+    "county": "Williamson"
+  },
+  "lees-summit-mo": {
+    "average_wage": 69909,
+    "concern": 34.8,
+    "county": "Jackson"
+  },
+  "lehi-ut": {
+    "average_wage": 55792,
+    "concern": 72.2,
+    "county": "Utah"
+  },
+  "lewisville-tx": {
+    "average_wage": 59177,
+    "concern": 61.4,
+    "county": "Denton"
+  },
+  "lexington-ky": {
+    "average_wage": 55842,
+    "concern": 71.8,
+    "county": "Fayette"
+  },
+  "lincoln-ne": {
+    "average_wage": 55218,
+    "concern": 74.6,
+    "county": "Lancaster"
+  },
+  "little-rock-ar": {
+    "average_wage": 60955,
+    "concern": 56.8,
+    "county": "Pulaski"
+  },
+  "livermore-ca": {
+    "average_wage": 101250,
+    "concern": 5.9,
+    "county": "Alameda"
+  },
+  "livonia-mi": {
+    "average_wage": 70068,
+    "concern": 34.1,
+    "county": "Wayne"
+  },
+  "long-beach-ca": {
+    "average_wage": 75135,
+    "concern": 23.9,
+    "county": "Los Angeles"
+  },
+  "longmont-co": {
+    "average_wage": 82814,
+    "concern": 11.7,
+    "county": "Boulder"
+  },
+  "longview-tx": {
+    "average_wage": 53292,
+    "concern": 81.8,
+    "county": "Gregg"
+  },
+  "los-alamos-nm": {
+    "average_wage": 113028,
+    "concern": 2.3,
+    "county": "Los Alamos"
+  },
+  "los-angeles-ca": {
+    "average_wage": 75135,
+    "concern": 24.1,
+    "county": "Los Angeles"
+  },
+  "louisville-ky": {
+    "average_wage": 64489,
+    "concern": 48.3,
+    "county": "Jefferson"
+  },
+  "loveland-co": {
+    "average_wage": 62840,
+    "concern": 51.5,
+    "county": "Larimer"
+  },
+  "lowell-ma": {
+    "average_wage": 101547,
+    "concern": 5.3,
+    "county": "Middlesex"
+  },
+  "lubbock-tx": {
+    "average_wage": 47771,
+    "concern": 93.7,
+    "county": "Lubbock"
+  },
+  "lynchburg-va": {
+    "average_wage": 53461,
+    "concern": 81.6,
+    "county": "Lynchburg"
+  },
+  "lynn-ma": {
+    "average_wage": 67758,
+    "concern": 39.1,
+    "county": "Essex"
+  },
+  "mableton-ga": {
+    "average_wage": 74183,
+    "concern": 27.0,
+    "county": "Cobb"
+  },
+  "macon-ga": {
+    "average_wage": 50338,
+    "concern": 91.4,
+    "county": "Bibb"
+  },
+  "madison-wi": {
+    "average_wage": 71173,
+    "concern": 31.5,
+    "county": "Dane"
+  },
+  "manchester-nh": {
+    "average_wage": 71919,
+    "concern": 29.2,
+    "county": "Hillsborough"
+  },
+  "mansfield-tx": {
+    "average_wage": 63154,
+    "concern": 50.1,
+    "county": "Tarrant"
+  },
+  "manteca-ca": {
+    "average_wage": 56826,
+    "concern": 68.7,
+    "county": "San Joaquin"
+  },
+  "maricopa-az": {
+    "average_wage": 50659,
+    "concern": 90.8,
+    "county": "Pinal"
+  },
+  "marysville-wa": {
+    "average_wage": 70427,
+    "concern": 33.1,
+    "county": "Snohomish"
+  },
+  "mcallen-tx": {
+    "average_wage": 36895,
+    "concern": 99.8,
+    "county": "Hidalgo"
+  },
+  "mckinney-tx": {
+    "average_wage": 80684,
+    "concern": 13.3,
+    "county": "Collin"
+  },
+  "medford-or": {
+    "average_wage": 54506,
+    "concern": 78.5,
+    "county": "Jackson"
+  },
+  "melbourne-fl": {
+    "average_wage": 57834,
+    "concern": 65.9,
+    "county": "Brevard"
+  },
+  "memphis-tn": {
+    "average_wage": 64548,
+    "concern": 48.1,
+    "county": "Shelby"
+  },
+  "menifee-ca": {
+    "average_wage": 52621,
+    "concern": 84.9,
+    "county": "Riverside"
+  },
+  "merced-ca": {
+    "average_wage": 49482,
+    "concern": 92.6,
+    "county": "Merced"
+  },
+  "meridian-id": {
+    "average_wage": 66301,
+    "concern": 43.6,
+    "county": "Ada"
+  },
+  "mesa-az": {
+    "average_wage": 65314,
+    "concern": 47.2,
+    "county": "Maricopa"
+  },
+  "mesquite-tx": {
+    "average_wage": 80015,
+    "concern": 14.7,
+    "county": "Dallas"
+  },
+  "miami-beach-fl": {
+    "average_wage": 67834,
+    "concern": 37.4,
+    "county": "Miami-Dade"
+  },
+  "miami-fl": {
+    "average_wage": 67834,
+    "concern": 38.4,
+    "county": "Miami-Dade"
+  },
+  "miami-gardens-fl": {
+    "average_wage": 67834,
+    "concern": 38.0,
+    "county": "Miami-Dade"
+  },
+  "midland-tx": {
+    "average_wage": 88469,
+    "concern": 9.0,
+    "county": "Midland"
+  },
+  "milpitas-ca": {
+    "average_wage": 181647,
+    "concern": 0.6,
+    "county": "Santa Clara"
+  },
+  "milwaukee-wi": {
+    "average_wage": 69984,
+    "concern": 34.6,
+    "county": "Milwaukee"
+  },
+  "minneapolis-mn": {
+    "average_wage": 83049,
+    "concern": 11.5,
+    "county": "Hennepin"
+  },
+  "miramar-fl": {
+    "average_wage": 61265,
+    "concern": 55.4,
+    "county": "Broward"
+  },
+  "mission-tx": {
+    "average_wage": 36895,
+    "concern": 99.4,
+    "county": "Hidalgo"
+  },
+  "mission-viejo-ca": {
+    "average_wage": 75083,
+    "concern": 25.2,
+    "county": "Orange"
+  },
+  "missoula-mt": {
+    "average_wage": 50657,
+    "concern": 91.0,
+    "county": "Missoula"
+  },
+  "missouri-city-tx": {
+    "average_wage": 51534,
+    "concern": 88.1,
+    "county": "Fort Bend"
+  },
+  "mobile-al": {
+    "average_wage": 54348,
+    "concern": 78.9,
+    "county": "Mobile"
+  },
+  "modesto-ca": {
+    "average_wage": 58852,
+    "concern": 63.6,
+    "county": "Stanislaus"
+  },
+  "montgomery-al": {
+    "average_wage": 53713,
+    "concern": 80.8,
+    "county": "Montgomery"
+  },
+  "monticello-ut": {
+    "average_wage": 47474,
+    "concern": 93.9,
+    "county": "San Juan"
+  },
+  "moreno-valley-ca": {
+    "average_wage": 52621,
+    "concern": 85.3,
+    "county": "Riverside"
+  },
+  "mount-pleasant-sc": {
+    "average_wage": 59680,
+    "concern": 59.3,
+    "county": "Charleston"
+  },
+  "mountain-view-ca": {
+    "average_wage": 181647,
+    "concern": 0.8,
+    "county": "Santa Clara"
+  },
+  "murfreesboro-tn": {
+    "average_wage": 53643,
+    "concern": 81.0,
+    "county": "Rutherford"
+  },
+  "murrieta-ca": {
+    "average_wage": 52621,
+    "concern": 84.5,
+    "county": "Riverside"
+  },
+  "nampa-id": {
+    "average_wage": 47072,
+    "concern": 94.7,
+    "county": "Canyon"
+  },
+  "naperville-il": {
+    "average_wage": 75829,
+    "concern": 19.2,
+    "county": "DuPage"
+  },
+  "nashua-nh": {
+    "average_wage": 71919,
+    "concern": 29.0,
+    "county": "Hillsborough"
+  },
+  "nashville-tn": {
+    "average_wage": 73370,
+    "concern": 27.2,
+    "county": "Davidson"
+  },
+  "new-bedford-ma": {
+    "average_wage": 59037,
+    "concern": 62.8,
+    "county": "Bristol"
+  },
+  "new-braunfels-tx": {
+    "average_wage": 49690,
+    "concern": 92.2,
+    "county": "Comal"
+  },
+  "new-haven-ct": {
+    "average_wage": 65048,
+    "concern": 47.7,
+    "county": "South Central Connecticut"
+  },
+  "new-orleans-la": {
+    "average_wage": 58964,
+    "concern": 63.2,
+    "county": "Orleans"
+  },
+  "new-rochelle-ny": {
+    "average_wage": 85148,
+    "concern": 10.0,
+    "county": "Westchester"
+  },
+  "new-york-ny": {
+    "average_wage": 146127,
+    "concern": 1.8,
+    "county": "New York"
+  },
+  "newark-nj": {
+    "average_wage": 75582,
+    "concern": 19.4,
+    "county": "Essex"
+  },
+  "newport-beach-ca": {
+    "average_wage": 75083,
+    "concern": 24.7,
+    "county": "Orange"
+  },
+  "newport-news-va": {
+    "average_wage": 67496,
+    "concern": 39.9,
+    "county": "Newport News"
+  },
+  "newton-ma": {
+    "average_wage": 101547,
+    "concern": 5.1,
+    "county": "Middlesex"
+  },
+  "norfolk-va": {
+    "average_wage": 61943,
+    "concern": 52.3,
+    "county": "Norfolk"
+  },
+  "norman-ok": {
+    "average_wage": 44996,
+    "concern": 96.3,
+    "county": "Cleveland"
+  },
+  "north-charleston-sc": {
+    "average_wage": 59680,
+    "concern": 59.5,
+    "county": "Charleston"
+  },
+  "north-las-vegas-nv": {
+    "average_wage": 55015,
+    "concern": 75.0,
+    "county": "Clark"
+  },
+  "north-port-fl": {
+    "average_wage": 55765,
+    "concern": 72.6,
+    "county": "Sarasota"
+  },
+  "norwalk-ca": {
+    "average_wage": 75135,
+    "concern": 21.3,
+    "county": "Los Angeles"
+  },
+  "norwalk-ct": {
+    "average_wage": 113020,
+    "concern": 2.7,
+    "county": "Western Connecticut"
+  },
+  "oakland-ca": {
+    "average_wage": 101250,
+    "concern": 6.8,
+    "county": "Alameda"
+  },
+  "oceanside-ca": {
+    "average_wage": 76323,
+    "concern": 18.2,
+    "county": "San Diego"
+  },
+  "odessa-tx": {
+    "average_wage": 72006,
+    "concern": 28.8,
+    "county": "Ector"
+  },
+  "ofallon-mo": {
+    "average_wage": 56505,
+    "concern": 70.6,
+    "county": "St. Charles"
+  },
+  "ogden-ut": {
+    "average_wage": 50731,
+    "concern": 90.6,
+    "county": "Weber"
+  },
+  "oklahoma-city-ok": {
+    "average_wage": 59101,
+    "concern": 62.2,
+    "county": "Oklahoma"
+  },
+  "olathe-ks": {
+    "average_wage": 68435,
+    "concern": 37.0,
+    "county": "Johnson"
+  },
+  "omaha-ne": {
+    "average_wage": 64333,
+    "concern": 48.5,
+    "county": "Douglas"
+  },
+  "ontario-ca": {
+    "average_wage": 54598,
+    "concern": 77.7,
+    "county": "San Bernardino"
+  },
+  "orange-ca": {
+    "average_wage": 75083,
+    "concern": 25.6,
+    "county": "Orange"
+  },
+  "orem-ut": {
+    "average_wage": 55792,
+    "concern": 72.0,
+    "county": "Utah"
+  },
+  "orlando-fl": {
+    "average_wage": 58345,
+    "concern": 64.8,
+    "county": "Orange"
+  },
+  "overland-park-ks": {
+    "average_wage": 68435,
+    "concern": 37.2,
+    "county": "Johnson"
+  },
+  "oxnard-ca": {
+    "average_wage": 66404,
+    "concern": 42.7,
+    "county": "Ventura"
+  },
+  "palm-bay-fl": {
+    "average_wage": 57834,
+    "concern": 66.1,
+    "county": "Brevard"
+  },
+  "palm-coast-fl": {
+    "average_wage": 43544,
+    "concern": 97.5,
+    "county": "Flagler"
+  },
+  "palmdale-ca": {
+    "average_wage": 75135,
+    "concern": 23.1,
+    "county": "Los Angeles"
+  },
+  "parma-oh": {
+    "average_wage": 70297,
+    "concern": 33.5,
+    "county": "Cuyahoga"
+  },
+  "pasadena-ca": {
+    "average_wage": 75135,
+    "concern": 22.5,
+    "county": "Los Angeles"
+  },
+  "pasadena-tx": {
+    "average_wage": 80572,
+    "concern": 14.1,
+    "county": "Harris"
+  },
+  "pasco-wa": {
+    "average_wage": 53863,
+    "concern": 80.0,
+    "county": "Franklin"
+  },
+  "paterson-nj": {
+    "average_wage": 60957,
+    "concern": 56.6,
+    "county": "Passaic"
+  },
+  "pawtucket-ri": {
+    "average_wage": 63100,
+    "concern": 50.7,
+    "county": "Providence"
+  },
+  "pearland-tx": {
+    "average_wage": 59629,
+    "concern": 60.1,
+    "county": "Brazoria"
+  },
+  "pembroke-pines-fl": {
+    "average_wage": 61265,
+    "concern": 55.8,
+    "county": "Broward"
+  },
+  "peoria-az": {
+    "average_wage": 65314,
+    "concern": 46.2,
+    "county": "Maricopa"
+  },
+  "peoria-il": {
+    "average_wage": 68785,
+    "concern": 36.8,
+    "county": "Peoria"
+  },
+  "perris-ca": {
+    "average_wage": 52621,
+    "concern": 83.8,
+    "county": "Riverside"
+  },
+  "pharr-tx": {
+    "average_wage": 36895,
+    "concern": 99.2,
+    "county": "Hidalgo"
+  },
+  "philadelphia-pa": {
+    "average_wage": 71231,
+    "concern": 30.7,
+    "county": "Philadelphia"
+  },
+  "phoenix-az": {
+    "average_wage": 65314,
+    "concern": 47.4,
+    "county": "Maricopa"
+  },
+  "pittsburg-ca": {
+    "average_wage": 81636,
+    "concern": 12.1,
+    "county": "Contra Costa"
+  },
+  "pittsburgh-pa": {
+    "average_wage": 67827,
+    "concern": 38.6,
+    "county": "Allegheny"
+  },
+  "plano-tx": {
+    "average_wage": 80684,
+    "concern": 13.7,
+    "county": "Collin"
+  },
+  "plantation-fl": {
+    "average_wage": 61265,
+    "concern": 54.6,
+    "county": "Broward"
+  },
+  "plymouth-mn": {
+    "average_wage": 83049,
+    "concern": 11.0,
+    "county": "Hennepin"
+  },
+  "pomona-ca": {
+    "average_wage": 75135,
+    "concern": 22.9,
+    "county": "Los Angeles"
+  },
+  "pompano-beach-fl": {
+    "average_wage": 61265,
+    "concern": 55.0,
+    "county": "Broward"
+  },
+  "port-st-lucie-fl": {
+    "average_wage": 46147,
+    "concern": 95.3,
+    "county": "St. Lucie"
+  },
+  "portland-or": {
+    "average_wage": 69616,
+    "concern": 35.8,
+    "county": "Multnomah"
+  },
+  "portsmouth-va": {
+    "average_wage": 54921,
+    "concern": 75.9,
+    "county": "Portsmouth"
+  },
+  "providence-ri": {
+    "average_wage": 63100,
+    "concern": 51.1,
+    "county": "Providence"
+  },
+  "provo-ut": {
+    "average_wage": 55792,
+    "concern": 72.4,
+    "county": "Utah"
+  },
+  "pueblo-co": {
+    "average_wage": 51759,
+    "concern": 87.5,
+    "county": "Pueblo"
+  },
+  "queen-creek-az": {
+    "average_wage": 65314,
+    "concern": 45.0,
+    "county": "Maricopa"
+  },
+  "quincy-ma": {
+    "average_wage": 76922,
+    "concern": 16.8,
+    "county": "Norfolk"
+  },
+  "racine-wi": {
+    "average_wage": 56811,
+    "concern": 69.5,
+    "county": "Racine"
+  },
+  "raleigh-nc": {
+    "average_wage": 71192,
+    "concern": 31.3,
+    "county": "Wake"
+  },
+  "rancho-cordova-ca": {
+    "average_wage": 71257,
+    "concern": 29.7,
+    "county": "Sacramento"
+  },
+  "rancho-cucamonga-ca": {
+    "average_wage": 54598,
+    "concern": 77.5,
+    "county": "San Bernardino"
+  },
+  "rapid-city-sd": {
+    "average_wage": 51101,
+    "concern": 89.8,
+    "county": "Pennington"
+  },
+  "reading-pa": {
+    "average_wage": 57525,
+    "concern": 66.7,
+    "county": "Berks"
+  },
+  "redding-ca": {
+    "average_wage": 53899,
+    "concern": 79.8,
+    "county": "Shasta"
+  },
+  "redmond-wa": {
+    "average_wage": 110043,
+    "concern": 3.1,
+    "county": "King"
+  },
+  "redwood-city-ca": {
+    "average_wage": 183393,
+    "concern": 0.0,
+    "county": "San Mateo"
+  },
+  "reno-nv": {
+    "average_wage": 61617,
+    "concern": 53.6,
+    "county": "Washoe"
+  },
+  "renton-wa": {
+    "average_wage": 110043,
+    "concern": 3.9,
+    "county": "King"
+  },
+  "rialto-ca": {
+    "average_wage": 54598,
+    "concern": 77.1,
+    "county": "San Bernardino"
+  },
+  "richardson-tx": {
+    "average_wage": 80015,
+    "concern": 14.5,
+    "county": "Dallas"
+  },
+  "richmond-ca": {
+    "average_wage": 81636,
+    "concern": 12.5,
+    "county": "Contra Costa"
+  },
+  "richmond-va": {
+    "average_wage": 77795,
+    "concern": 16.4,
+    "county": "Richmond"
+  },
+  "rio-rancho-nm": {
+    "average_wage": 54158,
+    "concern": 79.5,
+    "county": "Sandoval"
+  },
+  "riverside-ca": {
+    "average_wage": 52621,
+    "concern": 85.5,
+    "county": "Riverside"
+  },
+  "roanoke-va": {
+    "average_wage": 57640,
+    "concern": 66.5,
+    "county": "Roanoke"
+  },
+  "rochester-hills-mi": {
+    "average_wage": 72528,
+    "concern": 27.6,
+    "county": "Oakland"
+  },
+  "rochester-mn": {
+    "average_wage": 76343,
+    "concern": 17.0,
+    "county": "Olmsted"
+  },
+  "rochester-ny": {
+    "average_wage": 57124,
+    "concern": 68.1,
+    "county": "Monroe"
+  },
+  "rockford-il": {
+    "average_wage": 55302,
+    "concern": 74.4,
+    "county": "Winnebago"
+  },
+  "rocklin-ca": {
+    "average_wage": 67699,
+    "concern": 39.3,
+    "county": "Placer"
+  },
+  "rogers-ar": {
+    "average_wage": 78785,
+    "concern": 15.9,
+    "county": "Benton"
+  },
+  "roseville-ca": {
+    "average_wage": 67699,
+    "concern": 39.5,
+    "county": "Placer"
+  },
+  "roswell-ga": {
+    "average_wage": 92125,
+    "concern": 7.8,
+    "county": "Fulton"
+  },
+  "round-rock-tx": {
+    "average_wage": 66266,
+    "concern": 44.8,
+    "county": "Williamson"
+  },
+  "sacramento-ca": {
+    "average_wage": 71257,
+    "concern": 30.3,
+    "county": "Sacramento"
+  },
+  "saint-paul-mn": {
+    "average_wage": 69190,
+    "concern": 36.2,
+    "county": "Ramsey"
+  },
+  "salem-or": {
+    "average_wage": 51777,
+    "concern": 87.1,
+    "county": "Marion"
+  },
+  "salinas-ca": {
+    "average_wage": 60396,
+    "concern": 57.3,
+    "county": "Monterey"
+  },
+  "salt-lake-city-ut": {
+    "average_wage": 70569,
+    "concern": 32.9,
+    "county": "Salt Lake"
+  },
+  "san-angelo-tx": {
+    "average_wage": 50622,
+    "concern": 91.2,
+    "county": "Tom Green"
+  },
+  "san-antonio-tx": {
+    "average_wage": 58073,
+    "concern": 65.4,
+    "county": "Bexar"
+  },
+  "san-bernardino-ca": {
+    "average_wage": 54598,
+    "concern": 78.1,
+    "county": "San Bernardino"
+  },
+  "san-diego-ca": {
+    "average_wage": 76323,
+    "concern": 18.6,
+    "county": "San Diego"
+  },
+  "san-francisco-ca": {
+    "average_wage": 152753,
+    "concern": 1.6,
+    "county": "San Francisco"
+  },
+  "san-jose-ca": {
+    "average_wage": 181647,
+    "concern": 1.4,
+    "county": "Santa Clara"
+  },
+  "san-leandro-ca": {
+    "average_wage": 101250,
+    "concern": 6.1,
+    "county": "Alameda"
+  },
+  "san-marcos-ca": {
+    "average_wage": 76323,
+    "concern": 17.2,
+    "county": "San Diego"
+  },
+  "san-marcos-tx": {
+    "average_wage": 46511,
+    "concern": 95.1,
+    "county": "Hays"
+  },
+  "san-mateo-ca": {
+    "average_wage": 183393,
+    "concern": 0.4,
+    "county": "San Mateo"
+  },
+  "san-ramon-ca": {
+    "average_wage": 81636,
+    "concern": 12.3,
+    "county": "Contra Costa"
+  },
+  "sandpoint-id": {
+    "average_wage": 46966,
+    "concern": 94.9,
+    "county": "Bonner"
+  },
+  "sandy-springs-ga": {
+    "average_wage": 92125,
+    "concern": 8.0,
+    "county": "Fulton"
+  },
+  "sandy-ut": {
+    "average_wage": 70569,
+    "concern": 32.3,
+    "county": "Salt Lake"
+  },
+  "santa-ana-ca": {
+    "average_wage": 75083,
+    "concern": 26.4,
+    "county": "Orange"
+  },
+  "santa-barbara-ca": {
+    "average_wage": 69069,
+    "concern": 36.4,
+    "county": "Santa Barbara"
+  },
+  "santa-clara-ca": {
+    "average_wage": 181647,
+    "concern": 1.0,
+    "county": "Santa Clara"
+  },
+  "santa-clarita-ca": {
+    "average_wage": 75135,
+    "concern": 23.7,
+    "county": "Los Angeles"
+  },
+  "santa-fe-nm": {
+    "average_wage": 52618,
+    "concern": 85.7,
+    "county": "Santa Fe"
+  },
+  "santa-maria-ca": {
+    "average_wage": 69069,
+    "concern": 36.6,
+    "county": "Santa Barbara"
+  },
+  "santa-monica-ca": {
+    "average_wage": 75135,
+    "concern": 20.7,
+    "county": "Los Angeles"
+  },
+  "santa-rosa-ca": {
+    "average_wage": 69243,
+    "concern": 36.0,
+    "county": "Sonoma"
+  },
+  "savannah-ga": {
+    "average_wage": 54405,
+    "concern": 78.7,
+    "county": "Chatham"
+  },
+  "schaumburg-il": {
+    "average_wage": 83113,
+    "concern": 10.4,
+    "county": "Cook"
+  },
+  "scottsdale-az": {
+    "average_wage": 65314,
+    "concern": 46.4,
+    "county": "Maricopa"
+  },
+  "seattle-wa": {
+    "average_wage": 110043,
+    "concern": 4.5,
+    "county": "King"
+  },
+  "shreveport-la": {
+    "average_wage": 54246,
+    "concern": 79.3,
+    "county": "Caddo"
+  },
+  "simi-valley-ca": {
+    "average_wage": 66404,
+    "concern": 42.5,
+    "county": "Ventura"
+  },
+  "sioux-city-ia": {
+    "average_wage": 49499,
+    "concern": 92.4,
+    "county": "Woodbury"
+  },
+  "sioux-falls-sd": {
+    "average_wage": 58623,
+    "concern": 63.8,
+    "county": "Minnehaha"
+  },
+  "somerville-ma": {
+    "average_wage": 101547,
+    "concern": 4.9,
+    "county": "Middlesex"
+  },
+  "south-bend-in": {
+    "average_wage": 52273,
+    "concern": 86.1,
+    "county": "St. Joseph"
+  },
+  "south-fulton-ga": {
+    "average_wage": 92125,
+    "concern": 8.2,
+    "county": "Fulton"
+  },
+  "south-gate-ca": {
+    "average_wage": 75135,
+    "concern": 20.5,
+    "county": "Los Angeles"
+  },
+  "south-jordan-ut": {
+    "average_wage": 70569,
+    "concern": 32.1,
+    "county": "Salt Lake"
+  },
+  "sparks-nv": {
+    "average_wage": 61617,
+    "concern": 53.4,
+    "county": "Washoe"
+  },
+  "spokane-valley-wa": {
+    "average_wage": 58034,
+    "concern": 65.6,
+    "county": "Spokane"
+  },
+  "spokane-wa": {
+    "average_wage": 58034,
+    "concern": 65.8,
+    "county": "Spokane"
+  },
+  "springdale-ar": {
+    "average_wage": 51935,
+    "concern": 86.7,
+    "county": "Washington"
+  },
+  "springfield-il": {
+    "average_wage": 53762,
+    "concern": 80.4,
+    "county": "Sangamon"
+  },
+  "springfield-ma": {
+    "average_wage": 57005,
+    "concern": 68.3,
+    "county": "Hampden"
+  },
+  "springfield-mo": {
+    "average_wage": 54085,
+    "concern": 79.6,
+    "county": "Greene"
+  },
+  "st-george-ut": {
+    "average_wage": 44418,
+    "concern": 96.9,
+    "county": "Washington"
+  },
+  "st-louis-mo": {
+    "average_wage": 71241,
+    "concern": 30.5,
+    "county": "St. Louis"
+  },
+  "st-petersburg-fl": {
+    "average_wage": 59991,
+    "concern": 58.1,
+    "county": "Pinellas"
+  },
+  "stamford-ct": {
+    "average_wage": 113020,
+    "concern": 2.9,
+    "county": "Western Connecticut"
+  },
+  "sterling-heights-mi": {
+    "average_wage": 61971,
+    "concern": 51.9,
+    "county": "Macomb"
+  },
+  "stockton-ca": {
+    "average_wage": 56826,
+    "concern": 69.1,
+    "county": "San Joaquin"
+  },
+  "suffolk-va": {
+    "average_wage": 51330,
+    "concern": 89.2,
+    "county": "Suffolk"
+  },
+  "sugar-land-tx": {
+    "average_wage": 51534,
+    "concern": 88.3,
+    "county": "Fort Bend"
+  },
+  "sundance-wy": {
+    "average_wage": 59938,
+    "concern": 58.3,
+    "county": "Crook"
+  },
+  "sunnyvale-ca": {
+    "average_wage": 181647,
+    "concern": 1.2,
+    "county": "Santa Clara"
+  },
+  "sunrise-fl": {
+    "average_wage": 61265,
+    "concern": 54.4,
+    "county": "Broward"
+  },
+  "surprise-az": {
+    "average_wage": 65314,
+    "concern": 45.8,
+    "county": "Maricopa"
+  },
+  "syracuse-ny": {
+    "average_wage": 59196,
+    "concern": 60.9,
+    "county": "Onondaga"
+  },
+  "tacoma-wa": {
+    "average_wage": 61747,
+    "concern": 53.0,
+    "county": "Pierce"
+  },
+  "tallahassee-fl": {
+    "average_wage": 55496,
+    "concern": 73.4,
+    "county": "Leon"
+  },
+  "tampa-fl": {
+    "average_wage": 67804,
+    "concern": 38.7,
+    "county": "Hillsborough"
+  },
+  "taos-nm": {
+    "average_wage": 37047,
+    "concern": 99.0,
+    "county": "Taos"
+  },
+  "temecula-ca": {
+    "average_wage": 52621,
+    "concern": 84.7,
+    "county": "Riverside"
+  },
+  "tempe-az": {
+    "average_wage": 65314,
+    "concern": 46.0,
+    "county": "Maricopa"
+  },
+  "temple-tx": {
+    "average_wage": 55687,
+    "concern": 73.0,
+    "county": "Bell"
+  },
+  "thornton-co": {
+    "average_wage": 63844,
+    "concern": 48.7,
+    "county": "Adams"
+  },
+  "thousand-oaks-ca": {
+    "average_wage": 66404,
+    "concern": 42.3,
+    "county": "Ventura"
+  },
+  "toledo-oh": {
+    "average_wage": 56507,
+    "concern": 70.5,
+    "county": "Lucas"
+  },
+  "topeka-ks": {
+    "average_wage": 58416,
+    "concern": 64.4,
+    "county": "Shawnee"
+  },
+  "torrance-ca": {
+    "average_wage": 75135,
+    "concern": 22.7,
+    "county": "Los Angeles"
+  },
+  "tracy-ca": {
+    "average_wage": 56826,
+    "concern": 68.9,
+    "county": "San Joaquin"
+  },
+  "trenton-nj": {
+    "average_wage": 86384,
+    "concern": 9.6,
+    "county": "Mercer"
+  },
+  "troy-mi": {
+    "average_wage": 72528,
+    "concern": 28.0,
+    "county": "Oakland"
+  },
+  "tucson-az": {
+    "average_wage": 54983,
+    "concern": 75.7,
+    "county": "Pima"
+  },
+  "tulsa-ok": {
+    "average_wage": 59264,
+    "concern": 60.7,
+    "county": "Tulsa"
+  },
+  "tuscaloosa-al": {
+    "average_wage": 58303,
+    "concern": 65.2,
+    "county": "Tuscaloosa"
+  },
+  "tustin-ca": {
+    "average_wage": 75083,
+    "concern": 24.3,
+    "county": "Orange"
+  },
+  "tyler-tx": {
+    "average_wage": 52912,
+    "concern": 82.4,
+    "county": "Smith"
+  },
+  "upland-ca": {
+    "average_wage": 54598,
+    "concern": 76.5,
+    "county": "San Bernardino"
+  },
+  "vacaville-ca": {
+    "average_wage": 63168,
+    "concern": 49.5,
+    "county": "Solano"
+  },
+  "vallejo-ca": {
+    "average_wage": 63168,
+    "concern": 49.9,
+    "county": "Solano"
+  },
+  "vancouver-wa": {
+    "average_wage": 66687,
+    "concern": 40.7,
+    "county": "Clark"
+  },
+  "ventura-ca": {
+    "average_wage": 66404,
+    "concern": 42.1,
+    "county": "Ventura"
+  },
+  "victorville-ca": {
+    "average_wage": 54598,
+    "concern": 77.3,
+    "county": "San Bernardino"
+  },
+  "virginia-beach-va": {
+    "average_wage": 52528,
+    "concern": 85.9,
+    "county": "Virginia Beach"
+  },
+  "visalia-ca": {
+    "average_wage": 52688,
+    "concern": 83.4,
+    "county": "Tulare"
+  },
+  "vista-ca": {
+    "average_wage": 76323,
+    "concern": 17.4,
+    "county": "San Diego"
+  },
+  "waco-tx": {
+    "average_wage": 50938,
+    "concern": 90.2,
+    "county": "McLennan"
+  },
+  "warner-robins-ga": {
+    "average_wage": 42154,
+    "concern": 98.0,
+    "county": "Houston"
+  },
+  "warren-mi": {
+    "average_wage": 61971,
+    "concern": 52.1,
+    "county": "Macomb"
+  },
+  "warwick-ri": {
+    "average_wage": 57758,
+    "concern": 66.3,
+    "county": "Kent"
+  },
+  "washington-dc": {
+    "average_wage": 101634,
+    "concern": 4.7,
+    "county": "District of Columbia"
+  },
+  "waterbury-ct": {
+    "average_wage": 66365,
+    "concern": 42.9,
+    "county": "Naugatuck Valley"
+  },
+  "waukegan-il": {
+    "average_wage": 92708,
+    "concern": 7.4,
+    "county": "Lake"
+  },
+  "west-covina-ca": {
+    "average_wage": 75135,
+    "concern": 22.1,
+    "county": "Los Angeles"
+  },
+  "west-jordan-ut": {
+    "average_wage": 70569,
+    "concern": 32.5,
+    "county": "Salt Lake"
+  },
+  "west-palm-beach-fl": {
+    "average_wage": 66342,
+    "concern": 43.4,
+    "county": "Palm Beach"
+  },
+  "west-valley-city-ut": {
+    "average_wage": 70569,
+    "concern": 32.7,
+    "county": "Salt Lake"
+  },
+  "westland-mi": {
+    "average_wage": 70068,
+    "concern": 33.9,
+    "county": "Wayne"
+  },
+  "westminster-ca": {
+    "average_wage": 75083,
+    "concern": 25.0,
+    "county": "Orange"
+  },
+  "westminster-co": {
+    "average_wage": 61901,
+    "concern": 52.4,
+    "county": "Jefferson"
+  },
+  "whitewright-tx": {
+    "average_wage": 49910,
+    "concern": 92.0,
+    "county": "Grayson"
+  },
+  "whittier-ca": {
+    "average_wage": 75135,
+    "concern": 20.4,
+    "county": "Los Angeles"
+  },
+  "wichita-falls-tx": {
+    "average_wage": 44926,
+    "concern": 96.5,
+    "county": "Wichita"
+  },
+  "wichita-ks": {
+    "average_wage": 58399,
+    "concern": 64.6,
+    "county": "Sedgwick"
+  },
+  "wilmington-nc": {
+    "average_wage": 58895,
+    "concern": 63.4,
+    "county": "New Hanover"
+  },
+  "winston-salem-nc": {
+    "average_wage": 59876,
+    "concern": 58.5,
+    "county": "Forsyth"
+  },
+  "woodbury-mn": {
+    "average_wage": 56273,
+    "concern": 71.0,
+    "county": "Washington"
+  },
+  "worcester-ma": {
+    "average_wage": 63330,
+    "concern": 49.3,
+    "county": "Worcester"
+  },
+  "wyoming-mi": {
+    "average_wage": 59787,
+    "concern": 58.9,
+    "county": "Kent"
+  },
+  "yakima-wa": {
+    "average_wage": 52209,
+    "concern": 86.3,
+    "county": "Yakima"
+  },
+  "yonkers-ny": {
+    "average_wage": 85148,
+    "concern": 10.2,
+    "county": "Westchester"
+  },
+  "yuma-az": {
+    "average_wage": 43901,
+    "concern": 97.1,
+    "county": "Yuma"
+  }
+}
