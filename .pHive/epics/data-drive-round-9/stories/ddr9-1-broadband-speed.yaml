@@ -1,0 +1,75 @@
+id: ddr9-1-broadband-speed
+epic: data-drive-round-9
+title: Ship FCC broadband speed availability
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+description: |
+  Real FCC National Broadband Map data (broadbandmap.fcc.gov, real file
+  already downloaded and cached this round during planning research).
+  Filters to County/Residential/Any Technology rows, uses speed_100_20
+  (% of locations with access to the FCC's current 100/20 Mbps
+  broadband standard), joins to the spine via the existing
+  city-county-fips.json crosswalk. Genuinely distinct from
+  broadband.ts's ACS subscription-rate framing.
+
+acceptance_criteria:
+  - "Given the real cached FCC county CSV, when parsed, then real speed_100_20 values are used per county, not fabricated or interpolated."
+  - "Given LOWER availability is the concerning direction, when scored, then that direction is used (digital-divide framing)."
+  - "Given the dataset ships, when checked against dvd-1's completeness test, then it passes with zero exceptions."
+
+steps:
+  - id: research
+    description: Confirm the cached FCC CSV schema still matches this story's live-verified findings.
+    agent: researcher
+  - id: implement
+    description: Write scripts/gen_broadband_speed_data.py, src/lib/datasets/broadband-speed.ts, data/broadband-speed-methodology.md, following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "tests/broadband-speed-dataset.test.ts, a new tests/e2e/mapstack.spec.ts block, then pnpm verify end to end."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting and real methodology disclosure of the non-stable-URL reproducibility caveat.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: data/raw/city-county-fips.json
+      purpose: Existing county crosswalk this story reuses unchanged.
+    - path: src/lib/datasets/broadband.ts
+      purpose: The already-shipped ACS subscription-rate dataset this new one is deliberately distinct from (availability vs. adoption).
+
+files_to_modify: []
+code_examples:
+  - title: Real confirmed schema (already downloaded and cached during planning)
+    file: data/raw/broadband-speed-cache/bdc_us_fixed_broadband_summary_by_geography_D25_04aug2026.csv
+    snippet: |
+      area_data_type,geography_type,geography_id,geography_desc,...,speed_100_20,...
+      Total,County,01001,Autauga County,...,1.000000000,...
+      # geography_id is the real 5-digit county FIPS directly.
+
+design_decisions:
+  - decision: "speed_100_20, not speed_1000_100 (gigabit) or a lower tier."
+    rationale: "100/20 Mbps is the FCC's own current official broadband standard -- the real, defensible threshold to report, not an arbitrary pick."
+
+risks:
+  - severity: low
+    description: "The source file's download URL isn't a stable, guessable static path -- future re-generation needs a manual re-download via the FCC map site."
+    mitigation: "Disclosed explicitly in the methodology doc; the real file is already cached in the repo's raw-data cache."
+
+references:
+  - path: .pHive/epics/data-drive-round-9/docs/research-brief.md
+    relevant_excerpt: |
+      Real, clean county join confirmed directly: geography_id for
+      geography_type=County rows is the exact 5-digit county FIPS...
+      3,232 unique real counties present.
