@@ -214,6 +214,12 @@ data/raw/broadband-speed-cache/
 # caches above. data/historic-site-density.json IS committed.
 data/raw/historic-site-density-cache/
 
+# Pure fetch-scratch for the environmental-violations dataset build
+# (scripts/gen_environmental_violations_data.py) -- same posture as the
+# caches above (not committed, 429MB zip). data/environmental-violations.json
+# IS committed.
+data/raw/environmental-violations-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

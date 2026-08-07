@@ -1,0 +1,2057 @@
+{
+  "_meta": {
+    "count_cap_for_100_concern": 35,
+    "coverage": 512,
+    "radius_miles": 10,
+    "source": "EPA ECHO Exporter bulk file, facilities with FAC_COMPLIANCE_STATUS='Significant Violation' within 10mi (local haversine join)",
+    "source_url": "https://echo.epa.gov/files/echodownloads/echo_exporter.zip"
+  },
+  "abilene-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "akron-oh": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "alameda-ca": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "albany-ny": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "albuquerque-nm": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 57
+  },
+  "alexandria-va": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 50
+  },
+  "alhambra-ca": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "allen-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "allentown-pa": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "amarillo-tx": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "anaheim-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "anchorage-ak": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "ankeny-ia": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "ann-arbor-mi": {
+    "concern": 80.0,
+    "significant_violations_within_10mi": 28
+  },
+  "antioch-ca": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "apex-nc": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "arlington-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "arlington-va": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 56
+  },
+  "arvada-co": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "asheville-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "athens-ga": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "atlanta-ga": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 48
+  },
+  "auburn-al": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "auburn-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 214
+  },
+  "augusta-ga": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "aurora-co": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 39
+  },
+  "aurora-il": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "austin-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "avondale-az": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "bakersfield-ca": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "baltimore-md": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 71
+  },
+  "baton-rouge-la": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 82
+  },
+  "baytown-tx": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "beaumont-tx": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "beaverton-or": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "bellevue-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 190
+  },
+  "bellingham-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 90
+  },
+  "bend-or": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "berkeley-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "bethlehem-pa": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "billings-mt": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "birmingham-al": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 38
+  },
+  "bismarck-nd": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "blanding-ut": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "bloomington-il": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "bloomington-in": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "bloomington-mn": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "boca-raton-fl": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "boise-id": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "boston-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 69
+  },
+  "boulder-co": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "bowling-green-ky": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "boynton-beach-fl": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "bridgeport-ct": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "brockton-ma": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "broken-arrow-ok": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "brooklyn-park-mn": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "broomfield-co": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "brownsville-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "bryan-tx": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "buckeye-az": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "buena-park-ca": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "buffalo-ny": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "burbank-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "caldwell-id": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "cambridge-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 73
+  },
+  "cape-coral-fl": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "carlsbad-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "carlsbad-nm": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "carmel-in": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "carrollton-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "carson-ca": {
+    "concern": 65.7,
+    "significant_violations_within_10mi": 23
+  },
+  "cary-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "castle-rock-co": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "cedar-park-tx": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "cedar-rapids-ia": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "centennial-co": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "champaign-il": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "chandler-az": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "charleston-sc": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "charlotte-nc": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "chattanooga-tn": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "chesapeake-va": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "chicago-il": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 44
+  },
+  "chico-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "chino-ca": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "chino-hills-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "chula-vista-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "cicero-il": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 53
+  },
+  "cincinnati-oh": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "citrus-heights-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "clarksville-tn": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "clearwater-fl": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "cleveland-oh": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "clifton-nj": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 53
+  },
+  "clovis-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "college-station-tx": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "colorado-springs-co": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "columbia-mo": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "columbia-sc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "columbus-ga": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "columbus-oh": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "compton-ca": {
+    "concern": 77.1,
+    "significant_violations_within_10mi": 27
+  },
+  "concord-ca": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "concord-nc": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "conroe-tx": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "coral-springs-fl": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "corona-ca": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "corpus-christi-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "costa-mesa-ca": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "cranston-ri": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "dallas-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "daly-city-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "danbury-ct": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "davenport-ia": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "davie-fl": {
+    "concern": 60.0,
+    "significant_violations_within_10mi": 21
+  },
+  "dayton-oh": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "daytona-beach-fl": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "dearborn-mi": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "deerfield-beach-fl": {
+    "concern": 42.9,
+    "significant_violations_within_10mi": 15
+  },
+  "deltona-fl": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "denton-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "denver-co": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 46
+  },
+  "des-moines-ia": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "detroit-mi": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "doral-fl": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "downey-ca": {
+    "concern": 77.1,
+    "significant_violations_within_10mi": 27
+  },
+  "duluth-mn": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "durango-co": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "durham-nc": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "edinburg-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "edmond-ok": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "el-cajon-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "el-monte-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "el-paso-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "elgin-il": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "elizabeth-nj": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 56
+  },
+  "elk-grove-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "erie-pa": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "escondido-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "eugene-or": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "evansville-in": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "everett-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 115
+  },
+  "fairfield-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "fall-river-ma": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "fargo-nd": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "farmington-hills-mi": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "fayetteville-ar": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "fayetteville-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "federal-way-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 210
+  },
+  "fishers-in": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "flagstaff-az": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "flint-mi": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "flower-mound-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "folsom-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "fontana-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "fort-collins-co": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "fort-lauderdale-fl": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "fort-myers-fl": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "fort-smith-ar": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "fort-wayne-in": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "fort-worth-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "franklin-tn": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "frederick-md": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "fremont-ca": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "fresno-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "frisco-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "fullerton-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "gainesville-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "garden-grove-ca": {
+    "concern": 42.9,
+    "significant_violations_within_10mi": 15
+  },
+  "garland-tx": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "gastonia-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "georgetown-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "geraldine-mt": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "gilbert-az": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "glendale-az": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "glendale-ca": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "goodyear-az": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "grand-junction-co": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "grand-prairie-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "grand-rapids-mi": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "greeley-co": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "green-bay-wi": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "greensboro-nc": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "greenville-nc": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "gresham-or": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 48
+  },
+  "hampton-va": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "hartford-ct": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "hawthorne-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "hayward-ca": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "hemet-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "henderson-nv": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "hesperia-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "hialeah-fl": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "high-point-nc": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "hillsboro-or": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "hollywood-fl": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "homestead-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "honolulu-hi": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "hoover-al": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "houston-tx": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 35
+  },
+  "huntington-beach-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "huntsville-al": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "independence-mo": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "indianapolis-in": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "indio-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "inglewood-ca": {
+    "concern": 42.9,
+    "significant_violations_within_10mi": 15
+  },
+  "irvine-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "irving-tx": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "jackson-ms": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "jacksonville-fl": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "jersey-city-nj": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 76
+  },
+  "johns-creek-ga": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "joliet-il": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "jonesboro-ar": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "jurupa-valley-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "kalispell-mt": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "kansas-city-ks": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "kansas-city-mo": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "kennewick-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 42
+  },
+  "kenosha-wi": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "kent-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 182
+  },
+  "killeen-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "kirkland-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 219
+  },
+  "kissimmee-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "knoxville-tn": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "lafayette-la": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 132
+  },
+  "lake-charles-la": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 98
+  },
+  "lake-forest-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "lakeland-fl": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "lakeville-mn": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "lakewood-ca": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "lakewood-co": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "lancaster-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "lansing-mi": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "laredo-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "largo-fl": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "las-cruces-nm": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "las-vegas-nv": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "lawrence-ks": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "lawrence-ma": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "lawton-ok": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "layton-ut": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "league-city-tx": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "leander-tx": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "lees-summit-mo": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "lehi-ut": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "lewisville-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "lexington-ky": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "lincoln-ne": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "little-rock-ar": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "livermore-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "livonia-mi": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "long-beach-ca": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "longmont-co": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "longview-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "los-alamos-nm": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "los-angeles-ca": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "louisville-ky": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "loveland-co": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "lowell-ma": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "lubbock-tx": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "lynchburg-va": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "lynn-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 53
+  },
+  "mableton-ga": {
+    "concern": 77.1,
+    "significant_violations_within_10mi": 27
+  },
+  "macon-ga": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "madison-wi": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "manchester-nh": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "mansfield-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "manteca-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "maricopa-az": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "marysville-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 110
+  },
+  "mcallen-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "mckinney-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "medford-or": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "melbourne-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "memphis-tn": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "menifee-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "merced-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "meridian-id": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "mesa-az": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "mesquite-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "miami-beach-fl": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "miami-fl": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "miami-gardens-fl": {
+    "concern": 65.7,
+    "significant_violations_within_10mi": 23
+  },
+  "midland-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "milpitas-ca": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "milwaukee-wi": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "minneapolis-mn": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "miramar-fl": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "mission-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "mission-viejo-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "missoula-mt": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "missouri-city-tx": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "mobile-al": {
+    "concern": 65.7,
+    "significant_violations_within_10mi": 23
+  },
+  "modesto-ca": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "montgomery-al": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "monticello-ut": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "moreno-valley-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "mount-pleasant-sc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "mountain-view-ca": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "murfreesboro-tn": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "murrieta-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "nampa-id": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "naperville-il": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "nashua-nh": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "nashville-tn": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "new-bedford-ma": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "new-braunfels-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "new-haven-ct": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "new-orleans-la": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 111
+  },
+  "new-rochelle-ny": {
+    "concern": 88.6,
+    "significant_violations_within_10mi": 31
+  },
+  "new-york-ny": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 77
+  },
+  "newark-nj": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 60
+  },
+  "newport-beach-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "newport-news-va": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "newton-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 60
+  },
+  "norfolk-va": {
+    "concern": 51.4,
+    "significant_violations_within_10mi": 18
+  },
+  "norman-ok": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "north-charleston-sc": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "north-las-vegas-nv": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "north-port-fl": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "norwalk-ca": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "norwalk-ct": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "oakland-ca": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "oceanside-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "odessa-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "ofallon-mo": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "ogden-ut": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "oklahoma-city-ok": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "olathe-ks": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "omaha-ne": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "ontario-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "orange-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "orem-ut": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "orlando-fl": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "overland-park-ks": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "oxnard-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "palm-bay-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "palm-coast-fl": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "palmdale-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "parma-oh": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "pasadena-ca": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "pasadena-tx": {
+    "concern": 80.0,
+    "significant_violations_within_10mi": 28
+  },
+  "pasco-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 40
+  },
+  "paterson-nj": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 35
+  },
+  "pawtucket-ri": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "pearland-tx": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "pembroke-pines-fl": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "peoria-az": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "peoria-il": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 36
+  },
+  "perris-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "pharr-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "philadelphia-pa": {
+    "concern": 88.6,
+    "significant_violations_within_10mi": 31
+  },
+  "phoenix-az": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "pittsburg-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "pittsburgh-pa": {
+    "concern": 71.4,
+    "significant_violations_within_10mi": 25
+  },
+  "plano-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "plantation-fl": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "plymouth-mn": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "pomona-ca": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "pompano-beach-fl": {
+    "concern": 60.0,
+    "significant_violations_within_10mi": 21
+  },
+  "port-st-lucie-fl": {
+    "concern": 65.7,
+    "significant_violations_within_10mi": 23
+  },
+  "portland-or": {
+    "concern": 71.4,
+    "significant_violations_within_10mi": 25
+  },
+  "portsmouth-va": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "providence-ri": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "provo-ut": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "pueblo-co": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "queen-creek-az": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "quincy-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 63
+  },
+  "racine-wi": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "raleigh-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "rancho-cordova-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "rapid-city-sd": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "reading-pa": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "redding-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "redmond-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 161
+  },
+  "redwood-city-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "reno-nv": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "renton-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 206
+  },
+  "rialto-ca": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "richardson-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "richmond-ca": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "richmond-va": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "rio-rancho-nm": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "riverside-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "roanoke-va": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "rochester-hills-mi": {
+    "concern": 22.9,
+    "significant_violations_within_10mi": 8
+  },
+  "rochester-mn": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "rochester-ny": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "rockford-il": {
+    "concern": 54.3,
+    "significant_violations_within_10mi": 19
+  },
+  "rocklin-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "rogers-ar": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "roseville-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "roswell-ga": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "round-rock-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "sacramento-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "saint-paul-mn": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "salem-or": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "salinas-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "salt-lake-city-ut": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "san-angelo-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "san-antonio-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "san-bernardino-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "san-diego-ca": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "san-francisco-ca": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "san-jose-ca": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "san-leandro-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "san-marcos-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "san-marcos-tx": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "san-mateo-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "san-ramon-ca": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "sandpoint-id": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "sandy-springs-ga": {
+    "concern": 77.1,
+    "significant_violations_within_10mi": 27
+  },
+  "sandy-ut": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "santa-ana-ca": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "santa-barbara-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "santa-clara-ca": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "santa-clarita-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "santa-fe-nm": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "santa-maria-ca": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "santa-monica-ca": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "santa-rosa-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "savannah-ga": {
+    "concern": 71.4,
+    "significant_violations_within_10mi": 25
+  },
+  "schaumburg-il": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "scottsdale-az": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "seattle-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 167
+  },
+  "shreveport-la": {
+    "concern": 57.1,
+    "significant_violations_within_10mi": 20
+  },
+  "simi-valley-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "sioux-city-ia": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "sioux-falls-sd": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "somerville-ma": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 74
+  },
+  "south-bend-in": {
+    "concern": 45.7,
+    "significant_violations_within_10mi": 16
+  },
+  "south-fulton-ga": {
+    "concern": 94.3,
+    "significant_violations_within_10mi": 33
+  },
+  "south-gate-ca": {
+    "concern": 74.3,
+    "significant_violations_within_10mi": 26
+  },
+  "south-jordan-ut": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "sparks-nv": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "spokane-valley-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 48
+  },
+  "spokane-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 49
+  },
+  "springdale-ar": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "springfield-il": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "springfield-ma": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "springfield-mo": {
+    "concern": 34.3,
+    "significant_violations_within_10mi": 12
+  },
+  "st-george-ut": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "st-louis-mo": {
+    "concern": 71.4,
+    "significant_violations_within_10mi": 25
+  },
+  "st-petersburg-fl": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "stamford-ct": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "sterling-heights-mi": {
+    "concern": 37.1,
+    "significant_violations_within_10mi": 13
+  },
+  "stockton-ca": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "suffolk-va": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "sugar-land-tx": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "sundance-wy": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "sunnyvale-ca": {
+    "concern": 60.0,
+    "significant_violations_within_10mi": 21
+  },
+  "sunrise-fl": {
+    "concern": 68.6,
+    "significant_violations_within_10mi": 24
+  },
+  "surprise-az": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "syracuse-ny": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "tacoma-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 174
+  },
+  "tallahassee-fl": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "tampa-fl": {
+    "concern": 42.9,
+    "significant_violations_within_10mi": 15
+  },
+  "taos-nm": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "temecula-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "tempe-az": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "temple-tx": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "thornton-co": {
+    "concern": 97.1,
+    "significant_violations_within_10mi": 34
+  },
+  "thousand-oaks-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "toledo-oh": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "topeka-ks": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "torrance-ca": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "tracy-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "trenton-nj": {
+    "concern": 97.1,
+    "significant_violations_within_10mi": 34
+  },
+  "troy-mi": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "tucson-az": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "tulsa-ok": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "tuscaloosa-al": {
+    "concern": 20.0,
+    "significant_violations_within_10mi": 7
+  },
+  "tustin-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "tyler-tx": {
+    "concern": 14.3,
+    "significant_violations_within_10mi": 5
+  },
+  "upland-ca": {
+    "concern": 28.6,
+    "significant_violations_within_10mi": 10
+  },
+  "vacaville-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "vallejo-ca": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "vancouver-wa": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 122
+  },
+  "ventura-ca": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "victorville-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "virginia-beach-va": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "visalia-ca": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "vista-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "waco-tx": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "warner-robins-ga": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "warren-mi": {
+    "concern": 42.9,
+    "significant_violations_within_10mi": 15
+  },
+  "warwick-ri": {
+    "concern": 62.9,
+    "significant_violations_within_10mi": 22
+  },
+  "washington-dc": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 71
+  },
+  "waterbury-ct": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "waukegan-il": {
+    "concern": 25.7,
+    "significant_violations_within_10mi": 9
+  },
+  "west-covina-ca": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "west-jordan-ut": {
+    "concern": 11.4,
+    "significant_violations_within_10mi": 4
+  },
+  "west-palm-beach-fl": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "west-valley-city-ut": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "westland-mi": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "westminster-ca": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "westminster-co": {
+    "concern": 97.1,
+    "significant_violations_within_10mi": 34
+  },
+  "whitewright-tx": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  },
+  "whittier-ca": {
+    "concern": 40.0,
+    "significant_violations_within_10mi": 14
+  },
+  "wichita-falls-tx": {
+    "concern": 0.0,
+    "significant_violations_within_10mi": 0
+  },
+  "wichita-ks": {
+    "concern": 17.1,
+    "significant_violations_within_10mi": 6
+  },
+  "wilmington-nc": {
+    "concern": 5.7,
+    "significant_violations_within_10mi": 2
+  },
+  "winston-salem-nc": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "woodbury-mn": {
+    "concern": 2.9,
+    "significant_violations_within_10mi": 1
+  },
+  "worcester-ma": {
+    "concern": 48.6,
+    "significant_violations_within_10mi": 17
+  },
+  "wyoming-mi": {
+    "concern": 31.4,
+    "significant_violations_within_10mi": 11
+  },
+  "yakima-wa": {
+    "concern": 77.1,
+    "significant_violations_within_10mi": 27
+  },
+  "yonkers-ny": {
+    "concern": 100.0,
+    "significant_violations_within_10mi": 38
+  },
+  "yuma-az": {
+    "concern": 8.6,
+    "significant_violations_within_10mi": 3
+  }
+}

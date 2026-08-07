@@ -1,0 +1,121 @@
+id: ddr11-1-environmental-violations
+epic: data-drive-round-11
+title: Ship the 40th real dataset -- EPA ECHO significant-violation density (server-side radius query)
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Add a 40th real dataset to mapstack-us: density of facilities in EPA-tracked
+  "Significant Violation" status (active CAA/CWA/RCRA regulatory noncompliance)
+  within 10 miles of each city. Source: echodata.epa.gov/echo/echo_rest_services.
+  get_facilities (real, live, keyless EPA ECHO REST API, distinct from the
+  Envirofacts APIs already used for TRI/Superfund). Server-side spatial radius
+  query (p_lat/p_long/p_radius=10), the second dataset this session to need zero
+  bulk download / zero local haversine (after round 10's NRHP). Raw SVRows count,
+  direct-rescale with COUNT_CAP=41 (real p90 from a 60-city sample check), higher
+  = more concerning (TRI/Superfund convention, not inverted).
+
+acceptance_criteria:
+  - "Given a city with real significant violations within 10mi, getValue returns a 0-100 value and a detail string naming the real count and 'EPA ECHO'"
+  - "Given New York NY, the shipped detail reproduces the real live-queried SVRows count (69) within the 10mi radius"
+  - "Given an unknown city id or layer id, getValue returns null"
+  - "512/512 real coverage (a 0-count response is a valid real value, not a missing-data null)"
+  - "dataset-completeness.test.ts and coverage-honesty.test.ts pass with zero manual additions beyond the standard file set"
+
+steps:
+  - id: research
+    description: Already complete -- see .pHive/epics/data-drive-round-11/docs/research-brief.md and design-discussion.md (live curl verification of the endpoint, radius query, and 60-city distribution sample)
+    agent: researcher
+  - id: implement
+    description: |
+      Write scripts/gen_environmental_violations_data.py (concurrent ThreadPoolExecutor
+      radius queries against the real EPA ECHO endpoint for all 512 cities, retry-
+      with-backoff, on-disk resumable cache under
+      data/raw/environmental-violations-cache/), data/environmental-violations.json,
+      src/lib/datasets/environmental-violations.ts (Dataset interface,
+      COUNT_CAP=41, direct rescale), data/environmental-violations-methodology.md
+      (must state "512" coverage number in prose, disclose the no-formal-docs
+      limitation), add cache dir to .gitignore.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: |
+      tests/environmental-violations-dataset.test.ts (Dataset interface shape,
+      0-100 bounds, detail string content, null on unknown city/layer, coverage
+      floor, real zero-violation city scores 0 concern). Add a "the fortieth
+      dataset (environmental violations) is selectable..." block to
+      tests/e2e/mapstack.spec.ts. Add import+array entry to
+      src/lib/datasets/registry.ts, bullet + count update (39->40) to README.md.
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Run the full pnpm verify ritual (typecheck/lint/test/secrets/clean build/e2e), then live Playwright checks on localhost AND production reproducing the exact NYC detail string, zero console errors.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, merge feat/data-drive-round-11 to main, vercel --prod deploy, re-verify live in production, poll CI, delete feature branch, mark this story complete.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    framework: Next.js 16.2.12 App Router (Turbopack)
+    language: TypeScript
+    runtime: React 19
+  key_files:
+    - path: src/lib/datasets/types.ts
+      purpose: The Dataset interface contract
+    - path: src/lib/datasets/historic-site-density.ts
+      purpose: Direct precedent -- the only other dataset this session using a pure server-side radius query with zero bulk download
+    - path: scripts/gen_historic_site_density_data.py
+      purpose: Direct precedent for the concurrent-radius-query build script shape (ThreadPoolExecutor, resumable per-city cache, retry-with-backoff)
+    - path: src/lib/datasets/severe-weather.ts
+      purpose: Precedent for the (non-inverted) direct-rescale-with-observed-cap convention this dataset also uses
+    - path: src/lib/datasets/registry.ts
+      purpose: Central DATASETS array
+    - path: tests/dataset-completeness.test.ts
+      purpose: Auto-derived completeness test
+    - path: tests/coverage-honesty.test.ts
+      purpose: Auto-derived test requiring the exact "512" string in the methodology doc
+
+files_to_modify:
+  - file: scripts/gen_environmental_violations_data.py
+    change: new build script, concurrent radius queries against the real EPA ECHO endpoint
+  - file: data/environmental-violations.json
+    change: new committed data file, 512 real per-city records + _meta
+  - file: src/lib/datasets/environmental-violations.ts
+    change: new Dataset module
+  - file: data/environmental-violations-methodology.md
+    change: new methodology doc, must state "512" in prose
+  - file: tests/environmental-violations-dataset.test.ts
+    change: new unit test file
+  - file: tests/e2e/mapstack.spec.ts
+    change: add one "the fortieth dataset..." block
+  - file: src/lib/datasets/registry.ts
+    change: add import + array entry
+  - file: README.md
+    change: dataset count 39->40, one new bullet
+  - file: .gitignore
+    change: add data/raw/environmental-violations-cache/ ignore block
+
+design_decisions:
+  - decision: Raw SVRows count, direct-rescale-with-observed-cap (COUNT_CAP=41), higher = more concerning, NOT inverted
+    rationale: A real 60-city sample check showed p50=7, p75=15, p90=41 -- a clean, well-spread distribution matching the same shape as TRI/Superfund/severe-weather. Unlike round 10's historic-site-density (an access-style "fewer is worse" framing), more nearby active regulatory violations is straightforwardly more concerning -- the same direction convention as the other EPA compliance/hazard datasets.
+  - decision: Ship despite no formal API docs (Swagger page timed out)
+    rationale: 63+ live requests during research all succeeded with coherent, well-formed responses; SVRows/CVRows are established public EPA ECHO terminology used throughout echo.epa.gov's own public compliance reports (not internal/undocumented field codes). Disclosed as a real limitation in the methodology doc rather than blocking on a docs page that failed to render twice under system load.
+
+risks:
+  - severity: low
+    description: EPA ECHO service could rate-limit or throttle 512 requests
+    mitigation: Modest concurrency + retry-with-backoff, same pattern as gen_historic_site_density_data.py and gen_superfund_data.py
+
+references:
+  - path: .pHive/epics/data-drive-round-11/docs/research-brief.md
+    relevant_excerpt: |
+      Live-verified: New York NY -> SVRows: 69, Bozeman MT -> SVRows: 2, Taos NM -> SVRows: 0.
+  - path: .pHive/epics/data-drive-round-11/docs/design-discussion.md
+    relevant_excerpt: |
+      60-city sample: p50=7, p75=15, p90=41, p95=91, p99=184. COUNT_CAP = 41 (rounded real p90).

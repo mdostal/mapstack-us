@@ -652,6 +652,22 @@ test("the thirty-ninth dataset (historic site access) is selectable and reports 
   await expect(detail).toContainText("within 10 miles");
 });
 
+test("the fortieth dataset (environmental violations) is selectable and reports a real EPA ECHO-sourced value", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Environmental violations" }).click();
+  await page.getByRole("button", { name: "Environmental violations", exact: true }).click();
+  await page.getByRole("button", { name: "Add Environmental violations" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Environmental violations: Environmental violations" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Environmental violations" });
+  await expect(detail).toContainText("significant violation");
+  await expect(detail).toContainText("EPA ECHO");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
