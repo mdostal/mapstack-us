@@ -1,7 +1,7 @@
 id: ddr12-1-winter-cold-burden
 epic: data-drive-round-12
 title: Ship the 41st real dataset -- NOAA Climate Normals winter cold burden (freezing-days count)
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
