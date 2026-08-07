@@ -1,0 +1,71 @@
+id: tri-2-data-drive-round-2
+epic: tri-bulk-and-data-drive-2
+title: Second fresh dataset-candidate research round -- build the best finding
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  A second fresh research sweep, beyond both the original dataset-backlog.md
+  (#1-27) and dataset-verification-drive's addendum (#28-30, plus IMLS/USDA/
+  FCC deferred items). Live-check real, free-or-keyless US government or
+  well-established data sources not yet considered anywhere in this repo's
+  research history, append findings to dataset-backlog.md using its existing
+  format, and build/ship the single best real candidate found.
+
+acceptance_criteria:
+  - "Given new candidates are researched, when documented, then each cites a real, live-checked source URL and availability finding, following the exact format dataset-backlog.md's addendum already uses."
+  - "Given the sweep completes, when reviewing the result, then an honest zero-new-candidates outcome is an acceptable, valid result -- not fabricated progress."
+  - "Given a real candidate is found and built, when shipped, then it follows the exact same wrapper pattern and passes dvd-1's completeness test with zero exceptions."
+
+steps:
+  - id: research
+    description: |
+      Live-check real candidates not yet touched by either prior sweep.
+      Starting angles worth checking: USGS water quality monitoring
+      (real-time water data), NOAA drought monitor (real weather-adjacent
+      risk data, distinct from heat.ts's temperature normals), FBI hate
+      crime statistics (distinct dataset from the already-shipped Crime
+      Data Explorer violent/property rates), EPA Superfund/NPL site
+      proximity (distinct from TRI -- legacy contamination sites, not
+      active reporting facilities), and Census County Business Patterns'
+      payroll data (a real dollar-figure companion to the already-shipped
+      business-density establishment count). Live-check each candidate's
+      actual API/download availability and real city-level (or reliably
+      crosswalkable) granularity before ranking.
+    agent: researcher
+  - id: implement
+    description: Append findings to dataset-backlog.md, then build the single best real candidate following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: Unit tests, e2e test block, then pnpm verify end to end for whatever gets built.
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting and real methodology disclosure.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: .pHive/epics/data-store/docs/dataset-backlog.md
+      purpose: The doc this story extends, same format as its existing addendum section.
+
+files_to_modify: []
+code_examples: []
+design_decisions: []
+risks:
+  - severity: low
+    description: "The sweep could find zero genuinely new viable candidates, since this project has already searched hard twice."
+    mitigation: "Explicitly an acceptable outcome per acceptance criterion #2, same standing posture as tri-2's sibling story and the prior epic's dvd-4."
+
+references:
+  - path: .pHive/epics/dataset-verification-drive/docs/dataset-backlog.md
+    relevant_excerpt: "Addendum (dvd-4, dataset-verification-drive epic) -- fresh sweep after #1-27 shipped"
