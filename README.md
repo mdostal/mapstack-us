@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  thirty-eight genuinely different real implementations across the full 512-city spine,
+  thirty-nine genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -159,6 +159,11 @@ built from two real, working examples instead of upfront design.
     100/20 Mbps standard turned out already >99.6% available everywhere in
     this spine, so this uses the gigabit tier instead for real differentiation
     (`data/broadband-speed-methodology.md`).
+  - **Historic site access** — real NPS National Register of Historic Places
+    density within 10 miles, via a live server-side ArcGIS spatial radius
+    query (no bulk download, no local haversine — a first for this project's
+    radius-join datasets); fewer nearby sites is more concerning
+    (`data/historic-site-density-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

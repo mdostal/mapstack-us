@@ -1,0 +1,130 @@
+id: ddr10-1-historic-site-density
+epic: data-drive-round-10
+title: Ship the 39th real dataset -- NRHP historic-site density (radius join, server-side spatial query)
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Add a 39th real dataset to mapstack-us: density of NPS National Register of
+  Historic Places (NRHP)-listed sites within 10 miles of each city. Source:
+  mapservices.nps.gov/arcgis/rest/services/cultural_resources/nrhp_locations/MapServer/0
+  (real, live, keyless). Uses a server-side ArcGIS spatial radius query
+  (geometryType=esriGeometryPoint&distance=10&units=esriSRUnit_StatuteMile&
+  spatialRel=esriSpatialRelIntersects&returnCountOnly=true) centered on each
+  city's own lat/lon from data/cities.json -- no bulk download, no local haversine,
+  a first for this session's radius-join pattern. Raw count, direct-rescale with
+  COUNT_CAP=290 (real p90 from a 60-city sample check), inverted so 0 nearby sites
+  = concern 100 and >=290 nearby sites = concern 0. Follows the "access" framing
+  convention (parks.ts/library-access.ts/transit-access.ts).
+
+acceptance_criteria:
+  - "Given a city with real NRHP sites within 10mi, getValue returns a 0-100 value and a detail string naming the real count and 'National Register of Historic Places'"
+  - "Given New York NY, the shipped detail reproduces the real live-queried count (~800-815) within the 10mi radius"
+  - "Given an unknown city id or layer id, getValue returns null"
+  - "512/512 real coverage (every city has lat/lon; a 0-count response is a valid real value, not a missing-data null)"
+  - "dataset-completeness.test.ts and coverage-honesty.test.ts pass with zero manual additions beyond the standard file set (methodology doc, unit test, e2e block, README bullet)"
+
+steps:
+  - id: research
+    description: Already complete -- see .pHive/epics/data-drive-round-10/docs/research-brief.md and design-discussion.md (live curl verification of the endpoint, radius query, and 60-city distribution sample)
+    agent: researcher
+  - id: implement
+    description: |
+      Write scripts/gen_historic_site_density_data.py (concurrent ThreadPoolExecutor
+      radius queries against the real NPS ArcGIS endpoint for all 512 cities, retry-
+      with-backoff on transient failures, on-disk resumable cache under
+      data/raw/historic-site-density-cache/), data/historic-site-density.json,
+      src/lib/datasets/historic-site-density.ts (Dataset interface, COUNT_CAP=290,
+      inverted direct-rescale), data/historic-site-density-methodology.md (must state
+      "512" coverage number in prose for coverage-honesty.test.ts), add cache dir to
+      .gitignore.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: |
+      tests/historic-site-density-dataset.test.ts (Dataset interface shape, 0-100
+      bounds, detail string content, null on unknown city/layer, coverage floor).
+      Add a "the thirty-ninth dataset (Historic site density) is selectable..." block
+      to tests/e2e/mapstack.spec.ts. Add import+array entry to
+      src/lib/datasets/registry.ts, bullet + count update (38->39) to README.md.
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Run the full pnpm verify ritual (typecheck/lint/test/secrets/clean build/e2e), then live Playwright checks on localhost AND production reproducing the exact NYC detail string, zero console errors.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, merge feat/data-drive-round-10 to main, vercel --prod deploy, re-verify live in production, poll CI, delete feature branch, mark this story complete.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    framework: Next.js 16.2.12 App Router (Turbopack)
+    language: TypeScript
+    runtime: React 19
+  key_files:
+    - path: src/lib/datasets/types.ts
+      purpose: The Dataset interface contract -- getValue must return {value: 0-100, detail: string} or null
+    - path: src/lib/datasets/tri-facility-density.ts
+      purpose: Precedent for the direct-rescale-with-observed-cap convention and radius-join pattern (though that one does the haversine client-side against a bulk file, not server-side)
+    - path: src/lib/datasets/severe-weather.ts
+      purpose: Most recent precedent for COUNT_CAP calibrated to a real checked p90 before shipping
+    - path: src/lib/datasets/registry.ts
+      purpose: Central DATASETS array -- add import + array entry, no other file needs to change
+    - path: tests/dataset-completeness.test.ts
+      purpose: Auto-derived test that will fail if methodology doc / unit test / e2e reference / README reference are missing
+    - path: tests/coverage-honesty.test.ts
+      purpose: Auto-derived test that will fail if the methodology doc's prose doesn't contain the exact "512" coverage number
+
+files_to_modify:
+  - file: scripts/gen_historic_site_density_data.py
+    change: new build script, concurrent radius queries against the real NPS ArcGIS endpoint
+  - file: data/historic-site-density.json
+    change: new committed data file, 512 real per-city records + _meta
+  - file: src/lib/datasets/historic-site-density.ts
+    change: new Dataset module
+  - file: data/historic-site-density-methodology.md
+    change: new methodology doc, must state "512" in prose
+  - file: tests/historic-site-density-dataset.test.ts
+    change: new unit test file
+  - file: tests/e2e/mapstack.spec.ts
+    change: add one "the thirty-ninth dataset..." block
+  - file: src/lib/datasets/registry.ts
+    change: add import + array entry
+  - file: README.md
+    change: dataset count 38->39, one new bullet
+  - file: .gitignore
+    change: add data/raw/historic-site-density-cache/ ignore block
+
+code_examples:
+  - title: Direct-rescale-with-observed-cap convention (inverted), precedent from severe-weather.ts
+    file: src/lib/datasets/severe-weather.ts
+    snippet: |
+      const COUNT_CAP = 70; // real p90, checked before shipping
+      const concern = Math.min(100, (count / COUNT_CAP) * 100);
+      // historic-site-density INVERTS this: concern = 100 * (1 - Math.min(count, CAP) / CAP)
+
+design_decisions:
+  - decision: Raw count, direct-rescale-with-observed-cap (COUNT_CAP=290), not percentile-rank or per-capita
+    rationale: A real 60-city sample check showed raw count does not correlate with city population -- younger Sun Belt cities score near-zero regardless of population, metro-adjacent suburbs score high independent of their own population. The 10-mile radius is already the normalizing unit; per-capita would not fix anything real distribution showed.
+  - decision: Server-side ArcGIS spatial radius query instead of bulk-download + client-side haversine
+    rationale: The service supports geometry+distance queries natively with returnCountOnly, verified live to return exact per-city counts in under 2s each at 8x concurrency. Simpler and faster than the tri-facility-density/library-access precedent of downloading a national file and joining locally -- no reason to add that complexity when the server does it directly.
+
+risks:
+  - severity: low
+    description: NPS ArcGIS service could rate-limit or throttle 512 requests
+    mitigation: Modest concurrency (8x, matching the research-phase test that completed cleanly) + retry-with-backoff on transient failures, same pattern as gen_superfund_data.py
+
+references:
+  - path: .pHive/epics/data-drive-round-10/docs/research-brief.md
+    relevant_excerpt: |
+      Live-verified: New York NY: 815 sites within 10mi, Bozeman MT: 56 sites within 10mi.
+      City='NEW YORK' AND State='NY' -> {"count":0} confirms the radius join is required.
+  - path: .pHive/epics/data-drive-round-10/docs/design-discussion.md
+    relevant_excerpt: |
+      60-city sample: p50=57, p75=110, p90=289, p95=585, p99=637.
+      COUNT_CAP = 290 (rounded real p90).

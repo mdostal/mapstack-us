@@ -1,0 +1,22 @@
+name: data-drive-round-10
+title: Data drive round 10 -- historic-site density (39th real dataset)
+description: >
+  Add the 39th real, verified dataset: NPS National Register of Historic Places
+  (NRHP) site density within 10mi of each city, via a real, live, keyless NPS
+  ArcGIS server-side spatial radius query. First round-10 candidate researched
+  live (EIA electricity pricing deferred -- DEMO_KEY returned empty, needs real
+  registration like HUD FMR).
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: none
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+stories:
+  - id: ddr10-1-historic-site-density
+    title: Ship the 39th real dataset -- NRHP historic-site density (radius join, server-side spatial query)
+    complexity: medium
+    depends_on: []

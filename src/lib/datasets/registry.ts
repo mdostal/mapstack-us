@@ -35,6 +35,7 @@ import { earthquakeDataset } from "@/lib/datasets/earthquake";
 import { libraryAccessDataset } from "@/lib/datasets/library-access";
 import { severeWeatherDataset } from "@/lib/datasets/severe-weather";
 import { broadbandSpeedDataset } from "@/lib/datasets/broadband-speed";
+import { historicSiteDensityDataset } from "@/lib/datasets/historic-site-density";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -81,6 +82,7 @@ export const DATASETS: Dataset[] = [
   libraryAccessDataset,
   severeWeatherDataset,
   broadbandSpeedDataset,
+  historicSiteDensityDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

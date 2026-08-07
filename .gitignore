@@ -209,6 +209,11 @@ data/raw/severe-weather-cache/
 # data/broadband-speed.json IS committed.
 data/raw/broadband-speed-cache/
 
+# Pure fetch-scratch for the historic-site-density dataset build
+# (scripts/gen_historic_site_density_data.py) -- same posture as the
+# caches above. data/historic-site-density.json IS committed.
+data/raw/historic-site-density-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
