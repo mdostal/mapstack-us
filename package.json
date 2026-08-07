@@ -8,9 +8,11 @@
     "start": "next start",
     "build:sqlite": "tsx scripts/build-sqlite.ts",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "test:secrets": "node scripts/secret-scan.mjs"
+    "test:secrets": "node scripts/secret-scan.mjs",
+    "verify": "bash scripts/verify-all.sh"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",

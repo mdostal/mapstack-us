@@ -1,0 +1,87 @@
+id: dvd-4-data-drive-research
+epic: dataset-verification-drive
+title: Fresh dataset-candidate research sweep -- update dataset-backlog.md
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+parallel_allowed: true
+parallel_rationale: read-only
+
+description: |
+  The existing backlog (.pHive/epics/data-store/docs/dataset-backlog.md, 1056
+  lines, 27 ranked candidates) is functionally exhausted for medium-or-higher
+  confidence candidates -- every item ranked medium-or-higher has already
+  shipped, #7 and #9 turned out to already be covered by hazard.ts, and the
+  remaining items (#20 noise, #21 school quality, #27 wealth) are the backlog's
+  own lowest-confidence entries or already struck out. This story runs a fresh
+  research sweep for genuinely new candidates -- real US government or
+  well-established nonprofit data sources not already considered -- and appends
+  findings to the same backlog doc using its existing ranking rubric (see
+  "Effort scale" and "Ranking rationale" sections already in the doc). This is a
+  read-only research story: it produces an updated backlog doc, not new
+  application code.
+
+acceptance_criteria:
+  - "Given the existing backlog doc's ranking rubric, when new candidates are researched, then each is appended as a new numbered entry (#28+) following the exact same format as #1-27 (data source, real availability check, effort estimate, confidence rating)."
+  - "Given a candidate is proposed, when documenting it, then the entry states a real, checkable source URL and a real availability finding (live-checked, not assumed) -- matching this project's standing verify-before-reporting posture."
+  - "Given the sweep completes, when reviewing the result, then it explicitly distinguishes 'new real candidate, ready to build' from 'considered and ruled out' -- an honest zero-new-candidates outcome is an acceptable, valid result of this story, not a failure."
+  - "Given at least one new candidate is found, when ranked, then dvd-5 can read the single highest-ranked one as its build target without further research."
+
+steps:
+  - id: research
+    description: |
+      Search for real, free-or-keyed US data sources not already in the
+      backlog. Starting angles worth checking live (not assumed from memory):
+      library access (IMLS Public Libraries Survey), farmers market density
+      (USDA Local Food Directories), broadband speed/quality (FCC National
+      Broadband Map, distinct from the already-shipped subscription-rate
+      dataset), EPA Toxics Release Inventory facility density, NCES school
+      district per-pupil spending (a real, non-proxy angle on backlog #21's
+      "weak" rating), and Census Business Patterns (business density/economic
+      activity). Live-check each candidate's actual API/download availability
+      and city-level (or reliably crosswalkable) granularity before ranking --
+      do not rank on memory of what "should" exist.
+    agent: researcher
+  - id: implement
+    description: Append findings to .pHive/epics/data-store/docs/dataset-backlog.md as new ranked entries (or a "considered and ruled out" addendum section) following the doc's existing format exactly.
+    agent: developer
+    depends_on: [research]
+  - id: review
+    description: Review that every new entry cites a real, live-checked source and that the ranking is consistent with the doc's existing rubric.
+    agent: reviewer
+    depends_on: [implement]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: .pHive/epics/data-store/docs/dataset-backlog.md
+      purpose: "The doc this story extends -- read in full during research (see research-brief.md), format and rubric must match exactly."
+
+files_to_modify:
+  - file: .pHive/epics/data-store/docs/dataset-backlog.md
+    change: "Append new ranked candidate entries (#28+) and/or a considered-and-ruled-out addendum."
+
+code_examples: []
+
+design_decisions:
+  - decision: "Extend the existing backlog doc rather than creating a new one for this epic."
+    rationale: "The backlog is a single project-wide artifact (data-store epic) that both prior and future sessions read as the canonical candidate list -- forking it into a second doc would fragment that source of truth."
+
+risks:
+  - severity: low
+    description: "The sweep could find zero genuinely new candidates, since this session and the prior data-store epic have already searched hard."
+    mitigation: "Explicitly an acceptable outcome per acceptance criterion #3 -- this project's standing posture (project_mapstack_ruled_out_candidates memory) already treats a well-documented negative result as real value, not a failed story."
+
+references:
+  - path: .pHive/epics/dataset-verification-drive/docs/research-brief.md
+    relevant_excerpt: |
+      Every item ranked medium-or-higher confidence has already been shipped...
+      the existing backlog is functionally exhausted for known,
+      medium-confidence candidates. The honest next step is a fresh research
+      sweep for genuinely new candidates.

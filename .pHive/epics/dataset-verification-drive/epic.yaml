@@ -1,0 +1,57 @@
+name: dataset-verification-drive
+title: Dataset verification testbed + continued data drive
+description: >
+  Close the gap the research brief found -- no automated check enforces that
+  every registered dataset has its four required artifacts (methodology doc,
+  unit test, e2e entry, README bullet), and no single command codifies the
+  full manual ship ritual this project has repeated by hand every session.
+  Also continues the real-dataset data drive: the existing backlog
+  (.pHive/epics/data-store/docs/dataset-backlog.md) is exhausted for
+  medium-confidence candidates, so this epic runs a fresh research sweep and
+  ships the single best new candidate found, if any.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data, testing]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "Dataset registry, backlog research, and a new dataset build all live in the data layer."
+    testing: "Core deliverable is a completeness/verification testbed over the existing test suite."
+  confidence: matched
+  gate_decisions:
+    data: included
+    testing: included
+  note: >
+    Solo-operator run (see design-discussion.md prelude) -- researcher and
+    technical-writer roles executed directly by the orchestrating session
+    rather than dispatched to separate SendMessage personas, since this
+    consumer repo has no multi-agent hive infrastructure vendored.
+
+stories:
+  - id: dvd-1-dataset-completeness-test
+    title: Registry-walking completeness test -- every dataset has its four required artifacts
+    complexity: low
+    depends_on: []
+  - id: dvd-2-verify-all-script
+    title: pnpm verify -- codify the full manual ship ritual into one command
+    complexity: low
+    depends_on: []
+  - id: dvd-3-coverage-honesty-check
+    title: Coverage-honesty regression test -- methodology doc claims match real _meta counts
+    complexity: low
+    depends_on: []
+  - id: dvd-4-data-drive-research
+    title: Fresh dataset-candidate research sweep -- update dataset-backlog.md
+    complexity: medium
+    depends_on: []
+  - id: dvd-5-build-next-dataset
+    title: Build and ship the single best new candidate found by dvd-4, if any
+    complexity: medium
+    depends_on: [dvd-4-data-drive-research]

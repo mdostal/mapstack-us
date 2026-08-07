@@ -1,0 +1,82 @@
+id: dvd-2-verify-all-script
+epic: dataset-verification-drive
+title: pnpm verify -- codify the full manual ship ritual into one command
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+parallel_allowed: true
+parallel_rationale: bounded-slice
+files_to_modify:
+  - file: package.json
+    change: "Add a `verify` script composing the existing named scripts in the established order."
+  - file: scripts/verify-all.sh
+    change: "New: thin shell wrapper that runs each step, stops on first failure, prints a clear section header per step."
+
+description: |
+  This session has manually run the same sequence every single time a dataset
+  shipped: tsc --noEmit, lint, test, test:secrets, a clean .next rebuild + build,
+  then playwright test. That sequence lives only as tribal knowledge in this
+  conversation, not as a runnable command. A new contributor -- or this same
+  project in a future session without this context -- could easily skip a step.
+  This story turns it into `pnpm verify`, composing the *existing* named scripts
+  (not reimplementing their logic) so there's exactly one source of truth per
+  step; only the sequencing and clean-build orchestration are new.
+
+acceptance_criteria:
+  - "Given a clean working tree, when `pnpm verify` runs, then it executes tsc --noEmit, lint, test, and test:secrets in order, stopping immediately on the first failure with a non-zero exit code."
+  - "Given all of the above pass, when `pnpm verify` continues, then it removes .next, runs a clean `pnpm build`, and runs the full `playwright test` suite."
+  - "Given any step fails, when inspecting the output, then it's unambiguous which named step failed (a printed header per step, not just raw tool output)."
+  - "Given `pnpm verify` completes successfully, when checking the exit code, then it is 0 -- safe to use as a CI gate or a pre-push hook in the future."
+
+steps:
+  - id: implement
+    description: Add scripts/verify-all.sh composing tsc/lint/test/test:secrets/build/playwright in order with per-step headers and fail-fast (set -e), then wire it as `"verify": "bash scripts/verify-all.sh"` in package.json.
+    agent: developer
+  - id: test
+    description: "Run pnpm verify end to end on a clean tree to confirm it passes; then deliberately break one step (e.g. temporarily introduce a lint error) to confirm fail-fast behavior and restore."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review that the script does not duplicate step logic (only sequences existing pnpm scripts) and that failure output is genuinely diagnosable.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript, bash]
+    frameworks: [next.js, vitest, playwright]
+  key_files:
+    - path: package.json
+      purpose: "Already has tsc/lint/test/test:secrets/build/test:e2e as individual named scripts -- verify-all.sh composes these, does not reimplement them."
+
+files_to_modify:
+  - file: package.json
+    change: "New verify script entry."
+  - file: scripts/verify-all.sh
+    change: "New file."
+
+code_examples: []
+
+design_decisions:
+  - decision: "verify-all.sh stops short of the live-browser Playwright MCP check and the git commit/push/deploy steps."
+    rationale: "Design-discussion open question #1 -- the live MCP browser check needs a human-in-the-loop-capable agent session, and commit/push/deploy are judgment calls (what message, when to deploy), not mechanically scriptable. This script covers everything that IS safely automatable."
+
+risks:
+  - severity: low
+    description: "The script could silently go stale if a new verification step (e.g. a future accessibility check) is added to the manual ritual but not to this script."
+    mitigation: "Low-severity and self-correcting -- the next session that notices drift can add the step; the script's value (catching the steps that already exist) doesn't depend on catching every hypothetical future addition."
+
+references:
+  - path: .pHive/epics/dataset-verification-drive/docs/design-discussion.md
+    relevant_excerpt: |
+      A new scripts/verify-all.sh (or a pnpm verify script composing existing
+      package.json scripts) that runs the full ritual in the established
+      order... Codifies tribal knowledge into a single reproducible command;
+      does not change any individual step's behavior.

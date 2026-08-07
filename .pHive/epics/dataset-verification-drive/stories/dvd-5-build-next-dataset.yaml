@@ -1,0 +1,89 @@
+id: dvd-5-build-next-dataset
+epic: dataset-verification-drive
+title: Build and ship the single best new candidate found by dvd-4, if any
+status: pending
+complexity: medium
+methodology: classic
+depends_on: [dvd-4-data-drive-research]
+
+description: |
+  Conditional on dvd-4's outcome. If the research sweep surfaces at least one
+  real, medium-or-higher-confidence candidate, build it following the exact
+  same wrapper pattern as all 27 existing datasets: scripts/gen_{id}_data.py
+  (or inline computation if no fetch is needed) -> data/{id}.json ->
+  src/lib/datasets/{id}.ts -> data/{id}-methodology.md -> tests/{id}-
+  dataset.test.ts -> a new e2e block in tests/e2e/mapstack.spec.ts -> a
+  registry.ts entry -> a README.md bullet. If dvd-4 found no viable candidate,
+  this story's completion criterion is verifying that outcome is real (not
+  fabricated) and the epic closes with the testbed half shipped and the data
+  drive half honestly reporting no new dataset this round.
+
+acceptance_criteria:
+  - "Given dvd-4 found a real candidate, when built, then it follows the exact same file/wrapper shape as all 27 existing datasets (verified by dvd-1's completeness test passing for the new entry with zero exceptions)."
+  - "Given the new dataset is registered, when running the full verify ritual (pnpm verify, from dvd-2), then it passes with the new dataset included."
+  - "Given the new dataset ships, when checked live via Playwright against both localhost and production (tools.mdostal.com/mapstack), then it reports a real, non-fabricated value for at least one real city, with zero console errors."
+  - "Given dvd-4 found no viable candidate, when this story completes, then it documents that explicitly in the epic's closing state rather than inventing a weak/low-confidence dataset just to have shipped something."
+
+steps:
+  - id: research
+    description: Read dvd-4's updated backlog entry for the chosen candidate; confirm the source and availability finding still hold (data sources can go stale between research and build).
+    agent: researcher
+  - id: implement
+    description: Build the full wrapper file set for the chosen candidate, following the established pattern (see any of cost-of-living.ts / unemployment.ts / population-change.ts as the most recent real examples).
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "Unit tests (tests/{id}-dataset.test.ts), e2e spec addition, then the full pnpm verify ritual (from dvd-2) plus a live Playwright MCP check against localhost and production."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for the same standards every prior dataset was held to -- honest coverage reporting, no fabricated values, methodology doc discloses real limitations.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod) following this project's established ship ritual.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: src/lib/datasets/cost-of-living.ts
+      purpose: "Most recent real example of the full wrapper pattern -- two-tier fallback shape, direct-rescale scoring, methodology cross-reference."
+    - path: src/lib/datasets/registry.ts
+      purpose: "New dataset must be imported and added to the DATASETS array."
+    - path: tests/e2e/mapstack.spec.ts
+      purpose: "New dataset needs its own 'the Nth dataset (...) is selectable and reports a real ... value' test block."
+
+files_to_modify: []
+
+code_examples:
+  - title: Established wrapper shape to follow (cost-of-living.ts)
+    file: src/lib/datasets/cost-of-living.ts
+    snippet: |
+      export const costOfLivingDataset: Dataset = {
+        id: "cost-of-living",
+        label: "Cost of living",
+        description: "...",
+        methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/cost-of-living-methodology.md",
+        supportsTime: false,
+        layers: [{ id: "cost_of_living", label: "Cost of living" }],
+        getValue: getCostOfLivingValue,
+      };
+
+design_decisions:
+  - decision: "This story's files_to_modify is intentionally empty at plan time -- the actual file set depends entirely on dvd-4's still-unknown output."
+    rationale: "Cannot enumerate exact files for a dataset that doesn't have a confirmed source yet; the implement step follows the established pattern once dvd-4 resolves."
+
+risks:
+  - severity: medium
+    description: "A candidate that looked viable during dvd-4's research could turn out to have a blocking gap once building starts (e.g. no real city-level crosswalk, like the BEA RPP build needed to construct one from scratch)."
+    mitigation: "Same posture as every prior dataset this session -- disclose the real detour in the methodology doc rather than silently downgrading data quality; cost-of-living.ts is direct precedent for successfully working through exactly this kind of gap."
+
+references:
+  - path: .pHive/epics/dataset-verification-drive/docs/design-discussion.md
+    relevant_excerpt: |
+      A conditional build story: if the research sweep surfaces at least one
+      real, medium-confidence candidate, build and ship it following the exact
+      same wrapper pattern as the other 27... If it doesn't, the story's
+      acceptance criterion is the updated backlog doc itself.

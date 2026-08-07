@@ -1,0 +1,93 @@
+id: dvd-1-dataset-completeness-test
+epic: dataset-verification-drive
+title: Registry-walking completeness test -- every dataset has its four required artifacts
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+parallel_allowed: true
+parallel_rationale: bounded-slice
+files_to_modify:
+  - file: tests/dataset-completeness.test.ts
+    change: "New test file. Walks DATASETS from registry.ts; for each entry asserts its methodology doc, unit test file, and e2e spec reference all exist."
+
+description: |
+  No test currently walks the real DATASETS registry (src/lib/datasets/registry.ts)
+  and asserts each entry has its four required artifacts -- a methodology doc at
+  data/{id}-methodology.md, a unit test file at tests/{id}-dataset.test.ts, an e2e
+  spec block in tests/e2e/mapstack.spec.ts referencing the dataset's label, and a
+  README.md bullet under "What's here so far" naming the dataset. tests/dataset-
+  interface.test.ts only proves the interface shape via one hand-built mock -- it
+  never touches the registry. All 27 real datasets already satisfy all four checks
+  (verified during research), so this starts green with zero exceptions -- it's a
+  regression guard against future drift, not a fix for an existing gap.
+
+acceptance_criteria:
+  - "Given the real DATASETS array, when the test runs, then every entry has a real file at data/${id}-methodology.md."
+  - "Given the real DATASETS array, when the test runs, then every entry has a real file at tests/${id}-dataset.test.ts."
+  - "Given the real DATASETS array, when the test runs, then tests/e2e/mapstack.spec.ts contains at least one occurrence of the dataset's label string."
+  - "Given the real DATASETS array, when the test runs, then README.md contains at least one occurrence of the dataset's label string."
+  - "Given a hypothetical dataset missing one artifact, when simulated via a scoped mock array (not the real registry), then the corresponding assertion fails with a message naming the missing path -- proving the check is real, not vacuous."
+
+steps:
+  - id: implement
+    description: Write tests/dataset-completeness.test.ts using Node's fs.existsSync against the real registry, plus one isolated test with a small mock array to prove the check actually fails when an artifact is missing (not just passes on real data).
+    agent: developer
+  - id: test
+    description: "Run: pnpm test -- verify all 27 real datasets pass and the mock-failure test genuinely fails when expected (invert the assertion temporarily to confirm, then restore)."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for false negatives (a real dataset that legitimately lacks one artifact) before merging.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [vitest]
+  key_files:
+    - path: src/lib/datasets/registry.ts
+      purpose: "Exports DATASETS, the real array of all 27 Dataset objects, plus getDataset(id)."
+    - path: scripts/secret-scan.mjs
+      purpose: "Existing precedent for a repo-wide static invariant check wired into a pnpm script -- same shape, different invariant."
+
+files_to_modify:
+  - file: tests/dataset-completeness.test.ts
+    change: "New file."
+
+code_examples:
+  - title: Existing registry export shape to import from
+    file: src/lib/datasets/registry.ts
+    snippet: |
+      export const DATASETS: Dataset[] = [
+        allergyDataset,
+        crimeDataset,
+        // ...
+        costOfLivingDataset,
+      ];
+      export function getDataset(id: string): Dataset | undefined {
+        return DATASETS.find((d) => d.id === id);
+      }
+
+design_decisions:
+  - decision: "Check for the dataset's label string inside mapstack.spec.ts and README.md rather than requiring an exact numbered-ordinal comment (e.g. 'twenty-seventh')."
+    rationale: "The ordinal phrasing is prose color, not a stable contract -- checking the label string is the real, load-bearing signal that the dataset is wired into both surfaces."
+
+risks:
+  - severity: low
+    description: "A dataset's label could coincidentally match unrelated text elsewhere in mapstack.spec.ts or README.md, producing a false pass."
+    mitigation: "Acceptable -- a false pass here just means the completeness check under-detects in a rare coincidence case, not that it wrongly blocks real work. Precision over recall was chosen deliberately for a regression guard."
+
+references:
+  - path: .pHive/epics/dataset-verification-drive/docs/research-brief.md
+    relevant_excerpt: |
+      No test currently walks DATASETS (the actual registry array) and asserts
+      each entry has its four required artifacts... That's the real gap this
+      epic's testbed half closes.

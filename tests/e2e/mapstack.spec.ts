@@ -64,6 +64,21 @@ test("every dataset tab in the Add layer panel stays visible and clickable as th
   await expect(page.getByRole("button", { name: "Market speed", exact: true })).toBeVisible();
 });
 
+test("the third dataset (care access) is selectable and reports a real facility+drive-time value -- regression for dvd-1's completeness audit, which found this dataset had no dedicated e2e coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Care access" }).click();
+  await page.getByRole("button", { name: "General / acute care" }).click();
+  await page.getByRole("button", { name: "Add General / acute care" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Care access: General / acute care" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Care access" });
+  await expect(detail).toContainText("drive");
+});
+
 test("the fifth dataset (natural hazard risk) is selectable and honestly reports no coastal-flood data for a landlocked city", async ({
   page,
 }) => {
