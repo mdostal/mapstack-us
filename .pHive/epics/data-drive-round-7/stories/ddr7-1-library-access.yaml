@@ -1,0 +1,81 @@
+id: ddr7-1-library-access
+epic: data-drive-round-7
+title: Ship IMLS library visits per capita
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Real IMLS Public Libraries Survey data (static bulk CSV,
+  imls.gov/sites/default/files/2026-06/pls_fy2024_csv.zip, confirmed
+  live during planning research). Radius-based join (10 miles, same
+  haversine pattern as tri-facility-density.ts) instead of the file's
+  own unreliable city-name field (confirmed live: 114/512 spine cities,
+  including Minneapolis MN, have zero matching row by administrative
+  city name). Sums real VISITS and POPU_LSA (population of legal service
+  area, a real field in the same file) across every library system
+  within radius, computes visits per capita.
+
+acceptance_criteria:
+  - "Given a real city's lat/lon, when queried, then real library systems within a 10-mile radius are summed by real VISITS and POPU_LSA, not a name-based lookup."
+  - "Given a real, well-known city (New York, NY), when checked, then the real NYPL branch libraries figures (12,325,494 visits, 3,662,652 population served, confirmed live during planning) are reflected in the build."
+  - "Given the dataset ships, when checked against dvd-1's completeness test, then it passes with zero exceptions."
+  - "Given LOWER visits per capita is the concerning direction (public-good-access framing), when scored, then that direction is used, matching parks/transit/walkability's existing convention, not a risk-framing default."
+
+steps:
+  - id: research
+    description: Confirm the live IMLS bulk download URL and CSV schema still match this story's live-verified findings.
+    agent: researcher
+  - id: implement
+    description: Write scripts/gen_library_access_data.py, src/lib/datasets/library-access.ts, data/library-access-methodology.md, following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "tests/library-access-dataset.test.ts, a new tests/e2e/mapstack.spec.ts block, then pnpm verify end to end."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting and real methodology disclosure of the radius-based join's real limitations.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: data/cities.json
+      purpose: Already has real lat/lon per city -- no crosswalk needed.
+    - path: scripts/gen_tri_facility_density_data.py
+      purpose: Sibling script -- same haversine radius-join pattern this story follows.
+
+files_to_modify: []
+code_examples:
+  - title: Real confirmed working bulk download + schema (live-checked during planning)
+    file: N/A
+    snippet: |
+      https://www.imls.gov/sites/default/files/2026-06/pls_fy2024_csv.zip
+      # CSV/PLS_FY24_AE_pud24i.csv -- real fields: CITY, STABR, LATITUDE,
+      # LONGITUD, VISITS, POPU_LSA (population of legal service area).
+      # 9,249/9,249 rows have valid lat/lon; 9,168 have valid VISITS+POPU_LSA.
+
+design_decisions:
+  - decision: "Radius-based join (10 miles), not the file's own CITY/STABR fields."
+    rationale: "Confirmed live: 114/512 spine cities have zero matching row by administrative city name (e.g. Minneapolis, MN) -- the same class of problem that sank this round's earlier drinking-water attempt. Lat/lon is 100% populated in this file, unlike SDWA's WATER_SYSTEM table."
+  - decision: "Lower visits per capita = more concerning."
+    rationale: "A public-good-access framing, matching parks.ts/transit-access.ts/walkability.ts's existing convention for access-to-a-resource datasets, not a risk-framing default like most other datasets."
+
+risks:
+  - severity: low
+    description: "Radius-based summing can double-count a shared regional system across nearby cities, or miss a system just outside the radius."
+    mitigation: "Disclosed explicitly in the methodology doc as a real, named limitation of the radius approach, same posture as tri-facility-density.ts's own disclosure."
+
+references:
+  - path: .pHive/epics/data-drive-round-7/docs/research-brief.md
+    relevant_excerpt: |
+      Confirmed live: exact CITY="MINNEAPOLIS" + STABR="MN" has zero
+      matching rows... 100% of the file's 9,249 rows have valid, non-zero
+      coordinates.

@@ -1,0 +1,33 @@
+name: data-drive-round-7
+title: Seventh data-drive research round -- ship IMLS library access
+description: >
+  A seventh fresh dataset-candidate research round. Resolves the IMLS
+  Public Libraries Survey, deferred twice this session -- found the real
+  static bulk CSV download by browsing IMLS's own site structure, and
+  used a radius-based join (like tri-facility-density.ts/drought.ts)
+  instead of the file's own unreliable administrative city-name field,
+  which has zero matches for cities like Minneapolis, MN.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the six prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the six prior epics.
+
+stories:
+  - id: ddr7-1-library-access
+    title: Ship IMLS library visits per capita
+    complexity: medium
+    depends_on: []
