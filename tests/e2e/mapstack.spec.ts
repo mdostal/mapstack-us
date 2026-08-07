@@ -668,6 +668,22 @@ test("the fortieth dataset (environmental violations) is selectable and reports 
   await expect(detail).toContainText("EPA ECHO");
 });
 
+test("the forty-first dataset (winter cold burden) is selectable and reports a real NOAA-sourced value with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Winter cold burden" }).click();
+  await page.getByRole("button", { name: "Winter cold burden", exact: true }).click();
+  await page.getByRole("button", { name: "Add Winter cold burden" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Winter cold burden: Winter cold burden" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Winter cold burden" });
+  await expect(detail).toContainText("days/year at or below 32");
+  await expect(detail).toContainText("nearest station");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

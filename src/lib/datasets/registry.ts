@@ -37,6 +37,7 @@ import { severeWeatherDataset } from "@/lib/datasets/severe-weather";
 import { broadbandSpeedDataset } from "@/lib/datasets/broadband-speed";
 import { historicSiteDensityDataset } from "@/lib/datasets/historic-site-density";
 import { environmentalViolationsDataset } from "@/lib/datasets/environmental-violations";
+import { winterColdBurdenDataset } from "@/lib/datasets/winter-cold-burden";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -85,6 +86,7 @@ export const DATASETS: Dataset[] = [
   broadbandSpeedDataset,
   historicSiteDensityDataset,
   environmentalViolationsDataset,
+  winterColdBurdenDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {
