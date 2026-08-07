@@ -1,7 +1,7 @@
 id: ddr11-1-environmental-violations
 epic: data-drive-round-11
 title: Ship the 40th real dataset -- EPA ECHO significant-violation density (server-side radius query)
-status: pending
+status: completed
 complexity: medium
 methodology: classic
 depends_on: []
