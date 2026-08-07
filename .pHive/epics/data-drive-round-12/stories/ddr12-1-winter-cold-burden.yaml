@@ -1,0 +1,125 @@
+id: ddr12-1-winter-cold-burden
+epic: data-drive-round-12
+title: Ship the 41st real dataset -- NOAA Climate Normals winter cold burden (freezing-days count)
+status: pending
+complexity: medium
+methodology: classic
+depends_on: []
+
+description: |
+  Add a 41st real dataset to mapstack-us: average annual days with minimum
+  temperature at or below freezing (32F), via NOAA NCEI's real 1991-2020 Climate
+  Normals. Source: ncei.noaa.gov/access/services/search/v1/data (station
+  discovery via bbox search) + ncei.noaa.gov/data/normals-annualseasonal/
+  1991-2020/access/{station}.csv (per-station values). Real, live, keyless.
+  Two requests per city, no crosswalk file. Metric: ANN-TMIN-AVGNDS-LSTH032,
+  direct-rescale (heat.ts's HEAT_DAYS_CAP convention), higher = more concerning.
+  Genuinely new hazard angle -- the winter-cold complement to heat.ts's
+  extreme-heat concern.
+
+acceptance_criteria:
+  - "Given a city with a real nearby normals station, getValue returns a 0-100 value and a detail string naming the real freezing-days count and 'NOAA'"
+  - "Given New York NY, the shipped detail reproduces the real freezing-days count from the nearest real NOAA normals station"
+  - "Given an unknown city id or layer id, getValue returns null"
+  - "High real coverage across the spine (a real nearest-station search may not reach literal 512/512 -- disclose the real coverage number honestly in the methodology doc and coverage-honesty.test.ts, do not fabricate a gap-filling value)"
+  - "dataset-completeness.test.ts and coverage-honesty.test.ts pass with zero manual additions beyond the standard file set"
+
+steps:
+  - id: research
+    description: Already complete -- see .pHive/epics/data-drive-round-12/docs/research-brief.md and design-discussion.md (live curl verification of the search API, per-station CSVs, and a 60-city rate-limit check)
+    agent: researcher
+  - id: implement
+    description: |
+      Write scripts/gen_winter_cold_burden_data.py (concurrent two-step fetch --
+      bbox search for nearest station, then per-station CSV fetch -- for all 512
+      cities, retry-with-backoff, on-disk resumable cache under
+      data/raw/winter-cold-burden-cache/), data/winter-cold-burden.json,
+      src/lib/datasets/winter-cold-burden.ts (Dataset interface, direct-rescale
+      following heat.ts's cap convention, real cap checked against the actual
+      build distribution), data/winter-cold-burden-methodology.md (must state
+      the real coverage number in prose for coverage-honesty.test.ts), add
+      cache dir to .gitignore.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: |
+      tests/winter-cold-burden-dataset.test.ts (Dataset interface shape, 0-100
+      bounds, detail string content, null on unknown city/layer, coverage
+      floor). Add a "the forty-first dataset (winter cold burden) is
+      selectable..." block to tests/e2e/mapstack.spec.ts. Add import+array
+      entry to src/lib/datasets/registry.ts, bullet + count update (40->41) to
+      README.md.
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: |
+      Run the full pnpm verify ritual (typecheck/lint/test/secrets/clean
+      build/e2e), then live Playwright checks on localhost AND production
+      reproducing the exact NYC detail string, zero console errors. Before
+      deploying, check for any newly-added large gitignored cache file that
+      could exceed Vercel's 100MB single-file limit (round 11's lesson) --
+      this dataset's per-request-CSV approach should stay well under that, but
+      confirm the cache dir's total/max-file size before running vercel --prod.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, merge feat/data-drive-round-12 to main, vercel --prod deploy, re-verify live in production, poll CI, delete feature branch, mark this story complete.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    framework: Next.js 16.2.12 App Router (Turbopack)
+    language: TypeScript
+    runtime: React 19
+  key_files:
+    - path: src/lib/datasets/types.ts
+      purpose: The Dataset interface contract
+    - path: scripts/gen_heat_data.py
+      purpose: Direct precedent for the days-per-year direct-rescale-with-cap convention (HEAT_DAYS_CAP=150) this dataset also uses
+    - path: src/lib/datasets/heat.ts
+      purpose: Direct precedent Dataset module shape for the same days-per-year convention
+    - path: src/lib/datasets/registry.ts
+      purpose: Central DATASETS array
+    - path: tests/dataset-completeness.test.ts
+      purpose: Auto-derived completeness test
+    - path: tests/coverage-honesty.test.ts
+      purpose: Auto-derived test requiring the exact real coverage number in the methodology doc
+
+files_to_modify:
+  - file: scripts/gen_winter_cold_burden_data.py
+    change: new build script, two-step per-city fetch against real NOAA NCEI services
+  - file: data/winter-cold-burden.json
+    change: new committed data file, real per-city records + _meta
+  - file: src/lib/datasets/winter-cold-burden.ts
+    change: new Dataset module
+  - file: data/winter-cold-burden-methodology.md
+    change: new methodology doc, must state the real coverage number in prose
+  - file: tests/winter-cold-burden-dataset.test.ts
+    change: new unit test file
+  - file: tests/e2e/mapstack.spec.ts
+    change: add one "the forty-first dataset..." block
+  - file: src/lib/datasets/registry.ts
+    change: add import + array entry
+  - file: README.md
+    change: dataset count 40->41, one new bullet
+  - file: .gitignore
+    change: add data/raw/winter-cold-burden-cache/ ignore block
+
+design_decisions:
+  - decision: Direct-rescale with a real, build-checked cap (heat.ts's convention), not percentile-rank
+    rationale: A real days-per-year quantity (0-365 natural range), the exact same shape as heat.ts's HEAT_DAYS_CAP -- reusing a proven convention rather than inventing a new one for a structurally identical metric.
+  - decision: Two-request-per-city (bbox search + per-station CSV fetch), no bulk download
+    rationale: NOAA's search API returns real nearest-station lat/lon directly; a bulk download of all US normals stations would be unnecessary overhead when a targeted per-city lookup works and was rate-limit-tested clean at 60 cities / 8x concurrency.
+
+risks:
+  - severity: low
+    description: NOAA NCEI service could rate-limit at full 512-city (1024-request) scale despite a clean 60-city test
+    mitigation: Modest concurrency + retry-with-backoff, same defensive pattern as gen_historic_site_density_data.py and gen_environmental_violations_data.py; watch for real rate-limit error messages specifically (round 11's lesson) rather than assuming blind retries will succeed
+
+references:
+  - path: .pHive/epics/data-drive-round-12/docs/research-brief.md
+    relevant_excerpt: |
+      Real values confirmed live: Boonton NJ -> 123.9 days, San Jacinto CA -> 14.9 days, Alpine UT -> 132.6 days.
+      60-city rate-limit check: 0/60 errors at 8x concurrency.

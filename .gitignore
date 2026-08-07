@@ -220,6 +220,12 @@ data/raw/historic-site-density-cache/
 # IS committed.
 data/raw/environmental-violations-cache/
 
+# Pure fetch-scratch for the winter-cold-burden dataset build
+# (scripts/fetch_winter_cold_stations.py, scripts/gen_winter_cold_burden_data.py)
+# -- same posture as the heat-cache above. data/winter-cold-burden.json AND
+# data/raw/winter-cold-burden-station-matches.json ARE committed.
+data/raw/winter-cold-burden-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

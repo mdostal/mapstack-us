@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  forty genuinely different real implementations across the full 512-city spine,
+  forty-one genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -169,6 +169,10 @@ built from two real, working examples instead of upfront design.
     query but pivoted mid-build to ECHO's own bulk Exporter file after
     hitting a real documented API rate limit, joined locally via haversine
     (`data/environmental-violations-methodology.md`).
+  - **Winter cold burden** — real NOAA 1991-2020 Climate Normals average
+    annual freezing-days count, the direct winter-cold complement to the
+    extreme-heat dataset, reusing the same real station-matching pipeline
+    (`data/winter-cold-burden-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.

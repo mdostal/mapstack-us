@@ -1,0 +1,27 @@
+name: data-drive-round-12
+title: Data drive round 12 -- winter cold burden (41st real dataset)
+description: >
+  Add the 41st real, verified dataset: NOAA NCEI 1991-2020 Climate Normals
+  average annual freezing-days count, the winter-cold complement to heat.ts's
+  existing extreme-heat concern. Real, live, keyless, two-request-per-city
+  (bbox station search + per-station CSV fetch), rate-limit-tested at 60 cities
+  before committing to the full build (a direct lesson from round 11's EPA ECHO
+  rate-limit surprise). Round-12 research also evaluated and deferred/rejected
+  USDA NASS QuickStats (needs real registration key), EPA TSCA (infeasible),
+  USGS Water Services (not pursued once NOAA proved out), and EPA FRS (relies
+  on the same unreliable city-name field pattern already documented elsewhere
+  this session).
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: none
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+stories:
+  - id: ddr12-1-winter-cold-burden
+    title: Ship the 41st real dataset -- NOAA Climate Normals winter cold burden (freezing-days count)
+    complexity: medium
+    depends_on: []

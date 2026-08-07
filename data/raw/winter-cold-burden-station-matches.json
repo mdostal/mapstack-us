@@ -1,0 +1,3074 @@
+{
+  "abilene-tx": {
+    "distance_km": 7.0,
+    "freezing_days_per_year": 45.3,
+    "station_id": "USW00013962",
+    "station_name": "ABILENE RGNL AP"
+  },
+  "akron-oh": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 120.9,
+    "station_id": "USW00014813",
+    "station_name": "AKRON FULTON INTL AP"
+  },
+  "alameda-ca": {
+    "distance_km": 4.0,
+    "freezing_days_per_year": 2.9,
+    "station_id": "USW00023230",
+    "station_name": "OAKLAND METRO INTL AP"
+  },
+  "albany-ny": {
+    "distance_km": 8.2,
+    "freezing_days_per_year": 135.0,
+    "station_id": "USW00014735",
+    "station_name": "ALBANY AP"
+  },
+  "albuquerque-nm": {
+    "distance_km": 5.3,
+    "freezing_days_per_year": 89.8,
+    "station_id": "USW00023050",
+    "station_name": "ALBUQUERQUE INTL AP"
+  },
+  "alexandria-va": {
+    "distance_km": 5.1,
+    "freezing_days_per_year": 60.6,
+    "station_id": "USW00013743",
+    "station_name": "WASHINGTON REAGAN AP"
+  },
+  "alhambra-ca": {
+    "distance_km": 3.7,
+    "freezing_days_per_year": 0.6,
+    "station_id": "USC00047785",
+    "station_name": "SAN GABRIEL FIRE DEPT"
+  },
+  "allen-tx": {
+    "distance_km": 10.8,
+    "freezing_days_per_year": 50.9,
+    "station_id": "USW00053914",
+    "station_name": "MCKINNEY MUNI AP"
+  },
+  "allentown-pa": {
+    "distance_km": 7.2,
+    "freezing_days_per_year": 123.2,
+    "station_id": "USW00014737",
+    "station_name": "ALLENTOWN INTL AP"
+  },
+  "amarillo-tx": {
+    "distance_km": 11.1,
+    "freezing_days_per_year": 107.4,
+    "station_id": "USW00023047",
+    "station_name": "AMARILLO"
+  },
+  "anaheim-ca": {
+    "distance_km": 7.3,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "anchorage-ak": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 186.1,
+    "station_id": "USW00026409",
+    "station_name": "ANCHORAGE MERRILL FLD"
+  },
+  "ankeny-ia": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 145.1,
+    "station_id": "USC00130241",
+    "station_name": "ANKENY"
+  },
+  "ann-arbor-mi": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 145.7,
+    "station_id": "USC00200228",
+    "station_name": "ANN ARBOR SE"
+  },
+  "antioch-ca": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 9.2,
+    "station_id": "USC00040232",
+    "station_name": "ANTIOCH PUMPING PLT #3"
+  },
+  "apex-nc": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 64.3,
+    "station_id": "USC00310212",
+    "station_name": "APEX"
+  },
+  "arlington-tx": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 33.5,
+    "station_id": "USC00410337",
+    "station_name": "ARLINGTON SIX FLAGS"
+  },
+  "arlington-va": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 88.6,
+    "station_id": "USC00182325",
+    "station_name": "DALECARLIA RSVR"
+  },
+  "arvada-co": {
+    "distance_km": 6.7,
+    "freezing_days_per_year": 167.9,
+    "station_id": "USC00058995",
+    "station_name": "WHEAT RIDGE 2"
+  },
+  "asheville-nc": {
+    "distance_km": 0.8,
+    "freezing_days_per_year": 77.2,
+    "station_id": "USW00013872",
+    "station_name": "ASHEVILLE"
+  },
+  "athens-ga": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 44.6,
+    "station_id": "USW00013873",
+    "station_name": "ATHENS BEN EPPS AP"
+  },
+  "atlanta-ga": {
+    "distance_km": 12.6,
+    "freezing_days_per_year": 47.3,
+    "station_id": "USW00003888",
+    "station_name": "ATLANTA FULTON CO AP"
+  },
+  "auburn-al": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 42.5,
+    "station_id": "USC00010425",
+    "station_name": "AUBURN NO.2"
+  },
+  "auburn-wa": {
+    "distance_km": 13.3,
+    "freezing_days_per_year": 36.8,
+    "station_id": "USC00454169",
+    "station_name": "KENT"
+  },
+  "augusta-ga": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 21.5,
+    "station_id": "USW00013837",
+    "station_name": "AUGUSTA DANIEL FLD AP"
+  },
+  "aurora-co": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 156.5,
+    "station_id": "USW00023062",
+    "station_name": "DENVER-STAPLETON"
+  },
+  "aurora-il": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 121.0,
+    "station_id": "USC00110338",
+    "station_name": "AURORA"
+  },
+  "austin-tx": {
+    "distance_km": 5.1,
+    "freezing_days_per_year": 30.6,
+    "station_id": "USC00410431",
+    "station_name": "AUSTIN 6S"
+  },
+  "avondale-az": {
+    "distance_km": 17.3,
+    "freezing_days_per_year": 4.5,
+    "station_id": "USC00024829",
+    "station_name": "LAVEEN 3 SSE"
+  },
+  "bakersfield-ca": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 20.0,
+    "station_id": "USC00040444",
+    "station_name": "BAKERSFIELD 5 NW"
+  },
+  "baltimore-md": {
+    "distance_km": 1.0,
+    "freezing_days_per_year": 55.9,
+    "station_id": "USW00093784",
+    "station_name": "MD SCI CTR BALTIMORE"
+  },
+  "baton-rouge-la": {
+    "distance_km": 9.8,
+    "freezing_days_per_year": 18.6,
+    "station_id": "USC00165620",
+    "station_name": "LSU BEN-HUR FARM"
+  },
+  "baytown-tx": {
+    "distance_km": 17.3,
+    "freezing_days_per_year": 9.2,
+    "station_id": "USC00410586",
+    "station_name": "BAYTOWN"
+  },
+  "beaumont-tx": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 10.6,
+    "station_id": "USC00410611",
+    "station_name": "BEAUMONT CITY"
+  },
+  "beaverton-or": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 5.8,
+    "station_id": "USC00355945",
+    "station_name": "NATURE PARK-BEAVERTON"
+  },
+  "bellevue-wa": {
+    "distance_km": 12.0,
+    "freezing_days_per_year": 21.4,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "bellingham-wa": {
+    "distance_km": 4.7,
+    "freezing_days_per_year": 38.4,
+    "station_id": "USC00450587",
+    "station_name": "BELLINGHAM 3 SSW"
+  },
+  "bend-or": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 166.5,
+    "station_id": "USC00350694",
+    "station_name": "BEND"
+  },
+  "berkeley-ca": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USC00040693",
+    "station_name": "BERKELEY"
+  },
+  "bethlehem-pa": {
+    "distance_km": 7.1,
+    "freezing_days_per_year": 123.2,
+    "station_id": "USW00014737",
+    "station_name": "ALLENTOWN INTL AP"
+  },
+  "billings-mt": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 153.6,
+    "station_id": "USC00240802",
+    "station_name": "BILLINGS WTP"
+  },
+  "birmingham-al": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 46.6,
+    "station_id": "USW00013876",
+    "station_name": "BIRMINGHAM AP"
+  },
+  "bismarck-nd": {
+    "distance_km": 3.4,
+    "freezing_days_per_year": 183.4,
+    "station_id": "USC00320817",
+    "station_name": "BISMARCK 2.4 NNW"
+  },
+  "blanding-ut": {
+    "distance_km": 0.9,
+    "freezing_days_per_year": 123.4,
+    "station_id": "USC00420738",
+    "station_name": "BLANDING"
+  },
+  "bloomington-il": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 135.3,
+    "station_id": "USC00116200",
+    "station_name": "NORMAL 4NE"
+  },
+  "bloomington-in": {
+    "distance_km": 1.6,
+    "freezing_days_per_year": 108.3,
+    "station_id": "USC00120784",
+    "station_name": "BLOOMINGTON INDIANA UNIV"
+  },
+  "bloomington-mn": {
+    "distance_km": 9.3,
+    "freezing_days_per_year": 147.7,
+    "station_id": "USW00014922",
+    "station_name": "MINNEAPOLIS/ST PAUL AP"
+  },
+  "boca-raton-fl": {
+    "distance_km": 13.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "boise-id": {
+    "distance_km": 6.8,
+    "freezing_days_per_year": 100.9,
+    "station_id": "USW00024131",
+    "station_name": "BOISE AIR TERMINAL"
+  },
+  "boston-ma": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 91.9,
+    "station_id": "USW00014739",
+    "station_name": "BOSTON LOGAN INTL AP"
+  },
+  "boulder-co": {
+    "distance_km": 3.4,
+    "freezing_days_per_year": 132.2,
+    "station_id": "USC00050848",
+    "station_name": "BOULDER"
+  },
+  "bowling-green-ky": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 82.5,
+    "station_id": "USW00093808",
+    "station_name": "BOWLING GREEN WARREN CO AP"
+  },
+  "boynton-beach-fl": {
+    "distance_km": 14.0,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USC00085184",
+    "station_name": "LOXAHATCHEE NWR"
+  },
+  "bridgeport-ct": {
+    "distance_km": 6.9,
+    "freezing_days_per_year": 92.1,
+    "station_id": "USW00094702",
+    "station_name": "BRIDGEPORT SIKORSKY MEM AP"
+  },
+  "brockton-ma": {
+    "distance_km": 3.7,
+    "freezing_days_per_year": 137.5,
+    "station_id": "USC00190860",
+    "station_name": "BROCKTON"
+  },
+  "broken-arrow-ok": {
+    "distance_km": 11.2,
+    "freezing_days_per_year": 84.9,
+    "station_id": "USC00340782",
+    "station_name": "BIXBY"
+  },
+  "brooklyn-park-mn": {
+    "distance_km": 5.3,
+    "freezing_days_per_year": 155.9,
+    "station_id": "USW00094960",
+    "station_name": "MPLS CRYSTAL AP"
+  },
+  "broomfield-co": {
+    "distance_km": 6.5,
+    "freezing_days_per_year": 148.3,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "brownsville-tx": {
+    "distance_km": 8.3,
+    "freezing_days_per_year": 0.9,
+    "station_id": "USW00012919",
+    "station_name": "BROWNSVILLE"
+  },
+  "bryan-tx": {
+    "distance_km": 9.1,
+    "freezing_days_per_year": 14.0,
+    "station_id": "USW00003904",
+    "station_name": "COLLEGE STN"
+  },
+  "buckeye-az": {
+    "distance_km": 26.8,
+    "freezing_days_per_year": 4.1,
+    "station_id": "USC00024977",
+    "station_name": "LITCHFIELD PARK"
+  },
+  "buena-park-ca": {
+    "distance_km": 3.2,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "buffalo-ny": {
+    "distance_km": 13.4,
+    "freezing_days_per_year": 123.9,
+    "station_id": "USW00014733",
+    "station_name": "BUFFALO"
+  },
+  "burbank-ca": {
+    "distance_km": 2.8,
+    "freezing_days_per_year": 2.2,
+    "station_id": "USW00023152",
+    "station_name": "BURBANK GLENDALE PASADENA AP"
+  },
+  "caldwell-id": {
+    "distance_km": 8.5,
+    "freezing_days_per_year": 129.0,
+    "station_id": "USC00106305",
+    "station_name": "NAMPA SUGAR FACTORY"
+  },
+  "cambridge-ma": {
+    "distance_km": 8.6,
+    "freezing_days_per_year": 122.2,
+    "station_id": "USC00193890",
+    "station_name": "JAMAICA PLAIN"
+  },
+  "cape-coral-fl": {
+    "distance_km": 9.2,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USW00012835",
+    "station_name": "FT MYERS PAGE FLD AP"
+  },
+  "carlsbad-ca": {
+    "distance_km": 0.2,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00003177",
+    "station_name": "CARLSBAD PALOMAR AP"
+  },
+  "carlsbad-nm": {
+    "distance_km": 8.1,
+    "freezing_days_per_year": 77.6,
+    "station_id": "USC00291469",
+    "station_name": "CARLSBAD"
+  },
+  "carmel-in": {
+    "distance_km": 7.8,
+    "freezing_days_per_year": 119.6,
+    "station_id": "USC00121303",
+    "station_name": "CARMEL 3 E"
+  },
+  "carrollton-tx": {
+    "distance_km": 14.7,
+    "freezing_days_per_year": 36.4,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "carson-ca": {
+    "distance_km": 9.4,
+    "freezing_days_per_year": 0.5,
+    "station_id": "USW00003122",
+    "station_name": "TORRANCE AP"
+  },
+  "cary-nc": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 64.3,
+    "station_id": "USC00310212",
+    "station_name": "APEX"
+  },
+  "castle-rock-co": {
+    "distance_km": 5.9,
+    "freezing_days_per_year": 156.7,
+    "station_id": "USC00051401",
+    "station_name": "CASTLE ROCK"
+  },
+  "cedar-park-tx": {
+    "distance_km": 11.8,
+    "freezing_days_per_year": 27.4,
+    "station_id": "USC00410433",
+    "station_name": "AUSTIN GREAT HILLS"
+  },
+  "cedar-rapids-ia": {
+    "distance_km": 9.1,
+    "freezing_days_per_year": 143.2,
+    "station_id": "USW00014990",
+    "station_name": "CEDAR RAPIDS MUNI AP"
+  },
+  "centennial-co": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 156.6,
+    "station_id": "USW00093067",
+    "station_name": "DENVER CENTENNIAL AP"
+  },
+  "champaign-il": {
+    "distance_km": 3.8,
+    "freezing_days_per_year": 122.1,
+    "station_id": "USC00118740",
+    "station_name": "CHAMPAIGN 3S"
+  },
+  "chandler-az": {
+    "distance_km": 14.9,
+    "freezing_days_per_year": 12.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "charleston-sc": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 6.0,
+    "station_id": "USW00013782",
+    "station_name": "CHARLESTON CITY"
+  },
+  "charlotte-nc": {
+    "distance_km": 10.5,
+    "freezing_days_per_year": 65.2,
+    "station_id": "USW00013881",
+    "station_name": "CHARLOTTE DOUGLAS AP"
+  },
+  "chattanooga-tn": {
+    "distance_km": 5.5,
+    "freezing_days_per_year": 67.1,
+    "station_id": "USC00405431",
+    "station_name": "LOOKOUT MTN-POINT PARK"
+  },
+  "chesapeake-va": {
+    "distance_km": 12.5,
+    "freezing_days_per_year": 45.0,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "chicago-il": {
+    "distance_km": 3.2,
+    "freezing_days_per_year": 102.0,
+    "station_id": "USC00111550",
+    "station_name": "CHICAGO NORTHERLY IS"
+  },
+  "chico-ca": {
+    "distance_km": 7.7,
+    "freezing_days_per_year": 33.2,
+    "station_id": "USC00041715",
+    "station_name": "CHICO UNIV FARM"
+  },
+  "chino-ca": {
+    "distance_km": 2.3,
+    "freezing_days_per_year": 10.9,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "chino-hills-ca": {
+    "distance_km": 9.5,
+    "freezing_days_per_year": 10.9,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "chula-vista-ca": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00041758",
+    "station_name": "CHULA VISTA"
+  },
+  "cicero-il": {
+    "distance_km": 6.0,
+    "freezing_days_per_year": 108.3,
+    "station_id": "USW00014819",
+    "station_name": "CHICAGO MIDWAY AP"
+  },
+  "cincinnati-oh": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 104.4,
+    "station_id": "USW00093812",
+    "station_name": "CINCINNATI LUNKEN AP"
+  },
+  "citrus-heights-ca": {
+    "distance_km": 18.6,
+    "freezing_days_per_year": 5.1,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "clarksville-tn": {
+    "distance_km": 2.9,
+    "freezing_days_per_year": 78.1,
+    "station_id": "USC00401790",
+    "station_name": "CLARKSVILLE WWTP"
+  },
+  "clearwater-fl": {
+    "distance_km": 11.2,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USW00012873",
+    "station_name": "ST PETERSBURG INTL AP"
+  },
+  "cleveland-oh": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 89.9,
+    "station_id": "USW00004853",
+    "station_name": "CLEVELAND BURKE AP"
+  },
+  "clifton-nj": {
+    "distance_km": 6.3,
+    "freezing_days_per_year": 115.2,
+    "station_id": "USC00284887",
+    "station_name": "LITTLE FALLS"
+  },
+  "clovis-ca": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 13.3,
+    "station_id": "USW00093193",
+    "station_name": "FRESNO YOSEMITE INTL AP"
+  },
+  "college-station-tx": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 14.0,
+    "station_id": "USW00003904",
+    "station_name": "COLLEGE STN"
+  },
+  "colorado-springs-co": {
+    "distance_km": 11.6,
+    "freezing_days_per_year": 157.1,
+    "station_id": "USW00093037",
+    "station_name": "COLORADO SPRINGS MUNI AP"
+  },
+  "columbia-mo": {
+    "distance_km": 1.2,
+    "freezing_days_per_year": 93.9,
+    "station_id": "USC00231801",
+    "station_name": "COLUMBIA U OF M"
+  },
+  "columbia-sc": {
+    "distance_km": 10.8,
+    "freezing_days_per_year": 43.3,
+    "station_id": "USC00387666",
+    "station_name": "SANDHILL RSCH - ELGIN"
+  },
+  "columbus-ga": {
+    "distance_km": 7.7,
+    "freezing_days_per_year": 28.2,
+    "station_id": "USW00093842",
+    "station_name": "COLUMBUS METRO AP"
+  },
+  "columbus-oh": {
+    "distance_km": 8.6,
+    "freezing_days_per_year": 123.2,
+    "station_id": "USC00331783",
+    "station_name": "COLUMBUS-VALLEY CROSSING"
+  },
+  "compton-ca": {
+    "distance_km": 10.3,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "concord-ca": {
+    "distance_km": 5.4,
+    "freezing_days_per_year": 6.8,
+    "station_id": "USW00023254",
+    "station_name": "CONCORD BUCHANAN FLD"
+  },
+  "concord-nc": {
+    "distance_km": 5.6,
+    "freezing_days_per_year": 73.7,
+    "station_id": "USC00311975",
+    "station_name": "CONCORD"
+  },
+  "conroe-tx": {
+    "distance_km": 0.3,
+    "freezing_days_per_year": 17.6,
+    "station_id": "USC00411956",
+    "station_name": "CONROE"
+  },
+  "coral-springs-fl": {
+    "distance_km": 1.5,
+    "freezing_days_per_year": 0.1,
+    "station_id": "USC00081858",
+    "station_name": "CORAL SPRINGS"
+  },
+  "corona-ca": {
+    "distance_km": 14.2,
+    "freezing_days_per_year": 10.9,
+    "station_id": "USW00003179",
+    "station_name": "CHINO AP"
+  },
+  "corpus-christi-tx": {
+    "distance_km": 10.6,
+    "freezing_days_per_year": 2.9,
+    "station_id": "USC00412011",
+    "station_name": "CORPUS CHRISTI NWS"
+  },
+  "costa-mesa-ca": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00093184",
+    "station_name": "SANTA ANA JOHN WAYNE AP"
+  },
+  "cranston-ri": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 107.4,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "dallas-tx": {
+    "distance_km": 9.5,
+    "freezing_days_per_year": 23.0,
+    "station_id": "USW00013960",
+    "station_name": "DALLAS LOVE FLD"
+  },
+  "daly-city-ca": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USC00047767",
+    "station_name": "SAN FRANCISCO OCEANSIDE"
+  },
+  "danbury-ct": {
+    "distance_km": 3.2,
+    "freezing_days_per_year": 135.4,
+    "station_id": "USW00054734",
+    "station_name": "DANBURY MUNI AP"
+  },
+  "davenport-ia": {
+    "distance_km": 5.5,
+    "freezing_days_per_year": 112.0,
+    "station_id": "USC00117391",
+    "station_name": "ROCK ISLAND L&D 15"
+  },
+  "davie-fl": {
+    "distance_km": 8.2,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00083163",
+    "station_name": "FT LAUDERDALE"
+  },
+  "dayton-oh": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 101.9,
+    "station_id": "USC00332067",
+    "station_name": "DAYTON MCD"
+  },
+  "daytona-beach-fl": {
+    "distance_km": 5.1,
+    "freezing_days_per_year": 4.3,
+    "station_id": "USW00012834",
+    "station_name": "DAYTONA BEACH INTL AP"
+  },
+  "dearborn-mi": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 129.7,
+    "station_id": "USC00202015",
+    "station_name": "DEARBORN"
+  },
+  "deerfield-beach-fl": {
+    "distance_km": 7.0,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "deltona-fl": {
+    "distance_km": 12.5,
+    "freezing_days_per_year": 2.5,
+    "station_id": "USC00087982",
+    "station_name": "SANFORD"
+  },
+  "denton-tx": {
+    "distance_km": 4.0,
+    "freezing_days_per_year": 42.4,
+    "station_id": "USC00412404",
+    "station_name": "DENTON 2 SE"
+  },
+  "denver-co": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 148.4,
+    "station_id": "USC00052223",
+    "station_name": "DENVER WATER DEPT"
+  },
+  "des-moines-ia": {
+    "distance_km": 6.8,
+    "freezing_days_per_year": 124.7,
+    "station_id": "USW00014933",
+    "station_name": "DES MOINES INTL AP"
+  },
+  "detroit-mi": {
+    "distance_km": 9.4,
+    "freezing_days_per_year": 109.4,
+    "station_id": "USW00014822",
+    "station_name": "DETROIT CITY AP"
+  },
+  "doral-fl": {
+    "distance_km": 5.5,
+    "freezing_days_per_year": 0.1,
+    "station_id": "USW00012839",
+    "station_name": "MIAMI INTL AP"
+  },
+  "downey-ca": {
+    "distance_km": 14.3,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "duluth-mn": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 176.1,
+    "station_id": "USC00212246",
+    "station_name": "DULUTH HARBOR STN"
+  },
+  "durango-co": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 182.8,
+    "station_id": "USC00052441",
+    "station_name": "DURANGO"
+  },
+  "durham-nc": {
+    "distance_km": 8.1,
+    "freezing_days_per_year": 86.3,
+    "station_id": "USC00312515",
+    "station_name": "DURHAM"
+  },
+  "edinburg-tx": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 1.2,
+    "station_id": "USC00412758",
+    "station_name": "EDINBURG"
+  },
+  "edmond-ok": {
+    "distance_km": 16.3,
+    "freezing_days_per_year": 89.2,
+    "station_id": "USC00343821",
+    "station_name": "GUTHRIE 5S"
+  },
+  "el-cajon-ca": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 3.1,
+    "station_id": "USC00042706",
+    "station_name": "EL CAJON"
+  },
+  "el-monte-ca": {
+    "distance_km": 6.7,
+    "freezing_days_per_year": 0.6,
+    "station_id": "USC00047785",
+    "station_name": "SAN GABRIEL FIRE DEPT"
+  },
+  "el-paso-tx": {
+    "distance_km": 12.2,
+    "freezing_days_per_year": 44.3,
+    "station_id": "USW00023044",
+    "station_name": "EL PASO INTL AP"
+  },
+  "elgin-il": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 137.9,
+    "station_id": "USC00112736",
+    "station_name": "ELGIN"
+  },
+  "elizabeth-nj": {
+    "distance_km": 2.2,
+    "freezing_days_per_year": 81.9,
+    "station_id": "USW00014734",
+    "station_name": "NEWARK INTL AP"
+  },
+  "elk-grove-ca": {
+    "distance_km": 15.3,
+    "freezing_days_per_year": 13.1,
+    "station_id": "USW00023232",
+    "station_name": "SACRAMENTO EXECUTIVE AP"
+  },
+  "erie-pa": {
+    "distance_km": 10.3,
+    "freezing_days_per_year": 113.1,
+    "station_id": "USW00014860",
+    "station_name": "ERIE INTL AP"
+  },
+  "escondido-ca": {
+    "distance_km": 2.1,
+    "freezing_days_per_year": 2.3,
+    "station_id": "USC00042863",
+    "station_name": "ESCONDIDO #2"
+  },
+  "eugene-or": {
+    "distance_km": 11.0,
+    "freezing_days_per_year": 50.8,
+    "station_id": "USW00024221",
+    "station_name": "EUGENE MAHLON SWEET AP"
+  },
+  "evansville-in": {
+    "distance_km": 4.7,
+    "freezing_days_per_year": 67.6,
+    "station_id": "USC00122731",
+    "station_name": "EVANSVILLE MUSEUM"
+  },
+  "everett-wa": {
+    "distance_km": 0.7,
+    "freezing_days_per_year": 47.8,
+    "station_id": "USC00452675",
+    "station_name": "EVERETT"
+  },
+  "fairfield-ca": {
+    "distance_km": 3.6,
+    "freezing_days_per_year": 8.7,
+    "station_id": "USC00042934",
+    "station_name": "FAIRFIELD"
+  },
+  "fall-river-ma": {
+    "distance_km": 12.5,
+    "freezing_days_per_year": 126.9,
+    "station_id": "USW00094726",
+    "station_name": "NEW BEDFORD MUNI AP"
+  },
+  "fargo-nd": {
+    "distance_km": 6.9,
+    "freezing_days_per_year": 169.6,
+    "station_id": "USC00215586",
+    "station_name": "MOORHEAD"
+  },
+  "farmington-hills-mi": {
+    "distance_km": 2.9,
+    "freezing_days_per_year": 144.4,
+    "station_id": "USC00202691",
+    "station_name": "FARMINGTON"
+  },
+  "fayetteville-ar": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 82.0,
+    "station_id": "USC00032444",
+    "station_name": "FAYETTEVILLE EXP STN"
+  },
+  "fayetteville-nc": {
+    "distance_km": 2.2,
+    "freezing_days_per_year": 64.4,
+    "station_id": "USC00313017",
+    "station_name": "FAYETTEVILLE (PWC)"
+  },
+  "federal-way-wa": {
+    "distance_km": 8.9,
+    "freezing_days_per_year": 28.0,
+    "station_id": "USC00458278",
+    "station_name": "TACOMA #1"
+  },
+  "fishers-in": {
+    "distance_km": 7.6,
+    "freezing_days_per_year": 119.6,
+    "station_id": "USC00121303",
+    "station_name": "CARMEL 3 E"
+  },
+  "flagstaff-az": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 196.9,
+    "station_id": "USW00003103",
+    "station_name": "FLAGSTAFF PULLIAM AP"
+  },
+  "flint-mi": {
+    "distance_km": 6.8,
+    "freezing_days_per_year": 153.6,
+    "station_id": "USC00202851",
+    "station_name": "FLINT 7W"
+  },
+  "flower-mound-tx": {
+    "distance_km": 11.2,
+    "freezing_days_per_year": 36.2,
+    "station_id": "USC00413691",
+    "station_name": "GRAPEVINE DAM"
+  },
+  "folsom-ca": {
+    "distance_km": 26.8,
+    "freezing_days_per_year": 13.1,
+    "station_id": "USC00040383",
+    "station_name": "AUBURN"
+  },
+  "fontana-ca": {
+    "distance_km": 15.2,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "fort-collins-co": {
+    "distance_km": 3.7,
+    "freezing_days_per_year": 146.8,
+    "station_id": "USC00053005",
+    "station_name": "FT COLLINS"
+  },
+  "fort-lauderdale-fl": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00083168",
+    "station_name": "FT LAUDERDALE BEACH"
+  },
+  "fort-myers-fl": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USW00012835",
+    "station_name": "FT MYERS PAGE FLD AP"
+  },
+  "fort-smith-ar": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 62.8,
+    "station_id": "USW00013964",
+    "station_name": "FT SMITH RGNL AP"
+  },
+  "fort-wayne-in": {
+    "distance_km": 13.4,
+    "freezing_days_per_year": 123.2,
+    "station_id": "USW00014827",
+    "station_name": "FT WAYNE INTL AP"
+  },
+  "fort-worth-tx": {
+    "distance_km": 7.2,
+    "freezing_days_per_year": 32.9,
+    "station_id": "USW00013961",
+    "station_name": "FT WORTH MEACHAM FLD"
+  },
+  "franklin-tn": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 81.5,
+    "station_id": "USC00403280",
+    "station_name": "FRANKLIN SEWAGE PLT"
+  },
+  "frederick-md": {
+    "distance_km": 2.9,
+    "freezing_days_per_year": 81.5,
+    "station_id": "USC00183348",
+    "station_name": "FREDERICK POLICE BRKS"
+  },
+  "fremont-ca": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 2.0,
+    "station_id": "USC00043244",
+    "station_name": "FREMONT"
+  },
+  "fresno-ca": {
+    "distance_km": 5.6,
+    "freezing_days_per_year": 13.3,
+    "station_id": "USW00093193",
+    "station_name": "FRESNO YOSEMITE INTL AP"
+  },
+  "frisco-tx": {
+    "distance_km": 18.5,
+    "freezing_days_per_year": 36.4,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "fullerton-ca": {
+    "distance_km": 4.9,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "gainesville-fl": {
+    "distance_km": 7.3,
+    "freezing_days_per_year": 14.4,
+    "station_id": "USW00012816",
+    "station_name": "GAINESVILLE RGNL AP"
+  },
+  "garden-grove-ca": {
+    "distance_km": 9.5,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "garland-tx": {
+    "distance_km": 13.6,
+    "freezing_days_per_year": 36.4,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "gastonia-nc": {
+    "distance_km": 4.6,
+    "freezing_days_per_year": 66.5,
+    "station_id": "USC00313356",
+    "station_name": "GASTONIA"
+  },
+  "georgetown-tx": {
+    "distance_km": 2.1,
+    "freezing_days_per_year": 28.4,
+    "station_id": "USC00413507",
+    "station_name": "GEORGETOWN LAKE"
+  },
+  "geraldine-mt": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 153.6,
+    "station_id": "USC00243445",
+    "station_name": "GERALDINE"
+  },
+  "gilbert-az": {
+    "distance_km": 14.9,
+    "freezing_days_per_year": 12.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "glendale-az": {
+    "distance_km": 12.0,
+    "freezing_days_per_year": 2.8,
+    "station_id": "USC00029634",
+    "station_name": "YOUNGTOWN"
+  },
+  "glendale-ca": {
+    "distance_km": 10.1,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "goodyear-az": {
+    "distance_km": 22.9,
+    "freezing_days_per_year": 4.5,
+    "station_id": "USC00024829",
+    "station_name": "LAVEEN 3 SSE"
+  },
+  "grand-junction-co": {
+    "distance_km": 7.5,
+    "freezing_days_per_year": 126.3,
+    "station_id": "USC00053489",
+    "station_name": "GRAND JUNCTION 6ESE"
+  },
+  "grand-prairie-tx": {
+    "distance_km": 6.9,
+    "freezing_days_per_year": 33.5,
+    "station_id": "USC00410337",
+    "station_name": "ARLINGTON SIX FLAGS"
+  },
+  "grand-rapids-mi": {
+    "distance_km": 12.6,
+    "freezing_days_per_year": 126.5,
+    "station_id": "USW00094860",
+    "station_name": "GRAND RAPIDS"
+  },
+  "greeley-co": {
+    "distance_km": 6.3,
+    "freezing_days_per_year": 152.2,
+    "station_id": "USC00053553",
+    "station_name": "GREELEY UNC"
+  },
+  "green-bay-wi": {
+    "distance_km": 8.7,
+    "freezing_days_per_year": 158.0,
+    "station_id": "USC00473271",
+    "station_name": "GREEN BAY BOTANICAL"
+  },
+  "greensboro-nc": {
+    "distance_km": 14.1,
+    "freezing_days_per_year": 65.3,
+    "station_id": "USW00013723",
+    "station_name": "PIEDMONT TRIAD INTL AP"
+  },
+  "greenville-nc": {
+    "distance_km": 4.7,
+    "freezing_days_per_year": 56.0,
+    "station_id": "USC00313638",
+    "station_name": "GREENVILLE"
+  },
+  "gresham-or": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 37.9,
+    "station_id": "USW00024242",
+    "station_name": "PORTLAND TROUTDALE AP"
+  },
+  "hampton-va": {
+    "distance_km": 5.8,
+    "freezing_days_per_year": 51.2,
+    "station_id": "USW00013702",
+    "station_name": "LANGLEY AFB"
+  },
+  "hartford-ct": {
+    "distance_km": 4.5,
+    "freezing_days_per_year": 118.3,
+    "station_id": "USW00014752",
+    "station_name": "HARTFORD BRAINARD FLD"
+  },
+  "hawthorne-ca": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "hayward-ca": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USW00093228",
+    "station_name": "HAYWARD AIR TERMINAL"
+  },
+  "hemet-ca": {
+    "distance_km": 7.7,
+    "freezing_days_per_year": 19.5,
+    "station_id": "USC00047813",
+    "station_name": "SAN JACINTO"
+  },
+  "henderson-nv": {
+    "distance_km": 13.7,
+    "freezing_days_per_year": 6.9,
+    "station_id": "USC00261071",
+    "station_name": "BOULDER CITY"
+  },
+  "hesperia-ca": {
+    "distance_km": 14.6,
+    "freezing_days_per_year": 55.5,
+    "station_id": "USC00049325",
+    "station_name": "VICTORVILLE"
+  },
+  "hialeah-fl": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00083909",
+    "station_name": "HIALEAH"
+  },
+  "high-point-nc": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 62.0,
+    "station_id": "USC00314063",
+    "station_name": "HIGH PT"
+  },
+  "hillsboro-or": {
+    "distance_km": 1.4,
+    "freezing_days_per_year": 59.3,
+    "station_id": "USW00094261",
+    "station_name": "PORTLAND-HILLSBORO AP"
+  },
+  "hollywood-fl": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00084050",
+    "station_name": "HOLLYWOOD"
+  },
+  "homestead-fl": {
+    "distance_km": 11.6,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USC00084095",
+    "station_name": "HOMESTEAD GEN AVIATION AP"
+  },
+  "honolulu-hi": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00519397",
+    "station_name": "WAIKIKI 717.2"
+  },
+  "hoover-al": {
+    "distance_km": 12.2,
+    "freezing_days_per_year": 48.2,
+    "station_id": "USC00013781",
+    "station_name": "HELENA"
+  },
+  "houston-tx": {
+    "distance_km": 8.8,
+    "freezing_days_per_year": 5.1,
+    "station_id": "USC00414326",
+    "station_name": "HOUSTON-PORT"
+  },
+  "huntington-beach-ca": {
+    "distance_km": 12.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00046175",
+    "station_name": "NEWPORT BEACH HARBOR"
+  },
+  "huntsville-al": {
+    "distance_km": 20.3,
+    "freezing_days_per_year": 52.0,
+    "station_id": "USW00003856",
+    "station_name": "HUNTSVILLE INTL AP"
+  },
+  "independence-mo": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 109.6,
+    "station_id": "USC00234154",
+    "station_name": "INDEPENDENCE"
+  },
+  "indianapolis-in": {
+    "distance_km": 9.9,
+    "freezing_days_per_year": 115.9,
+    "station_id": "USC00124272",
+    "station_name": "INDIANAPOLIS SE SIDE"
+  },
+  "indio-ca": {
+    "distance_km": 3.3,
+    "freezing_days_per_year": 1.6,
+    "station_id": "USC00044259",
+    "station_name": "INDIO FIRE STN"
+  },
+  "inglewood-ca": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00003167",
+    "station_name": "HAWTHORNE MUNI AP"
+  },
+  "irvine-ca": {
+    "distance_km": 3.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00093184",
+    "station_name": "SANTA ANA JOHN WAYNE AP"
+  },
+  "irving-tx": {
+    "distance_km": 10.0,
+    "freezing_days_per_year": 23.0,
+    "station_id": "USW00013960",
+    "station_name": "DALLAS LOVE FLD"
+  },
+  "jackson-ms": {
+    "distance_km": 2.1,
+    "freezing_days_per_year": 26.7,
+    "station_id": "USW00013927",
+    "station_name": "JACKSON HAWKINS FLD"
+  },
+  "jacksonville-fl": {
+    "distance_km": 10.8,
+    "freezing_days_per_year": 6.8,
+    "station_id": "USW00093837",
+    "station_name": "JACKSONVILLE NAS"
+  },
+  "jersey-city-nj": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 90.3,
+    "station_id": "USC00283704",
+    "station_name": "HARRISON"
+  },
+  "johns-creek-ga": {
+    "distance_km": 19.6,
+    "freezing_days_per_year": 43.9,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "joliet-il": {
+    "distance_km": 4.3,
+    "freezing_days_per_year": 118.4,
+    "station_id": "USC00114530",
+    "station_name": "JOLIET BRANDON RD DAM"
+  },
+  "jonesboro-ar": {
+    "distance_km": 3.3,
+    "freezing_days_per_year": 67.9,
+    "station_id": "USW00003953",
+    "station_name": "JONESBORO MUNI AP"
+  },
+  "jurupa-valley-ca": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 2.5,
+    "station_id": "USW00003171",
+    "station_name": "RIVERSIDE MUNI AP"
+  },
+  "kalispell-mt": {
+    "distance_km": 12.1,
+    "freezing_days_per_year": 182.9,
+    "station_id": "USC00244558",
+    "station_name": "KALISPELL GLACIER AP"
+  },
+  "kansas-city-ks": {
+    "distance_km": 12.3,
+    "freezing_days_per_year": 89.9,
+    "station_id": "USW00013988",
+    "station_name": "KANSAS CITY DOWNTOWN AP"
+  },
+  "kansas-city-mo": {
+    "distance_km": 2.7,
+    "freezing_days_per_year": 89.9,
+    "station_id": "USW00013988",
+    "station_name": "KANSAS CITY DOWNTOWN AP"
+  },
+  "kennewick-wa": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 71.6,
+    "station_id": "USC00454154",
+    "station_name": "KENNEWICK"
+  },
+  "kenosha-wi": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 139.6,
+    "station_id": "USW00004845",
+    "station_name": "KENOSHA RGNL AP"
+  },
+  "kent-wa": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 36.8,
+    "station_id": "USC00454169",
+    "station_name": "KENT"
+  },
+  "killeen-tx": {
+    "distance_km": 4.0,
+    "freezing_days_per_year": 32.3,
+    "station_id": "USC00414792",
+    "station_name": "KILLEEN"
+  },
+  "kirkland-wa": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 21.4,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "kissimmee-fl": {
+    "distance_km": 2.7,
+    "freezing_days_per_year": 4.3,
+    "station_id": "USC00084625",
+    "station_name": "KISSIMMEE 2"
+  },
+  "knoxville-tn": {
+    "distance_km": 7.6,
+    "freezing_days_per_year": 84.5,
+    "station_id": "USC00404946",
+    "station_name": "KNOXVILLE EXP STN"
+  },
+  "lafayette-la": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 17.5,
+    "station_id": "USC00165021",
+    "station_name": "LAFAYETTE"
+  },
+  "lake-charles-la": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 10.9,
+    "station_id": "USW00003937",
+    "station_name": "LAKE CHARLES"
+  },
+  "lake-forest-ca": {
+    "distance_km": 8.7,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00044303",
+    "station_name": "IRVINE RCH"
+  },
+  "lakeland-fl": {
+    "distance_km": 9.8,
+    "freezing_days_per_year": 2.2,
+    "station_id": "USC00084802",
+    "station_name": "LAKELAND 2"
+  },
+  "lakeville-mn": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 148.8,
+    "station_id": "USC00212737",
+    "station_name": "FARMINGTON 3 NW"
+  },
+  "lakewood-ca": {
+    "distance_km": 4.9,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "lakewood-co": {
+    "distance_km": 5.4,
+    "freezing_days_per_year": 149.8,
+    "station_id": "USC00054762",
+    "station_name": "LAKEWOOD"
+  },
+  "lancaster-ca": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 64.1,
+    "station_id": "USW00003159",
+    "station_name": "LANCASTER WM J FOX FLD"
+  },
+  "lansing-mi": {
+    "distance_km": 7.3,
+    "freezing_days_per_year": 126.4,
+    "station_id": "USC00202395",
+    "station_name": "EAST LANSING 4 S"
+  },
+  "laredo-tx": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 5.5,
+    "station_id": "USC00415060",
+    "station_name": "LAREDO 2"
+  },
+  "largo-fl": {
+    "distance_km": 8.1,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USW00012873",
+    "station_name": "ST PETERSBURG INTL AP"
+  },
+  "las-cruces-nm": {
+    "distance_km": 6.0,
+    "freezing_days_per_year": 71.1,
+    "station_id": "USC00298535",
+    "station_name": "STATE UNIV"
+  },
+  "las-vegas-nv": {
+    "distance_km": 6.8,
+    "freezing_days_per_year": 9.7,
+    "station_id": "USW00053123",
+    "station_name": "LAS VEGAS AIR TERMINAL"
+  },
+  "lawrence-ks": {
+    "distance_km": 1.6,
+    "freezing_days_per_year": 113.8,
+    "station_id": "USC00144559",
+    "station_name": "LAWRENCE"
+  },
+  "lawrence-ma": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 119.2,
+    "station_id": "USC00194105",
+    "station_name": "LAWRENCE"
+  },
+  "lawton-ok": {
+    "distance_km": 3.6,
+    "freezing_days_per_year": 70.6,
+    "station_id": "USC00345063",
+    "station_name": "LAWTON"
+  },
+  "layton-ut": {
+    "distance_km": 7.0,
+    "freezing_days_per_year": 114.9,
+    "station_id": "USC00422726",
+    "station_name": "FARMINGTON 3 NW"
+  },
+  "league-city-tx": {
+    "distance_km": 3.3,
+    "freezing_days_per_year": 9.8,
+    "station_id": "USC00414333",
+    "station_name": "HOUSTON NWSO"
+  },
+  "leander-tx": {
+    "distance_km": 17.8,
+    "freezing_days_per_year": 28.4,
+    "station_id": "USC00413507",
+    "station_name": "GEORGETOWN LAKE"
+  },
+  "lees-summit-mo": {
+    "distance_km": 4.5,
+    "freezing_days_per_year": 106.8,
+    "station_id": "USW00053879",
+    "station_name": "LEES SUMMIT MUNI AP"
+  },
+  "lehi-ut": {
+    "distance_km": 7.0,
+    "freezing_days_per_year": 161.2,
+    "station_id": "USC00428973",
+    "station_name": "UTAH LAKE LEHI"
+  },
+  "lewisville-tx": {
+    "distance_km": 13.6,
+    "freezing_days_per_year": 36.2,
+    "station_id": "USC00413691",
+    "station_name": "GRAPEVINE DAM"
+  },
+  "lexington-ky": {
+    "distance_km": 9.3,
+    "freezing_days_per_year": 86.7,
+    "station_id": "USW00093820",
+    "station_name": "LEXINGTON BLUEGRASS AP"
+  },
+  "lincoln-ne": {
+    "distance_km": 6.0,
+    "freezing_days_per_year": 139.8,
+    "station_id": "USW00014939",
+    "station_name": "LINCOLN MUNI AP"
+  },
+  "little-rock-ar": {
+    "distance_km": 5.3,
+    "freezing_days_per_year": 50.6,
+    "station_id": "USW00013963",
+    "station_name": "LITTLE ROCK AP ADAMS FLD"
+  },
+  "livermore-ca": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 13.2,
+    "station_id": "USC00044997",
+    "station_name": "LIVERMORE"
+  },
+  "livonia-mi": {
+    "distance_km": 7.5,
+    "freezing_days_per_year": 144.4,
+    "station_id": "USC00202691",
+    "station_name": "FARMINGTON"
+  },
+  "long-beach-ca": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USW00023129",
+    "station_name": "LONG BEACH DAUGHERTY FLD"
+  },
+  "longmont-co": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 186.2,
+    "station_id": "USC00055116",
+    "station_name": "LONGMONT 2 ESE"
+  },
+  "longview-tx": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 42.0,
+    "station_id": "USC00415344",
+    "station_name": "LONGVIEW #2"
+  },
+  "los-alamos-nm": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 151.0,
+    "station_id": "USC00295084",
+    "station_name": "LOS ALAMOS"
+  },
+  "los-angeles-ca": {
+    "distance_km": 0.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "louisville-ky": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 72.8,
+    "station_id": "USW00093821",
+    "station_name": "LOUISVILLE INTL AP"
+  },
+  "loveland-co": {
+    "distance_km": 2.7,
+    "freezing_days_per_year": 181.1,
+    "station_id": "USC00055236",
+    "station_name": "LOVELAND 2N"
+  },
+  "lowell-ma": {
+    "distance_km": 3.6,
+    "freezing_days_per_year": 148.8,
+    "station_id": "USC00194313",
+    "station_name": "LOWELL"
+  },
+  "lubbock-tx": {
+    "distance_km": 9.3,
+    "freezing_days_per_year": 84.3,
+    "station_id": "USW00023042",
+    "station_name": "LUBBOCK"
+  },
+  "lynchburg-va": {
+    "distance_km": 3.6,
+    "freezing_days_per_year": 117.2,
+    "station_id": "USC00445117",
+    "station_name": "LYNCHBURG #2"
+  },
+  "lynn-ma": {
+    "distance_km": 8.6,
+    "freezing_days_per_year": 107.2,
+    "station_id": "USC00194502",
+    "station_name": "MARBLEHEAD"
+  },
+  "mableton-ga": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 60.9,
+    "station_id": "USC00095404",
+    "station_name": "MABLETON 1 N"
+  },
+  "macon-ga": {
+    "distance_km": 14.4,
+    "freezing_days_per_year": 42.1,
+    "station_id": "USW00003813",
+    "station_name": "MACON MIDDLE GA RGNL AP"
+  },
+  "madison-wi": {
+    "distance_km": 4.0,
+    "freezing_days_per_year": 153.3,
+    "station_id": "USC00470273",
+    "station_name": "UW ARBORETUM - MADISON"
+  },
+  "manchester-nh": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 142.7,
+    "station_id": "USC00275211",
+    "station_name": "MASSABESIC LAKE"
+  },
+  "mansfield-tx": {
+    "distance_km": 10.7,
+    "freezing_days_per_year": 33.2,
+    "station_id": "USW00053907",
+    "station_name": "ARLINGTON MUNI AP"
+  },
+  "manteca-ca": {
+    "distance_km": 11.0,
+    "freezing_days_per_year": 18.8,
+    "station_id": "USW00023237",
+    "station_name": "STOCKTON METRO AP"
+  },
+  "maricopa-az": {
+    "distance_km": 8.7,
+    "freezing_days_per_year": 28.8,
+    "station_id": "USC00025270",
+    "station_name": "MARICOPA 4 N"
+  },
+  "marysville-wa": {
+    "distance_km": 12.1,
+    "freezing_days_per_year": 47.8,
+    "station_id": "USC00452675",
+    "station_name": "EVERETT"
+  },
+  "mcallen-tx": {
+    "distance_km": 4.3,
+    "freezing_days_per_year": 1.8,
+    "station_id": "USC00415701",
+    "station_name": "MCALLEN"
+  },
+  "mckinney-tx": {
+    "distance_km": 4.6,
+    "freezing_days_per_year": 59.5,
+    "station_id": "USC00415766",
+    "station_name": "MCKINNEY  MUNICIPAL AIRPORT"
+  },
+  "medford-or": {
+    "distance_km": 4.9,
+    "freezing_days_per_year": 55.1,
+    "station_id": "USW00024225",
+    "station_name": "MEDFORD ROGUE VLY AP"
+  },
+  "melbourne-fl": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 2.9,
+    "station_id": "USW00012838",
+    "station_name": "MELBOURNE INTL AP"
+  },
+  "memphis-tn": {
+    "distance_km": 11.9,
+    "freezing_days_per_year": 42.8,
+    "station_id": "USW00013893",
+    "station_name": "MEMPHIS INTL AP"
+  },
+  "menifee-ca": {
+    "distance_km": 15.3,
+    "freezing_days_per_year": 10.7,
+    "station_id": "USC00042805",
+    "station_name": "ELSINORE"
+  },
+  "merced-ca": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 21.8,
+    "station_id": "USC00045532",
+    "station_name": "MERCED"
+  },
+  "meridian-id": {
+    "distance_km": 13.7,
+    "freezing_days_per_year": 100.9,
+    "station_id": "USW00024131",
+    "station_name": "BOISE AIR TERMINAL"
+  },
+  "mesa-az": {
+    "distance_km": 8.5,
+    "freezing_days_per_year": 12.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "mesquite-tx": {
+    "distance_km": 26.3,
+    "freezing_days_per_year": 44.0,
+    "station_id": "USC00413133",
+    "station_name": "FERRIS"
+  },
+  "miami-beach-fl": {
+    "distance_km": 13.6,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00083909",
+    "station_name": "HIALEAH"
+  },
+  "miami-fl": {
+    "distance_km": 10.3,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00081306",
+    "station_name": "CAPE FLORIDA"
+  },
+  "miami-gardens-fl": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00086315",
+    "station_name": "N MIAMI BEACH #2"
+  },
+  "midland-tx": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 52.3,
+    "station_id": "USC00415891",
+    "station_name": "MIDLAND 4 ENE"
+  },
+  "milpitas-ca": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 1.7,
+    "station_id": "USW00023293",
+    "station_name": "SAN JOSE"
+  },
+  "milwaukee-wi": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 137.2,
+    "station_id": "USC00479046",
+    "station_name": "WEST ALLIS"
+  },
+  "minneapolis-mn": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 143.7,
+    "station_id": "USC00214884",
+    "station_name": "LOWER ST ANTHONY FALLS"
+  },
+  "miramar-fl": {
+    "distance_km": 9.2,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00012882",
+    "station_name": "MIAMI OPA LOCKA AP"
+  },
+  "mission-tx": {
+    "distance_km": 7.8,
+    "freezing_days_per_year": 1.1,
+    "station_id": "USW00012959",
+    "station_name": "MCALLEN MILLER INTL AP"
+  },
+  "mission-viejo-ca": {
+    "distance_km": 13.4,
+    "freezing_days_per_year": 1.2,
+    "station_id": "USC00044647",
+    "station_name": "LAGUNA BEACH"
+  },
+  "missoula-mt": {
+    "distance_km": 5.7,
+    "freezing_days_per_year": 159.1,
+    "station_id": "USC00245735",
+    "station_name": "MISSOULA 2 NE"
+  },
+  "missouri-city-tx": {
+    "distance_km": 12.4,
+    "freezing_days_per_year": 12.4,
+    "station_id": "USC00418996",
+    "station_name": "THOMPSONS 3 WSW"
+  },
+  "mobile-al": {
+    "distance_km": 7.6,
+    "freezing_days_per_year": 13.9,
+    "station_id": "USW00013838",
+    "station_name": "MOBILE DWTN AP"
+  },
+  "modesto-ca": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 7.5,
+    "station_id": "USW00023258",
+    "station_name": "MODESTO CITY CO AP"
+  },
+  "montgomery-al": {
+    "distance_km": 12.8,
+    "freezing_days_per_year": 36.7,
+    "station_id": "USW00013895",
+    "station_name": "MONTGOMERY AP"
+  },
+  "monticello-ut": {
+    "distance_km": 2.9,
+    "freezing_days_per_year": 175.8,
+    "station_id": "USC00425805",
+    "station_name": "MONTICELLO 2E"
+  },
+  "moreno-valley-ca": {
+    "distance_km": 11.3,
+    "freezing_days_per_year": 4.7,
+    "station_id": "USC00047306",
+    "station_name": "REDLANDS"
+  },
+  "mount-pleasant-sc": {
+    "distance_km": 5.4,
+    "freezing_days_per_year": 23.0,
+    "station_id": "USC00388405",
+    "station_name": "SULLIVANS IS"
+  },
+  "mountain-view-ca": {
+    "distance_km": 2.9,
+    "freezing_days_per_year": 1.3,
+    "station_id": "USW00023244",
+    "station_name": "MOFFETT FEDERAL AIRFIELD"
+  },
+  "murfreesboro-tn": {
+    "distance_km": 8.9,
+    "freezing_days_per_year": 91.7,
+    "station_id": "USC00406371",
+    "station_name": "MURFREESBORO 5 N"
+  },
+  "murrieta-ca": {
+    "distance_km": 14.5,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00053151",
+    "station_name": "FALLBROOK 5 NE"
+  },
+  "nampa-id": {
+    "distance_km": 2.0,
+    "freezing_days_per_year": 129.0,
+    "station_id": "USC00106305",
+    "station_name": "NAMPA SUGAR FACTORY"
+  },
+  "naperville-il": {
+    "distance_km": 10.1,
+    "freezing_days_per_year": 142.0,
+    "station_id": "USC00115097",
+    "station_name": "LISLE-MORTON ARBORETUM"
+  },
+  "nashua-nh": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 156.1,
+    "station_id": "USC00275712",
+    "station_name": "NASHUA 2 NNW"
+  },
+  "nashville-tn": {
+    "distance_km": 9.3,
+    "freezing_days_per_year": 70.8,
+    "station_id": "USW00013897",
+    "station_name": "NASHVILLE INTL AP"
+  },
+  "new-bedford-ma": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 126.9,
+    "station_id": "USW00094726",
+    "station_name": "NEW BEDFORD MUNI AP"
+  },
+  "new-braunfels-tx": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 26.2,
+    "station_id": "USC00416276",
+    "station_name": "NEW BRAUNFELS"
+  },
+  "new-haven-ct": {
+    "distance_km": 5.8,
+    "freezing_days_per_year": 101.2,
+    "station_id": "USW00014758",
+    "station_name": "NEW HAVEN TWEED AP"
+  },
+  "new-orleans-la": {
+    "distance_km": 5.6,
+    "freezing_days_per_year": 6.3,
+    "station_id": "USC00168941",
+    "station_name": "TERRYTOWN 3S"
+  },
+  "new-rochelle-ny": {
+    "distance_km": 10.7,
+    "freezing_days_per_year": 107.6,
+    "station_id": "USC00302129",
+    "station_name": "DOBBS FERRY-ARDSLEY"
+  },
+  "new-york-ny": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 65.6,
+    "station_id": "USW00094728",
+    "station_name": "NEW YORK CNTRL PK TWR"
+  },
+  "newark-nj": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 90.3,
+    "station_id": "USC00283704",
+    "station_name": "HARRISON"
+  },
+  "newport-beach-ca": {
+    "distance_km": 0.7,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00046175",
+    "station_name": "NEWPORT BEACH HARBOR"
+  },
+  "newport-news-va": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 55.4,
+    "station_id": "USW00093741",
+    "station_name": "NEWPORT NEWS INTL AP"
+  },
+  "newton-ma": {
+    "distance_km": 7.7,
+    "freezing_days_per_year": 122.2,
+    "station_id": "USC00193890",
+    "station_name": "JAMAICA PLAIN"
+  },
+  "norfolk-va": {
+    "distance_km": 5.9,
+    "freezing_days_per_year": 45.0,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "norman-ok": {
+    "distance_km": 10.3,
+    "freezing_days_per_year": 78.9,
+    "station_id": "USC00346386",
+    "station_name": "NORMAN 3SSE"
+  },
+  "north-charleston-sc": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 24.4,
+    "station_id": "USW00013880",
+    "station_name": "CHARLESTON INTL AP"
+  },
+  "north-las-vegas-nv": {
+    "distance_km": 3.9,
+    "freezing_days_per_year": 16.5,
+    "station_id": "USC00265705",
+    "station_name": "N LAS VEGAS"
+  },
+  "north-port-fl": {
+    "distance_km": 23.0,
+    "freezing_days_per_year": 3.4,
+    "station_id": "USC00086065",
+    "station_name": "MYAKKA RVR SP"
+  },
+  "norwalk-ca": {
+    "distance_km": 10.2,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "norwalk-ct": {
+    "distance_km": 11.4,
+    "freezing_days_per_year": 117.6,
+    "station_id": "USC00067970",
+    "station_name": "STAMFORD 5 N"
+  },
+  "oakland-ca": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 0.1,
+    "station_id": "USC00046336",
+    "station_name": "OAKLAND MUSEUM"
+  },
+  "oceanside-ca": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00046377",
+    "station_name": "OCEANSIDE MARINA"
+  },
+  "odessa-tx": {
+    "distance_km": 0.9,
+    "freezing_days_per_year": 40.8,
+    "station_id": "USC00416502",
+    "station_name": "ODESSA"
+  },
+  "ofallon-mo": {
+    "distance_km": 9.6,
+    "freezing_days_per_year": 103.8,
+    "station_id": "USC00238805",
+    "station_name": "WELDON SPRING NWS"
+  },
+  "ogden-ut": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 121.0,
+    "station_id": "USC00426404",
+    "station_name": "OGDEN PIONEER PH"
+  },
+  "oklahoma-city-ok": {
+    "distance_km": 11.6,
+    "freezing_days_per_year": 60.7,
+    "station_id": "USW00013967",
+    "station_name": "OKLAHOMA CITY WILL ROGERS AP"
+  },
+  "olathe-ks": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 106.2,
+    "station_id": "USC00145972",
+    "station_name": "OLATHE 3E"
+  },
+  "omaha-ne": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 136.1,
+    "station_id": "USW00014942",
+    "station_name": "OMAHA EPPLEY AIRFIELD"
+  },
+  "ontario-ca": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "orange-ca": {
+    "distance_km": 5.1,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "orem-ut": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 117.4,
+    "station_id": "USC00426538",
+    "station_name": "OREM TRTMT PLT"
+  },
+  "orlando-fl": {
+    "distance_km": 4.6,
+    "freezing_days_per_year": 1.3,
+    "station_id": "USW00012841",
+    "station_name": "ORLANDO EXECUTIVE AP"
+  },
+  "overland-park-ks": {
+    "distance_km": 12.9,
+    "freezing_days_per_year": 106.2,
+    "station_id": "USC00145972",
+    "station_name": "OLATHE 3E"
+  },
+  "oxnard-ca": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 0.1,
+    "station_id": "USC00046569",
+    "station_name": "OXNARD"
+  },
+  "palm-bay-fl": {
+    "distance_km": 17.0,
+    "freezing_days_per_year": 2.9,
+    "station_id": "USW00012838",
+    "station_name": "MELBOURNE INTL AP"
+  },
+  "palm-coast-fl": {
+    "distance_km": 10.7,
+    "freezing_days_per_year": 4.2,
+    "station_id": "USC00086767",
+    "station_name": "PALM COAST 6NE"
+  },
+  "palmdale-ca": {
+    "distance_km": 1.5,
+    "freezing_days_per_year": 39.3,
+    "station_id": "USC00046624",
+    "station_name": "PALMDALE"
+  },
+  "parma-oh": {
+    "distance_km": 11.5,
+    "freezing_days_per_year": 104.4,
+    "station_id": "USW00014820",
+    "station_name": "CLEVELAND"
+  },
+  "pasadena-ca": {
+    "distance_km": 1.4,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USC00046719",
+    "station_name": "PASADENA"
+  },
+  "pasadena-tx": {
+    "distance_km": 13.0,
+    "freezing_days_per_year": 4.9,
+    "station_id": "USW00012918",
+    "station_name": "HOUSTON HOBBY AP"
+  },
+  "pasco-wa": {
+    "distance_km": 0.4,
+    "freezing_days_per_year": 104.8,
+    "station_id": "USW00024163",
+    "station_name": "PASCO TRI CITIES AP"
+  },
+  "paterson-nj": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 115.2,
+    "station_id": "USC00284887",
+    "station_name": "LITTLE FALLS"
+  },
+  "pawtucket-ri": {
+    "distance_km": 16.2,
+    "freezing_days_per_year": 132.9,
+    "station_id": "USC00379423",
+    "station_name": "WOONSOCKET"
+  },
+  "pearland-tx": {
+    "distance_km": 8.8,
+    "freezing_days_per_year": 5.8,
+    "station_id": "USW00012975",
+    "station_name": "HOUSTON CLOVER FLD"
+  },
+  "pembroke-pines-fl": {
+    "distance_km": 10.0,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00092809",
+    "station_name": "HOLLYWOOD NORTH PERRY AP"
+  },
+  "peoria-az": {
+    "distance_km": 5.9,
+    "freezing_days_per_year": 2.8,
+    "station_id": "USC00029634",
+    "station_name": "YOUNGTOWN"
+  },
+  "peoria-il": {
+    "distance_km": 10.6,
+    "freezing_days_per_year": 115.9,
+    "station_id": "USW00014842",
+    "station_name": "PEORIA GTR PEORIA AP"
+  },
+  "perris-ca": {
+    "distance_km": 16.4,
+    "freezing_days_per_year": 10.7,
+    "station_id": "USC00042805",
+    "station_name": "ELSINORE"
+  },
+  "pharr-tx": {
+    "distance_km": 6.9,
+    "freezing_days_per_year": 1.1,
+    "station_id": "USW00012959",
+    "station_name": "MCALLEN MILLER INTL AP"
+  },
+  "philadelphia-pa": {
+    "distance_km": 1.0,
+    "freezing_days_per_year": 64.8,
+    "station_id": "USC00366886",
+    "station_name": "PHILA FRANKLIN INST"
+  },
+  "phoenix-az": {
+    "distance_km": 6.6,
+    "freezing_days_per_year": 0.4,
+    "station_id": "USW00023183",
+    "station_name": "PHOENIX SKY HARBOR INTL AP"
+  },
+  "pittsburg-ca": {
+    "distance_km": 13.6,
+    "freezing_days_per_year": 9.2,
+    "station_id": "USC00040232",
+    "station_name": "ANTIOCH PUMPING PLT #3"
+  },
+  "pittsburgh-pa": {
+    "distance_km": 10.6,
+    "freezing_days_per_year": 111.6,
+    "station_id": "USC00362574",
+    "station_name": "EMSWORTH L/D OHIO RVR"
+  },
+  "plano-tx": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 36.4,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "plantation-fl": {
+    "distance_km": 6.7,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00083163",
+    "station_name": "FT LAUDERDALE"
+  },
+  "plymouth-mn": {
+    "distance_km": 6.4,
+    "freezing_days_per_year": 154.0,
+    "station_id": "USC00215838",
+    "station_name": "NEW HOPE"
+  },
+  "pomona-ca": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 1.9,
+    "station_id": "USC00047050",
+    "station_name": "POMONA/FAIRPLEX"
+  },
+  "pompano-beach-fl": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00092805",
+    "station_name": "POMPANO BEACH AIRPARK"
+  },
+  "port-st-lucie-fl": {
+    "distance_km": 14.9,
+    "freezing_days_per_year": 0.6,
+    "station_id": "USC00088620",
+    "station_name": "STUART"
+  },
+  "portland-or": {
+    "distance_km": 0.8,
+    "freezing_days_per_year": 17.7,
+    "station_id": "USC00356749",
+    "station_name": "PORTLAND KGW-TV"
+  },
+  "portsmouth-va": {
+    "distance_km": 11.7,
+    "freezing_days_per_year": 45.0,
+    "station_id": "USC00446147",
+    "station_name": "NORFOLK S"
+  },
+  "providence-ri": {
+    "distance_km": 11.1,
+    "freezing_days_per_year": 107.4,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "provo-ut": {
+    "distance_km": 0.5,
+    "freezing_days_per_year": 112.7,
+    "station_id": "USC00427064",
+    "station_name": "PROVO BYU"
+  },
+  "pueblo-co": {
+    "distance_km": 9.5,
+    "freezing_days_per_year": 142.0,
+    "station_id": "USC00056765",
+    "station_name": "PUEBLO RSVR"
+  },
+  "queen-creek-az": {
+    "distance_km": 7.7,
+    "freezing_days_per_year": 8.6,
+    "station_id": "USC00021514",
+    "station_name": "CHANDLER HEIGHTS"
+  },
+  "quincy-ma": {
+    "distance_km": 8.8,
+    "freezing_days_per_year": 115.8,
+    "station_id": "USC00193624",
+    "station_name": "HINGHAM"
+  },
+  "racine-wi": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 128.4,
+    "station_id": "USW00094818",
+    "station_name": "RACINE BATTEN AP"
+  },
+  "raleigh-nc": {
+    "distance_km": 5.4,
+    "freezing_days_per_year": 61.1,
+    "station_id": "USC00317079",
+    "station_name": "RALEIGH STATE UNIV"
+  },
+  "rancho-cordova-ca": {
+    "distance_km": 15.6,
+    "freezing_days_per_year": 5.1,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "rancho-cucamonga-ca": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "rapid-city-sd": {
+    "distance_km": 1.7,
+    "freezing_days_per_year": 141.1,
+    "station_id": "USC00396948",
+    "station_name": "RAPID CITY WFO"
+  },
+  "reading-pa": {
+    "distance_km": 4.3,
+    "freezing_days_per_year": 109.5,
+    "station_id": "USW00014712",
+    "station_name": "READING SPAATZ FLD"
+  },
+  "redding-ca": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 27.2,
+    "station_id": "USW00024257",
+    "station_name": "REDDING MUNI AP"
+  },
+  "redmond-wa": {
+    "distance_km": 10.2,
+    "freezing_days_per_year": 21.4,
+    "station_id": "USW00094290",
+    "station_name": "SEATTLE SAND PT WSFO"
+  },
+  "redwood-city-ca": {
+    "distance_km": 5.4,
+    "freezing_days_per_year": 5.3,
+    "station_id": "USC00047339",
+    "station_name": "REDWOOD CITY"
+  },
+  "reno-nv": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 115.2,
+    "station_id": "USC00266791",
+    "station_name": "RENO WFO"
+  },
+  "renton-wa": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 25.7,
+    "station_id": "USW00094248",
+    "station_name": "RENTON MUNI AP"
+  },
+  "rialto-ca": {
+    "distance_km": 17.2,
+    "freezing_days_per_year": 2.1,
+    "station_id": "USC00047473",
+    "station_name": "RIVERSIDE CITRUS EXP"
+  },
+  "richardson-tx": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 36.4,
+    "station_id": "USC00417588",
+    "station_name": "RICHARDSON"
+  },
+  "richmond-ca": {
+    "distance_km": 3.7,
+    "freezing_days_per_year": 0.5,
+    "station_id": "USC00047414",
+    "station_name": "RICHMOND"
+  },
+  "richmond-va": {
+    "distance_km": 11.3,
+    "freezing_days_per_year": 73.5,
+    "station_id": "USW00013740",
+    "station_name": "RICHMOND INTL AP"
+  },
+  "rio-rancho-nm": {
+    "distance_km": 7.3,
+    "freezing_days_per_year": 116.8,
+    "station_id": "USC00297481",
+    "station_name": "RIO RANCHO #2"
+  },
+  "riverside-ca": {
+    "distance_km": 1.1,
+    "freezing_days_per_year": 2.0,
+    "station_id": "USC00047470",
+    "station_name": "RIVERSIDE FIRE STN 3"
+  },
+  "roanoke-va": {
+    "distance_km": 4.3,
+    "freezing_days_per_year": 78.0,
+    "station_id": "USW00013741",
+    "station_name": "ROANOKE RGNL AP"
+  },
+  "rochester-hills-mi": {
+    "distance_km": 8.2,
+    "freezing_days_per_year": 146.2,
+    "station_id": "USC00206658",
+    "station_name": "PONTIAC WWTP"
+  },
+  "rochester-mn": {
+    "distance_km": 11.8,
+    "freezing_days_per_year": 148.8,
+    "station_id": "USW00014925",
+    "station_name": "ROCHESTER INTL AP"
+  },
+  "rochester-ny": {
+    "distance_km": 7.2,
+    "freezing_days_per_year": 129.0,
+    "station_id": "USW00014768",
+    "station_name": "ROCHESTER GTR INTL AP"
+  },
+  "rockford-il": {
+    "distance_km": 8.0,
+    "freezing_days_per_year": 133.5,
+    "station_id": "USW00094822",
+    "station_name": "ROCKFORD GTR ROCKFORD AP"
+  },
+  "rocklin-ca": {
+    "distance_km": 18.0,
+    "freezing_days_per_year": 13.1,
+    "station_id": "USC00040383",
+    "station_name": "AUBURN"
+  },
+  "rogers-ar": {
+    "distance_km": 5.8,
+    "freezing_days_per_year": 99.6,
+    "station_id": "USC00030586",
+    "station_name": "BENTONVILLE 4 S"
+  },
+  "roseville-ca": {
+    "distance_km": 24.8,
+    "freezing_days_per_year": 20.8,
+    "station_id": "USW00093225",
+    "station_name": "SACRAMENTO METRO AP"
+  },
+  "roswell-ga": {
+    "distance_km": 18.9,
+    "freezing_days_per_year": 43.9,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "round-rock-tx": {
+    "distance_km": 16.4,
+    "freezing_days_per_year": 27.4,
+    "station_id": "USC00410433",
+    "station_name": "AUSTIN GREAT HILLS"
+  },
+  "sacramento-ca": {
+    "distance_km": 6.9,
+    "freezing_days_per_year": 5.1,
+    "station_id": "USW00023271",
+    "station_name": "SACRAMENTO 5 ESE"
+  },
+  "saint-paul-mn": {
+    "distance_km": 3.4,
+    "freezing_days_per_year": 140.7,
+    "station_id": "USW00014927",
+    "station_name": "ST PAUL DOWNTOWN AP"
+  },
+  "salem-or": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 49.7,
+    "station_id": "USW00024232",
+    "station_name": "SALEM MCNARY FLD"
+  },
+  "salinas-ca": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 4.7,
+    "station_id": "USW00023233",
+    "station_name": "SALINAS MUNICIPAL AP"
+  },
+  "salt-lake-city-ut": {
+    "distance_km": 1.3,
+    "freezing_days_per_year": 79.5,
+    "station_id": "USC00427606",
+    "station_name": "SALT LAKE TRIAD CTR"
+  },
+  "san-angelo-tx": {
+    "distance_km": 8.6,
+    "freezing_days_per_year": 45.8,
+    "station_id": "USW00023034",
+    "station_name": "SAN ANGELO"
+  },
+  "san-antonio-tx": {
+    "distance_km": 5.8,
+    "freezing_days_per_year": 20.3,
+    "station_id": "USC00417947",
+    "station_name": "SAN ANTONIO INCARNATE WORD"
+  },
+  "san-bernardino-ca": {
+    "distance_km": 12.0,
+    "freezing_days_per_year": 4.7,
+    "station_id": "USC00047306",
+    "station_name": "REDLANDS"
+  },
+  "san-diego-ca": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00023188",
+    "station_name": "SAN DIEGO LINDBERGH FLD"
+  },
+  "san-francisco-ca": {
+    "distance_km": 0.6,
+    "freezing_days_per_year": 0.1,
+    "station_id": "USW00023272",
+    "station_name": "SAN FRANCISCO DWTN"
+  },
+  "san-jose-ca": {
+    "distance_km": 1.6,
+    "freezing_days_per_year": 2.7,
+    "station_id": "USC00047821",
+    "station_name": "SAN JOSE"
+  },
+  "san-leandro-ca": {
+    "distance_km": 5.9,
+    "freezing_days_per_year": 2.9,
+    "station_id": "USW00023230",
+    "station_name": "OAKLAND METRO INTL AP"
+  },
+  "san-marcos-ca": {
+    "distance_km": 7.5,
+    "freezing_days_per_year": 2.3,
+    "station_id": "USC00042863",
+    "station_name": "ESCONDIDO #2"
+  },
+  "san-marcos-tx": {
+    "distance_km": 1.7,
+    "freezing_days_per_year": 18.5,
+    "station_id": "USC00417983",
+    "station_name": "SAN MARCOS"
+  },
+  "san-mateo-ca": {
+    "distance_km": 8.2,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00023234",
+    "station_name": "SAN FRANCISCO INTL AP"
+  },
+  "san-ramon-ca": {
+    "distance_km": 12.1,
+    "freezing_days_per_year": 12.8,
+    "station_id": "USC00045915",
+    "station_name": "MT DIABLO JUNCTION"
+  },
+  "sandpoint-id": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 153.8,
+    "station_id": "USC00108137",
+    "station_name": "SANDPOINT EXP STN"
+  },
+  "sandy-springs-ga": {
+    "distance_km": 8.7,
+    "freezing_days_per_year": 43.9,
+    "station_id": "USW00053863",
+    "station_name": "ATLANTA PEACHTREE AP"
+  },
+  "sandy-ut": {
+    "distance_km": 7.8,
+    "freezing_days_per_year": 112.5,
+    "station_id": "USC00421759",
+    "station_name": "COTTONWOOD WEIR"
+  },
+  "santa-ana-ca": {
+    "distance_km": 0.7,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "santa-barbara-ca": {
+    "distance_km": 3.0,
+    "freezing_days_per_year": 0.6,
+    "station_id": "USC00047902",
+    "station_name": "SANTA BARBARA"
+  },
+  "santa-clara-ca": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 1.7,
+    "station_id": "USW00023293",
+    "station_name": "SAN JOSE"
+  },
+  "santa-clarita-ca": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 0.8,
+    "station_id": "USC00046161",
+    "station_name": "NEWHALL 5NW"
+  },
+  "santa-fe-nm": {
+    "distance_km": 8.5,
+    "freezing_days_per_year": 165.0,
+    "station_id": "USC00298085",
+    "station_name": "SANTA FE 2"
+  },
+  "santa-maria-ca": {
+    "distance_km": 3.5,
+    "freezing_days_per_year": 9.7,
+    "station_id": "USW00023273",
+    "station_name": "SANTA MARIA PUBLIC AP"
+  },
+  "santa-monica-ca": {
+    "distance_km": 0.3,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USC00047953",
+    "station_name": "SANTA MONICA PIER"
+  },
+  "santa-rosa-ca": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 13.9,
+    "station_id": "USC00047965",
+    "station_name": "SANTA ROSA"
+  },
+  "savannah-ga": {
+    "distance_km": 12.3,
+    "freezing_days_per_year": 22.3,
+    "station_id": "USW00003822",
+    "station_name": "SAVANNAH INTL AP"
+  },
+  "schaumburg-il": {
+    "distance_km": 8.1,
+    "freezing_days_per_year": 161.5,
+    "station_id": "USC00118324",
+    "station_name": "STREAMWOOD"
+  },
+  "scottsdale-az": {
+    "distance_km": 7.2,
+    "freezing_days_per_year": 12.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "seattle-wa": {
+    "distance_km": 9.1,
+    "freezing_days_per_year": 27.1,
+    "station_id": "USW00024234",
+    "station_name": "SEATTLE BOEING FLD"
+  },
+  "shreveport-la": {
+    "distance_km": 1.5,
+    "freezing_days_per_year": 29.5,
+    "station_id": "USW00053905",
+    "station_name": "SHREVEPORT DWTN AP"
+  },
+  "simi-valley-ca": {
+    "distance_km": 18.9,
+    "freezing_days_per_year": 7.2,
+    "station_id": "USC00049785",
+    "station_name": "WOODLAND HILLS PIERCE COLLEGE"
+  },
+  "sioux-city-ia": {
+    "distance_km": 12.1,
+    "freezing_days_per_year": 153.2,
+    "station_id": "USW00014943",
+    "station_name": "SIOUX CITY GATEWAY AP"
+  },
+  "sioux-falls-sd": {
+    "distance_km": 4.8,
+    "freezing_days_per_year": 164.3,
+    "station_id": "USW00014944",
+    "station_name": "SIOUX FALLS"
+  },
+  "somerville-ma": {
+    "distance_km": 8.0,
+    "freezing_days_per_year": 91.9,
+    "station_id": "USW00014739",
+    "station_name": "BOSTON LOGAN INTL AP"
+  },
+  "south-bend-in": {
+    "distance_km": 4.9,
+    "freezing_days_per_year": 122.7,
+    "station_id": "USW00014848",
+    "station_name": "SOUTH BEND MICHIANA RGNL AP"
+  },
+  "south-fulton-ga": {
+    "distance_km": 12.9,
+    "freezing_days_per_year": 36.3,
+    "station_id": "USW00013874",
+    "station_name": "ATLANTA HARTSFIELD INTL AP"
+  },
+  "south-gate-ca": {
+    "distance_km": 13.0,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00093134",
+    "station_name": "LOS ANGELES DWTN USC CAMPUS"
+  },
+  "south-jordan-ut": {
+    "distance_km": 10.3,
+    "freezing_days_per_year": 98.2,
+    "station_id": "USC00422235",
+    "station_name": "DRAPER-POINT OF MTN"
+  },
+  "sparks-nv": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 137.9,
+    "station_id": "USC00267697",
+    "station_name": "SPARKS"
+  },
+  "spokane-valley-wa": {
+    "distance_km": 7.3,
+    "freezing_days_per_year": 124.4,
+    "station_id": "USW00094176",
+    "station_name": "SPOKANE FELTS FLD"
+  },
+  "spokane-wa": {
+    "distance_km": 8.5,
+    "freezing_days_per_year": 117.2,
+    "station_id": "USW00024157",
+    "station_name": "SPOKANE INTL AP"
+  },
+  "springdale-ar": {
+    "distance_km": 10.0,
+    "freezing_days_per_year": 82.0,
+    "station_id": "USC00032444",
+    "station_name": "FAYETTEVILLE EXP STN"
+  },
+  "springfield-il": {
+    "distance_km": 3.2,
+    "freezing_days_per_year": 118.2,
+    "station_id": "USC00118186",
+    "station_name": "SPRINGFIELD #2"
+  },
+  "springfield-ma": {
+    "distance_km": 15.1,
+    "freezing_days_per_year": 147.3,
+    "station_id": "USW00014775",
+    "station_name": "WESTFIELD BARNES MUNI AP"
+  },
+  "springfield-mo": {
+    "distance_km": 11.0,
+    "freezing_days_per_year": 97.3,
+    "station_id": "USW00013995",
+    "station_name": "SPRINGFIELD"
+  },
+  "st-george-ut": {
+    "distance_km": 4.9,
+    "freezing_days_per_year": 54.1,
+    "station_id": "USC00427516",
+    "station_name": "ST GEORGE"
+  },
+  "st-louis-mo": {
+    "distance_km": 6.2,
+    "freezing_days_per_year": 80.7,
+    "station_id": "USC00237452",
+    "station_name": "ST LOUIS SCI CTR"
+  },
+  "st-petersburg-fl": {
+    "distance_km": 1.6,
+    "freezing_days_per_year": 0.5,
+    "station_id": "USW00092806",
+    "station_name": "ST PETERSBURG AP"
+  },
+  "stamford-ct": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 117.6,
+    "station_id": "USC00067970",
+    "station_name": "STAMFORD 5 N"
+  },
+  "sterling-heights-mi": {
+    "distance_km": 17.6,
+    "freezing_days_per_year": 132.6,
+    "station_id": "USW00014804",
+    "station_name": "MT CLEMENS ANG BASE"
+  },
+  "stockton-ca": {
+    "distance_km": 5.0,
+    "freezing_days_per_year": 17.9,
+    "station_id": "USC00048560",
+    "station_name": "STOCKTON FIRE STN 4"
+  },
+  "suffolk-va": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 54.3,
+    "station_id": "USC00448192",
+    "station_name": "SUFFOLK LAKE KILBY"
+  },
+  "sugar-land-tx": {
+    "distance_km": 4.4,
+    "freezing_days_per_year": 6.2,
+    "station_id": "USC00418728",
+    "station_name": "SUGAR LAND"
+  },
+  "sundance-wy": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 175.8,
+    "station_id": "USC00488705",
+    "station_name": "SUNDANCE"
+  },
+  "sunnyvale-ca": {
+    "distance_km": 2.4,
+    "freezing_days_per_year": 1.3,
+    "station_id": "USW00023244",
+    "station_name": "MOFFETT FEDERAL AIRFIELD"
+  },
+  "sunrise-fl": {
+    "distance_km": 9.4,
+    "freezing_days_per_year": 0.0,
+    "station_id": "USW00012885",
+    "station_name": "FT LAUDERDALE EXECUTIVE AP"
+  },
+  "surprise-az": {
+    "distance_km": 13.7,
+    "freezing_days_per_year": 18.1,
+    "station_id": "USC00029464",
+    "station_name": "WITTMANN 1SE"
+  },
+  "syracuse-ny": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 129.5,
+    "station_id": "USW00014771",
+    "station_name": "SYRACUSE HANCOCK INTL AP"
+  },
+  "tacoma-wa": {
+    "distance_km": 2.1,
+    "freezing_days_per_year": 28.0,
+    "station_id": "USC00458278",
+    "station_name": "TACOMA #1"
+  },
+  "tallahassee-fl": {
+    "distance_km": 6.7,
+    "freezing_days_per_year": 28.7,
+    "station_id": "USW00093805",
+    "station_name": "TALLAHASSEE"
+  },
+  "tampa-fl": {
+    "distance_km": 8.0,
+    "freezing_days_per_year": 1.3,
+    "station_id": "USW00012842",
+    "station_name": "TAMPA INTL AP"
+  },
+  "taos-nm": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 183.7,
+    "station_id": "USC00298668",
+    "station_name": "TAOS"
+  },
+  "temecula-ca": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00053151",
+    "station_name": "FALLBROOK 5 NE"
+  },
+  "tempe-az": {
+    "distance_km": 1.8,
+    "freezing_days_per_year": 12.5,
+    "station_id": "USC00028499",
+    "station_name": "TEMPE ASU"
+  },
+  "temple-tx": {
+    "distance_km": 14.9,
+    "freezing_days_per_year": 27.0,
+    "station_id": "USC00418646",
+    "station_name": "STILLHOUSE HOLLOW DAM"
+  },
+  "thornton-co": {
+    "distance_km": 6.7,
+    "freezing_days_per_year": 148.3,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "thousand-oaks-ca": {
+    "distance_km": 19.8,
+    "freezing_days_per_year": 2.0,
+    "station_id": "USW00023136",
+    "station_name": "CAMARILLO AP"
+  },
+  "toledo-oh": {
+    "distance_km": 12.8,
+    "freezing_days_per_year": 118.6,
+    "station_id": "USW00004848",
+    "station_name": "TOLEDO METCALF FLD"
+  },
+  "topeka-ks": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 110.9,
+    "station_id": "USW00013996",
+    "station_name": "TOPEKA MUNI AP"
+  },
+  "torrance-ca": {
+    "distance_km": 3.6,
+    "freezing_days_per_year": 0.5,
+    "station_id": "USW00003122",
+    "station_name": "TORRANCE AP"
+  },
+  "tracy-ca": {
+    "distance_km": 10.5,
+    "freezing_days_per_year": 19.1,
+    "station_id": "USC00048999",
+    "station_name": "TRACY CARBONA"
+  },
+  "trenton-nj": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 99.6,
+    "station_id": "USW00014792",
+    "station_name": "TRENTON MERCER CO AP"
+  },
+  "troy-mi": {
+    "distance_km": 10.8,
+    "freezing_days_per_year": 146.2,
+    "station_id": "USC00206658",
+    "station_name": "PONTIAC WWTP"
+  },
+  "tucson-az": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 5.6,
+    "station_id": "USC00028815",
+    "station_name": "TUCSON WFO"
+  },
+  "tulsa-ok": {
+    "distance_km": 10.7,
+    "freezing_days_per_year": 69.6,
+    "station_id": "USW00013968",
+    "station_name": "TULSA INTL AP"
+  },
+  "tuscaloosa-al": {
+    "distance_km": 8.3,
+    "freezing_days_per_year": 39.7,
+    "station_id": "USC00018380",
+    "station_name": "TUSCALOOSA ACFD"
+  },
+  "tustin-ca": {
+    "distance_km": 5.5,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "tyler-tx": {
+    "distance_km": 1.9,
+    "freezing_days_per_year": 32.0,
+    "station_id": "USC00419207",
+    "station_name": "TYLER"
+  },
+  "upland-ca": {
+    "distance_km": 9.0,
+    "freezing_days_per_year": 1.0,
+    "station_id": "USW00003102",
+    "station_name": "ONTARIO INTL AP"
+  },
+  "vacaville-ca": {
+    "distance_km": 2.2,
+    "freezing_days_per_year": 16.2,
+    "station_id": "USW00093241",
+    "station_name": "VACAVILLE NUT TREE AP"
+  },
+  "vallejo-ca": {
+    "distance_km": 11.4,
+    "freezing_days_per_year": 30.6,
+    "station_id": "USW00093227",
+    "station_name": "NAPA CO AP"
+  },
+  "vancouver-wa": {
+    "distance_km": 1.0,
+    "freezing_days_per_year": 37.3,
+    "station_id": "USW00094298",
+    "station_name": "VANCOUVER PEARSON AP"
+  },
+  "ventura-ca": {
+    "distance_km": 8.7,
+    "freezing_days_per_year": 0.2,
+    "station_id": "USW00093110",
+    "station_name": "OXNARD VENTURA CO AP"
+  },
+  "victorville-ca": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 55.5,
+    "station_id": "USC00049325",
+    "station_name": "VICTORVILLE"
+  },
+  "virginia-beach-va": {
+    "distance_km": 6.0,
+    "freezing_days_per_year": 50.7,
+    "station_id": "USW00013769",
+    "station_name": "OCEANA NAS"
+  },
+  "visalia-ca": {
+    "distance_km": 2.7,
+    "freezing_days_per_year": 8.0,
+    "station_id": "USC00049367",
+    "station_name": "VISALIA"
+  },
+  "vista-ca": {
+    "distance_km": 5.1,
+    "freezing_days_per_year": 0.7,
+    "station_id": "USC00049378",
+    "station_name": "VISTA"
+  },
+  "waco-tx": {
+    "distance_km": 5.2,
+    "freezing_days_per_year": 32.2,
+    "station_id": "USC00419417",
+    "station_name": "WACO DAM"
+  },
+  "warner-robins-ga": {
+    "distance_km": 3.3,
+    "freezing_days_per_year": 39.5,
+    "station_id": "USC00099124",
+    "station_name": "WARNER ROBINS"
+  },
+  "warren-mi": {
+    "distance_km": 9.1,
+    "freezing_days_per_year": 109.4,
+    "station_id": "USW00014822",
+    "station_name": "DETROIT CITY AP"
+  },
+  "warwick-ri": {
+    "distance_km": 2.6,
+    "freezing_days_per_year": 107.4,
+    "station_id": "USW00014765",
+    "station_name": "PROVIDENCE T F GREEN AP"
+  },
+  "washington-dc": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 79.6,
+    "station_id": "USC00186350",
+    "station_name": "NATL ARBORETUM DC"
+  },
+  "waterbury-ct": {
+    "distance_km": 18.5,
+    "freezing_days_per_year": 132.5,
+    "station_id": "USW00054788",
+    "station_name": "MERIDEN MARKHAM MUNI AP"
+  },
+  "waukegan-il": {
+    "distance_km": 2.5,
+    "freezing_days_per_year": 126.3,
+    "station_id": "USC00119029",
+    "station_name": "WAUKEGAN"
+  },
+  "west-covina-ca": {
+    "distance_km": 13.5,
+    "freezing_days_per_year": 1.9,
+    "station_id": "USC00047050",
+    "station_name": "POMONA/FAIRPLEX"
+  },
+  "west-jordan-ut": {
+    "distance_km": 15.1,
+    "freezing_days_per_year": 98.2,
+    "station_id": "USC00422235",
+    "station_name": "DRAPER-POINT OF MTN"
+  },
+  "west-palm-beach-fl": {
+    "distance_km": 7.9,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00012844",
+    "station_name": "WEST PALM BEACH INTL AP"
+  },
+  "west-valley-city-ut": {
+    "distance_km": 10.4,
+    "freezing_days_per_year": 112.8,
+    "station_id": "USW00024127",
+    "station_name": "SALT LAKE CITY INTL AP"
+  },
+  "westland-mi": {
+    "distance_km": 10.7,
+    "freezing_days_per_year": 115.4,
+    "station_id": "USW00094847",
+    "station_name": "DETROIT METRO AP"
+  },
+  "westminster-ca": {
+    "distance_km": 11.4,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USC00047888",
+    "station_name": "SANTA ANA FIRE STN"
+  },
+  "westminster-co": {
+    "distance_km": 4.5,
+    "freezing_days_per_year": 148.3,
+    "station_id": "USC00055984",
+    "station_name": "NORTHGLENN"
+  },
+  "whitewright-tx": {
+    "distance_km": 25.3,
+    "freezing_days_per_year": 56.3,
+    "station_id": "USC00410923",
+    "station_name": "BONHAM 3NNE"
+  },
+  "whittier-ca": {
+    "distance_km": 11.5,
+    "freezing_days_per_year": 0.3,
+    "station_id": "USW00003166",
+    "station_name": "FULLERTON MUNI AP"
+  },
+  "wichita-falls-tx": {
+    "distance_km": 8.4,
+    "freezing_days_per_year": 59.3,
+    "station_id": "USW00013966",
+    "station_name": "WICHITA FALLS MUNI AP"
+  },
+  "wichita-ks": {
+    "distance_km": 9.9,
+    "freezing_days_per_year": 99.4,
+    "station_id": "USW00003928",
+    "station_name": "WICHITA"
+  },
+  "wilmington-nc": {
+    "distance_km": 6.5,
+    "freezing_days_per_year": 34.8,
+    "station_id": "USW00013748",
+    "station_name": "WILMINGTON INTL AP"
+  },
+  "winston-salem-nc": {
+    "distance_km": 4.1,
+    "freezing_days_per_year": 59.8,
+    "station_id": "USW00093807",
+    "station_name": "WINSTON SALEM RYNLDS AP"
+  },
+  "woodbury-mn": {
+    "distance_km": 9.5,
+    "freezing_days_per_year": 150.5,
+    "station_id": "USC00217377",
+    "station_name": "ST PAUL"
+  },
+  "worcester-ma": {
+    "distance_km": 6.1,
+    "freezing_days_per_year": 127.0,
+    "station_id": "USW00094746",
+    "station_name": "WORCESTER RGNL AP"
+  },
+  "wyoming-mi": {
+    "distance_km": 13.5,
+    "freezing_days_per_year": 126.5,
+    "station_id": "USW00094860",
+    "station_name": "GRAND RAPIDS"
+  },
+  "yakima-wa": {
+    "distance_km": 1.4,
+    "freezing_days_per_year": 105.4,
+    "station_id": "USC00459463",
+    "station_name": "YAKIMA #2"
+  },
+  "yonkers-ny": {
+    "distance_km": 10.2,
+    "freezing_days_per_year": 107.6,
+    "station_id": "USC00302129",
+    "station_name": "DOBBS FERRY-ARDSLEY"
+  },
+  "yuma-az": {
+    "distance_km": 4.2,
+    "freezing_days_per_year": 1.6,
+    "station_id": "USC00029656",
+    "station_name": "YUMA QUARTERMASTER DEPOT"
+  }
+}
