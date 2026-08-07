@@ -1,0 +1,71 @@
+id: ddr3-1-drought-severity
+epic: data-drive-round-3
+title: Ship drought severity from the real US Drought Monitor API
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+description: |
+  Real county-level drought severity from usdmdataservices.unl.edu, confirmed
+  live during planning research: no API key, per-county CSV response, ~0.6s
+  per request. Uses the D2 column (% of county area in Severe Drought or
+  worse) -- already a real, natively 0-100-bounded percentage, direct
+  mapping, higher = more concerning. Reuses the existing city-county-fips.json
+  crosswalk, no new geocoding.
+
+acceptance_criteria:
+  - "Given a real county FIPS, when fetched, then the real most-recent week's D2 percentage is used, not an average or a stale cached value from a much earlier date."
+  - "Given the dataset ships, when checked against dvd-1's completeness test, then it passes with zero exceptions."
+  - "Given a real, currently-dry region and a real, currently-wet region (checked live at build time, not assumed), when compared, then the drier region scores meaningfully higher concern."
+
+steps:
+  - id: research
+    description: Confirm the live endpoint and CSV schema still match this story's live-verified findings.
+    agent: researcher
+  - id: implement
+    description: Write scripts/gen_drought_data.py, src/lib/datasets/drought.ts, data/drought-methodology.md, following the established wrapper pattern.
+    agent: developer
+    depends_on: [research]
+  - id: test
+    description: "tests/drought-dataset.test.ts, a new tests/e2e/mapstack.spec.ts block, then pnpm verify end to end."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review for honest coverage reporting and real methodology disclosure.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, and deploy (vercel --prod).
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: data/raw/city-county-fips.json
+      purpose: Existing county crosswalk this story reuses unchanged.
+
+files_to_modify: []
+code_examples:
+  - title: Real confirmed working request (live-checked during planning)
+    file: N/A
+    snippet: |
+      https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=36061&startdate=1/27/2026&enddate=1/27/2026&statisticsType=1
+      # Real CSV response: MapDate,FIPS,County,State,None,D0,D1,D2,D3,D4,ValidStart,ValidEnd,StatisticFormatID
+
+design_decisions:
+  - decision: "D2 (Severe Drought or worse), not D0 or D4."
+    rationale: "D0 (Abnormally Dry) is too broad to be meaningfully concerning on its own; D4 (Exceptional Drought) is too rare to differentiate most of the spine. D2 is the real, commonly-cited USDM threshold for meaningful agricultural/water-supply impact."
+
+risks:
+  - severity: low
+    description: "~480 sequential requests is a real, non-trivial fetch time (~5 minutes)."
+    mitigation: "Same caching convention as every other script -- resumable on re-run."
+
+references:
+  - path: .pHive/epics/data-drive-round-3/docs/research-brief.md
+    relevant_excerpt: |
+      Confirmed live, no API key, CSV response. Takes a real 5-digit county
+      FIPS directly as aoi... Reuses the existing city-county-fips.json
+      crosswalk directly -- no new geocoding.

@@ -1,0 +1,31 @@
+name: data-drive-round-3
+title: Third data-drive research round -- ship drought severity
+description: >
+  A third fresh dataset-candidate research round. FBI hate crime and EPA
+  Superfund remain deferred (real endpoint dead-ends this round too, not
+  struck out). Ships US Drought Monitor county-level severity -- real,
+  live-verified, keyless, reuses the existing county crosswalk.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the two prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the two prior epics.
+
+stories:
+  - id: ddr3-1-drought-severity
+    title: Ship drought severity from the real US Drought Monitor API
+    complexity: low
+    depends_on: []
