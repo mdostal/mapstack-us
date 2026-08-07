@@ -31,6 +31,7 @@ import { averageWageDataset } from "@/lib/datasets/average-wage";
 import { droughtDataset } from "@/lib/datasets/drought";
 import { hateCrimeDataset } from "@/lib/datasets/hate-crime";
 import { superfundDataset } from "@/lib/datasets/superfund";
+import { earthquakeDataset } from "@/lib/datasets/earthquake";
 import type { Dataset } from "@/lib/datasets/types";
 
 /**
@@ -73,6 +74,7 @@ export const DATASETS: Dataset[] = [
   droughtDataset,
   hateCrimeDataset,
   superfundDataset,
+  earthquakeDataset,
 ];
 
 export function getDataset(id: string): Dataset | undefined {

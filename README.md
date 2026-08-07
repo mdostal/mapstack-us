@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  thirty-four genuinely different real implementations across the full 512-city spine,
+  thirty-five genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -140,6 +140,10 @@ built from two real, working examples instead of upfront design.
     resolving another long-deferred lead via the same documentation-rendering
     technique: a newer Envirofacts API base and program-prefixed table names
     (`data/superfund-methodology.md`).
+  - **Seismic risk** — real USGS ASCE 7-22 seismic design values, the same
+    standard values real building codes use, a genuinely new hazard category
+    (earthquake, distinct from `hazard.ts`'s flood/wildfire), zero crosswalk
+    needed at all (`data/earthquake-methodology.md`).
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
