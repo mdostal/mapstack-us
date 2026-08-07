@@ -162,6 +162,11 @@ data/raw/school-spending-cache/
 # above. data/business-density.json IS committed.
 data/raw/business-density-cache/
 
+# Pure fetch-scratch for the TRI facility-density dataset build
+# (scripts/gen_tri_facility_density_data.py) -- same posture as the caches
+# above. data/tri-facility-density.json IS committed.
+data/raw/tri-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html
