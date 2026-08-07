@@ -1,0 +1,92 @@
+id: dvd-3-coverage-honesty-check
+epic: dataset-verification-drive
+title: Coverage-honesty regression test -- methodology doc claims match real _meta counts
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+parallel_allowed: true
+parallel_rationale: bounded-slice
+files_to_modify:
+  - file: tests/coverage-honesty.test.ts
+    change: "New test file. For every data/*.json with a _meta.coverage field, asserts the corresponding methodology doc mentions that exact number."
+
+description: |
+  This session hit a real bug once already: gen_air_quality_data.py's rate-limit
+  handling silently mis-cached 53 real cities as "no data," which would have
+  shipped a wrong coverage count if not caught by manual inspection (see
+  data/air-quality-methodology.md's own "real bug found and fixed mid-build"
+  section). That was caught by a human noticing implausible clustering, not by
+  any automated check. This story turns that specific failure mode into a
+  standing regression test: for every dataset JSON file with a real _meta.coverage
+  (or equivalent) field, assert the number the code actually produces matches the
+  number the methodology doc claims in prose. If a future data-fetch bug silently
+  changes real coverage, this test catches the mismatch between "what shipped"
+  and "what the docs claim" even before a human notices.
+
+acceptance_criteria:
+  - "Given a data/*.json file with a top-level _meta object containing a coverage (or equivalent numeric) field, when the test runs, then it locates that dataset's methodology doc and asserts the doc's text contains that exact number."
+  - "Given a data/*.json file with no _meta/coverage field (full 512/512 datasets that don't bother stating it, or datasets computed inline with no JSON file), when the test runs, then it is skipped for that dataset, not falsely failed."
+  - "Given all 27 real datasets today, when the test runs, then it passes with zero mismatches -- proving current docs are already accurate, not just that the check exists."
+  - "Given a deliberately mismatched fixture (mock _meta.coverage vs a doc string with a different number), when tested in isolation, then the check fails with a clear message naming both numbers -- proving the check is real."
+
+steps:
+  - id: implement
+    description: Write tests/coverage-honesty.test.ts -- read every data/*.json, extract _meta.coverage (or similarly-named numeric field) where present, cross-reference against the matching data/{id}-methodology.md text.
+    agent: developer
+  - id: test
+    description: "Run pnpm test to confirm all 27 real datasets pass; add one isolated mismatch-detection test using inline mock strings (not a real file) to prove the check actually fails when expected."
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Review the field-name heuristic for false negatives (a dataset whose coverage is stated under a differently-named _meta key that the check misses).
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit and push to feature branch.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  tech_stack:
+    languages: [typescript]
+    frameworks: [vitest]
+  key_files:
+    - path: data/air-quality-methodology.md
+      purpose: "Real precedent -- documents the exact rate-limit bug this test guards against, including the corrected coverage number (459/512)."
+    - path: data/air-quality.json
+      purpose: "Has a real _meta block with known_gap_cities_rate_limited_at_build and a note -- the shape this check needs to read."
+
+files_to_modify:
+  - file: tests/coverage-honesty.test.ts
+    change: "New file."
+
+code_examples:
+  - title: Real _meta shape to parse against (air-quality.json)
+    file: data/air-quality.json
+    snippet: |
+      "_meta": {
+        "source": "EPA AirNow current observations...",
+        "coverage": 459,
+        "known_gap_cities_rate_limited_at_build": [ "..." ],
+        "note": "..."
+      }
+
+design_decisions:
+  - decision: "Match on the coverage number's exact string representation, not a fuzzy/rounded comparison."
+    rationale: "Coverage counts are small integers (out of 512) where exact-match is unambiguous and any looseness would defeat the point -- catching a real, specific drift."
+
+risks:
+  - severity: low
+    description: "A methodology doc could state the coverage number in a different format than the JSON (e.g. '508/512' vs a bare 508), causing a false failure."
+    mitigation: "Check for the substring match against the bare number (already the convention in every existing methodology doc, verified during research), which covers both '508/512' and standalone '508' phrasings."
+
+references:
+  - path: data/air-quality-methodology.md
+    relevant_excerpt: |
+      A real, self-introduced bug caught before final shipping: first
+      gen_air_quality_data.py run treated any API response not starting with
+      "[" as "no monitor nearby" and permanently wrote that empty result to
+      cache. This silently mislabeled 53 real cities...
