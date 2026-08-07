@@ -476,6 +476,22 @@ test("the twenty-eighth dataset (school spending) is selectable and reports a re
   await expect(detail).toContainText("NCES");
 });
 
+test("the twenty-ninth dataset (business density) is selectable and reports a real Census Business Patterns value -- pivoted from EPA TRI after a real live feasibility blocker", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Business density" }).click();
+  await page.getByRole("button", { name: "Business density", exact: true }).click();
+  await page.getByRole("button", { name: "Add Business density" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Business density: Business density" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Business density" });
+  await expect(detail).toContainText("business establishments per 1,000 residents");
+  await expect(detail).toContainText("Census Business Patterns");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

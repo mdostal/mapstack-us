@@ -157,6 +157,11 @@ data/raw/bea-cache/
 # above. data/school-spending.json IS committed.
 data/raw/school-spending-cache/
 
+# Pure fetch-scratch for the business-density dataset build
+# (scripts/gen_business_density_data.py) -- same posture as the caches
+# above. data/business-density.json IS committed.
+data/raw/business-density-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

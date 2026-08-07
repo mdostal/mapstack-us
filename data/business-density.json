@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "resolution": "county (CBP has no place-level geography)",
+    "source": "Census Business Patterns 2023 (ESTAB) normalized by Census ACS 5-year population estimates 2023"
+  },
+  "abilene-tx": {
+    "concern": 54.0,
+    "county": "Taylor",
+    "establishments_per_1000": 25.36
+  },
+  "akron-oh": {
+    "concern": 59.7,
+    "county": "Summit",
+    "establishments_per_1000": 24.73
+  },
+  "alameda-ca": {
+    "concern": 50.5,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "albany-ny": {
+    "concern": 28.6,
+    "county": "Albany",
+    "establishments_per_1000": 30.01
+  },
+  "albuquerque-nm": {
+    "concern": 64.4,
+    "county": "Bernalillo",
+    "establishments_per_1000": 24.24
+  },
+  "alexandria-va": {
+    "concern": 33.9,
+    "county": "Alexandria",
+    "establishments_per_1000": 28.66
+  },
+  "alhambra-ca": {
+    "concern": 21.7,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "allen-tx": {
+    "concern": 38.4,
+    "county": "Collin",
+    "establishments_per_1000": 27.77
+  },
+  "allentown-pa": {
+    "concern": 70.3,
+    "county": "Lehigh",
+    "establishments_per_1000": 23.12
+  },
+  "amarillo-tx": {
+    "concern": 29.0,
+    "county": "Potter",
+    "establishments_per_1000": 29.91
+  },
+  "anaheim-ca": {
+    "concern": 13.1,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "anchorage-ak": {
+    "concern": 27.2,
+    "county": "Anchorage",
+    "establishments_per_1000": 30.44
+  },
+  "ankeny-ia": {
+    "concern": 37.6,
+    "county": "Polk",
+    "establishments_per_1000": 27.92
+  },
+  "ann-arbor-mi": {
+    "concern": 72.4,
+    "county": "Washtenaw",
+    "establishments_per_1000": 22.59
+  },
+  "antioch-ca": {
+    "concern": 74.4,
+    "county": "Contra Costa",
+    "establishments_per_1000": 22.33
+  },
+  "apex-nc": {
+    "concern": 29.7,
+    "county": "Wake",
+    "establishments_per_1000": 29.43
+  },
+  "arlington-tx": {
+    "concern": 75.3,
+    "county": "Tarrant",
+    "establishments_per_1000": 22.31
+  },
+  "arlington-va": {
+    "concern": 43.4,
+    "county": "Arlington",
+    "establishments_per_1000": 26.9
+  },
+  "arvada-co": {
+    "concern": 21.1,
+    "county": "Jefferson",
+    "establishments_per_1000": 31.05
+  },
+  "asheville-nc": {
+    "concern": 6.3,
+    "county": "Buncombe",
+    "establishments_per_1000": 36.29
+  },
+  "athens-ga": {
+    "concern": 52.1,
+    "county": "Clarke",
+    "establishments_per_1000": 25.58
+  },
+  "atlanta-ga": {
+    "concern": 2.5,
+    "county": "Fulton",
+    "establishments_per_1000": 38.32
+  },
+  "auburn-al": {
+    "concern": 89.8,
+    "county": "Lee",
+    "establishments_per_1000": 19.01
+  },
+  "auburn-wa": {
+    "concern": 19.2,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "augusta-ga": {
+    "concern": 83.4,
+    "county": "Richmond",
+    "establishments_per_1000": 20.77
+  },
+  "aurora-co": {
+    "concern": 26.6,
+    "county": "Arapahoe",
+    "establishments_per_1000": 30.71
+  },
+  "aurora-il": {
+    "concern": 46.4,
+    "county": "Kane",
+    "establishments_per_1000": 26.23
+  },
+  "austin-tx": {
+    "concern": 13.7,
+    "county": "Travis",
+    "establishments_per_1000": 32.76
+  },
+  "avondale-az": {
+    "concern": 61.1,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "bakersfield-ca": {
+    "concern": 97.8,
+    "county": "Kern",
+    "establishments_per_1000": 15.76
+  },
+  "baltimore-md": {
+    "concern": 80.6,
+    "county": "Baltimore",
+    "establishments_per_1000": 21.45
+  },
+  "baton-rouge-la": {
+    "concern": 39.1,
+    "county": "East Baton Rouge",
+    "establishments_per_1000": 27.7
+  },
+  "baytown-tx": {
+    "concern": 67.9,
+    "county": "Harris",
+    "establishments_per_1000": 23.37
+  },
+  "beaumont-tx": {
+    "concern": 73.0,
+    "county": "Jefferson",
+    "establishments_per_1000": 22.49
+  },
+  "beaverton-or": {
+    "concern": 42.7,
+    "county": "Washington",
+    "establishments_per_1000": 27.25
+  },
+  "bellevue-wa": {
+    "concern": 20.2,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "bellingham-wa": {
+    "concern": 17.8,
+    "county": "Whatcom",
+    "establishments_per_1000": 31.28
+  },
+  "bend-or": {
+    "concern": 0.6,
+    "county": "Deschutes",
+    "establishments_per_1000": 42.13
+  },
+  "berkeley-ca": {
+    "concern": 51.1,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "bethlehem-pa": {
+    "concern": 84.0,
+    "county": "Northampton",
+    "establishments_per_1000": 20.67
+  },
+  "billings-mt": {
+    "concern": 6.5,
+    "county": "Yellowstone",
+    "establishments_per_1000": 36.21
+  },
+  "birmingham-al": {
+    "concern": 53.8,
+    "county": "Jefferson",
+    "establishments_per_1000": 25.37
+  },
+  "bismarck-nd": {
+    "concern": 13.9,
+    "county": "Burleigh",
+    "establishments_per_1000": 32.51
+  },
+  "blanding-ut": {
+    "concern": 86.7,
+    "county": "San Juan",
+    "establishments_per_1000": 19.7
+  },
+  "bloomington-il": {
+    "concern": 84.7,
+    "county": "McLean",
+    "establishments_per_1000": 20.37
+  },
+  "bloomington-in": {
+    "concern": 76.7,
+    "county": "Monroe",
+    "establishments_per_1000": 22.14
+  },
+  "bloomington-mn": {
+    "concern": 16.2,
+    "county": "Hennepin",
+    "establishments_per_1000": 31.91
+  },
+  "boca-raton-fl": {
+    "concern": 4.1,
+    "county": "Palm Beach",
+    "establishments_per_1000": 37.02
+  },
+  "boise-id": {
+    "concern": 13.5,
+    "county": "Ada",
+    "establishments_per_1000": 33.52
+  },
+  "boston-ma": {
+    "concern": 36.8,
+    "county": "Suffolk",
+    "establishments_per_1000": 28.17
+  },
+  "boulder-co": {
+    "concern": 1.4,
+    "county": "Boulder",
+    "establishments_per_1000": 39.57
+  },
+  "bowling-green-ky": {
+    "concern": 73.4,
+    "county": "Warren",
+    "establishments_per_1000": 22.36
+  },
+  "boynton-beach-fl": {
+    "concern": 3.9,
+    "county": "Palm Beach",
+    "establishments_per_1000": 37.02
+  },
+  "bridgeport-ct": {
+    "concern": 80.8,
+    "county": "Greater Bridgeport",
+    "establishments_per_1000": 21.27
+  },
+  "brockton-ma": {
+    "concern": 54.8,
+    "county": "Plymouth",
+    "establishments_per_1000": 25.23
+  },
+  "broken-arrow-ok": {
+    "concern": 30.7,
+    "county": "Tulsa",
+    "establishments_per_1000": 29.03
+  },
+  "brooklyn-park-mn": {
+    "concern": 16.0,
+    "county": "Hennepin",
+    "establishments_per_1000": 31.91
+  },
+  "broomfield-co": {
+    "concern": 18.8,
+    "county": "Broomfield",
+    "establishments_per_1000": 31.11
+  },
+  "brownsville-tx": {
+    "concern": 97.7,
+    "county": "Cameron",
+    "establishments_per_1000": 15.91
+  },
+  "bryan-tx": {
+    "concern": 82.8,
+    "county": "Brazos",
+    "establishments_per_1000": 20.89
+  },
+  "buckeye-az": {
+    "concern": 61.4,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "buena-park-ca": {
+    "concern": 10.8,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "buffalo-ny": {
+    "concern": 65.9,
+    "county": "Erie",
+    "establishments_per_1000": 23.68
+  },
+  "burbank-ca": {
+    "concern": 23.5,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "caldwell-id": {
+    "concern": 60.3,
+    "county": "Canyon",
+    "establishments_per_1000": 24.48
+  },
+  "cambridge-ma": {
+    "concern": 40.1,
+    "county": "Middlesex",
+    "establishments_per_1000": 27.5
+  },
+  "cape-coral-fl": {
+    "concern": 33.3,
+    "county": "Lee",
+    "establishments_per_1000": 28.71
+  },
+  "carlsbad-ca": {
+    "concern": 35.0,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "carlsbad-nm": {
+    "concern": 53.4,
+    "county": "Eddy",
+    "establishments_per_1000": 25.38
+  },
+  "carmel-in": {
+    "concern": 30.5,
+    "county": "Hamilton",
+    "establishments_per_1000": 29.25
+  },
+  "carrollton-tx": {
+    "concern": 81.2,
+    "county": "Denton",
+    "establishments_per_1000": 21.18
+  },
+  "carson-ca": {
+    "concern": 22.9,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "cary-nc": {
+    "concern": 29.9,
+    "county": "Wake",
+    "establishments_per_1000": 29.43
+  },
+  "castle-rock-co": {
+    "concern": 33.7,
+    "county": "Douglas",
+    "establishments_per_1000": 28.68
+  },
+  "cedar-park-tx": {
+    "concern": 68.5,
+    "county": "Williamson",
+    "establishments_per_1000": 23.36
+  },
+  "cedar-rapids-ia": {
+    "concern": 56.0,
+    "county": "Linn",
+    "establishments_per_1000": 25.03
+  },
+  "centennial-co": {
+    "concern": 26.4,
+    "county": "Arapahoe",
+    "establishments_per_1000": 30.71
+  },
+  "champaign-il": {
+    "concern": 84.1,
+    "county": "Champaign",
+    "establishments_per_1000": 20.56
+  },
+  "chandler-az": {
+    "concern": 62.8,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "charleston-sc": {
+    "concern": 3.1,
+    "county": "Charleston",
+    "establishments_per_1000": 38.1
+  },
+  "charlotte-nc": {
+    "concern": 14.7,
+    "county": "Mecklenburg",
+    "establishments_per_1000": 32.25
+  },
+  "chattanooga-tn": {
+    "concern": 44.2,
+    "county": "Hamilton",
+    "establishments_per_1000": 26.65
+  },
+  "chesapeake-va": {
+    "concern": 69.3,
+    "county": "Chesapeake",
+    "establishments_per_1000": 23.36
+  },
+  "chicago-il": {
+    "concern": 48.3,
+    "county": "Cook",
+    "establishments_per_1000": 25.94
+  },
+  "chico-ca": {
+    "concern": 74.0,
+    "county": "Butte",
+    "establishments_per_1000": 22.33
+  },
+  "chino-ca": {
+    "concern": 87.7,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "chino-hills-ca": {
+    "concern": 87.3,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "chula-vista-ca": {
+    "concern": 35.6,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "cicero-il": {
+    "concern": 47.9,
+    "county": "Cook",
+    "establishments_per_1000": 25.94
+  },
+  "cincinnati-oh": {
+    "concern": 52.4,
+    "county": "Hamilton",
+    "establishments_per_1000": 25.47
+  },
+  "citrus-heights-ca": {
+    "concern": 79.1,
+    "county": "Sacramento",
+    "establishments_per_1000": 21.64
+  },
+  "clarksville-tn": {
+    "concern": 99.4,
+    "county": "Montgomery",
+    "establishments_per_1000": 15.04
+  },
+  "clearwater-fl": {
+    "concern": 10.0,
+    "county": "Pinellas",
+    "establishments_per_1000": 33.84
+  },
+  "cleveland-oh": {
+    "concern": 55.4,
+    "county": "Cuyahoga",
+    "establishments_per_1000": 25.21
+  },
+  "clifton-nj": {
+    "concern": 65.2,
+    "county": "Passaic",
+    "establishments_per_1000": 23.94
+  },
+  "clovis-ca": {
+    "concern": 90.8,
+    "county": "Fresno",
+    "establishments_per_1000": 18.91
+  },
+  "college-station-tx": {
+    "concern": 83.0,
+    "county": "Brazos",
+    "establishments_per_1000": 20.89
+  },
+  "colorado-springs-co": {
+    "concern": 51.9,
+    "county": "El Paso",
+    "establishments_per_1000": 25.61
+  },
+  "columbia-mo": {
+    "concern": 52.6,
+    "county": "Boone",
+    "establishments_per_1000": 25.42
+  },
+  "columbia-sc": {
+    "concern": 72.8,
+    "county": "Richland",
+    "establishments_per_1000": 22.51
+  },
+  "columbus-ga": {
+    "concern": 76.9,
+    "county": "Muscogee",
+    "establishments_per_1000": 22.07
+  },
+  "columbus-oh": {
+    "concern": 69.5,
+    "county": "Franklin",
+    "establishments_per_1000": 23.23
+  },
+  "compton-ca": {
+    "concern": 22.7,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "concord-ca": {
+    "concern": 74.6,
+    "county": "Contra Costa",
+    "establishments_per_1000": 22.33
+  },
+  "concord-nc": {
+    "concern": 71.8,
+    "county": "Cabarrus",
+    "establishments_per_1000": 22.83
+  },
+  "conroe-tx": {
+    "concern": 71.2,
+    "county": "Montgomery",
+    "establishments_per_1000": 22.93
+  },
+  "coral-springs-fl": {
+    "concern": 8.4,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "corona-ca": {
+    "concern": 92.6,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "corpus-christi-tx": {
+    "concern": 70.5,
+    "county": "Nueces",
+    "establishments_per_1000": 22.99
+  },
+  "costa-mesa-ca": {
+    "concern": 11.7,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "cranston-ri": {
+    "concern": 57.9,
+    "county": "Providence",
+    "establishments_per_1000": 24.91
+  },
+  "dallas-tx": {
+    "concern": 42.3,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "daly-city-ca": {
+    "concern": 31.3,
+    "county": "San Mateo",
+    "establishments_per_1000": 28.95
+  },
+  "danbury-ct": {
+    "concern": 14.9,
+    "county": "Western Connecticut",
+    "establishments_per_1000": 32.12
+  },
+  "davenport-ia": {
+    "concern": 47.4,
+    "county": "Scott",
+    "establishments_per_1000": 25.96
+  },
+  "davie-fl": {
+    "concern": 8.0,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "dayton-oh": {
+    "concern": 84.5,
+    "county": "Montgomery",
+    "establishments_per_1000": 20.41
+  },
+  "daytona-beach-fl": {
+    "concern": 54.2,
+    "county": "Volusia",
+    "establishments_per_1000": 25.28
+  },
+  "dearborn-mi": {
+    "concern": 90.4,
+    "county": "Wayne",
+    "establishments_per_1000": 19.0
+  },
+  "deerfield-beach-fl": {
+    "concern": 7.4,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "deltona-fl": {
+    "concern": 54.4,
+    "county": "Volusia",
+    "establishments_per_1000": 25.28
+  },
+  "denton-tx": {
+    "concern": 81.6,
+    "county": "Denton",
+    "establishments_per_1000": 21.18
+  },
+  "denver-co": {
+    "concern": 1.6,
+    "county": "Denver",
+    "establishments_per_1000": 38.42
+  },
+  "des-moines-ia": {
+    "concern": 37.8,
+    "county": "Polk",
+    "establishments_per_1000": 27.92
+  },
+  "detroit-mi": {
+    "concern": 90.6,
+    "county": "Wayne",
+    "establishments_per_1000": 19.0
+  },
+  "doral-fl": {
+    "concern": 5.1,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "downey-ca": {
+    "concern": 24.1,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "duluth-mn": {
+    "concern": 43.6,
+    "county": "St. Louis",
+    "establishments_per_1000": 26.79
+  },
+  "durango-co": {
+    "concern": 0.4,
+    "county": "La Plata",
+    "establishments_per_1000": 43.63
+  },
+  "durham-nc": {
+    "concern": 55.6,
+    "county": "Durham",
+    "establishments_per_1000": 25.14
+  },
+  "edinburg-tx": {
+    "concern": 98.8,
+    "county": "Hidalgo",
+    "establishments_per_1000": 15.2
+  },
+  "edmond-ok": {
+    "concern": 20.5,
+    "county": "Oklahoma",
+    "establishments_per_1000": 31.08
+  },
+  "el-cajon-ca": {
+    "concern": 34.8,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "el-monte-ca": {
+    "concern": 23.7,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "el-paso-tx": {
+    "concern": 93.2,
+    "county": "El Paso",
+    "establishments_per_1000": 18.79
+  },
+  "elgin-il": {
+    "concern": 46.2,
+    "county": "Kane",
+    "establishments_per_1000": 26.23
+  },
+  "elizabeth-nj": {
+    "concern": 57.5,
+    "county": "Union",
+    "establishments_per_1000": 24.93
+  },
+  "elk-grove-ca": {
+    "concern": 79.6,
+    "county": "Sacramento",
+    "establishments_per_1000": 21.64
+  },
+  "erie-pa": {
+    "concern": 72.2,
+    "county": "Erie",
+    "establishments_per_1000": 22.64
+  },
+  "escondido-ca": {
+    "concern": 35.2,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "eugene-or": {
+    "concern": 44.4,
+    "county": "Lane",
+    "establishments_per_1000": 26.53
+  },
+  "evansville-in": {
+    "concern": 36.2,
+    "county": "Vanderburgh",
+    "establishments_per_1000": 28.36
+  },
+  "everett-wa": {
+    "concern": 64.2,
+    "county": "Snohomish",
+    "establishments_per_1000": 24.27
+  },
+  "fairfield-ca": {
+    "concern": 96.3,
+    "county": "Solano",
+    "establishments_per_1000": 17.2
+  },
+  "fall-river-ma": {
+    "concern": 71.4,
+    "county": "Bristol",
+    "establishments_per_1000": 22.86
+  },
+  "fargo-nd": {
+    "concern": 16.8,
+    "county": "Cass",
+    "establishments_per_1000": 31.63
+  },
+  "farmington-hills-mi": {
+    "concern": 17.4,
+    "county": "Oakland",
+    "establishments_per_1000": 31.28
+  },
+  "fayetteville-ar": {
+    "concern": 57.1,
+    "county": "Washington",
+    "establishments_per_1000": 24.94
+  },
+  "fayetteville-nc": {
+    "concern": 94.9,
+    "county": "Cumberland",
+    "establishments_per_1000": 17.66
+  },
+  "federal-way-wa": {
+    "concern": 19.6,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "fishers-in": {
+    "concern": 30.3,
+    "county": "Hamilton",
+    "establishments_per_1000": 29.25
+  },
+  "flagstaff-az": {
+    "concern": 41.1,
+    "county": "Coconino",
+    "establishments_per_1000": 27.34
+  },
+  "flint-mi": {
+    "concern": 89.6,
+    "county": "Genesee",
+    "establishments_per_1000": 19.14
+  },
+  "flower-mound-tx": {
+    "concern": 81.0,
+    "county": "Denton",
+    "establishments_per_1000": 21.18
+  },
+  "folsom-ca": {
+    "concern": 79.5,
+    "county": "Sacramento",
+    "establishments_per_1000": 21.64
+  },
+  "fontana-ca": {
+    "concern": 88.8,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "fort-collins-co": {
+    "concern": 14.5,
+    "county": "Larimer",
+    "establishments_per_1000": 32.36
+  },
+  "fort-lauderdale-fl": {
+    "concern": 9.2,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "fort-myers-fl": {
+    "concern": 33.1,
+    "county": "Lee",
+    "establishments_per_1000": 28.71
+  },
+  "fort-smith-ar": {
+    "concern": 45.4,
+    "county": "Sebastian",
+    "establishments_per_1000": 26.45
+  },
+  "fort-wayne-in": {
+    "concern": 57.3,
+    "county": "Allen",
+    "establishments_per_1000": 24.94
+  },
+  "fort-worth-tx": {
+    "concern": 75.5,
+    "county": "Tarrant",
+    "establishments_per_1000": 22.31
+  },
+  "franklin-tn": {
+    "concern": 9.4,
+    "county": "Williamson",
+    "establishments_per_1000": 34.2
+  },
+  "frederick-md": {
+    "concern": 67.3,
+    "county": "Frederick",
+    "establishments_per_1000": 23.51
+  },
+  "fremont-ca": {
+    "concern": 51.5,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "fresno-ca": {
+    "concern": 91.0,
+    "county": "Fresno",
+    "establishments_per_1000": 18.91
+  },
+  "frisco-tx": {
+    "concern": 38.7,
+    "county": "Collin",
+    "establishments_per_1000": 27.77
+  },
+  "fullerton-ca": {
+    "concern": 12.1,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "gainesville-fl": {
+    "concern": 65.6,
+    "county": "Alachua",
+    "establishments_per_1000": 23.85
+  },
+  "garden-grove-ca": {
+    "concern": 12.3,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "garland-tx": {
+    "concern": 41.9,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "gastonia-nc": {
+    "concern": 86.1,
+    "county": "Gaston",
+    "establishments_per_1000": 19.85
+  },
+  "georgetown-tx": {
+    "concern": 68.9,
+    "county": "Williamson",
+    "establishments_per_1000": 23.36
+  },
+  "geraldine-mt": {
+    "concern": 47.0,
+    "county": "Chouteau",
+    "establishments_per_1000": 25.99
+  },
+  "gilbert-az": {
+    "concern": 63.0,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "glendale-az": {
+    "concern": 62.6,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "glendale-ca": {
+    "concern": 25.2,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "goodyear-az": {
+    "concern": 61.3,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "grand-junction-co": {
+    "concern": 26.8,
+    "county": "Mesa",
+    "establishments_per_1000": 30.68
+  },
+  "grand-prairie-tx": {
+    "concern": 41.7,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "grand-rapids-mi": {
+    "concern": 43.2,
+    "county": "Kent",
+    "establishments_per_1000": 27.02
+  },
+  "greeley-co": {
+    "concern": 77.5,
+    "county": "Weld",
+    "establishments_per_1000": 21.88
+  },
+  "green-bay-wi": {
+    "concern": 56.6,
+    "county": "Brown",
+    "establishments_per_1000": 24.95
+  },
+  "greensboro-nc": {
+    "concern": 46.0,
+    "county": "Guilford",
+    "establishments_per_1000": 26.35
+  },
+  "greenville-nc": {
+    "concern": 76.5,
+    "county": "Pitt",
+    "establishments_per_1000": 22.16
+  },
+  "gresham-or": {
+    "concern": 9.8,
+    "county": "Multnomah",
+    "establishments_per_1000": 33.84
+  },
+  "hampton-va": {
+    "concern": 96.7,
+    "county": "Hampton",
+    "establishments_per_1000": 17.2
+  },
+  "hartford-ct": {
+    "concern": 63.6,
+    "county": "Capitol",
+    "establishments_per_1000": 24.4
+  },
+  "hawthorne-ca": {
+    "concern": 21.9,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "hayward-ca": {
+    "concern": 51.3,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "hemet-ca": {
+    "concern": 91.4,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "henderson-nv": {
+    "concern": 66.5,
+    "county": "Clark",
+    "establishments_per_1000": 23.63
+  },
+  "hesperia-ca": {
+    "concern": 87.9,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "hialeah-fl": {
+    "concern": 5.7,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "high-point-nc": {
+    "concern": 45.8,
+    "county": "Guilford",
+    "establishments_per_1000": 26.35
+  },
+  "hillsboro-or": {
+    "concern": 42.9,
+    "county": "Washington",
+    "establishments_per_1000": 27.25
+  },
+  "hollywood-fl": {
+    "concern": 8.8,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "homestead-fl": {
+    "concern": 5.3,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "honolulu-hi": {
+    "concern": 83.2,
+    "county": "Honolulu",
+    "establishments_per_1000": 20.81
+  },
+  "hoover-al": {
+    "concern": 53.6,
+    "county": "Jefferson",
+    "establishments_per_1000": 25.37
+  },
+  "houston-tx": {
+    "concern": 68.3,
+    "county": "Harris",
+    "establishments_per_1000": 23.37
+  },
+  "huntington-beach-ca": {
+    "concern": 12.5,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "huntsville-al": {
+    "concern": 67.7,
+    "county": "Madison",
+    "establishments_per_1000": 23.41
+  },
+  "independence-mo": {
+    "concern": 53.0,
+    "county": "Jackson",
+    "establishments_per_1000": 25.4
+  },
+  "indianapolis-in": {
+    "concern": 56.8,
+    "county": "Marion",
+    "establishments_per_1000": 24.95
+  },
+  "indio-ca": {
+    "concern": 91.6,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "inglewood-ca": {
+    "concern": 23.3,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "irvine-ca": {
+    "concern": 12.9,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "irving-tx": {
+    "concern": 42.1,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "jackson-ms": {
+    "concern": 77.3,
+    "county": "Hinds",
+    "establishments_per_1000": 21.92
+  },
+  "jacksonville-fl": {
+    "concern": 37.0,
+    "county": "Duval",
+    "establishments_per_1000": 28.14
+  },
+  "jersey-city-nj": {
+    "concern": 85.9,
+    "county": "Hudson",
+    "establishments_per_1000": 19.87
+  },
+  "johns-creek-ga": {
+    "concern": 1.8,
+    "county": "Fulton",
+    "establishments_per_1000": 38.32
+  },
+  "joliet-il": {
+    "concern": 61.6,
+    "county": "Will",
+    "establishments_per_1000": 24.46
+  },
+  "jonesboro-ar": {
+    "concern": 58.3,
+    "county": "Craighead",
+    "establishments_per_1000": 24.87
+  },
+  "jurupa-valley-ca": {
+    "concern": 91.8,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "kalispell-mt": {
+    "concern": 0.2,
+    "county": "Flathead",
+    "establishments_per_1000": 46.95
+  },
+  "kansas-city-ks": {
+    "concern": 93.3,
+    "county": "Wyandotte",
+    "establishments_per_1000": 18.78
+  },
+  "kansas-city-mo": {
+    "concern": 53.2,
+    "county": "Jackson",
+    "establishments_per_1000": 25.4
+  },
+  "kennewick-wa": {
+    "concern": 66.9,
+    "county": "Benton",
+    "establishments_per_1000": 23.59
+  },
+  "kenosha-wi": {
+    "concern": 85.1,
+    "county": "Kenosha",
+    "establishments_per_1000": 20.21
+  },
+  "kent-wa": {
+    "concern": 20.0,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "killeen-tx": {
+    "concern": 98.2,
+    "county": "Bell",
+    "establishments_per_1000": 15.59
+  },
+  "kirkland-wa": {
+    "concern": 19.4,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "kissimmee-fl": {
+    "concern": 81.8,
+    "county": "Osceola",
+    "establishments_per_1000": 21.17
+  },
+  "knoxville-tn": {
+    "concern": 50.3,
+    "county": "Knox",
+    "establishments_per_1000": 25.69
+  },
+  "lafayette-la": {
+    "concern": 6.7,
+    "county": "Lafayette",
+    "establishments_per_1000": 36.09
+  },
+  "lake-charles-la": {
+    "concern": 72.6,
+    "county": "Calcasieu",
+    "establishments_per_1000": 22.55
+  },
+  "lake-forest-ca": {
+    "concern": 11.2,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "lakeland-fl": {
+    "concern": 94.1,
+    "county": "Polk",
+    "establishments_per_1000": 18.39
+  },
+  "lakeville-mn": {
+    "concern": 58.9,
+    "county": "Dakota",
+    "establishments_per_1000": 24.79
+  },
+  "lakewood-ca": {
+    "concern": 21.5,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "lakewood-co": {
+    "concern": 21.3,
+    "county": "Jefferson",
+    "establishments_per_1000": 31.05
+  },
+  "lancaster-ca": {
+    "concern": 25.0,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "lansing-mi": {
+    "concern": 77.9,
+    "county": "Ingham",
+    "establishments_per_1000": 21.84
+  },
+  "laredo-tx": {
+    "concern": 78.3,
+    "county": "Webb",
+    "establishments_per_1000": 21.81
+  },
+  "largo-fl": {
+    "concern": 9.6,
+    "county": "Pinellas",
+    "establishments_per_1000": 33.84
+  },
+  "las-cruces-nm": {
+    "concern": 96.9,
+    "county": "Do\u00f1a Ana",
+    "establishments_per_1000": 17.13
+  },
+  "las-vegas-nv": {
+    "concern": 66.7,
+    "county": "Clark",
+    "establishments_per_1000": 23.63
+  },
+  "lawrence-ks": {
+    "concern": 69.7,
+    "county": "Douglas",
+    "establishments_per_1000": 23.2
+  },
+  "lawrence-ma": {
+    "concern": 59.3,
+    "county": "Essex",
+    "establishments_per_1000": 24.76
+  },
+  "lawton-ok": {
+    "concern": 95.1,
+    "county": "Comanche",
+    "establishments_per_1000": 17.53
+  },
+  "layton-ut": {
+    "concern": 67.1,
+    "county": "Davis",
+    "establishments_per_1000": 23.55
+  },
+  "league-city-tx": {
+    "concern": 93.9,
+    "county": "Galveston",
+    "establishments_per_1000": 18.6
+  },
+  "leander-tx": {
+    "concern": 68.7,
+    "county": "Williamson",
+    "establishments_per_1000": 23.36
+  },
+  "lees-summit-mo": {
+    "concern": 52.8,
+    "county": "Jackson",
+    "establishments_per_1000": 25.4
+  },
+  "lehi-ut": {
+    "concern": 49.9,
+    "county": "Utah",
+    "establishments_per_1000": 25.7
+  },
+  "lewisville-tx": {
+    "concern": 81.4,
+    "county": "Denton",
+    "establishments_per_1000": 21.18
+  },
+  "lexington-ky": {
+    "concern": 31.7,
+    "county": "Fayette",
+    "establishments_per_1000": 28.95
+  },
+  "lincoln-ne": {
+    "concern": 38.0,
+    "county": "Lancaster",
+    "establishments_per_1000": 27.8
+  },
+  "little-rock-ar": {
+    "concern": 27.0,
+    "county": "Pulaski",
+    "establishments_per_1000": 30.54
+  },
+  "livermore-ca": {
+    "concern": 50.7,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "livonia-mi": {
+    "concern": 90.2,
+    "county": "Wayne",
+    "establishments_per_1000": 19.0
+  },
+  "long-beach-ca": {
+    "concern": 25.6,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "longmont-co": {
+    "concern": 1.2,
+    "county": "Boulder",
+    "establishments_per_1000": 39.57
+  },
+  "longview-tx": {
+    "concern": 14.3,
+    "county": "Gregg",
+    "establishments_per_1000": 32.36
+  },
+  "los-alamos-nm": {
+    "concern": 89.4,
+    "county": "Los Alamos",
+    "establishments_per_1000": 19.25
+  },
+  "los-angeles-ca": {
+    "concern": 25.8,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "louisville-ky": {
+    "concern": 48.1,
+    "county": "Jefferson",
+    "establishments_per_1000": 25.94
+  },
+  "loveland-co": {
+    "concern": 14.1,
+    "county": "Larimer",
+    "establishments_per_1000": 32.36
+  },
+  "lowell-ma": {
+    "concern": 39.9,
+    "county": "Middlesex",
+    "establishments_per_1000": 27.5
+  },
+  "lubbock-tx": {
+    "concern": 52.3,
+    "county": "Lubbock",
+    "establishments_per_1000": 25.49
+  },
+  "lynchburg-va": {
+    "concern": 36.0,
+    "county": "Lynchburg",
+    "establishments_per_1000": 28.4
+  },
+  "lynn-ma": {
+    "concern": 59.5,
+    "county": "Essex",
+    "establishments_per_1000": 24.76
+  },
+  "mableton-ga": {
+    "concern": 32.9,
+    "county": "Cobb",
+    "establishments_per_1000": 28.8
+  },
+  "macon-ga": {
+    "concern": 45.0,
+    "county": "Bibb",
+    "establishments_per_1000": 26.49
+  },
+  "madison-wi": {
+    "concern": 46.6,
+    "county": "Dane",
+    "establishments_per_1000": 26.14
+  },
+  "manchester-nh": {
+    "concern": 47.6,
+    "county": "Hillsborough",
+    "establishments_per_1000": 25.96
+  },
+  "mansfield-tx": {
+    "concern": 75.1,
+    "county": "Tarrant",
+    "establishments_per_1000": 22.31
+  },
+  "manteca-ca": {
+    "concern": 95.5,
+    "county": "San Joaquin",
+    "establishments_per_1000": 17.32
+  },
+  "maricopa-az": {
+    "concern": 100.0,
+    "county": "Pinal",
+    "establishments_per_1000": 10.51
+  },
+  "marysville-wa": {
+    "concern": 64.0,
+    "county": "Snohomish",
+    "establishments_per_1000": 24.27
+  },
+  "mcallen-tx": {
+    "concern": 99.0,
+    "county": "Hidalgo",
+    "establishments_per_1000": 15.2
+  },
+  "mckinney-tx": {
+    "concern": 38.6,
+    "county": "Collin",
+    "establishments_per_1000": 27.77
+  },
+  "medford-or": {
+    "concern": 29.2,
+    "county": "Jackson",
+    "establishments_per_1000": 29.61
+  },
+  "melbourne-fl": {
+    "concern": 56.2,
+    "county": "Brevard",
+    "establishments_per_1000": 24.99
+  },
+  "memphis-tn": {
+    "concern": 82.4,
+    "county": "Shelby",
+    "establishments_per_1000": 20.99
+  },
+  "menifee-ca": {
+    "concern": 92.4,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "merced-ca": {
+    "concern": 99.8,
+    "county": "Merced",
+    "establishments_per_1000": 12.58
+  },
+  "meridian-id": {
+    "concern": 13.3,
+    "county": "Ada",
+    "establishments_per_1000": 33.52
+  },
+  "mesa-az": {
+    "concern": 63.2,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "mesquite-tx": {
+    "concern": 41.5,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "miami-beach-fl": {
+    "concern": 4.9,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "miami-fl": {
+    "concern": 5.9,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "miami-gardens-fl": {
+    "concern": 5.5,
+    "county": "Miami-Dade",
+    "establishments_per_1000": 36.64
+  },
+  "midland-tx": {
+    "concern": 7.0,
+    "county": "Midland",
+    "establishments_per_1000": 35.55
+  },
+  "milpitas-ca": {
+    "concern": 48.7,
+    "county": "Santa Clara",
+    "establishments_per_1000": 25.83
+  },
+  "milwaukee-wi": {
+    "concern": 77.1,
+    "county": "Milwaukee",
+    "establishments_per_1000": 22.06
+  },
+  "minneapolis-mn": {
+    "concern": 16.4,
+    "county": "Hennepin",
+    "establishments_per_1000": 31.91
+  },
+  "miramar-fl": {
+    "concern": 8.6,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "mission-tx": {
+    "concern": 98.6,
+    "county": "Hidalgo",
+    "establishments_per_1000": 15.2
+  },
+  "mission-viejo-ca": {
+    "concern": 11.5,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "missoula-mt": {
+    "concern": 0.8,
+    "county": "Missoula",
+    "establishments_per_1000": 40.25
+  },
+  "missouri-city-tx": {
+    "concern": 80.2,
+    "county": "Fort Bend",
+    "establishments_per_1000": 21.54
+  },
+  "mobile-al": {
+    "concern": 78.7,
+    "county": "Mobile",
+    "establishments_per_1000": 21.69
+  },
+  "modesto-ca": {
+    "concern": 94.3,
+    "county": "Stanislaus",
+    "establishments_per_1000": 18.13
+  },
+  "montgomery-al": {
+    "concern": 60.1,
+    "county": "Montgomery",
+    "establishments_per_1000": 24.58
+  },
+  "monticello-ut": {
+    "concern": 86.5,
+    "county": "San Juan",
+    "establishments_per_1000": 19.7
+  },
+  "moreno-valley-ca": {
+    "concern": 92.8,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "mount-pleasant-sc": {
+    "concern": 2.7,
+    "county": "Charleston",
+    "establishments_per_1000": 38.1
+  },
+  "mountain-view-ca": {
+    "concern": 48.9,
+    "county": "Santa Clara",
+    "establishments_per_1000": 25.83
+  },
+  "murfreesboro-tn": {
+    "concern": 94.7,
+    "county": "Rutherford",
+    "establishments_per_1000": 17.88
+  },
+  "murrieta-ca": {
+    "concern": 92.0,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "nampa-id": {
+    "concern": 60.5,
+    "county": "Canyon",
+    "establishments_per_1000": 24.48
+  },
+  "naperville-il": {
+    "concern": 4.7,
+    "county": "DuPage",
+    "establishments_per_1000": 36.8
+  },
+  "nashua-nh": {
+    "concern": 47.2,
+    "county": "Hillsborough",
+    "establishments_per_1000": 25.96
+  },
+  "nashville-tn": {
+    "concern": 18.6,
+    "county": "Davidson",
+    "establishments_per_1000": 31.16
+  },
+  "new-bedford-ma": {
+    "concern": 71.6,
+    "county": "Bristol",
+    "establishments_per_1000": 22.86
+  },
+  "new-braunfels-tx": {
+    "concern": 36.4,
+    "county": "Comal",
+    "establishments_per_1000": 28.36
+  },
+  "new-haven-ct": {
+    "concern": 63.8,
+    "county": "South Central Connecticut",
+    "establishments_per_1000": 24.31
+  },
+  "new-orleans-la": {
+    "concern": 44.0,
+    "county": "Orleans",
+    "establishments_per_1000": 26.67
+  },
+  "new-rochelle-ny": {
+    "concern": 18.0,
+    "county": "Westchester",
+    "establishments_per_1000": 31.27
+  },
+  "new-york-ny": {
+    "concern": 0.0,
+    "county": "New York",
+    "establishments_per_1000": 57.69
+  },
+  "newark-nj": {
+    "concern": 72.0,
+    "county": "Essex",
+    "establishments_per_1000": 22.7
+  },
+  "newport-beach-ca": {
+    "concern": 11.0,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "newport-news-va": {
+    "concern": 84.3,
+    "county": "Newport News",
+    "establishments_per_1000": 20.5
+  },
+  "newton-ma": {
+    "concern": 39.7,
+    "county": "Middlesex",
+    "establishments_per_1000": 27.5
+  },
+  "norfolk-va": {
+    "concern": 71.0,
+    "county": "Norfolk",
+    "establishments_per_1000": 22.97
+  },
+  "norman-ok": {
+    "concern": 83.6,
+    "county": "Cleveland",
+    "establishments_per_1000": 20.73
+  },
+  "north-charleston-sc": {
+    "concern": 2.9,
+    "county": "Charleston",
+    "establishments_per_1000": 38.1
+  },
+  "north-las-vegas-nv": {
+    "concern": 66.3,
+    "county": "Clark",
+    "establishments_per_1000": 23.63
+  },
+  "north-port-fl": {
+    "concern": 6.8,
+    "county": "Sarasota",
+    "establishments_per_1000": 35.61
+  },
+  "norwalk-ca": {
+    "concern": 23.1,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "norwalk-ct": {
+    "concern": 15.1,
+    "county": "Western Connecticut",
+    "establishments_per_1000": 32.12
+  },
+  "oakland-ca": {
+    "concern": 51.7,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "oceanside-ca": {
+    "concern": 35.4,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "odessa-tx": {
+    "concern": 60.7,
+    "county": "Ector",
+    "establishments_per_1000": 24.47
+  },
+  "ofallon-mo": {
+    "concern": 78.1,
+    "county": "St. Charles",
+    "establishments_per_1000": 21.83
+  },
+  "ogden-ut": {
+    "concern": 65.0,
+    "county": "Weber",
+    "establishments_per_1000": 24.0
+  },
+  "oklahoma-city-ok": {
+    "concern": 20.7,
+    "county": "Oklahoma",
+    "establishments_per_1000": 31.08
+  },
+  "olathe-ks": {
+    "concern": 26.0,
+    "county": "Johnson",
+    "establishments_per_1000": 30.9
+  },
+  "omaha-ne": {
+    "concern": 34.2,
+    "county": "Douglas",
+    "establishments_per_1000": 28.54
+  },
+  "ontario-ca": {
+    "concern": 88.6,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "orange-ca": {
+    "concern": 11.9,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "orem-ut": {
+    "concern": 49.7,
+    "county": "Utah",
+    "establishments_per_1000": 25.7
+  },
+  "orlando-fl": {
+    "concern": 16.6,
+    "county": "Orange",
+    "establishments_per_1000": 31.65
+  },
+  "overland-park-ks": {
+    "concern": 26.2,
+    "county": "Johnson",
+    "establishments_per_1000": 30.9
+  },
+  "oxnard-ca": {
+    "concern": 40.9,
+    "county": "Ventura",
+    "establishments_per_1000": 27.43
+  },
+  "palm-bay-fl": {
+    "concern": 56.4,
+    "county": "Brevard",
+    "establishments_per_1000": 24.99
+  },
+  "palm-coast-fl": {
+    "concern": 76.3,
+    "county": "Flagler",
+    "establishments_per_1000": 22.17
+  },
+  "palmdale-ca": {
+    "concern": 24.9,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "parma-oh": {
+    "concern": 55.2,
+    "county": "Cuyahoga",
+    "establishments_per_1000": 25.21
+  },
+  "pasadena-ca": {
+    "concern": 24.3,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "pasadena-tx": {
+    "concern": 68.1,
+    "county": "Harris",
+    "establishments_per_1000": 23.37
+  },
+  "pasco-wa": {
+    "concern": 85.5,
+    "county": "Franklin",
+    "establishments_per_1000": 20.15
+  },
+  "paterson-nj": {
+    "concern": 65.4,
+    "county": "Passaic",
+    "establishments_per_1000": 23.94
+  },
+  "pawtucket-ri": {
+    "concern": 57.7,
+    "county": "Providence",
+    "establishments_per_1000": 24.91
+  },
+  "pearland-tx": {
+    "concern": 95.3,
+    "county": "Brazoria",
+    "establishments_per_1000": 17.42
+  },
+  "pembroke-pines-fl": {
+    "concern": 9.0,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "peoria-az": {
+    "concern": 62.2,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "peoria-il": {
+    "concern": 70.1,
+    "county": "Peoria",
+    "establishments_per_1000": 23.18
+  },
+  "perris-ca": {
+    "concern": 91.2,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "pharr-tx": {
+    "concern": 98.4,
+    "county": "Hidalgo",
+    "establishments_per_1000": 15.2
+  },
+  "philadelphia-pa": {
+    "concern": 93.5,
+    "county": "Philadelphia",
+    "establishments_per_1000": 18.62
+  },
+  "phoenix-az": {
+    "concern": 63.4,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "pittsburg-ca": {
+    "concern": 73.6,
+    "county": "Contra Costa",
+    "establishments_per_1000": 22.33
+  },
+  "pittsburgh-pa": {
+    "concern": 42.5,
+    "county": "Allegheny",
+    "establishments_per_1000": 27.26
+  },
+  "plano-tx": {
+    "concern": 38.9,
+    "county": "Collin",
+    "establishments_per_1000": 27.77
+  },
+  "plantation-fl": {
+    "concern": 7.8,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "plymouth-mn": {
+    "concern": 15.9,
+    "county": "Hennepin",
+    "establishments_per_1000": 31.91
+  },
+  "pomona-ca": {
+    "concern": 24.7,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "pompano-beach-fl": {
+    "concern": 8.2,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "port-st-lucie-fl": {
+    "concern": 82.2,
+    "county": "St. Lucie",
+    "establishments_per_1000": 21.06
+  },
+  "portland-or": {
+    "concern": 10.4,
+    "county": "Multnomah",
+    "establishments_per_1000": 33.84
+  },
+  "portsmouth-va": {
+    "concern": 97.3,
+    "county": "Portsmouth",
+    "establishments_per_1000": 16.41
+  },
+  "providence-ri": {
+    "concern": 58.1,
+    "county": "Providence",
+    "establishments_per_1000": 24.91
+  },
+  "provo-ut": {
+    "concern": 50.1,
+    "county": "Utah",
+    "establishments_per_1000": 25.7
+  },
+  "pueblo-co": {
+    "concern": 89.2,
+    "county": "Pueblo",
+    "establishments_per_1000": 19.26
+  },
+  "queen-creek-az": {
+    "concern": 60.9,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "quincy-ma": {
+    "concern": 34.1,
+    "county": "Norfolk",
+    "establishments_per_1000": 28.63
+  },
+  "racine-wi": {
+    "concern": 82.6,
+    "county": "Racine",
+    "establishments_per_1000": 20.9
+  },
+  "raleigh-nc": {
+    "concern": 30.1,
+    "county": "Wake",
+    "establishments_per_1000": 29.43
+  },
+  "rancho-cordova-ca": {
+    "concern": 79.3,
+    "county": "Sacramento",
+    "establishments_per_1000": 21.64
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 88.5,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "rapid-city-sd": {
+    "concern": 4.5,
+    "county": "Pennington",
+    "establishments_per_1000": 36.91
+  },
+  "reading-pa": {
+    "concern": 86.3,
+    "county": "Berks",
+    "establishments_per_1000": 19.82
+  },
+  "redding-ca": {
+    "concern": 58.5,
+    "county": "Shasta",
+    "establishments_per_1000": 24.83
+  },
+  "redmond-wa": {
+    "concern": 19.0,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "redwood-city-ca": {
+    "concern": 31.1,
+    "county": "San Mateo",
+    "establishments_per_1000": 28.95
+  },
+  "reno-nv": {
+    "concern": 32.3,
+    "county": "Washoe",
+    "establishments_per_1000": 28.87
+  },
+  "renton-wa": {
+    "concern": 19.8,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "rialto-ca": {
+    "concern": 88.1,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "richardson-tx": {
+    "concern": 41.3,
+    "county": "Dallas",
+    "establishments_per_1000": 27.34
+  },
+  "richmond-ca": {
+    "concern": 74.2,
+    "county": "Contra Costa",
+    "establishments_per_1000": 22.33
+  },
+  "richmond-va": {
+    "concern": 33.5,
+    "county": "Richmond",
+    "establishments_per_1000": 28.69
+  },
+  "rio-rancho-nm": {
+    "concern": 99.6,
+    "county": "Sandoval",
+    "establishments_per_1000": 12.72
+  },
+  "riverside-ca": {
+    "concern": 93.0,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "roanoke-va": {
+    "concern": 15.7,
+    "county": "Roanoke",
+    "establishments_per_1000": 31.93
+  },
+  "rochester-hills-mi": {
+    "concern": 17.2,
+    "county": "Oakland",
+    "establishments_per_1000": 31.28
+  },
+  "rochester-mn": {
+    "concern": 70.8,
+    "county": "Olmsted",
+    "establishments_per_1000": 22.97
+  },
+  "rochester-ny": {
+    "concern": 69.9,
+    "county": "Monroe",
+    "establishments_per_1000": 23.19
+  },
+  "rockford-il": {
+    "concern": 76.1,
+    "county": "Winnebago",
+    "establishments_per_1000": 22.19
+  },
+  "rocklin-ca": {
+    "concern": 29.4,
+    "county": "Placer",
+    "establishments_per_1000": 29.53
+  },
+  "rogers-ar": {
+    "concern": 45.6,
+    "county": "Benton",
+    "establishments_per_1000": 26.44
+  },
+  "roseville-ca": {
+    "concern": 29.5,
+    "county": "Placer",
+    "establishments_per_1000": 29.53
+  },
+  "roswell-ga": {
+    "concern": 2.0,
+    "county": "Fulton",
+    "establishments_per_1000": 38.32
+  },
+  "round-rock-tx": {
+    "concern": 69.1,
+    "county": "Williamson",
+    "establishments_per_1000": 23.36
+  },
+  "sacramento-ca": {
+    "concern": 79.8,
+    "county": "Sacramento",
+    "establishments_per_1000": 21.64
+  },
+  "saint-paul-mn": {
+    "concern": 55.8,
+    "county": "Ramsey",
+    "establishments_per_1000": 25.12
+  },
+  "salem-or": {
+    "concern": 45.2,
+    "county": "Marion",
+    "establishments_per_1000": 26.48
+  },
+  "salinas-ca": {
+    "concern": 82.0,
+    "county": "Monterey",
+    "establishments_per_1000": 21.14
+  },
+  "salt-lake-city-ut": {
+    "concern": 28.4,
+    "county": "Salt Lake",
+    "establishments_per_1000": 30.16
+  },
+  "san-angelo-tx": {
+    "concern": 58.7,
+    "county": "Tom Green",
+    "establishments_per_1000": 24.82
+  },
+  "san-antonio-tx": {
+    "concern": 87.1,
+    "county": "Bexar",
+    "establishments_per_1000": 19.5
+  },
+  "san-bernardino-ca": {
+    "concern": 89.0,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "san-diego-ca": {
+    "concern": 35.8,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "san-francisco-ca": {
+    "concern": 1.0,
+    "county": "San Francisco",
+    "establishments_per_1000": 39.91
+  },
+  "san-jose-ca": {
+    "concern": 49.5,
+    "county": "Santa Clara",
+    "establishments_per_1000": 25.83
+  },
+  "san-leandro-ca": {
+    "concern": 50.9,
+    "county": "Alameda",
+    "establishments_per_1000": 25.62
+  },
+  "san-marcos-ca": {
+    "concern": 34.4,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "san-marcos-tx": {
+    "concern": 70.6,
+    "county": "Hays",
+    "establishments_per_1000": 22.97
+  },
+  "san-mateo-ca": {
+    "concern": 31.5,
+    "county": "San Mateo",
+    "establishments_per_1000": 28.95
+  },
+  "san-ramon-ca": {
+    "concern": 73.8,
+    "county": "Contra Costa",
+    "establishments_per_1000": 22.33
+  },
+  "sandpoint-id": {
+    "concern": 3.7,
+    "county": "Bonner",
+    "establishments_per_1000": 37.06
+  },
+  "sandy-springs-ga": {
+    "concern": 2.2,
+    "county": "Fulton",
+    "establishments_per_1000": 38.32
+  },
+  "sandy-ut": {
+    "concern": 27.8,
+    "county": "Salt Lake",
+    "establishments_per_1000": 30.16
+  },
+  "santa-ana-ca": {
+    "concern": 12.7,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "santa-barbara-ca": {
+    "concern": 37.2,
+    "county": "Santa Barbara",
+    "establishments_per_1000": 28.12
+  },
+  "santa-clara-ca": {
+    "concern": 49.1,
+    "county": "Santa Clara",
+    "establishments_per_1000": 25.83
+  },
+  "santa-clarita-ca": {
+    "concern": 25.4,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "santa-fe-nm": {
+    "concern": 15.5,
+    "county": "Santa Fe",
+    "establishments_per_1000": 32.07
+  },
+  "santa-maria-ca": {
+    "concern": 37.4,
+    "county": "Santa Barbara",
+    "establishments_per_1000": 28.12
+  },
+  "santa-monica-ca": {
+    "concern": 22.5,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "santa-rosa-ca": {
+    "concern": 28.8,
+    "county": "Sonoma",
+    "establishments_per_1000": 30.01
+  },
+  "savannah-ga": {
+    "concern": 27.4,
+    "county": "Chatham",
+    "establishments_per_1000": 30.31
+  },
+  "schaumburg-il": {
+    "concern": 47.7,
+    "county": "Cook",
+    "establishments_per_1000": 25.94
+  },
+  "scottsdale-az": {
+    "concern": 62.4,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "seattle-wa": {
+    "concern": 20.4,
+    "county": "King",
+    "establishments_per_1000": 31.1
+  },
+  "shreveport-la": {
+    "concern": 46.8,
+    "county": "Caddo",
+    "establishments_per_1000": 26.12
+  },
+  "simi-valley-ca": {
+    "concern": 40.7,
+    "county": "Ventura",
+    "establishments_per_1000": 27.43
+  },
+  "sioux-city-ia": {
+    "concern": 59.1,
+    "county": "Woodbury",
+    "establishments_per_1000": 24.79
+  },
+  "sioux-falls-sd": {
+    "concern": 18.4,
+    "county": "Minnehaha",
+    "establishments_per_1000": 31.2
+  },
+  "somerville-ma": {
+    "concern": 39.5,
+    "county": "Middlesex",
+    "establishments_per_1000": 27.5
+  },
+  "south-bend-in": {
+    "concern": 77.7,
+    "county": "St. Joseph",
+    "establishments_per_1000": 21.86
+  },
+  "south-fulton-ga": {
+    "concern": 2.3,
+    "county": "Fulton",
+    "establishments_per_1000": 38.32
+  },
+  "south-gate-ca": {
+    "concern": 22.3,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "south-jordan-ut": {
+    "concern": 27.6,
+    "county": "Salt Lake",
+    "establishments_per_1000": 30.16
+  },
+  "sparks-nv": {
+    "concern": 32.1,
+    "county": "Washoe",
+    "establishments_per_1000": 28.87
+  },
+  "spokane-valley-wa": {
+    "concern": 44.6,
+    "county": "Spokane",
+    "establishments_per_1000": 26.5
+  },
+  "spokane-wa": {
+    "concern": 44.8,
+    "county": "Spokane",
+    "establishments_per_1000": 26.5
+  },
+  "springdale-ar": {
+    "concern": 56.9,
+    "county": "Washington",
+    "establishments_per_1000": 24.94
+  },
+  "springfield-il": {
+    "concern": 55.0,
+    "county": "Sangamon",
+    "establishments_per_1000": 25.23
+  },
+  "springfield-ma": {
+    "concern": 85.3,
+    "county": "Hampden",
+    "establishments_per_1000": 20.18
+  },
+  "springfield-mo": {
+    "concern": 32.7,
+    "county": "Greene",
+    "establishments_per_1000": 28.81
+  },
+  "st-george-ut": {
+    "concern": 3.3,
+    "county": "Washington",
+    "establishments_per_1000": 37.88
+  },
+  "st-louis-mo": {
+    "concern": 31.9,
+    "county": "St. Louis",
+    "establishments_per_1000": 28.89
+  },
+  "st-petersburg-fl": {
+    "concern": 10.2,
+    "county": "Pinellas",
+    "establishments_per_1000": 33.84
+  },
+  "stamford-ct": {
+    "concern": 15.3,
+    "county": "Western Connecticut",
+    "establishments_per_1000": 32.12
+  },
+  "sterling-heights-mi": {
+    "concern": 74.8,
+    "county": "Macomb",
+    "establishments_per_1000": 22.33
+  },
+  "stockton-ca": {
+    "concern": 95.9,
+    "county": "San Joaquin",
+    "establishments_per_1000": 17.32
+  },
+  "suffolk-va": {
+    "concern": 93.7,
+    "county": "Suffolk",
+    "establishments_per_1000": 18.61
+  },
+  "sugar-land-tx": {
+    "concern": 80.4,
+    "county": "Fort Bend",
+    "establishments_per_1000": 21.54
+  },
+  "sundance-wy": {
+    "concern": 6.1,
+    "county": "Crook",
+    "establishments_per_1000": 36.38
+  },
+  "sunnyvale-ca": {
+    "concern": 49.3,
+    "county": "Santa Clara",
+    "establishments_per_1000": 25.83
+  },
+  "sunrise-fl": {
+    "concern": 7.6,
+    "county": "Broward",
+    "establishments_per_1000": 35.04
+  },
+  "surprise-az": {
+    "concern": 61.8,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "syracuse-ny": {
+    "concern": 65.8,
+    "county": "Onondaga",
+    "establishments_per_1000": 23.68
+  },
+  "tacoma-wa": {
+    "concern": 78.5,
+    "county": "Pierce",
+    "establishments_per_1000": 21.7
+  },
+  "tallahassee-fl": {
+    "concern": 39.3,
+    "county": "Leon",
+    "establishments_per_1000": 27.64
+  },
+  "tampa-fl": {
+    "concern": 32.5,
+    "county": "Hillsborough",
+    "establishments_per_1000": 28.85
+  },
+  "taos-nm": {
+    "concern": 17.0,
+    "county": "Taos",
+    "establishments_per_1000": 31.38
+  },
+  "temecula-ca": {
+    "concern": 92.2,
+    "county": "Riverside",
+    "establishments_per_1000": 18.88
+  },
+  "tempe-az": {
+    "concern": 62.0,
+    "county": "Maricopa",
+    "establishments_per_1000": 24.46
+  },
+  "temple-tx": {
+    "concern": 98.0,
+    "county": "Bell",
+    "establishments_per_1000": 15.59
+  },
+  "thornton-co": {
+    "concern": 80.0,
+    "county": "Adams",
+    "establishments_per_1000": 21.58
+  },
+  "thousand-oaks-ca": {
+    "concern": 40.5,
+    "county": "Ventura",
+    "establishments_per_1000": 27.43
+  },
+  "toledo-oh": {
+    "concern": 78.9,
+    "county": "Lucas",
+    "establishments_per_1000": 21.65
+  },
+  "topeka-ks": {
+    "concern": 75.9,
+    "county": "Shawnee",
+    "establishments_per_1000": 22.2
+  },
+  "torrance-ca": {
+    "concern": 24.5,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "tracy-ca": {
+    "concern": 95.7,
+    "county": "San Joaquin",
+    "establishments_per_1000": 17.32
+  },
+  "trenton-nj": {
+    "concern": 54.6,
+    "county": "Mercer",
+    "establishments_per_1000": 25.26
+  },
+  "troy-mi": {
+    "concern": 17.6,
+    "county": "Oakland",
+    "establishments_per_1000": 31.28
+  },
+  "tucson-az": {
+    "concern": 84.9,
+    "county": "Pima",
+    "establishments_per_1000": 20.36
+  },
+  "tulsa-ok": {
+    "concern": 30.9,
+    "county": "Tulsa",
+    "establishments_per_1000": 29.03
+  },
+  "tuscaloosa-al": {
+    "concern": 94.5,
+    "county": "Tuscaloosa",
+    "establishments_per_1000": 17.9
+  },
+  "tustin-ca": {
+    "concern": 10.6,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "tyler-tx": {
+    "concern": 43.8,
+    "county": "Smith",
+    "establishments_per_1000": 26.7
+  },
+  "upland-ca": {
+    "concern": 87.5,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "vacaville-ca": {
+    "concern": 96.1,
+    "county": "Solano",
+    "establishments_per_1000": 17.2
+  },
+  "vallejo-ca": {
+    "concern": 96.5,
+    "county": "Solano",
+    "establishments_per_1000": 17.2
+  },
+  "vancouver-wa": {
+    "concern": 59.9,
+    "county": "Clark",
+    "establishments_per_1000": 24.59
+  },
+  "ventura-ca": {
+    "concern": 40.3,
+    "county": "Ventura",
+    "establishments_per_1000": 27.43
+  },
+  "victorville-ca": {
+    "concern": 88.3,
+    "county": "San Bernardino",
+    "establishments_per_1000": 19.46
+  },
+  "virginia-beach-va": {
+    "concern": 48.5,
+    "county": "Virginia Beach",
+    "establishments_per_1000": 25.86
+  },
+  "visalia-ca": {
+    "concern": 99.2,
+    "county": "Tulare",
+    "establishments_per_1000": 15.11
+  },
+  "vista-ca": {
+    "concern": 34.6,
+    "county": "San Diego",
+    "establishments_per_1000": 28.45
+  },
+  "waco-tx": {
+    "concern": 73.2,
+    "county": "McLennan",
+    "establishments_per_1000": 22.49
+  },
+  "warner-robins-ga": {
+    "concern": 97.1,
+    "county": "Houston",
+    "establishments_per_1000": 16.97
+  },
+  "warren-mi": {
+    "concern": 75.0,
+    "county": "Macomb",
+    "establishments_per_1000": 22.33
+  },
+  "warwick-ri": {
+    "concern": 38.2,
+    "county": "Kent",
+    "establishments_per_1000": 27.77
+  },
+  "washington-dc": {
+    "concern": 7.2,
+    "county": "District of Columbia",
+    "establishments_per_1000": 35.41
+  },
+  "waterbury-ct": {
+    "concern": 85.7,
+    "county": "Naugatuck Valley",
+    "establishments_per_1000": 20.15
+  },
+  "waukegan-il": {
+    "concern": 36.6,
+    "county": "Lake",
+    "establishments_per_1000": 28.2
+  },
+  "west-covina-ca": {
+    "concern": 23.9,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "west-jordan-ut": {
+    "concern": 28.0,
+    "county": "Salt Lake",
+    "establishments_per_1000": 30.16
+  },
+  "west-palm-beach-fl": {
+    "concern": 4.3,
+    "county": "Palm Beach",
+    "establishments_per_1000": 37.02
+  },
+  "west-valley-city-ut": {
+    "concern": 28.2,
+    "county": "Salt Lake",
+    "establishments_per_1000": 30.16
+  },
+  "westland-mi": {
+    "concern": 90.0,
+    "county": "Wayne",
+    "establishments_per_1000": 19.0
+  },
+  "westminster-ca": {
+    "concern": 11.4,
+    "county": "Orange",
+    "establishments_per_1000": 33.8
+  },
+  "westminster-co": {
+    "concern": 20.9,
+    "county": "Jefferson",
+    "establishments_per_1000": 31.05
+  },
+  "whitewright-tx": {
+    "concern": 83.8,
+    "county": "Grayson",
+    "establishments_per_1000": 20.71
+  },
+  "whittier-ca": {
+    "concern": 22.1,
+    "county": "Los Angeles",
+    "establishments_per_1000": 30.97
+  },
+  "wichita-falls-tx": {
+    "concern": 67.5,
+    "county": "Wichita",
+    "establishments_per_1000": 23.44
+  },
+  "wichita-ks": {
+    "concern": 64.6,
+    "county": "Sedgwick",
+    "establishments_per_1000": 24.22
+  },
+  "wilmington-nc": {
+    "concern": 3.5,
+    "county": "New Hanover",
+    "establishments_per_1000": 37.67
+  },
+  "winston-salem-nc": {
+    "concern": 66.1,
+    "county": "Forsyth",
+    "establishments_per_1000": 23.64
+  },
+  "woodbury-mn": {
+    "concern": 64.8,
+    "county": "Washington",
+    "establishments_per_1000": 24.03
+  },
+  "worcester-ma": {
+    "concern": 75.7,
+    "county": "Worcester",
+    "establishments_per_1000": 22.26
+  },
+  "wyoming-mi": {
+    "concern": 43.1,
+    "county": "Kent",
+    "establishments_per_1000": 27.02
+  },
+  "yakima-wa": {
+    "concern": 86.9,
+    "county": "Yakima",
+    "establishments_per_1000": 19.52
+  },
+  "yonkers-ny": {
+    "concern": 18.2,
+    "county": "Westchester",
+    "establishments_per_1000": 31.27
+  },
+  "yuma-az": {
+    "concern": 97.5,
+    "county": "Yuma",
+    "establishments_per_1000": 16.26
+  }
+}
