@@ -1,0 +1,36 @@
+name: data-drive-round-4
+title: Fourth data-drive research round -- ship FBI hate crime statistics
+description: >
+  A fourth fresh dataset-candidate research round. The originally-planned
+  build (SDWA drinking water violations) turned out structurally
+  infeasible on real live testing against NYC -- abandoned, documented in
+  research-brief.md. Pivoted to FBI hate crime statistics, resolving a
+  lead deferred across three prior research rounds: the real endpoint
+  (/hate-crime/agency/{ori}/{bias}) was found by rendering FBI CDE's
+  JS-based docs page via Playwright, unreadable via plain curl. Reuses
+  crime.ts's existing 509-city ORI crosswalk and cached population data
+  entirely -- zero new geocoding.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: minor
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+planning_team:
+  matched_tags: [data]
+  roster: [researcher, technical-writer]
+  per_tag_reasoning:
+    data: "New dataset build + backlog research, same shape as the three prior data-drive epics this session."
+  confidence: matched
+  gate_decisions:
+    data: included
+  note: Solo-operator run, same posture as the three prior epics.
+
+stories:
+  - id: ddr4-1-hate-crime
+    title: Ship FBI hate crime statistics (pivoted from infeasible SDWA drinking water)
+    complexity: medium
+    depends_on: []

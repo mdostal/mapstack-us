@@ -177,6 +177,11 @@ data/raw/average-wage-cache/
 # data/drought.json IS committed.
 data/raw/drought-cache/
 
+# Pure fetch-scratch for the hate-crime dataset build
+# (scripts/gen_hate_crime_data.py) -- same posture as the caches above.
+# data/hate-crime.json IS committed.
+data/raw/hate-crime-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

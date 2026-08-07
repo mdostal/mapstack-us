@@ -11,7 +11,7 @@ test("add layer flow: pick a dataset, add a layer, see it appear in the active l
   await page.goto("/");
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
 
@@ -540,6 +540,22 @@ test("the thirty-second dataset (drought severity) is selectable and reports a r
   await expect(detail).toContainText("US Drought Monitor");
 });
 
+test("the thirty-third dataset (hate crime rate) is selectable and reports a real FBI-sourced value -- resolves a lead deferred across three prior research rounds", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Hate crime rate" }).click();
+  await page.getByRole("button", { name: "Hate crime rate", exact: true }).click();
+  await page.getByRole("button", { name: "Add Hate crime rate" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Hate crime rate: Hate crime rate" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Hate crime rate" });
+  await expect(detail).toContainText("reported hate crime incidents");
+  await expect(detail).toContainText("FBI Crime Data Explorer");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
@@ -600,7 +616,7 @@ test("adding a layer from a dataset that already has active layers groups it wit
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
 
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
 
@@ -620,7 +636,7 @@ test("stacking 2+ layers shows a legend and detail for each at a clicked city", 
   await page.goto("/");
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
 
@@ -650,7 +666,7 @@ test("selecting a city does not reset previously added layers -- regression for 
   // production-only failure mode itself.
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Crime: Violent crime" })).toBeVisible();
@@ -703,7 +719,7 @@ test("a year control appears once a time-varying layer (crime) is active, and sw
   await expect(page.getByLabel("Year", { exact: true })).not.toBeVisible();
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
 
@@ -726,7 +742,7 @@ test("a year control appears once a time-varying layer (crime) is active, and sw
 test("a city with no crime data shows an honest no-data state, not a fabricated value", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
-  await page.getByRole("tab", { name: "Crime" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
 
