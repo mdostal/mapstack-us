@@ -1,0 +1,23 @@
+name: data-drive-round-11
+title: Data drive round 11 -- environmental violations (40th real dataset)
+description: >
+  Add the 40th real, verified dataset: EPA ECHO significant-violation density
+  within 10mi of each city, via a real, live, keyless server-side spatial radius
+  query (the second dataset this session using this pattern, after round 10's
+  NRHP). Round-11 research also evaluated and deferred USDA NASS QuickStats
+  (needs real registration key) and EPA TSCA chemical inventory via Envirofacts
+  (table not available, metadata docs page broken).
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: none
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+stories:
+  - id: ddr11-1-environmental-violations
+    title: Ship the 40th real dataset -- EPA ECHO significant-violation density (server-side radius query)
+    complexity: medium
+    depends_on: []
