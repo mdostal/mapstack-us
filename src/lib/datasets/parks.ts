@@ -53,6 +53,6 @@ export const parksDataset: Dataset = {
   description: "Trust for Public Land ParkServe -- percent of residents within a 10-minute walk of a park, higher = less access = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/parks-methodology.md",
   supportsTime: false,
-  layers: [{ id: "park_access", label: "Park access" }],
+  layers: [{ id: "park_access", label: "Park access", legendLow: "Good access", legendHigh: "Poor access" }],
   getValue: getParksValue,
 };

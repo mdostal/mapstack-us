@@ -50,6 +50,6 @@ export const broadbandDataset: Dataset = {
   description: "Percent of households with a broadband internet subscription -- County Health Rankings, sourced from Census ACS 5-year estimates.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/broadband-methodology.md",
   supportsTime: false,
-  layers: [{ id: "broadband_access", label: "Broadband access" }],
+  layers: [{ id: "broadband_access", label: "Broadband access", legendLow: "High subscription", legendHigh: "Low subscription" }],
   getValue: getBroadbandValue,
 };

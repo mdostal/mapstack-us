@@ -47,6 +47,6 @@ export const historicSiteDensityDataset: Dataset = {
   description: "Real NPS National Register of Historic Places density within 10mi -- fewer nearby sites = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/historic-site-density-methodology.md",
   supportsTime: false,
-  layers: [{ id: "historic_site_density", label: "Historic site access" }],
+  layers: [{ id: "historic_site_density", label: "Historic site access", legendLow: "Many nearby", legendHigh: "Few nearby" }],
   getValue: getHistoricSiteDensityValue,
 };

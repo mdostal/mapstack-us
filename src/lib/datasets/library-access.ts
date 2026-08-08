@@ -50,6 +50,6 @@ export const libraryAccessDataset: Dataset = {
   description: "Real IMLS library visits per capita -- lower access = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/library-access-methodology.md",
   supportsTime: false,
-  layers: [{ id: "library_access", label: "Library access" }],
+  layers: [{ id: "library_access", label: "Library access", legendLow: "Good access", legendHigh: "Poor access" }],
   getValue: getLibraryAccessValue,
 };

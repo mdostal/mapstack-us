@@ -48,6 +48,6 @@ export const incomeDataset: Dataset = {
   description: "Real Census ACS median household income, county-level -- County Health Rankings, lower income = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/income-methodology.md",
   supportsTime: false,
-  layers: [{ id: "median_income", label: "Median household income" }],
+  layers: [{ id: "median_income", label: "Median household income", legendLow: "Higher income", legendHigh: "Lower income" }],
   getValue: getIncomeValue,
 };

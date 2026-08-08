@@ -55,6 +55,6 @@ export const walkabilityDataset: Dataset = {
   description: "EPA National Walkability Index at each city's reference point -- higher score, less walkable = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/walkability-methodology.md",
   supportsTime: false,
-  layers: [{ id: "walkability", label: "Walkability" }],
+  layers: [{ id: "walkability", label: "Walkability", legendLow: "Walkable", legendHigh: "Car-dependent" }],
   getValue: getWalkabilityValue,
 };

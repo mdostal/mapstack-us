@@ -54,6 +54,6 @@ export const transitAccessDataset: Dataset = {
   description: "Public transit service level (vehicle-revenue-miles per resident) -- FTA National Transit Database, joined by real Census Urban Area.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/transit-access-methodology.md",
   supportsTime: false,
-  layers: [{ id: "service_level", label: "Transit service level" }],
+  layers: [{ id: "service_level", label: "Transit service level", legendLow: "High service", legendHigh: "Low service" }],
   getValue: getTransitAccessValue,
 };

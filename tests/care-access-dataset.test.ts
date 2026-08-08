@@ -13,6 +13,13 @@ describe("careAccessDataset (Dataset interface, fourth real implementation, port
     expect(careAccessDataset.supportsTime).toBe(false);
   });
 
+  it("every layer carries clear legend endpoint labels instead of the generic Low/High concern -- real user confusion this session over what a low-concern (white) score means for a positively-framed 'access' layer", () => {
+    for (const layer of careAccessDataset.layers) {
+      expect(layer.legendLow, layer.id).toBe("Nearby");
+      expect(layer.legendHigh, layer.id).toBe("Far away");
+    }
+  });
+
   it("returns a 0-100 value and a facility+drive-time detail for a covered city", () => {
     const result = careAccessDataset.getValue("new-york-ny", "general");
     expect(result).not.toBeNull();

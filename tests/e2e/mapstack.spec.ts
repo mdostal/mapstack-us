@@ -721,6 +721,20 @@ test("selecting a city shows a visible name callout with a pointer directly on t
   await expect(map.locator("text")).toHaveCount(1);
 });
 
+test("the concern-color legend uses clear, dataset-specific endpoint labels for positively-framed access layers, not the generic Low/High concern", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Care access" }).click();
+  await page.getByRole("button", { name: "Pediatric cardiac surgery" }).click();
+  await page.getByRole("button", { name: "Add Pediatric cardiac surgery" }).click();
+
+  const legend = page.getByText("Care access: Pediatric cardiac surgery concern").locator("..");
+  await expect(legend.getByText("Nearby")).toBeVisible();
+  await expect(legend.getByText("Far away")).toBeVisible();
+  await expect(legend.getByText("Low concern")).not.toBeVisible();
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
