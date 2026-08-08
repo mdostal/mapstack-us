@@ -1,0 +1,22 @@
+name: data-drive-round-13
+title: Data drive round 13 -- electricity cost (42nd real dataset)
+description: >
+  Add the 42nd real, verified dataset: state-level EIA residential electricity
+  retail price, unlocked by a real EIA_API_KEY the user obtained this session
+  (also stored in GCP Secret Manager, project personalsites-487021). Direct
+  state-level join against data/cities.json's existing state field, no
+  crosswalk.
+target_codebase: /Users/mdostal/Code/mapstack-us
+methodology: classic
+version_bump: none
+sidecar_retention: transient
+
+git_flow:
+  base_branch: main
+  branch_strategy: per-epic
+
+stories:
+  - id: ddr13-1-electricity-cost
+    title: Ship the 42nd real dataset -- EIA residential electricity price (state-level)
+    complexity: low
+    depends_on: []

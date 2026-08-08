@@ -684,6 +684,22 @@ test("the forty-first dataset (winter cold burden) is selectable and reports a r
   await expect(detail).toContainText("nearest station");
 });
 
+test("the forty-second dataset (electricity cost) is selectable and reports a real EIA-sourced value with full spine coverage", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Electricity cost" }).click();
+  await page.getByRole("button", { name: "Electricity cost", exact: true }).click();
+  await page.getByRole("button", { name: "Add Electricity cost" }).click();
+
+  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Electricity cost: Electricity cost" })).toBeVisible();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Electricity cost" });
+  await expect(detail).toContainText("¢/kWh");
+  await expect(detail).toContainText("EIA");
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {

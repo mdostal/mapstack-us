@@ -1,0 +1,67 @@
+id: ddr13-1-electricity-cost
+epic: data-drive-round-13
+title: Ship the 42nd real dataset -- EIA residential electricity price (state-level)
+status: pending
+complexity: low
+methodology: classic
+depends_on: []
+
+description: |
+  Add a 42nd real dataset: state-level EIA residential electricity retail
+  price (cents/kWh), unlocked by a real EIA_API_KEY obtained this session.
+  Direct state-abbreviation join against data/cities.json's existing state
+  field, same shape as income-tax.ts/sales-tax.ts. Direct rescale, cap at 41
+  (real observed max 40.59, Hawaii), higher = more concerning.
+
+acceptance_criteria:
+  - "Given a covered state's city, getValue returns a 0-100 value and a detail string naming the real price and 'EIA'"
+  - "Given New York NY, the shipped detail reproduces the real live-queried NY residential price"
+  - "Given an unknown city id or layer id, getValue returns null"
+  - "Real coverage across all 47 states represented in the spine, disclosed honestly if any gap exists"
+  - "dataset-completeness.test.ts and coverage-honesty.test.ts pass with zero manual additions"
+
+steps:
+  - id: implement
+    description: Write scripts/gen_electricity_cost_data.py (single EIA API request, --globoff required, state-level direct join), data/electricity-cost.json, src/lib/datasets/electricity-cost.ts, data/electricity-cost-methodology.md.
+    agent: developer
+  - id: test
+    description: Unit test, e2e block, registry entry, README bullet (41->42).
+    agent: tester
+    depends_on: [implement]
+  - id: review
+    description: Full pnpm verify ritual, live Playwright checks localhost + production, zero console errors.
+    agent: reviewer
+    depends_on: [test]
+  - id: integrate
+    description: Commit, push, merge, deploy, poll CI, mark complete.
+    agent: developer
+    depends_on: [review]
+
+context:
+  codebase: /Users/mdostal/Code/mapstack-us
+  key_files:
+    - path: scripts/gen_income_tax_data.py
+      purpose: Precedent for state-level direct-join datasets (no crosswalk, real observed max cap)
+
+files_to_modify:
+  - file: scripts/gen_electricity_cost_data.py
+    change: new build script
+  - file: data/electricity-cost.json
+    change: new committed data file
+  - file: src/lib/datasets/electricity-cost.ts
+    change: new Dataset module
+  - file: data/electricity-cost-methodology.md
+    change: new methodology doc
+  - file: tests/electricity-cost-dataset.test.ts
+    change: new unit test
+  - file: tests/e2e/mapstack.spec.ts
+    change: add one e2e block
+  - file: src/lib/datasets/registry.ts
+    change: add import + array entry
+  - file: README.md
+    change: dataset count 41->42
+
+risks:
+  - severity: low
+    description: EIA API bracket-style query params trip curl's URL globbing without --globoff
+    mitigation: Documented explicitly in the build script and methodology doc so it doesn't get re-discovered as a false negative
