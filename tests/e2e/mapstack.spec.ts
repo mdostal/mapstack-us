@@ -1063,3 +1063,49 @@ test("comparing cities with Crime active shows a real multi-year trend chart, on
   await expect(trendPanel.getByText("New York, NY")).toBeVisible();
   await expect(trendPanel.getByText("Los Angeles, CA")).toBeVisible();
 });
+
+test("chat panel: discloses exactly what the key is used for, requires a key before chatting, and can be forgotten -- cannot test real model calls without a real key", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Chat with the data (experimental, bring your own key)" }).click();
+
+  const disclosure = page.getByText("How this works, in full:").locator("..");
+  await expect(disclosure).toContainText("never touches Mapstack's servers, because Mapstack has none");
+  await expect(disclosure).toContainText("visible in this browser's network/dev tools");
+  await expect(disclosure).toContainText("no access to site code, secrets, or anything else");
+  await expect(disclosure).toContainText("billed by Anthropic directly to your own account");
+
+  const startButton = page.getByRole("button", { name: "Start chatting" });
+  await expect(startButton).toBeDisabled();
+
+  await page.getByPlaceholder("sk-ant-...").fill("sk-ant-fake-test-key-not-real");
+  await expect(startButton).toBeEnabled();
+  await startButton.click();
+
+  await expect(page.getByTestId("chat-messages")).toBeVisible();
+  await expect(page.getByText("Chatting with your own key.")).toBeVisible();
+  await expect(page.getByPlaceholder("Ask about the data…")).toBeVisible();
+
+  await page.getByRole("button", { name: "Forget key" }).click();
+  await expect(page.getByPlaceholder("sk-ant-...")).toBeVisible();
+  await expect(page.getByTestId("chat-messages")).not.toBeVisible();
+});
+
+test("chat panel: remembering a key persists it in localStorage across reload, forgetting it clears that storage", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Chat with the data (experimental, bring your own key)" }).click();
+  await page.getByPlaceholder("sk-ant-...").fill("sk-ant-fake-test-key-not-real");
+  await page.getByRole("button", { name: "Start chatting" }).click();
+  await expect(page.getByTestId("chat-messages")).toBeVisible();
+
+  await page.reload();
+  await page.getByRole("button", { name: "Chat with the data (experimental, bring your own key)" }).click();
+  await expect(page.getByTestId("chat-messages")).toBeVisible();
+
+  await page.getByRole("button", { name: "Forget key" }).click();
+  const stored = await page.evaluate(() => window.localStorage.getItem("mapstack_byok_anthropic_key"));
+  expect(stored).toBeNull();
+});

@@ -40,7 +40,7 @@ built from two real, working examples instead of upfront design.
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
-    2020–2025 year-over-year history (`data/crime-methodology.md`).
+    2010–2025 year-over-year history (`data/crime-methodology.md`).
   - **Care access** — nearest-hospital drive time, general/pediatric-specialty/
     pediatric-cardiac (`data/care-access-methodology.md`).
   - **Natural hazard risk** — FEMA National Risk Index, overall plus inland flood/
@@ -63,9 +63,10 @@ built from two real, working examples instead of upfront design.
     hosted ArcGIS FeatureServer (`data/walkability-methodology.md`).
   - **Park access** — Trust for Public Land ParkServe, percent of residents within a
     10-minute walk of a park (`data/parks-methodology.md`).
-  - **Electoral competitiveness** — real 2024 county presidential margins (MIT Election
-    Data + Science Lab), framed as competitiveness/one-party-dominance, deliberately NOT a
-    left/right lean score (`data/political-lean-methodology.md`).
+  - **Electoral competitiveness** — real county presidential margins for every real
+    cycle 2000–2024 (MIT Election Data + Science Lab), framed as
+    competitiveness/one-party-dominance, deliberately NOT a left/right lean score
+    (`data/political-lean-methodology.md`).
   - **Broadband access** — real Census ACS broadband-subscription rates, via County
     Health Rankings' free republication -- the first Census-cluster item unblocked without
     a Census API key (`data/broadband-methodology.md`).
@@ -81,11 +82,11 @@ built from two real, working examples instead of upfront design.
   - **Sales tax** — real combined state + local sales tax rate, Tax Foundation
     city-level data where published, a real state average fallback otherwise, full
     512-city coverage with no API key (`data/sales-tax-methodology.md`).
-  - **Measured grass pollen (real, limited coverage)** — real (not modeled) elevated-grass-pollen-day counts
-    from a real county health department pollen station, a genuinely separate signal
-    from allergy severity's modeled score. Intentionally sparse (7/512 cities, the
-    Twin Cities MN metro) rather than a fabricated national estimate
-    (`data/measured-grass-pollen-methodology.md`).
+  - **Measured grass pollen (real, limited coverage)** — real (not modeled) elevated-grass-pollen-day
+    counts from a real county health department pollen station, year by year for every
+    real year 1993–2020, a genuinely separate signal from allergy severity's modeled
+    score. Intentionally sparse (7/512 cities, the Twin Cities MN metro) rather than a
+    fabricated national estimate (`data/measured-grass-pollen-methodology.md`).
   - **State income tax** — real state individual income tax rate at each city's own
     real median household income, not the top bracket. State-level only, full
     512-city coverage with no API key (`data/income-tax-methodology.md`).
@@ -179,10 +180,23 @@ built from two real, working examples instead of upfront design.
 - **Stack any number of layers at once.** Add an allergy layer, add a crime layer, add
   more — each renders as its own gradient with its own color identity, all on one map,
   via "+ Add layer." Not a one-dataset-at-a-time picker.
-- **A shared year control** wherever real historical data exists — crime currently
-  spans 2020–2025 real years (`data/crime-methodology.md`), with coverage that honestly
-  grows year over year as more police agencies joined federal reporting, never
-  backfilled or estimated for years without real data.
+- **A shared year control** wherever real historical data exists — crime spans
+  2010–2025 (`data/crime-methodology.md`), with coverage that honestly grows year over
+  year as more police agencies joined federal reporting; electoral competitiveness spans
+  every real cycle 2000–2024; measured grass pollen spans every real year 1993–2020.
+  Never backfilled or estimated for years without real data.
+- **Compare a few cities side by side**, right from the map (pick with "+ Compare," cap
+  of 4) — a lighter, map-integrated counterpart to `/advanced`'s full table across all
+  512. Rank the cities you're comparing (or all 512) by a user-owned weighted blend of
+  your active layers. For any layer with real multi-year history, a real trend chart
+  shows how the compared cities' values actually moved over time — never a fabricated
+  flat line for the many layers that are honestly current-snapshot-only.
+- **Chat with the data (experimental, bring your own key)** — a fully client-side
+  assistant, powered by the Vercel AI SDK, that can look up real city/dataset values and
+  rankings through a small, fixed set of read-only tools. Visitors supply their own
+  Anthropic API key, which is sent directly from their browser to Anthropic and never
+  touches any Mapstack server (there isn't one) — the panel discloses exactly what the
+  key does and where it goes before anyone enters one.
 - A power-user `/advanced` view: a sortable/filterable comparison table across every
   active layer, CSV export, saved views, a live formula editor for grass severity's own
   component weights, and a custom blend tool — combine any 2+ active layers at weights

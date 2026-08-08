@@ -10,6 +10,7 @@ import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { CityComparisonPanel } from "@/components/CityComparisonPanel";
 import { CityRankingPanel } from "@/components/CityRankingPanel";
 import { TrendReportPanel } from "@/components/TrendReportPanel";
+import { ChatPanel } from "@/components/ChatPanel";
 import { CustomBlendPanel } from "@/components/CustomBlendPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { InsightsDock } from "@/components/InsightsDock";
@@ -197,6 +198,10 @@ export function MapstackApp() {
               <p className="mb-1.5 text-xs font-semibold text-zinc-700 dark:text-zinc-300">Rank all 512 cities</p>
               <CityRankingPanel active={active} year={year} weights={blendWeights} onSelectCity={setSelectedCityId} />
             </div>
+          </AccordionSection>
+
+          <AccordionSection title="Chat with the data (experimental, bring your own key)">
+            <ChatPanel />
           </AccordionSection>
 
           <CityDetailPanel
