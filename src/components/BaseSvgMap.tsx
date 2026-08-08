@@ -55,7 +55,63 @@ interface Props {
  * component so the map geometry, projection, and click wiring live in exactly one
  * place — only the per-city marker (and optional heatmap layer) differs.
  */
+/** Renders after every marker so it always draws on top -- a small pointer
+ * (leader line + dot) plus a legible name-pill callout, so it's obvious at a
+ * glance which city is selected without having to spot a subtly-larger dot
+ * among hundreds of others. Flips below the marker near the top edge and
+ * clamps horizontally near the left/right edges so it never gets cut off. */
+function SelectedCityCallout({ point }: { point: CityPoint }) {
+  const { city, x, y } = point;
+  const label = `${city.city}, ${city.state}`;
+  const charWidth = 4.6;
+  const paddingX = 6;
+  const boxWidth = Math.max(36, label.length * charWidth + paddingX * 2);
+  const boxHeight = 14;
+  const leaderLength = 14;
+  const flipBelow = y < boxHeight + leaderLength + 4;
+  const boxY = flipBelow ? y + leaderLength : y - leaderLength - boxHeight;
+  const [viewMinX, , viewW] = viewBox.split(" ").map(Number);
+  let boxX = x - boxWidth / 2;
+  boxX = Math.max(viewMinX + 2, Math.min(boxX, viewMinX + viewW - boxWidth - 2));
+
+  return (
+    <g pointerEvents="none" aria-hidden="true">
+      <line
+        x1={x}
+        y1={y}
+        x2={x}
+        y2={flipBelow ? boxY : boxY + boxHeight}
+        stroke="#111827"
+        strokeWidth={1}
+        className="dark:stroke-zinc-100"
+      />
+      <rect
+        x={boxX}
+        y={boxY}
+        width={boxWidth}
+        height={boxHeight}
+        rx={3}
+        fill="#111827"
+        className="dark:fill-zinc-100"
+      />
+      <text
+        x={boxX + boxWidth / 2}
+        y={boxY + boxHeight / 2}
+        textAnchor="middle"
+        dominantBaseline="central"
+        fontSize={8}
+        fill="white"
+        className="dark:fill-zinc-900"
+        style={{ fontWeight: 600 }}
+      >
+        {label}
+      </text>
+    </g>
+  );
+}
+
 export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCityId, heatmap }: Props) {
+  const selectedPoint = selectedCityId ? MARKER_POINTS.find((p) => p.city.id === selectedCityId) : undefined;
   return (
     <div className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900">
       {heatmap}
@@ -84,6 +140,7 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
             );
           })}
         </g>
+        {selectedPoint && <SelectedCityCallout point={selectedPoint} />}
       </svg>
     </div>
   );
