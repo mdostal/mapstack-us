@@ -700,6 +700,27 @@ test("the forty-second dataset (electricity cost) is selectable and reports a re
   await expect(detail).toContainText("EIA");
 });
 
+test("selecting a city shows a visible name callout with a pointer directly on the map, not just in the detail panel below", async ({ page }) => {
+  await page.goto("/");
+
+  const map = page.getByTestId("heatmap-canvas").locator("..").locator("svg");
+  await expect(map.locator("text")).toHaveCount(0);
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+
+  const calloutText = map.locator("text", { hasText: "New York, NY" });
+  await expect(calloutText).toBeVisible();
+  // A leader line connects the callout to the actual marker -- not just a
+  // floating label with no clear anchor to which city it belongs to.
+  await expect(map.locator("line")).toHaveCount(1);
+
+  // Selecting a different city moves the callout, it doesn't add a second one.
+  await page.getByRole("button", { name: /^Seattle, WA/ }).click();
+  await expect(map.locator("text", { hasText: "Seattle, WA" })).toBeVisible();
+  await expect(map.locator("text", { hasText: "New York, NY" })).not.toBeVisible();
+  await expect(map.locator("text")).toHaveCount(1);
+});
+
 test("the map stays a normal, bounded size no matter how many layers are stacked -- regression for a flex min-width bug", async ({
   page,
 }) => {
