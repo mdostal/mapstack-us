@@ -25,6 +25,8 @@ export function LayerLegends({ active }: Props) {
             key={activeLayerKey(item)}
             label={`${resolved.dataset.label}: ${resolved.layer.label} concern`}
             colorForValue={(value) => intensityColor(color, value)}
+            lowLabel={resolved.layer.legendLow}
+            highLabel={resolved.layer.legendHigh}
           />
         );
       })}

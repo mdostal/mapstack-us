@@ -65,6 +65,19 @@ export interface DatasetTimeContext {
 export interface DatasetLayer {
   id: string;
   label: string;
+  /** Optional override labels for the two ends of the gradient legend,
+   * shown instead of the generic "Low concern"/"High concern". Every
+   * dataset's underlying `value` is on the same "higher = more concerning"
+   * scale regardless -- this only changes what the legend TEXT says, for
+   * layers where a positively-framed name (e.g. "Historic site access",
+   * "Pediatric cardiac surgery") paired with a negatively-framed generic
+   * legend ("concern") risks reading backwards at a glance: is white the
+   * good end or the bad end? Real user confusion this session -- Omaha's
+   * real ~3-minute drive to Children's Nebraska (excellent access, low
+   * concern, correctly white) was read as "wouldn't have access" from the
+   * generic legend alone. Both must be set together or neither. */
+  legendLow?: string;
+  legendHigh?: string;
 }
 
 export interface Dataset {

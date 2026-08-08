@@ -47,6 +47,6 @@ export const broadbandSpeedDataset: Dataset = {
   description: "Real FCC gigabit broadband availability -- county-level, lower availability = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/broadband-speed-methodology.md",
   supportsTime: false,
-  layers: [{ id: "gigabit_availability", label: "Gigabit availability" }],
+  layers: [{ id: "gigabit_availability", label: "Gigabit availability", legendLow: "High availability", legendHigh: "Low availability" }],
   getValue: getBroadbandSpeedValue,
 };

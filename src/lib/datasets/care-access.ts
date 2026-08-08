@@ -72,6 +72,11 @@ export const careAccessDataset: Dataset = {
     "Estimated drive time to the nearest hospital, ported from allergy-locator's facility data -- general, pediatric specialty, and pediatric cardiac surgery.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/care-access-methodology.md",
   supportsTime: false,
-  layers: (Object.keys(LAYER_LABELS) as CareAccessLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),
+  layers: (Object.keys(LAYER_LABELS) as CareAccessLayer[]).map((id) => ({
+    id,
+    label: LAYER_LABELS[id],
+    legendLow: "Nearby",
+    legendHigh: "Far away",
+  })),
   getValue: getCareAccessValue,
 };
