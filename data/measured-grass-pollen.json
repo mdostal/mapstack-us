@@ -4,90 +4,826 @@
     "grass_days_cap_for_100_concern": 90.0,
     "match_radius_km": 65,
     "note": "Vermont's EPHT Pollen dataset (real daily grass counts, 2009-2025, genuinely live-maintained) was also confirmed real this session but has zero cities in the 512-city spine within range -- documented in gen_measured_grass_pollen_data.py for whoever extends this next.",
-    "source": "Carver County, MN Environmental Services -- Elevated Pollen Days (real annual counts, 1993-2020, not updated since)"
+    "source": "Carver County, MN Environmental Services -- Elevated Pollen Days (real annual counts, 1993-2020, not updated since)",
+    "years": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ]
   },
   "bloomington-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 22.5,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "brooklyn-park-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 40.7,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "lakeville-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 30.2,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "minneapolis-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 33.5,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "plymouth-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 27.9,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "saint-paul-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 44.0,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   },
   "woodbury-mn": {
-    "avg_elevated_grass_pollen_days_per_year": 39.2,
-    "concern": 43.6,
     "distance_km_from_station_region": 55.2,
-    "years_averaged": [
-      2020,
-      2019,
-      2018,
-      2017,
-      2016
-    ]
+    "years": {
+      "1993": {
+        "concern": 24.4,
+        "elevated_grass_pollen_days": 22
+      },
+      "1994": {
+        "concern": 36.7,
+        "elevated_grass_pollen_days": 33
+      },
+      "1995": {
+        "concern": 11.1,
+        "elevated_grass_pollen_days": 10
+      },
+      "1996": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "1997": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "1998": {
+        "concern": 26.7,
+        "elevated_grass_pollen_days": 24
+      },
+      "1999": {
+        "concern": 30.0,
+        "elevated_grass_pollen_days": 27
+      },
+      "2000": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2001": {
+        "concern": 15.6,
+        "elevated_grass_pollen_days": 14
+      },
+      "2002": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2004": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2005": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2006": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2007": {
+        "concern": 12.2,
+        "elevated_grass_pollen_days": 11
+      },
+      "2008": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2009": {
+        "concern": 8.9,
+        "elevated_grass_pollen_days": 8
+      },
+      "2010": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2011": {
+        "concern": 44.4,
+        "elevated_grass_pollen_days": 40
+      },
+      "2012": {
+        "concern": 3.3,
+        "elevated_grass_pollen_days": 3
+      },
+      "2013": {
+        "concern": 4.4,
+        "elevated_grass_pollen_days": 4
+      },
+      "2014": {
+        "concern": 21.1,
+        "elevated_grass_pollen_days": 19
+      },
+      "2015": {
+        "concern": 6.7,
+        "elevated_grass_pollen_days": 6
+      },
+      "2016": {
+        "concern": 13.3,
+        "elevated_grass_pollen_days": 12
+      },
+      "2017": {
+        "concern": 17.8,
+        "elevated_grass_pollen_days": 16
+      },
+      "2018": {
+        "concern": 14.4,
+        "elevated_grass_pollen_days": 13
+      },
+      "2019": {
+        "concern": 100.0,
+        "elevated_grass_pollen_days": 90
+      },
+      "2020": {
+        "concern": 72.2,
+        "elevated_grass_pollen_days": 65
+      }
+    }
   }
 }

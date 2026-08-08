@@ -39,6 +39,17 @@ Raw direction / normalization: more elevated-grass-pollen days per year
 is more concerning -- direct rescale, capped at 90 days (Carver County's
 own real observed max across 1993-2020), matching heat.ts's data-informed
 cap posture.
+
+Historical extension (per explicit operator direction: "AS MUCH DATA as
+possible so we can get trends over time"): the original build only
+surfaced a single 5-year rolling average (2016-2020). The real cached
+source (already fetched, data/raw/measured-grass-pollen-cache/) has an
+INDIVIDUAL real count for every real year 1993-2020 (28 real years, one
+real gap at 2003 -- Carver County's own table skips it, not a fetch
+error) -- every one of those years is surfaced now, matching the
+per-year pattern crime.ts/political-lean.ts already use, instead of
+collapsing them into one pre-averaged number. No new fetch was needed --
+this was sitting in the cache unused.
 """
 import json
 import math
@@ -60,7 +71,6 @@ CARVER_URL = "https://services.arcgis.com/wMZT8kNwa6tOxhKg/arcgis/rest/services/
 # for a coarse nearest-city distance check at this scale.
 CARVER_LAT, CARVER_LON = 44.79, -93.60
 MATCH_RADIUS_KM = 65
-RECENT_YEARS = 5  # average the most recent 5 real years on file, not just the single latest (noisy small-count metric)
 GRASS_DAYS_CAP = 90.0
 
 
@@ -85,37 +95,46 @@ def fetch_carver_data():
 def main():
     raw = fetch_carver_data()
     rows = [f["attributes"] for f in raw["features"]]
-    rows.sort(key=lambda r: r["Year"], reverse=True)
-    recent = rows[:RECENT_YEARS]
-    years_used = [r["Year"] for r in recent]
-    avg_grass_days = sum(r["Count_of_elevated_grass_pollen_"] for r in recent) / len(recent)
-    print(f"Carver County MN: averaging {years_used} -> {avg_grass_days:.1f} elevated grass pollen days/year", file=sys.stderr)
+    rows.sort(key=lambda r: r["Year"])
+    years_by_year = {
+        r["Year"]: {
+            "days": r["Count_of_elevated_grass_pollen_"],
+            "concern": round(min(100.0, (r["Count_of_elevated_grass_pollen_"] / GRASS_DAYS_CAP) * 100.0), 1),
+        }
+        for r in rows
+    }
+    all_years = sorted(years_by_year)
+    print(f"Carver County MN: {len(all_years)} real years on file, {all_years[0]}-{all_years[-1]}", file=sys.stderr)
 
     cities = json.loads((ROOT / "data/cities.json").read_text())
-    concern = round(min(100.0, (avg_grass_days / GRASS_DAYS_CAP) * 100.0), 1)
 
     records = {}
     for city in cities:
         dist = haversine_km(city["lat"], city["lon"], CARVER_LAT, CARVER_LON)
         if dist <= MATCH_RADIUS_KM:
             records[city["id"]] = {
-                "avg_elevated_grass_pollen_days_per_year": round(avg_grass_days, 1),
-                "years_averaged": years_used,
                 "distance_km_from_station_region": round(dist, 1),
-                "concern": concern,
+                "years": {
+                    str(year): {
+                        "elevated_grass_pollen_days": data["days"],
+                        "concern": data["concern"],
+                    }
+                    for year, data in years_by_year.items()
+                },
             }
 
     records["_meta"] = {
         "source": "Carver County, MN Environmental Services -- Elevated Pollen Days (real annual counts, 1993-2020, not updated since)",
         "match_radius_km": MATCH_RADIUS_KM,
         "grass_days_cap_for_100_concern": GRASS_DAYS_CAP,
+        "years": all_years,
         "coverage": len(records),
         "note": "Vermont's EPHT Pollen dataset (real daily grass counts, 2009-2025, genuinely live-maintained) was also confirmed real this session but has zero cities in the 512-city spine within range -- documented in gen_measured_grass_pollen_data.py for whoever extends this next.",
     }
 
     (ROOT / "data/measured-grass-pollen.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
     matched = sorted(k for k in records if k != "_meta")
-    print(f"Wrote data/measured-grass-pollen.json: {len(matched)} cities matched (of 512) -- intentionally sparse, real coverage only.", file=sys.stderr)
+    print(f"Wrote data/measured-grass-pollen.json: {len(matched)} cities matched (of 512), {len(all_years)} real years each -- intentionally sparse coverage, real depth.", file=sys.stderr)
     print(f"Matched cities: {matched}", file=sys.stderr)
 
 

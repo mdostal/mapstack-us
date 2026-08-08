@@ -10,11 +10,17 @@ targeted search (kicked off by an operator-supplied real source link) to find an
 ## What this measures
 
 One layer, **Measured grass pollen**, 0–100. Raw input is a REAL annual count: the
-average number of "elevated grass pollen days" per year, straight from a real health
+number of "elevated grass pollen days" in a given real year, straight from a real health
 department's own pollen-counting station — not modeled, not estimated. Higher count is
-more concerning, directly rescaled (capped at 90 days/year — the real observed max in
-the source station's own multi-decade history), the same data-informed-cap posture
-`heat-methodology.md` uses.
+more concerning, directly rescaled per year (capped at 90 days/year — the real observed
+max in the source station's own multi-decade history), the same data-informed-cap
+posture `heat-methodology.md` uses.
+
+Real multi-year history — **27 individual real years, 1993–2020** (`supportsTime:
+true`), per explicit operator direction to get "as much data as possible" for real
+trends over time. Each year's own real count is surfaced directly via `context.year`,
+not pre-averaged — the map's year control only ever offers a real year Carver County
+actually has on file.
 
 **This is deliberately a separate dataset from "Allergy severity," never blended into
 it** — explicit operator direction ("another layer and option we can use — be
@@ -58,11 +64,13 @@ query) for sibling "pollen" Feature Services. That search surfaced:
 ## Method
 
 1. **Fetch** (`scripts/gen_measured_grass_pollen_data.py`): Carver County's real ArcGIS
-   table, queried directly, no API key.
-2. **Average the 5 most recent real years on file** (2016–2020) rather than the single
-   latest year — a single year's count is a small, noisy number (Carver's own real
-   history swings from 3 to 90 days/year); a 5-year average is more representative
-   without pretending to a precision the data doesn't support.
+   table, queried directly, no API key. Every real year on file (1993–2020, one real gap
+   at 2003 — Carver's own table skips it, not a fetch error) is kept individually rather
+   than pre-averaged, so the map can show a real year-by-year trend.
+2. **Real per-year values, not a rolling average.** A single year's count IS a small,
+   noisy number (Carver's own real history swings from 3 to 90 days/year) — that
+   volatility is shown honestly rather than smoothed away, the same "don't invent
+   precision the data doesn't support" posture this project holds everywhere else.
 3. **Nearest-city match**: every spine city within 65 km of Carver County's
    approximate centroid (Chaska, the county seat — the ArcGIS table itself is a
    non-spatial annual summary with no lat/lon, so this project's usual
@@ -83,7 +91,7 @@ query) for sibling "pollen" Feature Services. That search surfaced:
   limitation `political-lean-methodology.md` already names for its own county-level
   numbers.
 - **Not updated since 2020** — Carver County's real feed appears to have stopped after
-  the 2020 season; this is a real, dated multi-year average, not a live current reading.
+  the 2020 season; `availableYears` stops there, never inventing a more recent year.
 - **"Elevated days," not a daily count or a NAB category** — this measures how many days
   per year crossed an "elevated" threshold, a coarser real signal than Vermont's own
   daily-count-plus-NAB-tier data (see above) would give if a spine city ever comes

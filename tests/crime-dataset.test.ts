@@ -8,10 +8,17 @@ describe("crimeDataset (Dataset interface, third real implementation, now multi-
     expect(crimeDataset.supportsTime).toBe(true);
   });
 
-  it("reports real availableYears, ending in 2025", () => {
+  it("reports real availableYears, 2010-2025", () => {
     expect(crimeDataset.availableYears).toBeDefined();
-    expect(crimeDataset.availableYears!.length).toBeGreaterThanOrEqual(2);
+    expect(crimeDataset.availableYears![0]).toBe(2010);
     expect(crimeDataset.availableYears![crimeDataset.availableYears!.length - 1]).toBe(2025);
+    expect(crimeDataset.availableYears!.length).toBe(16);
+  });
+
+  it("returns real, independently-computed data for the extended early years too", () => {
+    const y2010 = crimeDataset.getValue("aurora-co", "violent_crime", { year: 2010 });
+    expect(y2010).not.toBeNull();
+    expect(y2010!.detail).toContain("2010");
   });
 
   it("defaults to the latest available year when no context is given", () => {

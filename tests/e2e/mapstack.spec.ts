@@ -260,6 +260,26 @@ test("the fifteenth dataset (electoral competitiveness) is selectable and report
   await expect(detail).toContainText("not left/right lean");
 });
 
+test("electoral competitiveness now carries real multi-cycle history (2000-2024), not just the latest election", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Electoral competitiveness" }).click();
+  await page.getByRole("button", { name: "Electoral competitiveness", exact: true }).click();
+  await page.getByRole("button", { name: "Add Electoral competitiveness" }).click();
+
+  const yearSelect = page.getByLabel("Year", { exact: true });
+  await expect(yearSelect).toBeVisible();
+  await expect(yearSelect).toHaveValue("2024");
+
+  await page.getByRole("button", { name: /^Chicago, IL/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Electoral competitiveness" });
+  await expect(detail).toContainText("2024");
+
+  await yearSelect.selectOption("2000");
+  await expect(detail).toContainText("2000");
+});
+
 test("the sixteenth dataset (broadband access) is selectable and reports a real ACS-sourced value with full spine coverage", async ({ page }) => {
   await page.goto("/");
 
@@ -354,7 +374,7 @@ test("the twenty-first dataset (measured grass pollen) is selectable and reports
   ).toBeVisible();
 
   const minneapolisDetail = page.getByTestId("city-detail-row").filter({ hasText: "Measured grass pollen" });
-  await expect(minneapolisDetail).toContainText("real measured elevated-grass-pollen days/year");
+  await expect(minneapolisDetail).toContainText("real measured elevated-grass-pollen days");
   await expect(minneapolisDetail).toContainText("Carver County, MN");
 
   // Real coverage is intentionally narrow (Twin Cities MN metro only) --
@@ -1010,4 +1030,36 @@ test("ranking just the compared cities is scoped to that set, not all 512", asyn
   const text = await scopedList.textContent();
   expect(text).toContain("New York, NY");
   expect(text).toContain("Los Angeles, CA");
+});
+
+test("comparing cities with only a current-snapshot layer active shows an honest 'no historical trend' message, not a fabricated chart", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+
+  const trendPanel = page.getByText("Historical trend").locator("..");
+  await expect(trendPanel).toContainText("No historical trend to show yet");
+  await expect(trendPanel).toContainText("Add a Crime layer");
+  await expect(trendPanel.locator("svg")).not.toBeVisible();
+});
+
+test("comparing cities with Crime active shows a real multi-year trend chart, one line per city", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
+  await page.getByRole("button", { name: "Violent crime" }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+  await page.getByRole("button", { name: /^Los Angeles, CA/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+
+  const trendPanel = page.getByText("Historical trend").locator("..");
+  await expect(trendPanel).toContainText("Crime: Violent crime -- real data,");
+  await expect(trendPanel.locator("svg")).toBeVisible();
+  await expect(trendPanel.getByText("New York, NY")).toBeVisible();
+  await expect(trendPanel.getByText("Los Angeles, CA")).toBeVisible();
 });

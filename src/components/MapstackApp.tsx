@@ -9,6 +9,7 @@ import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
 import { CityComparisonPanel } from "@/components/CityComparisonPanel";
 import { CityRankingPanel } from "@/components/CityRankingPanel";
+import { TrendReportPanel } from "@/components/TrendReportPanel";
 import { CustomBlendPanel } from "@/components/CustomBlendPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { InsightsDock } from "@/components/InsightsDock";
@@ -248,6 +249,7 @@ export function MapstackApp() {
                   />
                 </div>
               )}
+              <TrendReportPanel cityIds={comparisonCityIds} active={active} />
             </div>
           )}
           <InsightsDock>

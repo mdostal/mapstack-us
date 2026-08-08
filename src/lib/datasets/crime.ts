@@ -19,13 +19,14 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
  * Surfaced explicitly in the `detail` string so this is never silently
  * conflated with those.
  *
- * Real multi-year history (2020-2025, scripts/gen_crime_data.py), per
- * explicit user direction that every dataset should carry "dates and
- * years and historical data like the allergy one" -- generalizes
- * allergy-locator's TimeframeControl/YearPlayback pattern via
- * `context.year` and `availableYears` rather than allergy-specific
- * month/day season curves, since crime data's real temporal resolution is
- * annual, not day-level.
+ * Real multi-year history (2010-2025, scripts/gen_crime_data.py, extended
+ * from an original 2020-2025 range per a later explicit request for "the
+ * last 10-20 years"), per explicit user direction that every dataset
+ * should carry "dates and years and historical data like the allergy
+ * one" -- generalizes allergy-locator's TimeframeControl/YearPlayback
+ * pattern via `context.year` and `availableYears` rather than
+ * allergy-specific month/day season curves, since crime data's real
+ * temporal resolution is annual, not day-level.
  */
 type CrimeLayer = "violent_crime" | "property_crime";
 

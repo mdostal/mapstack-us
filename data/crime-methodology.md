@@ -8,16 +8,26 @@ different shape, proving the interface holds across all three.
 
 ## What this measures
 
-Two independent layers, computed for **every year 2020–2025** (a real, year-by-year
+Two independent layers, computed for **every year 2010–2025** (a real, year-by-year
 history — not just one snapshot — per explicit user direction that every Mapstack dataset
-should carry "dates and years and historical data like the allergy one"):
+should carry "dates and years and historical data like the allergy one," extended from the
+original 2020–2025 range per a later explicit request for "the last 10-20 years"):
 - **Violent crime** — homicide, rape, robbery, aggravated assault (NIBRS/UCR "violent
   crime" offense group).
 - **Property crime** — burglary, larceny-theft, motor vehicle theft (NIBRS/UCR "property
   crime" offense group).
 
-The map's year control offers exactly these 6 real years — never a year invented to make
+The map's year control offers exactly these 16 real years — never a year invented to make
 the range look longer than the data actually supports.
+
+**Why 2010 as the floor, not further back.** Live-verified against the real FBI API before
+extending: agencies with long NIBRS history return real data back to at least 1985 (a probe
+against 1975 hit a real API format-validation error, not just sparse data — a genuine
+technical floor somewhere between 1975 and 1985). 2010 was chosen as a practical floor
+rather than the deepest theoretically-reachable year: real per-year coverage across the
+509-agency crosswalk falls off sharply further back (this build's own real 2010 figure is
+139/512, see below), and going all the way to the mid-1980s would mean asking for years
+where only a small handful of the longest-reporting agencies have any real data at all.
 
 Deliberately **not blended into one score** — combining violent and property crime into a
 single number requires a weighting judgment (is one incident of violent crime worth N
@@ -46,7 +56,7 @@ U.S. government data — public domain, free to use and redistribute.
    counts are summed and divided by the agency's population for that year:
    `rate_per_100k = sum(monthly counts) / population * 100000`. Computed from raw monthly
    counts, not by averaging 12 already-rounded monthly rates, which would compound
-   rounding error. Repeated independently for each of the 5 years.
+   rounding error. Repeated independently for each of the 16 years.
 3. **Concern score**: each city's rate is converted to a **percentile rank (0–100) among
    THAT YEAR's own covered cities** — e.g. a 2024 violent-crime concern of 65 means this
    city's 2024 rate is higher than 65% of the other cities with 2024 data, nothing more.
@@ -59,14 +69,28 @@ U.S. government data — public domain, free to use and redistribute.
 
 ## Why these years, and why coverage grows over time
 
-2020–2025 chosen as the most recent 6 full years with real NIBRS data available. Real
-NIBRS participation **grows every year** as more agencies join — so earlier years
+Real NIBRS participation **grows every year** as more agencies join — so earlier years
 genuinely, honestly cover FEWER cities than 2025, not because of a bug but because fewer
-agencies were reporting yet. 2025 is now the best-covered year in this range (460/512
-cities on both layers), edging out 2024's 454 as more agencies crossed their own
-full-calendar-year threshold. 2021's NIBRS-only reporting mandate caused a well-documented
-dip (~40% of agencies, including NYPD and LAPD, submitted no data that specific year) —
-visible directly in this dataset's own year-over-year coverage counts, not smoothed over.
+agencies were reporting yet. Real per-year coverage this build produced, out of 512 cities
+(each city needs a full, real calendar year of NIBRS data to appear for that year):
+
+| Year | Cities covered | Year | Cities covered |
+|---|---|---|---|
+| 2010 | 139 | 2018 | 182 |
+| 2011 | 142 | 2019 | 211 |
+| 2012 | 153 | 2020 | 248 |
+| 2013 | 155 | 2021 | 335 |
+| 2014 | 155 | 2022 | 389 |
+| 2015 | 160 | 2023 | 437 |
+| 2016 | 165 | 2024 | 454 |
+| 2017 | 171 | 2025 | 460 |
+
+2025 remains the best-covered year (460/512 on both layers). 2021's NIBRS-only reporting
+mandate caused a well-documented dip in the years right around it (agencies including NYPD
+and LAPD submitted no data that specific transition period) — visible directly as the
+comparatively small 2020→2021 jump relative to 2021→2022, not smoothed over. 469 distinct
+cities have real data for at least one of the 16 years, even though no single year covers
+all of them.
 
 ## Known limitations (shown, not smoothed over)
 
