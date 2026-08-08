@@ -1342,5 +1342,3149 @@
     "lat": 38.928,
     "lon": -94.669,
     "note": "Johnson County regional hub"
+  },
+  {
+    "name": "Lenox Hill Hospital",
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.71,
+    "lon": -74.01,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Houston Methodist Hospital",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.76,
+    "lon": -95.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mayo Clinic Hospital",
+    "city": "Phoenix",
+    "state": "AZ",
+    "lat": 33.45,
+    "lon": -112.07,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Hospital Of Univ Of Pennsylvania",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.95,
+    "lon": -75.17,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Baptist Neighborhood Hospital Thousand Oaks",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.42,
+    "lon": -98.49,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Uc San Diego Health Hillcrest - Hillcrest Med Ctr",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.72,
+    "lon": -117.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Baylor Scott & White Heart & Vascular Hospital - Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.78,
+    "lon": -96.8,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Texas Health Harris Methodist Hospital Alliance",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.76,
+    "lon": -97.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mayo Clinic",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.33,
+    "lon": -81.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Ascension Seton Northwest",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.27,
+    "lon": -97.74,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital-San Jose",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.34,
+    "lon": -121.89,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Novant Health Mint Hill Medical Center",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.23,
+    "lon": -80.84,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Doctors Hospital",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.96,
+    "lon": -82.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Franciscan Health Indianapolis",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.77,
+    "lon": -86.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "California Pacific Medical Center - Mission Bernal",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.77,
+    "lon": -122.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Virginia Mason Medical Center",
+    "city": "Seattle",
+    "state": "WA",
+    "lat": 47.61,
+    "lon": -122.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Saint Joseph Hospital",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.74,
+    "lon": -104.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Oklahoma Heart Hospital South, Llc",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.47,
+    "lon": -97.52,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Sibley Memorial Hospital",
+    "city": "Washington",
+    "state": "DC",
+    "lat": 38.91,
+    "lon": -77.04,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "University Medical Center Of El Paso",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.76,
+    "lon": -106.49,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Mountainview Hospital",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.17,
+    "lon": -115.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Brigham And Women'S Hospital",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.36,
+    "lon": -71.06,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Henry Ford Health Hospital",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.33,
+    "lon": -83.05,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baptist Health Louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.25,
+    "lon": -85.76,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Adventist Health Portland",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.52,
+    "lon": -122.68,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Baptist Memorial Hospital",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.15,
+    "lon": -90.05,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Greater Baltimore Medical Center",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.29,
+    "lon": -76.61,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Ascension Se Wisconsin Hospital",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 43.04,
+    "lon": -87.91,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Lovelace Westside Hospital",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.08,
+    "lon": -106.65,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - Fresno",
+    "city": "Fresno",
+    "state": "CA",
+    "lat": 36.75,
+    "lon": -119.77,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Banner-University Medical Center South Campus",
+    "city": "Tucson",
+    "state": "AZ",
+    "lat": 32.22,
+    "lon": -110.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - Sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.58,
+    "lon": -121.49,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Saint Lukes North Hospital",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.1,
+    "lon": -94.58,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Dignity Health Arizona General Hospital",
+    "city": "Mesa",
+    "state": "AZ",
+    "lat": 33.42,
+    "lon": -111.83,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Rex Hospital",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.78,
+    "lon": -78.64,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Uch-Memorial Health System",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.83,
+    "lon": -104.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Baptist Hospital Of Miami",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.76,
+    "lon": -80.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Chi Health Bergan Mercy",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.26,
+    "lon": -95.94,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Sentara Virginia Beach General Hospital",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "lat": 36.85,
+    "lon": -75.98,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Mary Medical Center",
+    "city": "Long Beach",
+    "state": "CA",
+    "lat": 33.77,
+    "lon": -118.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Alta Bates Summit Medical Center",
+    "city": "Oakland",
+    "state": "CA",
+    "lat": 37.8,
+    "lon": -122.27,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Abbott Northwestern Hospital",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.98,
+    "lon": -93.27,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Bakersfield Memorial Hospital",
+    "city": "Bakersfield",
+    "state": "CA",
+    "lat": 35.37,
+    "lon": -119.02,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Oklahoma Surgical Hospital, Llc",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.15,
+    "lon": -95.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Hca Florida South Tampa Hospital",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 27.95,
+    "lon": -82.46,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "University Of Colorado Hospital Authority",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.73,
+    "lon": -104.83,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Texas Health Arlington Memorial Hospital",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.74,
+    "lon": -97.11,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Via Christi Hospital Wichita St Teresa, Inc",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.69,
+    "lon": -97.34,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Fairview Hospital",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.5,
+    "lon": -81.69,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Ochsner Medical Center Acute",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.95,
+    "lon": -90.07,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Saint Rose Dominican Hospitals - Siena Campus",
+    "city": "Henderson",
+    "state": "NV",
+    "lat": 36.04,
+    "lon": -114.98,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Kaiser Foundation Hospital",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.31,
+    "lon": -157.86,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Ahmc Anaheim Regional Medical Center",
+    "city": "Anaheim",
+    "state": "CA",
+    "lat": 33.84,
+    "lon": -117.91,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Orlando Health",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.54,
+    "lon": -81.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Baptist Health Lexington",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.04,
+    "lon": -84.5,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Joseph'S Medical Center Of Stockton",
+    "city": "Stockton",
+    "state": "CA",
+    "lat": 37.96,
+    "lon": -121.29,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Saint Michael'S Medical Center",
+    "city": "Newark",
+    "state": "NJ",
+    "lat": 40.74,
+    "lon": -74.17,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital, Riverside",
+    "city": "Riverside",
+    "state": "CA",
+    "lat": 33.95,
+    "lon": -117.4,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Corpus Christi Medical Center,The",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "lat": 27.8,
+    "lon": -97.4,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Orange County Global Medical Center",
+    "city": "Santa Ana",
+    "state": "CA",
+    "lat": 33.75,
+    "lon": -117.87,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Christ Hospital",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.1,
+    "lon": -84.51,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Moses H. Cone Memorial Hospital, The",
+    "city": "Greensboro",
+    "state": "NC",
+    "lat": 36.07,
+    "lon": -79.79,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Magee Womens Hospital Of Upmc Health System",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.44,
+    "lon": -79.996,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Allina United Hospital",
+    "city": "Saint Paul",
+    "state": "MN",
+    "lat": 44.95,
+    "lon": -93.09,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Duke Regional Hospital",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 35.99,
+    "lon": -78.9,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Jersey City Medical Center",
+    "city": "Jersey City",
+    "state": "NJ",
+    "lat": 40.73,
+    "lon": -74.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Chi Health St. Elizabeth",
+    "city": "Lincoln",
+    "state": "NE",
+    "lat": 40.81,
+    "lon": -96.7,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "North Vista Hospital",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "lat": 36.2,
+    "lon": -115.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baylor Scott & White Medical Center Plano",
+    "city": "Plano",
+    "state": "TX",
+    "lat": 33.02,
+    "lon": -96.7,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Mercy Gilbert Medical Center",
+    "city": "Gilbert",
+    "state": "AZ",
+    "lat": 33.35,
+    "lon": -111.79,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Unitypoint Health - Meriter",
+    "city": "Madison",
+    "state": "WI",
+    "lat": 43.07,
+    "lon": -89.4,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Saint Mary'S Regional Medical Center",
+    "city": "Reno",
+    "state": "NV",
+    "lat": 39.53,
+    "lon": -119.81,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Chandler Regional Medical Center",
+    "city": "Chandler",
+    "state": "AZ",
+    "lat": 33.31,
+    "lon": -111.84,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Lukes Des Peres Hospital",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.63,
+    "lon": -90.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Sharp Chula Vista Medical Center",
+    "city": "Chula Vista",
+    "state": "CA",
+    "lat": 32.64,
+    "lon": -117.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Dupont Hospital Llc",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "lat": 41.08,
+    "lon": -85.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaleida Health",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.89,
+    "lon": -78.88,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Covenant Medical Center",
+    "city": "Lubbock",
+    "state": "TX",
+    "lat": 33.58,
+    "lon": -101.86,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Doctors Hospital Of Laredo",
+    "city": "Laredo",
+    "state": "TX",
+    "lat": 27.51,
+    "lon": -99.51,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Promedica Toledo Hospital",
+    "city": "Toledo",
+    "state": "OH",
+    "lat": 41.66,
+    "lon": -83.56,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Abrazo Arrowhead Hospital",
+    "city": "Glendale",
+    "state": "AZ",
+    "lat": 33.54,
+    "lon": -112.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "North Carolina Baptist Hospital",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "lat": 36.1,
+    "lon": -80.24,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Baylor Scott & White Medical Center At Irving",
+    "city": "Irving",
+    "state": "TX",
+    "lat": 32.81,
+    "lon": -96.95,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Chesapeake General Hospital",
+    "city": "Chesapeake",
+    "state": "VA",
+    "lat": 36.77,
+    "lon": -76.29,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Virginia Hospital Center",
+    "city": "Arlington",
+    "state": "VA",
+    "lat": 38.88,
+    "lon": -77.1,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Honorhealth Scottsdale Thompson Peak Med Ctr",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "lat": 33.49,
+    "lon": -111.93,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "St Luke'S Regional Medical Center",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.62,
+    "lon": -116.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Bon Secours St Marys Hospital",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.54,
+    "lon": -77.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Baylor Scott &  White Medical Center - Centennial",
+    "city": "Frisco",
+    "state": "TX",
+    "lat": 33.15,
+    "lon": -96.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Cape Coral Hospital",
+    "city": "Cape Coral",
+    "state": "FL",
+    "lat": 26.56,
+    "lon": -81.95,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baylor Scott And White  Medical Center  Mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "lat": 33.2,
+    "lon": -96.64,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Crestwood Medical Center",
+    "city": "Huntsville",
+    "state": "AL",
+    "lat": 34.73,
+    "lon": -86.59,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Larkin Community Hospital Palm Springs Campus",
+    "city": "Hialeah",
+    "state": "FL",
+    "lat": 25.86,
+    "lon": -80.28,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Deaconess Medical Center",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.66,
+    "lon": -117.43,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "St Joseph Medical Center",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.25,
+    "lon": -122.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - Fremont",
+    "city": "Fremont",
+    "state": "CA",
+    "lat": 37.55,
+    "lon": -121.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Ochsner Medical Center - Baton Rouge",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "lat": 30.45,
+    "lon": -91.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Community Hospital Of San Bernardino",
+    "city": "San Bernardino",
+    "state": "CA",
+    "lat": 34.11,
+    "lon": -117.29,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Kaiser Foundation Hospital Fontana/Ontario",
+    "city": "Fontana",
+    "state": "CA",
+    "lat": 34.09,
+    "lon": -117.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Memorial Medical Center",
+    "city": "Modesto",
+    "state": "CA",
+    "lat": 37.64,
+    "lon": -120.997,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Lds Hospital",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.76,
+    "lon": -111.89,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Kaiser Foundation Hospital-Moreno Valley",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -117.23,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Umass Memorial Medical Center/University Campus",
+    "city": "Worcester",
+    "state": "MA",
+    "lat": 42.26,
+    "lon": -71.8,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Avera Heart Hospital Of South Dakota",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.55,
+    "lon": -96.7,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "St John'S Riverside Hospital",
+    "city": "Yonkers",
+    "state": "NY",
+    "lat": 40.93,
+    "lon": -73.9,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Broadlawns Medical Center",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.59,
+    "lon": -93.62,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Arkansas Heart Hospital, Llc",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.75,
+    "lon": -92.29,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Highland Hospital",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.16,
+    "lon": -77.61,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Northwest Texas Hospital",
+    "city": "Amarillo",
+    "state": "TX",
+    "lat": 35.22,
+    "lon": -101.83,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Tallahassee Memorial Healthcare",
+    "city": "Tallahassee",
+    "state": "FL",
+    "lat": 30.44,
+    "lon": -84.28,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Adventhealth South Overland Park, Inc",
+    "city": "Overland Park",
+    "state": "KS",
+    "lat": 38.98,
+    "lon": -94.67,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Piedmont Columbus Regional Midtown",
+    "city": "Columbus",
+    "state": "GA",
+    "lat": 32.46,
+    "lon": -84.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "University Health System, Inc",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.96,
+    "lon": -83.92,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Doctors Hospital",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.47,
+    "lon": -81.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Spectrum Health",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 42.96,
+    "lon": -85.67,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Springhill Medical Center",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.69,
+    "lon": -88.04,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Legacy Salmon Creek Medical Center",
+    "city": "Vancouver",
+    "state": "WA",
+    "lat": 45.63,
+    "lon": -122.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Johns Regional Medical Center",
+    "city": "Oxnard",
+    "state": "CA",
+    "lat": 34.2,
+    "lon": -119.18,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Grandview Medical Center",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.52,
+    "lon": -86.81,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baptist Medical Center East",
+    "city": "Montgomery",
+    "state": "AL",
+    "lat": 32.37,
+    "lon": -86.3,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Erlanger Medical Center",
+    "city": "Chattanooga",
+    "state": "TN",
+    "lat": 35.05,
+    "lon": -85.31,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Valley Baptist Medical Center- Brownsville",
+    "city": "Brownsville",
+    "state": "TX",
+    "lat": 25.9,
+    "lon": -97.5,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Huntington Beach Hospital",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "lat": 33.66,
+    "lon": -117.999,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Akron General Medical Center",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.08,
+    "lon": -81.52,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Tennova Healthcare - Clarksville",
+    "city": "Clarksville",
+    "state": "TN",
+    "lat": 36.57,
+    "lon": -87.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Broward Health Medical Center",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "lat": 26.12,
+    "lon": -80.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Glendale Adventist Medical Center",
+    "city": "Glendale",
+    "state": "CA",
+    "lat": 34.14,
+    "lon": -118.26,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Wakemed, Cary Hospital",
+    "city": "Cary",
+    "state": "NC",
+    "lat": 35.78,
+    "lon": -78.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mary Immaculate Hospital",
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.09,
+    "lon": -76.52,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Salem Hospital",
+    "city": "Salem",
+    "state": "OR",
+    "lat": 44.94,
+    "lon": -123.04,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Copley Memorial Hospital",
+    "city": "Aurora",
+    "state": "IL",
+    "lat": 41.76,
+    "lon": -88.32,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Sutter Santa Rosa Regional Hospital",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "lat": 38.44,
+    "lon": -122.71,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Memorial Hospital Pembroke",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "lat": 26.01,
+    "lon": -80.34,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Christus Shreveport-Bossier Health System",
+    "city": "Shreveport",
+    "state": "LA",
+    "lat": 32.53,
+    "lon": -93.75,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Poudre Valley Hospital",
+    "city": "Fort Collins",
+    "state": "CO",
+    "lat": 40.55,
+    "lon": -105.06,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Saint Thomas Rutherford Hospital",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "lat": 35.85,
+    "lon": -86.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Tri-City Medical Center",
+    "city": "Oceanside",
+    "state": "CA",
+    "lat": 33.2,
+    "lon": -117.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Garden Grove Hospital & Medical Center",
+    "city": "Garden Grove",
+    "state": "CA",
+    "lat": 33.78,
+    "lon": -117.96,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Antelope Valley Hospital",
+    "city": "Lancaster",
+    "state": "CA",
+    "lat": 34.69,
+    "lon": -118.18,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Cox Medical Centers",
+    "city": "Springfield",
+    "state": "MO",
+    "lat": 37.19,
+    "lon": -93.29,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Texas Health Presbyterian Hospital Denton",
+    "city": "Denton",
+    "state": "TX",
+    "lat": 33.22,
+    "lon": -97.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Sutter Roseville Medical Center",
+    "city": "Roseville",
+    "state": "CA",
+    "lat": 38.77,
+    "lon": -121.32,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Adventhealth Central Texas",
+    "city": "Killeen",
+    "state": "TX",
+    "lat": 31.08,
+    "lon": -97.73,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Palmdale Regional Medical Center",
+    "city": "Palmdale",
+    "state": "CA",
+    "lat": 34.59,
+    "lon": -118.11,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Corona Regional Medical Center",
+    "city": "Corona",
+    "state": "CA",
+    "lat": 33.86,
+    "lon": -117.57,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Inova Alexandria Hospital",
+    "city": "Alexandria",
+    "state": "VA",
+    "lat": 38.82,
+    "lon": -77.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Roper Hospital",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.83,
+    "lon": -79.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Salinas Valley Memorial Hospital",
+    "city": "Salinas",
+    "state": "CA",
+    "lat": 36.69,
+    "lon": -121.63,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "University Of Kansas Hospital",
+    "city": "Kansas City",
+    "state": "KS",
+    "lat": 39.12,
+    "lon": -94.74,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Piedmont Macon North Hospital",
+    "city": "Macon",
+    "state": "GA",
+    "lat": 32.81,
+    "lon": -83.69,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Centura Health-St Anthony Hospital",
+    "city": "Lakewood",
+    "state": "CO",
+    "lat": 39.7,
+    "lon": -105.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Overlake Hospital Medical Center",
+    "city": "Bellevue",
+    "state": "WA",
+    "lat": 47.6,
+    "lon": -122.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Edward Hospital",
+    "city": "Naperville",
+    "state": "IL",
+    "lat": 41.75,
+    "lon": -88.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Bridgeport Hospital",
+    "city": "Bridgeport",
+    "state": "CT",
+    "lat": 41.19,
+    "lon": -73.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Saint Joseph Medical Center",
+    "city": "Joliet",
+    "state": "IL",
+    "lat": 41.52,
+    "lon": -88.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Dallas Regional Medical Center",
+    "city": "Mesquite",
+    "state": "TX",
+    "lat": 32.76,
+    "lon": -96.58,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Rio Grande Regional Hospital",
+    "city": "McAllen",
+    "state": "TX",
+    "lat": 26.23,
+    "lon": -98.25,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "University Of Kansas Health System Olathe Hospital",
+    "city": "Olathe",
+    "state": "KS",
+    "lat": 38.88,
+    "lon": -94.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Candler Hospital",
+    "city": "Savannah",
+    "state": "GA",
+    "lat": 32.02,
+    "lon": -81.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Uf Health Shands Hospital",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.68,
+    "lon": -82.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Hca Houston Healthcare Southeast",
+    "city": "Pasadena",
+    "state": "TX",
+    "lat": 29.66,
+    "lon": -95.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Palm Bay Hospital",
+    "city": "Palm Bay",
+    "state": "FL",
+    "lat": 27.95,
+    "lon": -80.67,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Pomona Valley Hospital Medical Center",
+    "city": "Pomona",
+    "state": "CA",
+    "lat": 34.06,
+    "lon": -117.76,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baylor Scott & White Medical Center Hillcrest",
+    "city": "Waco",
+    "state": "TX",
+    "lat": 31.56,
+    "lon": -97.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Hca Healthone Mountain Ridge",
+    "city": "Thornton",
+    "state": "CO",
+    "lat": 39.92,
+    "lon": -104.94,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Midland Memorial Hospital",
+    "city": "Midland",
+    "state": "TX",
+    "lat": 32.02,
+    "lon": -102.11,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Javon Bea Hospital",
+    "city": "Rockford",
+    "state": "IL",
+    "lat": 42.26,
+    "lon": -89.06,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Prisma Health Baptist",
+    "city": "Columbia",
+    "state": "SC",
+    "lat": 34.04,
+    "lon": -80.91,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaweah Health Medical Center",
+    "city": "Visalia",
+    "state": "CA",
+    "lat": 36.33,
+    "lon": -119.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Palomar Health Downtown Campus",
+    "city": "Escondido",
+    "state": "CA",
+    "lat": 33.13,
+    "lon": -117.07,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "University Hospital S U N Y Health Science Center",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.04,
+    "lon": -76.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Memorial Hospital Miramar",
+    "city": "Miramar",
+    "state": "FL",
+    "lat": 25.97,
+    "lon": -80.34,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Trinitas Regional Medical Center",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "lat": 40.67,
+    "lon": -74.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Desert Valley Hospital",
+    "city": "Victorville",
+    "state": "CA",
+    "lat": 34.53,
+    "lon": -117.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Ascension Seton Williamson",
+    "city": "Round Rock",
+    "state": "TX",
+    "lat": 30.53,
+    "lon": -97.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Merit Health Central",
+    "city": "Jackson",
+    "state": "MS",
+    "lat": 32.32,
+    "lon": -90.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Stamford Hospital",
+    "city": "Stamford",
+    "state": "CT",
+    "lat": 41.08,
+    "lon": -73.55,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Medical City Lewisville",
+    "city": "Lewisville",
+    "state": "TX",
+    "lat": 33.05,
+    "lon": -96.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Broward Health Coral Springs",
+    "city": "Coral Springs",
+    "state": "FL",
+    "lat": 26.27,
+    "lon": -80.26,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Yale-New Haven Hospital",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.31,
+    "lon": -72.92,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Providence St. Jude Medical Center",
+    "city": "Fullerton",
+    "state": "CA",
+    "lat": 33.89,
+    "lon": -117.93,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Torrance Memorial Medical Center",
+    "city": "Torrance",
+    "state": "CA",
+    "lat": 33.83,
+    "lon": -118.36,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Providence St. Joseph Hospital",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.79,
+    "lon": -117.86,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Mercy Medical Center - Cedar Rapids",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "lat": 41.96,
+    "lon": -91.68,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Sentara Careplex Hospital",
+    "city": "Hampton",
+    "state": "VA",
+    "lat": 37.05,
+    "lon": -76.3,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Henry Ford Health Warren Hospital",
+    "city": "Warren",
+    "state": "MI",
+    "lat": 42.49,
+    "lon": -83.03,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Miami Valley Hospital",
+    "city": "Dayton",
+    "state": "OH",
+    "lat": 39.78,
+    "lon": -84.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Sanford Medical Center Fargo",
+    "city": "Fargo",
+    "state": "ND",
+    "lat": 46.86,
+    "lon": -96.83,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Huntington Hospital",
+    "city": "Pasadena",
+    "state": "CA",
+    "lat": 34.16,
+    "lon": -118.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Carrollton Regional Medical Center",
+    "city": "Carrollton",
+    "state": "TX",
+    "lat": 32.99,
+    "lon": -96.9,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Kaiser Foundation Hospital-Santa Clara",
+    "city": "Santa Clara",
+    "state": "CA",
+    "lat": 37.36,
+    "lon": -121.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Hendrick Medical Center",
+    "city": "Abilene",
+    "state": "TX",
+    "lat": 32.45,
+    "lon": -99.74,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Norman Regional",
+    "city": "Norman",
+    "state": "OK",
+    "lat": 35.24,
+    "lon": -97.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Boone Hospital Center",
+    "city": "Columbia",
+    "state": "MO",
+    "lat": 38.95,
+    "lon": -92.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Hca Houston Healthcare Pearland",
+    "city": "Pearland",
+    "state": "TX",
+    "lat": 29.56,
+    "lon": -95.32,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Clovis Community Medical Center",
+    "city": "Clovis",
+    "state": "CA",
+    "lat": 36.83,
+    "lon": -119.68,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "St Mary'S Hospital",
+    "city": "Athens",
+    "state": "GA",
+    "lat": 33.95,
+    "lon": -83.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Baylor Scott & White Medical Center- College Stati",
+    "city": "College Station",
+    "state": "TX",
+    "lat": 30.59,
+    "lon": -96.3,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Good Samaritan Medical Center",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "lat": 26.75,
+    "lon": -80.13,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Novant Health New Hanover Regional Medical Center",
+    "city": "Wilmington",
+    "state": "NC",
+    "lat": 34.21,
+    "lon": -77.89,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Lehigh Valley Hospital",
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.59,
+    "lon": -75.48,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Stormont Vail Hospital",
+    "city": "Topeka",
+    "state": "KS",
+    "lat": 39.03,
+    "lon": -95.7,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Lakeland Regional Medical Center",
+    "city": "Lakeland",
+    "state": "FL",
+    "lat": 28.06,
+    "lon": -81.95,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Abrazo West Campus",
+    "city": "Goodyear",
+    "state": "AZ",
+    "lat": 33.25,
+    "lon": -112.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Ascension St John Broken Arrow",
+    "city": "Broken Arrow",
+    "state": "OK",
+    "lat": 36.04,
+    "lon": -95.78,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Adventist Health Simi Valley",
+    "city": "Simi Valley",
+    "state": "CA",
+    "lat": 34.27,
+    "lon": -118.75,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Mayo Clinic Hospital Rochester",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.01,
+    "lon": -92.48,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Ochsner Lafayette General Medical Center",
+    "city": "Lafayette",
+    "state": "LA",
+    "lat": 30.21,
+    "lon": -92.03,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Sutter Solano Medical Center",
+    "city": "Vallejo",
+    "state": "CA",
+    "lat": 38.11,
+    "lon": -122.26,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "John Muir Medical Center - Concord Campus",
+    "city": "Concord",
+    "state": "CA",
+    "lat": 37.97,
+    "lon": -122.0,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Medical Center Hospital",
+    "city": "Odessa",
+    "state": "TX",
+    "lat": 31.88,
+    "lon": -102.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Mount Auburn Hospital",
+    "city": "Cambridge",
+    "state": "MA",
+    "lat": 42.38,
+    "lon": -71.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Resolute Health Hospital",
+    "city": "New Braunfels",
+    "state": "TX",
+    "lat": 29.7,
+    "lon": -98.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Northbay Medical Center",
+    "city": "Fairfield",
+    "state": "CA",
+    "lat": 38.26,
+    "lon": -122.03,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Trinity Health Ann Arbor Hospital",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.28,
+    "lon": -83.73,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Los Robles Hospital & Medical Center",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "lat": 34.19,
+    "lon": -118.87,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Alta Bates Summit Medical Center - Alta Bates Camp",
+    "city": "Berkeley",
+    "state": "CA",
+    "lat": 37.87,
+    "lon": -122.3,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Centerpoint Medical Center",
+    "city": "Independence",
+    "state": "MO",
+    "lat": 39.09,
+    "lon": -94.35,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "High Point Regional Health System",
+    "city": "High Point",
+    "state": "NC",
+    "lat": 35.99,
+    "lon": -79.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "St Luke'S Nampa Medical Center",
+    "city": "Nampa",
+    "state": "ID",
+    "lat": 43.59,
+    "lon": -116.56,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Lowell General Hospital",
+    "city": "Lowell",
+    "state": "MA",
+    "lat": 42.64,
+    "lon": -71.32,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Hca Houston Healthcare Conroe",
+    "city": "Conroe",
+    "state": "TX",
+    "lat": 30.33,
+    "lon": -95.48,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Sutter Delta Medical Center",
+    "city": "Antioch",
+    "state": "CA",
+    "lat": 37.98,
+    "lon": -121.8,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Methodist Richardson Medical Center",
+    "city": "Richardson",
+    "state": "TX",
+    "lat": 32.97,
+    "lon": -96.71,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Three Crosses Regional Hospital Llc",
+    "city": "Las Cruces",
+    "state": "NM",
+    "lat": 32.33,
+    "lon": -106.79,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Catholic Medical Center",
+    "city": "Manchester",
+    "state": "NH",
+    "lat": 42.98,
+    "lon": -71.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Holy Cross Hospital-Jordan Valley",
+    "city": "West Jordan",
+    "state": "UT",
+    "lat": 40.6,
+    "lon": -112.0,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Centura Health-St Anthony North Health Campus",
+    "city": "Westminster",
+    "state": "CO",
+    "lat": 39.88,
+    "lon": -105.06,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Ascension St Vincent Evansville",
+    "city": "Evansville",
+    "state": "IN",
+    "lat": 37.99,
+    "lon": -87.53,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Saint Mary'S Hospital",
+    "city": "Waterbury",
+    "state": "CT",
+    "lat": 41.56,
+    "lon": -73.04,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Advocate Sherman Hospital",
+    "city": "Elgin",
+    "state": "IL",
+    "lat": 42.04,
+    "lon": -88.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Banner North Colorado Medical Center",
+    "city": "Greeley",
+    "state": "CO",
+    "lat": 40.42,
+    "lon": -104.77,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Temecula Valley Hospital",
+    "city": "Temecula",
+    "state": "CA",
+    "lat": 33.49,
+    "lon": -117.13,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Carolinas Medical Center-Northeast",
+    "city": "Concord",
+    "state": "NC",
+    "lat": 35.39,
+    "lon": -80.64,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Intermountain Health Utah Valley Hospital",
+    "city": "Provo",
+    "state": "UT",
+    "lat": 40.25,
+    "lon": -111.65,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Morton Plant Hospital",
+    "city": "Clearwater",
+    "state": "FL",
+    "lat": 27.98,
+    "lon": -82.77,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Dch Regional Medical Center",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "lat": 33.23,
+    "lon": -87.53,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Southwest Healthcare Rancho Springs Hospital",
+    "city": "Murrieta",
+    "state": "CA",
+    "lat": 33.57,
+    "lon": -117.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Edward W Sparrow Hospital",
+    "city": "Lansing",
+    "state": "MI",
+    "lat": 42.71,
+    "lon": -84.56,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baylor Scott & White Texas Spine & Joint Hospital",
+    "city": "Tyler",
+    "state": "TX",
+    "lat": 32.32,
+    "lon": -95.31,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Providence Regional Medical Center Everett",
+    "city": "Everett",
+    "state": "WA",
+    "lat": 47.97,
+    "lon": -122.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Texas Health Presbyterian Hospital Allen",
+    "city": "Allen",
+    "state": "TX",
+    "lat": 33.11,
+    "lon": -96.67,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Memorial Medical Center",
+    "city": "Springfield",
+    "state": "IL",
+    "lat": 39.79,
+    "lon": -89.64,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Christus Southeast Texas- St Elizabeth",
+    "city": "Beaumont",
+    "state": "TX",
+    "lat": 30.08,
+    "lon": -94.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Northern Nevada Medical Center",
+    "city": "Sparks",
+    "state": "NV",
+    "lat": 39.57,
+    "lon": -119.72,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Legacy Mount Hood Medical Center",
+    "city": "Gresham",
+    "state": "OR",
+    "lat": 45.5,
+    "lon": -122.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Marian Regional Medical Center",
+    "city": "Santa Maria",
+    "state": "CA",
+    "lat": 34.93,
+    "lon": -120.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Kaiser Foundation Hospital Westside",
+    "city": "Hillsboro",
+    "state": "OR",
+    "lat": 45.53,
+    "lon": -122.94,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Carle Health Proctor Hospital",
+    "city": "Peoria",
+    "state": "IL",
+    "lat": 40.75,
+    "lon": -89.62,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Hca Florida University Hospital",
+    "city": "Davie",
+    "state": "FL",
+    "lat": 26.08,
+    "lon": -80.28,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "South Texas Health System",
+    "city": "Edinburg",
+    "state": "TX",
+    "lat": 26.32,
+    "lon": -98.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Parkview Medical Center, Inc",
+    "city": "Pueblo",
+    "state": "CO",
+    "lat": 38.27,
+    "lon": -104.61,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Community Memorial Hospital - Ventura",
+    "city": "Ventura",
+    "state": "CA",
+    "lat": 34.27,
+    "lon": -119.25,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Adventhealth Palm Coast",
+    "city": "Palm Coast",
+    "state": "FL",
+    "lat": 29.54,
+    "lon": -81.24,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "St. George Regional Hospital",
+    "city": "St. George",
+    "state": "UT",
+    "lat": 37.08,
+    "lon": -113.58,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Pih Health Downey Hospital",
+    "city": "Downey",
+    "state": "CA",
+    "lat": 33.94,
+    "lon": -118.13,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Multicare Valley Hospital",
+    "city": "Spokane Valley",
+    "state": "WA",
+    "lat": 47.66,
+    "lon": -117.23,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Houston Methodist Sugarland Hospital",
+    "city": "Sugar Land",
+    "state": "TX",
+    "lat": 29.59,
+    "lon": -95.63,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Saint Luke'S East  Hospital",
+    "city": "Lee's Summit",
+    "state": "MO",
+    "lat": 38.92,
+    "lon": -94.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Charles Medical Center - Bend",
+    "city": "Bend",
+    "state": "OR",
+    "lat": 44.06,
+    "lon": -121.31,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Aurora Baycare Medical Ctr",
+    "city": "Green Bay",
+    "state": "WI",
+    "lat": 44.52,
+    "lon": -87.99,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Washington Regional Medical Center",
+    "city": "Fayetteville",
+    "state": "AR",
+    "lat": 36.07,
+    "lon": -94.17,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Signature Healthcare Brockton Hospital",
+    "city": "Brockton",
+    "state": "MA",
+    "lat": 42.08,
+    "lon": -71.02,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Boulder Community Health",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.02,
+    "lon": -105.25,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Vincent Heart Center",
+    "city": "Carmel",
+    "state": "IN",
+    "lat": 39.97,
+    "lon": -86.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Beaumont Hospital - Dearborn",
+    "city": "Dearborn",
+    "state": "MI",
+    "lat": 42.31,
+    "lon": -83.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Enloe Health",
+    "city": "Chico",
+    "state": "CA",
+    "lat": 39.76,
+    "lon": -121.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Valley Medical Center",
+    "city": "Renton",
+    "state": "WA",
+    "lat": 47.48,
+    "lon": -122.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Ascension St Vincent Fishers",
+    "city": "Fishers",
+    "state": "IN",
+    "lat": 39.96,
+    "lon": -85.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Sentara Obici Hospital",
+    "city": "Suffolk",
+    "state": "VA",
+    "lat": 36.7,
+    "lon": -76.63,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - Vacaville",
+    "city": "Vacaville",
+    "state": "CA",
+    "lat": 38.36,
+    "lon": -121.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "San Mateo Medical Center",
+    "city": "San Mateo",
+    "state": "CA",
+    "lat": 37.56,
+    "lon": -122.31,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Memorial Hospital Of South Bend",
+    "city": "South Bend",
+    "state": "IN",
+    "lat": 41.68,
+    "lon": -86.27,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Providence Saint Joseph Medical Ctr",
+    "city": "Burbank",
+    "state": "CA",
+    "lat": 34.19,
+    "lon": -118.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "United Regional Health Care System",
+    "city": "Wichita Falls",
+    "state": "TX",
+    "lat": 33.91,
+    "lon": -98.53,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Sutter Tracy Community Hospital",
+    "city": "Tracy",
+    "state": "CA",
+    "lat": 37.73,
+    "lon": -121.45,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Peter'S Hospital",
+    "city": "Albany",
+    "state": "NY",
+    "lat": 42.67,
+    "lon": -73.8,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "West Boca Medical Center",
+    "city": "Boca Raton",
+    "state": "FL",
+    "lat": 26.37,
+    "lon": -80.1,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Ahmc Seton Medical Center",
+    "city": "Daly City",
+    "state": "CA",
+    "lat": 37.7,
+    "lon": -122.47,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Shannon Medical Center",
+    "city": "San Angelo",
+    "state": "TX",
+    "lat": 31.44,
+    "lon": -100.45,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Integris Health Edmond Hospital",
+    "city": "Edmond",
+    "state": "OK",
+    "lat": 35.67,
+    "lon": -97.41,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Genesis Medical Center-Davenport",
+    "city": "Davenport",
+    "state": "IA",
+    "lat": 41.56,
+    "lon": -90.6,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Halifax Health /Uf Health Medical Center Of Delton",
+    "city": "Deltona",
+    "state": "FL",
+    "lat": 28.91,
+    "lon": -81.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Longs Peak Hospital",
+    "city": "Longmont",
+    "state": "CO",
+    "lat": 40.17,
+    "lon": -105.1,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "St Francis Community Hospital",
+    "city": "Federal Way",
+    "state": "WA",
+    "lat": 47.31,
+    "lon": -122.34,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Mercy Medical Center",
+    "city": "Merced",
+    "state": "CA",
+    "lat": 37.31,
+    "lon": -120.48,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Aurora Medical Center Kenosha",
+    "city": "Kenosha",
+    "state": "WI",
+    "lat": 42.59,
+    "lon": -87.88,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Hca Florida Mercy Hospital",
+    "city": "Plantation",
+    "state": "FL",
+    "lat": 26.13,
+    "lon": -80.26,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Carilion Medical Center",
+    "city": "Roanoke",
+    "state": "VA",
+    "lat": 37.28,
+    "lon": -79.96,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Baylor Scott & White Medical Center - Temple",
+    "city": "Temple",
+    "state": "TX",
+    "lat": 31.1,
+    "lon": -97.39,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Yakima Valley Memorial",
+    "city": "Yakima",
+    "state": "WA",
+    "lat": 46.59,
+    "lon": -120.55,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Evergreenhealth Medical Center",
+    "city": "Kirkland",
+    "state": "WA",
+    "lat": 47.7,
+    "lon": -122.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Coast Plaza Hospital",
+    "city": "Norwalk",
+    "state": "CA",
+    "lat": 33.91,
+    "lon": -118.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Chino Valley Medical Center",
+    "city": "Chino",
+    "state": "CA",
+    "lat": 33.98,
+    "lon": -117.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Bon Secours Maryview Medical Center",
+    "city": "Portsmouth",
+    "state": "VA",
+    "lat": 36.86,
+    "lon": -76.36,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Kaiser Foundation Hospital Manteca",
+    "city": "Manteca",
+    "state": "CA",
+    "lat": 37.79,
+    "lon": -121.23,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Ecu Health Medical Center",
+    "city": "Greenville",
+    "state": "NC",
+    "lat": 35.6,
+    "lon": -77.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "St Joseph Hospital",
+    "city": "Bellingham",
+    "state": "WA",
+    "lat": 48.75,
+    "lon": -122.47,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Lmh",
+    "city": "Lawrence",
+    "state": "KS",
+    "lat": 38.96,
+    "lon": -95.27,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Progress West Hospital",
+    "city": "O'Fallon",
+    "state": "MO",
+    "lat": 38.78,
+    "lon": -90.72,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Penn State Health St. Joseph",
+    "city": "Reading",
+    "state": "PA",
+    "lat": 40.34,
+    "lon": -75.93,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Mount Pleasant Hospital",
+    "city": "Mount Pleasant",
+    "state": "SC",
+    "lat": 32.81,
+    "lon": -79.86,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Southcoast Hospitals Group",
+    "city": "Fall River",
+    "state": "MA",
+    "lat": 41.73,
+    "lon": -71.09,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Timpanogos Regional Hospital",
+    "city": "Orem",
+    "state": "UT",
+    "lat": 40.3,
+    "lon": -111.7,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - San Marcos",
+    "city": "San Marcos",
+    "state": "CA",
+    "lat": 33.13,
+    "lon": -117.17,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Norwalk Hospital",
+    "city": "Norwalk",
+    "state": "CT",
+    "lat": 41.09,
+    "lon": -73.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "John F Kennedy Memorial Hospital",
+    "city": "Indio",
+    "state": "CA",
+    "lat": 33.73,
+    "lon": -116.24,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Mercy Medical Center Redding",
+    "city": "Redding",
+    "state": "CA",
+    "lat": 40.57,
+    "lon": -122.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Hemet Global Medical Center",
+    "city": "Hemet",
+    "state": "CA",
+    "lat": 33.73,
+    "lon": -117.0,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Memorial Mission Hospital And Asheville Surgery Ce",
+    "city": "Asheville",
+    "state": "NC",
+    "lat": 35.6,
+    "lon": -82.55,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "St Joe Mercy Hospital System Livonia",
+    "city": "Livonia",
+    "state": "MI",
+    "lat": 42.4,
+    "lon": -83.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "St Joseph Hospital",
+    "city": "Nashua",
+    "state": "NH",
+    "lat": 42.75,
+    "lon": -71.49,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Intermountain Health Alta View Hospital",
+    "city": "Sandy",
+    "state": "UT",
+    "lat": 40.57,
+    "lon": -111.85,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Frederick Health Hospital",
+    "city": "Frederick",
+    "state": "MD",
+    "lat": 39.43,
+    "lon": -77.41,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Chi St Joseph Health Regional Hospital",
+    "city": "Bryan",
+    "state": "TX",
+    "lat": 30.67,
+    "lon": -96.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Mercy Hospital Of Folsom",
+    "city": "Folsom",
+    "state": "CA",
+    "lat": 38.67,
+    "lon": -121.14,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Saint Vincent Hospital",
+    "city": "Erie",
+    "state": "PA",
+    "lat": 42.12,
+    "lon": -80.07,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Capital Health Regional Medical Center",
+    "city": "Trenton",
+    "state": "NJ",
+    "lat": 40.22,
+    "lon": -74.76,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Mercy Hospital Fort Smith",
+    "city": "Fort Smith",
+    "state": "AR",
+    "lat": 35.35,
+    "lon": -94.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Newton-Wellesley Hospital",
+    "city": "Newton",
+    "state": "MA",
+    "lat": 42.33,
+    "lon": -71.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Northwest Medical Center-Springdale",
+    "city": "Springdale",
+    "state": "AR",
+    "lat": 36.19,
+    "lon": -94.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Memorial Health",
+    "city": "Lawton",
+    "state": "OK",
+    "lat": 34.62,
+    "lon": -98.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Providence Mission Hospital",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "lat": 33.61,
+    "lon": -117.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Williamson Medical Center",
+    "city": "Franklin",
+    "state": "TN",
+    "lat": 35.91,
+    "lon": -86.85,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Santa Monica - Ucla Med Ctr & Orthopaedic Hospital",
+    "city": "Santa Monica",
+    "state": "CA",
+    "lat": 34.01,
+    "lon": -118.5,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Presbyterian Santa Fe Medical Center",
+    "city": "Santa Fe",
+    "state": "NM",
+    "lat": 35.69,
+    "lon": -105.94,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Banner Ironwood Medical Center",
+    "city": "Queen Creek",
+    "state": "AZ",
+    "lat": 33.24,
+    "lon": -111.61,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Mckay-Dee Hospital",
+    "city": "Ogden",
+    "state": "UT",
+    "lat": 41.23,
+    "lon": -111.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Broward Health North",
+    "city": "Deerfield Beach",
+    "state": "FL",
+    "lat": 26.31,
+    "lon": -80.13,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Merrimack Health Lawrence Hospital",
+    "city": "Lawrence",
+    "state": "MA",
+    "lat": 42.7,
+    "lon": -71.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Danbury Hospital",
+    "city": "Danbury",
+    "state": "CT",
+    "lat": 41.4,
+    "lon": -73.48,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Mission Regional Medical Center",
+    "city": "Mission",
+    "state": "TX",
+    "lat": 26.2,
+    "lon": -98.33,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Beaumont Hospital, Troy",
+    "city": "Troy",
+    "state": "MI",
+    "lat": 42.58,
+    "lon": -83.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Adventhealth Daytona Beach",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "lat": 29.19,
+    "lon": -81.1,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Trios Health",
+    "city": "Kennewick",
+    "state": "WA",
+    "lat": 46.2,
+    "lon": -119.18,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Essentia Health St Mary'S Medical Center",
+    "city": "Duluth",
+    "state": "MN",
+    "lat": 46.77,
+    "lon": -92.13,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Vista Medical Center East",
+    "city": "Waukegan",
+    "state": "IL",
+    "lat": 42.37,
+    "lon": -87.87,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Emory Houston Hospital Warner Robins",
+    "city": "Warner Robins",
+    "state": "GA",
+    "lat": 32.6,
+    "lon": -83.65,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Viera Hospital",
+    "city": "Melbourne",
+    "state": "FL",
+    "lat": 28.11,
+    "lon": -80.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Caromont Regional Medical Center",
+    "city": "Gastonia",
+    "state": "NC",
+    "lat": 35.25,
+    "lon": -81.19,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Houston Methodist Baytown Hospital",
+    "city": "Baytown",
+    "state": "TX",
+    "lat": 29.76,
+    "lon": -94.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Asante Rogue Regional Medical Center",
+    "city": "Medford",
+    "state": "OR",
+    "lat": 42.34,
+    "lon": -122.85,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Goleta Valley Cottage Hospital",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "lat": 34.4,
+    "lon": -119.71,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mercyone Siouxland Medical Center",
+    "city": "Sioux City",
+    "state": "IA",
+    "lat": 42.5,
+    "lon": -96.39,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Multicare Auburn Medical Center",
+    "city": "Auburn",
+    "state": "WA",
+    "lat": 47.3,
+    "lon": -122.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Homestead Hospital",
+    "city": "Homestead",
+    "state": "FL",
+    "lat": 25.47,
+    "lon": -80.44,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "San Ramon Regional Medical Center",
+    "city": "San Ramon",
+    "state": "CA",
+    "lat": 37.77,
+    "lon": -121.93,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Montefiore New Rochelle Hospital",
+    "city": "New Rochelle",
+    "state": "NY",
+    "lat": 40.92,
+    "lon": -73.78,
+    "note": "CMS-verified acute care hospital w/ ER, rating 1"
+  },
+  {
+    "name": "Pih Health Hospital-Whittier",
+    "city": "Whittier",
+    "state": "CA",
+    "lat": 33.97,
+    "lon": -118.02,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Hca Florida Osceola Hospital",
+    "city": "Kissimmee",
+    "state": "FL",
+    "lat": 28.3,
+    "lon": -81.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "El Camino Health",
+    "city": "Mountain View",
+    "state": "CA",
+    "lat": 37.4,
+    "lon": -122.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Kaiser Foundation Hospital - San Leandro",
+    "city": "San Leandro",
+    "state": "CA",
+    "lat": 37.7,
+    "lon": -122.16,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Holy Cross Hospital-Davis",
+    "city": "Layton",
+    "state": "UT",
+    "lat": 41.08,
+    "lon": -111.96,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Texas Health Hospital Mansfield",
+    "city": "Mansfield",
+    "state": "TX",
+    "lat": 32.57,
+    "lon": -97.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Kent County Memorial Hospital",
+    "city": "Warwick",
+    "state": "RI",
+    "lat": 41.7,
+    "lon": -71.42,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Adventhealth Castle Rock",
+    "city": "Castle Rock",
+    "state": "CO",
+    "lat": 39.38,
+    "lon": -104.85,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Monroe Hospital",
+    "city": "Bloomington",
+    "state": "IN",
+    "lat": 39.16,
+    "lon": -86.52,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Baptist Memorial Hospital Jonesboro, Inc.",
+    "city": "Jonesboro",
+    "state": "AR",
+    "lat": 35.82,
+    "lon": -90.68,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Beaumont Hospital - Farmington Hills",
+    "city": "Farmington Hills",
+    "state": "MI",
+    "lat": 42.49,
+    "lon": -83.38,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Christus Good Shepherd Medical Center",
+    "city": "Longview",
+    "state": "TX",
+    "lat": 32.52,
+    "lon": -94.76,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Christus Ochsner St Patrick Hospital",
+    "city": "Lake Charles",
+    "state": "LA",
+    "lat": 30.2,
+    "lon": -93.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Bethesda Hospital East",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "lat": 26.53,
+    "lon": -80.08,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Sequoia Hospital",
+    "city": "Redwood City",
+    "state": "CA",
+    "lat": 37.52,
+    "lon": -122.21,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Hoag Memorial Hospital Presbyterian",
+    "city": "Newport Beach",
+    "state": "CA",
+    "lat": 33.6,
+    "lon": -117.89,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mount Sinai Medical Center Of Florida, Inc",
+    "city": "Miami Beach",
+    "state": "FL",
+    "lat": 25.81,
+    "lon": -80.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "M Health Fairview Woodwinds Hospital",
+    "city": "Woodbury",
+    "state": "MN",
+    "lat": 44.91,
+    "lon": -92.92,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Medical Center Of The Rockies",
+    "city": "Loveland",
+    "state": "CO",
+    "lat": 40.42,
+    "lon": -105.06,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Centra Health -  Lynchburg Gen Hospital",
+    "city": "Lynchburg",
+    "state": "VA",
+    "lat": 37.4,
+    "lon": -79.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Hca Florida Largo Hospital",
+    "city": "Largo",
+    "state": "FL",
+    "lat": 27.91,
+    "lon": -82.77,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Emory Johns Creek Hospital",
+    "city": "Johns Creek",
+    "state": "GA",
+    "lat": 34.03,
+    "lon": -84.2,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "St Lukes Hospital",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.63,
+    "lon": -75.37,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Texas Health Presbyterian Hospital Flower Mound",
+    "city": "Flower Mound",
+    "state": "TX",
+    "lat": 33.04,
+    "lon": -97.11,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "San Antonio Regional Hospital",
+    "city": "Upland",
+    "state": "CA",
+    "lat": 34.12,
+    "lon": -117.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "Hurley Medical Center",
+    "city": "Flint",
+    "state": "MI",
+    "lat": 43.02,
+    "lon": -83.69,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Uchealth Broomfield Hospital",
+    "city": "Broomfield",
+    "state": "CO",
+    "lat": 39.95,
+    "lon": -105.05,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Ascension Seton Cedar Park",
+    "city": "Cedar Park",
+    "state": "TX",
+    "lat": 30.51,
+    "lon": -97.82,
+    "note": "CMS-verified acute care hospital w/ ER, rating 3"
+  },
+  {
+    "name": "St. Patrick Hospital",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.87,
+    "lon": -114.03,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "St Joseph Medical Center",
+    "city": "Bloomington",
+    "state": "IL",
+    "lat": 40.48,
+    "lon": -88.97,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "University Of Michigan Health - West",
+    "city": "Wyoming",
+    "state": "MI",
+    "lat": 42.89,
+    "lon": -85.71,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "The Medical Center (Bowling Green)",
+    "city": "Bowling Green",
+    "state": "KY",
+    "lat": 36.98,
+    "lon": -86.43,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Exceptional Community Hospital - Maricopa",
+    "city": "Maricopa",
+    "state": "AZ",
+    "lat": 33.04,
+    "lon": -112.0,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Uci Health-Lakewood",
+    "city": "Lakewood",
+    "state": "CA",
+    "lat": 33.85,
+    "lon": -118.12,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Chi St Alexius Health",
+    "city": "Bismarck",
+    "state": "ND",
+    "lat": 46.81,
+    "lon": -100.77,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Ascension All Saints Hospital",
+    "city": "Racine",
+    "state": "WI",
+    "lat": 42.73,
+    "lon": -87.81,
+    "note": "CMS-verified acute care hospital w/ ER, rating 2"
+  },
+  {
+    "name": "Christus Santa Rosa Hospital-San Marcos",
+    "city": "San Marcos",
+    "state": "TX",
+    "lat": 29.87,
+    "lon": -97.94,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Mercy Hospital Northwest Arkansas",
+    "city": "Rogers",
+    "state": "AR",
+    "lat": 36.32,
+    "lon": -94.15,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Alameda Hospital",
+    "city": "Alameda",
+    "state": "CA",
+    "lat": 37.74,
+    "lon": -122.26,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "West Valley Medical Center",
+    "city": "Caldwell",
+    "state": "ID",
+    "lat": 43.65,
+    "lon": -116.66,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Mercy Regional Medical Center",
+    "city": "Durango",
+    "state": "CO",
+    "lat": 37.28,
+    "lon": -107.88,
+    "note": "CMS-verified acute care hospital w/ ER, rating 5"
+  },
+  {
+    "name": "Los Alamos Medical Center",
+    "city": "Los Alamos",
+    "state": "NM",
+    "lat": 35.88,
+    "lon": -106.3,
+    "note": "CMS-verified acute care hospital w/ ER, rating Not Available"
+  },
+  {
+    "name": "Community Hospital",
+    "city": "Grand Junction",
+    "state": "CO",
+    "lat": 39.06,
+    "lon": -108.55,
+    "note": "CMS-verified acute care hospital w/ ER, rating 4"
+  },
+  {
+    "name": "Carle Foundation Hospital",
+    "city": "Champaign",
+    "state": "IL",
+    "lat": 40.11,
+    "lon": -88.27,
+    "note": "CMS-registered under Urbana IL (twin-city with Champaign); real hospital directly serving Champaign-Urbana"
+  },
+  {
+    "name": "PeaceHealth Sacred Heart Medical Center (RiverBend)",
+    "city": "Eugene",
+    "state": "OR",
+    "lat": 44.06,
+    "lon": -123.12,
+    "note": "CMS-registered under Springfield OR (immediately adjacent twin-city with Eugene, forming one real metro area)"
   }
 ]
