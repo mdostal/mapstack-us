@@ -41,6 +41,12 @@ interface Props {
   renderMarker: (point: CityPoint, isSelected: boolean) => ReactNode;
   onSelectCity: (cityId: string) => void;
   selectedCityId: string | null;
+  /** Additional cities to show a callout for at the same time as
+   * `selectedCityId` -- the compare-cities feature (simple view only;
+   * /advanced already has its own full comparison table and doesn't pass
+   * this). Optional and defaults to none, so every existing consumer is
+   * unaffected. */
+  pinnedCityIds?: string[];
   /** A continuous gradient surface (HeatmapLayer), rendered behind the state
    * outlines in the same coordinate space. Optional: the 2+ active-allergen
    * case still uses concentric-ring markers instead (see UsMap), since
@@ -57,9 +63,11 @@ interface Props {
  */
 /** Renders after every marker so it always draws on top -- a small pointer
  * (leader line + dot) plus a legible name-pill callout, so it's obvious at a
- * glance which city is selected without having to spot a subtly-larger dot
- * among hundreds of others. Flips below the marker near the top edge and
- * clamps horizontally near the left/right edges so it never gets cut off. */
+ * glance which city(ies) are selected/compared without having to spot a
+ * subtly-larger dot among hundreds of others. One of these renders per
+ * selected/pinned city (BaseSvgMap dedupes and calls this once each). Flips
+ * below the marker near the top edge and clamps horizontally near the
+ * left/right edges so it never gets cut off. */
 function SelectedCityCallout({ point }: { point: CityPoint }) {
   const { city, x, y } = point;
   const label = `${city.city}, ${city.state}`;
@@ -110,8 +118,11 @@ function SelectedCityCallout({ point }: { point: CityPoint }) {
   );
 }
 
-export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCityId, heatmap }: Props) {
-  const selectedPoint = selectedCityId ? MARKER_POINTS.find((p) => p.city.id === selectedCityId) : undefined;
+export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCityId, pinnedCityIds, heatmap }: Props) {
+  const calloutIds = new Set<string>(pinnedCityIds ?? []);
+  if (selectedCityId) calloutIds.add(selectedCityId);
+  const calloutPoints = MARKER_POINTS.filter((p) => calloutIds.has(p.city.id));
+
   return (
     <div className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900">
       {heatmap}
@@ -128,7 +139,7 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
         </g>
         <g>
           {MARKER_POINTS.map((point) => {
-            const isSelected = selectedCityId === point.city.id;
+            const isSelected = calloutIds.has(point.city.id);
             return (
               <g
                 key={point.city.id}
@@ -140,7 +151,9 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
             );
           })}
         </g>
-        {selectedPoint && <SelectedCityCallout point={selectedPoint} />}
+        {calloutPoints.map((point) => (
+          <SelectedCityCallout key={point.city.id} point={point} />
+        ))}
       </svg>
     </div>
   );

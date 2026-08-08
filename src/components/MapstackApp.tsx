@@ -7,6 +7,9 @@ import { ActiveLayersList } from "@/components/ActiveLayersList";
 import { MultiLayerMap } from "@/components/MultiLayerMap";
 import { LayerLegends } from "@/components/LayerLegends";
 import { CityDetailPanel } from "@/components/CityDetailPanel";
+import { CityComparisonPanel } from "@/components/CityComparisonPanel";
+import { CityRankingPanel } from "@/components/CityRankingPanel";
+import { CustomBlendPanel } from "@/components/CustomBlendPanel";
 import { CitySearch } from "@/components/CitySearch";
 import { InsightsDock } from "@/components/InsightsDock";
 import { InsightsPanel } from "@/components/InsightsPanel";
@@ -19,13 +22,42 @@ import { DATASETS } from "@/lib/datasets/registry";
 import { useSharedViewParams } from "@/lib/shared-view-params";
 import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
 import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
+import { computeBlendValue, type BlendWeights } from "@/lib/custom-blend";
 
 const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
+
+// "A few" -- past this, the comparison table gets cramped and /advanced's
+// full sortable/filterable table across all 512 cities is the right tool
+// instead. Not URL-persisted (unlike the single selected city): a genuinely
+// new, simple-view-only feature, kept as local state to avoid touching
+// shared-view-params.ts's cross-route contract with /advanced.
+const MAX_COMPARISON_CITIES = 4;
 
 export function MapstackApp() {
   const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
   const [previewLayer, setPreviewLayer] = useState<ActiveLayer | null>(null);
   const [hiddenDatasetIds, setHiddenDatasetIdsState] = useState<string[]>(() => getHiddenDatasetIds());
+  const [comparisonCityIds, setComparisonCityIds] = useState<string[]>([]);
+
+  function addToComparison(cityId: string) {
+    setComparisonCityIds((prev) => {
+      if (prev.includes(cityId) || prev.length >= MAX_COMPARISON_CITIES) return prev;
+      return [...prev, cityId];
+    });
+  }
+
+  function removeFromComparison(cityId: string) {
+    setComparisonCityIds((prev) => prev.filter((id) => id !== cityId));
+  }
+
+  // The same user-owned weighted blend CustomBlendPanel already computes in
+  // /advanced (lib/custom-blend.ts) -- brought into simple view so ranking
+  // ("score all cities based on the choices you made") has real weights to
+  // work from, not just an unweighted average. Still 100% opt-in and
+  // user-set: an empty weights object means every active layer counts
+  // equally until the operator actually moves a slider.
+  const [blendWeights, setBlendWeights] = useState<BlendWeights>({});
+  const [blendOverlayOn, setBlendOverlayOn] = useState(false);
 
   function updateHiddenDatasetIds(ids: string[]) {
     setHiddenDatasetIdsState(ids);
@@ -77,19 +109,32 @@ export function MapstackApp() {
     setActive((prev) => prev.filter((a) => !isSameLayer(a, layer)));
   }
 
-  const previewOverlays = useMemo(() => {
-    if (!previewLayer) return [];
+  const previewOverlay = useMemo(() => {
+    if (!previewLayer) return null;
     const resolved = resolveActiveLayer(previewLayer);
-    if (!resolved) return [];
+    if (!resolved) return null;
     const context = year !== null ? { year } : undefined;
-    return [
-      {
-        key: "layer-preview",
-        label: `Previewing: ${resolved.dataset.label}: ${resolved.layer.label}`,
-        getValue: (cityId: string) => resolved.dataset.getValue(cityId, resolved.layer.id, context)?.value ?? null,
-      },
-    ];
+    return {
+      key: "layer-preview",
+      label: `Previewing: ${resolved.dataset.label}: ${resolved.layer.label}`,
+      getValue: (cityId: string) => resolved.dataset.getValue(cityId, resolved.layer.id, context)?.value ?? null,
+    };
   }, [previewLayer, year]);
+
+  const blendOverlay = useMemo(() => {
+    if (!blendOverlayOn || active.length < 2) return null;
+    const context = year !== null ? { year } : undefined;
+    return {
+      key: "custom-blend-overlay",
+      label: "Your custom blend",
+      getValue: (cityId: string) => computeBlendValue(cityId, active, blendWeights, context),
+    };
+  }, [blendOverlayOn, active, blendWeights, year]);
+
+  const customOverlays = useMemo(
+    () => [previewOverlay, blendOverlay].filter((o) => o !== null),
+    [previewOverlay, blendOverlay],
+  );
 
   return (
     <main className="flex flex-1 flex-col bg-zinc-50 dark:bg-black">
@@ -137,7 +182,30 @@ export function MapstackApp() {
             <ManageDatasetsPanel hiddenIds={hiddenDatasetIds} onChange={updateHiddenDatasetIds} />
           </AccordionSection>
 
-          <CityDetailPanel cityId={selectedCityId} active={active} year={year} />
+          <AccordionSection title="Custom blend & ranking">
+            <CustomBlendPanel
+              selected={active}
+              selectedCityId={selectedCityId}
+              year={year}
+              weights={blendWeights}
+              onWeightsChange={setBlendWeights}
+              overlayOn={blendOverlayOn}
+              onToggleOverlay={() => setBlendOverlayOn((v) => !v)}
+            />
+            <div className="mt-3 border-t border-zinc-200 pt-3 dark:border-zinc-800">
+              <p className="mb-1.5 text-xs font-semibold text-zinc-700 dark:text-zinc-300">Rank all 512 cities</p>
+              <CityRankingPanel active={active} year={year} weights={blendWeights} onSelectCity={setSelectedCityId} />
+            </div>
+          </AccordionSection>
+
+          <CityDetailPanel
+            cityId={selectedCityId}
+            active={active}
+            year={year}
+            onAddToComparison={addToComparison}
+            isInComparison={selectedCityId ? comparisonCityIds.includes(selectedCityId) : false}
+            comparisonAtCap={comparisonCityIds.length >= MAX_COMPARISON_CITIES}
+          />
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col gap-3">
@@ -153,9 +221,35 @@ export function MapstackApp() {
             year={year}
             onSelectCity={setSelectedCityId}
             selectedCityId={selectedCityId}
-            customOverlays={previewOverlays}
+            pinnedCityIds={comparisonCityIds}
+            customOverlays={customOverlays}
             getLayerControl={getLayerControl}
           />
+          {comparisonCityIds.length > 0 && (
+            <div className="flex flex-col gap-3">
+              <CityComparisonPanel
+                cityIds={comparisonCityIds}
+                active={active}
+                year={year}
+                onRemove={removeFromComparison}
+                onClear={() => setComparisonCityIds([])}
+              />
+              {comparisonCityIds.length > 1 && (
+                <div className="rounded-lg border border-zinc-200 p-3 dark:border-zinc-800">
+                  <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+                    Rank the {comparisonCityIds.length} compared cities
+                  </p>
+                  <CityRankingPanel
+                    active={active}
+                    year={year}
+                    weights={blendWeights}
+                    onSelectCity={setSelectedCityId}
+                    cityIds={comparisonCityIds}
+                  />
+                </div>
+              )}
+            </div>
+          )}
           <InsightsDock>
             <InsightsPanel selected={active} year={year} onSelectCity={setSelectedCityId} />
           </InsightsDock>

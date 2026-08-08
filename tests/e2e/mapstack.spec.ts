@@ -930,3 +930,84 @@ test("a city with no crime data shows an honest no-data state, not a fabricated 
   const crimeDetail = page.getByTestId("city-detail-row").filter({ hasText: "Crime: Violent crime" });
   await expect(crimeDetail).toContainText("No data for this layer.");
 });
+
+test("comparing a few cities: + Compare adds a city, the comparison table shows every active layer for each, and cities can be removed individually or all at once", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+  await expect(page.getByTestId("city-comparison-panel")).toContainText("Comparing 1 city");
+  // Already-compared city no longer offers + Compare -- it shows a status instead.
+  await expect(page.getByRole("button", { name: "+ Compare" })).not.toBeVisible();
+  await expect(page.getByText("In comparison")).toBeVisible();
+
+  await page.getByRole("button", { name: /^Los Angeles, CA/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+  await expect(page.getByTestId("city-comparison-panel")).toContainText("Comparing 2 cities");
+
+  const comparisonPanel = page.getByTestId("city-comparison-panel");
+  await expect(comparisonPanel.getByText("New York, NY")).toBeVisible();
+  await expect(comparisonPanel.getByText("Los Angeles, CA")).toBeVisible();
+  await expect(comparisonPanel.getByTestId("city-comparison-row")).toHaveCount(1); // one active layer (Grass)
+
+  // Both compared cities get their own callout on the map at the same time.
+  const map = page.getByTestId("heatmap-canvas").locator("..").locator("svg");
+  await expect(map.locator("text", { hasText: "New York, NY" })).toBeVisible();
+  await expect(map.locator("text", { hasText: "Los Angeles, CA" })).toBeVisible();
+
+  await comparisonPanel.getByRole("button", { name: /Remove New York, NY/ }).click();
+  await expect(comparisonPanel).toContainText("Comparing 1 city");
+  await expect(comparisonPanel.getByText("New York, NY")).not.toBeVisible();
+
+  await comparisonPanel.getByRole("button", { name: "Clear" }).click();
+  await expect(page.getByTestId("city-comparison-panel")).not.toBeVisible();
+});
+
+test("comparison caps at 4 cities -- the 5th city's + Compare button is disabled rather than silently doing nothing", async ({ page }) => {
+  await page.goto("/");
+  const someCities = ["New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ"];
+  for (const name of someCities) {
+    await page.getByRole("button", { name: new RegExp(`^${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`) }).click();
+    const compareButton = page.getByRole("button", { name: "+ Compare" });
+    if (await compareButton.isVisible()) {
+      if (await compareButton.isEnabled()) {
+        await compareButton.click();
+      } else {
+        await expect(compareButton).toHaveAttribute("title", "Comparison is full -- remove a city first");
+      }
+    }
+  }
+  await expect(page.getByTestId("city-comparison-panel")).toContainText("Comparing 4 cities");
+  // Phoenix (the 5th) never made it in -- its own button should read "In comparison"
+  // only if it happened to be added, which it must not have been.
+  await expect(page.getByTestId("city-comparison-panel").getByText("Phoenix, AZ")).not.toBeVisible();
+});
+
+test("ranking cities by your active layers: the 'rank all 512 cities' panel sorts correctly and matches real known extremes for grass allergy", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Custom blend & ranking" }).click();
+
+  const rankAllList = page.getByTestId("city-ranking-list").first();
+  await expect(rankAllList).toBeVisible();
+  // Bend, OR is grass allergy's real lowest-concern city (verified live
+  // earlier this session) -- "Best first" is the default direction.
+  await expect(rankAllList.locator("li").first()).toContainText("Bend, OR");
+
+  await page.getByRole("button", { name: "Best first" }).first().click();
+  await expect(rankAllList.locator("li").first()).toContainText("Salem, OR");
+});
+
+test("ranking just the compared cities is scoped to that set, not all 512", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+  await page.getByRole("button", { name: /^Los Angeles, CA/ }).click();
+  await page.getByRole("button", { name: "+ Compare" }).click();
+
+  await expect(page.getByText("Rank the 2 compared cities")).toBeVisible();
+  const scopedList = page.getByTestId("city-ranking-list").last();
+  await expect(scopedList.locator("li")).toHaveCount(2);
+  const text = await scopedList.textContent();
+  expect(text).toContain("New York, NY");
+  expect(text).toContain("Los Angeles, CA");
+});

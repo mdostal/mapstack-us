@@ -31,6 +31,9 @@ interface Props {
   year: number | null;
   onSelectCity: (cityId: string) => void;
   selectedCityId: string | null;
+  /** See BaseSvgMap's own doc -- additional cities to show a callout for
+   * alongside selectedCityId (the compare-cities feature). */
+  pinnedCityIds?: string[];
   /** Any number of custom overlays, e.g. the Formula panel's grass-weight
    * recompute AND a user-defined custom blend, both active at once. */
   customOverlays?: CustomOverlay[];
@@ -74,6 +77,7 @@ export function MultiLayerMap({
   year,
   onSelectCity,
   selectedCityId,
+  pinnedCityIds,
   customOverlays = [],
   getLayerControl = () => DEFAULT_LAYER_CONTROL,
 }: Props) {
@@ -113,6 +117,7 @@ export function MultiLayerMap({
       ariaLabel={layers.length === 0 ? "Map (no layers visible)" : `Map showing ${layers.length} visible layer(s)`}
       onSelectCity={onSelectCity}
       selectedCityId={selectedCityId}
+      pinnedCityIds={pinnedCityIds}
       heatmap={
         layers.length > 0 ? (
           <>
