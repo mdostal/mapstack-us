@@ -221,6 +221,20 @@ reasoning this project grew out of.
 Next.js (SSG), Tailwind CSS v4, Vitest + Playwright, zero required backend — same
 foundation as allergy-locator.
 
+## API keys (for reproducing the keyed datasets)
+
+Most datasets need no key at all — see each layer's own note above. The handful
+that do (Census, BLS, AirNow, BEA, FBI, Dataverse, NASS, EIA, HUD) are used only
+by the one-off Python scripts under `scripts/` that regenerate `data/*.json`;
+none are shipped to the client or required to run the app itself (`pnpm dev`/
+`pnpm build` work with zero keys against the already-committed data files).
+
+Keys live in a local, gitignored `.env` — never committed, never referenced by
+shipped app code (`pnpm test:secrets` enforces this). If you maintain this repo
+and already store these keys in GCP Secret Manager, `scripts/load-secrets-from-gcp.sh`
+refreshes `.env` from there in one idempotent pass; otherwise just populate `.env`
+by hand from each provider's own free registration page.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
