@@ -1,7 +1,7 @@
 id: ddr13-1-electricity-cost
 epic: data-drive-round-13
 title: Ship the 42nd real dataset -- EIA residential electricity price (state-level)
-status: pending
+status: completed
 complexity: low
 methodology: classic
 depends_on: []
