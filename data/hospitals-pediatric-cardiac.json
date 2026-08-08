@@ -510,5 +510,13 @@
     "lat": 29.64,
     "lon": -82.343,
     "note": "Congenital Heart Center"
+  },
+  {
+    "name": "OU Health / Oklahoma Children's Hospital Heart Center",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.47,
+    "lon": -97.52,
+    "note": "Newsweek America's Best Children's Hospitals 2026 -- special distinction in pediatric cardiology/cardiac surgery, verified live"
   }
 ]

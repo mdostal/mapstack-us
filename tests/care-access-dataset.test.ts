@@ -48,6 +48,28 @@ describe("careAccessDataset (Dataset interface, fourth real implementation, port
     expect(careAccessDataset.getValue("new-york-ny", "not-a-real-layer")).toBeNull();
   });
 
+  it("real mid-size cities with their own major hospital score low concern for general care, not a multi-hour drive to a distant facility", () => {
+    // Regression test for a real bug caught by a live audit: the original
+    // 168-facility curated list (ported from allergy-locator) was missing
+    // real, major, well-known hospitals in dozens of mid-size cities,
+    // reporting multi-hour drives when a real local hospital existed.
+    // Fixed by scripts/fix_hospitals_general.py against the real CMS
+    // Hospital General Information dataset -- see
+    // data/care-access-methodology.md's "A real fix" section.
+    for (const cityId of ["rochester-ny", "syracuse-ny", "fargo-nd", "buffalo-ny", "albany-ny", "columbia-sc"]) {
+      const result = careAccessDataset.getValue(cityId, "general");
+      expect(result, cityId).not.toBeNull();
+      expect(result!.value, `${cityId} should score low concern -- it has a real local major hospital`).toBeLessThan(15);
+    }
+  });
+
+  it("Oklahoma City scores low concern for pediatric cardiac surgery -- OU Health's real, Newsweek-recognized program", () => {
+    const result = careAccessDataset.getValue("oklahoma-city-ok", "pediatric_cardiac");
+    expect(result).not.toBeNull();
+    expect(result!.value).toBeLessThan(10);
+    expect(result!.detail).toContain("OU Health");
+  });
+
   it("every spine city has a value for every layer -- care-access is computed (haversine + a fixed facility list), not source-limited, so it covers the full spine unlike allergy/crime", () => {
     for (const city of cities) {
       for (const layer of careAccessDataset.layers) {
