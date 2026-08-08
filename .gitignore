@@ -226,6 +226,11 @@ data/raw/environmental-violations-cache/
 # data/raw/winter-cold-burden-station-matches.json ARE committed.
 data/raw/winter-cold-burden-cache/
 
+# Pure fetch-scratch for the electricity-cost dataset build
+# (scripts/gen_electricity_cost_data.py) -- same posture as the caches
+# above. data/electricity-cost.json IS committed.
+data/raw/electricity-cost-cache/
+
 # sidecar_retention=transient (epic power-user-tab): HTML sidecars/index
 # and generated design PNGs are regenerated on demand, not committed.
 .pHive/epics/power-user-tab/docs/*.html

@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "coverage": 512,
+    "price_cap_for_100_concern": 41.0,
+    "source": "EIA (Energy Information Administration) API v2, electricity/retail-sales, residential sector, 2025"
+  },
+  "abilene-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "akron-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "alameda-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "albany-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "albuquerque-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "alexandria-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "alhambra-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "allen-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "allentown-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "amarillo-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "anaheim-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "anchorage-ak": {
+    "concern": 63.6,
+    "price_cents_per_kwh": 26.09,
+    "state": "AK"
+  },
+  "ankeny-ia": {
+    "concern": 33.5,
+    "price_cents_per_kwh": 13.72,
+    "state": "IA"
+  },
+  "ann-arbor-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "antioch-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "apex-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "arlington-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "arlington-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "arvada-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "asheville-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "athens-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "atlanta-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "auburn-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "auburn-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "augusta-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "aurora-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "aurora-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "austin-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "avondale-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "bakersfield-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "baltimore-md": {
+    "concern": 47.5,
+    "price_cents_per_kwh": 19.48,
+    "state": "MD"
+  },
+  "baton-rouge-la": {
+    "concern": 30.7,
+    "price_cents_per_kwh": 12.57,
+    "state": "LA"
+  },
+  "baytown-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "beaumont-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "beaverton-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "bellevue-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "bellingham-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "bend-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "berkeley-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "bethlehem-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "billings-mt": {
+    "concern": 31.7,
+    "price_cents_per_kwh": 12.98,
+    "state": "MT"
+  },
+  "birmingham-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "bismarck-nd": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.81,
+    "state": "ND"
+  },
+  "blanding-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "bloomington-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "bloomington-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "bloomington-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "boca-raton-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "boise-id": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.82,
+    "state": "ID"
+  },
+  "boston-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "boulder-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "bowling-green-ky": {
+    "concern": 32.3,
+    "price_cents_per_kwh": 13.24,
+    "state": "KY"
+  },
+  "boynton-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "bridgeport-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "brockton-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "broken-arrow-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "brooklyn-park-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "broomfield-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "brownsville-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "bryan-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "buckeye-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "buena-park-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "buffalo-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "burbank-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "caldwell-id": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.82,
+    "state": "ID"
+  },
+  "cambridge-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "cape-coral-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "carlsbad-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "carlsbad-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "carmel-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "carrollton-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "carson-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "cary-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "castle-rock-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "cedar-park-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "cedar-rapids-ia": {
+    "concern": 33.5,
+    "price_cents_per_kwh": 13.72,
+    "state": "IA"
+  },
+  "centennial-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "champaign-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "chandler-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "charleston-sc": {
+    "concern": 36.5,
+    "price_cents_per_kwh": 14.96,
+    "state": "SC"
+  },
+  "charlotte-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "chattanooga-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "chesapeake-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "chicago-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "chico-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "chino-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "chino-hills-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "chula-vista-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "cicero-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "cincinnati-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "citrus-heights-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "clarksville-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "clearwater-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "cleveland-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "clifton-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "clovis-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "college-station-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "colorado-springs-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "columbia-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "columbia-sc": {
+    "concern": 36.5,
+    "price_cents_per_kwh": 14.96,
+    "state": "SC"
+  },
+  "columbus-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "columbus-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "compton-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "concord-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "concord-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "conroe-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "coral-springs-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "corona-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "corpus-christi-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "costa-mesa-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "cranston-ri": {
+    "concern": 71.9,
+    "price_cents_per_kwh": 29.46,
+    "state": "RI"
+  },
+  "dallas-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "daly-city-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "danbury-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "davenport-ia": {
+    "concern": 33.5,
+    "price_cents_per_kwh": 13.72,
+    "state": "IA"
+  },
+  "davie-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "dayton-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "daytona-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "dearborn-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "deerfield-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "deltona-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "denton-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "denver-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "des-moines-ia": {
+    "concern": 33.5,
+    "price_cents_per_kwh": 13.72,
+    "state": "IA"
+  },
+  "detroit-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "doral-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "downey-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "duluth-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "durango-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "durham-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "edinburg-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "edmond-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "el-cajon-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "el-monte-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "el-paso-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "elgin-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "elizabeth-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "elk-grove-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "erie-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "escondido-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "eugene-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "evansville-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "everett-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "fairfield-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "fall-river-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "fargo-nd": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.81,
+    "state": "ND"
+  },
+  "farmington-hills-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "fayetteville-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "fayetteville-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "federal-way-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "fishers-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "flagstaff-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "flint-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "flower-mound-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "folsom-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "fontana-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "fort-collins-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "fort-lauderdale-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "fort-myers-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "fort-smith-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "fort-wayne-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "fort-worth-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "franklin-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "frederick-md": {
+    "concern": 47.5,
+    "price_cents_per_kwh": 19.48,
+    "state": "MD"
+  },
+  "fremont-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "fresno-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "frisco-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "fullerton-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "gainesville-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "garden-grove-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "garland-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "gastonia-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "georgetown-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "geraldine-mt": {
+    "concern": 31.7,
+    "price_cents_per_kwh": 12.98,
+    "state": "MT"
+  },
+  "gilbert-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "glendale-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "glendale-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "goodyear-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "grand-junction-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "grand-prairie-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "grand-rapids-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "greeley-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "green-bay-wi": {
+    "concern": 44.3,
+    "price_cents_per_kwh": 18.16,
+    "state": "WI"
+  },
+  "greensboro-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "greenville-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "gresham-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "hampton-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "hartford-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "hawthorne-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "hayward-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "hemet-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "henderson-nv": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.15,
+    "state": "NV"
+  },
+  "hesperia-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "hialeah-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "high-point-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "hillsboro-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "hollywood-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "homestead-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "honolulu-hi": {
+    "concern": 99.0,
+    "price_cents_per_kwh": 40.59,
+    "state": "HI"
+  },
+  "hoover-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "houston-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "huntington-beach-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "huntsville-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "independence-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "indianapolis-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "indio-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "inglewood-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "irvine-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "irving-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "jackson-ms": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.03,
+    "state": "MS"
+  },
+  "jacksonville-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "jersey-city-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "johns-creek-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "joliet-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "jonesboro-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "jurupa-valley-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "kalispell-mt": {
+    "concern": 31.7,
+    "price_cents_per_kwh": 12.98,
+    "state": "MT"
+  },
+  "kansas-city-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "kansas-city-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "kennewick-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "kenosha-wi": {
+    "concern": 44.3,
+    "price_cents_per_kwh": 18.16,
+    "state": "WI"
+  },
+  "kent-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "killeen-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "kirkland-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "kissimmee-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "knoxville-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "lafayette-la": {
+    "concern": 30.7,
+    "price_cents_per_kwh": 12.57,
+    "state": "LA"
+  },
+  "lake-charles-la": {
+    "concern": 30.7,
+    "price_cents_per_kwh": 12.57,
+    "state": "LA"
+  },
+  "lake-forest-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "lakeland-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "lakeville-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "lakewood-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "lakewood-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "lancaster-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "lansing-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "laredo-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "largo-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "las-cruces-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "las-vegas-nv": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.15,
+    "state": "NV"
+  },
+  "lawrence-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "lawrence-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "lawton-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "layton-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "league-city-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "leander-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "lees-summit-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "lehi-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "lewisville-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "lexington-ky": {
+    "concern": 32.3,
+    "price_cents_per_kwh": 13.24,
+    "state": "KY"
+  },
+  "lincoln-ne": {
+    "concern": 30.1,
+    "price_cents_per_kwh": 12.34,
+    "state": "NE"
+  },
+  "little-rock-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "livermore-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "livonia-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "long-beach-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "longmont-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "longview-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "los-alamos-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "los-angeles-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "louisville-ky": {
+    "concern": 32.3,
+    "price_cents_per_kwh": 13.24,
+    "state": "KY"
+  },
+  "loveland-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "lowell-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "lubbock-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "lynchburg-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "lynn-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "mableton-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "macon-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "madison-wi": {
+    "concern": 44.3,
+    "price_cents_per_kwh": 18.16,
+    "state": "WI"
+  },
+  "manchester-nh": {
+    "concern": 59.9,
+    "price_cents_per_kwh": 24.56,
+    "state": "NH"
+  },
+  "mansfield-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "manteca-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "maricopa-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "marysville-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "mcallen-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "mckinney-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "medford-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "melbourne-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "memphis-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "menifee-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "merced-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "meridian-id": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.82,
+    "state": "ID"
+  },
+  "mesa-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "mesquite-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "miami-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "miami-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "miami-gardens-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "midland-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "milpitas-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "milwaukee-wi": {
+    "concern": 44.3,
+    "price_cents_per_kwh": 18.16,
+    "state": "WI"
+  },
+  "minneapolis-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "miramar-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "mission-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "mission-viejo-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "missoula-mt": {
+    "concern": 31.7,
+    "price_cents_per_kwh": 12.98,
+    "state": "MT"
+  },
+  "missouri-city-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "mobile-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "modesto-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "montgomery-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "monticello-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "moreno-valley-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "mount-pleasant-sc": {
+    "concern": 36.5,
+    "price_cents_per_kwh": 14.96,
+    "state": "SC"
+  },
+  "mountain-view-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "murfreesboro-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "murrieta-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "nampa-id": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.82,
+    "state": "ID"
+  },
+  "naperville-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "nashua-nh": {
+    "concern": 59.9,
+    "price_cents_per_kwh": 24.56,
+    "state": "NH"
+  },
+  "nashville-tn": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.18,
+    "state": "TN"
+  },
+  "new-bedford-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "new-braunfels-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "new-haven-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "new-orleans-la": {
+    "concern": 30.7,
+    "price_cents_per_kwh": 12.57,
+    "state": "LA"
+  },
+  "new-rochelle-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "new-york-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "newark-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "newport-beach-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "newport-news-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "newton-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "norfolk-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "norman-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "north-charleston-sc": {
+    "concern": 36.5,
+    "price_cents_per_kwh": 14.96,
+    "state": "SC"
+  },
+  "north-las-vegas-nv": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.15,
+    "state": "NV"
+  },
+  "north-port-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "norwalk-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "norwalk-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "oakland-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "oceanside-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "odessa-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "ofallon-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "ogden-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "oklahoma-city-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "olathe-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "omaha-ne": {
+    "concern": 30.1,
+    "price_cents_per_kwh": 12.34,
+    "state": "NE"
+  },
+  "ontario-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "orange-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "orem-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "orlando-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "overland-park-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "oxnard-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "palm-bay-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "palm-coast-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "palmdale-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "parma-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "pasadena-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "pasadena-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "pasco-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "paterson-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "pawtucket-ri": {
+    "concern": 71.9,
+    "price_cents_per_kwh": 29.46,
+    "state": "RI"
+  },
+  "pearland-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "pembroke-pines-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "peoria-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "peoria-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "perris-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "pharr-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "philadelphia-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "phoenix-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "pittsburg-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "pittsburgh-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "plano-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "plantation-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "plymouth-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "pomona-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "pompano-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "port-st-lucie-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "portland-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "portsmouth-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "providence-ri": {
+    "concern": 71.9,
+    "price_cents_per_kwh": 29.46,
+    "state": "RI"
+  },
+  "provo-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "pueblo-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "queen-creek-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "quincy-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "racine-wi": {
+    "concern": 44.3,
+    "price_cents_per_kwh": 18.16,
+    "state": "WI"
+  },
+  "raleigh-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "rancho-cordova-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "rancho-cucamonga-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "rapid-city-sd": {
+    "concern": 32.6,
+    "price_cents_per_kwh": 13.38,
+    "state": "SD"
+  },
+  "reading-pa": {
+    "concern": 47.1,
+    "price_cents_per_kwh": 19.3,
+    "state": "PA"
+  },
+  "redding-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "redmond-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "redwood-city-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "reno-nv": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.15,
+    "state": "NV"
+  },
+  "renton-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "rialto-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "richardson-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "richmond-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "richmond-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "rio-rancho-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "riverside-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "roanoke-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "rochester-hills-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "rochester-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "rochester-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "rockford-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "rocklin-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "rogers-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "roseville-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "roswell-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "round-rock-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "sacramento-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "saint-paul-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "salem-or": {
+    "concern": 37.5,
+    "price_cents_per_kwh": 15.37,
+    "state": "OR"
+  },
+  "salinas-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "salt-lake-city-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "san-angelo-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "san-antonio-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "san-bernardino-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-diego-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-francisco-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-jose-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-leandro-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-marcos-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-marcos-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "san-mateo-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "san-ramon-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "sandpoint-id": {
+    "concern": 28.8,
+    "price_cents_per_kwh": 11.82,
+    "state": "ID"
+  },
+  "sandy-springs-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "sandy-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "santa-ana-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-barbara-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-clara-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-clarita-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-fe-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "santa-maria-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-monica-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "santa-rosa-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "savannah-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "schaumburg-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "scottsdale-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "seattle-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "shreveport-la": {
+    "concern": 30.7,
+    "price_cents_per_kwh": 12.57,
+    "state": "LA"
+  },
+  "simi-valley-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "sioux-city-ia": {
+    "concern": 33.5,
+    "price_cents_per_kwh": 13.72,
+    "state": "IA"
+  },
+  "sioux-falls-sd": {
+    "concern": 32.6,
+    "price_cents_per_kwh": 13.38,
+    "state": "SD"
+  },
+  "somerville-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "south-bend-in": {
+    "concern": 39.6,
+    "price_cents_per_kwh": 16.23,
+    "state": "IN"
+  },
+  "south-fulton-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "south-gate-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "south-jordan-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "sparks-nv": {
+    "concern": 32.1,
+    "price_cents_per_kwh": 13.15,
+    "state": "NV"
+  },
+  "spokane-valley-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "spokane-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "springdale-ar": {
+    "concern": 31.3,
+    "price_cents_per_kwh": 12.84,
+    "state": "AR"
+  },
+  "springfield-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "springfield-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "springfield-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "st-george-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "st-louis-mo": {
+    "concern": 32.9,
+    "price_cents_per_kwh": 13.49,
+    "state": "MO"
+  },
+  "st-petersburg-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "stamford-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "sterling-heights-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "stockton-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "suffolk-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "sugar-land-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "sundance-wy": {
+    "concern": 32.6,
+    "price_cents_per_kwh": 13.38,
+    "state": "WY"
+  },
+  "sunnyvale-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "sunrise-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "surprise-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "syracuse-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "tacoma-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "tallahassee-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "tampa-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "taos-nm": {
+    "concern": 36.8,
+    "price_cents_per_kwh": 15.08,
+    "state": "NM"
+  },
+  "temecula-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "tempe-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "temple-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "thornton-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "thousand-oaks-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "toledo-oh": {
+    "concern": 41.4,
+    "price_cents_per_kwh": 16.96,
+    "state": "OH"
+  },
+  "topeka-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "torrance-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "tracy-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "trenton-nj": {
+    "concern": 55.2,
+    "price_cents_per_kwh": 22.63,
+    "state": "NJ"
+  },
+  "troy-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "tucson-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  },
+  "tulsa-ok": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.12,
+    "state": "OK"
+  },
+  "tuscaloosa-al": {
+    "concern": 39.3,
+    "price_cents_per_kwh": 16.1,
+    "state": "AL"
+  },
+  "tustin-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "tyler-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "upland-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "vacaville-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "vallejo-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "vancouver-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "ventura-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "victorville-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "virginia-beach-va": {
+    "concern": 37.3,
+    "price_cents_per_kwh": 15.28,
+    "state": "VA"
+  },
+  "visalia-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "vista-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "waco-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "warner-robins-ga": {
+    "concern": 35.9,
+    "price_cents_per_kwh": 14.73,
+    "state": "GA"
+  },
+  "warren-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "warwick-ri": {
+    "concern": 71.9,
+    "price_cents_per_kwh": 29.46,
+    "state": "RI"
+  },
+  "washington-dc": {
+    "concern": 53.5,
+    "price_cents_per_kwh": 21.94,
+    "state": "DC"
+  },
+  "waterbury-ct": {
+    "concern": 71.7,
+    "price_cents_per_kwh": 29.38,
+    "state": "CT"
+  },
+  "waukegan-il": {
+    "concern": 43.1,
+    "price_cents_per_kwh": 17.69,
+    "state": "IL"
+  },
+  "west-covina-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "west-jordan-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "west-palm-beach-fl": {
+    "concern": 37.2,
+    "price_cents_per_kwh": 15.24,
+    "state": "FL"
+  },
+  "west-valley-city-ut": {
+    "concern": 31.9,
+    "price_cents_per_kwh": 13.07,
+    "state": "UT"
+  },
+  "westland-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "westminster-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "westminster-co": {
+    "concern": 38.7,
+    "price_cents_per_kwh": 15.85,
+    "state": "CO"
+  },
+  "whitewright-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "whittier-ca": {
+    "concern": 79.4,
+    "price_cents_per_kwh": 32.54,
+    "state": "CA"
+  },
+  "wichita-falls-tx": {
+    "concern": 37.7,
+    "price_cents_per_kwh": 15.47,
+    "state": "TX"
+  },
+  "wichita-ks": {
+    "concern": 35.5,
+    "price_cents_per_kwh": 14.56,
+    "state": "KS"
+  },
+  "wilmington-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "winston-salem-nc": {
+    "concern": 34.2,
+    "price_cents_per_kwh": 14.02,
+    "state": "NC"
+  },
+  "woodbury-mn": {
+    "concern": 38.6,
+    "price_cents_per_kwh": 15.82,
+    "state": "MN"
+  },
+  "worcester-ma": {
+    "concern": 74.3,
+    "price_cents_per_kwh": 30.48,
+    "state": "MA"
+  },
+  "wyoming-mi": {
+    "concern": 48.8,
+    "price_cents_per_kwh": 20.01,
+    "state": "MI"
+  },
+  "yakima-wa": {
+    "concern": 32.0,
+    "price_cents_per_kwh": 13.11,
+    "state": "WA"
+  },
+  "yonkers-ny": {
+    "concern": 64.4,
+    "price_cents_per_kwh": 26.39,
+    "state": "NY"
+  },
+  "yuma-az": {
+    "concern": 37.4,
+    "price_cents_per_kwh": 15.32,
+    "state": "AZ"
+  }
+}
