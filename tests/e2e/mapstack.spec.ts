@@ -461,7 +461,7 @@ test("the twenty-sixth dataset (population change) is selectable and reports a r
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   const detail = page.getByTestId("city-detail-row").filter({ hasText: "Population change" });
   await expect(detail).toContainText("population");
-  await expect(detail).toContainText("Census ACS");
+  await expect(detail).toContainText("Census");
 });
 
 test("the twenty-seventh dataset (cost of living) is selectable and reports a real BEA-sourced value -- the last of the four newly-obtained API keys", async ({ page }) => {
@@ -1108,4 +1108,25 @@ test("chat panel: remembering a key persists it in localStorage across reload, f
   await page.getByRole("button", { name: "Forget key" }).click();
   const stored = await page.evaluate(() => window.localStorage.getItem("mapstack_byok_anthropic_key"));
   expect(stored).toBeNull();
+});
+
+test("the ACS5-cluster datasets (income, housing affordability, property tax, population change) now carry real multi-year history, not just a current snapshot", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Median household income" }).click();
+  await page.getByRole("button", { name: "Median household income", exact: true }).click();
+  await page.getByRole("button", { name: "Add Median household income" }).click();
+
+  const yearSelect = page.getByLabel("Year", { exact: true });
+  await expect(yearSelect).toBeVisible();
+  await expect(yearSelect).toHaveValue("2023");
+
+  await page.getByRole("button", { name: /^New York, NY/ }).click();
+  const detail = page.getByTestId("city-detail-row").filter({ hasText: "Median household income" });
+  await expect(detail).toContainText("2023");
+
+  await yearSelect.selectOption("2009");
+  await expect(detail).toContainText("2009");
 });

@@ -1,63 +1,64 @@
 # Median household income — methodology
 
 The seventeenth real Mapstack dataset, and the second real progress on the "Census-cluster"
-roadmap item (population, income, broadband, tax, housing) that sat blocked all session on
-a missing `CENSUS_API_KEY` — joined at **county** level, reusing the same city→county
-crosswalk `hazard-methodology.md`'s build already produced.
+roadmap item (population, income, broadband, tax, housing).
 
 ## What this measures
 
 One layer, **Median household income**, 0–100. Raw input is the real dollar median
-household income for each city's county, percentile-ranked and **inverted** among covered
-cities — lower income is more concerning. Unlike `broadband-methodology.md`'s
-already-bounded 0–100 percentage, a dollar figure has no natural ceiling to rescale
-against directly, so this uses the same percentile convention
-`housing-inventory-methodology.md`/`days-on-market-methodology.md` already use for their
-own unbounded raw quantities.
+household income for each city's own **place** geography, percentile-ranked and
+**inverted** among THAT YEAR's own covered cities — lower income is more concerning. A
+dollar figure has no natural ceiling to rescale against directly, so this uses the same
+per-year percentile convention `crime-methodology.md`'s multi-year layers use — a
+relative comparison, not an absolute claim, and **not comparable across years** since
+each year's covered-city set can differ slightly.
 
-## Data source
+Real multi-year history — **2009–2023** (`supportsTime: true`), per explicit operator
+direction to get "as much data as possible" for real trends over time. 2009 is a REAL,
+verified floor, not a guess: it's the first-ever ACS5 vintage (the 2005–2009 window);
+table `B19013_001E` (median household income) doesn't exist before it.
 
-[County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/), 2025 Annual
-Data Release, "Median Household Income" measure (`v063`) — free direct CSV download, no
-key, no login. CHR's own underlying source is the **Census Bureau's American Community
-Survey (ACS) 5-year estimates** — the exact income figure the blocked Census-cluster
-roadmap item was designed around, delivered here through CHR's own free republication
-instead of a direct Census API call, the same discovery `broadband-methodology.md`'s build
-made for its own measure.
+## Data source — and a real, deliberate switch mid-session
+
+The original build sourced this from [County Health
+Rankings](https://www.countyhealthrankings.org/)'s free republication of Census ACS
+data, joined at **county** level. CHR only republishes its CURRENT annual release, with
+no real historical archive — so extending this to real multi-year history required
+switching to a **direct pull from the Census API itself**, table `B19013_001E`, the same
+place-level pattern `property-tax.ts`'s script already proved (city→place-FIPS
+crosswalk, `data/raw/city-place-fips.json`). This is a real, deliberate geography
+improvement alongside the year extension: place-level is a city's own boundary, a
+tighter fit than a whole county.
 
 ## Method
 
-1. **County crosswalk**: each spine city's county FIPS is read directly from
-   `data/raw/city-county-fips.json`, already built by `geocode_city_counties.py` for the
-   hazard dataset — no new network calls.
-2. **Join** (`scripts/gen_income_data.py`): CHR's national CSV is parsed for the
-   `v063_rawvalue` column (a real dollar figure), joined to each city's county FIPS. A
-   state-level fallback (which CHR also ships) exists in the script for any county CHR
-   suppresses, though it was not needed for any of the 512 spine cities in this build.
+1. **City → place FIPS**: reuses the same crosswalk `property-tax.ts`/
+   `housing-cost-burden.ts` use — no new geocoding.
+2. **Fetch** (`scripts/gen_income_data.py`): one Census ACS5 API call per (year, state)
+   pair (`get=NAME,B19013_001E&for=place:*&in=state:XX`), for every real year 2009–2023.
 3. **Concern score**: each city's real income is converted to a percentile rank (0–100)
-   among all covered cities, inverted (lower income = higher concern), computed once at
-   generation time — same convention as `crime-methodology.md`/`housing-inventory-methodology.md`.
+   among that YEAR's own covered cities, inverted (lower income = higher concern),
+   computed independently per year.
 
 ## Known limitations (shown, not smoothed over)
 
-- **County-level, not city-level** — every spine city inherits its whole county's ACS
-  5-year estimate, the same "one number, blurred geography" caveat every county-level
-  dataset in this project carries. This is a real, material gap for income specifically: a
-  city's own median income can differ substantially from its surrounding county's,
-  especially for a smaller city inside a large, more affluent (or less affluent) county.
-- **A 5-year rolling ACS estimate, not an annual snapshot** — the same real trade-off CHR
-  makes for small-geography reliability that `broadband-methodology.md`/
-  `traffic-fatalities-methodology.md` already document for their own measures.
-- **Every one of the 512 spine cities had a real, non-suppressed county value** —
-  genuinely full coverage, matching `broadband-methodology.md`'s own result. The
-  state-level fallback path exists in the script for consistency but was not exercised.
+- **508/512 real coverage (any year)**, smaller than the prior county-level build's
+  512/512 and varying slightly year to year — place-level ACS5 estimates are suppressed
+  for some very small places in some years, a real trade-off for the tighter geography.
+  See `data/income.json`'s `_meta` and each year's own printed count.
+- **No longer carries the old state-level fallback** for suppressed geographies — a real
+  city with no place-level estimate in a given year now shows an honest gap for that
+  year, rather than substituting a broader state average.
+- **A 5-year rolling ACS estimate at every year**, not an annual snapshot — consecutive
+  years' figures overlap heavily in their underlying survey window, the same real
+  trade-off every ACS-sourced dataset here documents.
 - **Not adjusted for local cost of living** — a given dollar figure buys more in a low
-  cost-of-living county than a high one; this measures raw nominal income, not
-  purchasing-power-adjusted income, a real limitation this project has no free source to
-  correct for at this resolution.
-- **Percentile rank is relative to the 512-city spine**, not all US counties — the same
-  "relative comparison, not an absolute claim" caveat `crime-methodology.md` already names
-  for its own percentile scores.
+  cost-of-living place than a high one; this measures raw nominal income, not
+  purchasing-power-adjusted income (see `cost-of-living-methodology.md` for a separate,
+  dedicated layer on that).
+- **Percentile rank is relative to that year's own covered-city set**, not all US
+  places, and not comparable across years — the same real property
+  `crime-methodology.md` already documents for its own percentile scores.
 
 ## Reproducing this dataset
 
@@ -65,7 +66,7 @@ made for its own measure.
 python3 scripts/gen_income_data.py
 ```
 
-Requires `data/raw/city-county-fips.json` to already exist (built by
-`geocode_city_counties.py` for the hazard dataset). Writes `data/income.json`. Caches the
-raw CHR national CSV under `data/raw/income-cache/` (gitignored — pure fetch-scratch, safe
-to delete and re-fetch any time).
+Requires a real `CENSUS_API_KEY` in `.env` and `data/raw/city-place-fips.json` to
+already exist (built for the health dataset). Writes `data/income.json` with every real
+year 2009–2023. Caches each (year, state) response under `data/raw/income-cache/`
+(gitignored — pure fetch-scratch, safe to delete and re-fetch any time).

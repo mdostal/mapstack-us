@@ -1,5 +1,5 @@
 import propertyTaxData from "@data/property-tax.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
  * The twenty-third real Dataset -- effective property tax rate, the last
@@ -13,37 +13,57 @@ import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
  * One layer: median annual real estate taxes paid divided by median home
  * value (Census ACS tables B25103/B25077), the same effective-rate
  * construction the backlog itself specifies. Already a meaningful,
- * bounded percentage, directly rescaled onto 0-100 (capped at 2.5% --
- * the real observed spine max, Trenton NJ, sits at 3.43%, so a handful
- * of the highest-burden cities clamp to 100, an honest "most burdened"
- * read). 508/512 real coverage.
+ * bounded percentage, directly rescaled onto 0-100 (capped at 2.5%, a
+ * FIXED cap across every year so a city's rate stays honestly comparable
+ * year to year).
+ *
+ * Real multi-year history (2010-2023), per explicit operator direction
+ * to get "as much data as possible" for real trends over time. 2010 is a
+ * REAL, verified floor -- table B25103 doesn't exist in the ACS5 2009
+ * vintage at all (confirmed live), one year later than the other
+ * Census-cluster datasets built around the same time.
  */
-interface PropertyTaxRecord {
+interface PropertyTaxYear {
   median_annual_taxes: number;
   median_home_value: number;
   effective_rate_pct: number;
   concern: number;
 }
 
-const DATA = propertyTaxData as unknown as Record<string, PropertyTaxRecord> & { _meta: unknown };
+interface PropertyTaxRecord {
+  years: Record<string, PropertyTaxYear>;
+}
 
-function getPropertyTaxValue(cityId: string, layerId: string): DatasetLayerValue | null {
+interface PropertyTaxMeta {
+  years: number[];
+}
+
+const DATA = propertyTaxData as unknown as Record<string, PropertyTaxRecord> & { _meta: PropertyTaxMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getPropertyTaxValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "property_tax_rate") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
   return {
-    value: record.concern,
-    detail: `${record.effective_rate_pct}% effective property tax rate -- $${record.median_annual_taxes.toLocaleString()}/year median taxes on a $${record.median_home_value.toLocaleString()} median home -- Census ACS`,
+    value: yearData.concern,
+    detail: `${yearData.effective_rate_pct}% effective property tax rate in ${year} -- $${yearData.median_annual_taxes.toLocaleString()}/year median taxes on a $${yearData.median_home_value.toLocaleString()} median home -- Census ACS`,
   };
 }
 
 export const propertyTaxDataset: Dataset = {
   id: "property-tax",
   label: "Property tax",
-  description: "Effective property tax rate -- median real estate taxes paid divided by median home value, real Census ACS data.",
+  description: "Effective property tax rate -- median real estate taxes paid divided by median home value, real Census ACS data, 2010-2023.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/property-tax-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "property_tax_rate", label: "Effective property tax rate" }],
   getValue: getPropertyTaxValue,
 };

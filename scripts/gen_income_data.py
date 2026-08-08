@@ -1,135 +1,130 @@
 #!/usr/bin/env python3
 """
 Builds the median-household-income dataset -- the second "Census-cluster"
-roadmap item (population, INCOME, broadband, tax, housing) unblocked
-without the missing CENSUS_API_KEY. Same discovery as broadband.ts: County
-Health Rankings' free national CSV (the same file
-traffic-fatalities.ts/broadband.ts already use) republishes real Census
-ACS median household income directly, county by county.
+roadmap item (population, INCOME, broadband, tax, housing).
 
-Reuses the SAME city->county crosswalk hazard.ts's build already
-produced (data/raw/city-county-fips.json) -- zero new geocoding.
+Real multi-year history (2009-2023), per explicit operator direction to
+get "as much data as possible" for real trends over time. This required
+switching sources: County Health Rankings (the original source) only
+republishes the CURRENT release, with no real historical archive -- so
+this now pulls DIRECTLY from the Census API instead, table B19013_001E
+(median household income), the same place-level pattern
+property-tax.ts's script already uses (city->place-FIPS crosswalk,
+data/raw/city-place-fips.json). 2009 is B19013's own real floor: it's the
+FIRST-EVER ACS5 vintage (the 2005-2009 window), confirmed live -- the
+table simply doesn't exist before that, not a fetch gap.
+
+Real, deliberate geography change alongside the year extension: the
+original CHR-sourced build was COUNTY-level with a state-level fallback
+for suppressed small counties. This direct-Census, place-level pull is a
+real precision improvement (a city's own place boundary, not its whole
+county) and reuses the exact crosswalk/pattern already proven for
+property-tax.ts -- but it does NOT carry over the old state-fallback
+mechanism, so real coverage may differ from the prior county-level build;
+see the printed coverage count.
 
 Raw direction: LOWER income is MORE concerning -- but unlike broadband's
 already-bounded 0-100 percentage, a dollar income figure has no natural
-100-point ceiling, so this uses a percentile rank among covered cities,
-INVERTED (lower dollar income = higher concern), same convention
-housing-inventory.ts/days-on-market.ts already use for their own
-unbounded raw quantities.
+100-point ceiling, so this uses a percentile rank AMONG THAT YEAR'S OWN
+covered cities, INVERTED (lower dollar income = higher concern), same
+convention crime.ts's percentile-per-year approach uses -- not comparable
+across years, same real caveat.
 
-Source: County Health Rankings & Roadmaps, 2025 Annual Data Release --
-Median Household Income measure (v063), sourced from Census ACS 5-year
-estimates. https://www.countyhealthrankings.org/health-data/community-conditions/economic-opportunity/median-household-income
+One API call per (year, state) pair.
 """
-import csv
-import io
 import json
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CACHE_FILE = ROOT / "data/raw/income-cache/chr-analytic-data-2025.csv"
-CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+CACHE_DIR = ROOT / "data/raw/income-cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-CHR_URL = "https://www.countyhealthrankings.org/sites/default/files/media/document/analytic_data2025_v3.csv"
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-
-
-def fetch_csv() -> str:
-    if CACHE_FILE.exists():
-        return CACHE_FILE.read_text()
-    result = subprocess.run(
-        ["curl", "-s", "--max-time", "60", "-A", USER_AGENT, CHR_URL],
-        capture_output=True,
-        check=True,
-    )
-    text = result.stdout.decode("utf-8")
-    CACHE_FILE.write_text(text)
-    return text
+YEARS = list(range(2009, 2024))  # ACS5 2009 (first-ever vintage) through 2023
 
 
-def load_chr_rows():
-    reader = csv.reader(io.StringIO(fetch_csv()))
-    next(reader)  # human-readable header row
-    codes = next(reader)  # machine variable-code header row
-    idx = {name: i for i, name in enumerate(codes)}
-    rows = list(reader)
+def census_key():
+    env_path = ROOT / ".env"
+    for line in env_path.read_text().splitlines():
+        if line.startswith("CENSUS_API_KEY="):
+            return line.split("=", 1)[1].strip()
+    raise SystemExit("CENSUS_API_KEY not found in .env")
 
-    by_county_fips = {}
-    by_state_abbrev = {}
-    for row in rows:
-        fips = row[idx["fipscode"]]
-        state = row[idx["state"]]
-        raw = row[idx["v063_rawvalue"]]
-        income = round(float(raw)) if raw.strip() else None
 
-        if row[idx["countycode"]] == "000":
-            by_state_abbrev[state] = income
-        elif fips and income is not None:
-            by_county_fips[fips] = income
-
-    return by_county_fips, by_state_abbrev
+def fetch_state_year(state_fips, year, key):
+    cache_file = CACHE_DIR / f"state-{state_fips}-{year}.json"
+    if cache_file.exists():
+        return json.loads(cache_file.read_text())
+    url = f"https://api.census.gov/data/{year}/acs/acs5?get=NAME,B19013_001E&for=place:*&in=state:{state_fips}&key={key}"
+    result = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, check=True)
+    text = result.stdout.decode("utf-8").strip()
+    rows = json.loads(text) if text.startswith("[") else []
+    cache_file.write_text(json.dumps(rows))
+    return rows
 
 
 def percentile_ranks_inverted(values_by_id):
-    """0-100 concern score: LOWER income = MORE concerning, so the lowest
-    income gets the highest percentile. Same convention as
-    housing-inventory.ts's/days-on-market.ts's own unbounded raw values."""
     ids_sorted = sorted(values_by_id, key=lambda cid: values_by_id[cid])
     n = len(ids_sorted)
     return {cid: round((n - 1 - i) / max(n - 1, 1) * 100, 1) for i, cid in enumerate(ids_sorted)}
 
 
 def main():
-    by_county_fips, by_state_abbrev = load_chr_rows()
-    print(f"Loaded {len(by_county_fips)} counties, {len(by_state_abbrev)} states from CHR.", file=sys.stderr)
-
-    city_county = json.loads((ROOT / "data/raw/city-county-fips.json").read_text())
+    key = census_key()
+    crosswalk = json.loads((ROOT / "data/raw/city-place-fips.json").read_text())
     cities = json.loads((ROOT / "data/cities.json").read_text())
 
+    state_fips_needed = sorted({crosswalk[c["id"]]["place_fips"][:2] for c in cities if c["id"] in crosswalk})
+
+    by_year_place = {}
+    for year in YEARS:
+        by_place = {}
+        for state_fips in state_fips_needed:
+            rows = fetch_state_year(state_fips, year, key)
+            for row in rows[1:] if rows and rows[0][0] == "NAME" else rows:
+                name, income, st, place = row
+                if income not in (None, "null"):
+                    by_place[f"{st}{place}"] = float(income)
+        by_year_place[year] = by_place
+        print(f"{year}: {len(by_place)} real places fetched across {len(state_fips_needed)} states", file=sys.stderr)
+
+    raw_by_year = {}
+    for year in YEARS:
+        raw_by_year[year] = {}
+        for city in cities:
+            cw = crosswalk.get(city["id"])
+            if not cw:
+                continue
+            income = by_year_place[year].get(cw["place_fips"])
+            if income is not None:
+                raw_by_year[year][city["id"]] = income
+
+    concern_by_year = {year: percentile_ranks_inverted(raw_by_year[year]) for year in YEARS}
+
     records = {}
-    unmatched = []
     for city in cities:
-        cid = city["id"]
-        fips_info = city_county.get(cid)
-        if not fips_info:
-            unmatched.append(cid)
-            continue
+        years_data = {}
+        for year in YEARS:
+            income = raw_by_year[year].get(city["id"])
+            if income is None:
+                continue
+            years_data[str(year)] = {"median_income": round(income), "concern": concern_by_year[year][city["id"]]}
+        if years_data:
+            records[city["id"]] = {"years": years_data}
 
-        income = by_county_fips.get(fips_info["stcofips"])
-        fallback = None
-        if income is None:
-            income = by_state_abbrev.get(city["state"])
-            fallback = "state"
-        if income is None:
-            unmatched.append(cid)
-            continue
-
-        records[cid] = {"median_income": income, "county": fips_info["county_name"], "fallback": fallback}
-
-    concern = percentile_ranks_inverted({cid: r["median_income"] for cid, r in records.items()})
-    for cid in records:
-        records[cid]["concern"] = concern[cid]
-
-    result = {
-        "_meta": {
-            "source": "County Health Rankings & Roadmaps, 2025 Annual Data Release -- Median Household Income (v063), Census ACS 5-year estimates",
-            "source_url": "https://www.countyhealthrankings.org/health-data/community-conditions/economic-opportunity/median-household-income",
-            "underlying_source": "Census American Community Survey (ACS) 5-year estimates",
-            "resolution": "county (state fallback for suppressed small counties)",
-        },
-        **records,
+    records["_meta"] = {
+        "source": "Census ACS 5-year estimates, B19013_001E (median household income), 2009-2023, direct place-level pull",
+        "years": YEARS,
+        "coverage": len(records),
     }
-    (ROOT / "data/income.json").write_text(json.dumps(result, indent=2))
-    fallback_count = sum(1 for r in records.values() if r["fallback"] == "state")
-    print(
-        f"Wrote data/income.json: {len(records)}/{len(cities)} cities matched "
-        f"({fallback_count} via state fallback).",
-        file=sys.stderr,
-    )
-    if unmatched:
-        print(f"Unmatched: {unmatched}", file=sys.stderr)
+
+    (ROOT / "data/income.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
+    covered = len(records) - 1
+    print(f"Wrote data/income.json: {covered}/{len(cities)} covered (any year).", file=sys.stderr)
+    for year in YEARS:
+        n = len(raw_by_year[year])
+        print(f"  {year}: {n}/{len(cities)} cities covered", file=sys.stderr)
 
 
 if __name__ == "__main__":
