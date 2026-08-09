@@ -128,7 +128,8 @@ built from two real, working examples instead of upfront design.
     employee, reusing the business-density pipeline with zero new endpoint risk,
     genuinely distinct from median household income and business density
     (`data/average-wage-methodology.md`).
-  - **Drought severity** — real US Drought Monitor county-level severity, a joint
+  - **Drought severity** — real US Drought Monitor county-level severity, real
+    multi-year history 2000-2026 (annual average of real weekly readings), a joint
     NOAA/USDA/University of Nebraska-Lincoln product, no API key, already a
     natively bounded percentage with no rescale needed
     (`data/drought-methodology.md`).

@@ -1,55 +1,73 @@
 import droughtData from "@data/drought.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-second real Dataset -- county-level drought severity, ddr3-1
- * (data-drive-round-3 epic). Source: the real US Drought Monitor (USDM)
- * data service, a joint NOAA/USDA/University of Nebraska-Lincoln product.
- * No API key required. See scripts/gen_drought_data.py.
+ * The thirty-second real Dataset -- county-level drought severity,
+ * extended to real multi-year history 2000-2026 (this session's
+ * unplanned "keep going" continuation, after severe-weather and
+ * air-quality). Real US Drought Monitor (USDM) data service, no API
+ * key. See scripts/gen_drought_data.py.
  *
- * Reuses the existing city->county crosswalk unchanged -- no new
- * geocoding. Takes a real county FIPS directly; state-level and national
- * queries were tried live and return empty, so this is genuinely
- * county-only (one request per county), same ceiling as business-
- * density.ts/average-wage.ts.
+ * USDM's own real weekly records begin 2000-01-04 -- the real start of
+ * the Drought Monitor program itself. Unlike other multi-year builds
+ * this session, this needed no per-year fetch loop: USDM's API takes a
+ * real date range and returns every real weekly row in one response, so
+ * each of the spine's ~293 unique counties was fetched ONCE across the
+ * full real range.
  *
- * One layer: real D2 (Severe Drought or worse) percentage of county area,
- * from USDM's own nested D0-D4 classification -- already a natively
- * 0-100-bounded percentage, direct mapping, no rescale needed. Higher =
- * more concerning. 512/512 real coverage.
+ * One layer: the annual AVERAGE of USDM's own weekly `D2` (Severe
+ * Drought or worse) percentage across every real week published that
+ * calendar year -- a real annual severity measure, smoother than one
+ * arbitrary week. Already natively 0-100-bounded, no rescale, higher =
+ * more concerning, comparable year to year with no cap needed.
+ *
+ * A real, confirmed-live surprise: USDM's own FIPS-coded boundary layer
+ * already reflects Connecticut's 2022 planning-region transition,
+ * consistently across the ENTIRE real 2000-2026 history -- USDM
+ * retroactively recomputed historical CT percentages against its
+ * current boundary set, so CT cities join cleanly with no fallback
+ * needed here (unlike several other datasets this session).
  */
-interface DroughtRecord {
+interface DroughtYear {
   severe_drought_pct: number;
-  as_of: string;
+  weeks: number;
+}
+
+interface DroughtRecord {
   county: string;
+  years: Record<string, DroughtYear>;
 }
 
-const DATA = droughtData as unknown as Record<string, DroughtRecord> & { _meta: unknown };
-
-function formatDate(yyyymmdd: string): string {
-  const year = yyyymmdd.slice(0, 4);
-  const month = yyyymmdd.slice(4, 6);
-  const day = yyyymmdd.slice(6, 8);
-  return `${year}-${month}-${day}`;
+interface DroughtMeta {
+  years: number[];
 }
 
-function getDroughtValue(cityId: string, layerId: string): DatasetLayerValue | null {
+const DATA = droughtData as unknown as Record<string, DroughtRecord> & { _meta: DroughtMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getDroughtValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "drought_severity") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
   return {
-    value: record.severe_drought_pct,
-    detail: `${record.severe_drought_pct.toFixed(1)}% of ${record.county} County in Severe Drought or worse as of ${formatDate(record.as_of)} -- US Drought Monitor`,
+    value: yearData.severe_drought_pct,
+    detail: `${yearData.severe_drought_pct.toFixed(1)}% of ${record.county} County in Severe Drought or worse, ${year} average (${yearData.weeks} weeks) -- US Drought Monitor`,
   };
 }
 
 export const droughtDataset: Dataset = {
   id: "drought",
   label: "Drought severity",
-  description: "Real US Drought Monitor severity -- county-level percent of area in Severe Drought or worse.",
+  description: "Real US Drought Monitor severity, 2000-2026 -- county-level annual average percent in Severe Drought or worse.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/drought-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "drought_severity", label: "Drought severity" }],
   getValue: getDroughtValue,
 };
