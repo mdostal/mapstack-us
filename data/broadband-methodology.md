@@ -9,17 +9,26 @@ crosswalk `hazard-methodology.md`'s build already produced.
 
 One layer, **Broadband access**, 0–100. Raw input is the real percentage of households
 with a broadband internet subscription of any type (cable, DSL, fiber-optic, cellular, or
-satellite) — already a meaningful 0–100 quantity, directly rescaled
+satellite) at a given real year — already a meaningful 0–100 quantity, directly rescaled
 (`concern = 100 − pct_broadband`), lower access is more concerning.
+
+Real multi-year history — **2021–2025** (`supportsTime: true`), per explicit operator
+direction to get "as much data as possible" for real trends over time.
 
 ## Data source
 
-[County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/), 2025 Annual
-Data Release, "Broadband Access" measure (`v166`) — free direct CSV download, no key, no
-login. CHR's own underlying source is the **Census Bureau's American Community Survey
-(ACS) 5-year estimates** — the exact same broadband-subscription question the blocked
-Census-cluster roadmap item was designed around, delivered here through CHR's own
+[County Health Rankings & Roadmaps](https://www.countyhealthrankings.org/), real annual
+releases 2021–2025, "Broadband Access" measure (`v166`) — free direct CSV download, no
+key, no login. CHR's own underlying source is the **Census Bureau's American Community
+Survey (ACS) 5-year estimates** — the exact same broadband-subscription question the
+blocked Census-cluster roadmap item was designed around, delivered here through CHR's own
 free republication instead of a direct Census API call.
+
+**Real floor for this dataset**: 2021. CHR has published a real annual release back to
+2010, but confirmed live by checking every year's own real column headers directly, the
+Broadband Access measure itself doesn't exist in CHR's 2010, 2013, 2016, 2018, or 2020
+releases — 2021 is the real first year it appears, and its internal variable code
+(`v166`) stays stable in every release from 2021 through 2025.
 
 **Why CHR and not the Census API directly**: this project's Census-cluster datasets
 (population, income, broadband, tax, housing at full ~19,500-place resolution) have sat
@@ -37,11 +46,11 @@ measure list rather than a general workaround.
 1. **County crosswalk**: each spine city's county FIPS is read directly from
    `data/raw/city-county-fips.json`, already built by `geocode_city_counties.py` for the
    hazard dataset — no new network calls.
-2. **Rate join** (`scripts/gen_broadband_data.py`): CHR's national CSV is parsed for the
-   `v166_rawvalue` column (a 0–1 fraction, converted to a percentage), joined to each
-   city's county FIPS. A state-level fallback (which CHR also ships) exists in the script
-   for any county CHR suppresses, though it was not needed for any of the 512 spine cities
-   in this build.
+2. **Rate join, per real year** (`scripts/gen_broadband_data.py`): each real year's CHR
+   national CSV is parsed for the `v166_rawvalue` column (a 0–1 fraction, converted to a
+   percentage), joined to each city's county FIPS. A state-level fallback (which CHR also
+   ships) exists in the script for any county CHR suppresses or can't resolve for that
+   year.
 
 ## Known limitations (shown, not smoothed over)
 
@@ -54,10 +63,14 @@ measure list rather than a general workaround.
 - **A 5-year rolling ACS estimate, not an annual snapshot** — the same real trade-off CHR
   makes for small-geography reliability that `traffic-fatalities-methodology.md` already
   documents for its own measure.
-- **Every one of the 512 spine cities had a real, non-suppressed county value** — genuinely
-  full coverage, the best of any dataset this project ships. The state-level fallback path
-  exists in the script (for consistency with `traffic-fatalities-methodology.md`'s same
-  pattern) but was not exercised by this build.
+- **512/512 real coverage in every real year** — genuinely full coverage, the best of any
+  dataset this project ships, though not every city resolves via the county tier every
+  year: **7 real Connecticut spine cities** (Bridgeport, Danbury, Hartford, New Haven,
+  Norwalk, Stamford, Waterbury) fall back to the state-level rate in some real years —
+  confirmed live, this lines up with Connecticut's real 2022 transition from traditional
+  counties to planning regions, which appears to have disrupted county-FIPS matching for
+  CT specifically in CHR's own data for some releases. A real, disclosed administrative
+  quirk, not a bug in this dataset's own join logic.
 - **Doesn't distinguish availability from adoption** — a household without a subscription
   might have broadband available but unaffordable, or might have no service offered at
   all; this measure counts only actual subscriptions, not infrastructure presence.
@@ -69,6 +82,7 @@ python3 scripts/gen_broadband_data.py
 ```
 
 Requires `data/raw/city-county-fips.json` to already exist (built by
-`geocode_city_counties.py` for the hazard dataset). Writes `data/broadband.json`. Caches
-the raw CHR national CSV under `data/raw/broadband-cache/` (gitignored — pure
-fetch-scratch, safe to delete and re-fetch any time).
+`geocode_city_counties.py` for the hazard dataset). Writes `data/broadband.json` with
+every real year 2021-2025. Caches each real year's raw CHR national CSV under
+`data/raw/broadband-cache/` (gitignored — pure fetch-scratch, safe to delete and re-fetch
+any time).
