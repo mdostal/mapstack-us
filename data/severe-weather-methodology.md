@@ -7,10 +7,16 @@ The thirty-seventh real Mapstack dataset (ddr8-1, `data-drive-round-8` epic).
 
 One layer, **Severe weather frequency**, 0–100. Raw input is the real count of
 severe weather events (tornado, thunderstorm wind, hail, flood, and other real
-NOAA-tracked event types) recorded in each city's county for 2024. A count has
-no natural 100-point ceiling, so this uses a direct rescale capped at a
-data-informed ceiling (the real p90 across the spine, 70), higher count = more
-concerning.
+NOAA-tracked event types) recorded in each city's county at a given real year.
+A count has no natural 100-point ceiling, so this uses a direct rescale
+capped at a FIXED count (70, the real p90 for the 2024 vintage) applied
+identically across every year so a city's count stays honestly comparable
+year to year, higher count = more concerning.
+
+Real multi-year history — **1950–2026** (`supportsTime: true`), per explicit
+operator direction to get "as much data as possible" for real trends over
+time. NOAA's own public directory listing confirmed a real, contiguous range
+with no gaps.
 
 This is a genuinely new hazard signal for this project — `hazard.ts`'s FEMA
 National Risk Index layers cover flood and wildfire; `earthquake.ts` covers
@@ -20,12 +26,17 @@ seismic risk. Neither covers storm/tornado/hail frequency.
 
 [NOAA Storm Events Database](https://www.ncdc.noaa.gov/stormevents/), via its
 real public bulk-download directory (`ncei.noaa.gov/pub/data/swdi/stormevents/
-csvfiles/`) — a real static gzipped CSV per year, no API, no key.
+csvfiles/`) — a real static gzipped CSV per real year, no API, no key.
 
 ## Method
 
-1. Download and cache the real 2024 Storm Events file (69,802 real events
-   nationally that year, across every NOAA-tracked severe weather category).
+1. **Real per-year file discovery**: every year's exact filename was read
+   directly off NOAA's own live directory listing rather than guessed — each
+   file is named `StormEvents_details-ftp_v1.0_d{YEAR}_c{PUBLISH_DATE}.csv.gz`,
+   and the `c{PUBLISH_DATE}` "created/revised" suffix isn't predictable from
+   the year alone (most years share one recent revision date, but 1984, 2017,
+   2022, 2024, 2025, and 2026 each carry a real, different, more recent
+   revision date).
 2. Filter to `CZ_TYPE = 'C'` — county-based NWS zones, confirmed to join
    directly and reliably to real county FIPS via `STATE_FIPS` + `CZ_FIPS`
    (verified live against a real sample event: `STATE_FIPS=40` +
@@ -33,20 +44,24 @@ csvfiles/`) — a real static gzipped CSV per year, no API, no key.
    real location text). Events reported only against `CZ_TYPE = 'Z'` (NWS
    forecast zones) or `'M'` (marine zones) are excluded — those use a
    separate NWS zone code this project has no direct county crosswalk for.
-3. Count real events per county (39,718 real county-zone events across 3,063
-   real counties for 2024), join to the spine via the existing
-   `city-county-fips.json` crosswalk — zero new geocoding.
+3. Count real events per county per real year, join to the spine via the
+   existing `city-county-fips.json` crosswalk — zero new geocoding.
 
 ## Known limitations (shown, not smoothed over)
 
-- **A single year's snapshot (2024), not a stable characteristic.** Severe
-  weather frequency varies significantly year to year — this dataset ships
-  `supportsTime: false` and reflects one real year, not a multi-year average.
-  A future pass could sum several recent years for a more stable signal.
+- **NOAA's own tracked event-type taxonomy expanded significantly over
+  time** — a real, disclosed methodology fact, not a data-quality gap on this
+  project's end. The Storm Events Database began in 1950 tracking ONLY
+  tornadoes, added thunderstorm wind and hail in 1955, and didn't reach its
+  full modern ~50-category taxonomy until 1996. Real early-decade event
+  counts are consequently far lower than recent decades' — the real 1950
+  file is ~10KB versus the real 2024 file's ~13MB — reflecting NOAA's own
+  historical reporting scope, the same class of caveat `crime.ts` already
+  discloses for its own NIBRS-transition coverage jump.
 - **`CZ_TYPE='C'` events only** — a real, deliberate scope decision that
   excludes events reported only against NWS forecast zones. This is a
   meaningful real subset of all storm reports, not the complete national
-  total.
+  total, consistently applied across every real year.
 - **Raw event count, not severity-weighted** — a minor hail report and a
   fatal tornado both count as one event. The real source data has real
   `DEATHS_DIRECT`/`INJURIES_DIRECT`/`DAMAGE_PROPERTY` fields a future pass
@@ -59,6 +74,7 @@ python3 scripts/gen_severe_weather_data.py
 ```
 
 No API key required. Requires `data/raw/city-county-fips.json` to already
-exist. Caches the real bulk file under `data/raw/severe-weather-cache/`
-(gitignored — pure fetch-scratch, safe to delete and re-fetch any time).
-Writes `data/severe-weather.json`.
+exist. Caches each real year's bulk file under `data/raw/severe-weather-cache/`
+(gitignored — pure fetch-scratch, safe to delete and re-fetch any time;
+resumable on rerun). Writes `data/severe-weather.json` with every real year
+1950-2026.
