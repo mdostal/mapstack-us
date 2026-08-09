@@ -22,8 +22,21 @@ metro estimate -- same fallback shape as unemployment.ts's city-tier/
 county-tier split.
 
 LineCode=1 is "RPPs: All items" (not a sub-component like rents-only or
-goods-only) -- the broadest, most defensible single number. Year is the
-latest BEA has published (2024 confirmed live).
+goods-only) -- the broadest, most defensible single number.
+
+Real multi-year history (2008-2024), per explicit operator direction to
+get "as much data as possible" for real trends over time. 2008 is RPP's
+own real floor -- the program didn't exist earlier. `Year=ALL` on a
+single API call returns every real year at once (confirmed live: 6579
+MSA rows, 884 state rows, both spanning 2008-2024) -- no per-year
+looping needed.
+
+A real data-quality issue found and fixed while extending to multi-year:
+BEA's own MARPP table returns a literal "0" (not "(NA)") for a handful of
+metro/year combinations with no real data -- confirmed live for Enid, OK
+and Kiryas Joel-Poughkeepsie-Newburgh, NY, both 2008-2012. RPP can never
+legitimately be near 0 (100 is the national average baseline), so "0" is
+treated identically to "(NA)": excluded, not a real value.
 """
 import json
 import subprocess
@@ -34,9 +47,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data/raw/bea-cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-YEAR = "2024"
-RPP_FLOOR = 82.0  # real observed low end -- 2024 spine minimum is 84.8 (Shreveport LA), small pad below
-RPP_CEIL = 118.0  # real observed high end -- 2024 spine maximum is 115.6 (SF-Oakland-Fremont), small pad above
+RPP_FLOOR = 82.0  # real observed low end across 2008-2024, small pad below
+RPP_CEIL = 118.0  # real observed high end across 2008-2024, small pad above
 
 
 def bea_key():
@@ -47,13 +59,13 @@ def bea_key():
     raise SystemExit("BEA_API_KEY not found in .env")
 
 
-def fetch(table_name, geofips, key):
-    cache_file = CACHE_DIR / f"{table_name}-{geofips}-{YEAR}.json"
+def fetch_all_years(table_name, geofips, key):
+    cache_file = CACHE_DIR / f"{table_name}-{geofips}-ALL.json"
     if cache_file.exists():
         return json.loads(cache_file.read_text())
     url = (
         f"https://apps.bea.gov/api/data/?UserID={key}&method=GetData&datasetname=Regional"
-        f"&TableName={table_name}&LineCode=1&GeoFips={geofips}&Year={YEAR}&ResultFormat=JSON"
+        f"&TableName={table_name}&LineCode=1&GeoFips={geofips}&Year=ALL&ResultFormat=JSON"
     )
     result = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, check=True)
     data = json.loads(result.stdout.decode("utf-8"))
@@ -95,75 +107,90 @@ def build_county_to_cbsa():
     return county_to_cbsa
 
 
+def is_real_value(raw):
+    """BEA returns a literal "0" (not "(NA)") for some metro/year gaps --
+    a real RPP can never legitimately be near 0 (100 is the national
+    baseline), so treat 0 identically to a real "(NA)" gap."""
+    if raw in (None, "(NA)"):
+        return False
+    try:
+        return float(raw) > 1.0
+    except (TypeError, ValueError):
+        return False
+
+
 def main():
     key = bea_key()
     county_to_cbsa = build_county_to_cbsa()
     county_crosswalk = json.loads((ROOT / "data/raw/city-county-fips.json").read_text())
     cities = json.loads((ROOT / "data/cities.json").read_text())
 
-    print("Fetching MSA-level RPP (MARPP)...", file=sys.stderr)
-    msa_rows = fetch("MARPP", "MSA", key)
-    rpp_by_cbsa = {r["GeoFips"]: float(r["DataValue"]) for r in msa_rows if r["DataValue"] not in (None, "(NA)")}
-    print(f"  {len(rpp_by_cbsa)} MSAs with real RPP", file=sys.stderr)
+    print("Fetching MSA-level RPP (MARPP), all years...", file=sys.stderr)
+    msa_rows = fetch_all_years("MARPP", "MSA", key)
+    rpp_by_year_cbsa = {}
+    for r in msa_rows:
+        if is_real_value(r["DataValue"]):
+            rpp_by_year_cbsa.setdefault(r["TimePeriod"], {})[r["GeoFips"]] = float(r["DataValue"])
 
-    print("Fetching state-level RPP (SARPP)...", file=sys.stderr)
-    state_rows = fetch("SARPP", "STATE", key)
-    rpp_by_state = {r["GeoFips"][:2]: float(r["DataValue"]) for r in state_rows if r["DataValue"] not in (None, "(NA)")}
-    print(f"  {len(rpp_by_state)} states with real RPP", file=sys.stderr)
+    print("Fetching state-level RPP (SARPP), all years...", file=sys.stderr)
+    state_rows = fetch_all_years("SARPP", "STATE", key)
+    rpp_by_year_state = {}
+    for r in state_rows:
+        if is_real_value(r["DataValue"]):
+            rpp_by_year_state.setdefault(r["TimePeriod"], {})[r["GeoFips"][:2]] = float(r["DataValue"])
+
+    years = sorted(set(rpp_by_year_cbsa) | set(rpp_by_year_state))
+    print(f"Real years available: {years[0]}-{years[-1]} ({len(years)} years)", file=sys.stderr)
 
     records = {}
-    no_crosswalk = []
     metro_tier = 0
     state_tier = 0
     for city in cities:
         cw = county_crosswalk.get(city["id"])
         if not cw:
-            no_crosswalk.append(city["id"])
             continue
         stcofips = cw["stcofips"]
         cbsa = county_to_cbsa.get(stcofips)
-        if cbsa and cbsa["cbsa_code"] in rpp_by_cbsa:
-            rpp = rpp_by_cbsa[cbsa["cbsa_code"]]
-            tier = "metro"
-            tier_name = cbsa["cbsa_title"]
-            metro_tier += 1
-        else:
-            state_fips = stcofips[:2]
-            if state_fips not in rpp_by_state:
-                no_crosswalk.append(city["id"])
-                continue
-            rpp = rpp_by_state[state_fips]
-            tier = "state"
-            tier_name = city["state"]
-            state_tier += 1
+        state_fips = stcofips[:2]
 
-        rpp_clamped = max(RPP_FLOOR, min(RPP_CEIL, rpp))
-        score = round((rpp_clamped - RPP_FLOOR) / (RPP_CEIL - RPP_FLOOR) * 100.0, 1)
-        records[city["id"]] = {
-            "rpp": round(rpp, 1),
-            "tier": tier,
-            "tier_name": tier_name,
-            "score": score,
-        }
+        years_data = {}
+        for year in years:
+            rpp, tier, tier_name = None, None, None
+            if cbsa and cbsa["cbsa_code"] in rpp_by_year_cbsa.get(year, {}):
+                rpp = rpp_by_year_cbsa[year][cbsa["cbsa_code"]]
+                tier, tier_name = "metro", cbsa["cbsa_title"]
+            elif state_fips in rpp_by_year_state.get(year, {}):
+                rpp = rpp_by_year_state[year][state_fips]
+                tier, tier_name = "state", city["state"]
+            if rpp is None:
+                continue
+
+            rpp_clamped = max(RPP_FLOOR, min(RPP_CEIL, rpp))
+            score = round((rpp_clamped - RPP_FLOOR) / (RPP_CEIL - RPP_FLOOR) * 100.0, 1)
+            years_data[year] = {"rpp": round(rpp, 1), "tier": tier, "tier_name": tier_name, "score": score}
+
+        if years_data:
+            latest_covered_year = max(years_data)
+            if years_data[latest_covered_year]["tier"] == "metro":
+                metro_tier += 1
+            else:
+                state_tier += 1
+            records[city["id"]] = {"years": years_data}
 
     records["_meta"] = {
-        "source": f"BEA Regional Price Parities, {YEAR}, MARPP (metro) LineCode 1 with SARPP (state) fallback",
+        "source": f"BEA Regional Price Parities, {years[0]}-{years[-1]}, MARPP (metro) LineCode 1 with SARPP (state) fallback",
         "rpp_floor_for_0_score": RPP_FLOOR,
         "rpp_ceiling_for_100_score": RPP_CEIL,
+        "years": [int(y) for y in years],
         "coverage": len(records),
-        "metro_tier_cities": metro_tier,
-        "state_tier_cities": state_tier,
     }
 
     (ROOT / "data/cost-of-living.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
     covered = len(records) - 1
-    print(f"Wrote data/cost-of-living.json: {covered}/{len(cities)} covered ({metro_tier} metro, {state_tier} state).", file=sys.stderr)
-    if no_crosswalk:
-        print(f"No coverage ({len(no_crosswalk)}): {no_crosswalk}", file=sys.stderr)
-
-    rpps = sorted(r["rpp"] for cid, r in records.items() if cid != "_meta")
-    if rpps:
-        print(f"RPP range: min={rpps[0]} median={rpps[len(rpps)//2]} max={rpps[-1]}", file=sys.stderr)
+    print(f"Wrote data/cost-of-living.json: {covered}/{len(cities)} covered (any year).", file=sys.stderr)
+    for year in years:
+        n = sum(1 for cid, r in records.items() if cid != "_meta" and year in r["years"])
+        print(f"  {year}: {n}/{len(cities)} cities covered", file=sys.stderr)
 
 
 if __name__ == "__main__":

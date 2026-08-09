@@ -1,5 +1,5 @@
 import schoolSpendingData from "@data/school-spending.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
  * The twenty-eighth real Dataset -- per-pupil school district spending,
@@ -17,40 +17,62 @@ import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
  * crosswalk unchanged, same join unemployment.ts/cost-of-living.ts
  * already use.
  *
+ * Real multi-year history (1994-2020), per explicit operator direction
+ * to get "as much data as possible" for real trends over time. Both real
+ * ends verified live: 1993 returns zero rows (a real floor, not a fetch
+ * bug), 2021+ returns zero rows (the same ~5-year release lag the
+ * original build already disclosed).
+ *
  * One layer: real total-current-expenditure-per-enrolled-student,
- * percentile-ranked and INVERTED among covered cities -- LOWER spending
- * is MORE concerning, the same well-established-risk asymmetry income.ts
- * already encodes for a different dollar figure. A real, disclosed
- * tension (see methodology doc): spending-to-outcomes causality is
- * genuinely debated in education research, and very high spending can
- * also reflect high local labor/cost-of-living rather than better
- * schools -- this measures real investment level, not a quality score.
+ * percentile-ranked and INVERTED among THAT YEAR's own covered cities --
+ * LOWER spending is MORE concerning, the same well-established-risk
+ * asymmetry income.ts already encodes for a different dollar figure, now
+ * per-year, the same convention crime.ts's multi-year layers use -- not
+ * comparable across years. A real, disclosed tension (see methodology
+ * doc): spending-to-outcomes causality is genuinely debated in education
+ * research, and very high spending can also reflect high local
+ * labor/cost-of-living rather than better schools -- this measures real
+ * investment level, not a quality score.
  */
-interface SchoolSpendingRecord {
+interface SchoolSpendingYear {
   per_pupil_spending: number;
-  county: string;
   concern: number;
 }
 
-const DATA = schoolSpendingData as unknown as Record<string, SchoolSpendingRecord> & { _meta: unknown };
+interface SchoolSpendingRecord {
+  years: Record<string, SchoolSpendingYear>;
+}
 
-function getSchoolSpendingValue(cityId: string, layerId: string): DatasetLayerValue | null {
+interface SchoolSpendingMeta {
+  years: number[];
+}
+
+const DATA = schoolSpendingData as unknown as Record<string, SchoolSpendingRecord> & { _meta: SchoolSpendingMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getSchoolSpendingValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "per_pupil_spending") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
   return {
-    value: record.concern,
-    detail: `$${record.per_pupil_spending.toLocaleString()} per-pupil school spending (${record.county} County, enrollment-weighted) -- NCES / Urban Institute Education Data Portal`,
+    value: yearData.concern,
+    detail: `$${yearData.per_pupil_spending.toLocaleString()} per-pupil school spending in ${year} (enrollment-weighted) -- NCES / Urban Institute Education Data Portal`,
   };
 }
 
 export const schoolSpendingDataset: Dataset = {
   id: "school-spending",
   label: "School spending",
-  description: "Real per-pupil school district spending -- NCES Common Core of Data, county-level, lower spending = more concerning.",
+  description: "Real per-pupil school district spending, county-level, 1994-2020 -- lower spending = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/school-spending-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "per_pupil_spending", label: "Per-pupil spending" }],
   getValue: getSchoolSpendingValue,
 };

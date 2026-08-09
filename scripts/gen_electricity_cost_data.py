@@ -9,8 +9,13 @@ Manager, project personalsites-487021).
 
 State-level only, same honest limit as income-tax.ts/sales-tax.ts/
 property-tax.ts -- every spine city in a state gets that state's real
-number. One request returns all 51 states+DC at once, joined directly
-against data/cities.json's existing `state` field -- no crosswalk.
+number. One request (start=2001&end=2025, length=5000) returns every
+real year at once, confirmed live: 1550 real rows across 25 years.
+
+Real multi-year history (2001-2025), per explicit operator direction to
+get "as much data as possible" for real trends over time. 2001 is a
+real, verified floor for this specific EIA series (earlier years
+returned no data for this series id in a live check).
 
 A real gotcha worth documenting: EIA's bracket-style query params
 (facets[stateid][]=NY, data[0]=price) trip a real `curl` URL-globbing
@@ -24,8 +29,9 @@ was added.
 Raw direction / normalization: higher price is more concerning (cost of
 living) -- already a meaningful, externally bounded quantity (cents per
 kWh), directly rescaled onto 0-100, capped at 41 (the real observed max
-across all states, Hawaii at 40.59, small pad) -- same "cap at real
-observed max" posture as sales-tax.ts/income-tax.ts.
+across all states/years, a FIXED cap so a state's price stays honestly
+comparable year to year) -- same "cap at real observed max" posture as
+sales-tax.ts/income-tax.ts.
 """
 import json
 import subprocess
@@ -37,7 +43,8 @@ ENV_FILE = ROOT / ".env"
 CACHE_DIR = ROOT / "data/raw/electricity-cost-cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-YEAR = 2025
+START_YEAR = 2001
+END_YEAR = 2025
 PRICE_CAP = 41.0
 
 
@@ -50,15 +57,15 @@ def load_api_key():
 
 
 def fetch_state_prices(api_key):
-    cache_file = CACHE_DIR / f"retail-sales-res-{YEAR}.json"
+    cache_file = CACHE_DIR / f"retail-sales-res-{START_YEAR}-{END_YEAR}.json"
     if cache_file.exists():
         return json.loads(cache_file.read_text())
 
     url = (
         "https://api.eia.gov/v2/electricity/retail-sales/data/"
         f"?frequency=annual&data[0]=price&facets[sectorid][]=RES"
-        f"&start={YEAR}&end={YEAR}&sort[0][column]=period&sort[0][direction]=desc"
-        f"&length=200&api_key={api_key}"
+        f"&start={START_YEAR}&end={END_YEAR}&sort[0][column]=period&sort[0][direction]=desc"
+        f"&length=5000&api_key={api_key}"
     )
     result = subprocess.run(
         ["curl", "-s", "--globoff", "--max-time", "30", url],
@@ -73,58 +80,53 @@ def fetch_state_prices(api_key):
     # which happen to include some 2-char codes too ("US"), so filter against
     # the exact real jurisdiction list rather than just checking length==2.
     real_jurisdictions = {c["state"] for c in json.loads((ROOT / "data/cities.json").read_text())}
-    by_state = {}
+    by_year_state = {}
     for row in rows:
         state = row.get("stateid")
         price = row.get("price")
-        if not state or state not in real_jurisdictions or not price:
+        year = row.get("period")
+        if not state or state not in real_jurisdictions or not price or not year:
             continue
-        by_state[state] = float(price)
+        by_year_state.setdefault(year, {})[state] = float(price)
 
-    cache_file.write_text(json.dumps(by_state, indent=2, sort_keys=True) + "\n")
-    return by_state
+    cache_file.write_text(json.dumps(by_year_state, indent=2, sort_keys=True) + "\n")
+    return by_year_state
 
 
 def main():
     api_key = load_api_key()
-    prices = fetch_state_prices(api_key)
-    print(f"Loaded {len(prices)} real state residential electricity prices for {YEAR}.", file=sys.stderr)
+    prices_by_year = fetch_state_prices(api_key)
+    years = sorted(int(y) for y in prices_by_year)
+    print(f"Loaded real state residential electricity prices for {len(years)} years: {years[0]}-{years[-1]}", file=sys.stderr)
 
     cities = json.loads((ROOT / "data/cities.json").read_text())
 
     records = {}
-    missing_states = set()
     for city in cities:
         state = city["state"]
-        if state not in prices:
-            missing_states.add(state)
-            continue
-        price = prices[state]
-        concern = round(min(100.0, (price / PRICE_CAP) * 100.0), 1)
-        records[city["id"]] = {
-            "price_cents_per_kwh": price,
-            "concern": concern,
-            "state": state,
-        }
+        years_data = {}
+        for year in years:
+            price = prices_by_year.get(str(year), {}).get(state)
+            if price is None:
+                continue
+            concern = round(min(100.0, (price / PRICE_CAP) * 100.0), 1)
+            years_data[str(year)] = {"price_cents_per_kwh": price, "concern": concern}
+        if years_data:
+            records[city["id"]] = {"state": state, "years": years_data}
 
-    covered = len(records)
-    result = {
-        "_meta": {
-            "source": f"EIA (Energy Information Administration) API v2, electricity/retail-sales, residential sector, {YEAR}",
-            "price_cap_for_100_concern": PRICE_CAP,
-            "coverage": covered,
-        },
-        **records,
+    records["_meta"] = {
+        "source": f"EIA (Energy Information Administration) API v2, electricity/retail-sales, residential sector, {years[0]}-{years[-1]}",
+        "price_cap_for_100_concern": PRICE_CAP,
+        "years": years,
+        "coverage": len(records),
     }
-    (ROOT / "data/electricity-cost.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
-    print(f"Wrote data/electricity-cost.json: {covered}/{len(cities)} cities covered.", file=sys.stderr)
-    if missing_states:
-        print(f"States with no real EIA price this year: {sorted(missing_states)}", file=sys.stderr)
 
-    all_prices = sorted(r["price_cents_per_kwh"] for r in records.values())
-    n = len(all_prices)
-    pcts = {p: all_prices[min(int(n * p / 100), n - 1)] for p in [50, 75, 90, 95, 99]}
-    print(f"price distribution (cents/kWh): min={all_prices[0]} {pcts} max={all_prices[-1]}", file=sys.stderr)
+    (ROOT / "data/electricity-cost.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
+    covered = len(records) - 1
+    print(f"Wrote data/electricity-cost.json: {covered}/{len(cities)} cities covered (any year).", file=sys.stderr)
+    for year in years:
+        n = sum(1 for cid, r in records.items() if cid != "_meta" and str(year) in r["years"])
+        print(f"  {year}: {n}/{len(cities)} cities covered", file=sys.stderr)
 
 
 if __name__ == "__main__":

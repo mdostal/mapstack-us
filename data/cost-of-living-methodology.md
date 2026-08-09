@@ -9,15 +9,28 @@ One layer, **Cost of living**, 0–100. Raw input is the real Regional Price Par
 (RPP) index from the U.S. Bureau of Economic Analysis — a single number combining the
 relative cost of goods, rents, and services, where **100.0 is the national average**.
 A city at 112.6 costs about 12.6% more than the national average to live in; a city at
-84.8 costs about 15.2% less. Directly rescaled onto 0–100 against the real 2024
-observed range across the 512-city spine (84.8–115.6), padded slightly on both ends
-(82–118) so no real city sits exactly at 0 or 100.
+84.8 costs about 15.2% less. Directly rescaled onto 0–100 against a real observed range
+across all years and the 512-city spine (82–118, padded slightly beyond the true
+min/max so no real city sits exactly at 0 or 100) — a FIXED range applied identically
+to every real year so a city's score stays honestly comparable year to year.
+
+Real multi-year history — **2008–2024** (`supportsTime: true`), per explicit operator
+direction to get "as much data as possible" for real trends over time. 2008 is RPP's
+own real floor (the program didn't exist earlier); `Year=ALL` on a single BEA API call
+returns every real year at once.
+
+A real data-quality issue found and fixed while extending to multi-year: BEA's own
+`MARPP` table returns a literal `"0"` (not `"(NA)"`) for a handful of metro/year
+combinations with no real data — confirmed live for Enid, OK and
+Kiryas Joel-Poughkeepsie-Newburgh, NY, both 2008–2012. RPP can never legitimately be
+near 0 (100 is the national baseline), so `"0"` is treated identically to a real
+`"(NA)"` gap: excluded, not a real value.
 
 ## Data source
 
 [BEA Regional Price Parities](https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area),
 free API, free self-serve registration key. Table `MARPP` (Metro RPP), LineCode 1
-("RPPs: All items"), year 2024 (the latest year BEA had published at build time).
+("RPPs: All items"), every real year 2008–2024.
 
 ## Method — a real detour worth documenting
 
@@ -45,8 +58,10 @@ already have: a real city → CBSA (metro) crosswalk.
 
 ## Known limitations (shown, not smoothed over)
 
-- **512/512 real coverage**, but 10 of those are state-level, not metro-level — a real,
-  visible precision gap for genuinely rural cities, not a fabrication.
+- **512/512 real coverage at every real year**, but some cities are state-level, not
+  metro-level (a real, visible precision gap for genuinely rural cities, not a
+  fabrication) — a city's tier can only be checked for its most recent covered year in
+  `_meta`; earlier years use whichever tier had real data that year.
 - **A single blended index, not decomposed** — RPP's own sub-components (rents, goods,
   other services) are published separately by BEA but not surfaced here; a future pass
   could add them as sub-layers the way `hazard.ts`'s inland-flood/coastal-flood/
@@ -55,8 +70,8 @@ already have: a real city → CBSA (metro) crosswalk.
   East Bay cities inside "San Francisco-Oakland-Fremont, CA") shares one RPP number,
   even though real intra-metro cost variation is much wider than the metro-to-metro
   spread this dataset measures.
-- **Annual, not real-time** — 2024 is the latest year BEA has published; RPP updates
-  roughly once a year, lagging current rents/prices by a real amount.
+- **Annual, not real-time** — RPP updates roughly once a year, lagging current
+  rents/prices by a real amount, at every year in the real 2008–2024 range.
 
 ## Reproducing this dataset
 
@@ -68,4 +83,5 @@ Requires a real `BEA_API_KEY` in `.env` (free registration, see above),
 `data/raw/city-county-fips.json`, and `data/raw/bea-cache/county-to-cbsa.json` (built
 once from the Census CBSA delineation file, see Method above) to already exist. Caches
 each BEA API response under `data/raw/bea-cache/` (gitignored — pure fetch-scratch,
-safe to delete and re-fetch any time). Writes `data/cost-of-living.json`.
+safe to delete and re-fetch any time). Writes `data/cost-of-living.json` with every
+real year 2008–2024.

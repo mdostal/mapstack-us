@@ -1,17 +1,24 @@
 # Electricity cost — methodology
 
 The forty-second real Mapstack dataset (ddr13-1, `data-drive-round-13` epic).
-512/512 real coverage.
+512/512 real coverage at every real year.
 
 ## What this measures
 
-One layer, **Electricity cost**, 0–100. Raw input is the real 2025 average
-residential electricity retail price (cents per kWh) for each city's state.
-State-level only — the same honest limit already carried by `income-tax.ts`,
-`sales-tax.ts`, and `property-tax.ts` — every spine city in a state gets that
-state's real number. Already a meaningful, bounded quantity, directly rescaled
-onto 0–100 (capped at 41¢/kWh, the real observed max — Hawaii's real 40.59),
+One layer, **Electricity cost**, 0–100. Raw input is the real average
+residential electricity retail price (cents per kWh) for each city's state, per
+year. State-level only — the same honest limit already carried by
+`income-tax.ts`, `sales-tax.ts`, and `property-tax.ts` — every spine city in a
+state gets that state's real number. Already a meaningful, bounded quantity,
+directly rescaled onto 0–100 (capped at 41¢/kWh, a FIXED cap applied identically
+to every real year so a state's price stays honestly comparable year to year),
 higher price is more concerning.
+
+Real multi-year history — **2001–2025** (`supportsTime: true`), per explicit
+operator direction to get "as much data as possible" for real trends over time.
+A single EIA API request (`start=2001&end=2025`) returns every real year at
+once — confirmed live, 1550 real rows across 25 years — no per-year looping
+needed.
 
 ## Data source
 
@@ -42,11 +49,12 @@ uses, and raising the page size to comfortably cover all 51 real jurisdictions.
 
 ## Method
 
-1. One real API request returns all real states' 2025 residential price at
-   once (`scripts/gen_electricity_cost_data.py`).
+1. One real API request (`start=2001&end=2025`) returns every real state's
+   residential price for every real year at once
+   (`scripts/gen_electricity_cost_data.py`).
 2. Filter to real state abbreviations only (not aggregate/national rows).
 3. Join directly against `data/cities.json`'s own `state` field — no crosswalk.
-4. Rescale: `concern = min(100, price / 41 * 100)`.
+4. Rescale independently per year: `concern = min(100, price / 41 * 100)`.
 
 ## Known limitations (shown, not smoothed over)
 
@@ -58,7 +66,6 @@ uses, and raising the page size to comfortably cover all 51 real jurisdictions.
   actually applies to a household, matching this project's "what a resident
   actually experiences" framing elsewhere (e.g. `income-tax.ts`'s
   applicable-bracket-not-top-marginal-rate choice).
-- **A single year (2025)**, not a multi-year trend — `supportsTime: false`.
 
 ## Reproducing this dataset
 
@@ -70,4 +77,5 @@ Requires `EIA_API_KEY` in `.env` (get one free at
 `eia.gov/opendata/register.php`, or run `scripts/load-secrets-from-gcp.sh` if
 you have access to this project's GCP Secret Manager). Caches the raw API
 response under `data/raw/electricity-cost-cache/` (gitignored — pure
-fetch-scratch, safe to delete and re-fetch). Writes `data/electricity-cost.json`.
+fetch-scratch, safe to delete and re-fetch). Writes `data/electricity-cost.json`
+with all years in `START_YEAR`-`END_YEAR`.

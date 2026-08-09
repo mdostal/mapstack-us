@@ -1,5 +1,5 @@
 import averageWageData from "@data/average-wage.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
  * The thirty-first real Dataset -- average annual wage per employee,
@@ -15,36 +15,56 @@ import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
  * business-density.ts (establishment COUNT, not pay level): this is real
  * average pay PER EMPLOYEE at local businesses.
  *
+ * Real multi-year history (1986-2023), per explicit operator direction
+ * to get "as much data as possible" for real trends over time. 1986 is
+ * CBP's own real floor; 2024 isn't published yet (a real HTTP 404,
+ * confirmed live, a genuine release-lag gap).
+ *
  * One layer: real average_wage = PAYANN * 1000 / EMP, percentile-ranked
- * and INVERTED among covered cities -- LOWER average wage is MORE
- * concerning, the same convention income.ts already uses for a related
- * concept. 512/512 real coverage.
+ * and INVERTED among THAT YEAR's own covered cities -- LOWER average
+ * wage is MORE concerning, the same per-year convention crime.ts's
+ * multi-year layers use -- not comparable across years, same real
+ * caveat.
  */
-interface AverageWageRecord {
+interface AverageWageYear {
   average_wage: number;
-  county: string;
   concern: number;
 }
 
-const DATA = averageWageData as unknown as Record<string, AverageWageRecord> & { _meta: unknown };
+interface AverageWageRecord {
+  years: Record<string, AverageWageYear>;
+}
 
-function getAverageWageValue(cityId: string, layerId: string): DatasetLayerValue | null {
+interface AverageWageMeta {
+  years: number[];
+}
+
+const DATA = averageWageData as unknown as Record<string, AverageWageRecord> & { _meta: AverageWageMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getAverageWageValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "average_wage") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
   return {
-    value: record.concern,
-    detail: `$${record.average_wage.toLocaleString()} average annual wage per employee (${record.county} County) -- Census Business Patterns`,
+    value: yearData.concern,
+    detail: `$${yearData.average_wage.toLocaleString()} average annual wage per employee in ${year} -- Census Business Patterns`,
   };
 }
 
 export const averageWageDataset: Dataset = {
   id: "average-wage",
   label: "Average wage",
-  description: "Real Census Business Patterns average annual wage per employee -- county-level, lower wage = more concerning.",
+  description: "Real Census Business Patterns average annual wage per employee, county-level, 1986-2023 -- lower wage = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/average-wage-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "average_wage", label: "Average wage" }],
   getValue: getAverageWageValue,
 };

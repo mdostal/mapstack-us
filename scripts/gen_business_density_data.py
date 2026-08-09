@@ -13,27 +13,37 @@ fallback tier unemployment.ts/cost-of-living.ts already use, but with no
 city-level tier above it this time.
 
 Normalizes ESTAB (establishment count) by real county population (Census
-ACS B01003, same 2023 vintage population-change.ts already uses) to get
-establishments per 1,000 residents -- raw establishment counts alone
-would just reflect county size, not business density.
+ACS B01003) to get establishments per 1,000 residents -- raw
+establishment counts alone would just reflect county size, not business
+density.
+
+Real multi-year history (2009-2023), per explicit operator direction to
+get "as much data as possible" for real trends over time. CBP's own
+ESTAB field goes back to 1986, but the real floor here is bounded by the
+ACS5 population denominator: B01003 at county level is confirmed live to
+work from the 2009 vintage (ACS5's first-ever window) -- no real
+population denominator exists before that to normalize against. The
+`NAME` field is dropped from both requests (unused downstream, and
+confirmed not to exist in CBP vintages before 2012 -- see
+average-wage.ts's identical fix).
 
 Raw direction: LOWER business density is MORE concerning (fewer local
 businesses per capita reads as reduced local economic activity) --
-percentile-ranked and inverted among covered cities, the same convention
-income.ts/housing-inventory.ts already use for their own unbounded raw
-quantities.
+percentile-ranked AMONG THAT YEAR'S OWN covered cities and inverted, the
+same per-year convention crime.ts's multi-year layers use -- not
+comparable across years, same real caveat.
 """
 import json
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data/raw/business-density-cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-CBP_YEAR = 2023
-ACS_YEAR = 2023
+YEARS = list(range(2009, 2024))
 
 
 def census_key():
@@ -44,15 +54,28 @@ def census_key():
     raise SystemExit("CENSUS_API_KEY not found in .env")
 
 
-def fetch(url, cache_name):
+def fetch(url, cache_name, retries=4):
+    """A run this size (2 endpoints x 15 years x 47 states) will hit an
+    occasional transient network timeout -- retry with backoff instead of
+    letting one blip kill a multi-hour run. Every successful response is
+    cached to disk before this returns, so a retry never redoes completed
+    work."""
     cache_file = CACHE_DIR / f"{cache_name}.json"
     if cache_file.exists():
         return json.loads(cache_file.read_text())
-    result = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, check=True)
-    text = result.stdout.decode("utf-8").strip()
-    rows = json.loads(text) if text.startswith("[") else []
-    cache_file.write_text(json.dumps(rows))
-    return rows
+    last_err = None
+    for attempt in range(retries):
+        try:
+            result = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, check=True)
+            text = result.stdout.decode("utf-8").strip()
+            rows = json.loads(text) if text.startswith("[") else []
+            cache_file.write_text(json.dumps(rows))
+            return rows
+        except subprocess.CalledProcessError as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(2**attempt)
+    raise last_err
 
 
 def percentile_ranks_inverted(values_by_id):
@@ -67,73 +90,81 @@ def main():
     cities = json.loads((ROOT / "data/cities.json").read_text())
 
     state_fips_needed = sorted({fips["stcofips"][:2] for fips in city_county.values()})
-    print(f"Fetching CBP + ACS population for {len(state_fips_needed)} states...", file=sys.stderr)
 
-    estab_by_county = {}
-    pop_by_county = {}
-    for i, state_fips in enumerate(state_fips_needed):
-        cbp_rows = fetch(
-            f"https://api.census.gov/data/{CBP_YEAR}/cbp?get=NAME,ESTAB&for=county:*&in=state:{state_fips}&key={key}",
-            f"cbp-state-{state_fips}",
-        )
-        for row in cbp_rows[1:] if cbp_rows and cbp_rows[0][0] == "NAME" else cbp_rows:
-            _name, estab, st, county = row
-            estab_by_county[f"{st}{county}"] = int(estab)
+    density_by_year_county = {}
+    for year in YEARS:
+        estab_by_county = {}
+        pop_by_county = {}
+        for state_fips in state_fips_needed:
+            cbp_rows = fetch(
+                f"https://api.census.gov/data/{year}/cbp?get=ESTAB&for=county:*&in=state:{state_fips}&key={key}",
+                f"cbp-{year}-state-{state_fips}",
+            )
+            for row in cbp_rows[1:] if cbp_rows and cbp_rows[0][0] == "ESTAB" else cbp_rows:
+                estab, st, county = row
+                # Defensive zfill -- see average-wage.ts's own real, confirmed-live
+                # bug: some CBP vintages return UN-padded state/county FIPS digits
+                # ("6" instead of "06"), which silently breaks this join for
+                # leading-zero states. This dataset's own real 2009-2023 output
+                # showed no anomalous single-year coverage dip (unlike
+                # average-wage's 1986-2023 range, which caught it), but padding
+                # defensively costs nothing and removes the risk for any future
+                # re-run against an earlier vintage.
+                estab_by_county[f"{st.zfill(2)}{county.zfill(3)}"] = int(estab)
 
-        acs_rows = fetch(
-            f"https://api.census.gov/data/{ACS_YEAR}/acs/acs5?get=NAME,B01003_001E&for=county:*&in=state:{state_fips}&key={key}",
-            f"acs-pop-state-{state_fips}",
-        )
-        for row in acs_rows[1:] if acs_rows and acs_rows[0][0] == "NAME" else acs_rows:
-            _name, pop, st, county = row
-            if pop not in (None, "null"):
-                pop_by_county[f"{st}{county}"] = float(pop)
+            acs_rows = fetch(
+                f"https://api.census.gov/data/{year}/acs/acs5?get=B01003_001E&for=county:*&in=state:{state_fips}&key={key}",
+                f"acs-pop-{year}-state-{state_fips}",
+            )
+            for row in acs_rows[1:] if acs_rows and acs_rows[0][0] == "B01003_001E" else acs_rows:
+                pop, st, county = row
+                if pop not in (None, "null"):
+                    pop_by_county[f"{st.zfill(2)}{county.zfill(3)}"] = float(pop)
 
-        print(f"  [{i + 1}/{len(state_fips_needed)}] state {state_fips}: {len(cbp_rows) - 1 if cbp_rows else 0} counties", file=sys.stderr)
+        density_by_county = {}
+        for stcofips, estab in estab_by_county.items():
+            pop = pop_by_county.get(stcofips)
+            if pop and pop > 0:
+                density_by_county[stcofips] = (estab / pop) * 1000
+        density_by_year_county[year] = density_by_county
+        print(f"{year}: {len(density_by_county)} real counties fetched across {len(state_fips_needed)} states", file=sys.stderr)
 
-    density_by_county = {}
-    for stcofips, estab in estab_by_county.items():
-        pop = pop_by_county.get(stcofips)
-        if pop and pop > 0:
-            density_by_county[stcofips] = (estab / pop) * 1000
+    raw_by_year = {}
+    for year in YEARS:
+        raw_by_year[year] = {}
+        for city in cities:
+            fips_info = city_county.get(city["id"])
+            if not fips_info:
+                continue
+            density = density_by_year_county[year].get(fips_info["stcofips"])
+            if density is not None:
+                raw_by_year[year][city["id"]] = density
+
+    concern_by_year = {year: percentile_ranks_inverted(raw_by_year[year]) for year in YEARS}
 
     records = {}
-    unmatched = []
     for city in cities:
-        cid = city["id"]
-        fips_info = city_county.get(cid)
-        if not fips_info:
-            unmatched.append(cid)
-            continue
-        density = density_by_county.get(fips_info["stcofips"])
-        if density is None:
-            unmatched.append(cid)
-            continue
-        records[cid] = {
-            "establishments_per_1000": round(density, 2),
-            "county": fips_info["county_name"],
-        }
+        years_data = {}
+        for year in YEARS:
+            density = raw_by_year[year].get(city["id"])
+            if density is None:
+                continue
+            years_data[str(year)] = {"establishments_per_1000": round(density, 2), "concern": concern_by_year[year][city["id"]]}
+        if years_data:
+            records[city["id"]] = {"years": years_data}
 
-    concern = percentile_ranks_inverted({cid: r["establishments_per_1000"] for cid, r in records.items()})
-    for cid in records:
-        records[cid]["concern"] = concern[cid]
-
-    result = {
-        "_meta": {
-            "source": f"Census Business Patterns {CBP_YEAR} (ESTAB) normalized by Census ACS 5-year population estimates {ACS_YEAR}",
-            "resolution": "county (CBP has no place-level geography)",
-            "coverage": len(records),
-        },
-        **records,
+    records["_meta"] = {
+        "source": f"Census Business Patterns (ESTAB) normalized by Census ACS 5-year population (B01003), {YEARS[0]}-{YEARS[-1]}",
+        "resolution": "county (CBP has no place-level geography)",
+        "years": YEARS,
+        "coverage": len(records),
     }
-    (ROOT / "data/business-density.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
-    print(f"Wrote data/business-density.json: {len(records)}/{len(cities)} cities matched.", file=sys.stderr)
-    if unmatched:
-        print(f"Unmatched ({len(unmatched)}): {unmatched}", file=sys.stderr)
-
-    values = sorted(r["establishments_per_1000"] for r in records.values())
-    if values:
-        print(f"establishments/1000 range: min={values[0]:.2f} median={values[len(values) // 2]:.2f} max={values[-1]:.2f}", file=sys.stderr)
+    (ROOT / "data/business-density.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
+    covered = len(records) - 1
+    print(f"Wrote data/business-density.json: {covered}/{len(cities)} cities matched (any year).", file=sys.stderr)
+    for year in YEARS:
+        n = len(raw_by_year[year])
+        print(f"  {year}: {n}/{len(cities)} cities covered", file=sys.stderr)
 
 
 if __name__ == "__main__":
