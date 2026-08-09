@@ -15,39 +15,61 @@ Five separate layers, all 0–100, higher = more concerning (more vulnerable):
   weighting" principle `crime.ts` and `hazard.ts` both use for their own multi-layer splits.
 
 SVI's own percentile values are already 0–1 and already framed "higher = more vulnerable" —
-this dataset just rescales to 0–100, no inversion or re-normalization needed.
+this dataset just rescales to 0–100, no inversion or re-normalization needed. Percentiles
+are computed by CDC independently per real release year (CDC's own documentation
+explicitly warns against comparing percentiles across releases), so a value is only
+meaningful within its own year, not across years.
+
+Real multi-vintage history — **2010, 2014, 2016, 2018, 2020, 2022** (`supportsTime: true`),
+per explicit operator direction to get "as much data as possible" for real trends over
+time. CDC has published SVI seven times to date (2000, 2010, 2014, 2016, 2018, 2020, 2022),
+not an annual series — this ships six of the seven; see the real, disclosed 2000 gap below.
 
 ## Data source
 
-[CDC/ATSDR Social Vulnerability Index (SVI) 2022](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html),
-the most recent release as of this build. U.S. government data — public domain, free to
-use and redistribute. Fetched from CDC's own free, keyless ArcGIS FeatureServer
-(`onemap.cdc.gov/onemapservices/.../CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/8`),
-84,120 US tracts total — only the ~511 tracts the spine actually needs are fetched, via
-batched `WHERE FIPS IN (...)` queries, not the full national table.
+[CDC/ATSDR Social Vulnerability Index (SVI)](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html).
+U.S. government data — public domain, free to use and redistribute. Fetched from a single
+consolidated, free, keyless ArcGIS FeatureServer
+(`onemap.cdc.gov/onemapservices/.../SVI/SVI_consolidated_data/FeatureServer/0`) whose own
+service description states it "includes all SVI release years, geographic levels... and
+percentile comparisons" — confirmed live: one query for a single real tract FIPS with no
+`ReleaseYear` filter returned all 7 real vintages' rows at once, replacing the original
+single-vintage build's per-year-specific-service approach entirely.
 
-## Method
+## Method — a real architecture change mid-extension
 
-1. **Tract crosswalk** (`scripts/extract_city_tracts.py`): each spine city's census tract
-   GEOID is extracted from the Census Geocoder responses ALREADY cached by
-   `hazard-methodology.md`'s county-crosswalk step (`geocode_city_counties.py`) — the same
-   API call returns both county and tract geography in one response, so this step makes
-   **zero new network requests**, just a re-parse of data already on disk.
-2. **SVI fetch** (`scripts/gen_svi_data.py`): the ~511 unique tracts are fetched in batches
-   of 100 via POST (`WHERE FIPS IN (...)`), cached, then joined to each city.
+1. **Two real tract crosswalks, reused as-is**: CDC's own documentation ("Data changes over
+   time" section on the page above) confirms census tracts are redrawn at each decennial
+   census, and groups the seven SVI releases into three real boundary generations — SVI 2000
+   uses unique 2000-census tracts; **SVI 2010/2014/2016/2018 share the same 2010-census
+   tracts**; **SVI 2020/2022 share the same current (2020-census) tracts**. This dataset
+   already had a current-vintage crosswalk (`city-tract-fips.json`, its own original) and a
+   2010-vintage crosswalk (`city-tract-fips-2010.json`, built for `food-access.ts`) — both
+   reused here with zero new geocoding, covering six of the seven real releases.
+2. **Consolidated SVI fetch** (`scripts/gen_svi_data.py`): the union of every unique tract
+   FIPS needed across both crosswalks is fetched in batches of 100 via POST
+   (`WHERE FIPS IN (...) AND GeoLevel='tract' AND Comparison='national'`), with no
+   `ReleaseYear` filter — every real year for every needed tract comes back in the same
+   batch of requests. Each city then looks up its per-year value using whichever crosswalk
+   matches that year's real boundary generation.
 
 ## Known limitations (shown, not smoothed over)
 
+- **2000 is a real, disclosed gap, not shipped** — it requires its own third crosswalk
+  generation (unique 2000-census tract boundaries), and the Census Geocoder (this project's
+  only tract-crosswalk tool) has no `Census2000_*` vintage option — confirmed live against
+  its own `/geocoder/vintages` endpoint, whose real vintage list starts at
+  `Census2010_Current`. Rather than approximate 2000 with a mismatched boundary vintage
+  (which would silently misjoin tracts, the same class of bug the food-access dataset's own
+  methodology found and fixed), this year is left out entirely.
 - **Tract-level, not city-level** — a real, documented resolution limitation, same "one
   number for a whole jurisdiction" shape as crime's one-agency and hazard's one-county
   caveats. A large city can contain tracts with very different vulnerability levels; this
   dataset reports whichever single tract each city's given lat/lon coordinate falls in.
-- **SVI suppresses unreliable small-population tracts** with its own `-999` sentinel —
-  preserved here as an honest `null`, never coerced to a fabricated 0. 3 of 512 spine
-  cities hit this in the 2022 release.
-- **Static snapshot, not time-varying** (`supportsTime: false`) — SVI is republished
-  periodically (2000, 2010, 2014, 2016, 2018, 2020, 2022 to date), not on a fixed annual
-  cadence Mapstack could track like crime's year-by-year history.
+- **SVI suppresses unreliable small-population tracts** — preserved here as an honest
+  `null`, never coerced to a fabricated 0. A small number of spine cities hit this in any
+  given real release (e.g. 2020's real coverage is 505/512, a real, disclosed dip visible in
+  `data/svi.json`'s own per-year data, not a bug).
 - **Conceptual overlap with other candidate datasets** — SVI is built partly from the same
   underlying ACS variables income/broadband/housing datasets would use, since it draws on
   overlapping Census inputs. Shipped anyway because the COMPOSITE framing (aggregate
@@ -61,8 +83,9 @@ batched `WHERE FIPS IN (...)` queries, not the full national table.
 ## Reproducing this dataset
 
 ```
-python3 scripts/extract_city_tracts.py  # writes data/raw/city-tract-fips.json (no network calls)
-python3 scripts/gen_svi_data.py         # writes data/svi.json
+python3 scripts/extract_city_tracts.py       # writes data/raw/city-tract-fips.json (no network calls)
+python3 scripts/geocode_city_tracts_2010.py  # writes data/raw/city-tract-fips-2010.json
+python3 scripts/gen_svi_data.py              # writes data/svi.json
 ```
 
 Requires `data/raw/geocode-cache/` to already exist (built by

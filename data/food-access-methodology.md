@@ -21,9 +21,12 @@ urban, 10mi/20mi rural); the 0.5-mile urban definition was picked as FARA's own 
 ## Data source
 
 [USDA ERS Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas),
-2019 data — the most recent vintage; FARA's core tract-level data hasn't been refreshed
-since, despite later site rebrands adding new documentation. U.S. government data — public
-domain, free direct CSV/ZIP download, no API key or account required.
+real published vintages **2010, 2015, and 2019** — confirmed live via ERS's own download
+page (`ers.usda.gov/data-products/food-access-research-atlas/download-the-data`) that FARA
+has only ever published these three vintages, not an annual series (a 2006 "food desert
+locator" and a 2025 "SNAP Authorized Retailer Access Map" are real, different, incompatible
+products, not FARA refreshes). U.S. government data — public domain, free direct
+download, no API key or account required.
 
 ## Method
 
@@ -38,24 +41,33 @@ domain, free direct CSV/ZIP download, no API key or account required.
    vintage, and FARA only recognizes the latter. Reusing the SVI dataset's current-vintage
    crosswalk here silently looked like ~25% of the spine had no food-access data at all;
    it was a boundary-vintage join mismatch, not a real coverage gap.
-2. **FARA fetch/join** (`scripts/gen_food_access_data.py`): downloads FARA's 2019
-   national tract-level CSV (72,531 tracts) directly, then joins via the 2010-vintage
-   tract GEOID from step 1. FARA's own `CensusTract` column is exported as a plain number
-   (leading zeros stripped for state FIPS codes 01-09), re-padded to the real 11-digit
-   GEOID before joining — the first fix attempted here, before the deeper vintage mismatch
-   was found underneath it.
+2. **FARA fetch/join, per real vintage** (`scripts/gen_food_access_data.py`): downloads
+   each real vintage's national tract-level file directly (2019 ships as CSV, 72,531
+   tracts; 2010 and 2015 ship as `.xlsx`, 72,864 tracts each, parsed with `openpyxl`),
+   then joins via the 2010-vintage tract GEOID from step 1. **Confirmed live**: all three
+   vintages share the exact same `CensusTract` GEOID format and the exact same
+   `lapophalfshare`/`lalowihalfshare` column names, so the same crosswalk serves every
+   vintage with no extra geocoding pass. FARA's 2019 CSV export's `CensusTract` column
+   is exported as a plain number (leading zeros stripped for state FIPS codes 01-09),
+   re-padded to the real 11-digit GEOID before joining — the first fix attempted here,
+   before the deeper vintage mismatch was found underneath it; the 2010/2015 `.xlsx`
+   exports already carry the zero-padded GEOID as a string, defensively re-padded anyway.
 
 ## Known limitations (shown, not smoothed over)
 
 - **2010-vintage tract boundaries, not current** — the whole reason for a separate
   crosswalk (see above); this dataset's geography doesn't line up with any other
   tract-level dataset here (SVI) at the boundary level, even though both are "tract-level."
+- **512/512 real coverage** at the latest (2019) vintage — see `data/food-access.json`'s
+  own `_meta.coverage`.
 - **Tract-level, not city-level** — a real, documented resolution limitation, same "one
   number for a whole jurisdiction" shape as every other sub-city-resolution dataset here.
 - **A real minority of tracts have FARA's own null** (no population base to compute a
   share) — preserved as an honest null, never coerced to 0.
-- **Static 2019 snapshot, not time-varying** (`supportsTime: false`) — FARA hasn't
-  published a newer vintage as of this build.
+- **Real, sparse three-point history (2010/2015/2019), not annual** — FARA simply doesn't
+  publish more often than this; `supportsTime: true` with real gaps between points, same
+  posture as `electoral-competitiveness.ts`'s real 4-year election-cycle gaps, not a
+  fabricated interpolation between vintages.
 - **Urban 0.5-mile threshold may not fit every spine town** — FARA's rural thresholds
   (10mi/20mi) are the more appropriate lens for the spine's smallest reference towns, not
   used here; a real, documented scope limitation, not a data gap.

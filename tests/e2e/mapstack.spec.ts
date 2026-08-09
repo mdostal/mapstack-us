@@ -109,7 +109,7 @@ test("the sixth dataset (social vulnerability) is selectable and reports a real 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   const detail = page.getByTestId("city-detail-row").filter({ hasText: "Social vulnerability: Overall social vulnerability" });
   await expect(detail).toContainText("percentile");
-  await expect(detail).toContainText("CDC/ATSDR SVI");
+  await expect(detail).toContainText("CDC/ATSDR Social Vulnerability Index");
 });
 
 test("the seventh dataset (health outcomes) is selectable and honestly reports no data for a confirmed real gap", async ({
