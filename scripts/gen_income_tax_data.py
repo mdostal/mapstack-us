@@ -5,6 +5,16 @@ actually applies at each city's real median household income, from the
 Tax Foundation's free "State Individual Income Tax Rates and Brackets"
 xlsx (dataset-backlog.md #24). No API key, no login.
 
+Extended to real multi-year history (ddr-tax-extend, this session): the
+SAME current (2026) xlsx download turns out to be a real, single
+consolidated workbook with ONE SHEET PER YEAR (2026 down to 2015, 12
+real years) -- confirmed live by listing the workbook's own sheet names,
+no new fetch needed. Real usable range for THIS dataset is the overlap
+with income.ts's own real multi-year median-income series (2009-2023):
+**2015-2023** (9 real years) -- each year's tax brackets are matched
+against that SAME year's real median household income, not always the
+latest of either series.
+
 State-level only -- the real, honest limit of this candidate. In every
 state with a broad-based income tax, every spine city in that state gets
 the identical number (the same "reflects your state, not your city" gap
@@ -13,22 +23,25 @@ all (Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee,
 Texas, Washington, Wyoming) and correctly report 0, not a missing value.
 
 Reuses gen_sales_tax_data.py's stdlib-only OOXML reader (zipfile +
-xml.etree, no openpyxl/pandas) -- same posture as every other script in
-this project.
+xml.etree, no openpyxl/pandas), extended this session to read a named
+sheet from a multi-sheet workbook rather than always sheet1 -- same
+posture as every other script in this project (stdlib only).
 
 Method: the source file ships full marginal bracket schedules (rate +
 income threshold), one state per row-block, continuation rows for
 additional brackets. Rather than reporting the TOP marginal rate (which
 overstates burden for a typical resident -- the source itself only a
 small share of filers ever reach), this finds the rate that actually
-applies at EACH city's real median household income (income.ts's own
-already-shipped Census ACS data), the backlog's own explicit
-recommendation.
+applies at EACH city's real median household income for that SAME real
+year (income.ts's own already-shipped Census ACS data), the backlog's
+own explicit recommendation.
 
 Raw direction / normalization: higher applicable rate is more concerning
 -- already a meaningful, bounded percentage (0 to roughly 11% at the
-real observed max), directly rescaled onto 0-100, capped at 11% -- same
-cap chosen sales-tax.ts's own real-observed-max posture.
+real observed max), directly rescaled onto 0-100, capped at 11% (a FIXED
+cap applied identically across every year so a city's rate stays
+honestly comparable year to year) -- same cap chosen sales-tax.ts's own
+real-observed-max posture.
 """
 import json
 import re
@@ -150,48 +163,57 @@ def rate_at_income(state_brackets, income):
 
 def main():
     xlsx_path = fetch_xlsx(INCOME_TAX_URL, "state-income-tax-2026.xlsx")
-    rows = read_xlsx_rows(xlsx_path)
-    brackets = parse_brackets(rows)
-    print(f"Parsed brackets for {len(brackets)} states/DC.", file=sys.stderr)
+
+    income_data = json.loads((ROOT / "data/income.json").read_text())
+    income_years = set(income_data["_meta"]["years"])
+
+    # Real usable range: the overlap between this workbook's real sheet
+    # years and income.ts's own real median-income years.
+    workbook_years = list(range(2015, 2027))
+    years = sorted(y for y in workbook_years if y in income_years)
+    print(f"Real overlapping years (tax brackets AND median income both real): {years}", file=sys.stderr)
+
+    brackets_by_year = {}
+    for year in years:
+        rows = read_xlsx_rows(xlsx_path, sheet_name=str(year))
+        brackets_by_year[year] = parse_brackets(rows)
+        print(f"  {year}: parsed brackets for {len(brackets_by_year[year])} states/DC", file=sys.stderr)
 
     cities = json.loads((ROOT / "data/cities.json").read_text())
-    income_data = json.loads((ROOT / "data/income.json").read_text())
 
     records = {}
-    no_income_data = []
     for city in cities:
-        state_brackets = brackets.get(city["state"])
-        if state_brackets is None:
-            continue
-
         income_record = income_data.get(city["id"])
-        if not income_record or not income_record.get("median_income"):
-            no_income_data.append(city["id"])
-            continue
+        years_data = {}
+        for year in years:
+            state_brackets = brackets_by_year[year].get(city["state"])
+            if state_brackets is None:
+                continue
+            if not income_record:
+                continue
+            year_income = income_record.get("years", {}).get(str(year), {}).get("median_income")
+            if not year_income:
+                continue
 
-        rate = rate_at_income(state_brackets, income_record["median_income"])
-        concern = round(min(100.0, (rate / RATE_CAP) * 100.0), 1)
-        records[city["id"]] = {
-            "applicable_rate_pct": round(rate * 100, 2),
-            "at_median_income": income_record["median_income"],
-            "concern": concern,
-        }
+            rate = rate_at_income(state_brackets, year_income)
+            concern = round(min(100.0, (rate / RATE_CAP) * 100.0), 1)
+            years_data[str(year)] = {
+                "applicable_rate_pct": round(rate * 100, 2),
+                "at_median_income": year_income,
+                "concern": concern,
+            }
+        if years_data:
+            records[city["id"]] = {"years": years_data}
 
     records["_meta"] = {
-        "source": "Tax Foundation, State Individual Income Tax Rates and Brackets, 2026",
+        "source": "Tax Foundation, State Individual Income Tax Rates and Brackets, real per-year sheets 2015-2023",
         "rate_cap_for_100_concern": RATE_CAP,
+        "years": years,
         "coverage": len(records),
-        "no_income_data_count": len(no_income_data),
     }
 
     (ROOT / "data/income-tax.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
-    covered = len(records) - 1
-    print(f"Wrote data/income-tax.json: {covered}/{len(cities)} covered.", file=sys.stderr)
-    if no_income_data:
-        print(f"{len(no_income_data)} cities with no median-income data to apply a bracket to: {no_income_data}", file=sys.stderr)
-
-    no_tax_states = sorted(abbr for abbr, b in brackets.items() if b == [(0.0, 0.0)])
-    print(f"No-income-tax states/DC found: {no_tax_states}", file=sys.stderr)
+    print(f"Wrote data/income-tax.json: {len(records)}/{len(cities)} cities matched (any year).", file=sys.stderr)
 
 
 if __name__ == "__main__":

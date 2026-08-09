@@ -78,11 +78,41 @@ def fetch_xlsx(url, cache_name):
     return cache_path
 
 
-def read_xlsx_rows(path):
-    """Minimal stdlib-only .xlsx reader: returns sheet1 as a list of rows,
-    each row a list of cell values (str for text, float for numbers, None
-    for blank), resolving shared strings. Good enough for a simple, flat
-    single-sheet data table -- not a general xlsx parser."""
+def _sheet_target(z, sheet_name=None):
+    """Resolves a real internal worksheet XML path from a workbook.xml
+    sheet NAME (e.g. "2022") via the proper r:id -> rels indirection --
+    NOT assumed to match declared sheet order 1:1 (confirmed live this
+    particular file's rIds happen to line up, but that's not guaranteed
+    by the OOXML format in general, so this resolves it properly rather
+    than hardcoding an index). Returns 'xl/worksheets/sheet1.xml' (the
+    first declared sheet) when sheet_name is None, preserving every
+    existing single-sheet caller's behavior unchanged."""
+    wb_root = ET.fromstring(z.read("xl/workbook.xml"))
+    wb_ns = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+    r_ns = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
+    sheets = wb_root.findall(f".//{wb_ns}sheets/{wb_ns}sheet")
+    if sheet_name is None:
+        target_rid = sheets[0].get(f"{r_ns}id")
+    else:
+        match = next((s for s in sheets if s.get("name") == sheet_name), None)
+        if match is None:
+            available = [s.get("name") for s in sheets]
+            raise ValueError(f"No sheet named {sheet_name!r}; available: {available}")
+        target_rid = match.get(f"{r_ns}id")
+
+    rels_root = ET.fromstring(z.read("xl/_rels/workbook.xml.rels"))
+    rel = next(r for r in rels_root if r.get("Id") == target_rid)
+    return f"xl/{rel.get('Target')}"
+
+
+def read_xlsx_rows(path, sheet_name=None):
+    """Minimal stdlib-only .xlsx reader: returns a sheet as a list of
+    rows, each row a list of cell values (str for text, float for
+    numbers, None for blank), resolving shared strings. Defaults to the
+    first declared sheet; pass `sheet_name` to read a specific named
+    sheet from a multi-sheet workbook (e.g. a per-year historical tab).
+    Good enough for a simple, flat data table -- not a general xlsx
+    parser."""
     with zipfile.ZipFile(path) as z:
         shared = []
         if "xl/sharedStrings.xml" in z.namelist():
@@ -91,7 +121,8 @@ def read_xlsx_rows(path):
                 text = "".join(t.text or "" for t in si.findall(f".//{NS}t"))
                 shared.append(text)
 
-        sheet_root = ET.fromstring(z.read("xl/worksheets/sheet1.xml"))
+        sheet_target = _sheet_target(z, sheet_name)
+        sheet_root = ET.fromstring(z.read(sheet_target))
         rows = []
         for row_el in sheet_root.findall(f".//{NS}sheetData/{NS}row"):
             cells_by_col = {}
