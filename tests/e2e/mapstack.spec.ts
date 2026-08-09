@@ -432,7 +432,7 @@ test("the twenty-fourth dataset (unemployment) is selectable and reports a real 
   await expect(detail).toContainText("BLS LAUS");
 });
 
-test("the twenty-fifth dataset (air quality) is selectable and reports a real AirNow-sourced AQI value", async ({ page }) => {
+test("the twenty-fifth dataset (air quality) is selectable and reports a real EPA-AQS-sourced annual AQI value", async ({ page }) => {
   await page.goto("/");
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
@@ -444,8 +444,8 @@ test("the twenty-fifth dataset (air quality) is selectable and reports a real Ai
 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   const detail = page.getByTestId("city-detail-row").filter({ hasText: "Air quality" });
-  await expect(detail).toContainText("AQI");
-  await expect(detail).toContainText("EPA AirNow");
+  await expect(detail).toContainText("90th percentile AQI");
+  await expect(detail).toContainText("EPA AQS annual county summary");
 });
 
 test("the twenty-sixth dataset (population change) is selectable and reports a real Census-sourced value -- the last of the original Census-cluster items", async ({ page }) => {

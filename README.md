@@ -97,10 +97,10 @@ built from two real, working examples instead of upfront design.
   - **Unemployment** — real BLS Local Area Unemployment Statistics, city-level where
     available, county fallback otherwise, full 512-city coverage, unblocked by a real
     `BLS_API_KEY` (`data/unemployment-methodology.md`).
-  - **Air quality** — real current-conditions AQI (PM2.5/ozone, worse of the two) from
-    EPA AirNow, unblocked by a real `EPA_AIRNOW_API_KEY`. 459/512 coverage, with the
-    rest a real, recoverable rate-limit gap, not a fabricated value
-    (`data/air-quality-methodology.md`).
+  - **Air quality** — real annual 90th-percentile AQI by county, EPA AQS's own bulk
+    annual files, real multi-year history 1980-2025, no key required. 499/512 coverage
+    across all years combined (461-487/512 at any single year, the rest a real,
+    honest no-monitor-in-that-county gap) (`data/air-quality-methodology.md`).
   - **Population change** — real 5-year population growth/decline, the last of the
     original five Census-cluster items, real Census ACS data (Census PEP's own
     place-level product appears to have moved for recent vintages, confirmed live)
@@ -241,10 +241,13 @@ foundation as allergy-locator.
 ## API keys (for reproducing the keyed datasets)
 
 Most datasets need no key at all — see each layer's own note above. The handful
-that do (Census, BLS, AirNow, BEA, FBI, Dataverse, NASS, EIA, HUD) are used only
+that do (Census, BLS, BEA, FBI, Dataverse, NASS, EIA, HUD) are used only
 by the one-off Python scripts under `scripts/` that regenerate `data/*.json`;
 none are shipped to the client or required to run the app itself (`pnpm dev`/
 `pnpm build` work with zero keys against the already-committed data files).
+Air quality no longer needs a key either — it moved from EPA AirNow (real-time,
+rate-limited) to EPA AQS's own keyless bulk annual files this session, which is
+also how it gained real multi-year history back to 1980.
 
 Keys live in a local, gitignored `.env` — never committed, never referenced by
 shipped app code (`pnpm test:secrets` enforces this). If you maintain this repo

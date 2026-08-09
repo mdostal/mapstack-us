@@ -1,59 +1,77 @@
 # Air quality — methodology
 
-The twenty-fifth real Mapstack dataset (`dataset-backlog.md` #6), unblocked by a real,
-free, self-serve `EPA_AIRNOW_API_KEY` (https://docs.airnowapi.org).
+The twenty-fifth real Mapstack dataset (`dataset-backlog.md` #6), extended to real
+multi-year history **1980–2025** this session, replacing its original AirNow-based
+real-time single-day build.
 
 ## What this measures
 
-One layer, **Air Quality Index**, 0–100. Raw input is the real current-conditions AQI
-from EPA AirNow — the worse (higher) of PM2.5 and ozone sub-indices, matching AQI's own
-official convention of reporting a single number per location/day driven by whichever
-pollutant is worst. Already a meaningful, concern-oriented 0–500+ scale, directly
-rescaled onto 0–100 (capped at 150 — the real observed spine range clusters well under
-this), higher AQI is more concerning.
+One layer, **Air Quality Index**, 0–100. Raw input is EPA's own real **90th Percentile
+AQI** for a county-year — a real, already concern-oriented annual statistic (how bad do
+the worse days get, without being dominated by a single outlier), direct rescale onto
+0–100, FIXED cap per year (160 — the real ~p99 ceiling for the 2023/2024 vintage)
+applied identically across every year so a city's score stays honestly comparable year
+to year. Higher = more concerning.
+
+## Why this replaced the original AirNow-based build
+
+The original build used EPA AirNow's real-time current-conditions endpoint: it needed a
+real, free `EPA_AIRNOW_API_KEY`, and its own hourly rate limit meant 53 of 512 cities
+never got a real reading during the build (459/512 real coverage). It also had zero
+historical depth — a single build-time snapshot, not a trend.
+
+EPA's own bulk **"Annual AQI by County"** files
+(https://aqs.epa.gov/aqsweb/airdata/download_files.html) are a real static CSV per real
+year, going back to **1980**, with no API and no key. This is a strict real upgrade for
+this project's stated priority on historical depth: 46 years of real official annual
+statistics, better and more stable per-year coverage, no rate limit.
 
 ## Data source
 
-[EPA AirNow](https://docs.airnowapi.org), current-conditions observation by lat/lon —
-free API, self-serve key, no paid tier. Chosen over the historical AQS Data Mart API
-the backlog originally scoped: AirNow resolves the nearest real reporting area given a
-lat/lon and search radius server-side, with no separate monitor-crosswalk step needed.
+[EPA AQS](https://aqs.epa.gov/aqsweb/airdata/download_files.html) — bulk
+`annual_aqi_by_county_{YEAR}.zip` files, one real file per real year, 1980–2025,
+confirmed live and contiguous with no gaps.
 
 ## Method
 
-1. **Fetch** (`scripts/gen_air_quality_data.py`): one request per city, lat/lon +
-   50-mile search radius, both PM2.5 and ozone pulled when both are reported; the worse
-   (higher-AQI) of the two is kept.
-2. **A real rate-limit bug found and fixed mid-build**: a fresh API key appears to start
-   with a lower hourly request quota than a mature one. An early version of this script
-   treated ANY non-list API response as "no monitor nearby" and permanently cached it —
-   which silently mislabeled 53 real, rate-limited requests (including dense-monitor-
-   network cities like Irvine and Santa Ana in the LA basin, and Oklahoma City, Tulsa,
-   and Boise) as genuine coverage gaps. Fixed by explicitly detecting AirNow's
-   `WebServiceError` / "request limit exceeded" response shape, retrying with backoff,
-   and never caching an error response as if it were real data.
+1. **Real per-year file fetch** (`scripts/gen_air_quality_data.py`): download and cache
+   each year's real zip, extract the CSV.
+2. **Join by county name**, since AQS's own file uses county NAMES (not FIPS codes),
+   not this project's existing FIPS crosswalk directly:
+   - Each city's real county name (`data/raw/city-county-fips.json`) + its real state
+     abbreviation (`data/cities.json`) resolved to AQS's full state name.
+   - **Virginia's real independent cities** appear in AQS as `"X City"` (e.g. `"Hampton
+     City"`) — tried as a fallback suffix when the bare county name misses.
+   - **New Mexico's "Doña Ana"** appears in AQS without the diacritic (`"Dona Ana"`) —
+     normalized via NFKD diacritic-stripping before comparison, not a data error.
+   - **Connecticut's real 2022 county-to-planning-region transition** (the same real
+     transition already disclosed in `broadband-methodology.md`) means this project's
+     own crosswalk stores CT cities under their new planning-region names, but AQS's own
+     file still uses the old eight counties. CT cities fall back to a real state-level
+     average across AQS's own eight CT counties for that year, honestly disclosed in the
+     detail text as `"suppressed -- showing state average"`.
+3. **Score**: `min(100, 90th_percentile_AQI / 160 * 100)`, rounded to one decimal.
 
 ## Known limitations (shown, not smoothed over)
 
-- **459/512 real coverage as of this build — with 53 more real, recoverable, NOT
-  genuine gaps.** Those 53 cities hit the same-day rate limit before this build
-  finished; `data/air-quality.json`'s own `_meta.known_gap_cities_rate_limited_at_build`
-  lists them by name. Re-running `scripts/gen_air_quality_data.py` after the quota
-  resets (the cache only holds real successes, so a rerun only re-fetches the gaps)
-  should recover most or all of them — this is an honest "not yet fetched," not a
-  "no monitor exists here" claim, and should not be confused with the genuine
-  no-monitor-nearby gaps other sparse-coverage datasets in this project carry.
-- **A single build-time snapshot of "current conditions," not a trend** — AirNow's own
-  data changes hour to hour in reality; this dataset bakes in whatever conditions were
-  reported at build time, the same static-snapshot posture every dataset in this
-  $0-cost, no-required-backend project takes.
-- **The worse of PM2.5/ozone, not a full pollutant breakdown** — a location with
-  moderate PM2.5 and moderate ozone reads identically to one with a single severe
-  pollutant, if the peak AQI value happens to match; a real simplification, matching
-  AQI's own official single-number convention rather than inventing a blended index.
-- **A 50-mile search radius** — genuinely sparse in the rural West and Great Plains,
-  the same monitor-sparsity caveat `dataset-backlog.md`'s own research on this
-  candidate already names.
+- **499/512 real coverage across all years combined; 461–487/512 at any single real
+  year** (461/512 at the latest real year, 2025 — see `data/air-quality.json`'s own
+  `_meta.latest_year_coverage`). The remainder are genuine "no EPA AQI monitor operated
+  in this county that year" gaps — a real, honest null, never defaulted to "Good."
+  Coverage is naturally lower in the 1980s (as low as 399/512 in 1980, reflecting the
+  real, growing EPA monitoring network of that era) and climbs through the 1990s–2000s
+  as more counties gained monitors — this is a real historical fact about US air
+  monitoring infrastructure, not a data-quality gap on this project's end.
+- **2025's real coverage (461/512) is lower than 2023/2024's (481/512)** — 2025 is a
+  real partial-year file as of this build; some counties' annual statistics aren't yet
+  finalized. A real, honest reflection of the file's own vintage, not a regression.
+- **A single annual statistic (90th percentile), not a full pollutant or seasonal
+  breakdown** — a real simplification matching this project's established "one clean
+  concern-oriented number" convention, at the cost of masking within-year seasonal
+  variation (e.g. summer ozone spikes vs. winter PM2.5 spikes).
+- **County-level, not station-level** — the same real granularity ceiling this
+  project's other county-joined datasets (severe-weather, TRI facility density) already
+  carry; a large county with one urban monitor represents the whole county.
 
 ## Reproducing this dataset
 
@@ -61,7 +79,8 @@ lat/lon and search radius server-side, with no separate monitor-crosswalk step n
 python3 scripts/gen_air_quality_data.py
 ```
 
-Requires a real `EPA_AIRNOW_API_KEY` in `.env` (free signup, see above). Caches each
-city's raw AirNow response under `data/raw/air-quality-cache/` (gitignored — pure
-fetch-scratch; a rerun only re-fetches cities without a cached success, so it's safe to
-retry after a rate-limit window resets). Writes `data/air-quality.json`.
+No API key required (a real change from the original AirNow-based build). Requires
+`data/raw/city-county-fips.json` to already exist. Caches each real year's CSV under
+`data/raw/air-quality-cache/` (gitignored — pure fetch-scratch, safe to delete and
+re-fetch any time; resumable on rerun). Writes `data/air-quality.json` with every real
+year 1980–2025.

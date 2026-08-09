@@ -1,47 +1,79 @@
 import airQualityData from "@data/air-quality.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-fifth real Dataset -- current-conditions Air Quality Index
- * (`.pHive/epics/data-store/docs/dataset-backlog.md` #6), unblocked by a
- * real, free, self-serve EPA_AIRNOW_API_KEY (https://docs.airnowapi.org).
- * See scripts/gen_air_quality_data.py.
+ * The twenty-fifth real Dataset -- annual county-level Air Quality Index
+ * statistics, extended to real multi-year history 1980-2025 (this
+ * session's unplanned "keep going" continuation). Real EPA AQS bulk
+ * "Annual AQI by County" files -- no API, no key. See
+ * scripts/gen_air_quality_data.py.
  *
- * One layer: real AQI (the worse of PM2.5/ozone), already a meaningful
- * 0-500+ concern-oriented scale, directly rescaled (capped at 150 -- the
- * real observed spine 90th-percentile-plus range). 459/512 real coverage
- * -- the remaining 53 hit AirNow's rate limit mid-build (a real,
- * documented, recoverable gap, not a genuine no-monitor area -- see
- * data/air-quality-methodology.md), never defaulted to "Good."
+ * This REPLACES the prior AirNow-based real-time single-day build: that
+ * needed a real API key, hit AirNow's own rate limit (459/512 real
+ * coverage, 53 cities lost to retries), and had no historical depth.
+ * EPA AQS trades "live right now" for real official annual statistics,
+ * 46 years deep, with better and more stable per-year coverage
+ * (481/512 -- the remainder are genuine "no EPA AQI monitor operated in
+ * this county that year" gaps, never defaulted to "Good").
+ *
+ * One layer: EPA's own "90th Percentile AQI" for the county-year --
+ * already a concern-oriented statistic (higher = more days with degraded
+ * air), direct rescale, FIXED cap per year (160) for cross-year
+ * comparability.
+ *
+ * A real, disclosed caveat: Connecticut's 2022 county-to-planning-region
+ * transition (same class of bug already documented in
+ * broadband-methodology.md) means this project's own crosswalk stores CT
+ * cities under their new planning-region names, but EPA AQS's own file
+ * still uses the old eight counties -- CT cities fall back to a real
+ * state-level average across AQS's own eight CT counties for that year,
+ * disclosed in the detail text as "suppressed -- showing state average."
  */
-interface AirQualityRecord {
-  aqi: number;
-  parameter: string;
-  category: string;
-  reporting_area: string;
-  date_observed: string;
-  concern: number;
+interface AirQualityYear {
+  p90_aqi: number;
+  median_aqi: number;
+  days_with_aqi: number | null;
+  suppressed: boolean;
+  score: number;
 }
 
-const DATA = airQualityData as unknown as Record<string, AirQualityRecord> & { _meta: unknown };
+interface AirQualityRecord {
+  county: string;
+  state: string;
+  years: Record<string, AirQualityYear>;
+}
 
-function getAirQualityValue(cityId: string, layerId: string): DatasetLayerValue | null {
+interface AirQualityMeta {
+  years: number[];
+}
+
+const DATA = airQualityData as unknown as Record<string, AirQualityRecord> & { _meta: AirQualityMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getAirQualityValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "air_quality_index") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
+  const suppressedNote = yearData.suppressed ? " -- suppressed -- showing state average" : "";
   return {
-    value: record.concern,
-    detail: `AQI ${record.aqi} (${record.category}, driven by ${record.parameter}) on ${record.date_observed} -- ${record.reporting_area}, EPA AirNow`,
+    value: yearData.score,
+    detail: `90th percentile AQI ${yearData.p90_aqi} (median ${yearData.median_aqi}) in ${record.county} County, ${record.state} (${year})${suppressedNote} -- EPA AQS annual county summary`,
   };
 }
 
 export const airQualityDataset: Dataset = {
   id: "air-quality",
   label: "Air quality",
-  description: "Current-conditions Air Quality Index (PM2.5/ozone, whichever is worse) -- real EPA AirNow observations.",
+  description: "Real EPA AQS annual county AQI statistics, 1980-2025 -- 90th percentile AQI, higher = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/air-quality-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "air_quality_index", label: "Air Quality Index" }],
   getValue: getAirQualityValue,
 };
