@@ -17,20 +17,32 @@ incident count. sum(incident_section.bias.values()) = the real total
 hate crime incident count for that agency/year (confirmed live: NYC 2023
 = 624 incidents).
 
+Real multi-year history (2010-2025), per explicit operator direction to
+get "as much data as possible" for real trends over time. Deliberately
+scoped to match crime.ts's own real range rather than reaching back to
+hate-crime's theoretical 1991 floor: the hate-crime endpoint itself
+carries no population field (confirmed live), so a real population
+denominator is required from elsewhere. crime.ts's own real per-year
+population cache (data/raw/crime-offense-cache/{ori}_violent-crime_{year}.json)
+covers exactly 2010-2025 -- reusing it means zero new population fetches.
+Reaching further back would require a genuinely separate population
+fetch for years crime.ts itself doesn't cover, for what voluntary NIBRS
+hate-crime reporting research already flags as likely much sparser
+coverage in the 1990s/2000s -- not attempted here.
+
 Reuses data/raw/crime-agency-matches.json (509 real city->ORI mappings
-already built for crime.ts) and that build's cached per-agency population
-data (data/raw/crime-offense-cache/{ori}_violent-crime_{year}.json) --
-zero new crosswalk or population fetch needed.
+already built for crime.ts) -- zero new crosswalk needed.
 
 Raw direction: higher rate is more concerning -- direct rescale of real
-incidents per 100k population, capped at a data-informed ceiling (see
-printed distribution below), same shape as unemployment.ts's direct
-rescale for a real, bounded-in-practice rate.
+incidents per 100k population PER YEAR, capped at a FIXED data-informed
+ceiling (see printed distribution below) so a city's rate stays honestly
+comparable year to year.
 """
 import json
 import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,8 +50,7 @@ CACHE_DIR = ROOT / "data/raw/hate-crime-cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 CRIME_CACHE_DIR = ROOT / "data/raw/crime-offense-cache"
 
-PREFERRED_YEAR = 2023
-FALLBACK_YEARS = [2024, 2025, 2022, 2021, 2020]  # nearest-first, for agencies with no 2023 cache
+YEARS = list(range(2010, 2026))
 RATE_CAP = 15.0  # real incidents per 100k -- see printed distribution below
 
 
@@ -61,38 +72,46 @@ if not API_KEY:
     sys.exit(1)
 
 
-def fetch_hate_crime(ori, year):
+def fetch_hate_crime(ori, year, retries=4):
+    """A run this size (~500 agencies x 16 years) will hit an occasional
+    transient network blip -- retry with backoff instead of letting one
+    kill a multi-hour run. Every successful response is cached to disk
+    before this returns, so a retry never redoes completed work."""
     cache_file = CACHE_DIR / f"{ori}_{year}.json"
     if cache_file.exists():
         return json.loads(cache_file.read_text())
     url = f"https://api.usa.gov/crime/fbi/cde/hate-crime/agency/{ori}/all?from=01-{year}&to=12-{year}&api_key={API_KEY}"
-    result = subprocess.run(["curl", "-s", "--max-time", "20", url], capture_output=True, check=True)
-    try:
-        data = json.loads(result.stdout.decode("utf-8"))
-    except json.JSONDecodeError:
-        data = {}
-    cache_file.write_text(json.dumps(data))
-    return data
+    last_err = None
+    for attempt in range(retries):
+        try:
+            result = subprocess.run(["curl", "-s", "--max-time", "20", url], capture_output=True, check=True)
+            try:
+                data = json.loads(result.stdout.decode("utf-8"))
+            except json.JSONDecodeError:
+                data = {}
+            cache_file.write_text(json.dumps(data))
+            return data
+        except subprocess.CalledProcessError as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(2**attempt)
+    raise last_err
 
 
-def real_population_and_year(ori, agency_name):
-    """Reuses crime.ts's own cached population data instead of a new
-    fetch. Prefers PREFERRED_YEAR, but falls back to whichever year that
-    ORI actually has real cached NIBRS population data for -- an agency
-    that joined NIBRS reporting after 2023 (a real, documented pattern in
-    crime-methodology.md) has no 2023 cache, but does have a real cache
-    for whatever year it started reporting in."""
-    for year in [PREFERRED_YEAR, *FALLBACK_YEARS]:
-        cache_file = CRIME_CACHE_DIR / f"{ori}_violent-crime_{year}.json"
-        if not cache_file.exists():
-            continue
-        data = json.loads(cache_file.read_text())
-        pop_series = data.get("populations", {}).get("population", {}).get(agency_name)
-        if pop_series:
-            values = [v for v in pop_series.values() if v]
-            if values:
-                return values[0], year
-    return None, None
+def real_population(ori, agency_name, year):
+    """Reuses crime.ts's own cached population data for the SAME real
+    year (not a fallback to a different year) -- crime.ts's cache
+    already spans 2010-2025, matching this dataset's own real range
+    exactly, so no cross-year population substitution is needed."""
+    cache_file = CRIME_CACHE_DIR / f"{ori}_violent-crime_{year}.json"
+    if not cache_file.exists():
+        return None
+    data = json.loads(cache_file.read_text())
+    pop_series = data.get("populations", {}).get("population", {}).get(agency_name)
+    if not pop_series:
+        return None
+    values = [v for v in pop_series.values() if v]
+    return values[0] if values else None
 
 
 def main():
@@ -100,50 +119,41 @@ def main():
     cities = json.loads((ROOT / "data/cities.json").read_text())
 
     records = {}
-    unmatched = []
-    for i, city in enumerate(cities):
+    for city in cities:
         agency = matches.get(city["id"])
         if not agency:
-            unmatched.append(city["id"])
             continue
         ori = agency["ori"]
-        population, year = real_population_and_year(ori, agency["agency_name"])
-        if not population:
-            unmatched.append(city["id"])
-            continue
 
-        hc_data = fetch_hate_crime(ori, year)
-        incidents = sum(hc_data.get("incident_section", {}).get("bias", {}).values()) if hc_data else 0
-        rate = round(incidents / population * 100000, 2)
-        score = round(min(100.0, (rate / RATE_CAP) * 100.0), 1)
-        records[city["id"]] = {
-            "incidents": incidents,
-            "rate_per_100k": rate,
-            "agency_name": agency["agency_name"],
-            "year": year,
-            "score": score,
-        }
-        if (i + 1) % 50 == 0:
-            print(f"  [{i + 1}/{len(cities)}] cities fetched", file=sys.stderr)
+        years_data = {}
+        for year in YEARS:
+            population = real_population(ori, agency["agency_name"], year)
+            if not population:
+                continue
+            hc_data = fetch_hate_crime(ori, year)
+            incidents = sum(hc_data.get("incident_section", {}).get("bias", {}).values()) if hc_data else 0
+            rate = round(incidents / population * 100000, 2)
+            years_data[str(year)] = {
+                "incidents": incidents,
+                "rate_per_100k": rate,
+                "score": round(min(100.0, (rate / RATE_CAP) * 100.0), 1),
+            }
 
-    covered = len(records)
-    result = {
-        "_meta": {
-            "source": "FBI Crime Data Explorer, hate crime statistics (voluntary agency reporting, real year per agency -- see each record's own year field)",
-            "rate_cap_for_100_score": RATE_CAP,
-            "coverage": covered,
-        },
-        **records,
+        if years_data:
+            records[city["id"]] = {"agency_name": agency["agency_name"], "years": years_data}
+
+    records["_meta"] = {
+        "source": "FBI Crime Data Explorer, hate crime statistics (voluntary agency reporting), 2010-2025",
+        "rate_cap_for_100_score": RATE_CAP,
+        "years": YEARS,
+        "coverage": len(records),
     }
-    (ROOT / "data/hate-crime.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
-    print(f"Wrote data/hate-crime.json: {covered}/{len(cities)} cities matched.", file=sys.stderr)
-    if unmatched:
-        print(f"Unmatched ({len(unmatched)}): {unmatched}", file=sys.stderr)
-
-    rates = sorted(r["rate_per_100k"] for r in records.values())
-    if rates:
-        zero = sum(1 for r in rates if r == 0)
-        print(f"rate/100k range: min={rates[0]} median={rates[len(rates)//2]} max={rates[-1]}; {zero} cities with zero reported incidents", file=sys.stderr)
+    (ROOT / "data/hate-crime.json").write_text(json.dumps(records, indent=2, sort_keys=True) + "\n")
+    covered = len(records) - 1
+    print(f"Wrote data/hate-crime.json: {covered}/{len(cities)} cities matched (any year).", file=sys.stderr)
+    for year in YEARS:
+        n = sum(1 for cid, r in records.items() if cid != "_meta" and str(year) in r["years"])
+        print(f"  {year}: {n}/{len(cities)} cities covered", file=sys.stderr)
 
 
 if __name__ == "__main__":

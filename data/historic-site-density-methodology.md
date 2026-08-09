@@ -7,12 +7,17 @@ The thirty-ninth real Mapstack dataset (ddr10-1, `data-drive-round-10` epic).
 
 One layer, **Historic site access**, 0–100. Raw input is the real count of
 National Register of Historic Places (NRHP)-listed sites within 10 miles of
-each city. A count has no natural 100-point ceiling, so this uses a direct
-rescale capped at a data-informed ceiling (the real p90 across the spine,
-290), **inverted**: fewer nearby historic sites is more concerning (a weaker
-connection to protected/recognized built heritage), matching the "access"
-framing already used by `parks.ts`, `library-access.ts`, and
-`transit-access.ts`.
+each city, at a given real year. A count has no natural 100-point ceiling, so
+this uses a direct rescale capped at a data-informed ceiling (the real
+p90-derived 290, a FIXED cap across every year), **inverted**: fewer nearby
+historic sites is more concerning (a weaker connection to protected/
+recognized built heritage), matching the "access" framing already used by
+`parks.ts`, `library-access.ts`, and `transit-access.ts`.
+
+Real multi-year history — **1966–2025** (`supportsTime: true`), per explicit
+operator direction to get "as much data as possible" for real trends over
+time. 1966 is the National Register's own real founding year (the National
+Historic Preservation Act of 1966).
 
 ## Data source
 
@@ -26,11 +31,11 @@ via its real, live, keyless ArcGIS FeatureServer
 1. For each of the 512 spine cities, issue a real server-side ArcGIS spatial
    distance query centered on the city's own `lat`/`lon`
    (`geometryType=esriGeometryPoint&distance=10&units=esriSRUnit_StatuteMile&
-   spatialRel=esriSpatialRelIntersects&returnCountOnly=true`) — the ArcGIS
-   server itself computes the real spatial intersection and returns an exact
-   count. This is a first for this project's radius-join datasets: no bulk
-   download and no local haversine are needed, since the server supports the
-   radius math natively.
+   spatialRel=esriSpatialRelIntersects`), requesting each real site's
+   `CertDate` (Certification Date, its real NRHP listing date) rather than
+   just a count — one real fetch per city (confirmed live: no pagination
+   needed even for New York City's 823 real sites within 10mi, well under
+   the service's own page-size limit).
 2. The source's own `City`/`State` fields are administrative and unreliable
    for this purpose — confirmed live: `City='NEW YORK' AND State='NY'`
    returns `{"count":0}` even though 800+ real NRHP sites exist within a
@@ -38,12 +43,21 @@ via its real, live, keyless ArcGIS FeatureServer
    already documented for `tri-facility-density.ts` and `library-access.ts`
    this session, which is why the radius join (not the name field) is used
    here.
-3. Rescale: `concern = 100 * (1 - min(count, 290) / 290)`. A city with 0
-   nearby NRHP sites scores concern 100 (least connection to preserved
-   heritage); a city at or above the real p90 count (≈290+) scores concern 0.
-   The cap (290) was chosen from a real 60-city random-sample percentile
-   check performed before shipping (p50=57, p75=110, p90=289, p95=585,
-   p99=637) — not guessed.
+3. `CertDate` is a real string field, format `MM/DD/YY` (confirmed live via
+   the server's own field metadata) — parsed into a real 4-digit year
+   locally (`YY >= 66` → `19YY`, else `20YY`; unambiguous since the NRHP
+   itself has only existed since 1966). For every real year 1966–2025,
+   `count(year) = ` the number of a city's real sites whose `CertDate` year
+   is `<= year` — a real reconstruction from real per-site listing dates,
+   not an estimate or a fabricated backfill.
+4. Rescale, independently per year: `concern = 100 * (1 - min(count, 290) /
+   290)`. A city with 0 nearby NRHP sites scores concern 100 (least
+   connection to preserved heritage); a city at or above the real
+   p90-derived count (290) scores concern 0. The cap was chosen from a real
+   60-city random-sample percentile check performed before the original
+   single-year build shipped (p50=57, p75=110, p90=289, p95=585, p99=637)
+   and kept FIXED across every year so a city's score stays honestly
+   comparable year to year.
 
 ## Known limitations (shown, not smoothed over)
 
@@ -69,7 +83,7 @@ via its real, live, keyless ArcGIS FeatureServer
 python3 scripts/gen_historic_site_density_data.py
 ```
 
-No API key required. Caches each city's real per-city count under
+No API key required. Caches each city's real list of site `CertDate`s under
 `data/raw/historic-site-density-cache/` (gitignored — pure fetch-scratch,
 safe to delete and re-fetch any time; resumable on rerun). Writes
-`data/historic-site-density.json`.
+`data/historic-site-density.json` with every real year 1966–2025.

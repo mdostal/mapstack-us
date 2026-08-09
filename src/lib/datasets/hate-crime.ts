@@ -1,5 +1,5 @@
 import hateCrimeData from "@data/hate-crime.json";
-import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
  * The thirty-third real Dataset -- FBI hate crime statistics, ddr4-1
@@ -12,43 +12,64 @@ import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
  * scripts/gen_hate_crime_data.py.
  *
  * Reuses crime.ts's existing 509-city ORI crosswalk and cached
- * per-agency population data entirely -- zero new geocoding or
- * population fetch.
+ * per-agency population data entirely -- zero new geocoding.
  *
- * One layer: real incidents per 100k population, direct rescale capped
- * at a data-informed ceiling, higher = more concerning. 471/512 real
- * coverage -- an agency whose real cached population data (from
- * crime.ts's own multi-year build) doesn't cover any of the 6 years
- * tried has no real rate to report, same "real coverage grows over
- * time" honesty crime.ts already documents.
+ * Real multi-year history (2010-2025), per explicit operator direction
+ * to get "as much data as possible" for real trends over time.
+ * Deliberately scoped to match crime.ts's own real range -- the
+ * hate-crime endpoint itself carries no population field, so a real
+ * denominator has to come from crime.ts's own per-year population
+ * cache, which covers exactly 2010-2025. Reaching further back
+ * (hate-crime data theoretically exists to 1991) would need a genuinely
+ * separate population fetch for years crime.ts doesn't cover, for what's
+ * likely much sparser voluntary reporting -- not attempted here.
+ *
+ * One layer: real incidents per 100k population per year, direct
+ * rescale capped at a FIXED data-informed ceiling across every year (so
+ * a city's rate stays honestly comparable year to year), higher = more
+ * concerning.
  */
-interface HateCrimeRecord {
+interface HateCrimeYear {
   incidents: number;
   rate_per_100k: number;
-  agency_name: string;
-  year: number;
   score: number;
 }
 
-const DATA = hateCrimeData as unknown as Record<string, HateCrimeRecord> & { _meta: unknown };
+interface HateCrimeRecord {
+  agency_name: string;
+  years: Record<string, HateCrimeYear>;
+}
 
-function getHateCrimeValue(cityId: string, layerId: string): DatasetLayerValue | null {
+interface HateCrimeMeta {
+  years: number[];
+}
+
+const DATA = hateCrimeData as unknown as Record<string, HateCrimeRecord> & { _meta: HateCrimeMeta };
+const AVAILABLE_YEARS = DATA._meta.years;
+const LATEST_YEAR = Math.max(...AVAILABLE_YEARS);
+
+function getHateCrimeValue(cityId: string, layerId: string, context?: DatasetTimeContext): DatasetLayerValue | null {
   if (layerId !== "hate_crime_rate") return null;
   const record = DATA[cityId];
   if (!record) return null;
 
+  const year = context?.year ?? LATEST_YEAR;
+  const yearData = record.years[String(year)];
+  if (!yearData) return null;
+
   return {
-    value: record.score,
-    detail: `${record.incidents} reported hate crime incidents (${record.rate_per_100k}/100k) in ${record.year} -- FBI Crime Data Explorer, ${record.agency_name}`,
+    value: yearData.score,
+    detail: `${yearData.incidents} reported hate crime incidents (${yearData.rate_per_100k}/100k) in ${year} -- FBI Crime Data Explorer, ${record.agency_name}`,
   };
 }
 
 export const hateCrimeDataset: Dataset = {
   id: "hate-crime",
   label: "Hate crime rate",
-  description: "Real FBI hate crime statistics -- voluntary agency reporting, higher rate = more concerning.",
+  description: "Real FBI hate crime statistics, 2010-2025 -- voluntary agency reporting, higher rate = more concerning.",
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/hate-crime-methodology.md",
-  supportsTime: false,
+  supportsTime: true,
+  availableYears: AVAILABLE_YEARS,
   layers: [{ id: "hate_crime_rate", label: "Hate crime rate" }],
   getValue: getHateCrimeValue,
 };
