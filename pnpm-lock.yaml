@@ -8,6 +8,12 @@ dependencies:
   '@ai-sdk/anthropic':
     specifier: ^4.0.36
     version: 4.0.36(zod@4.4.3)
+  '@ai-sdk/google':
+    specifier: ^4.0.40
+    version: 4.0.40(zod@4.4.3)
+  '@ai-sdk/openai':
+    specifier: ^4.0.37
+    version: 4.0.37(zod@4.4.3)
   '@ai-sdk/react':
     specifier: ^4.0.61
     version: 4.0.61(react@19.2.4)(zod@4.4.3)
@@ -118,6 +124,17 @@ packages:
       zod: 4.4.3
     dev: false
 
+  /@ai-sdk/google@4.0.40(zod@4.4.3):
+    resolution: {integrity: sha512-C5pGh7Smit0tcdgy5d1lUPu82iWJSaJXvAk98x8npPz5ogUf0TIvn0tUudNTMK+AXiPcKRptVVj2BMRdsRWicQ==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+    dependencies:
+      '@ai-sdk/provider': 4.0.7
+      '@ai-sdk/provider-utils': 5.0.26(zod@4.4.3)
+      zod: 4.4.3
+    dev: false
+
   /@ai-sdk/mcp@2.0.29(zod@4.4.3):
     resolution: {integrity: sha512-cK8mYpjKGp7/gmsTYtq/dkdmNlBeWQrwcfsah/W9hN6Vr1yNzunLnAZAqL5tMzumLDBueSz6y+vrb5z8DJ8TMg==}
     engines: {node: '>=22'}
@@ -130,8 +147,33 @@ packages:
       zod: 4.4.3
     dev: false
 
+  /@ai-sdk/openai@4.0.37(zod@4.4.3):
+    resolution: {integrity: sha512-rQIdkvqHaqyu94zMJKkhucRwsyTpYUmI+vrH/Dm1Erc6ypURikOV+9e51Pni6RL8IxFlu2bv6y8hA1ghzCy7Gw==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+    dependencies:
+      '@ai-sdk/provider': 4.0.7
+      '@ai-sdk/provider-utils': 5.0.26(zod@4.4.3)
+      zod: 4.4.3
+    dev: false
+
   /@ai-sdk/provider-utils@5.0.25(zod@4.4.3):
     resolution: {integrity: sha512-xscPPHCSjCHWrdhai25sbHCJeKNLW/3D1uSpUZa4cEtTKXA8OnPQ3+Rfu1SmM5Ea/Mf8Dfn3cllw9zeMzo/zFA==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+    dependencies:
+      '@ai-sdk/provider': 4.0.7
+      '@standard-schema/spec': 1.1.0
+      '@workflow/serde': 4.1.0
+      eventsource-parser: 3.1.0
+      undici: 7.29.0
+      zod: 4.4.3
+    dev: false
+
+  /@ai-sdk/provider-utils@5.0.26(zod@4.4.3):
+    resolution: {integrity: sha512-0mqhqx+Dcv+msI84+zkbLXmnCHb/mpkYJ9DU3HBvB1px+UjFQss4lLZqRCSzJ0w3NxwQk4Ishk7cP0r8wEQD5w==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8

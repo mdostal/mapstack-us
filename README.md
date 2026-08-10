@@ -194,10 +194,12 @@ built from two real, working examples instead of upfront design.
   flat line for the many layers that are honestly current-snapshot-only.
 - **Chat with the data (experimental, bring your own key)** — a fully client-side
   assistant, powered by the Vercel AI SDK, that can look up real city/dataset values and
-  rankings through a small, fixed set of read-only tools. Visitors supply their own
-  Anthropic API key, which is sent directly from their browser to Anthropic and never
-  touches any Mapstack server (there isn't one) — the panel discloses exactly what the
-  key does and where it goes before anyone enters one.
+  rankings through a small, fixed set of read-only tools. Visitors choose their own
+  provider (Anthropic, OpenAI, or Google) and supply their own API key for it, which is
+  sent directly from their browser to that provider and never touches any Mapstack
+  server (there isn't one) — the panel discloses exactly what the key does and where it
+  goes before anyone enters one, and each provider's key is stored separately. The same
+  tool set is also available outside the browser as a local MCP server — see below.
 - A power-user `/advanced` view: a sortable/filterable comparison table across every
   active layer, CSV export, saved views, a live formula editor for grass severity's own
   component weights, and a custom blend tool — combine any 2+ active layers at weights

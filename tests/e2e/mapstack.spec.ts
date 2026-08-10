@@ -1110,6 +1110,28 @@ test("chat panel: remembering a key persists it in localStorage across reload, f
   expect(stored).toBeNull();
 });
 
+test("chat panel: switching provider swaps the key field and stores each provider's key separately", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Chat with the data (experimental, bring your own key)" }).click();
+
+  await expect(page.getByPlaceholder("sk-ant-...")).toBeVisible();
+  await page.getByRole("radio", { name: "OpenAI (GPT)" }).click();
+  await expect(page.getByPlaceholder("sk-...")).toBeVisible();
+  await page.getByPlaceholder("sk-...").fill("sk-fake-openai-test-key-not-real");
+  await page.getByRole("button", { name: "Start chatting" }).click();
+  await expect(page.getByTestId("chat-messages")).toBeVisible();
+  await expect(page.getByText("(OpenAI)")).toBeVisible();
+
+  const openaiStored = await page.evaluate(() => window.localStorage.getItem("mapstack_byok_openai_key"));
+  expect(openaiStored).toBe("sk-fake-openai-test-key-not-real");
+  const anthropicStored = await page.evaluate(() => window.localStorage.getItem("mapstack_byok_anthropic_key"));
+  expect(anthropicStored).toBeNull();
+
+  await page.getByRole("button", { name: "Forget key" }).click();
+  await page.getByRole("radio", { name: "Google (Gemini)" }).click();
+  await expect(page.getByPlaceholder("AIza...")).toBeVisible();
+});
+
 test("the ACS5-cluster datasets (income, housing affordability, property tax, population change) now carry real multi-year history, not just a current snapshot", async ({
   page,
 }) => {
