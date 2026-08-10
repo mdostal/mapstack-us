@@ -1,4 +1,5 @@
 import cities from "@data/cities.json";
+import methodologyIndex from "@data/methodology-index.json";
 import { DATASETS, getDataset } from "@/lib/datasets/registry";
 import { computeBlendValue } from "@/lib/custom-blend";
 import type { DatasetTimeContext } from "@/lib/datasets/types";
@@ -114,4 +115,48 @@ export function rankCities(
     .sort((a, b) => (ascending ? a.score - b.score : b.score - a.score))
     .slice(0, limit)
     .map((r) => ({ cityId: r.city.id, city: r.city.city, state: r.city.state, score: Math.round(r.score * 10) / 10 }));
+}
+
+export interface CompareCitiesResult {
+  cityId: string;
+  city: string;
+  state: string;
+  values: LayerValueResult[];
+}
+
+/**
+ * Real values for multiple named cities across the same layer(s), side by
+ * side -- e.g. comparing 2-4 candidate cities on the same criteria. Just
+ * getLayerValue() called per city/layer, not a separate computation.
+ */
+export function compareCities(cityIds: string[], layers: Array<{ datasetId: string; layerId: string }>, year?: number): CompareCitiesResult[] {
+  return cityIds.map((cityId) => {
+    const city = CITY_LIST.find((c) => c.id === cityId);
+    return {
+      cityId,
+      city: city?.city ?? cityId,
+      state: city?.state ?? "",
+      values: layers.map((l) => getLayerValue(cityId, l.datasetId, l.layerId, year)),
+    };
+  });
+}
+
+export interface MethodologyResult {
+  datasetId: string;
+  found: boolean;
+  methodology?: string;
+}
+
+/**
+ * The real methodology writeup for a dataset -- source, method, and known
+ * limitations, in the dataset's own words. Reads a static, build-time-
+ * generated index (data/methodology-index.json, see
+ * scripts/build-methodology-index.ts) rather than the filesystem or a
+ * network fetch, so this function stays exactly as dependency-free and
+ * browser-safe as every other function in this file.
+ */
+export function getMethodology(datasetId: string): MethodologyResult {
+  const methodology = (methodologyIndex as Record<string, string>)[datasetId];
+  if (!methodology) return { datasetId, found: false };
+  return { datasetId, found: true, methodology };
 }

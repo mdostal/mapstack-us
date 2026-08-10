@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { searchCities, getDatasetCatalog, getLayerValue, rankCities } from "@/lib/chat/functions";
+import { searchCities, getDatasetCatalog, getLayerValue, rankCities, compareCities, getMethodology } from "@/lib/chat/functions";
 
 /**
  * The exact, closed set of tools the BYOK chat assistant can call --
@@ -60,5 +60,26 @@ export const chatTools = {
       limit: z.number().min(1).max(50).optional().describe("Max results to return, default 25."),
     }),
     execute: async ({ layers, year, cityIds, ascending, limit }) => rankCities(layers, { year, cityIds, ascending, limit }),
+  }),
+
+  compare_cities: tool({
+    description: "Get real values for multiple specific cities across one or more dataset layers side by side, e.g. to compare 2-4 candidate cities on the same criteria.",
+    inputSchema: z.object({
+      cityIds: z.array(z.string()).min(1).max(10).describe("City ids to compare, e.g. from search_cities."),
+      layers: z
+        .array(z.object({ datasetId: z.string(), layerId: z.string() }))
+        .min(1)
+        .describe("Which dataset layers to fetch for each city."),
+      year: z.number().optional(),
+    }),
+    execute: async ({ cityIds, layers, year }) => compareCities(cityIds, layers, year),
+  }),
+
+  get_methodology: tool({
+    description: "Get the real methodology writeup for a dataset -- source, method, and known limitations, in the dataset's own words. Use this to explain what a value does and doesn't mean before recommending a decision based on it.",
+    inputSchema: z.object({
+      datasetId: z.string().describe("A dataset id from list_datasets."),
+    }),
+    execute: async ({ datasetId }) => getMethodology(datasetId),
   }),
 };

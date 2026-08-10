@@ -239,6 +239,46 @@ reasoning this project grew out of.
 Next.js (SSG), Tailwind CSS v4, Vitest + Playwright, zero required backend — same
 foundation as allergy-locator.
 
+## MCP server (tools for other agents)
+
+Mapstack's real per-city data is also available as a local [MCP](https://modelcontextprotocol.io)
+server — six read-only tools (`search_cities`, `list_datasets`, `get_layer_value`,
+`rank_cities`, `compare_cities`, `get_methodology`) any MCP-compatible agent (Claude
+Desktop, Claude Code, etc.) can call directly. It's the exact same tool set and
+implementation the in-app BYOK chat uses (`src/lib/chat/functions.ts`) — one codepath,
+two surfaces.
+
+This is deliberately a *local* server, not a hosted one: it runs entirely on your own
+machine over stdio, reading this repo's own bundled data, so there's no hosting cost,
+no secrets, and no upload path on Mapstack's side. If you want an agent to reason over
+your own documents (an allergy test result, income info, a personal priority list) to
+help pick a best-fit city, that reasoning happens entirely in *your* agent's own
+conversation — it just calls these tools for the real numbers it needs. Mapstack never
+sees or stores what you upload elsewhere.
+
+Run it directly:
+
+```
+pnpm mcp
+```
+
+Or point an MCP client at it. For Claude Desktop, add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "mapstack-us": {
+      "command": "pnpm",
+      "args": ["--dir", "/absolute/path/to/mapstack-us", "mcp"]
+    }
+  }
+}
+```
+
+No API key or network access required — the server reads `data/*.json` and
+`data/methodology-index.json` (a build-time-generated index of every dataset's real
+methodology doc, see `scripts/build-methodology-index.ts`) directly off disk.
+
 ## API keys (for reproducing the keyed datasets)
 
 Most datasets need no key at all — see each layer's own note above. The handful

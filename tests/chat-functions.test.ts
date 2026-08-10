@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { searchCities, getDatasetCatalog, getLayerValue, rankCities } from "@/lib/chat/functions";
+import { searchCities, getDatasetCatalog, getLayerValue, rankCities, compareCities, getMethodology } from "@/lib/chat/functions";
 
 describe("chat functions (read-only tool backends for the BYOK chat feature)", () => {
   describe("searchCities", () => {
@@ -99,6 +99,57 @@ describe("chat functions (read-only tool backends for the BYOK chat feature)", (
       ]);
       expect(equal.length).toBeGreaterThan(0);
       expect(weighted.length).toBeGreaterThan(0);
+    });
+  });
+
+  describe("compareCities", () => {
+    it("returns real per-city, per-layer values in the same order as the given cityIds", () => {
+      const results = compareCities(["austin-tx", "denver-co"], [{ datasetId: "allergy", layerId: "grass" }]);
+      expect(results.map((r) => r.cityId)).toEqual(["austin-tx", "denver-co"]);
+      expect(results[0].values[0].found).toBe(true);
+      expect(results[0].values[0].datasetId).toBe("allergy");
+    });
+
+    it("fetches every requested layer for each city", () => {
+      const results = compareCities(["austin-tx"], [
+        { datasetId: "allergy", layerId: "grass" },
+        { datasetId: "crime", layerId: "violent_crime" },
+      ]);
+      expect(results[0].values.length).toBe(2);
+      expect(results[0].values.map((v) => v.datasetId)).toEqual(["allergy", "crime"]);
+    });
+
+    it("passes a real year through to every layer lookup", () => {
+      const result = compareCities(["new-york-ny"], [{ datasetId: "crime", layerId: "violent_crime" }], 2024)[0];
+      expect(result.values[0].year).toBe(2024);
+    });
+
+    it("returns found:false (not a crash) for an unknown city id, still using its own id", () => {
+      const result = compareCities(["not-a-real-city"], [{ datasetId: "allergy", layerId: "grass" }])[0];
+      expect(result.cityId).toBe("not-a-real-city");
+      expect(result.city).toBe("not-a-real-city");
+      expect(result.values[0].found).toBe(false);
+    });
+  });
+
+  describe("getMethodology", () => {
+    it("returns the real methodology text for a known dataset", () => {
+      const result = getMethodology("severe-weather");
+      expect(result.found).toBe(true);
+      expect(result.methodology).toContain("Severe weather frequency");
+      expect(result.methodology).toContain("NOAA");
+    });
+
+    it("resolves a dataset whose methodology filename doesn't follow the {id}-methodology.md convention", () => {
+      const result = getMethodology("allergy");
+      expect(result.found).toBe(true);
+      expect(result.methodology!.length).toBeGreaterThan(0);
+    });
+
+    it("returns found:false for an unknown dataset id, not a fabricated summary", () => {
+      const result = getMethodology("not-a-real-dataset");
+      expect(result.found).toBe(false);
+      expect(result.methodology).toBeUndefined();
     });
   });
 });

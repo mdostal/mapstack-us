@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm build:sqlite && next dev",
-    "build": "pnpm build:sqlite && next build",
+    "dev": "pnpm build:methodology && pnpm build:sqlite && next dev",
+    "build": "pnpm build:methodology && pnpm build:sqlite && next build",
     "start": "next start",
     "build:sqlite": "tsx scripts/build-sqlite.ts",
+    "build:methodology": "tsx scripts/build-methodology-index.ts",
+    "mcp": "tsx scripts/mcp-server.ts",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -17,6 +19,7 @@
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.36",
     "@ai-sdk/react": "^4.0.61",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "ai": "^7.0.58",
     "d3-geo": "^3.1.1",
     "next": "16.2.12",

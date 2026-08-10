@@ -43,8 +43,14 @@ export function createChatAgent(apiKey: string) {
       "access to site code, secrets, or anything outside these tools. Never invent a " +
       "value a tool didn't return -- if a tool returns found:false or an empty result, " +
       "say so plainly rather than guessing. When comparing or ranking cities, prefer " +
-      "calling rank_cities over eyeballing individual get_layer_value calls. Cite the " +
-      "real year a value is from when one is available.",
+      "calling rank_cities or compare_cities over eyeballing individual get_layer_value " +
+      "calls. Cite the real year a value is from when one is available. If a visitor " +
+      "wants to weigh their own personal priorities (e.g. their own income, a health " +
+      "condition, a preference for low crime) into a city recommendation, use " +
+      "rank_cities with weights that reflect what they told you -- do not ask them to " +
+      "upload documents here; this chat has no upload path, so just take their stated " +
+      "priorities directly. Call get_methodology before making a recommendation that " +
+      "leans heavily on one dataset, and disclose any real limitation it names.",
     tools: chatTools,
   });
 }
