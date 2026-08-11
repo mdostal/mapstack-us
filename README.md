@@ -94,8 +94,9 @@ built from two real, working examples instead of upfront design.
     value), the first dataset pulled directly from the Census API rather than a free
     republication route, unblocked by a real `CENSUS_API_KEY`
     (`data/property-tax-methodology.md`).
-  - **Unemployment** — real BLS Local Area Unemployment Statistics, city-level where
-    available, county fallback otherwise, full 512-city coverage, unblocked by a real
+  - **Unemployment** — real BLS Local Area Unemployment Statistics, real multi-year
+    history 1976-2026 (LAUS's own real program start), city-level where available,
+    county fallback otherwise per year, full 512-city coverage, unblocked by a real
     `BLS_API_KEY` (`data/unemployment-methodology.md`).
   - **Air quality** — real annual 90th-percentile AQI by county, EPA AQS's own bulk
     annual files, real multi-year history 1980-2025, no key required. 499/512 coverage
