@@ -14,16 +14,26 @@ const geistMono = Geist_Mono({
 });
 
 // Stacked-layers mark -- the app's own core UX metaphor (add a layer, stack
-// as many as you want) -- in a distinct blue, on a dark rounded square,
-// matching the data-URI favicon pattern already shipped for
-// tools.mdostal.com and allergy-locator (no binary .ico generation needed).
-const FAVICON =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0a'/%3E%3Cpolygon points='50,20 80,37 50,54 20,37' fill='%2360a5fa'/%3E%3Cpolygon points='50,42 80,59 50,76 20,59' fill='%232563eb'/%3E%3C/svg%3E";
+// as many as you want) -- in a distinct blue, on a dark rounded square.
+// Real files under public/ (favicon.ico/.svg, apple-touch-icon.png) rendered
+// from this same design, replacing the old data-URI-only favicon so the tab
+// icon is a real cacheable asset rather than an inline string on every page.
+// basePath isn't auto-applied to metadata.icons string paths (only to
+// <Link>/<Image>/router navigation -- see next.config.ts's own comment on
+// this exact gap), so it's prefixed explicitly here, same as
+// NEXT_PUBLIC_BASE_PATH's other client-side use in lib/db/client.ts.
+const BASE_PATH = process.env.E2E_NO_BASE_PATH ? "" : "/mapstack";
 
 export const metadata: Metadata = {
   title: "Mapstack",
   description: "Open-source US map layers -- pick datasets, overlay them, find what matters to you.",
-  icons: { icon: FAVICON },
+  icons: {
+    icon: [
+      { url: `${BASE_PATH}/favicon.ico`, sizes: "any" },
+      { url: `${BASE_PATH}/favicon.svg`, type: "image/svg+xml" },
+    ],
+    apple: `${BASE_PATH}/apple-touch-icon.png`,
+  },
 };
 
 export default function RootLayout({
