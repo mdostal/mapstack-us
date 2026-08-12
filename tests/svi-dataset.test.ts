@@ -60,4 +60,13 @@ describe("sviDataset (Dataset interface, sixth real implementation, tract-level 
     }
     expect(nullCount).toBeLessThan(10);
   });
+
+  it("regression: uses a real ordinal suffix, not a hardcoded 'th'", () => {
+    // abilene-tx's real 2010 overall percentile is 70.3 -- a real value
+    // the old hardcoded "th" bug would have wrongly rendered as
+    // "70.3th percentile".
+    const result = sviDataset.getValue("abilene-tx", "overall", { year: 2010 });
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("70.3rd percentile");
+  });
 });

@@ -66,6 +66,19 @@ csvfiles/`) — a real static gzipped CSV per real year, no API, no key.
   fatal tornado both count as one event. The real source data has real
   `DEATHS_DIRECT`/`INJURIES_DIRECT`/`DAMAGE_PROPERTY` fields a future pass
   could weight by.
+- **The current, in-progress year's real data is genuinely partial, and now
+  explicitly disclosed** — a real bug found live by this project's own QA
+  sweep: NOAA's current-year file is published incrementally, so at the time
+  of a given build it can genuinely only cover the first few months (e.g.
+  2026's real file, as of this build, has events only through April) —
+  computed directly from the file's own real `BEGIN_YEARMONTH` values, not
+  assumed from the calendar. An undisclosed 0-event result for a
+  low-activity-so-far state/county in that partial year read as a confident
+  "risk-free" score rather than "not yet reported" (this hit Arizona and
+  Nevada hardest, since their real severe-weather season is
+  monsoon-driven, June–September — squarely in the months NOT YET covered).
+  Every completed real year has a full 12 months covered; only the
+  in-progress year's detail string carries this note.
 
 ## Reproducing this dataset
 

@@ -58,8 +58,13 @@ download, no API key or account required.
 - **2010-vintage tract boundaries, not current** — the whole reason for a separate
   crosswalk (see above); this dataset's geography doesn't line up with any other
   tract-level dataset here (SVI) at the boundary level, even though both are "tract-level."
-- **512/512 real coverage** at the latest (2019) vintage — see `data/food-access.json`'s
-  own `_meta.coverage`.
+- **512/512 real tract-crosswalk match** (every spine city resolves to a real tract
+  record at some vintage — see `data/food-access.json`'s own `_meta.coverage`), but that
+  is NOT the same as 2019-specific non-null coverage. A real doc/data mismatch found live
+  by this project's own QA sweep, now corrected: 469/512 cities have a real, non-null
+  `low_access` value specifically at the 2019 vintage (41 tracts carry FARA's own null
+  for that year; 2 more have no 2019 entry in the crosswalk at all) — the remaining 43
+  cities return `found:false` for a 2019 query, an honest gap, not a fabricated value.
 - **Tract-level, not city-level** — a real, documented resolution limitation, same "one
   number for a whole jurisdiction" shape as every other sub-city-resolution dataset here.
 - **A real minority of tracts have FARA's own null** (no population base to compute a

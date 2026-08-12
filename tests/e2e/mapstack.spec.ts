@@ -1017,6 +1017,27 @@ test("ranking cities by your active layers: the 'rank all 512 cities' panel sort
   await expect(rankAllList.locator("li").first()).toContainText("Salem, OR");
 });
 
+test("regression: the simple view marks the custom-blend overlay with an asterisk once shown on the map, matching /advanced's own convention", async ({ page }) => {
+  // Real gap found live by this project's own QA sweep: /advanced's
+  // MapLayerControls already asterisks a custom overlay, but this simple
+  // root view had no equivalent marker anywhere -- the blend silently
+  // colored the map with no visible sign it wasn't a real, shipped layer.
+  await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Crime", exact: true }).click();
+  await page.getByRole("button", { name: "Violent crime", exact: true }).click();
+  await page.getByRole("button", { name: "Add Violent crime" }).click();
+
+  await page.getByRole("button", { name: "Custom blend & ranking" }).click();
+  await expect(page.getByTestId("custom-blend-asterisk")).not.toBeVisible();
+
+  await page.getByRole("button", { name: "Show your blend on the map" }).click();
+  await expect(page.getByTestId("custom-blend-asterisk")).toBeVisible();
+
+  await page.getByRole("button", { name: /Showing your blend on the map/ }).click();
+  await expect(page.getByTestId("custom-blend-asterisk")).not.toBeVisible();
+});
+
 test("ranking just the compared cities is scoped to that set, not all 512", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: /^New York, NY/ }).click();
@@ -1130,6 +1151,41 @@ test("chat panel: switching provider swaps the key field and stores each provide
   await page.getByRole("button", { name: "Forget key" }).click();
   await page.getByRole("radio", { name: "Google (Gemini)" }).click();
   await expect(page.getByPlaceholder("AIza...")).toBeVisible();
+});
+
+test("regression: chat provider radiogroup supports real roving-tabindex arrow-key navigation, matching the WAI-ARIA APG pattern", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Chat with the data (experimental, bring your own key)" }).click();
+
+  const anthropicRadio = page.getByRole("radio", { name: "Anthropic (Claude)" });
+  const openaiRadio = page.getByRole("radio", { name: "OpenAI (GPT)" });
+  const googleRadio = page.getByRole("radio", { name: "Google (Gemini)" });
+
+  // Only the checked radio is a real Tab stop (roving tabindex) -- the
+  // other two are skipped entirely when tabbing through the page.
+  await expect(anthropicRadio).toHaveAttribute("tabindex", "0");
+  await expect(openaiRadio).toHaveAttribute("tabindex", "-1");
+  await expect(googleRadio).toHaveAttribute("tabindex", "-1");
+
+  await anthropicRadio.focus();
+  await page.keyboard.press("ArrowRight");
+  await expect(openaiRadio).toBeFocused();
+  await expect(openaiRadio).toHaveAttribute("aria-checked", "true");
+  await expect(anthropicRadio).toHaveAttribute("tabindex", "-1");
+  await expect(page.getByPlaceholder("sk-...")).toBeVisible();
+
+  await page.keyboard.press("ArrowRight");
+  await expect(googleRadio).toBeFocused();
+  await expect(page.getByPlaceholder("AIza...")).toBeVisible();
+
+  // Wraps around from the last option back to the first.
+  await page.keyboard.press("ArrowRight");
+  await expect(anthropicRadio).toBeFocused();
+  await expect(page.getByPlaceholder("sk-ant-...")).toBeVisible();
+
+  // ArrowLeft wraps the other direction, to the last option.
+  await page.keyboard.press("ArrowLeft");
+  await expect(googleRadio).toBeFocused();
 });
 
 test("the ACS5-cluster datasets (income, housing affordability, property tax, population change) now carry real multi-year history, not just a current snapshot", async ({

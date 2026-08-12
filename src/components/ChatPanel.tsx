@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useChat } from "@ai-sdk/react";
 import { DirectChatTransport } from "ai";
 import { createChatAgent, CHAT_PROVIDERS, type ChatProvider } from "@/lib/chat/agent";
@@ -38,6 +38,7 @@ export function ChatPanel() {
   const [input, setInput] = useState("");
 
   const providerInfo = CHAT_PROVIDERS.find((p) => p.id === provider)!;
+  const radioRefs = useRef<Array<HTMLButtonElement | null>>([]);
 
   const agent = useMemo(() => (apiKey ? createChatAgent(provider, apiKey) : null), [provider, apiKey]);
   const transport = useMemo(() => (agent ? new DirectChatTransport({ agent }) : undefined), [agent]);
@@ -47,6 +48,26 @@ export function ChatPanel() {
     setProvider(next);
     setKeyInput("");
     setApiKey(typeof window === "undefined" ? null : window.localStorage.getItem(storageKeyFor(next)));
+  }
+
+  // Real WAI-ARIA APG radiogroup keyboard pattern -- a gap found live by
+  // this project's own QA sweep: the provider selector had 3 separate Tab
+  // stops with no arrow-key handling at all, deviating from how a real
+  // radiogroup is expected to behave for keyboard/screen-reader users.
+  // Left/Up moves to the previous option, Right/Down to the next, both
+  // wrapping around; only the checked option is ever a real Tab stop
+  // (roving tabindex), matching every other radio group's real behavior.
+  function handleProviderKeyDown(e: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    let nextIndex: number | null = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      nextIndex = (index + 1) % CHAT_PROVIDERS.length;
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      nextIndex = (index - 1 + CHAT_PROVIDERS.length) % CHAT_PROVIDERS.length;
+    }
+    if (nextIndex === null) return;
+    e.preventDefault();
+    selectProvider(CHAT_PROVIDERS[nextIndex].id);
+    radioRefs.current[nextIndex]?.focus();
   }
 
   function submitKey() {
@@ -88,13 +109,18 @@ export function ChatPanel() {
           <div className="flex flex-col gap-1 text-xs">
             <span className="font-medium text-zinc-700 dark:text-zinc-300">Provider</span>
             <div className="flex gap-1.5" role="radiogroup" aria-label="Chat provider">
-              {CHAT_PROVIDERS.map((p) => (
+              {CHAT_PROVIDERS.map((p, index) => (
                 <button
                   key={p.id}
+                  ref={(el) => {
+                    radioRefs.current[index] = el;
+                  }}
                   type="button"
                   role="radio"
                   aria-checked={provider === p.id}
+                  tabIndex={provider === p.id ? 0 : -1}
                   onClick={() => selectProvider(p.id)}
+                  onKeyDown={(e) => handleProviderKeyDown(e, index)}
                   className={
                     "rounded border px-2 py-1 text-xs " +
                     (provider === p.id

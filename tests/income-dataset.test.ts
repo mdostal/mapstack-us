@@ -54,4 +54,12 @@ describe("incomeDataset (Dataset interface, seventeenth real implementation, dir
     }
     expect(nullCount).toBeLessThan(20);
   });
+
+  it("regression: uses a real ordinal suffix, not a hardcoded 'th'", () => {
+    // alhambra-ca's real 2023 concern is 40.2 -- a real value the old
+    // hardcoded "th" bug would have wrongly rendered as "40.2th percentile".
+    const result = incomeDataset.getValue("alhambra-ca", "median_income", { year: 2023 });
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("40.2nd percentile");
+  });
 });

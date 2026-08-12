@@ -51,4 +51,19 @@ describe("crimeDataset (Dataset interface, third real implementation, now multi-
   it("returns null for an unknown layer id", () => {
     expect(crimeDataset.getValue("new-york-ny", "not-a-real-layer")).toBeNull();
   });
+
+  it("regression: names the real FBI source inline in the detail string", () => {
+    const result = crimeDataset.getValue("new-york-ny", "violent_crime", { year: 2025 });
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("FBI Crime Data Explorer");
+  });
+
+  it("regression: uses a real ordinal suffix, not a hardcoded 'th'", () => {
+    // alexandria-va's real 2025 violent_crime concern is 16.1 -- a real
+    // value the old hardcoded "th" bug would have wrongly rendered as
+    // "16.1th percentile".
+    const result = crimeDataset.getValue("alexandria-va", "violent_crime", { year: 2025 });
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("16.1st percentile");
+  });
 });

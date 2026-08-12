@@ -1,4 +1,5 @@
 import incomeData from "@data/income.json";
+import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
@@ -55,7 +56,10 @@ function getIncomeValue(cityId: string, layerId: string, context?: DatasetTimeCo
 
   return {
     value: yearData.concern,
-    detail: `$${yearData.median_income.toLocaleString()} median household income in ${year} (${yearData.concern}th percentile among that year's covered cities) -- Census ACS`,
+    // Real ordinal-suffix bug found live by this project's own QA sweep,
+    // fixed: this previously always hardcoded "th" (e.g. "82.1th
+    // percentile" for a value not ending in a bare 4-9).
+    detail: `$${yearData.median_income.toLocaleString()} median household income in ${year} (${toOrdinal(yearData.concern)} percentile among that year's covered cities) -- Census ACS`,
   };
 }
 

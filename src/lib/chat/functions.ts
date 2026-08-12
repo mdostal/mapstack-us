@@ -65,7 +65,21 @@ export interface LayerValueResult {
   state: string;
   datasetId: string;
   layerId: string;
+  /** The year the CALLER asked for, echoed back verbatim -- null if the
+   * caller didn't specify one. NOT necessarily the year the dataset
+   * actually used internally; see `resolvedYear` for that. */
   year: number | null;
+  /** The REAL year a time-varying dataset actually resolved this value
+   * for -- populated even when the caller omitted `year` (every
+   * time-varying dataset in this project consistently defaults to its own
+   * latest real year, `Math.max(...availableYears)`, so this is derivable
+   * here without needing every individual dataset file to echo it back
+   * itself). Null for a dataset with no time dimension, or when the
+   * lookup didn't find real data at all. A real gap found live by this
+   * project's own QA sweep: before this field existed, a caller relying
+   * only on structured fields (not free-text `detail` parsing) had no way
+   * to confirm which real year an unspecified-year lookup actually used. */
+  resolvedYear: number | null;
   found: boolean;
   value?: number;
   detail?: string;
@@ -73,14 +87,15 @@ export interface LayerValueResult {
 
 export function getLayerValue(cityId: string, datasetId: string, layerId: string, year?: number): LayerValueResult {
   const city = CITY_LIST.find((c) => c.id === cityId);
-  const base = { cityId, city: city?.city ?? cityId, state: city?.state ?? "", datasetId, layerId, year: year ?? null };
-
   const dataset = getDataset(datasetId);
+  const resolvedYear = year ?? (dataset?.supportsTime && dataset.availableYears?.length ? Math.max(...dataset.availableYears) : null);
+  const base = { cityId, city: city?.city ?? cityId, state: city?.state ?? "", datasetId, layerId, year: year ?? null, resolvedYear };
+
   if (!dataset || !city) return { ...base, found: false };
 
   const context: DatasetTimeContext | undefined = year !== undefined ? { year } : undefined;
   const result = dataset.getValue(cityId, layerId, context);
-  if (!result) return { ...base, found: false };
+  if (!result) return { ...base, found: false, resolvedYear: null };
 
   return { ...base, found: true, value: result.value, detail: result.detail };
 }

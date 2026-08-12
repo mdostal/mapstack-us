@@ -33,4 +33,17 @@ describe("superfundDataset (Dataset interface, thirty-fourth real implementation
     }
     expect(nullCount).toBeLessThan(cities.length * 0.1);
   });
+
+  it("regression: labels a Louisiana city's jurisdiction as a real Parish, not a fabricated County", () => {
+    const result = superfundDataset.getValue("baton-rouge-la", "superfund_density");
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("East Baton Rouge Parish");
+    expect(result!.detail).not.toContain("County");
+  });
+
+  it("still labels a non-Louisiana city's jurisdiction as a County", () => {
+    const result = superfundDataset.getValue("new-york-ny", "superfund_density");
+    expect(result).not.toBeNull();
+    expect(result!.detail).toContain("County");
+  });
 });

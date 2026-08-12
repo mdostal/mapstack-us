@@ -72,6 +72,19 @@ def load_county_totals_by_year():
             year = row["year"]
             if year not in YEARS:
                 continue
+            # MEDSL's own "TOTAL VOTES CAST" pseudo-candidate row (a real,
+            # documented aggregate sentinel, confirmed live: 427 rows across
+            # SC/TX/WV/WI in the 2024 file alone) must never be treated as a
+            # real candidate. Most states tag it with mode="TOTAL", which the
+            # use_mode logic below already filters out -- but WI and SC's
+            # real 2024 files tag EVERY row, including this one, with
+            # mode="" (no separate "TOTAL" marker at all), so it silently
+            # "won" the county by out-voting every real candidate. Filtering
+            # by the sentinel's own name, unconditionally, is a real fix
+            # regardless of which mode value a given state's file happens to
+            # use for it.
+            if row["candidate"] == "TOTAL VOTES CAST":
+                continue
             fips = row["county_fips"].zfill(5)
             key = (year, fips)
             modes_by_year_county[key].add(row["mode"])

@@ -87,7 +87,7 @@ export function CustomBlendPanel({
         );
       })}
 
-      <div>
+      <div className="flex items-center gap-1.5">
         <button
           type="button"
           onClick={onToggleOverlay}
@@ -100,6 +100,17 @@ export function CustomBlendPanel({
         >
           {overlayOn ? "Showing your blend on the map — remove" : "Show your blend on the map"}
         </button>
+        {overlayOn && (
+          // A real gap found live by this project's own QA sweep: /advanced's
+          // MapLayerControls already marks a custom overlay with an asterisk
+          // ("A custom overlay you defined -- not one of the shipped/
+          // validated scores"), but this simple root view had no equivalent
+          // marker anywhere -- the blend silently colored the map with no
+          // visible indication it wasn't a real, shipped layer.
+          <span className="text-amber-600 dark:text-amber-500" title="A custom overlay you defined -- not one of the shipped/validated scores" data-testid="custom-blend-asterisk">
+            *
+          </span>
+        )}
       </div>
 
       {!selectedCityId ? (

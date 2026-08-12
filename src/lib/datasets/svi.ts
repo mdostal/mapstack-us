@@ -1,4 +1,5 @@
 import sviData from "@data/svi.json";
+import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 import cities from "@data/cities.json";
 
@@ -82,7 +83,10 @@ function getSviValue(cityId: string, layerId: string, context?: DatasetTimeConte
   const cityLabel = CITY_LABELS.get(cityId) ?? cityId;
   return {
     value,
-    detail: `${value}th percentile, ${yearData.tract}, near ${cityLabel}, ${year} -- CDC/ATSDR Social Vulnerability Index`,
+    // Real ordinal-suffix bug found live by this project's own QA sweep,
+    // fixed: this previously always hardcoded "th" (e.g. "82.1th
+    // percentile" for a value not ending in a bare 4-9).
+    detail: `${toOrdinal(value)} percentile, ${yearData.tract}, near ${cityLabel}, ${year} -- CDC/ATSDR Social Vulnerability Index`,
   };
 }
 

@@ -156,7 +156,19 @@ def events_by_county_for_year(year):
     reader = csv.DictReader(text.splitlines())
 
     events_by_county = {}
+    max_month = 0
     for row in reader:
+        # Real per-year completeness signal, found necessary by this
+        # project's own QA sweep: NOAA's current-year file is published
+        # incrementally, so the in-progress year's real file can genuinely
+        # only cover a few months so far (2026's real file, at the time of
+        # this build, has events only through April) -- computed here from
+        # the file's own real BEGIN_YEARMONTH values, not assumed from the
+        # calendar, since a "final" past-year file always has max_month=12.
+        ym = row.get("BEGIN_YEARMONTH", "")
+        if len(ym) == 6 and ym[4:6].isdigit():
+            max_month = max(max_month, int(ym[4:6]))
+
         if row.get("CZ_TYPE") != "C":
             continue
         state_fips = row.get("STATE_FIPS", "").zfill(2)
@@ -165,7 +177,7 @@ def events_by_county_for_year(year):
             continue
         stcofips = state_fips + cz_fips
         events_by_county[stcofips] = events_by_county.get(stcofips, 0) + 1
-    return events_by_county
+    return events_by_county, max_month
 
 
 def main():
@@ -174,7 +186,7 @@ def main():
 
     per_year_records = {}
     for year in YEARS:
-        events_by_county = events_by_county_for_year(year)
+        events_by_county, months_covered = events_by_county_for_year(year)
         year_records = {}
         for city in cities:
             cid = city["id"]
@@ -183,9 +195,9 @@ def main():
                 continue
             count = events_by_county.get(fips_info["stcofips"], 0)
             score = round(min(100.0, (count / COUNT_CAP) * 100.0), 1)
-            year_records[cid] = {"event_count": count, "score": score}
+            year_records[cid] = {"event_count": count, "score": score, "months_covered": months_covered}
         per_year_records[year] = year_records
-        print(f"{year}: {sum(events_by_county.values())} real county-zone events across {len(events_by_county)} counties, {len(year_records)}/{len(cities)} cities matched", file=sys.stderr)
+        print(f"{year}: {sum(events_by_county.values())} real county-zone events across {len(events_by_county)} counties, {len(year_records)}/{len(cities)} cities matched, real data through month {months_covered}", file=sys.stderr)
 
     records = {}
     for city in cities:

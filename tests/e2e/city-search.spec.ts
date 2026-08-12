@@ -65,6 +65,20 @@ test("arrow keys move focus through search results and Enter selects the highlig
   await expect(page).toHaveURL(/city=/);
 });
 
+test("regression: search results are not independent Tab stops -- keyboard navigation stays on the input, matching a real combobox's canonical structure", async ({
+  page,
+}) => {
+  await page.goto("/advanced");
+  const input = page.getByLabel("Search cities");
+  await input.fill("San");
+  await expect(page.locator("#city-search-results").getByRole("option").first()).toBeVisible();
+
+  await input.focus();
+  await page.keyboard.press("Tab");
+  const focusLandedInResults = await page.evaluate(() => document.activeElement?.closest("#city-search-results") !== null);
+  expect(focusLandedInResults).toBe(false);
+});
+
 test("city search is also available in the simple view, not just /advanced -- explicit operator direction to bring more of /advanced's power into simple view", async ({
   page,
 }) => {

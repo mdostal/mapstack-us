@@ -59,4 +59,19 @@ describe("politicalLeanDataset (Dataset interface, fifteenth real implementation
     }
     expect(nullCount).toBeLessThan(15);
   });
+
+  it("regression: never reports MEDSL's own 'TOTAL VOTES CAST' aggregate row as a winning candidate", () => {
+    // Real bug found live by this project's own QA sweep: Wisconsin's and
+    // South Carolina's 2024 MEDSL rows are all tagged with a blank `mode`
+    // (no separate "TOTAL" marker), so the aggregate "TOTAL VOTES CAST"
+    // pseudo-candidate row -- whose vote count equals the whole county's
+    // total -- silently out-"voted" every real candidate. See
+    // data/political-lean-methodology.md's Method section, step 3.
+    const affected2024 = ["milwaukee-wi", "madison-wi", "green-bay-wi", "kenosha-wi", "charleston-sc", "columbia-sc"];
+    for (const cityId of affected2024) {
+      const result = politicalLeanDataset.getValue(cityId, "competitiveness", { year: 2024 });
+      expect(result).not.toBeNull();
+      expect(result!.detail).not.toContain("Total Votes Cast");
+    }
+  });
 });

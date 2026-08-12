@@ -36,6 +36,7 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
 interface SevereWeatherYear {
   event_count: number;
   score: number;
+  months_covered: number;
 }
 
 interface SevereWeatherRecord {
@@ -61,9 +62,16 @@ function getSevereWeatherValue(cityId: string, layerId: string, context?: Datase
   if (!yearData) return null;
 
   const eventWord = yearData.event_count === 1 ? "event" : "events";
+  // Real completeness disclosure, matching drought.ts's own `weeks` field --
+  // found necessary by this project's own QA sweep: the in-progress year's
+  // real NOAA file can genuinely only cover a few months so far, and an
+  // undisclosed 0-event year read as a confident "risk-free" score rather
+  // than "not yet reported." Every real completed year has months_covered
+  // === 12, so this note only ever appears on the current in-progress year.
+  const partialNote = yearData.months_covered < 12 ? ` -- real data through month ${yearData.months_covered} of ${year} only, not a complete year` : "";
   return {
     value: yearData.score,
-    detail: `${yearData.event_count} severe weather ${eventWord} in ${record.county} County (${year}) -- NOAA Storm Events Database`,
+    detail: `${yearData.event_count} severe weather ${eventWord} in ${record.county} County (${year}) -- NOAA Storm Events Database${partialNote}`,
   };
 }
 

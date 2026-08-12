@@ -104,7 +104,17 @@ export function useSharedViewParams(): SharedViewParams {
         else params.delete(YEAR_PARAM);
       }
       const qs = params.toString();
-      const url = qs ? `${pathname}?${qs}` : pathname;
+      // usePathname() deliberately returns the path WITHOUT the app's
+      // /mapstack basePath (Next's own documented behavior) -- a real bug
+      // found live by this project's own QA sweep: writing that bare
+      // pathname straight into history.replaceState produced a shareable/
+      // bookmarkable URL missing /mapstack, which 404s (or on the bare
+      // root path, silently lands on the unrelated tools.mdostal.com hub
+      // page) on reload. Re-prepend the same NEXT_PUBLIC_BASE_PATH env var
+      // src/lib/db/client.ts already uses for this identical problem.
+      const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+      const path = `${basePath}${pathname}`;
+      const url = qs ? `${path}?${qs}` : path;
       window.history.replaceState(window.history.state, "", url);
       notifySharedViewParamsChanged();
     },

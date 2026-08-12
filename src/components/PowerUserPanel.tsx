@@ -156,7 +156,12 @@ export function PowerUserPanel() {
     // the moment a user selects a city, silently dropping it from this URL.
     const params = new URLSearchParams(window.location.search);
     params.set(VIEW_PARAM, encodeView({ selections: view.selections, sortKeys: view.sortKeys }));
-    window.history.replaceState(window.history.state, "", `${pathname}?${params.toString()}`);
+    // Same real basePath bug as shared-view-params.ts (usePathname() strips
+    // /mapstack; re-prepend it via the same NEXT_PUBLIC_BASE_PATH env var
+    // src/lib/db/client.ts already uses) -- found live by this project's
+    // own QA sweep: restoring a saved view wrote a dead, unshareable URL.
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    window.history.replaceState(window.history.state, "", `${basePath}${pathname}?${params.toString()}`);
     notifySharedViewParamsChanged();
   }
 

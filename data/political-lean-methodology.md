@@ -61,6 +61,22 @@ license permits without restriction.
    non-aggregate mode, safely summable since there's no risk of double-counting when only
    one mode exists. The top two candidates by vote count (not assumed to always be the
    Democratic and Republican nominees) determine the real margin, per year.
+3. **A real bug found by this project's own QA sweep and fixed**: MEDSL's file also
+   contains a real aggregate pseudo-candidate row literally named `"TOTAL VOTES CAST"`
+   (427 rows, confirmed live, appearing only in the 2024 cycle across South Carolina,
+   Texas, West Virginia, and Wisconsin). Most states tag this row `mode: "TOTAL"`, which
+   step 2's mode-selection logic already excludes — but Wisconsin's and South Carolina's
+   real 2024 files tag EVERY row for a county, including this one, with a blank `mode`
+   (no separate `"TOTAL"` marker exists at all), so the sentinel row was being counted as
+   a real candidate and, since its vote count equals the county's total, it "won" every
+   affected county outright. This corrupted 9 real spine cities (Milwaukee, Madison,
+   Green Bay, Kenosha WI; Charleston, Columbia, North Charleston, Mount Pleasant SC —
+   Charleston and Mount Pleasant share Charleston County) for 2024 only, showing a
+   nonsensical `"Total Votes Cast ()"` winner with a skewed margin. Texas happened to be
+   unaffected only because its counties also report a real `mode: "TOTAL"` row that the
+   existing filter already excludes; West Virginia has no cities in this project's spine.
+   Fixed by excluding any row where `candidate == "TOTAL VOTES CAST"` unconditionally,
+   before the per-county mode selection runs, regardless of that row's own `mode` value.
 
 ## Known limitations (shown, not smoothed over)
 

@@ -1,4 +1,5 @@
 import superfundData from "@data/superfund.json";
+import cities from "@data/cities.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
@@ -27,6 +28,16 @@ interface SuperfundRecord {
 }
 
 const DATA = superfundData as unknown as Record<string, SuperfundRecord> & { _meta: unknown };
+const STATE_BY_CITY_ID: Record<string, string> = Object.fromEntries((cities as Array<{ id: string; state: string }>).map((c) => [c.id, c.state]));
+
+// Louisiana's civil divisions are legally Parishes, not Counties -- a real
+// factual error found live by this project's own QA sweep (the hardcoded
+// " County" suffix below previously labeled Baton Rouge as being in "East
+// Baton Rouge County", which does not exist; the real name is East Baton
+// Rouge Parish). No other spine state needs a similar exception here.
+function jurisdictionWord(cityId: string): string {
+  return STATE_BY_CITY_ID[cityId] === "LA" ? "Parish" : "County";
+}
 
 function getSuperfundValue(cityId: string, layerId: string): DatasetLayerValue | null {
   if (layerId !== "superfund_density") return null;
@@ -36,7 +47,7 @@ function getSuperfundValue(cityId: string, layerId: string): DatasetLayerValue |
   const siteWord = record.final_npl_site_count === 1 ? "site" : "sites";
   return {
     value: record.score,
-    detail: `${record.final_npl_site_count} active Superfund (Final NPL) ${siteWord} in ${record.county} County -- EPA Envirofacts SEMS`,
+    detail: `${record.final_npl_site_count} active Superfund (Final NPL) ${siteWord} in ${record.county} ${jurisdictionWord(cityId)} -- EPA Envirofacts SEMS`,
   };
 }
 

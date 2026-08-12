@@ -48,4 +48,20 @@ describe("severeWeatherDataset (Dataset interface, thirty-seventh real implement
     }
     expect(nullCount).toBe(0);
   });
+
+  it("discloses when the current (in-progress) real year is genuinely partial, so a low count doesn't read as risk-free", () => {
+    // Real bug found live by this project's own QA sweep: an undisclosed
+    // 0-event 2026 reading for AZ/NV (whose real severe-weather season is
+    // monsoon-driven, June-September -- not yet covered by NOAA's current
+    // partial-year file) looked like a confident "risk-free" score.
+    const partial = severeWeatherDataset.getValue("phoenix-az", "severe_weather_frequency", { year: 2026 });
+    expect(partial).not.toBeNull();
+    expect(partial!.detail).toContain("not a complete year");
+  });
+
+  it("does not append the partial-year note to a real, fully-completed year", () => {
+    const complete = severeWeatherDataset.getValue("phoenix-az", "severe_weather_frequency", { year: 2025 });
+    expect(complete).not.toBeNull();
+    expect(complete!.detail).not.toContain("not a complete year");
+  });
 });

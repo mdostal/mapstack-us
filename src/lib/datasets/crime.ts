@@ -1,4 +1,5 @@
 import crimeData from "@data/crime.json";
+import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
@@ -72,7 +73,12 @@ function getCrimeValue(cityId: string, layerId: string, context?: DatasetTimeCon
 
   return {
     value: layer.concern,
-    detail: `${layer.rate_per_100k}/100k residents in ${year} (${layer.concern}th percentile among that year's covered cities)`,
+    // Real bug found live by this project's own QA sweep, fixed: this
+    // detail string previously always hardcoded "th" (e.g. "82.1th
+    // percentile" for any value not ending in a bare 4-9), and omitted an
+    // inline source attribution unlike hate-crime.ts's sibling FBI-sourced
+    // detail string.
+    detail: `${layer.rate_per_100k}/100k residents in ${year} (${toOrdinal(layer.concern)} percentile among that year's covered cities) -- FBI Crime Data Explorer`,
   };
 }
 

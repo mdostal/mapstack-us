@@ -68,8 +68,11 @@ single-vintage build's per-year-specific-service approach entirely.
   dataset reports whichever single tract each city's given lat/lon coordinate falls in.
 - **SVI suppresses unreliable small-population tracts** — preserved here as an honest
   `null`, never coerced to a fabricated 0. A small number of spine cities hit this in any
-  given real release (e.g. 2020's real coverage is 505/512, a real, disclosed dip visible in
-  `data/svi.json`'s own per-year data, not a bug).
+  given real release (e.g. 2020: 505/512 cities have a real tract entry for that year at
+  all — 7 real gaps — but 3 more of those 505 have an entry present with `overall` itself
+  suppressed to `null`, so real non-null `overall` coverage for 2020 specifically is
+  502/512; a real doc/data distinction found live by this project's own QA sweep, not a
+  bug — both numbers are real and visible in `data/svi.json`'s own per-year data).
 - **Conceptual overlap with other candidate datasets** — SVI is built partly from the same
   underlying ACS variables income/broadband/housing datasets would use, since it draws on
   overlapping Census inputs. Shipped anyway because the COMPOSITE framing (aggregate

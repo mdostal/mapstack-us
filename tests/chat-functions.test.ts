@@ -64,6 +64,35 @@ describe("chat functions (read-only tool backends for the BYOK chat feature)", (
       const result = getLayerValue("not-a-real-city", "crime", "violent_crime");
       expect(result.found).toBe(false);
     });
+
+    it("regression: resolvedYear reflects the real year actually used, even when the caller omits year", () => {
+      // A real gap found live by this project's own QA sweep: the old
+      // `year` field only ever echoed the caller's own input (staying
+      // null whenever year was omitted), even though the dataset
+      // internally resolved a real specific year.
+      const withoutYear = getLayerValue("new-york-ny", "crime", "violent_crime");
+      expect(withoutYear.year).toBeNull();
+      expect(withoutYear.resolvedYear).toBe(2025);
+    });
+
+    it("resolvedYear equals the explicit year when one is given", () => {
+      const result = getLayerValue("new-york-ny", "crime", "violent_crime", 2023);
+      expect(result.found).toBe(true);
+      expect(result.year).toBe(2023);
+      expect(result.resolvedYear).toBe(2023);
+    });
+
+    it("resolvedYear is null for a dataset with no time dimension", () => {
+      const result = getLayerValue("new-york-ny", "allergy", "grass");
+      expect(result.found).toBe(true);
+      expect(result.resolvedYear).toBeNull();
+    });
+
+    it("resolvedYear is null when the lookup found no real data at all", () => {
+      const result = getLayerValue("san-francisco-ca", "crime", "violent_crime", 2024);
+      expect(result.found).toBe(false);
+      expect(result.resolvedYear).toBeNull();
+    });
   });
 
   describe("rankCities", () => {

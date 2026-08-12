@@ -99,7 +99,18 @@ export function CitySearch({ onSelectCity }: Props) {
           {error ? (
             <p className="text-xs text-red-600 dark:text-red-400">Search is unavailable right now.</p>
           ) : (
-            <ul id="city-search-results" role="listbox" className="flex max-h-40 flex-col gap-0.5 overflow-y-auto">
+            <ul
+              id="city-search-results"
+              role="listbox"
+              // A second, real focus-order gap found live during the same
+              // QA-fix pass: this scrollable region (overflow-y-auto, once
+              // results overflow max-h-40) is implicitly keyboard-
+              // focusable in Chromium even with no explicit tabIndex --
+              // opted out here since the text input above already owns
+              // ALL real keyboard navigation for this listbox.
+              tabIndex={-1}
+              className="flex max-h-40 flex-col gap-0.5 overflow-y-auto"
+            >
               {matches.length === 0 ? (
                 <li className="text-xs text-zinc-500 dark:text-zinc-400">No matches.</li>
               ) : (
@@ -107,6 +118,15 @@ export function CitySearch({ onSelectCity }: Props) {
                   <li key={m.id} id={`city-search-result-${m.id}`} role="option" aria-selected={i === activeIndex}>
                     <button
                       type="button"
+                      // A real option in a combobox listbox is a leaf node,
+                      // not an independent Tab stop -- a gap found live by
+                      // this project's own QA sweep: keyboard navigation
+                      // through these results already works entirely via
+                      // the text input's own ArrowUp/ArrowDown/Enter
+                      // handling above, so this nested button previously
+                      // added an extra, non-canonical Tab stop per visible
+                      // result. Still fully mouse-clickable.
+                      tabIndex={-1}
                       onClick={() => onSelectCity(m.id)}
                       onMouseEnter={() => setActiveIndex(i)}
                       className={`w-full rounded px-1.5 py-1 text-left text-xs text-zinc-700 dark:text-zinc-300 ${
