@@ -5,11 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Mapstack — one US map engine, any dataset as a layer</title>
 <meta name="description" content="An open-source, dataset-agnostic US map engine. 41 real, free, keyless datasets across the full 512-city US spine -- stack any of them as layers, add your own with one small interface."/>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='15' y='55' width='70' height='14' rx='4' fill='%232DD4BF' opacity='0.5'/%3E%3Crect x='15' y='38' width='70' height='14' rx='4' fill='%2338BDF8' opacity='0.7'/%3E%3Crect x='15' y='21' width='70' height='14' rx='4' fill='%236366F1'/%3E%3C/svg%3E"/>
+<link rel="icon" href="assets/favicon.ico" sizes="any"/>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png"/>
+<link rel="canonical" href="https://mdostal.github.io/mapstack-us/"/>
 <meta property="og:title" content="Mapstack — one US map engine, any dataset as a layer"/>
 <meta property="og:description" content="41 real, free, keyless datasets across the full 512-city US spine. Pick a dataset, pick a layer, click a city."/>
+<meta property="og:url" content="https://mdostal.github.io/mapstack-us/"/>
 <meta property="og:image" content="https://mdostal.github.io/mapstack-us/assets/screenshot-hero.jpg"/>
+<meta property="og:image:width" content="1400"/>
+<meta property="og:image:height" content="900"/>
+<meta property="og:image:alt" content="Mapstack showing two stacked real-data layers on a US map, with legends, a year control, and a sourced city detail panel."/>
 <meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Mapstack"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Mapstack — one US map engine, any dataset as a layer"/>
+<meta name="twitter:description" content="41 real, free, keyless datasets across the full 512-city US spine. Pick a dataset, pick a layer, click a city."/>
+<meta name="twitter:image" content="https://mdostal.github.io/mapstack-us/assets/screenshot-hero.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
@@ -122,13 +134,19 @@ pre .com{color:var(--txt-faint)}
 .pill-live{background:rgba(45,212,191,.15);color:var(--layer3);border:1px solid rgba(45,212,191,.3)}
 .pill-next{background:rgba(99,102,241,.15);color:var(--layer1);border:1px solid rgba(99,102,241,.3)}
 
-/* dataset pill cloud */
-.pill-cloud{display:flex;flex-wrap:wrap;gap:9px;margin-top:28px}
-.pill-cloud .ds{
-  font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--txt-2);
-  background:var(--glass);border:1px solid var(--glass-border);border-radius:8px;padding:7px 12px;
+/* full source list -- every dataset, every real source, named */
+.source-list{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:28px;
+  border-top:1px solid var(--glass-border);padding-top:28px;
 }
-.pill-cloud-label{font-size:.85rem;color:var(--txt-faint);margin-top:20px}
+@media (max-width:760px){.source-list{grid-template-columns:1fr}}
+.source-row{
+  display:flex;justify-content:space-between;align-items:baseline;gap:14px;
+  padding:11px 14px;background:var(--glass);border:1px solid var(--glass-border);border-radius:8px;
+}
+.source-row .ds-label{font-size:.85rem;color:var(--txt);font-weight:600;white-space:nowrap}
+.source-row .ds-src{font-size:.78rem;text-align:right}
+.source-note{font-size:.85rem;color:var(--txt-faint);margin-top:20px}
 
 /* ============ lineage ============ */
 .lineage{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;margin:32px 0}
@@ -264,41 +282,52 @@ footer a{color:var(--txt-2)}
         <p>REAL, measured elevated-grass-pollen-day counts from a real county health station — not modeled. Intentionally sparse (7/512 cities) rather than a fabricated national estimate.</p>
       </div>
     </div>
-    <div class="pill-cloud">
-      <span class="ds">Air quality</span>
-      <span class="ds">Average wage</span>
-      <span class="ds">Gigabit availability</span>
-      <span class="ds">Business density</span>
-      <span class="ds">Cost of living</span>
-      <span class="ds">Housing market speed</span>
-      <span class="ds">Drought severity</span>
-      <span class="ds">Seismic risk</span>
-      <span class="ds">Electricity cost</span>
-      <span class="ds">Environmental violations</span>
-      <span class="ds">Food access</span>
-      <span class="ds">Hate crime rate</span>
-      <span class="ds">Natural hazard risk</span>
-      <span class="ds">Health outcomes</span>
-      <span class="ds">Extreme heat</span>
-      <span class="ds">Housing affordability</span>
-      <span class="ds">Housing supply</span>
-      <span class="ds">State income tax</span>
-      <span class="ds">Median household income</span>
-      <span class="ds">Library access</span>
-      <span class="ds">Park access</span>
-      <span class="ds">Population change</span>
-      <span class="ds">Property tax</span>
-      <span class="ds">Sales tax</span>
-      <span class="ds">School spending</span>
-      <span class="ds">Social vulnerability</span>
-      <span class="ds">Traffic safety</span>
-      <span class="ds">Transit access</span>
-      <span class="ds">Industrial facility density</span>
-      <span class="ds">Unemployment</span>
-      <span class="ds">Walkability</span>
-      <span class="ds">Winter cold burden</span>
+    <h3 style="font-size:1.05rem;color:var(--txt);margin-bottom:6px">Every dataset, every real source — named</h3>
+    <p style="font-size:.88rem;margin-bottom:0">In the spirit of the "never fabricate, always disclose" rule this whole project runs on: all 41, with exactly where their numbers come from.</p>
+    <div class="source-list">
+      <div class="source-row"><span class="ds-label">Allergy severity</span><span class="ds-src">Ported from Allergy Locator's validated grass model + Köppen-zone climate modeling</span></div>
+      <div class="source-row"><span class="ds-label">Crime</span><span class="ds-src"><a href="https://cde.ucr.cjis.gov/" target="_blank" rel="noreferrer">FBI Crime Data Explorer</a></span></div>
+      <div class="source-row"><span class="ds-label">Care access</span><span class="ds-src">Curated hospital facility lists, ported from Allergy Locator</span></div>
+      <div class="source-row"><span class="ds-label">Natural hazard risk</span><span class="ds-src"><a href="https://hazards.fema.gov/nri/data-resources" target="_blank" rel="noreferrer">FEMA National Risk Index</a></span></div>
+      <div class="source-row"><span class="ds-label">Social vulnerability</span><span class="ds-src"><a href="https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html" target="_blank" rel="noreferrer">CDC/ATSDR SVI</a></span></div>
+      <div class="source-row"><span class="ds-label">Health outcomes</span><span class="ds-src"><a href="https://www.cdc.gov/places/" target="_blank" rel="noreferrer">CDC PLACES</a></span></div>
+      <div class="source-row"><span class="ds-label">Food access</span><span class="ds-src"><a href="https://www.ers.usda.gov/data-products/food-access-research-atlas" target="_blank" rel="noreferrer">USDA ERS Food Access Research Atlas</a></span></div>
+      <div class="source-row"><span class="ds-label">Housing supply</span><span class="ds-src"><a href="https://www.zillow.com/research/data/" target="_blank" rel="noreferrer">Zillow Research Data</a></span></div>
+      <div class="source-row"><span class="ds-label">Housing market speed</span><span class="ds-src"><a href="https://www.zillow.com/research/data/" target="_blank" rel="noreferrer">Zillow Research Data</a></span></div>
+      <div class="source-row"><span class="ds-label">Traffic safety</span><span class="ds-src"><a href="https://www.countyhealthrankings.org/" target="_blank" rel="noreferrer">County Health Rankings &amp; Roadmaps</a></span></div>
+      <div class="source-row"><span class="ds-label">Transit access</span><span class="ds-src"><a href="https://www.transit.dot.gov/ntd" target="_blank" rel="noreferrer">FTA National Transit Database</a></span></div>
+      <div class="source-row"><span class="ds-label">Walkability</span><span class="ds-src"><a href="https://www.epa.gov/smartgrowth/smart-location-mapping" target="_blank" rel="noreferrer">EPA National Walkability Index</a></span></div>
+      <div class="source-row"><span class="ds-label">Park access</span><span class="ds-src"><a href="https://parkserve.tpl.org" target="_blank" rel="noreferrer">Trust for Public Land ParkServe</a></span></div>
+      <div class="source-row"><span class="ds-label">Electoral competitiveness</span><span class="ds-src"><a href="https://electionlab.mit.edu/" target="_blank" rel="noreferrer">MIT Election Data + Science Lab</a></span></div>
+      <div class="source-row"><span class="ds-label">Broadband access</span><span class="ds-src"><a href="https://www.countyhealthrankings.org/" target="_blank" rel="noreferrer">County Health Rankings</a> (Census ACS republication)</span></div>
+      <div class="source-row"><span class="ds-label">Median household income</span><span class="ds-src"><a href="https://www.countyhealthrankings.org/" target="_blank" rel="noreferrer">County Health Rankings</a> (Census ACS republication)</span></div>
+      <div class="source-row"><span class="ds-label">Housing affordability</span><span class="ds-src"><a href="https://www.countyhealthrankings.org/" target="_blank" rel="noreferrer">County Health Rankings</a> (Census ACS republication)</span></div>
+      <div class="source-row"><span class="ds-label">Extreme heat</span><span class="ds-src"><a href="https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals" target="_blank" rel="noreferrer">NOAA NCEI Climate Normals</a></span></div>
+      <div class="source-row"><span class="ds-label">Winter cold burden</span><span class="ds-src"><a href="https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals" target="_blank" rel="noreferrer">NOAA NCEI Climate Normals</a></span></div>
+      <div class="source-row"><span class="ds-label">Sales tax</span><span class="ds-src"><a href="https://taxfoundation.org/" target="_blank" rel="noreferrer">Tax Foundation</a></span></div>
+      <div class="source-row"><span class="ds-label">State income tax</span><span class="ds-src"><a href="https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/" target="_blank" rel="noreferrer">Tax Foundation</a></span></div>
+      <div class="source-row"><span class="ds-label">Property tax</span><span class="ds-src"><a href="https://www.census.gov/programs-surveys/acs/data/data-via-api.html" target="_blank" rel="noreferrer">Census ACS 5-year estimates</a></span></div>
+      <div class="source-row"><span class="ds-label">Population change</span><span class="ds-src">Census PEP + <a href="https://www.census.gov/programs-surveys/acs/data/data-via-api.html" target="_blank" rel="noreferrer">ACS</a>, stitched across 3 real vintages</span></div>
+      <div class="source-row"><span class="ds-label">Measured grass pollen</span><span class="ds-src">Vermont Dept. of Health EPHT Pollen (ArcGIS FeatureServer)</span></div>
+      <div class="source-row"><span class="ds-label">Historic site access</span><span class="ds-src"><a href="https://www.nps.gov/subjects/nationalregister/index.htm" target="_blank" rel="noreferrer">NPS National Register of Historic Places</a></span></div>
+      <div class="source-row"><span class="ds-label">Superfund site density</span><span class="ds-src"><a href="https://www.epa.gov/enviro/envirofacts-data-service-api" target="_blank" rel="noreferrer">EPA Envirofacts (SEMS)</a></span></div>
+      <div class="source-row"><span class="ds-label">Environmental violations</span><span class="ds-src"><a href="https://echo.epa.gov/" target="_blank" rel="noreferrer">EPA ECHO</a></span></div>
+      <div class="source-row"><span class="ds-label">Industrial facility density</span><span class="ds-src"><a href="https://www.epa.gov/toxics-release-inventory-tri-program" target="_blank" rel="noreferrer">EPA Toxics Release Inventory</a></span></div>
+      <div class="source-row"><span class="ds-label">Air quality</span><span class="ds-src"><a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html" target="_blank" rel="noreferrer">EPA Air Quality System</a></span></div>
+      <div class="source-row"><span class="ds-label">Severe weather frequency</span><span class="ds-src"><a href="https://www.ncdc.noaa.gov/stormevents/" target="_blank" rel="noreferrer">NOAA Storm Events Database</a></span></div>
+      <div class="source-row"><span class="ds-label">Drought severity</span><span class="ds-src"><a href="https://droughtmonitor.unl.edu/" target="_blank" rel="noreferrer">US Drought Monitor</a> (NOAA/USDA/UNL)</span></div>
+      <div class="source-row"><span class="ds-label">Seismic risk</span><span class="ds-src"><a href="https://earthquake.usgs.gov/ws/designmaps/" target="_blank" rel="noreferrer">USGS ASCE 7-22 Web Service</a></span></div>
+      <div class="source-row"><span class="ds-label">Hate crime rate</span><span class="ds-src"><a href="https://cde.ucr.cjis.gov/" target="_blank" rel="noreferrer">FBI Crime Data Explorer</a></span></div>
+      <div class="source-row"><span class="ds-label">Unemployment</span><span class="ds-src"><a href="https://www.bls.gov/lau/" target="_blank" rel="noreferrer">BLS Local Area Unemployment Statistics</a></span></div>
+      <div class="source-row"><span class="ds-label">Average wage</span><span class="ds-src"><a href="https://www.census.gov/programs-surveys/cbp.html" target="_blank" rel="noreferrer">Census Business Patterns</a></span></div>
+      <div class="source-row"><span class="ds-label">Business density</span><span class="ds-src"><a href="https://www.census.gov/programs-surveys/cbp.html" target="_blank" rel="noreferrer">Census Business Patterns</a></span></div>
+      <div class="source-row"><span class="ds-label">Cost of living</span><span class="ds-src"><a href="https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area" target="_blank" rel="noreferrer">BEA Regional Price Parities</a></span></div>
+      <div class="source-row"><span class="ds-label">School spending</span><span class="ds-src"><a href="https://educationdata.urban.org/documentation/" target="_blank" rel="noreferrer">Urban Institute Education Data Portal</a> (NCES CCD)</span></div>
+      <div class="source-row"><span class="ds-label">Library access</span><span class="ds-src"><a href="https://www.imls.gov/research-evaluation/surveys/public-libraries-survey-pls" target="_blank" rel="noreferrer">IMLS Public Libraries Survey</a></span></div>
+      <div class="source-row"><span class="ds-label">Gigabit availability</span><span class="ds-src"><a href="https://broadbandmap.fcc.gov/" target="_blank" rel="noreferrer">FCC National Broadband Map</a></span></div>
+      <div class="source-row"><span class="ds-label">Electricity cost</span><span class="ds-src"><a href="https://www.eia.gov/opendata/" target="_blank" rel="noreferrer">EIA (Energy Information Administration) API</a></span></div>
     </div>
-    <p class="pill-cloud-label">...plus 32 more, each with its own real source and methodology doc.</p>
+    <p class="source-note">Every row above links to the real, live, public source it was fetched from — no scraping behind a login, no purchased panel data. Full sourcing detail, real coverage numbers, and known gaps for each one live in this repo's own <code class="mono">data/*-methodology.md</code> files.</p>
   </div>
 </section>
 
@@ -337,8 +366,8 @@ footer a{color:var(--txt-2)}
       <div class="item"><span class="n done">✓</span><span class="t">Chat with the data</span><span>— bring-your-own-key across Anthropic, OpenAI, and Google, plus an MCP server exposing the same tools locally</span></div>
       <div class="item"><span class="n done">✓</span><span class="t">Per-dataset year control</span><span>— live wherever a dataset reports real availableYears</span></div>
       <div class="item"><span class="n done">✓</span><span class="t">Manage datasets</span><span>— hide layers you don't care about from the picker, without touching layers already on the map</span></div>
-      <div class="item"><span class="n">01</span><span class="t">Full Census-cluster resolution</span><span>— population and property tax at ~19,500-place resolution; broadband/income/housing-cost-burden already shipped via a free republication route, population/tax still blocked on a free Census API key</span></div>
-      <div class="item"><span class="n">02</span><span class="t">More free, keyless datasets</span><span>— a ranked backlog of further real candidates by real-world feasibility</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Full Census-cluster resolution</span><span>— population, broadband, income, housing-cost-burden, and property tax all now real and live, the last (population/property tax) unblocked by a free Census API key</span></div>
+      <div class="item"><span class="n">01</span><span class="t">More free, keyless datasets</span><span>— a ranked backlog of further real candidates by real-world feasibility</span></div>
     </div>
   </div>
 </section>
