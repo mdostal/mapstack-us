@@ -4,10 +4,11 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Mapstack — one US map engine, any dataset as a layer</title>
-<meta name="description" content="An open-source, dataset-agnostic US map engine. Pick a dataset, pick a layer, click a city -- and add your own data with one small interface."/>
+<meta name="description" content="An open-source, dataset-agnostic US map engine. 41 real, free, keyless datasets across the full 512-city US spine -- stack any of them as layers, add your own with one small interface."/>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='15' y='55' width='70' height='14' rx='4' fill='%232DD4BF' opacity='0.5'/%3E%3Crect x='15' y='38' width='70' height='14' rx='4' fill='%2338BDF8' opacity='0.7'/%3E%3Crect x='15' y='21' width='70' height='14' rx='4' fill='%236366F1'/%3E%3C/svg%3E"/>
 <meta property="og:title" content="Mapstack — one US map engine, any dataset as a layer"/>
-<meta property="og:description" content="Pick a dataset, pick a layer, click a city. Add your own data with one small interface."/>
+<meta property="og:description" content="41 real, free, keyless datasets across the full 512-city US spine. Pick a dataset, pick a layer, click a city."/>
+<meta property="og:image" content="https://mdostal.github.io/mapstack-us/assets/screenshot-hero.jpg"/>
 <meta property="og:type" content="website"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -50,14 +51,26 @@ a:hover{text-decoration:underline}
 }
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
 section{position:relative;padding:88px 0}
-section:first-of-type{padding-top:96px}
+section:first-of-type{padding-top:56px}
 .gradient-rule{height:2px;background:linear-gradient(90deg, var(--layer1), var(--layer2), var(--layer3));border-radius:2px;opacity:.6}
 
+/* ============ nav ============ */
+.nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:rgba(7,11,20,0.72);border-bottom:1px solid var(--glass-border)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
+.nav .brand{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--txt);font-size:1rem;display:flex;align-items:center;gap:9px}
+.nav .brand .dot{width:9px;height:9px;border-radius:3px;background:linear-gradient(135deg, var(--layer2), var(--layer1))}
+.nav .links{display:flex;align-items:center;gap:26px}
+.nav .links a.navlink{color:var(--txt-2);font-size:.88rem;font-weight:500}
+.nav .links a.navlink:hover{color:var(--txt);text-decoration:none}
+.nav .btn{padding:9px 18px;font-size:.85rem}
+@media (max-width:640px){.nav .links a.navlink{display:none}}
+
 /* ============ hero ============ */
-.hero{padding-top:120px;text-align:center}
+.hero{padding-top:80px;text-align:center}
 .hero h1{font-size:clamp(2.2rem,5.5vw,3.6rem);max-width:820px;margin:0 auto 20px}
 .hero .sub{font-size:1.15rem;max-width:640px;margin:0 auto 32px;color:var(--txt-2)}
-.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:64px}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:56px}
 .btn{
   font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:.95rem;
   padding:13px 26px;border-radius:10px;transition:transform .15s var(--ease);
@@ -67,16 +80,21 @@ section:first-of-type{padding-top:96px}
 .btn-primary{background:linear-gradient(135deg, var(--layer2), var(--layer1));color:#050810;box-shadow:0 8px 24px -8px rgba(56,189,248,.5)}
 .btn-secondary{background:var(--glass);border:1px solid var(--glass-border);color:var(--txt)}
 
-/* stacked-layers hero visual */
-.stack{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
-.stack .layer{
-  height:20px;border-radius:8px;display:flex;align-items:center;padding:0 14px;
-  font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(255,255,255,.85);
+/* screenshot frame */
+.screenshot-frame{
+  max-width:900px;margin:0 auto;border-radius:16px;overflow:hidden;
+  background:var(--deck);border:1px solid var(--glass-border);
+  box-shadow:0 30px 80px -30px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.02);
+  text-align:left;
 }
-.stack .layer:nth-child(1){background:linear-gradient(90deg, var(--layer1), rgba(99,102,241,.3));width:100%}
-.stack .layer:nth-child(2){background:linear-gradient(90deg, var(--layer2), rgba(56,189,248,.3));width:88%}
-.stack .layer:nth-child(3){background:linear-gradient(90deg, var(--layer3), rgba(45,212,191,.3));width:76%}
-.stack .layer:nth-child(4){background:linear-gradient(90deg, var(--layer1), rgba(99,102,241,.2));width:64%;color:var(--txt-2)}
+.screenshot-frame .chrome{display:flex;align-items:center;gap:6px;padding:11px 16px;border-bottom:1px solid var(--glass-border)}
+.screenshot-frame .chrome span{width:9px;height:9px;border-radius:50%;background:var(--txt-faint);opacity:.6}
+.screenshot-frame .chrome .url{
+  margin-left:10px;font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--txt-faint);
+  background:rgba(255,255,255,.04);border-radius:6px;padding:3px 10px;
+}
+.screenshot-frame img{display:block;width:100%;height:auto}
+.hero-caption{max-width:640px;margin:18px auto 0;font-size:.85rem;color:var(--txt-faint)}
 
 /* ============ cards ============ */
 .grid{display:grid;gap:20px}
@@ -104,6 +122,14 @@ pre .com{color:var(--txt-faint)}
 .pill-live{background:rgba(45,212,191,.15);color:var(--layer3);border:1px solid rgba(45,212,191,.3)}
 .pill-next{background:rgba(99,102,241,.15);color:var(--layer1);border:1px solid rgba(99,102,241,.3)}
 
+/* dataset pill cloud */
+.pill-cloud{display:flex;flex-wrap:wrap;gap:9px;margin-top:28px}
+.pill-cloud .ds{
+  font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--txt-2);
+  background:var(--glass);border:1px solid var(--glass-border);border-radius:8px;padding:7px 12px;
+}
+.pill-cloud-label{font-size:.85rem;color:var(--txt-faint);margin-top:20px}
+
 /* ============ lineage ============ */
 .lineage{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;margin:32px 0}
 .lineage .node{background:var(--glass);border:1px solid var(--glass-border);border-radius:12px;padding:18px 22px;text-align:center;min-width:180px}
@@ -115,6 +141,7 @@ pre .com{color:var(--txt-faint)}
 .roadmap{display:flex;flex-direction:column;gap:14px}
 .roadmap .item{display:flex;align-items:baseline;gap:14px;padding:14px 18px;background:var(--glass);border:1px solid var(--glass-border);border-radius:10px}
 .roadmap .item .n{font-family:'JetBrains Mono',monospace;color:var(--txt-faint);font-size:.85rem;min-width:20px}
+.roadmap .item .n.done{color:var(--layer3)}
 .roadmap .item .t{color:var(--txt);font-weight:600;font-family:'Space Grotesk',sans-serif}
 
 footer{padding:56px 0 80px;text-align:center;color:var(--txt-faint);font-size:.85rem}
@@ -123,21 +150,33 @@ footer a{color:var(--txt-2)}
 </head>
 <body>
 
+<nav class="nav">
+  <div class="wrap">
+    <span class="brand"><span class="dot"></span>Mapstack</span>
+    <div class="links">
+      <a class="navlink" href="#datasets">Datasets</a>
+      <a class="navlink" href="#beyond">Beyond the map</a>
+      <a class="navlink" href="#roadmap">Roadmap</a>
+      <a class="navlink" href="https://github.com/mdostal/mapstack-us" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="btn btn-primary" href="https://tools.mdostal.com/mapstack" target="_blank" rel="noreferrer">Open the map →</a>
+    </div>
+  </div>
+</nav>
+
 <section class="hero">
   <div class="wrap">
     <span class="eyebrow">Open source · MIT · $0 to run</span>
     <h1>One US map engine. Any dataset, as a layer.</h1>
-    <p class="sub">Add any dataset as a layer, stack as many as you want, click a city — the same rendering pipeline drives every one of them, because every dataset speaks one small, shared interface. No dataset-specific map code, ever.</p>
+    <p class="sub">41 real, free, keyless datasets across the full 512-city US spine. Add any of them as a layer, stack as many as you want, click a city — the same rendering pipeline drives every one of them, because every dataset speaks one small, shared interface. No dataset-specific map code, ever.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://tools.mdostal.com/mapstack" target="_blank" rel="noreferrer">Open the map →</a>
       <a class="btn btn-secondary" href="https://github.com/mdostal/mapstack-us" target="_blank" rel="noreferrer">View source on GitHub</a>
     </div>
-    <div class="stack">
-      <div class="layer">allergy severity — validated + modeled</div>
-      <div class="layer">crime — real 2020–2025 history, FBI Crime Data Explorer</div>
-      <div class="layer">care access — nearest hospital by drive time</div>
-      <div class="layer">+ 19 more, all free &amp; keyless</div>
+    <div class="screenshot-frame">
+      <div class="chrome"><span></span><span></span><span></span><span class="url">tools.mdostal.com/mapstack</span></div>
+      <img src="assets/screenshot-hero.jpg" alt="Mapstack showing Austin, TX with two stacked layers active -- allergy severity and violent crime -- each with its own legend, year control, and a city detail panel citing its real source." width="1400" height="900"/>
     </div>
+    <p class="hero-caption">Two real datasets stacked on one map -- allergy severity and FBI violent-crime rates -- each with its own legend, year control, and a sourced detail line. Live at the link above.</p>
   </div>
 </section>
 
@@ -161,7 +200,7 @@ footer a{color:var(--txt-2)}
   </div>
 </section>
 
-<section>
+<section id="interface">
   <div class="wrap">
     <span class="eyebrow">The interface</span>
     <h2>Add a dataset by implementing one small contract</h2>
@@ -178,15 +217,15 @@ footer a{color:var(--txt-2)}
     detail: <span class="kw">string</span>;  <span class="com">// "72/100, high" or "Bellevue Hospital, 4 min"</span>
   } | <span class="kw">null</span>;         <span class="com">// null = a real gap, never a fabricated value</span>
 }</pre>
-    <p>That's it. Implement <code class="mono">getValue</code>, register the dataset once, and the exact same <code class="mono">MultiLayerMap</code>/<code class="mono">AddLayerPanel</code> components render it — continuous gradient, click-to-select detail panel, legend, a year control if it has real history, all of it — with zero new rendering code. Any number of layers from any number of datasets can be active on the map at once, each stacked as its own gradient (allergy-locator's proven stacked-opacity pattern, generalized across datasets instead of just allergens).</p>
+    <p>That's it. Implement <code class="mono">getValue</code>, register the dataset once, and the exact same <code class="mono">MultiLayerMap</code>/<code class="mono">AddLayerPanel</code> components render it — continuous gradient, click-to-select detail panel, legend, a year control if it has real history, all of it — with zero new rendering code. Any number of layers from any number of datasets can be active on the map at once, each stacked as its own gradient (Allergy Locator's proven stacked-opacity pattern, generalized across datasets instead of just allergens).</p>
   </div>
 </section>
 
-<section>
+<section id="datasets">
   <div class="wrap">
     <span class="eyebrow">What's real today</span>
-    <h2>Proven with twenty-two genuinely different real implementations</h2>
-    <p style="margin-bottom:24px">All free, all keyless, across the full 512-city spine — every one of them ships its own methodology doc naming its real sourcing and honest gaps.</p>
+    <h2>Forty-one genuinely different real implementations</h2>
+    <p style="margin-bottom:24px">All free, all keyless, across the full 512-city spine — every one of them ships its own methodology doc naming its real sourcing and honest gaps. A few that show the sourcing rigor best:</p>
     <div class="grid grid-3">
       <div class="card">
         <h3>Allergy severity <span class="pill pill-live">live</span></h3>
@@ -197,97 +236,109 @@ footer a{color:var(--txt-2)}
         <p>Real violent- and property-crime rates from the FBI Crime Data Explorer, with genuine 2020–2025 year-by-year history.</p>
       </div>
       <div class="card">
-        <h3>Care access <span class="pill pill-live">live</span></h3>
-        <p>Nearest hospital by drive time — general, pediatric specialty, and pediatric cardiac surgery.</p>
-      </div>
-      <div class="card">
-        <h3>Natural hazard risk <span class="pill pill-live">live</span></h3>
-        <p>FEMA National Risk Index — overall plus inland flood, coastal flood, and wildfire sub-scores.</p>
-      </div>
-      <div class="card">
-        <h3>Social vulnerability <span class="pill pill-live">live</span></h3>
-        <p>CDC/ATSDR SVI composite plus its 4 sub-themes, at census-tract resolution.</p>
-      </div>
-      <div class="card">
-        <h3>Health outcomes <span class="pill pill-live">live</span></h3>
-        <p>CDC PLACES chronic-disease prevalence — asthma, obesity, diabetes, depression, high blood pressure.</p>
-      </div>
-      <div class="card">
-        <h3>Food access <span class="pill pill-live">live</span></h3>
-        <p>USDA Food Access Research Atlas — share of a population living far from a supermarket.</p>
-      </div>
-      <div class="card">
-        <h3>Housing supply & speed <span class="pill pill-live">live</span></h3>
-        <p>Zillow's own For-Sale Inventory and Mean Days to Pending — how tight and how fast the local market is.</p>
-      </div>
-      <div class="card">
-        <h3>Traffic safety <span class="pill pill-live">live</span></h3>
-        <p>Motor-vehicle crash death rate — County Health Rankings, sourced from real NCHS/NVSS mortality data.</p>
-      </div>
-      <div class="card">
-        <h3>Transit access <span class="pill pill-live">live</span></h3>
-        <p>FTA National Transit Database service level, joined by a real Census Urban Area ID crosswalk.</p>
-      </div>
-      <div class="card">
-        <h3>Walkability <span class="pill pill-live">live</span></h3>
-        <p>EPA National Walkability Index, queried directly from EPA's own hosted ArcGIS FeatureServer.</p>
-      </div>
-      <div class="card">
-        <h3>Park access <span class="pill pill-live">live</span></h3>
-        <p>Trust for Public Land ParkServe — percent of residents within a 10-minute walk of a park.</p>
-      </div>
-      <div class="card">
         <h3>Electoral competitiveness <span class="pill pill-live">live</span></h3>
-        <p>Real 2024 county election margins — competitiveness/one-party-dominance, deliberately not a left/right lean score.</p>
+        <p>Real 2024 county election margins (MEDSL) — competitiveness, deliberately not a left/right lean score. A real "TOTAL VOTES CAST" sentinel-row bug in WI/SC's raw data was found and fixed, not papered over.</p>
+      </div>
+      <div class="card">
+        <h3>Historic site access <span class="pill pill-live">live</span></h3>
+        <p>National Register of Historic Places, joined by a live server-side spatial radius query — one HTTP call per city, no bulk download.</p>
+      </div>
+      <div class="card">
+        <h3>Superfund site density <span class="pill pill-live">live</span></h3>
+        <p>EPA Superfund sites near each city — correctly labeled as a "Parish" in Louisiana instead of assuming "County" everywhere.</p>
+      </div>
+      <div class="card">
+        <h3>Severe weather frequency <span class="pill pill-live">live</span></h3>
+        <p>NOAA Storm Events Database. An in-progress year is disclosed as real partial-year coverage in its own detail text, never shown as a false zero.</p>
+      </div>
+      <div class="card">
+        <h3>Care access <span class="pill pill-live">live</span></h3>
+        <p>Nearest hospital by real drive time — general, pediatric specialty, and pediatric cardiac surgery.</p>
       </div>
       <div class="card">
         <h3>Broadband access <span class="pill pill-live">live</span></h3>
         <p>Real Census ACS broadband-subscription rates, via County Health Rankings' free republication — full 512-city coverage.</p>
       </div>
       <div class="card">
-        <h3>Median household income <span class="pill pill-live">live</span></h3>
-        <p>Real Census ACS income figures, the same free republication route as broadband.</p>
-      </div>
-      <div class="card">
-        <h3>Housing affordability <span class="pill pill-live">live</span></h3>
-        <p>Real Census ACS severe housing-cost-burden rates — a different housing angle from the two Zillow-sourced layers above.</p>
-      </div>
-      <div class="card">
-        <h3>Extreme heat <span class="pill pill-live">live</span></h3>
-        <p>Average days per year above 90°F — real NOAA 1991–2020 Climate Normals, nearest-station matched, no API key at all.</p>
-      </div>
-      <div class="card">
-        <h3>Sales tax <span class="pill pill-live">live</span></h3>
-        <p>Real combined state + local sales tax rate — Tax Foundation city-level data where published, a real state average otherwise.</p>
-      </div>
-      <div class="card">
-        <h3>State income tax <span class="pill pill-live">live</span></h3>
-        <p>Real state income tax rate applied at each city's own real median household income, not an overstated top bracket.</p>
-      </div>
-      <div class="card">
         <h3>Measured grass pollen <span class="pill pill-live">live</span></h3>
-        <p>REAL, measured elevated-grass-pollen-day counts from a real county health station — not modeled, and never blended into the allergy severity score. Intentionally sparse (7/512 cities) rather than a fabricated national estimate.</p>
+        <p>REAL, measured elevated-grass-pollen-day counts from a real county health station — not modeled. Intentionally sparse (7/512 cities) rather than a fabricated national estimate.</p>
+      </div>
+    </div>
+    <div class="pill-cloud">
+      <span class="ds">Air quality</span>
+      <span class="ds">Average wage</span>
+      <span class="ds">Gigabit availability</span>
+      <span class="ds">Business density</span>
+      <span class="ds">Cost of living</span>
+      <span class="ds">Housing market speed</span>
+      <span class="ds">Drought severity</span>
+      <span class="ds">Seismic risk</span>
+      <span class="ds">Electricity cost</span>
+      <span class="ds">Environmental violations</span>
+      <span class="ds">Food access</span>
+      <span class="ds">Hate crime rate</span>
+      <span class="ds">Natural hazard risk</span>
+      <span class="ds">Health outcomes</span>
+      <span class="ds">Extreme heat</span>
+      <span class="ds">Housing affordability</span>
+      <span class="ds">Housing supply</span>
+      <span class="ds">State income tax</span>
+      <span class="ds">Median household income</span>
+      <span class="ds">Library access</span>
+      <span class="ds">Park access</span>
+      <span class="ds">Population change</span>
+      <span class="ds">Property tax</span>
+      <span class="ds">Sales tax</span>
+      <span class="ds">School spending</span>
+      <span class="ds">Social vulnerability</span>
+      <span class="ds">Traffic safety</span>
+      <span class="ds">Transit access</span>
+      <span class="ds">Industrial facility density</span>
+      <span class="ds">Unemployment</span>
+      <span class="ds">Walkability</span>
+      <span class="ds">Winter cold burden</span>
+    </div>
+    <p class="pill-cloud-label">...plus 32 more, each with its own real source and methodology doc.</p>
+  </div>
+</section>
+
+<section id="beyond">
+  <div class="wrap">
+    <span class="eyebrow">Beyond the map</span>
+    <h2>The same real data, from more angles</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Power-user comparison view</h3>
+        <p>A sortable, filterable table across every dataset and every city at <code class="mono">/advanced</code>, with CSV export, saved views, and a live custom-blend formula editor across any 2+ layers.</p>
       </div>
       <div class="card">
-        <h3>Stack any number of layers <span class="pill pill-live">live</span></h3>
-        <p>Add a layer, then another, then more — each renders as its own gradient on one shared map, with a click-to-detail panel listing every active layer's value for that city.</p>
+        <h3>Chat with the data</h3>
+        <p>Bring your own API key — Anthropic, OpenAI, or Google — and ask questions in plain language. The model calls the same read-only functions the map itself uses; it never sees or stores your key server-side.</p>
+      </div>
+      <div class="card">
+        <h3>MCP server</h3>
+        <p>The same closed, read-only tool set the in-app chat uses, exposed over stdio for Claude Desktop, Claude Code, or any MCP-compatible agent — runs entirely on your own machine, no hosting, no secrets.</p>
+      </div>
+      <div class="card">
+        <h3>Per-dataset real history</h3>
+        <p>Wherever a source actually publishes multiple years, the year control is live — not interpolated or backfilled, only years the source itself reports.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section>
+<section id="roadmap">
   <div class="wrap">
     <span class="eyebrow">What's next</span>
     <h2>Roadmap</h2>
     <div class="roadmap">
-      <div class="item"><span class="n">✓</span><span class="t">Twenty-two real datasets</span><span>— live, free, keyless, full 512-city spine</span></div>
-      <div class="item"><span class="n">✓</span><span class="t">Power-user comparison view</span><span>— sortable/filterable table, CSV export, saved views, live formula editor, a user-defined custom blend across any 2+ layers</span></div>
-      <div class="item"><span class="n">✓</span><span class="t">Per-dataset year control</span><span>— live wherever a dataset reports real availableYears</span></div>
-      <div class="item"><span class="n">✓</span><span class="t">Manage datasets</span><span>— hide layers you don't care about from the picker, without touching layers already on the map</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Forty-one real datasets</span><span>— live, free, keyless, full 512-city spine</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Power-user comparison view</span><span>— sortable/filterable table, CSV export, saved views, live formula editor, a user-defined custom blend across any 2+ layers</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Chat with the data</span><span>— bring-your-own-key across Anthropic, OpenAI, and Google, plus an MCP server exposing the same tools locally</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Per-dataset year control</span><span>— live wherever a dataset reports real availableYears</span></div>
+      <div class="item"><span class="n done">✓</span><span class="t">Manage datasets</span><span>— hide layers you don't care about from the picker, without touching layers already on the map</span></div>
       <div class="item"><span class="n">01</span><span class="t">Full Census-cluster resolution</span><span>— population and property tax at ~19,500-place resolution; broadband/income/housing-cost-burden already shipped via a free republication route, population/tax still blocked on a free Census API key</span></div>
       <div class="item"><span class="n">02</span><span class="t">More free, keyless datasets</span><span>— a ranked backlog of further real candidates by real-world feasibility</span></div>
-      <div class="item"><span class="n">03</span><span class="t">AI chat search</span><span>— describe what you want in plain language, get a ranked shortlist</span></div>
     </div>
   </div>
 </section>
