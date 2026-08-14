@@ -151,9 +151,15 @@ export function MapstackApp() {
             click a city.
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <Link href={`/advanced${queryString}`} prefetch={false} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
             Advanced
+          </Link>
+          <Link href="/sources" prefetch={false} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+            Sources
+          </Link>
+          <Link href="/about" prefetch={false} className="text-sm font-medium text-zinc-600 underline dark:text-zinc-400">
+            About
           </Link>
           <ThemeToggle />
         </div>

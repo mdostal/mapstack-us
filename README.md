@@ -34,7 +34,7 @@ built from two real, working examples instead of upfront design.
 ## What's here so far
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
-  forty-two genuinely different real implementations across the full 512-city spine,
+  forty-one genuinely different real implementations across the full 512-city spine,
   all free and every one of them keyless except crime, property tax, unemployment, air
   quality, population change, and cost of living:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
@@ -298,6 +298,14 @@ shipped app code (`pnpm test:secrets` enforces this). If you maintain this repo
 and already store these keys in GCP Secret Manager, `scripts/load-secrets-from-gcp.sh`
 refreshes `.env` from there in one idempotent pass; otherwise just populate `.env`
 by hand from each provider's own free registration page.
+
+## Support this project
+
+Mapstack is free, ad-free, and has no accounts. If it's useful to you: use it (that's
+genuinely enough), [buy me a coffee](https://buymeacoffee.com/mdostal) if a layer saved
+you real time, [hire me](https://mdostal.com/contact) for consulting or a fractional CTO
+engagement, or send a real dataset addition or bug report as a pull request — that's the
+single most useful thing you can contribute.
 
 ## License
 

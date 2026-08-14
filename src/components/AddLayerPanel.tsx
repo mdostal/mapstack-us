@@ -78,17 +78,20 @@ export function AddLayerPanel({ active, onAdd, previewLayer, onPreview, hiddenDa
           <p className="px-3 pt-3 text-[11px] font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
             Step 1 — Category
           </p>
-          {/* A fixed-height, horizontally-scrolling strip -- deliberately NOT
-           * flex-wrap. With 40+ datasets, a wrapping grid grows to dozens of
-           * rows, which pushes step 2 (the actual layer to add) far below the
-           * fold: a real reported usability bug ("the options FROM the tabs
-           * should either be next to it or separated ... it made no
-           * intuitive sense"). A fixed-height strip keeps step 2 always
-           * immediately adjacent below, no matter how many datasets exist. */}
+          {/* A bounded, wrapping "blob" of pills -- deliberately NOT a single
+           * horizontally-scrolling row (tried first; real feedback: hidden
+           * off-screen tabs with no obvious scroll affordance read as
+           * "unwieldy" and easy to miss entirely) and NOT an unbounded wrap
+           * either (the original bug: 40+ datasets grew to dozens of rows,
+           * pushing step 2 far below the fold). A max-height + vertical
+           * scroll gets the best of both: every category is visible at a
+           * glance in its natural multi-line shape, and step 2 stays within
+           * a predictable, bounded distance below no matter how many
+           * datasets exist. */}
           <div
             role="tablist"
             aria-label="Dataset category to add a layer from"
-            className="flex gap-1 overflow-x-auto px-3 py-2"
+            className="flex max-h-28 flex-wrap gap-1 overflow-y-auto px-3 py-2"
           >
             {visibleDatasets.map((d) => (
               <button
