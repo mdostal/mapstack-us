@@ -20,13 +20,10 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccordionSection } from "@/components/AccordionSection";
 import { ManageDatasetsPanel } from "@/components/ManageDatasetsPanel";
 import { isSameLayer, resolveActiveLayer, activeLayerKey, type ActiveLayer } from "@/lib/active-layers";
-import { DATASETS } from "@/lib/datasets/registry";
 import { useSharedViewParams } from "@/lib/shared-view-params";
 import { getHiddenDatasetIds, setHiddenDatasetIds } from "@/lib/dataset-visibility";
 import { DEFAULT_LAYER_CONTROL, type LayerRenderControl } from "@/lib/map-layers";
 import { computeBlendValue, type BlendWeights } from "@/lib/custom-blend";
-
-const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 
 // "A few" -- past this, the comparison table gets cramped and /advanced's
 // full sortable/filterable table across all 512 cities is the right tool
@@ -36,7 +33,11 @@ const DEFAULT_LAYER: ActiveLayer = { datasetId: "allergy", layerId: "grass" };
 const MAX_COMPARISON_CITIES = 4;
 
 export function MapstackApp() {
-  const [active, setActive] = useState<ActiveLayer[]>(DATASETS.length > 0 ? [DEFAULT_LAYER] : []);
+  // No default layer -- ship blank and let the Add layer panel be the one
+  // obvious next step, rather than pre-loading a specific dataset's opinion
+  // (explicit operator direction: "leave the site for people to figure
+  // out" rather than nudging toward allergy/grass specifically).
+  const [active, setActive] = useState<ActiveLayer[]>([]);
   const [previewLayer, setPreviewLayer] = useState<ActiveLayer | null>(null);
   const [hiddenDatasetIds, setHiddenDatasetIdsState] = useState<string[]>(() => getHiddenDatasetIds());
   const [comparisonCityIds, setComparisonCityIds] = useState<string[]>([]);

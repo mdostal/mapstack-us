@@ -1,10 +1,15 @@
 import { test, expect } from "@playwright/test";
 
-test("home page loads with grass active by default and renders a continuous gradient", async ({ page }) => {
+test("home page loads with no default layer -- an explicit empty state invites adding one", async ({ page }) => {
+  // Explicit operator direction: ship blank rather than pre-loading a
+  // specific dataset's opinion (previously always "Allergy severity:
+  // Grass") -- "leave the site for people to figure out."
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Mapstack" })).toBeVisible();
-  await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
-  await expect(page.getByTestId("heatmap-canvas")).toBeVisible();
+  await expect(page.getByTestId("active-layers-row")).toHaveCount(0);
+  await expect(page.getByText("No layers on the map yet -- add one below to get started.")).toBeVisible();
+  await expect(page.getByTestId("map-frame")).toBeVisible();
+  await expect(page.getByRole("img", { name: "Map (no layers visible)" })).toBeVisible();
 });
 
 test("add layer flow: pick a dataset, add a layer, see it appear in the active list", async ({ page }) => {
@@ -26,12 +31,20 @@ test("hiding a dataset removes it from the Add layer tabs, but a layer already a
 }) => {
   await page.goto("/");
 
+  // An explicitly-added layer from a different dataset, to confirm hiding
+  // Crime doesn't touch layers already active from unrelated datasets.
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+  await page.getByRole("button", { name: "+ Add layer" }).click(); // collapse it again
+
   await page.getByRole("button", { name: "Manage datasets" }).click();
   await page.getByLabel("Crime", { exact: true }).click();
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
   await expect(page.getByRole("tab", { name: "Crime", exact: true })).not.toBeVisible();
-  // The default Grass layer (a different dataset) is unaffected.
+  // The Grass layer (a different dataset) is unaffected.
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
 
   await page.reload();
@@ -44,21 +57,25 @@ test("hiding a dataset removes it from the Add layer tabs, but a layer already a
   await expect(page.getByRole("tab", { name: "Crime", exact: true })).toBeVisible();
 });
 
-test("every dataset tab in the Add layer panel stays visible and clickable as the dataset count grows -- regression for a silently clipped tab row", async ({
+test("every dataset tab in the Add layer panel stays reachable and clickable as the dataset count grows -- regression for a silently clipped tab row", async ({
   page,
 }) => {
   // Real bug found live: the dataset tablist had no flex-wrap and no
   // horizontal scroll, so once enough datasets existed (9, after this
   // session's additions), the row overflowed its fixed-width sidebar
-  // column and later tabs (Health outcomes, Food access, Housing supply,
-  // Housing market speed) were silently clipped -- invisible and
+  // column and later tabs were silently clipped -- invisible and
   // unclickable, with no scrollbar or other affordance hinting they
-  // existed at all. Playwright's own isVisible() didn't catch this either
-  // (it doesn't check ancestor clipping), only a real screenshot did.
+  // existed at all. The tablist is now a deliberate fixed-height,
+  // horizontally-scrolling strip (see AddLayerPanel.tsx's own comment: a
+  // wrapping grid across 40+ datasets pushed the actual layer picker far
+  // below the fold, a separate real usability bug) -- a tab further right
+  // is legitimately off-screen until scrolled, but must still be reachable
+  // via scroll, not clipped with no way to reach it at all.
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
 
   const lastTab = page.getByRole("tab", { name: "Housing market speed" });
+  await lastTab.scrollIntoViewIfNeeded();
   await expect(lastTab).toBeInViewport();
   await lastTab.click();
   await expect(page.getByRole("button", { name: "Market speed", exact: true })).toBeVisible();
@@ -723,7 +740,10 @@ test("the forty-second dataset (electricity cost) is selectable and reports a re
 test("selecting a city shows a visible name callout with a pointer directly on the map, not just in the detail panel below", async ({ page }) => {
   await page.goto("/");
 
-  const map = page.getByTestId("heatmap-canvas").locator("..").locator("svg");
+  // map-frame (not heatmap-canvas) is the right anchor here -- heatmap-canvas
+  // only exists once a real layer is active, but the callout itself is a
+  // pure map-selection affordance, independent of whether any layer is on.
+  const map = page.getByTestId("map-frame").locator("svg");
   await expect(map.locator("text")).toHaveCount(0);
 
   await page.getByRole("button", { name: /^New York, NY/ }).click();
@@ -800,7 +820,7 @@ test("clicking a layer previews it live on the map without committing it, and a 
   // Real bug found live: clicking a layer used to add it immediately, with
   // no way to see it on the map first and no explicit confirming action.
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Tall fescue" })).toHaveCount(0);
-  await expect(page.getByRole("img")).toHaveAttribute("aria-label", "Map showing 2 visible layer(s)");
+  await expect(page.getByRole("img")).toHaveAttribute("aria-label", "Map showing 1 visible layer(s)");
 
   await page.getByRole("button", { name: "Add Tall fescue" }).click();
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Tall fescue" })).toBeVisible();
@@ -814,6 +834,10 @@ test("adding a layer from a dataset that already has active layers groups it wit
   // allergy layer it actually belongs next to.
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
+
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
 
   await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
@@ -835,6 +859,10 @@ test("stacking 2+ layers shows a legend and detail for each at a clicked city", 
   await page.goto("/");
 
   await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+
   await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime" }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
@@ -877,6 +905,10 @@ test("selecting a city does not reset previously added layers -- regression for 
 
 test("removing a layer takes it off the map and the active list", async ({ page }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" })).toBeVisible();
 
   await page.getByRole("button", { name: "Remove Allergy severity: Grass" }).click();
@@ -888,6 +920,12 @@ test("toggling a layer's visibility eye button hides it from the map without rem
   page,
 }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+  await page.getByRole("button", { name: "+ Add layer" }).click(); // collapse it again
+
   const grassRow = page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" });
   await expect(grassRow).toBeVisible();
   await expect(page.getByRole("img", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
@@ -954,6 +992,12 @@ test("a city with no crime data shows an honest no-data state, not a fabricated 
 test("comparing a few cities: + Compare adds a city, the comparison table shows every active layer for each, and cities can be removed individually or all at once", async ({ page }) => {
   await page.goto("/");
 
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+  await page.getByRole("button", { name: "+ Add layer" }).click(); // collapse it again
+
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   await page.getByRole("button", { name: "+ Compare" }).click();
   await expect(page.getByTestId("city-comparison-panel")).toContainText("Comparing 1 city");
@@ -971,7 +1015,7 @@ test("comparing a few cities: + Compare adds a city, the comparison table shows 
   await expect(comparisonPanel.getByTestId("city-comparison-row")).toHaveCount(1); // one active layer (Grass)
 
   // Both compared cities get their own callout on the map at the same time.
-  const map = page.getByTestId("heatmap-canvas").locator("..").locator("svg");
+  const map = page.getByTestId("map-frame").locator("svg");
   await expect(map.locator("text", { hasText: "New York, NY" })).toBeVisible();
   await expect(map.locator("text", { hasText: "Los Angeles, CA" })).toBeVisible();
 
@@ -1005,6 +1049,12 @@ test("comparison caps at 4 cities -- the 5th city's + Compare button is disabled
 
 test("ranking cities by your active layers: the 'rank all 512 cities' panel sorts correctly and matches real known extremes for grass allergy", async ({ page }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+  await page.getByRole("button", { name: "+ Add layer" }).click(); // collapse it again
+
   await page.getByRole("button", { name: "Custom blend & ranking" }).click();
 
   const rankAllList = page.getByTestId("city-ranking-list").first();
@@ -1024,6 +1074,10 @@ test("regression: the simple view marks the custom-blend overlay with an asteris
   // colored the map with no visible sign it wasn't a real, shipped layer.
   await page.goto("/");
   await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+
   await page.getByRole("tab", { name: "Crime", exact: true }).click();
   await page.getByRole("button", { name: "Violent crime", exact: true }).click();
   await page.getByRole("button", { name: "Add Violent crime" }).click();
@@ -1040,6 +1094,12 @@ test("regression: the simple view marks the custom-blend overlay with an asteris
 
 test("ranking just the compared cities is scoped to that set, not all 512", async ({ page }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+  await page.getByRole("button", { name: "+ Add layer" }).click(); // collapse it again
+
   await page.getByRole("button", { name: /^New York, NY/ }).click();
   await page.getByRole("button", { name: "+ Compare" }).click();
   await page.getByRole("button", { name: /^Los Angeles, CA/ }).click();

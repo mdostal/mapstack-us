@@ -124,7 +124,10 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
   const calloutPoints = MARKER_POINTS.filter((p) => calloutIds.has(p.city.id));
 
   return (
-    <div className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900">
+    <div
+      data-testid="map-frame"
+      className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900"
+    >
       {heatmap}
       <svg viewBox={viewBox} role="img" aria-label={ariaLabel} className="relative h-full w-full">
         <g

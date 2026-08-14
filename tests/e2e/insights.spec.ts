@@ -66,6 +66,11 @@ test("the insights dock is also available in the simple view, not just /advanced
   page,
 }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "+ Add layer" }).click();
+  await page.getByRole("tab", { name: "Allergy severity" }).click();
+  await page.getByRole("button", { name: "Grass", exact: true }).click();
+  await page.getByRole("button", { name: "Add Grass" }).click();
+
   await expect(page.getByRole("button", { name: "Insights ▾ collapse" })).toBeVisible();
   await expect(page.getByText(/min \d+ · avg \d+ · max \d+ · \d+ cities/).first()).toBeVisible();
 });
