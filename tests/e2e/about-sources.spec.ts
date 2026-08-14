@@ -45,9 +45,12 @@ test("About names the real license, origin project, and support links", async ({
   );
   await expect(page.getByRole("link", { name: "Buy me a coffee" })).toHaveAttribute(
     "href",
-    "https://buymeacoffee.com/mdostal",
+    "https://www.buymeacoffee.com/mdostal",
   );
-  await expect(page.getByRole("link", { name: "Hire me" })).toHaveAttribute("href", "https://mdostal.com/contact");
+  await expect(page.getByRole("link", { name: "mdostal.com/contact" })).toHaveAttribute(
+    "href",
+    "https://mdostal.com/contact",
+  );
   await expect(page.getByText("MIT licensed.")).toBeVisible();
 });
 

@@ -141,39 +141,59 @@ export function AboutPage() {
           <h2 className="text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
             Support this project
           </h2>
-          <p>Mapstack is free, ad-free, and has no accounts. If it&apos;s useful to you:</p>
+          <p>Free and open source, always. A few ways to help — or just say hi:</p>
           <ul className="ml-4 list-disc">
-            <li>Use it — that&apos;s genuinely enough.</li>
+            <li>
+              <strong className="text-zinc-900 dark:text-zinc-50">Use it, star it, file an issue.</strong>{" "}
+              Honestly the best support an open-source project can get. →{" "}
+              <a
+                href="https://tools.mdostal.com/mapstack"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                this project
+              </a>
+            </li>
+            <li>
+              <strong className="text-zinc-900 dark:text-zinc-50">Hire me.</strong> I do
+              fractional-CTO and consulting work — fixing and scaling tech stacks. →{" "}
+              <a href="https://mdostal.com/contact" target="_blank" rel="noreferrer" className="underline">
+                mdostal.com/contact
+              </a>
+            </li>
             <li>
               <a
-                href="https://buymeacoffee.com/mdostal"
+                href="https://www.buymeacoffee.com/mdostal"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"
               >
                 Buy me a coffee
               </a>{" "}
-              if a layer saved you real time or you just like what this and the other tools do.
+              if it saved you time.
             </li>
             <li>
-              <a href="https://mdostal.com/contact" target="_blank" rel="noreferrer" className="underline">
-                Hire me
-              </a>{" "}
-              for consulting, a fractional CTO engagement, or to work together on something like
-              this.
+              More tools like this →{" "}
+              <a href="https://tools.mdostal.com" target="_blank" rel="noreferrer" className="underline">
+                tools.mdostal.com
+              </a>
             </li>
             <li>
-              <a
-                href="https://github.com/mdostal/mapstack-us"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                Star or contribute on GitHub
-              </a>{" "}
-              — real dataset additions and bug reports are the most useful thing you can send.
+              Life outside the terminal →{" "}
+              <a href="https://life.mdostal.com" target="_blank" rel="noreferrer" className="underline">
+                life.mdostal.com
+              </a>
+            </li>
+            <li>
+              What we&apos;re building at Firefly Events — event discovery, 8,000+ events/day
+              from 7+ sources →{" "}
+              <a href="https://ff.events" target="_blank" rel="noreferrer" className="underline">
+                ff.events
+              </a>
             </li>
           </ul>
+          <p>Always up for a conversation if any of it&apos;s useful to you.</p>
         </section>
 
         <p className="text-xs text-zinc-500 dark:text-zinc-500">
