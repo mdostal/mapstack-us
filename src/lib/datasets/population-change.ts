@@ -69,6 +69,13 @@ export const populationChangeDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/population-change-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "population_change", label: "Population growth/decline" }],
+  layers: [
+    {
+      id: "population_change",
+      label: "Population growth/decline",
+      legendLow: "Population growth",
+      legendHigh: "Population decline",
+    },
+  ],
   getValue: getPopulationChangeValue,
 };

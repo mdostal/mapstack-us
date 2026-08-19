@@ -65,6 +65,8 @@ export const averageWageDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/average-wage-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "average_wage", label: "Average wage" }],
+  layers: [
+    { id: "average_wage", label: "Average wage", legendLow: "Higher wages", legendHigh: "Lower wages" },
+  ],
   getValue: getAverageWageValue,
 };

@@ -85,6 +85,13 @@ export const politicalLeanDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/political-lean-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "competitiveness", label: "Electoral competitiveness" }],
+  layers: [
+    {
+      id: "competitiveness",
+      label: "Electoral competitiveness",
+      legendLow: "More competitive",
+      legendHigh: "Less competitive",
+    },
+  ],
   getValue: getPoliticalLeanValue,
 };

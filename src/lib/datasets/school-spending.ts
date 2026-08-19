@@ -73,6 +73,13 @@ export const schoolSpendingDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/school-spending-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "per_pupil_spending", label: "Per-pupil spending" }],
+  layers: [
+    {
+      id: "per_pupil_spending",
+      label: "Per-pupil spending",
+      legendLow: "Higher spending",
+      legendHigh: "Lower spending",
+    },
+  ],
   getValue: getSchoolSpendingValue,
 };

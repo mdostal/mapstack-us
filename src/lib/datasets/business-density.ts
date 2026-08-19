@@ -67,6 +67,13 @@ export const businessDensityDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/business-density-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "business_density", label: "Business density" }],
+  layers: [
+    {
+      id: "business_density",
+      label: "Business density",
+      legendLow: "Higher business density",
+      legendHigh: "Lower business density",
+    },
+  ],
   getValue: getBusinessDensityValue,
 };

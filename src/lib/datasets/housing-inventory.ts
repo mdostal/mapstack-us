@@ -64,6 +64,13 @@ export const housingInventoryDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/housing-inventory-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "supply_tightness", label: "Housing market tightness" }],
+  layers: [
+    {
+      id: "supply_tightness",
+      label: "Housing market tightness",
+      legendLow: "More housing supply",
+      legendHigh: "Less housing supply",
+    },
+  ],
   getValue: getHousingInventoryValue,
 };

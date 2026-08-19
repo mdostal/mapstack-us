@@ -62,6 +62,8 @@ export const daysOnMarketDataset: Dataset = {
   methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/days-on-market-methodology.md",
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
-  layers: [{ id: "market_speed", label: "Market speed" }],
+  layers: [
+    { id: "market_speed", label: "Market speed", legendLow: "Slower market", legendHigh: "Faster market" },
+  ],
   getValue: getDaysOnMarketValue,
 };
