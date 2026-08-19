@@ -2,6 +2,10 @@
   "name": "mapstack-us",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@8.15.9",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "pnpm build:methodology && pnpm build:sqlite && next dev",
     "build": "pnpm build:methodology && pnpm build:sqlite && next build",
