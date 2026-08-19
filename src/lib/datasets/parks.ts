@@ -2,7 +2,7 @@ import parksData from "@data/parks.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The fourteenth real Dataset -- park access, sourced from the Trust for
+ * The thirteenth real Dataset -- park access, sourced from the Trust for
  * Public Land's free, keyless ParkServe database, queried directly from
  * TPL's own hosted ArcGIS FeatureServer at each city's coordinate -- the
  * same "hosted FeatureServer point query" pattern hazard.ts,

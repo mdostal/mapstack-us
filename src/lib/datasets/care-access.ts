@@ -3,7 +3,7 @@ import { driveTimeToConcern } from "@/lib/formula/care-access-concern";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The fourth real Dataset, ported from allergy-locator's care-access.json --
+ * The third real Dataset, ported from allergy-locator's care-access.json --
  * the actual "second real dataset" the generalized Dataset interface was
  * designed against (see types.ts's header comment, which already used this
  * dataset's own facility/drive-time shape as one of its two founding

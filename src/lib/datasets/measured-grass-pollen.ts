@@ -2,7 +2,7 @@ import measuredGrassPollenData from "@data/measured-grass-pollen.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-first real Dataset -- REAL, MEASURED grass pollen days,
+ * The twentieth real Dataset -- REAL, MEASURED grass pollen days,
  * direct operator request after allergy.ts's grass severity score turned
  * out to be climate-modeled rather than a real measured count. Real
  * station data exists, just scattered across individual state/county

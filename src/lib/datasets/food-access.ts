@@ -2,7 +2,7 @@ import foodAccessData from "@data/food-access.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The eighth real Dataset -- USDA ERS's Food Access Research Atlas (FARA),
+ * The seventh real Dataset -- USDA ERS's Food Access Research Atlas (FARA),
  * joined at census TRACT level via a 2010-vintage crosswalk
  * (geocode_city_tracts_2010.py) -- a SEPARATE crosswalk from svi.ts's,
  * since FARA's tract boundaries are frozen at the 2010 census and tracts

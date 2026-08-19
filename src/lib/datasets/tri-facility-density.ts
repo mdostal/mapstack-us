@@ -2,7 +2,7 @@ import triFacilityDensityData from "@data/tri-facility-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirtieth real Dataset -- EPA Toxics Release Inventory (TRI)
+ * The twenty-ninth real Dataset -- EPA Toxics Release Inventory (TRI)
  * facility density, tri-1 (tri-bulk-and-data-drive-2 epic), extended to
  * real multi-year history 1987-2024 (ddr-tri-extend, this session).
  *

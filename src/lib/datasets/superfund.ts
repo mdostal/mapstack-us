@@ -3,7 +3,7 @@ import cities from "@data/cities.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The thirty-fourth real Dataset -- EPA Superfund/NPL site density,
+ * The thirty-third real Dataset -- EPA Superfund/NPL site density,
  * ddr5-1 (data-drive-round-5 epic). Resolves a lead deferred since
  * dataset-verification-drive's addendum -- three prior attempts
  * guessing Envirofacts table names against the legacy efservice

@@ -2,7 +2,7 @@ import averageWageData from "@data/average-wage.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-first real Dataset -- average annual wage per employee,
+ * The thirtieth real Dataset -- average annual wage per employee,
  * tri-2 (tri-bulk-and-data-drive-2 epic, backlog addendum 2 #31). Reuses
  * the exact Census Business Patterns pipeline business-density.ts
  * already proved out -- same API, same CENSUS_API_KEY, same

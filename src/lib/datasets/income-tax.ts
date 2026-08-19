@@ -2,7 +2,7 @@ import incomeTaxData from "@data/income-tax.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-second real Dataset -- state individual income tax rate,
+ * The twenty-first real Dataset -- state individual income tax rate,
  * the last of the three real tax candidates from
  * `.pHive/epics/data-store/docs/dataset-backlog.md` (#24), after sales
  * tax (#23). No API key -- reuses sales-tax.ts's stdlib-only OOXML

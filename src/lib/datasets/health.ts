@@ -2,7 +2,7 @@ import healthData from "@data/health.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The seventh real Dataset -- CDC PLACES chronic-disease-prevalence
+ * The sixth real Dataset -- CDC PLACES chronic-disease-prevalence
  * measures, joined at census PLACE level. Reuses the SAME city->county
  * geocoder lookups hazard.ts's build already cached (extract_city_places.py
  * re-parses that existing cache for each city's place GEOID, zero new

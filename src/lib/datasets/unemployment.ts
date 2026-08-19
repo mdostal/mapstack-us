@@ -2,7 +2,7 @@ import unemploymentData from "@data/unemployment.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-fourth real Dataset -- local unemployment rate, extended to
+ * The twenty-third real Dataset -- local unemployment rate, extended to
  * real multi-year history 1976-2026 (task 80, unblocked once BLS's own
  * real external maintenance window finally cleared). Real BLS Local Area
  * Unemployment Statistics (LAUS), a real free, self-serve BLS_API_KEY.

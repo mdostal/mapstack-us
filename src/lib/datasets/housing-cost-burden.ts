@@ -2,7 +2,7 @@ import housingCostBurdenData from "@data/housing-cost-burden.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The eighteenth real Dataset -- housing affordability stress, and the
+ * The seventeenth real Dataset -- housing affordability stress, and the
  * third "Census-cluster" roadmap item (population, income, broadband,
  * tax, HOUSING). See scripts/gen_housing_cost_burden_data.py.
  *

@@ -3,7 +3,7 @@ import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The seventeenth real Dataset -- median household income, and the
+ * The sixteenth real Dataset -- median household income, and the
  * second "Census-cluster" roadmap item (population, INCOME, broadband,
  * tax, housing). See scripts/gen_income_data.py.
  *

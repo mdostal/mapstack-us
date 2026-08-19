@@ -2,7 +2,7 @@ import propertyTaxData from "@data/property-tax.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-third real Dataset -- effective property tax rate, the last
+ * The twenty-second real Dataset -- effective property tax rate, the last
  * of the three real tax candidates from
  * `.pHive/epics/data-store/docs/dataset-backlog.md` (#22), and the FIRST
  * dataset in this project pulled directly from the Census API rather

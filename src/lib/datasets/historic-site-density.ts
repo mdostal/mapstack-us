@@ -2,7 +2,7 @@ import historicSiteDensityData from "@data/historic-site-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-ninth real Dataset -- density of National Register of Historic
+ * The thirty-eighth real Dataset -- density of National Register of Historic
  * Places (NRHP)-listed sites within 10 miles of each city, ddr10-1
  * (data-drive-round-10 epic). Real, live, keyless NPS ArcGIS FeatureServer
  * (mapservices.nps.gov/.../cultural_resources/nrhp_locations), 72,668 real

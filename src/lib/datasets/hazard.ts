@@ -2,7 +2,7 @@ import hazardData from "@data/hazard.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The fifth real Dataset -- FEMA's National Risk Index (free, keyless
+ * The fourth real Dataset -- FEMA's National Risk Index (free, keyless
  * ArcGIS FeatureServer; see scripts/gen_hazard_data.py), joined to each
  * spine city's COUNTY (not the city itself) via a Census geocoder lookup
  * on the city's own lat/lon (scripts/geocode_city_counties.py, also free

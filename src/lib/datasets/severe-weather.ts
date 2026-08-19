@@ -2,7 +2,7 @@ import severeWeatherData from "@data/severe-weather.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-seventh real Dataset -- severe weather event frequency,
+ * The thirty-sixth real Dataset -- severe weather event frequency,
  * ddr8-1 (data-drive-round-8 epic), extended to real multi-year history
  * 1950-2026 (ddr-severe-weather-extend, this session). Real NOAA Storm
  * Events Database, a real static bulk CSV per year -- no API, no key. A

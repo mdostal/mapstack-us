@@ -2,7 +2,7 @@ import hateCrimeData from "@data/hate-crime.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-third real Dataset -- FBI hate crime statistics, ddr4-1
+ * The thirty-second real Dataset -- FBI hate crime statistics, ddr4-1
  * (data-drive-round-4 epic). Resolves a lead deferred across THREE prior
  * research rounds this session -- the blocker was never the offense
  * code (every guess against crime.ts's summarized/agency/{ori}/{offense}

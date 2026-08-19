@@ -2,7 +2,7 @@ import libraryAccessData from "@data/library-access.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-sixth real Dataset -- public library access, ddr7-1
+ * The thirty-fifth real Dataset -- public library access, ddr7-1
  * (data-drive-round-7 epic), extended to real multi-year history
  * 2007-2024 (ddr-library-extend, this session).
  *

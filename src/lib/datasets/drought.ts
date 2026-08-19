@@ -2,7 +2,7 @@ import droughtData from "@data/drought.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The thirty-second real Dataset -- county-level drought severity,
+ * The thirty-first real Dataset -- county-level drought severity,
  * extended to real multi-year history 2000-2026 (this session's
  * unplanned "keep going" continuation, after severe-weather and
  * air-quality). Real US Drought Monitor (USDM) data service, no API

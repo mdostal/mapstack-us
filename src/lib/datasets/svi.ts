@@ -4,7 +4,7 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
 import cities from "@data/cities.json";
 
 /**
- * The sixth real Dataset -- CDC/ATSDR's Social Vulnerability Index (SVI),
+ * The fifth real Dataset -- CDC/ATSDR's Social Vulnerability Index (SVI),
  * a composite of 16 socioeconomic/demographic variables into a single
  * "how exposed is this community to disaster/crisis broadly" signal.
  * Extended to real multi-vintage history (ddr-svi-extend, this session)

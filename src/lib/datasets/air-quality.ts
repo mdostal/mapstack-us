@@ -2,7 +2,7 @@ import airQualityData from "@data/air-quality.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-fifth real Dataset -- annual county-level Air Quality Index
+ * The twenty-fourth real Dataset -- annual county-level Air Quality Index
  * statistics, extended to real multi-year history 1980-2025 (this
  * session's unplanned "keep going" continuation). Real EPA AQS bulk
  * "Annual AQI by County" files -- no API, no key. See

@@ -2,7 +2,7 @@ import electricityCostData from "@data/electricity-cost.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The forty-second real Dataset -- state-level residential electricity
+ * The forty-first real Dataset -- state-level residential electricity
  * retail price, ddr13-1 (data-drive-round-13 epic). Real EIA (Energy
  * Information Administration) API v2, unlocked by a real EIA_API_KEY
  * obtained this session (also in GCP Secret Manager, project

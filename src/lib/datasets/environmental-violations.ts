@@ -2,7 +2,7 @@ import environmentalViolationsData from "@data/environmental-violations.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The fortieth real Dataset -- density of EPA facilities in
+ * The thirty-ninth real Dataset -- density of EPA facilities in
  * "Significant Violation" compliance status within 10 miles of each
  * city, ddr11-1 (data-drive-round-11 epic). Real EPA ECHO (Enforcement
  * and Compliance History Online) Exporter bulk file, genuinely distinct

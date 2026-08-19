@@ -2,7 +2,7 @@ import politicalLeanData from "@data/political-lean.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The fifteenth real Dataset -- electoral competitiveness, from real
+ * The fourteenth real Dataset -- electoral competitiveness, from real
  * county-level presidential returns (MIT Election Data + Science Lab's
  * official county-election-returns compilation), joined via the SAME
  * city->county crosswalk hazard.ts/traffic-fatalities.ts already built.

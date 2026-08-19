@@ -2,7 +2,7 @@ import costOfLivingData from "@data/cost-of-living.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-seventh real Dataset -- cost of living, unblocked by a real,
+ * The twenty-sixth real Dataset -- cost of living, unblocked by a real,
  * free, self-serve BEA_API_KEY (https://apps.bea.gov/API/signup/). See
  * scripts/gen_cost_of_living_data.py -- BEA only publishes Regional Price
  * Parities (RPP) at the national/state/MSA level, so this builds a real

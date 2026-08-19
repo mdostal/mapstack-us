@@ -2,7 +2,7 @@ import housingInventoryData from "@data/housing-inventory.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The ninth real Dataset -- Zillow Research's free, keyless "For-Sale
+ * The eighth real Dataset -- Zillow Research's free, keyless "For-Sale
  * Inventory" city-level data, the simplest join of any dataset built this
  * session: direct city/state name match, no geocoding crosswalk at all.
  * Extended to real multi-year history 2018-2026 (ddr-zillow-extend, this

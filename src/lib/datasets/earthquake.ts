@@ -2,7 +2,7 @@ import earthquakeData from "@data/earthquake.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The thirty-fifth real Dataset -- USGS seismic design values, ddr6-1
+ * The thirty-fourth real Dataset -- USGS seismic design values, ddr6-1
  * (data-drive-round-6 epic). A genuinely new hazard category not
  * represented anywhere else in this project -- `hazard.ts`'s existing
  * FEMA National Risk Index layers cover flood/wildfire, not earthquake.

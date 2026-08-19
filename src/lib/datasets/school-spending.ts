@@ -2,7 +2,7 @@ import schoolSpendingData from "@data/school-spending.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-eighth real Dataset -- per-pupil school district spending,
+ * The twenty-seventh real Dataset -- per-pupil school district spending,
  * dvd-5 (dataset-verification-drive epic). Upgrades
  * `.pHive/epics/data-store/docs/dataset-backlog.md` #21 (school quality)
  * from "weak, proxy-only" (rating services like GreatSchools/Niche aren't

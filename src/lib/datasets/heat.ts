@@ -2,7 +2,7 @@ import heatData from "@data/heat.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The nineteenth real Dataset -- extreme heat days, sourced from NOAA's
+ * The eighteenth real Dataset -- extreme heat days, sourced from NOAA's
  * 1991-2020 U.S. Climate Normals, no API key at all. Picked from
  * `.pHive/epics/data-store/docs/dataset-backlog.md` (#14) as the
  * strongest keyless candidate available while the Census-cluster

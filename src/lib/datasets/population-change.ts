@@ -2,7 +2,7 @@ import populationChangeData from "@data/population-change.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-sixth real Dataset -- population growth/decline
+ * The twenty-fifth real Dataset -- population growth/decline
  * (`.pHive/epics/data-store/docs/dataset-backlog.md` #1), the LAST of
  * the original five Census-cluster items. See
  * scripts/gen_population_change_data.py.

@@ -2,7 +2,7 @@ import winterColdBurdenData from "@data/winter-cold-burden.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The forty-first real Dataset -- winter cold burden, ddr12-1
+ * The fortieth real Dataset -- winter cold burden, ddr12-1
  * (data-drive-round-12 epic). Real NOAA 1991-2020 U.S. Climate Normals,
  * no API key -- the direct winter-cold complement to heat.ts's
  * extreme-heat-days dataset, reusing the exact same real station-

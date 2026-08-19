@@ -2,7 +2,7 @@ import salesTaxData from "@data/sales-tax.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The twentieth real Dataset -- combined (state + local) sales tax rate,
+ * The nineteenth real Dataset -- combined (state + local) sales tax rate,
  * from `.pHive/epics/data-store/docs/dataset-backlog.md` (#23), the
  * second keyless candidate this session shipped alongside heat.ts while
  * the Census-cluster items stay blocked on a missing CENSUS_API_KEY.

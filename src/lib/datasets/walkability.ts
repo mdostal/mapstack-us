@@ -2,7 +2,7 @@ import walkabilityData from "@data/walkability.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
 
 /**
- * The thirteenth real Dataset -- EPA's official National Walkability Index,
+ * The twelfth real Dataset -- EPA's official National Walkability Index,
  * queried directly from EPA's own free, keyless ArcGIS FeatureServer at
  * each city's stored coordinate (geodata.epa.gov/.../WalkabilityIndex),
  * the same "hosted queryable FeatureServer" pattern hazard.ts (FEMA NRI)

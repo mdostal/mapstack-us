@@ -2,7 +2,7 @@ import businessDensityData from "@data/business-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 
 /**
- * The twenty-ninth real Dataset -- business establishment density, dvd-6
+ * The twenty-eighth real Dataset -- business establishment density, dvd-6
  * (dataset-verification-drive epic). Pivoted here after EPA TRI (the
  * originally-planned pick) turned out impractically slow to bulk-fetch
  * live -- see `.pHive/epics/data-store/docs/dataset-backlog.md`'s
