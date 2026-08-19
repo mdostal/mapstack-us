@@ -25,8 +25,9 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
  * geographic proximity (haversine), not FIPS.
  *
  * One layer: real count of TRI-reporting facilities within a 10-mile
- * radius, direct rescale capped at a FIXED count (70, from the real 2024
- * p90) across every year so a city's density stays honestly comparable
+ * radius, direct rescale capped at a FIXED count (70 -- the real 2024 p90
+ * is 66, padded slightly, see scripts/gen_tri_facility_density_data.py's
+ * own COUNT_CAP comment) across every year so a city's density stays honestly comparable
  * year to year -- higher count = more concerning. 512/512 real coverage,
  * full real range 1987-2024, no disclosed gaps.
  */

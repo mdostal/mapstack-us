@@ -4,7 +4,8 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
 /**
  * The twenty-second real Dataset -- effective property tax rate, the last
  * of the three real tax candidates from
- * `.pHive/epics/data-store/docs/dataset-backlog.md` (#22), and the FIRST
+ * `.pHive/epics/data-store/docs/dataset-backlog.md` (#22), after sales
+ * tax (#23) and income tax (#24), and the FIRST
  * dataset in this project pulled directly from the Census API rather
  * than via County Health Rankings' free republication route -- unblocked
  * by a real, free, self-serve CENSUS_API_KEY. See

@@ -3,9 +3,9 @@ import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datas
 
 /**
  * The twenty-first real Dataset -- state individual income tax rate,
- * the last of the three real tax candidates from
+ * the second of the three real tax candidates from
  * `.pHive/epics/data-store/docs/dataset-backlog.md` (#24), after sales
- * tax (#23). No API key -- reuses sales-tax.ts's stdlib-only OOXML
+ * tax (#23) and before property tax (#22). No API key -- reuses sales-tax.ts's stdlib-only OOXML
  * reader. Extended to real multi-year history 2015-2023 (ddr-tax-
  * extend, this session) -- the same current xlsx download turns out to
  * be a real consolidated workbook with one sheet per year (2015-2026);

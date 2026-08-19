@@ -34,7 +34,7 @@ function getSalesTaxValue(cityId: string, layerId: string): DatasetLayerValue | 
   const tierNote = record.tier === "city" ? "city rate, as of July 2021" : "state average rate, as of January 2026 -- no city-specific rate published for this city";
   return {
     value: record.concern,
-    detail: `${record.combined_rate_pct}% combined state + local sales tax (${tierNote})`,
+    detail: `${record.combined_rate_pct}% combined state + local sales tax (${tierNote}) -- Tax Foundation`,
   };
 }
 

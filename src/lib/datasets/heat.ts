@@ -33,7 +33,7 @@ function getHeatValue(cityId: string, layerId: string): DatasetLayerValue | null
 
   return {
     value: record.concern,
-    detail: `${record.days_above_90f} days/year above 90°F on average -- nearest station: ${record.station_name} (${record.station_distance_km} km away)`,
+    detail: `${record.days_above_90f} days/year above 90°F on average -- nearest station: ${record.station_name} (${record.station_distance_km} km away) -- NOAA 1991-2020 Climate Normals`,
   };
 }
 
