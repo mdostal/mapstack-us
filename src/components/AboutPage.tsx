@@ -121,6 +121,17 @@ export function AboutPage() {
             </li>
             <li>
               <a
+                href="https://github.com/mdostal/mapstack-us/blob/main/CONTRIBUTING.md"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                CONTRIBUTING.md
+              </a>{" "}
+              — the step-by-step walkthrough for adding a new dataset.
+            </li>
+            <li>
+              <a
                 href="https://github.com/mdostal/mapstack-us/blob/main/README.md"
                 target="_blank"
                 rel="noreferrer"

@@ -313,6 +313,13 @@ and already store these keys in GCP Secret Manager, `scripts/load-secrets-from-g
 refreshes `.env` from there in one idempotent pass; otherwise just populate `.env`
 by hand from each provider's own free registration page.
 
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the step-by-step walkthrough on
+adding a new dataset -- implementing the interface, the methodology doc,
+registering it, and the tests that enforce all of it. `.env.example` has the
+real keys the keyed datasets need.
+
 <!-- shared:support -->
 ## Support this project
 

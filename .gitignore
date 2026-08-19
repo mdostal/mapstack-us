@@ -21,6 +21,7 @@ __pycache__/
 *.pyc
 .vercel
 .env*
+!.env.example
 
 # Pure fetch-scratch for the crime dataset build (scripts/fetch_crime_agencies.py,
 # scripts/gen_crime_data.py) -- re-fetchable any time with a fresh API key, not
