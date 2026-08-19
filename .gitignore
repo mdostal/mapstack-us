@@ -244,6 +244,15 @@ data/raw/care-access-cms-cache/
 .pHive/epics/power-user-tab/index.html
 .pHive/epics/**/docs/*.png
 
+# Per-session Hive telemetry: agent-complete/ and metrics/ embed real
+# Claude Code session UUIDs and absolute /Users/... paths (confirmed
+# live in this repo's own tracked history); interrupts/ is ephemeral
+# session state. None of this is project value -- keep it on disk for
+# local debugging, never commit it.
+.pHive/agent-complete/
+.pHive/interrupts/
+.pHive/metrics/
+
 # Compiled at build time by scripts/build-sqlite.ts (see "prebuild"/"predev"
 # in package.json) -- deterministic from data/*.json + the DATASETS
 # registry, not source, not needed for reproducibility.
