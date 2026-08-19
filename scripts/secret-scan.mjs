@@ -9,6 +9,21 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 
+/**
+ * The original 6 patterns below (AWS/OpenAI/GitHub/Slack/PEM/JWT) were
+ * ported from allergy-locator and don't match any of THIS project's own
+ * real key formats -- Census/BLS/FBI/EIA are bare hex or mixed-case
+ * alphanumeric blobs, BEA/AirNow/NASS/HUD/Dataverse are bare UUIDs. A real
+ * key committed in one of those formats would have passed this scan clean.
+ *
+ * These blobs are NOT distinctive enough to match bare (unlike "AKIA..." or
+ * "sk-...", a 32-40 char hex string or a UUID is genuinely ambiguous --
+ * this repo's own methodology docs cite real ArcGIS dataset IDs in exactly
+ * that shape, see data/hazard-methodology.md). So each pattern is anchored
+ * to the specific env-var name it belongs to, matching the actual leak
+ * scenario (a committed .env, or a key hardcoded into a script) without
+ * false-positiving on unrelated hex/UUID content elsewhere in the repo.
+ */
 const SECRET_PATTERNS = [
   [/AKIA[0-9A-Z]{16}/, "AWS access key"],
   [/sk-[a-zA-Z0-9]{20,}/, "OpenAI-style secret key"],
@@ -16,6 +31,18 @@ const SECRET_PATTERNS = [
   [/xox[baprs]-[0-9a-zA-Z-]{10,}/, "Slack token"],
   [/-----BEGIN (RSA |EC |OPENSSH |DSA |)PRIVATE KEY-----/, "private key block"],
   [/eyJhbGciOi[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+/, "JWT-shaped token"],
+  [
+    /(?:CENSUS_API_KEY|BLS_API_KEY)\s*[=:]\s*["']?[0-9a-fA-F]{32,40}["']?/,
+    "Census/BLS-style hex API key",
+  ],
+  [
+    /(?:FBI_CRIME_API_KEY|EIA_API_KEY)\s*[=:]\s*["']?[0-9a-zA-Z]{32,64}["']?/,
+    "FBI/EIA-style alphanumeric API key",
+  ],
+  [
+    /(?:BEA_API_KEY|EPA_AIRNOW_API_KEY|NASS_API_KEY|HUD_API_KEY|DATAVERSE_API_TOKEN)\s*[=:]\s*["']?[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}["']?/,
+    "BEA/AirNow/NASS/HUD/Dataverse-style UUID key",
+  ],
 ];
 
 const SKIP_DIRS = new Set(["node_modules", ".git", ".next", "test-results", "playwright-report"]);
