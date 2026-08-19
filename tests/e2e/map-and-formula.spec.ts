@@ -42,7 +42,7 @@ test("the map stays a normal, bounded size with many layers stacked, and the lay
     await page.getByLabel(label, { exact: true }).click();
   }
 
-  const mapWidth = await page.locator("svg[role='img']").evaluate((el) => el.getBoundingClientRect().width);
+  const mapWidth = await page.locator("svg[role='group']").evaluate((el) => el.getBoundingClientRect().width);
   expect(mapWidth).toBeLessThan(1500);
 
   const controlsStrip = page.getByLabel("Map layer controls");

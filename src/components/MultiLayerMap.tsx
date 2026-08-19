@@ -132,13 +132,14 @@ export function MultiLayerMap({
           </>
         ) : undefined
       }
-      renderMarker={(point, isSelected) => (
+      renderMarker={(point, isSelected, onSelect) => (
         <CityMarker
           point={point}
           isSelected={isSelected}
           fill={layers.length > 0 ? HEATMAP_MARKER_FILL : NO_DATA_COLOR}
           radius={isSelected ? 4 : 2.5}
           tooltip={layers.length > 0 ? `${layers.length} layer${layers.length === 1 ? "" : "s"} visible` : undefined}
+          onSelect={onSelect}
         />
       )}
     />

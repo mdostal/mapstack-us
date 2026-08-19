@@ -37,8 +37,12 @@ interface Props {
   ariaLabel: string;
   /** Full control over how one city renders — a single dot (Mode 1 with one
    * allergen, Mode 2's composite) or a stack of rings (Mode 1 with several
-   * allergens active at once, all on this same map). */
-  renderMarker: (point: CityPoint, isSelected: boolean) => ReactNode;
+   * allergens active at once, all on this same map). `onSelect` is the same
+   * per-city select callback the wrapping `<g>` used to own directly -- it's
+   * threaded through so the actual marker element can carry its own
+   * `tabIndex`/`onKeyDown`, making it keyboard-operable (WCAG 2.1.1) instead
+   * of only mouse-clickable via a parent `<g>` that can't receive focus. */
+  renderMarker: (point: CityPoint, isSelected: boolean, onSelect: () => void) => ReactNode;
   onSelectCity: (cityId: string) => void;
   selectedCityId: string | null;
   /** Additional cities to show a callout for at the same time as
@@ -56,7 +60,7 @@ interface Props {
 }
 
 /**
- * The shared US map surface: state outlines + 168 city positions. Every mode
+ * The shared US map surface: state outlines + 512 city positions. Every mode
  * (Mode 1 single/multi-allergen, Mode 2 composite) renders through this one
  * component so the map geometry, projection, and click wiring live in exactly one
  * place — only the per-city marker (and optional heatmap layer) differs.
@@ -129,12 +133,18 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
       className="relative aspect-[8/5] w-full overflow-hidden rounded-lg bg-white dark:bg-zinc-900"
     >
       {heatmap}
-      <svg viewBox={viewBox} role="img" aria-label={ariaLabel} className="relative h-full w-full">
+      {/* role="group" (not "img") -- role="img" collapses the whole SVG
+          subtree into a single flat image for assistive tech, which would
+          hide every individual city marker's own aria-label/<title> behind
+          just this one top-level label. "group" keeps aria-label as the
+          region's accessible name without suppressing descendants. */}
+      <svg viewBox={viewBox} role="group" aria-label={ariaLabel} className="relative h-full w-full">
         <g
           fill="none"
           stroke="currentColor"
           strokeWidth={0.75}
           className="text-zinc-400 dark:text-zinc-500"
+          aria-hidden="true"
         >
           {Object.entries(paths).map(([code, d]) => (
             <path key={code} d={d} />
@@ -144,12 +154,8 @@ export function BaseSvgMap({ ariaLabel, renderMarker, onSelectCity, selectedCity
           {MARKER_POINTS.map((point) => {
             const isSelected = calloutIds.has(point.city.id);
             return (
-              <g
-                key={point.city.id}
-                onClick={() => onSelectCity(point.city.id)}
-                className="cursor-pointer"
-              >
-                {renderMarker(point, isSelected)}
+              <g key={point.city.id}>
+                {renderMarker(point, isSelected, () => onSelectCity(point.city.id))}
               </g>
             );
           })}

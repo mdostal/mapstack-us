@@ -9,7 +9,7 @@ test("home page loads with no default layer -- an explicit empty state invites a
   await expect(page.getByTestId("active-layers-row")).toHaveCount(0);
   await expect(page.getByText("No layers on the map yet -- add one below to get started.")).toBeVisible();
   await expect(page.getByTestId("map-frame")).toBeVisible();
-  await expect(page.getByRole("img", { name: "Map (no layers visible)" })).toBeVisible();
+  await expect(page.getByRole("group", { name: "Map (no layers visible)" })).toBeVisible();
 });
 
 test("add layer flow: pick a dataset, add a layer, see it appear in the active list", async ({ page }) => {
@@ -820,7 +820,7 @@ test("clicking a layer previews it live on the map without committing it, and a 
   // Real bug found live: clicking a layer used to add it immediately, with
   // no way to see it on the map first and no explicit confirming action.
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Tall fescue" })).toHaveCount(0);
-  await expect(page.getByRole("img")).toHaveAttribute("aria-label", "Map showing 1 visible layer(s)");
+  await expect(page.getByTestId("map-frame").getByRole("group")).toHaveAttribute("aria-label", "Map showing 1 visible layer(s)");
 
   await page.getByRole("button", { name: "Add Tall fescue" }).click();
   await expect(page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Tall fescue" })).toBeVisible();
@@ -928,14 +928,14 @@ test("toggling a layer's visibility eye button hides it from the map without rem
 
   const grassRow = page.getByTestId("active-layers-row").filter({ hasText: "Allergy severity: Grass" });
   await expect(grassRow).toBeVisible();
-  await expect(page.getByRole("img", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
+  await expect(page.getByRole("group", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
 
   const eyeButton = grassRow.getByRole("button", { name: "Hide Allergy severity: Grass on the map" });
   await eyeButton.click();
 
   // Hidden on the map -- the aria-label reflects zero visible layers --
   // but the row stays in the list (just dimmed) rather than disappearing.
-  await expect(page.getByRole("img", { name: "Map (no layers visible)" })).toBeVisible();
+  await expect(page.getByRole("group", { name: "Map (no layers visible)" })).toBeVisible();
   await expect(grassRow).toBeVisible();
   await expect(grassRow.getByRole("button", { name: "Show Allergy severity: Grass on the map" })).toBeVisible();
 
@@ -946,7 +946,7 @@ test("toggling a layer's visibility eye button hides it from the map without rem
   await expect(page.getByTestId("city-detail-row").filter({ hasText: "Allergy severity" })).toBeVisible();
 
   await grassRow.getByRole("button", { name: "Show Allergy severity: Grass on the map" }).click();
-  await expect(page.getByRole("img", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
+  await expect(page.getByRole("group", { name: "Map showing 1 visible layer(s)" })).toBeVisible();
 });
 
 test("a year control appears once a time-varying layer (crime) is active, and switching years changes the detail", async ({
