@@ -1,5 +1,12 @@
 # Mapstack
 
+<!-- shared:tagline -->
+> Every US public dataset on one map. 42 layers, zero setup. Free & open source.
+<!-- /shared:tagline -->
+<!-- shared:byline -->
+Built by [Mathew Dostal](https://mdostal.com) — fractional CTO, Dostal Technology.
+<!-- /shared:byline -->
+
 Open-source US map layers: pick datasets, overlay them, find what matters to you —
 visiting, relocating, proving a point, spotting correlations. One map engine, any
 number of pluggable data layers.
@@ -35,8 +42,9 @@ built from two real, working examples instead of upfront design.
 
 - **A generalized `Dataset` interface** (`src/lib/datasets/types.ts`), proven against
   forty-one genuinely different real implementations across the full 512-city spine,
-  all free and every one of them keyless except crime, property tax, unemployment, air
-  quality, population change, and cost of living:
+  all free and every one of them keyless except crime, hate crime, income, average
+  wage, business density, housing cost burden, population change, property tax,
+  unemployment, cost of living, and electricity cost:
   - **Allergy severity** — climate/season-modeled score, grass plus 28 comprehensive
     allergens (`data/allergy-scoring.md`, `data/allergens-scoring.md`).
   - **Crime** — real FBI Crime Data Explorer rates, violent and property, with real
@@ -70,9 +78,11 @@ built from two real, working examples instead of upfront design.
   - **Broadband access** — real Census ACS broadband-subscription rates, via County
     Health Rankings' free republication -- the first Census-cluster item unblocked without
     a Census API key (`data/broadband-methodology.md`).
-  - **Median household income** — real Census ACS income figures, same free republication
-    route as broadband -- the second Census-cluster item unblocked
-    (`data/income-methodology.md`).
+  - **Median household income** — real Census ACS 5-year estimates (table
+    B19013_001E), pulled directly from the Census API by place FIPS rather than
+    broadband's free CHR republication route -- CHR has no historical archive, and
+    this dataset needed real multi-year history, so it switched sources. Unblocked
+    by a real `CENSUS_API_KEY`, real years 2009-2023 (`data/income-methodology.md`).
   - **Housing affordability** — real Census ACS severe housing-cost-burden rates, the
     third Census-cluster item unblocked -- a genuinely different housing angle from the
     two Zillow-sourced layers above (`data/housing-cost-burden-methodology.md`).
@@ -284,14 +294,18 @@ methodology doc, see `scripts/build-methodology-index.ts`) directly off disk.
 
 ## API keys (for reproducing the keyed datasets)
 
-Most datasets need no key at all — see each layer's own note above. The handful
-that do (Census, BLS, BEA, FBI, Dataverse, NASS, EIA, HUD) are used only
-by the one-off Python scripts under `scripts/` that regenerate `data/*.json`;
-none are shipped to the client or required to run the app itself (`pnpm dev`/
-`pnpm build` work with zero keys against the already-committed data files).
-Air quality no longer needs a key either — it moved from EPA AirNow (real-time,
-rate-limited) to EPA AQS's own keyless bulk annual files this session, which is
-also how it gained real multi-year history back to 1980.
+Most datasets need no key at all — see each layer's own note above. Five keys
+power the ones that do (Census, BLS, BEA, FBI, EIA) — used only by the one-off
+Python scripts under `scripts/` that regenerate `data/*.json`; none are shipped
+to the client or required to run the app itself (`pnpm dev`/`pnpm build` work
+with zero keys against the already-committed data files). Four more keys
+(Dataverse, NASS, HUD, AirNow) were obtained during earlier research but the
+datasets that would have used them ended up sourced elsewhere or moved to a
+keyless route -- air quality, for one, moved from EPA AirNow (real-time,
+rate-limited) to EPA AQS's own keyless bulk annual files, which is also how it
+gained real multi-year history back to 1980. The other three (Dataverse, NASS,
+HUD) are legacy entries in `.env`/GCP Secret Manager, read by zero current
+generator script.
 
 Keys live in a local, gitignored `.env` — never committed, never referenced by
 shipped app code (`pnpm test:secrets` enforces this). If you maintain this repo
@@ -299,14 +313,20 @@ and already store these keys in GCP Secret Manager, `scripts/load-secrets-from-g
 refreshes `.env` from there in one idempotent pass; otherwise just populate `.env`
 by hand from each provider's own free registration page.
 
+<!-- shared:support -->
 ## Support this project
 
-Mapstack is free, ad-free, and has no accounts. If it's useful to you: use it (that's
-genuinely enough), [buy me a coffee](https://buymeacoffee.com/mdostal) if a layer saved
-you real time, [hire me](https://mdostal.com/contact) for consulting or a fractional CTO
-engagement, or send a real dataset addition or bug report as a pull request — that's the
-single most useful thing you can contribute.
+Free and open source, always. A few ways to help — or just say hi:
 
+- **Use it, star it, file an issue.** Honestly the best support an open-source project can get. → [this project](https://github.com/mdostal/mapstack-us)
+- **Hire me.** I do fractional-CTO and consulting work — fixing and scaling tech stacks. → [mdostal.com/contact](https://mdostal.com/contact)
+- **[Buy me a coffee](https://www.buymeacoffee.com/mdostal)** if it saved you time.
+- **More tools like this** → [tools.mdostal.com](https://tools.mdostal.com)
+- **Life outside the terminal** → [life.mdostal.com](https://life.mdostal.com)
+- **What we're building at Firefly Events** — event discovery, 8,000+ events/day from 7+ sources → [ff.events](https://ff.events)
+
+Always up for a conversation if any of it's useful to you.
+<!-- /shared:support -->
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
