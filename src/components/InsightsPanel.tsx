@@ -18,6 +18,7 @@ interface Props {
  */
 export function InsightsPanel({ selected, year, onSelectCity }: Props) {
   const [insights, setInsights] = useState<Record<string, LayerInsights | null>>({});
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -25,9 +26,12 @@ export function InsightsPanel({ selected, year, onSelectCity }: Props) {
       .then((entries) => {
         if (cancelled) return;
         setInsights(Object.fromEntries(entries));
+        setError(false);
       })
       .catch((err) => {
+        if (cancelled) return;
         console.error("Insights query failed", err);
+        setError(true);
       });
     return () => {
       cancelled = true;
@@ -35,6 +39,10 @@ export function InsightsPanel({ selected, year, onSelectCity }: Props) {
   }, [selected, year]);
 
   if (selected.length === 0) return null;
+
+  if (error) {
+    return <p className="text-xs text-red-600 dark:text-red-400">Insights are unavailable right now.</p>;
+  }
 
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
