@@ -1122,7 +1122,7 @@ test("comparing cities with only a current-snapshot layer active shows an honest
 
   const trendPanel = page.getByText("Historical trend").locator("..");
   await expect(trendPanel).toContainText("No historical trend to show yet");
-  await expect(trendPanel).toContainText("Add a Crime layer");
+  await expect(trendPanel).toContainText("crime, income, unemployment");
   await expect(trendPanel.locator("svg")).not.toBeVisible();
 });
 

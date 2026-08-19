@@ -16,14 +16,16 @@ interface Props {
 /**
  * A real historical trend, year by year, for whichever ACTIVE layers
  * actually have multi-year data (`Dataset.availableYears.length > 1`) --
- * currently only Crime (2010-2025, scripts/gen_crime_data.py). Every
- * other layer in this app is a real but current-snapshot-only source, so
- * rather than fabricate a flat "unchanged" line to fill out a chart for
- * them, this panel simply doesn't plot one, and says so explicitly when
- * none of the active layers qualify. Direct response to "get a chart over
- * the years... show how austin ranked 15 years ago" -- real for the one
- * metric that actually has real history, honest about the rest instead
- * of implying a false multi-year trend everywhere.
+ * a growing share of datasets now qualify (26/41 as of this writing; see
+ * each dataset file's own `availableYears`). The rest are real but
+ * current-snapshot-only sources, so rather than fabricate a flat
+ * "unchanged" line to fill out a chart for them, this panel simply
+ * doesn't plot one, and says so explicitly when none of the ACTIVE
+ * layers qualify -- even if other, non-active layers would. Direct
+ * response to "get a chart over the years... show how austin ranked 15
+ * years ago" -- real for the metrics that actually have real history,
+ * honest about the rest instead of implying a false multi-year trend
+ * everywhere.
  */
 export function TrendReportPanel({ cityIds, active }: Props) {
   const timeCapableLayers = useMemo(
@@ -44,9 +46,9 @@ export function TrendReportPanel({ cityIds, active }: Props) {
       </h2>
       {timeCapableLayers.length === 0 ? (
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          No historical trend to show yet. Every layer here except <span className="font-medium">Crime</span> is a
-          real current-snapshot source -- it has no multi-year history to plot, and this app won&apos;t invent one.
-          Add a Crime layer (violent or property) to see a real year-by-year trend for these cities.
+          No historical trend to show yet. None of the currently active layers have multi-year history to plot, and
+          this app won&apos;t invent one. Many layers do carry real history now (crime, income, unemployment, and
+          more) -- add one of those to see a real year-by-year trend for these cities.
         </p>
       ) : (
         <div className="flex flex-col gap-4">
