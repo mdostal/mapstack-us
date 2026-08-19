@@ -1,6 +1,6 @@
 {
   "_source": "USDA PLANTS (US Gov, public domain) — state presence per species; GBIF used only for taxonomy. Verified 2026-07-30.",
-  "_note": "PRESENCE, not severity. Grasses occur nearly everywhere — see docs/MODEL-NOTES.md. Color the map by season/intensity, NOT by this presence alone.",
+  "_note": "PRESENCE, not severity. Grasses occur nearly everywhere — see allergy-locator's docs/MODEL-NOTES.md (https://github.com/mdostal/allergy-locator/blob/main/docs/MODEL-NOTES.md). Color the map by season/intensity, NOT by this presence alone.",
   "_flag": "Live oak 'UT' (a planted anomaly in USDA) was dropped.",
   "species": {
     "Bermuda grass": ["AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","MI","MO","MS","MT","NC","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","SC","TN","TX","UT","VA","WA","WV"],

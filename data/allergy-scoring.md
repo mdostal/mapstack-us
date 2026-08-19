@@ -51,7 +51,7 @@ stored per-city in `allergy-scores.json`.
 ### 1. `base_season_climate` — grass-pollen season length × climate load
 Keyed off Köppen zone (and, for humid-subtropical, latitude). The driver is
 **season length**, not species presence (grass grows almost everywhere — see
-`docs/MODEL-NOTES.md`, "presence ≠ severity").
+allergy-locator's [`docs/MODEL-NOTES.md`](https://github.com/mdostal/allergy-locator/blob/main/docs/MODEL-NOTES.md), "presence ≠ severity").
 
 | Zone | base | rationale |
 |------|-----:|-----------|
@@ -142,12 +142,12 @@ moderate 35–64, high 65–88, worst > 88.
 ## Data sources
 - **Köppen zone, elevation, latitude, coastal flag** — per-city, in the spine.
 - **Grass-season / climate load** — Anderegg 2021 (PNAS), Zhang & Steiner 2022
-  (Nat. Comms.); see `docs/MODEL-NOTES.md`.
+  (Nat. Comms.); see allergy-locator's [`docs/MODEL-NOTES.md`](https://github.com/mdostal/allergy-locator/blob/main/docs/MODEL-NOTES.md).
 - **Grass-seed-valley severity** — AAFA city rankings (Boise #1, Provo, Ogden,
   Spokane, SLC, Colorado Springs cluster at the top = irrigated grass-seed
   valleys, not the humid South alone).
 - **Arid-SW weed/dust layer** — road-trip validation notes referenced in
-  `docs/MODEL-NOTES.md`.
+  allergy-locator's [`docs/MODEL-NOTES.md`](https://github.com/mdostal/allergy-locator/blob/main/docs/MODEL-NOTES.md).
 - **Ground-truth anchors** — the traveler's own logged reactions.
 
 ## Honest limitations
