@@ -1,5 +1,6 @@
 import politicalLeanData from "@data/political-lean.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The fourteenth real Dataset -- electoral competitiveness, from real
@@ -82,7 +83,7 @@ export const politicalLeanDataset: Dataset = {
   id: "political-lean",
   label: "Electoral competitiveness",
   description: "How lopsided the presidential margin was, county-level, across every real cycle 2000-2024 -- NOT a left/right lean score, higher = less contested/more one-sided.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/political-lean-methodology.md",
+  methodologyUrl: methodologyDocUrl("political-lean"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

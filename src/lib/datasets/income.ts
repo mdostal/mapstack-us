@@ -1,6 +1,7 @@
 import incomeData from "@data/income.json";
 import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The sixteenth real Dataset -- median household income, and the
@@ -67,7 +68,7 @@ export const incomeDataset: Dataset = {
   id: "income",
   label: "Median household income",
   description: "Real Census ACS median household income, place-level, 2009-2023 -- lower income = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/income-methodology.md",
+  methodologyUrl: methodologyDocUrl("income"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "median_income", label: "Median household income", legendLow: "Higher income", legendHigh: "Lower income" }],

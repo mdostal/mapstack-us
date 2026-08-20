@@ -1,5 +1,6 @@
 import airQualityData from "@data/air-quality.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-fourth real Dataset -- annual county-level Air Quality Index
@@ -71,7 +72,7 @@ export const airQualityDataset: Dataset = {
   id: "air-quality",
   label: "Air quality",
   description: "Real EPA AQS annual county AQI statistics, 1980-2025 -- 90th percentile AQI, higher = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/air-quality-methodology.md",
+  methodologyUrl: methodologyDocUrl("air-quality"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "air_quality_index", label: "Air Quality Index" }],

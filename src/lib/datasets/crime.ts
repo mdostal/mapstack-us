@@ -1,6 +1,7 @@
 import crimeData from "@data/crime.json";
 import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The second real Dataset -- a deliberately DIFFERENT shape from allergy
@@ -86,7 +87,7 @@ export const crimeDataset: Dataset = {
   id: "crime",
   label: "Crime",
   description: "Violent and property crime rates from the real FBI Crime Data Explorer, percentile-ranked across covered cities each year.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/crime-methodology.md",
+  methodologyUrl: methodologyDocUrl("crime"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: (Object.keys(LAYER_LABELS) as CrimeLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),

@@ -1,6 +1,7 @@
 import superfundData from "@data/superfund.json";
 import cities from "@data/cities.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-third real Dataset -- EPA Superfund/NPL site density,
@@ -55,7 +56,7 @@ export const superfundDataset: Dataset = {
   id: "superfund",
   label: "Superfund site density",
   description: "Real EPA Superfund (National Priorities List) site density -- county-level, higher count = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/superfund-methodology.md",
+  methodologyUrl: methodologyDocUrl("superfund"),
   supportsTime: false,
   layers: [{ id: "superfund_density", label: "Superfund site density" }],
   getValue: getSuperfundValue,

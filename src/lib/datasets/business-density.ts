@@ -1,5 +1,6 @@
 import businessDensityData from "@data/business-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-eighth real Dataset -- business establishment density, dvd-6
@@ -64,7 +65,7 @@ export const businessDensityDataset: Dataset = {
   id: "business-density",
   label: "Business density",
   description: "Real Census Business Patterns establishment density, county-level, 2009-2023 -- lower density = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/business-density-methodology.md",
+  methodologyUrl: methodologyDocUrl("business-density"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

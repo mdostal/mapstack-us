@@ -1,5 +1,6 @@
 import hateCrimeData from "@data/hate-crime.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-second real Dataset -- FBI hate crime statistics, ddr4-1
@@ -67,7 +68,7 @@ export const hateCrimeDataset: Dataset = {
   id: "hate-crime",
   label: "Hate crime rate",
   description: "Real FBI hate crime statistics, 2010-2025 -- voluntary agency reporting, higher rate = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/hate-crime-methodology.md",
+  methodologyUrl: methodologyDocUrl("hate-crime"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "hate_crime_rate", label: "Hate crime rate" }],

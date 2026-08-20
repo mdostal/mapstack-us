@@ -1,5 +1,6 @@
 import averageWageData from "@data/average-wage.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirtieth real Dataset -- average annual wage per employee,
@@ -62,7 +63,7 @@ export const averageWageDataset: Dataset = {
   id: "average-wage",
   label: "Average wage",
   description: "Real Census Business Patterns average annual wage per employee, county-level, 1986-2023 -- lower wage = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/average-wage-methodology.md",
+  methodologyUrl: methodologyDocUrl("average-wage"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

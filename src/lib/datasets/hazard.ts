@@ -1,5 +1,6 @@
 import hazardData from "@data/hazard.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The fourth real Dataset -- FEMA's National Risk Index (free, keyless
@@ -79,7 +80,7 @@ export const hazardDataset: Dataset = {
   id: "hazard",
   label: "Natural hazard risk",
   description: "FEMA National Risk Index scores by county -- overall risk plus flood and wildfire sub-scores, higher = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/hazard-methodology.md",
+  methodologyUrl: methodologyDocUrl("hazard"),
   supportsTime: false,
   layers: (Object.keys(LAYER_LABELS) as HazardLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),
   getValue: getHazardValue,

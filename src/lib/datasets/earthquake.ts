@@ -1,5 +1,6 @@
 import earthquakeData from "@data/earthquake.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-fourth real Dataset -- USGS seismic design values, ddr6-1
@@ -40,7 +41,7 @@ export const earthquakeDataset: Dataset = {
   id: "earthquake",
   label: "Seismic risk",
   description: "Real USGS seismic design values -- the same standard building-code values, higher = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/earthquake-methodology.md",
+  methodologyUrl: methodologyDocUrl("earthquake"),
   supportsTime: false,
   layers: [{ id: "seismic_risk", label: "Seismic risk" }],
   getValue: getEarthquakeValue,

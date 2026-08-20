@@ -1,6 +1,7 @@
 import careAccessData from "@data/care-access.json";
 import { driveTimeToConcern } from "@/lib/formula/care-access-concern";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The third real Dataset, ported from allergy-locator's care-access.json --
@@ -70,7 +71,7 @@ export const careAccessDataset: Dataset = {
   label: "Care access",
   description:
     "Estimated drive time to the nearest hospital, ported from allergy-locator's facility data -- general, pediatric specialty, and pediatric cardiac surgery.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/care-access-methodology.md",
+  methodologyUrl: methodologyDocUrl("care-access"),
   supportsTime: false,
   layers: (Object.keys(LAYER_LABELS) as CareAccessLayer[]).map((id) => ({
     id,

@@ -1,5 +1,6 @@
 import daysOnMarketData from "@data/days-on-market.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The ninth real Dataset -- Zillow Research's free, keyless "Mean Days to
@@ -59,7 +60,7 @@ export const daysOnMarketDataset: Dataset = {
   id: "days-on-market",
   label: "Housing market speed",
   description: "Zillow Mean Days to Pending, 2018-2026 -- how fast homes go under contract, higher = faster (harder to compete for a home).",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/days-on-market-methodology.md",
+  methodologyUrl: methodologyDocUrl("days-on-market"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

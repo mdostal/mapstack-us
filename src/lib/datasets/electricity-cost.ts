@@ -1,5 +1,6 @@
 import electricityCostData from "@data/electricity-cost.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The forty-first real Dataset -- state-level residential electricity
@@ -60,7 +61,7 @@ export const electricityCostDataset: Dataset = {
   id: "electricity-cost",
   label: "Electricity cost",
   description: "Real EIA state-level residential electricity price, 2001-2025 -- higher price = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/electricity-cost-methodology.md",
+  methodologyUrl: methodologyDocUrl("electricity-cost"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "electricity_cost", label: "Electricity cost" }],

@@ -1,5 +1,6 @@
 import trafficFatalitiesData from "@data/traffic-fatalities.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The tenth real Dataset -- motor-vehicle-crash death rate, sourced from
@@ -49,7 +50,7 @@ export const trafficFatalitiesDataset: Dataset = {
   id: "traffic-fatalities",
   label: "Traffic safety",
   description: "Motor-vehicle crash death rate (2017-2023 average, per 100,000 residents) -- County Health Rankings, sourced from NCHS/NVSS mortality data.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/traffic-fatalities-methodology.md",
+  methodologyUrl: methodologyDocUrl("traffic-fatalities"),
   supportsTime: false,
   layers: [{ id: "crash_death_rate", label: "Traffic fatality rate" }],
   getValue: getTrafficFatalitiesValue,

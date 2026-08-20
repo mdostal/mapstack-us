@@ -1,5 +1,6 @@
 import parksData from "@data/parks.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirteenth real Dataset -- park access, sourced from the Trust for
@@ -51,7 +52,7 @@ export const parksDataset: Dataset = {
   id: "parks",
   label: "Park access",
   description: "Trust for Public Land ParkServe -- percent of residents within a 10-minute walk of a park, higher = less access = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/parks-methodology.md",
+  methodologyUrl: methodologyDocUrl("parks"),
   supportsTime: false,
   layers: [{ id: "park_access", label: "Park access", legendLow: "Good access", legendHigh: "Poor access" }],
   getValue: getParksValue,

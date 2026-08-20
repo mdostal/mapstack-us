@@ -1,5 +1,6 @@
 import costOfLivingData from "@data/cost-of-living.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-sixth real Dataset -- cost of living, unblocked by a real,
@@ -67,7 +68,7 @@ export const costOfLivingDataset: Dataset = {
   id: "cost-of-living",
   label: "Cost of living",
   description: "Regional Price Parities -- real BEA index of goods, rents, and services cost vs. the national average, 2008-2024.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/cost-of-living-methodology.md",
+  methodologyUrl: methodologyDocUrl("cost-of-living"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "cost_of_living", label: "Cost of living" }],

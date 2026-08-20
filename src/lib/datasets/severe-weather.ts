@@ -1,5 +1,6 @@
 import severeWeatherData from "@data/severe-weather.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-sixth real Dataset -- severe weather event frequency,
@@ -79,7 +80,7 @@ export const severeWeatherDataset: Dataset = {
   id: "severe-weather",
   label: "Severe weather frequency",
   description: "Real NOAA Storm Events frequency, 1950-2026 -- county-level, higher count = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/severe-weather-methodology.md",
+  methodologyUrl: methodologyDocUrl("severe-weather"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "severe_weather_frequency", label: "Severe weather frequency" }],

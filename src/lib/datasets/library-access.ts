@@ -1,5 +1,6 @@
 import libraryAccessData from "@data/library-access.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-fifth real Dataset -- public library access, ddr7-1
@@ -72,7 +73,7 @@ export const libraryAccessDataset: Dataset = {
   id: "library-access",
   label: "Library access",
   description: "Real IMLS library visits per capita, 2007-2024 -- lower access = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/library-access-methodology.md",
+  methodologyUrl: methodologyDocUrl("library-access"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "library_access", label: "Library access", legendLow: "Good access", legendHigh: "Poor access" }],

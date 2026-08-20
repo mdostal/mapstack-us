@@ -1,5 +1,6 @@
 import broadbandData from "@data/broadband.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The fifteenth real Dataset -- broadband access, and the first of the
@@ -70,7 +71,7 @@ export const broadbandDataset: Dataset = {
   id: "broadband",
   label: "Broadband access",
   description: "Percent of households with a broadband internet subscription, 2021-2025 -- County Health Rankings, sourced from Census ACS 5-year estimates.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/broadband-methodology.md",
+  methodologyUrl: methodologyDocUrl("broadband"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "broadband_access", label: "Broadband access", legendLow: "High subscription", legendHigh: "Low subscription" }],

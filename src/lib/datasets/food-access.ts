@@ -1,5 +1,6 @@
 import foodAccessData from "@data/food-access.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The seventh real Dataset -- USDA ERS's Food Access Research Atlas (FARA),
@@ -77,7 +78,7 @@ export const foodAccessDataset: Dataset = {
   id: "food-access",
   label: "Food access",
   description: "USDA Food Access Research Atlas, 2010/2015/2019 -- share of a population living far from a supermarket, higher = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/food-access-methodology.md",
+  methodologyUrl: methodologyDocUrl("food-access"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: (Object.keys(LAYER_LABELS) as FoodAccessLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),

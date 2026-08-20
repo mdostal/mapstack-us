@@ -1,5 +1,6 @@
 import walkabilityData from "@data/walkability.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twelfth real Dataset -- EPA's official National Walkability Index,
@@ -53,7 +54,7 @@ export const walkabilityDataset: Dataset = {
   id: "walkability",
   label: "Walkability",
   description: "EPA National Walkability Index at each city's reference point -- higher score, less walkable = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/walkability-methodology.md",
+  methodologyUrl: methodologyDocUrl("walkability"),
   supportsTime: false,
   layers: [{ id: "walkability", label: "Walkability", legendLow: "Walkable", legendHigh: "Car-dependent" }],
   getValue: getWalkabilityValue,

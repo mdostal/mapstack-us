@@ -1,5 +1,6 @@
 import incomeTaxData from "@data/income-tax.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-first real Dataset -- state individual income tax rate,
@@ -63,7 +64,7 @@ export const incomeTaxDataset: Dataset = {
   id: "income-tax",
   label: "State income tax",
   description: "State individual income tax rate applicable at each city's real median household income, 2015-2023 -- Tax Foundation, state-level only.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/income-tax-methodology.md",
+  methodologyUrl: methodologyDocUrl("income-tax"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "state_income_tax", label: "State income tax" }],

@@ -1,5 +1,6 @@
 import healthData from "@data/health.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The sixth real Dataset -- CDC PLACES chronic-disease-prevalence
@@ -68,7 +69,7 @@ export const healthDataset: Dataset = {
   id: "health",
   label: "Health outcomes",
   description: "CDC PLACES chronic-disease prevalence (age-adjusted) -- asthma, obesity, diabetes, depression, high blood pressure.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/health-methodology.md",
+  methodologyUrl: methodologyDocUrl("health"),
   supportsTime: false,
   layers: (Object.keys(LAYER_LABELS) as HealthLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),
   getValue: getHealthValue,

@@ -1,5 +1,6 @@
 import salesTaxData from "@data/sales-tax.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The nineteenth real Dataset -- combined (state + local) sales tax rate,
@@ -42,7 +43,7 @@ export const salesTaxDataset: Dataset = {
   id: "sales-tax",
   label: "Sales tax",
   description: "Combined state + local sales tax rate -- Tax Foundation, city-level where published, state average otherwise.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/sales-tax-methodology.md",
+  methodologyUrl: methodologyDocUrl("sales-tax"),
   supportsTime: false,
   layers: [{ id: "combined_sales_tax", label: "Combined sales tax rate" }],
   getValue: getSalesTaxValue,

@@ -2,6 +2,7 @@ import sviData from "@data/svi.json";
 import { toOrdinal } from "@/lib/datasets/format";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
 import cities from "@data/cities.json";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The fifth real Dataset -- CDC/ATSDR's Social Vulnerability Index (SVI),
@@ -94,7 +95,7 @@ export const sviDataset: Dataset = {
   id: "svi",
   label: "Social vulnerability",
   description: "CDC/ATSDR Social Vulnerability Index, 2010-2022 -- how exposed a community is to disaster/crisis broadly, higher = more vulnerable.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/svi-methodology.md",
+  methodologyUrl: methodologyDocUrl("svi"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: (Object.keys(LAYER_LABELS) as SviLayer[]).map((id) => ({ id, label: LAYER_LABELS[id] })),

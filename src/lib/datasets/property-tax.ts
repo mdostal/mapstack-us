@@ -1,5 +1,6 @@
 import propertyTaxData from "@data/property-tax.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-second real Dataset -- effective property tax rate, the last
@@ -62,7 +63,7 @@ export const propertyTaxDataset: Dataset = {
   id: "property-tax",
   label: "Property tax",
   description: "Effective property tax rate -- median real estate taxes paid divided by median home value, real Census ACS data, 2010-2023.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/property-tax-methodology.md",
+  methodologyUrl: methodologyDocUrl("property-tax"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "property_tax_rate", label: "Effective property tax rate" }],

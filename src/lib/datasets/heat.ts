@@ -1,5 +1,6 @@
 import heatData from "@data/heat.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The eighteenth real Dataset -- extreme heat days, sourced from NOAA's
@@ -41,7 +42,7 @@ export const heatDataset: Dataset = {
   id: "heat",
   label: "Extreme heat",
   description: "Average number of days per year with a max temperature above 90°F -- NOAA 1991-2020 Climate Normals, nearest-station matched.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/heat-methodology.md",
+  methodologyUrl: methodologyDocUrl("heat"),
   supportsTime: false,
   layers: [{ id: "extreme_heat_days", label: "Extreme heat days" }],
   getValue: getHeatValue,

@@ -1,5 +1,6 @@
 import triFacilityDensityData from "@data/tri-facility-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-ninth real Dataset -- EPA Toxics Release Inventory (TRI)
@@ -67,7 +68,7 @@ export const triFacilityDensityDataset: Dataset = {
   id: "tri-facility-density",
   label: "Industrial facility density",
   description: "Real EPA Toxics Release Inventory facility proximity, 1987-2024 -- higher density of reporting facilities nearby = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/tri-facility-density-methodology.md",
+  methodologyUrl: methodologyDocUrl("tri-facility-density"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "tri_facility_density", label: "Industrial facility density" }],

@@ -1,5 +1,6 @@
 import droughtData from "@data/drought.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-first real Dataset -- county-level drought severity,
@@ -65,7 +66,7 @@ export const droughtDataset: Dataset = {
   id: "drought",
   label: "Drought severity",
   description: "Real US Drought Monitor severity, 2000-2026 -- county-level annual average percent in Severe Drought or worse.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/drought-methodology.md",
+  methodologyUrl: methodologyDocUrl("drought"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "drought_severity", label: "Drought severity" }],

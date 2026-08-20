@@ -1,5 +1,6 @@
 import housingInventoryData from "@data/housing-inventory.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The eighth real Dataset -- Zillow Research's free, keyless "For-Sale
@@ -61,7 +62,7 @@ export const housingInventoryDataset: Dataset = {
   id: "housing-inventory",
   label: "Housing supply",
   description: "Zillow For-Sale Inventory, 2018-2026 -- how tight the local home-buying market is, higher = fewer homes for sale relative to population.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/housing-inventory-methodology.md",
+  methodologyUrl: methodologyDocUrl("housing-inventory"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

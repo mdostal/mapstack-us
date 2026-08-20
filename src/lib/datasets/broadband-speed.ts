@@ -1,5 +1,6 @@
 import broadbandSpeedData from "@data/broadband-speed.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-seventh real Dataset -- gigabit broadband availability,
@@ -45,7 +46,7 @@ export const broadbandSpeedDataset: Dataset = {
   id: "broadband-speed",
   label: "Gigabit availability",
   description: "Real FCC gigabit broadband availability -- county-level, lower availability = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/broadband-speed-methodology.md",
+  methodologyUrl: methodologyDocUrl("broadband-speed"),
   supportsTime: false,
   layers: [{ id: "gigabit_availability", label: "Gigabit availability", legendLow: "High availability", legendHigh: "Low availability" }],
   getValue: getBroadbandSpeedValue,

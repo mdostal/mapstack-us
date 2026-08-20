@@ -1,5 +1,6 @@
 import unemploymentData from "@data/unemployment.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-third real Dataset -- local unemployment rate, extended to
@@ -61,7 +62,7 @@ export const unemploymentDataset: Dataset = {
   id: "unemployment",
   label: "Unemployment",
   description: "Real BLS Local Area Unemployment Statistics, 1976-2026 -- city-level where available, county fallback otherwise.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/unemployment-methodology.md",
+  methodologyUrl: methodologyDocUrl("unemployment"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "unemployment_rate", label: "Unemployment rate" }],

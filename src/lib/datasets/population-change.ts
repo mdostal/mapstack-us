@@ -1,5 +1,6 @@
 import populationChangeData from "@data/population-change.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-fifth real Dataset -- population growth/decline
@@ -66,7 +67,7 @@ export const populationChangeDataset: Dataset = {
   id: "population-change",
   label: "Population change",
   description: "Year-over-year population growth or decline, real Census data, 2001-2023 -- decline is the concerning pole.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/population-change-methodology.md",
+  methodologyUrl: methodologyDocUrl("population-change"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

@@ -1,5 +1,6 @@
 import schoolSpendingData from "@data/school-spending.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twenty-seventh real Dataset -- per-pupil school district spending,
@@ -70,7 +71,7 @@ export const schoolSpendingDataset: Dataset = {
   id: "school-spending",
   label: "School spending",
   description: "Real per-pupil school district spending, county-level, 1994-2020 -- lower spending = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/school-spending-methodology.md",
+  methodologyUrl: methodologyDocUrl("school-spending"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [

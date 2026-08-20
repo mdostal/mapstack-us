@@ -1,5 +1,6 @@
 import measuredGrassPollenData from "@data/measured-grass-pollen.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The twentieth real Dataset -- REAL, MEASURED grass pollen days,
@@ -77,7 +78,7 @@ export const measuredGrassPollenDataset: Dataset = {
   id: "measured-grass-pollen",
   label: "Measured grass pollen (real, limited coverage)",
   description: "Real, measured elevated-grass-pollen-day counts from real health-department pollen stations, year by year 1993-2020 -- not a model, but only covers cities near a real station (currently just the Twin Cities MN metro).",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/measured-grass-pollen-methodology.md",
+  methodologyUrl: methodologyDocUrl("measured-grass-pollen"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "measured_grass_pollen", label: "Measured grass pollen" }],

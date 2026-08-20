@@ -1,5 +1,6 @@
 import winterColdBurdenData from "@data/winter-cold-burden.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The fortieth real Dataset -- winter cold burden, ddr12-1
@@ -41,7 +42,7 @@ export const winterColdBurdenDataset: Dataset = {
   id: "winter-cold-burden",
   label: "Winter cold burden",
   description: "Average number of days per year with a min temperature at or below 32°F -- NOAA 1991-2020 Climate Normals, nearest-station matched.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/winter-cold-burden-methodology.md",
+  methodologyUrl: methodologyDocUrl("winter-cold-burden"),
   supportsTime: false,
   layers: [{ id: "winter_cold_burden", label: "Winter cold burden" }],
   getValue: getWinterColdBurdenValue,

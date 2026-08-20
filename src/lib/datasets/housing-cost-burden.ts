@@ -1,5 +1,6 @@
 import housingCostBurdenData from "@data/housing-cost-burden.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The seventeenth real Dataset -- housing affordability stress, and the
@@ -65,7 +66,7 @@ export const housingCostBurdenDataset: Dataset = {
   id: "housing-cost-burden",
   label: "Housing affordability",
   description: "Percent of households severely cost-burdened by housing (50%+ of income), real Census ACS data, 2009-2023.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/housing-cost-burden-methodology.md",
+  methodologyUrl: methodologyDocUrl("housing-cost-burden"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "severe_cost_burden", label: "Severe housing cost burden" }],

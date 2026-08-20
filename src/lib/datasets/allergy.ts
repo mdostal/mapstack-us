@@ -1,6 +1,7 @@
 import grassScores from "@data/allergy-scores.json";
 import allergensData from "@data/allergens.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The first real Dataset implementation, ported from allergy-locator's
@@ -54,7 +55,7 @@ export const allergyDataset: Dataset = {
   id: "allergy",
   label: "Allergy severity",
   description: "Pollen/mold severity by allergen -- a MODELED estimate (not a measured pollen count; no free measured US source exists at city scale), ported from allergy-locator's validated city scores.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/allergy-scoring.md",
+  methodologyUrl: methodologyDocUrl("allergy"),
   supportsTime: false,
   layers: [
     { id: "grass", label: "Grass" },

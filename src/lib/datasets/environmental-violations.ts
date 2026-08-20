@@ -1,5 +1,6 @@
 import environmentalViolationsData from "@data/environmental-violations.json";
 import type { Dataset, DatasetLayerValue } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-ninth real Dataset -- density of EPA facilities in
@@ -53,7 +54,7 @@ export const environmentalViolationsDataset: Dataset = {
   id: "environmental-violations",
   label: "Environmental violations",
   description: "Real EPA ECHO significant-violation facility density within 10mi -- higher count = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/environmental-violations-methodology.md",
+  methodologyUrl: methodologyDocUrl("environmental-violations"),
   supportsTime: false,
   layers: [{ id: "environmental_violations", label: "Environmental violations" }],
   getValue: getEnvironmentalViolationsValue,

@@ -1,5 +1,6 @@
 import historicSiteDensityData from "@data/historic-site-density.json";
 import type { Dataset, DatasetLayerValue, DatasetTimeContext } from "@/lib/datasets/types";
+import { methodologyDocUrl } from "@/lib/dataset-sources";
 
 /**
  * The thirty-eighth real Dataset -- density of National Register of Historic
@@ -62,7 +63,7 @@ export const historicSiteDensityDataset: Dataset = {
   id: "historic-site-density",
   label: "Historic site access",
   description: "Real NPS National Register of Historic Places density within 10mi, 1966-2025 -- fewer nearby sites = more concerning.",
-  methodologyUrl: "https://github.com/mdostal/mapstack-us/blob/main/data/historic-site-density-methodology.md",
+  methodologyUrl: methodologyDocUrl("historic-site-density"),
   supportsTime: true,
   availableYears: AVAILABLE_YEARS,
   layers: [{ id: "historic_site_density", label: "Historic site access", legendLow: "Many nearby", legendHigh: "Few nearby" }],
