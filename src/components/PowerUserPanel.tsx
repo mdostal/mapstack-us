@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { AccordionSection } from "@/components/AccordionSection";
@@ -75,10 +75,33 @@ export function PowerUserPanel() {
   const [filteredCityIds, setFilteredCityIds] = useState<Set<string> | null>(null);
   const [viewMode, setViewMode] = useState<"table" | "map">("table");
   const [hiddenDatasetIds, setHiddenDatasetIdsState] = useState<string[]>(() => getHiddenDatasetIds());
+  const VIEW_MODES = ["map", "table"] as const;
+  const viewTabRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   function updateHiddenDatasetIds(ids: string[]) {
     setHiddenDatasetIdsState(ids);
     setHiddenDatasetIds(ids);
+  }
+
+  // Real WAI-ARIA APG tablist keyboard pattern -- matches ChatPanel's own
+  // radiogroup roving-tabindex handler. Left/Up moves to the previous tab,
+  // Right/Down to the next, both wrapping; only the selected tab is ever a
+  // real Tab stop.
+  function handleViewTabKeyDown(e: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    let nextIndex: number | null = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      nextIndex = (index + 1) % VIEW_MODES.length;
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      nextIndex = (index - 1 + VIEW_MODES.length) % VIEW_MODES.length;
+    } else if (e.key === "Home") {
+      nextIndex = 0;
+    } else if (e.key === "End") {
+      nextIndex = VIEW_MODES.length - 1;
+    }
+    if (nextIndex === null) return;
+    e.preventDefault();
+    setViewMode(VIEW_MODES[nextIndex]);
+    viewTabRefs.current[nextIndex]?.focus();
   }
   const { cityId: selectedCityId, year, setCityId: setSelectedCityId, setYear, queryString } = useSharedViewParams();
 
@@ -250,10 +273,17 @@ export function PowerUserPanel() {
           <div className="flex flex-wrap items-center gap-2">
             <div role="tablist" aria-label="View" className="flex gap-1 rounded-md border border-zinc-200 p-0.5 dark:border-zinc-800">
               <button
+                ref={(el) => {
+                  viewTabRefs.current[0] = el;
+                }}
+                id="view-tab-map"
                 type="button"
                 role="tab"
                 aria-selected={viewMode === "map"}
+                aria-controls="view-panel-map"
+                tabIndex={viewMode === "map" ? 0 : -1}
                 onClick={() => setViewMode("map")}
+                onKeyDown={(e) => handleViewTabKeyDown(e, 0)}
                 className={`rounded px-2 py-1 text-xs font-medium ${
                   viewMode === "map"
                     ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
@@ -263,10 +293,17 @@ export function PowerUserPanel() {
                 Map
               </button>
               <button
+                ref={(el) => {
+                  viewTabRefs.current[1] = el;
+                }}
+                id="view-tab-table"
                 type="button"
                 role="tab"
                 aria-selected={viewMode === "table"}
+                aria-controls="view-panel-table"
+                tabIndex={viewMode === "table" ? 0 : -1}
                 onClick={() => setViewMode("table")}
+                onKeyDown={(e) => handleViewTabKeyDown(e, 1)}
                 className={`rounded px-2 py-1 text-xs font-medium ${
                   viewMode === "table"
                     ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
@@ -296,7 +333,7 @@ export function PowerUserPanel() {
           </div>
 
           {viewMode === "map" ? (
-            <div className="flex flex-1 flex-col gap-2">
+            <div id="view-panel-map" role="tabpanel" aria-labelledby="view-tab-map" className="flex flex-1 flex-col gap-2">
               <MapLayerControls
                 active={selected}
                 customOverlays={customOverlays.map((o) => ({ key: o.key, label: o.label }))}
@@ -333,15 +370,17 @@ export function PowerUserPanel() {
               </p>
             </div>
           ) : (
-            <ComparisonTable
-              selected={selected}
-              year={year}
-              selectedCityId={selectedCityId}
-              onSelectCity={setSelectedCityId}
-              sortKeys={sortKeys}
-              onSortKeysChange={setSortKeys}
-              visibleCityIds={filteredCityIds}
-            />
+            <div id="view-panel-table" role="tabpanel" aria-labelledby="view-tab-table">
+              <ComparisonTable
+                selected={selected}
+                year={year}
+                selectedCityId={selectedCityId}
+                onSelectCity={setSelectedCityId}
+                sortKeys={sortKeys}
+                onSortKeysChange={setSortKeys}
+                visibleCityIds={filteredCityIds}
+              />
+            </div>
           )}
 
           {/* Insights (and, by extension, methodology/legend context) are

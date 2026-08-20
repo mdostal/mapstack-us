@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { DATASETS } from "@/lib/datasets/registry";
 import { activeLayerKey, isSameLayer, type ActiveLayer } from "@/lib/active-layers";
 
@@ -51,6 +51,31 @@ export function AddLayerPanel({ active, onAdd, previewLayer, onPreview, hiddenDa
     onPreview(null);
   }
 
+  const categoryTabRefs = useRef<(HTMLButtonElement | null)[]>([]);
+
+  // Real WAI-ARIA APG tablist keyboard pattern -- matches ChatPanel's
+  // radiogroup and PowerUserPanel's Map/Table tabs. Left/Up moves to the
+  // previous category, Right/Down to the next, both wrapping; Home/End
+  // jump to the first/last. Order follows the tab strip's own array order,
+  // same as any wrapping browser tab bar -- the visual multi-row "blob"
+  // layout doesn't change the logical 1D sequence arrow keys walk.
+  function handleCategoryTabKeyDown(e: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    let nextIndex: number | null = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      nextIndex = (index + 1) % visibleDatasets.length;
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      nextIndex = (index - 1 + visibleDatasets.length) % visibleDatasets.length;
+    } else if (e.key === "Home") {
+      nextIndex = 0;
+    } else if (e.key === "End") {
+      nextIndex = visibleDatasets.length - 1;
+    }
+    if (nextIndex === null) return;
+    e.preventDefault();
+    selectDataset(visibleDatasets[nextIndex].id);
+    categoryTabRefs.current[nextIndex]?.focus();
+  }
+
   function togglePreview(candidate: ActiveLayer) {
     onPreview(previewLayer && isSameLayer(previewLayer, candidate) ? null : candidate);
   }
@@ -93,13 +118,20 @@ export function AddLayerPanel({ active, onAdd, previewLayer, onPreview, hiddenDa
             aria-label="Dataset category to add a layer from"
             className="flex max-h-28 flex-wrap gap-1 overflow-y-auto px-3 py-2"
           >
-            {visibleDatasets.map((d) => (
+            {visibleDatasets.map((d, index) => (
               <button
                 key={d.id}
+                ref={(el) => {
+                  categoryTabRefs.current[index] = el;
+                }}
+                id={`layer-category-tab-${d.id}`}
                 type="button"
                 role="tab"
                 aria-selected={datasetId === d.id}
+                aria-controls="layer-category-panel"
+                tabIndex={datasetId === d.id ? 0 : -1}
                 onClick={() => selectDataset(d.id)}
+                onKeyDown={(e) => handleCategoryTabKeyDown(e, index)}
                 className={`shrink-0 rounded-md px-2.5 py-1 text-xs font-medium ${
                   datasetId === d.id
                     ? "bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900"
@@ -114,8 +146,16 @@ export function AddLayerPanel({ active, onAdd, previewLayer, onPreview, hiddenDa
           {/* Step 2 lives in its own visually distinct block (background +
            * border), immediately under the category strip above -- never
            * separated from it by other content, so the two steps always read
-           * as one connected flow. */}
-          <div className="flex flex-col gap-2 border-t border-zinc-200 bg-zinc-50 p-3 dark:border-zinc-800 dark:bg-zinc-900/40">
+           * as one connected flow. A single shared tabpanel (not one per
+           * category) since its content swaps in place based on whichever
+           * category tab is selected -- aria-labelledby follows the
+           * selection so its accessible name always matches. */}
+          <div
+            id="layer-category-panel"
+            role="tabpanel"
+            aria-labelledby={dataset ? `layer-category-tab-${dataset.id}` : undefined}
+            className="flex flex-col gap-2 border-t border-zinc-200 bg-zinc-50 p-3 dark:border-zinc-800 dark:bg-zinc-900/40"
+          >
             <p className="text-[11px] font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
               Step 2 — Layer in {dataset?.label}
             </p>
