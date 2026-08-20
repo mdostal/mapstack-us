@@ -19,6 +19,7 @@ interface Props {
 export function FilterPopover({ selected, year, isActive, onFilterChange }: Props) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -27,8 +28,21 @@ export function FilterPopover({ selected, year, isActive, onFilterChange }: Prop
         setOpen(false);
       }
     }
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setOpen(false);
+        // Return focus to the trigger, same as any standard disclosure
+        // widget -- without this, Escape closes the popover but leaves
+        // focus stranded on whatever was inside it, now hidden.
+        triggerRef.current?.focus();
+      }
+    }
     document.addEventListener("pointerdown", handlePointerDown);
-    return () => document.removeEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
   }, [open]);
 
   if (selected.length < 2) return null;
@@ -36,6 +50,7 @@ export function FilterPopover({ selected, year, isActive, onFilterChange }: Prop
   return (
     <div className="relative" ref={containerRef}>
       <button
+        ref={triggerRef}
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
