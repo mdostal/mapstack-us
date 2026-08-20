@@ -93,6 +93,14 @@ writes `data/{id}.json` from the real source, committed alongside your
 code so `pnpm dev`/`pnpm build` never need to hit a live API. See
 `.env.example` for the real keys already in use and where to get one.
 
+```
+pip install -r scripts/requirements.txt
+```
+
+installs the one real third-party dependency the existing scripts need
+(`openpyxl`, for reading `.xlsx` sources) -- everything else they use is
+Python stdlib.
+
 ## Anything else
 
 Bug reports, accessibility fixes, and doc corrections are just as welcome

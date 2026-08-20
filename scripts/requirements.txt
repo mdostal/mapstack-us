@@ -1,0 +1,5 @@
+# The one real third-party dependency across all scripts/*.py generator
+# scripts (verified live: grep for every import across scripts/*.py --
+# everything else used is Python stdlib). Reads .xlsx workbooks (e.g. the
+# income-tax/sales-tax OOXML downloads) with no network calls of its own.
+openpyxl>=3.1.5
