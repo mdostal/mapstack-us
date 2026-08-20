@@ -46,11 +46,14 @@ export function SourcesPage() {
           each layer&apos;s 0–100 score does and doesn&apos;t mean.
         </p>
 
-        <div className="flex flex-col gap-2">
+        <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+          Every dataset&apos;s real source
+        </h2>
+        <ul className="flex flex-col gap-2">
           {DATASETS.map((dataset) => {
             const source = DATASET_SOURCES[dataset.id];
             return (
-              <div
+              <li
                 key={dataset.id}
                 className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm dark:border-zinc-800 dark:bg-zinc-900"
               >
@@ -71,10 +74,10 @@ export function SourcesPage() {
                     "source not yet documented"
                   )}
                 </span>
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
     </main>
   );

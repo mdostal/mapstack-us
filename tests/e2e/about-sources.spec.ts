@@ -33,7 +33,7 @@ test("Sources lists every real dataset with a named, linked source", async ({ pa
 
   // Every dataset gets a row -- count matches the real registry size, not
   // a stale hardcoded number that would silently drift as datasets ship.
-  const rows = page.locator("div.rounded-md.border").filter({ hasText: /methodology|source not yet documented/ });
+  const rows = page.locator("li.rounded-md.border").filter({ hasText: /methodology|source not yet documented/ });
   await expect(rows).toHaveCount(41);
 });
 
