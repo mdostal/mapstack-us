@@ -167,7 +167,13 @@ export function ChatPanel() {
             </button>
           </div>
 
-          <div data-testid="chat-messages" className="flex max-h-80 flex-col gap-2 overflow-y-auto rounded-md border border-zinc-200 p-2 dark:border-zinc-800">
+          <div
+            data-testid="chat-messages"
+            role="log"
+            aria-live="polite"
+            aria-relevant="additions"
+            className="flex max-h-80 flex-col gap-2 overflow-y-auto rounded-md border border-zinc-200 p-2 dark:border-zinc-800"
+          >
             {messages.length === 0 && (
               <p className="text-xs text-zinc-400 dark:text-zinc-500">
                 Ask about any city, dataset, or comparison -- e.g. &quot;how does Austin&apos;s violent crime rate compare to Denver&apos;s?&quot;
@@ -203,7 +209,7 @@ export function ChatPanel() {
           </div>
 
           {error && (
-            <p className="text-xs text-red-600 dark:text-red-400">
+            <p role="alert" className="text-xs text-red-600 dark:text-red-400">
               {error.message || `Something went wrong talking to ${providerInfo.label}. Check your key and try again.`}
             </p>
           )}
