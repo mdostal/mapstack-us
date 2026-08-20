@@ -195,7 +195,7 @@ def main():
                 continue
             count = events_by_county.get(fips_info["stcofips"], 0)
             score = round(min(100.0, (count / COUNT_CAP) * 100.0), 1)
-            year_records[cid] = {"event_count": count, "score": score, "months_covered": months_covered}
+            year_records[cid] = {"event_count": count, "concern": score, "months_covered": months_covered}
         per_year_records[year] = year_records
         print(f"{year}: {sum(events_by_county.values())} real county-zone events across {len(events_by_county)} counties, {len(year_records)}/{len(cities)} cities matched, real data through month {months_covered}", file=sys.stderr)
 

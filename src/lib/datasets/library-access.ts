@@ -38,7 +38,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
 interface LibraryAccessYear {
   visits_per_capita: number;
   systems_nearby: number;
-  score: number;
+  concern: number;
 }
 
 interface LibraryAccessRecord {
@@ -64,7 +64,7 @@ function getLibraryAccessValue(cityId: string, layerId: string, context?: Datase
 
   const systemWord = yearData.systems_nearby === 1 ? "system" : "systems";
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `${yearData.visits_per_capita} library visits per resident per year (${yearData.systems_nearby} ${systemWord} within 10 miles, ${year}) -- IMLS Public Libraries Survey`,
   };
 }

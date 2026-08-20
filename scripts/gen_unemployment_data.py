@@ -150,7 +150,7 @@ def main():
                 rate, period = cn_years[year]
                 tier = "county"
             score = round(min(100.0, (rate / RATE_CAP) * 100.0), 1)
-            years_data[year] = {"unemployment_rate_pct": rate, "period": period, "tier": tier, "score": score}
+            years_data[year] = {"unemployment_rate_pct": rate, "period": period, "tier": tier, "concern": score}
             per_year_coverage[year] = per_year_coverage.get(year, 0) + 1
 
         if years_data:

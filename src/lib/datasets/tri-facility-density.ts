@@ -34,7 +34,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
  */
 interface TriFacilityDensityYear {
   facility_count: number;
-  score: number;
+  concern: number;
 }
 
 interface TriFacilityDensityRecord {
@@ -59,7 +59,7 @@ function getTriFacilityDensityValue(cityId: string, layerId: string, context?: D
   if (!yearData) return null;
 
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `${yearData.facility_count} TRI-reporting facilities within 10 miles as of ${year} -- EPA Toxics Release Inventory`,
   };
 }

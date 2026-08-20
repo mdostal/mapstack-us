@@ -20,7 +20,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
 interface EarthquakeRecord {
   sds: number;
   sdc: string | null;
-  score: number;
+  concern: number;
 }
 
 const DATA = earthquakeData as unknown as Record<string, EarthquakeRecord> & { _meta: unknown };
@@ -32,7 +32,7 @@ function getEarthquakeValue(cityId: string, layerId: string): DatasetLayerValue 
 
   const sdcNote = record.sdc ? ` (Seismic Design Category ${record.sdc})` : "";
   return {
-    value: record.score,
+    value: record.concern,
     detail: `${record.sds} g design spectral acceleration${sdcNote} -- USGS ASCE 7-22`,
   };
 }

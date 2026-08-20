@@ -27,7 +27,7 @@ interface UnemploymentYear {
   unemployment_rate_pct: number;
   period: string;
   tier: "city" | "county";
-  score: number;
+  concern: number;
 }
 
 interface UnemploymentRecord {
@@ -53,7 +53,7 @@ function getUnemploymentValue(cityId: string, layerId: string, context?: Dataset
 
   const tierNote = yearData.tier === "city" ? "city rate" : "county rate -- no city-specific LAUS series that year";
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `${yearData.unemployment_rate_pct}% unemployment rate, ${yearData.period} ${year} (${tierNote}) -- BLS LAUS`,
   };
 }

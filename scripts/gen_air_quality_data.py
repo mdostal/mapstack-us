@@ -145,7 +145,7 @@ def main():
             if not entry:
                 continue
             score = round(min(100.0, (entry["p90_aqi"] / AQI_CAP) * 100.0), 1)
-            years_data[str(year)] = {**entry, "score": score}
+            years_data[str(year)] = {**entry, "concern": score}
         if years_data:
             records[cid] = {"county": fips["county_name"], "state": city["state"], "years": years_data}
 

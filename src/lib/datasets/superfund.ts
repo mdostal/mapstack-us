@@ -25,7 +25,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
 interface SuperfundRecord {
   final_npl_site_count: number;
   county: string;
-  score: number;
+  concern: number;
 }
 
 const DATA = superfundData as unknown as Record<string, SuperfundRecord> & { _meta: unknown };
@@ -47,7 +47,7 @@ function getSuperfundValue(cityId: string, layerId: string): DatasetLayerValue |
 
   const siteWord = record.final_npl_site_count === 1 ? "site" : "sites";
   return {
-    value: record.score,
+    value: record.concern,
     detail: `${record.final_npl_site_count} active Superfund (Final NPL) ${siteWord} in ${record.county} ${jurisdictionWord(cityId)} -- EPA Envirofacts SEMS`,
   };
 }

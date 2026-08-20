@@ -33,7 +33,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
 interface HateCrimeYear {
   incidents: number;
   rate_per_100k: number;
-  score: number;
+  concern: number;
 }
 
 interface HateCrimeRecord {
@@ -59,7 +59,7 @@ function getHateCrimeValue(cityId: string, layerId: string, context?: DatasetTim
   if (!yearData) return null;
 
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `${yearData.incidents} reported hate crime incidents (${yearData.rate_per_100k}/100k) in ${year} -- FBI Crime Data Explorer, ${record.agency_name}`,
   };
 }

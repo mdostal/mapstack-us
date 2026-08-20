@@ -167,7 +167,7 @@ def main():
 
             rpp_clamped = max(RPP_FLOOR, min(RPP_CEIL, rpp))
             score = round((rpp_clamped - RPP_FLOOR) / (RPP_CEIL - RPP_FLOOR) * 100.0, 1)
-            years_data[year] = {"rpp": round(rpp, 1), "tier": tier, "tier_name": tier_name, "score": score}
+            years_data[year] = {"rpp": round(rpp, 1), "tier": tier, "tier_name": tier_name, "concern": score}
 
         if years_data:
             latest_covered_year = max(years_data)

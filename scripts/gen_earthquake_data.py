@@ -72,7 +72,7 @@ def main():
             unmatched.append(city["id"])
         else:
             score = round(min(100.0, (sds / SDS_CAP) * 100.0), 1)
-            records[city["id"]] = {"sds": sds, "sdc": sdc, "score": score}
+            records[city["id"]] = {"sds": sds, "sdc": sdc, "concern": score}
         if (i + 1) % 50 == 0:
             print(f"  [{i + 1}/{len(cities)}] cities fetched", file=sys.stderr)
 

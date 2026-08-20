@@ -136,7 +136,7 @@ def main():
             years_data[str(year)] = {
                 "incidents": incidents,
                 "rate_per_100k": rate,
-                "score": round(min(100.0, (rate / RATE_CAP) * 100.0), 1),
+                "concern": round(min(100.0, (rate / RATE_CAP) * 100.0), 1),
             }
 
         if years_data:

@@ -32,7 +32,7 @@ interface CostOfLivingYear {
   rpp: number;
   tier: "metro" | "state";
   tier_name: string;
-  score: number;
+  concern: number;
 }
 
 interface CostOfLivingRecord {
@@ -59,7 +59,7 @@ function getCostOfLivingValue(cityId: string, layerId: string, context?: Dataset
   const comparison = yearData.rpp >= 100 ? `${(yearData.rpp - 100).toFixed(1)}% above` : `${(100 - yearData.rpp).toFixed(1)}% below`;
   const tierNote = yearData.tier === "metro" ? yearData.tier_name : `${yearData.tier_name} state average -- no metro-area RPP for this city`;
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `RPP ${yearData.rpp} in ${year} -- ${comparison} the national average (${tierNote}) -- BEA Regional Price Parities`,
   };
 }

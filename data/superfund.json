@@ -8,2561 +8,2561 @@
   "abilene-tx": {
     "county": "Taylor",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "akron-oh": {
     "county": "Summit",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "alameda-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "albany-ny": {
     "county": "Albany",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "albuquerque-nm": {
     "county": "Bernalillo",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "alexandria-va": {
     "county": "Alexandria",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "alhambra-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "allen-tx": {
     "county": "Collin",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "allentown-pa": {
     "county": "Lehigh",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "amarillo-tx": {
     "county": "Potter",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "anaheim-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "anchorage-ak": {
     "county": "Anchorage",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "ankeny-ia": {
     "county": "Polk",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "ann-arbor-mi": {
     "county": "Washtenaw",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "antioch-ca": {
     "county": "Contra Costa",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "apex-nc": {
     "county": "Wake",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "arlington-tx": {
     "county": "Tarrant",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "arlington-va": {
     "county": "Arlington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "arvada-co": {
     "county": "Jefferson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "asheville-nc": {
     "county": "Buncombe",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "athens-ga": {
     "county": "Clarke",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "atlanta-ga": {
     "county": "Fulton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "auburn-al": {
     "county": "Lee",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "auburn-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "augusta-ga": {
     "county": "Richmond",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "aurora-co": {
     "county": "Arapahoe",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "aurora-il": {
     "county": "Kane",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "austin-tx": {
     "county": "Travis",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "avondale-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "bakersfield-ca": {
     "county": "Kern",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "baltimore-md": {
     "county": "Baltimore",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "baton-rouge-la": {
     "county": "East Baton Rouge",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "baytown-tx": {
     "county": "Harris",
     "final_npl_site_count": 13,
-    "score": 100.0
+    "concern": 100.0
   },
   "beaumont-tx": {
     "county": "Jefferson",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "beaverton-or": {
     "county": "Washington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "bellevue-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "bellingham-wa": {
     "county": "Whatcom",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "bend-or": {
     "county": "Deschutes",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "berkeley-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "bethlehem-pa": {
     "county": "Northampton",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "billings-mt": {
     "county": "Yellowstone",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "birmingham-al": {
     "county": "Jefferson",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "bismarck-nd": {
     "county": "Burleigh",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "blanding-ut": {
     "county": "San Juan",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "bloomington-il": {
     "county": "McLean",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "bloomington-in": {
     "county": "Monroe",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "bloomington-mn": {
     "county": "Hennepin",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "boca-raton-fl": {
     "county": "Palm Beach",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "boise-id": {
     "county": "Ada",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "boston-ma": {
     "county": "Suffolk",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "boulder-co": {
     "county": "Boulder",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "bowling-green-ky": {
     "county": "Warren",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "boynton-beach-fl": {
     "county": "Palm Beach",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "bridgeport-ct": {
     "county": "Greater Bridgeport",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "brockton-ma": {
     "county": "Plymouth",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "broken-arrow-ok": {
     "county": "Tulsa",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "brooklyn-park-mn": {
     "county": "Hennepin",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "broomfield-co": {
     "county": "Broomfield",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "brownsville-tx": {
     "county": "Cameron",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "bryan-tx": {
     "county": "Brazos",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "buckeye-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "buena-park-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "buffalo-ny": {
     "county": "Erie",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "burbank-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "caldwell-id": {
     "county": "Canyon",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "cambridge-ma": {
     "county": "Middlesex",
     "final_npl_site_count": 14,
-    "score": 100.0
+    "concern": 100.0
   },
   "cape-coral-fl": {
     "county": "Lee",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "carlsbad-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "carlsbad-nm": {
     "county": "Eddy",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "carmel-in": {
     "county": "Hamilton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "carrollton-tx": {
     "county": "Denton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "carson-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "cary-nc": {
     "county": "Wake",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "castle-rock-co": {
     "county": "Douglas",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "cedar-park-tx": {
     "county": "Williamson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "cedar-rapids-ia": {
     "county": "Linn",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "centennial-co": {
     "county": "Arapahoe",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "champaign-il": {
     "county": "Champaign",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "chandler-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "charleston-sc": {
     "county": "Charleston",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "charlotte-nc": {
     "county": "Mecklenburg",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "chattanooga-tn": {
     "county": "Hamilton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "chesapeake-va": {
     "county": "Chesapeake",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "chicago-il": {
     "county": "Cook",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "chico-ca": {
     "county": "Butte",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "chino-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "chino-hills-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "chula-vista-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "cicero-il": {
     "county": "Cook",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "cincinnati-oh": {
     "county": "Hamilton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "citrus-heights-ca": {
     "county": "Sacramento",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "clarksville-tn": {
     "county": "Montgomery",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "clearwater-fl": {
     "county": "Pinellas",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "cleveland-oh": {
     "county": "Cuyahoga",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "clifton-nj": {
     "county": "Passaic",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "clovis-ca": {
     "county": "Fresno",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "college-station-tx": {
     "county": "Brazos",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "colorado-springs-co": {
     "county": "El Paso",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "columbia-mo": {
     "county": "Boone",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "columbia-sc": {
     "county": "Richland",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "columbus-ga": {
     "county": "Muscogee",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "columbus-oh": {
     "county": "Franklin",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "compton-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "concord-ca": {
     "county": "Contra Costa",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "concord-nc": {
     "county": "Cabarrus",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "conroe-tx": {
     "county": "Montgomery",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "coral-springs-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "corona-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "corpus-christi-tx": {
     "county": "Nueces",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "costa-mesa-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "cranston-ri": {
     "county": "Providence",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "dallas-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "daly-city-ca": {
     "county": "San Mateo",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "danbury-ct": {
     "county": "Western Connecticut",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "davenport-ia": {
     "county": "Scott",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "davie-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "dayton-oh": {
     "county": "Montgomery",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "daytona-beach-fl": {
     "county": "Volusia",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "dearborn-mi": {
     "county": "Wayne",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "deerfield-beach-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "deltona-fl": {
     "county": "Volusia",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "denton-tx": {
     "county": "Denton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "denver-co": {
     "county": "Denver",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "des-moines-ia": {
     "county": "Polk",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "detroit-mi": {
     "county": "Wayne",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "doral-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "downey-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "duluth-mn": {
     "county": "St. Louis",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "durango-co": {
     "county": "La Plata",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "durham-nc": {
     "county": "Durham",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "edinburg-tx": {
     "county": "Hidalgo",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "edmond-ok": {
     "county": "Oklahoma",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "el-cajon-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "el-monte-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "el-paso-tx": {
     "county": "El Paso",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "elgin-il": {
     "county": "Kane",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "elizabeth-nj": {
     "county": "Union",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "elk-grove-ca": {
     "county": "Sacramento",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "erie-pa": {
     "county": "Erie",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "escondido-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "eugene-or": {
     "county": "Lane",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "evansville-in": {
     "county": "Vanderburgh",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "everett-wa": {
     "county": "Snohomish",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fairfield-ca": {
     "county": "Solano",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "fall-river-ma": {
     "county": "Bristol",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "fargo-nd": {
     "county": "Cass",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "farmington-hills-mi": {
     "county": "Oakland",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "fayetteville-ar": {
     "county": "Washington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fayetteville-nc": {
     "county": "Cumberland",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "federal-way-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "fishers-in": {
     "county": "Hamilton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "flagstaff-az": {
     "county": "Coconino",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "flint-mi": {
     "county": "Genesee",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "flower-mound-tx": {
     "county": "Denton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "folsom-ca": {
     "county": "Sacramento",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "fontana-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "fort-collins-co": {
     "county": "Larimer",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fort-lauderdale-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "fort-myers-fl": {
     "county": "Lee",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fort-smith-ar": {
     "county": "Sebastian",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fort-wayne-in": {
     "county": "Allen",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "fort-worth-tx": {
     "county": "Tarrant",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "franklin-tn": {
     "county": "Williamson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "frederick-md": {
     "county": "Frederick",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "fremont-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "fresno-ca": {
     "county": "Fresno",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "frisco-tx": {
     "county": "Collin",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "fullerton-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "gainesville-fl": {
     "county": "Alachua",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "garden-grove-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "garland-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "gastonia-nc": {
     "county": "Gaston",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "georgetown-tx": {
     "county": "Williamson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "geraldine-mt": {
     "county": "Chouteau",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "gilbert-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "glendale-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "glendale-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "goodyear-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "grand-junction-co": {
     "county": "Mesa",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "grand-prairie-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "grand-rapids-mi": {
     "county": "Kent",
     "final_npl_site_count": 8,
-    "score": 100.0
+    "concern": 100.0
   },
   "greeley-co": {
     "county": "Weld",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "green-bay-wi": {
     "county": "Brown",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "greensboro-nc": {
     "county": "Guilford",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "greenville-nc": {
     "county": "Pitt",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "gresham-or": {
     "county": "Multnomah",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "hampton-va": {
     "county": "Hampton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "hartford-ct": {
     "county": "Capitol",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "hawthorne-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "hayward-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "hemet-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "henderson-nv": {
     "county": "Clark",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "hesperia-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "hialeah-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "high-point-nc": {
     "county": "Guilford",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "hillsboro-or": {
     "county": "Washington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "hollywood-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "homestead-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "honolulu-hi": {
     "county": "Honolulu",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "hoover-al": {
     "county": "Jefferson",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "houston-tx": {
     "county": "Harris",
     "final_npl_site_count": 13,
-    "score": 100.0
+    "concern": 100.0
   },
   "huntington-beach-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "huntsville-al": {
     "county": "Madison",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "independence-mo": {
     "county": "Jackson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "indianapolis-in": {
     "county": "Marion",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "indio-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "inglewood-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "irvine-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "irving-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "jackson-ms": {
     "county": "Hinds",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "jacksonville-fl": {
     "county": "Duval",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "jersey-city-nj": {
     "county": "Hudson",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "johns-creek-ga": {
     "county": "Fulton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "joliet-il": {
     "county": "Will",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "jonesboro-ar": {
     "county": "Craighead",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "jurupa-valley-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "kalispell-mt": {
     "county": "Flathead",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "kansas-city-ks": {
     "county": "Wyandotte",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "kansas-city-mo": {
     "county": "Jackson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "kennewick-wa": {
     "county": "Benton",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "kenosha-wi": {
     "county": "Kenosha",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "kent-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "killeen-tx": {
     "county": "Bell",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "kirkland-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "kissimmee-fl": {
     "county": "Osceola",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "knoxville-tn": {
     "county": "Knox",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "lafayette-la": {
     "county": "Lafayette",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lake-charles-la": {
     "county": "Calcasieu",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lake-forest-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "lakeland-fl": {
     "county": "Polk",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "lakeville-mn": {
     "county": "Dakota",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "lakewood-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "lakewood-co": {
     "county": "Jefferson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "lancaster-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "lansing-mi": {
     "county": "Ingham",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "laredo-tx": {
     "county": "Webb",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "largo-fl": {
     "county": "Pinellas",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "las-cruces-nm": {
     "county": "Do\u00f1a Ana",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "las-vegas-nv": {
     "county": "Clark",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lawrence-ks": {
     "county": "Douglas",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lawrence-ma": {
     "county": "Essex",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "lawton-ok": {
     "county": "Comanche",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "layton-ut": {
     "county": "Davis",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "league-city-tx": {
     "county": "Galveston",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "leander-tx": {
     "county": "Williamson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lees-summit-mo": {
     "county": "Jackson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "lehi-ut": {
     "county": "Utah",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lewisville-tx": {
     "county": "Denton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lexington-ky": {
     "county": "Fayette",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lincoln-ne": {
     "county": "Lancaster",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "little-rock-ar": {
     "county": "Pulaski",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "livermore-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "livonia-mi": {
     "county": "Wayne",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "long-beach-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "longmont-co": {
     "county": "Boulder",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "longview-tx": {
     "county": "Gregg",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "los-alamos-nm": {
     "county": "Los Alamos",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "los-angeles-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "louisville-ky": {
     "county": "Jefferson",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "loveland-co": {
     "county": "Larimer",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lowell-ma": {
     "county": "Middlesex",
     "final_npl_site_count": 14,
-    "score": 100.0
+    "concern": 100.0
   },
   "lubbock-tx": {
     "county": "Lubbock",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lynchburg-va": {
     "county": "Lynchburg",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "lynn-ma": {
     "county": "Essex",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "mableton-ga": {
     "county": "Cobb",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "macon-ga": {
     "county": "Bibb",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "madison-wi": {
     "county": "Dane",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "manchester-nh": {
     "county": "Hillsborough",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "mansfield-tx": {
     "county": "Tarrant",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "manteca-ca": {
     "county": "San Joaquin",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "maricopa-az": {
     "county": "Pinal",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "marysville-wa": {
     "county": "Snohomish",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "mcallen-tx": {
     "county": "Hidalgo",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "mckinney-tx": {
     "county": "Collin",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "medford-or": {
     "county": "Jackson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "melbourne-fl": {
     "county": "Brevard",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "memphis-tn": {
     "county": "Shelby",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "menifee-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "merced-ca": {
     "county": "Merced",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "meridian-id": {
     "county": "Ada",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "mesa-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "mesquite-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "miami-beach-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "miami-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "miami-gardens-fl": {
     "county": "Miami-Dade",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "midland-tx": {
     "county": "Midland",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "milpitas-ca": {
     "county": "Santa Clara",
     "final_npl_site_count": 21,
-    "score": 100.0
+    "concern": 100.0
   },
   "milwaukee-wi": {
     "county": "Milwaukee",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "minneapolis-mn": {
     "county": "Hennepin",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "miramar-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "mission-tx": {
     "county": "Hidalgo",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "mission-viejo-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "missoula-mt": {
     "county": "Missoula",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "missouri-city-tx": {
     "county": "Fort Bend",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "mobile-al": {
     "county": "Mobile",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "modesto-ca": {
     "county": "Stanislaus",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "montgomery-al": {
     "county": "Montgomery",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "monticello-ut": {
     "county": "San Juan",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "moreno-valley-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "mount-pleasant-sc": {
     "county": "Charleston",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "mountain-view-ca": {
     "county": "Santa Clara",
     "final_npl_site_count": 21,
-    "score": 100.0
+    "concern": 100.0
   },
   "murfreesboro-tn": {
     "county": "Rutherford",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "murrieta-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "nampa-id": {
     "county": "Canyon",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "naperville-il": {
     "county": "DuPage",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "nashua-nh": {
     "county": "Hillsborough",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "nashville-tn": {
     "county": "Davidson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "new-bedford-ma": {
     "county": "Bristol",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "new-braunfels-tx": {
     "county": "Comal",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "new-haven-ct": {
     "county": "South Central Connecticut",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "new-orleans-la": {
     "county": "Orleans",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "new-rochelle-ny": {
     "county": "Westchester",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "new-york-ny": {
     "county": "New York",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "newark-nj": {
     "county": "Essex",
     "final_npl_site_count": 8,
-    "score": 100.0
+    "concern": 100.0
   },
   "newport-beach-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "newport-news-va": {
     "county": "Newport News",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "newton-ma": {
     "county": "Middlesex",
     "final_npl_site_count": 14,
-    "score": 100.0
+    "concern": 100.0
   },
   "norfolk-va": {
     "county": "Norfolk",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "norman-ok": {
     "county": "Cleveland",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "north-charleston-sc": {
     "county": "Charleston",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "north-las-vegas-nv": {
     "county": "Clark",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "north-port-fl": {
     "county": "Sarasota",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "norwalk-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "norwalk-ct": {
     "county": "Western Connecticut",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "oakland-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "oceanside-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "odessa-tx": {
     "county": "Ector",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "ofallon-mo": {
     "county": "St. Charles",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "ogden-ut": {
     "county": "Weber",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "oklahoma-city-ok": {
     "county": "Oklahoma",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "olathe-ks": {
     "county": "Johnson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "omaha-ne": {
     "county": "Douglas",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "ontario-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "orange-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "orem-ut": {
     "county": "Utah",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "orlando-fl": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "overland-park-ks": {
     "county": "Johnson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "oxnard-ca": {
     "county": "Ventura",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "palm-bay-fl": {
     "county": "Brevard",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "palm-coast-fl": {
     "county": "Flagler",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "palmdale-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "parma-oh": {
     "county": "Cuyahoga",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "pasadena-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "pasadena-tx": {
     "county": "Harris",
     "final_npl_site_count": 13,
-    "score": 100.0
+    "concern": 100.0
   },
   "pasco-wa": {
     "county": "Franklin",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "paterson-nj": {
     "county": "Passaic",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "pawtucket-ri": {
     "county": "Providence",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "pearland-tx": {
     "county": "Brazoria",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "pembroke-pines-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "peoria-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "peoria-il": {
     "county": "Peoria",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "perris-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "pharr-tx": {
     "county": "Hidalgo",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "philadelphia-pa": {
     "county": "Philadelphia",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "phoenix-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "pittsburg-ca": {
     "county": "Contra Costa",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "pittsburgh-pa": {
     "county": "Allegheny",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "plano-tx": {
     "county": "Collin",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "plantation-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "plymouth-mn": {
     "county": "Hennepin",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "pomona-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "pompano-beach-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "port-st-lucie-fl": {
     "county": "St. Lucie",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "portland-or": {
     "county": "Multnomah",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "portsmouth-va": {
     "county": "Portsmouth",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "providence-ri": {
     "county": "Providence",
     "final_npl_site_count": 7,
-    "score": 87.5
+    "concern": 87.5
   },
   "provo-ut": {
     "county": "Utah",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "pueblo-co": {
     "county": "Pueblo",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "queen-creek-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "quincy-ma": {
     "county": "Norfolk",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "racine-wi": {
     "county": "Racine",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "raleigh-nc": {
     "county": "Wake",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "rancho-cordova-ca": {
     "county": "Sacramento",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "rancho-cucamonga-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "rapid-city-sd": {
     "county": "Pennington",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "reading-pa": {
     "county": "Berks",
     "final_npl_site_count": 9,
-    "score": 100.0
+    "concern": 100.0
   },
   "redding-ca": {
     "county": "Shasta",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "redmond-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "redwood-city-ca": {
     "county": "San Mateo",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "reno-nv": {
     "county": "Washoe",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "renton-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "rialto-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "richardson-tx": {
     "county": "Dallas",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "richmond-ca": {
     "county": "Contra Costa",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "richmond-va": {
     "county": "Richmond",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "rio-rancho-nm": {
     "county": "Sandoval",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "riverside-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "roanoke-va": {
     "county": "Roanoke",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "rochester-hills-mi": {
     "county": "Oakland",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "rochester-mn": {
     "county": "Olmsted",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "rochester-ny": {
     "county": "Monroe",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "rockford-il": {
     "county": "Winnebago",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "rocklin-ca": {
     "county": "Placer",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "rogers-ar": {
     "county": "Benton",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "roseville-ca": {
     "county": "Placer",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "roswell-ga": {
     "county": "Fulton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "round-rock-tx": {
     "county": "Williamson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sacramento-ca": {
     "county": "Sacramento",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "saint-paul-mn": {
     "county": "Ramsey",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "salem-or": {
     "county": "Marion",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "salinas-ca": {
     "county": "Monterey",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "salt-lake-city-ut": {
     "county": "Salt Lake",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "san-angelo-tx": {
     "county": "Tom Green",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "san-antonio-tx": {
     "county": "Bexar",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "san-bernardino-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "san-diego-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "san-francisco-ca": {
     "county": "San Francisco",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "san-jose-ca": {
     "county": "Santa Clara",
     "final_npl_site_count": 21,
-    "score": 100.0
+    "concern": 100.0
   },
   "san-leandro-ca": {
     "county": "Alameda",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "san-marcos-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "san-marcos-tx": {
     "county": "Hays",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "san-mateo-ca": {
     "county": "San Mateo",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "san-ramon-ca": {
     "county": "Contra Costa",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "sandpoint-id": {
     "county": "Bonner",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sandy-springs-ga": {
     "county": "Fulton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "sandy-ut": {
     "county": "Salt Lake",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "santa-ana-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "santa-barbara-ca": {
     "county": "Santa Barbara",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "santa-clara-ca": {
     "county": "Santa Clara",
     "final_npl_site_count": 21,
-    "score": 100.0
+    "concern": 100.0
   },
   "santa-clarita-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "santa-fe-nm": {
     "county": "Santa Fe",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "santa-maria-ca": {
     "county": "Santa Barbara",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "santa-monica-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "santa-rosa-ca": {
     "county": "Sonoma",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "savannah-ga": {
     "county": "Chatham",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "schaumburg-il": {
     "county": "Cook",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "scottsdale-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "seattle-wa": {
     "county": "King",
     "final_npl_site_count": 10,
-    "score": 100.0
+    "concern": 100.0
   },
   "shreveport-la": {
     "county": "Caddo",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "simi-valley-ca": {
     "county": "Ventura",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "sioux-city-ia": {
     "county": "Woodbury",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sioux-falls-sd": {
     "county": "Minnehaha",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "somerville-ma": {
     "county": "Middlesex",
     "final_npl_site_count": 14,
-    "score": 100.0
+    "concern": 100.0
   },
   "south-bend-in": {
     "county": "St. Joseph",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "south-fulton-ga": {
     "county": "Fulton",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "south-gate-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "south-jordan-ut": {
     "county": "Salt Lake",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "sparks-nv": {
     "county": "Washoe",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "spokane-valley-wa": {
     "county": "Spokane",
     "final_npl_site_count": 8,
-    "score": 100.0
+    "concern": 100.0
   },
   "spokane-wa": {
     "county": "Spokane",
     "final_npl_site_count": 8,
-    "score": 100.0
+    "concern": 100.0
   },
   "springdale-ar": {
     "county": "Washington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "springfield-il": {
     "county": "Sangamon",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "springfield-ma": {
     "county": "Hampden",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "springfield-mo": {
     "county": "Greene",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "st-george-ut": {
     "county": "Washington",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "st-louis-mo": {
     "county": "St. Louis",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "st-petersburg-fl": {
     "county": "Pinellas",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "stamford-ct": {
     "county": "Western Connecticut",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sterling-heights-mi": {
     "county": "Macomb",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "stockton-ca": {
     "county": "San Joaquin",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "suffolk-va": {
     "county": "Suffolk",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "sugar-land-tx": {
     "county": "Fort Bend",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sundance-wy": {
     "county": "Crook",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "sunnyvale-ca": {
     "county": "Santa Clara",
     "final_npl_site_count": 21,
-    "score": 100.0
+    "concern": 100.0
   },
   "sunrise-fl": {
     "county": "Broward",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "surprise-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "syracuse-ny": {
     "county": "Onondaga",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "tacoma-wa": {
     "county": "Pierce",
     "final_npl_site_count": 6,
-    "score": 75.0
+    "concern": 75.0
   },
   "tallahassee-fl": {
     "county": "Leon",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "tampa-fl": {
     "county": "Hillsborough",
     "final_npl_site_count": 12,
-    "score": 100.0
+    "concern": 100.0
   },
   "taos-nm": {
     "county": "Taos",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "temecula-ca": {
     "county": "Riverside",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "tempe-az": {
     "county": "Maricopa",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "temple-tx": {
     "county": "Bell",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "thornton-co": {
     "county": "Adams",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "thousand-oaks-ca": {
     "county": "Ventura",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "toledo-oh": {
     "county": "Lucas",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "topeka-ks": {
     "county": "Shawnee",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "torrance-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "tracy-ca": {
     "county": "San Joaquin",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "trenton-nj": {
     "county": "Mercer",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "troy-mi": {
     "county": "Oakland",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "tucson-az": {
     "county": "Pima",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "tulsa-ok": {
     "county": "Tulsa",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "tuscaloosa-al": {
     "county": "Tuscaloosa",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "tustin-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "tyler-tx": {
     "county": "Smith",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "upland-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "vacaville-ca": {
     "county": "Solano",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "vallejo-ca": {
     "county": "Solano",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "vancouver-wa": {
     "county": "Clark",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "ventura-ca": {
     "county": "Ventura",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "victorville-ca": {
     "county": "San Bernardino",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "virginia-beach-va": {
     "county": "Virginia Beach",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "visalia-ca": {
     "county": "Tulare",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "vista-ca": {
     "county": "San Diego",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "waco-tx": {
     "county": "McLennan",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "warner-robins-ga": {
     "county": "Houston",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "warren-mi": {
     "county": "Macomb",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "warwick-ri": {
     "county": "Kent",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "washington-dc": {
     "county": "District of Columbia",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "waterbury-ct": {
     "county": "Naugatuck Valley",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "waukegan-il": {
     "county": "Lake",
     "final_npl_site_count": 5,
-    "score": 62.5
+    "concern": 62.5
   },
   "west-covina-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "west-jordan-ut": {
     "county": "Salt Lake",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "west-palm-beach-fl": {
     "county": "Palm Beach",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "west-valley-city-ut": {
     "county": "Salt Lake",
     "final_npl_site_count": 4,
-    "score": 50.0
+    "concern": 50.0
   },
   "westland-mi": {
     "county": "Wayne",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "westminster-ca": {
     "county": "Orange",
     "final_npl_site_count": 3,
-    "score": 37.5
+    "concern": 37.5
   },
   "westminster-co": {
     "county": "Jefferson",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "whitewright-tx": {
     "county": "Grayson",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "whittier-ca": {
     "county": "Los Angeles",
     "final_npl_site_count": 17,
-    "score": 100.0
+    "concern": 100.0
   },
   "wichita-falls-tx": {
     "county": "Wichita",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "wichita-ks": {
     "county": "Sedgwick",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "wilmington-nc": {
     "county": "New Hanover",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "winston-salem-nc": {
     "county": "Forsyth",
     "final_npl_site_count": 0,
-    "score": 0.0
+    "concern": 0.0
   },
   "woodbury-mn": {
     "county": "Washington",
     "final_npl_site_count": 2,
-    "score": 25.0
+    "concern": 25.0
   },
   "worcester-ma": {
     "county": "Worcester",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "wyoming-mi": {
     "county": "Kent",
     "final_npl_site_count": 8,
-    "score": 100.0
+    "concern": 100.0
   },
   "yakima-wa": {
     "county": "Yakima",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "yonkers-ny": {
     "county": "Westchester",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   },
   "yuma-az": {
     "county": "Yuma",
     "final_npl_site_count": 1,
-    "score": 12.5
+    "concern": 12.5
   }
 }

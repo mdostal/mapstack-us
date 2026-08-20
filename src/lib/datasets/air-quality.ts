@@ -35,7 +35,7 @@ interface AirQualityYear {
   median_aqi: number;
   days_with_aqi: number | null;
   suppressed: boolean;
-  score: number;
+  concern: number;
 }
 
 interface AirQualityRecord {
@@ -63,7 +63,7 @@ function getAirQualityValue(cityId: string, layerId: string, context?: DatasetTi
 
   const suppressedNote = yearData.suppressed ? " -- suppressed -- showing state average" : "";
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `90th percentile AQI ${yearData.p90_aqi} (median ${yearData.median_aqi}) in ${record.county} County, ${record.state} (${year})${suppressedNote} -- EPA AQS annual county summary`,
   };
 }

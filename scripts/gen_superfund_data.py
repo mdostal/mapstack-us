@@ -98,7 +98,7 @@ def main():
         records[cid] = {
             "final_npl_site_count": count,
             "county": fips_info["county_name"],
-            "score": score,
+            "concern": score,
         }
 
     covered = len(records)

@@ -36,7 +36,7 @@ import { methodologyDocUrl } from "@/lib/dataset-sources";
  */
 interface SevereWeatherYear {
   event_count: number;
-  score: number;
+  concern: number;
   months_covered: number;
 }
 
@@ -71,7 +71,7 @@ function getSevereWeatherValue(cityId: string, layerId: string, context?: Datase
   // === 12, so this note only ever appears on the current in-progress year.
   const partialNote = yearData.months_covered < 12 ? ` -- real data through month ${yearData.months_covered} of ${year} only, not a complete year` : "";
   return {
-    value: yearData.score,
+    value: yearData.concern,
     detail: `${yearData.event_count} severe weather ${eventWord} in ${record.county} County (${year}) -- NOAA Storm Events Database${partialNote}`,
   };
 }

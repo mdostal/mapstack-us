@@ -237,7 +237,7 @@ def main():
         years_data = {}
         for year in YEARS:
             count = counts_by_year_city[year][city["id"]]
-            years_data[str(year)] = {"facility_count": count, "score": round(min(100.0, (count / COUNT_CAP) * 100.0), 1)}
+            years_data[str(year)] = {"facility_count": count, "concern": round(min(100.0, (count / COUNT_CAP) * 100.0), 1)}
         records[city["id"]] = {"years": years_data}
 
     records["_meta"] = {

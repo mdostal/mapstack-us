@@ -168,7 +168,7 @@ def main():
 
         concern = percentile_ranks_inverted({cid: r["visits_per_capita"] for cid, r in year_records.items()})
         for cid in year_records:
-            year_records[cid]["score"] = concern[cid]
+            year_records[cid]["concern"] = concern[cid]
 
         per_year_records[year] = year_records
         print(f"{year}: {len(systems)} real library systems, {len(year_records)}/{len(cities)} cities matched", file=sys.stderr)
